@@ -1,0 +1,327 @@
+{
+"batch": "check_A_57",
+"pass": "A",
+"source_batch": "gen_57",
+"items": [
+{
+"n": 1222,
+"id": "pmid:32499657",
+"year": 2020,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Mobile genetic elements threaten genome integrity in all organisms. RDE-3 (also known as MUT-2) is a ribonucleotidyltransferase that is required for transposon silencing and RNA interference in Caenorhabditis elegans 1-4 . When tethered to RNAs in heterologous expression systems, RDE-3 can add long stretches of alternating non-templated uridine (U) and guanosine (G) ribonucleotides to the 3' termini of these RNAs (designated poly(UG) or pUG tails) 5 . Here we show that, in its natural context in C. elegans, RDE-3 adds pUG tails to targets of RNA interference, as well as to transposon RNAs. RNA fragments attached to pUG tails with more than 16 perfectly alternating 3' U and G nucleotides become gene-silencing agents. pUG tails promote gene silencing by recruiting RNA-dependent RNA polymerases, which use pUG-tailed RNAs (pUG RNAs) as templates to synthesize small interfering RNAs (siRNAs). Our results show that cycles of pUG RNA-templated siRNA synthesis and siRNA-directed pUG RNA biogenesis underlie double-stranded-RNA-directed transgenerational epigenetic inheritance in the C. elegans germline. We speculate that this pUG RNA-siRNA silencing loop enables parents to inoculate progeny against the expression of unwanted or parasitic genetic elements."
+}
+],
+"text": "Mobile genetic elements threaten genome integrity in all organisms. RDE-3 (also known as MUT-2) is a ribonucleotidyltransferase that is required for transposon silencing and RNA interference in Caenorhabditis elegans 1-4 . When tethered to RNAs in heterologous expression systems, RDE-3 can add long stretches of alternating non-templated uridine (U) and guanosine (G) ribonucleotides to the 3' termini of these RNAs (designated poly(UG) or pUG tails) 5 . Here we show that, in its natural context in C. elegans, RDE-3 adds pUG tails to targets of RNA interference, as well as to transposon RNAs. RNA fragments attached to pUG tails with more than 16 perfectly alternating 3' U and G nucleotides become gene-silencing agents. pUG tails promote gene silencing by recruiting RNA-dependent RNA polymerases, which use pUG-tailed RNAs (pUG RNAs) as templates to synthesize small interfering RNAs (siRNAs). Our results show that cycles of pUG RNA-templated siRNA synthesis and siRNA-directed pUG RNA biogenesis underlie double-stranded-RNA-directed transgenerational epigenetic inheritance in the C. elegans germline. We speculate that this pUG RNA-siRNA silencing loop enables parents to inoculate progeny against the expression of unwanted or parasitic genetic elements.",
+"statements": [
+{
+"j": 1,
+"text": "In C. elegans, a pUG tail suppresses gene silencing by recruiting RNA-dependent RNA polymerases that copy pUG RNAs into small interfering RNAs."
+},
+{
+"j": 2,
+"text": "Human homologs of RDE-3 also attach pUG tails to transposon RNAs to silence them."
+},
+{
+"j": 3,
+"text": "In living C. elegans, RDE-3 attaches pUG tails to RNA interference targets and to transposon RNAs."
+},
+{
+"j": 4,
+"text": "An RNA fragment becomes a gene-silencing agent when its attached pUG tail has over 16 perfectly alternating U and G nucleotides."
+}
+]
+},
+{
+"n": 1223,
+"id": "pmid:31835033",
+"year": 2019,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Spermiogenesis is a highly orchestrated developmental process during which chromatin condensation decouples transcription from translation. Spermiogenic mRNAs are transcribed earlier and stored in a translationally inert state until needed for translation; however, it remains largely unclear how such repressed mRNAs become activated during spermiogenesis. We previously reported that the MIWI/piRNA machinery is responsible for mRNA elimination during late spermiogenesis in preparation for spermatozoa production. Here we unexpectedly discover that the same machinery is also responsible for activating translation of a subset of spermiogenic mRNAs to coordinate with morphological transformation into spermatozoa. Such action requires specific base-pairing interactions of piRNAs with target mRNAs in their 3' UTRs, which activates translation through coupling with cis-acting AU-rich elements to nucleate the formation of a MIWI/piRNA/eIF3f/HuR super-complex in a developmental stage-specific manner. These findings reveal a critical role of the piRNA system in translation activation, which we show is functionally required for spermatid development."
+}
+],
+"text": "Spermiogenesis is a highly orchestrated developmental process during which chromatin condensation decouples transcription from translation. Spermiogenic mRNAs are transcribed earlier and stored in a translationally inert state until needed for translation; however, it remains largely unclear how such repressed mRNAs become activated during spermiogenesis. We previously reported that the MIWI/piRNA machinery is responsible for mRNA elimination during late spermiogenesis in preparation for spermatozoa production. Here we unexpectedly discover that the same machinery is also responsible for activating translation of a subset of spermiogenic mRNAs to coordinate with morphological transformation into spermatozoa. Such action requires specific base-pairing interactions of piRNAs with target mRNAs in their 3' UTRs, which activates translation through coupling with cis-acting AU-rich elements to nucleate the formation of a MIWI/piRNA/eIF3f/HuR super-complex in a developmental stage-specific manner. These findings reveal a critical role of the piRNA system in translation activation, which we show is functionally required for spermatid development.",
+"statements": [
+{
+"j": 1,
+"text": "For translation to be switched on, piRNAs must base-pair with target mRNA 3' UTRs and couple with AU-rich elements to assemble a MIWI/piRNA/eIF3f/HuR super-complex."
+},
+{
+"j": 2,
+"text": "During the transformation into spermatozoa, the MIWI/piRNA machinery represses translation of selected spermiogenic mRNAs."
+},
+{
+"j": 3,
+"text": "The piRNA-dependent activation of translation seen in spermatids also operates in developing oocytes."
+},
+{
+"j": 4,
+"text": "The study found that spermatid development depends on the piRNA system's ability to switch on translation."
+}
+]
+},
+{
+"n": 1224,
+"id": "pmid:27003935",
+"year": 2016,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "KRAB-containing zinc finger proteins (KRAB-ZFPs) are early embryonic controllers of transposable elements (TEs), which they repress with their cofactor KAP1 through histone and DNA methylation, a process thought to result in irreversible silencing. Using a target-centered functional screen, we matched murine TEs with their cognate KRAB-ZFP. We found the paralogs ZFP932 and Gm15446 to bind overlapping but distinguishable subsets of ERVK (endogenous retrovirus K), repress these elements in embryonic stem cells, and regulate secondarily the expression of neighboring genes. Most importantly, we uncovered that these KRAB-ZFPs and KAP1 control TEs in adult tissues, in cell culture and in vivo, where they partner up to modulate cellular genes. Therefore, TEs and KRAB-ZFPs establish transcriptional networks that likely regulate not only development but also many physiological events. Given the high degree of species specificity of TEs and KRAB-ZFPs, these results have important implications for understanding the biology of higher vertebrates, including humans."
+}
+],
+"text": "KRAB-containing zinc finger proteins (KRAB-ZFPs) are early embryonic controllers of transposable elements (TEs), which they repress with their cofactor KAP1 through histone and DNA methylation, a process thought to result in irreversible silencing. Using a target-centered functional screen, we matched murine TEs with their cognate KRAB-ZFP. We found the paralogs ZFP932 and Gm15446 to bind overlapping but distinguishable subsets of ERVK (endogenous retrovirus K), repress these elements in embryonic stem cells, and regulate secondarily the expression of neighboring genes. Most importantly, we uncovered that these KRAB-ZFPs and KAP1 control TEs in adult tissues, in cell culture and in vivo, where they partner up to modulate cellular genes. Therefore, TEs and KRAB-ZFPs establish transcriptional networks that likely regulate not only development but also many physiological events. Given the high degree of species specificity of TEs and KRAB-ZFPs, these results have important implications for understanding the biology of higher vertebrates, including humans.",
+"statements": [
+{
+"j": 1,
+"text": "A target-centred functional screen paired murine transposable elements with the KRAB-ZFPs that specifically recognise them."
+},
+{
+"j": 2,
+"text": "In embryonic stem cells, the paralogs ZFP932 and Gm15446 bind partly overlapping sets of ERVK elements and keep them activated."
+},
+{
+"j": 3,
+"text": "Beyond early embryogenesis, these KRAB-ZFPs and KAP1 also control transposable elements in adult tissues, both in cell culture and in vivo."
+},
+{
+"j": 4,
+"text": "ZFP932 and Gm15446 can bind their ERVK targets only when KAP1 is present."
+}
+]
+},
+{
+"n": 1225,
+"id": "pmid:28335016",
+"year": 2017,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "tRNA-derived RNA fragments (tRFs) are 18-26 nucleotide small RNAs that are not random degradation products, but are rather specifically cleaved from mature tRNA transcripts. Abundant in stressed or viral-infected cells, the function and potential targets of tRFs are not known. We identified that in the unstressed wild-type male gamete containing pollen of flowering plants, and analogous reproductive structure in non-flowering plant species, tRFs accumulate to high levels. In the reference plant Arabidopsis thaliana, tRFs are processed by Dicer-like 1 and incorporated into Argonaute1 (AGO1), akin to a microRNA. We utilized the fact that many plant small RNAs direct cleavage of their target transcripts to demonstrate that the tRF-AGO1 complex acts to specifically target and cleave endogenous transposable element (TE) mRNAs produced from transcriptionally active TEs. The data presented here demonstrate that tRFs are bona-fide regulatory microRNA-like small RNAs involved in the regulation of genome stability through the targeting of TE transcripts."
+}
+],
+"text": "tRNA-derived RNA fragments (tRFs) are 18-26 nucleotide small RNAs that are not random degradation products, but are rather specifically cleaved from mature tRNA transcripts. Abundant in stressed or viral-infected cells, the function and potential targets of tRFs are not known. We identified that in the unstressed wild-type male gamete containing pollen of flowering plants, and analogous reproductive structure in non-flowering plant species, tRFs accumulate to high levels. In the reference plant Arabidopsis thaliana, tRFs are processed by Dicer-like 1 and incorporated into Argonaute1 (AGO1), akin to a microRNA. We utilized the fact that many plant small RNAs direct cleavage of their target transcripts to demonstrate that the tRF-AGO1 complex acts to specifically target and cleave endogenous transposable element (TE) mRNAs produced from transcriptionally active TEs. The data presented here demonstrate that tRFs are bona-fide regulatory microRNA-like small RNAs involved in the regulation of genome stability through the targeting of TE transcripts.",
+"statements": [
+{
+"j": 1,
+"text": "Once loaded into AGO1, tRFs specifically guide cleavage of mRNAs made by transcriptionally active endogenous transposable elements."
+},
+{
+"j": 2,
+"text": "tRFs are small RNAs of 18 to 26 nucleotides cut specifically from mature tRNAs instead of arising as random degradation products."
+},
+{
+"j": 3,
+"text": "After fertilization, pollen-derived tRFs are delivered to the zygote, where they keep silencing transposable elements."
+},
+{
+"j": 4,
+"text": "tRFs are scarce in the pollen of unstressed wild-type flowering plants and in comparable reproductive structures of non-flowering plants."
+}
+]
+},
+{
+"n": 1226,
+"id": "pmid:27720646",
+"year": 2016,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "To identify endogenous miRNA-target sites, we isolated AGO-bound RNAs from Caenorhabditis elegans by individual-nucleotide resolution crosslinking immunoprecipitation (iCLIP), which fortuitously also produced miRNA-target chimeric reads. Through the analysis of thousands of reproducible chimeras, pairing to the miRNA seed emerged as the predominant motif associated with functional interactions. Unexpectedly, we discovered that additional pairing to 3' sequences is prevalent in the majority of target sites and leads to specific targeting by members of miRNA families. By editing an endogenous target site, we demonstrate that 3' pairing determines targeting by specific miRNA family members and that seed pairing is not always sufficient for functional target interactions. Finally, we present a simplified method, chimera PCR (ChimP), for the detection of specific miRNA-target interactions. Overall, our analysis revealed that sequences in the 5' as well as the 3' regions of a miRNA provide the information necessary for stable and specific miRNA-target interactions in vivo."
+}
+],
+"text": "To identify endogenous miRNA-target sites, we isolated AGO-bound RNAs from Caenorhabditis elegans by individual-nucleotide resolution crosslinking immunoprecipitation (iCLIP), which fortuitously also produced miRNA-target chimeric reads. Through the analysis of thousands of reproducible chimeras, pairing to the miRNA seed emerged as the predominant motif associated with functional interactions. Unexpectedly, we discovered that additional pairing to 3' sequences is prevalent in the majority of target sites and leads to specific targeting by members of miRNA families. By editing an endogenous target site, we demonstrate that 3' pairing determines targeting by specific miRNA family members and that seed pairing is not always sufficient for functional target interactions. Finally, we present a simplified method, chimera PCR (ChimP), for the detection of specific miRNA-target interactions. Overall, our analysis revealed that sequences in the 5' as well as the 3' regions of a miRNA provide the information necessary for stable and specific miRNA-target interactions in vivo.",
+"statements": [
+{
+"j": 1,
+"text": "Few miRNA target sites pair with 3' sequences of the miRNA in addition to the seed."
+},
+{
+"j": 2,
+"text": "Chimera PCR (ChimP) detects specific miRNA–target interactions with higher sensitivity than iCLIP."
+},
+{
+"j": 3,
+"text": "Editing an endogenous target site showed that 3' pairing dictates which miRNA family member acts on it and that seed pairing alone is not always enough."
+},
+{
+"j": 4,
+"text": "Across thousands of reproducible chimeras, pairing to the miRNA seed was the main motif linked to functional interactions."
+}
+]
+},
+{
+"n": 1227,
+"id": "pmid:29483647",
+"year": 2018,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "microRNAs (miRNAs) repress target transcripts through partial complementarity. By contrast, highly complementary miRNA-binding sites within viral and artificially engineered transcripts induce miRNA degradation in vitro and in cell lines. Here, we show that a genome-encoded transcript harboring a near-perfect and deeply conserved miRNA-binding site for miR-29 controls zebrafish and mouse behavior. This transcript originated in basal vertebrates as a long noncoding RNA (lncRNA) and evolved to the protein-coding gene NREP in mammals, where the miR-29-binding site is located within the 3' UTR. We show that the near-perfect miRNA site selectively triggers miR-29b destabilization through 3' trimming and restricts its spatial expression in the cerebellum. Genetic disruption of the miR-29 site within mouse Nrep results in ectopic expression of cerebellar miR-29b and impaired coordination and motor learning. Thus, we demonstrate an endogenous target-RNA-directed miRNA degradation event and its requirement for animal behavior."
+}
+],
+"text": "microRNAs (miRNAs) repress target transcripts through partial complementarity. By contrast, highly complementary miRNA-binding sites within viral and artificially engineered transcripts induce miRNA degradation in vitro and in cell lines. Here, we show that a genome-encoded transcript harboring a near-perfect and deeply conserved miRNA-binding site for miR-29 controls zebrafish and mouse behavior. This transcript originated in basal vertebrates as a long noncoding RNA (lncRNA) and evolved to the protein-coding gene NREP in mammals, where the miR-29-binding site is located within the 3' UTR. We show that the near-perfect miRNA site selectively triggers miR-29b destabilization through 3' trimming and restricts its spatial expression in the cerebellum. Genetic disruption of the miR-29 site within mouse Nrep results in ectopic expression of cerebellar miR-29b and impaired coordination and motor learning. Thus, we demonstrate an endogenous target-RNA-directed miRNA degradation event and its requirement for animal behavior.",
+"statements": [
+{
+"j": 1,
+"text": "Mice with a disrupted miR-29 site in Nrep showed ectopic miR-29b expression in the cerebellum and improved coordination and motor learning."
+},
+{
+"j": 2,
+"text": "People carrying mutations in the miR-29 site of NREP have impaired motor coordination."
+},
+{
+"j": 3,
+"text": "Through 3' trimming, the near-perfect miR-29 binding site selectively destabilises miR-29b and confines its spatial expression in the cerebellum."
+},
+{
+"j": 4,
+"text": "The transcript carrying the miR-29 site arose in basal vertebrates as a lncRNA and became the protein-coding gene NREP in mammals, with the site in its 3' UTR."
+}
+]
+},
+{
+"n": 1228,
+"id": "pmid:31350118",
+"year": 2019,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Argonaute-bound microRNAs silence mRNA expression in a dynamic and regulated manner to control organismal development, physiology, and disease. We employed metabolic small RNA sequencing for a comprehensive view on intracellular microRNA kinetics in Drosophila. Based on absolute rate of biogenesis and decay, microRNAs rank among the fastest produced and longest-lived cellular transcripts, disposing up to 10 5 copies per cell at steady-state. Mature microRNAs are produced within minutes, revealing tight intracellular coupling of biogenesis that is selectively disrupted by pre-miRNA-uridylation. Control over Argonaute protein homeostasis generates a kinetic bottleneck that cooperates with non-coding RNA surveillance to ensure faithful microRNA loading. Finally, regulated small RNA decay enables the selective rapid turnover of Ago1-bound microRNAs, but not of Ago2-bound small interfering RNAs (siRNAs), reflecting key differences in the robustness of small RNA silencing pathways. Time-resolved small RNA sequencing opens new experimental avenues to deconvolute the timescales, molecular features, and regulation of small RNA silencing pathways in living cells."
+}
+],
+"text": "Argonaute-bound microRNAs silence mRNA expression in a dynamic and regulated manner to control organismal development, physiology, and disease. We employed metabolic small RNA sequencing for a comprehensive view on intracellular microRNA kinetics in Drosophila. Based on absolute rate of biogenesis and decay, microRNAs rank among the fastest produced and longest-lived cellular transcripts, disposing up to 10 5 copies per cell at steady-state. Mature microRNAs are produced within minutes, revealing tight intracellular coupling of biogenesis that is selectively disrupted by pre-miRNA-uridylation. Control over Argonaute protein homeostasis generates a kinetic bottleneck that cooperates with non-coding RNA surveillance to ensure faithful microRNA loading. Finally, regulated small RNA decay enables the selective rapid turnover of Ago1-bound microRNAs, but not of Ago2-bound small interfering RNAs (siRNAs), reflecting key differences in the robustness of small RNA silencing pathways. Time-resolved small RNA sequencing opens new experimental avenues to deconvolute the timescales, molecular features, and regulation of small RNA silencing pathways in living cells.",
+"statements": [
+{
+"j": 1,
+"text": "Mature microRNAs are generated within minutes, reflecting tightly coupled biogenesis that uridylation of pre-miRNAs selectively disrupts."
+},
+{
+"j": 2,
+"text": "MicroRNAs in mammalian cells are produced as quickly and persist as long as those measured in Drosophila."
+},
+{
+"j": 3,
+"text": "Regulated small RNA decay turns over Ago1-bound microRNAs slower than Ago2-bound small interfering RNAs."
+},
+{
+"j": 4,
+"text": "In Drosophila cells, microRNAs are among the quickest-made and longest-lived transcripts, reaching up to 10^5 copies per cell at steady state."
+}
+]
+},
+{
+"n": 1229,
+"id": "pmid:31178117",
+"year": 2019,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The ability to inherit learned information from parents could be evolutionarily beneficial, enabling progeny to better survive dangerous conditions. We discovered that, after C. elegans have learned to avoid the pathogenic bacteria Pseudomonas aeruginosa (PA14), they pass this learned behavior on to their progeny, through either the male or female germline, persisting through the fourth generation. Expression of the TGF-β ligand DAF-7 in the ASI sensory neurons correlates with and is required for this transgenerational avoidance behavior. Additionally, the Piwi Argonaute homolog PRG-1 and its downstream molecular components are required for transgenerational inheritance of both avoidance behavior and ASI daf-7 expression. Animals whose parents have learned to avoid PA14 display a PA14 avoidance-based survival advantage that is also prg-1 dependent, suggesting an adaptive response. Transgenerational epigenetic inheritance of pathogenic learning may optimize progeny decisions to increase survival in fluctuating environmental conditions."
+}
+],
+"text": "The ability to inherit learned information from parents could be evolutionarily beneficial, enabling progeny to better survive dangerous conditions. We discovered that, after C. elegans have learned to avoid the pathogenic bacteria Pseudomonas aeruginosa (PA14), they pass this learned behavior on to their progeny, through either the male or female germline, persisting through the fourth generation. Expression of the TGF-β ligand DAF-7 in the ASI sensory neurons correlates with and is required for this transgenerational avoidance behavior. Additionally, the Piwi Argonaute homolog PRG-1 and its downstream molecular components are required for transgenerational inheritance of both avoidance behavior and ASI daf-7 expression. Animals whose parents have learned to avoid PA14 display a PA14 avoidance-based survival advantage that is also prg-1 dependent, suggesting an adaptive response. Transgenerational epigenetic inheritance of pathogenic learning may optimize progeny decisions to increase survival in fluctuating environmental conditions.",
+"statements": [
+{
+"j": 1,
+"text": "Either the male or the female germline can pass learned PA14 avoidance to C. elegans progeny, and the behaviour persists into the fourth generation."
+},
+{
+"j": 2,
+"text": "Expression of the TGF-β ligand DAF-7 in ASI sensory neurons tracks with the inherited avoidance behaviour and is needed for it."
+},
+{
+"j": 3,
+"text": "Learned avoidance of other pathogenic bacteria, such as Serratia marcescens, is likewise inherited by C. elegans progeny."
+},
+{
+"j": 4,
+"text": "Progeny of parents that learned to avoid PA14 had lower survival owing to PA14 avoidance, and this effect depended on prg-1."
+}
+]
+},
+{
+"n": 1230,
+"id": "pmid:32908307",
+"year": 2020,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Caenorhabditis elegans must distinguish pathogens from nutritious food sources among the many bacteria to which it is exposed in its environment 1 . Here we show that a single exposure to purified small RNAs isolated from pathogenic Pseudomonas aeruginosa (PA14) is sufficient to induce pathogen avoidance in the treated worms and in four subsequent generations of progeny. The RNA interference (RNAi) and PIWI-interacting RNA (piRNA) pathways, the germline and the ASI neuron are all required for avoidance behaviour induced by bacterial small RNAs, and for the transgenerational inheritance of this behaviour. A single P. aeruginosa non-coding RNA, P11, is both necessary and sufficient to convey learned avoidance of PA14, and its C. elegans target, maco-1, is required for avoidance. Our results suggest that this non-coding-RNA-dependent mechanism evolved to survey the microbial environment of the worm, use this information to make appropriate behavioural decisions and pass this information on to its progeny."
+}
+],
+"text": "Caenorhabditis elegans must distinguish pathogens from nutritious food sources among the many bacteria to which it is exposed in its environment 1 . Here we show that a single exposure to purified small RNAs isolated from pathogenic Pseudomonas aeruginosa (PA14) is sufficient to induce pathogen avoidance in the treated worms and in four subsequent generations of progeny. The RNA interference (RNAi) and PIWI-interacting RNA (piRNA) pathways, the germline and the ASI neuron are all required for avoidance behaviour induced by bacterial small RNAs, and for the transgenerational inheritance of this behaviour. A single P. aeruginosa non-coding RNA, P11, is both necessary and sufficient to convey learned avoidance of PA14, and its C. elegans target, maco-1, is required for avoidance. Our results suggest that this non-coding-RNA-dependent mechanism evolved to survey the microbial environment of the worm, use this information to make appropriate behavioural decisions and pass this information on to its progeny.",
+"statements": [
+{
+"j": 1,
+"text": "P11, a single non-coding RNA of P. aeruginosa, is required and sufficient for learned PA14 avoidance, which also needs the worm gene it targets, maco-1."
+},
+{
+"j": 2,
+"text": "Avoidance triggered by bacterial small RNAs, and its inheritance across generations, needs the RNAi and piRNA pathways, the germline and the ASI neuron."
+},
+{
+"j": 3,
+"text": "P11 RNA travels from the worm's intestine to the ASI neuron to trigger avoidance of PA14."
+},
+{
+"j": 4,
+"text": "One exposure to purified PA14 small RNAs was enough to decrease pathogen avoidance in treated worms and in the next four generations of their progeny."
+}
+]
+},
+{
+"n": 1231,
+"id": "pmid:31178120",
+"year": 2019,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "It is unknown whether the activity of the nervous system can be inherited. In Caenorhabditis elegans nematodes, parental responses can transmit heritable small RNAs that regulate gene expression transgenerationally. In this study, we show that a neuronal process can impact the next generations. Neurons-specific synthesis of RDE-4-dependent small RNAs regulates germline amplified endogenous small interfering RNAs (siRNAs) and germline gene expression for multiple generations. Further, the production of small RNAs in neurons controls the chemotaxis behavior of the progeny for at least three generations via the germline Argonaute HRDE-1. Among the targets of these small RNAs, we identified the conserved gene saeg-2, which is transgenerationally downregulated in the germline. Silencing of saeg-2 following neuronal small RNA biogenesis is required for chemotaxis under stress. Thus, we propose a small-RNA-based mechanism for communication of neuronal processes transgenerationally."
+}
+],
+"text": "It is unknown whether the activity of the nervous system can be inherited. In Caenorhabditis elegans nematodes, parental responses can transmit heritable small RNAs that regulate gene expression transgenerationally. In this study, we show that a neuronal process can impact the next generations. Neurons-specific synthesis of RDE-4-dependent small RNAs regulates germline amplified endogenous small interfering RNAs (siRNAs) and germline gene expression for multiple generations. Further, the production of small RNAs in neurons controls the chemotaxis behavior of the progeny for at least three generations via the germline Argonaute HRDE-1. Among the targets of these small RNAs, we identified the conserved gene saeg-2, which is transgenerationally downregulated in the germline. Silencing of saeg-2 following neuronal small RNA biogenesis is required for chemotaxis under stress. Thus, we propose a small-RNA-based mechanism for communication of neuronal processes transgenerationally.",
+"statements": [
+{
+"j": 1,
+"text": "The gene saeg-2, a target of neuronal small RNAs, is upregulated in the germline across generations."
+},
+{
+"j": 2,
+"text": "Via the germline Argonaute HRDE-1, small RNAs produced in neurons control the chemotaxis behaviour of progeny for no less than three generations."
+},
+{
+"j": 3,
+"text": "Small RNAs made in neurons reach the germline packaged inside extracellular vesicles."
+},
+{
+"j": 4,
+"text": "Small RNAs synthesised only in neurons, in an RDE-4-dependent way, regulate amplified endogenous siRNAs and gene expression in the germline over several generations."
+}
+]
+}
+]
+}

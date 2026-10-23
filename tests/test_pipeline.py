@@ -31,6 +31,7 @@ validate = load("validate")
 make_batches = load("make_batches")
 merge = load("merge_checks")
 build_site = load("build_site")
+journals = load("journals")
 
 
 def epmc_record(pmid="1", doi="10.1/x", abstract=None, source="MED", publisher=None, year="2025", title="A title.", pubtypes=("Journal Article",)):
@@ -86,6 +87,41 @@ class FetchNormalise(unittest.TestCase):
             self.assertIn(part, q)
         q2 = fetch.build_query("cancergen", "preprint", "2023-01-01", "2026-10-23")
         self.assertIn("SRC:PPR", q2); self.assertNotIn("PUB_TYPE", q2); self.assertIn("ABSTRACT:cancer", q2)
+
+    def test_d23_query_excludes_and_maps_field_and_journal_list(self):
+        """D23: rnadev/evodevo carry an exclude clause; rnadev records are tagged field=smallrna with query_field=rnadev; the
+        leading-journal list is an exact post-filter on the title Europe PMC returns."""
+        q = fetch.build_query("rnadev", "journal", "2016-01-01", "2026-10-23", journals.QUERY_TOKENS)
+        self.assertIn(" NOT (ABSTRACT:cancer", q); self.assertIn('JOURNAL:"Nat Commun"', q); self.assertIn("ABSTRACT:piRNA*", q)
+        rec = epmc_record(pmid="77"); rec["journalInfo"] = {"journal": {"title": "Development (Cambridge, England)"}}
+        c = fetch.normalise(rec, "rnadev", "journal")
+        self.assertEqual((c["field"], c["query_field"]), ("smallrna", "rnadev"))
+        self.assertIsNone(fetch.keep(c, set(), set(), journals.is_leading))
+        rec2 = epmc_record(pmid="78"); rec2["journalInfo"] = {"journal": {"title": "Developmental biology"}}
+        self.assertEqual(fetch.keep(fetch.normalise(rec2, "evodevo", "journal"), set(), set(), journals.is_leading), "journal_not_listed")
+        self.assertEqual(fetch.normalise(rec2, "evodevo", "journal")["field"], "evodevo")
+
+
+class LeadingJournals(unittest.TestCase):
+    def test_canonical_forms_and_display(self):
+        for t in ("Science (New York, N.Y.)", "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+                  "Evolution; international journal of organic evolution", "Genes & development", "The Lancet. Oncology", "Nat Commun", "eLife",
+                  "Proceedings of the National Academy of Sciences of the United States of America"):
+            self.assertTrue(journals.is_leading(t), t)
+        for t in ("Scientific reports", "PloS one", "International journal of molecular sciences", "Frontiers in genetics", "bioRxiv", "", None):
+            self.assertFalse(journals.is_leading(t), t)
+        self.assertEqual(journals.display("Science (New York, N.Y.)"), "Science")
+        self.assertEqual(journals.display("Nature communications"), "Nature Communications")
+        self.assertEqual(journals.display("Plants (Basel, Switzerland)"), "Plants")
+        self.assertEqual(journals.display("Clinical cancer research : an official journal of the American Association for Cancer Research"), "Clinical Cancer Research")
+        names = [d for d, _ in journals.LEADING]
+        self.assertEqual(len(names), len(set(names)))
+
+    def test_public_item_carries_tier(self):
+        it = {"n": 1, "id": "pmid:1", "field": "te", "source": "journal", "journal": "Nature genetics", "statements": []}
+        self.assertEqual(build_site.public(it)["tier"], "leading"); self.assertEqual(build_site.public(it)["journal"], "Nature Genetics")
+        it2 = dict(it, journal="BMC genomics"); self.assertIsNone(build_site.public(it2)["tier"])
+        it3 = dict(it, source="preprint", journal="bioRxiv"); self.assertIsNone(build_site.public(it3)["tier"])
 
 
 def cand(n, field, source, year, title=None):

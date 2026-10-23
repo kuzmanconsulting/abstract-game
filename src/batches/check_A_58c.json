@@ -1,0 +1,71 @@
+{
+"batch": "check_A_58c",
+"pass": "A",
+"source_batch": "gen_58c",
+"items": [
+{
+"n": 1240,
+"id": "pmid:29129531",
+"year": 2017,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The Aedes aegypti mosquito transmits arboviruses, including dengue, chikungunya, and Zika virus. Understanding the mechanisms underlying mosquito immunity could provide new tools to control arbovirus spread. Insects exploit two different RNAi pathways to combat viral and transposon infection: short interfering RNAs (siRNAs) and PIWI-interacting RNAs (piRNAs) [1, 2]. Endogenous viral elements (EVEs) are sequences from non-retroviral viruses that are inserted into the mosquito genome and can act as templates for the production of piRNAs [3, 4]. EVEs therefore represent a record of past infections and a reservoir of potential immune memory [5]. The large-scale organization of EVEs has been difficult to resolve with short-read sequencing because they tend to integrate into repetitive regions of the genome. To define the diversity, organization, and function of EVEs, we took advantage of the contiguity associated with long-read sequencing to generate a high-quality assembly of the Ae. aegypti-derived Aag2 cell line genome, an important and widely used model system. We show EVEs are acquired through recombination with specific classes of long terminal repeat (LTR) retrotransposons and organize into large loci (>50 kbp) characterized by high LTR density. These EVE-containing loci have increased density of piRNAs compared to similar regions without EVEs. Furthermore, we detected EVE-derived piRNAs consistent with a targeted processing of persistently infecting virus genomes. We propose that comparisons of EVEs across mosquito populations may explain differences in vector competence, and further study of the structure and function of these elements in the genome of mosquitoes may lead to epidemiological interventions."
+}
+],
+"text": "The Aedes aegypti mosquito transmits arboviruses, including dengue, chikungunya, and Zika virus. Understanding the mechanisms underlying mosquito immunity could provide new tools to control arbovirus spread. Insects exploit two different RNAi pathways to combat viral and transposon infection: short interfering RNAs (siRNAs) and PIWI-interacting RNAs (piRNAs) [1, 2]. Endogenous viral elements (EVEs) are sequences from non-retroviral viruses that are inserted into the mosquito genome and can act as templates for the production of piRNAs [3, 4]. EVEs therefore represent a record of past infections and a reservoir of potential immune memory [5]. The large-scale organization of EVEs has been difficult to resolve with short-read sequencing because they tend to integrate into repetitive regions of the genome. To define the diversity, organization, and function of EVEs, we took advantage of the contiguity associated with long-read sequencing to generate a high-quality assembly of the Ae. aegypti-derived Aag2 cell line genome, an important and widely used model system. We show EVEs are acquired through recombination with specific classes of long terminal repeat (LTR) retrotransposons and organize into large loci (>50 kbp) characterized by high LTR density. These EVE-containing loci have increased density of piRNAs compared to similar regions without EVEs. Furthermore, we detected EVE-derived piRNAs consistent with a targeted processing of persistently infecting virus genomes. We propose that comparisons of EVEs across mosquito populations may explain differences in vector competence, and further study of the structure and function of these elements in the genome of mosquitoes may lead to epidemiological interventions.",
+"statements": [
+{
+"j": 1,
+"text": "EVEs in the Aag2 cell line genome group into large loci exceeding 50 kbp, and these loci are marked by a dense presence of LTR retrotransposons."
+},
+{
+"j": 2,
+"text": "The majority of EVEs in the Aag2 genome derive from flaviviruses such as dengue and Zika virus."
+},
+{
+"j": 3,
+"text": "Genomic loci containing EVEs showed a lower piRNA density than comparable regions lacking EVEs."
+},
+{
+"j": 4,
+"text": "The study detected piRNAs originating from EVEs, a pattern matching targeted processing of genomes from persistently infecting viruses."
+}
+]
+},
+{
+"n": 1241,
+"id": "pmid:30455455",
+"year": 2018,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "MicroRNAs (miRNAs) regulate many cellular events during brain development by interacting with hundreds of mRNA transcripts. However, miRNAs operate nonuniformly upon the transcriptional profile with an as yet unknown logic. Shortcomings in defining miRNA-mRNA networks include limited knowledge of in vivo miRNA targets and their abundance in single cells. By combining multiple complementary approaches, high-throughput sequencing of RNA isolated by cross-linking immunoprecipitation with an antibody to AGO2 (AGO2-HITS-CLIP), single-cell profiling and computational analyses using bipartite and coexpression networks, we show that miRNA-mRNA interactions operate as functional modules that often correspond to cell-type identities and undergo dynamic transitions during brain development. These networks are highly dynamic during development and over the course of evolution. One such interaction is between radial-glia-enriched ORC4 and miR-2115, a great-ape-specific miRNA, which appears to control radial glia proliferation rates during human brain development."
+}
+],
+"text": "MicroRNAs (miRNAs) regulate many cellular events during brain development by interacting with hundreds of mRNA transcripts. However, miRNAs operate nonuniformly upon the transcriptional profile with an as yet unknown logic. Shortcomings in defining miRNA-mRNA networks include limited knowledge of in vivo miRNA targets and their abundance in single cells. By combining multiple complementary approaches, high-throughput sequencing of RNA isolated by cross-linking immunoprecipitation with an antibody to AGO2 (AGO2-HITS-CLIP), single-cell profiling and computational analyses using bipartite and coexpression networks, we show that miRNA-mRNA interactions operate as functional modules that often correspond to cell-type identities and undergo dynamic transitions during brain development. These networks are highly dynamic during development and over the course of evolution. One such interaction is between radial-glia-enriched ORC4 and miR-2115, a great-ape-specific miRNA, which appears to control radial glia proliferation rates during human brain development.",
+"statements": [
+{
+"j": 1,
+"text": "The miRNA-mRNA networks changed substantially both across brain development and across evolutionary time."
+},
+{
+"j": 2,
+"text": "Using AGO2-HITS-CLIP, single-cell profiling and network analyses, the study found that miRNA-mRNA interactions form functional modules often matching cell-type identities."
+},
+{
+"j": 3,
+"text": "The study identified an interaction between miR-2115, a microRNA found only in great apes, and ORC4, a transcript depleted in radial glia."
+},
+{
+"j": 4,
+"text": "In the developing brain, miRNAs silence their mRNA targets chiefly by cleaving them rather than by blocking their translation."
+}
+]
+}
+]
+}

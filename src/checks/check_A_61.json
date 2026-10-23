@@ -1,0 +1,73 @@
+{"batch": "check_A_61", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+  {"n": 1262, "id": "pmid:30346517",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "These results led to an estimated rate of ∼12 de novo genes per million years in mouse."},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Most putative de novo genes discovered in these investigations are no longer included in recently updated mouse gene sets."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "I show that ∼60% of the remaining 381 putative de novo genes share homology with genes from other vertebrates, originated through gene duplication, and/or share no synteny information with nonrodent mammals."},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Nearly half of the de novo genes confirmed in this study are within older genes"}
+   ]},
+  {"n": 1263, "id": "pmid:35437001",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "The male-specific region of the Y chromosome of C. panzhihuaensis contains a MADS-box transcription factor expressed exclusively in male cones"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "Nuclear and plastid phylogenomic analyses strongly suggest that cycads and Ginkgo form a clade sister to all other living gymnosperms, in contrast to mitochondrial data, which place cycads alone in this position."},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We found evidence for an ancient whole-genome duplication in the common ancestor of extant gymnosperms."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "The Cycas genome contains four homologues of the fitD gene family that were likely acquired via horizontal gene transfer from fungi, and these genes confer herbivore resistance in cycads."}
+   ]},
+  {"n": 1264, "id": "pmid:37165193",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "a recent whole-genome duplication provides a rich source of new, highly localized gene expression domains that favour fast-evolving cell types"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "We show that single-cell and single-nucleus RNA sequencing provide complementary readouts of cell identity in dicots and monocots"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "The comparative cellular analysis shows that the transcriptomes of some cell types diverged more rapidly than those of others-driven, in part, by recruitment of gene modules from other cell types."},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Cell types were mapped across species to identify robust, orthologous marker genes."}
+   ]},
+  {"n": 1265, "id": "pmid:31249862",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "The two subgenomes in goldfish retained extensive synteny and collinearity between goldfish and zebrafish."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "Loss of sequence identity and/or exons determined the divergence of the expression levels across all tissues, while loss of conserved noncoding elements determined expression variance between different tissues."},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "However, genes were lost quickly after the carp whole-genome duplication, and the expression of 30% of the retained duplicated gene diverged substantially across seven tissues sampled."},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "However, genes were lost quickly after the carp whole-genome duplication"}
+   ]},
+  {"n": 1266, "id": "pmid:33849620",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Ohnolog expression levels have evolved mostly asymmetrically, by diverting one ohnolog copy down a path towards lower expression and possible pseudogenization."},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "we used a comparative phylogenetic model and transcriptomic data from seven species to infer selection on gene expression in duplicated genes (ohnologs) following the salmonid WGD 80-100 million years ago."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "We also find symmetric expression shifts, and these are associated with genes under strong evolutionary constraints such as ribosome subunit genes."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Loss of expression in one ohnolog is significantly associated with transposable element insertions in promoters"}
+   ]},
+  {"n": 1267, "id": "pmid:33783509",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "in contrast to a lack of ortholog convergence, we see process-level and network convergence in DNA management, chromosome organization, stress signaling, and ion homeostasis processes."},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "an independent WGD system, Cardamine amara, 17 My diverged from A. arenosa."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "minimal ortholog-level convergence emerged, with none of the meiosis genes found in A. arenosa exhibiting strong signal in C. amara."},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "This is consistent with our observations of lower meiotic stability and occasional clonal spreading in diploid C. amara"}
+   ]},
+  {"n": 1268, "id": "pmid:33986115",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "date the WGD in the apple tribe at 13.5 to 27.1 Mya, much more recent than previously thought."},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "provides insights into the genomic basis of medicinal properties of loquat, which has been used in both traditional and modern medicines."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "WGD laid the foundation for co-option and differentiation of medicinally important ursane triterpene pathway duplicates, generating distinct chemotypes between species and between developmental stages in the apple tribe."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "We then functionally characterize contrasting metabolic pathways responsible for major triterpene biosynthesis in G. trifoliata and loquat, which pre- and postdate the Maleae WGD, respectively."}
+   ]},
+  {"n": 1269, "id": "pmid:34301898",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Our findings indicate that WGD occurred very early on the teleost stem lineage and that all extinct stem-group teleosts known so far possessed duplicated genomes."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "Moreover, the early occurrence of WGD allowed considerable time for postduplication reorganization prior to the origin of the teleost crown group."},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "This whole-genome duplication (WGD) occurred on the teleost stem lineage in an ancient common ancestor of all living teleosts"},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "WGD therefore predates both the origin of proposed key innovations of the teleost skeleton and the onset of substantial morphological diversification in the clade."}
+   ]},
+  {"n": 1270, "id": "pmid:38913570",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "long before the major pulses of teleost diversification in Ostariophysi and Percomorpha (56.37 to 100.17 Myr and at least 139.24 to 183.29 Myr later, respectively)."},
+    {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "the 3R whole genome duplication event occurred in the early-middle Permian (286.18 to 267.20 million years ago; Ma), 52.02 to 12.84 million years (Myr) before the divergence of crown-teleosts"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "these age constraints remain compatible with the expectations of a prolonged rediploidization process following whole genome duplication which, through the effects of chromosome rearrangement and gene loss, remains a viable mechanism to explain the evolution of teleost novelties and diversification."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "The extent of this temporal gap between putative cause and effect precludes 3R as a deterministic driver of teleost diversification."}
+   ]},
+  {"n": 1271, "id": "pmid:37154524",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "post-WGD gene loss has been slower in Paramecium than in other species having experienced genome duplication"},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Biases in gene retention compatible with dosage constraints appear to play a major role opposing post-WGD gene loss across all 13 species."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "members of the cryptic P. aurelia complex have remained morphologically indistinguishable after hundreds of millions of years."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "A near complete lack of recent single-gene duplications in Paramecium"}
+   ]}
+ ]}

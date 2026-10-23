@@ -1,0 +1,73 @@
+{"batch": "check_C_64", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+  {"n": 1292, "id": "pmid:42086566",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Our results indicate that whole-genome duplication coupled to diploidization might have driven diversification of CAM physiotypes in Clusia"},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "The diversity of CAM physiotypes has fueled a debate about evolutionary constraints and the feasibility of engineering CAM into C₃ crops."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "Here, we sequence and compare the genomes of three Clusia species spanning weak, inducible, and strong CAM."},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "We show that polyploidization followed by transposon-mediated genic diploidization could have shaped CAM-related gene families"}
+   ]},
+  {"n": 1293, "id": "pmid:28633017",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "A poorly understood adaptive pathway links cytoplasmic slicing of target RNA by the PIWI protein MILI to loading of target-derived piRNAs into nuclear MIWI2."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "In contrast, ATPase activity of TDRD9 is dispensable for piRNA biogenesis but is essential for transposon silencing and male fertility."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "The ATPase activity of Mouse Vasa Homolog (MVH) is essential for processing the intermediate into piRNAs, ensuring transposon silencing and male fertility."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "MILI slicing generates a 16-nt by-product that is discarded and a pre-piRNA intermediate that is used for phased piRNA production."}
+   ]},
+  {"n": 1294, "id": "pmid:31901446",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Su(var)2-10 links the piRNA-guided target recognition complex to the silencing effector by binding the piRNA/Piwi complex and inducing SUMO-dependent recruitment of the SetDB1/Wde histone methyltransferase effector."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "We propose that in Drosophila, the nuclear piRNA pathway has co-opted a conserved mechanism of SUMO-dependent recruitment of the SetDB1/Wde chromatin modifier to confer repression of genomic parasites."},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "SUMO and the SUMO E3 ligase Su(var)2-10 are required for piRNA-guided deposition of repressive chromatin marks and transcriptional silencing of piRNA targets."},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Here, we show that in Drosophila the small ubiquitin-like protein SUMO and the SUMO E3 ligase Su(var)2-10 are required"}
+   ]},
+  {"n": 1295, "id": "pmid:27791114",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Furthermore, Mili mutant mice exhibit behavioral deficits such as hyperactivity and reduced anxiety."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "single-base pair CpG methylation analyses across the genome of Mili/piRNA-deficient ( Mili -/- ) mice demonstrate that brain genomic DNA is preferentially hypomethylated within intergenic areas and LINE1 promoter areas of the genome"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "revealed the presence in brain of several piRNA biogenesis factors including a mouse piwi (Mili), as well as small RNAs, albeit at low levels, resembling conserved piRNAs in mouse testes [primarily LINE1 (long interspersed nuclear element1) retrotransposon-derived]"},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Mili mutant mice exhibit behavioral deficits such as hyperactivity and reduced anxiety."}
+   ]},
+  {"n": 1296, "id": "pmid:32817553",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Here, we show that an MTA-deficient mutant ( mta ) has decreased levels of microRNAs (miRNAs) but accumulates primary miRNA transcripts (pri-miRNAs)."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "Both MTA and TGH are necessary for efficient colocalization of the Microprocessor components Dicer-like 1 (DCL1) and Hyponastic Leaves 1 (HYL1) with RNA Polymerase II."},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "reduced miR393b levels likely contributes to the impaired auxin response phenotypes of mta mutant plants."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Moreover, pri-miRNAs are methylated by MTA, and RNA structure probing analysis reveals a decrease in secondary structure within stem-loop regions of these transcripts in mta mutant plants."}
+   ]},
+  {"n": 1297, "id": "pmid:31416967",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "In Drosophila ovaries, most piRNAs originate from dual-strand clusters, which generate piRNAs from both genomic strands."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "Bootlegger is specifically recruited to piRNA clusters and in turn brings Nxf3."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "We found that Nxf3 specifically binds to piRNA precursors and is essential for their export to piRNA biogenesis sites, a process that is critical for germline transposon silencing."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Here we report that dual-strand cluster transcript export requires CG13741/Bootlegger and the Drosophila nuclear export factor family protein Nxf3."}
+   ]},
+  {"n": 1298, "id": "pmid:31378614",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Upon disruption of germ granules, hrde-1 mutants can inherit RNAi, although HRDE-1 was previously thought to be absolutely required for RNAi inheritance."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "Animals mutated in pptr-1, which is required for stabilization of P granules in the early embryo, display extraordinarily strong heritable RNAi responses, lasting for tens of generations."},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "but some of the mutants lose this ability after many generations of homozygosity"},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "whether the meg-3/4 mutant alleles were present in the paternal or maternal lineages leads to different transgenerational consequences."}
+   ]},
+  {"n": 1299, "id": "pmid:34489573",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "In contrast to mice, female Mov10l1 -/- hamsters are sterile because their oocytes do not sustain zygotic development."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "The loss of the Mov10l1 RNA helicase-an essential piRNA biogenesis factor-leads to striking phenotypes in both sexes."},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "female Mov10l1 -/- hamsters are sterile because their oocytes do not sustain zygotic development."},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Mov10l1 -/- male hamsters have impaired establishment of spermatogonia accompanied by transcriptome dysregulation and an expression surge of a young retrotransposon subfamily."}
+   ]},
+  {"n": 1300, "id": "pmid:34626567",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "In testis lysate and in vivo, internal or 3' terminal uridine- or guanine-rich tracts accelerate pre-piRNA decay."},
+    {"j": 2, "label": "not_addressed", "confidence": 2, "evidence": "In flies, 2'-O-methylation also protects small interfering RNAs (siRNAs) from complementarity-dependent destruction.", "flag": "ambiguous", "reason": "The abstract reports siRNA protection by 2'-O-methylation only in flies; moving it to mouse is a group swap that is not stated but also not logically excluded."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "Unlike target-directed degradation of microRNAs, complementarity-dependent destabilization of piRNAs in mice and flies is blocked by 3' terminal 2'-O-methylation"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Loss of both trimming and 2'-O-methylation causes the mouse piRNA pathway to collapse"}
+   ]},
+  {"n": 1301, "id": "pmid:27870853",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "The dbr1-2 mutation had no effects on expression of miRNA biogenesis genes or primary miRNAs (pri-miRNAs), but the association of pri-miRNAs with the DCL1/HYL1 dicing complex was impaired."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "nearly four hundred lariat RNAs exist in wild type plants and that these lariat RNAs also associate with the DCL1/HYL1 dicing complex in vivo"},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "showed that a global increase in lariat RNAs was unexpectedly accompanied by a genome-wide reduction in miRNA accumulation"},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "we thus propose that lariat RNAs, as decoys, inhibit miRNA processing"}
+   ]}
+ ]}

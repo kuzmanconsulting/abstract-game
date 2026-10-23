@@ -1,0 +1,73 @@
+{"batch": "check_B_54", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1192, "id": "pmid:30464347",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "a high conservation of gene expression and its cis-regulatory logic between amphioxus and vertebrates that occurs maximally at an earlier mid-embryonic phylotypic period"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "These data pave the way for a better understanding of the regulatory principles that underlie key vertebrate innovations."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "over 80% of broadly expressed gene families with multiple paralogues derived from whole-genome duplications have members that restricted their ancestral expression"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Counter-intuitively, paralogues that restricted their expression increased the complexity of their regulatory landscapes."}
+    ]},
+   {"n": 1193, "id": "pmid:26886793",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "We find that in all ten species, development comprises the coupling of early and late phases of conserved gene expression."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "This mid-developmental transition overlaps with the phylotypic period that has been defined previously for three of the ten phyla"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "These phases are linked by a divergent 'mid-developmental transition' that uses species-specific suites of signalling pathways and transcription factors."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Here we compare the developmental transcriptomes of ten species, each annotated to a different phylum, with a wide range of life histories and embryonic forms."}
+    ]},
+   {"n": 1194, "id": "pmid:32313176",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "All extant vertebrates share the first duplication, which occurred in the mid/late Cambrian by autotetraploidization (that is, direct genome doubling). In contrast, the second duplication is found only in jawed vertebrates and occurred in the mid-late Ordovician"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "All extant vertebrates share the first duplication, which occurred in the mid/late Cambrian by autotetraploidization (that is, direct genome doubling)."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We show how the karyotypes of amphioxus and diverse vertebrates are derived from 17 ancestral chordate linkage groups (and 19 ancestral bilaterian groups) by fusion, rearrangement and duplication."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "This complex genomic history parallels the diversification of vertebrate lineages in the fossil record."}
+    ]},
+   {"n": 1195, "id": "pmid:28812685",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "a striking correspondence between the 19 scallop chromosomes and the 17 presumed ancestral bilaterian linkage groups at a level of conservation previously unseen"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Transcriptome analysis of scallop mantle eyes finds unexpected diversity in phototransduction cascades and a potentially ancient Pax2/5/8-dependent pathway for noncephalic eyes."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Scallop Hox gene expression follows a new mode of subcluster temporal co-linearity that is possibly ancestral"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "a bivalve mollusc that has a slow-evolving genome with many ancestral features"}
+    ]},
+   {"n": 1196, "id": "pmid:27088604",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "large genomic reorganizations, coinciding with bursts of transposon-mediated repeat expansions, were crucial for the post-Ss4R rediploidization process"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Comparisons of duplicate gene expression patterns across a wide range of tissues with orthologous genes from a pre-Ss4R outgroup unexpectedly demonstrate far more instances of neofunctionalization than subfunctionalization."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "genes that were retained as duplicates after the teleost-specific whole-genome duplication 320 million years ago were not more likely to be retained after the Ss4R"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Here we present a high-quality genome assembly for Atlantic salmon (Salmo salar)"}
+    ]},
+   {"n": 1197, "id": "pmid:30735633",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Despite metabolic differences, organoid models preserve gene regulatory networks related to primary cell types and developmental processes."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We further identified 261 differentially expressed genes in human compared to both chimpanzee organoids and macaque cortex, enriched for recent gene duplications"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We observed increased activation of this pathway in human radial glia, dependent on two receptors upregulated specifically in human: INSR and ITGB8."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "However, chimpanzee tissue is inaccessible during neocortical neurogenesis when differences in brain size first appear."}
+    ]},
+   {"n": 1198, "id": "pmid:37104599",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "At least 332 million bases (~10.7%) in the human genome are unusually conserved across species (evolutionarily constrained) relative to neutrally evolving repeats"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Of 101 million significantly constrained single bases, 80% are outside protein-coding exons and half have no functional annotations in the Encyclopedia of DNA Elements (ENCODE) resource."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "and 4552 ultraconserved elements are nearly perfectly conserved."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Changes in genes and regulatory elements are associated with exceptional mammalian traits, such as hibernation"}
+    ]},
+   {"n": 1199, "id": "pmid:29526463",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "we report that the chromatin accessibility landscape is gradually established during human early embryogenesis"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "human active transposons SVA and HERV-K harbor DHSs and are highly expressed in early embryos, but not in differentiated tissues"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "younger genes tend to establish promoter DHSs and are expressed at later embryonic stages, while older genes exhibit these features at earlier stages"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "the DHSs with OCT4 binding motifs are enriched at the timing of zygotic genome activation (ZGA) in humans, but not in mice"}
+    ]},
+   {"n": 1200, "id": "pmid:31969194",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We reveal unexpected variation in patterns of DNA methylation across arthropods"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We identify many novel gene families that arose early in the evolution of arthropods and during the diversification of insects into modern orders."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Using 76 whole genome sequences representing 21 orders spanning more than 500 million years of arthropod evolution, we document changes in gene and protein domain content"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "examples of gene family and protein domain evolution coincident with the appearance of notable phenotypic and physiological adaptations such as flight, metamorphosis, sociality, and chemoperception"}
+    ]},
+   {"n": 1201, "id": "pmid:28902843",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "A. shenzhenica shows clear evidence of a whole-genome duplication, which is shared by all orchids and occurred shortly before their divergence."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "as well as the evolution of epiphytism"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "In addition, we present transcriptome data for representatives of Vanilloideae, Cypripedioideae and Orchidoideae, and novel third-generation genome data for two species of Epidendroideae, covering all five orchid subfamilies."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We identify new gene families, gene family expansions and contractions, and changes within MADS-box gene classes"}
+    ]}
+ ]}

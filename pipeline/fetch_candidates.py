@@ -26,9 +26,12 @@ from datetime import date, datetime, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
+sys.path.insert(0, HERE)
+import journals as journals_mod  # noqa: E402  (pipeline/journals.py: the leading-journal list, D23)
 RAW_DIR = os.path.join(ROOT, "src", "raw")
 OUT = os.path.join(ROOT, "src", "candidates.json")
 API = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+API_POST = "https://www.ebi.ac.uk/europepmc/webservices/rest/searchPOST"     # same parameters, for queries too long for a GET URL
 
 # The three fields (Maja, 2026-10-23 14:14: "newer articles and preprints on this topics, omitting the clinical").
 FIELDS = {
@@ -65,6 +68,38 @@ FIELDS = {
                   '"RNA decay"', '"nonsense-mediated"', '"RNA structure"'],
         "require": ["RNA", "RNAs", "transcript*", "gene", "genes", "genome", "genomic", "cell", "cells", "organism*", "species", "mRNA"],
     },
+    # added 2026-10-23 21:13 (Maja: "more pure biology papers, pirna, mirna in transposon regulation, in development and so on") — a
+    # second query for the smallrna field ("as"): the small-RNA pathways themselves, in germline, development and transposon control,
+    # with the clinical/biomarker vocabulary excluded. D23.
+    "rnadev": {
+        "label": "small RNA in development and transposon control",
+        "as": "smallrna",
+        "terms": ["piRNA*", '"piwi-interacting"', "PIWI", "Piwi", '"piRNA pathway"', '"transposon silencing"', '"transposable element silencing"',
+                  '"TE silencing"', '"endo-siRNA"', '"endogenous siRNA"', '"endogenous small interfering"', '"RNA interference"', "RNAi",
+                  '"maternal-to-zygotic"', '"maternal-zygotic"', '"let-7"', '"lin-4"', '"miRNA biogenesis"', '"microRNA biogenesis"', "Dicer",
+                  "Drosha", "Argonaute", '"RNA-directed DNA methylation"', '"KRAB zinc finger"', '"KRAB-ZFP"', '"ping-pong"', '"22G-RNA"',
+                  '"21U-RNA"', '"microRNA"', '"microRNAs"', "miRNA", "miRNAs", '"small RNA"', '"small RNAs"'],
+        "require": ["development", "developmental", "embryo*", "germline", '"germ cells"', '"germ cell"', "gonad*", "testis", "testes", "ovary",
+                    "ovaries", "oocyte*", "spermatogenesis", "oogenesis", "transposon*", "transposable", "retrotransposon*", "Drosophila",
+                    "zebrafish", "Caenorhabditis", "elegans", "Arabidopsis", '"stem cell"', '"stem cells"', "differentiation", "pluripoten*"],
+        "exclude": ["cancer", "tumor", "tumour", "carcinoma", "patients", "biomarker", "biomarkers", "serum", "plasma", "prognos*", "chemotherapy"],
+    },
+    # added 2026-10-23 21:13 (Maja: "evolution.. but like evodevo evolution, comparative genomics" — distinct from the molecular-evolution
+    # slice above, which stays). D23.
+    "evodevo": {
+        "label": "evo-devo / comparative genomics",
+        "terms": ['"evo-devo"', '"evolutionary developmental"', '"evolution of development"', '"developmental evolution"', '"cis-regulatory evolution"',
+                  '"regulatory evolution"', '"enhancer evolution"', '"gene regulatory network"', '"gene regulatory networks"', '"body plan"',
+                  '"body plans"', "Hox", '"Hox genes"', '"comparative genomics"', '"comparative genomic"', '"gene family expansion"',
+                  '"gene family evolution"', '"gene family expansions"', '"evolutionary novelty"', '"evolutionary novelties"', '"evolutionary innovation"',
+                  '"convergent evolution"', '"co-option"', "cooption", '"deep homology"', '"morphological evolution"', '"phenotypic evolution"',
+                  '"whole-genome duplication"', '"genome duplication"', '"conserved noncoding"', '"conserved non-coding"', "ultraconserved",
+                  '"enhancer turnover"', '"lineage-specific genes"', '"de novo genes"', '"de novo gene"', '"gene loss"', '"regulatory landscape"',
+                  '"evolution of gene regulation"'],
+        "require": ["genome", "genomes", "genomic", "gene", "genes", "species", "lineage", "lineages", "development", "developmental", "embryo*",
+                    "evolution*", "phylogen*"],
+        "exclude": ["cancer", "tumor", "tumour", "carcinoma", "leukemia", "leukaemia", "lymphoma", "melanoma", "glioma", "patients"],
+    },
 }
 # journal-targeted top-up (Maja, 15:20: "add more Nature papers !! and the Cell and Genome Biology and Nature Communications";
 # 19:41: "more nature cell science and those league of papers", from 2020 on)
@@ -83,6 +118,8 @@ def build_query(field, source, start, end, journals=None):
     q = "(%s)" % terms
     if f.get("require"):
         q += " AND (%s)" % " OR ".join("ABSTRACT:%s" % w for w in f["require"])
+    if f.get("exclude"):
+        q += " NOT (%s)" % " OR ".join("ABSTRACT:%s" % w for w in f["exclude"])
     if journals:
         q += " AND (%s)" % " OR ".join('JOURNAL:"%s"' % j for j in journals)
     q += " AND %s AND FIRST_PDATE:[%s TO %s] AND HAS_ABSTRACT:y" % (SOURCES[source], start, end)
@@ -100,6 +137,8 @@ def fetch_query(query, page_size=1000, max_pages=1, log=print, opener=None, slee
         if sort == "cited":
             params["sort"] = "CITED desc"
         url = API + "?" + urllib.parse.urlencode(params)
+        if len(url) > 4000:          # the 82-journal list (D23) pushes the query past what a GET URL should carry; the REST service takes POST
+            url = urllib.request.Request(API_POST, data=urllib.parse.urlencode(params).encode("utf-8"), method="POST")
         for attempt in range(3):
             try:
                 with opener(url, timeout=120) as resp:
@@ -175,7 +214,7 @@ def normalise(rec, field, source, min_numbered=None):
             "pmid": pmid, "doi": doi, "title": html.unescape(OTHER_TAGS.sub("", rec.get("title") or "")).strip().rstrip("."),
             "authors": authors, "author_string": rec.get("authorString"), "journal": journal if source == "journal" else publisher,
             "year": int(rec["pubYear"]) if str(rec.get("pubYear", "")).isdigit() else None,
-            "date": rec.get("firstPublicationDate"), "field": field, "sections": sections, "n_chars": len(text),
+            "date": rec.get("firstPublicationDate"), "field": FIELDS[field].get("as", field), "query_field": field, "sections": sections, "n_chars": len(text),
             "structured": any(s.get("label") for s in sections), "has_results": has_results(sections, min_numbered),
             "cited_by": rec.get("citedByCount"),
             "pub_types": ((rec.get("pubTypeList") or {}).get("pubType") or []),
@@ -183,9 +222,13 @@ def normalise(rec, field, source, min_numbered=None):
             "doi_url": ("https://doi.org/%s" % doi) if doi else None, "is_open_access": rec.get("isOpenAccess") == "Y"}
 
 
-def keep(c, excluded_pmids, excluded_dois):
+def keep(c, excluded_pmids, excluded_dois, journal_ok=None):
+    """journal_ok: a predicate on the journal title for a journal-restricted fetch — JOURNAL:"Development" also returns records
+    whose title merely begins that way, so the exact list is enforced here too (D23)."""
     if c["source"] == "preprint" and c["server"] not in PREPRINT_SERVERS:
         return "server"
+    if journal_ok and c["source"] == "journal" and not journal_ok(c["journal"]):
+        return "journal_not_listed"
     if not c["sections"] or not (MIN_CHARS <= c["n_chars"] <= MAX_CHARS):
         return "length"
     if not c["has_results"]:
@@ -231,12 +274,14 @@ def main(argv=None):
     ap.add_argument("--out", default=OUT)
     ap.add_argument("--fields", nargs="+", default=list(FIELDS), help="fields to fetch (default all)")
     ap.add_argument("--sources", nargs="+", default=list(SOURCES), help="journal and/or preprint")
-    ap.add_argument("--journals", nargs="*", default=None, help="restrict to these exact journal titles (JOURNAL:); 'top' = %s; 'top2' = those + %s" % (", ".join(TOP_JOURNALS), ", ".join(TOP_JOURNALS_V2[4:])))
+    ap.add_argument("--journals", nargs="*", default=None, help="restrict to these exact journal titles (JOURNAL:); 'top' = %s; 'top2' = those + %s; 'leading' = the %d journals of pipeline/journals.py (D23)" % (", ".join(TOP_JOURNALS), ", ".join(TOP_JOURNALS_V2[4:]), len(journals_mod.LEADING)))
     ap.add_argument("--suffix", default="", help="suffix for raw file names, e.g. 'top' → <field>_<source>_top.json")
     ap.add_argument("--sort", choices=["relevance", "cited"], default="relevance", help="cited = most-cited first (landmark fetch, D18)")
     ap.add_argument("--min-numbered", type=int, default=None, help="unstructured abstracts: sentences with a number needed (default %d)" % MIN_NUMBERED)
     a = ap.parse_args(argv)
-    journals = TOP_JOURNALS if a.journals == ["top"] else TOP_JOURNALS_V2 if a.journals == ["top2"] else (a.journals or None)
+    journals = (TOP_JOURNALS if a.journals == ["top"] else TOP_JOURNALS_V2 if a.journals == ["top2"]
+                else journals_mod.QUERY_TOKENS if a.journals == ["leading"] else (a.journals or None))
+    journal_ok = journals_mod.is_leading if a.journals == ["leading"] else None
     os.makedirs(RAW_DIR, exist_ok=True)
     ex_pmids, ex_dois = load_exclusions(a.exclude)
     print("excluding %d pmids, %d dois" % (len(ex_pmids), len(ex_dois)))
@@ -252,7 +297,7 @@ def main(argv=None):
             kept = 0
             for rec in rows:
                 c = normalise(rec, field, source, a.min_numbered)
-                why = keep(c, ex_pmids, ex_dois)
+                why = keep(c, ex_pmids, ex_dois, journal_ok)
                 if why:
                     dropped[why] = dropped.get(why, 0) + 1
                     continue
@@ -266,7 +311,7 @@ def main(argv=None):
             counts["%s_%s" % (field, source)] = {"fetched": len(rows), "kept": kept}
             print("  kept %d of %d" % (kept, len(rows)))
     header = {"fetched_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "api": API, "window": [a.start, a.end],
-              "fields": a.fields, "sources": a.sources, "journals": journals, "sort": a.sort, "min_numbered": a.min_numbered if a.min_numbered is not None else MIN_NUMBERED,
+              "fields": a.fields, "sources": a.sources, "journals": journals, "journals_arg": a.journals, "sort": a.sort, "min_numbered": a.min_numbered if a.min_numbered is not None else MIN_NUMBERED,
               "queries": queries, "counts": counts, "dropped": dropped, "excluded_pmids": len(ex_pmids), "excluded_dois": len(ex_dois),
               "n": len(candidates), "filters": {"min_chars": MIN_CHARS, "max_chars": MAX_CHARS, "preprint_servers": sorted(PREPRINT_SERVERS),
                                                    "results_required": True}}

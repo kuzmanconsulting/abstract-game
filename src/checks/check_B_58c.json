@@ -1,0 +1,17 @@
+{"batch": "check_B_58c", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1240, "id": "pmid:29129531",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "These EVE-containing loci have increased density of piRNAs compared to similar regions without EVEs."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Endogenous viral elements (EVEs) are sequences from non-retroviral viruses that are inserted into the mosquito genome and can act as templates for the production of piRNAs [3, 4]."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We show EVEs are acquired through recombination with specific classes of long terminal repeat (LTR) retrotransposons and organize into large loci (>50 kbp) characterized by high LTR density."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Furthermore, we detected EVE-derived piRNAs consistent with a targeted processing of persistently infecting virus genomes."}
+    ]},
+   {"n": 1241, "id": "pmid:30455455",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "One such interaction is between radial-glia-enriched ORC4 and miR-2115, a great-ape-specific miRNA"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "MicroRNAs (miRNAs) regulate many cellular events during brain development by interacting with hundreds of mRNA transcripts."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "These networks are highly dynamic during development and over the course of evolution."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we show that miRNA-mRNA interactions operate as functional modules that often correspond to cell-type identities"}
+    ]}
+ ]}

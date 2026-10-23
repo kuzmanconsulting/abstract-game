@@ -1,0 +1,31 @@
+{"batch": "check_A_58b", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1236, "id": "pmid:30166437",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We show that microRNA miR2111 undergoes shoot-to-root translocation to control rhizobial infection through posttranscriptional regulation of the symbiosis suppressor TOO MUCH LOVE in roots."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "We show that microRNA miR2111 undergoes shoot-to-root translocation to control rhizobial infection"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The miR2111- TML node ensures activation of feedback regulation to balance infection and nodulation events."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "functions as an activator of symbiosis downstream of LOTUS HISTIDINE KINASE1-mediated cytokinin perception in roots and HYPERNODULATION ABERRANT ROOT FORMATION1, a shoot factor in autoregulation"}
+    ]},
+   {"n": 1237, "id": "pmid:29398448",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Furthermore, mature miRNA translocation and miRNA-mediated silencing both require AtAGO1 nucleo-cytosolic shuttling."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Nuclear-only AtAGO1 contains the same 2'O-methylated miRNA cohorts as its nucleo-cytosolic counterpart, but it preferentially interacts with the miRNA loading chaperone HSP90."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "in which miRNAs are matured, methylated, loaded into AGO1 in the nucleus, and exported to the cytosol as AGO1:miRNA complexes"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "the N termini of all plant AGO1s contain a nuclear-localization (NLS) and nuclear-export signal (NES) that, in Arabidopsis thaliana (At), enables AtAGO1 nucleo-cytosolic shuttling in a Leptomycin-B-inhibited manner, diagnostic of CRM1(EXPO1)/NES-dependent nuclear export."}
+    ]},
+   {"n": 1238, "id": "pmid:29672610",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "In these later-formed leaves, the amount of miR156/miR157 is close to the threshold required to specify juvenile vs. adult identity; a relatively small decrease in the abundance of miR156/157 in these leaves produces a disproportionately large increase in SPL proteins"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "miR156/miR157 decline rapidly between leaf 1&2 and leaf 3 and decrease more slowly after this point."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "miR156/miR157 decline rapidly between leaf 1&2 and leaf 3 and decrease more slowly after this point."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "miR157 is more abundant than miR156 but has a smaller effect on shoot morphology and SPL gene expression than miR156."}
+    ]},
+   {"n": 1239, "id": "pmid:33633358",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Furthermore, rh11 rh37 and ann1 ann2 showed increased susceptibility to Botrytis cinerea"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "AGO1, RH11 and RH37 selectively bind to EV-enriched sRNAs but not to non-EV-associated sRNAs, suggesting that they contribute to the selective loading of sRNAs into EVs. Conversely, ANN1 and ANN2 bind to sRNAs non-specifically."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The ago1, rh11 rh37 and ann1 ann2 mutants showed reduced secretion of sRNAs in EVs"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "suggesting that RH11, RH37, ANN1 and ANN2 positively regulate plant immunity against B. cinerea."}
+    ]}
+ ]}

@@ -224,3 +224,50 @@ because their finding is evolutionary even though they mention cancer: n=563 (po
 rRNA genes across 14,106 tumours), n=999 (evolution of primate-specific genes and cancer risk), plus two the
 keyword scan flagged by coincidence — n=700 (the plant *American cancer-root*) and n=720 (SAMD9/9L antiviral gene
 evolution). The statements were always about the paper shown; only the field chip was off for those three.
+
+**D23. Two additions and a journal tier (Maja, 2026-10-23 21:13–21:24: "more pure biology papers, pirna, mirna in
+transposon regulation, in development and so on, and evolution.. but like evodevo evolution, comparative genomics …
+dont remove but add"; "enrich more in Q1 journals i dont want a lot of random papers"; "have a filter for q1
+journals only").** Three parts.
+
+*Fields.* `rnadev` is a second query for the existing `smallrna` field (`FIELDS[...]["as"]`; the corpus item keeps
+`query_field` = rnadev): piRNA/PIWI, transposon silencing, endo-siRNA, RNAi, miRNA biogenesis and the developmental
+miRNAs, plant small RNAs, with a `require` list of developmental/germline/transposon/model-organism words and an
+`exclude` clause (`NOT (ABSTRACT:cancer OR … patients OR biomarker OR serum OR plasma …)`) so the clinical miRNA
+literature that dominated the first smallrna draw stays out. `evodevo` is a new field, "evo-devo / comparative
+genomics": cis-regulatory and GRN evolution, Hox and body plans, gene family expansion and loss, whole-genome
+duplication, convergent evolution, novelty and co-option, de novo genes, comparative genomics across lineages;
+cancer terms excluded. The existing `evogen` slice (molecular evolution, phylogenomics, selection) is unchanged, as
+asked ("this is ok but isnt what i consider evolution").
+
+*Journal tier.* "Q1" taken literally (SCImago or JCR quartile within a category) admits Scientific Reports, PLoS ONE,
+the MDPI and Frontiers titles and most BMC journals — the "random papers" Maja wants fewer of. So the tier is a
+curated list, `pipeline/journals.py` (82 journals: the Nature, Cell and Science research families, PNAS, eLife, the
+genome/genetics/evolution/RNA/development society and specialist journals, and the cancer and medical journals the
+cfDNA and cancer-genomics slices draw on), stated as curated on the page and editable in one place. Europe PMC's
+`JOURNAL:` field is an exact match on the title or NLM abbreviation (`JOURNAL:"Nature"` does not return Nature
+Communications), so the fetch queries the abbreviations and `keep()` re-checks the returned title against the list
+(`journal_not_listed`); long queries go through the `searchPOST` endpoint. Every corpus item gets `tier` = leading |
+null at build time (`journals.is_leading`), journal names are displayed in the list's form (`journals.display`:
+"Nature Communications", "PNAS", "Science"), and the page's source row gains a "Leading journals" chip (journal
+articles with tier = leading; preprints excluded by definition). 462 of the 946 journal abstracts present before this
+round are in the tier.
+
+*Selection.* Both new slices were fetched from the leading journals only, 2016–2026, journal articles (no preprints:
+the request was for journals), relevance order, 2 × 1000 records per query, `--min-numbered 1` as for the landmark
+set (Nature/Science abstracts carry few numbers). Two shortlists per query field through `select_landmark.py`
+(generalised: `--sample-seed`, `--out`, `--split-dir`, `--pick-glob`, query-field grouping): the 70 most-cited, and
+a seeded year-spread sample of 120 from the relevance pool (seed 20261023005), both after the tool/resource-title and
+in-corpus filters. One Opus agent per shortlist (prompt curate-d23-v1, which carries Maja's definitions verbatim)
+kept 25 of the cited and 55 of the sampled per field, with a reason for every drop. Applied in that order
+(`d23-leading-cited`, then `d23-leading-pool`; 7 of the pool picks were already taken by the cited set or the
+corpus): +153 abstracts, 76 evodevo and 77 smallrna, 2016–2026 roughly even by year, corpus 1192 → 1345. The
+cited evodevo set leans on "the X genome and the evolution of Y" papers (salmon, orchid, water lily, hornwort, fern,
+pine, sturgeon …) — comparative genomics as Maja named it, kept.
+
+*Page, same round.* The Instagram hint under the share card removed ("remove this please", 21:24). The title is shown
+above the abstract by default ("add title before abstract", 21:24); the About toggle (D19) now turns it off rather
+than on (`ar.prefs.titleFirst` default true). Statements are generated with gen-v5, flip rule first-of-any-v3,
+batches of 10 to keep the Opus generators under the classifier's threshold (one of 16 was still stopped and split
+into three parts, D21 procedure).
+

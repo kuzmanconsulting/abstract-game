@@ -115,3 +115,30 @@ real Kuzman Consulting K-mark and banner cropped from her logo file for the page
 1,187 abstracts of 1,191 (3 excluded, 1 too few), 4,647 statements, every kept statement unanimous, 22 of 14,256
 pairwise checker verdicts differ. Fields cfDNA 265 · TE 264 · cancer genomics 276 · evolutionary genomics 268 ·
 small RNA 114; 945 journal, 242 preprint; years 2016–2026.
+
+**21:13–21:36 — D23: the two slices Maja actually meant, and a journal tier.** Her message was precise: the small-RNA
+field should have the biology itself — piRNA and miRNA in transposon control and in development — and "evolution"
+should mean evo-devo and comparative genomics, not the molecular-evolution slice already there, which stays. One
+minute later: "enrich more in Q1 journals, I don't want a lot of random papers", then "or a filter for Q1 journals
+only". I did not take Q1 literally: by SJR or JCR quartile Scientific Reports, PLoS ONE, MDPI and Frontiers are Q1,
+which is the opposite of what she wants, so the tier is a curated list of 82 journals in `pipeline/journals.py`,
+named as curated on the page. Europe PMC turned out to match `JOURNAL:` exactly (Nature ≠ Nature Communications), so
+the fetch queries NLM abbreviations and re-checks the returned title, and the 82-clause query had to go through the
+POST endpoint. Both new slices were fetched from that list only, 2016–2026, and curated twice over by Opus agents
+against her definitions quoted verbatim in the prompt: 25 of the 70 most-cited and 55 of a seeded year-spread sample
+of 120, per slice. +153 abstracts (76 evo-devo, 77 small RNA), corpus 1345. The cited evo-devo set is heavy on
+"the X genome and the evolution of Y" — comparative genomics by her own words, kept. Also: the Instagram hint under
+the share card is gone and the title now sits above the abstract by default (both 21:24). Sixteen generators of 10
+abstracts; one stopped by the classifier at once and split into three. I stamped one message 21:46 when the clock
+said 21:30 — the same slip as earlier this evening; corrected to Maja at 21:36 and every stamp since is a clock read.
+
+**21:36–21:52 — D23 merged and deployed.** Sixteen generators (one split into three after a classifier stop), 54 blind
+checks in three waves of up to twenty agents, all Opus 4.8 at extra effort. Merge over everything: 1,340 abstracts of
+1,344 (3 excluded, 1 too few), 5,258 statements, every kept statement unanimous, 22 of 16,092 pairwise checker verdicts
+differ — none of them in the new 54 checks. The new slice: 153 abstracts, 611 of 612 statements kept (one ambiguous),
+9 abstracts without a contradicted item (no direction word to flip, D17). Fields now cfDNA 265 · TE 264 · cancer
+genomics 279 · evolutionary genomics 265 · evo-devo 76 · small RNA 191; 1,098 journal (615 in the leading tier),
+242 preprint; years 2016–2026. One generator caught a flip the validator cannot see — "AMP-activated protein kinase"
+→ "AMP-repressed" — and reworded its statement; the phrase went into the idiom stop list, which changes nothing
+already composed. Delivered to the Mac and the artifact; the push is Maja's. Open: her view of the 82-journal list.
+

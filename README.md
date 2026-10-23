@@ -4,11 +4,14 @@ A reading game: one scientific abstract, four statements — does the abstract *
 it, or **not address** it? On "Check answers" every statement is marked, the passage it rests on is highlighted in
 the text, and the paper appears with title, authors, journal or preprint server, year, DOI and PubMed links.
 
-Corpus: journal articles (PubMed) and bioRxiv/medRxiv preprints, 2023–2026, in cell-free DNA / liquid biopsy,
-transposable elements / genome evolution, cancer genomics, evolutionary genomics and small RNA / RNA biology, fetched
-through Europe PMC, with a targeted share from *Nature*, *Science*, *Cell*, *Nature Genetics*, *Nature Methods*,
-*Nature Biotechnology*, *Nature Communications*, *Cell Genomics*, *Molecular Cell*, *Science Advances*, *Genome
-Biology*, *Genome Research* and *Nucleic Acids Research* reaching back to 2020, plus the most-cited primary research papers of 2016–2026 in each field (docs/DECISIONS.md D18). Statements were written
+Corpus: journal articles (PubMed) and bioRxiv/medRxiv preprints, 2016–2026, in cell-free DNA / liquid biopsy,
+transposable elements / genome evolution, cancer genomics, evolutionary genomics, evo-devo / comparative genomics and
+small RNA / RNA biology, fetched through Europe PMC, with a targeted share from *Nature*, *Science*, *Cell*, *Nature
+Genetics*, *Nature Methods*, *Nature Biotechnology*, *Nature Communications*, *Cell Genomics*, *Molecular Cell*,
+*Science Advances*, *Genome Biology*, *Genome Research* and *Nucleic Acids Research* reaching back to 2020, the
+most-cited primary research papers of 2016–2026 in each field (docs/DECISIONS.md D18), and the evo-devo and
+pure-biology small-RNA slices drawn from a curated list of leading journals only (`pipeline/journals.py`, D23).
+The page's "Leading journals" chip restricts play to that list; it is a curated list, not a bibliometric quartile. Statements were written
 by Claude from the abstract text alone and kept only when at least two of three independent blind check passes
 agreed with the label (docs/DECISIONS.md D5–D6).
 
@@ -72,8 +75,11 @@ python3 -m unittest discover -s tests -v
 ```
 
 New fields go into `FIELDS` in `fetch_candidates.py` (with a `require` list of words the abstract must contain — a
-bare "speciation" also matches chemistry); a wider year window is `--start 2000-01-01`; a journal-targeted fetch is
-`--journals top2` (or exact titles) with `--suffix top2 --out src/candidates_top2.json`, and `select_corpus.py
+bare "speciation" also matches chemistry — and optionally `exclude` words and `as`, the field a second query feeds);
+a wider year window is `--start 2000-01-01`; a journal-targeted fetch is `--journals top2`, `--journals leading`
+(the list in `pipeline/journals.py`, enforced on the returned titles) or exact titles, with `--suffix … --out
+src/candidates_….json`; a curated draw is `select_landmark.py shortlist [--sample-seed …] --split-dir …` → one
+curation agent per shortlist → `select_landmark.py apply --pick-glob …` (D18, D23), and `select_corpus.py
 --spread journal` cycles over journals when drawing so the small high-profile ones are not drowned by the big ones. Anything already in
 `src/corpus.json` keeps its `n`; new abstracts are appended with `select_corpus.py --append --candidates … --n …
 --fields … [--journals …] --label …`, batched with `make_batches.py gen --start <first new n> --first-batch <next

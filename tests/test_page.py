@@ -95,6 +95,28 @@ class PageTest(unittest.TestCase):
         self.assertEqual(errors, [])
         ctx.close()
 
+    def test_leading_journals_filter_holds_over_many_picks(self):
+        """D23: the "Leading journals" chip restricts the pool to journal articles tagged tier=leading in data.json."""
+        ctx, pg, errors = self.page()
+        pg.click("#filters button:has-text('Leading journals')")
+        pg.wait_for_selector("ol.sts li.st")
+        for _ in range(12):
+            it, _ = self.shown(pg)
+            self.assertEqual((it["source"], it.get("tier")), ("journal", "leading"), it.get("journal"))
+            pg.click("#skip")
+            pg.wait_for_selector("ol.sts li.st")
+        pg.eval_on_selector("#about", "d => d.open = true")                # the <details> is closed by default
+        self.assertIn("Leading journals", pg.inner_text("#about"))      # the About text names the list
+        self.assertEqual(errors, [])
+        ctx.close()
+
+    def test_title_is_shown_before_answering_by_default(self):
+        ctx, pg, errors = self.page()
+        it, _ = self.shown(pg)
+        self.assertEqual(pg.inner_text(".pretitle").strip(), it["title"])
+        self.assertEqual(pg.locator("#shareHint").count(), 0)             # the Instagram note was removed (Maja 21:24)
+        ctx.close()
+
     def test_statements_are_shuffled_on_display(self):
         ctx, pg, errors = self.page()
         orders = set()

@@ -1,0 +1,42 @@
+{
+"batch": "check_B_58a",
+"pass": "B",
+"prompt_version": "check-v1",
+"items": [
+{
+"n": 1232,
+"id": "pmid:27643635",
+"verdicts": [
+{"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Such pathogen gene-targeting RNAs represent a new generation of environmentally friendly fungicides."},
+{"j": 2, "label": "contradicted", "confidence": 3, "evidence": "expressing sRNAs that target Bc-DCL1 and Bc-DCL2 in Arabidopsis and tomato silences Bc-DCL genes and attenuates fungal pathogenicity and growth"},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "Applying sRNAs or dsRNAs that target Botrytis DCL1 and DCL2 genes on the surface of fruits, vegetables and flowers significantly inhibits grey mould disease."},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "We also show that Botrytis can take up external sRNAs and double-stranded RNAs (dsRNAs)."}
+]},
+{
+"n": 1233,
+"id": "pmid:29300014",
+"verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "Several A. thaliana mRNAs are targeted by 22-nucleotide C. campestris miRNAs during parasitism, resulting in mRNA cleavage, secondary siRNA production, and decreased mRNA accumulation."},
+{"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Hosts with mutations in two of the loci that encode target mRNAs supported significantly higher growth of C. campestris."},
+{"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "suggest that they may act as virulence factors during parasitism"},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "The same miRNAs that are expressed and active when C. campestris parasitizes A. thaliana are also expressed and active when it infects Nicotiana benthamiana."}
+]},
+{
+"n": 1234,
+"id": "pmid:26787884",
+"verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "Mobile sRNA-dependent non-CG methylation is largely dependent on the DOMAINS REARRANGED METHYLTRANSFERASES 1/2 (DRM1/DRM2) RdDM pathway but is independent of the CHROMOMETHYLASE (CMT)2/3 DNA methyltransferases."},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "RdDM of thousands of loci in root tissues is dependent upon mobile sRNAs from the shoot and that mobile sRNA-dependent DNA methylation occurs predominantly in non-CG contexts"},
+{"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "sRNAs from shoots of one accession move across a graft union and target DNA methylation de novo at normally unmethylated sites in the genomes of root cells from a different accession"},
+{"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Specific superfamilies of TEs, including those typically found in gene-rich euchromatic regions, lose DNA methylation in a mutant lacking 22- to 24-nt sRNAs (dicer-like 2, 3, 4 triple mutant)."}
+]},
+{
+"n": 1235,
+"id": "pmid:27965387",
+"verdicts": [
+{"j": 1, "label": "contradicted", "confidence": 3, "evidence": "PMS1T was targeted by miR2118 to produce 21-nt phasiRNAs that preferentially accumulated in the PSMS line under long-day conditions."},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "The Pms1 locus encodes a long-noncoding RNA PMS1T that was preferentially expressed in young panicles."},
+{"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "This result suggested possible roles of phasiRNAs in reproductive development of rice"},
+{"j": 4, "label": "supported", "confidence": 2, "evidence": "A single nucleotide polymorphism in PMS1T nearby the miR2118 recognition site was critical for fertility change"}
+]}
+]}

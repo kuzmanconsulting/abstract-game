@@ -72,7 +72,9 @@ TRUE_ONLY_VERSIONS = ("gen-v4", "gen-v5")   # prompts that write only true state
 # or when the statement already contains the word's opposite (swapping one of the two leaves "losses exceeded
 # losses"). The swap itself also knows "most X" (quantifier -> "few X") from "the most X" (superlative -> "the
 # least X"), "more <mass noun>" -> "less", and fixes "a"/"an" in front of the new word.
-IDIOMS_V2 = re.compile(r"\b(no longer|above all|more or less|at the latest|maximum (?:likelihood|parsimony|entropy)|minimum (?:spanning|evolution)|"
+# "AMP-activated protein kinase" added 2026-10-23 21:50 (a gen_60 generator caught the flip "AMP-repressed"; no statement in any
+# generated file contained the phrase at that time, so the v2/v3 compositions are unchanged — D23)
+IDIOMS_V2 = re.compile(r"\b(no longer|above all|more or less|at the latest|amp-activated|maximum (?:likelihood|parsimony|entropy)|minimum (?:spanning|evolution)|"
                        r"(?:positive|negative)[- ](?:sense|strand|control|controls|feedback)|dominant[- ]negative|"
                        r"(?:false|true)[- ](?:positive|negative)s?|gram[- ](?:positive|negative)|triple[- ]negative|"
                        r"(?:er|pr|her2|hpv|ebv|hiv|mmr|pd-l1|receptor|node|margin|lymph node|ctdna|mrd)[- ](?:positive|negative))\b", re.I)
@@ -317,12 +319,14 @@ def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("what", choices=["gen", "check"])
     ap.add_argument("--quiet", action="store_true")
+    ap.add_argument("--only", nargs="*", default=None, help="validate only these batch names (gen_54, check_A_54 …); a generator or checker checks its own file")
     a = ap.parse_args(argv)
     corpus = load_corpus()
     bad = 0
+    only = set(a.only or [])
     if a.what == "gen":
         for name in sorted(os.listdir(BATCH_DIR)):
-            if not name.startswith("gen_"):
+            if not name.startswith("gen_") or (only and name[:-5] not in only):
                 continue
             with open(os.path.join(BATCH_DIR, name), encoding="utf-8") as f:
                 batch_items = [it["n"] for it in json.load(f)["items"]]
@@ -339,7 +343,7 @@ def main(argv=None):
             bad += bool(fatal)
     else:
         for name in sorted(os.listdir(BATCH_DIR)):
-            if not name.startswith("check_") or name.endswith(".map.json"):
+            if not name.startswith("check_") or name.endswith(".map.json") or (only and name[:-5] not in only):
                 continue
             with open(os.path.join(BATCH_DIR, name), encoding="utf-8") as f:
                 batch = json.load(f)

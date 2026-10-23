@@ -157,3 +157,49 @@ python3 pipeline/merge_checks.py --passes A B C    # 1191 generated · 3 exclude
 python3 pipeline/build_site.py --repo-url https://github.com/kuzmanconsulting/abstract-game   # docs/data.json, years 2016–2026
 python3 -m unittest discover -s tests -v           # 17 OK
 ```
+
+## 2026-10-23 21:13–21:36 — D23: evo-devo and pure-biology small RNA from leading journals, journal tier, page
+
+```bash
+# 21:13 Maja: pure-biology piRNA/miRNA papers (TE regulation, development) + evolution "like evodevo, comparative genomics", added not replaced;
+#       21:14 "enrich more in Q1 journals, i dont want a lot of random papers"; 21:16 "a filter for q1 journals only"; 21:24 remove the Instagram hint, title before abstract
+# 21:21 pipeline/journals.py — 82 leading journals (display name, NLM abbreviation), canon()/is_leading()/display(); self-check: python3 pipeline/journals.py
+#       fetch_candidates.py: FIELDS rnadev (as smallrna) and evodevo with require + exclude; --journals leading; keep() drops journal_not_listed;
+#       queries > 4000 chars go to Europe PMC searchPOST (GET gave nothing; POST to /search is 405)
+BANK=<verify2 copy of the trial bank, 936 PMIDs>
+python3 pipeline/fetch_candidates.py --fields rnadev evodevo --sources journal --journals leading --start 2016-01-01 --pages 2 --min-numbered 1 --suffix leading --out src/candidates_leading.json --exclude $BANK            # 21:24: rnadev 1715 kept of 2000 (hitCount 3210), evodevo 1478 of 2000 (5426)
+python3 pipeline/fetch_candidates.py --fields rnadev evodevo --sources journal --journals leading --start 2016-01-01 --sort cited --page-size 300 --pages 1 --min-numbered 1 --suffix leading_cited --out src/candidates_leading_cited.json --exclude $BANK   # 21:25: 248 + 231
+# select_landmark.py generalised: query_field grouping, --sample-seed (year-spread sample instead of most-cited), --out, --split-dir, --pick-glob, --method
+python3 pipeline/select_landmark.py shortlist --candidates src/candidates_leading_cited.json --per-field 70 --out src/d23/shortlist_cited.json --split-dir src/d23/cited          # 21:26: 70 + 70; dropped off_field 183, tool_title 45, in_corpus 14
+python3 pipeline/select_landmark.py shortlist --candidates src/candidates_leading.json --per-field 120 --sample-seed 20261023005 --out src/d23/shortlist_pool.json --split-dir src/d23/pool   # 120 + 120; dropped off_field 1090, tool_title 175, in_corpus 33
+# 4 curation agents (Opus 4.8, extra effort; prompt curate-d23-v1) → src/d23/pick_cited_{rnadev,evodevo}.json (25 kept / 45 dropped each, 21:28–21:29),
+#   src/d23/pick_pool_{rnadev,evodevo}.json (55 kept / 65 dropped each, 21:30–21:31)
+cp src/corpus.json src/_corpus_v4_1192.json.bak
+python3 pipeline/select_landmark.py apply --candidates src/candidates_leading_cited.json --pick-glob "src/d23/pick_cited_*.json" --label d23-leading-cited --n 25 --method "…"   # +50 (evodevo 25, smallrna 25)
+python3 pipeline/select_landmark.py apply --candidates src/candidates_leading.json --pick-glob "src/d23/pick_pool_*.json" --label d23-leading-pool --n 55 --method "…"            # +103 (evodevo 51, smallrna 52; 7 pool picks already present) → corpus 1345
+python3 pipeline/make_batches.py gen --size 10 --start 1192 --first-batch 54      # 21:31: gen_54 … gen_69 (16 batches)
+# page (21:28): FIELD evodevo; "Leading journals" chip (filt.source = leading ↔ data.json tier); About paragraph on the list; Instagram hint removed;
+#   prefs.titleFirst default true. build_site.py: journals.display() for names, tier per item, header.leading_journals / n_leading
+python3 pipeline/build_site.py --repo-url https://github.com/kuzmanconsulting/abstract-game    # 462 leading of 946 journal abstracts (before the new slices)
+# tests: test_pipeline +2 (D23 query/field/journal post-filter; journals canon/display/tier), test_page +2 (leading-journals chip over 12 picks; title shown, hint gone) — 16 + 6 OK
+# validate.py --only <batch …> so each generator/checker validates its own file
+# 16 generator agents (Opus 4.8, extra effort, gen-v5, flip rule first-of-any-v3, chunked writes); gen_58 stopped by the classifier at once →
+python3 pipeline/split_batch.py gen_58 3                                           # 21:35: gen_58a (4), gen_58b (4), gen_58c (2), written one item at a time
+```
+
+## 2026-10-23 21:36–21:52 — D23 generation, checks, merge, deploy
+
+```bash
+# 16 generators done 21:36–21:45 (gen_54 … gen_69 incl. 58a/b/c); one generator replaced "AMP-activated protein kinase" in a statement after
+#   seeing the flip "AMP-repressed" → validate.py IDIOMS_V2 += amp-activated (no existing statement text contains it; v2/v3 compositions unchanged)
+python3 pipeline/validate.py gen --only gen_54 … gen_69            # 18 OK; 9 of 153 abstracts without a direction word (no contradicted item)
+python3 pipeline/make_batches.py check --passes A B C --seed 7     # +54 check batches (check_P_54 … check_P_69, 10 abstracts each; 68's three re-made after gen_68 completed)
+# 54 checker agents (Opus 4.8, extra effort, check-v1, chunked writes), 21:40–21:50, waves of ≤ 20; validate.py check --only <batch> by each agent
+python3 pipeline/validate.py gen ; python3 pipeline/validate.py check     # 89 gen files OK · 274 check files OK
+python3 pipeline/merge_checks.py --passes A B C                    # 21:50: 1344 generated · 3 excluded · 1340 kept · 5258 statements · dropped ill_formed 18, ambiguous 85, disagreement 1
+#   · pairwise 16070 agree / 22 differ (the 54 new checks: 0 differ) · D23 slice: 153 abstracts, 611 of 612 statements kept (1 ambiguous), 9 without a contradicted item
+python3 pipeline/build_site.py --repo-url https://github.com/kuzmanconsulting/abstract-game   # 1340 / 5258, years 2016–2026, leading 615 of 1098 journal abstracts (61 journals)
+python3 -m unittest discover -s tests                              # 22 OK (16 pipeline + 6 page)
+# delivery: tar (no .git, no src/_bak) → split 24 MB → device_commit_files → on the Mac: cat _incoming4.* > _incoming4.tgz; tar --overwrite -xzf … --strip-components=1
+```
+

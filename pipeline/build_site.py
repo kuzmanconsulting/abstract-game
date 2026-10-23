@@ -14,17 +14,20 @@ from datetime import datetime, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
+sys.path.insert(0, HERE)
+import journals  # noqa: E402  (pipeline/journals.py: the leading-journal list and display names, D23)
 ITEMS = os.path.join(ROOT, "src", "items.json")
 OUT = os.path.join(ROOT, "docs", "data.json")        # GitHub Pages (branch deploy) serves only / or /docs
 # PubMed's catalogue title for the picker and the citation; the corpus keeps the raw string
-JOURNAL_DISPLAY = {"Science (New York, N.Y.)": "Science"}
+JOURNAL_DISPLAY = {"Science (New York, N.Y.)": "Science"}     # superseded by journals.display() (D23); kept for the header's top_journals
 PUBLIC_ITEM = ("n", "id", "field", "source", "server", "pmid", "doi", "title", "authors", "journal", "year", "date", "url", "doi_url", "sections", "added")
 PUBLIC_STATEMENT = ("k", "text", "label", "evidence", "note", "agreement")
 
 
 def public(item):
     out = {k: item.get(k) for k in PUBLIC_ITEM}
-    out["journal"] = JOURNAL_DISPLAY.get(out.get("journal"), out.get("journal"))
+    out["journal"] = journals.display(out["journal"]) if out.get("journal") else out.get("journal")
+    out["tier"] = "leading" if item.get("source") == "journal" and journals.is_leading(item.get("journal")) else None   # D23: the page's "Leading journals" filter
     out["statements"] = [{k: s.get(k) for k in PUBLIC_STATEMENT} for s in item["statements"]]
     for s, src in zip(out["statements"], item["statements"]):
         if src.get("alter"):
@@ -67,7 +70,9 @@ def build(items_path=ITEMS, out_path=OUT, repo_url=None):
               "years": ("%d–%d" % (years[0], years[-1])) if years else None,
               "merged_utc": doc["header"].get("merged_utc"), "passes": doc["header"].get("passes"), "rule": doc["header"].get("rule"),
               "stats": doc["header"].get("stats"), "repo_url": repo_url, "site_url": site_url_from(repo_url),
-              "top_journals": sorted({JOURNAL_DISPLAY.get(it["journal"], it["journal"]) for it in doc["items"] if (it.get("added") or "").endswith("top2") or it.get("added") == "top-journals-2026-10-23"}) or None,
+              "top_journals": sorted({journals.display(it["journal"]) for it in doc["items"] if (it.get("added") or "").endswith("top2") or it.get("added") == "top-journals-2026-10-23"}) or None,
+              "leading_journals": sorted({it["journal"] for it in items if it.get("tier") == "leading"}),       # the curated list's members present in the corpus (D23)
+              "n_leading": sum(1 for it in items if it.get("tier") == "leading"),
               "sources": "Europe PMC (SRC:MED journal articles; SRC:PPR bioRxiv/medRxiv preprints)",
               "generation": "Claude, prompts gen-v1/gen-v2; three independent blind check passes check-v1 (pipeline/prompts/)"}
     with open(out_path, "w", encoding="utf-8") as f:

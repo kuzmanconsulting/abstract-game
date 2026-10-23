@@ -146,7 +146,6 @@ a.chip{text-decoration:none;display:inline-block}
       <a class="chip" id="shareSave" download="abstract-reader-score.png">Save image</a>
       <button type="button" class="chip" id="shareClose">Close</button>
     </div>
-    <p class="hint" id="shareHint">Instagram has no web endpoint for stories: save the image (or long-press it on a phone) and post it from the app, or use Share… on a phone and pick Instagram.</p>
   </section>
   <main id="main"></main>
   <footer class="foot">
@@ -164,13 +163,13 @@ a.chip{text-decoration:none;display:inline-block}
 "use strict";
 const $ = id => document.getElementById(id);
 const el = (tag, cls, text) => { const e=document.createElement(tag); if(cls) e.className=cls; if(text!=null) e.textContent=text; return e; };
-const FIELD = {cfdna:"cfDNA / liquid biopsy", te:"transposable elements", cancergen:"cancer genomics", evogen:"evolutionary genomics", smallrna:"small RNA / RNA biology"};
+const FIELD = {cfdna:"cfDNA / liquid biopsy", te:"transposable elements", cancergen:"cancer genomics", evogen:"evolutionary genomics", evodevo:"evo-devo / comparative genomics", smallrna:"small RNA / RNA biology"};
 const LABEL = {supported:"Supported", contradicted:"Contradicted", not_addressed:"Not addressed"};
 const LABEL_LONG = {supported:"the abstract states this or it follows directly", contradicted:"the abstract states something incompatible with this", not_addressed:"the abstract neither says nor rules this out"};
 const KEYS = ["supported","contradicted","not_addressed"];
 let DATA=null, items=[], cur=null, answers={}, revealed=false;
 let filt = {field:"all", source:"all", journal:"all"};
-let prefs = {titleFirst:false};
+let prefs = {titleFirst:true};   // the title is shown above the abstract unless turned off in About (Maja 21:24)
 let tally = {n:0, right:0, streak:0, best:0, byLabel:{supported:[0,0],contradicted:[0,0],not_addressed:[0,0]}};
 let seen = new Set();
 let saved = [];   // [{id, n, title, authors, journal, year, doi, url, source, saved_at}] — this browser only
@@ -179,7 +178,9 @@ const store = { get(k){ try{ return JSON.parse(localStorage.getItem(k)); }catch(
 let toastT=null; function toast(m){ const t=$("toast"); t.textContent=m; t.classList.add("show"); clearTimeout(toastT); toastT=setTimeout(()=>t.classList.remove("show"),2200); }
 
 function journalOf(it){ return it.journal || it.server || "—"; }
-function pool(){ return items.filter(it => (filt.field==="all"||it.field===filt.field) && (filt.source==="all"||it.source===filt.source) && (filt.journal==="all"||journalOf(it)===filt.journal)); }
+// source filter: all | journal | leading (journal articles from the curated leading-journal list, data.json tier, D23) | preprint
+function srcOk(it){ return filt.source==="all" || (filt.source==="leading" ? it.tier==="leading" : it.source===filt.source); }
+function pool(){ return items.filter(it => (filt.field==="all"||it.field===filt.field) && srcOk(it) && (filt.journal==="all"||journalOf(it)===filt.journal)); }
 function pick(){
   const p = pool(); if(!p.length) return null;
   const fresh = p.filter(it => !seen.has(it.id));
@@ -195,10 +196,12 @@ function renderFilters(){
   f.appendChild(mk("field","all","All fields"));
   Object.keys(FIELD).forEach(k=>{ if(items.some(it=>it.field===k)) f.appendChild(mk("field",k,FIELD[k])); });
   f.appendChild(el("span","sep"));
-  f.appendChild(mk("source","all","Journals + preprints")); f.appendChild(mk("source","journal","Journals")); f.appendChild(mk("source","preprint","Preprints"));
+  f.appendChild(mk("source","all","Journals + preprints")); f.appendChild(mk("source","journal","Journals"));
+  const lead = mk("source","leading","Leading journals"); lead.title = "Journal articles from the curated list of leading journals (see About)"; f.appendChild(lead);
+  f.appendChild(mk("source","preprint","Preprints"));
   // journal / server picker: every journal in the current field+source pool, with its count, most frequent first
   const counts = {};
-  items.filter(it => (filt.field==="all"||it.field===filt.field) && (filt.source==="all"||it.source===filt.source)).forEach(it => { const j=journalOf(it); counts[j]=(counts[j]||0)+1; });
+  items.filter(it => (filt.field==="all"||it.field===filt.field) && srcOk(it)).forEach(it => { const j=journalOf(it); counts[j]=(counts[j]||0)+1; });
   const names = Object.keys(counts).sort((a,b)=> counts[b]-counts[a] || a.localeCompare(b));
   if(filt.journal!=="all" && !counts[filt.journal]) filt.journal="all";
   const sel = el("select","jsel"); sel.id="journal"; sel.setAttribute("aria-label","Journal or preprint server");
@@ -396,7 +399,8 @@ function renderAbout(){
   [["abstracts", items.length], ["statements", items.reduce((a,it)=>a+it.statements.length,0)], ["unanimous checks", st.agreement ? Math.round(100*(st.agreement.unanimous||0)/Math.max(1,(st.agreement.unanimous||0)+(st.agreement.majority||0)))+"%" : "—"], ["years", h.years||"2023–2026"]].forEach(([l,n])=>{ const d=el("div"); d.appendChild(el("div","n",String(n))); d.appendChild(el("div","l",l)); grid.appendChild(d); });
   b.appendChild(grid);
   const fieldNames = Object.keys(FIELD).filter(k => items.some(it => it.field===k)).map(k => FIELD[k]);
-  const p2 = el("p"); p2.textContent = "A paper's field is the topic it was found under; because tumour evolution shares vocabulary with evolutionary genomics, a few papers sit at the edge of two fields. Sources: journal articles indexed in PubMed and bioRxiv/medRxiv preprints, "+(h.years||"2023–2026")+", in "+fieldNames.join(", ")+", fetched through Europe PMC"+(h.built?" on "+h.built.slice(0,10):"")+(h.top_journals ? "; a targeted share from "+h.top_journals.join(", ") : "")+". Abstracts are shown for reading practice, each with its citation and links; they remain the work of their authors and publishers. Preprints have not been peer-reviewed."; b.appendChild(p2);
+  const p2 = el("p"); p2.textContent = "A paper's field is the topic it was found under; because tumour evolution shares vocabulary with evolutionary genomics, and evo-devo with evolutionary genomics, a few papers sit at the edge of two fields. Sources: journal articles indexed in PubMed and bioRxiv/medRxiv preprints, "+(h.years||"2023–2026")+", in "+fieldNames.join(", ")+", fetched through Europe PMC"+(h.built?" on "+h.built.slice(0,10):"")+(h.top_journals ? "; a targeted share from "+h.top_journals.join(", ") : "")+". Abstracts are shown for reading practice, each with its citation and links; they remain the work of their authors and publishers. Preprints have not been peer-reviewed."; b.appendChild(p2);
+  if(h.leading_journals && h.leading_journals.length){ const pl = el("p"); pl.textContent = "\"Leading journals\" is a curated list of the fields' selective journals ("+h.n_leading+" abstracts here, from "+h.leading_journals.join(", ")+"), kept in the repository as pipeline/journals.py. It is not a bibliometric quartile: by SJR or JCR quartile, Scientific Reports, PLoS ONE and the MDPI and Frontiers titles also count as Q1."; b.appendChild(pl); }
   if(h.repo_url){ const p3=el("p"); p3.appendChild(document.createTextNode("A wrong label or a bad statement? ")); const a=el("a",null,"report it"); a.href=h.repo_url+"/issues"; a.target="_blank"; a.rel="noopener"; p3.appendChild(a); p3.appendChild(document.createTextNode(" with the DOI and the statement number.")); b.appendChild(p3); }
   const p35 = el("p"); p35.textContent = "Reading list: after the reveal, \"Save for reading\" (or the S key) keeps the paper in a list at the top of the page; copy it out as plain citations, BibTeX or RIS. The list lives in this browser only."; b.appendChild(p35);
   const p3b = el("p"); const tf=el("button","chip", prefs.titleFirst ? "Title shown before answering: on" : "Title shown before answering: off"); tf.type="button"; tf.id="titleFirst"; tf.setAttribute("aria-pressed", String(prefs.titleFirst));
@@ -416,7 +420,7 @@ document.addEventListener("keydown", e => {
 
 function start(){
   const savedF = store.get("ar.filt"); if(savedF && savedF.field) filt = Object.assign({field:"all",source:"all",journal:"all"}, savedF);
-  const savedP = store.get("ar.prefs"); if(savedP && typeof savedP.titleFirst==="boolean") prefs = Object.assign({titleFirst:false}, savedP);
+  const savedP = store.get("ar.prefs"); if(savedP && typeof savedP.titleFirst==="boolean") prefs = Object.assign({titleFirst:true}, savedP);
   const savedT = store.get("ar.tally"); if(savedT && typeof savedT.n==="number") tally = savedT;
   const savedS = store.get("ar.seen"); if(Array.isArray(savedS)) seen = new Set(savedS);
   const savedL = store.get("ar.saved"); if(Array.isArray(savedL)) saved = savedL.filter(x => x && x.id && x.title);

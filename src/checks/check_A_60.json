@@ -1,0 +1,73 @@
+{"batch": "check_A_60", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1252, "id": "pmid:37823232",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Pax7 modulates Mitf function, driving co-expressing cells to differentiate as xanthophores and leucophores rather than melanophores."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Pax7 modulates Mitf function, driving co-expressing cells to differentiate as xanthophores and leucophores rather than melanophores."},
+      {"j": 3, "label": "supported", "confidence": 2, "evidence": "Similarly, medaka Mitf is necessary for melanophore, xanthophore and leucophore formation."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Here, we show that the regulatory relationships between Sox10, Pax3 and Mitf are conserved in zebrafish, but the role for Mitf is more complex than previously emphasized, affecting xanthophore development too."}
+    ]},
+   {"n": 1253, "id": "pmid:35049502",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Through the identification of Xbp1-downstream notochord genes in Ciona , we found evidence of the early co-option of genes involved in the unfolded protein response to the notochord developmental program."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Here, we focus on Xbp1, a transcription factor expressed during notochord formation in Ciona and other chordates."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "we show that Brachyury and Xbp1 form a cross-regulatory subcircuit of the notochord gene regulatory network that has been consolidated during chordate evolution."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We report the regulatory interplay between Xbp1 and Brachyury, and by extending these results to Xenopus , we show"}
+    ]},
+   {"n": 1254, "id": "pmid:38502060",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "we conducted a large-scale characterization of CNEs in more than 50 genomes from three of the main branches of the metazoan tree: Cnidaria, Mollusca, and Arthropoda. We identified hundreds of thousands of CNEs"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We show that CNEs evolve repeatedly around the same genes across the Metazoa, including around homeodomain genes and other transcription factors; they also evolve repeatedly around genes involved in neural development."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We also show that transposons are a major source of CNEs, confirming previous observations from vertebrates"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "suggesting that they have played a major role in wiring developmental gene regulatory mechanisms since the dawn of animal evolution."}
+    ]},
+   {"n": 1255, "id": "pmid:39058500",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "By mapping ultraconserved elements to ∼200 species, we find that placental ultraconserved elements appeared early in vertebrate evolution, well before land colonization"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Ultraconserved elements are mainly located in the introns of protein-coding and noncoding genes involved in neurological and skeletomuscular development, enriched in regulatory elements"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Ultraconserved elements are mainly located in the introns of protein-coding and noncoding genes involved in neurological and skeletomuscular development"},
+      {"j": 4, "label": "supported", "confidence": 2, "evidence": "We suggest an updated definition of ultraconserved elements as sequences ≥ 100 bp and ≥97% sequence identity in ≥50% of placental mammal orders (12,813 ultraconserved elements)."}
+    ]},
+   {"n": 1256, "id": "pmid:39665685",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Using Bombyx mori as a model organism, we integrated evolutionary analysis, multiomics, and in vivo functional experiments"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Notably, duplicated ApoD2 was highly expressed in lepidopteran wings and encoded a unique C-terminal tail, conferring distinct ligand-binding properties."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "to elucidate the way duplicated ApoD2 mediates lipid trafficking and homeostasis via the AMP-activated protein kinase pathway in wings."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "ApoD underwent significant expansion in insects, with gene duplication and consistent retention observed in Lepidoptera."}
+    ]},
+   {"n": 1257, "id": "pmid:30858588",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "High-quality genomes of 13 closely related Oryza species provide unprecedented opportunities to understand de novo origination events."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "we detected at least 175 de novo open reading frames in the focal species O. sativa subspecies japonica, which were all detected in RNA sequencing-based transcriptomes."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "These data reveal that de novo genes contribute to the rapid evolution of protein diversity under positive selection."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Mass spectrometry-based targeted proteomics and ribosomal profiling show translational evidence for 57% of the de novo genes."}
+    ]},
+   {"n": 1258, "id": "pmid:33504782",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "these transcripts show similar expression changes in response to stress as their overlapping counterparts, and some appear to translate small proteins."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "We find that about half of the de novo transcripts are expressed from regions which already harbor other genes in the opposite orientation"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Here, we identify 213 de novo originated transcripts in Saccharomyces cerevisiae using deep transcriptomics and genomic synteny information from multiple yeast species grown in two different conditions."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "and some appear to translate small proteins."}
+    ]},
+   {"n": 1259, "id": "pmid:34478447",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "atlas is required for proper chromatin condensation during the final stages of spermatogenesis. Atlas protein is expressed in spermatid nuclei and facilitates the transition from histone- to protamine-based chromatin packaging."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Within the last ~15 million years, however, the gene moved to an autosome, where it fused with a conserved non-coding RNA and evolved a non-redundant role in male fertility."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "we conducted a functional genetic screen of over 40 putative de novo genes with testis-enriched expression in Drosophila melanogaster and identified one gene, atlas, required for male fertility."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "identified one gene, atlas, required for male fertility."}
+    ]},
+   {"n": 1260, "id": "pmid:37945946",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "We identified ~2,000 genes that could promote growth, probably by reducing transcription from the promoter driving toxin expression."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "one random protein, named Random antitoxin of MazF (RamF), modulated protein homeostasis by interacting with chaperones, leading to MazF proteolysis and a consequent loss of its toxicity."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "we demonstrate that random proteins can improve during evolution by identifying beneficial mutations that turned RamF into a more efficient inhibitor."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Our work provides a mechanistic basis for how de novo gene birth can produce functional proteins that effectively benefit cells evolving under stress."}
+    ]},
+   {"n": 1261, "id": "pmid:40106667",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We report a large number of previously undiscovered de novo gene candidates, most of which are expressed polymorphically. Many are predicted to code for secreted proteins."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "a fraction of rarely expressed gene candidates in this population represent deleterious transcription promoted by inbreeding depression."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "In spite of much different levels of genomic variation in Zambian and North American populations, they express similar numbers of candidate de novo genes."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Many are predicted to code for secreted proteins."}
+    ]}
+ ]}
