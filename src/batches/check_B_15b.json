@@ -1,0 +1,451 @@
+{
+"batch": "check_B_15b",
+"pass": "B",
+"source_batch": "gen_15b",
+"items": [
+{
+"n": 537,
+"id": "pmid:40156647",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Wilm's tumor 1-associated protein (WTAP) is a critical component of the methyltransferase complex responsible for N6-methyladenosine (m6A) modification in RNA. This modification is involved in various cancer-related biological processes. However, the precise role of WTAP in tumor cell cycle regulation and immune responses remains poorly understood."
+},
+{
+"label": "Methods",
+"text": "A comprehensive analysis was conducted using multi-database resources to investigate the role of WTAP in tumorigenesis. Data from 33 tumor types were collected from the Genotype-Tissue Expression (GTEx), The Cancer Genome Atlas (TCGA), and Cancer Cell Line Encyclopedia (CCLE) databases. Correlations between WTAP expression and prognosis, immune microenvironment, immune neoantigens, immune checkpoint molecules, tumor mutation burden (TMB), and microsatellite instability (MSI) were analyzed. Additionally, Gene Set Enrichment Analysis (GSEA) was performed to explore the signaling pathways associated with WTAP expression."
+},
+{
+"label": "Results",
+"text": "Pan-cancer analysis revealed differential expression of WTAP across multiple tumor types compared to normal tissues. High WTAP expression was significantly associated with poor prognosis in adrenocortical carcinoma (ACC), brain lower-grade glioma (LGG), liver hepatocellular carcinoma (LIHC), and ovarian serous cystadenocarcinoma (OV). In contrast, low WTAP expression correlated with improved survival in skin cutaneous melanoma (SKCM) and thymoma (THYM). WTAP expression demonstrated a positive correlation with immune cell infiltration, including B cells, CD4 + T cells, CD8 + T cells, dendritic cells, macrophages, and neutrophils. Additionally, WTAP expression was positively associated with stromal, immune, and overall immune estimate scores. No significant association was identified between WTAP expression and immune neoantigen counts. However, WTAP expression correlated with the expression of most common immune checkpoint genes, DNA mismatch repair genes, and DNA methyltransferases. Furthermore, WTAP expression significantly influenced TMB and MSI levels. GSEA indicated that WTAP predominantly contributes to cell cycle regulation, thereby promoting tumorigenesis."
+},
+{
+"label": "Conclusion",
+"text": "WTAP is a potential immune-related prognostic biomarker in malignancies. Its role in regulating the cell cycle and immune microenvironment highlights its influence on tumor development and progression."
+}
+],
+"text": "Wilm's tumor 1-associated protein (WTAP) is a critical component of the methyltransferase complex responsible for N6-methyladenosine (m6A) modification in RNA. This modification is involved in various cancer-related biological processes. However, the precise role of WTAP in tumor cell cycle regulation and immune responses remains poorly understood. A comprehensive analysis was conducted using multi-database resources to investigate the role of WTAP in tumorigenesis. Data from 33 tumor types were collected from the Genotype-Tissue Expression (GTEx), The Cancer Genome Atlas (TCGA), and Cancer Cell Line Encyclopedia (CCLE) databases. Correlations between WTAP expression and prognosis, immune microenvironment, immune neoantigens, immune checkpoint molecules, tumor mutation burden (TMB), and microsatellite instability (MSI) were analyzed. Additionally, Gene Set Enrichment Analysis (GSEA) was performed to explore the signaling pathways associated with WTAP expression. Pan-cancer analysis revealed differential expression of WTAP across multiple tumor types compared to normal tissues. High WTAP expression was significantly associated with poor prognosis in adrenocortical carcinoma (ACC), brain lower-grade glioma (LGG), liver hepatocellular carcinoma (LIHC), and ovarian serous cystadenocarcinoma (OV). In contrast, low WTAP expression correlated with improved survival in skin cutaneous melanoma (SKCM) and thymoma (THYM). WTAP expression demonstrated a positive correlation with immune cell infiltration, including B cells, CD4 + T cells, CD8 + T cells, dendritic cells, macrophages, and neutrophils. Additionally, WTAP expression was positively associated with stromal, immune, and overall immune estimate scores. No significant association was identified between WTAP expression and immune neoantigen counts. However, WTAP expression correlated with the expression of most common immune checkpoint genes, DNA mismatch repair genes, and DNA methyltransferases. Furthermore, WTAP expression significantly influenced TMB and MSI levels. GSEA indicated that WTAP predominantly contributes to cell cycle regulation, thereby promoting tumorigenesis. WTAP is a potential immune-related prognostic biomarker in malignancies. Its role in regulating the cell cycle and immune microenvironment highlights its influence on tumor development and progression.",
+"statements": [
+{
+"j": 1,
+"text": "Tumours with high WTAP levels had worse prognosis in adrenocortical carcinoma, higher-grade glioma, hepatocellular carcinoma and ovarian serous cystadenocarcinoma."
+},
+{
+"j": 2,
+"text": "WTAP expression rose together with infiltration of B cells, CD4+ and CD8+ T cells, dendritic cells, macrophages and neutrophils."
+},
+{
+"j": 3,
+"text": "Melanoma and thymoma run the other way: patients with low WTAP expression survived longer in those two tumour types."
+},
+{
+"j": 4,
+"text": "Knocking down WTAP in tumour cell lines slowed their proliferation."
+}
+]
+},
+{
+"n": 538,
+"id": "pmid:41222766",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "BACKGROUND: This study explores the role of 5mC regulatory genes in head and neck squamous cell carcinoma (HNSCC), focusing on their association with tumor progression, metastasis, and prognosis. A prognostic model was also developed to predict patient survival. MATERIALS AND METHODS: Using expression profile data from the GEO and TCGA databases, the study analyzed the differential expression of 5mC-related genes, their connection with somatic mutations, and their impact on the immune microenvironment. A prognostic risk model based on these genes was constructed through the differential expression of 5mC-related genes. RESULTS: (1) Several 5mC regulatory factors were found to be abnormally expressed in HNSCC, with a significant association with somatic mutations. (2) Different 5mC methylation regulation patterns showed variations in immune infiltration, immune checkpoint expression, tumor mutation burden, and cancer stem cell gene set expression, potentially influencing immunotherapy effectiveness and prognosis. (3) Prognosis-related risk genes, such as DNMT1 and TET2, were identified as predictors of survival outcomes in HNSCC patients. CONCLUSIONS: The methylation patterns of 5mC regulatory factors are critical in HNSCC progression and are closely linked to tumor microenvironment infiltration. These findings offer new perspectives for treatment strategies and prognosis prediction in HNSCC."
+}
+],
+"text": "BACKGROUND: This study explores the role of 5mC regulatory genes in head and neck squamous cell carcinoma (HNSCC), focusing on their association with tumor progression, metastasis, and prognosis. A prognostic model was also developed to predict patient survival. MATERIALS AND METHODS: Using expression profile data from the GEO and TCGA databases, the study analyzed the differential expression of 5mC-related genes, their connection with somatic mutations, and their impact on the immune microenvironment. A prognostic risk model based on these genes was constructed through the differential expression of 5mC-related genes. RESULTS: (1) Several 5mC regulatory factors were found to be abnormally expressed in HNSCC, with a significant association with somatic mutations. (2) Different 5mC methylation regulation patterns showed variations in immune infiltration, immune checkpoint expression, tumor mutation burden, and cancer stem cell gene set expression, potentially influencing immunotherapy effectiveness and prognosis. (3) Prognosis-related risk genes, such as DNMT1 and TET2, were identified as predictors of survival outcomes in HNSCC patients. CONCLUSIONS: The methylation patterns of 5mC regulatory factors are critical in HNSCC progression and are closely linked to tumor microenvironment infiltration. These findings offer new perspectives for treatment strategies and prognosis prediction in HNSCC.",
+"statements": [
+{
+"j": 1,
+"text": "Tumours differing in 5mC methylation regulation pattern also differed in immune infiltration, immune checkpoint expression, tumour mutation burden and cancer stem cell gene set expression."
+},
+{
+"j": 2,
+"text": "Expression of 5mC regulatory genes in HNSCC differs between anatomical subsites such as oral cavity and larynx."
+},
+{
+"j": 3,
+"text": "DNMT1 and TET2 were among the prognosis-related risk genes that predicted survival outcomes in HNSCC patients."
+},
+{
+"j": 4,
+"text": "A number of 5mC regulatory factors were expressed abnormally in head and neck squamous cell carcinoma, and that abnormality was significantly linked to somatic mutations."
+}
+]
+},
+{
+"n": 539,
+"id": "doi:10.1101/2025.08.05.668479",
+"year": 2025,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "DNASE1L3 is a key endonuclease, essential for proper fragmentation and clearance of cell-free DNA (cfDNA). The p.R206C common variant impairs DNASE1L3 secretion and activity, causing aberrant cfDNA fragmentation and therefore affecting liquid biopsy-based screening and diagnostics. Existing studies on DNASE1L3 relied on resource-intensive murine models or plasmid-based overexpression, which do not accurately represent native expression. To address this, we developed an isogenic HEK293T cell line model by using CRISPR Prime Editing for endogenous expression of DNASE1L3 R206C . We analyzed the cfDNA composition directly from conditioned culture medium and found that fragment size distributions in mutant cells mimics the hypofragmented profiles previously observed in plasma samples from p.R206C carriers. We also showed that in vitro treatment of hypofragmented cfDNA with recombinant wildtype DNASE1L3 could enrich for mononucleosomal fragments, with fragment end-motifs characteristic of DNASE1L3 cleavage activity. This could open avenues for DNASE1L3 as a candidate pre-treatment agent to improve the accuracy and efficiency of cfDNA sequencing-based diagnostics in hypofragmented liquid biopsies. These findings demonstrate that our isogenic cell line model provides a controlled system to study cfDNA fragmentation biology and DNASE1L3 function."
+}
+],
+"text": "DNASE1L3 is a key endonuclease, essential for proper fragmentation and clearance of cell-free DNA (cfDNA). The p.R206C common variant impairs DNASE1L3 secretion and activity, causing aberrant cfDNA fragmentation and therefore affecting liquid biopsy-based screening and diagnostics. Existing studies on DNASE1L3 relied on resource-intensive murine models or plasmid-based overexpression, which do not accurately represent native expression. To address this, we developed an isogenic HEK293T cell line model by using CRISPR Prime Editing for endogenous expression of DNASE1L3 R206C . We analyzed the cfDNA composition directly from conditioned culture medium and found that fragment size distributions in mutant cells mimics the hypofragmented profiles previously observed in plasma samples from p.R206C carriers. We also showed that in vitro treatment of hypofragmented cfDNA with recombinant wildtype DNASE1L3 could enrich for mononucleosomal fragments, with fragment end-motifs characteristic of DNASE1L3 cleavage activity. This could open avenues for DNASE1L3 as a candidate pre-treatment agent to improve the accuracy and efficiency of cfDNA sequencing-based diagnostics in hypofragmented liquid biopsies. These findings demonstrate that our isogenic cell line model provides a controlled system to study cfDNA fragmentation biology and DNASE1L3 function.",
+"statements": [
+{
+"j": 1,
+"text": "Treating hypofragmented cfDNA in vitro with recombinant wild-type DNASE1L3 enriched mononucleosomal fragments and left end-motifs characteristic of DNASE1L3 cleavage."
+},
+{
+"j": 2,
+"text": "The model is an isogenic HEK293T line made by CRISPR prime editing, so that R206C DNASE1L3 is expressed from the endogenous locus rather than a plasmid."
+},
+{
+"j": 3,
+"text": "Pre-treating plasma from p.R206C carriers with DNASE1L3 improved detection of tumour variants in a cancer cohort."
+},
+{
+"j": 4,
+"text": "cfDNA taken from the mutant cells' culture medium had size distributions resembling the hypofragmented profiles reported later in plasma of p.R206C carriers."
+}
+]
+},
+{
+"n": 540,
+"id": "pmid:37267947",
+"year": 2023,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "To spread, transposons must integrate into target sites without disruption of essential genes while avoiding host defense systems. Tn7-like transposons employ multiple mechanisms for target-site selection, including protein-guided targeting and, in CRISPR-associated transposons (CASTs), RNA-guided targeting. Combining phylogenomic and structural analyses, we conducted a broad survey of target selectors, revealing diverse mechanisms used by Tn7 to recognize target sites, including previously uncharacterized target-selector proteins found in newly discovered transposable elements (TEs). We experimentally characterized a CAST I-D system and a Tn6022-like transposon that uses TnsF, which contains an inactivated tyrosine recombinase domain, to target the comM gene. Additionally, we identified a non-Tn7 transposon, Tsy, encoding a homolog of TnsF with an active tyrosine recombinase domain, which we show also inserts into comM. Our findings show that Tn7 transposons employ modular architecture and co-opt target selectors from various sources to optimize target selection and drive transposon spread."
+}
+],
+"text": "To spread, transposons must integrate into target sites without disruption of essential genes while avoiding host defense systems. Tn7-like transposons employ multiple mechanisms for target-site selection, including protein-guided targeting and, in CRISPR-associated transposons (CASTs), RNA-guided targeting. Combining phylogenomic and structural analyses, we conducted a broad survey of target selectors, revealing diverse mechanisms used by Tn7 to recognize target sites, including previously uncharacterized target-selector proteins found in newly discovered transposable elements (TEs). We experimentally characterized a CAST I-D system and a Tn6022-like transposon that uses TnsF, which contains an inactivated tyrosine recombinase domain, to target the comM gene. Additionally, we identified a non-Tn7 transposon, Tsy, encoding a homolog of TnsF with an active tyrosine recombinase domain, which we show also inserts into comM. Our findings show that Tn7 transposons employ modular architecture and co-opt target selectors from various sources to optimize target selection and drive transposon spread.",
+"statements": [
+{
+"j": 1,
+"text": "The phylogenomic and structural survey of target selectors turned up target-selector proteins not previously characterised, carried by newly discovered transposable elements."
+},
+{
+"j": 2,
+"text": "A Tn6022-like transposon targets the comM gene through TnsF, a protein whose tyrosine recombinase domain is inactivated."
+},
+{
+"j": 3,
+"text": "Tsy, a transposon outside the Tn7 family, encodes a TnsF homolog with an intact tyrosine recombinase domain and also inserts into comM."
+},
+{
+"j": 4,
+"text": "RNA-guided targeting in CRISPR-associated transposons is more specific than the protein-guided targeting used by other Tn7 elements."
+}
+]
+},
+{
+"n": 541,
+"id": "doi:10.64898/2026.05.21.725073",
+"year": 2026,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "Cutaneous squamous cell carcinoma (cSCC) is among the most common human cancers, yet the cellular identity and molecular programs of its preinvasive precursor, actinic keratosis (AK), remains poorly defined."
+},
+{
+"label": "Methods",
+"text": "We applied CITE-seq to patient-matched AK, UV-exposed normal skin, and non-UV-exposed normal skin (n=5 patients, 12 biopsies) and performed spatial whole-transcriptome profiling in an independent cohort (n=4) to map pre-invasive keratinocyte states at single-cell resolution."
+},
+{
+"label": "Results",
+"text": "We identify AK-specific keratinocytes (ASK), a discrete population localized to the dysplastic basal epidermis and characterized by UV-associated mutational signatures (SBS7b), high mutational burden, and recurrent copy number alterations including 9p loss and 8q gain. ASK occupies a basal-like undifferentiated state sustained by a ΔNp63/PITX1 regulatory module that attenuates Notch/HES1-driven differentiation and activates glycolytic metabolism. Comparison with published cSCC data reveals that ASK share core tumor-propagating gene networks with tumor-specific keratinocytes (TSK), including IGFBP6, IGFBP2, and ITGA6, but lack invasion effectors MMP1, MMP10, and PTHLH. Functional experiments identify IGFBP6 as a pro-proliferative factor in AK-derived keratinocytes. The AK microenvironment shows expansion of inflammatory basal keratinocytes, barrier disruption, and early immunosuppressive T cell remodeling."
+},
+{
+"label": "Conclusions",
+"text": "These findings define the molecular identity of a pre-invasive malignant keratinocyte population governed by p63/PITX1 and distinguish early oncogenic programs shared with invasive cSCC from later-acquired invasion effectors, identifying candidate targets for prevention or treatment of squamous cell carcinoma."
+}
+],
+"text": "Cutaneous squamous cell carcinoma (cSCC) is among the most common human cancers, yet the cellular identity and molecular programs of its preinvasive precursor, actinic keratosis (AK), remains poorly defined. We applied CITE-seq to patient-matched AK, UV-exposed normal skin, and non-UV-exposed normal skin (n=5 patients, 12 biopsies) and performed spatial whole-transcriptome profiling in an independent cohort (n=4) to map pre-invasive keratinocyte states at single-cell resolution. We identify AK-specific keratinocytes (ASK), a discrete population localized to the dysplastic basal epidermis and characterized by UV-associated mutational signatures (SBS7b), high mutational burden, and recurrent copy number alterations including 9p loss and 8q gain. ASK occupies a basal-like undifferentiated state sustained by a ΔNp63/PITX1 regulatory module that attenuates Notch/HES1-driven differentiation and activates glycolytic metabolism. Comparison with published cSCC data reveals that ASK share core tumor-propagating gene networks with tumor-specific keratinocytes (TSK), including IGFBP6, IGFBP2, and ITGA6, but lack invasion effectors MMP1, MMP10, and PTHLH. Functional experiments identify IGFBP6 as a pro-proliferative factor in AK-derived keratinocytes. The AK microenvironment shows expansion of inflammatory basal keratinocytes, barrier disruption, and early immunosuppressive T cell remodeling. These findings define the molecular identity of a pre-invasive malignant keratinocyte population governed by p63/PITX1 and distinguish early oncogenic programs shared with invasive cSCC from later-acquired invasion effectors, identifying candidate targets for prevention or treatment of squamous cell carcinoma.",
+"statements": [
+{
+"j": 1,
+"text": "ASK share tumour-propagating networks including IGFBP6, IGFBP2 and ITGA6 with cSCC tumour-specific keratinocytes, but lack the invasion effectors MMP1, MMP10 and PTHLH."
+},
+{
+"j": 2,
+"text": "Actinic keratosis lesions containing more AK-specific keratinocytes progress to invasive cSCC more often than lesions with fewer."
+},
+{
+"j": 3,
+"text": "AK-specific keratinocytes form a discrete population in the dysplastic basal epidermis carrying the SBS7b UV signature, high mutational burden, and recurrent 9p loss and 8q gain."
+},
+{
+"j": 4,
+"text": "IGFBP6 acted as a pro-proliferative factor in keratinocytes derived from actinic keratosis."
+}
+]
+},
+{
+"n": 542,
+"id": "pmid:41318499",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Oral squamous cell carcinoma (OSCC) poses significant challenges with its obscure etiology and poor prognosis. Intratumoral bacteria exert a significant influence on the progression of OSCC. Nonetheless, the precise composition and role of the intratumoral bacteria in OSCC patients remain obscure and the association between the intratumoral bacteria and somatic mutational signatures in OSCC patients has not been defined."
+},
+{
+"label": "Methods",
+"text": "Paraffin-embedded tumors and adjacent normal tissues were collected retrospectively from OSCC patients. A five-region 16S rRNA gene sequencing (5R 16S rRNA-seq) approach (targeting V2, V3, V5, V6, and V8) was employed to characterize the intratumoral bacterial composition of OSCC patients, while whole-exome sequencing (WES) was utilized to identify the somatic mutational signatures of OSCC patients. Then, the multi-omics data were integrated to uncover the association between intratumoral bacterial composition and somatic mutational signatures in OSCC patients. Key findings were validated using fluorescence in situ hybridization (FISH) on tissue microarrays."
+},
+{
+"label": "Results",
+"text": "We found significant differences in bacterial profiles between tumors and adjacent normal tissues. The diversity of the bacteria was less within tumor tissues and anaerobic bacteria and periodontopathogens (e.g., Dialister pneumosintes and Prevotella intermedia) were more prevalent in tumor tissues. And the presence of Dialister pneumosintes within tumor tissues is associated with poorer short-term disease-free survival in OSCC patients. The integrated analysis of the 5R 16S rRNA-seq and WES data revealed that tumor mutation burden was positively correlated with the α diversity of the intratumoral bacteria in OSCC patients."
+},
+{
+"label": "Conclusion",
+"text": "This study utilized a multi-omics approach to elucidate the characteristics of the intratumoral bacteria and somatic mutational signatures in OSCC patients, revealing the intricate relationships between these elements. These findings pave the way for hypothesis-driven research aiming to further elucidate the role of the intratumoral bacteria in OSCC."
+}
+],
+"text": "Oral squamous cell carcinoma (OSCC) poses significant challenges with its obscure etiology and poor prognosis. Intratumoral bacteria exert a significant influence on the progression of OSCC. Nonetheless, the precise composition and role of the intratumoral bacteria in OSCC patients remain obscure and the association between the intratumoral bacteria and somatic mutational signatures in OSCC patients has not been defined. Paraffin-embedded tumors and adjacent normal tissues were collected retrospectively from OSCC patients. A five-region 16S rRNA gene sequencing (5R 16S rRNA-seq) approach (targeting V2, V3, V5, V6, and V8) was employed to characterize the intratumoral bacterial composition of OSCC patients, while whole-exome sequencing (WES) was utilized to identify the somatic mutational signatures of OSCC patients. Then, the multi-omics data were integrated to uncover the association between intratumoral bacterial composition and somatic mutational signatures in OSCC patients. Key findings were validated using fluorescence in situ hybridization (FISH) on tissue microarrays. We found significant differences in bacterial profiles between tumors and adjacent normal tissues. The diversity of the bacteria was less within tumor tissues and anaerobic bacteria and periodontopathogens (e.g., Dialister pneumosintes and Prevotella intermedia) were more prevalent in tumor tissues. And the presence of Dialister pneumosintes within tumor tissues is associated with poorer short-term disease-free survival in OSCC patients. The integrated analysis of the 5R 16S rRNA-seq and WES data revealed that tumor mutation burden was positively correlated with the α diversity of the intratumoral bacteria in OSCC patients. This study utilized a multi-omics approach to elucidate the characteristics of the intratumoral bacteria and somatic mutational signatures in OSCC patients, revealing the intricate relationships between these elements. These findings pave the way for hypothesis-driven research aiming to further elucidate the role of the intratumoral bacteria in OSCC.",
+"statements": [
+{
+"j": 1,
+"text": "Intratumoral bacterial composition differed between smokers and non-smokers in this OSCC cohort."
+},
+{
+"j": 2,
+"text": "Patients whose tumour tissue contained Dialister pneumosintes had poorer short-term disease-free survival."
+},
+{
+"j": 3,
+"text": "Tumour mutation burden decreased with the alpha diversity of intratumoral bacteria in the OSCC patients studied."
+},
+{
+"j": 4,
+"text": "Bacterial diversity inside tumour tissue was lower, while anaerobes and periodontopathogens such as Dialister pneumosintes and Prevotella intermedia were more prevalent there."
+}
+]
+},
+{
+"n": 543,
+"id": "pmid:39536081",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "While increased mutation rates typically have negative consequences in multicellular organisms, hypermutation can be advantageous for microbes adapting to the environment. Previously, we identified two hypermutator Cryptococcus neoformans clinical isolates that rapidly develop drug resistance due to transposition of a retrotransposon, Cnl1. Cnl1-mediated hypermutation is caused by a nonsense mutation in a gene encoding an RNA interference (RNAi) component, ZNF3 , combined with a tremendous transposon burden. To elucidate adaptive mechanisms following RNAi loss, two bioinformatic pipelines were developed to identify RNAi loss-of-function (LOF) mutations in a collection of 387 sequenced C. neoformans isolates. Remarkably, several RNAi-loss isolates were identified that are not hypermutators and have not accumulated transposons. To test whether these RNAi LOF mutations can cause hypermutation, the mutations were introduced into a nonhypermutator strain with a high transposon burden, which resulted in a hypermutator phenotype. To further investigate whether RNAi-loss isolates can become hypermutators, in vitro passaging was performed. Although no hypermutators were found in two C. neoformans RNAi-loss strains after short-term passage, hypermutation was observed in a passaged Cryptococcus deneoformans strain with an increased transposon burden. Consistent with a two-step evolution, when an RNAi-loss isolate was crossed with an isolate containing a high Cnl1 burden, F1 hypermutator progeny inheriting a high transposon burden were identified. In addition to Cnl1 transpositions, insertions of a gigantic DNA transposon KDZ1 (~11 kb) contributed to hypermutation in the progeny. Our results suggest that RNAi loss is relatively common (7/387, ~1.8%) and enables distinct evolutionary trajectories: hypermutation following transposon accumulation or survival without hypermutation."
+}
+],
+"text": "While increased mutation rates typically have negative consequences in multicellular organisms, hypermutation can be advantageous for microbes adapting to the environment. Previously, we identified two hypermutator Cryptococcus neoformans clinical isolates that rapidly develop drug resistance due to transposition of a retrotransposon, Cnl1. Cnl1-mediated hypermutation is caused by a nonsense mutation in a gene encoding an RNA interference (RNAi) component, ZNF3 , combined with a tremendous transposon burden. To elucidate adaptive mechanisms following RNAi loss, two bioinformatic pipelines were developed to identify RNAi loss-of-function (LOF) mutations in a collection of 387 sequenced C. neoformans isolates. Remarkably, several RNAi-loss isolates were identified that are not hypermutators and have not accumulated transposons. To test whether these RNAi LOF mutations can cause hypermutation, the mutations were introduced into a nonhypermutator strain with a high transposon burden, which resulted in a hypermutator phenotype. To further investigate whether RNAi-loss isolates can become hypermutators, in vitro passaging was performed. Although no hypermutators were found in two C. neoformans RNAi-loss strains after short-term passage, hypermutation was observed in a passaged Cryptococcus deneoformans strain with an increased transposon burden. Consistent with a two-step evolution, when an RNAi-loss isolate was crossed with an isolate containing a high Cnl1 burden, F1 hypermutator progeny inheriting a high transposon burden were identified. In addition to Cnl1 transpositions, insertions of a gigantic DNA transposon KDZ1 (~11 kb) contributed to hypermutation in the progeny. Our results suggest that RNAi loss is relatively common (7/387, ~1.8%) and enables distinct evolutionary trajectories: hypermutation following transposon accumulation or survival without hypermutation.",
+"statements": [
+{
+"j": 1,
+"text": "The RNAi-loss isolates that are not hypermutators grow more slowly than isolates with intact RNAi."
+},
+{
+"j": 2,
+"text": "Screening 387 sequenced C. neoformans isolates found RNAi loss-of-function mutations in 7 of them, roughly 1.8%."
+},
+{
+"j": 3,
+"text": "Moving the RNAi loss-of-function mutations into a non-hypermutator strain that already carried a high transposon burden produced a hypermutator phenotype."
+},
+{
+"j": 4,
+"text": "Crossing an RNAi-loss isolate with one carrying a high Cnl1 burden produced F1 hypermutator progeny that had inherited the large transposon load."
+}
+]
+},
+{
+"n": 544,
+"id": "pmid:42114450",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Hepatocellular carcinoma (HCC) is the most common form of liver cancer and a major cause of cancer-related deaths worldwide. Despite the wealth of genomics data, treatment and prognosis are still dependent on clinical and pathological factors. The molecular heterogeneity characterizing HCC is denoted by the different etiology and the related array of signaling pathways involved in tumor initiation and progression. Aberrant activation of the Wnt/β-catenin pathway is among the most frequent alterations in HCC, and stems from somatic mutations, functional over-activity of the transcription machinery and epigenetic cues."
+},
+{
+"label": "Methods",
+"text": "Targeted DNA and RNA sequencing were combined to investigate the Wnt/β-catenin pathway and the effects of its dysregulation in the TCGA HCC cohort. For external validation, an independent cohort of78 Caucasian patients affected by HCC was used."
+},
+{
+"label": "Results",
+"text": "We have identified a Wnt/β-catenin-related transcriptional signature denoting pathway activity regardless of the presence of pathway-related activating mutations. This model predicts survival outcomes in two independent cohorts of HCC patients (TCGA cohort, N = 177; Rome cohort, N78) and is associated with distinctive immunogenomic features."
+},
+{
+"label": "Conclusions",
+"text": "A non-genetic state recapitulating the transcriptional footprint associated with CTNNB1 mutation identifies wild-type HCCs characterized by unfavorable survival outcomes and immune-excluded tumor immune microenvironment."
+}
+],
+"text": "Hepatocellular carcinoma (HCC) is the most common form of liver cancer and a major cause of cancer-related deaths worldwide. Despite the wealth of genomics data, treatment and prognosis are still dependent on clinical and pathological factors. The molecular heterogeneity characterizing HCC is denoted by the different etiology and the related array of signaling pathways involved in tumor initiation and progression. Aberrant activation of the Wnt/β-catenin pathway is among the most frequent alterations in HCC, and stems from somatic mutations, functional over-activity of the transcription machinery and epigenetic cues. Targeted DNA and RNA sequencing were combined to investigate the Wnt/β-catenin pathway and the effects of its dysregulation in the TCGA HCC cohort. For external validation, an independent cohort of78 Caucasian patients affected by HCC was used. We have identified a Wnt/β-catenin-related transcriptional signature denoting pathway activity regardless of the presence of pathway-related activating mutations. This model predicts survival outcomes in two independent cohorts of HCC patients (TCGA cohort, N = 177; Rome cohort, N78) and is associated with distinctive immunogenomic features. A non-genetic state recapitulating the transcriptional footprint associated with CTNNB1 mutation identifies wild-type HCCs characterized by unfavorable survival outcomes and immune-excluded tumor immune microenvironment.",
+"statements": [
+{
+"j": 1,
+"text": "HCCs without CTNNB1 mutation that nonetheless carry the mutation-associated transcriptional footprint had unfavourable survival and immune-excluded microenvironments."
+},
+{
+"j": 2,
+"text": "A Wnt/beta-catenin transcriptional signature marked pathway activity whether or not pathway-activating mutations were present in the tumour."
+},
+{
+"j": 3,
+"text": "The transcriptional signature also predicts which HCC patients respond to sorafenib."
+},
+{
+"j": 4,
+"text": "The signature predicted survival in two separate patient sets, a TCGA cohort of 177 and a Rome cohort of 78."
+}
+]
+},
+{
+"n": 545,
+"id": "pmid:40925715",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Early detection of HPV-associated oropharyngeal squamous cell carcinoma, the most common HPV cancer in the United States, could reduce disease-related morbidity and mortality, yet currently, there are no early detection tests. HPV circulating tumor DNA (ctDNA) is a sensitive and specific biomarker for HPV-associated oropharyngeal squamous cell carcinoma at diagnosis. It is unknown if ctDNA HPV is detectable prior to diagnosis, and thus its potential as an early detection test is also unknown."
+},
+{
+"label": "Methods",
+"text": "Plasma samples from the Mass General Brigham Biobank collected 1.3-10.8 years prior to diagnosis from HPV-associated oropharyngeal squamous cell carcinoma patients (n = 28) and age- and sex-matched controls (n = 28) were blinded and run on a newly developed and validated multifeature HPV whole genome sequencing liquid biopsy assay and a validated HPV antibody assay."
+},
+{
+"label": "Results",
+"text": "HPV ctDNA results were positive in 22 of 28 prediagnostic samples from HPV-associated oropharyngeal squamous cell carcinoma cases (sensitivity 79%) with a maximum lead time of 7.8 years. HPV ctDNA results were negative in all controls (0 of 28, 100% specificity). Diagnostic accuracy was highest within 4 years of cancer diagnosis and was higher than HPV Ab detection within the same timeframe (P = .004). Application of a machine-learning model trained and tested on an independent cohort of 306 cases and controls increased the sensitivity of detection to 27 of 28 cases (overall sensitivity 96%) and the maximum lead time to 10.3 years."
+},
+{
+"label": "Conclusions",
+"text": "HPV ctDNA can be detected in the blood years prior to diagnosis with HPV-associated oropharyngeal squamous cell carcinoma, with high specificity, in a case-control cohort of 56 participants. HPV ctDNA detection alone, or in combination with previously identified serological biomarkers, may be a feasible approach to early detection of HPV-associated oropharyngeal squamous cell carcinoma."
+}
+],
+"text": "Early detection of HPV-associated oropharyngeal squamous cell carcinoma, the most common HPV cancer in the United States, could reduce disease-related morbidity and mortality, yet currently, there are no early detection tests. HPV circulating tumor DNA (ctDNA) is a sensitive and specific biomarker for HPV-associated oropharyngeal squamous cell carcinoma at diagnosis. It is unknown if ctDNA HPV is detectable prior to diagnosis, and thus its potential as an early detection test is also unknown. Plasma samples from the Mass General Brigham Biobank collected 1.3-10.8 years prior to diagnosis from HPV-associated oropharyngeal squamous cell carcinoma patients (n = 28) and age- and sex-matched controls (n = 28) were blinded and run on a newly developed and validated multifeature HPV whole genome sequencing liquid biopsy assay and a validated HPV antibody assay. HPV ctDNA results were positive in 22 of 28 prediagnostic samples from HPV-associated oropharyngeal squamous cell carcinoma cases (sensitivity 79%) with a maximum lead time of 7.8 years. HPV ctDNA results were negative in all controls (0 of 28, 100% specificity). Diagnostic accuracy was highest within 4 years of cancer diagnosis and was higher than HPV Ab detection within the same timeframe (P = .004). Application of a machine-learning model trained and tested on an independent cohort of 306 cases and controls increased the sensitivity of detection to 27 of 28 cases (overall sensitivity 96%) and the maximum lead time to 10.3 years. HPV ctDNA can be detected in the blood years prior to diagnosis with HPV-associated oropharyngeal squamous cell carcinoma, with high specificity, in a case-control cohort of 56 participants. HPV ctDNA detection alone, or in combination with previously identified serological biomarkers, may be a feasible approach to early detection of HPV-associated oropharyngeal squamous cell carcinoma.",
+"statements": [
+{
+"j": 1,
+"text": "Within four years of diagnosis, the ctDNA assay was fewer accurate than HPV antibody detection over the same interval."
+},
+{
+"j": 2,
+"text": "A machine-learning model trained and tested on a separate 306-sample cohort lifted detection to 27 of 28 cases and stretched the maximum lead time to 10.3 years."
+},
+{
+"j": 3,
+"text": "The assay detects HPV ctDNA before diagnosis in patients with cervical cancer as well."
+},
+{
+"j": 4,
+"text": "HPV ctDNA was positive in 22 of 28 prediagnostic case samples, a sensitivity of 79%, and negative in all 28 controls."
+}
+]
+},
+{
+"n": 546,
+"id": "doi:10.64898/2026.07.06.736874",
+"year": 2026,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Chronic microglial inflammation and cellular senescence are hallmarks of the aging brain, yet the molecular events that lock microglia into durable inflammatory states remain poorly understood. Prior studies using genetic manipulation of METTL3 have implicated the RNA modification N6-methyladenosine (m6A) in senescence. However, because METTL3 also has m6A-independent functions, loss-of-function approaches cannot distinguish whether senescence arises from reduced m6A itself or from broader disruption of METTL3-dependent pathways. This question is further complicated in microglia, where METTL3 has been reported to promote acute inflammatory activation, suggesting that m6A may have context-dependent effects on immune state. Whether sustained reduction of m6A is sufficient to drive microglial senescence has therefore remained unresolved. Here, we show that selective catalytic inhibition of METTL3 with STM2457 lowers global m6A and is sufficient to induce a senescence-like inflammatory state in human HMC3 microglia. This state includes increased senescence-associated β-galactosidase activity, elongated cellular morphology, reduced proliferation, Lamin B1 loss, and remodeling of nuclear architecture. Transcriptomic profiling revealed suppression of mitotic gene programs together with a SASP-like inflammatory output marked by NF-κB and interferon signatures. Rather than causing broad transposable-element derepression, m6A inhibition promoted cytoplasmic double-stranded RNA accumulation and a selective HERVK-associated response. These findings support a model in which m6A helps preserve microglial homeostasis by limiting immunogenic RNA accumulation and senescence-associated inflammatory remodeling. Together, our study identifies m6A as a safeguard against microglial senescence and suggests that reduced m6A-dependent RNA regulation may contribute to chronic inflammatory remodeling in the aging brain."
+}
+],
+"text": "Chronic microglial inflammation and cellular senescence are hallmarks of the aging brain, yet the molecular events that lock microglia into durable inflammatory states remain poorly understood. Prior studies using genetic manipulation of METTL3 have implicated the RNA modification N6-methyladenosine (m6A) in senescence. However, because METTL3 also has m6A-independent functions, loss-of-function approaches cannot distinguish whether senescence arises from reduced m6A itself or from broader disruption of METTL3-dependent pathways. This question is further complicated in microglia, where METTL3 has been reported to promote acute inflammatory activation, suggesting that m6A may have context-dependent effects on immune state. Whether sustained reduction of m6A is sufficient to drive microglial senescence has therefore remained unresolved. Here, we show that selective catalytic inhibition of METTL3 with STM2457 lowers global m6A and is sufficient to induce a senescence-like inflammatory state in human HMC3 microglia. This state includes increased senescence-associated β-galactosidase activity, elongated cellular morphology, reduced proliferation, Lamin B1 loss, and remodeling of nuclear architecture. Transcriptomic profiling revealed suppression of mitotic gene programs together with a SASP-like inflammatory output marked by NF-κB and interferon signatures. Rather than causing broad transposable-element derepression, m6A inhibition promoted cytoplasmic double-stranded RNA accumulation and a selective HERVK-associated response. These findings support a model in which m6A helps preserve microglial homeostasis by limiting immunogenic RNA accumulation and senescence-associated inflammatory remodeling. Together, our study identifies m6A as a safeguard against microglial senescence and suggests that reduced m6A-dependent RNA regulation may contribute to chronic inflammatory remodeling in the aging brain.",
+"statements": [
+{
+"j": 1,
+"text": "STM2457 produces the same senescence-like inflammatory state in primary human microglia from aged donors."
+},
+{
+"j": 2,
+"text": "Blocking METTL3 catalytic activity with STM2457 lowered global m6A and was enough on its own to drive human HMC3 microglia into a senescence-like inflammatory state."
+},
+{
+"j": 3,
+"text": "Rather than broadly derepressing transposable elements, m6A inhibition drove cytoplasmic double-stranded RNA accumulation and a selective HERVK-associated response."
+},
+{
+"j": 4,
+"text": "The induced state featured more senescence-associated beta-galactosidase activity, elongated morphology, reduced proliferation, Lamin B1 loss and remodelled nuclear architecture."
+}
+]
+},
+{
+"n": 547,
+"id": "doi:10.1101/2024.11.18.624187",
+"year": 2024,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "The duplication of genes has long been recognized as a substrate for evolutionary novelty and adaptation, but the factors that govern fixation of paralogs soon after duplication are only partially understood. Duplication often leads to an increase in gene dosage, or the amount of functional gene product. For genes with which an increased dosage is harmful (i.e., triplosensitive genes), a dosage balancing mechanism needs to be present immediately after duplication if it is to evade negative selection. Previous research in vertebrates has demonstrated a potential role for epigenetic factors in allowing triplosensitive genes to increase in copy number by regulating their expression post-duplication. Here we expand this research by investigating the epigenetic landscape of duplicate genes in D. discoideum , a basal lineage separated from humans by over a billion years. We found that activating histone modifications are quickly lost in duplicate genes before gradually increasing in enrichment as paralogs age. For the repressive modification H3K9me3, we found it was enriched in the youngest paralogs, and that this enrichment was likely mediated by heterochromatin spread from transposable elements. We similarly found enrichment of H3K9me3 in young human duplicates, and again found transposable elements as a potential mediator. Finally, we leveraged recent genome-wide estimates of triplosensitivity in human genes to directly examine the relationship between this kind of dosage sensitivity and enrichment for repressive histone modifications. Interestingly, while we found no significant link between enrichment for the repressive mark H3K9me3 and triplosensitivity in human paralogs, we did find a significant association between triplosensitivity and transposon proximity. Our findings suggest that transposons may contribute to the epigenetic regulatory environment associated with dosage balancing of young duplicates in both protists and humans."
+}
+],
+"text": "The duplication of genes has long been recognized as a substrate for evolutionary novelty and adaptation, but the factors that govern fixation of paralogs soon after duplication are only partially understood. Duplication often leads to an increase in gene dosage, or the amount of functional gene product. For genes with which an increased dosage is harmful (i.e., triplosensitive genes), a dosage balancing mechanism needs to be present immediately after duplication if it is to evade negative selection. Previous research in vertebrates has demonstrated a potential role for epigenetic factors in allowing triplosensitive genes to increase in copy number by regulating their expression post-duplication. Here we expand this research by investigating the epigenetic landscape of duplicate genes in D. discoideum , a basal lineage separated from humans by over a billion years. We found that activating histone modifications are quickly lost in duplicate genes before gradually increasing in enrichment as paralogs age. For the repressive modification H3K9me3, we found it was enriched in the youngest paralogs, and that this enrichment was likely mediated by heterochromatin spread from transposable elements. We similarly found enrichment of H3K9me3 in young human duplicates, and again found transposable elements as a potential mediator. Finally, we leveraged recent genome-wide estimates of triplosensitivity in human genes to directly examine the relationship between this kind of dosage sensitivity and enrichment for repressive histone modifications. Interestingly, while we found no significant link between enrichment for the repressive mark H3K9me3 and triplosensitivity in human paralogs, we did find a significant association between triplosensitivity and transposon proximity. Our findings suggest that transposons may contribute to the epigenetic regulatory environment associated with dosage balancing of young duplicates in both protists and humans.",
+"statements": [
+{
+"j": 1,
+"text": "The repressive mark H3K9me3 was most enriched on the youngest paralogs, with heterochromatin spreading from transposable elements the likely cause."
+},
+{
+"j": 2,
+"text": "In D. discoideum, duplicate genes enriched for H3K9me3 are expressed at lower levels than their parent copies."
+},
+{
+"j": 3,
+"text": "In human paralogs, H3K9me3 enrichment showed no significant link with triplosensitivity, whereas triplosensitivity was significantly associated with transposon proximity."
+},
+{
+"j": 4,
+"text": "Activating histone modifications were gained rapidly from duplicate genes and then built back up in enrichment as the paralogs grew older."
+}
+]
+},
+{
+"n": 548,
+"id": "pmid:41543195",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Glioblastoma remains a lethal malignancy with limited therapeutic advancements. Emerging evidence implicates cell cycle dysregulation in glioma pathogenesis, yet the mechanistic role of cyclin‑dependent kinase 1 (CDK1) remains underexplored. The present study systematically evaluated the clinical relevance and functional impact of CDK1 in glioma progression through multi‑modal experimental approaches. CDK1 expression was analyzed using public datasets and then verified by western blotting using patient tissue samples (n=37) from the Second Hospital of Hebei Medical University (Shijiazhuang, China). Survival analysis was performed using Chinese Glioma Genome Atlas and The Cancer Genome Atlas datasets, alongside multivariate Cox regression to evaluate prognostic independence. Functional assays, including small interfering RNA‑mediated CDK1 knockdown, were conducted in glioma cell lines to assess proliferation (Cell Counting Kit‑8 and EdU), migration/invasion (Transwell), apoptosis (acridine orange/ethidium bromide staining and flow cytometry) and radiosensitivity (γ‑H2AX foci quantification post‑irradiation). The expression levels of downstream cell cycle regulators were quantified via quantitative PCR. The results indicated that CDK1 was significantly upregulated in glioma tissues compared with normal controls, with expression levels escalating with tumor grade. High CDK1 expression correlated with a reduced overall survival and served as an independent prognostic marker. CDK1 knockdown attenuated glioma cell proliferation, migration and invasion, while enhancing apoptosis and radiosensitivity. Mechanistically, CDK1 knockdown downregulated cell cycle regulators proliferating cell nuclear antigen, minichromosome maintenance complex component 2‑4 (MCM2‑4), MCM6, polo‑like kinase 1, TTK protein kinase and mitotic arrest deficient 2 like 1, implicating mitotic dysregulation as a central pathway. The present study established CDK1 as a master regulator of glioma progression through coordinated control of proliferation, DNA repair and metastatic potential. The robust association between CDK1 expression, tumor grade and survival, coupled with functional validation across complementary assays, positions CDK1 inhibition as a promising therapeutic strategy. The mechanistic elucidation of its cell cycle network provides a novel framework for targeting glioma‑specific therapeutic targets. ."
+}
+],
+"text": "Glioblastoma remains a lethal malignancy with limited therapeutic advancements. Emerging evidence implicates cell cycle dysregulation in glioma pathogenesis, yet the mechanistic role of cyclin‑dependent kinase 1 (CDK1) remains underexplored. The present study systematically evaluated the clinical relevance and functional impact of CDK1 in glioma progression through multi‑modal experimental approaches. CDK1 expression was analyzed using public datasets and then verified by western blotting using patient tissue samples (n=37) from the Second Hospital of Hebei Medical University (Shijiazhuang, China). Survival analysis was performed using Chinese Glioma Genome Atlas and The Cancer Genome Atlas datasets, alongside multivariate Cox regression to evaluate prognostic independence. Functional assays, including small interfering RNA‑mediated CDK1 knockdown, were conducted in glioma cell lines to assess proliferation (Cell Counting Kit‑8 and EdU), migration/invasion (Transwell), apoptosis (acridine orange/ethidium bromide staining and flow cytometry) and radiosensitivity (γ‑H2AX foci quantification post‑irradiation). The expression levels of downstream cell cycle regulators were quantified via quantitative PCR. The results indicated that CDK1 was significantly upregulated in glioma tissues compared with normal controls, with expression levels escalating with tumor grade. High CDK1 expression correlated with a reduced overall survival and served as an independent prognostic marker. CDK1 knockdown attenuated glioma cell proliferation, migration and invasion, while enhancing apoptosis and radiosensitivity. Mechanistically, CDK1 knockdown downregulated cell cycle regulators proliferating cell nuclear antigen, minichromosome maintenance complex component 2‑4 (MCM2‑4), MCM6, polo‑like kinase 1, TTK protein kinase and mitotic arrest deficient 2 like 1, implicating mitotic dysregulation as a central pathway. The present study established CDK1 as a master regulator of glioma progression through coordinated control of proliferation, DNA repair and metastatic potential. The robust association between CDK1 expression, tumor grade and survival, coupled with functional validation across complementary assays, positions CDK1 inhibition as a promising therapeutic strategy. The mechanistic elucidation of its cell cycle network provides a novel framework for targeting glioma‑specific therapeutic targets. .",
+"statements": [
+{
+"j": 1,
+"text": "Silencing CDK1 reduced glioma cell proliferation, migration and invasion while increasing apoptosis and radiosensitivity."
+},
+{
+"j": 2,
+"text": "A pharmacological CDK1 inhibitor shrinks glioma tumours in mice."
+},
+{
+"j": 3,
+"text": "Patients with high CDK1 expression had shorter overall survival, and CDK1 held up as an independent prognostic marker."
+},
+{
+"j": 4,
+"text": "CDK1 was significantly lower in glioma tissue than in normal controls, and its expression climbed further with increasing tumour grade."
+}
+]
+}
+]
+}

@@ -1,0 +1,94 @@
+{"batch": "check_R_00", "pass": "R", "prompt_version": "check-v1",
+ "items": [
+   {"n": 9, "id": "pmid:42870827",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "C4orf50 expression was higher in 1,093 breast tumor samples than in 111 normal samples"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "These observational findings do not establish a causal role for C4orf50 and require validation in independent cohorts and experimental models."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "higher continuous C4orf50 expression was associated with poorer overall survival [hazard ratio (HR) per 1 standard deviation =1.41, 95% confidence interval (CI): 1.19-1.67; P<0.001]"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "C4orf50 expression correlated positively with the ESTIMATE Immune Score (rho =0.372), Stromal Score (rho =0.198)"}
+    ]},
+   {"n": 24, "id": "pmid:40634198",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "KRAS ctDNA positivity was associated with shorter overall survival (median OS 21 months vs. 41 months, P < .05)."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "KRAS ctDNA positivity was associated with shorter overall survival (median OS 21 months vs. 41 months, P < .05)."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "KRAS G12C ctDNA positivity was associated with larger tumour size, presence of nodal involvement, and higher overall pathological stage."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "In overall pathological staging, KRAS G12C ctDNA was detected exclusively in liquid biopsies of stage III patients (4/11, 36%)."}
+    ]},
+   {"n": 103, "id": "pmid:40712109",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The top-ranking altered genes in Chinese patients with UTUC were KMT2D (48.4%), TERT promoter (46.7%), FGFR3 (41.0%), and TP53 (37.7%)."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "we identified the unique genetic characteristics and potential precision treatment targets of the Chinese UTUC population"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Somatic mutations were detected in 120/122 (98.4%) patients using this 520-gene panel sequencing."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "patients with TP53/MDM2 -mutant subtype or triple-negative subtype had significantly worse progression-free survival than other subtypes"}
+    ]},
+   {"n": 113, "id": "pmid:39054058",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "CtDNA mutation rate increased with advanced tumour stages (p<0.001)."},
+      {"j": 2, "label": "supported", "confidence": 2, "evidence": "In patients with active HCC, 40.2% of the ctDNA was mutated vs 14.6% in patients with inactive HCC and 1.8% in controls (p<0.001).", "flag": "ambiguous", "reason": "The abstract says '40.2% of the ctDNA was mutated', which may denote plasma samples (772 from 173 patients) rather than patients, while the statement counts patients."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We analysed 772 plasmas from 173 patients with HCC collected at the time of diagnosis or treatment (n=502), 24 hours after locoregional treatment (n=154) and during follow-up (n=116). For controls, 56 plasmas from patients with chronic liver disease without HCC were analysed."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "All samples were analysed for cell free DNA (cfDNA) concentration"}
+    ]},
+   {"n": 137, "id": "pmid:42826364",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "ctDNA detection postchemotherapy and pre-TES was associated with poor response and persistent cancer ( P = .03)"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "ctDNA was detected in 45.8% of patients before neoadjuvant chemotherapy. Detection was similar by T-stage ( P = .18). The rate of detectable ctDNA significantly decreased after chemotherapy (and pre-TES) to 8.7% ( P < .0001)"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "with recommended TME for 100% (n = 4 of 4) of patients with ctDNA detected versus 38.1% (n = 16 of 42) of patients with undetectable ctDNA"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Detection was similar by T-stage ( P = .18)."}
+    ]},
+   {"n": 268, "id": "pmid:40415439",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "High WWP1 expression levels and Stage IV disease were both associated with a poor prognosis ( P <0.05)."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Multicolor immunofluorescence assay was used to analyze the immune markers in SKOV3 and SKOV3/DDP cell xenografts in nude mice."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "RNA-seq analysis of WWP1-overexpressing SKOV3 cells and immunofluorescence assay of the tumor-bearing mice yielded findings consistent with those of bioinformatics analysis."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The patients with high WWP1 expression levels had significantly lower overall survival rate ( P =0.0012)."}
+    ]},
+   {"n": 401, "id": "pmid:41382221",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "However, its role in monitoring disease progression requires further validation."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "GSEA implicated eight canonical pathways including the S100 Family Signaling Pathway and RAF/MAP kinase cascade"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Plasma cfDNA was isolated from healthy blood donors (HBDs, N = 19) and UM patients (N = 22)."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Distinct clustering was observed between UM and HBDs samples, and between HR and IR samples, although outliers were present in the latter comparison."}
+    ]},
+   {"n": 452, "id": "pmid:42793237",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "PREX1 protein expression was identified as the top-ranked differentially expressed candidate protein"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "PREX1 emerges as a novel candidate biomarker requiring prospective tissue-based immunohistochemical and epigenetic validation in larger multi-center clinical cohorts"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Among 27 cases (22 living, 5 deceased; 23 HPV-positive, 2 HPV-negative, 2 unknown)"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Kaplan-Meier analysis demonstrated superior overall survival in patients with high PREX1 protein levels."}
+    ]},
+   {"n": 461, "id": "pmid:42086706",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "cfDNA ac profiling represents a promising non-invasive strategy to predict clinical benefit from CPI-based therapy in LMS"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Signatures reflecting B-cell activation, T-cell activation, and extracellular matrix organization were significantly associated with improved progression-free survival (PFS; p < 0.05)."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Patients achieving CBR demonstrated enrichment of pathways related to cell death, interferon-γ signaling, and immune activation."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "in 30 LMS patients treated with durvalumab plus olaparib or cediranib"}
+    ]},
+   {"n": 464, "id": "pmid:42090629",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Clearance of ctDNA during AT was associated with a better prognosis than persistently detected ctDNA ( P < .001)."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "One hundred sixty-five patients were included in this study, with 35 (21.2%) relapses."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "a fixed next-generation sequencing panel spanning 769 cancer-related genes"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "At landmark, positive MRD was associated with shorter disease-free survival (DFS) than negative MRD ( P < .001, hazard ratio, 12.0)."}
+    ]},
+   {"n": 512, "id": "doi:10.64898/2026.10.19.760246",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Nearly one third of <TF-cluster, tissue> pairs with sufficient mutation counts showed significant enrichment at one or more binding site positions."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Enrichment was most widespread in melanoma but was detected in all 15 tissue types"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Highly expressed TFs were more likely to show enrichment than lowly expressed TFs"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "informs the interpretation and prioritization of non-coding mutations in cancer"}
+    ]},
+   {"n": 514, "id": "pmid:42600432",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "IFI35 expression was significantly upregulated at both messenger RNA and protein levels in multiple cancers, most prominently in BRCA"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "In vivo, IFI35 depletion significantly inhibited xenograft tumor growth."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "IFI35 expression was positively associated with increased infiltration levels of mast cells, neutrophils, eosinophils, CD4+ T cell subtypes, and cancer-associated fibroblasts across multiple cancer types."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Functional studies demonstrated that IFI35 knockdown effectively suppressed BRCA cell proliferation, migration, and invasion, while promoting apoptosis."}
+    ]},
+   {"n": 517, "id": "pmid:42723745",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "A score of ≥3 was considered a high-probability population with positive EGFR in peripheral blood. The sensitivity for diagnosing positive EGFR in peripheral blood was 84.8%, and the specificity was 73.1%."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "The Gspnbl score demonstrates good predictive performance in identifying patients with a high probability of peripheral blood EGFR positivity."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "the area under the curve (AUC) was 0.884"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Taking the next-generation sequencing (NGS) detection results as the reference standard, the sensitivity of amplification refractory mutation system polymerase chain reaction (ARMS-PCR) detection was 94.96%, the specificity was 100%"}
+    ]}
+ ]}

@@ -1,0 +1,297 @@
+<title>Abstract Reader</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column (~68ch) like a journal page; the abstract is the hero, statements sit under it like a
+   reviewer's checklist; the reveal marks the text up with highlighter and adds the citation block at the end. */
+:root{
+  --paper:#F7F8F6; --ink:#1B1F1C; --ink-soft:#4E5752; --rule:#D8DCD6; --rule-strong:#B6BDB7;
+  --card:#FFFFFF; --accent:#1F6F63; --accent-ink:#FFFFFF; --accent-soft:#E2F0ED;
+  --mark:#FFE97A; --mark-ink:#3A3300;
+  --ok:#1F7A4B; --ok-soft:#DFF3E6; --no:#A83A3A; --no-soft:#F8E1E1; --na:#5B5E8A; --na-soft:#E7E7F4;
+  --serif:"Literata", Georgia, "Times New Roman", serif; --sans:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif; --mono:"IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --paper:#141716; --ink:#E8ECE8; --ink-soft:#A5ADA7; --rule:#2B312D; --rule-strong:#444C46;
+  --card:#1B1F1D; --accent:#6FC3B3; --accent-ink:#0B1B18; --accent-soft:#1E3330;
+  --mark:#6E6210; --mark-ink:#FFF3B0;
+  --ok:#6BCB93; --ok-soft:#173424; --no:#F08E8E; --no-soft:#3A1F1F; --na:#B3B6E6; --na-soft:#272A45; color-scheme:dark } }
+:root[data-theme="dark"]{
+  --paper:#141716; --ink:#E8ECE8; --ink-soft:#A5ADA7; --rule:#2B312D; --rule-strong:#444C46;
+  --card:#1B1F1D; --accent:#6FC3B3; --accent-ink:#0B1B18; --accent-soft:#1E3330;
+  --mark:#6E6210; --mark-ink:#FFF3B0;
+  --ok:#6BCB93; --ok-soft:#173424; --no:#F08E8E; --no-soft:#3A1F1F; --na:#B3B6E6; --na-soft:#272A45; color-scheme:dark }
+
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.5 var(--sans);-webkit-font-smoothing:antialiased}
+.wrap{max-width:70ch;margin:0 auto;padding-block:18px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header.top{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;border-bottom:1px solid var(--rule);padding-bottom:10px}
+header.top h1{font:600 20px/1.2 var(--serif);margin:0;letter-spacing:-0.01em}
+header.top h1 small{font:500 12px/1 var(--sans);color:var(--ink-soft);letter-spacing:.08em;text-transform:uppercase;margin-left:8px}
+.score{font:500 13px/1.3 var(--mono);color:var(--ink-soft);font-variant-numeric:tabular-nums;display:flex;gap:14px;flex-wrap:wrap}
+.score b{color:var(--ink);font-weight:500}
+.filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:12px}
+.chip{border:1px solid var(--rule-strong);background:var(--card);color:var(--ink);border-radius:999px;padding:5px 11px;font:500 12.5px/1 var(--sans);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.chip:focus-visible,button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.sep{width:1px;height:18px;background:var(--rule)}
+select.jsel{border:1px solid var(--rule-strong);background:var(--card);color:var(--ink);border-radius:999px;padding:5px 28px 5px 11px;font:500 12.5px/1 var(--sans);max-width:min(100%,46ch);appearance:none;-webkit-appearance:none;background-image:linear-gradient(45deg,transparent 50%,var(--ink-soft) 50%),linear-gradient(135deg,var(--ink-soft) 50%,transparent 50%);background-position:calc(100% - 15px) 50%,calc(100% - 10px) 50%;background-size:5px 5px,5px 5px;background-repeat:no-repeat}
+select.jsel[data-on="true"]{border-color:var(--accent);background-color:var(--accent-soft)}
+.eyebrow{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:22px;font:500 12px/1.2 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft)}
+.eyebrow .yr{font:600 13px/1 var(--mono);letter-spacing:0;text-transform:none;color:var(--ink);background:var(--accent-soft);padding:4px 8px;border-radius:4px}
+.eyebrow .src{border:1px solid var(--rule-strong);border-radius:4px;padding:3px 7px;letter-spacing:.04em}
+article.abs{margin-top:12px;font:400 17px/1.6 var(--serif);font-optical-sizing:auto;max-width:68ch}
+article.abs h3{font:500 11.5px/1 var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);margin:16px 0 4px}
+article.abs h3:first-child{margin-top:0}
+article.abs p{margin:0 0 10px;text-wrap:pretty}
+mark{background:var(--mark);color:var(--mark-ink);padding:0 2px;border-radius:2px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+mark.focus{outline:2px solid var(--accent);outline-offset:1px}
+.hint{font:400 13px/1.45 var(--sans);color:var(--ink-soft);margin:16px 0 6px}
+ol.sts{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+li.st{border:1px solid var(--rule);border-radius:8px;background:var(--card);padding:12px 14px;display:grid;gap:10px}
+li.st .txt{font:500 15.5px/1.45 var(--sans);text-wrap:pretty}
+li.st .txt .k{display:inline-block;min-width:1.4em;font:500 12px/1 var(--mono);color:var(--ink-soft);margin-right:6px;vertical-align:1px}
+.seg{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.seg button{border:1px solid var(--rule-strong);background:var(--paper);color:var(--ink);border-radius:6px;padding:9px 6px;font:500 13px/1.1 var(--sans);cursor:pointer;min-width:0}
+.seg button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);color:var(--ink)}
+.seg button:disabled{cursor:default;opacity:.85}
+li.st.right{border-color:var(--ok)} li.st.wrong{border-color:var(--no)}
+.verdict{display:flex;gap:8px;align-items:flex-start;flex-wrap:wrap;font:400 13.5px/1.45 var(--sans)}
+.pill{font:600 11px/1 var(--sans);letter-spacing:.06em;text-transform:uppercase;padding:5px 8px;border-radius:4px;white-space:nowrap}
+.pill.supported{background:var(--ok-soft);color:var(--ok)} .pill.contradicted{background:var(--no-soft);color:var(--no)} .pill.not_addressed{background:var(--na-soft);color:var(--na)}
+.verdict .note{flex:1 1 20ch;min-width:0;color:var(--ink-soft)}
+.verdict .note b{color:var(--ink);font-weight:500}
+.verdict button.ev{border:none;background:none;color:var(--accent);font:500 13px/1 var(--sans);cursor:pointer;padding:4px 0;text-decoration:underline;text-underline-offset:3px}
+.actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:16px}
+.btn{border:1px solid var(--accent);background:var(--accent);color:var(--accent-ink);border-radius:8px;padding:11px 18px;font:600 14px/1 var(--sans);cursor:pointer}
+.btn:disabled{opacity:.45;cursor:default}
+.btn.ghost{background:var(--card);color:var(--ink);border-color:var(--rule-strong)}
+.result{font:500 14px/1.3 var(--sans);color:var(--ink-soft)}
+.result b{color:var(--ink)}
+.cite{margin-top:22px;border-top:2px solid var(--ink);padding-top:14px}
+.cite .lab{font:500 11.5px/1 var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:8px}
+.cite h2{font:600 19px/1.3 var(--serif);margin:0 0 6px;text-wrap:balance}
+.cite h2 a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule-strong)}
+.cite h2 a:hover{border-color:var(--accent)}
+.cite .authors{font:400 14px/1.5 var(--sans);color:var(--ink-soft)}
+.cite .authors button{border:none;background:none;color:var(--accent);font:500 13px var(--sans);cursor:pointer;padding:0 0 0 4px}
+.cite .where{font:400 14px/1.5 var(--sans);margin-top:4px}
+.cite .where i{font-style:italic}
+.cite .ids{display:flex;gap:14px;flex-wrap:wrap;margin-top:8px;font:400 12.5px/1.3 var(--mono);color:var(--ink-soft)}
+.cite .ids a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--rule-strong)}
+.cite .ids .cp{border:none;background:none;color:var(--ink-soft);cursor:pointer;font:inherit;padding:0;text-decoration:underline;text-underline-offset:3px}
+footer.foot{margin-top:40px;border-top:1px solid var(--rule);padding-top:12px;font:400 12.5px/1.5 var(--sans);color:var(--ink-soft)}
+footer.foot a{color:var(--accent)}
+details.about{margin-top:10px}
+details.about summary{cursor:pointer;font-weight:500;color:var(--ink)}
+details.about p{margin:8px 0}
+.stat{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin-top:10px}
+.stat div{border:1px solid var(--rule);border-radius:6px;padding:8px 10px;background:var(--card)}
+.stat .n{font:500 18px/1.1 var(--mono);font-variant-numeric:tabular-nums}
+.stat .l{font:500 11px/1.3 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft);margin-top:2px}
+.empty{margin-top:28px;padding:18px;border:1px dashed var(--rule-strong);border-radius:8px;color:var(--ink-soft)}
+.toast{position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom,0px));transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--paper);padding:9px 14px;border-radius:8px;font:500 13px var(--sans);opacity:0;transition:.18s;pointer-events:none;max-width:90vw}
+.toast.show{opacity:1;transform:translateX(-50%)}
+@media (max-width:460px){ article.abs{font-size:16.5px} .seg button{padding:10px 4px;font-size:12.5px} header.top h1 small{display:block;margin:4px 0 0} }
+@media (prefers-reduced-motion: reduce){ .toast{transition:none} }
+[hidden]{display:none!important}
+</style>
+<div class="wrap">
+  <header class="top">
+    <h1>Abstract Reader <small>does the abstract support it?</small></h1>
+    <div class="score" id="score" aria-live="polite"></div>
+  </header>
+  <div class="filters" id="filters"></div>
+  <main id="main"></main>
+  <footer class="foot">
+    <details class="about" id="about">
+      <summary>About the items</summary>
+      <div id="aboutBody"></div>
+    </details>
+  </footer>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+"use strict";
+const $ = id => document.getElementById(id);
+const el = (tag, cls, text) => { const e=document.createElement(tag); if(cls) e.className=cls; if(text!=null) e.textContent=text; return e; };
+const FIELD = {cfdna:"cfDNA / liquid biopsy", te:"transposable elements", cancergen:"cancer genomics"};
+const LABEL = {supported:"Supported", contradicted:"Contradicted", not_addressed:"Not addressed"};
+const LABEL_LONG = {supported:"the abstract states this or it follows directly", contradicted:"the abstract states something incompatible with this", not_addressed:"the abstract neither says nor rules this out"};
+const KEYS = ["supported","contradicted","not_addressed"];
+let DATA=null, items=[], cur=null, answers={}, revealed=false;
+let filt = {field:"all", source:"all", journal:"all"};
+let tally = {n:0, right:0, streak:0, best:0, byLabel:{supported:[0,0],contradicted:[0,0],not_addressed:[0,0]}};
+let seen = new Set();
+const store = { get(k){ try{ return JSON.parse(localStorage.getItem(k)); }catch(e){ return null; } }, set(k,v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} } };
+
+let toastT=null; function toast(m){ const t=$("toast"); t.textContent=m; t.classList.add("show"); clearTimeout(toastT); toastT=setTimeout(()=>t.classList.remove("show"),2200); }
+
+function journalOf(it){ return it.journal || it.server || "—"; }
+function pool(){ return items.filter(it => (filt.field==="all"||it.field===filt.field) && (filt.source==="all"||it.source===filt.source) && (filt.journal==="all"||journalOf(it)===filt.journal)); }
+function pick(){
+  const p = pool(); if(!p.length) return null;
+  const fresh = p.filter(it => !seen.has(it.id));
+  const from = fresh.length ? fresh : p;
+  if(!fresh.length){ seen = new Set(); store.set("ar.seen", []); toast("You have seen every abstract in this set — starting over"); }
+  return from[Math.floor(Math.random()*from.length)];
+}
+function displayYear(it){ return (it.date && /^\d{4}/.test(it.date)) ? it.date.slice(0,4) : String(it.year||""); }
+
+function renderFilters(){
+  const f=$("filters"); f.textContent="";
+  const mk=(group,val,label)=>{ const b=el("button","chip",label); b.type="button"; b.setAttribute("aria-pressed",String(filt[group]===val)); b.onclick=()=>{ filt[group]=val; store.set("ar.filt",filt); renderFilters(); next(); }; return b; };
+  f.appendChild(mk("field","all","All fields"));
+  Object.keys(FIELD).forEach(k=>{ if(items.some(it=>it.field===k)) f.appendChild(mk("field",k,FIELD[k])); });
+  f.appendChild(el("span","sep"));
+  f.appendChild(mk("source","all","Journals + preprints")); f.appendChild(mk("source","journal","Journals")); f.appendChild(mk("source","preprint","Preprints"));
+  // journal / server picker: every journal in the current field+source pool, with its count, most frequent first
+  const counts = {};
+  items.filter(it => (filt.field==="all"||it.field===filt.field) && (filt.source==="all"||it.source===filt.source)).forEach(it => { const j=journalOf(it); counts[j]=(counts[j]||0)+1; });
+  const names = Object.keys(counts).sort((a,b)=> counts[b]-counts[a] || a.localeCompare(b));
+  if(filt.journal!=="all" && !counts[filt.journal]) filt.journal="all";
+  const sel = el("select","jsel"); sel.id="journal"; sel.setAttribute("aria-label","Journal or preprint server");
+  const o0 = el("option",null,"Any journal or server ("+names.length+")"); o0.value="all"; sel.appendChild(o0);
+  names.forEach(j => { const o=el("option",null, j+" · "+counts[j]); o.value=j; if(j===filt.journal) o.selected=true; sel.appendChild(o); });
+  sel.dataset.on = String(filt.journal!=="all");
+  sel.onchange = () => { filt.journal = sel.value; store.set("ar.filt",filt); renderFilters(); next(); };
+  f.appendChild(sel);
+}
+function renderScore(){
+  const s=$("score"); s.textContent="";
+  const acc = tally.n ? Math.round(100*tally.right/tally.n) : null;
+  const add=(label,val)=>{ const d=el("span"); d.appendChild(document.createTextNode(label+" ")); d.appendChild(el("b",null,val)); s.appendChild(d); };
+  add("statements", String(tally.n)); add("correct", acc===null ? "—" : acc+"%"); add("streak", String(tally.streak)+(tally.best>tally.streak?" · best "+tally.best:""));
+}
+
+/* abstract with the evidence passages marked (after reveal) */
+function renderAbstract(it, marks){
+  const art = el("article","abs");
+  const joined = it.sections.map(s=>s.text).join(" ");
+  let offsets=[]; let pos=0;
+  it.sections.forEach(s => { offsets.push([pos, pos+s.text.length]); pos += s.text.length+1; });
+  const spans = (marks||[]).map(m => { const lo = joined.toLowerCase().indexOf(m.text.replace(/\s+/g," ").toLowerCase()); return lo>=0 ? {lo, hi: lo+m.text.length, k:m.k} : null; }).filter(Boolean).sort((a,b)=>a.lo-b.lo);
+  it.sections.forEach((s,i) => {
+    if(s.label) art.appendChild(el("h3",null,s.label.toLowerCase()));
+    const p = el("p"); const [a,b] = offsets[i]; let c=a;
+    spans.forEach(sp => { const lo=Math.max(sp.lo,a), hi=Math.min(sp.hi,b); if(hi<=lo) return; if(lo>c) p.appendChild(document.createTextNode(joined.slice(c,lo))); const m=el("mark",null,joined.slice(lo,hi)); m.id="ev-"+sp.k; m.dataset.k=String(sp.k); p.appendChild(m); c=hi; });
+    if(c<b) p.appendChild(document.createTextNode(joined.slice(c,b)));
+    art.appendChild(p);
+  });
+  return art;
+}
+
+function show(it){
+  cur = it; answers = {}; revealed = false;
+  const main=$("main"); main.textContent="";
+  if(!it){ main.appendChild(el("div","empty","No abstracts match this filter.")); return; }
+  try{ if(location.hash !== "#a"+it.n) history.replaceState(null,"","#a"+it.n); }catch(e){}
+  const eb = el("div","eyebrow");
+  eb.appendChild(el("span","yr", "Published "+displayYear(it)));
+  eb.appendChild(el("span",null, FIELD[it.field]||it.field));
+  eb.appendChild(el("span","src", it.source==="preprint" ? (it.server||"preprint")+" preprint" : "journal article"));
+  main.appendChild(eb);
+  main.appendChild(renderAbstract(it, null));
+  main.appendChild(el("div","hint","For each statement: does the abstract support it, contradict it, or not address it? Judge from the text alone — not from what you know or expect. Keys 1 · 2 · 3 answer the next open statement."));
+  const ol = el("ol","sts"); ol.id="sts";
+  it.statements.forEach((s,idx) => {
+    const li = el("li","st"); li.id="st-"+s.k;
+    const t = el("div","txt"); t.appendChild(el("span","k", String(idx+1))); t.appendChild(document.createTextNode(s.text)); li.appendChild(t);
+    const seg = el("div","seg"); seg.setAttribute("role","group"); seg.setAttribute("aria-label","Statement "+(idx+1));
+    KEYS.forEach(k => { const b=el("button",null,LABEL[k]); b.type="button"; b.dataset.k=k; b.setAttribute("aria-pressed","false"); b.title=LABEL_LONG[k]; b.onclick=()=>choose(s.k,k); seg.appendChild(b); });
+    li.appendChild(seg);
+    ol.appendChild(li);
+  });
+  main.appendChild(ol);
+  const act = el("div","actions"); act.id="actions";
+  const sub = el("button","btn","Check answers"); sub.id="submit"; sub.disabled=true; sub.onclick=reveal; act.appendChild(sub);
+  const skip = el("button","btn ghost","Skip this abstract"); skip.id="skip"; skip.onclick=()=>{ seen.add(it.id); store.set("ar.seen",[...seen]); next(); }; act.appendChild(skip);
+  main.appendChild(act);
+  window.scrollTo({top:0});
+}
+function choose(k, label){
+  if(revealed) return;
+  answers[k]=label;
+  const li=$("st-"+k); li.querySelectorAll(".seg button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.k===label)));
+  $("submit").disabled = !cur.statements.every(s => answers[s.k]);
+}
+function reveal(){
+  if(revealed || !cur) return; revealed=true;
+  const marks = cur.statements.filter(s=>s.evidence).map(s=>({text:s.evidence, k:s.k}));
+  const old = document.querySelector("article.abs"); const fresh = renderAbstract(cur, marks); old.replaceWith(fresh);
+  let right=0;
+  cur.statements.forEach(s => {
+    const li=$("st-"+s.k); const mine=answers[s.k]; const ok = mine===s.label; if(ok) right++;
+    tally.n++; tally.right += ok?1:0; tally.byLabel[s.label][0] += ok?1:0; tally.byLabel[s.label][1]++;
+    li.classList.add(ok?"right":"wrong");
+    li.querySelectorAll(".seg button").forEach(b => { b.disabled=true; });
+    const v = el("div","verdict");
+    v.appendChild(el("span","pill "+s.label, LABEL[s.label]));
+    const note = el("div","note");
+    if(!ok){ const b=el("b",null,"You said "+LABEL[mine].toLowerCase()+". "); note.appendChild(b); }
+    note.appendChild(document.createTextNode(s.note || LABEL_LONG[s.label]));
+    v.appendChild(note);
+    if(s.evidence){ const ev=el("button","ev","show in text"); ev.type="button"; ev.onclick=()=>{ const m=$("ev-"+s.k); if(!m) return; document.querySelectorAll("mark.focus").forEach(x=>x.classList.remove("focus")); m.classList.add("focus"); m.scrollIntoView({behavior:"smooth",block:"center"}); }; v.appendChild(ev); }
+    li.appendChild(v);
+  });
+  tally.streak = (right===cur.statements.length) ? tally.streak+1 : 0; tally.best=Math.max(tally.best,tally.streak);
+  store.set("ar.tally", tally); renderScore();
+  seen.add(cur.id); store.set("ar.seen",[...seen]);
+  const act=$("actions"); act.textContent="";
+  act.appendChild(el("span","result", "")); act.firstChild.appendChild(el("b",null, right+" / "+cur.statements.length)); act.firstChild.appendChild(document.createTextNode(right===cur.statements.length ? " — all of them." : " correct."));
+  const nx = el("button","btn","Next abstract →"); nx.id="next"; nx.onclick=next; act.appendChild(nx);
+  $("main").appendChild(citation(cur));
+  nx.focus({preventScroll:true});
+}
+function citation(it){
+  const c = el("section","cite"); c.id="cite";
+  c.appendChild(el("div","lab","The paper"));
+  const h = el("h2"); const a=el("a",null,it.title); a.href = it.doi_url || it.url || "#"; a.target="_blank"; a.rel="noopener"; h.appendChild(a); c.appendChild(h);
+  const au = el("div","authors"); const list = it.authors||[]; const MAXA=8;
+  const full = list.join(", "); const short = list.slice(0,MAXA).join(", ");
+  au.textContent = list.length>MAXA ? short+" … " : full;
+  if(list.length>MAXA){ const more=el("button",null,"+"+(list.length-MAXA)+" more"); more.type="button"; more.onclick=()=>{ au.textContent=full; }; au.appendChild(more); }
+  c.appendChild(au);
+  const w = el("div","where"); const j=el("i",null, it.journal||(it.server||"")); w.appendChild(j); w.appendChild(document.createTextNode(" · "+displayYear(it)+(it.source==="preprint" ? " · preprint, not peer-reviewed" : ""))); c.appendChild(w);
+  const ids = el("div","ids");
+  if(it.doi){ const a2=el("a",null,"doi:"+it.doi); a2.href="https://doi.org/"+it.doi; a2.target="_blank"; a2.rel="noopener"; ids.appendChild(a2); }
+  if(it.pmid){ const a3=el("a",null,"PMID "+it.pmid); a3.href="https://pubmed.ncbi.nlm.nih.gov/"+it.pmid+"/"; a3.target="_blank"; a3.rel="noopener"; ids.appendChild(a3); }
+  const cp=el("button","cp","copy citation"); cp.type="button"; cp.onclick=()=>{ const txt = (list.length? (list.length>3 ? list[0]+" et al." : list.join(", ")) : "")+" ("+displayYear(it)+"). "+it.title+". "+(it.journal||it.server||"")+"."+(it.doi?" https://doi.org/"+it.doi:""); const done=()=>toast("Citation copied"); const fail=()=>{ const ta=document.createElement("textarea"); ta.value=txt; document.body.appendChild(ta); ta.select(); toast("Select and copy the citation"); setTimeout(()=>ta.remove(),4000); }; if(navigator.clipboard&&navigator.clipboard.writeText){ navigator.clipboard.writeText(txt).then(done,fail); } else fail(); }; ids.appendChild(cp);
+  c.appendChild(ids);
+  return c;
+}
+function next(){ const it = pick(); show(it); }
+
+function renderAbout(){
+  const h = DATA.header||{}; const b=$("aboutBody"); b.textContent="";
+  const p1 = el("p"); p1.textContent = "Each abstract comes with statements written by Claude from the abstract alone (two the text supports, one it contradicts through one precise alteration, one it does not address). Three further independent passes, blind to the intended labels, judged every statement; a statement is kept only when at least two of the three agree with its label and none calls it ill-formed. The marked passage is the sentence the label rests on."; b.appendChild(p1);
+  const st = h.stats||{}; const grid=el("div","stat");
+  [["abstracts", items.length], ["statements", items.reduce((a,it)=>a+it.statements.length,0)], ["unanimous checks", st.agreement ? Math.round(100*(st.agreement.unanimous||0)/Math.max(1,(st.agreement.unanimous||0)+(st.agreement.majority||0)))+"%" : "—"], ["years", h.years||"2023–2026"]].forEach(([l,n])=>{ const d=el("div"); d.appendChild(el("div","n",String(n))); d.appendChild(el("div","l",l)); grid.appendChild(d); });
+  b.appendChild(grid);
+  const p2 = el("p"); p2.textContent = "Sources: journal articles indexed in PubMed and bioRxiv/medRxiv preprints, 2023–2026, in cell-free DNA / liquid biopsy, transposable elements and genome evolution, and cancer genomics, fetched through Europe PMC"+(h.built?" on "+h.built.slice(0,10):"")+". Abstracts are shown for reading practice, each with its citation and links; they remain the work of their authors and publishers. Preprints have not been peer-reviewed."; b.appendChild(p2);
+  if(h.repo_url){ const p3=el("p"); p3.appendChild(document.createTextNode("A wrong label or a bad statement? ")); const a=el("a",null,"report it"); a.href=h.repo_url+"/issues"; a.target="_blank"; a.rel="noopener"; p3.appendChild(a); p3.appendChild(document.createTextNode(" with the DOI and the statement number.")); b.appendChild(p3); }
+  const p4 = el("p"); const r=el("button","chip","Reset my score"); r.type="button"; r.onclick=()=>{ tally={n:0,right:0,streak:0,best:0,byLabel:{supported:[0,0],contradicted:[0,0],not_addressed:[0,0]}}; seen=new Set(); store.set("ar.tally",tally); store.set("ar.seen",[]); renderScore(); toast("Score reset"); }; p4.appendChild(r); b.appendChild(p4);
+}
+
+document.addEventListener("keydown", e => {
+  if(e.target && /INPUT|TEXTAREA/.test(e.target.tagName)) return;
+  if(!cur) return;
+  if(!revealed && /^[123]$/.test(e.key)){ const open = cur.statements.find(s => !answers[s.k]); if(open){ choose(open.k, KEYS[+e.key-1]); e.preventDefault(); } }
+  else if(!revealed && e.key==="Enter" && !$("submit").disabled){ reveal(); e.preventDefault(); }
+  else if(revealed && (e.key==="Enter" || e.key===" ")){ next(); e.preventDefault(); }
+});
+
+function start(){
+  const savedF = store.get("ar.filt"); if(savedF && savedF.field) filt = Object.assign({field:"all",source:"all",journal:"all"}, savedF);
+  const savedT = store.get("ar.tally"); if(savedT && typeof savedT.n==="number") tally = savedT;
+  const savedS = store.get("ar.seen"); if(Array.isArray(savedS)) seen = new Set(savedS);
+  renderFilters(); renderScore(); renderAbout();
+  const m = /^#a(\d+)$/.exec(location.hash||""); const want = m ? items.find(it => it.n===+m[1]) : null;
+  show(want || pick());
+}
+fetch("data.json", {cache:"no-store"}).then(r => { if(!r.ok) throw new Error("http "+r.status); return r.json(); }).then(d => { DATA=d; items=d.items||[]; start(); })
+  .catch(e => { $("main").appendChild(el("div","empty","Could not load the items (data.json): "+e.message+". Serve this folder over http, e.g. python3 -m http.server, or open the published page.")); });
+})();
+</script>

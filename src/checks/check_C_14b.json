@@ -1,0 +1,87 @@
+{"batch": "check_C_14b", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+   {"n": 502, "id": "doi:10.1101/2023.06.20.23291650",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Assessment of ctDNA after RC identified metastatic relapse with a sensitivity of 94% and specificity of 98% using the expanded follow-up data for the NAC-treated patients."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Baseline ctDNA positivity was associated with the Ba/Sq subtype and enrichment of epithelial-to-mesenchymal transition and cell-cycle associated gene sets."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "No statistically significant difference in recurrence-free survival for patients without detectable ctDNA at diagnosis was observed between the cohorts."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Patients without detectable ctDNA at diagnosis may benefit significantly less from NAC, but additional studies are needed."}
+    ]},
+   {"n": 503, "id": "doi:10.1101/2024.08.04.605361",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Lastly, patients with ERBB2/HOXB13 co-amplified and BRCA1 lost tumors displayed a significantly shorter progression-free survival (PFS) than those with ERBB2 -only amplifications."},
+      {"j": 2, "label": "supported", "confidence": 2, "evidence": "Among ERBB2 -amplified tumors of different tissue origins, ERBB2/HOXB13 co-amp with a BRCA1 loss appeared to be unique to breast cancer.", "flag": "ambiguous", "reason": "The results hedge with \"appeared to be unique\" while the conclusion restates it as \"strongly enriched in breast cancer\", so strict exclusivity is left unsettled."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "In the TCGA breast cancer cohort, HOXB13 gene expression was significantly higher in HER2+ versus HER2- breast cancers, and its expression was also significantly higher in the ER- versus ER+ breast cancers."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "HOXB13 is frequently co-gained with ERBB2 at both low-copy number level or as complex high-level amplification with relative BRCA1 loss."}
+    ]},
+   {"n": 504, "id": "pmid:42656310",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Furthermore, the compound significantly suppressed cell migration, mirroring the effects observed in MMP9-knockdown TU177 cells."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "IC 50 values of 31.59 μM in TU177 cells and 17.73 μM in RK33 cells"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "By effectively targeting the MMP9 pathway, Cirsiliol suppresses tumor invasiveness and migration, highlighting its potential as a promising lead compound for the treatment of laryngeal cancer."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Virtual screening and MD simulations identified Cirsiliol as the most potent inhibitor among the tested phytochemicals, exhibiting a highly favorable binding free energy (ΔG binding = -179.793 kJ/mol) and stable interactions with key residues (ALA189, HIS266, and LEU243)."}
+    ]},
+   {"n": 505, "id": "pmid:41460923",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Unlabeled cells also die as a function of distance from the clusters of LINE-1-EGFP labeled neurons and glial cells."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "We found that TDP-43 animals exhibit broad expression of RTEs/ERVs with LINE-1 retrotransposition in glia and neurons in the motor cortex."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We utilized established transgenic mouse models that overexpress moderate levels of human wild-type TDP-43 or a mutant version with a specific ALS-causal Q331K amino acid substitution, together with a LINE-1-EGFP retrotransposon indicator line."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Expression begins with onset of neurological phenotypes, earlier in hTDP-43-Q331K animals and later in hTDP-43-WT."}
+    ]},
+   {"n": 506, "id": "pmid:39350044",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Results hold promise for new insights in understanding risk and prognosis factors in GC."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "The most frequent SBS signatures (SBS05, SBS01, SBS15, SBS20, SBS40) were also observed in 254 White GC cases from The Cancer Genome Atlas (TCGA) Project."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We identified 104 mutated genes with P < 0.01. Seven genes (OR6B1, B2M, ELF3, RHOA, RPL22, TP53, ARIDIA) had q < 0.0001, including six previously associated with GC."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "However, SBS01 and SBS20 showed significant differences between Whites vs. All Asians (19.3% vs. 11.3% for SBS 1 (P = 0.012) and 11.4% vs. 5.9% for SBS20 (P = 0.025), respectively)."}
+    ]},
+   {"n": 507, "id": "doi:10.1101/2025.10.30.685685",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 2, "evidence": "Furthermore, in an extensively characterised sample with known causal variants, SCARCE correctly identifies all known pathogenic variants among its top-ranked candidates."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "SCARCE successfully identifies rare somatic mutations across three distinct datasets using technologies including MissionBio Tapestri and clonally-amplified whole-genome sequencing of single cells."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Furthermore, in an extensively characterised sample with known causal variants, SCARCE correctly identifies all known pathogenic variants among its top-ranked candidates."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We demonstrate that SCARCE correctly isolates and identifies true variants in a cell population comprising just 10 of 16,316 cells (0.06% of the total population)."}
+    ]},
+   {"n": 508, "id": "pmid:42866107",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Time-dependent AUC values for the integrated clinico-genomic model at 24 and 36 months were 0.79 and 0.77, respectively, compared with 0.65 and 0.71 for using contemporary clinical factors alone and 0.74 and 0.69 for using CGPS alone."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "The web application incorporates PSA, ALP, LDH, and CGPS and returns individualized survival probability estimates at 24 and 36 months."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "CGPS estimates across independent mCRPC cohorts showed high concordance with Pearson correlation coefficients of 0.86-0.97 for cross cohort comparisons."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "C-index was 0.73 for the integrated model compared with 0.70 for CGPS alone and 0.63 for clinical factors alone."}
+    ]},
+   {"n": 509, "id": "pmid:42722442",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "A low baseline ctDNA fraction and high PSMA avidity in metastatic lesions were linked to superior treatment responses and may have composite biomarker value."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Genomic alterations in tumor suppressor genes TP53, RB1, or PTEN were associated with higher 18 F-FDG avidity and metabolic tumor volume on 18 F-FDG PET imaging and worse prognosis."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The PRINCE trial showed the clinical activity for 177 Lu-PSMA-617 in combination with pembrolizumab for metastatic castration-resistant prostate cancer."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "At 12-wk on-treatment, both ctDNA detection and PSMA PET imaging were strong indicators of response depth and durability."}
+    ]},
+   {"n": 510, "id": "pmid:41741796",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "The annual publication volume exhibited a significant upward trajectory, with a Compound Annual Growth Rate (CAGR) of 48.3%."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Wang J was the most prolific author (35 papers), whereas Diehn M was the most cited author (4460 citations)."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "A total of 1122 publications were retrieved: 807 primary articles and 315 review articles."},
+      {"j": 4, "label": "supported", "confidence": 2, "evidence": "China had the highest article output (379 papers), whereas the citation rate of papers from the United States was the highest (20,239 citations)."}
+    ]},
+   {"n": 511, "id": "doi:10.1101/2023.10.13.23296758",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "we developed a gene set activity scoring algorithm and observed significant association of high activity scores with poor progression-free survival (P<0.05)"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "This study demonstrates that 5hmC-based activity scores from gene sets involved in AR , FOXA1 and GRHL2 may be used as biomarkers to determine early treatment resistance, monitor disease progression, and potentially identify patients who would benefit from upfront treatment intensification."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Longitudinal analysis showed that the high activity scores were significantly reduced after 3-months of initiating ADT (P<0.0001) but returned to higher levels when the disease was progressed (P<0.05)."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Differential methylation analysis in baseline samples identified significant 5hmC difference in 1,642 of 23,433 genes between patients with and without progression (false discovery rate, FDR<0.1)."}
+    ]},
+   {"n": 512, "id": "doi:10.64898/2026.10.19.760246",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 2, "evidence": "Nearly one third of pairs with sufficient mutation counts showed significant enrichment at one or more binding site positions.", "flag": "ambiguous", "reason": "The abstract never says what the \"pairs\" are, so reading them as TF-tissue pairs is an inference from the surrounding sentences."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Highly expressed TFs were more likely to show enrichment than lowly expressed TFs, consistent with a role for TF binding in increased mutagenesis at the binding sites."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Enrichment was most widespread in melanoma but was detected in all 15 tissue types, with the affected TFs and binding site positions varying across tissues."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Together, these findings suggest that diverse interactions between TF binding, DNA damage, and DNA repair may contribute to mutation enrichment in regulatory DNA."}
+    ]},
+   {"n": 513, "id": "pmid:39518990",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "DREAMS-vc exhibited the highest ROC-AUC of 0.808 for sample classification in tumor-agnostic studies."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Our study benchmarked Mutect2, VarScan2, shearwater, and DREAMS-vc using deep targeted sequencing of cfDNA with Unique Molecular Identifiers (UMIs) from 111 colorectal cancer patients."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We also found that sequencing depth differences in PBMCs could lead to false positives, particularly with VarScan2 and Mutect2, which was addressed by downsampling to equivalent mean depths."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The shearwater-AND variant calling method demonstrated the highest precision in detecting tumor-derived mutations from plasma, and reached the highest ROC-AUC of 0.984 for sample classification in tumor-informed cfDNA analyses."}
+    ]}
+ ]}

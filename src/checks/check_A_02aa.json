@@ -1,0 +1,66 @@
+{"batch": "check_A_02aa", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+   {"n": 70, "id": "doi:10.1101/2024.10.11.617690",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Whole genome nanopore sequencing with adaptive sampling has the potential to provide genomic classification of acute leukemia specimens with reduced cost and turnaround time compared to the current standard of care."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Subtype-defining genomic alterations were identified in all cases following a maximum of forty-eight hours of sequencing."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "identified the driving alteration in as little as fifteen minutes (for karyotype) or up to six hours (for complex structural variants)"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We performed whole genome sequencing on DNA from diagnostic peripheral blood or bone marrow for 57 pediatric acute leukemia cases with diverse genomic subtypes."}
+    ]},
+   {"n": 71, "id": "pmid:37714378",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "A sequence comparison was applied to a collection of four Tn1696-related transposons (Tn7414-Tn7417) harbouring carbapenemase genes. For all these four transposons, the blaNDM-1 was carried by Tn125 derivatives within three different mobile genetic elements."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "The conjugal transfer and plasmid stability experiments confirmed that pK254-KPC_NDM could be transferred intercellularly and keep the stable vertical inheritance in different bacteria"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Tn7414 further acquired another carbapenemase gene, blaKPC-2, because of the integration of the local blaKPC-2 genetic environment from Tn6296, resulting in the high-level carbapenem resistance of K. michiganensis K254."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The conjugal transfer and plasmid stability experiments confirmed that pK254-KPC_NDM could be transferred intercellularly and keep the stable vertical inheritance in different bacteria"}
+    ]},
+   {"n": 72, "id": "pmid:39735890",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We detected 25/30 (83%) of selected junctions in the plasma of seven out of nine patients (78%)."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Patient plasma obtained before therapy and at response assessment was tested for the presence of personalized junctions via quantitative polymerase chain reaction."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Our study included nine patients, four with peritoneal and five with pleural mesothelioma. 763 chromosomal junctions were identified in the tumors of all cases."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "cfDNA junctions were detected in three patients with persistent disease, and not detected in a patient with no evidence of disease after surgery."}
+    ]},
+   {"n": 73, "id": "pmid:42847339",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Comparative analysis with 3 publicly available PDD genomes demonstrated both conserved core virulence determinants and strain-specific accessory genes, reflecting local adaptation and evolutionary diversification."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Phylogenomic analysis reveals that shrimp PDD strains are genetically heterogeneous and closely related to those infecting other aquatic organisms, suggesting that pathogenicity against shrimp arose independently in multiple PDD strains."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "we present complete, plasmid-resolved genome assemblies of 4 novel PDD strains (TUMSAT-PD1, -PD2, -PD3, and -PD4) isolated from diseased Kuruma shrimp across multiple prefectures in Japan"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "While core virulence determinants are chromosomally encoded, we identified key plasmid-borne virulence factors that are likely to enhance the pathogenicity of PDD strains."}
+    ]},
+   {"n": 74, "id": "pmid:38943580",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Rather high diversity was observed within the L31 clade; i.e., five phylogenetic clusters were identified."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "In mollusks, the L31 transposons have been detected only in the subclass Autobranchia and predominate in diversity and number in the infraclass Pteriomorphia."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "A protein encoded by open reading frame 2 (ORF2) was shown to be an integral structural component of almost all full-length L31 elements."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The L31 transposons were found to form an independent superfamily of an ancient origin within the ITm group."}
+    ]},
+   {"n": 75, "id": "doi:10.64898/2026.03.26.714450",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "direct targeted disruption of downstream adipogenic regulators recurrently lost in human DDLPS, including cebpa , g0s2 , and dgat2 , failed to induce dedifferentiation in the same genetic context in vivo"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "additional perturbation of transcriptional co-activator ep300 in this context resulted in increased tumor dedifferentiation, yielding lesions composed of spatially coexisting well- and dedifferentiated adipocytic states"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "demonstrating that pathway-level deregulation of the MDM2–p53 and CDK4–Rb axes is sufficient to initiate liposarcoma development in vivo"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Here, we establish an in vivo model of retroperitoneal liposarcoma in Xenopus tropicalis through early embryonic mosaic perturbation of p53 and Rb pathway components. Combined disruption reproducibly induced retroperitoneal WDLPS development, demonstrating that pathway-level deregulation of the MDM2–p53 and CDK4–Rb axes is sufficient to initiate liposarcoma development in vivo"}
+    ]},
+   {"n": 76, "id": "pmid:40138719",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "DGCR8+/- human embryonic stem cells (hESCs) showed increased apoptosis as well as self-renewal and differentiation defects in both the naïve and primed states."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "DGCR8+/- hESCs also displayed a pronounced reduction in human endogenous retrovirus class H (HERVH) expression, a primate-specific retroelement essential for pluripotency maintenance."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The 22q11.2 deletion syndrome (22qDS) is a human disorder where the majority of clinical manifestations originate during embryonic development."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "In this study, we generated two human pluripotent cell models containing a single functional DGCR8 allele to elucidate its role in early development."}
+    ]},
+   {"n": 77, "id": "doi:10.1101/2024.10.30.24316422",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Applying targeted NanoSeq to 1,042 non-invasive samples of oral epithelium and 371 samples of blood from a twin cohort, we found an unprecedentedly rich landscape of selection, with 49 genes under positive selection driving clonal expansions in the oral epithelium, over 62,000 driver mutations"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Multivariate regression models enable mutational epidemiology studies on how carcinogenic exposures and cancer risk factors, such as age, tobacco or alcohol, alter the acquisition and selection of somatic mutations."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "a duplex sequencing method with error rates <5 errors per billion base pairs, which is compatible with whole-exome and targeted gene sequencing"},
+      {"j": 4, "label": "not_addressed", "confidence": 2, "evidence": "49 genes under positive selection driving clonal expansions in the oral epithelium, over 62,000 driver mutations, and evidence of negative selection in some genes", "flag": "ambiguous", "reason": "The abstract reports negative selection in some genes, which neither states nor rules out genes with no detectable selection, so the statement is a distortion of that finding rather than something the abstract contradicts."}
+    ]},
+   {"n": 78, "id": "pmid:38693263",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Here we sequenced 962 clear cell renal cell carcinomas from 11 countries with varying incidence. The somatic mutation profiles differed between countries."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "In Romania, Serbia and Thailand, mutational signatures characteristic of aristolochic acid compounds were present in most cases, but these were rare elsewhere."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Known signatures of tobacco smoking correlated with tobacco consumption, but no signature was associated with obesity or hypertension"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "In Japan, a mutational signature of unknown cause was found in more than 70% of cases but in less than 2% elsewhere."}
+    ]}
+ ]}

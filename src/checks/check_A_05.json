@@ -1,0 +1,248 @@
+{"batch": "check_A_05", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+  {"n": 175, "id": "doi:10.64898/2026.07.09.737627",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "applying the frozen classifier without retraining, achieving an AUC of 0.83"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Applying attention-based multiple-instance learning to LEAF-1 embeddings further improved cancer detection, reaching an area under the receiver operating characteristic (ROC) curve (AUC) of 0.95."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "LEAF-1 outperformed state-of-the-art coordinate-binning strategies and general-purpose DNA language model baselines across cancer detection tasks"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "In sparse scATAC-seq datasets, mean-pooled LEAF-1 embeddings readily classify human cell types from as few as ∼1,000 fragments per cell"}
+   ]},
+  {"n": 176, "id": "pmid:42763384",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "An institutional cohort of ESCC patients treated at Kindai University was retrospectively evaluated by immunohistochemistry (n=70) and RNA sequencing (n=27)."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "tumor types in which TROP2-targeted ADCs are clinically active"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Immunohistochemistry analysis demonstrated uniformly strong TROP2 expression in all evaluable primary and metastatic lesions."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "was comparable to or higher than that observed in non-small cell lung cancer and breast cancer"}
+   ]},
+  {"n": 177, "id": "pmid:41383256",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "SOX5 mRNA expression levels were compared between normal and malignant tissues using The Cancer Genome Atlas database"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Increased SOX5 expression was associated with an immunosuppressive milieu marked by a rise in regulatory T cells, a decline in cytotoxic T cells"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "It demonstrated notable diagnostic potential, with good performance in LUAD (area under the curve=0.916)."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "SOX5 suppression in NSCLC cells in vitro impeded proliferation, migration and invasion."}
+   ]},
+  {"n": 178, "id": "doi:10.1101/2023.04.03.535374",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "achieved by delivery of synthetic ZFP189 VPR , precipitates social behavioral deficits in terms of social interaction, motivation, and the cognition necessary for the maintenance of social hierarchy"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Upon viral delivery of these synthetic ZFP189 transcription factors to mouse prefrontal cortex, we observe that ZFP189-mediated transcriptional control promotes mature dendritic spine morphology on transduced pyramidal neurons."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "ZFP189 transcription factors of opposing regulatory function have opposite influence on the expression of genetic transposable elements as well as genes that participate in immune functions"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "we discover that ZFP189 transcription factors of opposing regulatory function have opposite influence on the expression of genetic transposable elements as well as genes that participate in immune functions"}
+   ]},
+  {"n": 179, "id": "pmid:42457877",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Across all samples, global DNA methylation levels correlated with genomic instability."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "ENKTL displayed extensive promoter hypermethylation associated with repression of tumor suppressor genes, lineage regulators, and lymphoid signaling genes"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "highlighting the value of methylation profiling for refined classification, risk stratification and therapeutic guidance"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Unsupervised clustering identified two epigenetically distinct ENKTL subgroups, one characterized by higher global methylation, TP53 loss, increased copy number alterations and loss of heterozygosity and significantly poorer overall survival."}
+   ]},
+  {"n": 180, "id": "doi:10.64898/2026.01.20.700476",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "we inserted a 7.1 kb transposon encoding three genes into the β2M locus of human induced pluripotent stem cells (iPSCs), conferring protection against allogeneic natural killer (NK) cell-mediated cytotoxicity in derived iNK cells"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Our engineered PB transposase (PBase) retains high excision activity while substantially reducing endogenous integration activity."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Cas9 introduces site-specific double-strand breaks (DSBs), facilitating insertion of the excised fragment at the target locus"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "The optimized tool achieves 6.1–7.3 kb transposon integration at multiple genomic sites with 10–15% efficiency, demonstrating 60–80% targeted integration specificity."}
+   ]},
+  {"n": 181, "id": "pmid:42843743",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "The total abundance of ARGs was also higher and more homogeneous in the dynamic river (49529.4-58542.5 RPKM) compared to the slow-flow wetland (24091.8-53003.0 RPKM), which exhibited greater spatial heterogeneity."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Sulfamonomethoxine (SMM) was identified as the antibiotic most strongly associated with ARG variation in the wetland based on random forest analysis (importance score = 46.90%)."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "The total abundance of ARGs was also higher and more homogeneous in the dynamic river (49529.4-58542.5 RPKM) compared to the slow-flow wetland (24091.8-53003.0 RPKM)"},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Bacterial communities and MGEs showed stronger associations with ARG variation in the Qiantang River, with standardized total effects (STEs) of 0.953 and 0.442, respectively"}
+   ]},
+  {"n": 182, "id": "pmid:42899380",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Hybrid lesions containing distinct components of hepatocellular adenoma (HCA) and focal nodular hyperplasia (FNH) within a single nodule are exceptionally rare."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "In case 2, the same HNF1A splice-site mutation was identified in both the HCA and FNH components, but was also present in the non-neoplastic gallbladder, confirming its germline origin."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "In case 1, the hybrid tumour (6.0 cm) consisted of approximately equal proportions of HNF1α-inactivated HCA and FNH"},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Next-generation sequencing in case 1 demonstrated that the mutations were not shared between the HCA and FNH components, with HNF1A and FLT1 mutations identified only in the HCA component."}
+   ]},
+  {"n": 183, "id": "doi:10.1101/2025.11.06.25339690",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "We analyzed whole genome sequences of Klebsiella pneumoniae ST39 collected from Queen Elizabeth Central Hospital over a 20-year period, including generation of several high-quality hybrid genomes."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "causing a disproportionate number of infections on the neonatal ward at a tertiary healthcare facility in Malawi in 2017"},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "The analyzed Klebsiella pneumoniae ST39 lineages have a highly variable genome capable of incorporating large genomic regions during prolonged hospital circulation"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "We identified eight variable genomic regions that demonstrate the plasticity of Kpn within-ST, including the role of bacteriophages in shaping the genome of ST39."}
+   ]},
+  {"n": 184, "id": "pmid:38880832",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Our study included 48 NSCLC patients diagnosed as primary NSCLC before starting treatment"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "DII positively correlated with the stage of tumour (p = 0.01), tumour metastasis (p = 0.004), and with adenocarcinoma compared to other histopathological types (p = 0.02)."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "and in COPD patients compared to control subjects (p < 0.0001)"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "ROC curve analysis demonstrated an AUC of 0.91 at a cut-off value of 0.44 with total accuracy = 85.6%, sensitivity = 90%, specificity = 83%"}
+   ]},
+  {"n": 185, "id": "doi:10.1101/2024.05.01.591587",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "are enriched almost exclusively in luminal cells not basal myoepithelial cells"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "using single cell DNA sequencing, we describe the landscape of CNAs in >42,000 breast epithelial cells from women with normal or high risk of developing breast cancer"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Notably, cells with intermediate levels of CNAs are not detected, arguing against a stepwise gradual accumulation of CNAs."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Accumulation of individual cells with one or two of a specific subset of CNAs (e.g. 1q gain and 16q, 22q, 7q, and 10q loss) is detectable in almost all breast tissues"}
+   ]},
+  {"n": 186, "id": "doi:10.1101/2023.03.03.530936",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "We then developed a Bayesian learning model to predict subsequent treatment response with a sensitivity of 0.75 and a specificity of 0.66."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "A prospective large-scale clinical trial to evaluate clinical benefit of early treatment changes based on ctDNA levels is now warranted."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "validated across different breast cancer subtypes and treatments, outperforming the alternative methods"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "We identified a transition point of 7% estimated tumor fraction to stratify patients into different categories of progression risk"}
+   ]},
+  {"n": 187, "id": "pmid:40849395",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Higher-grade oligodendrogliomas, identified by LMC-based grading, were associated with more copy number alterations."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Two LMCs correlated with higher cellular density and advanced epigenetic age as well as with microvascular proliferation, necrosis, and epigenetically defined high-grade astrocytoma."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "This study aimed to explore DNA methylation-based tumor deconvolution into latent methylation components (LMCs) to evaluate their potential as objective grading tools in a cohort of 137 IDH-mutant gliomas."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Among patients of an external cohort who died during the assessment period, higher LMC1 proportions were associated with poorer overall survival."}
+   ]},
+  {"n": 188, "id": "pmid:41405018",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "In 39% of patients, no mutations were found in the 77 genes evaluated."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "GTF2I mutations were the most common, being present in 41% of patients."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Moreover, 19 neoplastic samples were dissociated to isolate tumor cells using flow cytometry."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "GTF2I mutations were prevalent in type A and AB thymomas, in Stage I-II tumors, and in patients without myasthenia gravis."}
+   ]},
+  {"n": 189, "id": "pmid:40862153",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "with gene content and plasmid modularity scaling with element size and copy numbers inversely correlating with size"},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "While these associations are compelling, causal relationships remain to be experimentally validated."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "We identified >30 distinct plasmids, representing five consistent replication-mobilization families."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Defensome profiling revealed over 50 anti-MGE systems in sequenced ' F. caldus ' isolates, including diverse restriction-modification systems, CRISPR-Cas types IV-A and V-F, and widespread abortive infection and composite defense systems such as Wadjet, Gabija, and Zorya."}
+   ]},
+  {"n": 190, "id": "pmid:39103003",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "suggest the use of HDACIs in combination with ADAR inhibitors to induce cell death and support immunotherapy in cancer"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Surprisingly, the interferon response was not activated."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "endogenous retroviruses (ERVs), especially ERV1 elements, are upregulated after treatment with HDAC1/2/3-specific inhibitors"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "We observed an increase in A-to-I editing of upregulated ERV1."}
+   ]},
+  {"n": 191, "id": "doi:10.1101/2025.09.05.674543",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "for a jointly sequenced gut metagenome, myloasm with ONT assembled more complete circular genomes than any assembler with HiFi"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "we recovered six complete Prevotella copri single-contig genomes from a gut metagenome and eight complete TM7 (Saccharibacteria) contigs with > 93% similarity from an oral metagenome"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "On real-world ONT metagenomes, myloasm assembled three times more complete circular contigs than the next-best assembler."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "On real-world ONT metagenomes, myloasm assembled three times more complete circular contigs than the next-best assembler."}
+   ]},
+  {"n": 192, "id": "pmid:42174641",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Genome doubling does not confer a fitness advantage in hypodiploid tumours, nor do these tumours evolve to avoid loss of dosage-sensitive genes."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Finally, we show that unstable hypodiploidy predicts poor prognosis across cancers."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Here, we analyse over 17,000 cancer genomes from 34 cancer types and perform a pan-cancer analysis of karyotypic evolution in hypodiploid tumours."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "we also identify a subset of cancers-acute lymphoblastic leukaemia (ALL), kidney chromophobe, and adrenocortical carcinoma-that exhibit stable hypodiploidy, with stereotyped chromosome loss patterns, low chromosomal instability, and distinct evolutionary origins"}
+   ]},
+  {"n": 193, "id": "doi:10.64898/2026.07.31.742092",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Locus-specific TE quantification identified two L1 elements, L1-10 and L1-15, active in both normal and VEXAS HSC that drive myeloid commitment by co-opting SPI1 and IRF1 transcription factors (TF)"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "pharmacologic inhibition of UBA1 with TAK-243 led to L1-10 and L1-15 RNA accumulation, while enhancement of UBA1 activity with Auranofin reversed this effect"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "while enhancement of UBA1 activity with Auranofin reversed this effect"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Lipid nanoparticle (LNP)-mediated CRISPRi of L1-10 and L1-15 in UBA1 -mutant HSC also caused reversion of VEXAS-associated functional phenotypes in vitro and in vivo"}
+   ]},
+  {"n": 194, "id": "doi:10.1101/2024.06.02.597054",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Genomic sequencing coverage of plasma DNA fragments around transcription start sites shows distinct treatment-related changes and captures the expression of key transcription factors such as NEUROD1 and REST in the corresponding SCLC tumors, allowing prediction of SCLC neuroendocrine phenotypes"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "a prospective cohort of 49 plasma samples obtained before, during, and after treatment from 20 patients with recurrent SCLC, we study cfDNA low pass whole genome (0.1X coverage) and exome (130X) sequencing"},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "cfDNA not only mirrors the mutation and copy number landscape of the corresponding tumor but also identifies clinically relevant resistance mechanisms and cancer driver alterations not found in matched tumor biopsies"},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "These findings have important implications for non-invasive stratification and subtype-specific therapies for patients with SCLC, now treated as a single disease."}
+   ]},
+  {"n": 195, "id": "pmid:40847421",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "In the case of the CRISPR-associated Tn7 elements from the type V-K, the ribosomal protein uS15 is an integral component of recruitment complex that promotes R-loop completion."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "TnsD targets a highly conserved site at the end of the glmS gene (attTn7)."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Additionally, we identify the uL29 and ACP residues that mediate the interaction with TnsD and stimulate DNA binding."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "we show that ACP and uL29 interact with the C-terminal region of TnsD through reciprocal electrostatic interactions, in turn, mitigating its tendency to aggregate"}
+   ]},
+  {"n": 196, "id": "pmid:40274976",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "37 MIBC patients were enrolled and 28 (76%) patients had any hotspot."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "the detection of ctDNA at the first visit after radical cystectomy was associated with recurrence free survival (P = 0.0043) and overall survival (P = 0.017)"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We evaluate the VAF of mutations (TERT, PLEKHS1, ADGRG6 and WDR74) with digital PCR in tumor and cfDNA as somatic mutation."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Among the 21 patients of follow-up cohort, cfDNA predicted recurrence 58 days earlier than the diagnosis by CT scan."}
+   ]},
+  {"n": 197, "id": "pmid:38674079",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "The novel integron containing bla IMP-1 featured the oxacillinase-101 gene, which is a previously unreported structure, with an IncN 4 plasmid type."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "67 non-duplicate strains of carbapenem-resistant K. aerogenes were isolated from 57 healthcare facilities in Japan. Through genetic testing and whole-genome sequencing, six strains were found to possess carbapenemases"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "highlighting the growing challenge of carbapenem-resistant Enterobacterales in Japan and underscoring the critical need for ongoing surveillance to control these pathogens"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "integrons found in the strains possessing bla IMP-6 , which were the most commonly identified, matched those reported domestically in Klebsiella pneumoniae"}
+   ]},
+  {"n": 198, "id": "doi:10.1101/2025.03.27.645863",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Using molecular dynamics simulations, we demonstrate that N-terminal acetylation induces a structural shift in the transposase-DNA complex, forcing a nucleotide in the inverted repeat to flip outward."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "forcing a nucleotide in the inverted repeat to flip outward"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Together, the two helix-turn-helix motifs act to propagate the force caused by base flipping along one direction of the cognate DNA double helix axis."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Our simulations also reveal that the processed N-terminus plays an unexpected role in modulating DNA binding affinity, contradicting previous assumptions that it was structurally inconsequential."}
+   ]},
+  {"n": 199, "id": "pmid:41823618",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "GhNAC140-Dt overexpression activates the expressions of secondary cell wall development related genes, including GhCESA4-Dt, GhCESA4-At, and GhCOBL9-At, promotes cellulose deposition, and enhances lint percentage."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "This retrotransposon insertion massively emerges on the domestication transition from Gossypium hirsutum races to cultivated cotton accessions, with > 80% fixation in modern cultivars."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "GhNAC140-Dt overexpression activates the expressions of secondary cell wall development related genes, including GhCESA4-Dt, GhCESA4-At, and GhCOBL9-At, promotes cellulose deposition, and enhances lint percentage."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "We confirm that a 60 bp core cis-regulatory module within the TE's LTR (long terminal repeat) specifically recruits the transcription factor GhMYB46 and increases downstream genes' expression."}
+   ]},
+  {"n": 200, "id": "pmid:38791307",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "We sequenced exomes of normal and tumor cells of 11 MM patients and analyzed the data for the presence of G4 context around points of somatic mutations."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "In several patients, we found that sites of somatic mutations are frequently located in regions with G4 context. This pattern correlated with specific germline variants found in these patients."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "In several patients, we found that sites of somatic mutations are frequently located in regions with G4 context."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We discuss the possible implications of these variants for mutation accumulation and specificity in MM"}
+   ]},
+  {"n": 201, "id": "pmid:41417016",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "while two of three with biochemical incomplete response tested negative for ctDNA/ctRNA"},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "This cross-sectional analysis demonstrated that liquid biopsy accurately reflected disease activity and showed strong concordance with primary tumor alterations."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "ctDNA and/or ctRNA were detected in all patients with a structurally incomplete response, showing full concordance with imaging findings."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "In contrast, 91% of patients with an excellent response had undetectable ctDNA/ctRNA, consistent with remission."}
+   ]},
+  {"n": 202, "id": "doi:10.1101/2025.04.24.650284",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "The SV burden varied ~100-fold across pediatric cancer types and demonstrated an 8- to 16-fold reduction compared to adult brain and solid tumors but was comparable in pediatric versus adult hematological malignancies."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "By contrast, such hotspots affected only immune-related loci but not driver genes in adult lymphoid cancers."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The SV burden varied ~100-fold across pediatric cancer types"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "we analyzed 1,616 pediatric cancer genomes in 16 major cancer types of hematological malignancies (n = 908), brain tumors (n = 183), and solid tumors (n = 525) and compared their profiles to those of 2,203 adult cancers"}
+   ]},
+  {"n": 203, "id": "pmid:41166679",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Background variability was not fully accounted for by intra-NGS or NGS-ddPCR technical variability or other potential sources of variability"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "larger changes were associated with low VAF and low cell-free DNA (cfDNA) input"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "In FLAURA and AURA3, ≥20% reductions in ctDNA levels (panel mean VAF) from screening to C1D1 occurred in 31/132 (23.5%) and 43/228 (18.9%) patients with paired pretreatment plasma samples, respectively"},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Intrapatient ctDNA variability over time in EGFR- mutant advanced NSCLC includes changes that may confound interpretation of treatment activity"}
+   ]},
+  {"n": 204, "id": "pmid:41331220",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Emerging evidence suggests potential links between GLP-1R signaling and cancer risk or progression, but its role in tumor biology remains unclear."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "It was lower in breast, lung, and colon cancers, but elevated in esophageal, kidney, and thyroid tumors compared to normal tissues."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Higher GLP-1R expression correlated with improved overall survival in low-grade glioma but with worse outcomes in lung squamous cell carcinoma."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Genetic alterations in GLP-1R were rare, with amplifications most common, particularly in esophageal and ovarian cancers."}
+   ]},
+  {"n": 205, "id": "doi:10.1101/2025.02.17.638711",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Current L1 reference annotations such as RepeatMasker still lack sequence details and also provide confounding annotated information"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "L1 elements sequences were also annotated with genomic loci and ranked according to their full-length content and similarity."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "annotation of L1 subfamilies identified in the current human reference genome (build Hg38) and in two individual Asian and Caucasian genomes at allele-level and nucleotide-level resolution"},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "L1 elements sequences were also annotated with genomic loci and ranked according to their full-length content and similarity."}
+   ]},
+  {"n": 206, "id": "doi:10.1101/2023.11.07.23298181",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "we analyzed this relationship using 214 whole-genome cfDNA samples across seven solid cancer types and revealed that the relation between cfDNA fragmentation patterns and cancer stages vary across cancer types"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Evaluated on two independent cfDNA datasets, our model can distinguish cancer stages of CRC with the area under the curve (AUC) values ranging from 0.68 to 0.99."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "machine learning model that exploits cfDNA fragmentation data to differentiate cancer stages of CRC"},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Among them, cfDNA fragmentation patterns in colorectal cancer (CRC) showed a strong correlation with cancer stages."}
+   ]},
+  {"n": 207, "id": "pmid:38037122",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "CRISPR deletion of the element in B lymphoblastoid cells revealed that the element acts as an enhancer that regulates both steady state and interferon-inducible expression of IFNAR1."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "CRISPR deletion of the element in B lymphoblastoid cells revealed that the element acts as an enhancer that regulates both steady state and interferon-inducible expression of IFNAR1."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "We investigated a specific L1M2a element located within the first intron of Interferon Alpha/Beta Receptor 1 (IFNAR1). This element shows epigenetic signatures of B cell-specific enhancer activity, despite being repressed by the Human Silencing Hub (HUSH) complex."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Many LINEs are marked by the repressive H3K9me3 modification"}
+   ]},
+  {"n": 208, "id": "pmid:39030645",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Our method initially identified 901 colon cancer-specific hypermethylated (CaSH) regions in the tissues of the 49 cancer patients."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Furthermore, we confirm that our method for ctDNA quantification is effective for monitoring cancer patients and can serve as a valuable tool for postoperative prognosis."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "We propose a liquid biopsy-based epigenetic method developed by utilizing 49 patients and 260 healthy controls methylation profile data to screen and monitor colon cancer."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "the methylation profiles of ctDNA in the blood exhibited high sensitivity (82%) and specificity (93%) in distinguishing patients with colon cancer from the control group, with an area under the curve of 0.903"}
+   ]},
+  {"n": 209, "id": "pmid:38593463",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Truncated and expanded variations of Tn 6925 were found across other A. baumannii plasmids, as well as in other Gram-negative bacteria (including Vibrio cholerae )."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "A novel ISKpn12-bounded transposon was also observed to contain bla TEM and aacC2e which was found interrupting Tn 5393 along with an IS 26 pseudo-compound transposon to form a 24.9 kb resistance island in an Acinetobacter pittii plasmid."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Multiple mobile genetic elements are involved in the formation of transposon structures that circulate bla TEM and aacC2e ."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "They were first observed within an IS 26 bounded 3.7 kb transposon (Tn 6925) on several Acinetobacter baumannii plasmids located within a 4.7 kb dif module."}
+   ]}
+ ]}

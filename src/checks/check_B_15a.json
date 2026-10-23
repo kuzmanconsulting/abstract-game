@@ -1,0 +1,87 @@
+{"batch": "check_B_15a", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+   {"n": 525, "id": "doi:10.1101/2025.01.17.24311574",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Conflicting evidence is observed in biomarkers such as the number of TILs in the infusion product, with some studies suggesting a relationship with response and others not."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Comparison between PBMC DNA, PBMC RNA, and circulating free DNA (cfDNA) repertoires demonstrated an increased presence of shared T cell clonotypes post-infusion when compared with baseline samples."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "9 patients with cutaneous (n = 7) or mucosal (n = 2) melanoma received TIL ACT after chemotherapeutic depletion."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Higher abundance of TIL clonotypes in the PBMC baseline and post-infusion DNA T cell repertoires and the presence of shared DNA T cell clonotypes between timepoints was seen in responders when compared with non-responders according to RECIST criteria."}
+    ]},
+   {"n": 526, "id": "pmid:37868064",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Significant correlations between genome size, repeated DNA content and transposable elements, respectively (Pearson's correlation test R 2 = 0.47, p = 0.0016; R 2 = 0.22, p = 0.05) were found"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "In all species, long interspersed nuclear elements and DNA transposons were the most abundant identified elements."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The genome sizes in the dataset varied up to 2.4 fold magnitude."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "The order Zoantharia are benthic cnidarians found from intertidal zones to the deep sea, and some species are particularly abundant in coral reefs."}
+    ]},
+   {"n": 527, "id": "pmid:39020404",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Patients presenting these signatures had significantly worse disease specific survival."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "mutational signatures associated with platinum-based chemotherapy treatment as well as high platinum enrichment scores were only detected in post-treatment samples."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Whole-genome sequencing data from 59 treatment-naïve and 18 post-treatment samples from 29 OAC patients was analysed."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "mutational signatures associated with platinum-based chemotherapy treatment as well as high platinum enrichment scores were only detected in post-treatment samples."}
+    ]},
+   {"n": 528, "id": "pmid:39652596",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "loss of the terminator caused a fitness defect for the host cells."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "we identified an element-encoded antiterminator (named canT for conjugation-associated antitermination) that is essential for transcription of Tn916 genes after excision of the element from the host chromosome."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "confers tetracycline-resistance and is found in several Gram-positive bacterial species."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "We found that the antiterminator is orientation-specific, functions with heterologous promoters and terminators, is processive and is most likely a cis-acting RNA."}
+    ]},
+   {"n": 529, "id": "pmid:39169411",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "17/19 (89%) zero-converted within six weeks of surgery and none recurred."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Positive ctDNA post-surgery (N = 4), irrespective of pre-treatment ctDNA status, was 100% predictive of recurrence (sensitivity 44%, specificity 100%)."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Pre-treatment ctDNA was detectable in 19/40 (48%) patients."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "ctDNA cleared prior to surgery in 7/9 (78%) patients who did not recur"}
+    ]},
+   {"n": 530, "id": "pmid:41430985",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "high expression of ADRB2 may predict a good outcome."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "In vitro experimental results indicate that stigmasterol can inhibit the malignant progression of U251 cells."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "In vitro experimental results indicate that stigmasterol can inhibit the malignant progression of U251 cells."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The significant pathways discovered using Kyoto Encyclopedia of Genes and Genomes enrichment analysis were chemical carcinogenesis-receptor activation, calcium signaling pathway, and pathways in cancer."}
+    ]},
+   {"n": 531, "id": "pmid:42747592",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We identified 20,839 differentially methylated retrotransposons, 3,306 of which overlapped differentially expressed genes."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "DNA methylation profiles in milk somatic cells showed consistently high levels across retrotransposons, with widespread hypermethylation in cows with Staphylococcus aureus-induced subclinical mastitis."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Promoter- and exon-overlapping elements showed inverse correlations between methylation and gene expression"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Retrotransposons accounted for ~ 40% of the genome, with LINEs representing the largest fraction."}
+    ]},
+   {"n": 532, "id": "pmid:42854587",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Baseline bTMB did not clearly distinguish responders from nonresponders"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "In the bTMB-High cohort, the lower bound of the 90% confidence interval (CI) exceeded the prespecified 5% threshold, meeting the primary endpoint."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Baseline bTMB did not clearly distinguish responders from nonresponders, whereas higher baseline ctDNA concentrations were associated with a lower ORR."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Early ctDNA decline at week 3 was associated with longer progression-free survival (hazard ratio 0.51, 95% CI 0.29-0.87)."}
+    ]},
+   {"n": 533, "id": "pmid:37223690",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "achieving an AUC of 0.91 (95% CI: 0.87-0.95), a sensitivity of 65% at 96% specificity."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "the combination model outperformed base models built from individual features"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We identified distinct profiles of genome-wide methylation changes (GWM), copy number alterations (CNA), and 4-nucleotide oligomer (4-mer) end motifs (EM) in cfDNA of breast cancer patients."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "the detection of breast cancer, particularly in early stages, is challenging due to the low amount of ctDNA and heterogeneity of molecular subtypes."}
+    ]},
+   {"n": 534, "id": "pmid:39166960",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 2, "evidence": "our research related certain mutational signatures, such as cosmic 1, cosmic 6, and cosmic 18, 29, to known characteristics including patient age and tobacco smoking", "flag": "ambiguous", "reason": "The abstract names tobacco smoking, not alcohol, but with a non-exhaustive 'including', so alcohol consumption is neither stated nor excluded; a reader could also treat the swapped exposure as a contradiction."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Our findings focused on the eight most altered genes with pathogenic and oncogenic mutations: TP53, SMAD4, ERBB3, KRAS, ARID1A, PIK3CA, RB1, and AXIN1."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Our findings focused on the eight most altered genes with pathogenic and oncogenic mutations: TP53, SMAD4, ERBB3, KRAS, ARID1A, PIK3CA, RB1, and AXIN1."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Genes with pathogenic single nucleotide variations (SNVs) were enriched in oncogenic signaling pathways, particularly RTK-RAS, WNT, and TP53 pathways."}
+    ]},
+   {"n": 535, "id": "doi:10.1101/2025.09.29.679192",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Our benchmark also displays the differences between short-read and long-read calls"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Strengths and limitations of different tools have been highlighted in depth as well as their computational requirements"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "leading to substantial variation in precision, recall, and the spectrum of TE families detected across tools."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "leading to substantial variation in precision, recall, and the spectrum of TE families detected across tools."}
+    ]},
+   {"n": 536, "id": "pmid:40847288",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Comparative analysis revealed associations between specific gene mutations and clinical characteristics such as tumor stage and patient sex."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "scDNA-seq identified two low-frequency mutation clones, NLRP5 and HMMR, which play important roles in the clonal evolution of CSCC."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Bulk sequencing revealed a diverse spectrum of somatic mutations in CSCC tumors, with missense mutations being predominant."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "the mutation frequencies of HRAS, TTN, MUC16 and MUC4 were significantly different from the Korean and Caucasian populations."}
+    ]}
+ ]}

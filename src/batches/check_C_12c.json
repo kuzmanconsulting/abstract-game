@@ -1,0 +1,431 @@
+{
+"batch": "check_C_12c",
+"pass": "C",
+"source_batch": "gen_12c",
+"items": [
+{
+"n": 444,
+"id": "pmid:37283742",
+"year": 2023,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "While recent studies have separately explored mutational signatures and the tumor microenvironment (TME), there is limited research on the associations of both factors in a pan-cancer context."
+},
+{
+"label": "Materials and methods",
+"text": "We performed a pan-cancer analysis of over 8,000 tumor samples from The Cancer Genome Atlas (TCGA) project. Machine learning methods were employed to systematically explore the relationship between mutational signatures and TME and develop a risk score based on TME-associated mutational signatures to predict patient survival outcomes. We also constructed an interaction model to explore how mutational signatures and TME interact and influence cancer prognosis."
+},
+{
+"label": "Results",
+"text": "Our analysis revealed a varied association between mutational signatures and TME, with the Clock-like signature showing the most widespread influence. Risk scores based on mutational signatures mainly induced by Clock-like and AID/APOBEC activity exhibited strong pan-cancer survival stratification ability. We also propose a novel approach to predict transcriptome decomposed infiltration levels using genome-derived mutational signatures as an alternative approach for exploring TME cell types when transcriptome data are unavailable. Our comprehensive analysis revealed that certain mutational signatures and their interaction with immune cells significantly impact clinical outcomes in particular cancer types. For instance, T cell infiltration levels only served as a prognostic biomarker in melanoma patients with high ultraviolet radiation exposure, breast cancer patients with high homologous recombination deficiency signature, and lung adenocarcinoma patients with high tobacco-associated mutational signature."
+},
+{
+"label": "Conclusion",
+"text": "Our study comprehensively explains the complex interplay between mutational signatures and immune infiltration in cancer. The results highlight the importance of considering both mutational signatures and immune phenotypes in cancer research and their significant implications for developing personalized cancer treatments and more effective immunotherapy."
+}
+],
+"text": "While recent studies have separately explored mutational signatures and the tumor microenvironment (TME), there is limited research on the associations of both factors in a pan-cancer context. We performed a pan-cancer analysis of over 8,000 tumor samples from The Cancer Genome Atlas (TCGA) project. Machine learning methods were employed to systematically explore the relationship between mutational signatures and TME and develop a risk score based on TME-associated mutational signatures to predict patient survival outcomes. We also constructed an interaction model to explore how mutational signatures and TME interact and influence cancer prognosis. Our analysis revealed a varied association between mutational signatures and TME, with the Clock-like signature showing the most widespread influence. Risk scores based on mutational signatures mainly induced by Clock-like and AID/APOBEC activity exhibited strong pan-cancer survival stratification ability. We also propose a novel approach to predict transcriptome decomposed infiltration levels using genome-derived mutational signatures as an alternative approach for exploring TME cell types when transcriptome data are unavailable. Our comprehensive analysis revealed that certain mutational signatures and their interaction with immune cells significantly impact clinical outcomes in particular cancer types. For instance, T cell infiltration levels only served as a prognostic biomarker in melanoma patients with high ultraviolet radiation exposure, breast cancer patients with high homologous recombination deficiency signature, and lung adenocarcinoma patients with high tobacco-associated mutational signature. Our study comprehensively explains the complex interplay between mutational signatures and immune infiltration in cancer. The results highlight the importance of considering both mutational signatures and immune phenotypes in cancer research and their significant implications for developing personalized cancer treatments and more effective immunotherapy.",
+"statements": [
+{
+"j": 1,
+"text": "T cell infiltration was prognostic only in three settings: melanoma with high ultraviolet exposure, breast cancer with high homologous recombination deficiency signature, and lung adenocarcinoma with high tobacco signature."
+},
+{
+"j": 2,
+"text": "Among the signatures examined, the AID/APOBEC signature showed the most widespread association with the tumour microenvironment."
+},
+{
+"j": 3,
+"text": "Tumours with high Clock-like signature activity respond better to immune checkpoint inhibitors."
+},
+{
+"j": 4,
+"text": "Risk scores built from mutational signatures attributed mainly to Clock-like and AID/APOBEC activity stratified survival strongly across cancer types."
+}
+]
+},
+{
+"n": 445,
+"id": "pmid:38258301",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "This article aimed to detect the existence of barley-specific Nikita and Sukkula retrotransposons in domestic geese samples and to evaluate the evolutionary relationships between these and other transposons belonging to the family Anatidae. Inter-retrotransposonamplified polymorphism-polymerase chain reaction (IRAP-PCR) method was performed for these retrotransposons movements in three diverse domestic goose populations (Chinese x Embden crossbred, Turkish White, and Turkish Multicolor). Polymorphism ratios were between 0 and 33% in all samples for Nikita and 0-73% in all samples for Sukkula . In addition, intrapopulation genetic polymorphism rates were also 0-15% in Chinese x Embden crossbred, 0-25% in Turkish White, 0-25% in Turkish Multicolor for Nikita ; while 0-27% in Chinese x Embden, and 0-50% in Turkish Multicolor for Sukkula . There was no polymorphism for Sukkula among Turkish White samples. Moreover, the neighbour-joining method was used for phylogenetic tree construction using 38 sequences of different ducks, geese, and swans. In silico analyses supported the transitions of retrotransposons in the family Anatidae. It is concluded that transposon mobility among the phylogenetically distant species may lead to understanding evolutionary relationships. This report is one of the first studies investigating retrotransposon movements in domestic geese, revealing a new perspective on the goose genome regarding mobile genetic elements."
+}
+],
+"text": "This article aimed to detect the existence of barley-specific Nikita and Sukkula retrotransposons in domestic geese samples and to evaluate the evolutionary relationships between these and other transposons belonging to the family Anatidae. Inter-retrotransposonamplified polymorphism-polymerase chain reaction (IRAP-PCR) method was performed for these retrotransposons movements in three diverse domestic goose populations (Chinese x Embden crossbred, Turkish White, and Turkish Multicolor). Polymorphism ratios were between 0 and 33% in all samples for Nikita and 0-73% in all samples for Sukkula . In addition, intrapopulation genetic polymorphism rates were also 0-15% in Chinese x Embden crossbred, 0-25% in Turkish White, 0-25% in Turkish Multicolor for Nikita ; while 0-27% in Chinese x Embden, and 0-50% in Turkish Multicolor for Sukkula . There was no polymorphism for Sukkula among Turkish White samples. Moreover, the neighbour-joining method was used for phylogenetic tree construction using 38 sequences of different ducks, geese, and swans. In silico analyses supported the transitions of retrotransposons in the family Anatidae. It is concluded that transposon mobility among the phylogenetically distant species may lead to understanding evolutionary relationships. This report is one of the first studies investigating retrotransposon movements in domestic geese, revealing a new perspective on the goose genome regarding mobile genetic elements.",
+"statements": [
+{
+"j": 1,
+"text": "Across all samples, Sukkula polymorphism ratios reached as high as 73%, whereas Nikita polymorphism did not exceed 33%."
+},
+{
+"j": 2,
+"text": "No Sukkula polymorphism was detected among the Turkish Multicolor goose samples."
+},
+{
+"j": 3,
+"text": "In silico analysis supported movements of retrotransposons within the family Anatidae."
+},
+{
+"j": 4,
+"text": "IRAP-PCR banding patterns of Nikita and Sukkula distinguished the three goose populations from one another."
+}
+]
+},
+{
+"n": 446,
+"id": "pmid:39663356",
+"year": 2024,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Circulating tumor DNA (ctDNA) in plasma cell free DNA (cfDNA) of cancer patients is associated with poor prognosis, but is challenging to detect from low plasma volumes. In metastatic castration-resistant prostate cancer (mCRPC), ctDNA assays are needed to prognosticate outcomes of patients treated with androgen receptor (AR) inhibitors. We develop a custom targeted cfDNA sequencing assay, named AR-ctDETECT, to detect ctDNA in limiting plasma cfDNA available from mCRPC patients in the Alliance A031201 randomized phase 3 trial of enzalutamide with or without abiraterone. Of 776 patients, 59% are ctDNA-positive, with 26% having high ctDNA aneuploidy and 33% having low ctDNA aneuploidy but displaying AR gain or structural rearrangement, MYC/MYCN gain, or a pathogenic mutation. ctDNA-positive patients have significantly worse median overall survival than ctDNA-negative patients (29.0 months vs. 47.4 months, respectively). Here, we show that mCRPC patients identified as ctDNA-positive using the AR-ctDETECT assay have poor survival despite treatment with potent AR inhibitors in a phase 3 trial."
+}
+],
+"text": "Circulating tumor DNA (ctDNA) in plasma cell free DNA (cfDNA) of cancer patients is associated with poor prognosis, but is challenging to detect from low plasma volumes. In metastatic castration-resistant prostate cancer (mCRPC), ctDNA assays are needed to prognosticate outcomes of patients treated with androgen receptor (AR) inhibitors. We develop a custom targeted cfDNA sequencing assay, named AR-ctDETECT, to detect ctDNA in limiting plasma cfDNA available from mCRPC patients in the Alliance A031201 randomized phase 3 trial of enzalutamide with or without abiraterone. Of 776 patients, 59% are ctDNA-positive, with 26% having high ctDNA aneuploidy and 33% having low ctDNA aneuploidy but displaying AR gain or structural rearrangement, MYC/MYCN gain, or a pathogenic mutation. ctDNA-positive patients have significantly worse median overall survival than ctDNA-negative patients (29.0 months vs. 47.4 months, respectively). Here, we show that mCRPC patients identified as ctDNA-positive using the AR-ctDETECT assay have poor survival despite treatment with potent AR inhibitors in a phase 3 trial.",
+"statements": [
+{
+"j": 1,
+"text": "Of 776 mCRPC patients, 59% were ctDNA-positive, including 26% with high ctDNA aneuploidy."
+},
+{
+"j": 2,
+"text": "Adding abiraterone to enzalutamide improved survival in ctDNA-positive patients."
+},
+{
+"j": 3,
+"text": "ctDNA-positive patients had significantly longer median overall survival than ctDNA-negative patients."
+},
+{
+"j": 4,
+"text": "mCRPC patients classified as ctDNA-positive by AR-ctDETECT had poor survival despite treatment with potent AR inhibitors."
+}
+]
+},
+{
+"n": 447,
+"id": "pmid:41044128",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Repetitive elements (REs), involving both satellite DNA (satDNA) and transposable elements (TEs), significantly influence the evolutionary dynamics of the host genome. The order Orthoptera, known for its large genomes, serves as an ideal model for studying the relationship between repeat elements and genome size. We conducted a comparative repeatome analysis across ten Tetrigidae species, using low-coverage short reads in RepeatExplorer2 and dnaPipeTE. Our findings revealed that RE content constitutes between 42.82% (in Thoradonta yunnana) and 60.86% (in Saussurella cornuta) of their genomes, with major components including LINEs, LTR/Gypsy, LTR/Copia, and DNA transposons (Maverick and Helitron). We observed a strong positive correlation between repeat and TE content with genome size, suggesting genome expansion in Tetrigidae is likely driven primarily by repetitive DNA, particularly transposable elements. TE divergence analysis, calculated using RepeatMasker, indicates that species with large genomes, such as S. cornuta (2.836 Gb) and Formosatettix gonggashanensis (1.465 Gb), have experienced both ancient and recent bursts of TE activity. Satellitome analysis revealed a diverse range of satDNA families, with Macromotettixoides jiuwanshanensis having the highest number (34 families) and Phaesticus moniliantennatus showing the greatest abundance (16.76%). Additionally, a fossil-calibrated phylogeny based on 13 mitochondrial protein-coding genes (PCGs) enabled ancestral state reconstructions of genome size, repeat content, and TE composition, revealing lineage-specific patterns of genomic evolution. This study highlights the critical role of repetitive DNA, particularly TEs, in driving genomic complexity and expansion, offering key insights into the evolutionary dynamics of Tetrigidae."
+}
+],
+"text": "Repetitive elements (REs), involving both satellite DNA (satDNA) and transposable elements (TEs), significantly influence the evolutionary dynamics of the host genome. The order Orthoptera, known for its large genomes, serves as an ideal model for studying the relationship between repeat elements and genome size. We conducted a comparative repeatome analysis across ten Tetrigidae species, using low-coverage short reads in RepeatExplorer2 and dnaPipeTE. Our findings revealed that RE content constitutes between 42.82% (in Thoradonta yunnana) and 60.86% (in Saussurella cornuta) of their genomes, with major components including LINEs, LTR/Gypsy, LTR/Copia, and DNA transposons (Maverick and Helitron). We observed a strong positive correlation between repeat and TE content with genome size, suggesting genome expansion in Tetrigidae is likely driven primarily by repetitive DNA, particularly transposable elements. TE divergence analysis, calculated using RepeatMasker, indicates that species with large genomes, such as S. cornuta (2.836 Gb) and Formosatettix gonggashanensis (1.465 Gb), have experienced both ancient and recent bursts of TE activity. Satellitome analysis revealed a diverse range of satDNA families, with Macromotettixoides jiuwanshanensis having the highest number (34 families) and Phaesticus moniliantennatus showing the greatest abundance (16.76%). Additionally, a fossil-calibrated phylogeny based on 13 mitochondrial protein-coding genes (PCGs) enabled ancestral state reconstructions of genome size, repeat content, and TE composition, revealing lineage-specific patterns of genomic evolution. This study highlights the critical role of repetitive DNA, particularly TEs, in driving genomic complexity and expansion, offering key insights into the evolutionary dynamics of Tetrigidae.",
+"statements": [
+{
+"j": 1,
+"text": "Across the ten species, repeat and TE content showed a strong negative correlation with genome size."
+},
+{
+"j": 2,
+"text": "Helitron elements were the single most abundant TE superfamily in every Tetrigidae species examined."
+},
+{
+"j": 3,
+"text": "Repetitive elements accounted for 42.82% to 60.86% of the genome across the ten Tetrigidae species, lowest in Thoradonta yunnana and highest in Saussurella cornuta."
+},
+{
+"j": 4,
+"text": "Large-genome species such as S. cornuta (2.836 Gb) and Formosatettix gonggashanensis (1.465 Gb) experienced both ancient and recent bursts of TE activity."
+}
+]
+},
+{
+"n": 448,
+"id": "doi:10.1101/2025.02.24.639589",
+"year": 2025,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Ongoing mutagenesis in cancer drives genetic diversity throughout the natural history of cancers. As the activities of mutational processes are dynamic throughout evolution, distinguishing the mutational signatures of ‘active’ and ‘historical’ processes has important implications for studying how tumors evolve. This can aid in understanding mutagenic states at the time of presentation, and in associating active mutational process with therapeutic resistance. As bulk sequencing primarily captures historical mutational processes, we studied whether ultra-low-coverage single-cell whole-genome sequencing (scWGS), which measures the distribution of mutations across hundreds or thousands of individual cells, could enable the distinction between historical and active mutational processes. While technical challenges and data sparsity have limited mutation analysis in scWGS, we show that these data contain valuable information about dynamic mutational processes. To robustly interpret single nucleotide variants (SNVs) in scWGS, we introduce ArtiCull, a method to identify and remove SNV artifacts by leveraging evolutionary constraints, enabling reliable detection of mutations for signature analysis. Applying this approach to scWGS data from pancreatic ductal adenocarcinoma (PDAC), triple-negative breast cancer (TNBC), and high-grade serous ovarian cancer (HGSOC), we uncover temporal and spatial patterns in mutational processes. In PDAC, we observe a temporal increase in mismatch repair deficiency (MMRd). In cisplatin-treated TNBC patient-derived xenografts, we identify therapy-induced mutagenesis and inactivation of APOBEC3 activity. In HGSOC, we show distinct patterns of APOBEC3 mutagenesis, including late tumor-wide activation in one case and clade-specific enrichment in another. Additionally, we detect a clone-specific increase in SBS17 activity, in a clone previously linked to recurrence. Our findings establish ultra-low-coverage scWGS as a powerful approach for studying active mutational processes that may influence ongoing clonal evolution and therapeutic resistance."
+}
+],
+"text": "Ongoing mutagenesis in cancer drives genetic diversity throughout the natural history of cancers. As the activities of mutational processes are dynamic throughout evolution, distinguishing the mutational signatures of ‘active’ and ‘historical’ processes has important implications for studying how tumors evolve. This can aid in understanding mutagenic states at the time of presentation, and in associating active mutational process with therapeutic resistance. As bulk sequencing primarily captures historical mutational processes, we studied whether ultra-low-coverage single-cell whole-genome sequencing (scWGS), which measures the distribution of mutations across hundreds or thousands of individual cells, could enable the distinction between historical and active mutational processes. While technical challenges and data sparsity have limited mutation analysis in scWGS, we show that these data contain valuable information about dynamic mutational processes. To robustly interpret single nucleotide variants (SNVs) in scWGS, we introduce ArtiCull, a method to identify and remove SNV artifacts by leveraging evolutionary constraints, enabling reliable detection of mutations for signature analysis. Applying this approach to scWGS data from pancreatic ductal adenocarcinoma (PDAC), triple-negative breast cancer (TNBC), and high-grade serous ovarian cancer (HGSOC), we uncover temporal and spatial patterns in mutational processes. In PDAC, we observe a temporal increase in mismatch repair deficiency (MMRd). In cisplatin-treated TNBC patient-derived xenografts, we identify therapy-induced mutagenesis and inactivation of APOBEC3 activity. In HGSOC, we show distinct patterns of APOBEC3 mutagenesis, including late tumor-wide activation in one case and clade-specific enrichment in another. Additionally, we detect a clone-specific increase in SBS17 activity, in a clone previously linked to recurrence. Our findings establish ultra-low-coverage scWGS as a powerful approach for studying active mutational processes that may influence ongoing clonal evolution and therapeutic resistance.",
+"statements": [
+{
+"j": 1,
+"text": "In HGSOC, APOBEC3 mutagenesis followed two different patterns: late tumour-wide activation in one case and clade-specific enrichment in another."
+},
+{
+"j": 2,
+"text": "ArtiCull removed more SNV artifacts than existing single-cell variant filtering tools on the same data."
+},
+{
+"j": 3,
+"text": "In PDAC, mismatch repair deficiency activity decreased over time."
+},
+{
+"j": 4,
+"text": "In cisplatin-treated TNBC patient-derived xenografts, the analysis detected therapy-induced mutagenesis together with inactivation of APOBEC3 activity."
+}
+]
+},
+{
+"n": 449,
+"id": "doi:10.64898/2026.08.30.26361778",
+"year": 2026,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "Immunochemotherapy (ICT) is considered standard in regards to care for small-cell lung cancer (SCLC) in extensive stages, yet reliable biomarkers for treatment response remain elusive. While previous univariate analyses suggest specific peripheral lymphocyte subsets correlate with survival, the systemic immune response involves complex, multivariate interactions that require advanced analytical approaches."
+},
+{
+"label": "Methods",
+"text": "This paper analysed high-dimensional flow cytometry data from 32 patients with stage IV SCLC treated with carboplatin, etoposide, and atezolizumab. Peripheral blood was analysed at baseline ( V 0 ) and longitudinally during treatment. To identify potential early predictive biomarkers and mitigate sample attrition in later cycles, we focused on baseline and measurements after two cycles of ICT ( V 1 ). We employed a rigorous machine learning framework utilising nested cross-validation, bootstrapping, and permutation-based statistical testing to evaluate eleven different regression and survival models."
+},
+{
+"label": "Results",
+"text": "Under model-appropriate metrics, regressors did not generalise ( R 2 < 0); conversely, censoring- aware Random Survival Forests (RSF) successfully extracted robust prognostic signatures. Baseline immune profiles ( V 0 ) achieved a concordance index (C-index) of 0.66 ( p = 0.015), while dynamic changes from V 0 to V 1 ( ΔV ) achieved a C-index of 0.65 ( p = 0.022). Crucially, absolute values measured after two cycles of ICT ( V 1 ) yielded no significant signal ( p = 0.445). Feature importance analysis confirmed the prognostic value of Th17 normalisation and identified Naive Regulatory T cells and Memory B cells as candidate components."
+},
+{
+"label": "Conclusion",
+"text": "Machine learning validation confirms a predictive signal in the peripheral immune profile of SCLC patients. Early dynamic shifts in the balance between regulatory and effector immune arms are associated with prognosis, contrasting with the lack of signal in absolute counts after two cycles of ICT. These findings establish a proof of concept for multivariate liquid biopsy immune profiling, warranting confirmation in larger cohorts and highlighting the necessity of integrating systemic and tumour-intrinsic data."
+}
+],
+"text": "Immunochemotherapy (ICT) is considered standard in regards to care for small-cell lung cancer (SCLC) in extensive stages, yet reliable biomarkers for treatment response remain elusive. While previous univariate analyses suggest specific peripheral lymphocyte subsets correlate with survival, the systemic immune response involves complex, multivariate interactions that require advanced analytical approaches. This paper analysed high-dimensional flow cytometry data from 32 patients with stage IV SCLC treated with carboplatin, etoposide, and atezolizumab. Peripheral blood was analysed at baseline ( V 0 ) and longitudinally during treatment. To identify potential early predictive biomarkers and mitigate sample attrition in later cycles, we focused on baseline and measurements after two cycles of ICT ( V 1 ). We employed a rigorous machine learning framework utilising nested cross-validation, bootstrapping, and permutation-based statistical testing to evaluate eleven different regression and survival models. Under model-appropriate metrics, regressors did not generalise ( R 2 < 0); conversely, censoring- aware Random Survival Forests (RSF) successfully extracted robust prognostic signatures. Baseline immune profiles ( V 0 ) achieved a concordance index (C-index) of 0.66 ( p = 0.015), while dynamic changes from V 0 to V 1 ( ΔV ) achieved a C-index of 0.65 ( p = 0.022). Crucially, absolute values measured after two cycles of ICT ( V 1 ) yielded no significant signal ( p = 0.445). Feature importance analysis confirmed the prognostic value of Th17 normalisation and identified Naive Regulatory T cells and Memory B cells as candidate components. Machine learning validation confirms a predictive signal in the peripheral immune profile of SCLC patients. Early dynamic shifts in the balance between regulatory and effector immune arms are associated with prognosis, contrasting with the lack of signal in absolute counts after two cycles of ICT. These findings establish a proof of concept for multivariate liquid biopsy immune profiling, warranting confirmation in larger cohorts and highlighting the necessity of integrating systemic and tumour-intrinsic data.",
+"statements": [
+{
+"j": 1,
+"text": "Regression models failed to generalise, with R² below zero, whereas censoring-aware Random Survival Forests extracted robust prognostic signatures."
+},
+{
+"j": 2,
+"text": "The Random Survival Forest immune signature also predicted radiographic tumour response to immunochemotherapy."
+},
+{
+"j": 3,
+"text": "Absolute immune values measured after two cycles of ICT yielded a significant prognostic signal."
+},
+{
+"j": 4,
+"text": "Baseline peripheral immune profiles achieved a concordance index of 0.66 (p = 0.015) for survival prediction."
+}
+]
+},
+{
+"n": 450,
+"id": "pmid:38977960",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "The piRNA pathway in animal gonads functions as an 'RNA-based immune system', serving to silence transposable elements and prevent inheritance of novel invaders. In Drosophila, this pathway relies on three gonad-specific Argonaute proteins (Argonaute-3, Aubergine and Piwi) that associate with 23-28 nucleotide piRNAs, directing the silencing of transposon-derived transcripts. Transposons constitute a primary driver of genome evolution, yet the evolution of piRNA pathway factors has not received in-depth exploration. Specifically, channel nuclear pore proteins, which impact piRNA processing, exhibit regions of rapid evolution in their promoters. Consequently, the question arises whether such a mode of evolution is a general feature of transposon silencing pathways."
+},
+{
+"label": "Results",
+"text": "By employing genomic analysis of coding and promoter regions within genes that function in transposon silencing in Drosophila, we demonstrate that the promoters of germ cell-specific piRNA factors are undergoing rapid evolution. Our findings indicate that rapid promoter evolution is a common trait among piRNA factors engaged in germline silencing across insect species, potentially contributing to gene expression divergence in closely related taxa. Furthermore, we observe that the promoters of genes exclusively expressed in germ cells generally exhibit rapid evolution, with some divergence in gene expression."
+},
+{
+"label": "Conclusion",
+"text": "Our results suggest that increased germline promoter evolution, in partnership with other factors, could contribute to transposon silencing and evolution of species through differential expression of genes driven by invading transposons."
+}
+],
+"text": "The piRNA pathway in animal gonads functions as an 'RNA-based immune system', serving to silence transposable elements and prevent inheritance of novel invaders. In Drosophila, this pathway relies on three gonad-specific Argonaute proteins (Argonaute-3, Aubergine and Piwi) that associate with 23-28 nucleotide piRNAs, directing the silencing of transposon-derived transcripts. Transposons constitute a primary driver of genome evolution, yet the evolution of piRNA pathway factors has not received in-depth exploration. Specifically, channel nuclear pore proteins, which impact piRNA processing, exhibit regions of rapid evolution in their promoters. Consequently, the question arises whether such a mode of evolution is a general feature of transposon silencing pathways. By employing genomic analysis of coding and promoter regions within genes that function in transposon silencing in Drosophila, we demonstrate that the promoters of germ cell-specific piRNA factors are undergoing rapid evolution. Our findings indicate that rapid promoter evolution is a common trait among piRNA factors engaged in germline silencing across insect species, potentially contributing to gene expression divergence in closely related taxa. Furthermore, we observe that the promoters of genes exclusively expressed in germ cells generally exhibit rapid evolution, with some divergence in gene expression. Our results suggest that increased germline promoter evolution, in partnership with other factors, could contribute to transposon silencing and evolution of species through differential expression of genes driven by invading transposons.",
+"statements": [
+{
+"j": 1,
+"text": "Rapid promoter evolution was a shared feature of piRNA factors involved in germline silencing in Drosophila alone."
+},
+{
+"j": 2,
+"text": "Promoters of genes expressed exclusively in germ cells generally evolved rapidly, accompanied by some divergence in gene expression."
+},
+{
+"j": 3,
+"text": "Promoters of mammalian germline piRNA factors show the same rapid evolution."
+},
+{
+"j": 4,
+"text": "In Drosophila, the piRNA pathway relies on three gonad-specific Argonaute proteins that bind piRNAs of 23-28 nucleotides."
+}
+]
+},
+{
+"n": 451,
+"id": "doi:10.1101/2024.09.10.24313398",
+"year": 2024,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "Advances in our technological capacity to interrogate brain tumour biology has led to the ever-increasing use of genomic sequencing in routine diagnostic decision making. Presently, brain tumours are routinely classified based on their epigenetic signatures, leading to a paradigm shift in diagnostic pathways. Such testing can be performed so rapidly using nanopore sequencing that results can be provided intraoperatively. This information greatly improves upon the fidelity of smear diagnosis and can help surgeons tailor their approach, balancing the risks of surgery with the likely benefit. Nevertheless, full integrated diagnosis may require subsequent additional assays to detect pathognomonic somatic mutations and structural variants, thereby delaying the time to final diagnosis."
+},
+{
+"label": "Methods",
+"text": "Here, we present ROBIN, a tool based upon PromethION nanopore sequencing technology that can provide both real-time, intraoperative methylome classification and next-day comprehensive molecular profiling within a single assay. ROBIN uniquely integrates three methylation classifiers 1–3 to improve diagnostic performance in the intraoperative setting."
+},
+{
+"label": "Findings",
+"text": "We demonstrate classifier performance on 50 prospective intraoperative cases, achieving a diagnostic turnaround time under 2 hours and generating robust tumour classifications within minutes of sequencing. Furthermore, ROBIN can detect single nucleotide variants (SNVs), copy number variants (CNVs) and structural variants (SVs) in real-time, and is able to inform a complete integrated diagnosis within 24 hours. Classifier performance demonstrated concordance with final integrated diagnosis in 90% of prospective cases."
+},
+{
+"label": "Interpretation",
+"text": "Nanopore sequencing can greatly improve upon the turnaround times for standard of care diagnostic testing, including sequencing, and is furthermore able to reliably provide clinically actionable intraoperative tumour classification."
+},
+{
+"label": "Funding",
+"text": "The Jean-Shanks Foundation, the Pathological Society of Great Britain and Ireland, the British Neuropathological Society, and the Wellcome Trust."
+}
+],
+"text": "Advances in our technological capacity to interrogate brain tumour biology has led to the ever-increasing use of genomic sequencing in routine diagnostic decision making. Presently, brain tumours are routinely classified based on their epigenetic signatures, leading to a paradigm shift in diagnostic pathways. Such testing can be performed so rapidly using nanopore sequencing that results can be provided intraoperatively. This information greatly improves upon the fidelity of smear diagnosis and can help surgeons tailor their approach, balancing the risks of surgery with the likely benefit. Nevertheless, full integrated diagnosis may require subsequent additional assays to detect pathognomonic somatic mutations and structural variants, thereby delaying the time to final diagnosis. Here, we present ROBIN, a tool based upon PromethION nanopore sequencing technology that can provide both real-time, intraoperative methylome classification and next-day comprehensive molecular profiling within a single assay. ROBIN uniquely integrates three methylation classifiers 1–3 to improve diagnostic performance in the intraoperative setting. We demonstrate classifier performance on 50 prospective intraoperative cases, achieving a diagnostic turnaround time under 2 hours and generating robust tumour classifications within minutes of sequencing. Furthermore, ROBIN can detect single nucleotide variants (SNVs), copy number variants (CNVs) and structural variants (SVs) in real-time, and is able to inform a complete integrated diagnosis within 24 hours. Classifier performance demonstrated concordance with final integrated diagnosis in 90% of prospective cases. Nanopore sequencing can greatly improve upon the turnaround times for standard of care diagnostic testing, including sequencing, and is furthermore able to reliably provide clinically actionable intraoperative tumour classification. The Jean-Shanks Foundation, the Pathological Society of Great Britain and Ireland, the British Neuropathological Society, and the Wellcome Trust.",
+"statements": [
+{
+"j": 1,
+"text": "Diagnostic turnaround time in the 50 prospective cases was around 8 hours."
+},
+{
+"j": 2,
+"text": "ROBIN detected SNVs, CNVs and structural variants in real time and could inform a complete integrated diagnosis within 24 hours."
+},
+{
+"j": 3,
+"text": "Intraoperative ROBIN results changed the extent of surgical resection in some patients."
+},
+{
+"j": 4,
+"text": "In 50 prospective intraoperative cases, ROBIN's classification agreed with the final integrated diagnosis 90% of the time."
+}
+]
+},
+{
+"n": 452,
+"id": "pmid:42793237",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background and objective",
+"text": "The objective of this exploratory study was to identify the molecular characteristics that influence survival outcomes in cases of cervical adenocarcinoma, utilising data from the TCGA (The Cancer Genome Atlas) database."
+},
+{
+"label": "Methods",
+"text": "The 'TCGA Firehose Legacy' dataset was accessed through the Cbioportal website. SILVA invasion patterns were independently evaluated on digitized whole-slide images by two gynecologic pathologists. Cases were categorized by overall survival status (living vs. deceased). Somatic mutations, copy number alterations, mRNA expression, RPPA protein expression, and DNA methylation profiles were analyzed. Survival analyses were performed using Kaplan-Meier methods and log-rank tests, supplemented by differential analysis. Pathway and transcription factor binding motif enrichment was evaluated via g:Profiler. p and q < 0.05 were considered statistically significant."
+},
+{
+"label": "Results",
+"text": "Among 27 cases (22 living, 5 deceased; 23 HPV-positive, 2 HPV-negative, 2 unknown), PREX1 protein expression was identified as the top-ranked differentially expressed candidate protein ( p = 4.29 × 10 -5 , q = 8.70 × 10 -3 ). Kaplan-Meier analysis demonstrated superior overall survival in patients with high PREX1 protein levels. DNA methylation analysis identified 8 differentially methylated genes ( p , q q = 0.032). Due to sample size constraints ( n = 2 HPV-negative, n = 2 SILVA Pattern A), subgroup comparisons for HPV status and SILVA patterns were interpreted descriptively without inferential statistical claims."
+},
+{
+"label": "Conclusions",
+"text": "In this exploratory cohort, elevated PREX1 protein levels and promoter hypermethylation of specific immune- and metabolic-related genes were associated with overall survival in endocervical adenocarcinoma. Due to the current lack of independent public proteomic validation datasets, PREX1 emerges as a novel candidate biomarker requiring prospective tissue-based immunohistochemical and epigenetic validation in larger multi-center clinical cohorts."
+}
+],
+"text": "The objective of this exploratory study was to identify the molecular characteristics that influence survival outcomes in cases of cervical adenocarcinoma, utilising data from the TCGA (The Cancer Genome Atlas) database. The 'TCGA Firehose Legacy' dataset was accessed through the Cbioportal website. SILVA invasion patterns were independently evaluated on digitized whole-slide images by two gynecologic pathologists. Cases were categorized by overall survival status (living vs. deceased). Somatic mutations, copy number alterations, mRNA expression, RPPA protein expression, and DNA methylation profiles were analyzed. Survival analyses were performed using Kaplan-Meier methods and log-rank tests, supplemented by differential analysis. Pathway and transcription factor binding motif enrichment was evaluated via g:Profiler. p and q < 0.05 were considered statistically significant. Among 27 cases (22 living, 5 deceased; 23 HPV-positive, 2 HPV-negative, 2 unknown), PREX1 protein expression was identified as the top-ranked differentially expressed candidate protein ( p = 4.29 × 10 -5 , q = 8.70 × 10 -3 ). Kaplan-Meier analysis demonstrated superior overall survival in patients with high PREX1 protein levels. DNA methylation analysis identified 8 differentially methylated genes ( p , q q = 0.032). Due to sample size constraints ( n = 2 HPV-negative, n = 2 SILVA Pattern A), subgroup comparisons for HPV status and SILVA patterns were interpreted descriptively without inferential statistical claims. In this exploratory cohort, elevated PREX1 protein levels and promoter hypermethylation of specific immune- and metabolic-related genes were associated with overall survival in endocervical adenocarcinoma. Due to the current lack of independent public proteomic validation datasets, PREX1 emerges as a novel candidate biomarker requiring prospective tissue-based immunohistochemical and epigenetic validation in larger multi-center clinical cohorts.",
+"statements": [
+{
+"j": 1,
+"text": "The exploratory cohort included 27 cervical adenocarcinoma cases, 22 living and 5 deceased, of which 23 were HPV-positive."
+},
+{
+"j": 2,
+"text": "PREX1 promotes cervical adenocarcinoma cell survival through activation of Rac1 signalling."
+},
+{
+"j": 3,
+"text": "PREX1 protein expression ranked first among differentially expressed candidate proteins between living and deceased patients."
+},
+{
+"j": 4,
+"text": "Kaplan-Meier analysis showed superior overall survival in patients with low PREX1 protein levels."
+}
+]
+},
+{
+"n": 453,
+"id": "doi:10.64898/2025.12.04.692301",
+"year": 2025,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Bread wheat ( Triticum aestivum ) is a major component of half the global population’s diet, but increasingly frequent droughts threaten its productivity and food security. While massive transcriptional reprogramming under drought in wheat seedlings is well characterised, DNA methylation’s contribution remains poorly understood. Using paired whole-genome bisulphite sequencing (WGBS) and RNA-seq before and after drought stress in wheat landraces, we probed the nuanced role of DNA methylation in the drought response, uncovering antagonistic trends between cytosine contexts and novel mechanisms, with the ROS1a family potentially playing a key demethylation role under drought. Examination of gene methylation profiles revealed that gene body methylation was strongly positively correlated with gene expression but negatively with stress responsiveness, simultaneously identifying that gene body differentially methylated regions (DMRs) targeted stress-associated genes. Many DMR-associated genes maintained consistent transcription under stress, suggesting a stabilising role for DNA methylation. Most DMRs localised to intergenic regions and transposable elements (TEs), with the ancient LTR retrotransposon RLX_famc9 emerging as a critical target of differential methylation under drought. We propose a model in which the RLX_famc9 family, enriched in differential methylation and exhibiting substantial sequence similarity to drought-responsive genes, is involved in the trans -regulation of stress-associated genes under control conditions through the generation of regulatory siRNA precursors, a mechanism suppressed by drought-inducible hypermethylation. Our findings suggest an intricate regulatory role of DNA methylation under drought, with genic DNA methylation promoting high, stable expression, ROS1a glycosylases coordinating targeted demethylation, and methylation-controlled TEs modulating the expression of downstream genes in trans ."
+}
+],
+"text": "Bread wheat ( Triticum aestivum ) is a major component of half the global population’s diet, but increasingly frequent droughts threaten its productivity and food security. While massive transcriptional reprogramming under drought in wheat seedlings is well characterised, DNA methylation’s contribution remains poorly understood. Using paired whole-genome bisulphite sequencing (WGBS) and RNA-seq before and after drought stress in wheat landraces, we probed the nuanced role of DNA methylation in the drought response, uncovering antagonistic trends between cytosine contexts and novel mechanisms, with the ROS1a family potentially playing a key demethylation role under drought. Examination of gene methylation profiles revealed that gene body methylation was strongly positively correlated with gene expression but negatively with stress responsiveness, simultaneously identifying that gene body differentially methylated regions (DMRs) targeted stress-associated genes. Many DMR-associated genes maintained consistent transcription under stress, suggesting a stabilising role for DNA methylation. Most DMRs localised to intergenic regions and transposable elements (TEs), with the ancient LTR retrotransposon RLX_famc9 emerging as a critical target of differential methylation under drought. We propose a model in which the RLX_famc9 family, enriched in differential methylation and exhibiting substantial sequence similarity to drought-responsive genes, is involved in the trans -regulation of stress-associated genes under control conditions through the generation of regulatory siRNA precursors, a mechanism suppressed by drought-inducible hypermethylation. Our findings suggest an intricate regulatory role of DNA methylation under drought, with genic DNA methylation promoting high, stable expression, ROS1a glycosylases coordinating targeted demethylation, and methylation-controlled TEs modulating the expression of downstream genes in trans .",
+"statements": [
+{
+"j": 1,
+"text": "Drought-induced methylation changes at RLX_famc9 were transmitted to the next generation of wheat plants."
+},
+{
+"j": 2,
+"text": "Gene body methylation correlated strongly and positively with gene expression but negatively with stress responsiveness."
+},
+{
+"j": 3,
+"text": "Many genes associated with DMRs kept their transcription stable under drought, suggesting a stabilising role for DNA methylation."
+},
+{
+"j": 4,
+"text": "The majority of drought-associated DMRs were located in gene bodies."
+}
+]
+},
+{
+"n": 454,
+"id": "pmid:40437208",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Liquid biopsy approaches, especially the detection of circulating tumor DNA (ctDNA), are emerging as sensitive and reliable surrogates for tumor tissue-based routine diagnostic testing. Here, we retrospectively analyzed serially collected plasma samples of non-small cell lung cancer (NSCLC) patients obtained at first diagnosis to evaluate the added value of ctDNA analysis for detecting therapeutically relevant variants and determining the consequent clinical implications."
+},
+{
+"label": "Methods",
+"text": "One hundred eighty plasma samples from consecutively recruited NSCLC patients were included. Circulating cell-free DNA (ccfDNA) was extracted and analyzed with the UltraSEEK Lung Panel v2 on the MassARRAY System. Tumor tissue next-generation sequencing (NGS) data, performed as routine molecular testing in the clinical setting, were retrieved from the national pathology registry for 132 patients."
+},
+{
+"label": "Results",
+"text": "Here we show that in 82% of the patients, mutations are concordantly detected in tumor tissue and plasma. More mutations are reported with tumor tissue-based NGS in nineteen patients, while in four patients additional mutations are detected in plasma. Tissue-based molecular tumor profiling identifies 60 patients eligible for targeted treatment including fifteen (8%) harboring fusions currently not covered by UltraSEEK. Based on ctDNA analysis, 41 patients (23%) are identified as eligible for BRAF V600 -, EGFR-, or KRAS G12C -targeted therapies. In the absence of tumor tissue NGS data (n = 48), five therapeutically relevant mutations are detected."
+},
+{
+"label": "Conclusions",
+"text": "Molecular tumor profiling of ctDNA identifies therapeutically relevant mutations at a comparable rate to tumor tissue-based NGS and might therefore serve as an alternative or complementary test for the detection of actionable variants in plasma."
+}
+],
+"text": "Liquid biopsy approaches, especially the detection of circulating tumor DNA (ctDNA), are emerging as sensitive and reliable surrogates for tumor tissue-based routine diagnostic testing. Here, we retrospectively analyzed serially collected plasma samples of non-small cell lung cancer (NSCLC) patients obtained at first diagnosis to evaluate the added value of ctDNA analysis for detecting therapeutically relevant variants and determining the consequent clinical implications. One hundred eighty plasma samples from consecutively recruited NSCLC patients were included. Circulating cell-free DNA (ccfDNA) was extracted and analyzed with the UltraSEEK Lung Panel v2 on the MassARRAY System. Tumor tissue next-generation sequencing (NGS) data, performed as routine molecular testing in the clinical setting, were retrieved from the national pathology registry for 132 patients. Here we show that in 82% of the patients, mutations are concordantly detected in tumor tissue and plasma. More mutations are reported with tumor tissue-based NGS in nineteen patients, while in four patients additional mutations are detected in plasma. Tissue-based molecular tumor profiling identifies 60 patients eligible for targeted treatment including fifteen (8%) harboring fusions currently not covered by UltraSEEK. Based on ctDNA analysis, 41 patients (23%) are identified as eligible for BRAF V600 -, EGFR-, or KRAS G12C -targeted therapies. In the absence of tumor tissue NGS data (n = 48), five therapeutically relevant mutations are detected. Molecular tumor profiling of ctDNA identifies therapeutically relevant mutations at a comparable rate to tumor tissue-based NGS and might therefore serve as an alternative or complementary test for the detection of actionable variants in plasma.",
+"statements": [
+{
+"j": 1,
+"text": "Patients treated according to ctDNA-detected mutations had outcomes similar to those treated according to tissue NGS results."
+},
+{
+"j": 2,
+"text": "Among the 48 patients without tumour tissue NGS data, ctDNA analysis detected five therapeutically relevant mutations."
+},
+{
+"j": 3,
+"text": "Mutations were detected concordantly in tumour tissue and plasma in 82% of patients."
+},
+{
+"j": 4,
+"text": "Fifteen patients (8%) carried fusions that are detectable with the UltraSEEK panel."
+}
+]
+}
+]
+}

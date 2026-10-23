@@ -1,0 +1,248 @@
+{"batch": "check_A_08", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+   {"n": 280, "id": "pmid:41262241",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "The transcribed ERV/TE sequences in M. musculus cells were generally longer in length and had greater potential for translation than sequences in treated P. leucopus cells."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "In the cultures of both species, there was increased transcription of several types of endogenous retrovirus (ERV) and transposable elements (TEs) after exposure to the agonist."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "By single-cell RNA-seq, cultures of both species comprised at least two types of fibroblasts, which were further differentiated in their responses to TLR agonists."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "With continued passage, the mouse cell population lost viability, while the deermouse cell population spontaneously transformed into a cell line stably maintained under standard conditions."}
+    ]},
+   {"n": 281, "id": "pmid:39684756",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "PIK3CA and ESR1 mutations were found in 22 and 25% of patients."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Baseline ESR1 mutations in EV-DNA were associated with shorter progression-free survival (PFS) across the cohort, with the Y537S mutation showing a particularly strong impact on the outcome of fulvestrant-treated patients."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Baseline ESR1 mutations in EV-DNA were associated with shorter progression-free survival (PFS) across the cohort, with the Y537S mutation showing a particularly strong impact on the outcome of fulvestrant-treated patients."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "In contrast, PIK3CA mutations in EV-DNA did not significantly correlate with PFS"}
+    ]},
+   {"n": 282, "id": "pmid:42365253",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Sixteen transmission units were defined, with AA068_Cluster3 estimated to have originated in the Netherlands around 2005 before expanding to Europe, the Middle East, Asia, and North America."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We systematically collected 747 complete plasmid sequences carrying bla OXA-48-like genes from the NCBI database"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The spread of OXA-48-like carbapenemases represents a major public health challenge."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "with bla OXA-48 predominating in Europe, bla OXA-181 in South Asia, and bla OXA-232 largely in Asia"}
+    ]},
+   {"n": 283, "id": "pmid:38593164",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Overall, test performance was equally robust with either blood collection tube, eg, regarding limit of detection, linearity, and reproducibility"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "making Roche cfDNA tubes suitable for routine clinical laboratory use in this setting"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Overall, test performance was equally robust with either blood collection tube, eg, regarding limit of detection, linearity, and reproducibility"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Standard K2EDTA tubes require plasma separation from blood within 4 to 8 hours; however, Roche Cell-Free DNA (cfDNA) Collection Tubes (Roche cfDNA tube) enable whole blood stability for up to 7 days prior to plasma separation."}
+    ]},
+   {"n": 284, "id": "pmid:40539881",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The threshold of 7.5 pg/μL yielded a sensitivity of 81% and a specificity of 80%."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Additionally, we observed a significant reduction in patients fragment length compared to healthy donors."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Total cfDNA concentration was significantly higher in patients than in healthy donors (15.03 ± 1.37 vs. 5.87 ± 0.85 pg/μL, p < .0001)."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "These findings support further longitudinal evaluation to determine the predictive and prognostic value of cfDNA in locally advanced unresectable esophageal carcinoma."}
+    ]},
+   {"n": 285, "id": "pmid:40141436",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Baseline levels of cfDNA and ctDNA effectively discriminated HCC patients based on their radiological response to ICIs."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "A cohort of 38 advanced HCC patients receiving immunotherapy was prospectively analyzed."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Patients with progressive disease (PD) as their best radiological response had significantly fewer copy number variations (CNVs) than those with a radiological response."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Additionally, individuals with pathologic mutations in the CDKN2A gene exhibited significantly reduced survival."}
+    ]},
+   {"n": 286, "id": "pmid:38977725",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Detectable ctDNA mutations were more frequent in patients with poorly differentiated tumors"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Twenty-five patients (30.9%) had detectable mutations in KRAS and/or TP53 with allele frequencies ranging from 0.05 to 8.5%"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "NGS was performed using the Oncomine Lung cfDNA assay on the Ion Torrent S5 sequencing platform."},
+      {"j": 4, "label": "supported", "confidence": 2, "evidence": "patients without detectable ctDNA mutations showed longer survival (medians of 10.5 months vs. 18 months, p = 0.019)", "flag": "ambiguous", "reason": "The abstract lists the medians as \"10.5 months vs. 18 months\" in a sentence about ctDNA-negative patients having longer survival, so only the coherent reading assigns 18 months to the ctDNA-negative group."}
+    ]},
+   {"n": 287, "id": "doi:10.1101/2024.02.21.581365",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "The immune phenotype shows that IL6 and IL10 may be the key nodes affecting the immunosuppressive phenotype of glioma."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "The results suggests that the high expression and risk of UBE2C in gliomas may be a factor that promotes malignant phenotype of tumor cells."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "the tumor cells aggressive genes from the MMP family can be correlated with immunosuppressive phenotypes via UBE2C-IL6/IL10 axis, especially displayed by MMP2/MMP9"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "UBE2C were evaluated by clinical grading, survival prognosis and cell experiments."}
+    ]},
+   {"n": 288, "id": "pmid:38407477",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "One integration site is within the comM gene and coincides with the previously described Tn6022 elements suggested to account for the AbaR resistance island."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "The activities of these diversification features were confirmed in E. coli."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We analyzed the contribution of Tn7-like transposons to island formation and diversification in the nosocomial pathogen Acinetobacter baumannii and identified four separate families that recognize different integration sites."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We established Tn6022 in a heterologous E. coli host and confirmed basic features of transposition into the comM attachment site and the use of a novel transposition protein."}
+    ]},
+   {"n": 289, "id": "doi:10.1101/2024.06.12.598671",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Once acquired, the Tox island tends to be stably maintained, evolving with the genome."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "The Pht cluster has been acquired, either naked or associated with a GInt, on seven independent occasions by four phylogroups of P. syringae and the distant rhizobacterium Pseudomonas sp. JAI115."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "These findings underscore the potential role of phaseolotoxin in bacterial fitness and contribute to our understanding of virulence evolution in plant pathogens."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The Pht cluster was independently captured by three distinct GInt elements, suggesting specific mechanisms for gene capture."}
+    ]},
+   {"n": 290, "id": "pmid:42265073",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "CLDN1 and ISG15 promote CSCC progression, whereas PTGDS suppresses it."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "FGFR1 and PI3K/AKT/mTOR inhibitors were found to suppress CSCC cell proliferation in vitro and tumor growth in vivo."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We found that fibroblasts and endothelial cells decreased, whereas immune cells (mainly T cells and B cells) increased during CSCC development."},
+      {"j": 4, "label": "supported", "confidence": 2, "evidence": "a panel of gene signatures (CLDN1, ISG15, PTGDS) with clinical significance for the precise diagnosis and personalized treatment strategies of PCT was identified", "flag": "ambiguous", "reason": "The abstract uses the abbreviation PCT without ever spelling it out, so equating it with the precancer-to-cancer transition is an inference from the surrounding cascade description."}
+    ]},
+   {"n": 291, "id": "pmid:42850923",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "IEI was derived from a 112-gene biologically constrained candidate pool using Cox elastic-net modeling in the TCGA candidate MMRp/MSS cohort (243 tumors, 39 death events)."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Mismatch repair-proficient or microsatellite stable (MMRp/MSS) endometrial cancer derives limited benefit from immune checkpoint inhibitor monotherapy"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Gene Expression Omnibus cohorts supported the adverse phenotype direction but not independent MMRp/MSS survival validation"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The weighted 9-gene IEI showed apparent association with poor overall survival in the same TCGA cohort (unadjusted hazard ratio [HR] = 5.06, 95% confidence interval [CI] 2.80-9.14, p = 7.77e-08; adjusted HR = 2.00, 95% CI 1.37-2.93, p = 3.62e-04)."}
+    ]},
+   {"n": 292, "id": "pmid:39441077",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "PtGtsf1 interacts with PIWI (Ptiwi09) and Polycomb Repressive Complex 2 and is essential for PIWI-dependent DNA elimination of transposons during sexual development."},
+      {"j": 2, "label": "not_addressed", "confidence": 2, "evidence": "Our results demonstrate that the PIWI-GTSF1 interaction also exists in unicellular eukaryotes with a role in transposon silencing."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Without PtGtsf1, self-matching small RNAs are not degraded and results in an accumulation of H3K9me3 and H3K27me3"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "PtGtsf1 is crucial for the degradation of PIWI-bound small RNAs that recognize the organism's own genomic sequences."}
+    ]},
+   {"n": 293, "id": "doi:10.1101/2023.06.07.544027",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The HERV-K VLPs show a greater distance between the viral membrane and immature capsid lattice, correlating with the presence of additional peptides, SP1 and p15, between the capsid (CA) and matrix (MA) proteins compared to the other retroviruses."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "A large conformational change mediated by the flexible linker between the N-terminal and the C-terminal domains of CA occurs between the immature and the mature HERV-K capsid protein, analogous to HIV-1."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Human endogenous retrovirus K (HERV-K) is the most recently acquired endogenous retrovirus, is activated and expressed in many cancers and amyotrophic lateral sclerosis and possibly contributes to the aging process."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The resulting cryoET STA map of the immature HERV-K capsid at 3.2 Å resolution shows a hexamer unit oligomerized through a 6-helix bundle"}
+    ]},
+   {"n": 294, "id": "pmid:42142259",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Overall, after a median follow-up of 53 months, PFS was improved with MDT + SOC (hazard ratio [HR], 0.54 [95% CI, 0.41 to 0.72], P < .001)."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Within each basket, PFS superiority was identified for the pancreas, prostate, and other baskets, whereas the breast and kidney baskets were inconclusive."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Overall, after a median follow-up of 53 months, PFS was improved with MDT + SOC (hazard ratio [HR], 0.54 [95% CI, 0.41 to 0.72], P < .001)."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Radiotherapy was used as MDT for 98% of metastases (370/379)."}
+    ]},
+   {"n": 295, "id": "pmid:40244529",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "DEFB1 expression was highest in salivary glands, kidneys, and pancreas."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "DEFB1 was upregulated in cholangiocarcinoma, kidney chromophobe, and melanoma, but downregulated in breast, colon, and rectal cancers."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "High DEFB1 expression was linked to poorer overall survival in lung adenocarcinoma and pancreatic adenocarcinoma, but better survival in head and neck squamous cell carcinoma."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Genetic analysis revealed alterations in liver and gastric cancers."}
+    ]},
+   {"n": 296, "id": "pmid:36744795",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "it is demonstrated that the expression of TnpB of IS608 results in ~5x increased transposon activity compared to cells lacking TnpB expression"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "the expression of TnpB of IS608 results in ~5x increased transposon activity compared to cells lacking TnpB expression"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "The IS200/IS605 family of transposable elements are abundant mobile elements connected with one of the most innumerable genes found in nature, tnpB."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Here, a protocol is outlined to perform live, real-time imaging of transposable element activity in live bacterial cells using a suite of fluorescent reporters coupled to transposition."}
+    ]},
+   {"n": 297, "id": "pmid:42851095",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "CIBERSORT analysis further demonstrated significant differences in resting dendritic cells, resting mast cells, plasma cells, M0 macrophages, and activated memory CD4⁺ T cells between the high- and low-PLG-expression groups (p <0.05)."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Plasminogen (PLG) emerged as the core candidate associated with survival and clinicopathological stage (p <0.05)."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "RNA-sequencing data from 601 patients with ccRCC in the Cancer Genome Atlas (TCGA) were analysed using R."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Differential expression screening retained 375 shared DEGs. Functional enrichment identified 114 significant GO terms and 28 significant KEGG pathways (p <0.05)."}
+    ]},
+   {"n": 298, "id": "pmid:41547150",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "LAB inoculation can effectively inhibit the spread of 11 ARG types, including β-lactam and multidrug resistance"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "The results showed that naturally fermented, raw, and pasteurized mare milk had the highest number of pathogens, relative abundance of ARGs, and relative abundance of mobile genetic elements (MGEs), while LAB inoculation significantly reduced these (p < 0.05)."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Microbes and MGEs jointly drove ARG transmission, with microbes being key."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "provides valuable data references and theoretical guidance for safer equine dairy processing"}
+    ]},
+   {"n": 299, "id": "pmid:42518024",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "U. fasciata decomposition induced the total abundance of antibiotic resistance genes (∑ARGs) significant enrichment by 0.15-0.48% after 3-month operation, and more pronounced effect observed in the small-sized U. fasciata compared to controls"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "This study aimed to ascertain the nutrients release of Ulva (U.) fasciata litter and their effects on antibiotics resistance variation of maricultural sediment."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "U. fasciata decomposition significantly increased nutrient concentrations, with total nitrogen and phosphors levels positively correlated with both the quantity and size of U. fasciata litter"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "ΣARGs showed stronger associations with mobile genetic elements and nutrient variables at the overall structural level, as revealed by Mantel test analysis, compared to its correspondence with the microbial community."}
+    ]},
+   {"n": 300, "id": "doi:10.1101/2024.12.03.626526",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "By engineering B lymphoma cell lines to express Cas9 and mCat-1, a specific receptor for ecotropic retroviruses, we enable efficient and safe gene editing through ecotropic γ-retrovirus."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We demonstrate the efficacy of this method by generating IgM-deficient B lymphoma cell lines."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "paves the way for standardized gene manipulation of B cell lymphoma models for molecular cell biology research"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "A couple of B lymphoma cell lines fall into this category where lentiviral transfection becomes inefficient and exhibits variable efficiency."}
+    ]},
+   {"n": 301, "id": "pmid:39743586",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "The integration spectra of chimeric TEs reveal the key structural variations responsible for contrasting chromatin-targeting specificities to centromeres versus gene-rich regions, which have recurrently converted during the evolution of these TEs."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We demonstrate that the Ty1/Copia element Tal1 (Transposon of Arabidopsis lyrata 1) integrates de novo into regions occupied by CENH3 in Arabidopsis thaliana, and that ectopic expansion of the CENH3 region results in spread of Tal1 integration regions."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Our findings show the impact of centromeric chromatin on TE-mediated rapid centromere evolution, with relevance across eukaryotic genomes."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Here we show that both Ty3 and Ty1 long terminal repeat retrotransposons rapidly turnover within the centromeric TRs of Arabidopsis species."}
+    ]},
+   {"n": 302, "id": "pmid:41048474",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "This retrospective review analyzes the comprehensive genomic profiling reports of 35 veterans with metastatic melanoma at a large US Department of Veterans Affairs medical center. The genomic findings were compared with those from the Catalogue of Somatic Mutations in Cancer and The Cancer Genome Atlas."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Veterans represent a unique patient population with various exposures that may predispose them to cancer."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "a significantly lower frequency of variants in ROS1 , GRIN2A , KDR , KMT2C ( MLL3 ), KMT2D ( MLL2 ), LRP1B , PTPRT , PTCH1 , FAT4 , and PREX2"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "a significantly higher frequency of tumor mutational burdens exceeding 10 mutations/megabase"}
+    ]},
+   {"n": 303, "id": "pmid:41438761",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "patients with lower PRRS values are more likely to benefit from immunotherapy"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Molecular docking, molecular dynamics simulations, and in vitro drug experiments have confirmed that AT-7519, BIX02189, and THZ-2-101-1 can inhibit glioma cell migration while promoting cell apoptosis."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "This study found that compared with glioma patients in Cluster 2, those in Cluster 1 had a higher World Health Organization (WHO) grade and a worse prognosis."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "the infiltration levels of M2-type macrophages and regulatory T cells were higher in Cluster 1 than in Cluster 2"}
+    ]},
+   {"n": 304, "id": "doi:10.1101/2025.10.08.679225",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Whereas DNMT3A-R882 myeloid progenitors display attenuated inflammatory transcriptional programmes, DNMT3A-R882 mature neutrophils acquire proinflammatory and immunomodulatory features typical of maladaptive immunity and CH co-morbidities."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "DNMT3A-R882 HSCs produce decreased monocytic output but more abundant and mature neutrophil progeny compared to WT HSCs in the same individual"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "DNMT3A-R882 reshapes the clonal architecture of haematopoiesis towards an aged phylogenetic structure."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "CH is linked to pathological immune dysregulation and a greater risk of age-related inflammatory diseases."}
+    ]},
+   {"n": 305, "id": "doi:10.1101/2024.07.17.24310568",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "can detect the early stages of neoplasm better than population-based methods"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "In CRC, Stage I disease does not, for the most part, shed any tumor in circulation, making detection difficult for established machine learning (ML) methods."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "In a new look to treat such data as grayscale value images, pattern recognition using artificial intelligence could be one approach to classification."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "A Kullback-Leibler (KL) divergence computation identifies different fragment lengths and areas of the human genome, depending on the stage, for which disease samples, starting from pre-clinical disease stages, diverge from healthy individual samples."}
+    ]},
+   {"n": 306, "id": "pmid:41324770",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "MutSig2CV analysis showed the most significant recurrent somatic mutations in CTNNB1 (47%; 7/15), TP53 (33%; 5/15)"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Our data revealed that the TNBC genomes carried an average of ~ 106 mutations per sample."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "the high tumor mutational burden was observed specifically in TNBC patients with signature 3"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "signature 3 represented the failure of DNA double-strand break repair by homologous recombination"}
+    ]},
+   {"n": 307, "id": "doi:10.1101/2025.10.13.682009",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We identify species-specific transposable element repertoires in the Malawi cichlid fgf8a locus that function as developmental enhancers in brain and sensory systems"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We demonstrate that forebrain domains diverged independently from other brain regions in these species, consistent with mosaic brain evolution."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Phylogenetic analysis across the radiation reveals elevated transposable element polymorphism at the fgf8a locus in Rhamphochromis"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Functional knockout experiments confirm fgf8a ’s essential role in cichlid brain patterning"}
+    ]},
+   {"n": 308, "id": "doi:10.64898/2026.10.15.759370",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Across eccDNA, minicircle and synthetic circular DNA species, LL37 strikingly amplified type I interferon (IFN-I) and pro-inflammatory cytokine production, whereas linearized counterparts of identical sequence remained inactive."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "LL37-circular DNA complexes signaled through endosomal TLR9, as activation was abrogated by chloroquine and by the TLR9 antagonist IRS869."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "with implications for autoimmunity, cancer and nucleic acid therapeutics"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "surface plasmon resonance revealed enhanced TLR9 binding to circular versus linear DNA, without differential LL37 binding"}
+    ]},
+   {"n": 309, "id": "pmid:42450346",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "In contrast, discrimination between localised/locally advanced PCa and patients with biopsy-confirmed controls was limited (AUC 0.56; 95% CI: 0.51-0.61)."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Plasma samples from the initial hospital visit were obtained from 280 participants in the PerPros prostate biobank (Vejle, Denmark), all referred with suspected PCa."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Methylation markers were detectable across the PCa disease spectrum, most frequently in metastatic castration-sensitive PCa (mCSPC) (85/97; 88%)."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The ctDNA methylation panel discriminated mCSPC from controls with an AUC (area under the curve) of 0.88 (95% CI: 0.83-0.93)."}
+    ]},
+   {"n": 310, "id": "doi:10.1101/2024.07.31.606009",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "We confirmed these results in OVSAHO ovarian cancer cells, where overexpression of both isoforms significantly reduced tumor growth."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "we first leveraged open-reading-frame (ORF) screen data from 16 cancer cell lines, where we observed that overexpression of BRD4-long and BRD4-short isoforms is toxic for cancer cell growth"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Our study provides experimental evidence for BRD4 deletions constituting the first example of a driver SV alteration reducing toxicity in cancer"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We finally show that these focal deletions rescue ovarian carcinoma cells from the toxicity effects associated with gene overexpression"}
+    ]},
+   {"n": 311, "id": "pmid:41612439",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We identified 325 final SAM pairs from 367 preliminary pairs."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "We found that patients with a high number of co-impairment or -inactivation of SAM pairs showed improved overall survival and reduced metastasis."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "we discovered five compounds - MLN2480, pifithrin-µ, RO4929097, trametinib, and sorafenib - as potential anti-metastatic drugs for melanoma"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The ML model based on SAM gene features accurately distinguished primary from metastases melanoma samples (AUROC: 0.940; HR: 0.724), outperforming models built from other known melanoma metastasis-associated genes."}
+    ]},
+   {"n": 312, "id": "pmid:41888671",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The diploid progenitors of E. japonicum diverged approximately 2 MYA, while the allotetraploid hybridization event that formed E. japonicum occurred more recently (~ 0.268 MYA)."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "a significant expansion of the epithiospecifier-modifying protein (ESM1) gene family, which promotes pungent isothiocyanate formation, and a contraction of the competing epithiospecifier protein (ESP) gene"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We also characterized transposable elements, including long terminal repeat retrotransposons (LTR-RTs), and analyzed gene expression patterns between subgenomes to further understand genome evolution and functional differentiation in E. japonicum."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Following this whole-genome duplication, its genome stabilized through extensive chromosomal rearrangements and subgenome dominance."}
+    ]},
+   {"n": 313, "id": "pmid:40009912",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Patients underwent liquid biopsy from peripheral blood samples before and after surgery."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Twenty-nine patients were found to be positive for one of the clinically relevant molecular alterations detected by NGS, at preoperative (T0) ctDNA analysis."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Multivariable Cox Regression analysis showed that only postoperative persistence of ctDNA molecular signature was associated with recurrence (p = 0.027, HR 2.766)."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "At univariate analysis, total tumor size bigger than 60 mm (p = 0.046, HR 2.486) and postoperative persistence of ctDNA molecular signature (p = 0.024, HR 2.831) were significantly associated with recurrence."}
+    ]},
+   {"n": 314, "id": "pmid:40509981",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Our analysis yielded 214 TE consensus sequence models across the dataset, with abundance ranging from 0.1% to 7.2%."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We predicted repeat content and manually curated TEs across the genomes of 57 trypanosomatids"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We confirmed that the 4 TE clades have colonized virtually all lineages of trypanosomatids"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We found evidence of recent transposon activity in most species, with notable bursts in the Vickermania, Lafontella, Porcisia and Angomonas spp."}
+    ]}
+ ]}

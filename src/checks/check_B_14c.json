@@ -1,0 +1,80 @@
+{"batch": "check_B_14c", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+   {"n": 514, "id": "pmid:42600432",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "IFI35 expression was positively associated with increased infiltration levels of mast cells, neutrophils, eosinophils, CD4+ T cell subtypes, and cancer-associated fibroblasts across multiple cancer types."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "In vivo, IFI35 depletion significantly inhibited xenograft tumor growth."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Functional studies demonstrated that IFI35 knockdown effectively suppressed BRCA cell proliferation, migration, and invasion, while promoting apoptosis."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "IFI35 expression was significantly upregulated at both messenger RNA and protein levels in multiple cancers, most prominently in BRCA"}
+    ]},
+   {"n": 515, "id": "pmid:39976513",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "A 50-ng cfDNA input cap reduced ctDNA detection probability, affecting 78% of day 14 samples and 65% of day 30 samples."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Combining the timepoints would increase sensitivity (36%) and allow earlier ACT start in 80% of patients."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "An increase in the ctDNA level from day 14 to day 30 was associated with a shorter time to recurrence (Pearson R = -0.63, P = 0.003)."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Despite elevated cfDNA in 85% of day 14 samples, performance was comparable between the two timepoints (sensitivity, 31% vs. 32% and specificity, both 98%)."}
+    ]},
+   {"n": 516, "id": "pmid:41367555",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "In the established LCOs, WGS revealed recurrent mutations in TP53 , TTN , MUC16 , and FLG"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Early and locally advanced-stage tumor-derived LCOs exhibited higher TMB and MSI compared to those from advanced-stage disease, suggesting greater clonal diversity prior to therapeutic intervention."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "with approximately 80% of somatic variants located in non-coding regions, highlighting the potential role of regulatory elements in lung cancer pathogenesis"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We established a panel of LCOs from resected tumors and malignant pleural effusions (MPEs) of 14 non-small cell lung cancer (NSCLC) patients."}
+    ]},
+   {"n": 517, "id": "pmid:42723745",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "EGFR positivity showed that the area under the curve (AUC) was 0.884."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "A retrospective case-control study design was employed. Data were collected from 384 patients with NSCLC who were hospitalized at The First Affiliated Hospital of Guangzhou Medical University between June 2018 and September 2024 and met the study's inclusion criteria."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "A score of ≥3 was considered a high-probability population with positive EGFR in peripheral blood. The sensitivity for diagnosing positive EGFR in peripheral blood was 84.8%, and the specificity was 73.1%."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Taking the next-generation sequencing (NGS) detection results as the reference standard, the sensitivity of amplification refractory mutation system polymerase chain reaction (ARMS-PCR) detection was 94.96%, the specificity was 100%"}
+    ]},
+   {"n": 518, "id": "pmid:42615840",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The regulatory role of lncRNA-pys within this network was functionally validated through transgenic experiments, demonstrating that overexpressing lncRNA-pys led to an increase in lignin content in pear."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Roughly 74% of lncRNAs overlapped with transposable elements (TEs) and significantly impacted sequence diversity, expression variation, and tissue-specific expression."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "identified 12 422 lncRNAs that exhibited higher tissue specificity and lower sequence conservation than protein-coding genes"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Roughly 74% of lncRNAs overlapped with transposable elements (TEs)"}
+    ]},
+   {"n": 519, "id": "pmid:39568077",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Among the diagnostic samples, CNAs were detected in samples from 17/19 patients (89%), which included 8 with marker-negative tumors."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "A total of 29 CSF samples from 21 patients (16 with germinoma, 5 with non-germinomatous GCT) were sequenced."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Among the diagnostic samples, CNAs were detected in samples from 17/19 patients (89%)"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "A total of 29 CSF samples from 21 patients (16 with germinoma, 5 with non-germinomatous GCT) were sequenced."}
+    ]},
+   {"n": 520, "id": "pmid:42759059",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The cfDNA yield and concentration were comparable between the dural opening and ventricular catheter cohorts."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "A regression model with 69 real values was used to calculate an additional 100 predicted values, suggesting that 80%, 85%, and 90% success rates for NGS assay require collection of 0.70 ml, 1.26 ml, 3.35 ml of CSF, respectively (p = 0.3)."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "CNS tumors had significantly greater cfDNA concentration in the CSF (mean 84.9 ± 340.9 ng/ml vs 5.7 ± 8.1 ng/ml in controls, p = 0.004)."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "The method of CSF collection included dural opening (n = 56), ventricular catheter (n = 21), and shunt tap (n = 12)."}
+    ]},
+   {"n": 521, "id": "pmid:39555056",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "We found that male patients exhibited better immunotherapy outcomes and higher tumor mutational burden."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "PI3K-AKT, RAS signaling pathways, and 68 significantly mutated genes were identified to be associated with immunotherapy outcomes, with nine genes (i.e., ATM, ATRX, DOT1L, EP300, EPHB1, NOTCH1, PBRM1, RBM10, and SETD2) exhibiting gender differences."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We also explored sex disparities of determined biomarkers in response to treatments."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Based on mutational activities, we identified four potential molecular subtypes with gender differences and relevance to treatment outcomes."}
+    ]},
+   {"n": 522, "id": "pmid:40151212",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Further Mash distance-based plasmid analysis was not consistent with plasmid transfer due to genetic heterogeneity, but identified a transposon cluster across all isolates."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Core genome multi-locus sequence typing analysis (cgMLST) identified two distinct genetic clusters: a sequence type (ST) 307 cluster (n = 5) and a ST101 cluster (n = 2)."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Here, a bla KPC-3 harboring transposon cluster was identified by using a Mash-based distance calculation for plasmids."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "All isolates carried a bla KPC-3 carbapenemase."}
+    ]},
+   {"n": 523, "id": "pmid:42320666",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Other combinations, such as SPG20 + MGMT and SPG20 + ALX4, also exhibited high accuracy (AUC = 0.994 and 0.990, respectively)."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "The combination of SEPT9 and SPG20 achieved excellent discrimination between CRC patients and controls (AUC = 1.00)."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The inclusion of additional genes provided marginal diagnostic improvement, suggesting redundancy in larger panels."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "As CRC is often asymptomatic in its early stages, early detection is critical."}
+    ]},
+   {"n": 524, "id": "doi:10.1101/2025.04.04.25324949",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Based on the expertś recommendations, additional knowledge of NGS-based pathogen findings would have resulted in anti-infective treatment adaptations in 32.6% of all patients."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Potentially inadequately treated NGS+/blood culture negative (BC-) patients showed worse outcomes."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Despite limited sensitivity and specificity, blood cultures (BCs) still represent the gold standard of diagnostic care in septic patients."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The positivity rate of NGS-based diagnostics (NGS+) for 491 septic patients was 70.5% compared to positive BCs (BC+) with 19.4% within the first three days after sepsis onset."}
+    ]}
+ ]}

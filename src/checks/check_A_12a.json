@@ -1,0 +1,87 @@
+{"batch": "check_A_12a", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+   {"n": 420, "id": "pmid:42490795",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "high expression was correlated with reduced patient survival, advanced cancer stage, higher tumor grade, and nodal metastasis"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "epithelial-mesenchymal transition (EMT) (Western blot for E-cadherin, N-cadherin, and vimentin) were assessed"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "MAX directly bound the SF3A3 promoter (P3 E-box) and activated its transcription in a Myc-dependent manner."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "validated in 33 paired HCC and adjacent non-tumor tissues by quantitative reverse transcription polymerase chain reaction (qRT-PCR)"}
+    ]},
+   {"n": 421, "id": "pmid:41034587",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "ZNF729 binds to GC-rich sequences, abundant at gene promoters associated with basic cellular functions, such as cell proliferation and metabolism."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Despite mediating recruitment of TRIM28, at many of these promoters ZNF729 acts as a transcriptional activator."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "at least one such human-specific LTR5Hs element is essential for the blastoid-forming potential via enhancing expression of the primate-specific ZNF729 gene"},
+      {"j": 4, "label": "not_addressed", "confidence": 2, "evidence": "We uncover a pervasive cis-regulatory contribution of LTR5Hs elements to the hominoid-specific diversification of the epiblast transcriptome in blastoids.", "flag": "ambiguous", "reason": "The abstract reports LTR5Hs cis-regulatory effects on the epiblast transcriptome only, and says nothing either way about trophectoderm."}
+    ]},
+   {"n": 422, "id": "doi:10.1101/2025.07.09.25331014",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "In the flow group, >3 EpCAM⁺ CTCs/10 mL were found in 14% (n=2/14) of HR and 24% (n=16/68) of BCR patients."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "No significant correlation was found between CTCs and serum PSA or 18F-DCFPyL PET parameters or clinical progression in either group."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "In the ddPCR group, 53% (n=9/17) of HR and 17% (n=1/6) of BCR patients had greater than normal EPCAM expression"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Correlations were assessed between CTCs, PSA, PET parameters and clinical progression."}
+    ]},
+   {"n": 423, "id": "pmid:41857199",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "liquid biopsy enables fast, highly accurate molecular diagnosis of EBV + BL and may substantially reduce treatment delays in resource-limited settings"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "reduced median diagnostic TAT from 46.8 d to 6.5 d (P = 4.42 × 10 -10 )"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Liquid biopsy was the only diagnostic result available at the multidisciplinary review in 42% of participants"},
+      {"j": 4, "label": "supported", "confidence": 2, "evidence": "The comprehensive model achieved the highest performance (area under the curve (AUC) 0.95, 95% confidence interval (95% CI) 0.901-0.981, sensitivity 0.86, specificity 0.95), confirmed by external validation (AUC 0.98, 95% CI 0.942-1.000).", "flag": "ambiguous", "reason": "The 0.95/0.86/0.95 figures come from the cross-validated training set (n = 212) as distinct from the external validation cohort, but the abstract does not label them \"training\" explicitly."}
+    ]},
+   {"n": 424, "id": "pmid:40434907",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "These findings were consistent when limited to patients with stable disease (SD; PFS HR = 0.55; OS HR = 0.39)."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "153 patients treated with atezolizumab as part of the pan-tumor MyPathway study (NCT02091141)"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "In total, 61% of baseline samples had predicted clonal hematopoiesis (CH) variants."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "molecular response (MR, ≥50% decrease in TF at cycle 3 day 1) was associated with improved PFS (9.7 vs 1.5 months from C3D1; HR = 0.27)"}
+    ]},
+   {"n": 425, "id": "doi:10.1101/2025.03.24.644737",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "PDTOs with low chemosensitivity had high JAK-STAT pathway activity resulting from high expression of interferon-stimulated genes."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Evidence from single-cell RNA-sequencing confirmed chemotherapy-induced expression of interferon-stimulated genes in epithelial cells of cancers with partial response."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The findings highlight the potential of JAK-STAT inhibition or TRAIL pathway activation to enhance chemotherapy efficacy. Future studies investigating pharmacologic modulation of these pathways in preclinical CRC models are needed"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "EPSTI1 knockdown decreased cancer cell viability and sensitized cells to chemotherapy."}
+    ]},
+   {"n": 426, "id": "doi:10.1101/2023.07.28.550957",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "these patients showed elevated levels of vascular endothelial cell and erythroblast cfDNA, suggesting that sub-clinical vascular and erythrocyte turnover are universal features of COVID-19, independent of disease severity"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "monocyte/macrophage cfDNA levels (but not monocyte counts), as well as lung epithelium cfDNA and vascular endothelial cfDNA, predicted clinical deterioration and duration of hospitalization"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Patients with severe COVID-19 had a massive elevation of circulating cell-free DNA (cfDNA) levels, which originated in lung epithelial cells, cardiomyocytes, vascular endothelial cells and erythroblasts"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Asymptomatic patients had elevated levels of immune-derived cfDNA but did not show evidence of pulmonary or cardiac damage. Surprisingly, these patients showed elevated levels of vascular endothelial cell and erythroblast cfDNA"}
+    ]},
+   {"n": 427, "id": "pmid:40288045",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 2, "evidence": "Histopathological confirmation of diagnoses was performed, followed by ddPCR analysis on 36 valid plasma samples.", "flag": "ambiguous", "reason": "Histopathology confirmed the diagnoses but the abstract never reports tissue sequencing or matching of the plasma mutations to tumor tissue."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "mutations were found in IDH2 and TP53 genes, including a novel IDH2 mutation in osteosarcoma"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The results showed mutations in three out of thirty-six sarcoma patients."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Patient 1 exhibited a 12.6 % mutant IDH2 (R172S) allele fraction, Patient 2 had a 0.27 % mutant TP53 (R175H), and Patient 3 showed a 17 % mutant IDH2 (R172K)."}
+    ]},
+   {"n": 428, "id": "pmid:42317065",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We reconstructed survival data for 1,867 patients achieving pCR and 352 patients achieving ctDNA clearance across 8 tumor types."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "In tumor types where such a comparison was possible, postoperative adjuvant IO did not improve EFS among patients achieving pCR."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "In within-tumor analyses restricted to trials reporting both endpoints, pCR was associated with superior EFS."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "whether complete pathological and molecular responders share comparable residual risk across tumor types remains uncertain"}
+    ]},
+   {"n": 429, "id": "doi:10.64898/2026.05.14.725010",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "exposing a large, rare, and population-enriched reservoir of mobile-element diversity missed by single-reference approaches"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "representing 94 haplotypes, to build an allele-resolved view of recent human LINE-1 evolution. We identify 13,617 LINE-1 alleles with intact ORF1 and ORF2 across 683 unique insertion sites"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "we define activity signatures that separate ancient remnants from recently expanding lineages and uncover young LINE-1 groups whose activity is not fully explained by canonical subfamily labels"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We also resolve a structurally variable chromosome 11 LINE-1 array, demonstrating that local duplication and rearrangement can amplify LINE-1 sequence independently of canonical retrotransposition."}
+    ]},
+   {"n": 430, "id": "doi:10.1101/2024.01.21.576519",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "NeuralTE outperforms existing deep learning, machine learning, and homology-based methods in classifying TEs"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "the results show that NeuralTE achieves annotations nearly identical to the gold standard"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Evaluation on all transposons from Repbase shows that NeuralTE outperforms existing deep learning, machine learning, and homology-based methods in classifying TEs."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we develop NeuralTE, a deep learning method designed to classify transposons at the superfamily level. To achieve accurate TE classification, we identify various structural features of transposons, and use different combinations of k-mers for terminal repeats and internal sequences"}
+    ]},
+   {"n": 431, "id": "pmid:42349087",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "CUP-Lung cases had higher tumor mutational burden (median 21.5 vs. 12.6 mut/Mb, p < 0.001)"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "SMARCA4 mutations were present in 36.2% of CUP-Lung cases, significantly higher than in the overall CUP cohort (10.7%)"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Smoking history (OR 4.9, 95% CI 2.2-10.9, p < 0.001) and SMARCA4 mutation (OR 10.3, 95% CI 4.5-23.8, p < 0.001) independently predicted CUP-Lung, together conferring a 76.0% probability of lung origin."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Combined smoking history and SMARCA4 mutations support lung cancer classification even in the absence of detectable pulmonary involvement enabling organ-directed treatment when WGS is unavailable."}
+    ]}
+ ]}

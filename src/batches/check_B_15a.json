@@ -1,0 +1,499 @@
+{
+"batch": "check_B_15a",
+"pass": "B",
+"source_batch": "gen_15a",
+"items": [
+{
+"n": 525,
+"id": "doi:10.1101/2025.01.17.24311574",
+"year": 2025,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "Adoptive cell transfer (ACT) of Tumour-infiltrating lymphocytes (TIL) is an investigational treatment for solid tumours, with preliminary results showing objective clinical responses in some metastatic melanoma patients. The ability to sequence and track the T cell repertoire throughout ACT of TILs provides a method to identify T cell repertoire features associated with patients’ benefit from ACT. Identification of response biomarkers for patients receiving ACT of TILs has been limited. Conflicting evidence is observed in biomarkers such as the number of TILs in the infusion product, with some studies suggesting a relationship with response and others not. Meanwhile, certain potential biomarkers, such as the diversity of the post- infusion peripheral repertoire, have not yet been studied."
+},
+{
+"label": "Methods",
+"text": "In this study, we sought to determine 1) the efficacy of using CapTCR-seq to track TILs in serial blood draws over the course of ACT immunotherapy 2) whether peripheral T cell repertoire statistics are associated with ACT response. In this study, 9 patients with cutaneous (n = 7) or mucosal (n = 2) melanoma received TIL ACT after chemotherapeutic depletion. Hybrid- capture CapTCR-seq was conducted on pre-/post-transfer peripheral blood mononuclear cells (PBMC) and cell-free DNA."
+},
+{
+"label": "Results",
+"text": "Comparison between PBMC DNA, PBMC RNA, and circulating free DNA (cfDNA) repertoires demonstrated an increased presence of shared T cell clonotypes post-infusion when compared with baseline samples. Higher abundance of TIL clonotypes in the PBMC baseline and post-infusion DNA T cell repertoires and the presence of shared DNA T cell clonotypes between timepoints was seen in responders when compared with non-responders according to RECIST criteria."
+},
+{
+"label": "Conclusion",
+"text": "These results demonstrate effective tracking methodologies and suggest a predictive role for baseline repertoire statistics in response to the ACT of TILs."
+},
+{
+"label": "Trial registration",
+"text": "University Health Network Research Ethics Board #11-0683"
+}
+],
+"text": "Adoptive cell transfer (ACT) of Tumour-infiltrating lymphocytes (TIL) is an investigational treatment for solid tumours, with preliminary results showing objective clinical responses in some metastatic melanoma patients. The ability to sequence and track the T cell repertoire throughout ACT of TILs provides a method to identify T cell repertoire features associated with patients’ benefit from ACT. Identification of response biomarkers for patients receiving ACT of TILs has been limited. Conflicting evidence is observed in biomarkers such as the number of TILs in the infusion product, with some studies suggesting a relationship with response and others not. Meanwhile, certain potential biomarkers, such as the diversity of the post- infusion peripheral repertoire, have not yet been studied. In this study, we sought to determine 1) the efficacy of using CapTCR-seq to track TILs in serial blood draws over the course of ACT immunotherapy 2) whether peripheral T cell repertoire statistics are associated with ACT response. In this study, 9 patients with cutaneous (n = 7) or mucosal (n = 2) melanoma received TIL ACT after chemotherapeutic depletion. Hybrid- capture CapTCR-seq was conducted on pre-/post-transfer peripheral blood mononuclear cells (PBMC) and cell-free DNA. Comparison between PBMC DNA, PBMC RNA, and circulating free DNA (cfDNA) repertoires demonstrated an increased presence of shared T cell clonotypes post-infusion when compared with baseline samples. Higher abundance of TIL clonotypes in the PBMC baseline and post-infusion DNA T cell repertoires and the presence of shared DNA T cell clonotypes between timepoints was seen in responders when compared with non-responders according to RECIST criteria. These results demonstrate effective tracking methodologies and suggest a predictive role for baseline repertoire statistics in response to the ACT of TILs. University Health Network Research Ethics Board #11-0683",
+"statements": [
+{
+"j": 1,
+"text": "Patients with a higher number of TILs in the infusion product were more likely to respond to ACT."
+},
+{
+"j": 2,
+"text": "Shared T cell clonotypes across PBMC DNA, PBMC RNA and cfDNA repertoires were more frequently present after infusion than in baseline samples."
+},
+{
+"j": 3,
+"text": "Nine melanoma patients, seven with cutaneous and two with mucosal disease, received TIL ACT following chemotherapeutic depletion."
+},
+{
+"j": 4,
+"text": "Responders by RECIST criteria showed a lower abundance of TIL clonotypes in baseline and post-infusion PBMC DNA repertoires than non-responders."
+}
+]
+},
+{
+"n": 526,
+"id": "pmid:37868064",
+"year": 2023,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Across eukaryotes, large variations of genome sizes have been observed even between closely related species. Transposable elements as part of the repeated DNA have been proposed and confirmed as one of the most important contributors to genome size variation. However, the evolutionary implications of genome size variation and transposable element dynamics are not well understood. Together with phenotypic traits, they are commonly referred to as the \"C-value enigma\". The order Zoantharia are benthic cnidarians found from intertidal zones to the deep sea, and some species are particularly abundant in coral reefs. Despite their high ecological relevance, zoantharians have yet to be largely studied from the genomic point of view. This study aims at investigating the role of the repeatome (total content of repeated elements) in genome size variations across the order Zoantharia. To this end, whole-genomes of 32 zoantharian species representing five families were sequenced. Genome sizes were estimated and the abundances of different repeat classes were assessed. In addition, the repeat overlap between species was assessed by a sequence clustering method. The genome sizes in the dataset varied up to 2.4 fold magnitude. Significant correlations between genome size, repeated DNA content and transposable elements, respectively (Pearson's correlation test R 2 = 0.47, p = 0.0016; R 2 = 0.22, p = 0.05) were found, suggesting their involvement in the dynamics of genome expansion and reduction. In all species, long interspersed nuclear elements and DNA transposons were the most abundant identified elements. These transposable elements also appeared to have had a recent expansion event. This was in contrast to the comparative clustering analysis which revealed species-specific patterns of satellite elements' amplification. In summary, the genome sizes of zoantharians likely result from the complex dynamics of repeated elements. Finally, the majority of repeated elements (up to 70%) could not be annotated to a known repeat class, highlighting the need to further investigate non-model cnidarian genomes. More research is needed to understand how repeated DNA dynamics relate to zoantharian evolution and their biology."
+}
+],
+"text": "Across eukaryotes, large variations of genome sizes have been observed even between closely related species. Transposable elements as part of the repeated DNA have been proposed and confirmed as one of the most important contributors to genome size variation. However, the evolutionary implications of genome size variation and transposable element dynamics are not well understood. Together with phenotypic traits, they are commonly referred to as the \"C-value enigma\". The order Zoantharia are benthic cnidarians found from intertidal zones to the deep sea, and some species are particularly abundant in coral reefs. Despite their high ecological relevance, zoantharians have yet to be largely studied from the genomic point of view. This study aims at investigating the role of the repeatome (total content of repeated elements) in genome size variations across the order Zoantharia. To this end, whole-genomes of 32 zoantharian species representing five families were sequenced. Genome sizes were estimated and the abundances of different repeat classes were assessed. In addition, the repeat overlap between species was assessed by a sequence clustering method. The genome sizes in the dataset varied up to 2.4 fold magnitude. Significant correlations between genome size, repeated DNA content and transposable elements, respectively (Pearson's correlation test R 2 = 0.47, p = 0.0016; R 2 = 0.22, p = 0.05) were found, suggesting their involvement in the dynamics of genome expansion and reduction. In all species, long interspersed nuclear elements and DNA transposons were the most abundant identified elements. These transposable elements also appeared to have had a recent expansion event. This was in contrast to the comparative clustering analysis which revealed species-specific patterns of satellite elements' amplification. In summary, the genome sizes of zoantharians likely result from the complex dynamics of repeated elements. Finally, the majority of repeated elements (up to 70%) could not be annotated to a known repeat class, highlighting the need to further investigate non-model cnidarian genomes. More research is needed to understand how repeated DNA dynamics relate to zoantharian evolution and their biology.",
+"statements": [
+{
+"j": 1,
+"text": "Genome size was not significantly correlated with repeated DNA content across the zoantharian species sampled."
+},
+{
+"j": 2,
+"text": "In every species examined, LINEs and DNA transposons were the most abundant of the repeat elements that could be identified."
+},
+{
+"j": 3,
+"text": "Genome size across the zoantharian dataset varied by up to 2.4-fold."
+},
+{
+"j": 4,
+"text": "Zoantharian species living in the deep sea have larger genomes than those from intertidal zones."
+}
+]
+},
+{
+"n": 527,
+"id": "pmid:39020404",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Oesophageal adenocarcinoma (OAC) is a highly heterogeneous cancer with poor survival. Standard curative treatment is chemotherapy with or without radiotherapy followed by oesophagectomy. Genomic heterogeneity is a feature of OAC and has been linked to treatment resistance."
+},
+{
+"label": "Methods",
+"text": "Whole-genome sequencing data from 59 treatment-naïve and 18 post-treatment samples from 29 OAC patients was analysed. Twenty-seven of these were enrolled in the DOCTOR trial, sponsored by the Australasian Gastro-Intestinal Trials Group. Two biopsies from each treatment-naïve tumour were assessed to define 'shared' (between both samples) and 'private' (present in one sample) mutations."
+},
+{
+"label": "Results",
+"text": "Mutational signatures SBS2/13 (APOBEC) and SBS3 (BRCA) were almost exclusively detected in private mutation populations of treatment-naïve tumours. Patients presenting these signatures had significantly worse disease specific survival. Furthermore, mutational signatures associated with platinum-based chemotherapy treatment as well as high platinum enrichment scores were only detected in post-treatment samples. Additionally, clones with high putative neoantigen binding scores were detected in some treatment-naïve samples suggesting immunoediting of clones."
+},
+{
+"label": "Conclusions",
+"text": "This study demonstrates the high intra-tumour heterogeneity in OAC, as well as indicators for treatment-induced changes during tumour evolution. Intra-tumour heterogeneity remains a problem for successful treatment strategies in OAC."
+}
+],
+"text": "Oesophageal adenocarcinoma (OAC) is a highly heterogeneous cancer with poor survival. Standard curative treatment is chemotherapy with or without radiotherapy followed by oesophagectomy. Genomic heterogeneity is a feature of OAC and has been linked to treatment resistance. Whole-genome sequencing data from 59 treatment-naïve and 18 post-treatment samples from 29 OAC patients was analysed. Twenty-seven of these were enrolled in the DOCTOR trial, sponsored by the Australasian Gastro-Intestinal Trials Group. Two biopsies from each treatment-naïve tumour were assessed to define 'shared' (between both samples) and 'private' (present in one sample) mutations. Mutational signatures SBS2/13 (APOBEC) and SBS3 (BRCA) were almost exclusively detected in private mutation populations of treatment-naïve tumours. Patients presenting these signatures had significantly worse disease specific survival. Furthermore, mutational signatures associated with platinum-based chemotherapy treatment as well as high platinum enrichment scores were only detected in post-treatment samples. Additionally, clones with high putative neoantigen binding scores were detected in some treatment-naïve samples suggesting immunoediting of clones. This study demonstrates the high intra-tumour heterogeneity in OAC, as well as indicators for treatment-induced changes during tumour evolution. Intra-tumour heterogeneity remains a problem for successful treatment strategies in OAC.",
+"statements": [
+{
+"j": 1,
+"text": "Patients whose treatment-naïve tumours carried the APOBEC or BRCA mutational signatures had significantly better disease-specific survival."
+},
+{
+"j": 2,
+"text": "Mutational signatures linked to platinum-based chemotherapy, along with high platinum enrichment scores, were found only in post-treatment samples."
+},
+{
+"j": 3,
+"text": "The analysis used whole-genome sequencing of 59 treatment-naïve and 18 post-treatment samples from 29 patients with OAC."
+},
+{
+"j": 4,
+"text": "Post-treatment samples carried a higher total number of mutations than treatment-naïve samples."
+}
+]
+},
+{
+"n": 528,
+"id": "pmid:39652596",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Premature expression of genes in mobile genetic elements can be detrimental to their bacterial hosts. Tn916, the founding member of a large family of integrative and conjugative elements (ICEs; aka conjugative transposons), confers tetracycline-resistance and is found in several Gram-positive bacterial species. We identified a transcription terminator near one end of Tn916 that functions as an insulator that prevents expression of element genes when Tn916 is integrated downstream from an active host promoter. The terminator blocked expression of Tn916 genes needed for unwinding and rolling circle replication of the element DNA, and loss of the terminator caused a fitness defect for the host cells. Further, we identified an element-encoded antiterminator (named canT for conjugation-associated antitermination) that is essential for transcription of Tn916 genes after excision of the element from the host chromosome. We found that the antiterminator is orientation-specific, functions with heterologous promoters and terminators, is processive and is most likely a cis-acting RNA. Insulating gene expression in conjugative elements that are integrated in the chromosome is likely a key feature of the interplay between mobile genetic elements and their hosts and appears to be critical for the function and evolution of the large family of Tn916-like elements."
+}
+],
+"text": "Premature expression of genes in mobile genetic elements can be detrimental to their bacterial hosts. Tn916, the founding member of a large family of integrative and conjugative elements (ICEs; aka conjugative transposons), confers tetracycline-resistance and is found in several Gram-positive bacterial species. We identified a transcription terminator near one end of Tn916 that functions as an insulator that prevents expression of element genes when Tn916 is integrated downstream from an active host promoter. The terminator blocked expression of Tn916 genes needed for unwinding and rolling circle replication of the element DNA, and loss of the terminator caused a fitness defect for the host cells. Further, we identified an element-encoded antiterminator (named canT for conjugation-associated antitermination) that is essential for transcription of Tn916 genes after excision of the element from the host chromosome. We found that the antiterminator is orientation-specific, functions with heterologous promoters and terminators, is processive and is most likely a cis-acting RNA. Insulating gene expression in conjugative elements that are integrated in the chromosome is likely a key feature of the interplay between mobile genetic elements and their hosts and appears to be critical for the function and evolution of the large family of Tn916-like elements.",
+"statements": [
+{
+"j": 1,
+"text": "Loss of the terminator near the end of Tn916 produced a fitness defect in the host cells."
+},
+{
+"j": 2,
+"text": "The canT antiterminator was required for transcription of Tn916 genes once the element had excised from the host chromosome."
+},
+{
+"j": 3,
+"text": "Exposure to tetracycline increased canT-dependent transcription of Tn916 genes."
+},
+{
+"j": 4,
+"text": "The canT antiterminator acted in an orientation-independent manner and functioned with heterologous promoters and terminators."
+}
+]
+},
+{
+"n": 529,
+"id": "pmid:39169411",
+"year": 2024,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Neoadjuvant therapy improves recurrence-free survival (RFS) in resectable stage III cutaneous melanoma. However, accurately predicting individual recurrence risk remains a significant challenge. We investigated circulating tumour DNA (ctDNA) as a biomarker for recurrence in measurable stage IIIB/C melanoma patients undergoing neoadjuvant immunotherapy."
+},
+{
+"label": "Methods",
+"text": "Plasma samples were collected pre-neoadjuvant treatment, pre-surgery and/or six weeks post-surgery from 40 patients enrolled in the OpACIN-neo and PRADO clinical trials. Patients received two cycles of ipilimumab (anti-CTLA-4) and nivolumab (anti-PD-1) before surgery. Cell free DNA (cfDNA) underwent unbiased pre-amplification followed by tumour-informed mutation detection using droplet digital polymerase chain reaction (ddPCR) with the Bio-Rad QX600 PCR system."
+},
+{
+"label": "Results",
+"text": "Pre-treatment ctDNA was detectable in 19/40 (48%) patients. Among these, 17/19 (89%) zero-converted within six weeks of surgery and none recurred. Positive ctDNA post-surgery (N = 4), irrespective of pre-treatment ctDNA status, was 100% predictive of recurrence (sensitivity 44%, specificity 100%). Furthermore, ctDNA cleared prior to surgery in 7/9 (78%) patients who did not recur, warranting further investigation into ctDNA-guided surgical management."
+},
+{
+"label": "Conclusion",
+"text": "Post-surgery ctDNA positivity and zero-conversion are highly predictive of recurrence, offering a window for personalised modification of adjuvant therapy."
+}
+],
+"text": "Neoadjuvant therapy improves recurrence-free survival (RFS) in resectable stage III cutaneous melanoma. However, accurately predicting individual recurrence risk remains a significant challenge. We investigated circulating tumour DNA (ctDNA) as a biomarker for recurrence in measurable stage IIIB/C melanoma patients undergoing neoadjuvant immunotherapy. Plasma samples were collected pre-neoadjuvant treatment, pre-surgery and/or six weeks post-surgery from 40 patients enrolled in the OpACIN-neo and PRADO clinical trials. Patients received two cycles of ipilimumab (anti-CTLA-4) and nivolumab (anti-PD-1) before surgery. Cell free DNA (cfDNA) underwent unbiased pre-amplification followed by tumour-informed mutation detection using droplet digital polymerase chain reaction (ddPCR) with the Bio-Rad QX600 PCR system. Pre-treatment ctDNA was detectable in 19/40 (48%) patients. Among these, 17/19 (89%) zero-converted within six weeks of surgery and none recurred. Positive ctDNA post-surgery (N = 4), irrespective of pre-treatment ctDNA status, was 100% predictive of recurrence (sensitivity 44%, specificity 100%). Furthermore, ctDNA cleared prior to surgery in 7/9 (78%) patients who did not recur, warranting further investigation into ctDNA-guided surgical management. Post-surgery ctDNA positivity and zero-conversion are highly predictive of recurrence, offering a window for personalised modification of adjuvant therapy.",
+"statements": [
+{
+"j": 1,
+"text": "Of the 19 patients with detectable pre-treatment ctDNA, 17 (89%) zero-converted within six weeks of surgery and all of them recurred."
+},
+{
+"j": 2,
+"text": "All four patients with positive post-surgery ctDNA recurred, giving 100% specificity but only 44% sensitivity for recurrence."
+},
+{
+"j": 3,
+"text": "Patients with detectable pre-treatment ctDNA had a larger baseline tumour burden than patients without detectable ctDNA."
+},
+{
+"j": 4,
+"text": "ctDNA had already cleared before surgery in 7 of 9 (78%) patients who did not go on to recur."
+}
+]
+},
+{
+"n": 530,
+"id": "pmid:41430985",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Semen strychni is commonly used to treat gliomas in China. However, the underlying mechanism of action of semen strychni in glioma treatment remains unknown. Using network pharmacology and molecular docking, we investigated the probable pharmacological mechanisms of semen strychni in glioma treatment."
+},
+{
+"label": "Methods",
+"text": "The active components of semen strychni were retrieved from the Traditional Chinese Medicine Systems Pharmacology database. Using the Cytoscape program created the active component-target network diagram of semen strychni. The GeneCards, DisGeNET, and Online Mendelian Inheritance in Man databases were used to compile the list of targets related to glioma. Using the STRING database created a protein-protein interaction network of popular drugs and disease targets. For Gene Ontology enrichment and Kyoto Encyclopedia of Genes and Genomes pathway analysis of common targets, the Database for Annotation, Visualization and Integrated Discovery database was utilized. In order to identify the main targets of semen strychni in the treatment of glioma, a target-pathway interaction network was built. The molecular docking of critical and crucial components was done using AutoDock. Glioma samples from the Cancer Genome Atlas and Human Protein Atls databases were extracted to detect the mRNA and protein expression levels of ADRB1 and ADRB2 and analyze the correlation between expression and survival of glioma patients. 3-(4,5-dimethylthiazol-2-yl)-5-(3-carboxymethoxyphenyl)-2-(4-sulfophenyl)-2H-tetrazolium, Transwell, and wound healing assays validate the effect of stigmasterol on the malignant progression of glioma cells."
+},
+{
+"label": "Results",
+"text": "The core components of semen strychni used in the treatment of glioma included stigmasterol, (S)-stylopine, isobrucine, icaride A, and isostrychnine N-oxide (I), which may operate on core targets such as ADRB1, ADRB2, CHRM3, ADRA1A, and ESR1. The significant pathways discovered using Kyoto Encyclopedia of Genes and Genomes enrichment analysis were chemical carcinogenesis-receptor activation, calcium signaling pathway, and pathways in cancer. The outcomes of the molecular docking demonstrated a strong affinity between the central targets and elements. Data from the Cancer Genome Atlas and Human Protein Atls databases indicate that ADRB1 and ADRB2 are expressed in glioma, and high expression of ADRB2 may predict a good outcome. In vitro experimental results indicate that stigmasterol can inhibit the malignant progression of U251 cells."
+},
+{
+"label": "Conclusion",
+"text": "This article discusses the probable mechanism of action of semen strychni in the treatment of glioma, which can serve as a theoretical basis and evidence for subsequent experimental investigations."
+}
+],
+"text": "Semen strychni is commonly used to treat gliomas in China. However, the underlying mechanism of action of semen strychni in glioma treatment remains unknown. Using network pharmacology and molecular docking, we investigated the probable pharmacological mechanisms of semen strychni in glioma treatment. The active components of semen strychni were retrieved from the Traditional Chinese Medicine Systems Pharmacology database. Using the Cytoscape program created the active component-target network diagram of semen strychni. The GeneCards, DisGeNET, and Online Mendelian Inheritance in Man databases were used to compile the list of targets related to glioma. Using the STRING database created a protein-protein interaction network of popular drugs and disease targets. For Gene Ontology enrichment and Kyoto Encyclopedia of Genes and Genomes pathway analysis of common targets, the Database for Annotation, Visualization and Integrated Discovery database was utilized. In order to identify the main targets of semen strychni in the treatment of glioma, a target-pathway interaction network was built. The molecular docking of critical and crucial components was done using AutoDock. Glioma samples from the Cancer Genome Atlas and Human Protein Atls databases were extracted to detect the mRNA and protein expression levels of ADRB1 and ADRB2 and analyze the correlation between expression and survival of glioma patients. 3-(4,5-dimethylthiazol-2-yl)-5-(3-carboxymethoxyphenyl)-2-(4-sulfophenyl)-2H-tetrazolium, Transwell, and wound healing assays validate the effect of stigmasterol on the malignant progression of glioma cells. The core components of semen strychni used in the treatment of glioma included stigmasterol, (S)-stylopine, isobrucine, icaride A, and isostrychnine N-oxide (I), which may operate on core targets such as ADRB1, ADRB2, CHRM3, ADRA1A, and ESR1. The significant pathways discovered using Kyoto Encyclopedia of Genes and Genomes enrichment analysis were chemical carcinogenesis-receptor activation, calcium signaling pathway, and pathways in cancer. The outcomes of the molecular docking demonstrated a strong affinity between the central targets and elements. Data from the Cancer Genome Atlas and Human Protein Atls databases indicate that ADRB1 and ADRB2 are expressed in glioma, and high expression of ADRB2 may predict a good outcome. In vitro experimental results indicate that stigmasterol can inhibit the malignant progression of U251 cells. This article discusses the probable mechanism of action of semen strychni in the treatment of glioma, which can serve as a theoretical basis and evidence for subsequent experimental investigations.",
+"statements": [
+{
+"j": 1,
+"text": "Data from the Cancer Genome Atlas and Human Protein Atlas linked high ADRB2 expression in glioma to a poor outcome."
+},
+{
+"j": 2,
+"text": "Stigmasterol suppressed the malignant progression of U251 glioma cells in the in vitro assays."
+},
+{
+"j": 3,
+"text": "Stigmasterol reduced glioma growth in a mouse xenograft model."
+},
+{
+"j": 4,
+"text": "KEGG enrichment identified three significant pathways: chemical carcinogenesis-receptor activation, the calcium signaling pathway and pathways in cancer."
+}
+]
+},
+{
+"n": 531,
+"id": "pmid:42747592",
+"year": 2026,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Retrotransposons are major components of mammalian genomes, yet their genome-wide annotation and epigenetic regulation in cattle remain incompletely characterized. Here, we present a comprehensive annotation and integrative epigenomic analysis of major retrotransposon classes in the bovine genome, with emphasis on DNA methylation patterns and their potential roles in subclinical mastitis. Using a multi-step de novo pipeline, we identified and classified long interspersed nuclear elements (LINEs), short interspersed nuclear elements (SINEs), and endogenous retroviruses (ERVs) in the bovine reference genome, including three LINE families, seven SINE families, and 20 ERV families. Retrotransposons accounted for ~ 40% of the genome, with LINEs representing the largest fraction. Evolutionary analysis suggested that BosL1A1, BosSINEL, BosERV1, and BosERV16 are the most recently active families. DNA methylation profiles in milk somatic cells showed consistently high levels across retrotransposons, with widespread hypermethylation in cows with Staphylococcus aureus-induced subclinical mastitis. We identified 20,839 differentially methylated retrotransposons, 3,306 of which overlapped differentially expressed genes. Promoter- and exon-overlapping elements showed inverse correlations between methylation and gene expression, and enriched genes are involved in immune and transport pathways. These results provide a comprehensive bovine mobilome resource and indicate that retrotransposon methylation is associated with gene regulation and host responses to mastitis."
+}
+],
+"text": "Retrotransposons are major components of mammalian genomes, yet their genome-wide annotation and epigenetic regulation in cattle remain incompletely characterized. Here, we present a comprehensive annotation and integrative epigenomic analysis of major retrotransposon classes in the bovine genome, with emphasis on DNA methylation patterns and their potential roles in subclinical mastitis. Using a multi-step de novo pipeline, we identified and classified long interspersed nuclear elements (LINEs), short interspersed nuclear elements (SINEs), and endogenous retroviruses (ERVs) in the bovine reference genome, including three LINE families, seven SINE families, and 20 ERV families. Retrotransposons accounted for ~ 40% of the genome, with LINEs representing the largest fraction. Evolutionary analysis suggested that BosL1A1, BosSINEL, BosERV1, and BosERV16 are the most recently active families. DNA methylation profiles in milk somatic cells showed consistently high levels across retrotransposons, with widespread hypermethylation in cows with Staphylococcus aureus-induced subclinical mastitis. We identified 20,839 differentially methylated retrotransposons, 3,306 of which overlapped differentially expressed genes. Promoter- and exon-overlapping elements showed inverse correlations between methylation and gene expression, and enriched genes are involved in immune and transport pathways. These results provide a comprehensive bovine mobilome resource and indicate that retrotransposon methylation is associated with gene regulation and host responses to mastitis.",
+"statements": [
+{
+"j": 1,
+"text": "The analysis found 20,839 differentially methylated retrotransposons, of which 3,306 overlapped differentially expressed genes."
+},
+{
+"j": 2,
+"text": "Blood leukocytes from mastitic cows showed the same retrotransposon hypermethylation pattern as milk somatic cells."
+},
+{
+"j": 3,
+"text": "For retrotransposons overlapping promoters and exons, methylation was positively correlated with expression of the associated genes."
+},
+{
+"j": 4,
+"text": "Retrotransposons made up roughly 40% of the bovine genome, with LINEs forming the largest share."
+}
+]
+},
+{
+"n": 532,
+"id": "pmid:42854587",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Tissue-based tumor mutational burden (TMB) is a biomarker for immune checkpoint inhibitors; however, data on circulating tumor DNA (ctDNA)-based blood TMB (bTMB) are limited."
+},
+{
+"label": "Patients and methods",
+"text": "We conducted an amended phase II basket study enrolling patients with gastrointestinal (GI) cancers with high bTMB identified using Guardant360® CDx (cohorts 1 and 2) and patients with GI cancers with ultrahigh bTMB identified using Guardant360® CDx (Ultrahigh TMB GI cohort; top 2% within each GI tumor type). After early discontinuation of the Ultrahigh TMB GI cohort, the bTMB-High cohort enrolled patients with solid tumors across cancer types with bTMB score ≥14, as measured by FoundationOne® Liquid CDx. Nivolumab 360 mg was administered intravenously every 3 weeks until progression or unacceptable toxicity. The primary endpoint was objective response rate (ORR) and hypothesis testing was prespecified for the bTMB-High cohort."
+},
+{
+"label": "Results",
+"text": "Seventy patients were treated (cohort 1, n = 28; cohort 2, n = 4; Ultrahigh TMB GI cohort, n = 19; bTMB-High cohort, n = 19). The ORR was 14.3%, 0%, 21.1%, and 21.1%, respectively. In the bTMB-High cohort, the lower bound of the 90% confidence interval (CI) exceeded the prespecified 5% threshold, meeting the primary endpoint. Treatment-related grade ≥3 adverse events occurred in 8.6% of patients. Early ctDNA decline at week 3 was associated with longer progression-free survival (hazard ratio 0.51, 95% CI 0.29-0.87). Baseline bTMB did not clearly distinguish responders from nonresponders, whereas higher baseline ctDNA concentrations were associated with a lower ORR."
+},
+{
+"label": "Conclusions",
+"text": "Nivolumab showed activity in patients with ctDNA-defined bTMB-High cancers. Absolute bTMB alone did not reliably identify benefits, whereas baseline ctDNA concentrations and early ctDNA decline provided additional insight into response. These findings provide a preliminary signal supporting the prospective evaluation of ctDNA-based bTMB selection in a tumor-agnostic setting and warrant further validation in larger, randomized trials."
+}
+],
+"text": "Tissue-based tumor mutational burden (TMB) is a biomarker for immune checkpoint inhibitors; however, data on circulating tumor DNA (ctDNA)-based blood TMB (bTMB) are limited. We conducted an amended phase II basket study enrolling patients with gastrointestinal (GI) cancers with high bTMB identified using Guardant360® CDx (cohorts 1 and 2) and patients with GI cancers with ultrahigh bTMB identified using Guardant360® CDx (Ultrahigh TMB GI cohort; top 2% within each GI tumor type). After early discontinuation of the Ultrahigh TMB GI cohort, the bTMB-High cohort enrolled patients with solid tumors across cancer types with bTMB score ≥14, as measured by FoundationOne® Liquid CDx. Nivolumab 360 mg was administered intravenously every 3 weeks until progression or unacceptable toxicity. The primary endpoint was objective response rate (ORR) and hypothesis testing was prespecified for the bTMB-High cohort. Seventy patients were treated (cohort 1, n = 28; cohort 2, n = 4; Ultrahigh TMB GI cohort, n = 19; bTMB-High cohort, n = 19). The ORR was 14.3%, 0%, 21.1%, and 21.1%, respectively. In the bTMB-High cohort, the lower bound of the 90% confidence interval (CI) exceeded the prespecified 5% threshold, meeting the primary endpoint. Treatment-related grade ≥3 adverse events occurred in 8.6% of patients. Early ctDNA decline at week 3 was associated with longer progression-free survival (hazard ratio 0.51, 95% CI 0.29-0.87). Baseline bTMB did not clearly distinguish responders from nonresponders, whereas higher baseline ctDNA concentrations were associated with a lower ORR. Nivolumab showed activity in patients with ctDNA-defined bTMB-High cancers. Absolute bTMB alone did not reliably identify benefits, whereas baseline ctDNA concentrations and early ctDNA decline provided additional insight into response. These findings provide a preliminary signal supporting the prospective evaluation of ctDNA-based bTMB selection in a tumor-agnostic setting and warrant further validation in larger, randomized trials.",
+"statements": [
+{
+"j": 1,
+"text": "Patients whose high bTMB was matched by high tissue TMB responded better than those with discordant tissue TMB."
+},
+{
+"j": 2,
+"text": "In the bTMB-High cohort, the lower bound of the 90% confidence interval for response rate exceeded the prespecified 5% threshold, meeting the primary endpoint."
+},
+{
+"j": 3,
+"text": "Higher baseline ctDNA concentrations were associated with a lower objective response rate, whereas baseline bTMB did not clearly separate responders from nonresponders."
+},
+{
+"j": 4,
+"text": "Patients whose ctDNA declined early, by week 3 of treatment, had shorter progression-free survival."
+}
+]
+},
+{
+"n": 533,
+"id": "pmid:37223690",
+"year": 2023,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Introduction",
+"text": "Breast cancer causes the most cancer-related death in women and is the costliest cancer in the US regarding medical service and prescription drug expenses. Breast cancer screening is recommended by health authorities in the US, but current screening efforts are often compromised by high false positive rates. Liquid biopsy based on circulating tumor DNA (ctDNA) has emerged as a potential approach to screen for cancer. However, the detection of breast cancer, particularly in early stages, is challenging due to the low amount of ctDNA and heterogeneity of molecular subtypes."
+},
+{
+"label": "Methods",
+"text": "Here, we employed a multimodal approach, namely Screen for the Presence of Tumor by DNA Methylation and Size (SPOT-MAS), to simultaneously analyze multiple signatures of cell free DNA (cfDNA) in plasma samples of 239 nonmetastatic breast cancer patients and 278 healthy subjects."
+},
+{
+"label": "Results",
+"text": "We identified distinct profiles of genome-wide methylation changes (GWM), copy number alterations (CNA), and 4-nucleotide oligomer (4-mer) end motifs (EM) in cfDNA of breast cancer patients. We further used all three signatures to construct a multi-featured machine learning model and showed that the combination model outperformed base models built from individual features, achieving an AUC of 0.91 (95% CI: 0.87-0.95), a sensitivity of 65% at 96% specificity."
+},
+{
+"label": "Discussion",
+"text": "Our findings showed that a multimodal liquid biopsy assay based on analysis of cfDNA methylation, CNA and EM could enhance the accuracy for the detection of early- stage breast cancer."
+}
+],
+"text": "Breast cancer causes the most cancer-related death in women and is the costliest cancer in the US regarding medical service and prescription drug expenses. Breast cancer screening is recommended by health authorities in the US, but current screening efforts are often compromised by high false positive rates. Liquid biopsy based on circulating tumor DNA (ctDNA) has emerged as a potential approach to screen for cancer. However, the detection of breast cancer, particularly in early stages, is challenging due to the low amount of ctDNA and heterogeneity of molecular subtypes. Here, we employed a multimodal approach, namely Screen for the Presence of Tumor by DNA Methylation and Size (SPOT-MAS), to simultaneously analyze multiple signatures of cell free DNA (cfDNA) in plasma samples of 239 nonmetastatic breast cancer patients and 278 healthy subjects. We identified distinct profiles of genome-wide methylation changes (GWM), copy number alterations (CNA), and 4-nucleotide oligomer (4-mer) end motifs (EM) in cfDNA of breast cancer patients. We further used all three signatures to construct a multi-featured machine learning model and showed that the combination model outperformed base models built from individual features, achieving an AUC of 0.91 (95% CI: 0.87-0.95), a sensitivity of 65% at 96% specificity. Our findings showed that a multimodal liquid biopsy assay based on analysis of cfDNA methylation, CNA and EM could enhance the accuracy for the detection of early- stage breast cancer.",
+"statements": [
+{
+"j": 1,
+"text": "The combined model reached an AUC of 0.91 (95% CI 0.87-0.95) and detected 65% of breast cancers at 96% specificity."
+},
+{
+"j": 2,
+"text": "A model combining methylation, copy number and end-motif features performed worse than models built from any single feature type."
+},
+{
+"j": 3,
+"text": "Plasma cfDNA of breast cancer patients showed distinct genome-wide methylation, copy number alteration and 4-mer end-motif profiles."
+},
+{
+"j": 4,
+"text": "The SPOT-MAS assay detected hormone receptor-positive breast cancers at a higher rate than triple-negative tumours."
+}
+]
+},
+{
+"n": 534,
+"id": "pmid:39166960",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Gallbladder cancer (GBC) is a common gastrointestinal malignancy noted for its aggressive characteristics and poor prognosis, which is mostly caused by delayed detection. However, the scarcity of information regarding somatic mutations in Indian patients with GBC has hampered the development of efficient therapeutic options. In the present study, the authors attempted to bridge this gap by revealing the mutational profile of GBC."
+},
+{
+"label": "Materials and methods",
+"text": "To evaluate the somatic mutation profile, whole exome sequencing (WES) was performed on 66 tumor and matched blood samples from individuals with GBC. Somatic variant calling was performed using GATK pipeline. Variants were annotated at pathogenic and oncogenic levels, using ANNOVAR, VEP tools and the OncoKB database. Mutational signature analysis, oncogenic pathway analysis and cancer driver genes identification were performed at the functional level by using the maftools package."
+},
+{
+"label": "Results",
+"text": "Our findings focused on the eight most altered genes with pathogenic and oncogenic mutations: TP53, SMAD4, ERBB3, KRAS, ARID1A, PIK3CA, RB1, and AXIN1. Genes with pathogenic single nucleotide variations (SNVs) were enriched in oncogenic signaling pathways, particularly RTK-RAS, WNT, and TP53 pathways. Furthermore, our research related certain mutational signatures, such as cosmic 1, cosmic 6, and cosmic 18, 29, to known characteristics including patient age and tobacco smoking, providing important insights into disease etiology."
+},
+{
+"label": "Conclusions",
+"text": "Given the scarcity of exome-based sequencing studies focusing on the Indian population, this study represents a significant step forward in providing a framework for additional in-depth mutational analysis. Genes with substantial oncogenic and pathogenic mutations are promising candidates for developing targeted mutation panels, particularly for GBC detection."
+}
+],
+"text": "Gallbladder cancer (GBC) is a common gastrointestinal malignancy noted for its aggressive characteristics and poor prognosis, which is mostly caused by delayed detection. However, the scarcity of information regarding somatic mutations in Indian patients with GBC has hampered the development of efficient therapeutic options. In the present study, the authors attempted to bridge this gap by revealing the mutational profile of GBC. To evaluate the somatic mutation profile, whole exome sequencing (WES) was performed on 66 tumor and matched blood samples from individuals with GBC. Somatic variant calling was performed using GATK pipeline. Variants were annotated at pathogenic and oncogenic levels, using ANNOVAR, VEP tools and the OncoKB database. Mutational signature analysis, oncogenic pathway analysis and cancer driver genes identification were performed at the functional level by using the maftools package. Our findings focused on the eight most altered genes with pathogenic and oncogenic mutations: TP53, SMAD4, ERBB3, KRAS, ARID1A, PIK3CA, RB1, and AXIN1. Genes with pathogenic single nucleotide variations (SNVs) were enriched in oncogenic signaling pathways, particularly RTK-RAS, WNT, and TP53 pathways. Furthermore, our research related certain mutational signatures, such as cosmic 1, cosmic 6, and cosmic 18, 29, to known characteristics including patient age and tobacco smoking, providing important insights into disease etiology. Given the scarcity of exome-based sequencing studies focusing on the Indian population, this study represents a significant step forward in providing a framework for additional in-depth mutational analysis. Genes with substantial oncogenic and pathogenic mutations are promising candidates for developing targeted mutation panels, particularly for GBC detection.",
+"statements": [
+{
+"j": 1,
+"text": "Certain mutational signatures, including COSMIC 1, 6, 18 and 29, were related to patient age and alcohol consumption."
+},
+{
+"j": 2,
+"text": "Patients with TP53-mutated tumours had shorter survival than those with TP53 wild-type tumours."
+},
+{
+"j": 3,
+"text": "The eight most altered genes with pathogenic or oncogenic mutations were TP53, SMAD4, ERBB3, KRAS, ARID1A, PIK3CA, RB1 and AXIN1."
+},
+{
+"j": 4,
+"text": "Genes carrying pathogenic SNVs were enriched in oncogenic signalling pathways, particularly RTK-RAS, WNT and TP53."
+}
+]
+},
+{
+"n": 535,
+"id": "doi:10.1101/2025.09.29.679192",
+"year": 2025,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "Mobile element insertions, particularly transposable elements (TEs) such as Alu, LINE-1 (L1), SVA, and endogenous retroviruses (ERVs), represent a major source of human genetic variation and have been implicated in evolution, genomic instability, and disease. Although long-read sequencing generally outperforms short-read sequencing for the characterisation of such elements, their accurate detection with long-reads remains challenging, with different computational tools adopting varying approaches and producing divergent call sets. As gold standards currently do not exist for TE detection, benchmarking these methods is essential to understand their strengths, limitations, and biases. Here, we systematically evaluate the performance of available state-of-the-art TE detection tools on both simulated and real human genome data using highly characterised samples from the Genome in a Bottle consortium, population level reference databases and an in-house collection for which matching short-read sequencing data are available."
+},
+{
+"label": "Results",
+"text": "Our results show significant differences in calling strategies, leading to substantial variation in precision, recall, and the spectrum of TE families detected across tools. Our benchmark also displays the differences between short-read and long-read calls, highlighting the importance of appropriate method selection."
+},
+{
+"label": "Conclusions",
+"text": "The benchmarking results presented here will aid TE researchers make better informed decisions on which tool to use in their long-read TE analyses. Strengths and limitations of different tools have been highlighted in depth as well as their computational requirements, which will result in less time spent finding the best tool for the job and promote faster TE research."
+}
+],
+"text": "Mobile element insertions, particularly transposable elements (TEs) such as Alu, LINE-1 (L1), SVA, and endogenous retroviruses (ERVs), represent a major source of human genetic variation and have been implicated in evolution, genomic instability, and disease. Although long-read sequencing generally outperforms short-read sequencing for the characterisation of such elements, their accurate detection with long-reads remains challenging, with different computational tools adopting varying approaches and producing divergent call sets. As gold standards currently do not exist for TE detection, benchmarking these methods is essential to understand their strengths, limitations, and biases. Here, we systematically evaluate the performance of available state-of-the-art TE detection tools on both simulated and real human genome data using highly characterised samples from the Genome in a Bottle consortium, population level reference databases and an in-house collection for which matching short-read sequencing data are available. Our results show significant differences in calling strategies, leading to substantial variation in precision, recall, and the spectrum of TE families detected across tools. Our benchmark also displays the differences between short-read and long-read calls, highlighting the importance of appropriate method selection. The benchmarking results presented here will aid TE researchers make better informed decisions on which tool to use in their long-read TE analyses. Strengths and limitations of different tools have been highlighted in depth as well as their computational requirements, which will result in less time spent finding the best tool for the job and promote faster TE research.",
+"statements": [
+{
+"j": 1,
+"text": "The benchmark also exposed differences between TE calls derived from short-read and from long-read data."
+},
+{
+"j": 2,
+"text": "The tools' computational requirements were documented alongside their strengths and limitations."
+},
+{
+"j": 3,
+"text": "Across the tools evaluated, precision and recall were nearly identical."
+},
+{
+"j": 4,
+"text": "The long-read tools detected Alu insertions more reliably than LINE-1 or SVA insertions."
+}
+]
+},
+{
+"n": 536,
+"id": "pmid:40847288",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Cutaneous squamous cell carcinoma (CSCC) is a prevalent skin cancer with aggressive progression that poses significant challenges, especially in metastatic cases. Single-cell DNA sequencing (scDNA-seq) has become an advanced technology for elucidating tumor heterogeneity and clonal evolution. However, comprehensive scDNA-seq studies and tailored mutation panels for CSCC are lacking."
+},
+{
+"label": "Methods",
+"text": "We analyzed the genomic landscape of Chinese CSCC patients via a Multi-Patient-Targeted (MPT) scDNA-seq approach. This method combined bulk exome sequencing with Tapestri scDNA-seq. Mutations identified through bulk sequencing were used to design a targeted panel for scDNA-seq. Comparative analysis was conducted to explore the associations between specific gene mutations and clinical characteristics such as tumor stage and patient sex. Clonal evolution analysis was performed to understand the evolutionary trajectories of the tumors."
+},
+{
+"label": "Results",
+"text": "Bulk sequencing revealed a diverse spectrum of somatic mutations in CSCC tumors, with missense mutations being predominant. The top tumor mutations, such as those in NOTCH1, TP53, NOTCH2, TTN, MUC16, RYR2, PRUNE2, DMD, HRAS, and CDKN2A, presented similar frequencies to those reported in studies in Korean and Caucasian populations. However, the mutation frequencies of HRAS, TTN, MUC16 and MUC4 were significantly different from the Korean and Caucasian populations. Comparative analysis revealed associations between specific gene mutations and clinical characteristics such as tumor stage and patient sex. Clonal evolution analysis via scDNA-seq revealed distinct evolutionary trajectories and their potential correlation with tumor development and patient prognosis. Furthermore, scDNA-seq identified two low-frequency mutation clones, NLRP5 and HMMR, which play important roles in the clonal evolution of CSCC."
+},
+{
+"label": "Conclusions",
+"text": "Our study introduced a novel MPT sequencing approach for CSCC, providing insights into tumor heterogeneity and clonal evolution. We identified novel mutations and their potential associations with patient survival and tumor characteristics. Overall, our study layed the groundwork for personalized treatment strategies and provides a reference for future applications of the MPT panel in CSCC patients."
+}
+],
+"text": "Cutaneous squamous cell carcinoma (CSCC) is a prevalent skin cancer with aggressive progression that poses significant challenges, especially in metastatic cases. Single-cell DNA sequencing (scDNA-seq) has become an advanced technology for elucidating tumor heterogeneity and clonal evolution. However, comprehensive scDNA-seq studies and tailored mutation panels for CSCC are lacking. We analyzed the genomic landscape of Chinese CSCC patients via a Multi-Patient-Targeted (MPT) scDNA-seq approach. This method combined bulk exome sequencing with Tapestri scDNA-seq. Mutations identified through bulk sequencing were used to design a targeted panel for scDNA-seq. Comparative analysis was conducted to explore the associations between specific gene mutations and clinical characteristics such as tumor stage and patient sex. Clonal evolution analysis was performed to understand the evolutionary trajectories of the tumors. Bulk sequencing revealed a diverse spectrum of somatic mutations in CSCC tumors, with missense mutations being predominant. The top tumor mutations, such as those in NOTCH1, TP53, NOTCH2, TTN, MUC16, RYR2, PRUNE2, DMD, HRAS, and CDKN2A, presented similar frequencies to those reported in studies in Korean and Caucasian populations. However, the mutation frequencies of HRAS, TTN, MUC16 and MUC4 were significantly different from the Korean and Caucasian populations. Comparative analysis revealed associations between specific gene mutations and clinical characteristics such as tumor stage and patient sex. Clonal evolution analysis via scDNA-seq revealed distinct evolutionary trajectories and their potential correlation with tumor development and patient prognosis. Furthermore, scDNA-seq identified two low-frequency mutation clones, NLRP5 and HMMR, which play important roles in the clonal evolution of CSCC. Our study introduced a novel MPT sequencing approach for CSCC, providing insights into tumor heterogeneity and clonal evolution. We identified novel mutations and their potential associations with patient survival and tumor characteristics. Overall, our study layed the groundwork for personalized treatment strategies and provides a reference for future applications of the MPT panel in CSCC patients.",
+"statements": [
+{
+"j": 1,
+"text": "Cumulative UV exposure history was associated with NOTCH1 mutation status in these patients."
+},
+{
+"j": 2,
+"text": "Single-cell DNA sequencing identified two low-frequency mutation clones, in NLRP5 and HMMR, with important roles in CSCC clonal evolution."
+},
+{
+"j": 3,
+"text": "Missense mutations were the predominant mutation type among the somatic mutations found by bulk sequencing of the CSCC tumours."
+},
+{
+"j": 4,
+"text": "Mutation frequencies of HRAS, TTN, MUC16 and MUC4 did not differ significantly between this Chinese cohort and Korean and Caucasian populations."
+}
+]
+}
+]
+}

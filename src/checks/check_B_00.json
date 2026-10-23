@@ -1,0 +1,248 @@
+{"batch": "check_B_00", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+   {"n": 0, "id": "pmid:42542556",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "These data do not support replacing sentinel lymph node biopsy with a TLS signature in oestrogen receptor-positive luminal breast cancer."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Three published TLS signatures were scored by single-sample gene set enrichment analysis in oestrogen receptor-positive luminal tumours."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "bootstrapped changes in area under the receiver-operating-characteristic curve ranged from 0.0002 to 0.0089"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Strict-consensus TLS status was not associated with nodal positivity in TCGA-BRCA (adjusted odds ratio: 0.95, 95% confidence interval: 0.62-1.45, P = 0.822)."}
+    ]},
+   {"n": 1, "id": "pmid:40222339",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "The diagnostic performance of the four HERV elements surpassed that of conventional biomarkers"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Analysis of dysregulated ETEs revealed 113 upregulated and 46 downregulated ETEs in tumor tissues compared to adjacent non-tumor tissues."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Higher HERVs expression (HERVs high ) correlated with larger tumor size, higher grade, increased lymph node metastasis, and higher Odds ratio compared to lower expression (HERVs low ) groups."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Analysis of dysregulated ETEs revealed 113 upregulated and 46 downregulated ETEs in tumor tissues compared to adjacent non-tumor tissues."}
+    ]},
+   {"n": 2, "id": "doi:10.1101/2025.08.10.669526",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "we demonstrate that these MLL2-bound L1 elements act as enhancers, modulating the expression of neighboring genes in ESC and, more prominently, during differentiation"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "modulating the expression of neighboring genes in ESC and, more prominently, during differentiation"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "is critical for maintaining their active state (H3K4me3 and H3K27ac), while preventing the accumulation of repressive H3K9me3"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "primary role is not to oppose Polycomb-mediated repression at the bivalent promoters of developmental genes"}
+    ]},
+   {"n": 3, "id": "pmid:42817873",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "In the NSCLC cohort, EGFR T790M was detected in 48.4% of patients who progressed on 1st/2nd-generation TKIs."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "This real-world, longitudinal study included 48 metastatic patients (42 with EGFR-mutant NSCLC; 6 with HR+/HER2-negative MBC)"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "In the NSCLC cohort, EGFR T790M was detected in 48.4% of patients who progressed on 1st/2nd-generation TKIs."},
+      {"j": 4, "label": "supported", "confidence": 2, "evidence": "In the MBC cohort, hotspot ESR1 mutations (D538G, L536R, Y537S) were identified in 50% of patients. Variations in ctDNA fractional abundance predicted disease progression up to 9 months before radiological confirmation.", "flag": "ambiguous", "reason": "The 9-month sentence directly follows the MBC sentence and the NSCLC cohort has its own ~5-month figure, so it reads as the MBC result, but the sentence itself does not name the cohort."}
+    ]},
+   {"n": 4, "id": "doi:10.1101/2023.12.03.23299340",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "in the TCGA cohort we detected previously unreported mutations in BAP1 (n=3) and EIF1AX (n=5), that were missed by the original DNA sequencing"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "In our prospective cohort, all mutations and copy number alterations were successfully identified at the RNA level by combining the described approaches."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Uveal melanoma is a lethal intraocular tumour, in which the presence of certain genetic alterations correlates with the risk of metastatic dissemination and patient survival."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Unsupervised gene expression profiling strongly correlated to the presence of chromosome 3 alterations, but was not reliable in identifying other (clinically-)relevant genetic alterations."}
+    ]},
+   {"n": 5, "id": "doi:10.64898/2025.12.17.25341356",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "These findings support the feasibility of tumor-educated platelets as a minimally invasive biomarker for pediatric malignant brain tumor detection, and longitudinal monitoring."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "logistic regression classifier based on selected platelet transcripts achieved an area under the curve of 0.89, sensitivity of 79%, and a specificity of 80% in identifying high-grade tumor patients"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "High-grade tumor patients showed consistent upregulation of cancer-associated mitochondrial genes."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "and 85 genes in high-grade tumor patients vs. low-grade tumor patients. No genes met significance in low-grade tumor patients vs. controls."}
+    ]},
+   {"n": 6, "id": "pmid:39126895",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "There were no recurrences in the POLE subgroup."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "17 SBS5 signature (44.7%), 10 SBS15 or SBS44 signature (26.3%)"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "10 had POLE mutations (21.7%), 18 were MMR deficient (39.1%), 6 had abnormal p53 (13.0%), and 12 were p53 wildtype (26.1%). There were no recurrences in the POLE subgroup."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "46 patients were included with variable adjuvant treatment. Nine patients recurred (19.6%), most with extra-abdominal disease (n = 5, or 55.6%)."}
+    ]},
+   {"n": 7, "id": "pmid:40165631",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "genes containing Far-Red Elongated Hypocotyl 3 (FHY3) or Far-Red Impaired Response 1 (FAR1) functional domains have undergone a large, kochia-specific gene family expansion"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "we characterized a new MuDR subtype, named here as 'Muntjac', which contributes to the evolution of herbicide resistance in kochia through the process of transduplication"},
+      {"j": 3, "label": "supported", "confidence": 2, "evidence": "putative Mutator Don-Robertson (MuDR) transposable elements with detectable FHY3/FAR1 domains were tightly associated with segmental duplications of 5-enolpyruvylshikimate-3-phosphate synthase subsequently conferring resistance to the herbicide glyphosate", "flag": "ill_formed", "reason": "The statement uses the abbreviation EPSPS, which the abstract never defines; the verdict depends on the reader recognising it as the initialism of 5-enolpyruvylshikimate-3-phosphate synthase."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "a total length of 969.6 Mb, and an N50 scaffold length of 99.88 Mb"}
+    ]},
+   {"n": 8, "id": "pmid:40943438",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Mutation detection in EV-DNA was limited by low DNA yield."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "In cfDNA, dPCR identified KRAS p.G12D in 10.2% and TP53 p.R273H in 2.0% of samples."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "The concordance between both platforms was 71.4% for KRAS p.G12D and 58.3% for the analysis of TP53 p.R273H mutations in tumor tissue."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Somatic mutation detection from liquid biopsy using dPCR further supports its potential utility in the preoperative setting."}
+    ]},
+   {"n": 9, "id": "pmid:42870827",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "C4orf50 expression was higher in 1,093 breast tumor samples than in 111 normal samples"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "C4orf50 expression correlated positively with the ESTIMATE Immune Score (rho =0.372), Stromal Score (rho =0.198), and ESTIMATE Score (rho =0.340; all false discovery rate values <0.001)"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "These observational findings do not establish a causal role for C4orf50 and require validation in independent cohorts and experimental models."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "higher continuous C4orf50 expression was associated with poorer overall survival [hazard ratio (HR) per 1 standard deviation =1.41, 95% confidence interval (CI): 1.19-1.67"}
+    ]},
+   {"n": 10, "id": "pmid:41121148",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "We observed a significant upregulation of NR2F6 expression in high-grade gliomas, which is associated with an unfavorable prognosis in patients."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We obtained RNA sequencing (RNA-seq) data of 648 glioma samples from The Cancer Genome Atlas (TCGA) and 325 samples from the Chinese Glioma Genome Atlas (CGGA) as study cohorts."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We observed a significant upregulation of NR2F6 expression in high-grade gliomas, which is associated with an unfavorable prognosis in patients."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "our findings revealed a significant upregulation of NR2F6 in drug-resistant cells, which induced TMZ resistance in glioma cells via the E2F2-PARP1 axis"}
+    ]},
+   {"n": 11, "id": "doi:10.1101/2024.11.04.610003",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "by analyzing single cell sequencing data, we investigated the mechanisms driving prognostic variations among distinct subtypes"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "we constructed a prognostic prediction model, which demonstrated superior predictive accuracy compared to several models published in the past five years"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "we developed a novel consensus clustering method that categorizes liver cancer patients into two subtypes, CS1 and CS2"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "we observed differences between CS1 and CS2 in various metabolic pathways, biological processes, and signaling pathways, such as fatty acid metabolism, hypoxia levels, PI3K-AKT and MIF signaling pathway"}
+    ]},
+   {"n": 12, "id": "pmid:39433569",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Patients with lower DELFI-TF scores during treatment have longer overall survival (62.8 vs 29.1 months, HR = 3.12, 95% CI 1.62-6.00, p < 0.001)"},
+      {"j": 2, "label": "supported", "confidence": 2, "evidence": "validate the method in two independent cohorts of patients with colorectal or lung cancer", "flag": "ambiguous", "reason": "\"two independent cohorts of patients with colorectal or lung cancer\" most naturally means one cohort of each, but the wording does not strictly exclude two mixed cohorts."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "DELFI-TF scores strongly correlate with circulating tumor DNA levels (ctDNA) (r = 0.90, p < 0.0001, Pearson correlation)"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "DELFI-TF scores prior to therapy initiation are associated with clinical response and are independent predictors of overall survival"}
+    ]},
+   {"n": 13, "id": "pmid:41379955",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "N4BP2 promoted genome rearrangements (including chromothripsis), formation of extrachromosomal DNA (ecDNA) in drug-induced gene amplification"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "an unbiased, imaging-based small interfering RNA screen that targeted all 204 known and putative human nucleases"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "N4BP2 promoted genome rearrangements (including chromothripsis), formation of extrachromosomal DNA (ecDNA) in drug-induced gene amplification, tumorigenesis, and tumor cell proliferation in an induced model of human high-grade glioma."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Analysis of more than 10,000 human cancer genomes revealed elevated N4BP2 expression to be predictive of chromothripsis and copy number amplifications, including ecDNA."}
+    ]},
+   {"n": 14, "id": "pmid:38783171",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "despite certain species lacking specific types of DNA transposons or retrotransposon superfamilies, they still exhibit a diverse range of TE content"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "the Gypsy superfamilies were found to encode Aspartic proteases in the plant-parasitic nematodes"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "TE composition, diversity, and evolution were analysed in 26 plant-parasitic nematodes from 9 distinct genera in Clade IV"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "To investigate genome size variation and evolution in plant-parasitic nematodes, TE composition, diversity, and evolution were analysed in 26 plant-parasitic nematodes from 9 distinct genera in Clade IV."}
+    ]},
+   {"n": 15, "id": "pmid:40287657",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The E. hormaechei complex displays a highly mutable resistome, with most taxa being multidrug resistant."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "The E. hormaechei complex displays a highly mutable resistome, with most taxa being multidrug resistant."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "The species and subspecies all display open and distinct pan-genomes"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Phylogenomic analysis revealed that E. hormaechei represents a complex, comprising three predicted species, E. hormaechei, E. hoffmannii and E. xiangfangensis, with the latter putatively comprising three distinct subspecies, namely oharae, steigerwaltii and xiangfangensis."}
+    ]},
+   {"n": 16, "id": "pmid:42201779",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "A substantial fraction (23.2%) fell into an HRDetect-intermediate category, highlighting greater genomic heterogeneity than currently appreciated."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "In the UW cohort, 51.4% of cases were classified as HRDetect-high and had significantly prolonged median overall survival versus others [6.2 vs. 4.1 years"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "In ARIEL2, HRDetect-high tumors showed better PARPi responses, with improved progression-free survival (11.1 vs. 7.1 months; HR, 0.44; 95% CI, 0.26-0.74; P = 0.03) and response rates (54% vs. 22.5%)."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "RS profiling uncovered 11 genomic clusters, with specific RS profiles (RS1, RS14, and RS18) correlating with poor survival."}
+    ]},
+   {"n": 17, "id": "pmid:40076662",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The results of the analysis of the CTC number and ESR1 and PIK3CA mutations in blood collected from 179 patients with metastatic breast cancer"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "The main objective of this study was to estimate the frequency and clinical value of the ESR1 and PIK3CA mutations identified in circulating free DNA (cfDNA.)"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "ESR1 mutations appear primarily during progression, as no mutations were found in primary tumor samples."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "ESR1 mutations are more frequent in patients with advanced luminal breast cancer regardless of the type of the treatment"}
+    ]},
+   {"n": 18, "id": "doi:10.1101/2023.10.25.564058",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "GAPF-seq differentiated 39 breast tumors from matched control DNA with an Area Under the Curve (AUC) of 0.955"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "A proof-of-concept liquid biopsy study using cfDNA from 27 prostate cancer patients and 24 control individuals yielded an average AUC of 0.896."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "HCBs on the X chromosome emerged as a nearly decisive feature and were linked to androgen receptor gene amplification."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "A proof-of-concept liquid biopsy study using cfDNA from 27 prostate cancer patients and 24 control individuals yielded an average AUC of 0.896. HCBs on the X chromosome emerged as a nearly decisive feature and were linked to androgen receptor gene amplification."}
+    ]},
+   {"n": 19, "id": "doi:10.1101/2025.05.20.25328012",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "MammaTrace achieved a sensitivity of 91% and specificity of 83%, with a median follow-up of 12.4 months."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "MammaTrace achieved a sensitivity of 91% and specificity of 83%, with a median follow-up of 12.4 months."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "we developed MammaTrace, a plasma-only cell-free DNA (cfDNA) methylation-based MRD assay, informed by differentially methylated regions (DMRs) identified in MBC using whole genome bisulfite sequencing"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "A positive MammaTrace score, indicative of MRD, preceded clinical or radiologic recurrence by a median of 457 days"}
+    ]},
+   {"n": 20, "id": "doi:10.1101/2024.01.17.576027",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Patients with high HERV-K113 expression show activation of pathways related to antiviral responses, suggesting a viral mimicry state."},
+      {"j": 2, "label": "contradicted", "confidence": 2, "evidence": "The newly developed nanobody FF-01 demonstrates anti-lymphoma activity through antibody-dependent cellular cytotoxicity and internalization.", "flag": "ambiguous", "reason": "The abstract attributes FF-01 activity to antibody-dependent cellular cytotoxicity and internalization; complement-dependent cytotoxicity is a different mechanism, but the abstract does not explicitly exclude it."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The newly developed nanobody FF-01 demonstrates anti-lymphoma activity through antibody-dependent cellular cytotoxicity and internalization."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "with the HERV-K envelope protein identified as a crucial contributor to lymphoma cell growth"}
+    ]},
+   {"n": 21, "id": "pmid:39272653",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "An analysis of cfDNA and ctDNA offers a non-invasive clinical tool for monitoring the primary tumour to establish a complete cytoreduction and to diagnose recurrence early."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "cfDNA and ctDNA correlated significantly with CA125."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We selected 22 women diagnosed with advanced high-grade serous ovarian cancer, of which only 4 had complete records."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Following cfDNA and ctDNA over time indicated a recurrence several months earlier than computed tomography and CA125 changes."}
+    ]},
+   {"n": 22, "id": "pmid:40607600",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Our findings demonstrate a moderate association between radiomic features and single gene mutations detected through liquid biopsy in NSCLC patients, with classification accuracies reaching approximately 0.60."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Our findings demonstrate a moderate association between radiomic features and single gene mutations detected through liquid biopsy in NSCLC patients, with classification accuracies reaching approximately 0.60."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "when predicting the combined mutation status of gene pairs (e.g., EGFR and ROS1), the classification task involved three classes and yielded substantially lower accuracy (approximately 0.30)"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Notably, second-order texture features showed the highest importance in the models."}
+    ]},
+   {"n": 23, "id": "pmid:37568633",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We aimed to assess whether genomic alterations may predict survival after the development of stage IV disease, irrespective of received therapy."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Among analyzed genes, no individual gene alterations, or combinations of alterations, could be dichotomously associated with survival."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "UV signature COSMIC_7 (cosine-similarity 0.932)"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "In our cohort, clock-like COSMIC_5 mutational signature predicted poor survival while a UV signature COSMIC_7 predicted longer survival."}
+    ]},
+   {"n": 24, "id": "pmid:40634198",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "KRAS ctDNA positivity was associated with shorter overall survival (median OS 21 months vs. 41 months"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "G12C ctDNA positivity was associated with larger tumour size, presence of nodal involvement, and higher overall pathological stage"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "KRAS ctDNA positivity was associated with shorter overall survival (median OS 21 months vs. 41 months"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "In overall pathological staging, KRAS G12C ctDNA was detected exclusively in liquid biopsies of stage III patients (4/11, 36%)."}
+    ]},
+   {"n": 25, "id": "doi:10.1101/2025.06.24.660824",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Drug sensitivity assessment of PDOs showed that cisplatin reduced cell viability, whereas cetuximab and lenvatinib had minimal effects."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Chemoradiation led to greater tumor organoid killing compared to radiation or chemotherapy alone."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "which accurately distinguished tumor versus normal PDOs in culture using digital histopathology images (AUC≥0.88)"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "we established PDOs from surgically resected fresh tissues of human papillomavirus (HPV)-negative head and neck squamous cell carcinoma (HNSCC) across anatomical sites, tumor T-categories, and sample types"}
+    ]},
+   {"n": 26, "id": "pmid:40370818",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "A total of 79 microRNAs were found only in cattle trinomial recombination products, with 98% belonging to the mir-30 family"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "The mir-30 family is closely associated with biological processes influencing the quantity and quality of agricultural products."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "highly conserved recombination products (with more than 81.5% identity) were present in the corresponding block of 12 genes in bison"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "These recombination products served as sources of 51 microRNAs in bison and 129 microRNAs in cattle, including 50 microRNAs that were similar in both species."}
+    ]},
+   {"n": 27, "id": "doi:10.1101/2024.05.07.24305476",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Of 145 participants in the first round, 136 (96.8%) responded in the second round."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "including only a weak recommendation for circulating tumor DNA (ctDNA) testing given limited evidence of its utility in detecting and monitoring PM"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "For the synchronous pathway, upfront cytoreductive surgery was de-emphasized in favor of systemic therapy."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "For the synchronous pathway, upfront cytoreductive surgery was de-emphasized in favor of systemic therapy."}
+    ]},
+   {"n": 28, "id": "doi:10.1101/2024.11.08.622691",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "with an area under the curve (AUC) of 0.88, 81% sensitivity, and 74% positive predictive value (PPV)"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Increased expression of endogenous retrovirus (ERV) and long interspersed nuclear element 1 (L1, LINE1) subfamilies of TEs is associated with higher histone acetylation levels at their regulatory elements."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "A higher TE transcript level correlates with the type I interferon (IFN I) pathway, suggesting inflammation associated with PE could be due to the sensing of TE transcripts by the antiviral innate immune system."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "maternal cfRNA TE signature accurately predicts early diagnosis of PE, which can improve prophylaxis and obstetric outcomes"}
+    ]},
+   {"n": 29, "id": "pmid:38046281",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "KMT2D and ADAP1 mutations were associated with inferior progression-free survival (PFS) and/or overall survival (OS) ( P <0.05)"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Complete response was achieved in 9 patients, 3 patients achieved partial response, and 2 patients had stable disease, resulting in an objective response rate (ORR) of 70.6%"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Patients with lower TMB were correlated with improved H101 response rates ( P =0.044)"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "paired pre- and post-H101 samples from 17 P/R/M cervical cancer patients who received serial intra-tumor injections of H101"}
+    ]},
+   {"n": 30, "id": "pmid:42086450",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "25 patients with diffuse large B-cell lymphoma involving the CNS (primary or secondary) contributed 46 paired plasma ctDNA and contrast-enhanced brain MRI evaluations"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "edema crossing the midline was linked to markedly lower odds of plasma ctDNA positivity (Firth-penalized OR 0.068)"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Among 31 reproducible MRI-derived features, edema crossing the midline had the highest selection frequency (55.8%)."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Reproducible MRI features, especially edema crossing the midline, were inversely associated with plasma ctDNA positivity across repeated evaluations."}
+    ]},
+   {"n": 31, "id": "pmid:36629271",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The BTA insertion does not affect transcript abundance but reduces protein abundance of ZmSWEET4c"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "These insertion sites have typical euchromatin features, including low levels of DNA methylation and high levels of H3K27ac."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "A transposon capture assay revealed 79 novel insertions for BTA and BTA-like elements."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "an active transposition event was identified during the propagation of maize inbred line B73"}
+    ]},
+   {"n": 32, "id": "pmid:40570259",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "A subset of variables were considered to be of critical priority and are designated as required annotations to submissions of cfDNA-based CSF liquid biopsy sample data into the BLOODPAC Data Commons."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "we developed a list of key preanalytical variables for cfDNA-based CSF liquid biopsy in patients with primary and metastatic brain malignancies"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The Working Group agreed on a recommended list of preanalytical minimum technical data elements, clinical context data elements, and patient context data elements"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "In an effort to identify and standardize key preanalytical variables, the Blood Profiling Atlas in Cancer (BLOODPAC) Consortium launched a BT Working Group in 2022."}
+    ]},
+   {"n": 33, "id": "pmid:41364261",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 2, "evidence": "Thirteen of 16 tumour DNA samples harboured at least one somatic mutation across nine genes.", "flag": "ambiguous", "reason": "Read as 'ESR1 mutations in all 16 tumours' it conflicts with only 13 of 16 carrying any somatic mutation; read as 'among the 16' the abstract never says which genes were mutated in tumour DNA."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Eleven patients had polyclonal ctESR1m within the ligand-binding domain, six at baseline, while five harboured a single ctESR1m variant."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "present in 16 patients (76%) with both stable (SD) and progressive disease (PD), showing no clear association with disease progression"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Twenty one of the 24 patients (88%) had at least one somatic mutation in cfDNA"}
+    ]},
+   {"n": 34, "id": "doi:10.1101/2024.05.20.24307623",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "ctDNA levels could be monitored in the 89,4% of the patients"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "allowed the identification of pathogenetic variants in the 95,45% of the tumours and ctDNA levels could be monitored in the 89,4% of the patients"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "longitudinal analyses of cfDNA/ctDNA proved to be a powerful asset to identify patients undergoing relapse, months prior to the arisen of any clinical evidence"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "this approach remains clinically significant when stratifying tumours based on histopathological risk factors"}
+    ]}
+ ]}

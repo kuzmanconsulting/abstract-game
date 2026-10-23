@@ -1,0 +1,439 @@
+{
+"batch": "check_B_14a",
+"pass": "B",
+"source_batch": "gen_14a",
+"items": [
+{
+"n": 490,
+"id": "pmid:40849558",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Colorectal cancer (CRC) is a global health issue requiring novel diagnostic and therapeutic approaches to improve patient outcomes. Glutamate oxaloacetate transaminase 1 (GOT1) plays a crucial role in metabolism and is associated with various cancers. However, its expression and potential as a diagnostic marker in CRC have not been thoroughly investigated. We analysed The Cancer Genome Atlas data on GOT1 normalised to transcripts per million. We used tools such as Gene Expression Profiling Interactive Analysis 2, logistic regression, receiver operating characteristic analysis, Sieber algorithm for immune detection, immune checkpoint gene correlation, cBioPortal analysis, and genomic sensitivities of cancers from the Genomics of Drug Sensitivity in Cancer and Cancer Therapeutics Response Portal to evaluate the association of GOT1 with CRC. GOT1 expression significantly varied across cancer types, showing high diagnostic value in colon adenocarcinoma and rectal adenocarcinoma. Moreover, it correlated with immune cells, such as CD8 + T and plasma cells, and immune checkpoint genes LGALS9 and TNFRSF4. Tumour genetic variations differed in mutation burden, copy number alterations, and microsatellite instability. Drug sensitivities, including those of navitoclax and CCT036477, showed an association with GOT1 expression. Gene Ontology and Kyoto Encyclopedia of Genes and Genomes analyses suggested the involvement of GOT in cellular metabolism. Our comprehensive analysis revealed a critical role of GOT1 in CRC, confirming its role as a diagnostic and therapeutic target. Nonetheless, its role in tumorigenesis warrants further investigation."
+}
+],
+"text": "Colorectal cancer (CRC) is a global health issue requiring novel diagnostic and therapeutic approaches to improve patient outcomes. Glutamate oxaloacetate transaminase 1 (GOT1) plays a crucial role in metabolism and is associated with various cancers. However, its expression and potential as a diagnostic marker in CRC have not been thoroughly investigated. We analysed The Cancer Genome Atlas data on GOT1 normalised to transcripts per million. We used tools such as Gene Expression Profiling Interactive Analysis 2, logistic regression, receiver operating characteristic analysis, Sieber algorithm for immune detection, immune checkpoint gene correlation, cBioPortal analysis, and genomic sensitivities of cancers from the Genomics of Drug Sensitivity in Cancer and Cancer Therapeutics Response Portal to evaluate the association of GOT1 with CRC. GOT1 expression significantly varied across cancer types, showing high diagnostic value in colon adenocarcinoma and rectal adenocarcinoma. Moreover, it correlated with immune cells, such as CD8 + T and plasma cells, and immune checkpoint genes LGALS9 and TNFRSF4. Tumour genetic variations differed in mutation burden, copy number alterations, and microsatellite instability. Drug sensitivities, including those of navitoclax and CCT036477, showed an association with GOT1 expression. Gene Ontology and Kyoto Encyclopedia of Genes and Genomes analyses suggested the involvement of GOT in cellular metabolism. Our comprehensive analysis revealed a critical role of GOT1 in CRC, confirming its role as a diagnostic and therapeutic target. Nonetheless, its role in tumorigenesis warrants further investigation.",
+"statements": [
+{
+"j": 1,
+"text": "Knocking down GOT1 in colorectal cancer cell lines reduced their proliferation."
+},
+{
+"j": 2,
+"text": "GOT1 transcript levels differed significantly between cancer types, and the gene had strong diagnostic performance in both colon and rectal adenocarcinoma."
+},
+{
+"j": 3,
+"text": "Sensitivity to the drugs navitoclax and CCT036477 was independent of GOT1 expression levels."
+},
+{
+"j": 4,
+"text": "GOT1 expression tracked with immune cell populations including CD8 + T and plasma cells, and with the immune checkpoint genes LGALS9 and TNFRSF4."
+}
+]
+},
+{
+"n": 491,
+"id": "pmid:39362423",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Photoperiod is a pivotal factor in affecting spermatogenesis in seasonal-breeding animals. Transposable elements have regulatory functions during spermatogenesis. However, whether it also functions in photoperiodic spermatogenesis in seasonal breeding animals is unknown. To explore this, we first annotated 5,501,822 transposons in the whole genome of Brandt's voles (Lasiopodomys brandtii), and revealed that LINEs were the most abundant, comprising 16.61 % of the genome. Following closely, SINEs accounted for 10.13 %, LTRs for 7.54 %, and DNA transposons for 0.70 %. Subsequently, we exposed male Brandt's voles to long-photoperiod (LP, 16 h/day) and short-photoperiod (SP, 8 h/day) from their embryonic stages, and obtained testes transcriptome at 4 and 10 weeks after birth. Differential expression and Pearson analysis indicated strongly positive correlations between the expression of differentially expressed retrotransposons and the adjacent genes. KO, KEGG and GSEA results showed that sperm flagellar genes were most enriched nearby the retrotransposons such as Dnah1, Dnah2, Dnah17, Dnali1. RT-PCR results showed that SINE/Alu_1213291 co-transcripted with Dnali1 gene. Our findings first reveal the regulatory function of transposons in photoperiodic spermatogenesis, providing insights into the role of photoperiod in seasonal reproduction in wild animals."
+}
+],
+"text": "Photoperiod is a pivotal factor in affecting spermatogenesis in seasonal-breeding animals. Transposable elements have regulatory functions during spermatogenesis. However, whether it also functions in photoperiodic spermatogenesis in seasonal breeding animals is unknown. To explore this, we first annotated 5,501,822 transposons in the whole genome of Brandt's voles (Lasiopodomys brandtii), and revealed that LINEs were the most abundant, comprising 16.61 % of the genome. Following closely, SINEs accounted for 10.13 %, LTRs for 7.54 %, and DNA transposons for 0.70 %. Subsequently, we exposed male Brandt's voles to long-photoperiod (LP, 16 h/day) and short-photoperiod (SP, 8 h/day) from their embryonic stages, and obtained testes transcriptome at 4 and 10 weeks after birth. Differential expression and Pearson analysis indicated strongly positive correlations between the expression of differentially expressed retrotransposons and the adjacent genes. KO, KEGG and GSEA results showed that sperm flagellar genes were most enriched nearby the retrotransposons such as Dnah1, Dnah2, Dnah17, Dnali1. RT-PCR results showed that SINE/Alu_1213291 co-transcripted with Dnali1 gene. Our findings first reveal the regulatory function of transposons in photoperiodic spermatogenesis, providing insights into the role of photoperiod in seasonal reproduction in wild animals.",
+"statements": [
+{
+"j": 1,
+"text": "DNA transposons made up 0.70 % of the Brandt's vole genome, far more than the 7.54 % contributed by LTRs."
+},
+{
+"j": 2,
+"text": "Annotation of the Brandt's vole genome yielded 5,501,822 transposons, with LINEs the most abundant class at 16.61 % of the genome."
+},
+{
+"j": 3,
+"text": "Melatonin signalling mediates the photoperiodic change in testicular retrotransposon expression."
+},
+{
+"j": 4,
+"text": "Expression of the differentially expressed retrotransposons correlated strongly and positively with expression of the genes next to them."
+}
+]
+},
+{
+"n": 492,
+"id": "pmid:42794647",
+"year": 2026,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Porcine endogenous retroviruses (PERVs), their transmembrane envelope protein p15E and peptides corresponding to a domain in p15E that is highly conserved among retroviruses, the immunosuppressive (isu) domain, demonstrated immunosuppressive properties. They inhibited in vitro immune reactions, and induced release of IL-6 and IL-10 in human peripheral blood mononuclear cells (PBMCs). We recently showed that p15E of PERV expressed on 293T cells reduced MHC expression, induced cytokine release in co-incubated human PBMCs, and inhibited cytotoxic cells. The cell-surface expression of p15E was chosen to simulate an artificially introduced expression on a transplant. Here, a new construct with a higher expression of p15E and consequently higher effects on cytokine release was designed and used. An intracellular cytokine assay was newly developed and applied, whereas a commercial cytokine array was used to analyze the release of 105 cytokines into the supernatant. The differential gene expression was analyzed by sequencing the RNA of PBMCs incubated with p15E-expressing and wild-type 293T cells. PERV p15E induced an elevated expression of IL-10, IL-6 and 24 other cytokines and modulated the expression of hundreds of genes. Furthermore, coating porcine L23 cells with the synthetic isu peptide of the PERV p15E protein and subsequently co-incubating them with human PBMCs induced IL-10 production, whereas direct addition of the peptide to PBMCs alone did not induce cytokine production. These results demonstrate that the PERV p15E protein can modulate cytokine release by human immune cells and suppress their cytotoxic activity. This immunomodulatory property may have potential applications in protecting transplanted tissues from immune-mediated rejection."
+}
+],
+"text": "Porcine endogenous retroviruses (PERVs), their transmembrane envelope protein p15E and peptides corresponding to a domain in p15E that is highly conserved among retroviruses, the immunosuppressive (isu) domain, demonstrated immunosuppressive properties. They inhibited in vitro immune reactions, and induced release of IL-6 and IL-10 in human peripheral blood mononuclear cells (PBMCs). We recently showed that p15E of PERV expressed on 293T cells reduced MHC expression, induced cytokine release in co-incubated human PBMCs, and inhibited cytotoxic cells. The cell-surface expression of p15E was chosen to simulate an artificially introduced expression on a transplant. Here, a new construct with a higher expression of p15E and consequently higher effects on cytokine release was designed and used. An intracellular cytokine assay was newly developed and applied, whereas a commercial cytokine array was used to analyze the release of 105 cytokines into the supernatant. The differential gene expression was analyzed by sequencing the RNA of PBMCs incubated with p15E-expressing and wild-type 293T cells. PERV p15E induced an elevated expression of IL-10, IL-6 and 24 other cytokines and modulated the expression of hundreds of genes. Furthermore, coating porcine L23 cells with the synthetic isu peptide of the PERV p15E protein and subsequently co-incubating them with human PBMCs induced IL-10 production, whereas direct addition of the peptide to PBMCs alone did not induce cytokine production. These results demonstrate that the PERV p15E protein can modulate cytokine release by human immune cells and suppress their cytotoxic activity. This immunomodulatory property may have potential applications in protecting transplanted tissues from immune-mediated rejection.",
+"statements": [
+{
+"j": 1,
+"text": "Cells expressing p15E raised PBMC expression of IL-10, IL-6 and 24 further cytokines and shifted the expression of hundreds of genes."
+},
+{
+"j": 2,
+"text": "The synthetic isu peptide induced IL-10 production in human PBMCs when it was added directly to the cells in solution."
+},
+{
+"j": 3,
+"text": "Blocking IL-10 signalling restores the cytotoxic activity of human PBMCs exposed to p15E."
+},
+{
+"j": 4,
+"text": "A construct giving higher p15E expression produced correspondingly larger effects on cytokine release than the earlier construct."
+}
+]
+},
+{
+"n": 493,
+"id": "pmid:42392486",
+"year": 2027,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Anal squamous cell carcinoma (ASCC) is a rare gastrointestinal cancer linked to high-risk human papillomavirus (HPV) infection in approximately 90% of cases. Current circulating tumor DNA (ctDNA) approaches in ASCC primarily rely on pathogenic HPV-based biomarkers; however, these methods do not detect all HPV strains and are not applicable to HPV-negative tumors. To address this limitation, we developed a ddPCR assay targeting hypermethylated genomic CpG biomarkers, allowing ctDNA detection independent of tumor HPV status."
+},
+{
+"label": "Methods",
+"text": "An anal cancer methylation-specific multiplex droplet digital PCR (AnMM-ddPCR) assay was developed to target five previously described CpG biomarkers hypermethylated in ASCC: ASCL1, LHX8, WDR17, ZIC1, and ZNF582, and the ALB reference gene. Patient samples and samples from non-cancer controls were analyzed using the BioRad QX600 ddPCR multiplexing platform."
+},
+{
+"label": "Results",
+"text": "CpG-methylated biomarker levels were significantly higher in ASCC tissue compared with normal tissue and whole blood. The AnMM-ddPCR assay successfully detected all five ctDNA markers in plasma from ASCC patients, achieving an AUC of 0.72 (95% CI: 0.55-0.89; P = 0.018) in baseline plasma samples from ASCC patients with T1 or T2 tumors ≤4 cm, versus 0.90 (95% CI: 0.76-1.00; P = 0.0005) in plasma from patients with T2 tumors >4 cm or T3 tumors. At a specificity of 91.30%, sensitivity increased with stage from 52.94% (95% CI: 30.96-73.83) to 88.89% (95% CI: 56.50-99.43)."
+},
+{
+"label": "Conclusion",
+"text": "The AnMM-ddPCR assay enables HPV-independent ctDNA detection in plasma samples from anal cancer patients and supports its evaluation in future liquid biopsy applications."
+}
+],
+"text": "Anal squamous cell carcinoma (ASCC) is a rare gastrointestinal cancer linked to high-risk human papillomavirus (HPV) infection in approximately 90% of cases. Current circulating tumor DNA (ctDNA) approaches in ASCC primarily rely on pathogenic HPV-based biomarkers; however, these methods do not detect all HPV strains and are not applicable to HPV-negative tumors. To address this limitation, we developed a ddPCR assay targeting hypermethylated genomic CpG biomarkers, allowing ctDNA detection independent of tumor HPV status. An anal cancer methylation-specific multiplex droplet digital PCR (AnMM-ddPCR) assay was developed to target five previously described CpG biomarkers hypermethylated in ASCC: ASCL1, LHX8, WDR17, ZIC1, and ZNF582, and the ALB reference gene. Patient samples and samples from non-cancer controls were analyzed using the BioRad QX600 ddPCR multiplexing platform. CpG-methylated biomarker levels were significantly higher in ASCC tissue compared with normal tissue and whole blood. The AnMM-ddPCR assay successfully detected all five ctDNA markers in plasma from ASCC patients, achieving an AUC of 0.72 (95% CI: 0.55-0.89; P = 0.018) in baseline plasma samples from ASCC patients with T1 or T2 tumors ≤4 cm, versus 0.90 (95% CI: 0.76-1.00; P = 0.0005) in plasma from patients with T2 tumors >4 cm or T3 tumors. At a specificity of 91.30%, sensitivity increased with stage from 52.94% (95% CI: 30.96-73.83) to 88.89% (95% CI: 56.50-99.43). The AnMM-ddPCR assay enables HPV-independent ctDNA detection in plasma samples from anal cancer patients and supports its evaluation in future liquid biopsy applications.",
+"statements": [
+{
+"j": 1,
+"text": "At a specificity of 91.30%, sensitivity fell with stage, from 52.94% in the lower-stage group to 88.89% in the higher-stage group."
+},
+{
+"j": 2,
+"text": "In baseline plasma the assay reached an AUC of 0.72 for T1 or T2 tumors up to 4 cm and 0.90 for T2 tumors over 4 cm or T3 tumors."
+},
+{
+"j": 3,
+"text": "Methylated CpG biomarker levels were significantly higher in ASCC tissue than in normal tissue and in whole blood."
+},
+{
+"j": 4,
+"text": "Methylated-marker ctDNA measured after chemoradiotherapy predicts recurrence in anal squamous cell carcinoma patients."
+}
+]
+},
+{
+"n": 494,
+"id": "doi:10.1101/2024.08.09.607250",
+"year": 2024,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": "Introduction",
+"text": "Type B1 and B2 thymomas are lymphocyte-rich malignant tumors with few somatic mutations in protein-coding regions of the nuclear genome; nonetheless, non-coding regions remain uncharacterized. Here, we developed a rigorous tumor isolation method from lymphocyte-rich thymoma tissues and identified somatic mutations in non-coding and mitochondrial DNA."
+},
+{
+"label": "Methods",
+"text": "CD205 + CD45 - pure tumor cells were isolated from fresh-frozen tissues using DEPArray system. Deep whole-genome sequencing was performed, and recurrent somatic alterations in coding, non-coding, and mitochondria regions were systemically identified by computational framework. The mutations were classified according to gene function, cis-regulatory element, and mutational signature."
+},
+{
+"label": "Results",
+"text": "The total number of somatic mutations was approximately 80 times higher in non-coding regions than in coding regions in type B1-2 thymomas (1,671.3 vs. 21.1 per case). Coding mutations were identified in epigenetic regulators, DNA repair genes, and some other genes. Nevertheless, 40% of cases exhibited fewer than four mutations in coding regions. A systematic non-coding analysis identified a total of 405.0 mutations per case on cis-regulatory elements, and detected six recurrent mutations: one interferon regulatory factor ( IRF8 ), two E3 ubiquitin ligases ( UBR2 and RNF213 ), and three intergenic regions. Mitochondrial heteroplasmy was observed in 90% of cases, with a significant proportion of mutations located in D-loop region. The single-base substitution pattern was signature 12."
+},
+{
+"label": "Conclusions",
+"text": "Numerous non-coding mutations and mitochondrial heteroplasmy were detected in type B1 and B2 thymomas. Given the paucity of coding mutations observed in this disease entity, disruption of the non-coding landscape and mitochondrial heteroplasmic shift may be the primary cause of thymoma."
+}
+],
+"text": "Type B1 and B2 thymomas are lymphocyte-rich malignant tumors with few somatic mutations in protein-coding regions of the nuclear genome; nonetheless, non-coding regions remain uncharacterized. Here, we developed a rigorous tumor isolation method from lymphocyte-rich thymoma tissues and identified somatic mutations in non-coding and mitochondrial DNA. CD205 + CD45 - pure tumor cells were isolated from fresh-frozen tissues using DEPArray system. Deep whole-genome sequencing was performed, and recurrent somatic alterations in coding, non-coding, and mitochondria regions were systemically identified by computational framework. The mutations were classified according to gene function, cis-regulatory element, and mutational signature. The total number of somatic mutations was approximately 80 times higher in non-coding regions than in coding regions in type B1-2 thymomas (1,671.3 vs. 21.1 per case). Coding mutations were identified in epigenetic regulators, DNA repair genes, and some other genes. Nevertheless, 40% of cases exhibited fewer than four mutations in coding regions. A systematic non-coding analysis identified a total of 405.0 mutations per case on cis-regulatory elements, and detected six recurrent mutations: one interferon regulatory factor ( IRF8 ), two E3 ubiquitin ligases ( UBR2 and RNF213 ), and three intergenic regions. Mitochondrial heteroplasmy was observed in 90% of cases, with a significant proportion of mutations located in D-loop region. The single-base substitution pattern was signature 12. Numerous non-coding mutations and mitochondrial heteroplasmy were detected in type B1 and B2 thymomas. Given the paucity of coding mutations observed in this disease entity, disruption of the non-coding landscape and mitochondrial heteroplasmic shift may be the primary cause of thymoma.",
+"statements": [
+{
+"j": 1,
+"text": "Thymomas carrying more non-coding mutations respond worse to chemotherapy."
+},
+{
+"j": 2,
+"text": "Mitochondrial heteroplasmy was present in 90% of cases, with a large share of the mutations falling in the D-loop region."
+},
+{
+"j": 3,
+"text": "Sixty recurrent non-coding mutations were detected, affecting IRF8, the E3 ubiquitin ligases UBR2 and RNF213, and three intergenic regions."
+},
+{
+"j": 4,
+"text": "Type B1-2 thymomas carried about 80 times more somatic mutations in non-coding than in coding regions, 1,671.3 against 21.1 per case."
+}
+]
+},
+{
+"n": 495,
+"id": "pmid:42035265",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Therapeutic options for relapsed/refractory (R/R) primary CNS lymphoma (PCNSL) are limited, and the clinical activity and central nervous system (CNS) pharmacology of CD20 × CD3 bispecific antibody glofitamab remain poorly defined. This multicenter real-world study evaluated the efficacy, CNS penetration, and molecular response dynamics of glofitamab in 16 adults with R/R PCNSL treated with glofitamab monotherapy. Paired plasma and cerebrospinal fluid (CSF) samples were analyzed to assess CNS drug penetration. Serial CSF circulating tumor DNA (ctDNA) profiling was performed during glofitamab monotherapy, and chimeric antigen receptor T (CAR-T) cell kinetics were examined in patients receiving CAR-T consolidation. Glofitamab monotherapy achieved an interim overall response rate of 75%, including 50% complete responses. Median progression-free survival was 15.4 months, and median overall survival was not reached. In several patients, glofitamab was used as a bridge to subsequent CAR-T and/or autologous stem cell transplantation (ASCT), which may have influenced long-term outcomes. Glofitamab was detectable in the CSF of 60% of patients, with CSF/plasma ratios up to 0.44%. Longitudinal ctDNA analysis demonstrated that early molecular clearance was associated with radiographic response, while persistent or re-emergent ctDNA preceded clinical progression. The safety profile of glofitamab monotherapy was manageable, with most adverse events being Grade 1-2. Two patients (11%) experienced Grade ≥ 3 neurotoxicity and recovered after corticosteroid treatment. Two additional patients developed fatal immune effector cell-associated neurotoxicity syndrome following CAR-T consolidation. Glofitamab demonstrates early clinical activity and measurable CNS penetration in R/R PCNSL. Serial CSF ctDNA profiling may aid treatment monitoring, warranting prospective validation."
+}
+],
+"text": "Therapeutic options for relapsed/refractory (R/R) primary CNS lymphoma (PCNSL) are limited, and the clinical activity and central nervous system (CNS) pharmacology of CD20 × CD3 bispecific antibody glofitamab remain poorly defined. This multicenter real-world study evaluated the efficacy, CNS penetration, and molecular response dynamics of glofitamab in 16 adults with R/R PCNSL treated with glofitamab monotherapy. Paired plasma and cerebrospinal fluid (CSF) samples were analyzed to assess CNS drug penetration. Serial CSF circulating tumor DNA (ctDNA) profiling was performed during glofitamab monotherapy, and chimeric antigen receptor T (CAR-T) cell kinetics were examined in patients receiving CAR-T consolidation. Glofitamab monotherapy achieved an interim overall response rate of 75%, including 50% complete responses. Median progression-free survival was 15.4 months, and median overall survival was not reached. In several patients, glofitamab was used as a bridge to subsequent CAR-T and/or autologous stem cell transplantation (ASCT), which may have influenced long-term outcomes. Glofitamab was detectable in the CSF of 60% of patients, with CSF/plasma ratios up to 0.44%. Longitudinal ctDNA analysis demonstrated that early molecular clearance was associated with radiographic response, while persistent or re-emergent ctDNA preceded clinical progression. The safety profile of glofitamab monotherapy was manageable, with most adverse events being Grade 1-2. Two patients (11%) experienced Grade ≥ 3 neurotoxicity and recovered after corticosteroid treatment. Two additional patients developed fatal immune effector cell-associated neurotoxicity syndrome following CAR-T consolidation. Glofitamab demonstrates early clinical activity and measurable CNS penetration in R/R PCNSL. Serial CSF ctDNA profiling may aid treatment monitoring, warranting prospective validation.",
+"statements": [
+{
+"j": 1,
+"text": "Early clearance of CSF ctDNA went with radiographic response, while ctDNA that persisted or re-emerged came only after clinical progression."
+},
+{
+"j": 2,
+"text": "Glofitamab monotherapy gives longer progression-free survival than CAR-T therapy in relapsed or refractory primary CNS lymphoma."
+},
+{
+"j": 3,
+"text": "Glofitamab monotherapy gave an interim overall response rate of 75%, with complete responses in half of the patients, and median progression-free survival of 15.4 months."
+},
+{
+"j": 4,
+"text": "Glofitamab was detectable in the cerebrospinal fluid of 60% of patients, with CSF to plasma ratios reaching 0.44%."
+}
+]
+},
+{
+"n": 496,
+"id": "pmid:40320741",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Existing circulating cell-free DNA (cfDNA) assays are primarily centralized, requiring specialized sample handling and transportation. Implementing a flexible, decentralized sequencing system at point of care, with minimal technical oversight, can enhance turnaround times and patient access to genomic profiling. In this study, we aimed to evaluate the clinical feasibility of an automated and decentralized cfDNA next-generation sequencing (NGS) assay for identifying actionable alterations in advanced solid tumors."
+},
+{
+"label": "Methods",
+"text": "Genomic profiling of plasma cfDNA from 298 patients with advanced solid tumors was conducted using an automated NGS assay. We assessed concordance of tumor mutations detected in plasma cfDNA and patient-matched tumor tissues analyzed by an FDA-approved assay, investigating clinical factors influencing circulating tumor DNA (ctDNA) aberration (mut-ctDNA) detection sensitivity."
+},
+{
+"label": "Results",
+"text": "Sequencing success rates for cfDNA genomic profiling was significantly higher than archived tumor tissue (99% vs 96%). Mut-ctDNA detection rates ranged from 20% to 67% across different solid tumors. Targetable or resistance alterations were found in 18% of the patients. About 72% of the patients showed concordant alterations from tissue and plasma. The level of concordance was associated with the cancer type, tumor burden, and metastatic location. Notably, 63 plasma-only alterations were identified in 18% of patients and were more frequently observed in those with prior targeted treatments (24%) compared to chemotherapy (10%)."
+},
+{
+"label": "Conclusions",
+"text": "This study underscores the clinical feasibility of an automated, decentralized cfDNA genomic profiling approach. It emphasizes the importance of considering confounding clinical factors when selecting plasma- or tissue-based profiling assay. Such an approach holds promise for enhancing patient access to timely genomic profiling and targeted therapy selection."
+}
+],
+"text": "Existing circulating cell-free DNA (cfDNA) assays are primarily centralized, requiring specialized sample handling and transportation. Implementing a flexible, decentralized sequencing system at point of care, with minimal technical oversight, can enhance turnaround times and patient access to genomic profiling. In this study, we aimed to evaluate the clinical feasibility of an automated and decentralized cfDNA next-generation sequencing (NGS) assay for identifying actionable alterations in advanced solid tumors. Genomic profiling of plasma cfDNA from 298 patients with advanced solid tumors was conducted using an automated NGS assay. We assessed concordance of tumor mutations detected in plasma cfDNA and patient-matched tumor tissues analyzed by an FDA-approved assay, investigating clinical factors influencing circulating tumor DNA (ctDNA) aberration (mut-ctDNA) detection sensitivity. Sequencing success rates for cfDNA genomic profiling was significantly higher than archived tumor tissue (99% vs 96%). Mut-ctDNA detection rates ranged from 20% to 67% across different solid tumors. Targetable or resistance alterations were found in 18% of the patients. About 72% of the patients showed concordant alterations from tissue and plasma. The level of concordance was associated with the cancer type, tumor burden, and metastatic location. Notably, 63 plasma-only alterations were identified in 18% of patients and were more frequently observed in those with prior targeted treatments (24%) compared to chemotherapy (10%). This study underscores the clinical feasibility of an automated, decentralized cfDNA genomic profiling approach. It emphasizes the importance of considering confounding clinical factors when selecting plasma- or tissue-based profiling assay. Such an approach holds promise for enhancing patient access to timely genomic profiling and targeted therapy selection.",
+"statements": [
+{
+"j": 1,
+"text": "Tissue and plasma alterations agreed in about 72% of patients, and the degree of agreement depended on cancer type, tumor burden and metastatic location."
+},
+{
+"j": 2,
+"text": "The 63 plasma-only alterations occurred in 18% of patients and were seen more often in those with prior chemotherapy (24%) than with targeted treatments (10%)."
+},
+{
+"j": 3,
+"text": "Patients profiled with the decentralized assay began targeted therapy sooner than patients profiled by a centralized laboratory."
+},
+{
+"j": 4,
+"text": "Sequencing succeeded significantly more often for plasma cfDNA than for archived tumor tissue, 99% versus 96%."
+}
+]
+},
+{
+"n": 497,
+"id": "doi:10.64898/2026.04.08.717310",
+"year": 2026,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "One of the current workhorses of next-generation sequencing in clinical molecular diagnostics laboratories for profiling somatic mutations in tumours are amplicon-based targeted sequencing panels. Many open-source somatic variant callers are available; however, their use in clinical applications remains under explored. Therefore, we integrated outputs of six variant callers (FreeBayes, MuTect2, Pisces, Platypus, VarDict and VarScan) into a Snakemake pipeline and evaluated tumour-only data from the HD789 commercial reference standard sequenced in triplicate on three different sequencing runs using the Illumina AmpliSeq Focus panel on MiSeq and NextSeq 2000. A 1:4 dilution sample was sequenced for evaluating limits of variant detection. The called variants were analysed along depth, allele frequency, and other sequencing metrics. The variant callers were evaluated by their level of concordance and performance on known somatic variants. FreeBayes consistently called the largest number of somatic variants in each sample but also included more potential artifacts. Overall, FreeBayes, VarScan, MuTect2, and Pisces had the best performance on HD789 data."
+}
+],
+"text": "One of the current workhorses of next-generation sequencing in clinical molecular diagnostics laboratories for profiling somatic mutations in tumours are amplicon-based targeted sequencing panels. Many open-source somatic variant callers are available; however, their use in clinical applications remains under explored. Therefore, we integrated outputs of six variant callers (FreeBayes, MuTect2, Pisces, Platypus, VarDict and VarScan) into a Snakemake pipeline and evaluated tumour-only data from the HD789 commercial reference standard sequenced in triplicate on three different sequencing runs using the Illumina AmpliSeq Focus panel on MiSeq and NextSeq 2000. A 1:4 dilution sample was sequenced for evaluating limits of variant detection. The called variants were analysed along depth, allele frequency, and other sequencing metrics. The variant callers were evaluated by their level of concordance and performance on known somatic variants. FreeBayes consistently called the largest number of somatic variants in each sample but also included more potential artifacts. Overall, FreeBayes, VarScan, MuTect2, and Pisces had the best performance on HD789 data.",
+"statements": [
+{
+"j": 1,
+"text": "FreeBayes called the smallest number of somatic variants in every sample and also included more potential artifacts."
+},
+{
+"j": 2,
+"text": "FreeBayes ranked among the best-performing callers on HD789 even though its call sets contained more probable artifacts."
+},
+{
+"j": 3,
+"text": "Four of the six callers evaluated, FreeBayes, VarScan, MuTect2 and Pisces, gave the best overall performance on the HD789 reference data."
+},
+{
+"j": 4,
+"text": "A consensus call set combining two or more of the six callers detected known somatic variants more accurately than any single caller."
+}
+]
+},
+{
+"n": 498,
+"id": "pmid:42847706",
+"year": 2026,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Transposable elements (TEs) are widespread genomic parasites, whose activity is largely restrained by RNA interference pathways. Some of these pathways also contribute to antiviral immunity, allowing a mechanistic overlap that could generate interactions-or even trade-offs-between TE repression and viral defense. Here, we investigated this interplay by experimentally infecting two strains of Drosophila melanogaster and Drosophila simulans with three distinct viruses: Drosophila X virus (DXV), Flock House virus (FHV), and Invertebrate Iridescent virus 6 (IIV6). Through deep RNA-seq and small RNA-seq analyses, we show that viral infection consistently alters TE transcript abundance, although the direction and magnitude of these changes strongly depend on both the host strain and the virus. In addition, we provide an in-depth characterization of the dynamic TE repertoire that IIV6 carries.IMPORTANCETransposable elements (TEs) are genomic parasites that are found in all genomes. Here, using two strains of Drosophila and three viruses, we show that viral infections consistently affect TE transcript amounts. However, the magnitude and direction of the TE modulation depend on the host strain, the virus, and the tissue. In addition, one of the viruses under study, the Invertebrate Iridescent virus 6 (IIV6), carries TEs on its own, which we characterize as a dynamic repertoire."
+}
+],
+"text": "Transposable elements (TEs) are widespread genomic parasites, whose activity is largely restrained by RNA interference pathways. Some of these pathways also contribute to antiviral immunity, allowing a mechanistic overlap that could generate interactions-or even trade-offs-between TE repression and viral defense. Here, we investigated this interplay by experimentally infecting two strains of Drosophila melanogaster and Drosophila simulans with three distinct viruses: Drosophila X virus (DXV), Flock House virus (FHV), and Invertebrate Iridescent virus 6 (IIV6). Through deep RNA-seq and small RNA-seq analyses, we show that viral infection consistently alters TE transcript abundance, although the direction and magnitude of these changes strongly depend on both the host strain and the virus. In addition, we provide an in-depth characterization of the dynamic TE repertoire that IIV6 carries.IMPORTANCETransposable elements (TEs) are genomic parasites that are found in all genomes. Here, using two strains of Drosophila and three viruses, we show that viral infections consistently affect TE transcript amounts. However, the magnitude and direction of the TE modulation depend on the host strain, the virus, and the tissue. In addition, one of the viruses under study, the Invertebrate Iridescent virus 6 (IIV6), carries TEs on its own, which we characterize as a dynamic repertoire.",
+"statements": [
+{
+"j": 1,
+"text": "How strongly and in which direction infection modulated transposable element transcripts was uniform across host strains, viruses and tissues."
+},
+{
+"j": 2,
+"text": "The transposable elements carried by IIV6 were acquired from the Drosophila host genome during infection."
+},
+{
+"j": 3,
+"text": "Invertebrate Iridescent virus 6 carries transposable elements of its own, which the study characterizes as a dynamic repertoire."
+},
+{
+"j": 4,
+"text": "In Drosophila strains infected with three different viruses, infection consistently altered transposable element transcript abundance."
+}
+]
+},
+{
+"n": 499,
+"id": "pmid:39730184",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background/aim",
+"text": "Bile tract cancer (BTC) is a malignant tumor with a poor prognosis. Recent studies have reported the heterogeneity of the genomic background and gene alterations in BTC, but its genetic heterogeneity and molecular profiles remain poorly understood. Whole-genome sequencing may enable the identification of novel actionable gene mutations involved in BTC carcinogenesis, malignant progression, and treatment resistance."
+},
+{
+"label": "Patients and methods",
+"text": "We performed whole-genome sequencing of six BTC samples to elucidate its genetic heterogeneity and identify novel actionable gene mutations. Somatic mutations, structural variations, copy number alterations, and their associations with clinical factors were analyzed."
+},
+{
+"label": "Results",
+"text": "The average number of somatic mutations detected in each case was 53,705, with SNVs accounting for most of these mutations (85.02%). None of the 331 mutations related to BTC in The Cancer Genome Atlas (TCGA) database were found in the mutations identified in our study. A higher prevalence of gene mutations was observed in samples without vascular invasion than in those with vascular invasion. Several genes with differences in mutation accumulation between groups were identified, including ADAMTS7, AHNAK2, and CAPN10."
+},
+{
+"label": "Conclusion",
+"text": "Our study provides novel insights into the genomic landscape of BTC and highlights the potential of whole-genome sequencing analysis to identify actionable gene mutations and understand the molecular mechanisms underlying this malignancy. The high mutational burden, structural variations, and copy number alterations observed in BTC samples in this study underscore the genetic complexity and heterogeneity of this disease."
+}
+],
+"text": "Bile tract cancer (BTC) is a malignant tumor with a poor prognosis. Recent studies have reported the heterogeneity of the genomic background and gene alterations in BTC, but its genetic heterogeneity and molecular profiles remain poorly understood. Whole-genome sequencing may enable the identification of novel actionable gene mutations involved in BTC carcinogenesis, malignant progression, and treatment resistance. We performed whole-genome sequencing of six BTC samples to elucidate its genetic heterogeneity and identify novel actionable gene mutations. Somatic mutations, structural variations, copy number alterations, and their associations with clinical factors were analyzed. The average number of somatic mutations detected in each case was 53,705, with SNVs accounting for most of these mutations (85.02%). None of the 331 mutations related to BTC in The Cancer Genome Atlas (TCGA) database were found in the mutations identified in our study. A higher prevalence of gene mutations was observed in samples without vascular invasion than in those with vascular invasion. Several genes with differences in mutation accumulation between groups were identified, including ADAMTS7, AHNAK2, and CAPN10. Our study provides novel insights into the genomic landscape of BTC and highlights the potential of whole-genome sequencing analysis to identify actionable gene mutations and understand the molecular mechanisms underlying this malignancy. The high mutational burden, structural variations, and copy number alterations observed in BTC samples in this study underscore the genetic complexity and heterogeneity of this disease.",
+"statements": [
+{
+"j": 1,
+"text": "None of the 331 bile tract cancer mutations catalogued in TCGA were found among the mutations identified in these samples."
+},
+{
+"j": 2,
+"text": "Each bile tract cancer case carried on average 53,705 somatic mutations, of which single-nucleotide variants made up 85.02%."
+},
+{
+"j": 3,
+"text": "Patients whose bile tract tumors carried ADAMTS7 mutations survived longer than patients without them."
+},
+{
+"j": 4,
+"text": "Samples without vascular invasion showed a lower prevalence of gene mutations than samples with vascular invasion."
+}
+]
+},
+{
+"n": 500,
+"id": "pmid:41002582",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "(1) Background: Somatostatin receptor 2 (SSTR2), a G protein-coupled receptor, is overexpressed in multiple malignancies, including hepatocellular carcinoma (HCC). While SSTR2 has traditionally been viewed as an inhibitory receptor involved in suppressing hormone secretion and cell proliferation, emerging evidence suggests a more complex role in cancer biology. However, the functional implications of SSTR2 expression in HCC remain poorly understood. This study aimed to systematically investigate the molecular landscape associated with SSTR2 expression in HCC and evaluate its potential as a therapeutic target. (2) Methods: SSTR2 expression patterns across 22 tumor types were assessed using TNMplot, and its expression in HCC was further validated through The Human Protein Atlas. Integrative analysis of transcriptomic profiles, protein expression data, and somatic copy number alterations was performed using data from The Cancer Genome Atlas (TCGA) to stratify HCC patients by SSTR2 expression levels. Gene Ontology (GO) enrichment analysis was conducted via SRplot to uncover biological processes and signaling pathways associated with SSTR2. Kaplan-Meier survival analyses were performed using GEO datasets to determine the prognostic significance of SSTR2 expression. (3) Results: SSTR2 is moderately expressed in the majority of HCC tumors. Elevated SSTR2 expression correlates with significantly poorer overall and disease-specific survival. High SSTR2 levels are associated with activation of oncogenic signaling cascades related to cell proliferation, epithelial-to-mesenchymal transition (EMT), angiogenesis, and metastasis. Additionally, SSTR2 expression is positively correlated with several receptor tyrosine kinases and oncogenes implicated in HCC progression. (4) Conclusions: Our findings suggest that SSTR2 is not merely a passive biomarker but may contribute to HCC pathogenesis through modulation of oncogenic pathways. These data support the rationale for further development of SSTR2-directed therapeutic strategies to inhibit tumor growth and invasion in HCC patients."
+}
+],
+"text": "(1) Background: Somatostatin receptor 2 (SSTR2), a G protein-coupled receptor, is overexpressed in multiple malignancies, including hepatocellular carcinoma (HCC). While SSTR2 has traditionally been viewed as an inhibitory receptor involved in suppressing hormone secretion and cell proliferation, emerging evidence suggests a more complex role in cancer biology. However, the functional implications of SSTR2 expression in HCC remain poorly understood. This study aimed to systematically investigate the molecular landscape associated with SSTR2 expression in HCC and evaluate its potential as a therapeutic target. (2) Methods: SSTR2 expression patterns across 22 tumor types were assessed using TNMplot, and its expression in HCC was further validated through The Human Protein Atlas. Integrative analysis of transcriptomic profiles, protein expression data, and somatic copy number alterations was performed using data from The Cancer Genome Atlas (TCGA) to stratify HCC patients by SSTR2 expression levels. Gene Ontology (GO) enrichment analysis was conducted via SRplot to uncover biological processes and signaling pathways associated with SSTR2. Kaplan-Meier survival analyses were performed using GEO datasets to determine the prognostic significance of SSTR2 expression. (3) Results: SSTR2 is moderately expressed in the majority of HCC tumors. Elevated SSTR2 expression correlates with significantly poorer overall and disease-specific survival. High SSTR2 levels are associated with activation of oncogenic signaling cascades related to cell proliferation, epithelial-to-mesenchymal transition (EMT), angiogenesis, and metastasis. Additionally, SSTR2 expression is positively correlated with several receptor tyrosine kinases and oncogenes implicated in HCC progression. (4) Conclusions: Our findings suggest that SSTR2 is not merely a passive biomarker but may contribute to HCC pathogenesis through modulation of oncogenic pathways. These data support the rationale for further development of SSTR2-directed therapeutic strategies to inhibit tumor growth and invasion in HCC patients.",
+"statements": [
+{
+"j": 1,
+"text": "Higher SSTR2 expression in hepatocellular carcinoma went with significantly poorer overall and disease-specific survival."
+},
+{
+"j": 2,
+"text": "High SSTR2 levels accompanied suppression of oncogenic signaling cascades tied to proliferation, epithelial-to-mesenchymal transition, angiogenesis and metastasis."
+},
+{
+"j": 3,
+"text": "Treating hepatocellular carcinoma cells with a somatostatin analogue reduced their invasion in culture."
+},
+{
+"j": 4,
+"text": "Of the 22 tumor types surveyed, hepatocellular carcinoma showed moderate SSTR2 expression in the majority of its tumors."
+}
+]
+},
+{
+"n": 501,
+"id": "pmid:38577765",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Transposable elements are DNA sequences capable of moving within genomes and significantly influence genomic evolution. The nematode Caenorhabditis inopinata exhibits a much higher transposable element copy number than its sister species, Caenorhabditis elegans. In this study, we identified a novel autonomous transposable element belonging to the hAT superfamily from a spontaneous transposable element-insertion mutant in C. inopinata and named this transposon Ci-hAT1. Further bioinformatic analyses uncovered 3 additional autonomous hAT elements-Ci-hAT2, Ci-hAT3, and Ci-hAT4-along with over 1,000 copies of 2 nonautonomous miniature inverted-repeat transposable elements, mCi-hAT1 and mCi-hAT4, likely derived from Ci-hAT1 and Ci-hAT4 through internal deletion. We tracked at least 3 sequential transpositions of Ci-hAT1 over several years. However, the transposition rates of the other 3 autonomous hAT elements were lower, suggesting varying activity levels. Notably, the distribution patterns of the 2 miniature inverted-repeat transposable element families differed significantly: mCi-hAT1 was primarily located in the chromosome arms, a pattern observed in the transposable elements of other Caenorhabditis species, whereas mCi-hAT4 was more evenly distributed across chromosomes. Additionally, interspecific transcriptome analysis indicated that C. inopinata genes with upstream or intronic these miniature inverted-repeat transposable element insertions tend to be more highly expressed than their orthologous genes in C. elegans. These findings highlight the significant role of de-silenced transposable elements in driving the evolution of genomes and transcriptomes, leading to species-specific genetic diversity."
+}
+],
+"text": "Transposable elements are DNA sequences capable of moving within genomes and significantly influence genomic evolution. The nematode Caenorhabditis inopinata exhibits a much higher transposable element copy number than its sister species, Caenorhabditis elegans. In this study, we identified a novel autonomous transposable element belonging to the hAT superfamily from a spontaneous transposable element-insertion mutant in C. inopinata and named this transposon Ci-hAT1. Further bioinformatic analyses uncovered 3 additional autonomous hAT elements-Ci-hAT2, Ci-hAT3, and Ci-hAT4-along with over 1,000 copies of 2 nonautonomous miniature inverted-repeat transposable elements, mCi-hAT1 and mCi-hAT4, likely derived from Ci-hAT1 and Ci-hAT4 through internal deletion. We tracked at least 3 sequential transpositions of Ci-hAT1 over several years. However, the transposition rates of the other 3 autonomous hAT elements were lower, suggesting varying activity levels. Notably, the distribution patterns of the 2 miniature inverted-repeat transposable element families differed significantly: mCi-hAT1 was primarily located in the chromosome arms, a pattern observed in the transposable elements of other Caenorhabditis species, whereas mCi-hAT4 was more evenly distributed across chromosomes. Additionally, interspecific transcriptome analysis indicated that C. inopinata genes with upstream or intronic these miniature inverted-repeat transposable element insertions tend to be more highly expressed than their orthologous genes in C. elegans. These findings highlight the significant role of de-silenced transposable elements in driving the evolution of genomes and transcriptomes, leading to species-specific genetic diversity.",
+"statements": [
+{
+"j": 1,
+"text": "Three further autonomous hAT elements and over 1,000 copies of two non-autonomous MITE families, mCi-hAT1 and mCi-hAT4, were identified in C. inopinata."
+},
+{
+"j": 2,
+"text": "C. inopinata genes with MITE insertions upstream or in introns tended to be expressed more weakly than their C. elegans orthologues."
+},
+{
+"j": 3,
+"text": "The transposition rate of Ci-hAT1 in C. inopinata rises with culture temperature."
+},
+{
+"j": 4,
+"text": "Copies of mCi-hAT1 sat mainly on the chromosome arms, whereas mCi-hAT4 copies were spread more evenly along the chromosomes."
+}
+]
+}
+]
+}

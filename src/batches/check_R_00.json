@@ -1,0 +1,555 @@
+{
+"batch": "check_R_00",
+"pass": "R",
+"source_batch": "repaired",
+"items": [
+{
+"n": 9,
+"id": "pmid:42870827",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Chromosome 4 open reading frame 50 ( C4orf50 ) is a poorly characterized gene whose expression pattern and clinical relevance in breast cancer remain unclear. We aimed to evaluate the expression, prognostic association, immune microenvironment correlates, and transcriptional features associated with C4orf50 in breast cancer."
+},
+{
+"label": "Methods",
+"text": "RNA-sequencing and clinical data from The Cancer Genome Atlas Breast Invasive Carcinoma (TCGA-BRCA) cohort were analyzed. C4orf50 expression was compared between tumor and normal tissues and across clinicopathological subgroups. Continuous C4orf50 expression was evaluated in Cox proportional hazards models, including stage- and molecular-subtype-stratified sensitivity models. Immune-cell transcriptional enrichment was quantified using single-sample gene set enrichment analysis (ssGSEA) with the LM22 leukocyte signature matrix representing 22 immune-cell populations. Raw and Consensus Purity Estimate (CPE)-adjusted associations were examined, together with tumor microenvironment scores generated using the Estimation of STromal and Immune cells in MAlignant Tumor tissues using Expression data (ESTIMATE) algorithm. Immune-checkpoint expression, patient-level coexpression, Gene Ontology, MSigDB C2 gene set enrichment analysis (GSEA), and consensus cancer-hallmark enrichment were also assessed."
+},
+{
+"label": "Results",
+"text": "C4orf50 expression was higher in 1,093 breast tumor samples than in 111 normal samples (Wilcoxon P=4.6×10⁻ 11 ; Cliff's delta =0.379), whereas no robust associations with pathological stage, molecular subtype, or receptor status remained after multiple-testing correction. In the primary stage-by-subtype-stratified Cox model, higher continuous C4orf50 expression was associated with poorer overall survival [hazard ratio (HR) per 1 standard deviation =1.41, 95% confidence interval (CI): 1.19-1.67; P<0.001]. The median-based Kaplan-Meier analysis was not significant (P=0.38). C4orf50 expression correlated positively with the ESTIMATE Immune Score (rho =0.372), Stromal Score (rho =0.198), and ESTIMATE Score (rho =0.340; all false discovery rate values <0.001). Tumor-purity adjustment attenuated but did not eliminate most associations with LM22 immune-cell and immune-checkpoint signatures. Coexpressed transcripts were enriched in regulated exocytosis, calcium-dependent exocytosis, dense-core granule exocytosis, and vesicle-related processes. No integrated cancer hallmark reached significance after multiple-testing correction."
+},
+{
+"label": "Conclusions",
+"text": "C4orf50 is overexpressed in breast cancer and its continuous expression is associated with overall survival and immune-related transcriptional features in TCGA-BRCA. These observational findings do not establish a causal role for C4orf50 and require validation in independent cohorts and experimental models."
+}
+],
+"text": "Chromosome 4 open reading frame 50 ( C4orf50 ) is a poorly characterized gene whose expression pattern and clinical relevance in breast cancer remain unclear. We aimed to evaluate the expression, prognostic association, immune microenvironment correlates, and transcriptional features associated with C4orf50 in breast cancer. RNA-sequencing and clinical data from The Cancer Genome Atlas Breast Invasive Carcinoma (TCGA-BRCA) cohort were analyzed. C4orf50 expression was compared between tumor and normal tissues and across clinicopathological subgroups. Continuous C4orf50 expression was evaluated in Cox proportional hazards models, including stage- and molecular-subtype-stratified sensitivity models. Immune-cell transcriptional enrichment was quantified using single-sample gene set enrichment analysis (ssGSEA) with the LM22 leukocyte signature matrix representing 22 immune-cell populations. Raw and Consensus Purity Estimate (CPE)-adjusted associations were examined, together with tumor microenvironment scores generated using the Estimation of STromal and Immune cells in MAlignant Tumor tissues using Expression data (ESTIMATE) algorithm. Immune-checkpoint expression, patient-level coexpression, Gene Ontology, MSigDB C2 gene set enrichment analysis (GSEA), and consensus cancer-hallmark enrichment were also assessed. C4orf50 expression was higher in 1,093 breast tumor samples than in 111 normal samples (Wilcoxon P=4.6×10⁻ 11 ; Cliff's delta =0.379), whereas no robust associations with pathological stage, molecular subtype, or receptor status remained after multiple-testing correction. In the primary stage-by-subtype-stratified Cox model, higher continuous C4orf50 expression was associated with poorer overall survival [hazard ratio (HR) per 1 standard deviation =1.41, 95% confidence interval (CI): 1.19-1.67; P<0.001]. The median-based Kaplan-Meier analysis was not significant (P=0.38). C4orf50 expression correlated positively with the ESTIMATE Immune Score (rho =0.372), Stromal Score (rho =0.198), and ESTIMATE Score (rho =0.340; all false discovery rate values <0.001). Tumor-purity adjustment attenuated but did not eliminate most associations with LM22 immune-cell and immune-checkpoint signatures. Coexpressed transcripts were enriched in regulated exocytosis, calcium-dependent exocytosis, dense-core granule exocytosis, and vesicle-related processes. No integrated cancer hallmark reached significance after multiple-testing correction. C4orf50 is overexpressed in breast cancer and its continuous expression is associated with overall survival and immune-related transcriptional features in TCGA-BRCA. These observational findings do not establish a causal role for C4orf50 and require validation in independent cohorts and experimental models.",
+"statements": [
+{
+"j": 1,
+"text": "Comparing 1,093 breast tumours with 111 normal tissues, C4orf50 was expressed at higher levels in the tumours."
+},
+{
+"j": 2,
+"text": "Knockdown of C4orf50 in breast cancer cell lines reduces proliferation."
+},
+{
+"j": 3,
+"text": "Each standard-deviation increase in C4orf50 expression was linked to a 41% higher hazard of death in the stratified Cox model."
+},
+{
+"j": 4,
+"text": "C4orf50 expression correlated more strongly with the ESTIMATE Stromal Score than with the Immune Score."
+}
+]
+},
+{
+"n": 24,
+"id": "pmid:40634198",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Introduction/background",
+"text": "Clinical trials are assessing the suitability of KRAS G12C inhibitors in the neoadjuvant setting. Appropriate patient selection is paramount to ensure therapeutic efficacy. Here we sought to investigate the clinical utility of ctDNA to identify resectable lung adenocarcinoma (LUAD) patients with KRAS-driven disease."
+},
+{
+"label": "Materials & patients",
+"text": "From our institution's clinical database and biobank, we identified 47 patients based on our inclusion criteria: research-consented, treatment-naïve, NGS-confirmed KRAS-mutated resectable stage IA-IIIB LUAD with available pre-operative blood. cfDNA was isolated from 700-2000µL plasma and was preamplified. In a tumour-informed approach, digital droplet polymerase chain reaction (ddPCR) was performed to identify hotspot KRAS G12C & KRAS G12V ctDNA and wild-type KRAS cfDNA in the same reaction based on prior tumor tissue profiling."
+},
+{
+"label": "Results",
+"text": "In overall clinical staging, KRAS G12C ctDNA was detected in liquid biopsies of stage II (1/7, 14%) and III (2/5, 40%) patients. In overall pathological staging, KRAS G12C ctDNA was detected exclusively in liquid biopsies of stage III patients (4/11, 36%). KRAS G12V ctDNA was detected in liquid biopsies of overall clinical stage I (1/3, 33%) and III (1/1, 100%) patients and in pathological stage II (1/3, 33%) and III (1/2, 50%) patients. KRAS ctDNA positivity was associated with shorter overall survival (median OS 21 months vs. 41 months, P < .05). KRAS G12C ctDNA positivity was associated with larger tumour size, presence of nodal involvement, and higher overall pathological stage."
+},
+{
+"label": "Conclusion",
+"text": "ctDNA positivity from liquid biopsy is a low-cost and accessible method for triaging patients with LUAD towards trials evaluating KRAS inhibitors in the neoadjuvant setting."
+}
+],
+"text": "Clinical trials are assessing the suitability of KRAS G12C inhibitors in the neoadjuvant setting. Appropriate patient selection is paramount to ensure therapeutic efficacy. Here we sought to investigate the clinical utility of ctDNA to identify resectable lung adenocarcinoma (LUAD) patients with KRAS-driven disease. From our institution's clinical database and biobank, we identified 47 patients based on our inclusion criteria: research-consented, treatment-naïve, NGS-confirmed KRAS-mutated resectable stage IA-IIIB LUAD with available pre-operative blood. cfDNA was isolated from 700-2000µL plasma and was preamplified. In a tumour-informed approach, digital droplet polymerase chain reaction (ddPCR) was performed to identify hotspot KRAS G12C & KRAS G12V ctDNA and wild-type KRAS cfDNA in the same reaction based on prior tumor tissue profiling. In overall clinical staging, KRAS G12C ctDNA was detected in liquid biopsies of stage II (1/7, 14%) and III (2/5, 40%) patients. In overall pathological staging, KRAS G12C ctDNA was detected exclusively in liquid biopsies of stage III patients (4/11, 36%). KRAS G12V ctDNA was detected in liquid biopsies of overall clinical stage I (1/3, 33%) and III (1/1, 100%) patients and in pathological stage II (1/3, 33%) and III (1/2, 50%) patients. KRAS ctDNA positivity was associated with shorter overall survival (median OS 21 months vs. 41 months, P < .05). KRAS G12C ctDNA positivity was associated with larger tumour size, presence of nodal involvement, and higher overall pathological stage. ctDNA positivity from liquid biopsy is a low-cost and accessible method for triaging patients with LUAD towards trials evaluating KRAS inhibitors in the neoadjuvant setting.",
+"statements": [
+{
+"j": 1,
+"text": "KRAS G12V ctDNA-positive patients had worse survival than KRAS G12C ctDNA-positive patients."
+},
+{
+"j": 2,
+"text": "KRAS ctDNA positivity was linked to a median overall survival of 21 months versus 41 months for ctDNA-negative patients."
+},
+{
+"j": 3,
+"text": "KRAS G12C ctDNA positivity was associated with smaller tumour size and absence of nodal involvement."
+},
+{
+"j": 4,
+"text": "By pathological stage, KRAS G12C ctDNA was detected only in stage III patients, in 4 of 11."
+}
+]
+},
+{
+"n": 103,
+"id": "pmid:40712109",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Purpose",
+"text": "Upper tract urothelial carcinoma (UTUC) is one of the common urothelial cancers. Although large cohorts have illustrated spectrum of germline mutations, landscape of somatic alterations has not been revealed in Chinese patients with UTUC."
+},
+{
+"label": "Methods",
+"text": "This study involved 122 Chinese patients with UTUC. Paired tumor and germline DNA was sequenced to elucidate somatic mutation landscape, using targeted next-generation sequencing panel covering 520 cancer-related genes. We correlated specific gene mutations with clinicopathologic features, compared mutational signatures with previously reported data in other populations, and explored the similarities and differences in mutational signatures of UTUC originated from renal pelvis or ureter."
+},
+{
+"label": "Results",
+"text": "Somatic mutations were detected in 120/122 (98.4%) patients using this 520-gene panel sequencing. The top-ranking altered genes in Chinese patients with UTUC were KMT2D (48.4%), TERT promoter (46.7%), FGFR3 (41.0%), and TP53 (37.7%). Renal pelvis tumors had significantly higher TERT promoter (60.5% v 30.8%; P < .05) and CDKN2A (29.6% v 7.7%; P < .05) alteration frequency, while TP53 (56.4% v 30.9%; P < .05) and KMT2D (76.9% v 35.8%; P < .001) gene mutations were enriched in patients with ureteral tumors. By comparing the mutational spectrum with Japanese and Western populations, we identified the unique genetic characteristics and potential precision treatment targets of the Chinese UTUC population. Finally, we found that patients with TP53/MDM2 -mutant subtype or triple-negative subtype had significantly worse progression-free survival than other subtypes."
+},
+{
+"label": "Conclusion",
+"text": "This study elucidated genomic landscape of Chinese patients with UTUC and revealed similarity and disparity of genomic alterations with other populations. Our research lays the foundation for understanding UTUC in China and designing precise diagnosis and treatment."
+}
+],
+"text": "Upper tract urothelial carcinoma (UTUC) is one of the common urothelial cancers. Although large cohorts have illustrated spectrum of germline mutations, landscape of somatic alterations has not been revealed in Chinese patients with UTUC. This study involved 122 Chinese patients with UTUC. Paired tumor and germline DNA was sequenced to elucidate somatic mutation landscape, using targeted next-generation sequencing panel covering 520 cancer-related genes. We correlated specific gene mutations with clinicopathologic features, compared mutational signatures with previously reported data in other populations, and explored the similarities and differences in mutational signatures of UTUC originated from renal pelvis or ureter. Somatic mutations were detected in 120/122 (98.4%) patients using this 520-gene panel sequencing. The top-ranking altered genes in Chinese patients with UTUC were KMT2D (48.4%), TERT promoter (46.7%), FGFR3 (41.0%), and TP53 (37.7%). Renal pelvis tumors had significantly higher TERT promoter (60.5% v 30.8%; P < .05) and CDKN2A (29.6% v 7.7%; P < .05) alteration frequency, while TP53 (56.4% v 30.9%; P < .05) and KMT2D (76.9% v 35.8%; P < .001) gene mutations were enriched in patients with ureteral tumors. By comparing the mutational spectrum with Japanese and Western populations, we identified the unique genetic characteristics and potential precision treatment targets of the Chinese UTUC population. Finally, we found that patients with TP53/MDM2 -mutant subtype or triple-negative subtype had significantly worse progression-free survival than other subtypes. This study elucidated genomic landscape of Chinese patients with UTUC and revealed similarity and disparity of genomic alterations with other populations. Our research lays the foundation for understanding UTUC in China and designing precise diagnosis and treatment.",
+"statements": [
+{
+"j": 1,
+"text": "KMT2D alterations, at 48.4%, were slightly more frequent than TERT promoter alterations (46.7%) in this cohort."
+},
+{
+"j": 2,
+"text": "FGFR3-mutant UTUC patients in this cohort responded well to FGFR inhibitor therapy."
+},
+{
+"j": 3,
+"text": "Somatic mutations were identified in 98.4% (120 of 122) of Chinese UTUC patients with the 520-gene targeted panel."
+},
+{
+"j": 4,
+"text": "Tumors of the TP53/MDM2-mutant subtype had progression-free survival similar to that of other subtypes."
+}
+]
+},
+{
+"n": 113,
+"id": "pmid:39054058",
+"year": 2024,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Objective",
+"text": "Circulating tumour DNA (ctDNA) is a promising non-invasive biomarker in cancer. We aim to assess the dynamic of ctDNA in patients with hepatocellular carcinoma (HCC)."
+},
+{
+"label": "Design",
+"text": "We analysed 772 plasmas from 173 patients with HCC collected at the time of diagnosis or treatment (n=502), 24 hours after locoregional treatment (n=154) and during follow-up (n=116). For controls, 56 plasmas from patients with chronic liver disease without HCC were analysed. All samples were analysed for cell free DNA (cfDNA) concentration, and for mutations in TERT promoter, CTNNB1 , TP53 , PIK3CA and NFE2L2 by sequencing and droplet-based digital PCR. Results were compared with 232 corresponding tumour samples."
+},
+{
+"label": "Results",
+"text": "In patients with active HCC, 40.2% of the ctDNA was mutated vs 14.6% in patients with inactive HCC and 1.8% in controls (p<0.001). In active HCC, we identified 27.5% of mutations in TERT promoter, 21.3% in TP53 , 13.1% in CTNNB1 , 0.4% in PIK3CA and 0.2% in NFE2L2, most of the times similar to those identified in the corresponding tumour. CtDNA mutation rate increased with advanced tumour stages (p<0.001). In 103 patients treated by percutaneous ablation, the presence and number of mutations in the ctDNA before treatment were associated with higher risk of death (p=0.001) and recurrence (p<0.001). Interestingly, cfDNA concentration and detectable mutations increased 24 hours after a locoregional treatment. Among 356 plasmas collected in 53 patients treated by systemic treatments, we detected mutations at baseline in 60.4% of the cases. In patients treated by atezolizumab-bevacizumab, persistence of mutation in ctDNA was associated with radiological progression (63.6% vs 36.4% for disappearance, p=0.019). In two patients progressing under systemic treatments, we detected the occurrence of mutations in CTNNB1 in the plasma that was subclonal in the tumour for one patient and not detectable in the tumour for the other one."
+},
+{
+"label": "Conclusion",
+"text": "ctDNA offers dynamic information reflecting tumour biology. It represents a non-invasive tool useful to guide HCC clinical management."
+}
+],
+"text": "Circulating tumour DNA (ctDNA) is a promising non-invasive biomarker in cancer. We aim to assess the dynamic of ctDNA in patients with hepatocellular carcinoma (HCC). We analysed 772 plasmas from 173 patients with HCC collected at the time of diagnosis or treatment (n=502), 24 hours after locoregional treatment (n=154) and during follow-up (n=116). For controls, 56 plasmas from patients with chronic liver disease without HCC were analysed. All samples were analysed for cell free DNA (cfDNA) concentration, and for mutations in TERT promoter, CTNNB1 , TP53 , PIK3CA and NFE2L2 by sequencing and droplet-based digital PCR. Results were compared with 232 corresponding tumour samples. In patients with active HCC, 40.2% of the ctDNA was mutated vs 14.6% in patients with inactive HCC and 1.8% in controls (p<0.001). In active HCC, we identified 27.5% of mutations in TERT promoter, 21.3% in TP53 , 13.1% in CTNNB1 , 0.4% in PIK3CA and 0.2% in NFE2L2, most of the times similar to those identified in the corresponding tumour. CtDNA mutation rate increased with advanced tumour stages (p<0.001). In 103 patients treated by percutaneous ablation, the presence and number of mutations in the ctDNA before treatment were associated with higher risk of death (p=0.001) and recurrence (p<0.001). Interestingly, cfDNA concentration and detectable mutations increased 24 hours after a locoregional treatment. Among 356 plasmas collected in 53 patients treated by systemic treatments, we detected mutations at baseline in 60.4% of the cases. In patients treated by atezolizumab-bevacizumab, persistence of mutation in ctDNA was associated with radiological progression (63.6% vs 36.4% for disappearance, p=0.019). In two patients progressing under systemic treatments, we detected the occurrence of mutations in CTNNB1 in the plasma that was subclonal in the tumour for one patient and not detectable in the tumour for the other one. ctDNA offers dynamic information reflecting tumour biology. It represents a non-invasive tool useful to guide HCC clinical management.",
+"statements": [
+{
+"j": 1,
+"text": "The ctDNA mutation rate fell as tumour stage became more advanced."
+},
+{
+"j": 2,
+"text": "Mutated ctDNA was found in 40.2% of active HCC patients, 14.6% of inactive HCC patients and 1.8% of controls."
+},
+{
+"j": 3,
+"text": "The study analysed 772 plasma samples from 173 HCC patients plus 56 plasmas from chronic liver disease patients without HCC."
+},
+{
+"j": 4,
+"text": "Plasma cfDNA concentration on its own separated patients with active HCC from control patients."
+}
+]
+},
+{
+"n": 137,
+"id": "pmid:42826364",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Purpose",
+"text": "Organ preservation is a priority in early-stage rectal cancer as total mesorectal excision (TME) can reduce quality of life. The Canadian Cancer Trials Group CO.28 trial demonstrated that neoadjuvant chemotherapy followed by transanal excision was effective in patients with cT1-3, node-negative (N0) rectal cancer. Here, we explored circulating tumor DNA (ctDNA) from the trial as a potential future decision aid to guide TME."
+},
+{
+"label": "Materials and methods",
+"text": "Fifty-three of 58 patients (91.4%) from CO.28 had at least one sample available for ctDNA analysis using the Guardant Reveal epigenomic assay from the following time points: prechemotherapy, postchemotherapy, pretransanal endoscopic surgery (TES), and on follow-up at months 12, 24, and 36."
+},
+{
+"label": "Results",
+"text": "ctDNA was detected in 45.8% of patients before neoadjuvant chemotherapy. Detection was similar by T-stage ( P = .18). The rate of detectable ctDNA significantly decreased after chemotherapy (and pre-TES) to 8.7% ( P < .0001), with 41.4% of evaluable patients moving from detectable ctDNA to completely undetectable following chemotherapy. ctDNA detection postchemotherapy and pre-TES was associated with poor response and persistent cancer ( P = .03), with recommended TME for 100% (n = 4 of 4) of patients with ctDNA detected versus 38.1% (n = 16 of 42) of patients with undetectable ctDNA. Five patients had recurrence during follow-up (two local, three distant), 50% of whom (1 of 2, both local) had longitudinal plasma collected had detectable ctDNA at progression."
+},
+{
+"label": "Conclusion",
+"text": "ctDNA testing identified cancers with inadequate response to chemotherapy in patients for whom TME was recommended. A tissue-free assay may enable faster turnaround times compared with tumor-informed assays and provide a tool to support organ preservation. Further exploration of these assays in early-stage rectal cancers is warranted."
+}
+],
+"text": "Organ preservation is a priority in early-stage rectal cancer as total mesorectal excision (TME) can reduce quality of life. The Canadian Cancer Trials Group CO.28 trial demonstrated that neoadjuvant chemotherapy followed by transanal excision was effective in patients with cT1-3, node-negative (N0) rectal cancer. Here, we explored circulating tumor DNA (ctDNA) from the trial as a potential future decision aid to guide TME. Fifty-three of 58 patients (91.4%) from CO.28 had at least one sample available for ctDNA analysis using the Guardant Reveal epigenomic assay from the following time points: prechemotherapy, postchemotherapy, pretransanal endoscopic surgery (TES), and on follow-up at months 12, 24, and 36. ctDNA was detected in 45.8% of patients before neoadjuvant chemotherapy. Detection was similar by T-stage ( P = .18). The rate of detectable ctDNA significantly decreased after chemotherapy (and pre-TES) to 8.7% ( P < .0001), with 41.4% of evaluable patients moving from detectable ctDNA to completely undetectable following chemotherapy. ctDNA detection postchemotherapy and pre-TES was associated with poor response and persistent cancer ( P = .03), with recommended TME for 100% (n = 4 of 4) of patients with ctDNA detected versus 38.1% (n = 16 of 42) of patients with undetectable ctDNA. Five patients had recurrence during follow-up (two local, three distant), 50% of whom (1 of 2, both local) had longitudinal plasma collected had detectable ctDNA at progression. ctDNA testing identified cancers with inadequate response to chemotherapy in patients for whom TME was recommended. A tissue-free assay may enable faster turnaround times compared with tumor-informed assays and provide a tool to support organ preservation. Further exploration of these assays in early-stage rectal cancers is warranted.",
+"statements": [
+{
+"j": 1,
+"text": "ctDNA status after chemotherapy predicted overall survival in the trial patients."
+},
+{
+"j": 2,
+"text": "ctDNA was detectable in 45.8% of patients before neoadjuvant chemotherapy and fell to 8.7% afterwards."
+},
+{
+"j": 3,
+"text": "Total mesorectal excision was recommended for all four patients with detectable ctDNA against 16 of 42 patients with undetectable ctDNA."
+},
+{
+"j": 4,
+"text": "ctDNA detection before chemotherapy differed significantly between T-stages."
+}
+]
+},
+{
+"n": 268,
+"id": "pmid:40415439",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Objectives",
+"text": "To explore the association of the expression of WW domain-containing ubiquitin E3 ligase 1 (WWP1) with immune infiltration in tumor microenvironment (TME) of ovarian cancer."
+},
+{
+"label": "Methods",
+"text": "Ovarian cancer patient data from The Cancer Genome Atlas (TCGA) were used to analyze the association of WWP1 expression with patient prognosis. TISCH2 was utilized to analyze the changes in immune cell subtypes in TME of metastatic tumor and after chemotherapy. The impact of WWP1 on immune cell infiltration, somatic copy number alterations of WWP1 and evolution of immune cell subtypes was evaluated using TIMER and TIGER pseudo-time analysis. A deep learning model was used to analyze TCGA pathological images to investigate the effect of WWP1 on TME of ovarian cancer. RNA-seq analysis was conducted to identify the differentially expressed genes in WWP1-overexpressing SKOV3 cells and validate immune infiltration. Multicolor immunofluorescence assay was used to analyze the immune markers in SKOV3 and SKOV3/DDP cell xenografts in nude mice."
+},
+{
+"label": "Results",
+"text": "The patients with high WWP1 expression levels had significantly lower overall survival rate ( P =0.0012). High WWP1 expression levels and Stage IV disease were both associated with a poor prognosis ( P <0.05). In metastatic ovarian cancer or after chemotherapy, the percentages of malignant tumor cells and tumor-associated fibroblasts increased in the TME, accompanied by elevated WWP1 levels. WWP1 expression level was positively correlated with pro-tumorigenic immunosuppressive cells ( r =0.1323-0.3955, P <0.05) and negatively with tumor-inhibiting immune cells ( r =-0.1949- -0.1333, P <0.05). Specific copy number alterations of WWP1 also influenced CD8 + T cell percentage and neutrophil infiltration levels in the TME. RNA-seq analysis of WWP1-overexpressing SKOV3 cells and immunofluorescence assay of the tumor-bearing mice yielded findings consistent with those of bioinformatics analysis."
+},
+{
+"label": "Conclusions",
+"text": "WWP1 may serve as a prognostic biomarker and a potential target for immune regulation in the TME of ovarian cancer."
+}
+],
+"text": "To explore the association of the expression of WW domain-containing ubiquitin E3 ligase 1 (WWP1) with immune infiltration in tumor microenvironment (TME) of ovarian cancer. Ovarian cancer patient data from The Cancer Genome Atlas (TCGA) were used to analyze the association of WWP1 expression with patient prognosis. TISCH2 was utilized to analyze the changes in immune cell subtypes in TME of metastatic tumor and after chemotherapy. The impact of WWP1 on immune cell infiltration, somatic copy number alterations of WWP1 and evolution of immune cell subtypes was evaluated using TIMER and TIGER pseudo-time analysis. A deep learning model was used to analyze TCGA pathological images to investigate the effect of WWP1 on TME of ovarian cancer. RNA-seq analysis was conducted to identify the differentially expressed genes in WWP1-overexpressing SKOV3 cells and validate immune infiltration. Multicolor immunofluorescence assay was used to analyze the immune markers in SKOV3 and SKOV3/DDP cell xenografts in nude mice. The patients with high WWP1 expression levels had significantly lower overall survival rate ( P =0.0012). High WWP1 expression levels and Stage IV disease were both associated with a poor prognosis ( P <0.05). In metastatic ovarian cancer or after chemotherapy, the percentages of malignant tumor cells and tumor-associated fibroblasts increased in the TME, accompanied by elevated WWP1 levels. WWP1 expression level was positively correlated with pro-tumorigenic immunosuppressive cells ( r =0.1323-0.3955, P <0.05) and negatively with tumor-inhibiting immune cells ( r =-0.1949- -0.1333, P <0.05). Specific copy number alterations of WWP1 also influenced CD8 + T cell percentage and neutrophil infiltration levels in the TME. RNA-seq analysis of WWP1-overexpressing SKOV3 cells and immunofluorescence assay of the tumor-bearing mice yielded findings consistent with those of bioinformatics analysis. WWP1 may serve as a prognostic biomarker and a potential target for immune regulation in the TME of ovarian cancer.",
+"statements": [
+{
+"j": 1,
+"text": "High WWP1 expression was associated with a favourable prognosis, unlike Stage IV disease."
+},
+{
+"j": 2,
+"text": "Knocking down WWP1 in SKOV3 cells restored their sensitivity to cisplatin."
+},
+{
+"j": 3,
+"text": "RNA-seq of WWP1-overexpressing SKOV3 cells and immunofluorescence in tumor-bearing mice agreed with the bioinformatics findings."
+},
+{
+"j": 4,
+"text": "Patients with high WWP1 expression had a significantly lower overall survival rate, at P = 0.0012."
+}
+]
+},
+{
+"n": 401,
+"id": "pmid:41382221",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Uveal melanoma (UM) is a highly aggressive malignancy with a metastatic risk that depends on the molecular subclass. This subclass can be determined through molecular characterization of tumor-derived tissue. With eye-sparing treatments, tumor tissue is rarely available for molecular testing. We hypothesized that minimal invasive biomarkers such as methylated cell-free DNA (cfDNA) or circulating tumor DNA (ctDNA) can be used for prognosis and monitoring of patients."
+},
+{
+"label": "Methods",
+"text": "Plasma cfDNA was isolated from healthy blood donors (HBDs, N = 19) and UM patients (N = 22). Plasma was collected at baseline (localized disease, N = 13) and during follow-up (metastatic disease, N = 9) from independent patients with high metastatic risk (HR, N = 11) (monosomy 3 and/or BAP1-mutated tumor) or intermediate metastatic risk (IR, N = 11) (disomy 3 and/or SF3B1-mutated tumor). Methylation signatures were determined using genome-wide LpnPI-based methylated DNA sequencing (MeD-seq). Samples with a CpG/reads ratio < 20% (N = 3) were excluded. IchorCNA was used to estimate the tumor fraction. cfDNA samples with detectable tumor fraction (N = 2) were analyzed separately from the other cfDNA samples without detectable tumor fraction (N = 18) to reduce noise in downstream analyses. Differentially methylated regions (DMRs) were identified between the following predefined subgroups: UM (N = 11) vs. HBDs (N = 19), and HR (N = 10) vs. IR (N = 7). To visualize clustering, principal component analysis (PCA) and hierarchical clustering was performed on the DMRs with fold change > 2.0. Gene set enrichment analysis (GSEA, Z-score > 2.0 and p < 0.05) was performed to evaluate biological relevance."
+},
+{
+"label": "Results",
+"text": "Distinct clustering was observed between UM and HBDs samples, and between HR and IR samples, although outliers were present in the latter comparison. GSEA implicated eight canonical pathways including the S100 Family Signaling Pathway and RAF/MAP kinase cascade, which are linked to tumorigenesis and immune processes."
+},
+{
+"label": "Conclusion",
+"text": "This pilot study reports on cfDNA methylation signatures that differentiates UM patients from HBDs, and may distinguish between intermediate and high risk UM subgroups, supporting its prognostic potential. However, its role in monitoring disease progression requires further validation. Independent replication studies are warranted to confirm our findings and evaluate the clinical applicability in UM."
+}
+],
+"text": "Uveal melanoma (UM) is a highly aggressive malignancy with a metastatic risk that depends on the molecular subclass. This subclass can be determined through molecular characterization of tumor-derived tissue. With eye-sparing treatments, tumor tissue is rarely available for molecular testing. We hypothesized that minimal invasive biomarkers such as methylated cell-free DNA (cfDNA) or circulating tumor DNA (ctDNA) can be used for prognosis and monitoring of patients. Plasma cfDNA was isolated from healthy blood donors (HBDs, N = 19) and UM patients (N = 22). Plasma was collected at baseline (localized disease, N = 13) and during follow-up (metastatic disease, N = 9) from independent patients with high metastatic risk (HR, N = 11) (monosomy 3 and/or BAP1-mutated tumor) or intermediate metastatic risk (IR, N = 11) (disomy 3 and/or SF3B1-mutated tumor). Methylation signatures were determined using genome-wide LpnPI-based methylated DNA sequencing (MeD-seq). Samples with a CpG/reads ratio < 20% (N = 3) were excluded. IchorCNA was used to estimate the tumor fraction. cfDNA samples with detectable tumor fraction (N = 2) were analyzed separately from the other cfDNA samples without detectable tumor fraction (N = 18) to reduce noise in downstream analyses. Differentially methylated regions (DMRs) were identified between the following predefined subgroups: UM (N = 11) vs. HBDs (N = 19), and HR (N = 10) vs. IR (N = 7). To visualize clustering, principal component analysis (PCA) and hierarchical clustering was performed on the DMRs with fold change > 2.0. Gene set enrichment analysis (GSEA, Z-score > 2.0 and p < 0.05) was performed to evaluate biological relevance. Distinct clustering was observed between UM and HBDs samples, and between HR and IR samples, although outliers were present in the latter comparison. GSEA implicated eight canonical pathways including the S100 Family Signaling Pathway and RAF/MAP kinase cascade, which are linked to tumorigenesis and immune processes. This pilot study reports on cfDNA methylation signatures that differentiates UM patients from HBDs, and may distinguish between intermediate and high risk UM subgroups, supporting its prognostic potential. However, its role in monitoring disease progression requires further validation. Independent replication studies are warranted to confirm our findings and evaluate the clinical applicability in UM.",
+"statements": [
+{
+"j": 1,
+"text": "The methylation signature identified which BAP1-mutated patients developed metastases within two years."
+},
+{
+"j": 2,
+"text": "Gene set enrichment implicated eight canonical pathways, none of them a kinase signalling cascade."
+},
+{
+"j": 3,
+"text": "Plasma cell-free DNA was obtained from 19 healthy blood donors and 22 uveal melanoma patients."
+},
+{
+"j": 4,
+"text": "Methylation profiles clustered melanoma apart from healthy donors and separated high-risk from intermediate-risk patients, with outliers in the latter comparison."
+}
+]
+},
+{
+"n": 452,
+"id": "pmid:42793237",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background and objective",
+"text": "The objective of this exploratory study was to identify the molecular characteristics that influence survival outcomes in cases of cervical adenocarcinoma, utilising data from the TCGA (The Cancer Genome Atlas) database."
+},
+{
+"label": "Methods",
+"text": "The 'TCGA Firehose Legacy' dataset was accessed through the Cbioportal website. SILVA invasion patterns were independently evaluated on digitized whole-slide images by two gynecologic pathologists. Cases were categorized by overall survival status (living vs. deceased). Somatic mutations, copy number alterations, mRNA expression, RPPA protein expression, and DNA methylation profiles were analyzed. Survival analyses were performed using Kaplan-Meier methods and log-rank tests, supplemented by differential analysis. Pathway and transcription factor binding motif enrichment was evaluated via g:Profiler. p and q < 0.05 were considered statistically significant."
+},
+{
+"label": "Results",
+"text": "Among 27 cases (22 living, 5 deceased; 23 HPV-positive, 2 HPV-negative, 2 unknown), PREX1 protein expression was identified as the top-ranked differentially expressed candidate protein ( p = 4.29 × 10 -5 , q = 8.70 × 10 -3 ). Kaplan-Meier analysis demonstrated superior overall survival in patients with high PREX1 protein levels. DNA methylation analysis identified 8 differentially methylated genes ( p , q < 0.05); 7 were hypermethylated in the deceased group (MCEMP1, RNASE2, RINL, CCL17, THBD, SFXN5, PRR19), while WDR89 was hypermethylated in the living group. Enrichment analysis of differentially methylated promoter regions revealed a distinct KLF9-binding regulatory motif ( q = 0.032). Due to sample size constraints ( n = 2 HPV-negative, n = 2 SILVA Pattern A), subgroup comparisons for HPV status and SILVA patterns were interpreted descriptively without inferential statistical claims."
+},
+{
+"label": "Conclusions",
+"text": "In this exploratory cohort, elevated PREX1 protein levels and promoter hypermethylation of specific immune- and metabolic-related genes were associated with overall survival in endocervical adenocarcinoma. Due to the current lack of independent public proteomic validation datasets, PREX1 emerges as a novel candidate biomarker requiring prospective tissue-based immunohistochemical and epigenetic validation in larger multi-center clinical cohorts."
+}
+],
+"text": "The objective of this exploratory study was to identify the molecular characteristics that influence survival outcomes in cases of cervical adenocarcinoma, utilising data from the TCGA (The Cancer Genome Atlas) database. The 'TCGA Firehose Legacy' dataset was accessed through the Cbioportal website. SILVA invasion patterns were independently evaluated on digitized whole-slide images by two gynecologic pathologists. Cases were categorized by overall survival status (living vs. deceased). Somatic mutations, copy number alterations, mRNA expression, RPPA protein expression, and DNA methylation profiles were analyzed. Survival analyses were performed using Kaplan-Meier methods and log-rank tests, supplemented by differential analysis. Pathway and transcription factor binding motif enrichment was evaluated via g:Profiler. p and q < 0.05 were considered statistically significant. Among 27 cases (22 living, 5 deceased; 23 HPV-positive, 2 HPV-negative, 2 unknown), PREX1 protein expression was identified as the top-ranked differentially expressed candidate protein ( p = 4.29 × 10 -5 , q = 8.70 × 10 -3 ). Kaplan-Meier analysis demonstrated superior overall survival in patients with high PREX1 protein levels. DNA methylation analysis identified 8 differentially methylated genes ( p , q < 0.05); 7 were hypermethylated in the deceased group (MCEMP1, RNASE2, RINL, CCL17, THBD, SFXN5, PRR19), while WDR89 was hypermethylated in the living group. Enrichment analysis of differentially methylated promoter regions revealed a distinct KLF9-binding regulatory motif ( q = 0.032). Due to sample size constraints ( n = 2 HPV-negative, n = 2 SILVA Pattern A), subgroup comparisons for HPV status and SILVA patterns were interpreted descriptively without inferential statistical claims. In this exploratory cohort, elevated PREX1 protein levels and promoter hypermethylation of specific immune- and metabolic-related genes were associated with overall survival in endocervical adenocarcinoma. Due to the current lack of independent public proteomic validation datasets, PREX1 emerges as a novel candidate biomarker requiring prospective tissue-based immunohistochemical and epigenetic validation in larger multi-center clinical cohorts.",
+"statements": [
+{
+"j": 1,
+"text": "PREX1 protein expression ranked first among differentially expressed candidate proteins between living and deceased patients."
+},
+{
+"j": 2,
+"text": "PREX1 promotes cervical adenocarcinoma cell survival through activation of Rac1 signalling."
+},
+{
+"j": 3,
+"text": "The exploratory cohort included 27 cervical adenocarcinoma cases, 22 living and 5 deceased, of which 23 were HPV-positive."
+},
+{
+"j": 4,
+"text": "Kaplan-Meier analysis showed superior overall survival in patients with low PREX1 protein levels."
+}
+]
+},
+{
+"n": 461,
+"id": "pmid:42086706",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Leiomyosarcoma (LMS) is an aggressive soft-tissue sarcoma characterized by epigenomic dysregulation and variable responsiveness to checkpoint inhibitors (CPIs). In this study, we evaluated a novel liquid biopsy platform based on circulating cell-free DNA active chromatin (cfDNA ac ) profiling to identify baseline biomarkers associated with clinical benefit rate (CBR) in 30 LMS patients treated with durvalumab plus olaparib or cediranib. A total of 1,570 molecular features across genomic regions were identified, and recursive feature elimination was applied to select discriminative cfDNA ac signatures. Patients achieving CBR demonstrated enrichment of pathways related to cell death, interferon-γ signaling, and immune activation. Signatures reflecting B-cell activation, T-cell activation, and extracellular matrix organization were significantly associated with improved progression-free survival (PFS; p < 0.05). In contrast, a baseline tumor fraction >5% was negatively associated with CBR (p = 0.041) and correlated with inferior PFS (p = 0.008). Distinct copy number variation profiles further characterized patients with CBR and were significantly associated with PFS. In this analysis, cfDNA ac profiling represents a promising non-invasive strategy to predict clinical benefit from CPI-based therapy in LMS. Prospective validation in independent cohorts is warranted to clarify its clinical utility."
+}
+],
+"text": "Leiomyosarcoma (LMS) is an aggressive soft-tissue sarcoma characterized by epigenomic dysregulation and variable responsiveness to checkpoint inhibitors (CPIs). In this study, we evaluated a novel liquid biopsy platform based on circulating cell-free DNA active chromatin (cfDNA ac ) profiling to identify baseline biomarkers associated with clinical benefit rate (CBR) in 30 LMS patients treated with durvalumab plus olaparib or cediranib. A total of 1,570 molecular features across genomic regions were identified, and recursive feature elimination was applied to select discriminative cfDNA ac signatures. Patients achieving CBR demonstrated enrichment of pathways related to cell death, interferon-γ signaling, and immune activation. Signatures reflecting B-cell activation, T-cell activation, and extracellular matrix organization were significantly associated with improved progression-free survival (PFS; p < 0.05). In contrast, a baseline tumor fraction >5% was negatively associated with CBR (p = 0.041) and correlated with inferior PFS (p = 0.008). Distinct copy number variation profiles further characterized patients with CBR and were significantly associated with PFS. In this analysis, cfDNA ac profiling represents a promising non-invasive strategy to predict clinical benefit from CPI-based therapy in LMS. Prospective validation in independent cohorts is warranted to clarify its clinical utility.",
+"statements": [
+{
+"j": 1,
+"text": "cfDNA active-chromatin profiling predicted overall survival better than standard RECIST imaging in these patients."
+},
+{
+"j": 2,
+"text": "Signatures of B-cell and T-cell activation were significantly associated with shorter progression-free survival."
+},
+{
+"j": 3,
+"text": "Patients with clinical benefit showed enrichment of cell death, interferon-γ signaling, and immune activation pathways."
+},
+{
+"j": 4,
+"text": "The platform was evaluated in 30 leiomyosarcoma patients treated with durvalumab plus either olaparib or cediranib."
+}
+]
+},
+{
+"n": 464,
+"id": "pmid:42090629",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Purpose",
+"text": "Circulating tumor DNA (ctDNA)-based minimal residual disease (MRD) detection has become a strong prognostic stratification factor in postoperation non-small cell lung cancer (NSCLC). Here, we sought to investigate the guiding potential of MRD in informing adjuvant therapy (AT) decisions."
+},
+{
+"label": "Materials and methods",
+"text": "Patients with stage IA to IIIB NSCLC who had undergone confirmed R0 resection were enrolled. Blood samples were collected 1 month after surgery before initiation of AT (landmark) and longitudinally every 3-6 months since surgery. Postoperative AT was conducted according to the guideline recommendations, and regular radiographical examinations were recommended for relapse surveillance. MRD detection was conducted using the MinerVa platform (Genecast Precision Diagnostic Co., Ltd. Wuhan, China) using a tumor-informed strategy based on a fixed next-generation sequencing panel spanning 769 cancer-related genes."
+},
+{
+"label": "Results",
+"text": "One hundred sixty-five patients were included in this study, with 35 (21.2%) relapses. At landmark, positive MRD was associated with shorter disease-free survival (DFS) than negative MRD ( P < .001, hazard ratio, 12.0). MRD was an independent risk factor for shorter DFS, irrespective of the disease stage and high-risk factors. In the case of negative landmark MRD, there was no significant difference between the DFS of (1) those who received AT and those who did not in stage IB patients with high-risk factors ( P = .974), (2) epidermal growth factor receptor ( EGFR )-mutant patients with or without adjuvant chemotherapy before adjuvant targeted therapy ( P = .502), and (3) EGFR / ALK wild-type with or without adjuvant immunotherapy ( P = .534). Clearance of ctDNA during AT was associated with a better prognosis than persistently detected ctDNA ( P < .001)."
+},
+{
+"label": "Conclusion",
+"text": "ctDNA-based MRD stratifies prognosis after curative resection in NSCLC, with MRD negativity indicating limited benefit from treatment in selected patients and ctDNA clearance reflecting improved outcomes. These findings support the clinical utility of MRD-guided adjuvant treatment strategies."
+}
+],
+"text": "Circulating tumor DNA (ctDNA)-based minimal residual disease (MRD) detection has become a strong prognostic stratification factor in postoperation non-small cell lung cancer (NSCLC). Here, we sought to investigate the guiding potential of MRD in informing adjuvant therapy (AT) decisions. Patients with stage IA to IIIB NSCLC who had undergone confirmed R0 resection were enrolled. Blood samples were collected 1 month after surgery before initiation of AT (landmark) and longitudinally every 3-6 months since surgery. Postoperative AT was conducted according to the guideline recommendations, and regular radiographical examinations were recommended for relapse surveillance. MRD detection was conducted using the MinerVa platform (Genecast Precision Diagnostic Co., Ltd. Wuhan, China) using a tumor-informed strategy based on a fixed next-generation sequencing panel spanning 769 cancer-related genes. One hundred sixty-five patients were included in this study, with 35 (21.2%) relapses. At landmark, positive MRD was associated with shorter disease-free survival (DFS) than negative MRD ( P < .001, hazard ratio, 12.0). MRD was an independent risk factor for shorter DFS, irrespective of the disease stage and high-risk factors. In the case of negative landmark MRD, there was no significant difference between the DFS of (1) those who received AT and those who did not in stage IB patients with high-risk factors ( P = .974), (2) epidermal growth factor receptor ( EGFR )-mutant patients with or without adjuvant chemotherapy before adjuvant targeted therapy ( P = .502), and (3) EGFR / ALK wild-type with or without adjuvant immunotherapy ( P = .534). Clearance of ctDNA during AT was associated with a better prognosis than persistently detected ctDNA ( P < .001). ctDNA-based MRD stratifies prognosis after curative resection in NSCLC, with MRD negativity indicating limited benefit from treatment in selected patients and ctDNA clearance reflecting improved outcomes. These findings support the clinical utility of MRD-guided adjuvant treatment strategies.",
+"statements": [
+{
+"j": 1,
+"text": "ctDNA clearance during adjuvant therapy was associated with a better prognosis than persistently detectable ctDNA."
+},
+{
+"j": 2,
+"text": "Of the 165 patients studied, 35 (21.2%) experienced a relapse."
+},
+{
+"j": 3,
+"text": "The 769-gene panel detected MRD a median of six months before radiographic imaging."
+},
+{
+"j": 4,
+"text": "At the landmark time point, positive MRD was associated with longer disease-free survival than negative MRD."
+}
+]
+},
+{
+"n": 512,
+"id": "doi:10.64898/2026.10.19.760246",
+"year": 2026,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Transcription factor (TF) binding can contribute to mutagenesis by altering DNA damage formation or interfering with DNA repair. Although these effects have been characterized for selected TFs and mutagenic processes, their prevalence across TFs and cancer types remains poorly understood. A systematic characterization of mutation enrichment at TF binding sites is needed to guide mechanistic studies and improve the interpretation of noncoding mutations in cancer. Here, we analyzed somatic mutations from over 4,000 tumors across 15 tissue types to generate a pan-cancer catalog of mutation patterns at binding sites for 655 TFs, organized into 276 motif clusters. We assessed mutation enrichment at single-nucleotide resolution, accounting for sequence-dependent and local variation in background mutation rates. Nearly one third of <TF-cluster, tissue> pairs with sufficient mutation counts showed significant enrichment at one or more binding site positions. Enrichment was most widespread in melanoma but was detected in all 15 tissue types, with the affected TFs and binding site positions varying across tissues. Highly expressed TFs were more likely to show enrichment than lowly expressed TFs, consistent with a role for TF binding in increased mutagenesis at the binding sites. Mutational signature analysis implicated processes beyond UV damage, including age-associated processes, deamination lesions, oxidative damage, and tobacco exposure, as potentially contributing to TF-induced mutagenesis. Together, these findings suggest that diverse interactions between TF binding, DNA damage, and DNA repair may contribute to mutation enrichment in regulatory DNA. Our pan-cancer catalog reveals position-specific enrichment of somatic mutations at TF binding sites across all 15 tissue types analyzed. By identifying specific TFs and binding site positions enriched for somatic mutations, together with potential mutagenic processes acting at these positions, our study provides a roadmap for experimental assessment of TF-induced mutagenesis and informs the interpretation and prioritization of non-coding mutations in cancer."
+}
+],
+"text": "Transcription factor (TF) binding can contribute to mutagenesis by altering DNA damage formation or interfering with DNA repair. Although these effects have been characterized for selected TFs and mutagenic processes, their prevalence across TFs and cancer types remains poorly understood. A systematic characterization of mutation enrichment at TF binding sites is needed to guide mechanistic studies and improve the interpretation of noncoding mutations in cancer. Here, we analyzed somatic mutations from over 4,000 tumors across 15 tissue types to generate a pan-cancer catalog of mutation patterns at binding sites for 655 TFs, organized into 276 motif clusters. We assessed mutation enrichment at single-nucleotide resolution, accounting for sequence-dependent and local variation in background mutation rates. Nearly one third of <TF-cluster, tissue> pairs with sufficient mutation counts showed significant enrichment at one or more binding site positions. Enrichment was most widespread in melanoma but was detected in all 15 tissue types, with the affected TFs and binding site positions varying across tissues. Highly expressed TFs were more likely to show enrichment than lowly expressed TFs, consistent with a role for TF binding in increased mutagenesis at the binding sites. Mutational signature analysis implicated processes beyond UV damage, including age-associated processes, deamination lesions, oxidative damage, and tobacco exposure, as potentially contributing to TF-induced mutagenesis. Together, these findings suggest that diverse interactions between TF binding, DNA damage, and DNA repair may contribute to mutation enrichment in regulatory DNA. Our pan-cancer catalog reveals position-specific enrichment of somatic mutations at TF binding sites across all 15 tissue types analyzed. By identifying specific TFs and binding site positions enriched for somatic mutations, together with potential mutagenic processes acting at these positions, our study provides a roadmap for experimental assessment of TF-induced mutagenesis and informs the interpretation and prioritization of non-coding mutations in cancer.",
+"statements": [
+{
+"j": 1,
+"text": "Nearly a third of TF-tissue pairs with enough mutations showed significant mutation enrichment at one or more binding-site positions."
+},
+{
+"j": 2,
+"text": "Mutation enrichment at TF binding sites was most widespread in melanoma but was found in every one of the 15 tissue types."
+},
+{
+"j": 3,
+"text": "Highly expressed TFs were less likely than lowly expressed TFs to show mutation enrichment at their binding sites."
+},
+{
+"j": 4,
+"text": "Mutations enriched at TF binding sites changed the expression of the genes those TFs regulate."
+}
+]
+},
+{
+"n": 514,
+"id": "pmid:42600432",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Introduction",
+"text": "Interferon-induced protein 35 (IFI35) is a critical regulator of virus-induced immune-inflammatory responses; however, its systematic role in cancer, particularly in breast cancer (BRCA), remains unclear. This study aimed to elucidate the pan-cancer expression profile and prognostic value of IFI35 and to elucidate its functional and clinical significance in BRCA."
+},
+{
+"label": "Methods",
+"text": "Public databases, including The Cancer Genome Atlas and Clinical Proteomic Tumor Analysis Consortium, were used to analyze IFI35 expression, prognostic value, and its association with the tumor microenvironment. Protein expression in BRCA was validated on tissue microarrays using immunohistochemistry. The function of IFI35 in proliferation, migration, invasion, and apoptosis of BRCA cells was explored through in vitro experiments and nude mouse xenograft models."
+},
+{
+"label": "Results",
+"text": "IFI35 expression was significantly upregulated at both messenger RNA and protein levels in multiple cancers, most prominently in BRCA, as well as in glioblastoma multiforme, head and neck squamous cell carcinoma, kidney renal clear cell carcinoma, and liver hepatocellular carcinoma (P < 0.01). Elevated IFI35 expression was correlated with poorer overall survival and progression-free interval in specific cancer types (hazard ratio >1, P < 0.05). IFI35 expression was positively associated with increased infiltration levels of mast cells, neutrophils, eosinophils, CD4+ T cell subtypes, and cancer-associated fibroblasts across multiple cancer types. Our data confirmed that IFI35 was aberrantly overexpressed in BRCA clinical specimens and cell lines. Functional studies demonstrated that IFI35 knockdown effectively suppressed BRCA cell proliferation, migration, and invasion, while promoting apoptosis. In vivo, IFI35 depletion significantly inhibited xenograft tumor growth."
+},
+{
+"label": "Conclusions",
+"text": "Our study revealed that IFI35 contributes to the progression of BRCA and is a potential therapeutic target for BRCA."
+}
+],
+"text": "Interferon-induced protein 35 (IFI35) is a critical regulator of virus-induced immune-inflammatory responses; however, its systematic role in cancer, particularly in breast cancer (BRCA), remains unclear. This study aimed to elucidate the pan-cancer expression profile and prognostic value of IFI35 and to elucidate its functional and clinical significance in BRCA. Public databases, including The Cancer Genome Atlas and Clinical Proteomic Tumor Analysis Consortium, were used to analyze IFI35 expression, prognostic value, and its association with the tumor microenvironment. Protein expression in BRCA was validated on tissue microarrays using immunohistochemistry. The function of IFI35 in proliferation, migration, invasion, and apoptosis of BRCA cells was explored through in vitro experiments and nude mouse xenograft models. IFI35 expression was significantly upregulated at both messenger RNA and protein levels in multiple cancers, most prominently in BRCA, as well as in glioblastoma multiforme, head and neck squamous cell carcinoma, kidney renal clear cell carcinoma, and liver hepatocellular carcinoma (P < 0.01). Elevated IFI35 expression was correlated with poorer overall survival and progression-free interval in specific cancer types (hazard ratio >1, P < 0.05). IFI35 expression was positively associated with increased infiltration levels of mast cells, neutrophils, eosinophils, CD4+ T cell subtypes, and cancer-associated fibroblasts across multiple cancer types. Our data confirmed that IFI35 was aberrantly overexpressed in BRCA clinical specimens and cell lines. Functional studies demonstrated that IFI35 knockdown effectively suppressed BRCA cell proliferation, migration, and invasion, while promoting apoptosis. In vivo, IFI35 depletion significantly inhibited xenograft tumor growth. Our study revealed that IFI35 contributes to the progression of BRCA and is a potential therapeutic target for BRCA.",
+"statements": [
+{
+"j": 1,
+"text": "IFI35 was significantly upregulated at both mRNA and protein levels in several cancers, with the most pronounced increase in breast cancer."
+},
+{
+"j": 2,
+"text": "Depleting IFI35 significantly slowed xenograft tumor growth in nude mice."
+},
+{
+"j": 3,
+"text": "Across multiple cancer types, IFI35 expression correlated negatively with infiltration levels of mast cells, neutrophils, eosinophils, CD4+ T cell subtypes and cancer-associated fibroblasts."
+},
+{
+"j": 4,
+"text": "Silencing IFI35 made BRCA cells more sensitive to chemotherapeutic drugs."
+}
+]
+},
+{
+"n": 517,
+"id": "pmid:42723745",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Lung cancer is the leading cause of cancer-related mortality worldwide, with non-small cell lung cancer (NSCLC) accounting for approximately 85% of cases. Epidermal growth factor receptor ( EGFR ) mutations are the most prevalent driver alterations in NSCLC, and tyrosine kinase inhibitors (TKIs) have markedly improved survival outcomes. Accurate molecular testing is essential for guiding targeted therapy. However, tissue biopsy, the current gold standard, is often limited by insufficient samples, invasive procedure risks, or tumor heterogeneity, some patients experiencing sampling failure. Liquid biopsy based on circulating tumor DNA (ctDNA) offers a minimally invasive alternative and can shorten the detection cycle by 2 to 3 weeks, but its sensitivity depends on ctDNA shedding, and patient selection for blood-based testing remains challenging in clinical practice. This study aimed to develop a peripheral blood EGFR positivity prediction model and a simple scoring system to identify high probability candidates for liquid biopsy and prioritize blood-based EGFR testing when tissue samples are inadequate."
+},
+{
+"label": "Methods",
+"text": "A retrospective case-control study design was employed. Data were collected from 384 patients with NSCLC who were hospitalized at The First Affiliated Hospital of Guangzhou Medical University between June 2018 and September 2024 and met the study's inclusion criteria. The patients were categorized into two groups: the peripheral blood EGFR -positive group (191 cases) and peripheral blood EGFR-negative group (193 cases). Univariate and binary logistic regression analyses were conducted to establish a predictive model for EGFR in peripheral blood, which was subsequently converted into a scoring system."
+},
+{
+"label": "Results",
+"text": "The results of multi-factor analysis showed that gender, smoking status, pulmonary lymphangitic carcinomatosis, non-vertebral bone metastasis, brain metastasis, and liver metastasis were independent factors for the prediction of EGFR positivity in peripheral blood (P<0.05). The receiver operating characteristic (ROC) curve analysis of predicted peripheral blood EGFR positivity showed that the area under the curve (AUC) was 0.884. A score of ≥3 was considered a high-probability population with positive EGFR in peripheral blood. The sensitivity for diagnosing positive EGFR in peripheral blood was 84.8%, and the specificity was 73.1%. Taking the next-generation sequencing (NGS) detection results as the reference standard, the sensitivity of amplification refractory mutation system polymerase chain reaction (ARMS-PCR) detection was 94.96%, the specificity was 100%, and the overall compliance rate was 96.2% [Kappa (Cohen's kappa coefficient) =0.903, P<0.001]."
+},
+{
+"label": "Conclusions",
+"text": "The Gspnbl score demonstrates good predictive performance in identifying patients with a high probability of peripheral blood EGFR positivity. This easy‑to‑apply tool helps clinicians rapidly select appropriate candidates for liquid‑biopsy EGFR testing. ARMS‑PCR and NGS have high consistency in detecting common EGFR ‑sensitive mutations. ARMS‑PCR can be adopted for rapid initial screening in critically‑ill patients with high suspicion of EGFR mutations."
+}
+],
+"text": "Lung cancer is the leading cause of cancer-related mortality worldwide, with non-small cell lung cancer (NSCLC) accounting for approximately 85% of cases. Epidermal growth factor receptor ( EGFR ) mutations are the most prevalent driver alterations in NSCLC, and tyrosine kinase inhibitors (TKIs) have markedly improved survival outcomes. Accurate molecular testing is essential for guiding targeted therapy. However, tissue biopsy, the current gold standard, is often limited by insufficient samples, invasive procedure risks, or tumor heterogeneity, some patients experiencing sampling failure. Liquid biopsy based on circulating tumor DNA (ctDNA) offers a minimally invasive alternative and can shorten the detection cycle by 2 to 3 weeks, but its sensitivity depends on ctDNA shedding, and patient selection for blood-based testing remains challenging in clinical practice. This study aimed to develop a peripheral blood EGFR positivity prediction model and a simple scoring system to identify high probability candidates for liquid biopsy and prioritize blood-based EGFR testing when tissue samples are inadequate. A retrospective case-control study design was employed. Data were collected from 384 patients with NSCLC who were hospitalized at The First Affiliated Hospital of Guangzhou Medical University between June 2018 and September 2024 and met the study's inclusion criteria. The patients were categorized into two groups: the peripheral blood EGFR -positive group (191 cases) and peripheral blood EGFR-negative group (193 cases). Univariate and binary logistic regression analyses were conducted to establish a predictive model for EGFR in peripheral blood, which was subsequently converted into a scoring system. The results of multi-factor analysis showed that gender, smoking status, pulmonary lymphangitic carcinomatosis, non-vertebral bone metastasis, brain metastasis, and liver metastasis were independent factors for the prediction of EGFR positivity in peripheral blood (P<0.05). The receiver operating characteristic (ROC) curve analysis of predicted peripheral blood EGFR positivity showed that the area under the curve (AUC) was 0.884. A score of ≥3 was considered a high-probability population with positive EGFR in peripheral blood. The sensitivity for diagnosing positive EGFR in peripheral blood was 84.8%, and the specificity was 73.1%. Taking the next-generation sequencing (NGS) detection results as the reference standard, the sensitivity of amplification refractory mutation system polymerase chain reaction (ARMS-PCR) detection was 94.96%, the specificity was 100%, and the overall compliance rate was 96.2% [Kappa (Cohen's kappa coefficient) =0.903, P<0.001]. The Gspnbl score demonstrates good predictive performance in identifying patients with a high probability of peripheral blood EGFR positivity. This easy‑to‑apply tool helps clinicians rapidly select appropriate candidates for liquid‑biopsy EGFR testing. ARMS‑PCR and NGS have high consistency in detecting common EGFR ‑sensitive mutations. ARMS‑PCR can be adopted for rapid initial screening in critically‑ill patients with high suspicion of EGFR mutations.",
+"statements": [
+{
+"j": 1,
+"text": "Using a score of 3 or more as the cutoff, the scoring system identified peripheral blood EGFR positivity with 84.8% sensitivity and 73.1% specificity."
+},
+{
+"j": 2,
+"text": "The scoring system's performance was confirmed in an independent external validation cohort."
+},
+{
+"j": 3,
+"text": "The model predicting EGFR positivity in peripheral blood had an area under the curve of 0.584."
+},
+{
+"j": 4,
+"text": "With NGS as the reference standard, ARMS-PCR detected EGFR mutations with 94.96% sensitivity and 100% specificity."
+}
+]
+}
+]
+}

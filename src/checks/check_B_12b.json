@@ -1,0 +1,87 @@
+{"batch": "check_B_12b", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+  {"n": 432, "id": "pmid:39298928",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "In Phase 2 (100 cases), analysis extended to cfDNA, maintaining high specificity (100 %) with moderate sensitivity (44.2 %)."},
+    {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "In Phase 1 (85 cases), DD-PCR on FFPE tissues demonstrated 100 % sensitivity and specificity for IDH1 R132H mutations. In Phase 2 (100 cases), analysis extended to cfDNA, maintaining high specificity (100 %) with moderate sensitivity (44.2 %)."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "Overall concordance with immunohistochemistry was 61 %"},
+    {"j": 4, "label": "supported", "confidence": 2, "evidence": "In Phase 2 (100 cases), analysis extended to cfDNA, maintaining high specificity (100 %) with moderate sensitivity (44.2 %).", "flag": "ambiguous", "reason": "The abstract gives 44.2 % as sensitivity (fraction of mutation-positive cases detected); 'detecting the mutation in 44.2 % of cases' could be read as a fraction of all 100 cases."}
+   ]},
+  {"n": 433, "id": "doi:10.64898/2026.02.17.706500",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 2, "evidence": "with one subline having hypomethylated L1 elements compared to the other", "flag": "ambiguous", "reason": "The statement inverts the abstract's wording (hyper- vs hypomethylated), but with only two sublines compared relatively the two phrasings are logically equivalent, so it follows from the abstract."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "with ∼3% of the differentially methylated regions (DMRs) overlapping with known cancer driver genes"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "We find that the majority of differentially methylated sites are explained by differential allelic methylation"},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Our analysis revealed substantial divergence in methylation patterns between the sublines"}
+   ]},
+  {"n": 434, "id": "pmid:39966887",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "indicating that their preferred target provides a means for both safe insertion in the host chromosome and a mechanism for dissemination. Attempts to reconstitute these elements in E. coli were unsuccessful"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "elements are found integrated into a fixed position within CRISPR spacer regions"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "The array-targeting elements are phylogenetically close to tRNA-targeting elements."},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "The distinct target preference coincides with loss of a C-terminal region in the TnsD protein"}
+   ]},
+  {"n": 435, "id": "pmid:38470545",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Overall, the predictive and prognostic value of cfDNA concentration was more limited than that of ctDNA."},
+    {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "In contrast, ctDNA was significantly positively correlated with RCB at all timepoints (all R > 0.3 and P < 0.05)."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "In TNBC, the difference in survival between high versus low cfDNA shedders at all timepoints was not statistically significant."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "In the HR-positive/HER2-negative group, cfDNA concentration did not associate with response to NAC, but survival analysis showed that high cfDNA shedders at pretreatment had a significantly worse DRFS than low shedders (hazard ratio, 2.12; P = 0.037)."}
+   ]},
+  {"n": 436, "id": "pmid:42893750",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "The prognostic analysis demonstrated that co-lncRNA networks outperform individual lncRNAs in predicting patient outcomes"},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "NEAT1 was associated with distinct macrophage states and functional changes along pseudotime."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "SIGLNCOS identified 3,381 co-lncRNA pairs involved in key cancer-related pathways"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Applying SIGLNCOS, we identified 667 cellular-signature lncRNAs (clncRNAs) from over half a million single cells across 31 cancers"}
+   ]},
+  {"n": 437, "id": "pmid:37032811",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "These results demonstrate that the associations between gene expression and somatic mutations can translate into the associations between gene expression and mutational signatures."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "We capitalized upon RNA-seq data to model 49 established mutational signatures in 33 cancer types."},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "An independent gene expression dataset on lung cancer smoking status was used for validation which achieved over 80% for both accuracy and area under the curve."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "A total of 475 models using unconstrained genes, and 112 models using protein-coding genes were selected for future inference purposes."}
+   ]},
+  {"n": 438, "id": "pmid:40790260",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Here we show that heat stress reduces DNA methylation in the ROS1 promoter to suppress its expression."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "Transgenic plants with exogenous ROS1 maintain high expression levels during heat stress, causing transposable element hypomethylation and enhanced transcription and transgenerational transposition of the heat-activated retrotransposon ONSEN."},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We propose that heat-induced suppression of ROS1 transcription, which is conserved across plant species, serves as a brake system to limit transposable element activation, thereby safeguarding genome stability."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Under normal conditions, SUVH1 and SUVH3 bind methylated ROS1 promoter regions, inhibiting chromatin interactions around the ROS1 locus; heat stress triggers their dissociation"}
+   ]},
+  {"n": 439, "id": "pmid:41619106",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "TP53 mutations were the most frequently observed, present in 37.5%, 14.8%, and 20.4% of patients at baseline, post-NAC, and follow-up, respectively."},
+    {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "ctDNA positivity for these mutations consistently showed elevated HRs for disease progression across clinical time points (HR range, 2.73-20.49)."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "ctDNA was detected in 50.9% of patients at baseline, 25.0% post-NAC, and 58.3% during follow-up."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "ctDNA non-clearance was associated with the highest risk of disease progression (HR 81.09, P < 0.001) and remained the strongest independent prognostic factor in the multivariate analysis (HR 52.07, P < 0.001)."}
+   ]},
+  {"n": 440, "id": "pmid:39276497",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Further studies are needed to assess the impact on outcomes and treatment response within this population."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "TMB was highest in POLEmut/MMRd EC compared to POLEmut/MMRp and POLEwt/MMRd ECs (both p < 0.001)."},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Small indels were enriched in POLEwt/MMRd ECs (p < 0.001)."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Among the 14 POLEmut/MMRd ECs, 11 (79 %) exhibited clonal POLE hotspot mutations"}
+   ]},
+  {"n": 441, "id": "doi:10.64898/2026.09.24.754008",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Insertion libraries grown in rich medium, glucose or xylose achieved genome-wide densities of one distinct site per 21–112 bp across individual libraries."},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "A machine-learning classifier integrated insertion patterns and gene structure to predict essentiality across 11,111 genes."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "Applying a stringent consensus criterion identified 709 genes predicted essential on both glucose and xylose as sole carbon sources, and 91 predicted essential on one but nonessential on the other."},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "with added constraints improving agreement with measured growth and gas exchange"}
+   ]},
+  {"n": 442, "id": "pmid:42729067",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "VEPH1 transcript expression was significantly lower in ccRCC tissues than in normal renal tissues"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "Functionally, VEPH1 overexpression increased E-cadherin, decreased N-cadherin, and suppressed migration and invasion"},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "VEPH1 may represent a candidate prognostic indicator in ccRCC; however, its relationship with AKT and ERK signaling and its clinical relevance require further mechanistic and independent-cohort validation."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Validation in 11 paired clinical specimens confirmed reduced VEPH1 messenger RNA (mRNA) and VEPH1 protein expression in tumor tissues."}
+   ]},
+  {"n": 443, "id": "pmid:40804861",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Clinical validation using 47 patient plasma samples confirmed robust cfDNA recovery and fragment integrity."},
+    {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "The optimized protocol demonstrated superior recovery with a limit of detection (LoD) as low as 0.3 pg/µL and a limit of quantification (LoQ) of 1 pg/μL with no detectable PCR inhibition."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "Performance was benchmarked against a commercial reference kit (Apostle MiniMax) using spiked oligonucleotides and plasma from patients with stage IV NSCLC."},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "SafeCAP 2.0 offers a cost-effective, high-performance solution for cfDNA extraction in both research and clinical workflows."}
+   ]}
+ ]}

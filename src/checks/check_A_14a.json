@@ -1,0 +1,87 @@
+{"batch": "check_A_14a", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+   {"n": 490, "id": "pmid:40849558",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Drug sensitivities, including those of navitoclax and CCT036477, showed an association with GOT1 expression."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Our comprehensive analysis revealed a critical role of GOT1 in CRC, confirming its role as a diagnostic and therapeutic target. Nonetheless, its role in tumorigenesis warrants further investigation."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "GOT1 expression significantly varied across cancer types, showing high diagnostic value in colon adenocarcinoma and rectal adenocarcinoma."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "it correlated with immune cells, such as CD8 + T and plasma cells, and immune checkpoint genes LGALS9 and TNFRSF4"}
+    ]},
+   {"n": 491, "id": "pmid:39362423",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "we first annotated 5,501,822 transposons in the whole genome of Brandt's voles (Lasiopodomys brandtii), and revealed that LINEs were the most abundant, comprising 16.61 % of the genome"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "SINEs accounted for 10.13 %, LTRs for 7.54 %, and DNA transposons for 0.70 %"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Photoperiod is a pivotal factor in affecting spermatogenesis in seasonal-breeding animals."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Differential expression and Pearson analysis indicated strongly positive correlations between the expression of differentially expressed retrotransposons and the adjacent genes."}
+    ]},
+   {"n": 492, "id": "pmid:42794647",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "whereas direct addition of the peptide to PBMCs alone did not induce cytokine production"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "These results demonstrate that the PERV p15E protein can modulate cytokine release by human immune cells and suppress their cytotoxic activity."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Here, a new construct with a higher expression of p15E and consequently higher effects on cytokine release was designed and used."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "PERV p15E induced an elevated expression of IL-10, IL-6 and 24 other cytokines and modulated the expression of hundreds of genes."}
+    ]},
+   {"n": 493, "id": "pmid:42392486",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "At a specificity of 91.30%, sensitivity increased with stage from 52.94% (95% CI: 30.96-73.83) to 88.89% (95% CI: 56.50-99.43)."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "achieving an AUC of 0.72 (95% CI: 0.55-0.89; P = 0.018) in baseline plasma samples from ASCC patients with T1 or T2 tumors ≤4 cm, versus 0.90 (95% CI: 0.76-1.00; P = 0.0005) in plasma from patients with T2 tumors >4 cm or T3 tumors"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "CpG-methylated biomarker levels were significantly higher in ASCC tissue compared with normal tissue and whole blood."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "The AnMM-ddPCR assay enables HPV-independent ctDNA detection in plasma samples from anal cancer patients and supports its evaluation in future liquid biopsy applications."}
+    ]},
+   {"n": 494, "id": "doi:10.1101/2024.08.09.607250",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Mitochondrial heteroplasmy was observed in 90% of cases, with a significant proportion of mutations located in D-loop region."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Given the paucity of coding mutations observed in this disease entity, disruption of the non-coding landscape and mitochondrial heteroplasmic shift may be the primary cause of thymoma."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The total number of somatic mutations was approximately 80 times higher in non-coding regions than in coding regions in type B1-2 thymomas (1,671.3 vs. 21.1 per case)."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "detected six recurrent mutations: one interferon regulatory factor ( IRF8 ), two E3 ubiquitin ligases ( UBR2 and RNF213 ), and three intergenic regions"}
+    ]},
+   {"n": 495, "id": "pmid:42035265",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Glofitamab monotherapy achieved an interim overall response rate of 75%, including 50% complete responses. Median progression-free survival was 15.4 months"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "In several patients, glofitamab was used as a bridge to subsequent CAR-T and/or autologous stem cell transplantation (ASCT), which may have influenced long-term outcomes."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "while persistent or re-emergent ctDNA preceded clinical progression"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Glofitamab was detectable in the CSF of 60% of patients, with CSF/plasma ratios up to 0.44%."}
+    ]},
+   {"n": 496, "id": "pmid:40320741",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Such an approach holds promise for enhancing patient access to timely genomic profiling and targeted therapy selection."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "63 plasma-only alterations were identified in 18% of patients and were more frequently observed in those with prior targeted treatments (24%) compared to chemotherapy (10%)"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Sequencing success rates for cfDNA genomic profiling was significantly higher than archived tumor tissue (99% vs 96%)."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "About 72% of the patients showed concordant alterations from tissue and plasma. The level of concordance was associated with the cancer type, tumor burden, and metastatic location."}
+    ]},
+   {"n": 497, "id": "doi:10.64898/2026.04.08.717310",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "The variant callers were evaluated by their level of concordance and performance on known somatic variants."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "FreeBayes consistently called the largest number of somatic variants in each sample but also included more potential artifacts."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "FreeBayes consistently called the largest number of somatic variants in each sample but also included more potential artifacts. Overall, FreeBayes, VarScan, MuTect2, and Pisces had the best performance on HD789 data."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we integrated outputs of six variant callers (FreeBayes, MuTect2, Pisces, Platypus, VarDict and VarScan) into a Snakemake pipeline"}
+    ]},
+   {"n": 498, "id": "pmid:42847706",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "In addition, we provide an in-depth characterization of the dynamic TE repertoire that IIV6 carries."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "we show that viral infection consistently alters TE transcript abundance"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "However, the magnitude and direction of the TE modulation depend on the host strain, the virus, and the tissue."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "one of the viruses under study, the Invertebrate Iridescent virus 6 (IIV6), carries TEs on its own, which we characterize as a dynamic repertoire"}
+    ]},
+   {"n": 499, "id": "pmid:39730184",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "None of the 331 mutations related to BTC in The Cancer Genome Atlas (TCGA) database were found in the mutations identified in our study."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Several genes with differences in mutation accumulation between groups were identified, including ADAMTS7, AHNAK2, and CAPN10."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "A higher prevalence of gene mutations was observed in samples without vascular invasion than in those with vascular invasion."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The average number of somatic mutations detected in each case was 53,705, with SNVs accounting for most of these mutations (85.02%)."}
+    ]},
+   {"n": 500, "id": "pmid:41002582",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 2, "evidence": "SSTR2 expression patterns across 22 tumor types were assessed using TNMplot, and its expression in HCC was further validated through The Human Protein Atlas.", "flag": "ambiguous", "reason": "The abstract states both the 22-tumour-type survey and that SSTR2 is moderately expressed in the majority of HCC tumors, but does not explicitly tie the HCC result to that 22-type comparison."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Elevated SSTR2 expression correlates with significantly poorer overall and disease-specific survival."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "High SSTR2 levels are associated with activation of oncogenic signaling cascades related to cell proliferation, epithelial-to-mesenchymal transition (EMT), angiogenesis, and metastasis."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "These data support the rationale for further development of SSTR2-directed therapeutic strategies to inhibit tumor growth and invasion in HCC patients."}
+    ]},
+   {"n": 501, "id": "pmid:38577765",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "C. inopinata genes with upstream or intronic these miniature inverted-repeat transposable element insertions tend to be more highly expressed than their orthologous genes in C. elegans"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Further bioinformatic analyses uncovered 3 additional autonomous hAT elements-Ci-hAT2, Ci-hAT3, and Ci-hAT4-along with over 1,000 copies of 2 nonautonomous miniature inverted-repeat transposable elements, mCi-hAT1 and mCi-hAT4"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "mCi-hAT1 was primarily located in the chromosome arms, a pattern observed in the transposable elements of other Caenorhabditis species, whereas mCi-hAT4 was more evenly distributed across chromosomes"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We tracked at least 3 sequential transpositions of Ci-hAT1 over several years. However, the transposition rates of the other 3 autonomous hAT elements were lower, suggesting varying activity levels."}
+    ]}
+ ]}

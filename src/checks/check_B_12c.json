@@ -1,0 +1,80 @@
+{"batch": "check_B_12c", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+  {"n": 444, "id": "pmid:37283742",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "T cell infiltration levels only served as a prognostic biomarker in melanoma patients with high ultraviolet radiation exposure, breast cancer patients with high homologous recombination deficiency signature, and lung adenocarcinoma patients with high tobacco-associated mutational signature"},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "with the Clock-like signature showing the most widespread influence"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "Risk scores based on mutational signatures mainly induced by Clock-like and AID/APOBEC activity exhibited strong pan-cancer survival stratification ability."},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Our analysis revealed a varied association between mutational signatures and TME, with the Clock-like signature showing the most widespread influence."}
+   ]},
+  {"n": 445, "id": "pmid:38258301",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Polymorphism ratios were between 0 and 33% in all samples for Nikita and 0-73% in all samples for Sukkula ."},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Inter-retrotransposonamplified polymorphism-polymerase chain reaction (IRAP-PCR) method was performed for these retrotransposons movements in three diverse domestic goose populations"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "In silico analyses supported the transitions of retrotransposons in the family Anatidae."},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "while 0-27% in Chinese x Embden, and 0-50% in Turkish Multicolor for Sukkula . There was no polymorphism for Sukkula among Turkish White samples."}
+   ]},
+  {"n": 446, "id": "pmid:39663356",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "ctDNA-positive patients have significantly worse median overall survival than ctDNA-negative patients (29.0 months vs. 47.4 months, respectively)."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "Of 776 patients, 59% are ctDNA-positive, with 26% having high ctDNA aneuploidy"},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Alliance A031201 randomized phase 3 trial of enzalutamide with or without abiraterone"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "mCRPC patients identified as ctDNA-positive using the AR-ctDETECT assay have poor survival despite treatment with potent AR inhibitors in a phase 3 trial"}
+   ]},
+  {"n": 447, "id": "pmid:41044128",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "We observed a strong positive correlation between repeat and TE content with genome size"},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "with major components including LINEs, LTR/Gypsy, LTR/Copia, and DNA transposons (Maverick and Helitron)"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "RE content constitutes between 42.82% (in Thoradonta yunnana) and 60.86% (in Saussurella cornuta) of their genomes"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "species with large genomes, such as S. cornuta (2.836 Gb) and Formosatettix gonggashanensis (1.465 Gb), have experienced both ancient and recent bursts of TE activity"}
+   ]},
+  {"n": 448, "id": "doi:10.1101/2025.02.24.639589",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "we introduce ArtiCull, a method to identify and remove SNV artifacts by leveraging evolutionary constraints, enabling reliable detection of mutations for signature analysis"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "In HGSOC, we show distinct patterns of APOBEC3 mutagenesis, including late tumor-wide activation in one case and clade-specific enrichment in another."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "In cisplatin-treated TNBC patient-derived xenografts, we identify therapy-induced mutagenesis and inactivation of APOBEC3 activity."},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "In PDAC, we observe a temporal increase in mismatch repair deficiency (MMRd)."}
+   ]},
+  {"n": 449, "id": "doi:10.64898/2026.08.30.26361778",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Baseline immune profiles ( V 0 ) achieved a concordance index (C-index) of 0.66 ( p = 0.015)"},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "censoring- aware Random Survival Forests (RSF) successfully extracted robust prognostic signatures"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "Under model-appropriate metrics, regressors did not generalise ( R 2 < 0); conversely, censoring- aware Random Survival Forests (RSF) successfully extracted robust prognostic signatures."},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Crucially, absolute values measured after two cycles of ICT ( V 1 ) yielded no significant signal ( p = 0.445)."}
+   ]},
+  {"n": 450, "id": "pmid:38977960",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Our findings indicate that rapid promoter evolution is a common trait among piRNA factors engaged in germline silencing across insect species"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "In Drosophila, this pathway relies on three gonad-specific Argonaute proteins (Argonaute-3, Aubergine and Piwi) that associate with 23-28 nucleotide piRNAs"},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "rapid promoter evolution is a common trait among piRNA factors engaged in germline silencing across insect species"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "we observe that the promoters of genes exclusively expressed in germ cells generally exhibit rapid evolution, with some divergence in gene expression"}
+   ]},
+  {"n": 451, "id": "doi:10.1101/2024.09.10.24313398",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "This information greatly improves upon the fidelity of smear diagnosis and can help surgeons tailor their approach, balancing the risks of surgery with the likely benefit."},
+    {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "We demonstrate classifier performance on 50 prospective intraoperative cases, achieving a diagnostic turnaround time under 2 hours"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "ROBIN can detect single nucleotide variants (SNVs), copy number variants (CNVs) and structural variants (SVs) in real-time, and is able to inform a complete integrated diagnosis within 24 hours"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Classifier performance demonstrated concordance with final integrated diagnosis in 90% of prospective cases."}
+   ]},
+  {"n": 452, "id": "pmid:42793237",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "PREX1 protein expression was identified as the top-ranked differentially expressed candidate protein"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "Among 27 cases (22 living, 5 deceased; 23 HPV-positive, 2 HPV-negative, 2 unknown)"},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "PREX1 emerges as a novel candidate biomarker requiring prospective tissue-based immunohistochemical and epigenetic validation in larger multi-center clinical cohorts"},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Kaplan-Meier analysis demonstrated superior overall survival in patients with high PREX1 protein levels."}
+   ]},
+  {"n": 453, "id": "doi:10.64898/2025.12.04.692301",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Many DMR-associated genes maintained consistent transcription under stress, suggesting a stabilising role for DNA methylation."},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "with the ancient LTR retrotransposon RLX_famc9 emerging as a critical target of differential methylation under drought"},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Most DMRs localised to intergenic regions and transposable elements (TEs)"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "gene body methylation was strongly positively correlated with gene expression but negatively with stress responsiveness"}
+   ]},
+  {"n": 454, "id": "pmid:40437208",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Molecular tumor profiling of ctDNA identifies therapeutically relevant mutations at a comparable rate to tumor tissue-based NGS and might therefore serve as an alternative or complementary test for the detection of actionable variants in plasma."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "Here we show that in 82% of the patients, mutations are concordantly detected in tumor tissue and plasma."},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "including fifteen (8%) harboring fusions currently not covered by UltraSEEK"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "In the absence of tumor tissue NGS data (n = 48), five therapeutically relevant mutations are detected."}
+   ]}
+ ]}
