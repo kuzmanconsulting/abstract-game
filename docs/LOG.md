@@ -49,7 +49,7 @@ cp src/corpus.json src/_corpus_before_repair.json.bak
 python3 pipeline/repair_text.py                  # 13 abstracts repaired from src/raw → src/repairs.json; check_R_00 built (pass R)
 # agent: check-v1 on src/batches/check_R_00.json → src/checks/check_R_00.json
 python3 pipeline/merge_checks.py --passes A B C  # 560 kept · 2201/2240 statements · dropped ambiguous 36, ill_formed 3 · pairwise differ 12/6720
-python3 pipeline/build_site.py                   # site/data.json 2.27 MB · site/artifact.html (body fragment for the artifact)
+python3 pipeline/build_site.py                   # site/data.json 2.27 MB · site/artifact.html (body fragment for the artifact) — moved to docs/ + build/ at 15:25, see below
 python3 -m unittest discover -s tests -v         # 12 OK (+ the more→less/fewer flip test)
 # one look at the page: python3 -m http.server in site/ + Playwright screenshots at 1100 px light and 390 px dark — no overflow, no console errors
 ```
@@ -61,4 +61,14 @@ tar --exclude='__pycache__' --exclude='.DS_Store' -czf /mnt/user-data/outputs/ab
 # bridge: tarball → ~/work/abstract-game/_incoming.tar.gz; on the Mac side: tar -xzf … --strip-components=1; sha256 compared
 # artifact: site/artifact.html + files {"data.json": site/data.json}
 # GitHub Pages: README "Publish on GitHub Pages" (git init, gh repo create <org>/abstract-game --public, Pages from main:/site)
+```
+
+## 2026-10-23 15:23 — GitHub Pages can only serve / or /docs
+
+```bash
+git mv site/index.html docs/index.html && git mv site/data.json docs/data.json && git mv site/artifact.html build/artifact.html
+#   build_site.py, README, SCHEMA, DECISIONS D2, tests updated for the new paths
+python3 pipeline/build_site.py --repo-url https://github.com/kuzmanconsulting/abstract-game
+python3 -m unittest discover -s tests -v         # 12 OK
+# Mac (Maja): git add -A && git commit -m "page served from docs/" && git push ; Settings → Pages → main, folder /docs
 ```

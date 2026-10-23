@@ -47,19 +47,30 @@ FIELDS = {
                   '"somatic mutations"', '"cancer genome"', '"cancer genomes"', '"copy number alterations"', '"structural variants"'],
         "require": ["cancer", "tumor", "tumour", "carcinoma", "leukemia", "leukaemia", "lymphoma", "melanoma", "glioma", "sarcoma"],
     },
+    # added 2026-10-23 15:20 (Maja: "yes absolutely do evolutionary genomics as well")
+    "evogen": {
+        "label": "evolutionary genomics",
+        "terms": ['"molecular evolution"', "phylogenomic*", '"adaptive evolution"', '"positive selection"', '"comparative genomics"',
+                  '"genome evolution"', "speciation", '"gene duplication"', '"horizontal gene transfer"', '"convergent evolution"',
+                  '"population genomics"', '"experimental evolution"', '"evolutionary rate"', '"purifying selection"'],
+    },
 }
+# journal-targeted top-up (Maja, 15:20: "add more Nature papers !! and the Cell and Genome Biology and Nature Communications")
+TOP_JOURNALS = ["Nature", "Cell", "Genome Biology", "Nature Communications"]
 SOURCES = {"journal": "SRC:MED", "preprint": "SRC:PPR"}
 PREPRINT_SERVERS = {"bioRxiv", "medRxiv"}
 MIN_CHARS, MAX_CHARS = 900, 3200
 RESULT_HEADINGS = ("result", "finding", "outcome")
 
 
-def build_query(field, source, start, end):
+def build_query(field, source, start, end, journals=None):
     f = FIELDS[field]
     terms = " OR ".join("ABSTRACT:%s" % t for t in f["terms"])
     q = "(%s)" % terms
     if f.get("require"):
         q += " AND (%s)" % " OR ".join("ABSTRACT:%s" % w for w in f["require"])
+    if journals:
+        q += " AND (%s)" % " OR ".join('JOURNAL:"%s"' % j for j in journals)
     q += " AND %s AND FIRST_PDATE:[%s TO %s] AND HAS_ABSTRACT:y" % (SOURCES[source], start, end)
     if source == "journal":
         q += ' NOT PUB_TYPE:"Review" NOT PUB_TYPE:"Editorial" NOT PUB_TYPE:"Comment" NOT PUB_TYPE:"Letter"'
@@ -197,18 +208,23 @@ def main(argv=None):
     ap.add_argument("--pages", type=int, default=1)
     ap.add_argument("--exclude", default=None, help="a bank directory whose items' pmids/dois are dropped (the trial banks)")
     ap.add_argument("--out", default=OUT)
+    ap.add_argument("--fields", nargs="+", default=list(FIELDS), help="fields to fetch (default all)")
+    ap.add_argument("--sources", nargs="+", default=list(SOURCES), help="journal and/or preprint")
+    ap.add_argument("--journals", nargs="*", default=None, help="restrict to these exact journal titles (JOURNAL:); 'top' = %s" % ", ".join(TOP_JOURNALS))
+    ap.add_argument("--suffix", default="", help="suffix for raw file names, e.g. 'top' → <field>_<source>_top.json")
     a = ap.parse_args(argv)
+    journals = TOP_JOURNALS if a.journals == ["top"] else (a.journals or None)
     os.makedirs(RAW_DIR, exist_ok=True)
     ex_pmids, ex_dois = load_exclusions(a.exclude)
     print("excluding %d pmids, %d dois" % (len(ex_pmids), len(ex_dois)))
     queries, counts, dropped, seen, candidates = {}, {}, {}, set(), []
-    for field in FIELDS:
-        for source in SOURCES:
-            q = build_query(field, source, a.start, a.end)
+    for field in a.fields:
+        for source in a.sources:
+            q = build_query(field, source, a.start, a.end, journals)
             queries["%s_%s" % (field, source)] = q
-            print("%s / %s" % (field, source))
+            print("%s / %s%s" % (field, source, " / " + ",".join(journals) if journals else ""))
             rows = fetch_query(q, a.page_size, a.pages)
-            with open(os.path.join(RAW_DIR, "%s_%s.json" % (field, source)), "w", encoding="utf-8") as f:
+            with open(os.path.join(RAW_DIR, "%s_%s%s.json" % (field, source, ("_" + a.suffix) if a.suffix else "")), "w", encoding="utf-8") as f:
                 json.dump(rows, f, ensure_ascii=False)
             kept = 0
             for rec in rows:
@@ -227,6 +243,7 @@ def main(argv=None):
             counts["%s_%s" % (field, source)] = {"fetched": len(rows), "kept": kept}
             print("  kept %d of %d" % (kept, len(rows)))
     header = {"fetched_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "api": API, "window": [a.start, a.end],
+              "fields": a.fields, "sources": a.sources, "journals": journals,
               "queries": queries, "counts": counts, "dropped": dropped, "excluded_pmids": len(ex_pmids), "excluded_dois": len(ex_dois),
               "n": len(candidates), "filters": {"min_chars": MIN_CHARS, "max_chars": MAX_CHARS, "preprint_servers": sorted(PREPRINT_SERVERS),
                                                    "results_required": True}}

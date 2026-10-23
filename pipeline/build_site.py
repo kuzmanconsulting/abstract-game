@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Build site/data.json from src/items.json: the public item set (what the page needs, nothing internal) plus a header
-with provenance and counts. The page (site/index.html) fetches it with a relative URL, so the same two files work on
+"""Build docs/data.json from src/items.json: the public item set (what the page needs, nothing internal) plus a header
+with provenance and counts. The page (docs/index.html) fetches it with a relative URL, so the same two files work on
 GitHub Pages, as a published artifact (index + data.json as a supporting file) and under `python3 -m http.server`.
 
     python3 pipeline/build_site.py --repo-url https://github.com/<org>/abstract-game
@@ -15,7 +15,7 @@ from datetime import datetime, timezone
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 ITEMS = os.path.join(ROOT, "src", "items.json")
-OUT = os.path.join(ROOT, "site", "data.json")
+OUT = os.path.join(ROOT, "docs", "data.json")        # GitHub Pages (branch deploy) serves only / or /docs
 PUBLIC_ITEM = ("n", "id", "field", "source", "server", "pmid", "doi", "title", "authors", "journal", "year", "date", "url", "doi_url", "sections")
 PUBLIC_STATEMENT = ("k", "text", "label", "evidence", "note", "agreement")
 
@@ -29,17 +29,18 @@ def public(item):
     return out
 
 
-ARTIFACT = os.path.join(ROOT, "site", "artifact.html")
+ARTIFACT = os.path.join(ROOT, "build", "artifact.html")
 STRIP = ("<!doctype html>", '<html lang="en">', "<head>", "</head>", "<body>", "</body>", "</html>",
          '<meta charset="utf-8">', '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">')
 
 
-def artifact_page(index_path=os.path.join(ROOT, "site", "index.html"), out_path=ARTIFACT):
+def artifact_page(index_path=os.path.join(ROOT, "docs", "index.html"), out_path=ARTIFACT):
     """The same page as a body fragment for the claude.ai Artifact tool, which wraps it in its own document skeleton."""
     with open(index_path, encoding="utf-8") as f:
         html = f.read()
     for tag in STRIP:
         html = html.replace(tag + "\n", "").replace(tag, "")
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(html.lstrip("\n"))
     return out_path

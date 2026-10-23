@@ -30,11 +30,14 @@ def public_view(item):
             "sections": item["sections"], "text": abstract_text(item)}
 
 
-def gen_batches(items, size):
+def gen_batches(items, size, start=0, first_batch=0):
+    """Batches for items[start:], numbered from first_batch — so a corpus extension gets new batch files and the
+    existing ones (and their generated/checked outputs) are left alone."""
     os.makedirs(BATCH_DIR, exist_ok=True)
     names = []
+    items = items[start:]
     for b in range(0, len(items), size):
-        name = "gen_%02d" % (b // size)
+        name = "gen_%02d" % (first_batch + b // size)
         with open(os.path.join(BATCH_DIR, name + ".json"), "w", encoding="utf-8") as f:
             json.dump({"batch": name, "items": [public_view(it) for it in items[b:b + size]]}, f, ensure_ascii=False, indent=0)
         names.append(name)
@@ -83,10 +86,12 @@ def main(argv=None):
     ap.add_argument("--passes", nargs="+", default=["A", "B", "C"])
     ap.add_argument("--seed", type=int, default=7)
     ap.add_argument("--force", action="store_true", help="check: rewrite existing check batch files")
+    ap.add_argument("--start", type=int, default=0, help="gen: first corpus position to batch (extension runs)")
+    ap.add_argument("--first-batch", type=int, default=0, help="gen: number of the first batch file written")
     a = ap.parse_args(argv)
     with open(CORPUS, encoding="utf-8") as f:
         items = json.load(f)["items"]
-    names = gen_batches(items, a.size) if a.what == "gen" else check_batches(items, a.passes, a.seed, a.size, a.force)
+    names = gen_batches(items, a.size, a.start, a.first_batch) if a.what == "gen" else check_batches(items, a.passes, a.seed, a.size, a.force)
     print("%d new batches%s" % (len(names), (": %s … %s" % (names[0], names[-1])) if names else ""))
     return 0
 

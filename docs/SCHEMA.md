@@ -1,7 +1,7 @@
 # Schema — Abstract Reader
 
 Every file the pipeline reads or writes, field by field. All JSON is UTF-8; `src/` is provenance and is committed;
-`site/` is what gets published.
+`docs/` holds the page, its data file and these notes; GitHub Pages serves `/docs`.
 
 ## `src/candidates.json` — `pipeline/fetch_candidates.py`
 
@@ -68,7 +68,7 @@ checker_label_agreement_pairwise {agree, differ}, kept_by_field, kept_by_source,
 `text` (as shown), `label` (as played), `evidence`, `note`, `agreement` (unanimous | majority), `checks` {A/B/C:
 {label, confidence, flag}}, `alter` {kind, basis, from?, to?} for a composed or flipped item}.
 
-## `site/data.json` — `pipeline/build_site.py`
+## `docs/data.json` — `pipeline/build_site.py` (served by GitHub Pages from `/docs`)
 
 `header`: `built`, `n_items`, `n_statements`, `by_field`, `by_source`, `years` ("2023–2026"), `merged_utc`,
 `passes`, `rule`, `stats` (from items.json), `repo_url`, `sources`, `generation`.

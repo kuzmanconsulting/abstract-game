@@ -10,8 +10,9 @@ at fetch time (`pipeline/fetch_candidates.py --exclude <bank dir>`; 828 identifi
 reads the trial's data or code.
 
 **D2. Static site, no server, no password (Maja, 2026-10-23 13:55: "it can be without password and so on"; 14:14:
-"GitHub Pages").** Every answer is revealed on submit, so the page needs no backend: `site/index.html` +
-`site/data.json`, hosted on GitHub Pages (free for public repositories, personal or organisation) and, for the first
+"GitHub Pages").** Every answer is revealed on submit, so the page needs no backend: `docs/index.html` +
+`docs/data.json` (a branch deploy on GitHub Pages serves only the root or `/docs`, so the page lives beside these
+notes), hosted on GitHub Pages (free for public repositories, personal or organisation) and, for the first
 look, as a claude.ai artifact. Scores stay in the player's browser (localStorage: statements answered, % correct,
 streak, abstracts seen). A shared leaderboard would need a small backend (Cloudflare Worker + KV, or the artifact's
 own database) and is deferred.

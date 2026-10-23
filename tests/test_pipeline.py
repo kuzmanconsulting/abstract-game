@@ -187,7 +187,7 @@ class EndToEnd(unittest.TestCase):
     """corpus -> generated -> blind check batches -> three check files -> merge -> site data, on two abstracts."""
     def setUp(self):
         self.tmp = tempfile.mkdtemp(prefix="abstract-game-e2e-")
-        for d in ("src/batches", "src/generated", "src/checks", "site"):
+        for d in ("src/batches", "src/generated", "src/checks", "docs"):
             os.makedirs(os.path.join(self.tmp, d))
         items = [{"n": 0, "id": "pmid:1", "field": "cfdna", "source": "journal", "server": None, "pmid": "1", "doi": "10.1/a", "title": "Paper A", "authors": ["Doe J"], "journal": "J A", "year": 2025, "date": "2025-02-01", "url": "u", "doi_url": "d",
                   "sections": [{"label": "Results", "text": "ctDNA was found in 80% of responders. Levels fell after therapy."}]},
@@ -276,9 +276,9 @@ class EndToEnd(unittest.TestCase):
         items_path = os.path.join(self.tmp, "src", "items.json")
         with open(items_path, "w", encoding="utf-8") as f:
             json.dump({"header": {"merged_utc": "x", "passes": ["A", "B", "C"], "rule": {}, "stats": stats}, "items": merged}, f)
-        header = build_site.build(items_path, os.path.join(self.tmp, "site", "data.json"), repo_url="https://example.org/r")
+        header = build_site.build(items_path, os.path.join(self.tmp, "docs", "data.json"), repo_url="https://example.org/r")
         self.assertEqual((header["n_items"], header["n_statements"], header["years"]), (2, 7, "2025–2026"))
-        with open(os.path.join(self.tmp, "site", "data.json"), encoding="utf-8") as f:
+        with open(os.path.join(self.tmp, "docs", "data.json"), encoding="utf-8") as f:
             data = json.load(f)
         s0 = data["items"][0]["statements"]
         self.assertTrue(all("checks" not in s for s in s0), "checker details stay out of the public file")
