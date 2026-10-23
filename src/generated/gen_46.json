@@ -1,0 +1,517 @@
+{
+ "batch": "gen_46",
+ "prompt_version": "gen-v5",
+ "items": [
+  {
+   "n": 1075,
+   "id": "pmid:32483360",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Whole-genome sequencing of cfDNA pooled the signal of thousands of somatic mutations and detected tumor fractions as low as 10^-5.",
+     "evidence": "Whole-genome sequencing (WGS) of cfDNA allowed ultra-sensitive detection, capitalizing on the cumulative signal of thousands of somatic mutations observed in solid malignancies, with TF detection sensitivity as low as 10 -5",
+     "note": "The abstract reports that WGS of cfDNA reached a tumor-fraction detection sensitivity down to 10^-5 by integrating the signal of thousands of mutations."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Residual disease detected after surgery with the cfDNA whole-genome sequencing approach was associated with worse patient outcome.",
+     "evidence": "The WGS approach enabled dynamic tumor burden tracking and postoperative residual disease detection, associated with adverse outcome.",
+     "note": "The abstract links postoperative residual disease detected by the WGS approach to adverse outcome."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Whole-genome sequencing of cfDNA was cheaper per sample than deep targeted sequencing.",
+     "evidence": "We reasoned that breadth may supplant depth of sequencing to overcome the barrier of cfDNA abundance.",
+     "note": "The abstract contrasts breadth and depth of sequencing only as a way around limited cfDNA abundance and never mentions sequencing cost."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The study found that low tumor fraction together with a limited number of DNA fragments restricts deep targeted sequencing for monitoring low-burden disease.",
+     "evidence": "we found that the combination of low tumor fraction (TF) and limited number of DNA fragments restricts low-disease-burden monitoring through the prevailing deep targeted sequencing paradigm",
+     "note": "The authors report that low tumor fraction combined with scarce DNA fragments limits the deep targeted sequencing approach for low-burden disease."
+    }
+   ]
+  },
+  {
+   "n": 1076,
+   "id": "pmid:34294911",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "PhasED-seq detected ctDNA in solid tumors with the same sensitivity it achieved in B cell lymphomas.",
+     "evidence": "Finally, we demonstrate the application of PhasED-seq to solid tumors.",
+     "note": "The abstract only states that PhasED-seq was applied to solid tumors, without comparing its sensitivity there with that in lymphoma."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Even without molecular barcodes, PhasED-seq had better detection limits than earlier methods, duplex barcoding included, and detected ctDNA at parts-per-million levels.",
+     "evidence": "We show that even without molecular barcodes, the limits of detection of PhasED-seq outperform prior methods, including duplex barcoding, allowing ctDNA detection in the ppm range in participant samples.",
+     "note": "The abstract states that the detection limits of barcode-free PhasED-seq beat prior methods including duplex barcoding and reached the ppm range."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "PhasED-seq detected ctDNA in a further 25% of participants whose ctDNA was undetectable by cancer personalized profiling by deep sequencing after two therapy cycles; they had worse outcomes.",
+     "evidence": "In participants with undetectable ctDNA after two cycles of therapy using a next-generation sequencing-based approach termed cancer personalized profiling by deep sequencing, an additional 25% have ctDNA detectable by PhasED-seq and have worse outcomes.",
+     "note": "The abstract reports that among participants negative by the earlier deep-sequencing approach, an additional 25% were PhasED-seq positive and had worse outcomes."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Phased variants, and how they relate to mutational signatures, were identified using whole-genome sequences of 2,538 tumors.",
+     "evidence": "Leveraging whole-genome sequences from 2,538 tumors, we identify phased variants and their associations with mutational signatures.",
+     "note": "The abstract states that whole genomes of 2,538 tumors were used to identify phased variants and their links to mutational signatures."
+    }
+   ]
+  },
+  {
+   "n": 1077,
+   "id": "pmid:28925386",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "For predicting colorectal and gastric cancers, cfDNA 5hmC biomarkers were better than conventional biomarkers and comparable to 5hmC biomarkers from tissue biopsies.",
+     "evidence": "5hmC-based biomarkers of circulating cfDNA were highly predictive of colorectal and gastric cancers and were superior to conventional biomarkers and comparable to 5hmC biomarkers from tissue biopsies.",
+     "note": "The abstract states that cfDNA 5hmC markers were superior to conventional biomarkers and comparable to tissue 5hmC markers for these two cancers."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Most 5hmC lay in transcriptionally active genomic regions, which overlapped with open chromatin and permissive histone marks.",
+     "evidence": "5hmC was mainly distributed in transcriptionally active regions coincident with open chromatin and permissive histone modifications.",
+     "note": "The abstract reports that 5hmC was concentrated in active regions that coincide with open chromatin and permissive histone modifications."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The cfDNA of cancer patients carried robust 5hmC signatures that were characteristic of individual cancer types.",
+     "evidence": "Robust cancer-associated 5hmC signatures were identified in cfDNA that were characteristic for specific cancer types.",
+     "note": "The abstract reports robust cancer-associated 5hmC signatures in cfDNA that were specific to cancer types."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "cfDNA 5hmC biomarkers detected early-stage colorectal cancer as accurately as late-stage colorectal cancer.",
+     "evidence": "a cohort of 260 patients recently diagnosed with colorectal, gastric, pancreatic, liver or thyroid cancer",
+     "note": "The abstract describes recently diagnosed patients but gives no results broken down by tumor stage."
+    }
+   ]
+  },
+  {
+   "n": 1078,
+   "id": "pmid:38477985",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "About one in six participants with colonoscopy-detected colorectal cancer (16.9%) had a negative result on the cfDNA blood test.",
+     "evidence": "A total of 83.1% of the participants with colorectal cancer detected by colonoscopy had a positive cfDNA test and 16.9% had a negative test",
+     "note": "The abstract reports that 83.1% of colonoscopy-confirmed colorectal cancers tested positive and 16.9% tested negative on the cfDNA test."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Offering the cfDNA blood test raised colorectal cancer screening adherence in the screening-eligible population.",
+     "evidence": "A blood-based test has the potential to improve screening adherence, detect colorectal cancer earlier, and reduce colorectal cancer-related mortality.",
+     "note": "Adherence appears only as a motivating possibility in the background; the study measured test accuracy against colonoscopy, not adherence."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The cfDNA test's sensitivity for advanced precancerous lesions (13.2%) was far lower than its sensitivity for stage I-III colorectal cancer (87.5%).",
+     "evidence": "Sensitivity for stage I, II, or III colorectal cancer was 87.5% (95% CI, 75.3 to 94.1), and sensitivity for advanced precancerous lesions was 13.2% (95% CI, 11.3 to 15.3).",
+     "note": "The abstract gives 87.5% sensitivity for stage I to III cancer against only 13.2% for advanced precancerous lesions."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Among participants without advanced colorectal neoplasia on colonoscopy, 10.4% nevertheless received a positive cfDNA blood test result.",
+     "evidence": "A total of 89.6% of the participants without any advanced colorectal neoplasia (colorectal cancer or advanced precancerous lesions) identified on colonoscopy had a negative cfDNA blood-based test, whereas 10.4% had a positive cfDNA blood-based test",
+     "note": "The abstract reports that 10.4% of participants free of advanced neoplasia on colonoscopy had a positive cfDNA test."
+    }
+   ]
+  },
+  {
+   "n": 1079,
+   "id": "pmid:32111602",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The diversity of end motifs on plasma DNA fragments was significantly increased in patients with hepatocellular carcinoma.",
+     "evidence": "we found a significant increase in the diversity of plasma DNA end motifs in patients with hepatocellular carcinoma (HCC)",
+     "note": "The abstract reports a significant increase in plasma DNA end-motif diversity in patients with HCC."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Compared with subjects without HCC, patients with HCC showed markedly lower levels of plasma DNA ending in the CCCA motif.",
+     "evidence": "the abundance of plasma DNA motif CCCA was much lower in patients with HCC than in subjects without HCC",
+     "note": "The abstract states that the CCCA end motif was much less abundant in plasma DNA of patients with HCC than in subjects without HCC."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The altered plasma DNA end motifs in HCC arise from changed activity of the nucleases that cut plasma DNA.",
+     "evidence": "Compared with patients without HCC, patients with HCC showed a preferential pattern of 4-mer end motifs.",
+     "note": "The abstract describes the altered 4-mer end-motif pattern but gives no mechanism, nucleases included, for how it arises."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "End-motif profiles of plasma DNA from the same organ of origin, such as liver, placenta or hematopoietic cells, generally grouped together.",
+     "evidence": "the profile of plasma DNA end motifs originating from the same organ, such as the liver, placenta, and hematopoietic cells, generally clustered together",
+     "note": "The abstract reports that end-motif profiles of plasma DNA from the same organ generally clustered together."
+    }
+   ]
+  },
+  {
+   "n": 1080,
+   "id": "pmid:29056346",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The number of driver mutations in tumors rises as mutation burden increases, but the relationship is not linear.",
+     "evidence": "With increasing mutation burden, numbers of driver mutations increase, but not linearly.",
+     "note": "The abstract states that driver mutation numbers increase with mutation burden, though not linearly."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "During cancer development, positive selection dominates over negative selection, in contrast to what is seen in species evolution.",
+     "evidence": "Unlike species evolution, positive selection outweighs negative selection during cancer development.",
+     "note": "The abstract states that, unlike in species evolution, positive selection outweighs negative selection in cancer."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Positively selected coding substitutions number fewer than one per tumor in thyroid and testicular cancers but more than ten per tumor in endometrial and colorectal cancers.",
+     "evidence": "coding substitutions under positive selection, ranging from <1/tumor in thyroid and testicular cancers to >10/tumor in endometrial and colorectal cancers",
+     "note": "The abstract gives a range from under one positively selected coding substitution per tumor in thyroid and testicular cancers to over ten in endometrial and colorectal cancers."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Patients whose tumors carried more driver mutations had worse survival.",
+     "evidence": "We systematically catalog cancer genes and show that genes vary extensively in what proportion of mutations are drivers versus passengers.",
+     "note": "The abstract analyses selection and driver counts across tumors but reports no patient outcome data."
+    }
+   ]
+  },
+  {
+   "n": 1081,
+   "id": "pmid:29643504",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Loss of heterozygosity in Saccharomyces cerevisiae isolates arises mainly through mitotic recombination.",
+     "evidence": "A common feature is the extensive loss of heterozygosity, which represents an essential source of inter-individual variation in this mainly asexual species.",
+     "note": "The abstract describes how widespread and important loss of heterozygosity is but not the mechanism that produces it."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Copy-number changes were the most numerous variants found by genome-wide association and had a larger phenotypic effect than single nucleotide polymorphisms.",
+     "evidence": "The largest numbers of variants identified by genome-wide association are copy-number changes, which have a greater phenotypic effect than do single nucleotide polymorphisms.",
+     "note": "The abstract states that copy-number changes dominate the association hits and have a greater phenotypic effect than SNPs."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Genomic analyses point to a single out-of-China origin of Saccharomyces cerevisiae, after which the species was domesticated several times independently.",
+     "evidence": "Genomic analyses support a single 'out-of-China' origin for this species, followed by several independent domestication events.",
+     "note": "The abstract reports support for one out-of-China origin followed by several independent domestication events."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Wild S. cerevisiae isolates evolve mainly by accumulating single nucleotide polymorphisms, whereas domesticated isolates vary widely in ploidy, aneuploidy and genome content.",
+     "evidence": "Although domesticated isolates exhibit high variation in ploidy, aneuploidy and genome content, genome evolution in wild isolates is mainly driven by the accumulation of single nucleotide polymorphisms.",
+     "note": "The abstract contrasts high ploidy, aneuploidy and content variation in domesticated isolates with SNP-driven genome evolution in wild isolates."
+    }
+   ]
+  },
+  {
+   "n": 1082,
+   "id": "pmid:30791939",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The number of duplicate genes derived from whole-genome duplication falls exponentially as the duplication events get older.",
+     "evidence": "The number of WGD-derived duplicate genes decreases exponentially with increasing age of duplication events",
+     "note": "The abstract reports an exponential decrease in WGD-derived duplicates with increasing age of the duplication events."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Tandem duplicate genes are retained more often in annual plants than in perennial plants.",
+     "evidence": "Genes derived from whole-genome, tandem, proximal, transposed, or dispersed duplication differ in abundance, selection pressure, expression divergence, and gene conversion rate among genomes.",
+     "note": "The abstract compares duplication modes across genomes but never contrasts annual with perennial plants."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Gene conversion between WGD-derived gene pairs was highest soon after polyploidization and then decreased over time.",
+     "evidence": "The rate of gene conversion among WGD-derived gene pairs declined over time, peaking shortly after polyploidization.",
+     "note": "The abstract states that gene conversion among WGD-derived pairs peaked shortly after polyploidization and declined thereafter."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Tandem and proximal duplicates were under stronger selective pressure than duplicates from other modes and became biased toward plant self-defense functions.",
+     "evidence": "tandem and proximal duplicates experienced stronger selective pressure than genes formed by other modes and evolved toward biased functional roles involved in plant self-defense",
+     "note": "The abstract reports stronger selective pressure on tandem and proximal duplicates and their functional bias toward self-defense."
+    }
+   ]
+  },
+  {
+   "n": 1083,
+   "id": "pmid:29973726",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "High-latitude marine fish lineages form new species much faster than tropical lineages, with the fastest speciation occurring in species-poor regions outside the tropics.",
+     "evidence": "We show that the fastest rates of speciation occur in species-poor regions outside the tropics, and that high-latitude fish lineages form new species at much faster rates than their tropical counterparts.",
+     "note": "The abstract states that speciation is fastest in species-poor extratropical regions and much faster in high-latitude than tropical lineages."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Extinction rates of marine fishes are lower in the tropics than at high latitudes.",
+     "evidence": "Far more species of organisms are found in the tropics than in temperate and polar regions, but the evolutionary and ecological causes of this pattern remain controversial",
+     "note": "The study estimated speciation rates only and reports nothing on extinction rates by latitude."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Marine regions with high speciation rates are characterized by cold surface waters and high endemism.",
+     "evidence": "High rates of speciation occur in geographical regions that are characterized by low surface temperatures and high endemism.",
+     "note": "The abstract links high speciation rates to regions with low surface temperatures and high endemism."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The results argue against a broad class of mechanisms in which the tropics act as an evolutionary cradle of marine fish diversity.",
+     "evidence": "Our results reject a broad class of mechanisms under which the tropics serve as an evolutionary cradle for marine fish diversity",
+     "note": "The abstract states that the results reject a broad class of tropics-as-cradle mechanisms."
+    }
+   ]
+  },
+  {
+   "n": 1084,
+   "id": "pmid:30415838",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Budding yeasts are as genetically diverse as plants or animals because they have high mutation rates.",
+     "evidence": "Budding yeasts (subphylum Saccharomycotina) are found in every biome and are as genetically diverse as plants or animals.",
+     "note": "The abstract states the level of genetic diversity of budding yeasts but gives no cause for it, mutation rate included."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "A robust genus-level phylogeny of budding yeasts resolved 12 major clades, with diversification spanning from the Devonian period to today.",
+     "evidence": "we establish a robust genus-level phylogeny comprising 12 major clades, infer the timescale of diversification from the Devonian period to the present",
+     "note": "The abstract reports a genus-level phylogeny of 12 major clades and a diversification timescale from the Devonian to the present."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The budding yeast common ancestor was metabolically complex, and evolution across the subphylum featured very low horizontal gene transfer and widespread losses of traits and their genes.",
+     "evidence": "We infer that BYCA was metabolically complex and chronicle the tempo and mode of genomic and phenotypic evolution across the subphylum, which is characterized by very low HGT levels and widespread losses of traits and the genes that control them.",
+     "note": "The abstract infers a metabolically complex common ancestor and describes the subphylum as having very low HGT and widespread trait and gene losses."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The results indicate that reductive evolution is a major route by which lineages diversify.",
+     "evidence": "More generally, our results argue that reductive evolution is a major mode of evolutionary diversification.",
+     "note": "The abstract concludes that reductive evolution is a major mode of evolutionary diversification."
+    }
+   ]
+  },
+  {
+   "n": 1085,
+   "id": "pmid:27479321",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Nonsynonymous and intergenic mutations, as well as insertions and deletions, were enriched in the long-term Escherichia coli populations.",
+     "evidence": "Nonsynonymous mutations, intergenic mutations, insertions and deletions are overrepresented in the long-term populations",
+     "note": "The abstract reports that these mutation classes are overrepresented in the long-term populations, which supports selection on high-frequency mutations."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "In E. coli populations that kept the ancestral mutation rate, the proportion of mutations that were beneficial decreased as fitness increased.",
+     "evidence": "the fraction of beneficial mutations declines as fitness rises",
+     "note": "The abstract states that, in the populations with the ancestral mutation rate, the fraction of beneficial mutations declines as fitness rises."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Most beneficial mutations fixed in the long-term E. coli populations improved nutrient uptake and metabolism.",
+     "evidence": "These results illuminate the shifting balance of forces that govern genome evolution in populations adapting to a new environment.",
+     "note": "The abstract never specifies which functions or traits the beneficial mutations affected."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Data from E. coli populations keeping the ancestral mutation rate fit a model in which most fixed mutations are beneficial and neutral mutations accumulate at a constant rate.",
+     "evidence": "The populations that retained the ancestral mutation rate support a model in which most fixed mutations are beneficial, the fraction of beneficial mutations declines as fitness rises, and neutral mutations accumulate at a constant rate.",
+     "note": "The abstract states that these populations support a model of mostly beneficial fixed mutations and constant-rate accumulation of neutral mutations."
+    }
+   ]
+  },
+  {
+   "n": 1086,
+   "id": "pmid:28318975",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The 1,719-gene dataset, assembled semi-automatically to reduce known error sources, was better in data quality and quantity than earlier metazoan superalignments.",
+     "evidence": "using a 1,719-gene dataset with dense taxonomic sampling of non-bilaterian animals that was assembled using a semi-automated procedure, designed to reduce known error sources. Our dataset outperforms previous metazoan gene superalignments in terms of data quality and quantity",
+     "note": "The abstract states that its 1,719-gene dataset outperforms previous metazoan superalignments in data quality and quantity."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "The analyses dated the split between sponges and all other animals to the Cryogenian period.",
+     "evidence": "Resolving the early diversification of animal lineages has proven difficult, even using genome-scale datasets.",
+     "note": "The abstract addresses only the branching order of early animal lineages, not when they diverged."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Under the best-fitting site-heterogeneous model, sponges were strongly supported as sister to all other metazoans, and ctenophores were the second-earliest branching lineage.",
+     "evidence": "Analyses with a best-fitting site-heterogeneous evolutionary model provide strong statistical support for placing sponges as the sister-group to all other metazoans, with ctenophores emerging as the second-earliest branching animal lineage.",
+     "note": "The abstract reports strong support for sponges as sister to all other animals, with ctenophores branching second, under the best-fitting model."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The Ctenophora-sister topology appeared only under methodological settings that worsened long-branch attraction artifacts.",
+     "evidence": "Only those methodological settings that exacerbated long-branch attraction artifacts yielded Ctenophora-sister.",
+     "note": "The abstract states that Ctenophora-sister was recovered only with settings that exacerbated long-branch attraction."
+    }
+   ]
+  },
+  {
+   "n": 1087,
+   "id": "pmid:28027292",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Between 0.5% and 2% net synonymous divergence lies the intermediate grey zone of speciation, independent of species life history traits or ecology.",
+     "evidence": "spans from 0.5% to 2% of net synonymous divergence, irrespective of species life history traits or ecology",
+     "note": "The abstract places the grey zone of speciation at 0.5% to 2% net synonymous divergence, irrespective of life history or ecology."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "By modeling among-locus variation in genetic drift and introgression rate, the study resolved most ambiguous cases and identified several cryptic species.",
+     "evidence": "we clarify the status of the majority of ambiguous cases and uncover a number of cryptic species",
+     "note": "The abstract reports that the modeling clarified the majority of ambiguous cases and uncovered a number of cryptic species."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "In the grey zone of speciation, prezygotic isolation contributes more to species barriers than reduced hybrid fitness does.",
+     "evidence": "Speciation results from the progressive accumulation of mutations that decrease the probability of mating between parental populations or reduce the fitness of hybrids-the so-called species barriers.",
+     "note": "The abstract defines both kinds of species barrier but never measures their relative contributions."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Semi-isolated species, in which barriers to gene flow affect some but not all loci, occur at a high incidence among animals.",
+     "evidence": "Our analysis also reveals the high incidence in animals of semi-isolated species (when some but not all loci are affected by barriers to gene flow)",
+     "note": "The abstract reports a high incidence of semi-isolated species in animals."
+    }
+   ]
+  },
+  {
+   "n": 1088,
+   "id": "pmid:28812701",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Contentious branches in fungal data matrices depended on single genes more often than contentious branches in animal data matrices.",
+     "evidence": "we use a maximum likelihood framework to quantify the distribution of phylogenetic signal among genes and sites for 17 contentious branches and 6 well-established control branches in plant, animal and fungal phylogenomic data matrices",
+     "note": "The abstract analyses plant, animal and fungal matrices together and reports no comparison between kingdoms."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Dropping one gene from concatenation analyses, or one site from every gene in coalescence-based analyses, decreased support and sometimes changed the inferred topology.",
+     "evidence": "removal of a single gene in concatenation analyses or a single site from every gene in coalescence-based analyses diminishes support and can alter the inferred topology",
+     "note": "The abstract states that removing a single gene or a single site per gene diminishes support and can alter the topology."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Across eight data matrices, gene-wise and site-wise phylogenetic signal consistently placed ctenophores as the sister group to all other metazoans.",
+     "evidence": "examination of the distributions of gene-wise and site-wise phylogenetic signal across eight data matrices consistently supports ctenophores as the sister group to all other metazoans",
+     "note": "The abstract reports that gene-wise and site-wise signal across eight matrices consistently supports ctenophores as sister to all other animals."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Very small subsets of very large phylogenomic data matrices determine how specific internodes are resolved.",
+     "evidence": "These results suggest that tiny subsets of very large data matrices drive the resolution of specific internodes",
+     "note": "The abstract concludes from its results that tiny subsets of large matrices drive the resolution of particular internodes."
+    }
+   ]
+  },
+  {
+   "n": 1089,
+   "id": "pmid:26871574",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The origin of the wild tomato radiation (Solanum sect. Lycopersicon) was dated to roughly 2.5 million years ago.",
+     "evidence": "we date the origin of this radiation to approximately 2.5 million years ago",
+     "note": "The abstract dates the origin of the wild tomato radiation to approximately 2.5 million years ago."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Wild tomatoes show introgression both in the past between early-branching lineages and more recently between individual populations.",
+     "evidence": "we detect introgression both historically between early-branching lineages and recently between individual populations",
+     "note": "The abstract reports historical introgression between early-branching lineages and recent introgression between individual populations."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The environment-specific ancestral variants detected by the PhyloGWAS approach were mainly linked to drought tolerance in wild tomatoes.",
+     "evidence": "we detect environment-specific sorting of ancestral variation among populations that come from different species but share common environmental conditions",
+     "note": "The abstract does not say which environmental factors or traits the sorted ancestral variants relate to."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Across the clade, each of the three sources of adaptive genetic variation draws on a small but substantial and roughly equal fraction of the euchromatic genome.",
+     "evidence": "small but substantial and approximately equal fractions of the euchromatic portion of the genome are inferred to contribute to each of these three sources of adaptive genetic variation",
+     "note": "The abstract infers that small but substantial, approximately equal euchromatic fractions contribute to each of the three sources."
+    }
+   ]
+  }
+ ],
+ "flip_rule": "first-of-any-v3"
+}

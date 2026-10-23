@@ -1,0 +1,143 @@
+{
+ "batch": "gen_53b",
+ "prompt_version": "gen-v5",
+ "items": [
+  {
+   "n": 1184,
+   "id": "pmid:28459454",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Mouse DUX and human DUX4 have divergent binding motifs, yet each switches on cleavage-stage embryonic genes, among them MERVL and ERVL-MaLR retrotransposons, in muscle cells of its own species.",
+     "evidence": "Despite the divergence of their binding motifs, both mouse DUX and human DUX4 in mouse and human muscle cells, respectively, activate genes associated with cleavage-stage embryos, including MERVL and ERVL-MaLR retrotransposons.",
+     "note": "The abstract states that both factors activate cleavage-stage genes, these retrotransposons included, despite their divergent motifs."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Human DUX4 put into mouse cells still produced modest activation of cleavage-stage genes with conventional promoters, but it did not switch on MERVL-promoted genes.",
+     "evidence": "We found that human DUX4 expressed in mouse cells maintained modest activation of cleavage-stage genes driven by conventional promoters but did not activate MERVL-promoted genes.",
+     "note": "This is the experimental result the abstract reports for human DUX4 in a mouse cellular context."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Preventing DUX4 expression in skeletal muscle reverses muscle weakness in people with facioscapulohumeral dystrophy.",
+     "evidence": "Facioscapulohumeral dystrophy (FSHD; MIM158900, MIM158901) is caused by misexpression of the DUX4 transcription factor in skeletal muscle.",
+     "note": "The abstract names DUX4 misexpression as the cause of FSHD but reports nothing about suppressing it or about patients' symptoms."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Which retrotransposons are activated tracks with homeodomain divergence between DUX4 and DUX, while the shared ancestral cleavage-stage program is driven from conventional promoters.",
+     "evidence": "Thus, the ancestral DUX4-regulated genes are characteristic of cleavage-stage embryos and are driven by conventional promoters, whereas divergence of the DUX4 and DUX homeodomains correlates with retrotransposon specificity.",
+     "note": "The abstract draws exactly this contrast between a conserved conventional-promoter program and divergence-linked retrotransposon specificity."
+    }
+   ]
+  },
+  {
+   "n": 1185,
+   "id": "pmid:34619744",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "ISDra2 TnpB from Deinococcus radiodurans is an RNA-directed nuclease: an RNA from the transposon's right-end element guides it to cut DNA beside a 5'-TTGAT motif.",
+     "evidence": "Here we show that TnpB of Deinococcus radiodurans ISDra2 is an RNA-directed nuclease that is guided by an RNA, derived from the right-end element of a transposon, to cleave DNA next to the 5'-TTGAT transposon-associated motif.",
+     "note": "The abstract reports this activity, its guide RNA and the adjacent transposon-associated motif as the study's central finding."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "TnpB proteins encoded by IS607-family insertion sequences cut DNA under RNA guidance just as the ISDra2 enzyme does.",
+     "evidence": "Insertion sequences of IS200/IS605 and IS607 families 2 are among the simplest mobile genetic elements and contain only the genes that are required for their transposition and its regulation.",
+     "note": "The IS607 family is introduced as background, but RNA-guided cleavage is demonstrated only for ISDra2 TnpB, so IS607 TnpB activity is left open."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The work confirms experimentally that TnpB is a functional progenitor of CRISPR-Cas nucleases and sets it up as the prototype of a new genome-editing system.",
+     "evidence": "experimentally confirms that TnpB is a functional progenitor of CRISPR-Cas nucleases and establishes TnpB as a prototype of a new system for genome editing",
+     "note": "The abstract states both conclusions, turning the earlier bioinformatic prediction of a predecessor relationship into an experimental result."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Reprogrammed TnpB cleaved chosen DNA target sites inside human cells.",
+     "evidence": "We also show that TnpB could be reprogrammed to cleave DNA target sites in human cells.",
+     "note": "The abstract reports this retargeting experiment in human cells directly."
+    }
+   ]
+  },
+  {
+   "n": 1186,
+   "id": "pmid:31665631",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "ALS samples carrying known pathogenic mutations fall mainly into the glial activation subtype.",
+     "evidence": "While several pathogenic mutations have been identified, the vast majority of ALS cases have no family history of disease.",
+     "note": "The abstract mentions that pathogenic mutations exist but never links mutation status to any of the three molecular subtypes."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Machine learning sorted the transcriptomes of 148 postmortem ALS cortex samples into three distinct molecular subtypes.",
+     "evidence": "Using machine learning algorithms, we stratify the transcriptomes of 148 ALS postmortem cortex samples into three distinct molecular subtypes.",
+     "note": "The sample count and the three-subtype split are stated as the study's primary result."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The largest subtype, 61% of patient samples, showed oxidative and proteotoxic stress hallmarks, while glial activation signatures predominated in a further 19%.",
+     "evidence": "The largest cluster, identified in 61% of patient samples, displays hallmarks of oxidative and proteotoxic stress. Another 19% of the samples shows predominant signatures of glial activation.",
+     "note": "Both proportions and the fact that the stress cluster is the largest are reported in the abstract."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "One group of samples, 20% of the total, combined high retrotransposon expression with signatures of TARDBP/TDP-43 dysfunction.",
+     "evidence": "Finally, a third group (20%) exhibits high levels of retrotransposon expression and signatures of TARDBP/TDP-43 dysfunction.",
+     "note": "The abstract characterises the third cluster exactly this way, with its 20% share."
+    }
+   ]
+  },
+  {
+   "n": 1187,
+   "id": "pmid:28803918",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Neural cells lacking TREX1 built up abundant extrachromosomal DNA, much of it originating from endogenous Long Interspersed Element-1 retrotransposons.",
+     "evidence": "We observed abundant extrachromosomal DNA in TREX1-deficient neural cells, of which endogenous Long Interspersed Element-1 retrotransposons were a major source.",
+     "note": "The abstract reports the extrachromosomal DNA and names LINE-1 elements as a major source of it."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Loss of TREX1 raised apoptosis in neurons, and the cortical organoids they formed were of reduced size.",
+     "evidence": "TREX1-deficient neurons also exhibited increased apoptosis and formed three-dimensional cortical organoids of reduced size.",
+     "note": "Increased apoptosis and smaller organoids are both stated as phenotypes of TREX1-deficient neurons."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "In this stem-cell model, reverse-transcriptase inhibitors rescued the neurotoxicity of the AGS neurons and organoids.",
+     "evidence": "In this model, reverse-transcriptase inhibitors rescued the neurotoxicity of AGS neurons and organoids, highlighting their potential utility in therapeutic regimens for AGS and related disorders.",
+     "note": "The rescue by reverse-transcriptase inhibitors in the model is reported directly."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "TREX1-deficient microglia add to the neurotoxicity by secreting more type I interferon.",
+     "evidence": "TREX1-deficient astrocytes further contributed to the observed neurotoxicity through increased type I interferon secretion.",
+     "note": "Increased interferon secretion is reported for TREX1-deficient astrocytes; the abstract says nothing either way about microglia."
+    }
+   ]
+  }
+ ],
+ "flip_rule": "first-of-any-v3"
+}

@@ -1,0 +1,108 @@
+{"batch": "check_A_41", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+  {"n": 1000, "id": "pmid:32025018",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "The substantial size of our dataset, compared with previous analyses 3-15 , enabled the discovery of new signatures, the separation of overlapping signatures"},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "we revealed associations of signatures to exogenous or endogenous exposures, as well as to defective DNA-maintenance processes"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "We identified 49 single-base-substitution, 11 doublet-base-substitution, 4 clustered-base-substitution and 17 small insertion-and-deletion signatures."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "By estimating the contribution of each signature to the mutational catalogues of individual cancer genomes, we revealed associations of signatures to exogenous or endogenous exposures, as well as to defective DNA-maintenance processes."}
+   ]},
+  {"n": 1001, "id": "pmid:28420421",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "model that below 0.5 Mb the variance in measurement increases significantly"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "We identify a cluster of somatic mutations in the promoter of the gene PMS2, which occur in 10% of skin cancers and are highly associated with increased TMB."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "We find that TMB increases significantly with age, showing a 2.4-fold difference between age 10 and age 90 years."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "we identify novel, recurrent promoter mutations in PMS2, which may be another example of regulatory mutations contributing to tumorigenesis."}
+   ]},
+  {"n": 1002, "id": "pmid:28481359",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "compiled tumor and matched normal sequence data from a unique cohort of more than 10,000 patients with advanced cancer"},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "To enable discovery of novel biomarkers and deeper investigation into rare alterations and tumor types, all results are publicly accessible."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Patients were enrolled on genomically matched clinical trials at a rate of 11%."},
+     {"j": 4, "label": "supported", "confidence": 2, "evidence": "we identified clinically relevant somatic mutations, novel noncoding alterations, and mutational signatures that were shared by common and rare tumor types.", "flag": "ambiguous", "reason": "In the abstract the clause 'that were shared by common and rare tumor types' can attach to all three items or only to mutational signatures, while the statement asserts sharing for all three."}
+   ]},
+  {"n": 1003, "id": "pmid:27135926",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 2, "evidence": "Three rearrangement signatures, characterized by tandem duplications or deletions, appear associated with defective homologous-recombination-based DNA repair: one with deficient BRCA1 function"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "We found that 93 protein-coding cancer genes carried probable driver mutations."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Some non-coding regions exhibited high mutation frequencies, but most have distinctive structural features probably causing elevated mutation rates and do not contain driver mutations."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Mutational signature analysis was extended to genome rearrangements and revealed twelve base substitution and six rearrangement signatures."}
+   ]},
+  {"n": 1004, "id": "pmid:29713087",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "We carried out a comprehensive genetic analysis of 304 primary DLBCLs and identified low-frequency alterations, captured recurrent mutations, somatic copy number alterations, and structural variants"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "We integrated these genetic drivers using consensus clustering and identified five robust DLBCL subsets, including a previously unrecognized group of low-risk ABC-DLBCLs of extrafollicular/marginal zone origin"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "The coordinate genetic signatures also predict outcome independent of the clinical International Prognostic Index"},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "The genetic features of the newly characterized subsets, their mutational signatures, and the temporal ordering of identified alterations provide new insights into DLBCL pathogenesis."}
+   ]},
+  {"n": 1005, "id": "pmid:27251275",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "analyses of 105 genomically annotated breast cancers, of which 77 provided high-quality data."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "In addition to ERBB2, other amplicon-associated highly phosphorylated kinases were identified, including CDK12, PAK1, PTK2, RIPK2 and TLK2."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "pathway analysis of the phosphoproteome identified a G-protein-coupled receptor cluster that was not readily identified at the mRNA level"},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "connected loss of CETN3 and SKP1 to elevated expression of epidermal growth factor receptor (EGFR), and SKP1 loss also to increased SRC tyrosine kinase."}
+   ]},
+  {"n": 1006, "id": "pmid:29489754",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Our data suggest that 7-8% of the children in this cohort carry an unambiguous predisposing germline variant"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Genetic alterations in 149 putative cancer driver genes separate the tumours into two classes: small mutation and structural/copy-number variant (correlating with germline variants)."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "we identified marked differences in terms of mutation frequency and significantly mutated genes in comparison to previously analysed adult cancers."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Structural variants, hyperdiploidy, and chromothripsis are linked to TP53 mutation status and mutational signatures."}
+   ]},
+  {"n": 1007, "id": "pmid:29850653",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "MSI-high ACC and CESC tumors were observed to have a higher average mutational burden than microsatellite-stable ACC and CESC tumors."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "patients with MSI-positive tumors are predicted to benefit from novel immunotherapies in clinical trials."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "We identified MSI in 3.8% of all cancers assessed-present in 27 of tumor types-most notably adrenocortical carcinoma (ACC), cervical cancer (CESC), and mesothelioma"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "We provide evidence of as-yet-unappreciated MSI in several types of cancer."}
+   ]},
+  {"n": 1008, "id": "pmid:32106218",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "The same mutational signature was detected in a subset of 5,876 human cancer genomes from two independent cohorts, predominantly in colorectal cancer."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Whole-genome sequencing of clonal organoids before and after this exposure revealed a distinct mutational signature that was absent from organoids injected with isogenic pks-mutant bacteria."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Our study describes a distinct mutational signature in colorectal cancer and implies that the underlying mutational process results directly from past exposure to bacteria carrying the colibactin-producing pks pathogenicity island."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Escherichia coli can carry the pathogenicity island pks, which encodes a set of enzymes that synthesize colibactin"}
+   ]},
+  {"n": 1009, "id": "pmid:32025013",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "A nearly fourfold diversification of driver genes and increased genomic instability are features of later stages."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "The mutational spectrum changes significantly throughout tumour evolution in 40% of samples."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Copy number alterations often occur in mitotic crises, and lead to simultaneous gains of chromosomal segments."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Timing analyses suggest that driver mutations often precede diagnosis by many years, if not decades."}
+   ]},
+  {"n": 1010, "id": "pmid:28288110",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We validated HRDetect on independent cohorts of breast, ovarian and pancreatic cancers and demonstrated its efficacy in alternative sequencing strategies."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "HRDetect identifies BRCA1/BRCA2-deficient tumors with 98.7% sensitivity (area under the curve (AUC) = 0.98)."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "allowed us to identify an additional 22 tumors with somatic loss of BRCA1 or BRCA2 and 47 tumors with functional BRCA1/BRCA2 deficiency where no mutation was detected."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "reveals a larger proportion of individuals with breast cancer harboring BRCA1/BRCA2 deficiency (up to 22%) than hitherto appreciated"}
+   ]},
+  {"n": 1011, "id": "pmid:27811275",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "One of these signatures, mainly found in cancers derived from tissues directly exposed to tobacco smoke, is attributable to misreplication of DNA damage caused by tobacco carcinogens."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "The results are consistent with the proposition that smoking increases cancer risk by increasing the somatic mutation load"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Smoking is associated with limited differences in methylation."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Smoking is associated with increased mutation burdens of multiple distinct mutational signatures, which contribute to different extents in different cancers."}
+   ]},
+  {"n": 1012, "id": "pmid:29489755",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Eleven genome-wide mutational signatures were identified, including one attributed to ultraviolet-light exposure in eight aneuploid leukaemias."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Transcription of the mutant allele was detectable for 34% of protein-coding mutations"},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We report 142 driver genes in paediatric cancers, of which only 45% match those found in adult pan-cancer studies"},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "in 1,699 paediatric leukaemias and solid tumours across six histotypes"}
+   ]},
+  {"n": 1013, "id": "pmid:32025012",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Deletions have a multimodal size distribution, assort unevenly across tumour types and patients, are enriched in late-replicating regions and correlate with inversions."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Tandem duplications also have a multimodal size distribution, but are enriched in early-replicating regions-as are unbalanced translocations."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Sixteen signatures of structural variation emerged."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Such cycles of templated insertions correlate with tandem duplications, and-in liver cancer-frequently activate the telomerase gene TERT."}
+   ]},
+  {"n": 1014, "id": "pmid:28336671",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "All of these results are consistent with epidemiological estimates of the fraction of cancers that can be prevented by changes in the environment."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "The data revealed a strong correlation (median = 0.80) between cancer incidence and normal stem cell divisions in all countries, regardless of their environment."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "they accentuate the importance of early detection and intervention to reduce deaths from the many cancers arising from unavoidable R mutations."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "The major role of R mutations in cancer etiology was supported by an independent approach, based solely on cancer genome sequencing and epidemiological data, which suggested that R mutations are responsible for two-thirds of the mutations in human cancers."}
+   ]}
+ ]}

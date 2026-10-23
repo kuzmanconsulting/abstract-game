@@ -178,3 +178,49 @@ not addressed, which is fine for reading practice but makes the game's label mix
 generation round, not applied retroactively: a gen-v5 prompt that asks the writer, when the abstract itself states a
 comparison or a direction (more/less, higher/lower, increased/decreased, gain/loss …), to put one such comparative
 in at least one supported statement, so the pipeline has a word to flip. Statements already checked stay as they are.
+
+**D18. Landmark papers of the last ten years (Maja, 2026-10-23 20:23: "most impactful papers in the fields … those
+absolutely should be there … 25–50 each").** "Impact" is operationalised as Europe PMC citation count
+(`sort=CITED desc`, journal articles, first published 2016-01-01 or later, reviews excluded by type and title), per
+field, with the unstructured-abstract filter relaxed to one numbered sentence (Nature/Science abstracts are prose).
+Two things the raw ranking gets wrong are corrected in two recorded steps: a rule-based shortlist
+(`select_landmark.py shortlist`: titles that name software, databases, servers, resources, benchmarks or versions
+are dropped; a field term must appear in the title or two in the abstract; already-held papers out; top 70 per field
+kept), then one curation agent per field (prompt `landmark-v1`, Opus, extra effort) picks the 40 primary research
+papers of the decade and gives a one-line reason for every drop — both lists live in `src/landmark*` so the
+selection can be audited and redone. Citation order is kept unless a drop reason applies; the agent is asked for
+breadth within the field. Preprints are not part of this addition (citation counts are a journal-side measure).
+Statements for these 200 abstracts are written with gen-v5 and checked as everything else.
+
+**D19. Journal, year and first author shown before answering; title optional (Maja, 20:23: "didn't we have paper
+title and author and year and journal in abstract previously?").** They were shown only after the reveal, because a
+title usually states the main result. From now the eyebrow line carries journal (or preprint server), year and first
+author from the start — none of which answers a statement — and the title stays for the citation block unless the
+player turns on "Title shown before answering" in About (localStorage `ar.prefs.titleFirst`, off by default).
+
+**D20. "Share my score" (Maja, 20:30).** Instagram has no web endpoint for posting a story; a story can only be
+posted from the app. What a page can do: draw a 1080×1920 score card (fields, statements, % correct, best streak,
+the game's link) on a canvas, let the player save it as PNG, and on phones hand it to the system share sheet (Web
+Share API with files), where Instagram is one of the targets. Both work on GitHub Pages; in the claude.ai artifact
+viewer downloads and the share API are blocked, so there the card is shown with a "long-press/right-click to save"
+hint. Implemented after the landmark corpus.
+
+**D21. One landmark abstract excluded: the MRX34 phase-1 trial (n=1139, 2026-10-23 20:50).** The statement
+generator was stopped by the content classifier twice on the batch containing it (whole batch gen_50, then the
+5-abstract part gen_50a), while the four other abstracts of that part are ordinary RNA biology. Two reasons to drop
+rather than keep trying: the one-retry-per-prompt-version rule (D7), and the paper is a clinical trial, which Maja
+asked to leave out of the corpus from the start ("omitting the clinical", 14:14). Marked `excluded` in the corpus with
+the reason; the other four go through as gen_50a. The same split-and-retry handled gen_47, gen_51 and gen_53 (the
+Opus generators were stopped on 4 of 13 whole batches; every 4–5-abstract part written one item at a time went through).
+
+**D22. Field overlap: a few cancer papers were tagged evolutionary genomics (Maja, 2026-10-23 20:56: "how
+evolutionary genomics has cancer abstract? is something messed up?").** Not corruption: each abstract's `field` is
+the search query that retrieved it, and tumour evolution uses evolutionary-genomics vocabulary (positive selection,
+genome evolution, clonal lineages), so some cancer papers matched the `evogen` query and were tagged evogen. Of the
+abstracts this surfaced, three are primarily cancer studies retrieved only under the evogen query — n=764 (ecDNA in
+Barrett's oesophagus), n=775 (UV-driven dendritic-cell leukaemia), n=780 (ecDNA-positive cancers), all from the
+top-journal draw — and are re-tagged to `cancergen` (`field_was` kept, `header.retagged`). The rest stay evogen
+because their finding is evolutionary even though they mention cancer: n=563 (positive selection on mitochondrial
+rRNA genes across 14,106 tumours), n=999 (evolution of primate-specific genes and cancer risk), plus two the
+keyword scan flagged by coincidence — n=700 (the plant *American cancer-root*) and n=720 (SAMD9/9L antiviral gene
+evolution). The statements were always about the paper shown; only the field chip was off for those three.

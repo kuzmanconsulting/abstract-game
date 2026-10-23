@@ -1,0 +1,108 @@
+{"batch": "check_A_43", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1030, "id": "pmid:33116311",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "we performed single-cell mutational profiling on 146 samples from 123 patients. Here we show that AML is dominated by a small number of clones, which frequently harbour co-occurring mutations in epigenetic regulators."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Conversely, mutations in signalling genes often occur more than once in distinct subclones, consistent with increasing clonal diversity."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Here we show that AML is dominated by a small number of clones, which frequently harbour co-occurring mutations in epigenetic regulators."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We mapped clonal trajectories for each sample and uncovered combinations of mutations that synergized to promote clonal expansion and dominance."}
+    ]},
+   {"n": 1031, "id": "pmid:28498782",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Histologic transformation of EGFR mutant lung adenocarcinoma (LADC) into small-cell lung cancer (SCLC) has been described as one of the major resistant mechanisms for epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors (TKIs)."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Branch-specific mutational signature analysis revealed that apolipoprotein B mRNA editing enzyme, catalytic polypeptide-like (APOBEC)-induced hypermutation was frequent in the branches toward small-cell transformation."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The clonal divergence of SCLC ancestors from the LADC cells occurred before the first EGFR TKI treatments"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "inactivation of both Rb and p53 was strikingly more frequent in the small-cell-transformed group than in the nontransformed group (82% v 3%; odds ratio, 131; 95% CI, 19.9 to 859)"}
+    ]},
+   {"n": 1032, "id": "pmid:35418684",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Despite widely different life histories among the species we examined-including variation of around 30-fold in lifespan and around 40,000-fold in body mass-the somatic mutation burden at the end of lifespan varied only by a factor of around 3."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "the somatic mutation rate per year varied greatly across species and exhibited a strong inverse relationship with species lifespan, with no other life-history trait studied showing a comparable association."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We found that somatic mutagenesis was dominated by seemingly endogenous mutational processes in all species, including 5-methylcytosine deamination and oxidative damage."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Comparative analyses can shed light on the diversity of mutagenesis across species, and on long-standing hypotheses about the evolution of somatic mutation rates and their role in cancer and ageing."}
+    ]},
+   {"n": 1033, "id": "pmid:28297679",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We identified an IDH mutant-enriched subtype with distinct molecular features including low expression of chromatin modifiers, elevated expression of mitochondrial genes, and increased mitochondrial DNA copy number."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "More broadly, we found that IDH mutations are associated with an expanded histological spectrum of liver tumors with molecular features that stratify with CCA."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We identified an IDH mutant-enriched subtype with distinct molecular features including low expression of chromatin modifiers, elevated expression of mitochondrial genes, and increased mitochondrial DNA copy number."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Leveraging the multi-platform data, we observed that ARID1A exhibited DNA hypermethylation and decreased expression in the IDH mutant subtype."}
+    ]},
+   {"n": 1034, "id": "pmid:28912133",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We found that mutation accumulation in organoids deficient in the mismatch repair gene MLH1 is driven by replication errors and accurately models the mutation profiles observed in mismatch repair-deficient colorectal cancers."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We show that signature 30 can arise from germline NTHL1 mutations."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Application of this strategy to the cancer predisposition gene NTHL1 , which encodes a base excision repair protein, revealed a mutational footprint (signature 30) previously observed in a breast cancer cohort."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We found that mutation accumulation in organoids deficient in the mismatch repair gene MLH1 is driven by replication errors and accurately models the mutation profiles observed in mismatch repair-deficient colorectal cancers."}
+    ]},
+   {"n": 1035, "id": "pmid:27111033",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Analysis of three independent urothelial tumor cohorts demonstrates a strong association between somatic ERCC2 mutations and the activity of a mutational signature characterized by a broad spectrum of base changes."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Analysis of three independent urothelial tumor cohorts demonstrates a strong association between somatic ERCC2 mutations and the activity of a mutational signature characterized by a broad spectrum of base changes."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "In addition, we note an association between the activity of this signature and smoking that is independent of ERCC2 mutation status"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Together, these analyses identify an NER-related mutational signature and highlight the related roles of DNA damage and subsequent DNA repair in shaping tumor mutational landscape."}
+    ]},
+   {"n": 1036, "id": "pmid:27869826",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Analysis of 7,416 cancer genomes uncovered several pan-cancer candidate genes, including IRS4, SMARCA1 and TERT."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "We additionally pursued cancer-type-specific analyses and uncovered IGF2 as a target for enhancer hijacking in colorectal cancer."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We demonstrate that IRS4 overexpression in lung cancer is associated with recurrent deletions in cis, and we present evidence supporting a tumor-promoting role."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Recurrent tandem duplications intersecting with a TAD boundary mediate de novo formation of a 3D contact domain comprising IGF2 and a lineage-specific super-enhancer, resulting in high-level gene activation."}
+    ]},
+   {"n": 1037, "id": "pmid:31645727",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Here, by sequencing whole genomes of 482 microdissections of 100-500 hepatocytes from 5 normal and 9 cirrhotic livers, we show that cirrhotic liver has a higher mutational burden than normal liver."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "The most common causes of chronic liver disease are excess alcohol intake, viral hepatitis and non-alcoholic fatty liver disease"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The activity of exogenous signatures between adjacent cirrhotic nodules varied by up to tenfold within each patient, as a result of clone-specific and microenvironmental forces."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Although rare in normal hepatocytes, structural variants, including chromothripsis, were prominent in cirrhosis."}
+    ]},
+   {"n": 1038, "id": "pmid:27595477",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "These subtypes could be ascertained using a clinically applicable sequencing strategy (low coverage) as a basis for therapy selection."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Whole-genome sequencing (WGS) analysis of 129 cases demonstrated that this is a heterogeneous cancer dominated by copy number alterations with frequent large-scale rearrangements."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Co-amplification of receptor tyrosine kinases (RTKs) and/or downstream mitogenic activation is almost ubiquitous"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "(i) enrichment for BRCA signature with prevalent defects in the homologous recombination pathway"}
+    ]},
+   {"n": 1039, "id": "pmid:32879494",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Analysis of an independent series of 1,024 metastatic samples revealed that 13 focal SCNAs were enriched in metastatic samples, including gains in chromosome 8q24.1 (encompassing MYC) in clear cell renal cell carcinoma"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Parallel evolutionary events, which cause disruption in the same genes (such as BCL9, MCL1, ARNT (also known as HIF1B), TERT and MYC) within separate subclones, were present in 37% of tumours."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "to show that continuous chromosomal instability results in pervasive SCNA heterogeneity."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Focal amplifications that affected chromosomes 1q21 (which encompasses BCL9, MCL1 and ARNT), 5p15.33 (TERT), 11q13.3 (CCND1), 19q12 (CCNE1) and 8q24.1 (MYC) were frequently subclonal yet appeared to be clonal within single samples."}
+    ]},
+   {"n": 1040, "id": "pmid:28445469",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Here we use a tumour-specific phylogenetic approach to profile the ctDNA of the first 100 TRACERx (Tracking Non-Small-Cell Lung Cancer Evolution Through Therapy (Rx)) study participants"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Finally, we show that phylogenetic ctDNA profiling tracks the subclonal nature of lung cancer relapse and metastasis"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Through blinded profiling of postoperative plasma, we observe evidence of adjuvant chemotherapy resistance and identify patients who are very likely to experience recurrence of their lung cancer."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We identify independent predictors of ctDNA release and analyse the tumour-volume detection limit."}
+    ]},
+   {"n": 1041, "id": "pmid:33506766",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Detection increased with increasing stage: in the pre-specified cancer types sensitivity was 39% (CI: 27% to 52%) in stage I, 69% (CI: 56% to 80%) in stage II, 83% (CI: 75% to 90%) in stage III, and 92% (CI: 86% to 96%) in stage IV.", "flag": "ambiguous", "reason": "The statement is internally inconsistent: it says sensitivity 'decreased' with stage, which the abstract contradicts, yet quotes the abstract's rising 39% to 92% figures."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "TOO was predicted in 96% of samples with cancer-like signal; of those, the TOO localization was accurate in 93%."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "In validation, specificity was 99.3% [95% confidence interval (CI): 98.3% to 99.8%; 0.7% false-positive rate (FPR)]."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Considering the potential value of early detection in deadly malignancies, further evaluation of this test is justified in prospective population-level studies."}
+    ]},
+   {"n": 1042, "id": "pmid:27384348",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "In patients treated with chemotherapy, the presence of ctDNA after completion of chemotherapy was also associated with an inferior recurrence-free survival (HR, 11; 95% CI, 1.8 to 68; P = 0.001)."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "ctDNA detection after stage II colon cancer resection provides direct evidence of residual disease and identifies patients at very high risk of recurrence."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "ctDNA was detected postoperatively in 14 of 178 (7.9%) patients, 11 (79%) of whom had recurred at a median follow-up of 27 months; recurrence occurred in only 16 (9.8 %) of 164 patients with negative ctDNA"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "In patients treated with chemotherapy, the presence of ctDNA after completion of chemotherapy was also associated with an inferior recurrence-free survival"}
+    ]},
+   {"n": 1043, "id": "pmid:31142840",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "A machine learning model that incorporated genome-wide fragmentation features had sensitivities of detection ranging from 57% to more than 99% among the seven cancer types at 98% specificity, with an overall area under the curve value of 0.94."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "found that profiles of healthy individuals reflected nucleosomal patterns of white blood cells, whereas patients with cancer had altered fragmentation profiles."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Combining our approach with mutation-based cell-free DNA analyses detected 91% of patients with cancer."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "A machine learning model that incorporated genome-wide fragmentation features had sensitivities of detection ranging from 57% to more than 99% among the seven cancer types at 98% specificity"}
+    ]},
+   {"n": 1044, "id": "pmid:29109393",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "In the earliest tested sample for each patient, 34% of patients have ≥10% tumor-derived cfDNA, sufficient for standard coverage whole-exome sequencing."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Using whole-exome sequencing, we validate the concordance of clonal somatic mutations (88%), copy number alterations (80%), mutational signatures, and neoantigens between cfDNA and matched tumor biopsies from 41 patients with ≥10% cfDNA tumor content."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "In the earliest tested sample for each patient, 34% of patients have ≥10% tumor-derived cfDNA, sufficient for standard coverage whole-exome sequencing."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Here we report ichorCNA, software that quantifies tumor content in cfDNA from 0.1× coverage whole-genome sequencing data without prior knowledge of tumor mutations."}
+    ]}
+ ]}

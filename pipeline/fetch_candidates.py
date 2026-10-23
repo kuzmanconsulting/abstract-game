@@ -91,11 +91,14 @@ def build_query(field, source, start, end, journals=None):
     return q
 
 
-def fetch_query(query, page_size=1000, max_pages=1, log=print, opener=None, sleep=0.5):
+def fetch_query(query, page_size=1000, max_pages=1, log=print, opener=None, sleep=0.5, sort=None):
+    """sort=None: Europe PMC relevance; sort="cited": most-cited first (the landmark fetch, D18)."""
     opener = opener or urllib.request.urlopen
     out, cursor = [], "*"
     for page in range(max_pages):
         params = {"query": query, "resultType": "core", "format": "json", "pageSize": str(page_size), "cursorMark": cursor}
+        if sort == "cited":
+            params["sort"] = "CITED desc"
         url = API + "?" + urllib.parse.urlencode(params)
         for attempt in range(3):
             try:
@@ -146,17 +149,20 @@ def parse_abstract(text):
     return sections
 
 
-def has_results(sections):
+MIN_NUMBERED = 3
+
+
+def has_results(sections, min_numbered=None):
     labels = [s["label"].lower() for s in sections if s.get("label")]
     if labels:
         return any(any(h in lab for h in RESULT_HEADINGS) for lab in labels)
-    # unstructured: at least three sentences carrying a number
+    # unstructured: at least MIN_NUMBERED sentences carrying a number (the landmark fetch relaxes this to 1, D18)
     text = " ".join(s["text"] for s in sections)
     numbered = [s for s in re.split(r"(?<=[.!?])\s+", text) if re.search(r"\d", s)]
-    return len(numbered) >= 3
+    return len(numbered) >= (MIN_NUMBERED if min_numbered is None else min_numbered)
 
 
-def normalise(rec, field, source):
+def normalise(rec, field, source, min_numbered=None):
     sections = parse_abstract(rec.get("abstractText"))
     text = " ".join(s["text"] for s in sections)
     authors = [a.get("fullName") for a in ((rec.get("authorList") or {}).get("author") or []) if a.get("fullName")]
@@ -170,7 +176,8 @@ def normalise(rec, field, source):
             "authors": authors, "author_string": rec.get("authorString"), "journal": journal if source == "journal" else publisher,
             "year": int(rec["pubYear"]) if str(rec.get("pubYear", "")).isdigit() else None,
             "date": rec.get("firstPublicationDate"), "field": field, "sections": sections, "n_chars": len(text),
-            "structured": any(s.get("label") for s in sections), "has_results": has_results(sections),
+            "structured": any(s.get("label") for s in sections), "has_results": has_results(sections, min_numbered),
+            "cited_by": rec.get("citedByCount"),
             "pub_types": ((rec.get("pubTypeList") or {}).get("pubType") or []),
             "url": ("https://pubmed.ncbi.nlm.nih.gov/%s/" % pmid) if pmid else ("https://doi.org/%s" % doi if doi else None),
             "doi_url": ("https://doi.org/%s" % doi) if doi else None, "is_open_access": rec.get("isOpenAccess") == "Y"}
@@ -226,6 +233,8 @@ def main(argv=None):
     ap.add_argument("--sources", nargs="+", default=list(SOURCES), help="journal and/or preprint")
     ap.add_argument("--journals", nargs="*", default=None, help="restrict to these exact journal titles (JOURNAL:); 'top' = %s; 'top2' = those + %s" % (", ".join(TOP_JOURNALS), ", ".join(TOP_JOURNALS_V2[4:])))
     ap.add_argument("--suffix", default="", help="suffix for raw file names, e.g. 'top' → <field>_<source>_top.json")
+    ap.add_argument("--sort", choices=["relevance", "cited"], default="relevance", help="cited = most-cited first (landmark fetch, D18)")
+    ap.add_argument("--min-numbered", type=int, default=None, help="unstructured abstracts: sentences with a number needed (default %d)" % MIN_NUMBERED)
     a = ap.parse_args(argv)
     journals = TOP_JOURNALS if a.journals == ["top"] else TOP_JOURNALS_V2 if a.journals == ["top2"] else (a.journals or None)
     os.makedirs(RAW_DIR, exist_ok=True)
@@ -237,12 +246,12 @@ def main(argv=None):
             q = build_query(field, source, a.start, a.end, journals)
             queries["%s_%s" % (field, source)] = q
             print("%s / %s%s" % (field, source, " / " + ",".join(journals) if journals else ""))
-            rows = fetch_query(q, a.page_size, a.pages)
+            rows = fetch_query(q, a.page_size, a.pages, sort=None if a.sort == "relevance" else a.sort)
             with open(os.path.join(RAW_DIR, "%s_%s%s.json" % (field, source, ("_" + a.suffix) if a.suffix else "")), "w", encoding="utf-8") as f:
                 json.dump(rows, f, ensure_ascii=False)
             kept = 0
             for rec in rows:
-                c = normalise(rec, field, source)
+                c = normalise(rec, field, source, a.min_numbered)
                 why = keep(c, ex_pmids, ex_dois)
                 if why:
                     dropped[why] = dropped.get(why, 0) + 1
@@ -257,7 +266,7 @@ def main(argv=None):
             counts["%s_%s" % (field, source)] = {"fetched": len(rows), "kept": kept}
             print("  kept %d of %d" % (kept, len(rows)))
     header = {"fetched_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "api": API, "window": [a.start, a.end],
-              "fields": a.fields, "sources": a.sources, "journals": journals,
+              "fields": a.fields, "sources": a.sources, "journals": journals, "sort": a.sort, "min_numbered": a.min_numbered if a.min_numbered is not None else MIN_NUMBERED,
               "queries": queries, "counts": counts, "dropped": dropped, "excluded_pmids": len(ex_pmids), "excluded_dois": len(ex_dois),
               "n": len(candidates), "filters": {"min_chars": MIN_CHARS, "max_chars": MAX_CHARS, "preprint_servers": sorted(PREPRINT_SERVERS),
                                                    "results_required": True}}

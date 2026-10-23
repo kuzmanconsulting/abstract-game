@@ -1,0 +1,108 @@
+{"batch": "check_A_44", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1045, "id": "pmid:28814544",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Analysis of plasma from 44 healthy individuals identified genomic changes related to clonal hematopoiesis in 16% of asymptomatic individuals but no alterations in driver genes related to solid cancers."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "In patients with resectable colorectal cancers, higher amounts of preoperative circulating tumor DNA were associated with disease recurrence and decreased overall survival."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Evaluation of 200 patients with colorectal, breast, lung, or ovarian cancer detected somatic mutations in the plasma of 71, 59, 59, and 68%, respectively, of patients with stage I or II disease."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Analyses of mutations in the circulation revealed high concordance with alterations in the tumors of these patients."}
+    ]},
+   {"n": 1046, "id": "pmid:28899864",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "53% of patients harbored ctDNA mutation profiles associated with favorable responses to tyrosine kinase inhibitors or immune checkpoint blockade"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "In 94% of evaluable patients experiencing recurrence, ctDNA was detectable in the first posttreatment blood sample"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Posttreatment ctDNA detection preceded radiographic progression in 72% of patients by a median of 5.2 months"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "may allow personalized adjuvant treatment while disease burden is lowest"}
+    ]},
+   {"n": 1047, "id": "pmid:27018799",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Individually, these two methods each improve the sensitivity of cancer personalized profiling by deep sequencing (CAPP-Seq) by about threefold, and synergize when combined to yield ∼15-fold improvements."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "our approach allowed monitoring of NSCLC ctDNA down to 4 in 10(5) cfDNA molecules"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "our method enabled biopsy-free profiling of EGFR kinase domain mutations with 92% sensitivity and >99.99% specificity at the variant level, and with 90% sensitivity and 96% specificity at the patient level"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Applied to non-small cell lung cancer (NSCLC) patients, our method enabled biopsy-free profiling of EGFR kinase domain mutations"}
+    ]},
+   {"n": 1048, "id": "pmid:30404863",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We detected enrichment of ctDNA in fragment sizes between 90 and 150 bp"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Increased identification of cfDNA from patients with glioma, renal, and pancreatic cancer was achieved with AUC > 0.91 compared to AUC < 0.5 without fragmentation features."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Identification of plasma samples from patients with advanced cancer was improved by predictive models integrating fragment length and copy number analysis of cfDNA, with area under the curve (AUC) >0.99 compared to AUC <0.80 without fragmentation features."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Selecting fragments between 90 and 150 bp improved detection of tumor DNA, with more than twofold median enrichment in >95% of cases and more than fourfold enrichment in >10% of cases."}
+    ]},
+   {"n": 1049, "id": "pmid:31070691",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "All 7 patients who were ctDNA positive after ACT experienced relapse."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Preoperatively, ctDNA was detectable in 108 of 122 patients (88.5%)."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Serial ctDNA analyses revealed disease recurrence up to 16.5 months ahead of standard-of-care radiologic imaging (mean, 8.7 months; range, 0.8-16.5 months)."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "At postoperative day 30, ctDNA-positive patients were 7 times more likely to relapse than ctDNA-negative patients (hazard ratio [HR], 7.2; 95% CI, 2.7-19.0; P < .001)."}
+    ]},
+   {"n": 1050, "id": "pmid:30429608",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Here we develop a sensitive, immunoprecipitation-based protocol to analyse the methylome of small quantities of circulating cell-free DNA"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "We also demonstrate robust performance in cancer detection and classification across an extensive collection of plasma samples from several tumour types."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We also demonstrate robust performance in cancer detection and classification across an extensive collection of plasma samples from several tumour types."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "demonstrate the ability to detect large-scale DNA methylation changes that are enriched for tumour-specific patterns"}
+    ]},
+   {"n": 1051, "id": "pmid:30742071",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Analysis of the first 2,000 patient samples tested in the CLIA laboratory showed that more than 85% of results were delivered the day after sample receipt"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "The test showed 93.7% agreement with blood culture in a cohort of 350 patients with a sepsis alert"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "identified an independently adjudicated cause of the sepsis alert more often than all of the microbiological testing combined (169 aetiological determinations versus 132)"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Among the 166 samples adjudicated to have no sepsis aetiology identified by any of the tested methods, sequencing identified microbial cell-free DNA in 62"}
+    ]},
+   {"n": 1052, "id": "pmid:35657320",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "In the evaluation of 2-year recurrence-free survival, ctDNA-guided management was noninferior to standard management (93.5% and 92.4%, respectively; absolute difference, 1.1 percentage points; 95% CI, -4.1 to 6.2 [noninferiority margin, -8.5 percentage points])."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Three-year recurrence-free survival was 86.4% among ctDNA-positive patients who received adjuvant chemotherapy and 92.5% among ctDNA-negative patients who did not."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "For ctDNA-guided management, a ctDNA-positive result at 4 or 7 weeks after surgery prompted oxaliplatin-based or fluoropyrimidine chemotherapy."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "A lower percentage of patients in the ctDNA-guided group than in the standard-management group received adjuvant chemotherapy (15% vs. 28%; relative risk, 1.82; 95% confidence interval [CI], 1.25 to 2.65)."}
+    ]},
+   {"n": 1053, "id": "pmid:29035356",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Using cfDNA samples from a large cohort of 1,098 HCC patients and 835 normal controls, we constructed a diagnostic prediction model that showed high diagnostic specificity and sensitivity (P < 0.001)"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Additionally, we constructed a prognostic prediction model that effectively predicted prognosis and survival (P < 0.001)."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "showed that methylation profiles of HCC tumour DNA and matched plasma ctDNA are highly correlated"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Using cfDNA samples from a large cohort of 1,098 HCC patients and 835 normal controls, we constructed a diagnostic prediction model that showed high diagnostic specificity and sensitivity (P < 0.001)"}
+    ]},
+   {"n": 1054, "id": "pmid:31768066",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "This cfDNA sequencing approach revealed that clonal hematopoiesis constitutes a pervasive biological phenomenon"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "The assay displayed high sensitivity and specificity, allowing for de novo detection of tumor-derived mutations and inference of tumor mutational burden, microsatellite instability"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The vast majority of cfDNA mutations (81.6% in controls and 53.2% in patients with cancer) had features consistent with clonal hematopoiesis."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "The vast majority of cfDNA mutations (81.6% in controls and 53.2% in patients with cancer) had features consistent with clonal hematopoiesis."}
+    ]},
+   {"n": 1055, "id": "pmid:32269342",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Compared with tumour-derived mutations, clonal haematopoiesis mutations occur on longer cfDNA fragments and lack mutational signatures that are associated with tobacco smoking."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "which can robustly discriminate early-stage lung cancer patients from risk-matched controls"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We show that, although levels are very low in early-stage lung cancers, ctDNA is present prior to treatment in most patients and its presence is strongly prognostic."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We also find that the majority of somatic mutations in the cell-free DNA (cfDNA) of patients with lung cancer and of risk-matched controls reflect clonal haematopoiesis and are non-recurrent."}
+    ]},
+   {"n": 1056, "id": "pmid:27428049",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Moreover, size-selecting for shorter cell-free DNA fragment lengths substantially increased the EGFR T790M mutant allele frequency in human lung cancer."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Human ctDNA in rat plasma derived from human glioblastoma multiforme stem-like cells in the rat brain and human hepatocellular carcinoma in the rat flank were found to have a shorter principal fragment length than the background rat cell-free DNA (134-144 bp vs. 167 bp, respectively)."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Subsequently, a similar shift in the fragment length of ctDNA in humans with melanoma and lung cancer was identified compared to healthy controls."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "the BRAF V600E mutant allele occurred more commonly at a shorter fragment length than the fragment length of the wild-type allele (132-145 bp vs. 165 bp, respectively)"}
+    ]},
+   {"n": 1057, "id": "pmid:30675060",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The genomic landscape of glioma in the CSF included a broad spectrum of genetic alterations and closely resembled the genomes of tumour biopsies."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Here we show that tumour-derived DNA was detected in CSF from 42 out of 85 patients (49.4%) and was associated with disease burden and adverse outcome."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "mutations in the metabolic genes isocitrate dehydrogenase 1 (IDH1) or IDH2 1,2 , were shared in all matched ctDNA-positive CSF-tumour pairs, whereas growth factor receptor signalling pathways showed considerable evolution"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Here we show that tumour-derived DNA was detected in CSF from 42 out of 85 patients (49.4%) and was associated with disease burden and adverse outcome."}
+    ]},
+   {"n": 1058, "id": "pmid:27283993",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We observe multiple resistance mechanisms in 46% of patients after treatment with first-line inhibitors, indicating frequent intra-patient heterogeneity."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Increased MET copy number is the most frequent rociletinib resistance mechanism in this cohort"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "find that EGFR C797S, which arises in ∼33% of patients after osimertinib treatment, occurs in <3% after rociletinib"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Similarly, rociletinib-resistant xenografts develop MET amplification that can be overcome with the MET inhibitor crizotinib."}
+    ]},
+   {"n": 1059, "id": "pmid:28280140",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Positive and negative predictive values for active rejection at a cutoff of 1.0% dd-cfDNA were 61% and 84%, respectively."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "we prospectively collected blood specimens at scheduled intervals and at the time of clinically indicated biopsies"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The AUC for discriminating ABMR from samples without ABMR was 0.87 (95% CI, 0.75 to 0.97)."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Median dd-cfDNA was 2.9% (ABMR), 1.2% (T cell-mediated types ≥IB), 0.2% (T cell-mediated type IA), and 0.3% in controls"}
+    ]}
+ ]}

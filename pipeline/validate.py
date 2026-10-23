@@ -65,6 +65,7 @@ FLIP_SETS = {"exactly-one": _table(FLIP_PAIRS), "first-of-any": _table(FLIP_PAIR
              "first-of-any-v3": _table(FLIP_PAIRS_V2)}
 V2_RULES = ("first-of-any-v2", "first-of-any-v3")   # v3 (third corpus): v2 plus "more often" -> "less often" (D13)
 FLIP, FLIP_RE = FLIP_SETS["exactly-one"]
+TRUE_ONLY_VERSIONS = ("gen-v4", "gen-v5")   # prompts that write only true statements; the pipeline makes the flip
 
 # "first-of-any-v2" (D13): same vocabulary as "first-of-any", but a direction word is skipped when it is part of a
 # fixed phrase or method name, when it is negated (a flipped negation is a double negative, not a contradiction),
@@ -164,7 +165,7 @@ def effective(statements, prompt_version, flip_rule="exactly-one"):
     direction word, and flip() swaps only its first occurrence; "first-of-any-v2" (D13): the same over the eligible
     direction words only (see flip_words). Other versions pass through."""
     out = [dict(s) for s in statements]
-    if prompt_version == "gen-v4":
+    if prompt_version in TRUE_ONLY_VERSIONS:
         for s in sorted(out, key=lambda x: x.get("k", 0)):
             n_words = len(flip_words(s.get("text") or "", flip_rule))
             if s.get("label") == "supported" and (n_words == 1 if flip_rule == "exactly-one" else n_words >= 1):
@@ -206,10 +207,10 @@ def validate_gen_file(path, corpus, batch_items):
             doc = json.load(f)
     except ValueError as e:
         return ["invalid JSON: %s" % e], []
-    if doc.get("prompt_version") not in ("gen-v1", "gen-v2", "gen-v3", "gen-v4"):
+    if doc.get("prompt_version") not in ("gen-v1", "gen-v2", "gen-v3") + TRUE_ONLY_VERSIONS:
         warn.append("prompt_version %r" % doc.get("prompt_version"))
     v3 = doc.get("prompt_version") == "gen-v3"
-    v4 = doc.get("prompt_version") == "gen-v4"
+    v4 = doc.get("prompt_version") in TRUE_ONLY_VERSIONS
     seen = set()
     for it in doc.get("items", []):
         n = it.get("n")
@@ -228,7 +229,7 @@ def validate_gen_file(path, corpus, batch_items):
                 fatal.append("n=%d gen-v4 label mix %s (needs 3 supported + 1 not_addressed)" % (n, dict(Counter(s.get("label") for s in sts))))
             if any(s.get("flip") for s in sts):
                 fatal.append("n=%d gen-v4 must not mark flip statements" % n)
-            sts = effective(sts, "gen-v4", doc.get("flip_rule", "exactly-one"))
+            sts = effective(sts, doc.get("prompt_version"), doc.get("flip_rule", "exactly-one"))
             if not any(s.get("flip") for s in sts):
                 warn.append("n=%d no supported statement with a direction word (rule %s): no contradicted item for this abstract" % (n, doc.get("flip_rule", "exactly-one")))
         elif Counter(label_of(s) for s in sts) != MIX:

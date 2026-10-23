@@ -1,0 +1,108 @@
+{"batch": "check_A_45", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1060, "id": "pmid:30988079",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "In the largest cfDNA study in previously untreated mNSCLC, a validated comprehensive cfDNA test identifies guideline-recommended biomarkers at a rate at least as high as SOC tissue genotyping"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "In tissue-positive patients, the biomarker was identified alone (12/60) or concordant with cfDNA (48/60), an 80% cfDNA clinical sensitivity for any guideline-recommended biomarker."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "cfDNA median turnaround time was significantly faster than tissue (9 vs. 15 days; P < 0.0001)."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Utilizing cfDNA, in addition to tissue, increased detection by 48%, from 60 to 89 patients"}
+    ]},
+   {"n": 1061, "id": "pmid:36646802",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Furthermore, postsurgical ctDNA positivity identified patients with stage II or III CRC who derived benefit from ACT (HR 6.59, P < 0.0001)."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "was the most significant prognostic factor associated with recurrence risk in patients with stage II or III CRC (HR 10.82, P < 0.001)"},
+      {"j": 3, "label": "not_addressed", "confidence": 2, "evidence": "analyzed presurgical and postsurgical ctDNA in patients with stage II-IV resectable CRC (n = 1,039)"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "postsurgical ctDNA positivity (at 4 weeks after surgery) was associated with higher recurrence risk (hazard ratio (HR) 10.0, P < 0.0001)"}
+    ]},
+   {"n": 1062, "id": "pmid:29367197",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Defects in BRCA2 and ATM were strongly associated with poor clinical outcomes independently of clinical prognostic factors and circulating tumor DNA abundance."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Although detection of AR amplifications did not outperform standard prognostic biomarkers, AR gene structural rearrangements truncating the ligand binding domain were identified in several patients with primary resistance."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "performed whole-exome and deep targeted 72-gene sequencing of plasma cell-free DNA prior to therapy"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "For these agents, which have never been directly compared, time to progression was similar."}
+    ]},
+   {"n": 1063, "id": "pmid:27532364",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "These mutations were associated with shorter overall survival (wild-type, 32.1 months [95% CI, 28.09-36.40 months]; D538G, 25.99 months [95% CI, 19.19-32.36 months]; Y537S, 19.98 months [13.01-29.31 months]"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "The D538G group (hazard ratio, 0.34 [95% CI, 0.02-0.57]) derived a similar PFS benefit as wild type from addition of everolimus to exemestane."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The 2 most frequent mutations in ESR1 (Y537S and D538G) were analyzed from cfDNA using droplet digital polymerase chain reaction"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Of 541 evaluable patients, 156 (28.8%) had ESR1 mutation D538G (21.1%) and/or Y537S (13.3%), and 30 had both."}
+    ]},
+   {"n": 1064, "id": "pmid:31501609",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "These findings have profound therapeutic implications and highlight the potential advantages of cfDNA over tissue biopsy in the setting of acquired resistance."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Our data suggest that acquired resistance is frequently characterized by profound tumor heterogeneity"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Whole-exome sequencing of serial cfDNA, tumor biopsies and rapid autopsy specimens elucidated substantial geographic and evolutionary differences across lesions."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "cfDNA more frequently identified clinically relevant resistance alterations and multiple resistance mechanisms, detecting resistance alterations not found in the matched tumor biopsy in 78% of cases"}
+    ]},
+   {"n": 1065, "id": "pmid:28104621",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Higher exoKRAS MAFs were associated with decreased disease-free survival in patients with localized disease."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Secondary outcomes were disease-free and overall survival."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "KRAS mutations in exoDNA, were identified in 7.4%, 66.7%, 80%, and 85% of age-matched controls, localized, locally advanced, and metastatic PDAC patients, respectively. Comparatively, mutant KRAS cfDNA was detected in 14.8%, 45.5%, 30.8%, and 57.9% of these individuals."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "In the validation cohort, mutant KRAS exoDNA was detected in 43.6% of early-stage PDAC patients and 20% of healthy controls."}
+    ]},
+   {"n": 1066, "id": "pmid:27831904",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "By simultaneously tracking multiple somatic mutations in ctDNA, our approach outperformed immunoglobulin sequencing and radiographic imaging for the detection of minimal residual disease"},
+      {"j": 2, "label": "supported", "confidence": 2, "evidence": "At diagnosis, the amount of ctDNA was found to strongly correlate with clinical indices and was independently predictive of patient outcomes.", "flag": "ambiguous", "reason": "The abstract does not say the at-diagnosis analysis spanned all 92 lymphoma patients, so the statement's scope 'across the 92' is an assumption."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We demonstrate that ctDNA genotyping can classify transcriptionally defined tumor subtypes, including DLBCL cell of origin, directly from plasma."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we identified distinct patterns of clonal evolution distinguishing indolent follicular lymphomas from those that transformed into DLBCL"}
+    ]},
+   {"n": 1067, "id": "pmid:33232761",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Patients who remained ctDNA positive at T1 were significantly more likely to have residual disease after NAC (83% non-pCR) compared with those who cleared ctDNA (52% non-pCR; odds ratio 4.33, P = 0.012)."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "At T0, 61 of 84 (73%) patients were ctDNA positive, which decreased over time (T1: 35%; T2: 14%; and T3: 9%)."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "ctDNA-positive patients (14%) had a significantly increased risk of metastatic recurrence [hazard ratio (HR) 10.4; 95% confidence interval (CI) 2.3-46.6]"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "treated in the neoadjuvant I-SPY 2 TRIAL with standard NAC alone or combined with MK-2206 (AKT inhibitor) treatment"}
+    ]},
+   {"n": 1068, "id": "pmid:35121950",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We conducted a prospective phase II clinical trial to assess ctDNA in five distinct cohorts of patients with advanced solid tumors treated with pembrolizumab (NCT02644369)."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "All 12 patients with ctDNA clearance during treatment were alive with median 25 months follow up."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Baseline ctDNA concentration correlated with progression-free survival, overall survival, clinical response and clinical benefit."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "This association became stronger when considering ctDNA kinetics during treatment."}
+    ]},
+   {"n": 1069, "id": "pmid:30125215",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "These risk factors could potentially guide future personalized risk-directed approaches."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "In multivariable analyses including International Prognostic Index and interim positron emission tomography/computed tomography scans across both cohorts, molecular response was independently prognostic of outcomes, including event-free and overall survival."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "In the first validation set, patients receiving front-line therapy achieving EMR or MMR had superior outcomes at 24 months (EMR: EFS, 83% v 50%; P = .0015"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Before therapy, ctDNA was detectable in 98% of patients; pretreatment levels were prognostic in both front-line and salvage settings."}
+    ]},
+   {"n": 1070, "id": "pmid:29330207",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Time on treatment was significantly longer for ctDNA responders versus nonresponders (median, 205.5 vs. 69 days; P < 0.001)."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "A drop in ctDNA level is an early marker of therapeutic efficacy and predicts prolonged survival in patients treated with immune checkpoint inhibitors for NSCLC."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Strong agreement was observed between ctDNA response and radiographic response (Cohen's kappa, 0.753)."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Median time to initial response among patients who achieved responses in both categories was 24.5 days by ctDNA versus 72.5 days by imaging."}
+    ]},
+   {"n": 1071, "id": "pmid:30425037",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "To study acquired resistance, we sequenced 78 postprogression cfDNA, identifying eight additional patients with BRCA reversion mutations not found in pretreatment cfDNA."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "in patients with deleterious germline or somatic BRCA mutations treated with the PARP inhibitor rucaparib"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "BRCA reversion mutations were identified in pretreatment cfDNA from 18% (2/11) of platinum-refractory and 13% (5/38) of platinum-resistant cancers, compared with 2% (1/48) of platinum-sensitive cancers ( P = 0.049)."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Patients without BRCA reversion mutations detected in pretreatment cfDNA had significantly longer rucaparib progression-free survival than those with reversion mutations (median, 9.0 vs. 1.8 months; HR, 0.12; P < 0.0001)."}
+    ]},
+   {"n": 1072, "id": "pmid:29567812",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "for 33 of the TP53 mutations, PBC and tumor NGS were available for comparison, and 5 were present in PBC but absent in tumor, consistent with CH."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "we hypothesized that nonmalignant mutations harbored by hematopoietic cells (clonal hematopoiesis, CH) could be a cause of false-positive plasma genotyping"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We find that most JAK2 mutations, some TP53 mutations, and rare KRAS mutations detected in cfDNA are derived from CH not tumor."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We first studied plasma ddPCR results from 58 patients with EGFR -mutant NSCLC. Two had KRAS G12X detected in cfDNA, and both were present in PBC"}
+    ]},
+   {"n": 1073, "id": "pmid:37805216",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "35 (38%) participants were diagnosed with cancer (true positives) and 57 (62%) had no cancer diagnosis (false positives)."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Fewer procedures were done in participants with false-positive results (17 [30%] of 57) than true-positive results (27 [82%] of 33)"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "A cancer signal was detected in 92 (1·4%) of 6621 participants with analysable results."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "57 days (33-143) in true-positive and 162 days (44-248) in false-positive participants"}
+    ]},
+   {"n": 1074, "id": "pmid:29776953",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Patterns and prevalence of cfDNA alterations in major driver genes for non-small cell lung, breast, and colorectal cancer largely recapitulated those from tumor tissue sequencing compendia (The Cancer Genome Atlas and COSMIC; r = 0.90-0.99)"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Treatment-associated resistance, including both novel alterations and parallel evolution, was common in the cfDNA cohort and was enriched in patients with targetable driver alterations (>18.6% patients)."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Upon applying novel cfDNA clonality and copy-number driver identification methods, robust mutual exclusivity was observed among predicted truncal driver cfDNA alterations"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Treatment-associated resistance, including both novel alterations and parallel evolution, was common in the cfDNA cohort and was enriched in patients with targetable driver alterations (>18.6% patients)."}
+    ]}
+ ]}

@@ -1,0 +1,38 @@
+{"batch": "check_A_51a", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1150, "id": "pmid:30349115",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Mechanistically, the MALAT1 lncRNA binds and inactivates the prometastatic transcription factor TEAD, preventing TEAD from associating with its co-activator YAP and target gene promoters."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Moreover, MALAT1 levels inversely correlate with breast cancer progression and metastatic ability."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "targeted inactivation of the Malat1 gene in a transgenic mouse model of breast cancer, without altering the expression of its adjacent genes, promotes lung metastasis"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "knockout of MALAT1 in human breast cancer cells induces their metastatic ability, which is reversed by re-expression of Malat1"}
+    ]},
+   {"n": 1151, "id": "pmid:31239444",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Knockdown of FTO sensitizes melanoma cells to interferon gamma (IFNγ) and sensitizes melanoma to anti-PD-1 treatment in mice, depending on adaptive immunity."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "FTO level is increased in human melanoma and enhances melanoma tumorigenesis in mice."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Knockdown of FTO increases m 6 A methylation in the critical protumorigenic melanoma cell-intrinsic genes including PD-1 (PDCD1), CXCR4, and SOX10, leading to increased RNA decay through the m 6 A reader YTHDF2."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "FTO is induced by metabolic starvation stress through the autophagy and NF-κB pathway."}
+    ]},
+   {"n": 1152, "id": "pmid:27022092",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Caprin1/USP10 binding to G3BP is mutually exclusive: Caprin binding promotes, but USP10 binding inhibits, SG formation."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "cells lacking both G3BP1 and G3BP2 cannot form SGs in response to eukaryotic initiation factor 2α phosphorylation or eIF4A inhibition"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Rescue experiments using G3BP1 mutants show that phosphomimetic G3BP1-S149E fails to rescue SG formation, whereas G3BP1-F33W, a mutant unable to bind G3BP partner proteins Caprin1 or USP10, rescues SG formation."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "G3BP interacts with 40S ribosomal subunits through its RGG motif, which is also required for G3BP-mediated SG formation."}
+    ]},
+   {"n": 1153, "id": "pmid:27768896",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Indeed, most GR/PR interactors are components of membrane-less organelles such as nucleoli, the nuclear pore complex and stress granules."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Genetic analysis in Drosophila demonstrated the functional relevance of these interactions to DPR toxicity."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "arginine-containing DPRs, polyGly-Arg (GR) and polyPro-Arg (PR), interact with RNA-binding proteins and proteins with low complexity sequence domains (LCDs)"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "GR and PR altered phase separation of LCD-containing proteins, insinuating into their liquid assemblies and changing their material properties"}
+    ]},
+   {"n": 1154, "id": "pmid:27919067",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Our data suggest that SOX5, a transcription factor involved in neuron fate specification, contributes to this reduction in regional differences."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "downregulation of the alternative splicing of activity-dependent neuron-specific exons, and attenuation of normal differences in gene expression between the frontal and temporal lobes"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "a genetically defined subtype of ASD, chromosome 15q11.2-13.1 duplication syndrome (dup15q), shares the core transcriptomic signature observed in idiopathic ASD"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Co-expression network analysis reveals that individuals with ASD show age-related changes in the trajectory of microglial and synaptic function over the first two decades"}
+    ]}
+ ]}

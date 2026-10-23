@@ -1,0 +1,177 @@
+{
+ "batch": "gen_51b",
+ "prompt_version": "gen-v5",
+ "items": [
+  {
+   "n": 1155,
+   "id": "pmid:31228940",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "METTL3 speeds up the maturation of pri-miR221/222, which lowers PTEN levels and ultimately drives the proliferation of bladder cancer.",
+     "evidence": "We confirmed the oncogenic role of METTL3 in bladder cancer by accelerating the maturation of pri-miR221/222, resulting in the reduction of PTEN, which ultimately leads to the proliferation of bladder cancer.",
+     "note": "The Results state that METTL3 accelerates pri-miR221/222 maturation, reducing PTEN and leading to bladder cancer proliferation."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "In bladder cancer, METTL3 expression was significantly increased, and this elevated expression tracked with poor prognosis in bladder cancer patients.",
+     "evidence": "Moreover, we found that METTL3 was significantly increased in bladder cancer and correlated with poor prognosis of bladder cancer patients.",
+     "note": "The Results report significantly increased METTL3 in bladder cancer and a correlation between METTL3 and poor patient prognosis."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Bladder cancer patients with high METTL3 expression respond worse to cisplatin-based chemotherapy than patients with low METTL3 expression.",
+     "evidence": "The survival analysis was adopted to explore the association between METTL3 expression and the prognosis of bladder cancer.",
+     "note": "Survival analysis linked METTL3 expression to prognosis, but the abstract reports no analysis of chemotherapy or of any treatment response."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "METTL3 interacts with the microprocessor protein DGCR8 and regulates pri-miR221/222 processing in an m6A-dependent way, as shown by RIP, co-immunoprecipitation and m6A dot blot assays.",
+     "evidence": "RNA immunoprecipitation (RIP), co-immunoprecipitations and RNA m6A dot blot assays were conducted to confirm that METTL3 interacted with the microprocessor protein DGCR8 and modulated the pri-miR221/222 process in an m6A-dependent manner.",
+     "note": "These assays confirmed that METTL3 interacts with DGCR8 and modulates pri-miR221/222 processing in an m6A-dependent manner."
+    }
+   ]
+  },
+  {
+   "n": 1156,
+   "id": "pmid:29051200",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "METTL16 is the enzyme that places the N6-methyl mark on adenosine 43 (A43) of the human U6 snRNA.",
+     "evidence": "We demonstrate that METTL16 is responsible for N 6 -methylation of A43 of the U6 snRNA",
+     "note": "The abstract states directly that METTL16 is responsible for N6-methylation of A43 of the U6 snRNA."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The U6 position A43 sits inside the essential ACAGAGA box, a region that base-pairs with pre-mRNA 5' splice sites during splicing.",
+     "evidence": "Interestingly, A43 lies within an essential ACAGAGA box of U6 that base pairs with 5' splice sites of pre-mRNAs during splicing",
+     "note": "The abstract places A43 within the essential ACAGAGA box of U6, which base pairs with 5' splice sites of pre-mRNAs during splicing."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "CRAC experiments revealed that METTL16 associates not only with U6 snRNA and other ncRNAs but also with many lncRNAs and pre-mRNAs.",
+     "evidence": "METTL16 binds to the U6 snRNA and other ncRNAs as well as numerous lncRNAs and pre-mRNAs.",
+     "note": "The CRAC data showed METTL16 binding to U6 snRNA, other ncRNAs, and numerous lncRNAs and pre-mRNAs."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "METTL16 accounts for most of the human m6A sites that are installed independently of the METTL3-METTL14 complex.",
+     "evidence": "The identification of METTL16 as an active m 6 A methyltransferase in human cells expands our understanding of the mechanisms by which the m 6 A landscape is installed on cellular RNAs.",
+     "note": "The abstract establishes METTL16 as an active m6A methyltransferase but gives no estimate of what share of METTL3-METTL14-independent sites it installs."
+    }
+   ]
+  },
+  {
+   "n": 1157,
+   "id": "pmid:31619685",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Upregulation of both circNSUN2 and HMGA2 was more common in liver metastasis tissues than in primary colorectal carcinoma tissues.",
+     "evidence": "Clinically, the upregulated expressions of circNSUN2 and HMGA2 are more prevalent in LM tissues than in primary CRC tissues.",
+     "note": "The abstract reports that upregulated circNSUN2 and HMGA2 are more prevalent in liver metastasis tissues than in primary CRC tissues."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Antisense targeting of circNSUN2 reduced liver metastasis in PDX metastasis models of colorectal carcinoma.",
+     "evidence": "The upregulated expression of circNSUN2 promotes LM in PDX metastasis models in vivo and accelerates cancer cells invasion in vitro.",
+     "note": "The PDX models tested the effect of upregulated circNSUN2, and the abstract only suggests circNSUN2 as a therapeutic target without reporting any targeting experiment."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "In colorectal carcinoma patients with liver metastasis, circNSUN2 was frequently upregulated in tumor tissue and serum, and its upregulation predicted worse patient survival.",
+     "evidence": "circNSUN2, frequently upregulated in tumor tissues and serum samples from colorectal carcinoma (CRC) patients with liver metastasis (LM) and predicts poorer patient survival.",
+     "note": "The abstract describes circNSUN2 as frequently upregulated in tumor tissue and serum of CRC patients with liver metastasis and as predicting poorer survival."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Cytoplasmic export of circNSUN2 was increased by its N6-methyladenosine modification.",
+     "evidence": "Importantly, N 6 -methyladenosine modification of circNSUN2 increases export to the cytoplasm.",
+     "note": "The abstract states that N6-methyladenosine modification of circNSUN2 increases its export to the cytoplasm."
+    }
+   ]
+  },
+  {
+   "n": 1158,
+   "id": "pmid:31155234",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "The microproteins that localize to mitochondria are required for normal mitochondrial respiration in human cardiomyocytes.",
+     "evidence": "We associate these microproteins with diverse cellular processes and compartments and find that many locate to the mitochondria.",
+     "note": "The abstract reports that many microproteins locate to the mitochondria but describes no test of their role in respiration or any other mitochondrial function."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Several dozen microproteins are produced from lncRNAs that already have well-characterized noncoding functions.",
+     "evidence": "Importantly, dozens of microproteins are translated from lncRNAs with well-characterized noncoding functions, indicating previously unrecognized biology.",
+     "note": "The abstract states that dozens of microproteins are translated from lncRNAs with well-characterized noncoding functions."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Translational regulation of cardiac gene expression proved extensive and was organized according to specific biological processes.",
+     "evidence": "We show extensive translational control of cardiac gene expression, which is orchestrated in a process-specific manner.",
+     "note": "The abstract reports extensive translational control of cardiac gene expression, orchestrated in a process-specific manner."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Hundreds of microproteins not detected before, encoded by lncRNAs and circRNAs, were identified, and their protein products were confirmed in vivo.",
+     "evidence": "We identify hundreds of previously undetected microproteins, expressed from lncRNAs and circRNAs, for which we validate the protein products in vivo.",
+     "note": "The abstract reports hundreds of previously undetected microproteins from lncRNAs and circRNAs, with protein products validated in vivo."
+    }
+   ]
+  },
+  {
+   "n": 1159,
+   "id": "pmid:29887379",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "In neurons lacking Cyrano, surplus miR-7 drives cytoplasmic destruction of Cdr1as, partly through increased slicing of Cdr1as by miR-671.",
+     "evidence": "Without Cyrano, excess miR-7 causes cytoplasmic destruction of Cdr1as in neurons, in part through enhanced slicing of Cdr1as by a second miRNA, miR-671.",
+     "note": "The abstract states that without Cyrano, excess miR-7 causes cytoplasmic Cdr1as destruction in neurons, partly via enhanced miR-671 slicing."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Degradation of miR-7 directed by Cyrano was far more effective than earlier reported cases of target-directed microRNA degradation, mostly from artificial and viral RNAs.",
+     "evidence": "Cyrano-directed miR-7 degradation is much more effective than previously described examples of target-directed microRNA degradation, which come primarily from studies of artificial and viral RNAs.",
+     "note": "The abstract says Cyrano-directed miR-7 degradation is much more effective than previously described examples, which come mainly from artificial and viral RNAs."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The Cyrano/miR-7/Cdr1as regulatory network operates the same way in human neurons as in mouse neurons.",
+     "evidence": "using gene editing in mice to probe the molecular consequences of disrupting key components of this network.",
+     "note": "All the described experiments used gene editing in mice, and the abstract makes no claim either way about human neurons."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Cyrano lowers miR-7 levels, which relieves repression of miR-7 target mRNAs and allows the circular RNA Cdr1as to accumulate.",
+     "evidence": "By reducing miR-7 levels, Cyrano prevents repression of miR-7-targeted mRNAs and enables accumulation of Cdr1as, a circular RNA known to regulate neuronal activity.",
+     "note": "The abstract states that by reducing miR-7, Cyrano prevents repression of miR-7 targets and enables Cdr1as accumulation."
+    }
+   ]
+  }
+ ],
+ "flip_rule": "first-of-any-v3"
+}

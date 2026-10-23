@@ -1,0 +1,135 @@
+{
+"batch": "check_A_53c",
+"pass": "A",
+"source_batch": "gen_53c",
+"items": [
+{
+"n": 1188,
+"id": "pmid:29874575",
+"year": 2018,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Aging and neurodegenerative disease are characterized by genomic instability in neurons, including aberrant activation and mobilization of transposable elements (TEs). Integrating studies of human postmortem brain tissue and Drosophila melanogaster models, we investigate TE activation in association with Tau pathology in Alzheimer's disease (AD). Leveraging RNA sequencing from 636 human brains, we discover differential expression for several retrotransposons in association with neurofibrillary tangle burden and highlight evidence for global TE transcriptional activation among the long interspersed nuclear element 1 and endogenous retrovirus clades. In addition, we detect Tau-associated, active chromatin signatures at multiple HERV-Fc1 genomic loci. To determine whether Tau is sufficient to induce TE activation, we profile retrotransposons in Drosophila expressing human wild-type or mutant Tau throughout the brain. We discover heterogeneous response profiles, including both age- and genotype-dependent activation of TE expression by Tau. Our results implicate TE activation and associated genomic instability in Tau-mediated AD mechanisms."
+}
+],
+"text": "Aging and neurodegenerative disease are characterized by genomic instability in neurons, including aberrant activation and mobilization of transposable elements (TEs). Integrating studies of human postmortem brain tissue and Drosophila melanogaster models, we investigate TE activation in association with Tau pathology in Alzheimer's disease (AD). Leveraging RNA sequencing from 636 human brains, we discover differential expression for several retrotransposons in association with neurofibrillary tangle burden and highlight evidence for global TE transcriptional activation among the long interspersed nuclear element 1 and endogenous retrovirus clades. In addition, we detect Tau-associated, active chromatin signatures at multiple HERV-Fc1 genomic loci. To determine whether Tau is sufficient to induce TE activation, we profile retrotransposons in Drosophila expressing human wild-type or mutant Tau throughout the brain. We discover heterogeneous response profiles, including both age- and genotype-dependent activation of TE expression by Tau. Our results implicate TE activation and associated genomic instability in Tau-mediated AD mechanisms.",
+"statements": [
+{
+"j": 1,
+"text": "Several HERV-Fc1 genomic loci carried active chromatin signatures that were associated with Tau."
+},
+{
+"j": 2,
+"text": "RNA sequencing of 636 human brains gave evidence of globally decreased transcription of transposable elements in the long interspersed nuclear element 1 and endogenous retrovirus clades."
+},
+{
+"j": 3,
+"text": "Pharmacologically blocking retrotransposon activity in Tau-expressing Drosophila reduced the loss of neurons."
+},
+{
+"j": 4,
+"text": "In Drosophila expressing human wild-type or mutant Tau, retrotransposon responses were heterogeneous, with Tau-driven activation of TE expression depending on fly age and genotype."
+}
+]
+},
+{
+"n": 1189,
+"id": "pmid:34762468",
+"year": 2021,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Centromeres attach chromosomes to spindle microtubules during cell division and, despite this conserved role, show paradoxically rapid evolution and are typified by complex repeats. We used long-read sequencing to generate the Col-CEN Arabidopsis thaliana genome assembly that resolves all five centromeres. The centromeres consist of megabase-scale tandemly repeated satellite arrays, which support CENTROMERE SPECIFIC HISTONE H3 (CENH3) occupancy and are densely DNA methylated, with satellite variants private to each chromosome. CENH3 preferentially occupies satellites that show the least amount of divergence and occur in higher-order repeats. The centromeres are invaded by ATHILA retrotransposons, which disrupt genetic and epigenetic organization. Centromeric crossover recombination is suppressed, yet low levels of meiotic DNA double-strand breaks occur that are regulated by DNA methylation. We propose that Arabidopsis centromeres are evolving through cycles of satellite homogenization and retrotransposon-driven diversification."
+}
+],
+"text": "Centromeres attach chromosomes to spindle microtubules during cell division and, despite this conserved role, show paradoxically rapid evolution and are typified by complex repeats. We used long-read sequencing to generate the Col-CEN Arabidopsis thaliana genome assembly that resolves all five centromeres. The centromeres consist of megabase-scale tandemly repeated satellite arrays, which support CENTROMERE SPECIFIC HISTONE H3 (CENH3) occupancy and are densely DNA methylated, with satellite variants private to each chromosome. CENH3 preferentially occupies satellites that show the least amount of divergence and occur in higher-order repeats. The centromeres are invaded by ATHILA retrotransposons, which disrupt genetic and epigenetic organization. Centromeric crossover recombination is suppressed, yet low levels of meiotic DNA double-strand breaks occur that are regulated by DNA methylation. We propose that Arabidopsis centromeres are evolving through cycles of satellite homogenization and retrotransposon-driven diversification.",
+"statements": [
+{
+"j": 1,
+"text": "Satellites with lower divergence and higher-order repeat organisation were the preferred sites of CENTROMERE SPECIFIC HISTONE H3 (CENH3) occupancy."
+},
+{
+"j": 2,
+"text": "Crossover recombination was promoted within the centromeres, although meiotic DNA double-strand breaks still formed there at low levels under the control of DNA methylation."
+},
+{
+"j": 3,
+"text": "In the Col-CEN assembly, all five Arabidopsis thaliana centromeres were resolved and found to be megabase-scale tandem satellite arrays bearing chromosome-specific satellite variants."
+},
+{
+"j": 4,
+"text": "Centromeres with the same satellite and ATHILA organisation as Col-CEN were also found in other flowering plant species."
+}
+]
+},
+{
+"n": 1190,
+"id": "pmid:27419873",
+"year": 2016,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The epigenome orchestrates genome accessibility, functionality, and three-dimensional structure. Because epigenetic variation can impact transcription and thus phenotypes, it may contribute to adaptation. Here, we report 1,107 high-quality single-base resolution methylomes and 1,203 transcriptomes from the 1001 Genomes collection of Arabidopsis thaliana. Although the genetic basis of methylation variation is highly complex, geographic origin is a major predictor of genome-wide DNA methylation levels and of altered gene expression caused by epialleles. Comparison to cistrome and epicistrome datasets identifies associations between transcription factor binding sites, methylation, nucleotide variation, and co-expression modules. Physical maps for nine of the most diverse genomes reveal how transposons and other structural variants shape the epigenome, with dramatic effects on immunity genes. The 1001 Epigenomes Project provides a comprehensive resource for understanding how variation in DNA methylation contributes to molecular and non-molecular phenotypes in natural populations of the most studied model plant."
+}
+],
+"text": "The epigenome orchestrates genome accessibility, functionality, and three-dimensional structure. Because epigenetic variation can impact transcription and thus phenotypes, it may contribute to adaptation. Here, we report 1,107 high-quality single-base resolution methylomes and 1,203 transcriptomes from the 1001 Genomes collection of Arabidopsis thaliana. Although the genetic basis of methylation variation is highly complex, geographic origin is a major predictor of genome-wide DNA methylation levels and of altered gene expression caused by epialleles. Comparison to cistrome and epicistrome datasets identifies associations between transcription factor binding sites, methylation, nucleotide variation, and co-expression modules. Physical maps for nine of the most diverse genomes reveal how transposons and other structural variants shape the epigenome, with dramatic effects on immunity genes. The 1001 Epigenomes Project provides a comprehensive resource for understanding how variation in DNA methylation contributes to molecular and non-molecular phenotypes in natural populations of the most studied model plant.",
+"statements": [
+{
+"j": 1,
+"text": "Comparison with cistrome and epicistrome data revealed links among transcription factor binding sites, DNA methylation, nucleotide variation and co-expression modules."
+},
+{
+"j": 2,
+"text": "Methylation epialleles were found to raise the fitness of Arabidopsis thaliana accessions in their native local environments."
+},
+{
+"j": 3,
+"text": "The geographic origin of Arabidopsis thaliana accessions was a key predictor of their genome-wide DNA methylation levels and of epiallele-driven changes in gene expression."
+},
+{
+"j": 4,
+"text": "Using physical maps of nine of the least diverse genomes, the study showed that transposons and other structural variants mould the epigenome and strongly affect immunity genes."
+}
+]
+},
+{
+"n": 1191,
+"id": "pmid:30940818",
+"year": 2019,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "A complete and accurate genome sequence provides a fundamental tool for functional genomics and DNA-informed breeding. Here, we assemble a high-quality genome (contig N50 of 6.99 Mb) of the apple anther-derived homozygous line HFTH1, including 22 telomere sequences, using a combination of PacBio single-molecule real-time (SMRT) sequencing, chromosome conformation capture (Hi-C) sequencing, and optical mapping. In comparison to the Golden Delicious reference genome, we identify 18,047 deletions, 12,101 insertions and 14 large inversions. We reveal that these extensive genomic variations are largely attributable to activity of transposable elements. Interestingly, we find that a long terminal repeat (LTR) retrotransposon insertion upstream of MdMYB1, a core transcriptional activator of anthocyanin biosynthesis, is associated with red-skinned phenotype. This finding provides insights into the molecular mechanisms underlying red fruit coloration, and highlights the utility of this high-quality genome assembly in deciphering agriculturally important trait in apple."
+}
+],
+"text": "A complete and accurate genome sequence provides a fundamental tool for functional genomics and DNA-informed breeding. Here, we assemble a high-quality genome (contig N50 of 6.99 Mb) of the apple anther-derived homozygous line HFTH1, including 22 telomere sequences, using a combination of PacBio single-molecule real-time (SMRT) sequencing, chromosome conformation capture (Hi-C) sequencing, and optical mapping. In comparison to the Golden Delicious reference genome, we identify 18,047 deletions, 12,101 insertions and 14 large inversions. We reveal that these extensive genomic variations are largely attributable to activity of transposable elements. Interestingly, we find that a long terminal repeat (LTR) retrotransposon insertion upstream of MdMYB1, a core transcriptional activator of anthocyanin biosynthesis, is associated with red-skinned phenotype. This finding provides insights into the molecular mechanisms underlying red fruit coloration, and highlights the utility of this high-quality genome assembly in deciphering agriculturally important trait in apple.",
+"statements": [
+{
+"j": 1,
+"text": "The extensive genomic variation between HFTH1 and the Golden Delicious reference genome is mainly explained by transposable element activity."
+},
+{
+"j": 2,
+"text": "Relative to the Golden Delicious reference genome, HFTH1 had fewer deletions (18,047) than insertions (12,101), as well as 14 large inversions."
+},
+{
+"j": 3,
+"text": "A red-skinned apple phenotype was associated with an LTR retrotransposon inserted upstream of MdMYB1, a core transcriptional activator of anthocyanin biosynthesis."
+},
+{
+"j": 4,
+"text": "The HFTH1 genome assembly contains more annotated protein-coding genes than the Golden Delicious reference genome."
+}
+]
+}
+]
+}

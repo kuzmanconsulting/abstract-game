@@ -100,3 +100,18 @@ Fields: cfDNA 225 · TE 232 · cancer genomics 233 · evolutionary genomics 231 
 242 preprints; Nature 50, Nature Communications 43, Genome Biology 36, Cell 30, Nucleic Acids Research 11, Science 5
 … 165 abstracts have no contradicted item (D17). Years now 2020–2026 because of the top-journal reach-back.
 Delivered to the Mac and the artifact; the GitHub push is Maja's.
+
+**20:23–21:05 — landmark corpus, gen-v5, page features.** Maja asked for the most impactful papers of the last ten
+years, 25–50 per field. "Impact" = Europe PMC citation count (2016–2026, journal articles, reviews out), then a
+rule-based shortlist that drops tool/database/resource titles, then one Opus curation agent per field picking the 40
+primary research papers with a one-line reason for every drop (D18). 192 kept (TE only had 32 of its top-70 as TE
+research). gen-v5 adds the comparative-word requirement (D17): abstracts without a flippable comparison fell from
+38 % to 24 of 191. The Opus generators tripped the classifier on 4 of 13 batches; each split into 4–5-abstract
+parts written one item at a time went through. One clinical-trial paper (MRX34) excluded (D21). 63 blind checks.
+Maja's questions along the way: the title/author/year/journal now show before answering, title optional (D19); a
+Share-my-score card (1080×1920 PNG, Web Share on phones) (D20), logo removed from it when she found it tacky; the
+real Kuzman Consulting K-mark and banner cropped from her logo file for the page header and footer; and the
+"evolutionary genomics shows a cancer abstract" puzzle (D22) — field overlap, three cancer papers re-tagged. Merge:
+1,187 abstracts of 1,191 (3 excluded, 1 too few), 4,647 statements, every kept statement unanimous, 22 of 14,256
+pairwise checker verdicts differ. Fields cfDNA 265 · TE 264 · cancer genomics 276 · evolutionary genomics 268 ·
+small RNA 114; 945 journal, 242 preprint; years 2016–2026.

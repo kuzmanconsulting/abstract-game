@@ -1,0 +1,31 @@
+{"batch": "check_C_50a", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1135, "id": "pmid:28903484",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Upregulation of FBXW7-185aa in cancer cells inhibited proliferation and cell cycle acceleration"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "The spanning junction open reading frame in circ-FBXW7 driven by internal ribosome entry site encodes a novel 21-kDa protein, which we termed FBXW7-185aa."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Upregulation of FBXW7-185aa in cancer cells inhibited proliferation and cell cycle acceleration, while knockdown of FBXW7-185aa promoted malignant phenotypes invitro and invivo."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Moreover, circ-FBXW7 and FBXW7-185aa levels were reduced in glioblastoma clinical samples compared with their paired tumor-adjacent tissues (P < .001)."}
+    ]},
+   {"n": 1136, "id": "pmid:28283059",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Other RNA-binding proteins depend upon low-complexity regions (LCRs) or RNA for phase separation, whereas Pab1's LCR is not required for demixing, and RNA inhibits it."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Mutations that impede phase separation reduce organism fitness during prolonged stress."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Poly(A)-binding protein thus acts as a physiological stress sensor, exploiting phase separation to precisely mark stress onset, a broadly generalizable mechanism."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We show that poly(A)-binding protein (Pab1 in yeast), a defining marker of stress granules, phase separates and forms hydrogels in vitro upon exposure to physiological stress conditions."}
+    ]},
+   {"n": 1137, "id": "pmid:26863196",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "m(1)A is enriched around the start codon upstream of the first splice site: it preferentially decorates more structured regions around canonical and alternative translation initiation sites"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "These unique features are highly conserved in mouse and human cells"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "occurs on thousands of different gene transcripts in eukaryotic cells, from yeast to mammals, at an estimated average transcript stoichiometry of 20% in humans"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "A recent noteworthy example is N(6)-methyladenosine (m(6)A), which affects messenger RNA (mRNA) localization, stability, translation and splicing."}
+    ]},
+   {"n": 1138, "id": "pmid:28792938",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 2, "evidence": "the mRNAs of SOCS family genes encoding the STAT signalling inhibitory proteins SOCS1, SOCS3 and CISH were marked by m 6 A, exhibited slower mRNA decay and showed increased mRNAs and levels of protein expression in Mettl3-deficient naive T cells", "flag": "ambiguous", "reason": "As written, 'decayed less slowly' means faster decay, which contradicts 'slower mRNA decay', but the awkward double-comparative could be misread (or be a slip for 'more slowly')."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Here we show that the deletion of m 6 A 'writer' protein METTL3 in mouse T cells disrupts T cell homeostasis and differentiation."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "This increased SOCS family activity consequently inhibited IL-7-mediated STAT5 activation and T cell homeostatic proliferation and differentiation."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "In a lymphopaenic mouse adoptive transfer model, naive Mettl3-deficient T cells failed to undergo homeostatic expansion and remained in the naive state for up to 12 weeks, thereby preventing colitis."}
+    ]}
+ ]}

@@ -1,0 +1,143 @@
+{
+ "batch": "gen_53a",
+ "prompt_version": "gen-v5",
+ "items": [
+  {
+   "n": 1180,
+   "id": "pmid:33505026",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Deleting Mettl3 weakened the deposition of several heterochromatin marks at METTL3-targeted IAPs and increased IAP transcription.",
+     "evidence": "Knockout of Mettl3 impairs the deposition of multiple heterochromatin marks onto METTL3-targeted IAPs, and upregulates IAP transcription",
+     "note": "The abstract reports exactly this result of the Mettl3 knockout: impaired heterochromatin marks at targeted IAPs together with upregulated IAP transcription."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The m6A reader YTHDC1 binds the methylated IAP transcripts, interacts with METTL3, and strengthens the association of METTL3 with chromatin.",
+     "evidence": "These m 6 A-marked transcripts are bound by the m 6 A reader YTHDC1, which interacts with METTL3 and in turn promotes the association of METTL3 with chromatin.",
+     "note": "Each element of the statement - YTHDC1 binding the m6A-marked transcripts, interacting with METTL3, and promoting METTL3's chromatin association - is stated in the abstract."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Mettl3-knockout mouse embryonic stem cells fail to differentiate into the three embryonic germ layers.",
+     "evidence": "Here we show that METTL3 regulates mouse embryonic stem-cell heterochromatin, the integrity of which is critical for silencing retroviral elements and for mammalian development 5 .",
+     "note": "The abstract notes that heterochromatin integrity matters for mammalian development in general, but reports no differentiation experiment on Mettl3-knockout cells."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "METTL3 physically binds the H3K9 tri-methyltransferase SETDB1 and its cofactor TRIM28, and it is needed for their localization to IAPs.",
+     "evidence": "METTL3 also interacts physically with the histone 3 lysine 9 (H3K9) tri-methyltransferase SETDB1 and its cofactor TRIM28, and is important for their localization to IAPs.",
+     "note": "The abstract states both the physical interaction with SETDB1 and TRIM28 and METTL3's importance for bringing them to IAPs."
+    }
+   ]
+  },
+  {
+   "n": 1181,
+   "id": "pmid:36610399",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Human senescent cells switch on HERVK (HML-2), the most recently integrated human ERV family, transcribing its viral genes and producing retrovirus-like particles.",
+     "evidence": "In human senescent cells, we found that HERVK (HML-2), the most recently integrated human ERVs, are unlocked to transcribe viral genes and produce retrovirus-like particles (RVLPs).",
+     "note": "The abstract reports this finding in senescent human cells, including that HERVK is the most recently integrated human ERV family."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Retrovirus-like particles released by senescent cells insert new HERVK copies into the genomes of the young cells they enter.",
+     "evidence": "These HERVK RVLPs constitute a transmissible message to elicit senescence phenotypes in young cells, which can be blocked by neutralizing antibodies.",
+     "note": "The abstract reports that the particles transmit senescence phenotypes to young cells but says nothing about whether they create new genomic insertions there."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Repressing ERVs eased cellular senescence and tissue degeneration, and to a limited extent organismal aging.",
+     "evidence": "Their repression alleviates cellular senescence and tissue degeneration and, to some extent, organismal aging.",
+     "note": "The abstract states that ERV repression alleviates senescence and tissue degeneration, and organismal aging only to some extent."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "ERV activation was detected beyond cultured cells: in organs of aged primates and mice, and in tissues and serum from elderly humans.",
+     "evidence": "The activation of ERVs was also observed in organs of aged primates and mice as well as in human tissues and serum from the elderly.",
+     "note": "The abstract lists exactly these settings in which ERV activation was also observed."
+    }
+   ]
+  },
+  {
+   "n": 1182,
+   "id": "pmid:34591643",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "IscB cuts double-stranded DNA under the guidance of a single noncoding RNA, and it works for genome editing in human cells.",
+     "evidence": "We found that IscB uses a single noncoding RNA for RNA-guided cleavage of double-stranded DNA and can be harnessed for genome editing in human cells.",
+     "note": "The abstract reports both the single-noncoding-RNA-guided DNA cleavage by IscB and its use for editing human cells."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Combining evolutionary analysis, RNA sequencing and biochemistry, the study traced CRISPR-Cas9 systems to IS200/IS605 transposons, placing the transposon nucleases earlier in that lineage.",
+     "evidence": "Using evolutionary analysis, RNA sequencing, and biochemical experiments, we reconstructed the evolution of CRISPR-Cas9 systems from IS200/IS605 transposons.",
+     "note": "The abstract states that these three approaches were used to reconstruct the evolution of CRISPR-Cas9 from IS200/IS605 transposons, which makes the transposon systems the earlier form."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "TnpB, a second protein encoded by IS200/IS605 transposons, also cleaves DNA under RNA guidance.",
+     "evidence": "We also demonstrate the RNA-guided nuclease activity of TnpB, another IS200/IS605 transposon-encoded protein and the likely ancestor of Cas12 endonucleases.",
+     "note": "The abstract reports demonstrating RNA-guided nuclease activity for TnpB, another IS200/IS605 transposon-encoded protein."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "OMEGA nucleases are compact enough to be packaged into adeno-associated viral vectors more easily than Cas9.",
+     "evidence": "This work reveals a widespread class of transposon-encoded RNA-guided nucleases, which we name OMEGA (obligate mobile element–guided activity), with strong potential for developing as biotechnologies.",
+     "note": "The abstract claims biotechnological potential for the OMEGA class but never mentions protein size, vector packaging, or any comparison with Cas9 on those grounds."
+    }
+   ]
+  },
+  {
+   "n": 1183,
+   "id": "pmid:30926969",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Patients whose tumors carry TE cryptic promoter-activation events have shorter overall survival.",
+     "evidence": "However, the prevalence and impact of TE onco-exaptation events across cancer types are poorly characterized.",
+     "note": "The abstract names the impact of onco-exaptation across cancer types as the gap it addresses, but it reports no patient-survival analysis."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Across 7,769 tumors and 625 normal datasets from 15 cancer types, the survey found 129 TE cryptic promoter-activation events involving 106 oncogenes in 3,864 tumors.",
+     "evidence": "Here, we analyzed 7,769 tumors and 625 normal datasets from 15 cancer types, identifying 129 TE cryptic promoter-activation events involving 106 oncogenes across 3,864 tumors.",
+     "note": "These are the counts the abstract gives for the datasets analyzed and the events, oncogenes and tumors identified."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Deleting the AluJb element caused a complete loss of LIN28B expression, while shifting DNA methylation changed the activity of that promoter.",
+     "evidence": "the genetic deletion of the TE eliminated oncogene expression, while dynamic DNA methylation modulated promoter activity",
+     "note": "For the AluJb-LIN28B candidate the abstract reports that deleting the TE eliminated oncogene expression and that DNA methylation modulated promoter activity."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The study characterizes the global profile of TE onco-exaptation and presents it as a prevalent mechanism of promiscuous oncogene activation and tumorigenesis.",
+     "evidence": "Collectively, our results characterize the global profile of TE onco-exaptation and highlight this prevalent phenomenon as an important mechanism for promiscuous oncogene activation and ultimately tumorigenesis.",
+     "note": "This restates the abstract's own summary of what its results establish."
+    }
+   ]
+  }
+ ],
+ "flip_rule": "first-of-any-v3"
+}

@@ -1,0 +1,177 @@
+{
+ "batch": "gen_51c",
+ "prompt_version": "gen-v5",
+ "items": [
+  {
+   "n": 1160,
+   "id": "pmid:30902974",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "SMARCAD1 is enriched across class I and class II ERV subfamilies, most of all at active intracisternal A-type particles, where repressive histone methylation is maintained.",
+     "evidence": "SMARCAD1 is enriched at ERV subfamilies class I and II, particularly at active intracisternal A-type particles (IAPs), where it preserves repressive histone methylation marks.",
+     "note": "The abstract reports exactly this enrichment pattern and the preservation of repressive histone methylation marks at IAPs."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Loss of SMARCAD1 blocks the differentiation of embryonic stem cells.",
+     "evidence": "Here we identify the SWI/SNF-like remodeler SMARCAD1 as a key factor in the control of ERVs in embryonic stem cells.",
+     "note": "The work is carried out in embryonic stem cells, but the abstract reports only effects on ERV silencing and never mentions differentiation."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Removing SMARCAD1 releases the silencing of IAP elements and of the genes next to them.",
+     "evidence": "Depletion of SMARCAD1 results in de-repression of IAPs and adjacent genes.",
+     "note": "This is the reported consequence of SMARCAD1 depletion: de-repression of IAPs and of adjacent genes."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "SMARCAD1 and KAP1 need each other to occupy ERVs, and that mutual requirement depends on the ATPase activity of SMARCAD1.",
+     "evidence": "SMARCAD1 and KAP1 occupancy at ERVs is co-dependent and requires the ATPase function of SMARCAD1.",
+     "note": "The abstract states that occupancy of the two proteins at ERVs is co-dependent and requires the ATPase function of SMARCAD1."
+    }
+   ]
+  },
+  {
+   "n": 1161,
+   "id": "pmid:30728521",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "In senescent cells, L1 elements escape transcriptional repression and switch on a type-I interferon response.",
+     "evidence": "during cellular senescence, L1 (also known as LINE-1) retrotransposable elements become transcriptionally derepressed and activate a type-I interferon (IFN-I) response",
+     "note": "This is the central reported finding: L1 derepression during senescence activates IFN-I signalling."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The interferon response belongs to late senescence and helps sustain the senescence-associated secretory phenotype.",
+     "evidence": "The IFN-I response is a phenotype of late senescence and contributes to the maintenance of the senescence-associated secretory phenotype.",
+     "note": "The abstract places the IFN-I response in late senescence and credits it with maintaining the secretory phenotype."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Lamivudine given to aged mice downregulated interferon activation and age-associated inflammation in several tissues.",
+     "evidence": "Treatment of aged mice with the nucleoside reverse transcriptase inhibitor lamivudine downregulated IFN-I activation and age-associated inflammation (inflammaging) in several tissues.",
+     "note": "Reported directly as the outcome of lamivudine treatment in aged mice."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Inhibiting L1 reverse transcriptase returns senescent cells to active division.",
+     "evidence": "The IFN-I response is triggered by cytoplasmic L1 cDNA, and is antagonized by inhibitors of the L1 reverse transcriptase.",
+     "note": "The abstract reports that reverse transcriptase inhibitors block the interferon response, but says nothing about whether senescent cells resume proliferation."
+    }
+   ]
+  },
+  {
+   "n": 1162,
+   "id": "pmid:26941318",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Bird genomes carry ERV-derived interferon-inducible enhancers of the same kind.",
+     "evidence": "lineage-specific ERVs have dispersed numerous IFN-inducible enhancers independently in diverse mammalian genomes",
+     "note": "The abstract covers mammalian genomes only and neither claims nor denies the same pattern in birds."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Deleting a subset of these ERV elements with CRISPR-Cas9 impaired expression of the interferon-induced genes lying beside them.",
+     "evidence": "CRISPR-Cas9 deletion of a subset of these ERV elements in the human genome impaired expression of adjacent IFN-induced genes",
+     "note": "Impaired expression of adjacent IFN-induced genes is the reported effect of the deletions."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "ERVs have shaped how the transcriptional network behind the interferon response, a major branch of innate immunity, evolved.",
+     "evidence": "We found that ERVs have shaped the evolution of a transcriptional network underlying the interferon (IFN) response, a major branch of innate immunity",
+     "note": "This is stated as the study's main finding."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The deleted elements turned out to take part in essential immune functions, among them activation of the AIM2 inflammasome.",
+     "evidence": "revealed their involvement in the regulation of essential immune functions, including activation of the AIM2 inflammasome",
+     "note": "The abstract names AIM2 inflammasome activation among the immune functions these ERV elements help regulate."
+    }
+   ]
+  },
+  {
+   "n": 1163,
+   "id": "pmid:28273063",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Phylogenetic work placed the root of the KZFP family at a common ancestor of coelacanths and tetrapods.",
+     "evidence": "we unexpectedly reassigned the root of the family to a common ancestor of coelacanths and tetrapods",
+     "note": "The abstract reports this reassignment of the family's root as its first result."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Most KZFPs bind transposable elements, yet most of the elements they target have lost all capacity to transpose.",
+     "evidence": "we confirmed that the majority of KZFPs bind transposable elements and pinpoint cases of ongoing co-evolution, we found that most of their transposable element targets have lost all transposition potential",
+     "note": "Both halves are stated: the majority of KZFPs bind transposable elements, and most of those targets can no longer transpose."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Vertebrate species with more transposable elements in their genomes carry more KZFP genes.",
+     "evidence": "Here, to obtain a global view of this phenomenon, we combined phylogenetic and genomic studies to investigate the evolutionary emergence of KZFP genes in vertebrates and to identify their targets in the human genome.",
+     "note": "The abstract describes when KZFP genes emerged and what they bind, but makes no comparison between KZFP gene counts and genomic transposable element content."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "KZFPs use evolutionarily conserved fragments of transposable elements as regulatory platforms long after the arms race against those elements ended.",
+     "evidence": "KZFPs exploit evolutionarily conserved fragments of transposable elements as regulatory platforms long after the arms race against these genetic invaders has ended",
+     "note": "Stated as the third result: conserved transposable element fragments serve as regulatory platforms once the arms race is over."
+    }
+   ]
+  },
+  {
+   "n": 1164,
+   "id": "pmid:28798043",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Porcine endogenous retroviruses were confirmed to infect human cells, and they were seen moving horizontally between human cells.",
+     "evidence": "We now confirm that PERVs infect human cells, and we observe the horizontal transfer of PERVs among human cells.",
+     "note": "Both observations are reported in the abstract."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Organs from the PERV-inactivated pigs were transplanted into human recipients without viral transmission.",
+     "evidence": "Our study highlights the value of PERV inactivation to prevent cross-species viral transmission and demonstrates the successful production of PERV-inactivated animals to address the safety concern in clinical xenotransplantation.",
+     "note": "The abstract reports producing the animals and frames clinical xenotransplantation as the goal, but describes no transplantation into human recipients."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "CRISPR-Cas9 inactivated every PERV in a primary pig cell line, and somatic cell nuclear transfer then produced PERV-inactivated pigs.",
+     "evidence": "Using CRISPR-Cas9, we inactivated all of the PERVs in a porcine primary cell line and generated PERV-inactivated pigs via somatic cell nuclear transfer.",
+     "note": "This is the reported experimental result, from edited primary cells through to live PERV-inactivated animals."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Inactivating PERV activity had already been shown workable in an immortalized pig cell line before this study.",
+     "evidence": "We previously demonstrated the feasibility of inactivating PERV activity in an immortalized pig cell line.",
+     "note": "The abstract states this earlier demonstration in an immortalized pig cell line."
+    }
+   ]
+  }
+ ],
+ "flip_rule": "first-of-any-v3"
+}

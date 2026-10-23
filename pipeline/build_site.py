@@ -49,6 +49,13 @@ def artifact_page(index_path=os.path.join(ROOT, "docs", "index.html"), out_path=
     return out_path
 
 
+def site_url_from(repo_url):
+    """https://github.com/<owner>/<repo> -> https://<owner>.github.io/<repo>/ (the GitHub Pages address on the share card)."""
+    import re
+    m = re.match(r"https?://github\.com/([^/]+)/([^/]+?)(?:\.git)?/?$", repo_url or "")
+    return "https://%s.github.io/%s/" % (m.group(1).lower(), m.group(2)) if m else None
+
+
 def build(items_path=ITEMS, out_path=OUT, repo_url=None):
     with open(items_path, encoding="utf-8") as f:
         doc = json.load(f)
@@ -59,7 +66,7 @@ def build(items_path=ITEMS, out_path=OUT, repo_url=None):
               "by_field": dict(Counter(it["field"] for it in items)), "by_source": dict(Counter(it["source"] for it in items)),
               "years": ("%d–%d" % (years[0], years[-1])) if years else None,
               "merged_utc": doc["header"].get("merged_utc"), "passes": doc["header"].get("passes"), "rule": doc["header"].get("rule"),
-              "stats": doc["header"].get("stats"), "repo_url": repo_url,
+              "stats": doc["header"].get("stats"), "repo_url": repo_url, "site_url": site_url_from(repo_url),
               "top_journals": sorted({JOURNAL_DISPLAY.get(it["journal"], it["journal"]) for it in doc["items"] if (it.get("added") or "").endswith("top2") or it.get("added") == "top-journals-2026-10-23"}) or None,
               "sources": "Europe PMC (SRC:MED journal articles; SRC:PPR bioRxiv/medRxiv preprints)",
               "generation": "Claude, prompts gen-v1/gen-v2; three independent blind check passes check-v1 (pipeline/prompts/)"}

@@ -126,3 +126,34 @@ python3 pipeline/merge_checks.py --passes A B C      # 1000 generated · 3 exclu
 python3 pipeline/build_site.py --repo-url https://github.com/kuzmanconsulting/abstract-game   # docs/data.json 4.0 MB, years 2020–2026; "Science (New York, N.Y.)" shown as "Science"
 python3 -m unittest discover -s tests -v             # 17 OK
 ```
+
+## 2026-10-23 20:23–20:55 — landmark corpus (D18–D21) and page work (D19, D20, logo)
+
+```bash
+python3 pipeline/fetch_candidates.py --fields cfdna te cancergen evogen smallrna --sources journal --sort cited --min-numbered 1 --start 2016-01-01 --page-size 300 --suffix landmark --out src/candidates_landmark.json --exclude <bank>
+python3 pipeline/fetch_candidates.py --fields evogen --sources journal --sort cited --min-numbered 1 --start 2016-01-01 --page-size 300 --pages 3 --suffix landmark2 --out src/candidates_landmark_evogen.json --exclude <bank>   # evogen widened to 900 records, merged into candidates_landmark.json
+python3 pipeline/select_landmark.py shortlist --per-field 70      # src/landmark_shortlist.json + src/landmark/shortlist_<field>.json; dropped off_field 790, tool_title 159, in_corpus 9
+# 5 curation agents (Opus, extra effort; prompt landmark-v1) → src/landmark_pick_<field>.json: cfdna 40, cancergen 40, evogen 40, smallrna 40, te 32
+cp src/corpus.json src/_corpus_v3_1000.json.bak
+python3 pipeline/select_landmark.py apply --label landmark-2016-2026 --n 40     # +192 → corpus 1192
+python3 pipeline/make_batches.py gen --size 15 --start 1000 --first-batch 41    # gen_41 … gen_53
+# 13 generator agents (Opus, extra effort, prompt gen-v5); classifier stops on gen_47, gen_50, gen_51, gen_53 →
+python3 pipeline/split_batch.py gen_47 3 ; … gen_50 3 ; … gen_51 3 ; … gen_53 3   # parts written one item at a time
+#  n=1139 (MRX34 phase-1 trial) removed from gen_50a and marked excluded in the corpus (D21)
+#  "flip_rule": "first-of-any-v3" written into gen_41 … gen_53c
+python3 pipeline/validate.py gen                                                 # 71 files OK; 24 of 191 landmark abstracts without a direction word
+python3 pipeline/make_batches.py check --passes A B C --seed 7                   # +63 check batches
+# page: journal/year/first author in the eyebrow + optional title (D19); Share my score card (D20); Kuzman Consulting
+#   K-mark and banner cropped from kuzman_consulting_logo.jpg (docs/assets/, embedded as data URIs)
+python3 pipeline/build_site.py --repo-url https://github.com/kuzmanconsulting/abstract-game
+```
+
+## 2026-10-23 20:56–21:05 — landmark merge, retag, deploy
+
+```bash
+#  corpus: n 764, 775, 780 re-tagged evogen → cancergen (field overlap, D22)
+python3 pipeline/validate.py check                 # 220 OK (first + second + third + landmark)
+python3 pipeline/merge_checks.py --passes A B C    # 1191 generated · 3 excluded · 1187 kept · 4647 statements · dropped ill_formed 18, ambiguous 84, disagreement 1 · pairwise differ 22/14256
+python3 pipeline/build_site.py --repo-url https://github.com/kuzmanconsulting/abstract-game   # docs/data.json, years 2016–2026
+python3 -m unittest discover -s tests -v           # 17 OK
+```

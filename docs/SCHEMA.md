@@ -31,6 +31,15 @@ off-topic abstract the merge skips), and for repaired abstracts `text_repaired`,
 `src/reflips.json` (D13): `from_rule`, `to_rule`, `files[]`, `n[]`, `count`, `kind` {n: reworded | moved | dropped},
 `check_batches[]`.
 
+## `src/candidates_landmark.json`, `src/landmark_shortlist.json`, `src/landmark/shortlist_<field>.json`, `src/landmark_pick_<field>.json` (D18)
+
+Candidates fetched with `--sort cited --min-numbered 1 --start 2016-01-01` carry `cited_by` (Europe PMC
+citedByCount). `select_landmark.py shortlist` writes the rule-filtered top N per field: `fields` {field: [{rank,
+id, cited_by, year, journal, title, abstract_start}]}, `dropped` {in_corpus, tool_title, off_field}. A curation
+agent (prompt landmark-v1) writes per field {field, prompt_version, keep[] (ids, ranked), drop[] {id, reason},
+notes}. `select_landmark.py apply` appends the kept ids to the corpus with `added` = the label and records
+`header.additions[].picks`.
+
 ## `src/batches/gen_<NN>[a-c].json` — `pipeline/make_batches.py gen`
 
 `batch`, `items[]`: `n`, `id`, `year`, `field`, `source`, `sections`, `text` (sections joined by one space — the
@@ -39,7 +48,7 @@ A batch split after a failed run is renamed `_gen_<NN>_unsplit.json.bak` and rep
 
 ## `src/generated/gen_<NN>[a-c].json` — written by a generator agent
 
-`batch`, `prompt_version` (gen-v1 | gen-v2 | gen-v3 | gen-v4 — the prompt file under `pipeline/prompts/`),
+`batch`, `prompt_version` (gen-v1 | gen-v2 | gen-v3 | gen-v4 | gen-v5 — the prompt file under `pipeline/prompts/`),
 `items[]`: `n`, `id`, `statements[]` (exactly 4): `k` (1–4, stable id within the abstract), `label`, `evidence`
 (character-exact substring of `text`, ≤ 300 chars), `note` (one sentence shown after answering), and the text in
 one of three forms:
@@ -48,7 +57,8 @@ one of three forms:
   contradicted item; the shown text is `basis` with `from` → `to` applied once (`validate.compose`);
 - `text` + `flip: true` — gen-v3: a true statement with exactly one direction word; the shown text has that word
   swapped by `validate.FLIP_PAIRS` and the item plays as `contradicted` (`validate.label_of`).
-gen-v4 files carry only true statements (3 supported + 1 not_addressed, no `flip`); the pipeline marks one
+gen-v4 and gen-v5 files carry only true statements (3 supported + 1 not_addressed, no `flip`; v5 asks for a comparative
+word whenever the abstract makes a comparison, D17); the pipeline marks one
 supported statement (ascending `k`) as the flip (`validate.effective`), so the contradicted item is recomputed from
 the file every time and stored nowhere else. Which one depends on the file's top-level `flip_rule`: absent /
 `"exactly-one"` (first corpus) = the first with exactly one direction word from `FLIP_PAIRS`; `"first-of-any"`
@@ -93,4 +103,5 @@ checker_label_agreement_pairwise {agree, differ}, kept_by_field, kept_by_source,
 ## Browser storage (per viewer, never shared)
 
 `ar.filt` {field, source, journal} · `ar.tally` {n, right, streak, best, byLabel} · `ar.seen` [item ids] ·
-`ar.saved` [{id, n, title, authors[], journal, year, doi, url, source, saved_at}] — the reading list (D12).
+`ar.saved` [{id, n, title, authors[], journal, year, doi, url, source, saved_at}] — the reading list (D12) ·
+`ar.prefs` {titleFirst} — show the title before answering (D19).

@@ -8,7 +8,7 @@ Corpus: journal articles (PubMed) and bioRxiv/medRxiv preprints, 2023–2026, in
 transposable elements / genome evolution, cancer genomics, evolutionary genomics and small RNA / RNA biology, fetched
 through Europe PMC, with a targeted share from *Nature*, *Science*, *Cell*, *Nature Genetics*, *Nature Methods*,
 *Nature Biotechnology*, *Nature Communications*, *Cell Genomics*, *Molecular Cell*, *Science Advances*, *Genome
-Biology*, *Genome Research* and *Nucleic Acids Research* reaching back to 2020. Statements were written
+Biology*, *Genome Research* and *Nucleic Acids Research* reaching back to 2020, plus the most-cited primary research papers of 2016–2026 in each field (docs/DECISIONS.md D18). Statements were written
 by Claude from the abstract text alone and kept only when at least two of three independent blind check passes
 agreed with the label (docs/DECISIONS.md D5–D6).
 

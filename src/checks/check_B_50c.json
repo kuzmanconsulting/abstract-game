@@ -1,0 +1,38 @@
+{"batch": "check_B_50c", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1145, "id": "pmid:28334903",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Here, we show that m6A increases the accessibility of its surrounding RNA sequence to bind heterogeneous nuclear ribonucleoprotein G (HNRNPG)."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We identified 13,191 m6A sites in the transcriptome that regulate RNA-HNRNPG interaction and thereby alter the expression and alternative splicing pattern of target mRNAs."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The Arg-Gly-Gly repeats within the low-complexity region are required for binding to the RNA motif exposed by m6A methylation."},
+      {"j": 4, "label": "not_addressed", "confidence": 2, "evidence": "HNRNPG binds m6A-methylated RNAs through its C-terminal low-complexity region, which self-assembles into large particles in vitro.", "flag": "ambiguous", "reason": "The abstract reports self-assembly only in vitro, which does not rule out assembly in living cells, but a reader may treat the in vitro/in cells swap as a contradicted condition."}
+    ]},
+   {"n": 1146, "id": "pmid:30717751",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We discovered that knockdown of circNRIP1 successfully blocked proliferation, migration, invasion and the expression level of AKT1 in GC cells."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "We detected higher circNRIP1 expression in gastric cancer by performing RNA-seq analysis."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We detected higher circNRIP1 expression in gastric cancer by performing RNA-seq analysis."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Moreover, it was proven that circNRIP1 can be transmitted by exosomal communication between GC cells, and exosomal circNRIP1 promoted tumour metastasis in vivo."}
+    ]},
+   {"n": 1147, "id": "pmid:26816378",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Conversely, slow skeletal muscle lacking DWORF exhibits delayed Ca(2+) clearance and relaxation and reduced SERCA activity."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We discovered a putative muscle-specific long noncoding RNA that encodes a peptide of 34 amino acids and that we named dwarf open reading frame (DWORF)."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "DWORF is the only endogenous peptide known to activate the SERCA pump by physical interaction and provides a means for enhancing muscle contractility."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "In mice, overexpression of DWORF in cardiomyocytes increases peak Ca(2+) transient amplitude and SR Ca(2+) load while reducing the time constant of cytosolic Ca(2+) decay during each cycle of contraction-relaxation."}
+    ]},
+   {"n": 1148, "id": "pmid:30936474",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Mechanistically, HISLA blocks the interaction of PHD2 and HIF-1α to inhibit the hydroxylation and degradation of HIF-1α."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Blocking EV-transmitted HISLA inhibits the glycolysis and chemoresistance of breast cancer in vivo."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Clinically, HISLA expression in TAMs is associated with glycolysis, poor chemotherapeutic response and shorter survival of patients with breast cancer."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Reciprocally, lactate released from glycolytic tumour cells upregulates HISLA in macrophages, constituting a feed-forward loop between TAMs and tumour cells."}
+    ]},
+   {"n": 1149, "id": "pmid:26764595",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "WT fecal miRNA transplantation restores fecal microbes and ameliorates colitis."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "These miRNAs can enter bacteria, such as F. nucleatum and E. coli, specifically regulate bacterial gene transcripts, and affect bacterial growth."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "IEC-miRNA-deficient (Dicer1(ΔIEC)) mice exhibit uncontrolled gut microbiota and exacerbated colitis"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Cell-specific loss of the miRNA-processing enzyme, Dicer, identified intestinal epithelial cells (IEC) and Hopx-positive cells as predominant fecal miRNA sources."}
+    ]}
+ ]}
