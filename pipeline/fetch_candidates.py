@@ -53,10 +53,24 @@ FIELDS = {
         "terms": ['"molecular evolution"', "phylogenomic*", '"adaptive evolution"', '"positive selection"', '"comparative genomics"',
                   '"genome evolution"', "speciation", '"gene duplication"', '"horizontal gene transfer"', '"convergent evolution"',
                   '"population genomics"', '"experimental evolution"', '"evolutionary rate"', '"purifying selection"'],
+        # D14: "speciation" alone also matches chemical speciation (tin in toothpaste, ion speciation in thermoelectrics)
+        "require": ["genome", "genomes", "genomic", "gene", "genes", "phylogen*", "species", "lineage", "lineages", "organism*", "evolutionary"],
+    },
+    # added 2026-10-23 19:41 (Maja: "add also smallrna field including mirna pirna and rna biology and so on")
+    "smallrna": {
+        "label": "small RNA / RNA biology",
+        "terms": ["microRNA*", "miRNA*", "piRNA*", '"piwi-interacting"', "siRNA*", '"small RNA"', '"small RNAs"', '"tRNA-derived"', '"tRNA fragments"',
+                  '"long noncoding RNA"', '"long non-coding RNA"', "lncRNA*", '"circular RNA"', "circRNA*", '"RNA modification"', '"RNA modifications"',
+                  '"m6A"', '"RNA editing"', '"RNA interference"', '"RNA-binding protein"', '"RNA-binding proteins"', '"alternative splicing"',
+                  '"RNA decay"', '"nonsense-mediated"', '"RNA structure"'],
+        "require": ["RNA", "RNAs", "transcript*", "gene", "genes", "genome", "genomic", "cell", "cells", "organism*", "species", "mRNA"],
     },
 }
-# journal-targeted top-up (Maja, 15:20: "add more Nature papers !! and the Cell and Genome Biology and Nature Communications")
+# journal-targeted top-up (Maja, 15:20: "add more Nature papers !! and the Cell and Genome Biology and Nature Communications";
+# 19:41: "more nature cell science and those league of papers", from 2020 on)
 TOP_JOURNALS = ["Nature", "Cell", "Genome Biology", "Nature Communications"]
+TOP_JOURNALS_V2 = TOP_JOURNALS + ["Science", "Nature Genetics", "Nature Methods", "Nature Biotechnology", "Cell Genomics", "Molecular Cell",
+                                  "Science Advances", "Genome Research", "Nucleic Acids Research"]
 SOURCES = {"journal": "SRC:MED", "preprint": "SRC:PPR"}
 PREPRINT_SERVERS = {"bioRxiv", "medRxiv"}
 MIN_CHARS, MAX_CHARS = 900, 3200
@@ -210,10 +224,10 @@ def main(argv=None):
     ap.add_argument("--out", default=OUT)
     ap.add_argument("--fields", nargs="+", default=list(FIELDS), help="fields to fetch (default all)")
     ap.add_argument("--sources", nargs="+", default=list(SOURCES), help="journal and/or preprint")
-    ap.add_argument("--journals", nargs="*", default=None, help="restrict to these exact journal titles (JOURNAL:); 'top' = %s" % ", ".join(TOP_JOURNALS))
+    ap.add_argument("--journals", nargs="*", default=None, help="restrict to these exact journal titles (JOURNAL:); 'top' = %s; 'top2' = those + %s" % (", ".join(TOP_JOURNALS), ", ".join(TOP_JOURNALS_V2[4:])))
     ap.add_argument("--suffix", default="", help="suffix for raw file names, e.g. 'top' → <field>_<source>_top.json")
     a = ap.parse_args(argv)
-    journals = TOP_JOURNALS if a.journals == ["top"] else (a.journals or None)
+    journals = TOP_JOURNALS if a.journals == ["top"] else TOP_JOURNALS_V2 if a.journals == ["top2"] else (a.journals or None)
     os.makedirs(RAW_DIR, exist_ok=True)
     ex_pmids, ex_dois = load_exclusions(a.exclude)
     print("excluding %d pmids, %d dois" % (len(ex_pmids), len(ex_dois)))

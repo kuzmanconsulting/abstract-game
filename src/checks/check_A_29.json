@@ -1,0 +1,143 @@
+{"batch": "check_A_29", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+   {"n": 820, "id": "pmid:38685127",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "The degree of rewiring of genes within mixed UC-MC modules increases with tumor grade and stage."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "The greatest differences between tumor and normal tissue co-expression networks occur within mixed UC-MC modules."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The degree of rewiring of genes within mixed UC-MC modules increases with tumor grade and stage."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Co-expression networks created using RNA sequencing data from 31 tumor types and normal tissue samples are divided into modules enriched for UC genes, MC genes, or mixed UC-MC modules."}
+    ]},
+   {"n": 821, "id": "pmid:37365652",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Significant changes in CTCF binding pattern and increases in chromatin accessibility occur exclusively within 100 kbp of HPV integration sites."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Human papillomavirus (HPV) drives almost all cervical cancers and up to 70% of head and neck cancers."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "HPV integration upregulates genes which have significantly higher essentiality scores compared to randomly selected upregulated genes from the same tumors"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "the conserved CTCF binding site within the HPV genome binds CTCF"}
+    ]},
+   {"n": 822, "id": "pmid:38414075",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "especially significant differences in salt tolerance between northern and southern Chinese Tartary buckwheat populations"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Along with the expansion of the Mongol Empire, Tartary buckwheat dispersed to Europe and ultimately to the rest of the world."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The different natural growth environments resulted in adaptation, especially significant differences in salt tolerance between northern and southern Chinese Tartary buckwheat populations."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "by analyzing the population genomics of 567 accessions collected worldwide and reviewing historical documents"}
+    ]},
+   {"n": 823, "id": "pmid:40500762",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "we identify pG4s shared across apes (approximately one-third of all pG4s) and thousands of species-specific pG4s"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "pG4s shared across apes are enriched and hypomethylated at regulatory regions-enhancers, promoters, UTRs, and origins of replication-suggesting their conserved formation and functions"},
+      {"j": 3, "label": "contradicted", "confidence": 2, "evidence": "We annotate 41,232-174,442 new pG4s in these T2T compared to previous ape genome assemblies (5%-21% increase).", "flag": "ambiguous", "reason": "The counts and the 5-21% increase match the abstract, but the abstract's baseline is previous assemblies rather than later ones, so only the temporal comparison is incompatible."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Species-specific pG4s (constituting 11-27% of all pG4s) are located in regulatory regions, potentially contributing to adaptations, and in repeats, likely driving genome expansions."}
+    ]},
+   {"n": 824, "id": "pmid:41845531",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "we show that using an extended set of such families as input for birth-death and KS distribution modeling approaches leads to better WGM detection performance than using entire genomes"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Although none of the reciprocally retained gene families is a perfect WGM marker on its own"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "we demonstrate that strongly reciprocally retained gene families have higher power to detect true WGMs and to reject false WGMs than non-reciprocally retained gene families"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "we investigate whether reciprocally retained gene families, i.e. gene families that preferentially expand through WGM and rarely exhibit small-scale duplications, can be used as WGM markers in angiosperms"}
+    ]},
+   {"n": 825, "id": "pmid:40229771",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We sequence a high-quality chromosome-level genome of the snow leopard and the genomes of 52 wild snow leopards."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "EPAS1 is positively selected in the southern lineage with almost fixed amino acid substitutions and shows an increased allele frequency with elevation."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Compared to the southern lineage, the northern lineage exhibits a lower level of genomic diversity and higher levels of inbreeding and genetic load, consistent with its recent population decline."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "EPAS1 is positively selected in the southern lineage with almost fixed amino acid substitutions and shows an increased allele frequency with elevation."}
+    ]},
+   {"n": 826, "id": "pmid:40340952",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "When test in real and artificial cfRNA sequencing (cfRNA-seq) data, cfPeak shows an improved performance compared with other applicable methods."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "We demonstrate the significance of finding low abundant tissue-derived signals in small cfRNA and prove the feasibility for application in liquid biopsy."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We reveal that narrow cfRNA peaks preferentially overlap with protein binding sites, vesicle-sorting sites, structural sites, and novel small non-coding RNAs (sncRNAs)."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "When applied in clinical cohorts, cfPeak identified cfRNA peaks in patients' plasma that enable cancer detection and are informative of cancer types and metastasis."}
+    ]},
+   {"n": 827, "id": "pmid:41987223",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Deep sequencing analysis of 53 rapid autopsy samples shows cSVs amplifying AR can arise independently within distinct tumors in a single patient."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "The presence of ecDNA is significantly associated with whole genome doubling, chromothripsis, and inactivating TP53 alterations."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We conclude that cSVs, particularly ecDNA, are a pervasive contributor to intra-patient heterogeneity in late-stage mCRPC and a key driver of targeted therapy resistance."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "We identify ecDNA in more than half of mCRPC biopsies and show it frequently amplifies driver genes such as AR and MYC and their non-coding enhancers."}
+    ]},
+   {"n": 828, "id": "pmid:41736096",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "DeBias achieves a significant reduction in the number of features exhibiting demographic bias and outperforms existing methods in improving cancer detection performance for minority populations."},
+      {"j": 2, "label": "not_addressed", "confidence": 2, "evidence": "outperforms existing methods in improving cancer detection performance for minority populations", "flag": "ambiguous", "reason": "The abstract reports gains for minority populations only and says nothing about performance in the majority population, so the statement's second half is unsettled."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Performance gains are validated in independent cohorts, highlighting the robustness of the approach."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "outperforms existing methods in improving cancer detection performance for minority populations"}
+    ]},
+   {"n": 829, "id": "pmid:41606654",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Moreover, we show the superiority of using single-molecule long-read sequencing in resolving ecDNA."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Importantly, we show that a rare ecDNA+ clone in the primary tumor can expand to form dominant clones in relapse tumors."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "ecDNAs displayed extensive intratumor heterogeneity, including subclonal oncogene-carrying ecDNA in primary tumor cells that segregate with distinct transcriptional cell states."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "we identify oncogene-carrying ecDNAs in tumor samples at the single-cell level, which we validate using genome sequencing"}
+    ]},
+   {"n": 830, "id": "pmid:37147734",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "we find that loss of the chromatin remodeler decrease in DNA methylation 1 (ddm1) synergistically enhances resistance to a biotrophic pathogen under mild chemical priming"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Knockout of glyoxysomal protein kinase 1 (gpk1), a hypomethylated gene in ddm1 loss-of-function mutant, impairs priming of defense response to pathogen infection in Arabidopsis."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "we find that loss of the chromatin remodeler decrease in DNA methylation 1 (ddm1) synergistically enhances resistance to a biotrophic pathogen under mild chemical priming"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "GPK1 expression is hyperactivated in natural variants with demethylated GPK1"}
+    ]},
+   {"n": 831, "id": "pmid:41957676",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "In both cohorts, the highest cfDNA levels are characterized by either hypofragmentation or hyperfragmentation."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Hypofragmented samples (characterized by 1-4 kb fragments) exhibit hallmarks of DNASE1L3-mediated fragmentation due to blood-derived DNA release during delayed blood processing"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "samples with ultra-long fragments (> 7.5 kb) indicate release due to cell lysis during plasma processing"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "the short (<145 bp) fragments of hyperfragmented cancer samples are not artifactual, and they are characterized by elevated levels of both cancer- and blood-derived DNA"}
+    ]},
+   {"n": 832, "id": "pmid:40597406",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "the freshwater cnidarian Hydra, an animal characterized by its high regenerative capacity, the ability to propagate clonally, and an apparent lack of aging"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We show that distinct TE families are active at both transcriptional and genomic levels via non-random insertions in each of these lineages."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Using single-haplotype telomere-to-telomere genome assemblies of two recently diverged strains and utilizing unique features of hydra biology allowed us to sequence and compare the individual genomes of hydra's three stem cell lineages."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "We show that the core set of these active TE families, primarily composed of DNA elements, is evolutionarily deeply conserved and contributes to consistent genomic expansions in metazoan lineages."}
+    ]},
+   {"n": 833, "id": "pmid:37147298",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We also identify newly acquired secondary compound ALK mutations in 6 (15%) patients, all acquired at disease progression."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Here we report the discovery of off-target resistance mutations in 11 patients (27%), predominantly in the RAS-MAPK pathway."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Our results establish the clinical utility of serial circulating tumor DNA sampling to track response and progression and to discover acquired resistance mechanisms"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Functional cellular and biochemical assays and computational studies elucidate lorlatinib resistance mechanisms."}
+    ]},
+   {"n": 834, "id": "pmid:42191720",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "transposon dynamics analysis reveals synchronized amplification of Angela LTR retrotransposons in the EE genome and the DD subgenome of allotetraploid O. alta (CCDD) prior to CCDD formation"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "we report a telomere-to-telomere (T2T) genome assembly of O. australiensis, yielding a 901 Mb genome with 12 complete chromosomes"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "yielding a 901 Mb genome with 12 complete chromosomes. This enables comprehensive annotation of centromeres, telomeres, and 36,742 genes"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "three distinct centromere repositioning mechanisms: inversion-driven shifts, duplication-mediated neocentromerization, and transposon burst-induced neocentromere formation"}
+    ]},
+   {"n": 835, "id": "pmid:39557856",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Interestingly, expanded but less diverse disease resistance genes in the genomes of cultivated rice, likely due to the loss of some resistance genes and the fixing and amplification of genes encoding resistance genes to specific diseases during domestication and artificial selection."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Interestingly, expanded but less diverse disease resistance genes in the genomes of cultivated rice, likely due to the loss of some resistance genes and the fixing and amplification of genes encoding resistance genes to specific diseases during domestication and artificial selection."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Additionally, 63,881 gene families absent in cultivated rice species but present in wild rice species are discovered."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "a total of 101,723 gene families are identified across the genus, including 9834 (9.67%) core gene families"}
+    ]},
+   {"n": 836, "id": "pmid:37709766",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "TE content reached a plateau at ca. 50% of occupied base pairs by 1.5 million years following recombination suppression"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "The same TE superfamilies have expanded in independently evolved non-recombining regions, in particular rolling-circle replication elements (Helitrons)."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "In the absence of recombination, the number of transposable elements (TEs) increases due to less efficient selection, but the dynamics of such TE accumulations are not well characterized."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Long-terminal repeat (LTR) retrotransposons of the Copia and Ty3 superfamilies also expanded, through transposition bursts (distinguished from gene conversion based on LTR divergence), with both non-recombining regions and autosomes affected"}
+    ]},
+   {"n": 837, "id": "pmid:37349325",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "SV hotspots frequently constitute complexly clustered SVs involved in driver gene amplification, such as ERBB2, CCNE1, and FGFR2."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Non-random combinations of RSs elucidate distinctive GC subtypes comprising one or a few dominant RS that are associated with specific driver events (BRCA1/2 defects, mismatch repair deficiency, and TP53 mutation) and epidemiological backgrounds."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "we examine 170 GC whole genomes to unravel the oncogenic structural aberration landscape in GC genomes and identify six rearrangement signatures (RSs)"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Twenty-seven SV hotspots are identified as GC driver candidates."}
+    ]},
+   {"n": 838, "id": "pmid:37973961",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "whereas one of the toothpaste contained a significantly higher amount of Sn(IV)"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Solid-state NMR experiments on SnF 2 and SnF 4 show that 19 F isotropic chemical shift and 119 Sn chemical shift anisotropy (CSA) are highly sensitive to the Sn oxidation state."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "three of the four commercially available toothpastes contained at least 80% Sn(II), whereas one of the toothpaste contained a significantly higher amount of Sn(IV)"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "DNP-enhanced 119 Sn magic-angle turning (MAT) 2D NMR spectra of toothpastes resolve Sn(II) and Sn(IV) by their 119 Sn chemical shift tensor parameters."}
+    ]},
+   {"n": 839, "id": "pmid:42706246",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "These include transposable element insertions altering seed coat color, multiple insertions within a cytochrome P450 gene modifying flower and hypocotyl color, and a GmMATE1 deletion enhancing seed size."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Using a graph-based genome, we detect an additional 58,760 presence/absence variations (PAVs) that broadly affect gene expression."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Population genomic analyses reveal that SVs serve as a core driving force for soybean domestication and improvement."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Here, we resequence 940 soybean accessions. Together with 44 publicly available datasets, we identify 602,281 SVs."}
+    ]}
+ ]}

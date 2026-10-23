@@ -16,7 +16,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 ITEMS = os.path.join(ROOT, "src", "items.json")
 OUT = os.path.join(ROOT, "docs", "data.json")        # GitHub Pages (branch deploy) serves only / or /docs
-PUBLIC_ITEM = ("n", "id", "field", "source", "server", "pmid", "doi", "title", "authors", "journal", "year", "date", "url", "doi_url", "sections")
+PUBLIC_ITEM = ("n", "id", "field", "source", "server", "pmid", "doi", "title", "authors", "journal", "year", "date", "url", "doi_url", "sections", "added")
 PUBLIC_STATEMENT = ("k", "text", "label", "evidence", "note", "agreement")
 
 
@@ -57,6 +57,7 @@ def build(items_path=ITEMS, out_path=OUT, repo_url=None):
               "years": ("%d–%d" % (years[0], years[-1])) if years else None,
               "merged_utc": doc["header"].get("merged_utc"), "passes": doc["header"].get("passes"), "rule": doc["header"].get("rule"),
               "stats": doc["header"].get("stats"), "repo_url": repo_url,
+              "top_journals": sorted({it["journal"] for it in doc["items"] if (it.get("added") or "").endswith("top2") or it.get("added") == "top-journals-2026-10-23"}) or None,
               "sources": "Europe PMC (SRC:MED journal articles; SRC:PPR bioRxiv/medRxiv preprints)",
               "generation": "Claude, prompts gen-v1/gen-v2; three independent blind check passes check-v1 (pipeline/prompts/)"}
     with open(out_path, "w", encoding="utf-8") as f:

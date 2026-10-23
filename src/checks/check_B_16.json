@@ -1,0 +1,143 @@
+{"batch": "check_B_16", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+  {"n": 560, "id": "pmid:42833337",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "ARGs hosts in aerobic composting were widely distributed, predominantly among aerobic microorganisms, while ARGs hosts in facultative composting were more concentrated, mostly among facultative anaerobes."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "The relative abundance of culturable antibiotic-resistant bacteria (25.00% vs. 15.88%) and active antibiotic-resistant pathogens (44.04% vs. 6.68%) were significantly higher in facultative composting than in aerobic composting."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Compared with mesophilic facultative composting, aerobic composting significantly reduced ARGs abundance (from 4.80 to 3.59 CPC) and mobility (from 3.66 to 2.27 CPC)."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "providing a theoretical basis for the safe application of manure to agricultural fields"}
+   ]},
+  {"n": 561, "id": "pmid:42769422",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "comprising 51,298 orthologous groups with 19,653 core pan-genes"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "subgenome A retained fewer single-copy genes than subgenome B"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "These findings provide insights into the genomic basis of quinoa's environmental adaptation and altitudinal differentiation, offering a genomic resource for molecular breeding."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "identified 7,477 orthologous groups enriched in highland accessions and 3,549 enriched in lowland accessions"}
+   ]},
+  {"n": 562, "id": "doi:10.1101/2025.06.11.659201",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "We find that chromosome-level synteny is remarkably conserved, with only a few fusions or fissions and no evidence for translocation of four candidate master sex-determining genes ( Dmrt1, Foxl2, Bod1l, Sox3 )."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Sex chromosome turnover is not associated with gene translocation, and is more likely driven by mutations on genes involved in sexual developmental pathway."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "While Dmrt1 has evolved under purifying selection, Dmrt1 duplicates exhibit elevated nonsynonymous substitution rates and a tendency towards positive selection."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Only Dmrt1 duplicated in 3 out of 50 species (excluding tetraploid Xenopus ), and it showed strong testis-biased expression in all 8 species with available gonadal expression data."}
+   ]},
+  {"n": 563, "id": "pmid:41184543",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Mutation of conserved positions in ribosomal RNA that disrupt mitochondrial translation therefore represent a class of functionally dominant, pathogenic mtDNA mutations that are under positive selection in cancer genomes."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Compared to non-hotspot positions, mitochondrial rRNA hotspots preferentially affected positions under purifying selection in the germline"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "through population-scale analysis of 14,106 whole tumor genomes, we report the discovery of highly recurrent mutations affecting both the small (12S, MT-RNR1) and large (16S, MT-RNR2) mitochondrial RNA subunits"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Multimodal profiling revealed a heteroplasmy-dependent decrease in mitochondrial function and loss of respiratory chain subunits from a heteroplasmic dosage of ~10%."}
+   ]},
+  {"n": 564, "id": "doi:10.1101/2025.11.05.686523",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "a time-calibrated phylotranscriptomic tree of 50 copepod species"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Mesopelagic colonisation by calanoid lineages likely occurred during the Ordovician deep-sea oxygenation event."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "During the Carboniferous deep-sea deoxygenation, a secondary habitat shift would have occurred toward shallower waters and embryonic dormancy, and as well as a contraction of the size of gene families in the Diaptomoidae."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We further analysed the transcriptomic response of Eucalanus hyalinus from the Benguela upwelling OMZ versus surface waters"}
+   ]},
+  {"n": 565, "id": "pmid:38789482",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "We de novo sequence the genomes or transcriptomes of 12 lichen algal symbiont (LAS) and closely related non-symbiotic algae (NSA) to improve the genomic coverage of Chlorophyte algae."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "We identify at least three independent gains of the ability to engage in the lichen symbiosis, one in Trebouxiophyceae and two in Ulvophyceae"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "This GH8 was acquired in lichenizing Trebouxiophyceae by horizontal gene transfer, concomitantly with the ability to associate with lichens fungal symbionts (LFS) and is able to degrade polysaccharides found in the cell wall of LFS."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "This GH8 was acquired in lichenizing Trebouxiophyceae by horizontal gene transfer, concomitantly with the ability to associate with lichens fungal symbionts (LFS) and is able to degrade polysaccharides found in the cell wall of LFS."}
+   ]},
+  {"n": 566, "id": "doi:10.1101/2024.07.22.604652",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "There were up to nine conservative and one radical substitutions in the amino acids interacting with the Human ACE2 receptor in the RBM of the Omicron sublineages only"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Our results indicate less evolutionary constraint on the first part of the S protein, allowing more amino acid substitutions, especially in the NTD, RBD, and subdomain 1."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The selective pressure from previous VOCs and global vaccination potentially accelerated the emergence of the highly transmissible Omicron lineage."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Omicron lineages introduced mutations in the FP and HR1 domains for the first time."}
+   ]},
+  {"n": 567, "id": "pmid:42603061",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "nad5 showed the most purifying selection sites and atp8 showed the fewest"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "we obtained the first complete mitochondrial genome sequences of four Siganidae species ( Siganus argenteus , S. corallinus , S. punctatus , and S. spinus ) and conducted comparative analyses with 10 published mitogenomes from this family"},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "The control region of mitogenome exhibited the greatest interspecific variability."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Phylogenetic analysis based on 13 protein-coding genes (PCGs) classified the Siganidae family into three major clades, which corresponded to divergent ecological habits and morphological characteristics."}
+   ]},
+  {"n": 568, "id": "doi:10.64898/2026.07.23.740413",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Adenoviruses, which infect vertebrates, have a rich history of evolution that includes both host switching and coevolution, particularly within Barthadenovirus , a genus that infects squamate reptiles, birds, and mammals."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Our two isolates of Anolis adenovirus 2 are sister lineages with very high sequence similarity."},
+     {"j": 3, "label": "contradicted", "confidence": 2, "evidence": "Genes associated with viral replication and structure have experienced slower rates of evolution than those encoding proteins involved in host interaction.", "flag": "ambiguous", "reason": "\"evolved less slowly\" is an awkward double negative that may be a slip for \"more slowly\"; read as written it reverses the direction the abstract reports."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "identifying a set of shared genes across Barthadenovirus whose gene order is largely conserved within the genus"}
+   ]},
+  {"n": 569, "id": "pmid:41780408",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We established soil microcosms, integrated metagenomes with viromes, and applied a contig-based horizontal gene transfer (HGT)-resolution pipeline to partition vector-level contributions"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Although total ARG abundance did not change significantly, the health-risk index increased under saccharin, driven by enhanced ARG-MGE co-occurrence."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "phage-host associations increased under saccharin (82 pairs vs. control 29 pairs)"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Saccharin significantly elevated HGT frequency (∼50% increase), expanded donor-recipient phylogenetic span (class-level P < 0.05), and raised the phage-mediated share (∼100% increase)."}
+   ]},
+  {"n": 570, "id": "pmid:42180518",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Blec2*VN2 (linked to H5N1 and Marek's disease resistance in prior studies)"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "which exhibited a higher nucleotide diversity ( π = 0.012) than their wild progenitors ( π = 0.009)"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "We identified 11 unique alleles, including the novel variant VN11 , that establish the Vietnamese gene pool as a distinct reservoir of immune diversity."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "(1) intense global purifying selection ( ω ≤ 0.035) preserving the receptor's structural scaffold and (2) localized positive selection at codons 11 and 18"}
+   ]},
+  {"n": 571, "id": "pmid:42699354",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "ND6 exhibited elevated pairwise Ka/Ks ratios (mean = 1.209 ± 0.047), consistent with reduced selective constraint rather than adaptive evolution."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "The 16,569 bp mitogenome (GenBank: PP190474.1) encodes 13 protein-coding genes (PCGs), 22 tRNAs, two rRNAs, and two non-coding regions, exhibiting a distinct A + T bias."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "All tRNAs fold into typical cloverleaf secondary structures except tRNA-Ser (AGN) , which lacks the dihydrouridine (DHU) arm."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "The ΔRSCU method identified 10 candidate optimal codons (GCA, CAA, GAA, GGA, AUU, CUA, CCA, CGA, ACA, and GUC)."}
+   ]},
+  {"n": 572, "id": "pmid:42218921",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We report the first evidence of Rickettsiella in nematodes and discovered novel endosymbionts Cardinium and Wolbachia in plant-parasitic nematodes."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Genomic reduction in the nematode Rickettsiella lineage, reveals extensive gene loss, particularly in amino acid biosynthesis. Crucially, we find no evidence of purifying selection on its residual nutritional pathways"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "We report the first evidence of Rickettsiella in nematodes and discovered novel endosymbionts Cardinium and Wolbachia in plant-parasitic nematodes."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "We reconstructed and characterized 108 metagenome-assembled genomes from 10 published and 15 newly sequenced nematode genomes."}
+   ]},
+  {"n": 573, "id": "pmid:40225887",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "High-throughput sequencing revealed a 160,013-bp circular genome with a typical quadripartite structure, encoding 132 genes including 87 protein-coding genes, 37 tRNA genes, and 8 rRNA genes."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Phylogenetic reconstruction using 77 protein-coding sequences confirmed Simaroubaceae's monophyly and revealed a close evolutionary relationship with Rutaceae."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Analysis of 101 SSR loci and 48 repeat sequences provided insights into genome organization and potential molecular markers for species identification."},
+     {"j": 4, "label": "contradicted", "confidence": 2, "evidence": "Selective pressure analysis across 78 protein-coding genes demonstrated predominant purifying selection (average K a / K s ratio 0.23), with evidence of positive selection in specific genes.", "flag": "ambiguous", "reason": "The statement swaps the abstract's \"positive selection in specific genes\" for negative selection, which reverses that finding, though negative selection in individual genes is also weakly consistent with predominant purifying selection."}
+   ]},
+  {"n": 574, "id": "doi:10.1101/2023.04.01.535199",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "The evolutionary breakpoint regions (EBRs) are significantly enriched for some repetitive elements compared to the rest of genome and the genes located in the EBRs are enriched in defense response pathway."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "we assembled a chromosome-level genome of G. japonicus with a total size of 2.53 Gb contained in 19 pairs of chromosomes"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "The expansion and independent duplication events of T2Rs and positively selected branches were predominantly present in insectivorous species"},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "suggests that T2Rs are associate with clearance of bitter toxins in gekkotans"}
+   ]},
+  {"n": 575, "id": "pmid:40076770",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "The expression analysis of the 102 genes showed that the expression patterns varied among the three kiwifruit varieties at fruit maturity stage."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "we identified 102 AaINV genes in the Actinidia arguta"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "we constructed a complex regulatory network that regulates sugar metabolism in kiwifruit based on the correlation between 42 AaINV genes and 14 sugar metabolites"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Molecular evolution analysis based on Ka/Ks ratios indicated that the INV members have experienced extensive purifying selection during evolution."}
+   ]},
+  {"n": 576, "id": "doi:10.64898/2026.09.21.753279",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Comparative analyses place E. recurva within section Maidenaria as sister to Eucalyptus viminalis and reveal high synteny between the two species."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Inter-haplotype comparison identified 3.6 million SNPs and modest structural variation, suggesting that, despite extreme demographic bottlenecking, E. recurva retains meaningful genomic heterozygosity."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Both haplotypes span 11 chromosomes (consistent with the conserved Eucalyptus karyotype of 2n = 22), with assembly sizes of 521.1 Mb (Hap 1) and 501.5 Mb (Hap 2)"},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "is Critically Endangered, with only six known adult individuals persisting across two sites in the Southern Tablelands of New South Wales, Australia"}
+   ]},
+  {"n": 577, "id": "doi:10.1101/2025.08.01.668115",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "the clinically dominant A. baumannii international clone 2 (IC2) exhibits a depleted but specialised defence landscape, notably enriched in the phosphorothioation-based SspBCDE system and nearly devoid of restriction-modification systems"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "We performed a comparative genomic analysis of 132 genomes from 18 Acinetobacter species"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "many defence systems display mutual exclusivity, and defence system is tightly linked to the presence of mobile elements, antibiotics, and heavy metal resistance"},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "These findings provide insights into evolutionary trade-offs underpinning multidrug resistance and have implications for designing targeted phage therapies against recalcitrant Acinetobacter infections."}
+   ]},
+  {"n": 578, "id": "pmid:42390233",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "The functional diversity and relative abundance of these genes increased significantly with salinity, accompanied by strong correlations with organic carbon parameters and nitrogen availability."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "10 types of hydrocarbon-degrading genes and 30 bacterial genomes spanning four phyla were identified"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "this study has potential implications for the rational design of bioremediation strategies targeting hydrocarbon pollutants in saline and estuarine environments"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Co-occurrence network analyses showed that hydrocarbon degraders, particularly Gammaproteobacteria , acted as key taxa maintaining community stability under saline conditions."}
+   ]},
+  {"n": 579, "id": "pmid:40669866",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "The population genetic analysis reported the genetic diversity and genomic footprints in 231 individuals from 7 different locations."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "The introduced highest alkalinity population (HRCL) exhibited higher values of inbreeding coefficients and clustered different from other groups suggested local environmental adaptation."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "shedding light on its evolution, comparative genomics, and the genetic differences between natural and introduced populations"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "we decoded a telomereto-telomere (T2T) genome for P. chinensis combining PacBio HiFi long reads and ultra-long ONT (nanopore) reads and Hi-C data"}
+   ]}
+ ]}

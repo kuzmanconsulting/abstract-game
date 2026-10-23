@@ -1,0 +1,143 @@
+{"batch": "check_B_25", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+  {"n": 740, "id": "pmid:39663511",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "The branch-site model analysis identified numerous positively selected sites, primarily concentrated near functional domains, thereby reinforcing the critical role of these genes in body size evolution."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Notably, in the IGF2BP1 gene, a significant positive correlation was observed between the evolutionary rate and body size, suggesting that larger bird species exhibit higher evolutionary rates of the IGF2BP1 gene.", "flag": "ill_formed", "reason": "The second clause compares smaller species with smaller ones, so it is self-referential; read either way it conflicts with the abstract, where larger species show the higher rates."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Furthermore, the IGFBP7 and PLXDC2 genes demonstrated accelerated evolution in large- and medium-sized birds, respectively"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "This study investigates the evolutionary patterns of avian body size by analyzing 15 body-size-related genes, including GHSR, IGF2BP1, and IGFBP7 from the growth hormone/insulin-like growth factor axis"}
+   ]},
+  {"n": 741, "id": "pmid:40939143",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "and a notable increase in the Omicron variant, especially in the S and ORF6 genes"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "We also estimated an overall rate of molecular evolution of approximately 10 -3 substitutions per site per year, though it varied among genomic regions and over time."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "the protein-coding regions of SARS-CoV-2 generally exhibited evidence of purifying selection, with local diversifying selection associated with virus transmission and replication"},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "We found an overall low genetic diversity along the genome, with fluctuations over time and among genomic regions, and a notable increase in the Omicron variant, especially in the S and ORF6 genes."}
+   ]},
+  {"n": 742, "id": "pmid:42204246",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Genotype-environment association analyses identify 9,496 adaptive SNPs enriched in stress response, secondary metabolism, and wax biosynthesis pathways, with precipitation as the primary driver of local adaptation."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Subgenome B has been stabilized under strong purifying selection, whereas subgenomes A and C have undergone dynamic reorganization with accelerated gene turnover, pseudogenization, and asymmetric selection pressures."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Population genomic analysis of 60 individuals identifies four genetic lineages corresponding to geographic regions"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Among genes under selection between lineages, 93.8% originate from subgenome C"}
+   ]},
+  {"n": 743, "id": "doi:10.64898/2026.05.06.723128",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Total of 126 horizontal gene transfer (HGT) events were detected, among which genes from the ancestor of symbiodiniaceae indicate that the ancestors of deep-sea corals may have inhabited shallow-sea environments."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "The loss of key rhythm genes (e.g., clock and cry) in deep-sea corals and copy number difference of genes related to heat stress (e.g., Cbl-b and Rchy) revealed genetic difference between deep-sea and shallow-sea corals."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Here, we present 11 deep-sea coral genome assemblies, including four Hexacorallia and seven Octocorallia species"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Deep-sea corals also rely on symbiotic bacteria to synthesize 10 essential amino acids (such as valine and tyrosine), retaining only partial amino acid synthesis capacity."}
+   ]},
+  {"n": 744, "id": "doi:10.1101/2025.06.11.659220",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "we analyzed 1,142 resequenced Arabidopsis thaliana genomes using a novel K-mer based approach to characterize genome content variation and identify hypervariable regions underlying differences in repeat abundance"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Integrating these results through a meta-GWAS approach revealed both cis-acting variants and more than 50 trans-acting loci that regulate repeat abundance genome-wide."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Rates of repeat evolution differ between and within species and are likely modulated by both genetics and environment."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Cis-acting variation was predominantly localized to pericentromeric and centromeric regions, whereas trans-acting loci were enriched for candidate genes involved in DNA replication, DNA repair, DNA methylation regulation."}
+   ]},
+  {"n": 745, "id": "pmid:40346471",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "The 27 CPKs of lotus were further categorized into five subfamilies based on gene structure and phylogenetic tree analysis."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "These findings provide a valuable foundation for future functional studies of lotus CPK genes to explore their biological effects."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "The expression of CPKs was tissue-specific and regulated under abiotic stress."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Segmental duplication was found to be the primary event of CPK gene duplication, and all identified CPK genes underwent purifying selection."}
+   ]},
+  {"n": 746, "id": "pmid:39312572",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Using a machine learning-based approach, we further found that cactophily can be predicted with 76% accuracy from both functional genomic and phenotypic data."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "We also identified horizontal gene transfer and duplication events of plant cell wall-degrading enzymes in distantly related cactophilic clades, suggesting that putatively adaptive traits evolved independently through disparate molecular mechanisms."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "We inferred that the ecological association of yeasts with cacti arose independently approximately 17 times."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "The most informative feature for predicting cactophily was thermotolerance, which we found to be likely associated with altered evolutionary rates of genes impacting the cell envelope in several cactophilic lineages."}
+   ]},
+  {"n": 747, "id": "pmid:41062690",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "We show that positive selection during spermatogenesis drives a 2-3-fold increased risk of known disease-causing mutations, which results in 3-5% of sperm from middle-aged to older individuals with a pathogenic mutation across the exome."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Mutations that occur in the cell lineages of sperm or eggs can be transmitted to offspring."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We detected 40 genes (31 newly identified) under significant positive selection in the male germline"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Our findings revealed a linear accumulation of 1.67 (95% confidence interval of 1.41-1.92) mutations per year per haploid genome driven by two mutational signatures associated with human ageing."}
+   ]},
+  {"n": 748, "id": "pmid:41034582",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "showed that drug resistance typically arose from selective expansion of a single or small subset of clones present at diagnosis"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "we studied 18 patients with HGSOC over a multi-year period from diagnosis to recurrence"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "CloneSeq-SV exploits tumour clone-specific structural variants as highly sensitive endogenous cell-free DNA markers, enabling the relative abundance measurements and evolutionary analysis of co-existing clonal populations over the therapeutic time course."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Drug-resistant clones frequently showed interpretable and distinctive genomic features, including chromothripsis, whole-genome doubling, and high-level amplifications of oncogenes such as CCNE1, RAB25, MYC and NOTCH3."}
+   ]},
+  {"n": 749, "id": "pmid:39112714",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Neutralization of cell-free DNA by DNase treatment or inhibition of inflammasome activation reduced the rate of stroke recurrence after experimental stroke."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Enhanced plaque inflammation post-stroke results in plaque destabilization and atherothrombosis, finally leading to arterioarterial embolism and recurrent stroke within days after the index stroke."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Neutralization of cell-free DNA by DNase treatment or inhibition of inflammasome activation reduced the rate of stroke recurrence after experimental stroke."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "we show that stroke leads to activation of the AIM2 inflammasome in vulnerable atherosclerotic plaques via an increase of circulating cell-free DNA"}
+   ]},
+  {"n": 750, "id": "pmid:41708848",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "In two species, these proto-point centromeres lie within retrotransposon-derived repeat clusters, linking ancestral repeat-rich centromeres to genetically encoded ones."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "These results identify long-terminal-repeat retrotransposons, specifically Ty5 sequences, as the genetic substrate for point-centromere evolution"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Proto-point centromeres contain a single centromeric nucleosome positioned over an AT-rich core, accompanied by relaxed organization and sequence variability of flanking cis-elements."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "More broadly, they show how selfish elements can be co-opted to perform essential chromosomal functions."}
+   ]},
+  {"n": 751, "id": "pmid:39294378",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Furthermore, we demonstrate that young LINE1 copies, but not old ones, are marked by H3K4me3, H3K9me3 and SPIN1 before the initiation of piRNA-directed DNA methylation."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "The PIWI-interacting RNA (piRNA) pathway guides the DNA methylation of young, active transposons during germline development in male mice"},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We find that SPIN1 expression precedes that of both SPOCD1 and MIWI2."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "We found that the interaction between SPOCD1 and SPIN1 is essential for spermatogenesis and piRNA-directed DNA methylation of young LINE1 elements."}
+   ]},
+  {"n": 752, "id": "pmid:37853125",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Importantly, R-loop-enriched DNA-damage-responsive genes physically localize to the D compartment, and this contributes to their optimal activation"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "after the production of double-stranded breaks (DSBs) in mammalian cells, ATM drives the formation of a new chromatin compartment (D compartment) through the clustering of damaged topologically associating domains, decorated with γH2AX and 53BP1"},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "The D compartment arises mostly in G1 phase, is independent of cohesin and is enhanced after pharmacological inhibition of DNA-dependent protein kinase (DNA-PK) or R-loop accumulation."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "However, DSB-induced chromosome reorganization comes at the expense of an increased rate of translocations, also observed in cancer genomes."}
+   ]},
+  {"n": 753, "id": "pmid:41125775",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "We discover substantially different SEI speciation and a thicker pristine SEI with cryo-XPS, free from RT-associated thickness reduction and alterations to important species, including LiF and Li 2 O, in UHV."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "This new access to pristine SEI composition enables performance correlations across diverse electrolyte chemistries."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "This new access to pristine SEI composition enables performance correlations across diverse electrolyte chemistries."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Here we develop cryogenic (cryo)-XPS with immediate plunge freezing and demonstrate SEI preservation."}
+   ]},
+  {"n": 754, "id": "pmid:40044854",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "thousands of gene duplications, particularly within key domestication gene families, exhibited dynamic trajectories in sequence, expression and function"},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "By augmenting our pan-genome with African eggplant cultivars 9 and applying quantitative genetics and genome editing, we dissected an intricate history of paralogue evolution affecting fruit size."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "The loss of a redundant paralogue of the classical fruit size regulator CLAVATA3 (CLV3) 10,11 was compensated by a lineage-specific tandem duplication."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Despite broad conservation of gene macrosynteny among chromosome-scale references for 22 species, including 13 indigenous crops"}
+   ]},
+  {"n": 755, "id": "pmid:37198482",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Experimentally, oestrogen treatment induces DNA double-strand breaks in the oestrogen receptor target regions that are repaired by translocations"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "This model explains the amplifications of key oncogenes, including ERBB2 and CCND1."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "In 780 breast cancer genomes, we observe that focal amplifications are frequently connected to each other by inter-chromosomal translocations at their boundaries."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "A pan-cancer analysis reveals tissue-specific biases in mechanisms initiating focal amplifications, with the breakage-fusion-bridge cycle prevalent in some and the translocation-bridge amplification in others, probably owing to the different timing of DNA break repair."}
+   ]},
+  {"n": 756, "id": "pmid:40205048",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "we anticipate that STITCHR will serve as a platform for scarless programmable integration in dividing and non-dividing cells, with both research and therapeutic applications"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "STITCHR enables the scarless, efficient installation of edits, ranging from a single base to 12.7 kilobases, gene replacement and use of in vitro transcribed or synthetic RNA templates."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "We identify R2Tg, an R2 retrotransposon from the zebra finch, Taeniopygia guttata, as an orthologue that can be retargeted by payload engineering for target cleavage, reverse transcription and scarless insertion of heterologous payloads at new genomic sites."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "We enhance this activity by fusing R2Tg to CRISPR-Cas9 nickases for efficient insertion at new genomic sites."}
+   ]},
+  {"n": 757, "id": "pmid:38926582",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Key biogeographic processes had far-reaching effects on the IAA diversity as shown by the long-term waning of the Tethyan descendants versus the waxing of cosmopolitan and IAA taxa."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "The growth of diversity was primarily controlled by diversity dependency and habitat size, and also facilitated by the alleviation of thermal stress after 13.9 million years ago."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "We found that the IAA has exhibited a unidirectional diversification trend since about 25 million years ago, following a roughly logistic increase until a diversity plateau beginning about 2.6 million years ago."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "The growth of diversity was primarily controlled by diversity dependency and habitat size, and also facilitated by the alleviation of thermal stress after 13.9 million years ago."}
+   ]},
+  {"n": 758, "id": "pmid:38632397",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "This is despite pervasive and ongoing gene flow with one parent, Heliconius pardalinus, which homogenizes 99% of their genomes. The remaining 1% introgressed from the other parent, Heliconius melpomene"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "We show that Heliconius elevatus is a hybrid species that is sympatric with both parents and has persisted as an independently evolving lineage for at least 180,000 years."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "These islands contain multiple traits that are under disruptive selection, including colour pattern, wing shape, host plant preference, sex pheromones and mate choice."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "However, convincing examples of homoploid hybrid speciation remain rare because it is challenging to demonstrate that hybridization was crucial in generating reproductive isolation"}
+   ]},
+  {"n": 759, "id": "pmid:38355797",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Here we initiated the Chinese Liver Cancer Atlas (CLCA) project and performed deep whole-genome sequencing (average depth, 120×) of 494 HCC tumours. We identified 6 coding and 28 non-coding previously undescribed driver candidates."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Notably, HBV integrations could take the form of extrachromosomal circular DNA, resulting in elevated copy numbers and gene expression."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Pentanucleotide context analysis and experimental validation confirmed that SBS_H8 was distinct to the aristolochic-acid-associated SBS22."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Five previously undescribed mutational signatures were found, including aristolochic-acid-associated indel and doublet base signatures, and a single-base-substitution signature that we termed SBS_H8."}
+   ]}
+ ]}

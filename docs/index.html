@@ -95,6 +95,17 @@ details.about p{margin:8px 0}
 .stat .n{font:500 18px/1.1 var(--mono);font-variant-numeric:tabular-nums}
 .stat .l{font:500 11px/1.3 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft);margin-top:2px}
 .empty{margin-top:28px;padding:18px;border:1px dashed var(--rule-strong);border-radius:8px;color:var(--ink-soft)}
+.save{border:1px solid var(--rule-strong);background:var(--card);color:var(--ink);border-radius:6px;padding:7px 12px;font:500 13px/1 var(--sans);cursor:pointer}
+.save[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.saved{margin-top:14px;border:1px solid var(--rule);border-radius:8px;background:var(--card);padding:12px 14px}
+.saved summary{cursor:pointer;font:500 13.5px/1.3 var(--sans)}
+.saved ul{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:8px}
+.saved li{border-top:1px solid var(--rule);padding-top:8px;font:400 13.5px/1.45 var(--sans)}
+.saved li a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--rule-strong)}
+.saved li .meta{color:var(--ink-soft);font-size:12.5px}
+.saved li button{border:none;background:none;color:var(--no);font:500 12px var(--sans);cursor:pointer;padding:0;margin-left:8px}
+.saved .tools{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.saved textarea{width:100%;min-height:120px;margin-top:10px;font:400 12px/1.4 var(--mono);color:var(--ink);background:var(--paper);border:1px solid var(--rule);border-radius:6px;padding:8px;box-sizing:border-box}
 .toast{position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom,0px));transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--paper);padding:9px 14px;border-radius:8px;font:500 13px var(--sans);opacity:0;transition:.18s;pointer-events:none;max-width:90vw}
 .toast.show{opacity:1;transform:translateX(-50%)}
 @media (max-width:460px){ article.abs{font-size:16.5px} .seg button{padding:10px 4px;font-size:12.5px} header.top h1 small{display:block;margin:4px 0 0} }
@@ -109,6 +120,18 @@ details.about p{margin:8px 0}
     <div class="score" id="score" aria-live="polite"></div>
   </header>
   <div class="filters" id="filters"></div>
+  <details class="saved" id="savedPanel" hidden>
+    <summary id="savedSummary">Saved for reading</summary>
+    <ul id="savedList"></ul>
+    <div class="tools">
+      <button type="button" class="chip" id="expText">Copy as text</button>
+      <button type="button" class="chip" id="expBib">Copy as BibTeX</button>
+      <button type="button" class="chip" id="expRis">Copy as RIS</button>
+      <button type="button" class="chip" id="expShow">Show export</button>
+      <button type="button" class="chip" id="expClear">Clear list</button>
+    </div>
+    <textarea id="expBox" hidden readonly aria-label="Export of saved articles"></textarea>
+  </details>
   <main id="main"></main>
   <footer class="foot">
     <details class="about" id="about">
@@ -124,7 +147,7 @@ details.about p{margin:8px 0}
 "use strict";
 const $ = id => document.getElementById(id);
 const el = (tag, cls, text) => { const e=document.createElement(tag); if(cls) e.className=cls; if(text!=null) e.textContent=text; return e; };
-const FIELD = {cfdna:"cfDNA / liquid biopsy", te:"transposable elements", cancergen:"cancer genomics"};
+const FIELD = {cfdna:"cfDNA / liquid biopsy", te:"transposable elements", cancergen:"cancer genomics", evogen:"evolutionary genomics", smallrna:"small RNA / RNA biology"};
 const LABEL = {supported:"Supported", contradicted:"Contradicted", not_addressed:"Not addressed"};
 const LABEL_LONG = {supported:"the abstract states this or it follows directly", contradicted:"the abstract states something incompatible with this", not_addressed:"the abstract neither says nor rules this out"};
 const KEYS = ["supported","contradicted","not_addressed"];
@@ -132,6 +155,7 @@ let DATA=null, items=[], cur=null, answers={}, revealed=false;
 let filt = {field:"all", source:"all", journal:"all"};
 let tally = {n:0, right:0, streak:0, best:0, byLabel:{supported:[0,0],contradicted:[0,0],not_addressed:[0,0]}};
 let seen = new Set();
+let saved = [];   // [{id, n, title, authors, journal, year, doi, url, source, saved_at}] — this browser only
 const store = { get(k){ try{ return JSON.parse(localStorage.getItem(k)); }catch(e){ return null; } }, set(k,v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} } };
 
 let toastT=null; function toast(m){ const t=$("toast"); t.textContent=m; t.classList.add("show"); clearTimeout(toastT); toastT=setTimeout(()=>t.classList.remove("show"),2200); }
@@ -190,7 +214,10 @@ function renderAbstract(it, marks){
   return art;
 }
 
+function shuffled(a){ const b=a.slice(); for(let i=b.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [b[i],b[j]]=[b[j],b[i]]; } return b; }
 function show(it){
+  // statements in a fresh random order every time (the generator's own order leaks the labels — D15)
+  it = Object.assign({}, it, {statements: shuffled(it.statements)});
   cur = it; answers = {}; revealed = false;
   const main=$("main"); main.textContent="";
   if(!it){ main.appendChild(el("div","empty","No abstracts match this filter.")); return; }
@@ -262,6 +289,7 @@ function citation(it){
   if(list.length>MAXA){ const more=el("button",null,"+"+(list.length-MAXA)+" more"); more.type="button"; more.onclick=()=>{ au.textContent=full; }; au.appendChild(more); }
   c.appendChild(au);
   const w = el("div","where"); const j=el("i",null, it.journal||(it.server||"")); w.appendChild(j); w.appendChild(document.createTextNode(" · "+displayYear(it)+(it.source==="preprint" ? " · preprint, not peer-reviewed" : ""))); c.appendChild(w);
+  const sv = el("button","save", isSaved(it) ? "Saved ✓ · remove" : "Save for reading"); sv.type="button"; sv.id="saveBtn"; sv.setAttribute("aria-pressed", String(isSaved(it))); sv.style.marginTop="10px"; sv.onclick=()=>toggleSave(it, sv); c.appendChild(sv);
   const ids = el("div","ids");
   if(it.doi){ const a2=el("a",null,"doi:"+it.doi); a2.href="https://doi.org/"+it.doi; a2.target="_blank"; a2.rel="noopener"; ids.appendChild(a2); }
   if(it.pmid){ const a3=el("a",null,"PMID "+it.pmid); a3.href="https://pubmed.ncbi.nlm.nih.gov/"+it.pmid+"/"; a3.target="_blank"; a3.rel="noopener"; ids.appendChild(a3); }
@@ -271,14 +299,46 @@ function citation(it){
 }
 function next(){ const it = pick(); show(it); }
 
+/* ---- saved for reading (per browser; export by copy, since the viewer blocks downloads) ---- */
+function isSaved(it){ return saved.some(s => s.id===it.id); }
+function toggleSave(it, btn){
+  if(isSaved(it)){ saved = saved.filter(s => s.id!==it.id); toast("Removed from your reading list"); }
+  else { saved.push({id:it.id, n:it.n, title:it.title, authors:it.authors||[], journal:it.journal||it.server||"", year:displayYear(it), doi:it.doi||null, url:it.doi_url||it.url||null, source:it.source, saved_at:new Date().toISOString()}); toast("Saved for reading"); }
+  store.set("ar.saved", saved); if(btn){ btn.setAttribute("aria-pressed", String(isSaved(it))); btn.textContent = isSaved(it) ? "Saved ✓ · remove" : "Save for reading"; } renderSaved();
+}
+function citeText(s){ const au = s.authors.length ? (s.authors.length>3 ? s.authors[0]+" et al." : s.authors.join(", ")) : ""; return (au?au+" ":"")+"("+s.year+"). "+s.title+". "+s.journal+"."+(s.doi?" https://doi.org/"+s.doi:(s.url?" "+s.url:"")); }
+function bibKey(s){ const a=(s.authors[0]||"anon").split(" ")[0].replace(/[^A-Za-z]/g,""); const w=(s.title.split(/\s+/).find(x=>x.length>3)||"paper").replace(/[^A-Za-z]/g,"").toLowerCase(); return (a||"anon")+s.year+w; }
+function bibtex(s){ const esc = x => String(x).replace(/[{}]/g,""); return "@article{"+bibKey(s)+",\n  title = {"+esc(s.title)+"},\n  author = {"+s.authors.map(esc).join(" and ")+"},\n  journal = {"+esc(s.journal)+"},\n  year = {"+s.year+"}"+(s.doi?",\n  doi = {"+s.doi+"}":"")+(s.url?",\n  url = {"+s.url+"}":"")+(s.source==="preprint"?",\n  note = {preprint}":"")+"\n}"; }
+function ris(s){ return ["TY  - JOUR","TI  - "+s.title].concat(s.authors.map(a=>"AU  - "+a)).concat(["JO  - "+s.journal,"PY  - "+s.year].concat(s.doi?["DO  - "+s.doi]:[]).concat(s.url?["UR  - "+s.url]:[]).concat(["ER  - "])).join("\n"); }
+function exportText(kind){ if(!saved.length) return ""; if(kind==="bib") return saved.map(bibtex).join("\n\n")+"\n"; if(kind==="ris") return saved.map(ris).join("\n")+"\n"; return saved.map((s,i)=>(i+1)+". "+citeText(s)).join("\n")+"\n"; }
+function copyText(txt, what){ const done=()=>toast(what+" copied ("+saved.length+" article"+(saved.length===1?"":"s")+")"); const fail=()=>{ const box=$("expBox"); box.hidden=false; box.value=txt; box.focus(); box.select(); toast("Select the text and copy it"); };
+  if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(txt).then(done, fail); } else fail(); }
+function renderSaved(){
+  const panel=$("savedPanel"), list=$("savedList"); panel.hidden = !saved.length; if(!saved.length){ $("expBox").hidden=true; return; }
+  $("savedSummary").textContent = "Saved for reading · "+saved.length;
+  list.textContent="";
+  saved.slice().reverse().forEach(s => {
+    const li=el("li"); const a=el("a",null,s.title); if(s.url){ a.href=s.url; a.target="_blank"; a.rel="noopener"; } else { a.href="#a"+s.n; }
+    li.appendChild(a);
+    const meta=el("div","meta", (s.authors.length ? (s.authors.length>3 ? s.authors[0]+" et al." : s.authors.join(", "))+" · " : "")+s.journal+" · "+s.year+(s.source==="preprint"?" · preprint":""));
+    const rm=el("button",null,"remove"); rm.type="button"; rm.onclick=()=>{ saved=saved.filter(x=>x.id!==s.id); store.set("ar.saved",saved); renderSaved(); const b=document.getElementById("saveBtn"); if(b && cur && cur.id===s.id){ b.setAttribute("aria-pressed","false"); b.textContent="Save for reading"; } };
+    meta.appendChild(rm); li.appendChild(meta); list.appendChild(li);
+  });
+}
+$("expText").onclick=()=>copyText(exportText("txt"),"Citations"); $("expBib").onclick=()=>copyText(exportText("bib"),"BibTeX"); $("expRis").onclick=()=>copyText(exportText("ris"),"RIS");
+$("expShow").onclick=()=>{ const box=$("expBox"); box.hidden=!box.hidden; if(!box.hidden){ box.value=exportText("bib"); box.focus(); box.select(); } };
+$("expClear").onclick=()=>{ if(!saved.length) return; const n=saved.length; saved=[]; store.set("ar.saved",saved); renderSaved(); const b=document.getElementById("saveBtn"); if(b){ b.setAttribute("aria-pressed","false"); b.textContent="Save for reading"; } toast("Reading list cleared ("+n+")"); };
+
 function renderAbout(){
   const h = DATA.header||{}; const b=$("aboutBody"); b.textContent="";
   const p1 = el("p"); p1.textContent = "Each abstract comes with statements written by Claude from the abstract alone (two the text supports, one it contradicts through one precise alteration, one it does not address). Three further independent passes, blind to the intended labels, judged every statement; a statement is kept only when at least two of the three agree with its label and none calls it ill-formed. The marked passage is the sentence the label rests on."; b.appendChild(p1);
   const st = h.stats||{}; const grid=el("div","stat");
   [["abstracts", items.length], ["statements", items.reduce((a,it)=>a+it.statements.length,0)], ["unanimous checks", st.agreement ? Math.round(100*(st.agreement.unanimous||0)/Math.max(1,(st.agreement.unanimous||0)+(st.agreement.majority||0)))+"%" : "—"], ["years", h.years||"2023–2026"]].forEach(([l,n])=>{ const d=el("div"); d.appendChild(el("div","n",String(n))); d.appendChild(el("div","l",l)); grid.appendChild(d); });
   b.appendChild(grid);
-  const p2 = el("p"); p2.textContent = "Sources: journal articles indexed in PubMed and bioRxiv/medRxiv preprints, 2023–2026, in cell-free DNA / liquid biopsy, transposable elements and genome evolution, and cancer genomics, fetched through Europe PMC"+(h.built?" on "+h.built.slice(0,10):"")+". Abstracts are shown for reading practice, each with its citation and links; they remain the work of their authors and publishers. Preprints have not been peer-reviewed."; b.appendChild(p2);
+  const fieldNames = Object.keys(FIELD).filter(k => items.some(it => it.field===k)).map(k => FIELD[k]);
+  const p2 = el("p"); p2.textContent = "Sources: journal articles indexed in PubMed and bioRxiv/medRxiv preprints, "+(h.years||"2023–2026")+", in "+fieldNames.join(", ")+", fetched through Europe PMC"+(h.built?" on "+h.built.slice(0,10):"")+(h.top_journals ? "; a targeted share from "+h.top_journals.join(", ") : "")+". Abstracts are shown for reading practice, each with its citation and links; they remain the work of their authors and publishers. Preprints have not been peer-reviewed."; b.appendChild(p2);
   if(h.repo_url){ const p3=el("p"); p3.appendChild(document.createTextNode("A wrong label or a bad statement? ")); const a=el("a",null,"report it"); a.href=h.repo_url+"/issues"; a.target="_blank"; a.rel="noopener"; p3.appendChild(a); p3.appendChild(document.createTextNode(" with the DOI and the statement number.")); b.appendChild(p3); }
+  const p35 = el("p"); p35.textContent = "Reading list: after the reveal, \"Save for reading\" (or the S key) keeps the paper in a list at the top of the page; copy it out as plain citations, BibTeX or RIS. The list lives in this browser only."; b.appendChild(p35);
   const p4 = el("p"); const r=el("button","chip","Reset my score"); r.type="button"; r.onclick=()=>{ tally={n:0,right:0,streak:0,best:0,byLabel:{supported:[0,0],contradicted:[0,0],not_addressed:[0,0]}}; seen=new Set(); store.set("ar.tally",tally); store.set("ar.seen",[]); renderScore(); toast("Score reset"); }; p4.appendChild(r); b.appendChild(p4);
 }
 
@@ -287,6 +347,7 @@ document.addEventListener("keydown", e => {
   if(!cur) return;
   if(!revealed && /^[123]$/.test(e.key)){ const open = cur.statements.find(s => !answers[s.k]); if(open){ choose(open.k, KEYS[+e.key-1]); e.preventDefault(); } }
   else if(!revealed && e.key==="Enter" && !$("submit").disabled){ reveal(); e.preventDefault(); }
+  else if(revealed && (e.key==="s" || e.key==="S")){ const b=document.getElementById("saveBtn"); if(b){ toggleSave(cur, b); e.preventDefault(); } }
   else if(revealed && (e.key==="Enter" || e.key===" ")){ next(); e.preventDefault(); }
 });
 
@@ -294,7 +355,8 @@ function start(){
   const savedF = store.get("ar.filt"); if(savedF && savedF.field) filt = Object.assign({field:"all",source:"all",journal:"all"}, savedF);
   const savedT = store.get("ar.tally"); if(savedT && typeof savedT.n==="number") tally = savedT;
   const savedS = store.get("ar.seen"); if(Array.isArray(savedS)) seen = new Set(savedS);
-  renderFilters(); renderScore(); renderAbout();
+  const savedL = store.get("ar.saved"); if(Array.isArray(savedL)) saved = savedL.filter(x => x && x.id && x.title);
+  renderFilters(); renderScore(); renderAbout(); renderSaved();
   const m = /^#a(\d+)$/.exec(location.hash||""); const want = m ? items.find(it => it.n===+m[1]) : null;
   show(want || pick());
 }

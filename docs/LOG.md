@@ -72,3 +72,44 @@ python3 pipeline/build_site.py --repo-url https://github.com/kuzmanconsulting/ab
 python3 -m unittest discover -s tests -v         # 12 OK
 # Mac (Maja): git add -A && git commit -m "page served from docs/" && git push ; Settings → Pages → main, folder /docs
 ```
+
+## 2026-10-23 15:20–17:10 — second corpus: evolutionary genomics + top journals (D10, D11)
+
+```bash
+python3 pipeline/fetch_candidates.py --fields evogen --suffix evogen --out src/candidates_evogen.json --exclude <bank>     # 762 kept
+python3 pipeline/fetch_candidates.py --fields cfdna te cancergen evogen --sources journal --journals top --suffix top --out src/candidates_top.json --exclude <bank>   # 716 kept
+cp src/corpus.json src/_corpus_v1_560.json.bak
+python3 pipeline/select_corpus.py --append --candidates src/candidates_evogen.json --n 219 --preprint-share 0.3 --seed 20261023001 --fields evogen --label evogen-2026-10-23
+python3 pipeline/select_corpus.py --append --candidates src/candidates_top.json --n 86 --preprint-share 0 --seed 20261023002 --fields cfdna te cancergen evogen --journals Nature Cell "Genome Biology" "Nature Communications" --label top-journals-2026-10-23
+python3 pipeline/make_batches.py gen --size 20 --start 560 --first-batch 16        # gen_16 … gen_31 (305 abstracts)
+# 16 generator agents, gen-v4; then "flip_rule": "first-of-any" written into each new generated file (D11)
+python3 pipeline/validate.py gen                                                   # 41 files OK
+python3 pipeline/make_batches.py check --passes A B C --seed 7                     # +48 check batches (check_P_16 … check_P_31)
+# 24 checker agents (two batches each; A_20/A_21 re-run singly after a classifier stop), ≤ 20 at once
+python3 pipeline/validate.py check                                                 # 121 OK
+```
+
+## 2026-10-23 19:30–19:58 — flip rule v2, re-check, exclusions, merge (D13–D15)
+
+```bash
+cp -r src/generated src/_bak/generated_before_reflip
+python3 pipeline/make_batches.py reflip --from-rule first-of-any --to-rule first-of-any-v2 --seed 7   # 38 abstracts → check_{A,B,C}_F00..F02; src/reflips.json
+# 9 checker agents (one batch each, written in chunks); first launch hit the usage limit (reset 19:40), resumed
+python3 pipeline/validate.py check                                                 # 130 OK
+#  corpus: n 753, 838, 849 marked "excluded" (D14); docs/index.html: statements shuffled on display (D15); smallrna field label
+python3 pipeline/merge_checks.py --passes A B C      # 865 generated · 3 excluded · 861 kept · 3375/3448 statements · dropped ill_formed 13, ambiguous 60 · too few 1 (n=859) · pairwise differ 14/10344
+python3 pipeline/build_site.py --repo-url https://github.com/kuzmanconsulting/abstract-game   # docs/data.json 3.5 MB
+python3 -m unittest discover -s tests -v             # 16 OK (12 pipeline + 4 headless page tests: journal filter, shuffle, streak/best/persistence, reading list)
+```
+
+## 2026-10-23 19:45–20:05 — third corpus: small RNA + top-league journals 2020– (D16)
+
+```bash
+python3 pipeline/fetch_candidates.py --fields smallrna --sources journal preprint --suffix rna --out src/candidates_rna.json --exclude <bank>      # 1060 kept
+python3 pipeline/fetch_candidates.py --fields cfdna te cancergen evogen smallrna --sources journal --journals top2 --start 2020-01-01 --suffix top2 --out src/candidates_top2.json --exclude <bank>   # 1919 kept
+cp src/corpus.json src/_corpus_v2_865.json.bak
+python3 pipeline/select_corpus.py --append --candidates src/candidates_rna.json --n 60 --preprint-share 0.3 --seed 20261023003 --fields smallrna --label third-smallrna
+python3 pipeline/select_corpus.py --append --candidates src/candidates_top2.json --n 75 --preprint-share 0 --seed 20261023004 --fields cfdna te cancergen evogen smallrna --spread journal --label third-top2   # corpus 1000
+python3 pipeline/make_batches.py gen --size 15 --start 865 --first-batch 32        # gen_32 … gen_40
+# 9 generator agents, gen-v4, outputs written in chunks
+```

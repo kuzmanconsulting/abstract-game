@@ -74,7 +74,7 @@ def check_batches_for(corpus, ns, size=30, seed=11, pass_name="R"):
         with open(path, encoding="utf-8") as f:
             doc = json.load(f)
         for it in doc["items"]:
-            gen[it["n"]] = (doc.get("prompt_version"), it["statements"])
+            gen[it["n"]] = (doc.get("prompt_version"), it["statements"], doc.get("flip_rule", "exactly-one"))
     names = []
     ns = sorted(ns)
     for b in range(0, len(ns), size):
@@ -83,8 +83,8 @@ def check_batches_for(corpus, ns, size=30, seed=11, pass_name="R"):
         out, jk = [], {}
         for n in ns[b:b + size]:
             it = by_n[n]
-            version, statements = gen[n]
-            sts = effective(statements, version)
+            version, statements, rule = gen[n]
+            sts = effective(statements, version, rule)
             order = list(range(len(sts)))
             rng.shuffle(order)
             out.append({"n": n, "id": it["id"], "year": it["year"], "field": it["field"], "source": it["source"],

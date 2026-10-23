@@ -39,29 +39,32 @@ def load_generated():
         if name.startswith("gen_") and name.endswith(".json"):
             doc = load_json(os.path.join(GEN_DIR, name))
             for it in doc["items"]:
-                gen[it["n"]] = {"batch": doc["batch"], "prompt_version": doc.get("prompt_version"), "statements": it["statements"]}
+                gen[it["n"]] = {"batch": doc["batch"], "prompt_version": doc.get("prompt_version"), "flip_rule": doc.get("flip_rule", "exactly-one"),
+                                "statements": it["statements"]}
     return gen
 
 
 def load_checks(passes):
     """n -> pass -> k -> verdict  (the check batch file maps the shuffled j back to the generator's k)."""
     out = defaultdict(dict)
+    batches = []
     for name in sorted(os.listdir(BATCH_DIR)):
         if not name.startswith("check_") or name.endswith(".map.json"):
             continue
         batch = load_json(os.path.join(BATCH_DIR, name))
+        if batch["pass"] in passes and os.path.exists(os.path.join(CHECK_DIR, name)):
+            batches.append((name, batch))
+    # a superseding batch (re-flipped abstracts, D13) replaces the verdicts given on the earlier wording, so it is read last
+    for name, batch in sorted(batches, key=lambda nb: bool(nb[1].get("supersedes"))):
         p = batch["pass"]
-        if p not in passes:
-            continue
-        path = os.path.join(CHECK_DIR, name)
-        if not os.path.exists(path):
-            continue
-        doc = load_json(path)
+        doc = load_json(os.path.join(CHECK_DIR, name))
         jkmap = load_json(os.path.join(BATCH_DIR, name[:-5] + ".map.json"))["jk"]
         verdicts = {it["n"]: {v["j"]: v for v in it.get("verdicts", [])} for it in doc.get("items", [])}
         for it in batch["items"]:
             jk = {int(j): k for j, k in jkmap[str(it["n"])].items()}
             vs = verdicts.get(it["n"], {})
+            if batch.get("supersedes") and it["n"] in out and p in out[it["n"]]:
+                out[it["n"]].setdefault("_superseded", {})[p] = out[it["n"]][p]
             out[it["n"]][p] = {jk[j]: v for j, v in vs.items() if j in jk}
     return out
 
@@ -87,10 +90,14 @@ def merge(passes, repair_pass="R"):
     items, stats = [], {"abstracts_generated": len(gen), "abstracts_kept": 0, "statements_generated": 0, "statements_kept": 0,
                         "dropped": Counter(), "agreement": Counter(), "kept_by_label": Counter(), "dropped_by_label": Counter(),
                         "abstracts_dropped_too_few": 0, "checker_label_agreement_pairwise": Counter()}
+    stats["abstracts_excluded"] = 0
     for n in sorted(gen):
         src = corpus[n]
+        if src.get("excluded"):                                # D14: off-topic abstracts marked in the corpus
+            stats["abstracts_excluded"] += 1
+            continue
         kept = []
-        for s in effective(gen[n]["statements"], gen[n]["prompt_version"]):
+        for s in effective(gen[n]["statements"], gen[n]["prompt_version"], gen[n]["flip_rule"]):
             stats["statements_generated"] += 1
             s = dict(s, label=label_of(s))                       # a gen-v3 flip statement plays as the contradicted item
             d = decide(s, {p: (checks.get(n, {}).get(p) or {}).get(s["k"], {}) for p in passes}, passes)
@@ -113,7 +120,7 @@ def merge(passes, repair_pass="R"):
                 if s.get("alter"):
                     row["alter"] = {"kind": (s["alter"] or {}).get("kind"), "basis": s.get("basis")}
                 elif s.get("flip"):
-                    _, w_from, w_to, _ = flip(s["text"])
+                    _, w_from, w_to, _ = flip(s["text"], s.get("flip_rule", "exactly-one"))
                     row["alter"] = {"kind": "direction", "basis": s["text"], "from": w_from, "to": w_to}
                 kept.append(row)
             else:
@@ -123,7 +130,7 @@ def merge(passes, repair_pass="R"):
             stats["abstracts_dropped_too_few"] += 1
             continue
         stats["abstracts_kept"] += 1
-        items.append({"n": n, "id": src["id"], "field": src["field"], "source": src["source"], "server": src.get("server"), "text_repaired": bool(src.get("text_repaired")),
+        items.append({"n": n, "id": src["id"], "field": src["field"], "source": src["source"], "server": src.get("server"), "text_repaired": bool(src.get("text_repaired")), "added": src.get("added"),
                       "pmid": src.get("pmid"), "doi": src.get("doi"), "title": src["title"], "authors": src["authors"],
                       "journal": src["journal"], "year": src["year"], "date": src.get("date"), "url": src.get("url"), "doi_url": src.get("doi_url"),
                       "sections": src["sections"], "generated_by": gen[n]["batch"], "prompt_version": gen[n]["prompt_version"],
@@ -133,7 +140,7 @@ def merge(passes, repair_pass="R"):
     # batches not k either; the passes run before 14:55 saw k, so this is the size of that possible leak.
     pat = defaultdict(Counter)
     for n, g in gen.items():
-        sts = effective(g["statements"], g["prompt_version"])
+        sts = effective(g["statements"], g["prompt_version"], g["flip_rule"])
         pat[g["batch"]][tuple(label_of(s) for s in sorted(sts, key=lambda x: x["k"]))] += 1
     stats["k_order_leak"] = {b: round(c.most_common(1)[0][1] / sum(c.values()), 2) for b, c in sorted(pat.items())}
     stats = {k: (dict(v) if isinstance(v, Counter) else v) for k, v in stats.items()}

@@ -4,6 +4,7 @@ batches (src/batches/check_<pass>_NN.json) in which the statements are shuffled 
 
     python3 pipeline/make_batches.py gen --size 35
     python3 pipeline/make_batches.py check --passes A B C --seed 7
+    python3 pipeline/make_batches.py reflip --from-rule first-of-any --to-rule first-of-any-v2 --seed 7   # D13
 """
 import argparse
 import json
@@ -60,7 +61,7 @@ def check_batches(items, passes, seed, size, force=False):
             out, jk = [], {}
             for g in gen["items"]:
                 it = by_n[g["n"]]
-                sts = effective(g["statements"], gen.get("prompt_version"))
+                sts = effective(g["statements"], gen.get("prompt_version"), gen.get("flip_rule", "exactly-one"))
                 order = list(range(len(sts)))
                 rng.shuffle(order)
                 # the checker gets j and text only; the j -> k mapping goes to a side file it never reads (k is the
@@ -79,9 +80,71 @@ def check_batches(items, passes, seed, size, force=False):
     return names
 
 
+def reflip(items, old_rule, new_rule, passes, seed, size=13, label="F", reflips_path=None):
+    """Move every generated file on `old_rule` to `new_rule` (D13) and build fresh blind check batches, all passes,
+    for the abstracts whose shown statements change under the new rule (`supersedes: true` — the merge takes these
+    verdicts instead of the ones given on the old wording). Files already on new_rule are left alone; the list of
+    re-flipped abstracts goes to src/reflips.json."""
+    from validate import label_of
+    by_n = {it["n"]: it for it in items}
+    affected, kinds, files = [], {}, []
+    for gf in sorted(f for f in os.listdir(GEN_DIR) if f.startswith("gen_") and f.endswith(".json")):
+        path = os.path.join(GEN_DIR, gf)
+        with open(path, encoding="utf-8") as f:
+            gen = json.load(f)
+        if gen.get("flip_rule", "exactly-one") != old_rule:
+            continue
+        for g in gen["items"]:
+            a = {s["k"]: (compose(s)[0], label_of(s)) for s in effective(g["statements"], gen.get("prompt_version"), old_rule)}
+            b = {s["k"]: (compose(s)[0], label_of(s)) for s in effective(g["statements"], gen.get("prompt_version"), new_rule)}
+            if a != b:
+                affected.append(g["n"])
+                ka = [k for k, (_, l) in a.items() if l == "contradicted"]
+                kb = [k for k, (_, l) in b.items() if l == "contradicted"]
+                kinds[str(g["n"])] = "moved" if ka and kb and ka != kb else "dropped" if ka and not kb else "reworded"
+        gen["flip_rule"] = new_rule
+        gen["flip_rule_history"] = gen.get("flip_rule_history", []) + [old_rule]
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(gen, f, ensure_ascii=False, indent=1)
+        files.append(gf)
+    gen_by_n = {}
+    for gf in sorted(f for f in os.listdir(GEN_DIR) if f.startswith("gen_") and f.endswith(".json")):
+        with open(os.path.join(GEN_DIR, gf), encoding="utf-8") as f:
+            gen = json.load(f)
+        for g in gen["items"]:
+            gen_by_n[g["n"]] = (gen, g)
+    affected = sorted(affected)
+    names = []
+    for b in range(0, len(affected), size):
+        num = "%s%02d" % (label, b // size)
+        for p in passes:
+            rng = random.Random("%s:%s:%d" % (p, num, seed))
+            out, jk = [], {}
+            for n in affected[b:b + size]:
+                gen, g = gen_by_n[n]
+                sts = effective(g["statements"], gen.get("prompt_version"), gen.get("flip_rule"))
+                order = list(range(len(sts)))
+                rng.shuffle(order)
+                out.append({**public_view(by_n[n]), "statements": [{"j": j + 1, "text": compose(sts[i])[0]} for j, i in enumerate(order)]})
+                jk[str(n)] = {str(j + 1): sts[i]["k"] for j, i in enumerate(order)}
+            name = "check_%s_%s" % (p, num)
+            with open(os.path.join(BATCH_DIR, name + ".json"), "w", encoding="utf-8") as f:
+                json.dump({"batch": name, "pass": p, "source_batch": "reflip:%s" % new_rule, "supersedes": True, "items": out}, f, ensure_ascii=False, indent=0)
+            with open(os.path.join(BATCH_DIR, name + ".map.json"), "w", encoding="utf-8") as f:
+                json.dump({"batch": name, "pass": p, "jk": jk}, f)
+            names.append(name)
+    if reflips_path:
+        with open(reflips_path, "w", encoding="utf-8") as f:
+            json.dump({"from_rule": old_rule, "to_rule": new_rule, "files": files, "n": affected, "count": len(affected), "kind": kinds,
+                       "check_batches": names, "reason": "D13: swapped quantifiers, idioms and negations read as ill-formed; re-flipped and re-checked"}, f, indent=1)
+    return affected, names
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser()
-    ap.add_argument("what", choices=["gen", "check"])
+    ap.add_argument("what", choices=["gen", "check", "reflip"])
+    ap.add_argument("--from-rule", default="first-of-any")
+    ap.add_argument("--to-rule", default="first-of-any-v2")
     ap.add_argument("--size", type=int, default=35)
     ap.add_argument("--passes", nargs="+", default=["A", "B", "C"])
     ap.add_argument("--seed", type=int, default=7)
@@ -91,7 +154,11 @@ def main(argv=None):
     a = ap.parse_args(argv)
     with open(CORPUS, encoding="utf-8") as f:
         items = json.load(f)["items"]
-    names = gen_batches(items, a.size, a.start, a.first_batch) if a.what == "gen" else check_batches(items, a.passes, a.seed, a.size, a.force)
+    if a.what == "reflip":
+        affected, names = reflip(items, a.from_rule, a.to_rule, a.passes, a.seed, min(a.size, 13), reflips_path=os.path.join(ROOT, "src", "reflips.json"))
+        print("%d abstracts re-flipped: %s" % (len(affected), affected))
+    else:
+        names = gen_batches(items, a.size, a.start, a.first_batch) if a.what == "gen" else check_batches(items, a.passes, a.seed, a.size, a.force)
     print("%d new batches%s" % (len(names), (": %s … %s" % (names[0], names[-1])) if names else ""))
     return 0
 

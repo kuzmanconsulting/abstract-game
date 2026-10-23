@@ -1,0 +1,690 @@
+{
+ "batch": "gen_28",
+ "prompt_version": "gen-v4",
+ "items": [
+  {
+   "n": 800,
+   "id": "pmid:37301196",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Two DNA regions, Drr and Dcr, are required for R2 to recognise and cleave its target site.",
+     "evidence": "we reveal two essential DNA regions, Drr and Dcr, required for recognition and cleavage",
+     "note": "The abstract reports exactly these two regions as essential for recognition and cleavage."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "R2 insertion lowers the number of functional ribosomal RNA genes in the host genome.",
+     "evidence": "Here, we determine the cryo-EM structures of eukaryotic R2 retrotransposon with ribosomal DNA target and regulatory RNAs.",
+     "note": "Ribosomal DNA appears only as the structural target; the consequences of insertion for host rRNA genes are never measured or discussed."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Binding of the 3' regulatory RNA speeds up cleavage of the first DNA strand and prevents cleavage of the second.",
+     "evidence": "The association of 3' regulatory RNA with R2 protein accelerates the first-strand cleavage, blocks the second-strand cleavage",
+     "note": "Both effects of 3' regulatory RNA binding are stated directly in the results."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Second-strand cleavage starts only after reverse transcription clears the 3' regulatory RNA and the 5' regulatory RNA binds.",
+     "evidence": "Removing 3' regulatory RNA by reverse transcription allows the association of 5' regulatory RNA and initiates the second-strand cleavage.",
+     "note": "The abstract describes this exact order of RNA exchange followed by second-strand cleavage."
+    }
+   ]
+  },
+  {
+   "n": 801,
+   "id": "pmid:38364788",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Sequences like RNLTR12-int occur in all jawed vertebrates, and they regulate myelination in two further vertebrate classes.",
+     "evidence": "RNLTR12-int-like sequences (which we name RetroMyelin) are found in all jawed vertebrates, and we further demonstrate their function in regulating myelination in two different vertebrate classes (zebrafish and frogs)",
+     "note": "The reported distribution and the functional test in zebrafish and frogs are both given in this sentence."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Expression of the RNLTR12-int retrotransposon at the RNA level is necessary for myelination.",
+     "evidence": "we report that RNA-level expression of RNLTR12-int, a retrotransposon of retroviral origin, is essential for myelination",
+     "note": "The abstract states that RNA-level expression of this element is essential for myelination."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "RNLTR12-int is expressed at higher levels in oligodendrocytes than in neurons.",
+     "evidence": "Myelin, the insulating sheath that surrounds neuronal axons, is produced by oligodendrocytes in the central nervous system (CNS).",
+     "note": "Oligodendrocytes are named as the myelin-producing cells, but no comparison of RNLTR12-int levels between cell types is reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "In rodents, RNA encoded by RNLTR12-int binds the transcription factor SOX10 and controls transcription of the Mbp gene.",
+     "evidence": "RNLTR12-int-encoded RNA binds to the transcription factor SOX10 to regulate transcription of myelin basic protein (Mbp, the major constituent of myelin) in rodents",
+     "note": "The binding partner, the regulated gene and the species are all specified in the results."
+    }
+   ]
+  },
+  {
+   "n": 802,
+   "id": "pmid:40328257",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The CCR5delta32 deletion arose on a haplotype that already carried 84 variants.",
+     "evidence": "the CCR5delta32 allele arose on a pre-existing haplotype consisting of 84 variants",
+     "note": "The number of variants on the pre-existing haplotype is reported exactly."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Plague epidemics were the selective pressure that favoured the CCR5delta32 haplotype in Western Eurasia.",
+     "evidence": "we present strong evidence for positive selection acting upon the CCR5delta32 haplotype between 8,000 and 2,000 years BP in Western Eurasia",
+     "note": "Positive selection is demonstrated, but the abstract names no pathogen or other agent as the cause of it."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The deletion was traced to at least 6,700 years before present in the Western Eurasian Steppe region.",
+     "evidence": "traced the origin of the CCR5delta32 deletion to at least 6,700 years before the present (BP) in the Western Eurasian Steppe region",
+     "note": "The reported age and geographic origin match the statement."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Genetic exchanges after the Columbian contact account for the haplotype occurring in Latin America.",
+     "evidence": "show that the presence of the haplotype in Latin America can be explained by post-Columbian genetic exchanges",
+     "note": "The abstract attributes the Latin American presence of the haplotype to post-Columbian exchanges."
+    }
+   ]
+  },
+  {
+   "n": 803,
+   "id": "pmid:39181133",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "CRISPR-Cas9 screens pointed to the Fanconi anemia pathway as a driver of chromothripsis.",
+     "evidence": "Using CRISPR-Cas9 screens, we identify a non-canonical role of the Fanconi anemia (FA) pathway as a driver of chromothripsis.",
+     "note": "The screening approach and the identified driver role are stated together."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Switching off the FA pathway stops chromosome shattering in mitosis but leaves interphase defects inside micronuclei unchanged.",
+     "evidence": "Inactivation of the FA pathway suppresses chromosome shattering during mitosis without impacting interphase-associated defects within micronuclei.",
+     "note": "The abstract reports the mitotic effect and the absence of an interphase effect in one result."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Drugs blocking the SLX4-XPF-ERCC1 endonuclease reduce acquired therapy resistance in cancer patients.",
+     "evidence": "The structure-selective SLX4-XPF-ERCC1 endonuclease subsequently induces large-scale nucleolytic cleavage of persistent DNA replication intermediates",
+     "note": "The endonuclease is given a mechanistic role, but no inhibitor and no patient treatment data appear in the abstract."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Chromothripsis driven by the FA pathway yields complex rearrangements and extrachromosomal DNA that make cells resistant to anti-cancer therapies.",
+     "evidence": "FA-pathway-induced chromothripsis generates complex genomic rearrangements and extrachromosomal DNA that confer acquired resistance to anti-cancer therapies",
+     "note": "Both products of this chromothripsis and the resulting resistance are reported."
+    }
+   ]
+  },
+  {
+   "n": 804,
+   "id": "pmid:40381624",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Injury to sensory neurons raised the levels of a subset of polyadenylated B2-SINE elements, named GI-SINEs.",
+     "evidence": "found upregulation of a subset of polyadenylated B2-SINE repeat elements, hereby termed GI-SINEs (growth-inducing B2-SINEs)",
+     "note": "The upregulation after injury and the naming of these elements are both reported."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "GI-SINEs rose in injured sensory neurons but showed no upregulation in lesioned retinal ganglion neurons.",
+     "evidence": "GI-SINEs are induced from ATF3 and other AP-1 promoter-associated extragenic loci in injured sensory neurons but are not upregulated in lesioned retinal ganglion neurons.",
+     "note": "The contrast between the two injured neuron types is stated directly."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The rise in GI-SINE levels after injury depends on new B2-SINE copies inserting into the genome.",
+     "evidence": "Thus, a specific subfamily of transposable elements is integral to a physiological circuit linking AP-1 transcription with localized RNA translation.",
+     "note": "The abstract links these elements to transcription and local translation but never reports whether new insertions occur."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Supplying GI-SINE expression from outside produced axonal growth in injured sensory, retinal and corticospinal tract neurons.",
+     "evidence": "Exogenous GI-SINE expression elicited axonal growth in injured sensory, retinal, and corticospinal tract neurons.",
+     "note": "The growth-promoting effect in all three neuron types is reported."
+    }
+   ]
+  },
+  {
+   "n": 805,
+   "id": "pmid:37738970",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "People infected with BA.5 had worse clinical outcomes than people infected with BA.1.",
+     "evidence": "Our findings suggest that SARS-CoV-2 convergent evolution overcame human adaptive and innate immune barriers, laying the groundwork to tackle future pandemics.",
+     "note": "The study compares variants at the molecular level only; no patient disease outcomes are measured."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Alpha, Beta, Gamma and Delta converged on suppressing interferon-stimulated genes, while Omicron BA.1 did not.",
+     "evidence": "although Alpha, Beta, Gamma, and Delta ultimately converged to suppress interferon-stimulated genes (ISGs), Omicron BA.1 did not",
+     "note": "The abstract states the convergence of four variants and the exception of BA.1."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The later subvariants BA.4 and BA.5 suppressed innate immunity more strongly than the earlier BA.1, in line with their Orf6 levels.",
+     "evidence": "Later Omicron subvariants BA.4 and BA.5 more potently suppressed innate immunity than early subvariant BA.1, which correlated with Orf6 levels, although muted in BA.4 by a mutation that disrupts the Orf6-nuclear pore interaction.",
+     "note": "The abstract reports stronger suppression by BA.4 and BA.5 and its correlation with Orf6."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Suppression of interferon-stimulated genes went together with expression of the antagonist proteins Orf6, N and Orf9b, which were mapped to specific mutations.",
+     "evidence": "ISG suppression correlated with the expression of viral innate immune antagonist proteins, including Orf6, N, and Orf9b, which we mapped to specific mutations.",
+     "note": "The correlation and the mapping to mutations are both stated in the results."
+    }
+   ]
+  },
+  {
+   "n": 806,
+   "id": "pmid:38532500",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Small RNAs and poly(A)-bearing long RNAs were sequenced in oocytes of 12 vertebrate species, 11 of them mammals.",
+     "evidence": "we use high-throughput sequencing to profile small RNAs and poly(A)-bearing long RNAs in oocytes of 12 representative vertebrate species (including 11 mammals)",
+     "note": "The species counts and the RNA classes profiled are given exactly."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "piRNAs dominated oocyte small RNA populations in every species except mice, whereas endo-siRNAs were found only in mice.",
+     "evidence": "whereas endo-siRNAs are specific to mice. Notably, piRNAs are predominant in oocytes of all species (except mice) and vary widely in length.",
+     "note": "The mouse-specific endo-siRNAs and the piRNA predominance elsewhere are both reported."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Deleting PIWIL3 in mammalian oocytes causes infertility.",
+     "evidence": "We find PIWIL3-associated piRNAs are widespread in mammals and generally lack 3'-2'-O-methylation.",
+     "note": "PIWIL3-associated piRNAs are characterised descriptively; no knockout experiment or fertility outcome is reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Homologous piRNAs of different species share low sequence identity, even in syntenic clusters, yet still silence younger TE subfamilies.",
+     "evidence": "sequence identity is low between homologous piRNAs in different species, even among those present in syntenic piRNA clusters",
+     "note": "Low cross-species identity is reported, and the abstract adds that piRNAs retain the capacity to silence younger TE subfamilies."
+    }
+   ]
+  },
+  {
+   "n": 807,
+   "id": "pmid:38378611",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Mouse minor and major satellites varied greatly in sequence and organisation within and between arrays, against earlier reports of homogeneity.",
+     "evidence": "both centromeric minor satellites and pericentromeric major satellites exhibit a high degree of variation in sequence and organization within and between arrays",
+     "note": "The long-read analysis reported this variation, explicitly contrary to previous reports of homogeneity."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Disrupting satellite homogeneity raises the rate of chromosome missegregation in mouse cells.",
+     "evidence": "Centromeres are essential for faithful chromosome segregation during mitosis and meiosis.",
+     "note": "Segregation appears only as background motivation; no missegregation rates are measured in this work."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Transposable elements within centromeric regions lacked significant CENP-A enrichment and so are not part of functional centromeres.",
+     "evidence": "The transposable elements at centromeric regions are not part of functional centromeres as they lack significant CENP-A enrichment.",
+     "note": "The abstract states both the missing CENP-A enrichment and the conclusion drawn from it."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "H3K9me3 nucleosomes were well phased on major satellite arrays, while CENP-A nucleosomes on minor satellite arrays were poorly phased.",
+     "evidence": "while H3K9me3 nucleosomes display a well-phased organization on major satellite arrays, CENP-A nucleosomes on minor satellite arrays are poorly phased",
+     "note": "The contrast in nucleosome phasing between the two array types is reported directly."
+    }
+   ]
+  },
+  {
+   "n": 808,
+   "id": "pmid:41039633",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Proteins that initiate liquid-liquid phase separation turn up in somatic cancers more often than in neurodegeneration.",
+     "evidence": "We find that proteins initiating LLPS are frequently implicated in somatic cancers, even surpassing their involvement in neurodegeneration.",
+     "note": "The abstract reports cancer involvement exceeding involvement in neurodegeneration."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Condensates formed by oncogenic fusion proteins are larger than those formed by the corresponding wild-type proteins.",
+     "evidence": "where phase-separation-prone oncogenic fusion proteins form abnormal condensates along the DNA and thereby dysregulate gene expression programs",
+     "note": "Abnormal condensates are described, but no size comparison against wild-type condensates is reported."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "In oncogenic fusion proteins, condensate-driving regions were more often paired with DNA- or chromatin-binding domains of transcription regulators.",
+     "evidence": "Protein regions driving condensate formation show an increased association with DNA- or chromatin-binding domains of transcription regulators within oncogenic fusion proteins",
+     "note": "The increased association of these two region types within fusion proteins is the reported finding."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Cancer-driving phase-separation scaffolds tended to be potent oncogenes with dominant phenotypes and no targeting options among FDA-approved drugs.",
+     "evidence": "cancer-driving LLPS scaffolds tend to be potent oncogenes, giving rise to dominant phenotypes and lacking targeting options by current FDA-approved drugs",
+     "note": "Potency, dominance and the lack of approved drugs are all stated for these scaffolds."
+    }
+   ]
+  },
+  {
+   "n": 809,
+   "id": "pmid:40346709",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Eighty-five percent of endometrial cancers rely on estrogen receptor alpha for proliferation.",
+     "evidence": "Eighty-five percent of ECs depend on estrogen receptor alpha (ERα) for proliferation",
+     "note": "This proportion is stated outright in the abstract."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Risk variants and non-coding somatic mutations were strikingly enriched at ERα sites specific to tumours.",
+     "evidence": "reveals a striking enrichment of risk variants and non-coding somatic mutations at tumor-enriched ERα sites",
+     "note": "The enrichment at tumour-enriched ERα sites is the reported integration result."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Endometrial tumours carrying the identified enhancer mutation respond poorly to hormonal therapy.",
+     "evidence": "Through machine learning-based predictions and interaction proteomics analyses, we identify an enhancer mutation which alters 3D genome conformation",
+     "note": "The enhancer mutation is characterised molecularly; no treatment response is examined."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Profiling healthy and tumour endometrium showed ERα reprogramming and 3D genome changes that gave tumour-specific enhancer activity during cancer development.",
+     "evidence": "identifying robust ERα reprogramming and profound alterations in 3D genome organization that lead to a gain of tumor-specific enhancer activity during EC development",
+     "note": "The abstract reports both the receptor reprogramming and the gain of tumour-specific enhancer activity."
+    }
+   ]
+  },
+  {
+   "n": 810,
+   "id": "pmid:37055782",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Four newly discovered genes, TMEM132C, ATP13A3, SANBR and KHDRBS2, carried strong signals of selection.",
+     "evidence": "we discover four new genes, TMEM132C, ATP13A3, SANBR, and KHDRBS2, with strong signals of selection",
+     "note": "These four genes are reported as new discoveries with strong selection signals."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Tibetans carrying the selected ATP13A3 haplotype have higher blood oxygen saturation than non-carriers.",
+     "evidence": "and they may account for the adaptation of cardio-pulmonary functions in Tibetans",
+     "note": "A cardio-pulmonary role is proposed for the new genes, but no physiological measurements by genotype are reported."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Sequencing 1001 indigenous Tibetan genomes yielded 35 million variants, with more than a third of them novel.",
+     "evidence": "we present whole-genome sequencing (WGS) data of 1001 indigenous Tibetans, covering the major populated areas of the Qinghai-Tibetan Plateau in China. We identify 35 million variants, and more than one-third of them are novel variants.",
+     "note": "The sample size, variant count and the novel fraction are all stated."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "A high-confidence set of 4320 variants and 192 genes showed signatures of positive selection in Tibetans.",
+     "evidence": "we characterize a high-confidence list of 4320 variants and 192 genes that have undergone selection in Tibetans",
+     "note": "Both counts in the high-confidence selection list are given exactly."
+    }
+   ]
+  },
+  {
+   "n": 811,
+   "id": "pmid:37016431",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The NSD2 EK mutation remodelled the 3D genome widely, with compartment changes biased strongly towards shifts into the A compartment.",
+     "evidence": "The NSD2 mutation leads to widespread remodeling of the 3D genome, most dramatically in terms of compartment changes with a strong bias towards A compartment shifts.",
+     "note": "The Hi-C result reports widespread remodelling dominated by A compartment shifts."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Inside A compartments, H3K36me2 expanded and H3K27me3 shrank, together with higher gene expression and chromatin accessibility.",
+     "evidence": "show an expansion in H3K36me2 and a shrinkage in H3K27me3 within A compartments as well as increased gene expression and chromatin accessibility",
+     "note": "All four changes within A compartments are listed in the integrated analysis."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Patients whose leukemia carries NSD2 EK survive for a shorter time after relapse than patients without the mutation.",
+     "evidence": "We further perform RNA sequencing on a cohort of matched diagnosis/relapse ALL patients harboring the relapse-specific NSD2 EK mutation.",
+     "note": "The patient cohort was used for expression profiling only; no survival comparison is reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Intra-TAD activity changed little, and a shared core of decompacting loci was common to the cell lines despite differing compartment changes.",
+     "evidence": "In contrast, we identify few changes in intra-topologically associating domain activity. While compartment changes vary across cell lines, a common core of decompacting loci are shared",
+     "note": "The absence of intra-TAD change and the shared core of decompacting loci are both reported."
+    }
+   ]
+  },
+  {
+   "n": 812,
+   "id": "pmid:42381011",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Repeat DNA makes up 28.34% of the 1.6 Gb snowy owl genome, against an average near 10% in other birds.",
+     "evidence": "the repeat DNA content in the relatively large snowy owl genome (1.6 Gb) is among the highest reported for any bird genome to date (28.34% compared to an average of ~ 10% in other birds)",
+     "note": "The genome size, the repeat percentage and the comparison with other birds are all stated."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Most of the owl's repeat landscape consists of extensive centromeric satellite arrays forming large contiguous blocks across several chromosomes.",
+     "evidence": "The bulk of the snowy owl genomic repeat landscape consists of extensive centromeric satellite arrays that form large contiguous blocks across multiple chromosomes.",
+     "note": "The composition and chromosomal arrangement of the repeat landscape are reported directly."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Other owl species carry centromeric satellite arrays as large as those of the snowy owl.",
+     "evidence": "One notable exception is the owls, with cytogenetic studies demonstrating large variations in karyotypes and the evolution of unusual centromeric satellite repeats in some species.",
+     "note": "Unusual repeats in some owls are mentioned as background, but only the snowy owl genome was assembled and no array sizes are compared across owls."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Snowy owl centromeres are not homologous in position to chicken centromeres and sit in regions where collinearity with other bird genomes breaks.",
+     "evidence": "we show that the position of the centromeres are not homologous with chicken centromeres, and are located in regions with collinearity breaks to other bird genomes due to chromosomal rearrangements",
+     "note": "The collinearity analysis reported both the lack of homology with chicken and the location at collinearity breaks."
+    }
+   ]
+  },
+  {
+   "n": 813,
+   "id": "pmid:36691074",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Cancer cells have more disordered lamina-associated domains than the cell types mapped in this atlas.",
+     "evidence": "which limits our understanding of the role peripheral chromatin plays in development and disease",
+     "note": "Disease is named only as motivation; the atlas covers genetically normal cell types and no cancer comparison is made."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "LAMIN B1 occupancy was mapped in twelve human cell types, covering pluripotent stem cells, progenitors and differentiated cells of all three germ layers.",
+     "evidence": "we map LAMIN B1 occupancy across twelve human cell types encompassing pluripotent stem cells, intermediate progenitors, and differentiated cells from all three germ layers",
+     "note": "The number of cell types and their developmental range are stated exactly."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "In all twelve cell types, lamina-associated chromatin split into at least two subtypes differing in occupancy, expression, accessibility, transposable elements, replication timing and radial position.",
+     "evidence": "lamina-associated chromatin in all twelve cell types is organized into at least two subtypes defined by differences in LAMIN B1 occupancy, gene expression, chromatin accessibility, transposable elements, replication timing, and radial positioning",
+     "note": "The two subtypes and the full list of distinguishing features are reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The second subtype of lamina-associated chromatin was comparatively gene dense, accessible, dynamic across development and positioned next to the lamina.",
+     "evidence": "the second subtype of lamina-associated chromatin is relatively gene dense, accessible, dynamic across development, and positioned adjacent to the lamina",
+     "note": "Each property of the second subtype is stated in the results."
+    }
+   ]
+  },
+  {
+   "n": 814,
+   "id": "pmid:39375704",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Across The Cancer Genome Atlas, colorectal adenocarcinoma was an outlier compared with every other cancer subtype in poly(A) site selection.",
+     "evidence": "identify that colorectal adenocarcinoma is an outlier relative to all other cancer subtypes",
+     "note": "The unbiased analysis singled out colorectal adenocarcinoma among all subtypes."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Loss-of-function APC mutations in colorectal adenocarcinoma went with longer 3' UTR expression than in tumours without APC mutations.",
+     "evidence": "which are strongly associated with long 3' UTR expression relative to tumors lacking APC mutations",
+     "note": "The association between APC loss-of-function mutations and long 3' UTR expression is reported with that comparison group."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Restoring APC expression in colorectal cancer cells reverses the lengthening of 3' UTRs.",
+     "evidence": "APC knockout similarly dysregulates APA in human colon organoids.",
+     "note": "Only loss of APC was tested experimentally; no restoration or rescue experiment is reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "APC bound preferentially to G- and C-rich motifs just upstream of proximal poly(A) sites.",
+     "evidence": "APC preferentially binds G- and C-rich motifs just upstream of proximal poly(A) sites",
+     "note": "The eCLIP mining result describes exactly this binding preference and position."
+    }
+   ]
+  },
+  {
+   "n": 815,
+   "id": "pmid:37828498",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Combining mtDNA with copy number analysis raised the area under the curve from 0.73 to 0.81.",
+     "evidence": "A predictive model integrating mtDNA and copy number analysis increases the area under the curve (AUC) from 0.73 when using copy number alterations alone to an AUC of 0.81.",
+     "note": "Both AUC values and the models they belong to are reported."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Plasma mtDNA fraction drops during successful chemotherapy.",
+     "evidence": "The mtDNA signal retrieved by whole genome sequencing has the potential to boost the detection of cancer when combined with other tumor-derived signals in liquid biopsies.",
+     "note": "The abstract concerns cancer detection; no treatment-monitoring measurements are reported."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The mtDNA fraction was raised in cholangiocarcinoma, colorectal, liver, pancreatic and prostate cancer relative to healthy individuals, with almost no rise in other cancer types.",
+     "evidence": "The mtDNA fraction is increased in individuals with cholangiocarcinoma, colorectal, liver, pancreatic, or prostate cancer, in comparison to that in healthy individuals. We detect almost no increase of mtDNA fraction in individuals with other cancer types.",
+     "note": "The five cancer types with elevated mtDNA and the absence of a rise elsewhere are both reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The mtDNA fraction tracked the cfDNA tumour fraction, yet was also elevated in some patients showing no apparent rise in tumour-derived cfDNA.",
+     "evidence": "The mtDNA fraction in plasma correlates with the cfDNA tumor fraction as determined by somatic mutations and/or copy number aberrations. However, the mtDNA fraction is also elevated in a fraction of patients without an apparent increase in tumor-derived cfDNA.",
+     "note": "The correlation and the exception in a subset of patients are both stated."
+    }
+   ]
+  },
+  {
+   "n": 816,
+   "id": "pmid:40926249",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Wheat centromeres consist mainly of five types of centromere-specific retrotransposons, of which CRW1 and CRW2 are the most abundant.",
+     "evidence": "wheat centromeres predominantly consist of five types of centromeric-specific retrotransposon elements (CRWs), with CRW1 and CRW2 being the most prevalent",
+     "note": "The number of CRW types and the two most prevalent ones are reported."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The functional centromeres of each subgenome followed distinct evolutionary trajectories, differing in copy number, insertion age and CRW composition.",
+     "evidence": "We identify distinct evolutionary trajectories in the functional centromeres of each subgenome, characterized by variations in copy number, insertion age, and CRW composition.",
+     "note": "The subgenome-specific trajectories and the three features distinguishing them are stated."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Larger centromeres in the DD subgenome raise grain yield in hexaploid wheat.",
+     "evidence": "the evolutionary process of the DD subgenome centromeres involves their expansion from diploid to hexaploid wheat, facilitating adaptation to a larger genomic context",
+     "note": "Expansion is tied to genomic context only; no agronomic trait such as yield is measured."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Synthetic hexaploids and natural accessions showed that DD subgenome centromere expansion is gradual, not an immediate response to polyploidization.",
+     "evidence": "we demonstrate that DD subgenome centromere expansion represents a gradual evolutionary process rather than an immediate response to polyploidization",
+     "note": "The gradual nature of the expansion is the reported conclusion from those comparisons."
+    }
+   ]
+  },
+  {
+   "n": 817,
+   "id": "pmid:41957668",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The pangenome datasets contained 31,790,044 SNPs, 13,512,079 InDels and 623,478 structural variations.",
+     "evidence": "including 31,790,044 SNPs, 13,512,079 InDels and 623,478 structural variations",
+     "note": "All three variant counts are reported exactly."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Fruit quality of cultivated kiwifruit stays unchanged when the AeNLR25-1 allele is introduced.",
+     "evidence": "we identify a wild allele showing allele-specific expression, AeNLR25-1, which enhances Psa resistance in cultivated kiwifruit",
+     "note": "Only disease resistance is assessed for this allele; no fruit-quality traits are measured."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Chromosome-scale assemblies of eleven wild Actinidia eriantha accessions and one interspecific hybrid were combined with twelve previously released genomes.",
+     "evidence": "Here we generate chromosome-scale genome assemblies for eleven wild Actinidia eriantha accessions and one interspecific hybrid between Actinidia eriantha and cultivated Actinidia chinensis var. chinensis. Integrating these with twelve previously released genomes",
+     "note": "The new assemblies and the twelve integrated published genomes are both listed."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "A transposable element-induced structural variation in the AeNLR25-1 promoter introduced a species-specific WRKY binding site and strengthened defence against Psa.",
+     "evidence": "a transposable element-induced structural variation in the AeNLR25-1 promoter introduces a species-specific WRKY binding site, conferring enhanced defense against Psa",
+     "note": "The promoter variation, the new binding site and the resulting defence are all reported."
+    }
+   ]
+  },
+  {
+   "n": 818,
+   "id": "pmid:39702273",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Five deconvolution methods were benchmarked on in silico cfDNA samples built from bisulfite sequencing of 35 human cell types.",
+     "evidence": "we benchmark five methods: MethAtlas, cfNOMe toolkit, CelFiE, CelFEER, and UXM. Utilizing deep whole-genome bisulfite sequencing data from 35 human cell types, we generate in silico cfDNA samples with ground truth cell type proportions",
+     "note": "The number of methods, the cell types used and the simulated samples are all stated."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "UXM outperformed the other four methods at low sequencing depth.",
+     "evidence": "We observe performance differences among methods under varying conditions, underscoring the importance of tailoring cfDNA deconvolution analyses.",
+     "note": "Differences between methods are reported, but the abstract never says which method wins under which condition."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Deconvolution performance depended jointly on reference marker selection, sequencing depth and the completeness of the reference atlas.",
+     "evidence": "multiple factors, including reference marker selection, sequencing depth, and reference atlas completeness, jointly influence the deconvolution performance",
+     "note": "These three jointly acting factors are the reported determinants of performance."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "References missing markers or cell types gave suboptimal deconvolution results, and the methods differed in performance across conditions.",
+     "evidence": "Notably, an incomplete reference with missing markers or cell types leads to suboptimal results. We observe performance differences among methods under varying conditions",
+     "note": "Both the penalty for incomplete references and the between-method differences are reported."
+    }
+   ]
+  },
+  {
+   "n": 819,
+   "id": "pmid:38807159",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Populations that adapted to a hot environment for over 100 generations showed evidence of both premating and postmating reproductive isolation.",
+     "evidence": "In experimentally evolved populations adapting to a hot environment for over 100 generations, we find evidence for pre- and postmating reproductive isolation.",
+     "note": "The duration of adaptation and both forms of isolation are stated in one result."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Altered lipid metabolism and cuticular hydrocarbon composition indicated premating barriers between the ancestral and the evolved replicate populations.",
+     "evidence": "an altered lipid metabolism and cuticular hydrocarbon composition pointed to possible premating barriers between the ancestral and replicate evolved populations",
+     "note": "These two traits are the reported basis for premating barriers against the ancestral population."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Hybrid offspring produced between replicate evolved populations were sterile.",
+     "evidence": "Our study confirms that replicated evolution experiments provide valuable insights into the mechanisms of speciation.",
+     "note": "Postmating isolation is inferred from gene expression differences; hybrid fertility was not measured."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Replicate evolved populations adapting to the same environment from the same standing variation differed pronouncedly in male reproductive gene expression.",
+     "evidence": "the pronounced gene expression differences in male reproductive genes may underlie the postmating isolation among replicate evolved populations adapting to the same environment with the same standing genetic variation",
+     "note": "The pronounced differences in male reproductive gene expression among replicates are reported."
+    }
+   ]
+  }
+ ],
+ "flip_rule": "first-of-any-v2",
+ "flip_rule_history": [
+  "first-of-any"
+ ]
+}

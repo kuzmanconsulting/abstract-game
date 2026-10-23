@@ -24,23 +24,24 @@ def title_key(t):
     return re.sub(r"[^a-z0-9]+", "", (t or "").lower())[:80]
 
 
-def spread_pick(pool, k, rng):
-    """k items from pool, cycling over years so no year dominates; random within a year."""
-    by_year = defaultdict(list)
+def spread_pick(pool, k, rng, key="year"):
+    """k items from pool, cycling over the values of `key` (year, or journal for a journal-targeted addition) so no
+    single value dominates; random within a value."""
+    by_key = defaultdict(list)
     for c in pool:
-        by_year[c["year"]].append(c)
-    for lst in by_year.values():
+        by_key[c.get(key)].append(c)
+    for lst in by_key.values():
         rng.shuffle(lst)
-    years = sorted(by_year)
+    keys = sorted(by_key, key=str)
     out = []
-    while len(out) < k and any(by_year[y] for y in years):
-        for y in years:
-            if by_year[y] and len(out) < k:
-                out.append(by_year[y].pop())
+    while len(out) < k and any(by_key[y] for y in keys):
+        for y in keys:
+            if by_key[y] and len(out) < k:
+                out.append(by_key[y].pop())
     return out
 
 
-def select(candidates, n, preprint_share, seed):
+def select(candidates, n, preprint_share, seed, spread="year"):
     rng = random.Random(seed)
     seen_titles, uniq = set(), []
     for c in sorted(candidates, key=lambda c: (c["source"] != "journal", c["id"])):   # journal version wins over its preprint
@@ -55,8 +56,8 @@ def select(candidates, n, preprint_share, seed):
     for field, quota in zip(fields, per_field):
         pool = [c for c in uniq if c["field"] == field]
         n_pre = round(quota * preprint_share)
-        pre = spread_pick([c for c in pool if c["source"] == "preprint"], n_pre, rng)
-        jour = spread_pick([c for c in pool if c["source"] == "journal"], quota - len(pre), rng)
+        pre = spread_pick([c for c in pool if c["source"] == "preprint"], n_pre, rng, spread)
+        jour = spread_pick([c for c in pool if c["source"] == "journal"], quota - len(pre), rng, spread)
         chosen.extend(pre + jour)
     rng.shuffle(chosen)
     for i, c in enumerate(chosen):
@@ -64,7 +65,7 @@ def select(candidates, n, preprint_share, seed):
     return chosen, len(candidates) - len(uniq)
 
 
-def append(corpus, candidates, n, preprint_share, seed, fields=None, journals=None, label=None):
+def append(corpus, candidates, n, preprint_share, seed, fields=None, journals=None, label=None, spread="year"):
     """Add n abstracts to an existing corpus: existing ids and titles are excluded, the new items get n continuing
     from the end, and the selection rule is the same (equal share per field among `fields`, preprint share, years).
     `journals` restricts the pool to those exact journal titles (journal source only)."""
@@ -76,7 +77,7 @@ def append(corpus, candidates, n, preprint_share, seed, fields=None, journals=No
     if journals:
         low = {j.lower() for j in journals}
         pool = [c for c in pool if c["source"] == "journal" and (c.get("journal") or "").lower() in low]
-    chosen, dups = select(pool, n, preprint_share, seed)
+    chosen, dups = select(pool, n, preprint_share, seed, spread)
     start = len(corpus["items"])
     for i, c in enumerate(chosen):
         c["n"] = start + i
@@ -84,7 +85,7 @@ def append(corpus, candidates, n, preprint_share, seed, fields=None, journals=No
     corpus["items"].extend(chosen)
     corpus["header"].setdefault("additions", []).append({"label": label, "selected_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
                                                          "seed": seed, "n": len(chosen), "fields": fields, "journals": journals,
-                                                         "preprint_share": preprint_share, "n_range": [start, start + len(chosen) - 1] if chosen else None})
+                                                         "preprint_share": preprint_share, "spread": spread, "n_range": [start, start + len(chosen) - 1] if chosen else None})
     return chosen
 
 
@@ -99,13 +100,14 @@ def main(argv=None):
     ap.add_argument("--fields", nargs="+", default=None)
     ap.add_argument("--journals", nargs="+", default=None)
     ap.add_argument("--label", default=None, help="name of this addition (recorded per item and in the header)")
+    ap.add_argument("--spread", default="year", choices=["year", "journal"], help="cycle over years (default) or journals when drawing")
     a = ap.parse_args(argv)
     with open(a.candidates, encoding="utf-8") as f:
         cand = json.load(f)
     if a.append:
         with open(a.out, encoding="utf-8") as f:
             corpus = json.load(f)
-        chosen = append(corpus, cand["candidates"], a.n, a.preprint_share, a.seed, a.fields, a.journals, a.label)
+        chosen = append(corpus, cand["candidates"], a.n, a.preprint_share, a.seed, a.fields, a.journals, a.label, a.spread)
         stats = {"added": len(chosen), "by_field": dict(Counter(c["field"] for c in chosen)), "by_source": dict(Counter(c["source"] for c in chosen)),
                  "by_journal": dict(Counter(c["journal"] for c in chosen).most_common(8)), "by_year": dict(sorted(Counter(c["year"] for c in chosen).items())),
                  "corpus_total": len(corpus["items"])}

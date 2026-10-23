@@ -53,3 +53,42 @@ statements (36 dropped as ambiguous by ≥ 2 checkers, 3 as ill-formed), 521 abs
 three; checkers vs generator unanimous on every kept statement, checkers vs each other differing on 12 of 6,720
 pairs — same model family, so a measure of clarity, not of independence (D9). Site built: 2.3 MB `data.json`,
 page checked once at phone and desktop width, light and dark, no overflow, four highlights per reveal.
+
+**15:14–15:30 — delivery, GitHub, Pages.** Project tarred to the Mac (`~/work/abstract-game`), artifact published
+(body fragment + `data.json`). The organisation's GitHub repo took the push from the Mac (this session has no
+GitHub credentials); Pages was disabled at organisation level (Settings → Member privileges → Pages), and a branch
+deploy can only serve `/` or `/docs`, so the site moved from `site/` to `docs/` (D2 amended).
+
+**15:20–17:10 — second corpus (D10, D11).** Maja: evolutionary genomics as a fourth field, more Nature, Cell, Genome
+Biology and Nature Communications. 762 evogen candidates and 716 top-journal candidates fetched; 219 + 86 = 305
+abstracts appended (existing `n` untouched, `added` label per item). Generation with gen-v4 in batches of 20, all
+16 through on the first try (chunked writes). The exactly-one flip rule would have left 170 of the 305 without a
+contradicted item — evolution abstracts stack comparatives — so the new files run on the wider first-of-any rule
+with 47 pairs (D11), versioned per file so the first corpus is untouched. 48 check batches, 24 checker agents in
+two waves (one classifier stop, re-run as two single batches). Reading list added meanwhile (D12): save after the
+reveal, export as text/BibTeX/RIS by copying.
+
+**19:30–19:58 — what the checkers found, and the re-check (D13–D15).** Every checker, on most batches, flagged the
+same thing: "most → least" in front of a noun is not English, "maximum likelihood" is a method, "no longer" and
+"above all" are idioms, and a sentence with both words of a pair gets "losses exceeded losses". Not noise in the
+judging — a defect in my rule, and one a player would learn to spot. Rule v2 skips idioms, negations and pairs
+whose opposite is present, turns "most X" into "few X", and fixes a/an. It changes the shown wording of 38
+abstracts; the verdicts on the old wording are worthless for those, so they went through fresh blind batches, all
+three passes (`supersedes: true` — the merge reads them last and keeps the replaced verdicts). The nine agents hit
+the usage limit at launch (reset 19:40) and were resumed. Three off-topic papers ("speciation" also means chemical
+speciation — battery, toothpaste, thermoelectrics) excluded, query tightened (D14). The page showed statements in
+the writer's order, which leaks "not addressed last" — shuffled on every display now (D15); what remains is the
+3+1 recipe itself, which a knowing player can exploit; options recorded, Maja's call. Merge: 861 abstracts,
+3,375 of 3,448 statements, every kept statement unanimous, 14 of 10,344 pairwise verdicts differ. Four headless
+page tests added (journal filter holds over 12 picks; statements shuffled; streak/best/percent arithmetic and
+persistence across reload; reading list save + BibTeX export) — Maja asked whether the streak "really works", and
+the honest answer is a test, not a reading of the code.
+
+**19:40–20:05 — third corpus started (D16).** Maja: small RNA / RNA biology as a field, more Nature / Cell / Science
+league papers, 2020 onwards. New field `smallrna` (1,060 candidates), `top2` journal list over all five fields from
+2020 (1,919 candidates), 60 + 75 appended drawn cycling over journals so the big three are not drowned by Nature
+Communications. Corpus = 1,000. gen_32..gen_40 generating; flip rule v3 (v2 + "more often" → "less often").
+Checks next, then merge, build, delivery.
+
+Open points for Maja: (1) the 3+1 label recipe is guessable (D15) — shuffle 3-of-4 or vary the mix? (2) per-item
+statistics (local first; shared needs a Worker or the artifact store); (3) the Pages flip still needs her push.

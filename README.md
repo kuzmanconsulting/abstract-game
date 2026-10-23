@@ -5,7 +5,8 @@ it, or **not address** it? On "Check answers" every statement is marked, the pas
 the text, and the paper appears with title, authors, journal or preprint server, year, DOI and PubMed links.
 
 Corpus: journal articles (PubMed) and bioRxiv/medRxiv preprints, 2023–2026, in cell-free DNA / liquid biopsy,
-transposable elements / genome evolution and cancer genomics, fetched through Europe PMC. Statements were written
+transposable elements / genome evolution, cancer genomics and evolutionary genomics, fetched through Europe PMC,
+with a targeted share from *Nature*, *Cell*, *Genome Biology* and *Nature Communications*. Statements were written
 by Claude from the abstract text alone and kept only when at least two of three independent blind check passes
 agreed with the label (docs/DECISIONS.md D5–D6).
 
@@ -67,11 +68,15 @@ python3 pipeline/build_site.py --repo-url https://github.com/kuzmanconsulting/ab
 python3 -m unittest discover -s tests -v
 ```
 
-New fields go into `FIELDS` in `fetch_candidates.py`; a wider year window is `--start 2000-01-01`. Anything already
-in `src/corpus.json` keeps its `n`; new abstracts are appended by a new selection run with a new seed, generated
-and checked in their own batches, and merged with everything else.
+New fields go into `FIELDS` in `fetch_candidates.py`; a wider year window is `--start 2000-01-01`; a journal-targeted
+fetch is `--journals top` (or exact titles) with `--suffix top --out src/candidates_top.json`. Anything already in
+`src/corpus.json` keeps its `n`; new abstracts are appended with `select_corpus.py --append --candidates … --n …
+--fields … [--journals …] --label …`, batched with `make_batches.py gen --start <first new n> --first-batch <next
+batch number>`, generated and checked in their own batches, and merged with everything else (see docs/LOG.md
+15:20–16:30 for the second corpus).
 
-## Scores
+## Scores and the reading list
 
 Statements answered, % correct, streak and best streak are kept in the browser (localStorage), per device, and can
-be reset from "About the items". Nothing leaves the browser.
+be reset from "About the items". "Save for reading" (key S after the reveal) keeps a paper in a list at the top of
+the page; the list copies out as plain citations, BibTeX or RIS. Nothing leaves the browser.

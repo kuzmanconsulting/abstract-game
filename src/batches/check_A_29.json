@@ -1,0 +1,751 @@
+{
+"batch": "check_A_29",
+"pass": "A",
+"source_batch": "gen_29",
+"items": [
+{
+"n": 820,
+"id": "pmid:38685127",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Metazoans inherited genes from unicellular ancestors that perform essential biological processes such as cell division, metabolism, and protein translation. Multicellularity requires careful control and coordination of these unicellular genes to maintain tissue integrity and homeostasis. Gene regulatory networks (GRNs) that arose during metazoan evolution are frequently altered in cancer, resulting in over-expression of unicellular genes. We propose that an imbalance in co-expression of unicellular (UC) and multicellular (MC) genes is a driving force in cancer."
+},
+{
+"label": "Results",
+"text": "We combine gene co-expression analysis to infer changes to GRNs in cancer with protein sequence conservation data to distinguish genes with UC and MC origins. Co-expression networks created using RNA sequencing data from 31 tumor types and normal tissue samples are divided into modules enriched for UC genes, MC genes, or mixed UC-MC modules. The greatest differences between tumor and normal tissue co-expression networks occur within mixed UC-MC modules. MC and UC genes not commonly co-expressed in normal tissues form distinct co-expression modules seen only in tumors. The degree of rewiring of genes within mixed UC-MC modules increases with tumor grade and stage. Mixed UC-MC modules are enriched for somatic mutations in cancer genes, particularly amplifications, suggesting an important driver of the rewiring observed in tumors is copy number changes."
+},
+{
+"label": "Conclusions",
+"text": "Our study shows the greatest changes to gene co-expression patterns during tumor progression occur between genes of MC and UC origins, implicating the breakdown and rewiring of metazoan gene regulatory networks in cancer development and progression."
+}
+],
+"text": "Metazoans inherited genes from unicellular ancestors that perform essential biological processes such as cell division, metabolism, and protein translation. Multicellularity requires careful control and coordination of these unicellular genes to maintain tissue integrity and homeostasis. Gene regulatory networks (GRNs) that arose during metazoan evolution are frequently altered in cancer, resulting in over-expression of unicellular genes. We propose that an imbalance in co-expression of unicellular (UC) and multicellular (MC) genes is a driving force in cancer. We combine gene co-expression analysis to infer changes to GRNs in cancer with protein sequence conservation data to distinguish genes with UC and MC origins. Co-expression networks created using RNA sequencing data from 31 tumor types and normal tissue samples are divided into modules enriched for UC genes, MC genes, or mixed UC-MC modules. The greatest differences between tumor and normal tissue co-expression networks occur within mixed UC-MC modules. MC and UC genes not commonly co-expressed in normal tissues form distinct co-expression modules seen only in tumors. The degree of rewiring of genes within mixed UC-MC modules increases with tumor grade and stage. Mixed UC-MC modules are enriched for somatic mutations in cancer genes, particularly amplifications, suggesting an important driver of the rewiring observed in tumors is copy number changes. Our study shows the greatest changes to gene co-expression patterns during tumor progression occur between genes of MC and UC origins, implicating the breakdown and rewiring of metazoan gene regulatory networks in cancer development and progression.",
+"statements": [
+{
+"j": 1,
+"text": "Patients whose tumors show more rewiring of mixed UC-MC modules have shorter survival."
+},
+{
+"j": 2,
+"text": "Tumor and normal co-expression networks differed least within modules that mix unicellular and multicellular genes."
+},
+{
+"j": 3,
+"text": "Rewiring of genes inside mixed UC-MC modules grew more extensive with higher tumor grade and stage."
+},
+{
+"j": 4,
+"text": "Co-expression networks were constructed from RNA sequencing data of 31 tumor types together with normal tissue samples."
+}
+]
+},
+{
+"n": 821,
+"id": "pmid:37365652",
+"year": 2023,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Human papillomavirus (HPV) drives almost all cervical cancers and up to 70% of head and neck cancers. Frequent integration into the host genome occurs predominantly in tumorigenic types of HPV. We hypothesize that changes in chromatin state at the location of integration can result in changes in gene expression that contribute to the tumorigenicity of HPV."
+},
+{
+"label": "Results",
+"text": "We find that viral integration events often occur along with changes in chromatin state and expression of genes near the integration site. We investigate whether introduction of new transcription factor binding sites due to HPV integration could invoke these changes. Some regions within the HPV genome, particularly the position of a conserved CTCF binding site, show enriched chromatin accessibility signal. ChIP-seq reveals that the conserved CTCF binding site within the HPV genome binds CTCF in 4 HPV ﻿+ cancer cell lines. Significant changes in CTCF binding pattern and increases in chromatin accessibility occur exclusively within 100 kbp of HPV integration sites. The chromatin changes co-occur with out-sized changes in transcription and alternative splicing of local genes. Analysis of The Cancer Genome Atlas (TCGA) HPV + tumors indicates that HPV integration upregulates genes which have significantly higher essentiality scores compared to randomly selected upregulated genes from the same tumors."
+},
+{
+"label": "Conclusions",
+"text": "Our results suggest that introduction of a new CTCF binding site due to HPV integration reorganizes chromatin state and upregulates genes essential for tumor viability in some HPV + tumors. These findings emphasize a newly recognized role of HPV integration in oncogenesis."
+}
+],
+"text": "Human papillomavirus (HPV) drives almost all cervical cancers and up to 70% of head and neck cancers. Frequent integration into the host genome occurs predominantly in tumorigenic types of HPV. We hypothesize that changes in chromatin state at the location of integration can result in changes in gene expression that contribute to the tumorigenicity of HPV. We find that viral integration events often occur along with changes in chromatin state and expression of genes near the integration site. We investigate whether introduction of new transcription factor binding sites due to HPV integration could invoke these changes. Some regions within the HPV genome, particularly the position of a conserved CTCF binding site, show enriched chromatin accessibility signal. ChIP-seq reveals that the conserved CTCF binding site within the HPV genome binds CTCF in 4 HPV ﻿+ cancer cell lines. Significant changes in CTCF binding pattern and increases in chromatin accessibility occur exclusively within 100 kbp of HPV integration sites. The chromatin changes co-occur with out-sized changes in transcription and alternative splicing of local genes. Analysis of The Cancer Genome Atlas (TCGA) HPV + tumors indicates that HPV integration upregulates genes which have significantly higher essentiality scores compared to randomly selected upregulated genes from the same tumors. Our results suggest that introduction of a new CTCF binding site due to HPV integration reorganizes chromatin state and upregulates genes essential for tumor viability in some HPV + tumors. These findings emphasize a newly recognized role of HPV integration in oncogenesis.",
+"statements": [
+{
+"j": 1,
+"text": "Significant shifts in CTCF binding and losses in chromatin accessibility were found only within 100 kbp of HPV integration sites."
+},
+{
+"j": 2,
+"text": "Patients whose tumors carry integrated HPV have worse survival than patients whose tumors carry only episomal HPV."
+},
+{
+"j": 3,
+"text": "In TCGA HPV-positive tumors, genes upregulated by HPV integration had significantly higher essentiality scores than randomly chosen upregulated genes from the same tumors."
+},
+{
+"j": 4,
+"text": "ChIP-seq showed that the conserved CTCF binding site in the HPV genome is bound by CTCF in four HPV-positive cancer cell lines."
+}
+]
+},
+{
+"n": 822,
+"id": "pmid:38414075",
+"year": 2024,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Tartary buckwheat, Fagopyrum tataricum, is a pseudocereal crop with worldwide distribution and high nutritional value. However, the origin and domestication history of this crop remain to be elucidated."
+},
+{
+"label": "Results",
+"text": "Here, by analyzing the population genomics of 567 accessions collected worldwide and reviewing historical documents, we find that Tartary buckwheat originated in the Himalayan region and then spread southwest possibly along with the migration of the Yi people, a minority in Southwestern China that has a long history of planting Tartary buckwheat. Along with the expansion of the Mongol Empire, Tartary buckwheat dispersed to Europe and ultimately to the rest of the world. The different natural growth environments resulted in adaptation, especially significant differences in salt tolerance between northern and southern Chinese Tartary buckwheat populations. By scanning for selective sweeps and using a genome-wide association study, we identify genes responsible for Tartary buckwheat domestication and differentiation, which we then experimentally validate. Comparative genomics and QTL analysis further shed light on the genetic foundation of the easily dehulled trait in a particular variety that was artificially selected by the Wa people, a minority group in Southwestern China known for cultivating Tartary buckwheat specifically for steaming as a staple food to prevent lysine deficiency."
+},
+{
+"label": "Conclusions",
+"text": "This study provides both comprehensive insights into the origin and domestication of, and a foundation for molecular breeding for, Tartary buckwheat."
+}
+],
+"text": "Tartary buckwheat, Fagopyrum tataricum, is a pseudocereal crop with worldwide distribution and high nutritional value. However, the origin and domestication history of this crop remain to be elucidated. Here, by analyzing the population genomics of 567 accessions collected worldwide and reviewing historical documents, we find that Tartary buckwheat originated in the Himalayan region and then spread southwest possibly along with the migration of the Yi people, a minority in Southwestern China that has a long history of planting Tartary buckwheat. Along with the expansion of the Mongol Empire, Tartary buckwheat dispersed to Europe and ultimately to the rest of the world. The different natural growth environments resulted in adaptation, especially significant differences in salt tolerance between northern and southern Chinese Tartary buckwheat populations. By scanning for selective sweeps and using a genome-wide association study, we identify genes responsible for Tartary buckwheat domestication and differentiation, which we then experimentally validate. Comparative genomics and QTL analysis further shed light on the genetic foundation of the easily dehulled trait in a particular variety that was artificially selected by the Wa people, a minority group in Southwestern China known for cultivating Tartary buckwheat specifically for steaming as a staple food to prevent lysine deficiency. This study provides both comprehensive insights into the origin and domestication of, and a foundation for molecular breeding for, Tartary buckwheat.",
+"statements": [
+{
+"j": 1,
+"text": "Salt tolerance differed significantly between northern and southern Chinese populations of Tartary buckwheat."
+},
+{
+"j": 2,
+"text": "Tartary buckwheat reached Europe along with the contraction of the Mongol Empire."
+},
+{
+"j": 3,
+"text": "Southern Chinese Tartary buckwheat populations tolerate salt better than northern ones."
+},
+{
+"j": 4,
+"text": "The population genomic analysis drew on 567 accessions collected from around the world."
+}
+]
+},
+{
+"n": 823,
+"id": "pmid:40500762",
+"year": 2025,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "G-quadruplexes (G4s) are non-canonical DNA structures that can form at approximately 1% of the human genome. They facilitate genomic instability by increasing point mutations and structural variation. Numerous G4s participate in telomere maintenance and regulating transcription and replication, and evolve under purifying selection. Despite these important functions, G4s have remained under-studied in human and ape genomes due to incomplete assemblies."
+},
+{
+"label": "Results",
+"text": "Here, we conduct a comprehensive analysis of predicted G4s (pG4s) in the recently released, telomere-to-telomere (T2T) genomes of human, bonobo, chimpanzee, gorilla, Bornean orangutan, and Sumatran orangutan. We annotate 41,232-174,442 new pG4s in these T2T compared to previous ape genome assemblies (5%-21% increase). Analyzing inter-species whole-genome alignments, we identify pG4s shared across apes (approximately one-third of all pG4s) and thousands of species-specific pG4s. pG4s accumulate and diverge at rates consistent with divergence times between species, following molecular clock. pG4s shared across apes are enriched and hypomethylated at regulatory regions-enhancers, promoters, UTRs, and origins of replication-suggesting their conserved formation and functions. Species-specific pG4s (constituting 11-27% of all pG4s) are located in regulatory regions, potentially contributing to adaptations, and in repeats, likely driving genome expansions."
+},
+{
+"label": "Conclusions",
+"text": "Our findings illuminate the evolutionary dynamics of G4s, conservation of their role in gene regulation, and their contributions to ape genome evolution. Our study highlights the utility of high-resolution T2T genomes in revealing elusive yet likely functionally relevant genomic features previously hidden by incomplete assemblies."
+}
+],
+"text": "G-quadruplexes (G4s) are non-canonical DNA structures that can form at approximately 1% of the human genome. They facilitate genomic instability by increasing point mutations and structural variation. Numerous G4s participate in telomere maintenance and regulating transcription and replication, and evolve under purifying selection. Despite these important functions, G4s have remained under-studied in human and ape genomes due to incomplete assemblies. Here, we conduct a comprehensive analysis of predicted G4s (pG4s) in the recently released, telomere-to-telomere (T2T) genomes of human, bonobo, chimpanzee, gorilla, Bornean orangutan, and Sumatran orangutan. We annotate 41,232-174,442 new pG4s in these T2T compared to previous ape genome assemblies (5%-21% increase). Analyzing inter-species whole-genome alignments, we identify pG4s shared across apes (approximately one-third of all pG4s) and thousands of species-specific pG4s. pG4s accumulate and diverge at rates consistent with divergence times between species, following molecular clock. pG4s shared across apes are enriched and hypomethylated at regulatory regions-enhancers, promoters, UTRs, and origins of replication-suggesting their conserved formation and functions. Species-specific pG4s (constituting 11-27% of all pG4s) are located in regulatory regions, potentially contributing to adaptations, and in repeats, likely driving genome expansions. Our findings illuminate the evolutionary dynamics of G4s, conservation of their role in gene regulation, and their contributions to ape genome evolution. Our study highlights the utility of high-resolution T2T genomes in revealing elusive yet likely functionally relevant genomic features previously hidden by incomplete assemblies.",
+"statements": [
+{
+"j": 1,
+"text": "About one-third of all predicted G4s were shared across the ape species analyzed."
+},
+{
+"j": 2,
+"text": "pG4s shared across apes were enriched and hypomethylated at regulatory regions such as enhancers and promoters."
+},
+{
+"j": 3,
+"text": "The T2T assemblies yielded 41,232 to 174,442 newly annotated pG4s per genome compared with later ape assemblies, a 5-21% increase."
+},
+{
+"j": 4,
+"text": "Humans have the largest number of species-specific pG4s among the six apes studied."
+}
+]
+},
+{
+"n": 824,
+"id": "pmid:41845531",
+"year": 2026,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Traces of ancient whole-genome multiplications (WGMs) have been observed all over the plant kingdom and have been associated with various evolutionary processes, such as increased evolvability, speciation, adaptation to changing environments, domestication and the origin of evolutionary novelties. However, understanding the impact of WGMs on plant evolution requires accurate detection of WGM events, which is challenging because of rapid signal erosion due to genome rearrangements, sequence divergence and the occurrence of additional large- and small-scale duplications."
+},
+{
+"label": "Results",
+"text": "Here, we investigate whether reciprocally retained gene families, i.e. gene families that preferentially expand through WGM and rarely exhibit small-scale duplications, can be used as WGM markers in angiosperms. Using stochastic birth-death modeling of gene families' gene count profiles across species to test for WGM presence or absence, we demonstrate that strongly reciprocally retained gene families have higher power to detect true WGMs and to reject false WGMs than non-reciprocally retained gene families."
+},
+{
+"label": "Conclusions",
+"text": "Although none of the reciprocally retained gene families is a perfect WGM marker on its own, we show that using an extended set of such families as input for birth-death and KS distribution modeling approaches leads to better WGM detection performance than using entire genomes. A pipeline to use reciprocally retained gene families for KS distribution-based WGM inference in angiosperms has been implemented in ksrates v2.0."
+}
+],
+"text": "Traces of ancient whole-genome multiplications (WGMs) have been observed all over the plant kingdom and have been associated with various evolutionary processes, such as increased evolvability, speciation, adaptation to changing environments, domestication and the origin of evolutionary novelties. However, understanding the impact of WGMs on plant evolution requires accurate detection of WGM events, which is challenging because of rapid signal erosion due to genome rearrangements, sequence divergence and the occurrence of additional large- and small-scale duplications. Here, we investigate whether reciprocally retained gene families, i.e. gene families that preferentially expand through WGM and rarely exhibit small-scale duplications, can be used as WGM markers in angiosperms. Using stochastic birth-death modeling of gene families' gene count profiles across species to test for WGM presence or absence, we demonstrate that strongly reciprocally retained gene families have higher power to detect true WGMs and to reject false WGMs than non-reciprocally retained gene families. Although none of the reciprocally retained gene families is a perfect WGM marker on its own, we show that using an extended set of such families as input for birth-death and KS distribution modeling approaches leads to better WGM detection performance than using entire genomes. A pipeline to use reciprocally retained gene families for KS distribution-based WGM inference in angiosperms has been implemented in ksrates v2.0.",
+"statements": [
+{
+"j": 1,
+"text": "Feeding an extended set of reciprocally retained families into birth-death and KS distribution models detected WGMs better than using whole genomes."
+},
+{
+"j": 2,
+"text": "No single reciprocally retained gene family served as a perfect WGM marker by itself."
+},
+{
+"j": 3,
+"text": "Strongly reciprocally retained gene families had fewer power to detect true WGMs and reject false ones than non-reciprocally retained families."
+},
+{
+"j": 4,
+"text": "Reciprocally retained gene families also improve WGM detection in gymnosperms and other non-flowering plants."
+}
+]
+},
+{
+"n": 825,
+"id": "pmid:40229771",
+"year": 2025,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Long-term persistence of species with low genetic diversity is the focus of widespread attention in conservation biology. The snow leopard, Panthera uncia, is a big cat from high-alpine regions of Asia. However, its subspecies taxonomy, evolutionary history, evolutionary potential, and survival strategy remain unclear, which greatly hampers their conservation."
+},
+{
+"label": "Results",
+"text": "We sequence a high-quality chromosome-level genome of the snow leopard and the genomes of 52 wild snow leopards. Population genomics reveal the existence of two large genetic lineages in global snow leopards, the northern and southern lineages, supported by the biogeography. The Last Glacial Maximum drove the divergence of two lineages. Microclimate differences and large rivers between the western and central Himalayas likely maintain the differentiation of two lineages. EPAS1 is positively selected in the southern lineage with almost fixed amino acid substitutions and shows an increased allele frequency with elevation. Compared to the southern lineage, the northern lineage exhibits a lower level of genomic diversity and higher levels of inbreeding and genetic load, consistent with its recent population decline. We find that snow leopards have extremely low genomic diversity and higher inbreeding than other Carnivora species; however, strong deleterious mutations have been effectively purged in snow leopards by historical population bottlenecks and inbreeding, which may be a vital genetic mechanism for their population survival and viability."
+},
+{
+"label": "Conclusions",
+"text": "Our findings reveal the survival strategy of a species with low genetic diversity and highlight the importance of unveiling both genetic diversity and genetic burden for the conservation of threatened species."
+}
+],
+"text": "Long-term persistence of species with low genetic diversity is the focus of widespread attention in conservation biology. The snow leopard, Panthera uncia, is a big cat from high-alpine regions of Asia. However, its subspecies taxonomy, evolutionary history, evolutionary potential, and survival strategy remain unclear, which greatly hampers their conservation. We sequence a high-quality chromosome-level genome of the snow leopard and the genomes of 52 wild snow leopards. Population genomics reveal the existence of two large genetic lineages in global snow leopards, the northern and southern lineages, supported by the biogeography. The Last Glacial Maximum drove the divergence of two lineages. Microclimate differences and large rivers between the western and central Himalayas likely maintain the differentiation of two lineages. EPAS1 is positively selected in the southern lineage with almost fixed amino acid substitutions and shows an increased allele frequency with elevation. Compared to the southern lineage, the northern lineage exhibits a lower level of genomic diversity and higher levels of inbreeding and genetic load, consistent with its recent population decline. We find that snow leopards have extremely low genomic diversity and higher inbreeding than other Carnivora species; however, strong deleterious mutations have been effectively purged in snow leopards by historical population bottlenecks and inbreeding, which may be a vital genetic mechanism for their population survival and viability. Our findings reveal the survival strategy of a species with low genetic diversity and highlight the importance of unveiling both genetic diversity and genetic burden for the conservation of threatened species.",
+"statements": [
+{
+"j": 1,
+"text": "A chromosome-level reference genome was produced and 52 wild snow leopards were genome-sequenced."
+},
+{
+"j": 2,
+"text": "The EPAS1 substitutions in the southern lineage improve oxygen transport at high altitude."
+},
+{
+"j": 3,
+"text": "The northern lineage had higher genomic diversity and higher inbreeding and genetic load than the southern lineage."
+},
+{
+"j": 4,
+"text": "EPAS1 showed positive selection in the southern lineage, with its allele frequency rising with elevation."
+}
+]
+},
+{
+"n": 826,
+"id": "pmid:40340952",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Cell-free RNAs (cfRNAs) can be detected in biofluids and have emerged as valuable disease biomarkers. Accurate identification of the fragmented cfRNA signals, especially those originating from pathological cells, is crucial for understanding their biological functions and clinical value. However, many challenges still need to be addressed for their application, including developing specific analysis methods and translating cfRNA fragments with biological support into clinical applications."
+},
+{
+"label": "Results",
+"text": "We present cfPeak, a novel method combining statistics and machine learning models to detect the fragmented cfRNA signals effectively. When test in real and artificial cfRNA sequencing (cfRNA-seq) data, cfPeak shows an improved performance compared with other applicable methods. We reveal that narrow cfRNA peaks preferentially overlap with protein binding sites, vesicle-sorting sites, structural sites, and novel small non-coding RNAs (sncRNAs). When applied in clinical cohorts, cfPeak identified cfRNA peaks in patients' plasma that enable cancer detection and are informative of cancer types and metastasis."
+},
+{
+"label": "Conclusions",
+"text": "Our study fills the gap in the current small cfRNA-seq analysis at fragment-scale and builds a bridge to the scientific discovery in cfRNA fragmentomics. We demonstrate the significance of finding low abundant tissue-derived signals in small cfRNA and prove the feasibility for application in liquid biopsy."
+}
+],
+"text": "Cell-free RNAs (cfRNAs) can be detected in biofluids and have emerged as valuable disease biomarkers. Accurate identification of the fragmented cfRNA signals, especially those originating from pathological cells, is crucial for understanding their biological functions and clinical value. However, many challenges still need to be addressed for their application, including developing specific analysis methods and translating cfRNA fragments with biological support into clinical applications. We present cfPeak, a novel method combining statistics and machine learning models to detect the fragmented cfRNA signals effectively. When test in real and artificial cfRNA sequencing (cfRNA-seq) data, cfPeak shows an improved performance compared with other applicable methods. We reveal that narrow cfRNA peaks preferentially overlap with protein binding sites, vesicle-sorting sites, structural sites, and novel small non-coding RNAs (sncRNAs). When applied in clinical cohorts, cfPeak identified cfRNA peaks in patients' plasma that enable cancer detection and are informative of cancer types and metastasis. Our study fills the gap in the current small cfRNA-seq analysis at fragment-scale and builds a bridge to the scientific discovery in cfRNA fragmentomics. We demonstrate the significance of finding low abundant tissue-derived signals in small cfRNA and prove the feasibility for application in liquid biopsy.",
+"statements": [
+{
+"j": 1,
+"text": "On real and artificial cfRNA-seq data, cfPeak underperformed other applicable methods."
+},
+{
+"j": 2,
+"text": "cfPeak detects cancer at an earlier stage than cfDNA-based liquid biopsy tests."
+},
+{
+"j": 3,
+"text": "Narrow cfRNA peaks preferentially overlapped protein binding sites, vesicle-sorting sites, structural sites and novel small non-coding RNAs."
+},
+{
+"j": 4,
+"text": "In clinical cohorts, plasma cfRNA peaks found by cfPeak enabled cancer detection and were informative about cancer type and metastasis."
+}
+]
+},
+{
+"n": 827,
+"id": "pmid:41987223",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Targeted therapy prolongs the lives of men with metastatic castration-resistant prostate cancer (mCRPC) but mCRPC is ultimately lethal. DNA copy gains that amplify the Androgen Receptor (AR) gene locus are a key driver of resistance to targeted therapy in mCRPC. Our group has recently shown that extra-chromosomal DNA (ecDNA) frequently drives this amplification. We hypothesized that ecDNA and other complex structural variants (cSVs) also affect other established drivers of therapy resistance in mCRPC and continue to evolve over time. To test this hypothesis, we reconstructed cSV profiles in 193 mCRPC tumors using whole genome and transcriptome sequencing, with matched Hi-C data for 77 tumors."
+},
+{
+"label": "Results",
+"text": "We identify ecDNA in more than half of mCRPC biopsies and show it frequently amplifies driver genes such as AR and MYC and their non-coding enhancers. The presence of ecDNA is significantly associated with whole genome doubling, chromothripsis, and inactivating TP53 alterations. Deep sequencing analysis of 53 rapid autopsy samples shows cSVs amplifying AR can arise independently within distinct tumors in a single patient. Phylogenetic analysis of tumor evolution implicates this cSV as an early event during metastatic spread. Additionally, a paired analysis of mCRPC samples as patients developed resistance to AR pathway inhibitor (ARPI) therapy demonstrates cSVs evolve in response to ARPI and can be detected in both tumor tissue and circulating tumor DNA."
+},
+{
+"label": "Conclusions",
+"text": "We conclude that cSVs, particularly ecDNA, are a pervasive contributor to intra-patient heterogeneity in late-stage mCRPC and a key driver of targeted therapy resistance."
+}
+],
+"text": "Targeted therapy prolongs the lives of men with metastatic castration-resistant prostate cancer (mCRPC) but mCRPC is ultimately lethal. DNA copy gains that amplify the Androgen Receptor (AR) gene locus are a key driver of resistance to targeted therapy in mCRPC. Our group has recently shown that extra-chromosomal DNA (ecDNA) frequently drives this amplification. We hypothesized that ecDNA and other complex structural variants (cSVs) also affect other established drivers of therapy resistance in mCRPC and continue to evolve over time. To test this hypothesis, we reconstructed cSV profiles in 193 mCRPC tumors using whole genome and transcriptome sequencing, with matched Hi-C data for 77 tumors. We identify ecDNA in more than half of mCRPC biopsies and show it frequently amplifies driver genes such as AR and MYC and their non-coding enhancers. The presence of ecDNA is significantly associated with whole genome doubling, chromothripsis, and inactivating TP53 alterations. Deep sequencing analysis of 53 rapid autopsy samples shows cSVs amplifying AR can arise independently within distinct tumors in a single patient. Phylogenetic analysis of tumor evolution implicates this cSV as an early event during metastatic spread. Additionally, a paired analysis of mCRPC samples as patients developed resistance to AR pathway inhibitor (ARPI) therapy demonstrates cSVs evolve in response to ARPI and can be detected in both tumor tissue and circulating tumor DNA. We conclude that cSVs, particularly ecDNA, are a pervasive contributor to intra-patient heterogeneity in late-stage mCRPC and a key driver of targeted therapy resistance.",
+"statements": [
+{
+"j": 1,
+"text": "In rapid autopsy samples, cSVs amplifying AR arose independently in distinct tumors of the same patient."
+},
+{
+"j": 2,
+"text": "ecDNA presence was significantly associated with whole genome doubling, chromothripsis and inactivating TP53 alterations."
+},
+{
+"j": 3,
+"text": "Patients whose tumors carry ecDNA have shorter overall survival than patients without ecDNA."
+},
+{
+"j": 4,
+"text": "ecDNA was detected in less than half of the mCRPC biopsies analyzed."
+}
+]
+},
+{
+"n": 828,
+"id": "pmid:41736096",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Machine learning models in biomedical research are often hindered by demographic imbalances in clinical datasets, leading to biased predictions that disadvantage minority populations. Existing bias-correction methods face limitations in handling the heterogeneity of biomedical data and the complexity of demographic influences."
+},
+{
+"label": "Results",
+"text": "We present DeBias, a computational framework for mitigating demographic biases in high-dimensional biomedical datasets. DeBias identifies and removes bias-associated subspaces from the feature space using control samples, enabling global correction of demographic distortions while preserving disease-specific signals. To evaluate its effectiveness, we apply DeBias to cell-free DNA methylation data for cancer detection. DeBias achieves a significant reduction in the number of features exhibiting demographic bias and outperforms existing methods in improving cancer detection performance for minority populations. Performance gains are validated in independent cohorts, highlighting the robustness of the approach."
+},
+{
+"label": "Conclusions",
+"text": "DeBias offers an effective and generalizable strategy for correcting demographic biases in biomedical machine learning. It represents a step toward more equitable machine learning models that can deliver reliable and unbiased predictions across diverse patient populations."
+}
+],
+"text": "Machine learning models in biomedical research are often hindered by demographic imbalances in clinical datasets, leading to biased predictions that disadvantage minority populations. Existing bias-correction methods face limitations in handling the heterogeneity of biomedical data and the complexity of demographic influences. We present DeBias, a computational framework for mitigating demographic biases in high-dimensional biomedical datasets. DeBias identifies and removes bias-associated subspaces from the feature space using control samples, enabling global correction of demographic distortions while preserving disease-specific signals. To evaluate its effectiveness, we apply DeBias to cell-free DNA methylation data for cancer detection. DeBias achieves a significant reduction in the number of features exhibiting demographic bias and outperforms existing methods in improving cancer detection performance for minority populations. Performance gains are validated in independent cohorts, highlighting the robustness of the approach. DeBias offers an effective and generalizable strategy for correcting demographic biases in biomedical machine learning. It represents a step toward more equitable machine learning models that can deliver reliable and unbiased predictions across diverse patient populations.",
+"statements": [
+{
+"j": 1,
+"text": "DeBias significantly elevated the number of features showing demographic bias in cfDNA methylation data."
+},
+{
+"j": 2,
+"text": "DeBias improves cancer detection performance for the majority population as well as for minority populations."
+},
+{
+"j": 3,
+"text": "The performance gains from DeBias held up when tested in independent cohorts."
+},
+{
+"j": 4,
+"text": "Compared with existing methods, DeBias gave larger improvements in cancer detection performance for minority populations."
+}
+]
+},
+{
+"n": 829,
+"id": "pmid:41606654",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Genomic alterations are a hallmark of cancer, and extrachromosomal DNA (ecDNA) has emerged as a key source of oncogene selection, tumor growth, and drug resistance. The intratumor heterogeneity and clonal selection of ecDNA is, however, poorly understood."
+},
+{
+"label": "Results",
+"text": "In this study, we pursue a computational approach that leverages allelic imbalance and outlier expression from standard single-cell RNA sequencing (scRNA-seq) to deconvolve the tumor heterogeneity of ecDNA at the single-cell level (ecSingle). Using this approach, we identify oncogene-carrying ecDNAs in tumor samples at the single-cell level, which we validate using genome sequencing. Moreover, we show the superiority of using single-molecule long-read sequencing in resolving ecDNA. ecDNAs displayed extensive intratumor heterogeneity, including subclonal oncogene-carrying ecDNA in primary tumor cells that segregate with distinct transcriptional cell states. Importantly, we show that a rare ecDNA+ clone in the primary tumor can expand to form dominant clones in relapse tumors."
+},
+{
+"label": "Conclusions",
+"text": "Our study introduces a novel approach to studying ecDNA at the single-cell level, enabling both clonal evolution and transcription cell state analysis. We apply this approach to cancer samples to gain deeper insights into the role of ecDNA in intratumor heterogeneity and cellular plasticity."
+}
+],
+"text": "Genomic alterations are a hallmark of cancer, and extrachromosomal DNA (ecDNA) has emerged as a key source of oncogene selection, tumor growth, and drug resistance. The intratumor heterogeneity and clonal selection of ecDNA is, however, poorly understood. In this study, we pursue a computational approach that leverages allelic imbalance and outlier expression from standard single-cell RNA sequencing (scRNA-seq) to deconvolve the tumor heterogeneity of ecDNA at the single-cell level (ecSingle). Using this approach, we identify oncogene-carrying ecDNAs in tumor samples at the single-cell level, which we validate using genome sequencing. Moreover, we show the superiority of using single-molecule long-read sequencing in resolving ecDNA. ecDNAs displayed extensive intratumor heterogeneity, including subclonal oncogene-carrying ecDNA in primary tumor cells that segregate with distinct transcriptional cell states. Importantly, we show that a rare ecDNA+ clone in the primary tumor can expand to form dominant clones in relapse tumors. Our study introduces a novel approach to studying ecDNA at the single-cell level, enabling both clonal evolution and transcription cell state analysis. We apply this approach to cancer samples to gain deeper insights into the role of ecDNA in intratumor heterogeneity and cellular plasticity.",
+"statements": [
+{
+"j": 1,
+"text": "Single-molecule long-read sequencing was shown to be inferior for resolving ecDNA."
+},
+{
+"j": 2,
+"text": "A rare ecDNA-positive clone in a primary tumor was found to expand into dominant clones in relapse tumors."
+},
+{
+"j": 3,
+"text": "Subclonal oncogene-carrying ecDNA in primary tumor cells segregated with distinct transcriptional cell states."
+},
+{
+"j": 4,
+"text": "The oncogene most often carried on the ecDNAs identified was MYC."
+}
+]
+},
+{
+"n": 830,
+"id": "pmid:37147734",
+"year": 2023,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Plants memorize previous pathogen attacks and are \"primed\" to produce a faster and stronger defense response, which is critical for defense against pathogens. In plants, cytosines in transposons and gene bodies are reported to be frequently methylated. Demethylation of transposons can affect disease resistance by regulating the transcription of nearby genes during defense response, but the role of gene body methylation (GBM) in defense responses remains unclear."
+},
+{
+"label": "Results",
+"text": "Here, we find that loss of the chromatin remodeler decrease in DNA methylation 1 (ddm1) synergistically enhances resistance to a biotrophic pathogen under mild chemical priming. DDM1 mediates gene body methylation at a subset of stress-responsive genes with distinct chromatin properties from conventional gene body methylated genes. Decreased gene body methylation in loss of ddm1 mutant is associated with hyperactivation of these gene body methylated genes. Knockout of glyoxysomal protein kinase 1 (gpk1), a hypomethylated gene in ddm1 loss-of-function mutant, impairs priming of defense response to pathogen infection in Arabidopsis. We also find that DDM1-mediated gene body methylation is prone to epigenetic variation among natural Arabidopsis populations, and GPK1 expression is hyperactivated in natural variants with demethylated GPK1."
+},
+{
+"label": "Conclusions",
+"text": "Based on our collective results, we propose that DDM1-mediated GBM provides a possible regulatory axis for plants to modulate the inducibility of the immune response."
+}
+],
+"text": "Plants memorize previous pathogen attacks and are \"primed\" to produce a faster and stronger defense response, which is critical for defense against pathogens. In plants, cytosines in transposons and gene bodies are reported to be frequently methylated. Demethylation of transposons can affect disease resistance by regulating the transcription of nearby genes during defense response, but the role of gene body methylation (GBM) in defense responses remains unclear. Here, we find that loss of the chromatin remodeler decrease in DNA methylation 1 (ddm1) synergistically enhances resistance to a biotrophic pathogen under mild chemical priming. DDM1 mediates gene body methylation at a subset of stress-responsive genes with distinct chromatin properties from conventional gene body methylated genes. Decreased gene body methylation in loss of ddm1 mutant is associated with hyperactivation of these gene body methylated genes. Knockout of glyoxysomal protein kinase 1 (gpk1), a hypomethylated gene in ddm1 loss-of-function mutant, impairs priming of defense response to pathogen infection in Arabidopsis. We also find that DDM1-mediated gene body methylation is prone to epigenetic variation among natural Arabidopsis populations, and GPK1 expression is hyperactivated in natural variants with demethylated GPK1. Based on our collective results, we propose that DDM1-mediated GBM provides a possible regulatory axis for plants to modulate the inducibility of the immune response.",
+"statements": [
+{
+"j": 1,
+"text": "Loss of DDM1 also enhances resistance to necrotrophic pathogens."
+},
+{
+"j": 2,
+"text": "Knocking out gpk1 impaired priming of the defense response to pathogen infection in Arabidopsis."
+},
+{
+"j": 3,
+"text": "Under mild chemical priming, ddm1 gain synergistically increased resistance to a biotrophic pathogen."
+},
+{
+"j": 4,
+"text": "In natural Arabidopsis variants with demethylated GPK1, GPK1 expression was hyperactivated."
+}
+]
+},
+{
+"n": 831,
+"id": "pmid:41957676",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Altered circulating cell-free DNA (cfDNA) fragmentation patterns serve as cancer biomarkers, yet standard short-read sequencing fails to capture the full fragment-length spectrum. Although cancer patients often exhibit elevated cfDNA, the relationship between high cfDNA concentration and altered fragmentation remains poorly defined. To address this question, we leverage Oxford Nanopore (ONT) sequencing, which captures the full fragment-length spectrum and enables cell type inference via DNA methylation markers."
+},
+{
+"label": "Results",
+"text": "We perform ONT whole-genome sequencing on a pan-cancer cohort and a neuroendocrine cancer cohort, both with elevated cfDNA levels. In both cohorts, the highest cfDNA levels are characterized by either hypofragmentation or hyperfragmentation. Hypofragmented samples (characterized by 1-4 kb fragments) exhibit hallmarks of DNASE1L3-mediated fragmentation due to blood-derived DNA release during delayed blood processing, while samples with ultra-long fragments (> 7.5 kb) indicate release due to cell lysis during plasma processing. In contrast, the short (<145 bp) fragments of hyperfragmented cancer samples are not artifactual, and they are characterized by elevated levels of both cancer- and blood-derived DNA, suggesting an inflammatory or other systemic response as opposed to a cancer-specific fragmentation mechanism."
+},
+{
+"label": "Conclusions",
+"text": "These findings differentiate biological from artifactual fragmentation, broaden our understanding of high cfDNA levels and hyperfragmentation in cancer, and establish long-read sequencing as a robust tool for biomarker discovery."
+}
+],
+"text": "Altered circulating cell-free DNA (cfDNA) fragmentation patterns serve as cancer biomarkers, yet standard short-read sequencing fails to capture the full fragment-length spectrum. Although cancer patients often exhibit elevated cfDNA, the relationship between high cfDNA concentration and altered fragmentation remains poorly defined. To address this question, we leverage Oxford Nanopore (ONT) sequencing, which captures the full fragment-length spectrum and enables cell type inference via DNA methylation markers. We perform ONT whole-genome sequencing on a pan-cancer cohort and a neuroendocrine cancer cohort, both with elevated cfDNA levels. In both cohorts, the highest cfDNA levels are characterized by either hypofragmentation or hyperfragmentation. Hypofragmented samples (characterized by 1-4 kb fragments) exhibit hallmarks of DNASE1L3-mediated fragmentation due to blood-derived DNA release during delayed blood processing, while samples with ultra-long fragments (> 7.5 kb) indicate release due to cell lysis during plasma processing. In contrast, the short (<145 bp) fragments of hyperfragmented cancer samples are not artifactual, and they are characterized by elevated levels of both cancer- and blood-derived DNA, suggesting an inflammatory or other systemic response as opposed to a cancer-specific fragmentation mechanism. These findings differentiate biological from artifactual fragmentation, broaden our understanding of high cfDNA levels and hyperfragmentation in cancer, and establish long-read sequencing as a robust tool for biomarker discovery.",
+"statements": [
+{
+"j": 1,
+"text": "Hyperfragmented samples came from patients with more advanced cancer than hypofragmented samples."
+},
+{
+"j": 2,
+"text": "Hypofragmented samples, marked by 1-4 kb fragments, showed hallmarks of DNASE1L3-mediated fragmentation from blood-derived DNA released during accelerated blood processing."
+},
+{
+"j": 3,
+"text": "Samples with ultra-long fragments above 7.5 kb pointed to DNA release by cell lysis during plasma processing."
+},
+{
+"j": 4,
+"text": "Short (<145 bp) fragments in hyperfragmented cancer samples were not artifacts and contained elevated levels of both cancer- and blood-derived DNA."
+}
+]
+},
+{
+"n": 832,
+"id": "pmid:40597406",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Many metazoan genomes are characterized by highly conserved chromosomal homologies that predate the ancient origin of this clade. This conservation has been tested by expansions of selfish DNA elements, in particular transposable elements (TEs). While comparative genomics studies have highlighted their diversity across animal genomes, common principles underlying their evolution along deeply conserved chromosomes have been elusive. A detailed mechanistic understanding from phylogenetically key and early branching animal species has been lacking."
+},
+{
+"label": "Results",
+"text": "We present a comprehensive stem-cell resolved genomic and transcriptomic study of the freshwater cnidarian Hydra, an animal characterized by its high regenerative capacity, the ability to propagate clonally, and an apparent lack of aging. Using single-haplotype telomere-to-telomere genome assemblies of two recently diverged strains and utilizing unique features of hydra biology allowed us to sequence and compare the individual genomes of hydra's three stem cell lineages. We show that distinct TE families are active at both transcriptional and genomic levels via non-random insertions in each of these lineages. We show that the core set of these active TE families, primarily composed of DNA elements, is evolutionarily deeply conserved and contributes to consistent genomic expansions in metazoan lineages. These anciently active TEs differentially contribute to structural variants around loci associated with cell proliferation and long-range topological contacts. This is in strong contrast to the frequently observed and highly varied substantial genome expansions that often happen via retroelements."
+},
+{
+"label": "Conclusions",
+"text": "Our study suggests an ancient and conserved role for these core TEs as self-renewing components of animal chromosomes."
+}
+],
+"text": "Many metazoan genomes are characterized by highly conserved chromosomal homologies that predate the ancient origin of this clade. This conservation has been tested by expansions of selfish DNA elements, in particular transposable elements (TEs). While comparative genomics studies have highlighted their diversity across animal genomes, common principles underlying their evolution along deeply conserved chromosomes have been elusive. A detailed mechanistic understanding from phylogenetically key and early branching animal species has been lacking. We present a comprehensive stem-cell resolved genomic and transcriptomic study of the freshwater cnidarian Hydra, an animal characterized by its high regenerative capacity, the ability to propagate clonally, and an apparent lack of aging. Using single-haplotype telomere-to-telomere genome assemblies of two recently diverged strains and utilizing unique features of hydra biology allowed us to sequence and compare the individual genomes of hydra's three stem cell lineages. We show that distinct TE families are active at both transcriptional and genomic levels via non-random insertions in each of these lineages. We show that the core set of these active TE families, primarily composed of DNA elements, is evolutionarily deeply conserved and contributes to consistent genomic expansions in metazoan lineages. These anciently active TEs differentially contribute to structural variants around loci associated with cell proliferation and long-range topological contacts. This is in strong contrast to the frequently observed and highly varied substantial genome expansions that often happen via retroelements. Our study suggests an ancient and conserved role for these core TEs as self-renewing components of animal chromosomes.",
+"statements": [
+{
+"j": 1,
+"text": "TE activity in Hydra stem cells underlies the animal's apparent lack of aging."
+},
+{
+"j": 2,
+"text": "Distinct TE families were active transcriptionally and genomically, via non-random insertions, in each of Hydra's three stem cell lineages."
+},
+{
+"j": 3,
+"text": "Genomes of the three stem cell lineages were compared using single-haplotype telomere-to-telomere assemblies of two recently diverged Hydra strains."
+},
+{
+"j": 4,
+"text": "The core set of active TE families, mostly DNA elements, was deeply divergent and contributed to consistent genomic expansions across metazoan lineages."
+}
+]
+},
+{
+"n": 833,
+"id": "pmid:37147298",
+"year": 2023,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Activating point mutations in Anaplastic Lymphoma Kinase (ALK) have positioned ALK as the only mutated oncogene tractable for targeted therapy in neuroblastoma. Cells with these mutations respond to lorlatinib in pre-clinical studies, providing the rationale for a first-in-child Phase 1 trial (NCT03107988) in patients with ALK-driven neuroblastoma. To track evolutionary dynamics and heterogeneity of tumors, and to detect early emergence of lorlatinib resistance, we collected serial circulating tumor DNA samples from patients enrolled on this trial. Here we report the discovery of off-target resistance mutations in 11 patients (27%), predominantly in the RAS-MAPK pathway. We also identify newly acquired secondary compound ALK mutations in 6 (15%) patients, all acquired at disease progression. Functional cellular and biochemical assays and computational studies elucidate lorlatinib resistance mechanisms. Our results establish the clinical utility of serial circulating tumor DNA sampling to track response and progression and to discover acquired resistance mechanisms that can be leveraged to develop therapeutic strategies to overcome lorlatinib resistance."
+}
+],
+"text": "Activating point mutations in Anaplastic Lymphoma Kinase (ALK) have positioned ALK as the only mutated oncogene tractable for targeted therapy in neuroblastoma. Cells with these mutations respond to lorlatinib in pre-clinical studies, providing the rationale for a first-in-child Phase 1 trial (NCT03107988) in patients with ALK-driven neuroblastoma. To track evolutionary dynamics and heterogeneity of tumors, and to detect early emergence of lorlatinib resistance, we collected serial circulating tumor DNA samples from patients enrolled on this trial. Here we report the discovery of off-target resistance mutations in 11 patients (27%), predominantly in the RAS-MAPK pathway. We also identify newly acquired secondary compound ALK mutations in 6 (15%) patients, all acquired at disease progression. Functional cellular and biochemical assays and computational studies elucidate lorlatinib resistance mechanisms. Our results establish the clinical utility of serial circulating tumor DNA sampling to track response and progression and to discover acquired resistance mechanisms that can be leveraged to develop therapeutic strategies to overcome lorlatinib resistance.",
+"statements": [
+{
+"j": 1,
+"text": "Newly acquired secondary compound ALK mutations appeared in 6 patients (15%), all at disease progression."
+},
+{
+"j": 2,
+"text": "Off-target resistance mutations, mostly in the RAS-MAPK pathway, were found in 11 patients (27%)."
+},
+{
+"j": 3,
+"text": "Serial ctDNA sampling was shown to be useful for tracking response and progression and uncovering acquired resistance mechanisms."
+},
+{
+"j": 4,
+"text": "Patients with RAS-MAPK resistance mutations responded to lorlatinib combined with a MEK inhibitor."
+}
+]
+},
+{
+"n": 834,
+"id": "pmid:42191720",
+"year": 2026,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Oryza australiensis (EE genome), the sole representative of the EE genome in the genus, holds significant value for deciphering polyploid evolution and mining stress-resistance genes owing to its extreme environmental adaptability. Here, we report a telomere-to-telomere (T2T) genome assembly of O. australiensis, yielding a 901 Mb genome with 12 complete chromosomes. This enables comprehensive annotation of centromeres, telomeres, and 36,742 genes, revealing non-canonical telomeric repeats and three distinct centromere repositioning mechanisms: inversion-driven shifts, duplication-mediated neocentromerization, and transposon burst-induced neocentromere formation. Crucially, transposon dynamics analysis reveals synchronized amplification of Angela LTR retrotransposons in the EE genome and the DD subgenome of allotetraploid O. alta (CCDD) prior to CCDD formation. Phylogenetic and synteny analyses of Angela LTR integrase domains, alongside a 275-bp repeat marker exclusive to EE and DD, indicate that the ancestral lineage that contributed the DD subgenome share common ancestry with an EE-like progenitor. These findings refine Oryza evolutionary history and highlight transposon dynamics in reconstructing deep evolutionary relationships."
+}
+],
+"text": "Oryza australiensis (EE genome), the sole representative of the EE genome in the genus, holds significant value for deciphering polyploid evolution and mining stress-resistance genes owing to its extreme environmental adaptability. Here, we report a telomere-to-telomere (T2T) genome assembly of O. australiensis, yielding a 901 Mb genome with 12 complete chromosomes. This enables comprehensive annotation of centromeres, telomeres, and 36,742 genes, revealing non-canonical telomeric repeats and three distinct centromere repositioning mechanisms: inversion-driven shifts, duplication-mediated neocentromerization, and transposon burst-induced neocentromere formation. Crucially, transposon dynamics analysis reveals synchronized amplification of Angela LTR retrotransposons in the EE genome and the DD subgenome of allotetraploid O. alta (CCDD) prior to CCDD formation. Phylogenetic and synteny analyses of Angela LTR integrase domains, alongside a 275-bp repeat marker exclusive to EE and DD, indicate that the ancestral lineage that contributed the DD subgenome share common ancestry with an EE-like progenitor. These findings refine Oryza evolutionary history and highlight transposon dynamics in reconstructing deep evolutionary relationships.",
+"statements": [
+{
+"j": 1,
+"text": "Angela LTR retrotransposons amplified synchronously in the EE genome and in the DD subgenome of O. alta before the CCDD genome formed."
+},
+{
+"j": 2,
+"text": "Angela retrotransposon amplification made the O. australiensis genome larger than that of cultivated rice."
+},
+{
+"j": 3,
+"text": "The T2T assembly produced a 901 Mb genome with 12 complete chromosomes and 36,742 annotated genes."
+},
+{
+"j": 4,
+"text": "Three distinct centromere repositioning mechanisms were found, including neocentromere formation triggered by transposon bursts."
+}
+]
+},
+{
+"n": 835,
+"id": "pmid:39557856",
+"year": 2024,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Wild species of crops serve as a valuable germplasm resource for breeding of modern cultivars. Rice (Oryza sativa L.) is a vital global staple food. However, research on genome evolution and diversity of wild rice species remains limited. Here, we present nearly complete genomes of 13 representative wild rice species. By integrating with four previously published genomes for pangenome analysis, a total of 101,723 gene families are identified across the genus, including 9834 (9.67%) core gene families. Additionally, 63,881 gene families absent in cultivated rice species but present in wild rice species are discovered. Extensive structural rearrangements, sub-genomes exchanges, widespread allelic variations, and regulatory sequence variations are observed in wild rice species. Interestingly, expanded but less diverse disease resistance genes in the genomes of cultivated rice, likely due to the loss of some resistance genes and the fixing and amplification of genes encoding resistance genes to specific diseases during domestication and artificial selection. This study not only reveals natural variations valuable for gene-level studies and breeding selection but also enhances our understanding on rice evolution and domestication."
+}
+],
+"text": "Wild species of crops serve as a valuable germplasm resource for breeding of modern cultivars. Rice (Oryza sativa L.) is a vital global staple food. However, research on genome evolution and diversity of wild rice species remains limited. Here, we present nearly complete genomes of 13 representative wild rice species. By integrating with four previously published genomes for pangenome analysis, a total of 101,723 gene families are identified across the genus, including 9834 (9.67%) core gene families. Additionally, 63,881 gene families absent in cultivated rice species but present in wild rice species are discovered. Extensive structural rearrangements, sub-genomes exchanges, widespread allelic variations, and regulatory sequence variations are observed in wild rice species. Interestingly, expanded but less diverse disease resistance genes in the genomes of cultivated rice, likely due to the loss of some resistance genes and the fixing and amplification of genes encoding resistance genes to specific diseases during domestication and artificial selection. This study not only reveals natural variations valuable for gene-level studies and breeding selection but also enhances our understanding on rice evolution and domestication.",
+"statements": [
+{
+"j": 1,
+"text": "Cultivated rice genomes carried contracted but less diverse sets of disease resistance genes."
+},
+{
+"j": 2,
+"text": "Cultivated rice is more susceptible to disease than wild rice species."
+},
+{
+"j": 3,
+"text": "A total of 63,881 gene families present in wild rice species were absent from cultivated rice."
+},
+{
+"j": 4,
+"text": "Pangenome analysis across the genus identified 101,723 gene families, of which 9834 (9.67%) were core."
+}
+]
+},
+{
+"n": 836,
+"id": "pmid:37709766",
+"year": 2023,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "In the absence of recombination, the number of transposable elements (TEs) increases due to less efficient selection, but the dynamics of such TE accumulations are not well characterized. Leveraging a dataset of 21 independent events of recombination cessation of different ages in mating-type chromosomes of Microbotryum fungi, we show that TEs rapidly accumulated in regions lacking recombination, but that TE content reached a plateau at ca. 50% of occupied base pairs by 1.5 million years following recombination suppression. The same TE superfamilies have expanded in independently evolved non-recombining regions, in particular rolling-circle replication elements (Helitrons). Long-terminal repeat (LTR) retrotransposons of the Copia and Ty3 superfamilies also expanded, through transposition bursts (distinguished from gene conversion based on LTR divergence), with both non-recombining regions and autosomes affected, suggesting that non-recombining regions constitute TE reservoirs. This study improves our knowledge of genome evolution by showing that TEs can accumulate through bursts, following non-linear decelerating dynamics."
+}
+],
+"text": "In the absence of recombination, the number of transposable elements (TEs) increases due to less efficient selection, but the dynamics of such TE accumulations are not well characterized. Leveraging a dataset of 21 independent events of recombination cessation of different ages in mating-type chromosomes of Microbotryum fungi, we show that TEs rapidly accumulated in regions lacking recombination, but that TE content reached a plateau at ca. 50% of occupied base pairs by 1.5 million years following recombination suppression. The same TE superfamilies have expanded in independently evolved non-recombining regions, in particular rolling-circle replication elements (Helitrons). Long-terminal repeat (LTR) retrotransposons of the Copia and Ty3 superfamilies also expanded, through transposition bursts (distinguished from gene conversion based on LTR divergence), with both non-recombining regions and autosomes affected, suggesting that non-recombining regions constitute TE reservoirs. This study improves our knowledge of genome evolution by showing that TEs can accumulate through bursts, following non-linear decelerating dynamics.",
+"statements": [
+{
+"j": 1,
+"text": "TE content in non-recombining regions plateaued at about 50% of base pairs by 1.5 million years after recombination stopped."
+},
+{
+"j": 2,
+"text": "The same TE superfamilies, notably Helitrons, contracted in independently evolved non-recombining regions."
+},
+{
+"j": 3,
+"text": "TE accumulation in non-recombining regions lowers the fitness of Microbotryum fungi."
+},
+{
+"j": 4,
+"text": "Copia and Ty3 LTR retrotransposons expanded through transposition bursts affecting both non-recombining regions and autosomes."
+}
+]
+},
+{
+"n": 837,
+"id": "pmid:37349325",
+"year": 2023,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Structural variants (SVs) are responsible for driver events in gastric cancer (GC); however, their patterns and processes remain poorly understood. Here, we examine 170 GC whole genomes to unravel the oncogenic structural aberration landscape in GC genomes and identify six rearrangement signatures (RSs). Non-random combinations of RSs elucidate distinctive GC subtypes comprising one or a few dominant RS that are associated with specific driver events (BRCA1/2 defects, mismatch repair deficiency, and TP53 mutation) and epidemiological backgrounds. Twenty-seven SV hotspots are identified as GC driver candidates. SV hotspots frequently constitute complexly clustered SVs involved in driver gene amplification, such as ERBB2, CCNE1, and FGFR2. Further deconstruction of the locally clustered SVs uncovers amplicon-generating profiles characterized by super-large SVs and intensive segmental amplifications, contributing to the extensive amplification of GC oncogenes. Comprehensive analyses using adjusted SV allele frequencies indicate the significant involvement of extra-chromosomal DNA in processes linked to specific RSs."
+}
+],
+"text": "Structural variants (SVs) are responsible for driver events in gastric cancer (GC); however, their patterns and processes remain poorly understood. Here, we examine 170 GC whole genomes to unravel the oncogenic structural aberration landscape in GC genomes and identify six rearrangement signatures (RSs). Non-random combinations of RSs elucidate distinctive GC subtypes comprising one or a few dominant RS that are associated with specific driver events (BRCA1/2 defects, mismatch repair deficiency, and TP53 mutation) and epidemiological backgrounds. Twenty-seven SV hotspots are identified as GC driver candidates. SV hotspots frequently constitute complexly clustered SVs involved in driver gene amplification, such as ERBB2, CCNE1, and FGFR2. Further deconstruction of the locally clustered SVs uncovers amplicon-generating profiles characterized by super-large SVs and intensive segmental amplifications, contributing to the extensive amplification of GC oncogenes. Comprehensive analyses using adjusted SV allele frequencies indicate the significant involvement of extra-chromosomal DNA in processes linked to specific RSs.",
+"statements": [
+{
+"j": 1,
+"text": "SV hotspots rarely consisted of complexly clustered SVs involved in amplifying driver genes such as ERBB2, CCNE1 and FGFR2."
+},
+{
+"j": 2,
+"text": "Gastric cancer subtypes defined by rearrangement signatures differ in patient survival."
+},
+{
+"j": 3,
+"text": "Six rearrangement signatures were identified from 170 gastric cancer whole genomes."
+},
+{
+"j": 4,
+"text": "Twenty-seven SV hotspots were put forward as candidate gastric cancer drivers."
+}
+]
+},
+{
+"n": 838,
+"id": "pmid:37973961",
+"year": 2023,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Stannous fluoride (SnF 2 ) is an effective fluoride source and antimicrobial agent that is widely used in commercial toothpaste formulations. The antimicrobial activity of SnF 2 is partly attributed to the presence of Sn(II) ions. However, it is challenging to directly determine the Sn speciation and oxidation state within commercially available toothpaste products due to the low weight loading of SnF 2 (0.454 wt% SnF 2 , 0.34 wt% Sn) and the amorphous, semi-solid nature of the toothpaste. Here, we show that dynamic nuclear polarization (DNP) enables 119 Sn solid-state NMR experiments that can probe the Sn speciation within commercially available toothpaste. Solid-state NMR experiments on SnF 2 and SnF 4 show that 19 F isotropic chemical shift and 119 Sn chemical shift anisotropy (CSA) are highly sensitive to the Sn oxidation state. DNP-enhanced 119 Sn magic-angle turning (MAT) 2D NMR spectra of toothpastes resolve Sn(II) and Sn(IV) by their 119 Sn chemical shift tensor parameters. Fits of DNP-enhanced 1D 1 H → 119 Sn solid-state NMR spectra allow the populations of Sn(II) and Sn(IV) within the toothpastes to be estimated. This analysis reveals that three of the four commercially available toothpastes contained at least 80% Sn(II), whereas one of the toothpaste contained a significantly higher amount of Sn(IV)."
+}
+],
+"text": "Stannous fluoride (SnF 2 ) is an effective fluoride source and antimicrobial agent that is widely used in commercial toothpaste formulations. The antimicrobial activity of SnF 2 is partly attributed to the presence of Sn(II) ions. However, it is challenging to directly determine the Sn speciation and oxidation state within commercially available toothpaste products due to the low weight loading of SnF 2 (0.454 wt% SnF 2 , 0.34 wt% Sn) and the amorphous, semi-solid nature of the toothpaste. Here, we show that dynamic nuclear polarization (DNP) enables 119 Sn solid-state NMR experiments that can probe the Sn speciation within commercially available toothpaste. Solid-state NMR experiments on SnF 2 and SnF 4 show that 19 F isotropic chemical shift and 119 Sn chemical shift anisotropy (CSA) are highly sensitive to the Sn oxidation state. DNP-enhanced 119 Sn magic-angle turning (MAT) 2D NMR spectra of toothpastes resolve Sn(II) and Sn(IV) by their 119 Sn chemical shift tensor parameters. Fits of DNP-enhanced 1D 1 H → 119 Sn solid-state NMR spectra allow the populations of Sn(II) and Sn(IV) within the toothpastes to be estimated. This analysis reveals that three of the four commercially available toothpastes contained at least 80% Sn(II), whereas one of the toothpaste contained a significantly higher amount of Sn(IV).",
+"statements": [
+{
+"j": 1,
+"text": "The elevated Sn(IV) in one toothpaste arose from oxidation of Sn(II) during storage."
+},
+{
+"j": 2,
+"text": "19F isotropic chemical shift and 119Sn chemical shift anisotropy were highly sensitive to the Sn oxidation state."
+},
+{
+"j": 3,
+"text": "Three of the four commercial toothpastes contained at most 80% Sn(II), while one contained a significantly higher share of Sn(IV)."
+},
+{
+"j": 4,
+"text": "DNP-enhanced 119Sn MAT 2D NMR spectra of toothpastes separated Sn(II) from Sn(IV) by their chemical shift tensor parameters."
+}
+]
+},
+{
+"n": 839,
+"id": "pmid:42706246",
+"year": 2026,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Genomic structural variants (SVs) are major sources of genetic variation and have profound impacts on phenotypic traits. However, their functional effects remain largely unexplored in soybean. Here, we resequence 940 soybean accessions. Together with 44 publicly available datasets, we identify 602,281 SVs. Using a graph-based genome, we detect an additional 58,760 presence/absence variations (PAVs) that broadly affect gene expression. Population genomic analyses reveal that SVs serve as a core driving force for soybean domestication and improvement. Integrating SVs with QTLs for oil and protein content, and performing GWAS on 27 traits, we identify key functional SVs. These include transposable element insertions altering seed coat color, multiple insertions within a cytochrome P450 gene modifying flower and hypocotyl color, and a GmMATE1 deletion enhancing seed size. Together, our study establishes a comprehensive SV map of soybean, offering a valuable resource for dissecting the genetic basis of complex traits to accelerate molecular breeding."
+}
+],
+"text": "Genomic structural variants (SVs) are major sources of genetic variation and have profound impacts on phenotypic traits. However, their functional effects remain largely unexplored in soybean. Here, we resequence 940 soybean accessions. Together with 44 publicly available datasets, we identify 602,281 SVs. Using a graph-based genome, we detect an additional 58,760 presence/absence variations (PAVs) that broadly affect gene expression. Population genomic analyses reveal that SVs serve as a core driving force for soybean domestication and improvement. Integrating SVs with QTLs for oil and protein content, and performing GWAS on 27 traits, we identify key functional SVs. These include transposable element insertions altering seed coat color, multiple insertions within a cytochrome P450 gene modifying flower and hypocotyl color, and a GmMATE1 deletion enhancing seed size. Together, our study establishes a comprehensive SV map of soybean, offering a valuable resource for dissecting the genetic basis of complex traits to accelerate molecular breeding.",
+"statements": [
+{
+"j": 1,
+"text": "Transposable element insertions were found to alter seed coat color, and a GmMATE1 deletion decreased seed size."
+},
+{
+"j": 2,
+"text": "A graph-based genome uncovered 58,760 additional presence/absence variations that broadly affected gene expression."
+},
+{
+"j": 3,
+"text": "The GmMATE1 deletion is fixed in all modern cultivated soybean varieties."
+},
+{
+"j": 4,
+"text": "Resequencing 940 soybean accessions plus 44 public datasets yielded 602,281 SVs."
+}
+]
+}
+]
+}

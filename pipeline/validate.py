@@ -45,15 +45,59 @@ FLIP_PAIRS = [("higher", "lower"), ("greater", "smaller"), ("increased", "decrea
               ("positively", "negatively"), ("improved", "worsened"), ("elevated", "reduced"), ("faster", "slower"), ("earlier", "later"),
               ("hypermethylated", "hypomethylated"), ("hypermethylation", "hypomethylation"), ("superior", "inferior"),
               ("outperformed", "underperformed"), ("gained", "lost"), ("more", "fewer"), ("above", "below")]
-FLIP = {}
-for _a, _b in FLIP_PAIRS:
-    FLIP[_a] = _b
-    FLIP[_b] = _a
-FLIP_RE = re.compile(r"\b(" + "|".join(sorted(FLIP, key=len, reverse=True)) + r")\b", re.I)
+# the second corpus (flip rule "first-of-any", D11) uses a wider list; the first corpus keeps the list it was checked with
+FLIP_PAIRS_V2 = FLIP_PAIRS + [
+              ("larger", "smaller"), ("stronger", "weaker"), ("highest", "lowest"), ("most", "least"), ("maximum", "minimum"),
+              ("promotes", "suppresses"), ("promoted", "suppressed"), ("activates", "represses"), ("activated", "repressed"),
+              ("activation", "repression"), ("upregulation", "downregulation"), ("expansion", "contraction"), ("expanded", "contracted"),
+              ("accelerated", "delayed"), ("accelerates", "delays"), ("positive", "negative"), ("gain", "loss"), ("gains", "losses"),
+              ("older", "younger"), ("enhanced", "diminished"), ("enhances", "diminishes"), ("abundant", "scarce"), ("rarely", "frequently"),
+              ("increasing", "decreasing"), ("ascending", "descending"), ("dominant", "recessive"), ("conserved", "divergent")]
+def _table(pairs):
+    d = {}
+    for a, b in pairs:
+        d[a] = b
+        d[b] = a
+    return d, re.compile(r"\b(" + "|".join(sorted(d, key=len, reverse=True)) + r")\b", re.I)
 
 
-def flip_words(text):
-    return [m for m in FLIP_RE.finditer(text or "")]
+FLIP_SETS = {"exactly-one": _table(FLIP_PAIRS), "first-of-any": _table(FLIP_PAIRS_V2), "first-of-any-v2": _table(FLIP_PAIRS_V2),
+             "first-of-any-v3": _table(FLIP_PAIRS_V2)}
+V2_RULES = ("first-of-any-v2", "first-of-any-v3")   # v3 (third corpus): v2 plus "more often" -> "less often" (D13)
+FLIP, FLIP_RE = FLIP_SETS["exactly-one"]
+
+# "first-of-any-v2" (D13): same vocabulary as "first-of-any", but a direction word is skipped when it is part of a
+# fixed phrase or method name, when it is negated (a flipped negation is a double negative, not a contradiction),
+# or when the statement already contains the word's opposite (swapping one of the two leaves "losses exceeded
+# losses"). The swap itself also knows "most X" (quantifier -> "few X") from "the most X" (superlative -> "the
+# least X"), "more <mass noun>" -> "less", and fixes "a"/"an" in front of the new word.
+IDIOMS_V2 = re.compile(r"\b(no longer|above all|more or less|at the latest|maximum (?:likelihood|parsimony|entropy)|minimum (?:spanning|evolution)|"
+                       r"(?:positive|negative)[- ](?:sense|strand|control|controls|feedback)|dominant[- ]negative|"
+                       r"(?:false|true)[- ](?:positive|negative)s?|gram[- ](?:positive|negative)|triple[- ]negative|"
+                       r"(?:er|pr|her2|hpv|ebv|hiv|mmr|pd-l1|receptor|node|margin|lymph node|ctdna|mrd)[- ](?:positive|negative))\b", re.I)
+NEGATION_V2 = re.compile(r"(?:\b(?:no|not|non|never|without|neither|nor)\b[- ]?|\bnon-)\s*$", re.I)
+ADJ_SUFFIX_V2 = ("ous", "ive", "ful", "able", "ible", "ant", "ent", "ly")
+
+
+def flip_words(text, rule="exactly-one"):
+    """The direction-word matches a rule may swap, in text order (for v2 only the eligible ones)."""
+    hits = [m for m in FLIP_SETS[rule][1].finditer(text or "")]
+    if rule not in V2_RULES:
+        return hits
+    table = FLIP_SETS[rule][0]
+    idioms = [(m.start(), m.end()) for m in IDIOMS_V2.finditer(text or "")]
+    low = (text or "").lower()
+    words = set(re.findall(r"[a-z]+", low))
+    out = []
+    for m in hits:
+        if any(a <= m.start() and m.end() <= b for a, b in idioms):
+            continue
+        if NEGATION_V2.search(text[:m.start()]):
+            continue
+        if table[m.group(1).lower()] in words:            # both members of the pair are in the statement
+            continue
+        out.append(m)
+    return out
 
 
 # "more" before an adjective or adverb flips to "less" ("more accurate" -> "less accurate"), before a noun to "fewer"
@@ -63,33 +107,69 @@ ADJ_AFTER_MORE = {"accurate", "sensitive", "specific", "likely", "frequent", "co
                   "consistent", "strongly", "closely", "highly", "than"}
 
 
-def flip(text):
-    """Swap the single direction word in text for its opposite, keeping capitalisation. Returns (flipped, from, to, error)."""
-    hits = flip_words(text)
-    if len(hits) != 1:
+def flip(text, rule="exactly-one"):
+    """Swap one direction word in text for its opposite, keeping capitalisation. Returns (flipped, from, to, error).
+    "exactly-one": the statement must carry exactly one direction word; "first-of-any": the first of any number."""
+    hits = flip_words(text, rule)
+    if rule == "exactly-one" and len(hits) != 1:
         return None, None, None, "flip statement has %d direction words (needs exactly 1)" % len(hits)
+    if not hits:
+        return None, None, None, "flip statement has no direction word"
     m = hits[0]
     w = m.group(1)
-    rep = FLIP[w.lower()]
+    rep = FLIP_SETS[rule][0][w.lower()]
+    nxt = re.match(r"\s+([A-Za-z-]+)", text[m.end():])
+    nw = nxt.group(1).lower() if nxt else ""
+    prv = re.search(r"([A-Za-z']+)\s*$", text[:m.start()])
+    pw = prv.group(1).lower() if prv else ""
+    adjective_next = nw in ADJ_AFTER_MORE or nw.endswith(ADJ_SUFFIX_V2 if rule in V2_RULES else "ly")
     if w.lower() == "more":
-        nxt = re.match(r"\s+([A-Za-z-]+)", text[m.end():])
-        nw = nxt.group(1).lower() if nxt else ""
-        if nw in ADJ_AFTER_MORE or nw.endswith("ly"):
-            rep = "less"
+        if rule in V2_RULES:
+            rep = "less"                                   # default; "fewer" only in front of a plural count noun
+            for word in re.findall(r"[A-Za-z-]+", text[m.end():])[:3]:   # "more repetitive elements" -> fewer
+                lw = word.lower()
+                if lw in ("than", "of", "in", "to", "with", "for", "at", "by", "from", "among", "between", "across", "on") or lw.endswith("ly"):
+                    break
+                if rule == "first-of-any-v3" and lw in ADJ_AFTER_MORE:   # "more often sites" -> less often (v2 gave "fewer often")
+                    break
+                if lw.endswith("s") and not lw.endswith(("ous", "ss", "us", "is")):
+                    rep = "fewer"
+                    break
+        elif adjective_next:
+            rep = "less"                                   # "more accurate", "more often" -> less
+    elif w.lower() == "most" and rule in V2_RULES:
+        superlative = (pw in ("the", "at", "its", "their", "our", "'s") or pw.endswith("ed") or adjective_next
+                       or nw in ("between", "among", "across", "from", "during", "when", "where", "in", "at", "on", "to", "for", "with", "by"))
+        if not superlative:
+            rep = "few"                                    # "most genes" -> "few genes"; "the most variable" -> "the least variable"
     if w[0].isupper():
         rep = rep[0].upper() + rep[1:]
-    return text[:m.start()] + rep + text[m.end():], w, rep, None
+    head = text[:m.start()]
+    if rule in V2_RULES:                                   # "an increased" -> "a decreased", "a lower" -> "an upper"
+        art = re.search(r"\b([Aa]n?)\s+$", head)
+        if art:
+            vowel = rep[0].lower() in "aeiou"
+            want = ("an" if vowel else "a")
+            if art.group(1).lower() != want:
+                fixed = want if art.group(1).islower() else want.capitalize()
+                head = head[:art.start(1)] + fixed + head[art.end(1):]
+    return head + rep + text[m.end():], w, rep, None
 
 
-def effective(statements, prompt_version):
-    """The statements as the game plays them. gen-v4 writes only true statements; the pipeline turns the first supported
-    one (by k) that carries exactly one direction word into the contradicted item by marking it flip (deterministic,
-    recorded nowhere else — recomputed from the generated file every time). Other versions pass through."""
+def effective(statements, prompt_version, flip_rule="exactly-one"):
+    """The statements as the game plays them. gen-v4 writes only true statements; the pipeline turns one supported
+    statement (by k) into the contradicted item by marking it flip (deterministic, recorded nowhere else — recomputed
+    from the generated file every time). Rules: "exactly-one" (first corpus): the first supported statement carrying
+    exactly one direction word; "first-of-any" (second corpus, D11): the first supported statement carrying any
+    direction word, and flip() swaps only its first occurrence; "first-of-any-v2" (D13): the same over the eligible
+    direction words only (see flip_words). Other versions pass through."""
     out = [dict(s) for s in statements]
     if prompt_version == "gen-v4":
         for s in sorted(out, key=lambda x: x.get("k", 0)):
-            if s.get("label") == "supported" and len(flip_words(s.get("text") or "")) == 1:
+            n_words = len(flip_words(s.get("text") or "", flip_rule))
+            if s.get("label") == "supported" and (n_words == 1 if flip_rule == "exactly-one" else n_words >= 1):
                 s["flip"] = True
+                s["flip_rule"] = flip_rule
                 break
     return out
 
@@ -103,7 +183,7 @@ def compose(statement):
     """The statement text the player sees. gen-v1: text as written. gen-v2: basis with alter.from -> alter.to applied
     once. gen-v3 flip statement: text with its one direction word swapped. Returns (text, error)."""
     if statement.get("flip"):
-        flipped, _, _, err = flip(statement.get("text") or "")
+        flipped, _, _, err = flip(statement.get("text") or "", statement.get("flip_rule", "exactly-one"))
         return flipped, err
     if statement.get("text"):
         return statement["text"], None
@@ -148,9 +228,9 @@ def validate_gen_file(path, corpus, batch_items):
                 fatal.append("n=%d gen-v4 label mix %s (needs 3 supported + 1 not_addressed)" % (n, dict(Counter(s.get("label") for s in sts))))
             if any(s.get("flip") for s in sts):
                 fatal.append("n=%d gen-v4 must not mark flip statements" % n)
-            sts = effective(sts, "gen-v4")
+            sts = effective(sts, "gen-v4", doc.get("flip_rule", "exactly-one"))
             if not any(s.get("flip") for s in sts):
-                warn.append("n=%d no supported statement with exactly one direction word: no contradicted item for this abstract" % n)
+                warn.append("n=%d no supported statement with a direction word (rule %s): no contradicted item for this abstract" % (n, doc.get("flip_rule", "exactly-one")))
         elif Counter(label_of(s) for s in sts) != MIX:
             fatal.append("n=%d label mix %s" % (n, dict(Counter(label_of(s) for s in sts))))
         if v3:

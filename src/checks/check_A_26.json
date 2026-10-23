@@ -1,0 +1,143 @@
+{"batch": "check_A_26", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+  {"n": 760, "id": "pmid:39385020",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "ecDNA-forming SVs persisted and increased in complexity, incorporating additional DNA segments and contributing to the evolution of treatment resistance."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "We discovered that most CCND1 amplifications in urothelial cancer arise within circular ecDNA-forming SVs.", "flag": "ill_formed", "reason": "\"Least CCND1 amplifications ... were found to originate\" is ungrammatical, though it reads as a negation of the abstract's \"most\"."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Experimental modelling of CCND1 ecDNA confirmed its role as a driver of treatment resistance."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "We show that APOBEC3-induced mutations are clonal and early, whereas chemotherapy induces mutational bursts of hundreds of late subclonal mutations."}
+   ]},
+  {"n": 761, "id": "pmid:41339552",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "we analysed whole-genome sequences from 1,364 clinically annotated breast cancers, with transcriptome data available for most cases.", "flag": "ill_formed", "reason": "\"transcriptome data available for least of those cases\" is ungrammatical, but reads as a negation of the abstract's \"most cases\"."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "were associated with clinical outcomes, highlighting their potential utility as predictive biomarkers"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Timing analyses on copy number alterations suggest that genomic instability emerges decades before tumour diagnosis"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "mutational signatures 2 , homologous recombination deficiency 3 , tumour mutational burden and tumour heterogeneity scores 4 , were associated with clinical outcomes"}
+   ]},
+  {"n": 762, "id": "pmid:36792825",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "we find that higher rates of low-latitude speciation steepened the diversity gradient"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Extirpation of species from high latitudes also strengthened the LDG, but this effect tended to be weaker than speciation."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The latitudinal diversity gradient (LDG) is a prevalent feature of modern ecosystems across diverse clades"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "finding that a modern-style gradient arose only 15 million years ago"}
+   ]},
+  {"n": 763, "id": "pmid:40240612",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "These results highlight the potential value of ultrasensitive cfRNA analysis and provide proof of concept for diverse clinical applications."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Detection of non-small-cell lung cancer expression signatures in cfRNA increased with stage (6 out of 20 (30%) in stage I; 5 out of 8 (63%) in stage II; 10 out of 15 (67%) in stage III; 80 out of 96 (83% sensitivity) in stage IV at 95% specificity)"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "We demonstrate that platelet contamination can substantially confound cfRNA analyses and develop an approach to overcome it."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "we find RARE-seq to be approximately 50-fold more sensitive for detecting tumour-derived cfRNA than whole-transcriptome RNA sequencing (RNA-seq), with a limit of detection of 0.05%."}
+   ]},
+  {"n": 764, "id": "pmid:37046089",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "In biopsies that were collected before cancer diagnosis, higher levels of ecDNA were present in samples from patients who later developed EAC than in samples from those who did not."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "the frequency of ecDNA increased between Barrett's-oesophagus-associated early-stage (24%) and late-stage (43%) EAC"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "We found that ecDNAs contained diverse collections of oncogenes and immunomodulatory genes. Furthermore, ecDNAs showed increases in copy number and structural complexity at more advanced stages of disease."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Our findings show that ecDNA can develop early in the transition from high-grade dysplasia to cancer, and that ecDNAs progressively form and evolve under positive selection."}
+   ]},
+  {"n": 765, "id": "pmid:41781618",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "cf-EpiTracing enabled unbiased identification of primary diseased tissues and other organ involvement, stratification of B cell lymphoma subtypes with different genetic and epigenetic underpinnings, and detection of early-stage diseases or lesions."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "We generated 2,417 cf-EpiTracing profiles from plasma of 125 healthy individuals and 549 patients with inflammatory bowel disease, colorectal cancer, coronary heart disease or lymphoma."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Surveying dynamics of epigenetic signatures uncovered disease transformation from follicular lymphoma to diffuse large B cell lymphoma."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "these findings establish cf-EpiTracing as an automated, non-invasive, epigenome-centric framework with broad applications in early diagnosis, molecular subtyping and prognostic prediction."}
+   ]},
+  {"n": 766, "id": "pmid:37938774",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "the human silencing hub (HUSH) complex interacts with the leading-strand DNA polymerase Pol ε and contributes to the asymmetric segregation of H3K9me3"},
+     {"j": 2, "label": "contradicted", "confidence": 2, "evidence": "H3K9me3 is preferentially transferred onto the leading strands of replication forks, which occurs predominantly at long interspersed nuclear element (LINE) retrotransposons", "flag": "ill_formed", "reason": "\"below all at LINE retrotransposons\" is not meaningful English; read as the negation of \"above all\" it contradicts the abstract's \"predominantly at ... LINE ... retrotransposons\"."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Loss of silencing of the repeat elements leads to genome instability and human diseases, including cancer and ageing"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Cells deficient in Pol ε subunits (POLE3 and POLE4) or the HUSH complex (MPP8 and TASOR) show compromised H3K9me3 asymmetry and increased LINE expression."}
+   ]},
+  {"n": 767, "id": "pmid:37046093",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Analyses of 947 tumour regions, representing both primary and metastatic disease, alongside 96 tumour-adjacent normal tissue samples implicate the transcriptome as a major source of phenotypic variation."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Intratumour heterogeneity (ITH) fuels lung cancer evolution, which leads to immune evasion and resistance to therapy"},
+     {"j": 3, "label": "supported", "confidence": 2, "evidence": "We observe frequent copy number-independent allele-specific expression that is linked to epigenomic dysfunction. Allele-specific expression can also result in genomic-transcriptomic parallel evolution, which converges on cancer gene disruption."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "We extract signatures of RNA single-base substitutions and link their aetiology to the activity of the RNA-editing enzymes ADAR and APOBEC3A, thereby revealing otherwise undetected ongoing APOBEC activity in tumours."}
+   ]},
+  {"n": 768, "id": "pmid:38418917",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Mice expressing both Tbxt isoforms exhibit a complete absence of the tail or a shortened tail depending on the relative abundance of Tbxt isoforms expressed at the embryonic tail bud."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "with a proposed role in contributing to human bipedalism"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "mice expressing the exon-skipped Tbxt isoform develop neural tube defects, a condition that affects approximately 1 in 1,000 neonates in humans"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "this Alu element-inserted into an intron of the TBXT gene 7-9 -pairs with a neighbouring ancestral Alu element encoded in the reverse genomic orientation and leads to a hominoid-specific alternative splicing event"}
+   ]},
+  {"n": 769, "id": "pmid:41813900",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "The RAT strategy was well-tolerated with no treatment-related deaths."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Patients who received RAT showed significantly improved FFS (P = 0.003, log-rank test) compared with the no-RAT external cohort (hazard ratio = 0.41 [0.23-0.75]; P = 0.004, Cox regression model)."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "After a median follow-up of 47.3 months, the 3-year FFS was 89.1% (83.2-95.0%) in the RAT group (n = 110)."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "The RAT strategy was well-tolerated with no treatment-related deaths."}
+   ]},
+  {"n": 770, "id": "pmid:41708853",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 2, "evidence": "We show that rs112233623-T disrupts a binding site for the transcription factor SMAD3, weakens enhancer activity and, in erythrocyte precursors (erythroblasts), is associated with reduced CCND3 expression and inhibition of the G1-S cell-cycle transition"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "we show that parasite growth is impaired in cultured Plasmodium falciparum-infected erythrocytes from rs112233623-T carriers, and that this impairment correlates with ROS levels"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Our results suggest that a reduction in CCND3 in erythroblasts constitutes a mechanism of resistance to malaria, and could enable therapeutic interventions."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Using population genetic methods, we observe signatures of positive selection for rs112233623-T in the genetic history of Sardinia, a region in which malaria was once prevalent."}
+   ]},
+  {"n": 771, "id": "pmid:42092150",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "In cfDNA from nearly 100 patients with melanoma, SE levels exhibited striking associations with immunotherapy response."},
+     {"j": 2, "label": "contradicted", "confidence": 2, "evidence": "By integrating over 10 million single-cell and spot-level spatial transcriptomes from diverse human carcinomas and melanomas, we identified nine SEs with broad conservation, each of which has unique biology, geospatial features and clinical outcome associations", "flag": "ambiguous", "reason": "\"broadly divergent\" negates the abstract's \"broad conservation\", but could also be read loosely as the SEs' stated unique biology."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "SEs were distinguishable by DNA methylation profiling and were recoverable from plasma cell-free DNA (cfDNA) using deep learning."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "In cfDNA from nearly 100 patients with melanoma, SE levels exhibited striking associations with immunotherapy response."}
+   ]},
+  {"n": 772, "id": "pmid:42875489",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "we observed a convergence of acquired alterations, genome-wide changes and worse patient outcomes, suggesting that treatment-refractory clones were being selected"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Treatment with temozolomide was associated with the mutational signatures SBS11 and SBS119 in both tumour types, whereas the radiotherapy-associated ID8 signature increased in astrocytomas specifically."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Mutations in phosphatidylinositol 3-kinase (PI3K) and NOTCH1 were newly acquired in recurrent oligodendrogliomas, regardless of treatment, and were associated with an increased tumour mutational burden."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Most primary surgery samples were classified as grade 2 on the basis of histology (73% for astrocytomas and 93% for oligodendrogliomas)."}
+   ]},
+  {"n": 773, "id": "pmid:42749804",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Meiotic recombination ensures accurate chromosome segregation and promotes genetic diversity by generating crossovers between homologous chromosomes"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Haplotype-specific accumulation of transposable elements generates segregation distortion favouring the transmission of larger, repeat-rich chromosomes."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "we show that R. tenuis undergoes obligate, genome-wide achiasmy in both male and female meiosis. Despite normal early meiotic axis formation, synapsis fails, crossovers are undetectable cytologically and genetically, and univalents persist at metaphase I."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "fertilization yields viable seeds only when translocation-compatible gametes meet, indicating strong post-meiotic selection against incompatible homozygous combinations. As a result, all surviving offspring are genetically identical"}
+   ]},
+  {"n": 774, "id": "pmid:41299173",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "we show that instead of peripheral physiology, species-specific processing of noni and sucrose signals in sensorimotor circuits recapitulates differences in dietary preference"},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Food choice is an important driver of speciation and invasion of novel ecological niches."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Using quantitative feeding assays, we recapitulate the preference for noni in Dsec and detect conserved sweet but altered bitter sensitivity by means of calcium imaging in peripheral taste neurons."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Noni activates bitter-sensing neurons more strongly in Dsec than in the other two species owing to a small deletion in a single gustatory receptor."}
+   ]},
+  {"n": 775, "id": "pmid:37286599",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "We observe that BPDCN skin tumours first develop at sun-exposed anatomical sites and are distinguished by clonally expanded mutations induced by ultraviolet (UV) radiation."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "implicating sun exposure of plasmacytoid dendritic cells or committed precursors during BPDCN pathogenesis"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "we find that loss-of-function mutations in Tet2, the most common premalignant alteration in BPDCN, confer resistance to UV-induced cell death in plasmacytoid, but not conventional, dendritic cells"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "we find that BPDCN arises from clonal (premalignant) haematopoietic precursors in the bone marrow"}
+   ]},
+  {"n": 776, "id": "pmid:40267983",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Colibactin exposure was further linked to APC driver mutations, with ID18 being responsible for about 25% of APC driver indels in colibactin-positive cases."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "SBS88 and ID18 were also enriched in early-onset colorectal cancers, being 3.3 times more common in individuals who were diagnosed before 40 years of age than in those over 70 years of age"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "No major differences were found in microsatellite-unstable cancers, but variations in mutation burden and signatures were observed in the 802 microsatellite-stable cases."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "suggests that mutagenic exposure to colibactin-producing bacteria in early life may contribute to the increasing incidence of early-onset colorectal cancer"}
+   ]},
+  {"n": 777, "id": "pmid:37055640",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 2, "evidence": "By measuring subclone cancer cell fractions in preoperative plasma, we found that subclones seeding future metastases were significantly more expanded compared with non-metastatic subclones.", "flag": "ambiguous", "reason": "The expansion comparison matches the abstract, but \"earlier seeded metastases\" reverses the abstract's \"future metastases\"."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Postoperative plasma analyses were interpreted within the context of standard-of-care radiological surveillance and administration of cytotoxic adjuvant therapy."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "A lack of preoperative ctDNA detection distinguished biologically indolent lung adenocarcinoma with good clinical outcome."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Landmark analyses of plasma samples collected within 120 days after surgery revealed ctDNA detection in 25% of patients, including 49% of all patients who experienced clinical relapse"}
+   ]},
+  {"n": 778, "id": "pmid:38081297",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Here we show that the plasma representation of mutations exceeds the bulk tumour representation in most cases, making cHL particularly amenable to noninvasive profiling.", "flag": "ill_formed", "reason": "\"In least cases\" is ungrammatical, but reads as a negation of the abstract's \"in most cases\"."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "we comprehensively profile 366 patients, revealing two distinct cHL genomic subtypes with characteristic clinical and prognostic correlates, as well as distinct transcriptional and immunological profiles"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "we identify a novel class of truncating IL4R mutations that are dependent on IL-13 signalling and therapeutically targetable with IL-4Rα-blocking antibodies"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "we demonstrate Hodgkin and Reed-Sternberg ctDNA shedding to be shaped by DNASE1L3, whose increased tumour microenvironment-derived expression drives high ctDNA concentrations"}
+   ]},
+  {"n": 779, "id": "pmid:39972134",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Neoantigens arising post-WGD were more likely to be absent in the progressing liver metastasis than those occurring pre-WGD"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Circulating tumour DNA analyses tracking 467 somatic variants revealed the presence of this EGFR wild-type clone before vaccination and its expansion during osimertinib/NPV therapy."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The liver metastasis lost vaccine-targeted neoantigens through chromosomal instability and exhibited a hostile microenvironment, characterized by limited immune infiltration, low CXCL9 and elevated M2 macrophage levels."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Despite systemic T cell reactivity to the vaccine-targeted ex19del neoantigen, the NPV failed to halt disease progression."}
+   ]}
+ ]}

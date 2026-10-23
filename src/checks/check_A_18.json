@@ -1,0 +1,143 @@
+{"batch": "check_A_18", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+   {"n": 600, "id": "pmid:41981036",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "expression profiling under cold, drought, and disease revealed that most PyCRM genes were downregulated under stress conditions, while a few members exhibited stress-specific upregulation", "flag": "ill_formed", "reason": "\"least PyCRM genes dropped\" is ungrammatical for a count; on the only sensible reading (fewest) it reverses the abstract's \"most\"."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "we identified 25 PyCRM pan-genes, comprising 9 core, 15 variable, and 1 species-specific members"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Phylogenetic analysis grouped these proteins into four conserved subfamilies, with the CRS1 subfamily being the largest."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "These findings lay the foundation for future investigations into CRM-mediated stress tolerance and crop improvement."}
+    ]},
+   {"n": 601, "id": "pmid:42458251",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "strongly supported the monophyly of all seven recognized tribes of Moraceae, recovered the non-monophyly of Streblus"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "using 140 complete plastomes (49 newly sequenced and 91 publicly available)"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "which may serve as candidate molecular markers for phylogenetic reconstruction and species identification in Moraceae"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Selection pressure analyses indicated that most plastid genes are under purifying selection, with a small number of genes showing signals consistent with positive selection in specific lineages, including rbcL in Morus, and clpP and rps19 in Ficus.", "flag": "ill_formed", "reason": "\"Least plastid genes\" is ungrammatical for a count; on the only sensible reading (fewest) it reverses the abstract's \"most\", though the rest of the statement matches."}
+    ]},
+   {"n": 602, "id": "doi:10.1101/2024.07.08.602537",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 2, "evidence": "63% of loci with structural diversity could be resolved into individual gain and loss events with ten-fold more gains than losses", "flag": "ill_formed", "reason": "The statement compares losses with losses, so it is not self-consistent; judged on the likeliest intended reading (losses exceeding gains), which the abstract reverses."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "After removing putative recombinant diversity, the total length of the phylogeny is 6000 core genome mutations."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "estimate around 2000 structural changes within the accessory genome, i.e. one structural change for every 3 core genome mutations"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "demonstrating a dominance of gains due to insertion sequences and prophage integration"}
+    ]},
+   {"n": 603, "id": "pmid:41459216",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Antibiotic resistance genes, including tet , erm B, and vat E, were most prevalent among animal-derived isolates, with the highest numbers occurring in mammals and the lowest in rodents.", "flag": "ill_formed", "reason": "The statement asserts two different maxima (mammals and rodents) at once; the rodent claim is the direct reverse of the abstract's \"lowest in rodents\"."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "CRISPR-Cas systems were present in 23.3% of genomes, predominantly in rodents isolates"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The pan-genome consisted of 16,814 genes, while the core genome contained 553 genes."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "the predicted bacteriocin clusters were enriched in animal-derived, particularly in rodent isolates"}
+    ]},
+   {"n": 604, "id": "pmid:40457188",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "where they experience environment stresses such as hypoxia, enhanced ultraviolet radiation, and low temperature"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "we identified a Neodon-specific 24 bp deletion in Map3k6"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Comparative genomics analysis revealed several positively selected genes and rapidly evolving genes associated with DNA damage repair (Atm and Pdia4)"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "The genome of N. fuscus shows gene family expansion in genes related to immunity."}
+    ]},
+   {"n": 605, "id": "pmid:41408140",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Among species in the genus Cercis, only the complete mitochondrial genome of Cercis canadensis has been publicly available."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Functional analysis predicted 546 C-to-U RNA editing sites, the majority of which result in nonsynonymous amino acid substitutions.", "flag": "ill_formed", "reason": "\"Least of the 546 ... sites\" is ungrammatical for a count; read as \"fewest\" it reverses the abstract's \"majority\"."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Ka/Ks analysis indicated that most core PCGs are subject to purifying selection, reflecting high functional conservation across species. Notably, atp4 and nad4 exhibited signs of positive selection"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The mitochondrial genome of Cercis chinensis consists of two putative circular chromosomes, totaling 393,546 bp in length with a GC content of 45.29%."}
+    ]},
+   {"n": 606, "id": "doi:10.1101/2025.01.08.631987",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "These results support the involvement of sequence substitutions in many common genetic loci in the evolution of convergent traits studied."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Genes contributing to genetic models for echolocation were highly enriched for functional categories related to hearing, sound perception, and deafness"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Genetic models were highly predictive of independent cases of convergent evolution of C4 photosynthesis."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Genes contributing to genetic models for echolocation were highly enriched for functional categories related to hearing, sound perception, and deafness"}
+    ]},
+   {"n": 607, "id": "doi:10.64898/2026.04.20.719760",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "highlighting the conserved karyotype in Vitis and the extensive karyotypic reorganization in Tetrastigma and Cissus"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "using 29 genome assemblies of five genera Vitis , Parthenocissus, Ampelopsis, Tetrastigma, and Cissus, 27 of which are newly released in this study"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "we discovered an NLR gene VbRpv35 from wild grapevine V. bellula resistant to downy mildew (DM), whose heterologous expression in V. vinifera confers enhanced DM resistance"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "revealing a strong purifying selection of SVs at TAD boundaries. We further demonstrate that Helitron transposons drive the expansion and expression regulation of NLR immune-receptor genes in Vitis"}
+    ]},
+   {"n": 608, "id": "doi:10.1101/2025.07.04.663182",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "with ray-finned fishes (Actinopterygii) exhibiting the largest repertoires – even after excluding taxa with recent WGDs"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "highlights candidate genes for future studies of vertebrate eco-morphological diversity"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "there was no relationship between developmental expression timing and evolutionary rates"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "including an octoploid hybrid harbouring 99 Wnt genes, the highest number observed"}
+    ]},
+   {"n": 609, "id": "doi:10.64898/2026.09.22.753194",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Somatic differentiation evolved rapidly, with 21 of 48 lines (44%) exhibiting a larger proportion of differentiated colonies in baseline conditions."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We also identified a lineage with obligate somatic differentiation; this is the first published example of the experimental evolution of obligate somatic differentiation."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "93% of genes mutated in the obligately differentiated line and not in the control had at least one homolog with soma-specific expression in obligately differentiated Volvox carteri or Astrephomene gubernaculifera and/or cold-induced expression"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "The proportion of somatic cells in these lines converged with that of Pleodorina, a polyphyletic soma-differentiated volvocine algae genus."}
+    ]},
+   {"n": 610, "id": "pmid:41962241",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "A total of 285 putative nrfA-dependent nitrite ammonifying bacteria were identified, including 156 novel genera."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "These findings highlight a previously underappreciated genetic and transcriptional potential for DNRA in plastic-associated biofilms at the particle scale"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Most plastisphere MAGs overlapped with other examined marine biofilms, whereas 109 MAGs were uniquely detected in plastisphere samples"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "The plastisphere contained elevated nrfA levels compared to seawater, and nrfA transcripts were consistently detected."}
+    ]},
+   {"n": 611, "id": "doi:10.64898/2026.08.13.744633",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "facilitating future work on genetic diversity, inbreeding, mutational load and adaptive potential in this highly endangered species"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "The assembly spans 2.353 Gb and comprises 15 autosomes together with the X and Y sex chromosomes."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "we achieved a telomere-to-telomere assembly for all chromosomes, except the Y chromosome"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "In the Saimaa ringed seal, expansions were observed in ion transport, cytoskeleton, and regulatory genes, potentially reflecting adaptation to freshwater conditions. In contrast, the grey seal showed expansions in olfaction, immune-and spermatogenesis-associated gene families"}
+    ]},
+   {"n": 612, "id": "pmid:42429186",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Phylogenetic analysis clusters LegY within the fungal clade"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "LegY structurally shows high similarity to fungal glucoamylases but shares lower homology with known prokaryotic counterparts."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "laying a foundation for future uncovering of its putative function during L. pneumophila infection"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we report the crystal structure of LegY, a putative glycosidase effector from L. pneumophila, determined to 1.46 Å resolution"}
+    ]},
+   {"n": 613, "id": "pmid:41004892",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Limited chromosomal genome reduction-a hallmark of Shigella- was observed, which suggests that these lineages are in an early stage of adaptation toward a pathogenic lifestyle."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We isolated and genomically characterised 63 isolates, comprising 28 EIEC (eight serotypes, including O96:H19 from a 2024 outbreak) and 35 Shigella (25 S. sonnei and 10 S. flexneri)"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Phylogenomic analysis showed that OX18:H25 is closely related to livestock-associated E. coli"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "an outbreak caused by the EIEC serotype O8:H19-the first reported in the country-occurred in 2023, affecting over 150 patients"}
+    ]},
+   {"n": 614, "id": "pmid:42821351",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "the hc 90 phenotype is associated with combinations of mutations in six meiotic regulatory genes- byr2, mcs4, ste6, ste11, tor2, and win1 -suggesting epistatic interactions rather than single-gene effects"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We demonstrate that spores produced under nutrient-rich conditions survive passage through the digestive tract of Drosophila melanogaster , whereas vegetative cells do not."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "fly-mediated transmission strongly enriches high-sporulation (hc 90 ) strains, indicating positive selection by insect predation"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Although constitutive sporulation reduces competitive growth during laboratory serial passaging, fly-mediated transmission strongly enriches high-sporulation (hc 90 ) strains"}
+    ]},
+   {"n": 615, "id": "pmid:42249518",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We identified a Starship element and a 2 kb region containing two effector genes that were horizontally acquired."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Genomes are compartmentalised into core regions and TE-rich accessory regions (ARs) that cluster by lineage and are enriched for gene duplications, genes under relaxed selection and genes linked to stress, virulence and fungicide resistance."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We performed comparative genomics on 36 C. nymphaeae genomes and 45 other Colletotrichum genomes sampled from strawberry or from closely related species"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Colletotrichum nymphaeae consists of three major lineages, with a globally distributed clonal lineage showing high variability in morphology and virulence."}
+    ]},
+   {"n": 616, "id": "doi:10.1101/2025.04.03.646976",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Ancestral sequence reconstruction revealed that COL3 evolved from serine to alanine at residue 212, while COL5 transitioned from glycine to serine at residue 343."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "the S212A mutation in COL3, positioned upstream of its CCT domain, showed a stabilizing effect despite reduced flexibility"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "warranting further studies using molecular dynamics simulations and in vivo functional assays"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "GO enrichment analysis revealed that positively selected COL genes are significantly associated with red and far-red light signaling and developmental regulation."}
+    ]},
+   {"n": 617, "id": "pmid:37621704",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "In total, 22 codon sites of the S gene displayed a signature of positive selection."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "we scanned for adaptive evolution within the SARS-CoV-2 Omicron genomes reported from Bangladesh in the public database GISAID"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The M gene and ORF6 have also experienced positive selection."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "the receptor-binding motif within the RBD of the spike glycoprotein is a hotspot of adaptive evolution, where many of the codons had ω > 1"}
+    ]},
+   {"n": 618, "id": "pmid:42378117",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "we demonstrate that parasitic dodders (Cuscuta spp.) accumulate the lignan sesamin, a compound previously considered characteristic of sesame (Sesamum indicum) and related Lamiales species"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "the transferred gene underwent extensive structural remodeling, characterized by sequential intron gains, while its enzymatic function was preserved"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We identified Cuscuta homologs of S. indicum CYP81Q1, which encodes piperitol/sesamin synthase (PSS), and demonstrated that these proteins retain catalytic PSS activity in vitro."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Parasitism by C. campestris induces host CYP81Q expression and enhances interspecific transfer of genetic material across the haustorial interface"}
+    ]},
+   {"n": 619, "id": "pmid:41051204",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The pangenome was determined to be open, and core genome single-nucleotide polymorphism-based analysis grouped the CRAB-HIMFG strains within CC758/IC5 and CC92/IC2."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Oxacillinase genes and efflux pumps primarily mediated carbapenem resistance"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Virulence and resistance genes comprised 0.61% to 2.23% of the pangenome."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "a reported increase in the mortality rate associated with infections caused by A. baumannii , along with a rise in carbapenem resistance, poses a serious clinical challenge"}
+    ]}
+ ]}

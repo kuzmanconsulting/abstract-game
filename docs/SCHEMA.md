@@ -21,8 +21,15 @@ Raw API records per query: `src/raw/<field>_<source>.json`.
 ## `src/corpus.json` — `pipeline/select_corpus.py`
 
 `header`: `selected_utc`, `seed`, `n`, `preprint_share`, `candidates_fetched_utc`, `stats` {by_field, by_source,
-by_year, by_server, structured, title_duplicates_removed}. `items[]`: candidate fields plus `n` (0-based position;
-the item's key everywhere downstream).
+by_year, by_server, structured, title_duplicates_removed}; after `--append` runs also `additions[]` {label,
+selected_utc, seed, n, fields, journals, preprint_share, n_range} and after `repair_text.py` `repaired_utc`,
+`repaired_n`, `excluded_n[]` (D14). `items[]`: candidate fields plus `n` (0-based position; the item's key
+everywhere downstream), `added` (label of the addition, absent for the first 560), `excluded` (reason string on an
+off-topic abstract the merge skips), and for repaired abstracts `text_repaired`, `text_before_repair`. Fields:
+`cfdna`, `te`, `cancergen`, `evogen`, `smallrna`. `header.additions[].spread` = year | journal (how the draw cycled).
+
+`src/reflips.json` (D13): `from_rule`, `to_rule`, `files[]`, `n[]`, `count`, `kind` {n: reworded | moved | dropped},
+`check_batches[]`.
 
 ## `src/batches/gen_<NN>[a-c].json` — `pipeline/make_batches.py gen`
 
@@ -41,14 +48,20 @@ one of three forms:
   contradicted item; the shown text is `basis` with `from` → `to` applied once (`validate.compose`);
 - `text` + `flip: true` — gen-v3: a true statement with exactly one direction word; the shown text has that word
   swapped by `validate.FLIP_PAIRS` and the item plays as `contradicted` (`validate.label_of`).
-gen-v4 files carry only true statements (3 supported + 1 not_addressed, no `flip`); the pipeline marks the first
-supported statement (ascending `k`) with exactly one direction word as the flip (`validate.effective`), so the
-contradicted item is recomputed from the file every time and stored nowhere else. An abstract with no such
-statement has no contradicted item.
+gen-v4 files carry only true statements (3 supported + 1 not_addressed, no `flip`); the pipeline marks one
+supported statement (ascending `k`) as the flip (`validate.effective`), so the contradicted item is recomputed from
+the file every time and stored nowhere else. Which one depends on the file's top-level `flip_rule`: absent /
+`"exactly-one"` (first corpus) = the first with exactly one direction word from `FLIP_PAIRS`; `"first-of-any"`
+(second corpus as first checked, D11) = the first with any direction word from the wider `FLIP_PAIRS_V2`, first
+occurrence swapped; `"first-of-any-v2"` (second corpus as published, D13) = the same over eligible words only
+(idioms, negated words and pairs whose opposite is present are skipped; "most X" → "few X", a/an fixed);
+`"first-of-any-v3"` (third corpus on) = v2 plus "more" + adverb → "less". `flip_rule_history[]` keeps the rules a
+file was on before. An abstract with no such statement has no contradicted item.
 
 ## `src/batches/check_<P>_<NN>.json` — `pipeline/make_batches.py check`
 
-`batch`, `pass` (A | B | C), `source_batch`, `items[]`: the generator's view plus `statements[]` {`j` (shuffled
+`batch`, `pass` (A | B | C | R), `source_batch` (`reflip:<rule>` for a re-check batch, D13), `supersedes` (true on a
+re-check batch: its verdicts replace earlier ones for the same abstracts), `items[]`: the generator's view plus `statements[]` {`j` (shuffled
 position 1–4, per pass, seeded), `k` (the generator's id), `text` (as the player will see it — composed/flipped)}.
 No labels, notes or evidence.
 
@@ -60,11 +73,12 @@ No labels, notes or evidence.
 ## `src/items.json` — `pipeline/merge_checks.py`
 
 `header`: `merged_utc`, `passes`, `rule` {min_votes 2, min_statements 3, drop_if}, `stats` {abstracts_generated,
-abstracts_kept, statements_generated, statements_kept, dropped {disagreement | ill_formed | ambiguous |
+abstracts_excluded, abstracts_kept, statements_generated, statements_kept, dropped {disagreement | ill_formed | ambiguous |
 unchecked: n}, agreement {unanimous, majority}, kept_by_label, dropped_by_label, abstracts_dropped_too_few,
 checker_label_agreement_pairwise {agree, differ}, kept_by_field, kept_by_source, statements_per_abstract}.
 `items[]`: corpus metadata (`n`, `id`, `field`, `source`, `server`, `pmid`, `doi`, `title`, `authors`, `journal`,
-`year`, `date`, `url`, `doi_url`, `sections`), `generated_by` (batch), `prompt_version`, `statements[]` {`k`,
+`year`, `date`, `url`, `doi_url`, `sections`, `added` = label of the corpus addition or null, `text_repaired`),
+`generated_by` (batch), `prompt_version`, `statements[]` {`k`,
 `text` (as shown), `label` (as played), `evidence`, `note`, `agreement` (unanimous | majority), `checks` {A/B/C:
 {label, confidence, flag}}, `alter` {kind, basis, from?, to?} for a composed or flipped item}.
 
@@ -78,4 +92,5 @@ checker_label_agreement_pairwise {agree, differ}, kept_by_field, kept_by_source,
 
 ## Browser storage (per viewer, never shared)
 
-`ar.filt` {field, source, journal} · `ar.tally` {n, right, streak, best, byLabel} · `ar.seen` [item ids].
+`ar.filt` {field, source, journal} · `ar.tally` {n, right, streak, best, byLabel} · `ar.seen` [item ids] ·
+`ar.saved` [{id, n, title, authors[], journal, year, doi, url, source, saved_at}] — the reading list (D12).

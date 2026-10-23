@@ -89,3 +89,83 @@ of four readings by the same model family under the same instructions — it mea
 not independence from that model's blind spots. The useful signal is the flags: 36 statements called ambiguous by
 two or more checkers and 3 called ill-formed were dropped, and every flag reason is stored with the item. A human
 spot check of a random 30 items is the obvious next quality step; the page's "report it" link collects the rest.
+
+**D10. Second corpus: a fourth field and a journal top-up (Maja, 2026-10-23 15:20: "yes absolutely do evolutionary
+genomics as well and please add more Nature papers!! and the Cell and Genome Biology and Nature Communications";
+"continue to work on your own").** Taken as: (a) a field `evogen` — evolutionary genomics — with its own query
+block (molecular evolution, phylogenomics, adaptive evolution, positive/purifying selection, comparative genomics,
+genome evolution, speciation, gene duplication, horizontal gene transfer, convergent evolution, population genomics,
+experimental evolution), the same per-field quota as the others (187) and the same 30 % preprint share; (b) a
+journal-targeted top-up across all four fields, journals only, exact-title queries (`JOURNAL:"Nature"` matches
+*Nature* and not *Nature Genetics*): *Nature* 40, *Cell* 19 (none in cfDNA in the window), *Genome Biology* 27,
+*Nature Communications* 32 — 118 in all, weighted towards *Nature* because that was the emphasis. Appended to the
+corpus with `select_corpus.py --append` (existing ids and titles excluded, `n` continues at 560, each item tagged
+`added`), 865 abstracts in total; generated in 16 new batches of 20 with gen-v4 only, checked by three blind passes
+like the first 560, merged with the same rule. The page gains the fourth field in its filter and names the
+top-up journals in "About the items". Nothing in the first 560 is touched.
+
+**D11. Flip rule for the second corpus: first direction word of any supported statement, wider vocabulary
+(2026-10-23 15:40).** Under the first-corpus rule (a supported statement with *exactly one* direction word from a
+21-pair list) 170 of the 305 new abstracts would have had no contradicted item — evolutionary-genomics abstracts
+rarely put a single comparative in a sentence. New rule, `flip_rule: "first-of-any"`, recorded in each new
+generated file: the first supported statement (by `k`) that carries *any* direction word, with only its first
+occurrence swapped; the vocabulary grows to 47 pairs (larger/smaller, stronger/weaker, highest/lowest,
+promotes/suppresses, activation/repression, expansion/contraction, positive/negative, gain/loss, conserved/divergent,
+…; `validate.FLIP_PAIRS_V2`), and "more" becomes "less" before an adjective or adverb and "fewer" before a noun.
+70 abstracts still have no direction word anywhere and keep 3 supported + 1 not addressed. The first corpus is
+untouched: its files carry no `flip_rule` and are composed with the original list and the exactly-one rule, so
+every statement the checkers judged there is byte-identical to what the page shows. A swapped word in a sentence
+with two comparatives can leave the sentence true in rare cases (a symmetric comparison, D9's n=433); the three
+blind checks catch those — a flipped statement that two checkers still call supported is dropped.
+
+**D12. Reading list (Maja, 2026-10-23 15:39: "add button save article for reading and export saved articles").**
+After the reveal, "Save for reading" (key S) keeps the paper — title, authors, journal or server, year, DOI, link —
+in a list at the top of the page (localStorage `ar.saved`, this browser only, like the score). Export is by
+copying: plain citations, BibTeX (`@article`, key = first author + year + first long title word, `note = {preprint}`
+for preprints) or RIS, into the clipboard, with a visible text box as fallback; a download link would be inert for
+artifact viewers, and copying works on both hosts. "Clear list" empties it.
+
+**D13. Flip rule v2 and a blind re-check of the 38 abstracts it changed (2026-10-23 19:30–19:55).** All three
+checkers, independently and on most batches of the second corpus, flagged one class of statement as `ill_formed`:
+the first-of-any rule had swapped "most" for "least" in front of a noun ("least genes…"), "maximum likelihood" for
+"minimum likelihood", "no longer" for "no shorter", "above all" for "below all", and in sentences that contain both
+words of a pair had produced "losses exceeded losses" / "smaller than smaller". Those read as planted — a player
+could spot them without the abstract. Rule `first-of-any-v2` (`validate.flip_words`/`flip`): a direction word is
+skipped when it sits in a fixed phrase or method name (`IDIOMS_V2`), when it is negated ("not upregulated",
+"non-conserved"), or when the statement already contains its opposite; "most X" becomes "few X" and "the most X"
+"the least X"; "more" becomes "less" unless a plural count noun follows within three words; a/an is fixed in front
+of the new word. Applied to every file of the second corpus (`flip_rule_history` keeps the old value), it changes the
+shown wording of 38 abstracts (27 reworded, 5 moved to another statement, 6 lost their contradicted item). The
+verdicts the checkers gave on the old wording are not valid for the new one, so those 38 went through fresh blind
+batches, all three passes (`check_{A,B,C}_F00..F02`, `supersedes: true` — the merge reads them last and keeps the
+replaced verdicts under `_superseded`). The other 267 abstracts are byte-identical to what was judged. One residue:
+"more often sites" → "fewer often sites" (n=563) — the re-check flagged it and it is dropped; the fix ("more" +
+adverb → "less") is rule `first-of-any-v3`, used from the third corpus on, so no checked text changes again.
+`src/reflips.json` lists the 38.
+
+**D14. Off-topic abstracts excluded, query tightened (2026-10-23 19:50).** The checkers also reported three
+abstracts tagged evolutionary genomics that are not biology: a battery-interface spectroscopy paper (n=753), a
+toothpaste tin-NMR paper (n=838) and an ionic-thermoelectric paper (n=849) — all matched by the term "speciation"
+(chemical speciation) in the top-journal fetch. They are marked `excluded` in the corpus (kept there with the reason;
+their generated statements and checks stay as provenance) and the merge skips them. The evogen query now requires a
+biology word in the abstract (genome, gene, phylogen*, species, lineage, organism*, evolutionary), as the cancer
+query already did. A title/abstract scan of the other 302 additions found nothing else off-field.
+
+**D15. Statement order shuffled on display; the label mix is predictable per abstract (2026-10-23 19:52).** The
+page showed statements in the generator's order, and gen-v4 writers tend to put the not-addressed statement last
+(`k_order_leak` up to 0.33) — a leak into the game. The page now shuffles the statements every time an abstract is
+shown (`shuffled()` in `show`), confirmed by a headless test. What remains, by construction of gen-v4: an abstract
+has 3 true-to-the-text statements + 1 not addressed, and at most one of the true ones is flipped, so a player who
+knows the recipe can expect "one not addressed, zero or one contradicted". Mitigation options for a later
+iteration, not done: show 3 of the 4 at random; or let the generator vary the mix (2 not addressed on some
+abstracts, 2 flips on others). Maja to decide.
+
+**D16. Third corpus (Maja, 19:40: "add also smallrna field including mirna pirna and rna biology and so on …
+more nature cell science and those league of papers, prioritize papers over 2020").** New field `smallrna`
+(microRNA, piRNA, siRNA, tRNA fragments, lncRNA, circRNA, RNA modification/editing, RNAi, RNA-binding proteins,
+splicing, RNA decay/NMD, RNA structure; requires an RNA/gene/cell word), 2023–2026, 60 abstracts, 30 % preprints.
+Journal top-up `top2` = Nature, Science, Cell, Nature Genetics, Nature Methods, Nature Biotechnology, Nature
+Communications, Cell Genomics, Molecular Cell, Science Advances, Genome Biology, Genome Research, Nucleic Acids
+Research, 2020-01-01 onwards, 75 abstracts = 15 per field over the five fields, drawn cycling over journals
+(`--spread journal`) so Nature, Cell and Science are drawn as often as Nature Communications. Corpus = 1,000.
+Generation gen-v4 in batches of 15 (gen_32..gen_40), flip rule v3, three blind check passes as before.

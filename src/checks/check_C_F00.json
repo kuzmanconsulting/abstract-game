@@ -1,0 +1,94 @@
+{"batch": "check_C_F00", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+   {"n": 563, "id": "pmid:41184543",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Mutation of conserved positions in ribosomal RNA that disrupt mitochondrial translation therefore represent a class of functionally dominant, pathogenic mtDNA mutations that are under positive selection in cancer genomes."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Multimodal profiling revealed a heteroplasmy-dependent decrease in mitochondrial function and loss of respiratory chain subunits from a heteroplasmic dosage of ~10%."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Here, through population-scale analysis of 14,106 whole tumor genomes, we report the discovery of highly recurrent mutations affecting both the small (12S, MT-RNR1) and large (16S, MT-RNR2) mitochondrial RNA subunits of the mitochondrial ribosome"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Compared to non-hotspot positions, mitochondrial rRNA hotspots preferentially affected positions under purifying selection in the germline", "flag": "ill_formed", "reason": "\"were fewer often sites\" is ungrammatical, though the intended direction (fewer, not more) is readable and is the opposite of what the abstract reports."}
+    ]},
+   {"n": 577, "id": "doi:10.1101/2025.08.01.668115",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We performed a comparative genomic analysis of 132 genomes from 18 Acinetobacter species, focusing on the interplay between defence architectures and HGT markers."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "the clinically dominant A. baumannii international clone 2 (IC2) exhibits a depleted but specialised defence landscape, notably enriched in the phosphorothioation-based SspBCDE system and nearly devoid of restriction-modification systems"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Strikingly, many defence systems display mutual exclusivity, and defence system is tightly linked to the presence of mobile elements, antibiotics, and heavy metal resistance."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "These findings provide insights into evolutionary trade-offs underpinning multidrug resistance and have implications for designing targeted phage therapies against recalcitrant Acinetobacter infections."}
+    ]},
+   {"n": 589, "id": "pmid:41455895",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Haplotype analysis indicated that the Hap2 of OsHsp70-9 plays an important role in the heat-stress tolerance of rice, and a non-synonymous mutation of OsHsp70-9 led to changes in the domain."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Seven pairs of intragenic collinear genes were identified in OsHsp70s, and Ka/Ks analysis indicated that this family has undergone strong purifying selection."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "RT-qPCR analysis showed that the expression of OsHsp70-9 varied significantly under heat stress, which is consistent with the expression profiling results under heat stress."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Expression analysis showed that most OsHsp70 genes have tissue-specific expression."}
+    ]},
+   {"n": 597, "id": "doi:10.64898/2026.03.10.710775",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "AbjA therefore represents the first member of a new class of bacterial defense factors that trigger what we term"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "recipient bacteria were viewed largely as defenseless against the mechanism of conjugation 4–6 ; our discovery and characterization of AbjA demonstrates that recipient bacteria can block conjugation to limit the transfer (and thus spread) of plasmids"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Discovery of this class of defense systems thus has implications for bacterial defense, plasmid evolution, and possible strategic alternatives to rationally target plasmid spread, particularly with respect to virulence and antibiotic resistance."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "AbjA interacts directly with and targets the ATPase component TrbE of the Type IV secretion system (T4SS) 2,3 to induce cell death; this contrasts with most other defense systems that act at the nucleic acid level."}
+    ]},
+   {"n": 598, "id": "doi:10.64898/2025.12.08.693040",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Consequently, the computational cost of a finite-state likelihood for a given phylogeny is comparable to a typical sequence-based likelihood function."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Two analyses were carried out as a proof of concept, including a simulation study to examine the performance of phylogenetic inference, and a case study to evaluate to what extent the Fixed-State ML can be used to determine the root of the genome phylogeny."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "For a given J-order gene contents, the evolution of a gene family along a phylogeny is modeled by a stochastic process with a finite (J+1) number of states."},
+      {"j": 4, "label": "supported", "confidence": 2, "evidence": "Though genome distance methods have been successful for genome phylogeny inference, the maximum likelihood (ML) approach is subject to a huge computation burden.", "flag": "ambiguous", "reason": "\"the later gene content framework\" names nothing the abstract defines (it describes first- and second-order gene content, not an earlier/later framework), so the referent is unsettled, though the burden claim itself is stated for the ML approach."}
+    ]},
+   {"n": 600, "id": "pmid:41981036",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "expression profiling under cold, drought, and disease revealed that most PyCRM genes were downregulated under stress conditions, while a few members exhibited stress-specific upregulation"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Phylogenetic analysis grouped these proteins into four conserved subfamilies, with the CRS1 subfamily being the largest."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Furthermore, expression profiling under cold, drought, and disease revealed that most PyCRM genes were downregulated under stress conditions, while a few members exhibited stress-specific upregulation, suggesting functional diversification within the gene family."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "In this study, we identified 25 PyCRM pan-genes, comprising 9 core, 15 variable, and 1 species-specific members, reflecting gene presence-absence variation within the family."}
+    ]},
+   {"n": 601, "id": "pmid:42458251",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Phylogenetic reconstruction based on complete plastome sequences strongly supported the monophyly of all seven recognized tribes of Moraceae, recovered the non-monophyly of Streblus"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Selection pressure analyses indicated that most plastid genes are under purifying selection, with a small number of genes showing signals consistent with positive selection in specific lineages, including rbcL in Morus, and clpP and rps19 in Ficus."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "which may serve as candidate molecular markers for phylogenetic reconstruction and species identification in Moraceae"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we conducted a plastome-based phylogenetic and comparative genomic analysis using 140 complete plastomes (49 newly sequenced and 91 publicly available), representing all seven tribes and 17 genera of Moraceae"}
+    ]},
+   {"n": 602, "id": "doi:10.1101/2024.07.08.602537",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "we find 22 modifications to core genome synteny and estimate around 2000 structural changes within the accessory genome, i.e. one structural change for every 3 core genome mutations"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "After removing putative recombinant diversity, the total length of the phylogeny is 6000 core genome mutations."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "demonstrating a dominance of gains due to insertion sequences and prophage integration"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "63% of loci with structural diversity could be resolved into individual gain and loss events with ten-fold more gains than losses"}
+    ]},
+   {"n": 605, "id": "pmid:41408140",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The mitochondrial genome of Cercis chinensis consists of two putative circular chromosomes, totaling 393,546 bp in length with a GC content of 45.29%."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Among species in the genus Cercis, only the complete mitochondrial genome of Cercis canadensis has been publicly available."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Ka/Ks analysis indicated that most core PCGs are subject to purifying selection, reflecting high functional conservation across species. Notably, atp4 and nad4 exhibited signs of positive selection"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Functional analysis predicted 546 C-to-U RNA editing sites, the majority of which result in nonsynonymous amino acid substitutions."}
+    ]},
+   {"n": 621, "id": "doi:10.64898/2026.10.18.759982",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Structural analysis and molecular dynamics simulations indicate that greater surface rigidity and remodeling of intramolecular interaction networks contribute to the improved conformational stability of M7 in an aglycosylated host."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "as exemplified by its combination with the machine learning-aided Protein Repair One-Stop Service, generating variants with 8-fold and 17-fold extensions in residual activity half-life"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "EGO-NGly was further applied to a panel of 3OST and 6OST homologs, demonstrating its applicability to a subset of the tested enzymes."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Using heparin 3-O-sulfotransferase 1 (3OST-1) as a model enzyme apparatus in eukaryotic organisms, EGO-NGly extended the residual activity half-life by 4.5-fold."}
+    ]},
+   {"n": 624, "id": "pmid:42115469",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "One positively selected site was identified at amino acid residue position 71."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Understanding the molecular epidemiology and functional significance of positively selected amino acid sites may aid in predicting changes in virulence and inform vaccine development and disease control strategies."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The effective population size of CSFV began increasing in the 1920s, continued to rise until the 1950s, and then remained stable thereafter."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Phylogenomic analyses using maximum likelihood (ML) and Bayesian inference (BI) confirmed that the 1,053 strains clustered within the previously defined five subgenotypes (1.1, 1.2, 2.1, 2.3 and 3.4)."}
+    ]},
+   {"n": 665, "id": "pmid:42692284",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "In case of ERG11 and FUR1 they were concentrated in a specific clade (N11, N17, and their admixed Group A) and exhibit gene-dependent zygosity patterns."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "The analysis revealed that geographic origin explains a larger fraction of genetic variance than anatomical niche, supporting a predominantly generalist population structure."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Analysis of five resistance-associated genes (ERG11, UPC2, FKS1, TAC1 and FUR1) revealed that resistance-associated variants were generally rare but exhibited distinct gene-specific patterns."},
+      {"j": 4, "label": "supported", "confidence": 2, "evidence": "A notable exception was Cluster N16 (Candida africana), which presented a strict genital origin in our dataset (n = 34)."}
+    ]},
+   {"n": 667, "id": "pmid:41696175",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Phylogenomic analysis strongly supported the monophyly of Citrus and resolved intrageneric relationships, grouping species into distinct ancestral and cultivated clades."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "All genomes exhibited a typical quadripartite structure, ranging from 159 to 161 kb with GC contents of 38.41-38.49%."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Phylogenomic analysis strongly supported the monophyly of Citrus and resolved intrageneric relationships, grouping species into distinct ancestral and cultivated clades."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Most protein-coding genes were under strong purifying selection, whereas matK and rps16 exhibited elevated Ka/Ks ratios, suggesting relaxed selective constraints or potential signals of positive selection."}
+    ]}
+ ]}

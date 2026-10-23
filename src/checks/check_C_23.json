@@ -1,0 +1,143 @@
+{"batch": "check_C_23", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+   {"n": 700, "id": "pmid:42361315",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "repeat annotation revealed that LTR retrotransposons account for 78% of the genome size difference"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "are sister genera of holoparasitic plants (Orobanchaceae) native to eastern North America, parasitizing oaks and American beech, respectively"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "While gene prediction identified 33,889 genes in C. americana and 21,031 in E. virginiana"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The C. americana assembly totals 1.82 Gb and E. virginiana totals 440 Mb, representing an approximately 4-fold difference in genome size between these sister genera."}
+    ]},
+   {"n": 701, "id": "doi:10.64898/2026.06.06.730518",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We examined 91 DNA-binding TFs from 17 TF families in two Rhodanobacter strains, R. denitrificans FW104-10B01 and R. thiooxydans FW510-R12, using both DNA affinity purification sequencing (DAP-seq) and comparative genomics. Target genes regulated by 31 TFs were identified."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Functional validation through RT-qPCR confirmed that Clp activates the expression of genes critical for type IV pilin structure and flagellar regulation."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "These conserved networks governed essential survival functions, including nutrient uptake (e.g., phosphate), carbohydrate metabolism, motility, and stress responses to heavy metals and oxidative environment."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Despite being isolated from different wells, the two strains shared a highly similar core regulatory network, with orthologous TFs regulating nearly identical sets of genes."}
+    ]},
+   {"n": 702, "id": "doi:10.1101/2025.09.16.25335845",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "As expected, P. vivax mono-infections were rare among Duffy-negative individuals (2.4%), while P. falciparum infection prevalence was similar across Duffy genotypes."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "PvDBP gene duplication has been proposed as a mechanism for P. vivax to invade erythrocytes in these individuals, but evidence is limited."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Plasmodium species were identified by PCR, Duffy genotypes by TaqMan allelic discrimination assay and PvDBP gene duplication by semi-nested PCR. Plasmodium infection was detected in 46% of patients"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Off 155 samples successfully tested for the PvDBP gene duplication, 78% showed gene duplication, especially in Gambela (94%)"}
+    ]},
+   {"n": 703, "id": "pmid:42599638",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Recurrent mutations were also observed in ileS and leuS, both targets of existing antimicrobials"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "we identified 3159 variants distributed across 414 core genes"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Functional enrichment analysis revealed a significant concentration of mutations in the aminoacyl-tRNA synthetase (aaRS) pathway, a central component of protein synthesis and a known antibiotic target. Multiple missense variants were detected in eight aaRS genes"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "with the Asn366Asp mutation in metG present in all analyzed isolates"}
+    ]},
+   {"n": 704, "id": "pmid:42499656",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The mitogenomes ranged from 41,017 bp ( R. hookeri ) to 57,170 bp ( R . aff. cessans )."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "All mitogenomes contained 15 core protein-coding genes (PCGs) ( atp6 , atp8 , atp9 , cob , cox1 - cox3 , nad1 - nad6 , nad4L , and rps3 ), two rRNA genes, and 25-27 tRNA genes"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Selective pressure analysis revealed that 14 of the 15 core PCGs were under purifying selection (Ka/Ks < 1), while rps3 showed elevated Ka/Ks values in some species"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Russula (Russulaceae, Basidiomycota) is a widely distributed genus of ectomycorrhizal fungi."}
+    ]},
+   {"n": 705, "id": "doi:10.1101/2025.08.04.668583",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Comparative genomics with nine legumes demonstrates conserved chromosomal synteny with Glycine max, absence of recent whole-genome duplication, and a contraction-dominated gene family history."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Cytogenetics revealed a diploid karyotype (2n = 18) with exclusively metacentric chromosomes"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Repeat elements comprise ~60% of the genome, dominated by LINEs, LTRs, and DNA transposons."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "This reference genome positions P. tetragonolobus as a valuable model for studying genome evolution and engineering underutilized legumes for oil yield, protein enrichment, and climate adaptability."}
+    ]},
+   {"n": 706, "id": "pmid:40774815",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We demonstrate that ERC2.0 has high predictive accuracy for known annotations and can predict the functions of genes in nonmodel systems."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "This study introduces ERC2.0, an enhanced methodology for studying ERC across phylogenies with hundreds of species and tens of thousands of genes."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "the predictive power of ERC2.0 is improved relative to the previous method, ERC1.0, and that further improvements are obtained by using larger yeast and mammalian phylogenies"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Our findings underscore the potential for ERC2.0 to be used as a single-pass computational tool in candidate gene screening and functional predictions."}
+    ]},
+   {"n": 707, "id": "pmid:42897971",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Phylogenomic analyses placed Geraniales as sister to Crossosomatales, with divergence at ~103 million years ago (Mya), and indicated that Greyia diversified recently during the Quaternary (~1.39 Mya)."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Transcriptomic analyses revealed regulatory divergence in the conserved MYB-bHLH-WD40 (MBW) network likely associated with variation in trichome morphology, including undetectable GL1 expression and altered GL3/EGL3 expression in G. sutherlandii."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The southern African endemic tree Greyia Hook. & Harv. (Francoaceae, Geraniales) comprises three species distinguished by striking variation in trichome morphology and inflorescence architecture"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Comparative genomics revealed a Greyia-specific palaeo-hexaploidisation event dated to ~87 Mya, followed by fractionation"}
+    ]},
+   {"n": 708, "id": "pmid:41323330",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "a total of 40 GH3 genes in A. thaliana , S. miltiorrhiza , and O. sativa were identified and subjected to comprehensive study. Phylogenetic analysis revealed that those GH3 genes can be classified into three distinct subgroups, with 11 pairs of paralogs identified."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "the GH3 gene family had predominantly experienced purifying selection as evidenced by the Ka/Ks ratio being less than 1 for all 11 paralogs pairs"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The activity of auxin is tightly regulated by the auxin-responsive GH3 gene family."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The tissue-specific expression analysis of SmGH3 AtGH3 and OsGH3 genes revealed that these genes might perform distinct functions in different tissues."}
+    ]},
+   {"n": 709, "id": "pmid:40329166",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Ka/Ks ratio analysis revealed that most mitochondrial genes are under purifying selection, with a few genes, such as nad9 and ccmB, showing signs of relaxed or adaptive evolution", "flag": "ill_formed", "reason": "\"Least mitochondrial genes\" is ungrammatical; on the minority reading it reverses the abstract's \"most mitochondrial genes are under purifying selection\"."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Sinojackia microcarpa (S. microcarpa) is notable for its library-shaped fruit and sparse distribution, serving as a model system for studying the entire tree family"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "the mitochondrial genome of S. microcarpa spans 687,378 base pairs and contains a total of 59 genes, which include 37 protein-coding genes (PCGs), 20 transfer RNA (tRNA) genes, and 2 ribosomal RNA (rRNA) genes"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Sixteen plastid-derived fragments strongly linked with mitochondrial genes, including one intact plastid-related gene (rps7), were identified."}
+    ]},
+   {"n": 710, "id": "doi:10.64898/2026.07.22.740151",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Within a population polymorphic for mate preference, we identify senseless-2 as a glia-expressing candidate visual preference gene."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Within a population polymorphic for mate preference, we identify senseless-2 as a glia-expressing candidate visual preference gene."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "we molecularly characterize novel R2/5 and R7 photoreceptor subtypes, showing that cellular subfunctionalization arises through the co-option of existing gene regulatory networks"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Across species, we reveal that photoreceptors, particularly the color-sensing R7s, are the fastest-evolving cell types."}
+    ]},
+   {"n": 711, "id": "doi:10.64898/2026.05.27.728091",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Repeats annotation identified 18-19% repetitive content, with Helitron elements being the dominant class of transposable elements."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "By identifying the genes and regulatory networks involved in scale morphogenesis, we can correlate the butterfly's genotype with its photonic function."},
+      {"j": 3, "label": "contradicted", "confidence": 2, "evidence": "Compared to the previously available Parides photinus draft assembly, our genome exhibits an 11,000-fold reduction in scaffold fragmentation and nearly complete gene assembly.", "flag": "ambiguous", "reason": "\"the later Parides photinus draft\" conflicts with the abstract's \"previously available\" draft, but it could also be read loosely as that species' most recent draft, in which case only the fold-reduction claim matters and it is supported."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The final haplotype assemblies (Hap1 and Hap2) span 274 Mb and 270 Mb, respectively. These assemblies are organized into 31 near-telomere-to-telomere chromosomes"}
+    ]},
+   {"n": 712, "id": "doi:10.64898/2026.04.29.26352026",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Phenotypic screening indicated that 69.44% produced extended-spectrum beta-lactamases (ESBL), with high resistance rates observed for Cefotaxime (80.56%) and Ampicillin (84.72%)."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "These results indicate that Proteus species in North-Eastern Nigeria are significant reservoirs for genetic resistance, facilitating the spread of ESBL markers."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "A total of 144 Proteus isolates were identified, with a prevalence of 9.6%. P. mirabilis was the dominant species (90.97%)."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Molecular analysis showed blaTEM as the predominant gene (81.69%), and the conjugation assay revealed a high HGT rate of 76.92%, confirming blaTEM acquisition by E. coli."}
+    ]},
+   {"n": 713, "id": "pmid:40652163",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Gene duplication analysis revealed that segmental duplication events (44 events) served as the primary driving force for the expansion of the CACML family."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Most homologous gene pairs were subjected to strong purifying selection during evolution, while CACML86 underwent positive selection in both C. alismatifolia and A. viiosum."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Transcriptome analysis indicated that CACML140 regulates the cold stress response in Curcuma alismatifolia via the MAPK cascade signaling pathway."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "This study identified 202 CACML genes in the Curcuma alismatifolia genome, which were phylogenetically classified into four clades."}
+    ]},
+   {"n": 714, "id": "doi:10.1101/2024.08.15.608152",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Children (0-5 years) had marginally higher within-host evolutionary rates than adolescents (6-18 years) and adults (>18 years, 4.4x10 -6 vs. 9.42x10 -7 and 3.45x10 -6 , p <0.001)."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Within-host populations were subject to purifying selection with >75% mutations present at <2% frequency."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "A Wright Fisher Approximate Bayesian Computational model identified positive selection at 23/256 loci (9%) in A(H3N2) specimens and 19/176 loci (11%) in A(H1N1)pdm09 specimens"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Overall, we found that within-host IAV populations were subject to purifying selection and genetic drift, with only subtle differences across seasons, subtypes, and age strata."}
+    ]},
+   {"n": 715, "id": "pmid:40755821",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "The liverwort genus Pleurozia , a morphologically specialized bryophyte group, holds unique taxonomic and evolutionary significance."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "with genome sizes of 118,233 bp, 118,423 bp, and 118,304 bp, respectively. All three genomes exhibit the typical quadripartite structure."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Most protein-coding genes were subject to purifying selection, whereas ycf66 and ndhD showed signs of positive selection."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Coding regions were more conserved than noncoding and intronic regions, suggesting the potential of the latter as molecular markers. The IR regions also displayed significantly lower sequence divergence compared to the single-copy regions."}
+    ]},
+   {"n": 716, "id": "pmid:42525384",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We demonstrate that SynFlow can reproduce complex static synteny plots published in literature, but transforms them into dynamic, shareable visualizations that support real-time filtering, reordering, and deep exploration of specific SVs, including TRAs."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "most visualization methods produce static plots that fall short when researchers, particularly in comparative genomics, need to interactively explore large datasets, zoom into specific genomic regions, or dynamically filter structural events in real time", "flag": "ill_formed", "reason": "\"Least current visualisation methods\" is ungrammatical; on the minority reading it reverses the abstract's \"most visualization methods produce static plots\"."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "SynFlow is available as a web server and offers multiple entry points: browsing precomputed datasets (e.g. banana and grapevine genomes), uploading user-provided SyRI outputs, or running an integrated workflow to produce and visualize SVs on the fly."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "we introduce SynFlow, a lightweight, web-based interactive application specifically designed for exploring and visualizing SVs identified by SyRI"}
+    ]},
+   {"n": 717, "id": "pmid:39932919",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Purifying selection was ~5x stronger for sites folding into beta-sheets than those predicted to be coils."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "we found no evidence for purifying selection along any individual branches, but unexpectedly detected significant diversifying selection solely among African great apes"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "uncovered an unusually long branch leading to mouse-eared bats, exhibiting 18x more substitutions per site than the average mammalian substitution rate"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "In our comparison of 70 mammalian WDR75 sequences, we found ~25% of sites with significant purifying selection and no evidence of positive selection."}
+    ]},
+   {"n": 718, "id": "pmid:40168346",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "One family retains the ancestral endolytic enzyme function."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "identify the genetic basis for its catabolism of the brown algal cell wall polysaccharide alginate"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "the two others underwent domain duplication, gain, loss, rearrangement, and mutation to encode novel functions that can account for oligosaccharide import through the endomembrane system and the exolytic production of alginate monosaccharides"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "N. sing1 obtained an endolytic alginate lyase enzyme by horizontal gene transfer (HGT) from a marine bacterium. Subsequent gene duplication through unequal crossing over and transposition led to 91 genes in three distinct gene families."}
+    ]},
+   {"n": 719, "id": "pmid:39902196",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "resulting in a typical circular molecule of 606,853 bp. The genome consists of 31 tRNA genes, 3 rRNA genes, 35 protein-coding genes, and 1 pseudogene."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "The mitochondrial genome exhibits a low proportion of repetitive sequences (3.30%), suggesting a highly conserved structure. A high copy number of the trnM-CAT gene (4 copies) is noted"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Phylogenomic analysis supports the APG IV classification, with no evidence of horizontal gene transfer."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Among the 476 RNA editing sites, hydrophilic-hydrophobic and hydrophobic-hydrophobic editing events are most common, accounting for 77.10%."}
+    ]}
+ ]}

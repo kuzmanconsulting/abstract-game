@@ -1,0 +1,690 @@
+{
+ "batch": "gen_25",
+ "prompt_version": "gen-v4",
+ "items": [
+  {
+   "n": 740,
+   "id": "pmid:39663511",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Fifteen genes tied to body size were examined, among them GHSR, IGF2BP1 and IGFBP7 belonging to the growth hormone/insulin-like growth factor axis.",
+     "evidence": "analyzing 15 body-size-related genes, including GHSR, IGF2BP1, and IGFBP7 from the growth hormone/insulin-like growth factor axis",
+     "note": "The abstract gives the gene count and names these three as members of that axis."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Evolutionary rate of IGF2BP1 rose with body size across birds, so larger species evolve this gene faster than smaller ones.",
+     "evidence": "in the IGF2BP1 gene, a significant positive correlation was observed between the evolutionary rate and body size, suggesting that larger bird species exhibit higher evolutionary rates of the IGF2BP1 gene",
+     "note": "A significant positive correlation between evolutionary rate and body size is reported for IGF2BP1."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Laboratory assays confirmed that the positively selected sites change the activity of the encoded proteins.",
+     "evidence": "The branch-site model analysis identified numerous positively selected sites, primarily concentrated near functional domains, thereby reinforcing the critical role of these genes in body size evolution.",
+     "note": "Selected sites are detected from sequence models and located near functional domains, but no functional experiment on the proteins is reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "IGFBP7 evolved faster in large birds, while PLXDC2 showed accelerated evolution in medium-sized birds.",
+     "evidence": "the IGFBP7 and PLXDC2 genes demonstrated accelerated evolution in large- and medium-sized birds, respectively",
+     "note": "The abstract assigns the acceleration of these two genes to large and medium-sized birds respectively."
+    }
+   ]
+  },
+  {
+   "n": 741,
+   "id": "pmid:40939143",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Diversification of the S gene in Omicron lowered the efficacy of antibody-based treatments.",
+     "evidence": "accurate predictions demand a thorough understanding of the virus's molecular evolution, especially proteins targeted by therapies, where certain discrepancies among studies exist",
+     "note": "Therapy-targeted proteins appear only as motivation; no treatment efficacy is measured or discussed in the results."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Genetic diversity was low across the genome overall but increased markedly in the Omicron variant, above all in the S and ORF6 genes.",
+     "evidence": "an overall low genetic diversity along the genome, with fluctuations over time and among genomic regions, and a notable increase in the Omicron variant, especially in the S and ORF6 genes",
+     "note": "Low overall diversity plus a notable Omicron increase in S and ORF6 is exactly what the abstract reports."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The genome-wide substitution rate was put at roughly 10-3 per site per year, differing between genomic regions and across time.",
+     "evidence": "We also estimated an overall rate of molecular evolution of approximately 10 -3 substitutions per site per year, though it varied among genomic regions and over time",
+     "note": "The abstract gives this rate estimate and states that it varied by region and over time."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Purifying selection dominated the protein-coding regions, with diversifying selection restricted to local sites connected to transmission and replication.",
+     "evidence": "the protein-coding regions of SARS-CoV-2 generally exhibited evidence of purifying selection, with local diversifying selection associated with virus transmission and replication",
+     "note": "The selective-pressure result is purifying selection overall with local diversifying selection of that kind."
+    }
+   ]
+  },
+  {
+   "n": 742,
+   "id": "pmid:42204246",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Of the genes under selection between lineages, 93.8% came from subgenome C.",
+     "evidence": "Among genes under selection between lineages, 93.8% originate from subgenome C",
+     "note": "The abstract states this percentage for genes under selection between lineages."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Subgenome B stayed stable under strong purifying selection, whereas subgenomes A and C reorganized with faster gene turnover and pseudogenization.",
+     "evidence": "Subgenome B has been stabilized under strong purifying selection, whereas subgenomes A and C have undergone dynamic reorganization with accelerated gene turnover, pseudogenization, and asymmetric selection pressures",
+     "note": "The contrast between a stabilized subgenome B and dynamic subgenomes A and C is reported directly."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Population genomic data from 60 individuals resolved four genetic lineages that matched geographic regions.",
+     "evidence": "Population genomic analysis of 60 individuals identifies four genetic lineages corresponding to geographic regions",
+     "note": "Both the sample size and the four geographically corresponding lineages are given."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Plants from lineages carrying more adaptive SNPs accumulate higher levels of medicinal secondary metabolites.",
+     "evidence": "Genotype-environment association analyses identify 9,496 adaptive SNPs enriched in stress response, secondary metabolism, and wax biosynthesis pathways, with precipitation as the primary driver of local adaptation.",
+     "note": "Enrichment of adaptive SNPs in secondary metabolism pathways is reported, but no metabolite measurement or comparison between lineages is."
+    }
+   ]
+  },
+  {
+   "n": 743,
+   "id": "doi:10.64898/2026.05.06.723128",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Eleven deep-sea coral genomes were assembled, four of them from Hexacorallia and seven from Octocorallia.",
+     "evidence": "we present 11 deep-sea coral genome assemblies, including four Hexacorallia and seven Octocorallia species",
+     "note": "The abstract reports exactly this count and split of the new assemblies."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Deep-sea corals died at higher rates than shallow-sea corals when exposed to experimental warming.",
+     "evidence": "The loss of key rhythm genes (e.g., clock and cry) in deep-sea corals and copy number difference of genes related to heat stress (e.g., Cbl-b and Rchy) revealed genetic difference between deep-sea and shallow-sea corals.",
+     "note": "Genetic differences in heat-stress genes are described, but no thermal exposure experiment or mortality comparison is reported."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The study detected 126 horizontal gene transfer events, including genes traced to the ancestor of Symbiodiniaceae.",
+     "evidence": "Total of 126 horizontal gene transfer (HGT) events were detected, among which genes from the ancestor of symbiodiniaceae indicate that the ancestors of deep-sea corals may have inhabited shallow-sea environments.",
+     "note": "The count of HGT events and the Symbiodiniaceae-derived genes are both stated."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Deep-sea corals depend on symbiotic bacteria for ten essential amino acids and keep only part of their own synthesis capacity.",
+     "evidence": "Deep-sea corals also rely on symbiotic bacteria to synthesize 10 essential amino acids (such as valine and tyrosine), retaining only partial amino acid synthesis capacity.",
+     "note": "The reliance on bacterial synthesis of ten essential amino acids and the partial retained capacity are reported."
+    }
+   ]
+  },
+  {
+   "n": 744,
+   "id": "doi:10.1101/2025.06.11.659220",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Genome content variation was characterized in 1,142 resequenced Arabidopsis thaliana genomes using a new K-mer based method.",
+     "evidence": "we analyzed 1,142 resequenced Arabidopsis thaliana genomes using a novel K-mer based approach to characterize genome content variation",
+     "note": "The sample size and the K-mer approach are stated as the study design."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Cis-acting variation clustered in pericentromeric and centromeric regions, while trans-acting loci were enriched for DNA replication, repair and methylation genes.",
+     "evidence": "Cis-acting variation was predominantly localized to pericentromeric and centromeric regions, whereas trans-acting loci were enriched for candidate genes involved in DNA replication, DNA repair, DNA methylation regulation.",
+     "note": "This contrast in the location and functional enrichment of cis- and trans-acting variation is reported."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "A meta-GWAS across repeat families recovered cis-acting variants and more than fifty trans-acting loci controlling repeat abundance genome-wide.",
+     "evidence": "Integrating these results through a meta-GWAS approach revealed both cis-acting variants and more than 50 trans-acting loci that regulate repeat abundance genome-wide",
+     "note": "The abstract reports both classes of loci, with more than 50 trans-acting ones."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Accessions with larger genomes grew more slowly than accessions with smaller genomes.",
+     "evidence": "Finally, we found evidence that purifying selection acts against mutations that accelerate genome content divergence, favoring alleles that constrain repeat expansion.",
+     "note": "Selection against genome content divergence is inferred from sequence data; no growth or other phenotype was measured."
+    }
+   ]
+  },
+  {
+   "n": 745,
+   "id": "pmid:40346471",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Overexpression of a lotus CPK gene raises drought tolerance in transgenic plants.",
+     "evidence": "Furthermore, the expression profiles in different tissues and responses to abiotic stresses indicated that these genes may play significant roles in lotus growth and development.",
+     "note": "Only expression profiling under stress is reported; no transgenic plants or tolerance assays are described."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Twenty-seven lotus CPK genes were identified and split into five subfamilies on the basis of gene structure and phylogeny.",
+     "evidence": "The 27 CPKs of lotus were further categorized into five subfamilies based on gene structure and phylogenetic tree analysis.",
+     "note": "The abstract gives both the number of CPKs and the five-subfamily classification."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Segmental duplication was the main route of CPK gene duplication, and all CPK genes identified were under purifying selection.",
+     "evidence": "Segmental duplication was found to be the primary event of CPK gene duplication, and all identified CPK genes underwent purifying selection.",
+     "note": "Both the duplication mode and the purifying selection on all genes are reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "CPK expression differed between tissues and shifted under abiotic stress.",
+     "evidence": "The expression of CPKs was tissue-specific and regulated under abiotic stress.",
+     "note": "Tissue-specific expression and regulation under abiotic stress are both reported."
+    }
+   ]
+  },
+  {
+   "n": 746,
+   "id": "pmid:39312572",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The ecological association of yeasts with cacti was inferred to have arisen independently roughly seventeen separate times.",
+     "evidence": "We inferred that the ecological association of yeasts with cacti arose independently approximately 17 times.",
+     "note": "The abstract gives this number of independent origins for the cactophilic lifestyle."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "A machine learning classifier assigned cactophily with 76% accuracy from functional genomic and phenotypic data.",
+     "evidence": "we further found that cactophily can be predicted with 76% accuracy from both functional genomic and phenotypic data",
+     "note": "The reported prediction accuracy from these two data types is 76%."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The cell wall-degrading enzymes were acquired by horizontal transfer from the cacti the yeasts inhabit.",
+     "evidence": "We also identified horizontal gene transfer and duplication events of plant cell wall-degrading enzymes in distantly related cactophilic clades, suggesting that putatively adaptive traits evolved independently through disparate molecular mechanisms.",
+     "note": "The transfer events are reported, but the abstract never names the donor organisms."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Thermotolerance was the strongest predictor of cactophily and was linked to altered evolutionary rates of cell envelope genes in several cactophilic lineages.",
+     "evidence": "The most informative feature for predicting cactophily was thermotolerance, which we found to be likely associated with altered evolutionary rates of genes impacting the cell envelope in several cactophilic lineages.",
+     "note": "Thermotolerance as the most informative feature and its link to cell envelope gene rates are both reported."
+    }
+   ]
+  },
+  {
+   "n": 747,
+   "id": "pmid:41062690",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Sperm mutations accumulated linearly at 1.67 per year per haploid genome, driven by two mutational signatures connected to ageing.",
+     "evidence": "revealed a linear accumulation of 1.67 (95% confidence interval of 1.41-1.92) mutations per year per haploid genome driven by two mutational signatures associated with human ageing",
+     "note": "The rate, its linearity and the two ageing signatures are reported directly."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Sequencing of oocytes showed comparable positive selection in the female germline.",
+     "evidence": "Mutations that occur in the cell lineages of sperm or eggs can be transmitted to offspring.",
+     "note": "Eggs are mentioned only in the opening framing; all 81 samples sequenced were sperm, and no oocyte data are reported."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Forty genes showed significant positive selection in the male germline, thirty-one of them newly identified.",
+     "evidence": "We detected 40 genes (31 newly identified) under significant positive selection in the male germline",
+     "note": "The counts of selected and newly identified genes come straight from the abstract."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Selection during spermatogenesis raised the risk of known disease-causing mutations two- to threefold, leaving 3-5% of sperm from middle-aged to older men with a pathogenic exome mutation.",
+     "evidence": "positive selection during spermatogenesis drives a 2-3-fold increased risk of known disease-causing mutations, which results in 3-5% of sperm from middle-aged to older individuals with a pathogenic mutation across the exome",
+     "note": "Both the fold increase and the proportion of sperm carrying a pathogenic mutation are stated."
+    }
+   ]
+  },
+  {
+   "n": 748,
+   "id": "pmid:41034582",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Eighteen patients with high-grade serous ovarian cancer were followed over several years, from diagnosis through to recurrence.",
+     "evidence": "we studied 18 patients with HGSOC over a multi-year period from diagnosis to recurrence",
+     "note": "The cohort size and the multi-year follow-up from diagnosis to recurrence are stated."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Drug resistance usually came from one clone, or a few clones, that were already present at diagnosis expanding under selection.",
+     "evidence": "showed that drug resistance typically arose from selective expansion of a single or small subset of clones present at diagnosis",
+     "note": "This is the main reported finding about where resistance came from."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Resistant clones often carried chromothripsis, whole-genome doubling and high-level amplification of oncogenes such as CCNE1, MYC and NOTCH3.",
+     "evidence": "Drug-resistant clones frequently showed interpretable and distinctive genomic features, including chromothripsis, whole-genome doubling, and high-level amplifications of oncogenes such as CCNE1, RAB25, MYC and NOTCH3.",
+     "note": "These genomic features of the resistant clones are listed in the abstract."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "CloneSeq-SV flagged resistant clones earlier than routine CA-125 monitoring did.",
+     "evidence": "To study drug resistance in patients, we developed CloneSeq-SV, which combines single-cell whole-genome sequencing 2 with targeted deep sequencing of clone-specific genomic structural variants in time-series cell-free DNA.",
+     "note": "The method is described and applied, but it is never compared with an established clinical monitoring marker."
+    }
+   ]
+  },
+  {
+   "n": 749,
+   "id": "pmid:39112714",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "DNase treatment shrank the infarct caused by the index stroke.",
+     "evidence": "Neutralization of cell-free DNA by DNase treatment or inhibition of inflammasome activation reduced the rate of stroke recurrence after experimental stroke.",
+     "note": "Recurrence rate is the reported outcome of the treatments; infarct size of the first stroke is never mentioned."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "In a mouse model, stroke triggered AIM2 inflammasome activation in vulnerable atherosclerotic plaques through a rise in circulating cell-free DNA.",
+     "evidence": "we show that stroke leads to activation of the AIM2 inflammasome in vulnerable atherosclerotic plaques via an increase of circulating cell-free DNA",
+     "note": "This causal chain from stroke to plaque AIM2 activation via cell-free DNA is the central result."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Stronger plaque inflammation after stroke destabilized plaques and caused atherothrombosis, producing a recurrent stroke within days of the first one.",
+     "evidence": "Enhanced plaque inflammation post-stroke results in plaque destabilization and atherothrombosis, finally leading to arterioarterial embolism and recurrent stroke within days after the index stroke.",
+     "note": "The abstract describes this sequence and places the recurrent stroke within days of the index event."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Degrading cell-free DNA with DNase, or blocking inflammasome activation, lowered the rate of recurrent stroke in the experimental model.",
+     "evidence": "Neutralization of cell-free DNA by DNase treatment or inhibition of inflammasome activation reduced the rate of stroke recurrence after experimental stroke.",
+     "note": "Both interventions are reported to reduce recurrence after experimental stroke."
+    }
+   ]
+  },
+  {
+   "n": 750,
+   "id": "pmid:41708848",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "A proto-point centromere carries one centromeric nucleosome over an AT-rich core, with loosely organized and variable flanking cis-elements.",
+     "evidence": "Proto-point centromeres contain a single centromeric nucleosome positioned over an AT-rich core, accompanied by relaxed organization and sequence variability of flanking cis-elements.",
+     "note": "This is the reported architecture of the proto-point centromeres."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Removing the retrotransposon-derived sequence from a proto-point centromere caused chromosome missegregation.",
+     "evidence": "Comparative and phylogenetic analyses indicate that proto-point and point centromeres evolved in an ancestor with retrotransposon-rich centromeres.",
+     "note": "The conclusions rest on comparative and phylogenetic analysis; no deletion experiment or segregation assay is reported."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "In two of the species studied, the proto-point centromeres were located inside retrotransposon-derived repeat clusters.",
+     "evidence": "In two species, these proto-point centromeres lie within retrotransposon-derived repeat clusters, linking ancestral repeat-rich centromeres to genetically encoded ones.",
+     "note": "The abstract reports this location for two species, linking repeat-rich and genetically encoded centromeres."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Long-terminal-repeat retrotransposons, Ty5 sequences in particular, were identified as the genetic substrate from which point centromeres arose.",
+     "evidence": "These results identify long-terminal-repeat retrotransposons, specifically Ty5 sequences, as the genetic substrate for point-centromere evolution",
+     "note": "The abstract names LTR retrotransposons, and Ty5 specifically, as that substrate."
+    }
+   ]
+  },
+  {
+   "n": 751,
+   "id": "pmid:39294378",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "SPIN1 is expressed earlier in development than either SPOCD1 or MIWI2.",
+     "evidence": "We find that SPIN1 expression precedes that of both SPOCD1 and MIWI2.",
+     "note": "The abstract states this order of expression explicitly."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Young LINE1 copies, unlike old ones, already carried H3K4me3, H3K9me3 and SPIN1 before piRNA-directed DNA methylation started.",
+     "evidence": "we demonstrate that young LINE1 copies, but not old ones, are marked by H3K4me3, H3K9me3 and SPIN1 before the initiation of piRNA-directed DNA methylation",
+     "note": "The contrast between young and old LINE1 copies before methylation begins is reported."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "A SPOCD1 variant that cannot bind SPIN1 showed that this interaction is required for spermatogenesis and for methylation of young LINE1 elements.",
+     "evidence": "We found that the interaction between SPOCD1 and SPIN1 is essential for spermatogenesis and piRNA-directed DNA methylation of young LINE1 elements.",
+     "note": "The separation-of-function allele established that the interaction is essential for both processes."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Human SPOCD1 binds SPIN1 in the same manner as the mouse proteins do.",
+     "evidence": "Here, we show that SPOCD1 interacts directly with SPIN1 (SPINDLIN1), a chromatin reader that primarily binds to H3K4me3-K9me3",
+     "note": "The interaction and every experiment described concern the mouse germline; no human protein or cell is examined."
+    }
+   ]
+  },
+  {
+   "n": 752,
+   "id": "pmid:37853125",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "After double-stranded breaks, ATM drove damaged topologically associating domains to cluster into a new chromatin compartment marked by γH2AX and 53BP1.",
+     "evidence": "ATM drives the formation of a new chromatin compartment (D compartment) through the clustering of damaged topologically associating domains, decorated with γH2AX and 53BP1",
+     "note": "The abstract attributes formation of the D compartment to ATM-driven clustering of damaged domains with these marks."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The D compartment formed mostly in G1, needed no cohesin, and became stronger when DNA-PK was inhibited or R-loops accumulated.",
+     "evidence": "The D compartment arises mostly in G1 phase, is independent of cohesin and is enhanced after pharmacological inhibition of DNA-dependent protein kinase (DNA-PK) or R-loop accumulation.",
+     "note": "All three properties of the D compartment are reported in this sentence."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Cells unable to form the D compartment were more sensitive to ionizing radiation.",
+     "evidence": "Importantly, R-loop-enriched DNA-damage-responsive genes physically localize to the D compartment, and this contributes to their optimal activation, providing a function for DSB clustering in the DNA damage response.",
+     "note": "A gene-activation function for the compartment is reported, but cell survival or radiosensitivity is never measured."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "R-loop-enriched DNA-damage-responsive genes relocated into the D compartment, and that relocation helped them reach optimal activation.",
+     "evidence": "R-loop-enriched DNA-damage-responsive genes physically localize to the D compartment, and this contributes to their optimal activation",
+     "note": "Localization of these genes to the compartment and its contribution to their activation are both reported."
+    }
+   ]
+  },
+  {
+   "n": 753,
+   "id": "pmid:41125775",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "The electrolyte that produced the thinnest interphase gave the best capacity retention over repeated cycling.",
+     "evidence": "This new access to pristine SEI composition enables performance correlations across diverse electrolyte chemistries.",
+     "note": "The abstract says such performance correlations become possible but reports no cycling or capacity results."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Cryogenic XPS with immediate plunge freezing preserved the solid electrolyte interphase.",
+     "evidence": "Here we develop cryogenic (cryo)-XPS with immediate plunge freezing and demonstrate SEI preservation.",
+     "note": "Development of the cryogenic method and the demonstrated preservation are stated as the result."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Measured cold, the interphase was thicker and its speciation substantially different, without the thickness loss and species changes seen at room temperature.",
+     "evidence": "We discover substantially different SEI speciation and a thicker pristine SEI with cryo-XPS, free from RT-associated thickness reduction and alterations to important species, including LiF and Li 2 O, in UHV.",
+     "note": "A thicker pristine interphase and different speciation under cryogenic conditions are exactly what the abstract reports."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Reaching the pristine interphase composition made it possible to correlate that composition with performance across different electrolyte chemistries.",
+     "evidence": "This new access to pristine SEI composition enables performance correlations across diverse electrolyte chemistries.",
+     "note": "The abstract states that access to pristine composition enables these correlations."
+    }
+   ]
+  },
+  {
+   "n": 754,
+   "id": "pmid:40044854",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Chromosome-scale references were built for 22 Solanum species, 13 of them indigenous crops, and gene macrosynteny was broadly conserved among them.",
+     "evidence": "Despite broad conservation of gene macrosynteny among chromosome-scale references for 22 species, including 13 indigenous crops",
+     "note": "The species counts and the broad conservation of macrosynteny are both stated."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Editing the fused CLV3 allele raised marketable fruit yield in field trials of African eggplant.",
+     "evidence": "By augmenting our pan-genome with African eggplant cultivars 9 and applying quantitative genetics and genome editing, we dissected an intricate history of paralogue evolution affecting fruit size.",
+     "note": "Genome editing served to dissect paralogue history; no field trial or yield outcome is reported."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Thousands of gene duplications, concentrated in key domestication gene families, followed dynamic trajectories in sequence, expression and function.",
+     "evidence": "thousands of gene duplications, particularly within key domestication gene families, exhibited dynamic trajectories in sequence, expression and function",
+     "note": "This is the reported behaviour of the duplicated genes across the pan-genome."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Loss of a redundant paralogue of the fruit size regulator CLAVATA3 was offset by a tandem duplication confined to one lineage.",
+     "evidence": "The loss of a redundant paralogue of the classical fruit size regulator CLAVATA3 (CLV3) 10,11 was compensated by a lineage-specific tandem duplication.",
+     "note": "The abstract reports the paralogue loss and its compensation by a lineage-specific tandem duplication."
+    }
+   ]
+  },
+  {
+   "n": 755,
+   "id": "pmid:37198482",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "In 780 breast cancer genomes, focal amplifications were frequently joined to one another by inter-chromosomal translocations at their boundaries.",
+     "evidence": "In 780 breast cancer genomes, we observe that focal amplifications are frequently connected to each other by inter-chromosomal translocations at their boundaries.",
+     "note": "The cohort size and this boundary observation are reported together."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The proposed translocation-bridge mechanism accounts for the amplification of key oncogenes, including ERBB2 and CCND1.",
+     "evidence": "This model explains the amplifications of key oncogenes, including ERBB2 and CCND1.",
+     "note": "The abstract states that the model explains amplification of these oncogenes."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Oestrogen treatment produced double-strand breaks in oestrogen receptor target regions, and those breaks were repaired by translocations.",
+     "evidence": "Experimentally, oestrogen treatment induces DNA double-strand breaks in the oestrogen receptor target regions that are repaired by translocations, suggesting a role of oestrogen in generating the initial translocations.",
+     "note": "This experimental result on oestrogen-induced breaks and their repair is reported directly."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Tumours formed by translocation-bridge amplification carried a worse prognosis than those formed by breakage-fusion-bridge cycles.",
+     "evidence": "A pan-cancer analysis reveals tissue-specific biases in mechanisms initiating focal amplifications, with the breakage-fusion-bridge cycle prevalent in some and the translocation-bridge amplification in others, probably owing to the different timing of DNA break repair.",
+     "note": "The pan-cancer comparison concerns how often each mechanism occurs by tissue; no patient outcome data appear."
+    }
+   ]
+  },
+  {
+   "n": 756,
+   "id": "pmid:40205048",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "R2Tg, an R2 retrotransposon from the zebra finch, was retargeted by payload engineering to cleave, reverse transcribe and insert sequence scarlessly at new sites.",
+     "evidence": "We identify R2Tg, an R2 retrotransposon from the zebra finch, Taeniopygia guttata, as an orthologue that can be retargeted by payload engineering for target cleavage, reverse transcription and scarless insertion of heterologous payloads at new genomic sites.",
+     "note": "The abstract reports R2Tg's origin and its retargeting for all three steps."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Fusing R2Tg to CRISPR-Cas9 nickases improved insertion at new genomic sites.",
+     "evidence": "We enhance this activity by fusing R2Tg to CRISPR-Cas9 nickases for efficient insertion at new genomic sites.",
+     "note": "The nickase fusion is reported as enhancing the insertion activity."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "In non-dividing cells, STITCHR inserted payloads more efficiently than homology-directed repair.",
+     "evidence": "we anticipate that STITCHR will serve as a platform for scarless programmable integration in dividing and non-dividing cells, with both research and therapeutic applications",
+     "note": "Non-dividing cells appear only in a forward-looking expectation, and no comparison with homology-directed repair is reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "STITCHR installed edits from a single base up to 12.7 kilobases, performed gene replacement, and worked with in vitro transcribed or synthetic RNA templates.",
+     "evidence": "STITCHR enables the scarless, efficient installation of edits, ranging from a single base to 12.7 kilobases, gene replacement and use of in vitro transcribed or synthetic RNA templates.",
+     "note": "The size range, gene replacement and template types are all listed as capabilities of the system."
+    }
+   ]
+  },
+  {
+   "n": 757,
+   "id": "pmid:38926582",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Reef habitat in the Indo-Australian Archipelago is now shrinking faster than in other tropical regions.",
+     "evidence": "Finally, it seems that the absence of major extinctions and the Cenozoic cooling have been essential in making the IAA the richest marine biodiversity hotspot on Earth.",
+     "note": "The reconstruction covers Cenozoic fossil diversity and says nothing about present-day habitat change."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Diversity in the archipelago rose in a roughly logistic, one-directional way from about 25 million years ago and levelled off around 2.6 million years ago.",
+     "evidence": "the IAA has exhibited a unidirectional diversification trend since about 25 million years ago, following a roughly logistic increase until a diversity plateau beginning about 2.6 million years ago",
+     "note": "The onset, the logistic shape and the plateau date are all given in the abstract."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Diversity dependency and habitat size were the main controls on diversity growth, which was further helped by thermal stress easing after 13.9 million years ago.",
+     "evidence": "The growth of diversity was primarily controlled by diversity dependency and habitat size, and also facilitated by the alleviation of thermal stress after 13.9 million years ago.",
+     "note": "These controls and the date of the thermal stress alleviation are reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Over the long run the Tethyan descendants declined while cosmopolitan and IAA taxa increased.",
+     "evidence": "the long-term waning of the Tethyan descendants versus the waxing of cosmopolitan and IAA taxa",
+     "note": "This opposing long-term trend between the two groups is reported."
+    }
+   ]
+  },
+  {
+   "n": 758,
+   "id": "pmid:38632397",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Heliconius elevatus lives alongside both of its parent species and has persisted as an independently evolving lineage for at least 180,000 years.",
+     "evidence": "Heliconius elevatus is a hybrid species that is sympatric with both parents and has persisted as an independently evolving lineage for at least 180,000 years",
+     "note": "Sympatry with both parents and the minimum age of the lineage are stated."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Crosses between the two parent species produced offspring of reduced fertility in the laboratory.",
+     "evidence": "However, convincing examples of homoploid hybrid speciation remain rare because it is challenging to demonstrate that hybridization was crucial in generating reproductive isolation 3 .",
+     "note": "Reproductive isolation is addressed through genomics and trait mapping; no laboratory crosses or fertility measurements are reported."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Continuing gene flow with Heliconius pardalinus homogenizes 99% of the genome, and the remaining 1% came from Heliconius melpomene.",
+     "evidence": "pervasive and ongoing gene flow with one parent, Heliconius pardalinus, which homogenizes 99% of their genomes. The remaining 1% introgressed from the other parent, Heliconius melpomene",
+     "note": "Both proportions and the parent each is attributed to are given."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Traits under disruptive selection, among them wing shape, colour pattern, host plant preference, pheromones and mate choice, sit in the divergent genomic islands.",
+     "evidence": "These islands contain multiple traits that are under disruptive selection, including colour pattern, wing shape, host plant preference, sex pheromones and mate choice.",
+     "note": "The abstract places these disruptively selected traits inside the islands of divergence."
+    }
+   ]
+  },
+  {
+   "n": 759,
+   "id": "pmid:38355797",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Deep whole-genome sequencing of 494 HCC tumours at roughly 120-fold average depth yielded 6 coding and 28 non-coding new driver candidates.",
+     "evidence": "performed deep whole-genome sequencing (average depth, 120×) of 494 HCC tumours. We identified 6 coding and 28 non-coding previously undescribed driver candidates.",
+     "note": "The tumour count, sequencing depth and numbers of new driver candidates are all reported."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Some HBV integrations took the form of extrachromosomal circular DNA, which pushed copy numbers and gene expression up.",
+     "evidence": "HBV integrations could take the form of extrachromosomal circular DNA, resulting in elevated copy numbers and gene expression.",
+     "note": "The abstract reports this form of integration and the resulting increases."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Patients whose tumours carried the SBS_H8 signature survived for a shorter time than those without it.",
+     "evidence": "Five previously undescribed mutational signatures were found, including aristolochic-acid-associated indel and doublet base signatures, and a single-base-substitution signature that we termed SBS_H8.",
+     "note": "The signature is described and validated, but no survival or clinical outcome comparison is reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Pentanucleotide context analysis and experimental validation established that SBS_H8 is distinct from the aristolochic-acid-associated signature SBS22.",
+     "evidence": "Pentanucleotide context analysis and experimental validation confirmed that SBS_H8 was distinct to the aristolochic-acid-associated SBS22.",
+     "note": "Both lines of evidence are reported as confirming that the two signatures differ."
+    }
+   ]
+  }
+ ],
+ "flip_rule": "first-of-any-v2",
+ "flip_rule_history": [
+  "first-of-any"
+ ]
+}

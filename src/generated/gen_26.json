@@ -1,0 +1,690 @@
+{
+ "batch": "gen_26",
+ "prompt_version": "gen-v4",
+ "items": [
+  {
+   "n": 760,
+   "id": "pmid:39385020",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "APOBEC3-driven mutations in urothelial cancer were clonal and early, whereas chemotherapy produced bursts of hundreds of late subclonal mutations.",
+     "evidence": "We show that APOBEC3-induced mutations are clonal and early, whereas chemotherapy induces mutational bursts of hundreds of late subclonal mutations.",
+     "note": "The abstract contrasts the two mutational processes directly, including the order of magnitude of the chemotherapy-induced burst."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Patients whose tumours carried CCND1 ecDNA had shorter overall survival than patients whose tumours lacked it.",
+     "evidence": "Experimental modelling of CCND1 ecDNA confirmed its role as a driver of treatment resistance.",
+     "note": "A functional role in treatment resistance is shown, but no survival comparison between patients with and without CCND1 ecDNA is reported."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Most CCND1 amplifications in urothelial cancer were found to originate inside circular ecDNA-forming structural variants.",
+     "evidence": "We discovered that most CCND1 amplifications in urothelial cancer arise within circular ecDNA-forming SVs.",
+     "note": "This is stated as a direct finding about where the majority of CCND1 amplifications arise."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Over time ecDNA-forming structural variants persisted rather than disappearing, took up further DNA segments and became more complex.",
+     "evidence": "ecDNA-forming SVs persisted and increased in complexity, incorporating additional DNA segments and contributing to the evolution of treatment resistance.",
+     "note": "Persistence, added segments and rising complexity are all reported for the ecDNA-forming structural variants."
+    }
+   ]
+  },
+  {
+   "n": 761,
+   "id": "pmid:41339552",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Dating of copy number alterations placed the onset of genomic instability decades before the tumour was diagnosed.",
+     "evidence": "Timing analyses on copy number alterations suggest that genomic instability emerges decades before tumour diagnosis",
+     "note": "The timing analysis reported in the abstract puts the emergence of genomic instability decades ahead of diagnosis."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The study analysed whole-genome sequences of 1,364 clinically annotated breast cancers, with transcriptome data available for most of those cases.",
+     "evidence": "we analysed whole-genome sequences from 1,364 clinically annotated breast cancers, with transcriptome data available for most cases",
+     "note": "The cohort size and the availability of transcriptome data for most cases are stated explicitly."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Whole-genome sequencing predicted which patients would relapse more accurately than standard clinical pathology did.",
+     "evidence": "highlighting their potential utility as predictive biomarkers for clinical evaluation of treatments such as CDK4/6 and HER2 inhibitors, as well as adjuvant and neoadjuvant chemotherapy.",
+     "note": "Biomarker potential is raised in general terms, but no head-to-head comparison with standard clinical pathology is reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Mutational signatures, homologous recombination deficiency, tumour mutational burden and heterogeneity scores were associated with clinical outcomes.",
+     "evidence": "Pattern-driven genomic features, including mutational signatures 2 , homologous recombination deficiency 3 , tumour mutational burden and tumour heterogeneity scores 4 , were associated with clinical outcomes",
+     "note": "These pattern-driven features are listed as showing associations with clinical outcomes."
+    }
+   ]
+  },
+  {
+   "n": 762,
+   "id": "pmid:36792825",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Faster speciation at low latitudes made the planktonic foraminiferal diversity gradient steeper.",
+     "evidence": "we find that higher rates of low-latitude speciation steepened the diversity gradient",
+     "note": "Higher low-latitude speciation rates are reported as steepening the gradient."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Terrestrial plant and insect clades acquired their modern latitudinal diversity gradients at the same time, around 15 million years ago.",
+     "evidence": "The latitudinal diversity gradient (LDG) is a prevalent feature of modern ecosystems across diverse clades 1-4 .",
+     "note": "The abstract notes that LDGs occur in many clades but reports timing only for planktonic foraminifera."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Across a 40-million-year record, a modern-style latitudinal diversity gradient in planktonic foraminifera appeared only 15 million years ago.",
+     "evidence": "Here we quantify the emergence of the LDG in planktonic foraminifera at high spatiotemporal resolution over the past 40 million years, finding that a modern-style gradient arose only 15 million years ago.",
+     "note": "Both the length of the record and the 15-million-year date of emergence are given as findings."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Species loss from high latitudes also reinforced the gradient, but this contribution was generally smaller than that of speciation.",
+     "evidence": "Extirpation of species from high latitudes also strengthened the LDG, but this effect tended to be weaker than speciation.",
+     "note": "The abstract reports both effects and ranks extirpation as the weaker of the two."
+    }
+   ]
+  },
+  {
+   "n": 763,
+   "id": "pmid:40240612",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "RARE-seq detected tumour-derived cfRNA roughly 50 times more sensitively than whole-transcriptome RNA-seq, reaching a detection limit of 0.05%.",
+     "evidence": "we find RARE-seq to be approximately 50-fold more sensitive for detecting tumour-derived cfRNA than whole-transcriptome RNA sequencing (RNA-seq), with a limit of detection of 0.05%",
+     "note": "The fold difference against RNA-seq and the limit of detection are both stated in the analytical validation."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Platelet contamination substantially confounds cfRNA analysis, and an approach was developed to overcome it.",
+     "evidence": "We demonstrate that platelet contamination can substantially confound cfRNA analyses and develop an approach to overcome it.",
+     "note": "The confounding effect of platelets and the countermeasure are both reported."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Annual RARE-seq screening of asymptomatic smokers reduces lung cancer mortality.",
+     "evidence": "These results highlight the potential value of ultrasensitive cfRNA analysis and provide proof of concept for diverse clinical applications.",
+     "note": "Clinical potential is claimed only in general terms; no screening programme or mortality outcome is reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Detection of lung cancer expression signatures rose with stage, from 30% in stage I to 83% sensitivity in stage IV at 95% specificity.",
+     "evidence": "Detection of non-small-cell lung cancer expression signatures in cfRNA increased with stage (6 out of 20 (30%) in stage I; 5 out of 8 (63%) in stage II; 10 out of 15 (67%) in stage III; 80 out of 96 (83% sensitivity) in stage IV at 95% specificity)",
+     "note": "The stage-by-stage detection rates and the specificity threshold are given in the abstract."
+    }
+   ]
+  },
+  {
+   "n": 764,
+   "id": "pmid:37046089",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "In the Cambridge cohorts ecDNA was present in 24% of early-stage and 43% of late-stage Barrett's-associated oesophageal adenocarcinomas.",
+     "evidence": "In the Cambridge cohorts, the frequency of ecDNA increased between Barrett's-oesophagus-associated early-stage (24%) and late-stage (43%) EAC",
+     "note": "Both frequencies and the direction of the increase are stated for the Cambridge cohorts."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "In biopsies taken before cancer diagnosis, ecDNA levels were higher in patients who later developed oesophageal adenocarcinoma than in those who did not.",
+     "evidence": "In biopsies that were collected before cancer diagnosis, higher levels of ecDNA were present in samples from patients who later developed EAC than in samples from those who did not.",
+     "note": "This comparison between future cases and non-cases is reported directly."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Screening Barrett's oesophagus biopsies for ecDNA identifies patients needing earlier surgery better than current histological grading does.",
+     "evidence": "In the cohort from the Fred Hutchinson Cancer Center, 33% of patients who developed EAC had at least one oesophageal biopsy with ecDNA before or at the diagnosis of EAC.",
+     "note": "ecDNA is detected before diagnosis, but the abstract never compares it with histological grading as a surveillance test."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "ecDNAs carried varied sets of oncogenes and immunomodulatory genes and gained copy number and structural complexity in more advanced disease.",
+     "evidence": "We found that ecDNAs contained diverse collections of oncogenes and immunomodulatory genes. Furthermore, ecDNAs showed increases in copy number and structural complexity at more advanced stages of disease.",
+     "note": "Gene content and the stage-related rise in copy number and complexity are both reported findings."
+    }
+   ]
+  },
+  {
+   "n": 765,
+   "id": "pmid:41781618",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "cf-EpiTracing detected colorectal cancer earlier than standard faecal immunochemical testing in the same patients.",
+     "evidence": "Together, these findings establish cf-EpiTracing as an automated, non-invasive, epigenome-centric framework with broad applications in early diagnosis, molecular subtyping and prognostic prediction.",
+     "note": "Early diagnosis is claimed as an application, but no comparison with faecal immunochemical testing or any other established test is reported."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The study produced 2,417 cf-EpiTracing profiles from the plasma of 125 healthy individuals and 549 patients with one of four diseases.",
+     "evidence": "We generated 2,417 cf-EpiTracing profiles from plasma of 125 healthy individuals and 549 patients with inflammatory bowel disease, colorectal cancer, coronary heart disease or lymphoma.",
+     "note": "The number of profiles and the composition of the cohort are stated explicitly."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Following epigenetic signatures over time revealed transformation of follicular lymphoma into diffuse large B cell lymphoma.",
+     "evidence": "Surveying dynamics of epigenetic signatures uncovered disease transformation from follicular lymphoma to diffuse large B cell lymphoma.",
+     "note": "The transformation was uncovered by tracking the dynamics of the epigenetic signatures."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The platform identified primary diseased tissues and other organ involvement, separated B cell lymphoma subtypes, and picked up early-stage diseases or lesions.",
+     "evidence": "cf-EpiTracing enabled unbiased identification of primary diseased tissues and other organ involvement, stratification of B cell lymphoma subtypes with different genetic and epigenetic underpinnings, and detection of early-stage diseases or lesions.",
+     "note": "All three capabilities are listed as results of the cf-EpiTracing analysis."
+    }
+   ]
+  },
+  {
+   "n": 766,
+   "id": "pmid:37938774",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Parental H3K9me3 goes mainly onto the leading strands of replication forks, above all at LINE retrotransposons oriented head-on to fork movement.",
+     "evidence": "H3K9me3 is preferentially transferred onto the leading strands of replication forks, which occurs predominantly at long interspersed nuclear element (LINE) retrotransposons (also known as LINE-1s or L1s) that are theoretically transcribed in the head-on direction with replication fork movement.",
+     "note": "The strand preference and its concentration at head-on LINEs are the paper's central reported observation."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The HUSH complex binds the leading-strand polymerase Pol ε and contributes to the asymmetric segregation of H3K9me3.",
+     "evidence": "the human silencing hub (HUSH) complex interacts with the leading-strand DNA polymerase Pol ε and contributes to the asymmetric segregation of H3K9me3",
+     "note": "The interaction and its contribution to asymmetric segregation are reported as the mechanism."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Mice lacking the HUSH complex develop tumours as a result of LINE de-repression.",
+     "evidence": "Loss of silencing of the repeat elements leads to genome instability and human diseases, including cancer and ageing 1-3 .",
+     "note": "The link between repeat de-repression and cancer is cited as background; no animal model or tumour outcome is reported here."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Cells lacking the Pol ε subunits POLE3 and POLE4, or the HUSH components MPP8 and TASOR, showed weakened H3K9me3 asymmetry and raised LINE expression.",
+     "evidence": "Cells deficient in Pol ε subunits (POLE3 and POLE4) or the HUSH complex (MPP8 and TASOR) show compromised H3K9me3 asymmetry and increased LINE expression.",
+     "note": "Both consequences of the deficiencies are stated for the same cells."
+    }
+   ]
+  },
+  {
+   "n": 767,
+   "id": "pmid:37046093",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Across 947 tumour regions and 96 tumour-adjacent normal samples, the transcriptome emerged as a major source of phenotypic variation.",
+     "evidence": "Analyses of 947 tumour regions, representing both primary and metastatic disease, alongside 96 tumour-adjacent normal tissue samples implicate the transcriptome as a major source of phenotypic variation.",
+     "note": "The sample counts and the conclusion about phenotypic variation are given together."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "RNA single-base substitution signatures traced to ADAR and APOBEC3A activity exposed ongoing APOBEC activity that had otherwise gone undetected in these tumours.",
+     "evidence": "We extract signatures of RNA single-base substitutions and link their aetiology to the activity of the RNA-editing enzymes ADAR and APOBEC3A, thereby revealing otherwise undetected ongoing APOBEC activity in tumours.",
+     "note": "The signature extraction, the enzymes assigned and the newly revealed APOBEC activity are all reported."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Tumours with greater transcriptomic heterogeneity responded worse to immune checkpoint inhibitors in this cohort.",
+     "evidence": "Intratumour heterogeneity (ITH) fuels lung cancer evolution, which leads to immune evasion and resistance to therapy 1 .",
+     "note": "Immune evasion and therapy resistance appear only as background motivation; no checkpoint inhibitor treatment response is analysed."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Copy number-independent allele-specific expression was frequent and linked to epigenomic dysfunction, and it produced parallel genomic and transcriptomic evolution converging on cancer gene disruption.",
+     "evidence": "We observe frequent copy number-independent allele-specific expression that is linked to epigenomic dysfunction. Allele-specific expression can also result in genomic-transcriptomic parallel evolution, which converges on cancer gene disruption.",
+     "note": "Both the frequency and epigenomic link and the parallel-evolution consequence are reported findings."
+    }
+   ]
+  },
+  {
+   "n": 768,
+   "id": "pmid:38418917",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "An Alu element inserted in a TBXT intron pairs with a neighbouring reverse-orientation ancestral Alu and generates a hominoid-specific alternative splicing event.",
+     "evidence": "We demonstrate that this Alu element-inserted into an intron of the TBXT gene 7-9 -pairs with a neighbouring ancestral Alu element encoded in the reverse genomic orientation and leads to a hominoid-specific alternative splicing event.",
+     "note": "The pairing of the two Alu elements and the resulting hominoid-specific splicing are demonstrated in the study."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Loss of the tail improved walking efficiency in the tailless mouse models.",
+     "evidence": "with a proposed role in contributing to human bipedalism 4-6 .",
+     "note": "A role for tail loss in bipedalism is mentioned as a prior proposal; no locomotion measurements in the mice are reported."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Mice carrying the exon-skipped Tbxt isoform developed neural tube defects, a condition occurring in roughly 1 in 1,000 human newborns.",
+     "evidence": "mice expressing the exon-skipped Tbxt isoform develop neural tube defects, a condition that affects approximately 1 in 1,000 neonates in humans 10",
+     "note": "The phenotype in the mice and the human incidence figure are both stated."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Mice expressing both Tbxt isoforms had either no tail or a shortened tail, depending on the relative abundance of the isoforms in the embryonic tail bud.",
+     "evidence": "Mice expressing both Tbxt isoforms exhibit a complete absence of the tail or a shortened tail depending on the relative abundance of Tbxt isoforms expressed at the embryonic tail bud.",
+     "note": "The dose-dependent tail phenotype is reported for the mouse models."
+    }
+   ]
+  },
+  {
+   "n": 769,
+   "id": "pmid:41813900",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "In the 110 patients given risk-adaptive treatment, three-year failure-free survival was 89.1% after a median follow-up of 47.3 months.",
+     "evidence": "After a median follow-up of 47.3 months, the 3-year FFS was 89.1% (83.2-95.0%) in the RAT group (n = 110).",
+     "note": "The follow-up time, the group size and the three-year failure-free survival are all given."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Failure-free survival was significantly better with risk-adaptive treatment than in the external cohort that did not receive it, with a hazard ratio of 0.41.",
+     "evidence": "Patients who received RAT showed significantly improved FFS (P = 0.003, log-rank test) compared with the no-RAT external cohort (hazard ratio = 0.41 [0.23-0.75]; P = 0.004, Cox regression model).",
+     "note": "The comparison against the no-RAT cohort, its significance and the hazard ratio are reported."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The risk-adaptive strategy reduced treatment costs compared with standard-of-care chemoradiotherapy.",
+     "evidence": "Collectively, these data show that a ctDNA-driven RAT paradigm could be a promising strategy to improve survival, challenging the conventional fixed-course, static treatment approach.",
+     "note": "The abstract argues for a survival benefit over fixed-course treatment but never measures or compares costs."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Tolerance of the risk-adaptive strategy was good and no deaths were attributed to the treatment.",
+     "evidence": "The RAT strategy was well-tolerated with no treatment-related deaths.",
+     "note": "Both tolerability and the absence of treatment-related deaths are stated."
+    }
+   ]
+  },
+  {
+   "n": 770,
+   "id": "pmid:41708853",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Population genetic analysis found signatures of positive selection on rs112233623-T in Sardinia, a region where malaria was formerly prevalent.",
+     "evidence": "Using population genetic methods, we observe signatures of positive selection for rs112233623-T in the genetic history of Sardinia, a region in which malaria was once prevalent.",
+     "note": "The selection signature and the Sardinian malaria history are both reported."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The rs112233623-T allele breaks a SMAD3 binding site, weakens enhancer activity, lowers CCND3 expression in erythroblasts and blocks the G1-S transition.",
+     "evidence": "We show that rs112233623-T disrupts a binding site for the transcription factor SMAD3, weakens enhancer activity and, in erythrocyte precursors (erythroblasts), is associated with reduced CCND3 expression and inhibition of the G1-S cell-cycle transition",
+     "note": "Each step of this chain is reported as a result in the abstract."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Carriers of rs112233623-T admitted to hospital with malaria had lower mortality than non-carriers.",
+     "evidence": "Our results suggest that a reduction in CCND3 in erythroblasts constitutes a mechanism of resistance to malaria, and could enable therapeutic interventions.",
+     "note": "Resistance is inferred from cultured erythrocytes and population genetics; no patient outcomes such as mortality are reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Plasmodium falciparum grew less well in cultured erythrocytes from rs112233623-T carriers, and the degree of impairment tracked ROS levels.",
+     "evidence": "we show that parasite growth is impaired in cultured Plasmodium falciparum-infected erythrocytes from rs112233623-T carriers, and that this impairment correlates with ROS levels",
+     "note": "Impaired parasite growth in carrier erythrocytes and its correlation with ROS are both reported."
+    }
+   ]
+  },
+  {
+   "n": 771,
+   "id": "pmid:42092150",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Integrating over 10 million single-cell and spatial spot transcriptomes from carcinomas and melanomas yielded nine broadly conserved spatial ecotypes.",
+     "evidence": "By integrating over 10 million single-cell and spot-level spatial transcriptomes from diverse human carcinomas and melanomas, we identified nine SEs with broad conservation",
+     "note": "The data volume and the number of ecotypes identified are stated directly."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "The cfDNA-based ecotype assay selected patients for immunotherapy better than PD-L1 immunohistochemistry.",
+     "evidence": "Our data reveal fundamental units of TME organization and demonstrate a multimodal platform for profiling solid and liquid TMEs, with implications for improved risk stratification and therapy personalization.",
+     "note": "Improved stratification is offered as an implication, but no comparison with PD-L1 immunohistochemistry or any other clinical assay is reported."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "DNA methylation profiling distinguished the spatial ecotypes, and deep learning recovered them from plasma cell-free DNA.",
+     "evidence": "Notably, SEs were distinguishable by DNA methylation profiling and were recoverable from plasma cell-free DNA (cfDNA) using deep learning.",
+     "note": "Both the methylation-based distinction and the cfDNA recovery by deep learning are reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "In cfDNA from nearly 100 melanoma patients, levels of the spatial ecotypes showed strong associations with immunotherapy response.",
+     "evidence": "In cfDNA from nearly 100 patients with melanoma, SE levels exhibited striking associations with immunotherapy response.",
+     "note": "The cohort size and the association with immunotherapy response are stated."
+    }
+   ]
+  },
+  {
+   "n": 772,
+   "id": "pmid:42875489",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Grade 2 histology accounted for 73% of primary astrocytoma samples and 93% of primary oligodendroglioma samples.",
+     "evidence": "Most primary surgery samples were classified as grade 2 on the basis of histology (73% for astrocytomas and 93% for oligodendrogliomas).",
+     "note": "Both percentages are given for the primary surgery samples."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Recurrent oligodendrogliomas newly acquired PI3K and NOTCH1 mutations irrespective of treatment, and these came with an increased tumour mutational burden.",
+     "evidence": "Mutations in phosphatidylinositol 3-kinase (PI3K) and NOTCH1 were newly acquired in recurrent oligodendrogliomas, regardless of treatment, and were associated with an increased tumour mutational burden.",
+     "note": "The newly acquired mutations and their association with higher mutational burden are reported for recurrent oligodendrogliomas."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Patients with oligodendroglioma survived longer after recurrence than patients with astrocytoma.",
+     "evidence": "In both types of IDH-mutant glioma, we observed a convergence of acquired alterations, genome-wide changes and worse patient outcomes, suggesting that treatment-refractory clones were being selected.",
+     "note": "Outcomes are tied to acquired alterations within each tumour type, but survival is never compared between the two types."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Temozolomide treatment was linked to the SBS11 and SBS119 signatures in both tumour types, whereas the radiotherapy-associated ID8 signature rose only in astrocytomas.",
+     "evidence": "Treatment with temozolomide was associated with the mutational signatures SBS11 and SBS119 in both tumour types, whereas the radiotherapy-associated ID8 signature increased in astrocytomas specifically.",
+     "note": "The abstract assigns these signatures to the two treatments and notes that ID8 increased specifically in astrocytomas."
+    }
+   ]
+  },
+  {
+   "n": 773,
+   "id": "pmid:42749804",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "The loss of recombination in R. tenuis reduces its capacity to adapt to changing environments.",
+     "evidence": "Meiotic recombination ensures accurate chromosome segregation and promotes genetic diversity by generating crossovers between homologous chromosomes 1 .",
+     "note": "The role of recombination in generating diversity is background; no measurement of adaptive capacity in R. tenuis is reported."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Both male and female meiosis in R. tenuis are obligately achiasmate genome-wide, with synapsis failing and univalents persisting at metaphase I.",
+     "evidence": "we show that R. tenuis undergoes obligate, genome-wide achiasmy in both male and female meiosis. Despite normal early meiotic axis formation, synapsis fails, crossovers are undetectable cytologically and genetically, and univalents persist at metaphase I.",
+     "note": "Genome-wide achiasmy in both sexes and the cytological details are reported findings."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Transposable elements accumulating on one haplotype skew segregation in favour of the larger, repeat-rich chromosomes.",
+     "evidence": "Haplotype-specific accumulation of transposable elements generates segregation distortion favouring the transmission of larger, repeat-rich chromosomes.",
+     "note": "The haplotype-specific transposable element load is reported as the source of the transmission bias."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Viable seeds form only when translocation-compatible gametes meet, so all surviving offspring are genetically identical.",
+     "evidence": "fertilization yields viable seeds only when translocation-compatible gametes meet, indicating strong post-meiotic selection against incompatible homozygous combinations. As a result, all surviving offspring are genetically identical",
+     "note": "Post-meiotic selection on gamete compatibility and the genetic identity of surviving offspring are both reported."
+    }
+   ]
+  },
+  {
+   "n": 774,
+   "id": "pmid:41299173",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Feeding assays reproduced D. sechellia's preference for noni, while calcium imaging showed sweet sensitivity conserved and bitter sensitivity altered.",
+     "evidence": "Using quantitative feeding assays, we recapitulate the preference for noni in Dsec and detect conserved sweet but altered bitter sensitivity by means of calcium imaging in peripheral taste neurons.",
+     "note": "The behavioural preference and the split between conserved sweet and altered bitter sensitivity are both reported."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Noni activates bitter-sensing neurons more strongly in D. sechellia than in the two generalist species, owing to a small deletion in one gustatory receptor.",
+     "evidence": "Noni activates bitter-sensing neurons more strongly in Dsec than in the other two species owing to a small deletion in a single gustatory receptor.",
+     "note": "The stronger bitter-neuron response in the specialist and its receptor-level cause are stated directly."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The shift in food preference was sufficient to cause reproductive isolation between D. sechellia and D. simulans.",
+     "evidence": "Food choice is an important driver of speciation and invasion of novel ecological niches.",
+     "note": "Food choice is named as a driver of speciation in general, but no test of reproductive isolation between these species is reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Differences in dietary preference were mirrored by species-specific handling of noni and sucrose signals in sensorimotor circuits rather than by peripheral physiology.",
+     "evidence": "we show that instead of peripheral physiology, species-specific processing of noni and sucrose signals in sensorimotor circuits recapitulates differences in dietary preference",
+     "note": "Central sensorimotor processing, not peripheral physiology, is reported as what matches the preference differences."
+    }
+   ]
+  },
+  {
+   "n": 775,
+   "id": "pmid:37286599",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "BPDCN was found to originate from clonal premalignant haematopoietic precursors in the bone marrow.",
+     "evidence": "we find that BPDCN arises from clonal (premalignant) haematopoietic precursors in the bone marrow",
+     "note": "The bone marrow origin from premalignant clonal precursors is stated as a finding."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Patients with BPDCN report more lifetime sun exposure than people without the disease.",
+     "evidence": "A reconstruction of tumour phylogenies reveals that UV damage can precede the acquisition of alterations associated with malignant transformation, implicating sun exposure of plasmacytoid dendritic cells or committed precursors during BPDCN pathogenesis.",
+     "note": "UV damage is inferred from tumour genomes; no exposure comparison with people who do not have BPDCN is reported."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "BPDCN skin tumours appeared first at sun-exposed body sites and carried clonally expanded mutations caused by ultraviolet radiation.",
+     "evidence": "We observe that BPDCN skin tumours first develop at sun-exposed anatomical sites and are distinguished by clonally expanded mutations induced by ultraviolet (UV) radiation.",
+     "note": "Both the anatomical pattern and the UV-induced clonal mutations are reported observations."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Loss-of-function Tet2 mutations protected plasmacytoid dendritic cells from UV-induced cell death, but conventional dendritic cells were not protected.",
+     "evidence": "loss-of-function mutations in Tet2, the most common premalignant alteration in BPDCN, confer resistance to UV-induced cell death in plasmacytoid, but not conventional, dendritic cells",
+     "note": "The abstract reports the resistance and restricts it to plasmacytoid dendritic cells."
+    }
+   ]
+  },
+  {
+   "n": 776,
+   "id": "pmid:40267983",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The colibactin signatures SBS88 and ID18 were 3.3 times more common in people diagnosed before 40 years of age than in those over 70.",
+     "evidence": "SBS88 and ID18 were also enriched in early-onset colorectal cancers, being 3.3 times more common in individuals who were diagnosed before 40 years of age than in those over 70 years of age",
+     "note": "The enrichment in early-onset disease and its magnitude are stated directly."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Mutation burden and signatures varied among the 802 microsatellite-stable cancers, while microsatellite-unstable cancers showed no major differences.",
+     "evidence": "No major differences were found in microsatellite-unstable cancers, but variations in mutation burden and signatures were observed in the 802 microsatellite-stable cases.",
+     "note": "The contrast between the two groups and the number of microsatellite-stable cases are reported."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "In colibactin-positive cancers, ID18 accounted for about a quarter of APC driver indels, linking colibactin exposure to APC driver mutations.",
+     "evidence": "Colibactin exposure was further linked to APC driver mutations, with ID18 being responsible for about 25% of APC driver indels in colibactin-positive cases.",
+     "note": "The abstract attributes roughly 25% of APC driver indels in colibactin-positive cases to ID18."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Eliminating colibactin-producing bacteria from the gut in childhood lowers the risk of early-onset colorectal cancer.",
+     "evidence": "suggests that mutagenic exposure to colibactin-producing bacteria in early life may contribute to the increasing incidence of early-onset colorectal cancer",
+     "note": "Early-life exposure is raised as a possible contributor, but no intervention or risk-reduction result is reported."
+    }
+   ]
+  },
+  {
+   "n": 777,
+   "id": "pmid:37055640",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "ctDNA was detected within 120 days of surgery in 25% of patients, covering 49% of all patients who went on to relapse clinically.",
+     "evidence": "Landmark analyses of plasma samples collected within 120 days after surgery revealed ctDNA detection in 25% of patients, including 49% of all patients who experienced clinical relapse",
+     "note": "Both the landmark detection rate and the share of relapsing patients it captured are given."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Starting adjuvant chemotherapy on the basis of postoperative ctDNA detection improved survival in these patients.",
+     "evidence": "Postoperative plasma analyses were interpreted within the context of standard-of-care radiological surveillance and administration of cytotoxic adjuvant therapy.",
+     "note": "Adjuvant therapy is part of the clinical context only; no outcome of ctDNA-guided treatment decisions is reported."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Absence of ctDNA before surgery marked out biologically indolent lung adenocarcinoma with a good clinical outcome.",
+     "evidence": "A lack of preoperative ctDNA detection distinguished biologically indolent lung adenocarcinoma with good clinical outcome.",
+     "note": "The abstract reports preoperative ctDNA-negativity as distinguishing this indolent group."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "In preoperative plasma, subclones that later seeded metastases were significantly more expanded than non-metastatic subclones.",
+     "evidence": "By measuring subclone cancer cell fractions in preoperative plasma, we found that subclones seeding future metastases were significantly more expanded compared with non-metastatic subclones.",
+     "note": "The comparison of cancer cell fractions between metastasis-seeding and non-metastatic subclones is a reported result."
+    }
+   ]
+  },
+  {
+   "n": 778,
+   "id": "pmid:38081297",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "In most cases mutations were better represented in plasma than in the bulk tumour, making classic Hodgkin lymphoma well suited to non-invasive profiling.",
+     "evidence": "Here we show that the plasma representation of mutations exceeds the bulk tumour representation in most cases, making cHL particularly amenable to noninvasive profiling.",
+     "note": "The abstract reports plasma representation exceeding bulk tumour representation in most cases."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Profiling of 366 patients revealed two genomic subtypes of classic Hodgkin lymphoma with distinct clinical, prognostic, transcriptional and immunological features.",
+     "evidence": "we comprehensively profile 366 patients, revealing two distinct cHL genomic subtypes with characteristic clinical and prognostic correlates, as well as distinct transcriptional and immunological profiles",
+     "note": "The cohort size, the two subtypes and their correlates are all stated."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Patients carrying truncating IL4R mutations had worse outcomes than patients without them.",
+     "evidence": "Furthermore, we identify a novel class of truncating IL4R mutations that are dependent on IL-13 signalling",
+     "note": "The mutations are characterized as IL-13-dependent and druggable, but no outcome comparison by IL4R mutation status is reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Shedding of Hodgkin and Reed-Sternberg ctDNA is shaped by DNASE1L3, whose raised expression from the tumour microenvironment drives high ctDNA concentrations.",
+     "evidence": "we demonstrate Hodgkin and Reed-Sternberg ctDNA shedding to be shaped by DNASE1L3, whose increased tumour microenvironment-derived expression drives high ctDNA concentrations",
+     "note": "The role of DNASE1L3 and the source of its expression are reported as the mechanism of high ctDNA levels."
+    }
+   ]
+  },
+  {
+   "n": 779,
+   "id": "pmid:39972134",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "ctDNA tracking of 467 somatic variants showed the EGFR wild-type clone was present before vaccination and expanded during osimertinib plus vaccine therapy.",
+     "evidence": "Circulating tumour DNA analyses tracking 467 somatic variants revealed the presence of this EGFR wild-type clone before vaccination and its expansion during osimertinib/NPV therapy.",
+     "note": "The number of tracked variants, the pre-vaccination presence and the expansion of the clone are all reported."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The vaccine failed to stop disease progression even though systemic T cell reactivity against the targeted ex19del neoantigen was present.",
+     "evidence": "Despite systemic T cell reactivity to the vaccine-targeted ex19del neoantigen, the NPV failed to halt disease progression.",
+     "note": "The abstract states both the T cell reactivity and the lack of control of progression."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The liver metastasis responded to subsequent chemotherapy after the vaccine failed.",
+     "evidence": "The liver metastasis lost vaccine-targeted neoantigens through chromosomal instability and exhibited a hostile microenvironment, characterized by limited immune infiltration, low CXCL9 and elevated M2 macrophage levels.",
+     "note": "The biology of the metastasis is described, but no later treatment or its response is reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Neoantigens arising after whole-genome doubling were more often lost from the progressing liver metastasis than those arising before it.",
+     "evidence": "Neoantigens arising post-WGD were more likely to be absent in the progressing liver metastasis than those occurring pre-WGD",
+     "note": "The abstract compares loss of post-WGD and pre-WGD neoantigens in the progressing metastasis."
+    }
+   ]
+  }
+ ],
+ "flip_rule": "first-of-any-v2",
+ "flip_rule_history": [
+  "first-of-any"
+ ]
+}

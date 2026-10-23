@@ -1,0 +1,707 @@
+{
+"batch": "check_C_23",
+"pass": "C",
+"source_batch": "gen_23",
+"items": [
+{
+"n": 700,
+"id": "pmid:42361315",
+"year": 2026,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Conopholis americana (American cancer-root) and Epifagus virginiana (beechdrops) are sister genera of holoparasitic plants (Orobanchaceae) native to eastern North America, parasitizing oaks and American beech, respectively. Both have served as models for plastid genome reduction, yet no nuclear genomes exist for either genus or any New World holoparasitic Orobanchaceae. Here we present the first nuclear genome assemblies for both species using PacBio HiFi sequencing. The C. americana assembly totals 1.82 Gb and E. virginiana totals 440 Mb, representing an approximately 4-fold difference in genome size between these sister genera. We observed a BUSCO completeness of 79% to 80% in both species, which is typical of holoparasites. While gene prediction identified 33,889 genes in C. americana and 21,031 in E. virginiana, repeat annotation revealed that LTR retrotransposons account for 78% of the genome size difference. These assemblies reveal contrasting mechanisms of genome evolution in sister holoparasitic genera and provide foundational resources for comparative genomics of parasitic plants."
+}
+],
+"text": "Conopholis americana (American cancer-root) and Epifagus virginiana (beechdrops) are sister genera of holoparasitic plants (Orobanchaceae) native to eastern North America, parasitizing oaks and American beech, respectively. Both have served as models for plastid genome reduction, yet no nuclear genomes exist for either genus or any New World holoparasitic Orobanchaceae. Here we present the first nuclear genome assemblies for both species using PacBio HiFi sequencing. The C. americana assembly totals 1.82 Gb and E. virginiana totals 440 Mb, representing an approximately 4-fold difference in genome size between these sister genera. We observed a BUSCO completeness of 79% to 80% in both species, which is typical of holoparasites. While gene prediction identified 33,889 genes in C. americana and 21,031 in E. virginiana, repeat annotation revealed that LTR retrotransposons account for 78% of the genome size difference. These assemblies reveal contrasting mechanisms of genome evolution in sister holoparasitic genera and provide foundational resources for comparative genomics of parasitic plants.",
+"statements": [
+{
+"j": 1,
+"text": "LTR retrotransposons make up 78% of the genome size gap between the two genera."
+},
+{
+"j": 2,
+"text": "The two sister genera split from their common ancestor less than five million years ago."
+},
+{
+"j": 3,
+"text": "Gene prediction returned fewer genes in Conopholis americana (33,889) than in Epifagus virginiana (21,031)."
+},
+{
+"j": 4,
+"text": "The Conopholis americana assembly is about four times the size of the Epifagus virginiana assembly, 1.82 Gb against 440 Mb."
+}
+]
+},
+{
+"n": 701,
+"id": "doi:10.64898/2026.06.06.730518",
+"year": 2026,
+"field": "evogen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Identification of target genes for bacterial transcription factors (TFs) provide a deeper understanding of bacterial response to environmental conditions. We focused on two Rhodanobacter sp. isolates from the subsurface of the U.S. Department of Energy Oak Ridge Reservation (ORR), an environment characterized by high-concentration mixed-waste contamination plumes. Bacterial strains in this subsurface ecosystem experience changing and complex environmental conditions, including variable nutrient and oxygen availability, fluctuating pH, nitrate and metals. We examined 91 DNA-binding TFs from 17 TF families in two Rhodanobacter strains, R. denitrificans FW104-10B01 and R. thiooxydans FW510-R12, using both DNA affinity purification sequencing (DAP-seq) and comparative genomics. Target genes regulated by 31 TFs were identified. Despite being isolated from different wells, the two strains shared a highly similar core regulatory network, with orthologous TFs regulating nearly identical sets of genes. These conserved networks governed essential survival functions, including nutrient uptake (e.g., phosphate), carbohydrate metabolism, motility, and stress responses to heavy metals and oxidative environment. TF-binding sequence motifs were also inferred for each of the 31 TFs. Key results include the elucidation of a global regulator Clp which regulates a large number of genes, particularly those involved in biofilm formation and motility. Functional validation through RT-qPCR confirmed that Clp activates the expression of genes critical for type IV pilin structure and flagellar regulation. Our work highlights the advantages of synergistically employing DAP-seq and comparative genomics, which enabled us to corroborate findings and obtain a larger view of the regulatory landscape of these non-model denitrifying bacteria."
+}
+],
+"text": "Identification of target genes for bacterial transcription factors (TFs) provide a deeper understanding of bacterial response to environmental conditions. We focused on two Rhodanobacter sp. isolates from the subsurface of the U.S. Department of Energy Oak Ridge Reservation (ORR), an environment characterized by high-concentration mixed-waste contamination plumes. Bacterial strains in this subsurface ecosystem experience changing and complex environmental conditions, including variable nutrient and oxygen availability, fluctuating pH, nitrate and metals. We examined 91 DNA-binding TFs from 17 TF families in two Rhodanobacter strains, R. denitrificans FW104-10B01 and R. thiooxydans FW510-R12, using both DNA affinity purification sequencing (DAP-seq) and comparative genomics. Target genes regulated by 31 TFs were identified. Despite being isolated from different wells, the two strains shared a highly similar core regulatory network, with orthologous TFs regulating nearly identical sets of genes. These conserved networks governed essential survival functions, including nutrient uptake (e.g., phosphate), carbohydrate metabolism, motility, and stress responses to heavy metals and oxidative environment. TF-binding sequence motifs were also inferred for each of the 31 TFs. Key results include the elucidation of a global regulator Clp which regulates a large number of genes, particularly those involved in biofilm formation and motility. Functional validation through RT-qPCR confirmed that Clp activates the expression of genes critical for type IV pilin structure and flagellar regulation. Our work highlights the advantages of synergistically employing DAP-seq and comparative genomics, which enabled us to corroborate findings and obtain a larger view of the regulatory landscape of these non-model denitrifying bacteria.",
+"statements": [
+{
+"j": 1,
+"text": "Of the 91 DNA-binding transcription factors screened, target genes were pinned down for 31 of them."
+},
+{
+"j": 2,
+"text": "RT-qPCR showed that the global regulator Clp raises expression of genes required for type IV pilin structure and flagellar regulation."
+},
+{
+"j": 3,
+"text": "The biofilm genes under Clp control are switched on when these bacteria meet heavy metals."
+},
+{
+"j": 4,
+"text": "Although the two strains came from different wells, their orthologous transcription factors regulated almost the same sets of genes."
+}
+]
+},
+{
+"n": 702,
+"id": "doi:10.1101/2025.09.16.25335845",
+"year": 2025,
+"field": "evogen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Malaria remains a major public health concern in Ethiopia, where both Plasmodium falciparum and Plasmodium vivax are endemic. Notably, P . vivax infections have been documented in duffy-negative individuals, who were traditionally thought to be resistant to this parasite. PvDBP gene duplication has been proposed as a mechanism for P. vivax to invade erythrocytes in these individuals, but evidence is limited. We conducted a cross-sectional study from 2020 to 2021 with1,154 febrile patients in three Ethiopian regions: Gambela, Oromia, and SNNPR. Plasmodium species were identified by PCR, Duffy genotypes by TaqMan allelic discrimination assay and PvDBP gene duplication by semi-nested PCR. Plasmodium infection was detected in 46% of patients: 49% had P. falciparum , 26% had mixed P . falciparum / P . vivax infections, and 23% had P. vivax mono-infections. Duffy genotyping showed 41% were Duffy negative, 44% heterozygous, and 16% Duffy positive homozygous, with significant regional differences. As expected, P. vivax mono-infections were rare among Duffy-negative individuals (2.4%), while P. falciparum infection prevalence was similar across Duffy genotypes. Among P. falciparum / P. vivax mixed-infections, 25% were Duffy negative. Off 155 samples successfully tested for the PvDBP gene duplication, 78% showed gene duplication, especially in Gambela (94%), where Duffy-negative individuals were most prominent. The prevalence of duplication did not differ between Duffy-positive homozygous and heterozygous individuals. Only one P. vivax mono-infection in a Duffy negative individual was examined and no gene duplication was detected. Our findings suggest possible interactions between Duffy negative infection by P. vivax and co-infection with P. falciparum . The high prevalence of PvDBP gene duplication, particularly in regions with high Duffy negativity, may reflect evolutionary pressure to overcome host receptor barriers. These results underscore the need for molecular surveillance to monitor emerging parasite adaptations in populations previously considered resistant to P. vivax ."
+}
+],
+"text": "Malaria remains a major public health concern in Ethiopia, where both Plasmodium falciparum and Plasmodium vivax are endemic. Notably, P . vivax infections have been documented in duffy-negative individuals, who were traditionally thought to be resistant to this parasite. PvDBP gene duplication has been proposed as a mechanism for P. vivax to invade erythrocytes in these individuals, but evidence is limited. We conducted a cross-sectional study from 2020 to 2021 with1,154 febrile patients in three Ethiopian regions: Gambela, Oromia, and SNNPR. Plasmodium species were identified by PCR, Duffy genotypes by TaqMan allelic discrimination assay and PvDBP gene duplication by semi-nested PCR. Plasmodium infection was detected in 46% of patients: 49% had P. falciparum , 26% had mixed P . falciparum / P . vivax infections, and 23% had P. vivax mono-infections. Duffy genotyping showed 41% were Duffy negative, 44% heterozygous, and 16% Duffy positive homozygous, with significant regional differences. As expected, P. vivax mono-infections were rare among Duffy-negative individuals (2.4%), while P. falciparum infection prevalence was similar across Duffy genotypes. Among P. falciparum / P. vivax mixed-infections, 25% were Duffy negative. Off 155 samples successfully tested for the PvDBP gene duplication, 78% showed gene duplication, especially in Gambela (94%), where Duffy-negative individuals were most prominent. The prevalence of duplication did not differ between Duffy-positive homozygous and heterozygous individuals. Only one P. vivax mono-infection in a Duffy negative individual was examined and no gene duplication was detected. Our findings suggest possible interactions between Duffy negative infection by P. vivax and co-infection with P. falciparum . The high prevalence of PvDBP gene duplication, particularly in regions with high Duffy negativity, may reflect evolutionary pressure to overcome host receptor barriers. These results underscore the need for molecular surveillance to monitor emerging parasite adaptations in populations previously considered resistant to P. vivax .",
+"statements": [
+{
+"j": 1,
+"text": "P. vivax mono-infection was uncommon among Duffy-positive individuals (2.4%), while P. falciparum prevalence hardly varied by Duffy genotype."
+},
+{
+"j": 2,
+"text": "Duffy-negative patients carried higher P. vivax parasite densities than Duffy-positive patients."
+},
+{
+"j": 3,
+"text": "PCR detected Plasmodium infection in 46% of the febrile patients examined."
+},
+{
+"j": 4,
+"text": "Among 155 samples tested, 78% carried the PvDBP duplication, with the share reaching 94% in Gambela."
+}
+]
+},
+{
+"n": 703,
+"id": "pmid:42599638",
+"year": 2026,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Klebsiella pneumoniae is a major global health threat due to the rapid spread of antimicrobial resistance (AMR), which severely limits treatment options. Although horizontal gene transfer of mobile genetic elements is a key driver of multidrug resistance, this study explores how adaptive evolution within the core genome may also contribute to the clinical success of resistant strains. Using whole-genome sequencing-based pangenome analysis of clinically relevant classical K. pneumoniae isolates, we identified 3159 variants distributed across 414 core genes, indicating that even highly conserved cellular functions accumulate mutations in clinical environments. Functional enrichment analysis revealed a significant concentration of mutations in the aminoacyl-tRNA synthetase (aaRS) pathway, a central component of protein synthesis and a known antibiotic target. Multiple missense variants were detected in eight aaRS genes, with the Asn366Asp mutation in metG present in all analyzed isolates. We hypothesize that this conserved, recurrent mutation may contribute to bacterial adaptation, potentially by modulating protein synthesis, although this proposed mechanism remains speculative and requires experimental validation. Recurrent mutations were also observed in ileS and leuS, both targets of existing antimicrobials, while a Ser480Pro mutation in pyrG (CTP synthase) was identified in several isolates. Overall, these findings highlight core genome variation as a potential contributor to antimicrobial resistance in K. pneumoniae and suggest that conserved mutations such as metG Asn366Asp may represent candidate genomic biomarkers warranting further investigation. Because this study is based solely on comparative genomics, the proposed functional and mechanistic interpretations should be regarded as hypotheses for future experimental testing."
+}
+],
+"text": "Klebsiella pneumoniae is a major global health threat due to the rapid spread of antimicrobial resistance (AMR), which severely limits treatment options. Although horizontal gene transfer of mobile genetic elements is a key driver of multidrug resistance, this study explores how adaptive evolution within the core genome may also contribute to the clinical success of resistant strains. Using whole-genome sequencing-based pangenome analysis of clinically relevant classical K. pneumoniae isolates, we identified 3159 variants distributed across 414 core genes, indicating that even highly conserved cellular functions accumulate mutations in clinical environments. Functional enrichment analysis revealed a significant concentration of mutations in the aminoacyl-tRNA synthetase (aaRS) pathway, a central component of protein synthesis and a known antibiotic target. Multiple missense variants were detected in eight aaRS genes, with the Asn366Asp mutation in metG present in all analyzed isolates. We hypothesize that this conserved, recurrent mutation may contribute to bacterial adaptation, potentially by modulating protein synthesis, although this proposed mechanism remains speculative and requires experimental validation. Recurrent mutations were also observed in ileS and leuS, both targets of existing antimicrobials, while a Ser480Pro mutation in pyrG (CTP synthase) was identified in several isolates. Overall, these findings highlight core genome variation as a potential contributor to antimicrobial resistance in K. pneumoniae and suggest that conserved mutations such as metG Asn366Asp may represent candidate genomic biomarkers warranting further investigation. Because this study is based solely on comparative genomics, the proposed functional and mechanistic interpretations should be regarded as hypotheses for future experimental testing.",
+"statements": [
+{
+"j": 1,
+"text": "Mutations in ileS and leuS raise resistance to the antimicrobials that target those enzymes."
+},
+{
+"j": 2,
+"text": "Pangenome analysis of the clinical isolates turned up 3,159 variants spread over 414 core genes."
+},
+{
+"j": 3,
+"text": "Mutations were significantly concentrated in the aminoacyl-tRNA synthetase pathway, with missense variants in eight aaRS genes."
+},
+{
+"j": 4,
+"text": "The Asn366Asp substitution in metG was present in every isolate analysed."
+}
+]
+},
+{
+"n": 704,
+"id": "pmid:42499656",
+"year": 2026,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": "Introduction",
+"text": "Russula (Russulaceae, Basidiomycota) is a widely distributed genus of ectomycorrhizal fungi."
+},
+{
+"label": "Methods",
+"text": "In this study, we assembled and annotated the complete mitochondrial genomes (mitogenomes) of six Russula species."
+},
+{
+"label": "Results",
+"text": "The mitogenomes ranged from 41,017 bp ( R. hookeri ) to 57,170 bp ( R . aff. cessans ). This size variation appears to be partly influenced by intron content, as the smallest genome ( R. hookeri ) lacks introns in the cox1 gene. All mitogenomes contained 15 core protein-coding genes (PCGs) ( atp6 , atp8 , atp9 , cob , cox1 - cox3 , nad1 - nad6 , nad4L , and rps3 ), two rRNA genes, and 25-27 tRNA genes, with the largest intergenic spacer consistently located between rrnL and nad6 . Codon usage showed a strong bias toward A/U-ending codons, with UUA (Leu) and AGA (Arg) exhibiting the highest relative synonymous codon usage (RSCU) values. Notably, trnM was newly annotated in the trnE - trnL region across all six species. Selective pressure analysis revealed that 14 of the 15 core PCGs were under purifying selection (Ka/Ks < 1), while rps3 showed elevated Ka/Ks values in some species, suggesting possible relaxed or positive selection. Phylogenetic analysis based on 57 mitochondrial sequences resolved the relationships among the six Russula species."
+},
+{
+"label": "Discussion",
+"text": "This study enriches the mitogenomic resources of Russulaceae and provides a foundation for future phylogenetic and evolutionary studies of Russula ."
+}
+],
+"text": "Russula (Russulaceae, Basidiomycota) is a widely distributed genus of ectomycorrhizal fungi. In this study, we assembled and annotated the complete mitochondrial genomes (mitogenomes) of six Russula species. The mitogenomes ranged from 41,017 bp ( R. hookeri ) to 57,170 bp ( R . aff. cessans ). This size variation appears to be partly influenced by intron content, as the smallest genome ( R. hookeri ) lacks introns in the cox1 gene. All mitogenomes contained 15 core protein-coding genes (PCGs) ( atp6 , atp8 , atp9 , cob , cox1 - cox3 , nad1 - nad6 , nad4L , and rps3 ), two rRNA genes, and 25-27 tRNA genes, with the largest intergenic spacer consistently located between rrnL and nad6 . Codon usage showed a strong bias toward A/U-ending codons, with UUA (Leu) and AGA (Arg) exhibiting the highest relative synonymous codon usage (RSCU) values. Notably, trnM was newly annotated in the trnE - trnL region across all six species. Selective pressure analysis revealed that 14 of the 15 core PCGs were under purifying selection (Ka/Ks < 1), while rps3 showed elevated Ka/Ks values in some species, suggesting possible relaxed or positive selection. Phylogenetic analysis based on 57 mitochondrial sequences resolved the relationships among the six Russula species. This study enriches the mitogenomic resources of Russulaceae and provides a foundation for future phylogenetic and evolutionary studies of Russula .",
+"statements": [
+{
+"j": 1,
+"text": "Mitogenome size across the six species ran from about 41 kb in R. hookeri to about 57 kb in R. aff. cessans."
+},
+{
+"j": 2,
+"text": "Every one of the six mitogenomes held the same 15 core protein-coding genes, two rRNA genes and 25 to 27 tRNA genes."
+},
+{
+"j": 3,
+"text": "Fourteen of the fifteen core protein-coding genes had Ka/Ks above 1, whereas rps3 showed raised values in some species."
+},
+{
+"j": 4,
+"text": "The six Russula species differ in the tree hosts with which they form ectomycorrhizae."
+}
+]
+},
+{
+"n": 705,
+"id": "doi:10.1101/2025.08.04.668583",
+"year": 2025,
+"field": "evogen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Winged bean (Psophocarpus tetragonolobus) is a nutritionally rich but cytologically and genomically underexplored legume with potential for climate-resilient agriculture. We report a telomere-to-telomere, chromosome-scale genome assembly (~697.69 Mb; N50 = 85.98 Mb; ~98.25% of the cytometric estimate) of the cultivar AKWB1 using a combination of PacBio HiFi, Illumina, BioNano, and Hi-C technologies. Cytogenetics revealed a diploid karyotype (2n = 18) with exclusively metacentric chromosomes, establishing the first chromosomal ideotype map for the species. The high-quality assembly anchors 98.28% of bases to nine pseudochromosomes and includes 53,745 annotated protein-coding genes, with 97.6% BUSCO completeness. Repeat elements comprise ~60% of the genome, dominated by LINEs, LTRs, and DNA transposons. KEGG and GO annotations reveal diverse biosynthetic capabilities across metabolic and stress-response pathways. Comparative genomics with nine legumes demonstrates conserved chromosomal synteny with Glycine max, absence of recent whole-genome duplication, and a contraction-dominated gene family history. Lipid metabolism analysis identified 750+ genes across 12 KEGG pathways, including fatty acid biosynthesis, elongation, and triacylglycerol assembly. Chromosomes 2, 3, and 5 showed enrichment of lipid biosynthetic loci, suggesting evolutionary hotspots. This reference genome positions P. tetragonolobus as a valuable model for studying genome evolution and engineering underutilized legumes for oil yield, protein enrichment, and climate adaptability."
+}
+],
+"text": "Winged bean (Psophocarpus tetragonolobus) is a nutritionally rich but cytologically and genomically underexplored legume with potential for climate-resilient agriculture. We report a telomere-to-telomere, chromosome-scale genome assembly (~697.69 Mb; N50 = 85.98 Mb; ~98.25% of the cytometric estimate) of the cultivar AKWB1 using a combination of PacBio HiFi, Illumina, BioNano, and Hi-C technologies. Cytogenetics revealed a diploid karyotype (2n = 18) with exclusively metacentric chromosomes, establishing the first chromosomal ideotype map for the species. The high-quality assembly anchors 98.28% of bases to nine pseudochromosomes and includes 53,745 annotated protein-coding genes, with 97.6% BUSCO completeness. Repeat elements comprise ~60% of the genome, dominated by LINEs, LTRs, and DNA transposons. KEGG and GO annotations reveal diverse biosynthetic capabilities across metabolic and stress-response pathways. Comparative genomics with nine legumes demonstrates conserved chromosomal synteny with Glycine max, absence of recent whole-genome duplication, and a contraction-dominated gene family history. Lipid metabolism analysis identified 750+ genes across 12 KEGG pathways, including fatty acid biosynthesis, elongation, and triacylglycerol assembly. Chromosomes 2, 3, and 5 showed enrichment of lipid biosynthetic loci, suggesting evolutionary hotspots. This reference genome positions P. tetragonolobus as a valuable model for studying genome evolution and engineering underutilized legumes for oil yield, protein enrichment, and climate adaptability.",
+"statements": [
+{
+"j": 1,
+"text": "Comparison against nine legumes showed chromosomal synteny divergent with Glycine max and no recent whole-genome duplication."
+},
+{
+"j": 2,
+"text": "Cytogenetic work found a diploid karyotype of 2n = 18 in which every chromosome is metacentric."
+},
+{
+"j": 3,
+"text": "Repetitive elements take up roughly 60% of the assembly, with LINEs, LTRs and DNA transposons predominating."
+},
+{
+"j": 4,
+"text": "Winged bean seeds hold more oil than soybean seeds."
+}
+]
+},
+{
+"n": 706,
+"id": "pmid:40774815",
+"year": 2025,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Evolutionary rate covariation (ERC) is an established comparative genomics method that identifies sets of genes sharing patterns of sequence evolution, which suggests shared function. Whereas many functional predictions of ERC have been empirically validated, its predictive power has hitherto been limited by its inability to tackle the large numbers of species in contemporary comparative genomics data sets. This study introduces ERC2.0, an enhanced methodology for studying ERC across phylogenies with hundreds of species and tens of thousands of genes. ERC2.0 improves upon previous iterations of ERC in algorithm speed, normalizing for heteroskedasticity, and normalizing correlations via Fisher transformations. These improvements have resulted in greater statistical power to predict biological function. In exemplar yeast and mammalian data sets, we demonstrate that the predictive power of ERC2.0 is improved relative to the previous method, ERC1.0, and that further improvements are obtained by using larger yeast and mammalian phylogenies. We attribute the improvements to both the larger data sets and improved rate normalization. We demonstrate that ERC2.0 has high predictive accuracy for known annotations and can predict the functions of genes in nonmodel systems. Our findings underscore the potential for ERC2.0 to be used as a single-pass computational tool in candidate gene screening and functional predictions."
+}
+],
+"text": "Evolutionary rate covariation (ERC) is an established comparative genomics method that identifies sets of genes sharing patterns of sequence evolution, which suggests shared function. Whereas many functional predictions of ERC have been empirically validated, its predictive power has hitherto been limited by its inability to tackle the large numbers of species in contemporary comparative genomics data sets. This study introduces ERC2.0, an enhanced methodology for studying ERC across phylogenies with hundreds of species and tens of thousands of genes. ERC2.0 improves upon previous iterations of ERC in algorithm speed, normalizing for heteroskedasticity, and normalizing correlations via Fisher transformations. These improvements have resulted in greater statistical power to predict biological function. In exemplar yeast and mammalian data sets, we demonstrate that the predictive power of ERC2.0 is improved relative to the previous method, ERC1.0, and that further improvements are obtained by using larger yeast and mammalian phylogenies. We attribute the improvements to both the larger data sets and improved rate normalization. We demonstrate that ERC2.0 has high predictive accuracy for known annotations and can predict the functions of genes in nonmodel systems. Our findings underscore the potential for ERC2.0 to be used as a single-pass computational tool in candidate gene screening and functional predictions.",
+"statements": [
+{
+"j": 1,
+"text": "ERC2.0 recovered known annotations accurately and assigned functions to genes in nonmodel systems."
+},
+{
+"j": 2,
+"text": "The new implementation is built to run on phylogenies of hundreds of species and tens of thousands of genes."
+},
+{
+"j": 3,
+"text": "In the yeast and mammalian test data, ERC2.0 predicted function better than ERC1.0, and smaller phylogenies improved it further."
+},
+{
+"j": 4,
+"text": "ERC2.0 outperforms phylogenetic profiling approaches based on gene presence and absence."
+}
+]
+},
+{
+"n": 707,
+"id": "pmid:42897971",
+"year": 2026,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The southern African endemic tree Greyia Hook. & Harv. (Francoaceae, Geraniales) comprises three species distinguished by striking variation in trichome morphology and inflorescence architecture, yet the genomic and regulatory basis of these traits has remained largely unexplored. Here, we present chromosome-scale genome assemblies for all recognised Greyia species, namely Greyia radlkoferi, Greyia sutherlandii, and Greyia flanaganii, providing the first high-quality genomic resources for Geraniales. Phylogenomic analyses placed Geraniales as sister to Crossosomatales, with divergence at ~103 million years ago (Mya), and indicated that Greyia diversified recently during the Quaternary (~1.39 Mya). Comparative genomics revealed a Greyia-specific palaeo-hexaploidisation event dated to ~87 Mya, followed by fractionation but with extensive retention of ancestral gene sets in either triplicated or duplicated states across syntenic regions. Transcriptomic analyses revealed regulatory divergence in the conserved MYB-bHLH-WD40 (MBW) network likely associated with variation in trichome morphology, including undetectable GL1 expression and altered GL3/EGL3 expression in G. sutherlandii. In addition, analyses of flower and inflorescence traits identified expansion of MADS-box transcription factor families and species-specific cis-regulatory divergence in LFY and FT. Notably, predicted AGL6 binding sites are retained in the LFY and FT promoters of G. radlkoferi and G. sutherlandii but absent in G. flanaganii, consistent with differences in inflorescence density among species. Together, these results demonstrate how polyploidy and regulatory divergence of conserved developmental pathways have shaped morphological diversification in Greyia."
+}
+],
+"text": "The southern African endemic tree Greyia Hook. & Harv. (Francoaceae, Geraniales) comprises three species distinguished by striking variation in trichome morphology and inflorescence architecture, yet the genomic and regulatory basis of these traits has remained largely unexplored. Here, we present chromosome-scale genome assemblies for all recognised Greyia species, namely Greyia radlkoferi, Greyia sutherlandii, and Greyia flanaganii, providing the first high-quality genomic resources for Geraniales. Phylogenomic analyses placed Geraniales as sister to Crossosomatales, with divergence at ~103 million years ago (Mya), and indicated that Greyia diversified recently during the Quaternary (~1.39 Mya). Comparative genomics revealed a Greyia-specific palaeo-hexaploidisation event dated to ~87 Mya, followed by fractionation but with extensive retention of ancestral gene sets in either triplicated or duplicated states across syntenic regions. Transcriptomic analyses revealed regulatory divergence in the conserved MYB-bHLH-WD40 (MBW) network likely associated with variation in trichome morphology, including undetectable GL1 expression and altered GL3/EGL3 expression in G. sutherlandii. In addition, analyses of flower and inflorescence traits identified expansion of MADS-box transcription factor families and species-specific cis-regulatory divergence in LFY and FT. Notably, predicted AGL6 binding sites are retained in the LFY and FT promoters of G. radlkoferi and G. sutherlandii but absent in G. flanaganii, consistent with differences in inflorescence density among species. Together, these results demonstrate how polyploidy and regulatory divergence of conserved developmental pathways have shaped morphological diversification in Greyia.",
+"statements": [
+{
+"j": 1,
+"text": "Geraniales was placed as sister to Crossosomatales with a split around 103 Mya, while Greyia itself radiated only about 1.39 Mya."
+},
+{
+"j": 2,
+"text": "In G. sutherlandii, GL1 expression was undetectable and GL3/EGL3 expression was altered within the MBW network."
+},
+{
+"j": 3,
+"text": "Greyia flanaganii occupies drier habitats than the other two Greyia species."
+},
+{
+"j": 4,
+"text": "A palaeo-hexaploidisation event unique to Greyia was dated to roughly 87 Mya and was followed by fractionation."
+}
+]
+},
+{
+"n": 708,
+"id": "pmid:41323330",
+"year": 2025,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Auxin, as a central phytohormone and signaling molecule, plays a crucial role in plant growth and development. The activity of auxin is tightly regulated by the auxin-responsive GH3 gene family. In this study, a total of 40 GH3 genes in A. thaliana , S. miltiorrhiza , and O. sativa were identified and subjected to comprehensive study. Phylogenetic analysis revealed that those GH3 genes can be classified into three distinct subgroups, with 11 pairs of paralogs identified. Genetic divergence analysis indicated that the GH3 gene family had predominantly experienced purifying selection as evidenced by the Ka/Ks ratio being less than 1 for all 11 paralogs pairs. Positive selection analysis with the site and branch-site models further suggested that SmGH3 AtGH3 and OsGH3 genes had gone through purifying selective pressure for adaptive evolution. Motif analysis indicated that group-specific motifs may contribute to functional divergence across species and subgroups. Functional divergence analysis confirmed that subgroup-specific genes have experienced functional divergence during evolution, and elucidated the molecular mechanisms underlying their divergent functions. The tissue-specific expression analysis of SmGH3 AtGH3 and OsGH3 genes revealed that these genes might perform distinct functions in different tissues. This study performed a comprehensive bioinformatics analysis of the GH3 gene family, offering valuable information to further elucidate the functional roles of GH3 genes."
+}
+],
+"text": "Auxin, as a central phytohormone and signaling molecule, plays a crucial role in plant growth and development. The activity of auxin is tightly regulated by the auxin-responsive GH3 gene family. In this study, a total of 40 GH3 genes in A. thaliana , S. miltiorrhiza , and O. sativa were identified and subjected to comprehensive study. Phylogenetic analysis revealed that those GH3 genes can be classified into three distinct subgroups, with 11 pairs of paralogs identified. Genetic divergence analysis indicated that the GH3 gene family had predominantly experienced purifying selection as evidenced by the Ka/Ks ratio being less than 1 for all 11 paralogs pairs. Positive selection analysis with the site and branch-site models further suggested that SmGH3 AtGH3 and OsGH3 genes had gone through purifying selective pressure for adaptive evolution. Motif analysis indicated that group-specific motifs may contribute to functional divergence across species and subgroups. Functional divergence analysis confirmed that subgroup-specific genes have experienced functional divergence during evolution, and elucidated the molecular mechanisms underlying their divergent functions. The tissue-specific expression analysis of SmGH3 AtGH3 and OsGH3 genes revealed that these genes might perform distinct functions in different tissues. This study performed a comprehensive bioinformatics analysis of the GH3 gene family, offering valuable information to further elucidate the functional roles of GH3 genes.",
+"statements": [
+{
+"j": 1,
+"text": "Forty GH3 genes were catalogued across the three species and sorted into three phylogenetic subgroups containing 11 paralog pairs."
+},
+{
+"j": 2,
+"text": "Every one of the 11 paralog pairs had a Ka/Ks ratio above 1, indicating mainly purifying selection on the family."
+},
+{
+"j": 3,
+"text": "Silencing individual GH3 genes lowers free auxin levels in these plants."
+},
+{
+"j": 4,
+"text": "Expression of the GH3 genes varied between tissues in the three species, pointing to different roles in different tissues."
+}
+]
+},
+{
+"n": 709,
+"id": "pmid:40329166",
+"year": 2025,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "As a dicotyledonous plant within the Styracaceae family, Sinojackia microcarpa (S. microcarpa) is notable for its library-shaped fruit and sparse distribution, serving as a model system for studying the entire tree family. However, the scarcity of genomic data, particularly concerning the mitochondrial and nuclear sequences of S. microcarpa, has substantially impeded our understanding of its evolutionary traits and fundamental biological mechanisms."
+},
+{
+"label": "Results",
+"text": "This study presents the first complete mitochondrial genome sequence of S. microcarpa and conducts a comparative analysis of its protein-encoding genes across eight plant species. Our analysis revealed that the mitochondrial genome of S. microcarpa spans 687,378 base pairs and contains a total of 59 genes, which include 37 protein-coding genes (PCGs), 20 transfer RNA (tRNA) genes, and 2 ribosomal RNA (rRNA) genes. Sixteen plastid-derived fragments strongly linked with mitochondrial genes, including one intact plastid-related gene (rps7), were identified. Additionally, Ka/Ks ratio analysis revealed that most mitochondrial genes are under purifying selection, with a few genes, such as nad9 and ccmB, showing signs of relaxed or adaptive evolution. An analysis of twenty-nine protein-coding genes from twenty-four plant species reveals that S. microcarpa exhibits a closer evolutionary relationship with species belonging to the genus Camellia. The findings of this study provide new genomic data that enhance our understanding of S. microcarpa, and reveal its mitochondrial genome's evolutionary proximity to other dicotyledonous species."
+},
+{
+"label": "Conclusions",
+"text": "Overall, this research enhances our understanding of the evolutionary and comparative genomics of S. microcarpa and other plants in the Styracaceae family and lays the foundation for future genetic studies and evolutionary analyses in the Styracaceae family."
+}
+],
+"text": "As a dicotyledonous plant within the Styracaceae family, Sinojackia microcarpa (S. microcarpa) is notable for its library-shaped fruit and sparse distribution, serving as a model system for studying the entire tree family. However, the scarcity of genomic data, particularly concerning the mitochondrial and nuclear sequences of S. microcarpa, has substantially impeded our understanding of its evolutionary traits and fundamental biological mechanisms. This study presents the first complete mitochondrial genome sequence of S. microcarpa and conducts a comparative analysis of its protein-encoding genes across eight plant species. Our analysis revealed that the mitochondrial genome of S. microcarpa spans 687,378 base pairs and contains a total of 59 genes, which include 37 protein-coding genes (PCGs), 20 transfer RNA (tRNA) genes, and 2 ribosomal RNA (rRNA) genes. Sixteen plastid-derived fragments strongly linked with mitochondrial genes, including one intact plastid-related gene (rps7), were identified. Additionally, Ka/Ks ratio analysis revealed that most mitochondrial genes are under purifying selection, with a few genes, such as nad9 and ccmB, showing signs of relaxed or adaptive evolution. An analysis of twenty-nine protein-coding genes from twenty-four plant species reveals that S. microcarpa exhibits a closer evolutionary relationship with species belonging to the genus Camellia. The findings of this study provide new genomic data that enhance our understanding of S. microcarpa, and reveal its mitochondrial genome's evolutionary proximity to other dicotyledonous species. Overall, this research enhances our understanding of the evolutionary and comparative genomics of S. microcarpa and other plants in the Styracaceae family and lays the foundation for future genetic studies and evolutionary analyses in the Styracaceae family.",
+"statements": [
+{
+"j": 1,
+"text": "Least mitochondrial genes were under purifying selection, with nad9 and ccmB among the few showing relaxed or adaptive evolution."
+},
+{
+"j": 2,
+"text": "The sparse distribution of S. microcarpa goes together with low genetic diversity in its remaining populations."
+},
+{
+"j": 3,
+"text": "The mitochondrial genome measures 687,378 bp and carries 59 genes: 37 protein-coding, 20 tRNA and 2 rRNA."
+},
+{
+"j": 4,
+"text": "Sixteen plastid-derived fragments were detected, one of them an intact plastid-related gene, rps7."
+}
+]
+},
+{
+"n": 710,
+"id": "doi:10.64898/2026.07.22.740151",
+"year": 2026,
+"field": "evogen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "The evolution of visual systems is tightly linked to the diversification of visually guided behaviors. Using Heliconius butterflies, renowned for their rapid diversification of wing color patterns and corresponding visual mate preferences, we investigate the evolution of compound eye cell types across a complete speciation continuum. By integrating population genomics, chromatin conformation capture, and single-nucleus multi-omics, we uncover multi-modal mechanisms driving visual system evolution. Within a population polymorphic for mate preference, we identify senseless-2 as a glia-expressing candidate visual preference gene. Across species, we reveal that photoreceptors, particularly the color-sensing R7s, are the fastest-evolving cell types. Furthermore, we molecularly characterize novel R2/5 and R7 photoreceptor subtypes, showing that cellular subfunctionalization arises through the co-option of existing gene regulatory networks. Together, this comparative single-cell analysis of compound eyes bridges microevolutionary transcriptomic divergence with macroevolutionary cellular innovations."
+}
+],
+"text": "The evolution of visual systems is tightly linked to the diversification of visually guided behaviors. Using Heliconius butterflies, renowned for their rapid diversification of wing color patterns and corresponding visual mate preferences, we investigate the evolution of compound eye cell types across a complete speciation continuum. By integrating population genomics, chromatin conformation capture, and single-nucleus multi-omics, we uncover multi-modal mechanisms driving visual system evolution. Within a population polymorphic for mate preference, we identify senseless-2 as a glia-expressing candidate visual preference gene. Across species, we reveal that photoreceptors, particularly the color-sensing R7s, are the fastest-evolving cell types. Furthermore, we molecularly characterize novel R2/5 and R7 photoreceptor subtypes, showing that cellular subfunctionalization arises through the co-option of existing gene regulatory networks. Together, this comparative single-cell analysis of compound eyes bridges microevolutionary transcriptomic divergence with macroevolutionary cellular innovations.",
+"statements": [
+{
+"j": 1,
+"text": "Disrupting senseless-2 changes which wing colour patterns males court."
+},
+{
+"j": 2,
+"text": "In a population polymorphic for mate preference, senseless-2 came out as a candidate visual preference gene expressed in glia."
+},
+{
+"j": 3,
+"text": "The newly described R2/5 and R7 photoreceptor subtypes arose by co-opting gene regulatory networks that already existed."
+},
+{
+"j": 4,
+"text": "Across species, photoreceptors turned out to be the fastest-evolving compound eye cell types, the colour-sensing R7s least of all."
+}
+]
+},
+{
+"n": 711,
+"id": "doi:10.64898/2026.05.27.728091",
+"year": 2026,
+"field": "evogen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "High-quality chromosome-scale assemblies are scarce in Papilionidae. This limits comparative genomics to model species, Lepidoptera, Bombyx mori. Here, we present a phased, chromosome-level genome assembly of Parides eurimedes mylotes. We generated this assembly using PacBio HiFi sequencing and assembled it with hifiasm. The final haplotype assemblies (Hap1 and Hap2) span 274 Mb and 270 Mb, respectively. These assemblies are organized into 31 near-telomere-to-telomere chromosomes, with scaffold N50 values of 9.72 Mb and 9.22 Mb, respectively. BUSCO analysis revealed assembly completeness of 96.6% and 96.4% for Hap1 and Hap2, respectively. Repeats annotation identified 18-19% repetitive content, with Helitron elements being the dominant class of transposable elements. We identified the W and Z sex chromosomes and completely assembled the mitochondrial genome. Compared to the previously available Parides photinus draft assembly, our genome exhibits an 11,000-fold reduction in scaffold fragmentation and nearly complete gene assembly. This assembly provides a robust genomic reference for functional, evolutionary, and multi-omics investigation in Papilionidae. In addition to serving as a high-quality genomic reference for Papilionidae, this assembly is essential for linking the genetic architecture of butterfly wings to the hierarchical nanostructures underlying structural coloration. By identifying the genes and regulatory networks involved in scale morphogenesis, we can correlate the butterfly's genotype with its photonic function. This insight into the evolutionary origin of the biological photonic systems informs the design of biomimetic, structurally colored materials."
+}
+],
+"text": "High-quality chromosome-scale assemblies are scarce in Papilionidae. This limits comparative genomics to model species, Lepidoptera, Bombyx mori. Here, we present a phased, chromosome-level genome assembly of Parides eurimedes mylotes. We generated this assembly using PacBio HiFi sequencing and assembled it with hifiasm. The final haplotype assemblies (Hap1 and Hap2) span 274 Mb and 270 Mb, respectively. These assemblies are organized into 31 near-telomere-to-telomere chromosomes, with scaffold N50 values of 9.72 Mb and 9.22 Mb, respectively. BUSCO analysis revealed assembly completeness of 96.6% and 96.4% for Hap1 and Hap2, respectively. Repeats annotation identified 18-19% repetitive content, with Helitron elements being the dominant class of transposable elements. We identified the W and Z sex chromosomes and completely assembled the mitochondrial genome. Compared to the previously available Parides photinus draft assembly, our genome exhibits an 11,000-fold reduction in scaffold fragmentation and nearly complete gene assembly. This assembly provides a robust genomic reference for functional, evolutionary, and multi-omics investigation in Papilionidae. In addition to serving as a high-quality genomic reference for Papilionidae, this assembly is essential for linking the genetic architecture of butterfly wings to the hierarchical nanostructures underlying structural coloration. By identifying the genes and regulatory networks involved in scale morphogenesis, we can correlate the butterfly's genotype with its photonic function. This insight into the evolutionary origin of the biological photonic systems informs the design of biomimetic, structurally colored materials.",
+"statements": [
+{
+"j": 1,
+"text": "Repetitive sequence accounted for 18-19% of the genome, and Helitrons were the leading transposable element class."
+},
+{
+"j": 2,
+"text": "The genes behind the nanostructures that produce this butterfly's structural colour were pinpointed in the new assembly."
+},
+{
+"j": 3,
+"text": "Against the later Parides photinus draft, the new genome cuts scaffold fragmentation about 11,000-fold."
+},
+{
+"j": 4,
+"text": "The two haplotype assemblies cover 274 Mb and 270 Mb and resolve into 31 near-telomere-to-telomere chromosomes."
+}
+]
+},
+{
+"n": 712,
+"id": "doi:10.64898/2026.04.29.26352026",
+"year": 2026,
+"field": "evogen",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "The rise of antimicrobial resistance (AMR) in the Lake Chad Basin poses a significant threat to global health. While Escherichia coli and Klebsiella pneumoniae are primary concerns for the WHO, Proteus species have emerged as important clinical pathogens and potential reservoirs for genetic resistance. This study aimed to analyze the molecular diversity and horizontal gene transfer (HGT) potential of ESBL-producing Proteus species in the region."
+},
+{
+"label": "Methods",
+"text": "A regional surveillance was conducted with 1,500 clinical samples from Borno, Adamawa, Bauchi, Gombe, Taraba, and Yobe states. Proteus isolates were identified biochemically, and antibiotic susceptibility was assessed using the Kirby-Bauer method. Resistance genes (blaTEM, blaSHV, blaCTX-M) were identified via PCR, and HGT was evaluated through conjugation assays."
+},
+{
+"label": "Results",
+"text": "A total of 144 Proteus isolates were identified, with a prevalence of 9.6%. P. mirabilis was the dominant species (90.97%). Phenotypic screening indicated that 69.44% produced extended-spectrum beta-lactamases (ESBL), with high resistance rates observed for Cefotaxime (80.56%) and Ampicillin (84.72%). Alarmingly, resistance to Ertapenem reached 54.86%. Molecular analysis showed blaTEM as the predominant gene (81.69%), and the conjugation assay revealed a high HGT rate of 76.92%, confirming blaTEM acquisition by E. coli."
+},
+{
+"label": "Conclusion",
+"text": "These results indicate that Proteus species in North-Eastern Nigeria are significant reservoirs for genetic resistance, facilitating the spread of ESBL markers. The high frequency of HGT raises concerns about the effectiveness of beta-lactam therapies in sub-Saharan Africa, underscoring the need to include Proteus in the GLASS framework and promote regional antimicrobial stewardship efforts."
+},
+{
+"label": "Current Understanding",
+"text": "Antimicrobial resistance (AMR) in Enterobacteriaceae, particularly with Escherichia coli and Klebsiella pneumoniae, is a significant global issue highlighted by the World Health Organization’s Global Antimicrobial Resistance and Use Surveillance System (WHO GLASS). While Proteus species are recognized as opportunistic pathogens, their role as genetic reservoirs in sub-Saharan Africa, especially in the Lake Chad Basin, remains inadequately defined in surveillance data."
+},
+{
+"label": "Study Contribution",
+"text": "This study identifies Proteus species as a critical “Genetic Hub” for the transmission of extended-spectrum beta-lactamases (ESBL) in North-Eastern Nigeria, revealing a high horizontal gene transfer (HGT) rate of 76.92% for the blaTEM genotype to E. coli. It also shows a concerning 54.86% resistance rate to Ertapenem, underscoring the urgent need to include Proteus in regional stewardship and global surveillance efforts."
+}
+],
+"text": "The rise of antimicrobial resistance (AMR) in the Lake Chad Basin poses a significant threat to global health. While Escherichia coli and Klebsiella pneumoniae are primary concerns for the WHO, Proteus species have emerged as important clinical pathogens and potential reservoirs for genetic resistance. This study aimed to analyze the molecular diversity and horizontal gene transfer (HGT) potential of ESBL-producing Proteus species in the region. A regional surveillance was conducted with 1,500 clinical samples from Borno, Adamawa, Bauchi, Gombe, Taraba, and Yobe states. Proteus isolates were identified biochemically, and antibiotic susceptibility was assessed using the Kirby-Bauer method. Resistance genes (blaTEM, blaSHV, blaCTX-M) were identified via PCR, and HGT was evaluated through conjugation assays. A total of 144 Proteus isolates were identified, with a prevalence of 9.6%. P. mirabilis was the dominant species (90.97%). Phenotypic screening indicated that 69.44% produced extended-spectrum beta-lactamases (ESBL), with high resistance rates observed for Cefotaxime (80.56%) and Ampicillin (84.72%). Alarmingly, resistance to Ertapenem reached 54.86%. Molecular analysis showed blaTEM as the predominant gene (81.69%), and the conjugation assay revealed a high HGT rate of 76.92%, confirming blaTEM acquisition by E. coli. These results indicate that Proteus species in North-Eastern Nigeria are significant reservoirs for genetic resistance, facilitating the spread of ESBL markers. The high frequency of HGT raises concerns about the effectiveness of beta-lactam therapies in sub-Saharan Africa, underscoring the need to include Proteus in the GLASS framework and promote regional antimicrobial stewardship efforts. Antimicrobial resistance (AMR) in Enterobacteriaceae, particularly with Escherichia coli and Klebsiella pneumoniae, is a significant global issue highlighted by the World Health Organization’s Global Antimicrobial Resistance and Use Surveillance System (WHO GLASS). While Proteus species are recognized as opportunistic pathogens, their role as genetic reservoirs in sub-Saharan Africa, especially in the Lake Chad Basin, remains inadequately defined in surveillance data. This study identifies Proteus species as a critical “Genetic Hub” for the transmission of extended-spectrum beta-lactamases (ESBL) in North-Eastern Nigeria, revealing a high horizontal gene transfer (HGT) rate of 76.92% for the blaTEM genotype to E. coli. It also shows a concerning 54.86% resistance rate to Ertapenem, underscoring the urgent need to include Proteus in regional stewardship and global surveillance efforts.",
+"statements": [
+{
+"j": 1,
+"text": "ESBL production was seen in 69.44% of isolates, with resistance at 84.72% for ampicillin and 80.56% for cefotaxime."
+},
+{
+"j": 2,
+"text": "Patients infected with ESBL-producing Proteus isolates stayed in hospital longer than other patients."
+},
+{
+"j": 3,
+"text": "The surveillance recovered 144 Proteus isolates, a prevalence of 9.6%, and P. mirabilis accounted for 90.97% of them."
+},
+{
+"j": 4,
+"text": "blaTEM was the commonest resistance gene at 81.69%, and conjugation assays transferred it to E. coli in 76.92% of cases."
+}
+]
+},
+{
+"n": 713,
+"id": "pmid:40652163",
+"year": 2025,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Calmodulin-like (CML) transcription factors function as calcium (Ca 2 ⁺) signal sensors and play a pivotal role in plant cold resistance. Although this gene family has been identified in various plant species, the characteristics of the CML gene family in Curcuma alismatifolia and its function under cold stress remain largely unknown. This study identified 202 CACML genes in the Curcuma alismatifolia genome, which were phylogenetically classified into four clades. Members within each clade shared conserved gene structures and motifs. Gene duplication analysis revealed that segmental duplication events (44 events) served as the primary driving force for the expansion of the CACML family. Most homologous gene pairs were subjected to strong purifying selection during evolution, while CACML86 underwent positive selection in both C. alismatifolia and A. viiosum. Promoter regions were enriched with cis-acting elements associated with growth and development, biotic/abiotic stress responses, and hormone responsiveness, suggesting diverse functional roles for CACML genes. Transcriptome analysis indicated that CACML140 regulates the cold stress response in Curcuma alismatifolia via the MAPK cascade signaling pathway. These findings enhance our understanding of CML-mediated cold stress responses in Curcuma alismatifolia and establish a framework for the systematic dissection of CML gene function and the regulatory network governing cold hardiness."
+}
+],
+"text": "Calmodulin-like (CML) transcription factors function as calcium (Ca 2 ⁺) signal sensors and play a pivotal role in plant cold resistance. Although this gene family has been identified in various plant species, the characteristics of the CML gene family in Curcuma alismatifolia and its function under cold stress remain largely unknown. This study identified 202 CACML genes in the Curcuma alismatifolia genome, which were phylogenetically classified into four clades. Members within each clade shared conserved gene structures and motifs. Gene duplication analysis revealed that segmental duplication events (44 events) served as the primary driving force for the expansion of the CACML family. Most homologous gene pairs were subjected to strong purifying selection during evolution, while CACML86 underwent positive selection in both C. alismatifolia and A. viiosum. Promoter regions were enriched with cis-acting elements associated with growth and development, biotic/abiotic stress responses, and hormone responsiveness, suggesting diverse functional roles for CACML genes. Transcriptome analysis indicated that CACML140 regulates the cold stress response in Curcuma alismatifolia via the MAPK cascade signaling pathway. These findings enhance our understanding of CML-mediated cold stress responses in Curcuma alismatifolia and establish a framework for the systematic dissection of CML gene function and the regulatory network governing cold hardiness.",
+"statements": [
+{
+"j": 1,
+"text": "Segmental duplication, with 44 events counted, was the main force behind contraction of the CACML family."
+},
+{
+"j": 2,
+"text": "Most homologous gene pairs bore strong purifying selection, while CACML86 was positively selected in both C. alismatifolia and A. viiosum."
+},
+{
+"j": 3,
+"text": "Overexpressing CACML140 makes Curcuma alismatifolia plants survive frost better."
+},
+{
+"j": 4,
+"text": "The Curcuma alismatifolia genome yielded 202 CACML genes, which fell into four phylogenetic clades."
+}
+]
+},
+{
+"n": 714,
+"id": "doi:10.1101/2024.08.15.608152",
+"year": 2024,
+"field": "evogen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "While influenza A virus (IAV) antigenic drift has been documented globally, in experimental animal infections, and in immunocompromised hosts, positive selection has generally not been detected in acute infections. This is likely due to challenges in distinguishing selected rare mutations from sequencing error, a reliance on cross-sectional sampling, and/or the lack of formal tests of selection for individual sites. Here, we sequenced IAV populations from 346 serial, daily nasal swabs from 143 individuals collected over three influenza seasons in a household cohort. Viruses were sequenced in duplicate, and intrahost single nucleotide variants (iSNV) were identified at a 0.5% frequency threshold. Within-host populations were subject to purifying selection with >75% mutations present at <2% frequency. Children (0-5 years) had marginally higher within-host evolutionary rates than adolescents (6-18 years) and adults (>18 years, 4.4x10 -6 vs. 9.42x10 -7 and 3.45x10 -6 , p <0.001). Forty-five iSNV had evidence of parallel evolution, but were not overrepresented in HA and NA. Several increased from minority to consensus level, with strong linkage among iSNV across segments. A Wright Fisher Approximate Bayesian Computational model identified positive selection at 23/256 loci (9%) in A(H3N2) specimens and 19/176 loci (11%) in A(H1N1)pdm09 specimens, and these were infrequently found in circulation. Overall, we found that within-host IAV populations were subject to purifying selection and genetic drift, with only subtle differences across seasons, subtypes, and age strata. Positive selection was rare and inconsistently detected."
+}
+],
+"text": "While influenza A virus (IAV) antigenic drift has been documented globally, in experimental animal infections, and in immunocompromised hosts, positive selection has generally not been detected in acute infections. This is likely due to challenges in distinguishing selected rare mutations from sequencing error, a reliance on cross-sectional sampling, and/or the lack of formal tests of selection for individual sites. Here, we sequenced IAV populations from 346 serial, daily nasal swabs from 143 individuals collected over three influenza seasons in a household cohort. Viruses were sequenced in duplicate, and intrahost single nucleotide variants (iSNV) were identified at a 0.5% frequency threshold. Within-host populations were subject to purifying selection with >75% mutations present at <2% frequency. Children (0-5 years) had marginally higher within-host evolutionary rates than adolescents (6-18 years) and adults (>18 years, 4.4x10 -6 vs. 9.42x10 -7 and 3.45x10 -6 , p <0.001). Forty-five iSNV had evidence of parallel evolution, but were not overrepresented in HA and NA. Several increased from minority to consensus level, with strong linkage among iSNV across segments. A Wright Fisher Approximate Bayesian Computational model identified positive selection at 23/256 loci (9%) in A(H3N2) specimens and 19/176 loci (11%) in A(H1N1)pdm09 specimens, and these were infrequently found in circulation. Overall, we found that within-host IAV populations were subject to purifying selection and genetic drift, with only subtle differences across seasons, subtypes, and age strata. Positive selection was rare and inconsistently detected.",
+"statements": [
+{
+"j": 1,
+"text": "Children aged 0-5 had somewhat higher within-host evolutionary rates than adolescents and adults, at p below 0.001."
+},
+{
+"j": 2,
+"text": "Purifying selection dominated within hosts, with less than 75% of mutations sitting below 2% frequency."
+},
+{
+"j": 3,
+"text": "The Wright Fisher model flagged positive selection at 9% of A(H3N2) loci and 11% of A(H1N1)pdm09 loci examined."
+},
+{
+"j": 4,
+"text": "Vaccination status of the cohort members shaped within-host evolutionary rates."
+}
+]
+},
+{
+"n": 715,
+"id": "pmid:40755821",
+"year": 2025,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The liverwort genus Pleurozia , a morphologically specialized bryophyte group, holds unique taxonomic and evolutionary significance. This study sequenced and assembled the chloroplast genomes of three Pleurozia species ( P. acinosa , P. gigantea , and P. subinflata ), with genome sizes of 118,233 bp, 118,423 bp, and 118,304 bp, respectively. All three genomes exhibit the typical quadripartite structure. Comparative genomics analyses, including the genome of P. purpurea , revealed high conservation in genome size, gene content, and inverted repeat (IR) boundaries. Coding regions were more conserved than noncoding and intronic regions, suggesting the potential of the latter as molecular markers. The IR regions also displayed significantly lower sequence divergence compared to the single-copy regions. Most protein-coding genes were subject to purifying selection, whereas ycf66 and ndhD showed signs of positive selection. Codon usage bias analyses across the four species identified a consistent preference for U- and A-ending codons, with a moderate bias primarily shaped by natural selection, in conjunction with mutation pressure. Phylogenetic analyses based on 35 liverwort chloroplast genomes strongly supported the monophyly of Pleurozia and confirmed Pleuroziales as an evolutionary intermediate between thalloid and leafy liverworts. These findings provide valuable genomic resources for improving our understanding of species delimitation, phylogenetic relationships, and evolutionary mechanisms in liverworts."
+}
+],
+"text": "The liverwort genus Pleurozia , a morphologically specialized bryophyte group, holds unique taxonomic and evolutionary significance. This study sequenced and assembled the chloroplast genomes of three Pleurozia species ( P. acinosa , P. gigantea , and P. subinflata ), with genome sizes of 118,233 bp, 118,423 bp, and 118,304 bp, respectively. All three genomes exhibit the typical quadripartite structure. Comparative genomics analyses, including the genome of P. purpurea , revealed high conservation in genome size, gene content, and inverted repeat (IR) boundaries. Coding regions were more conserved than noncoding and intronic regions, suggesting the potential of the latter as molecular markers. The IR regions also displayed significantly lower sequence divergence compared to the single-copy regions. Most protein-coding genes were subject to purifying selection, whereas ycf66 and ndhD showed signs of positive selection. Codon usage bias analyses across the four species identified a consistent preference for U- and A-ending codons, with a moderate bias primarily shaped by natural selection, in conjunction with mutation pressure. Phylogenetic analyses based on 35 liverwort chloroplast genomes strongly supported the monophyly of Pleurozia and confirmed Pleuroziales as an evolutionary intermediate between thalloid and leafy liverworts. These findings provide valuable genomic resources for improving our understanding of species delimitation, phylogenetic relationships, and evolutionary mechanisms in liverworts.",
+"statements": [
+{
+"j": 1,
+"text": "The four Pleurozia species have overlapping geographic ranges."
+},
+{
+"j": 2,
+"text": "The three new chloroplast genomes were nearly the same size, from 118,233 bp to 118,423 bp, and all showed the usual quadripartite structure."
+},
+{
+"j": 3,
+"text": "Purifying selection acted on most protein-coding genes, while ycf66 and ndhD carried signs of positive selection."
+},
+{
+"j": 4,
+"text": "Coding regions were less conserved than noncoding and intronic ones, and the inverted repeats diverged significantly less than the single-copy regions."
+}
+]
+},
+{
+"n": 716,
+"id": "pmid:42525384",
+"year": 2026,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": "Motivation",
+"text": "Structural variations (SVs), including inversions, translocations (TRAs), duplications, and large insertions or deletions, are key drivers of genome evolution and phenotypic diversity. With the increasing number of high-quality, chromosome-scale genome assemblies, the ability to detect and interpret SVs has become a crucial aspect of modern genomics. While SV detection has advanced, most visualization methods produce static plots that fall short when researchers, particularly in comparative genomics, need to interactively explore large datasets, zoom into specific genomic regions, or dynamically filter structural events in real time."
+},
+{
+"label": "Results",
+"text": "To address this gap, we introduce SynFlow, a lightweight, web-based interactive application specifically designed for exploring and visualizing SVs identified by SyRI. We demonstrate that SynFlow can reproduce complex static synteny plots published in literature, but transforms them into dynamic, shareable visualizations that support real-time filtering, reordering, and deep exploration of specific SVs, including TRAs. SynFlow is available as a web server and offers multiple entry points: browsing precomputed datasets (e.g. banana and grapevine genomes), uploading user-provided SyRI outputs, or running an integrated workflow to produce and visualize SVs on the fly."
+},
+{
+"label": "Availability and implementation",
+"text": "https://synflow.southgreen.fr; source code https://github.com/SouthGreenPlatform/synflow; preprocessing Snakemake workflow https://gitlab.cirad.fr/agap/cluster/snakemake/synflow."
+}
+],
+"text": "Structural variations (SVs), including inversions, translocations (TRAs), duplications, and large insertions or deletions, are key drivers of genome evolution and phenotypic diversity. With the increasing number of high-quality, chromosome-scale genome assemblies, the ability to detect and interpret SVs has become a crucial aspect of modern genomics. While SV detection has advanced, most visualization methods produce static plots that fall short when researchers, particularly in comparative genomics, need to interactively explore large datasets, zoom into specific genomic regions, or dynamically filter structural events in real time. To address this gap, we introduce SynFlow, a lightweight, web-based interactive application specifically designed for exploring and visualizing SVs identified by SyRI. We demonstrate that SynFlow can reproduce complex static synteny plots published in literature, but transforms them into dynamic, shareable visualizations that support real-time filtering, reordering, and deep exploration of specific SVs, including TRAs. SynFlow is available as a web server and offers multiple entry points: browsing precomputed datasets (e.g. banana and grapevine genomes), uploading user-provided SyRI outputs, or running an integrated workflow to produce and visualize SVs on the fly. https://synflow.southgreen.fr; source code https://github.com/SouthGreenPlatform/synflow; preprocessing Snakemake workflow https://gitlab.cirad.fr/agap/cluster/snakemake/synflow.",
+"statements": [
+{
+"j": 1,
+"text": "SynFlow reproduced complex published static synteny plots and converted them into dynamic, shareable views with real-time filtering and reordering."
+},
+{
+"j": 2,
+"text": "Least current visualisation methods yield static plots that do not let users zoom into regions or filter structural events as they work."
+},
+{
+"j": 3,
+"text": "The web server takes three routes in: precomputed datasets such as banana and grapevine, uploaded SyRI output, or an integrated workflow that generates the variants."
+},
+{
+"j": 4,
+"text": "SynFlow renders structural variants faster than other available visualisation tools."
+}
+]
+},
+{
+"n": 717,
+"id": "pmid:39932919",
+"year": 2025,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Ribosomes, vital for life, consist of a large subunit and a small subunit (SSU), the latter is crucial for translation initiation and mRNA binding. The SSU processome, a 71-protein multimer in humans, is an intermediate in ribosome formation. One of its constituents, WDR75 plays a pivotal role by binding to an evolutionary conserved motif in the external transcribed spacer region of the rRNA to help form the SSU. Herein, we explore mammalian WDR75 molecular evolution, 3D structure, and phylogeny in light of its essential role in the SSU processome. We predict to find the footprint of purifying selection, especially at sites that are essential for proper ribosome assembly. In our comparison of 70 mammalian WDR75 sequences, we found ~25% of sites with significant purifying selection and no evidence of positive selection. Purifying selection was ~5x stronger for sites folding into beta-sheets than those predicted to be coils. Phylogenetic analysis validated expected mammalian relationships and uncovered an unusually long branch leading to mouse-eared bats, exhibiting 18x more substitutions per site than the average mammalian substitution rate. In testing for molecular evolution among branches, we found no evidence for purifying selection along any individual branches, but unexpectedly detected significant diversifying selection solely among African great apes."
+}
+],
+"text": "Ribosomes, vital for life, consist of a large subunit and a small subunit (SSU), the latter is crucial for translation initiation and mRNA binding. The SSU processome, a 71-protein multimer in humans, is an intermediate in ribosome formation. One of its constituents, WDR75 plays a pivotal role by binding to an evolutionary conserved motif in the external transcribed spacer region of the rRNA to help form the SSU. Herein, we explore mammalian WDR75 molecular evolution, 3D structure, and phylogeny in light of its essential role in the SSU processome. We predict to find the footprint of purifying selection, especially at sites that are essential for proper ribosome assembly. In our comparison of 70 mammalian WDR75 sequences, we found ~25% of sites with significant purifying selection and no evidence of positive selection. Purifying selection was ~5x stronger for sites folding into beta-sheets than those predicted to be coils. Phylogenetic analysis validated expected mammalian relationships and uncovered an unusually long branch leading to mouse-eared bats, exhibiting 18x more substitutions per site than the average mammalian substitution rate. In testing for molecular evolution among branches, we found no evidence for purifying selection along any individual branches, but unexpectedly detected significant diversifying selection solely among African great apes.",
+"statements": [
+{
+"j": 1,
+"text": "Sites that fold into beta-sheets were under about five times stronger purifying selection than sites predicted to be coils."
+},
+{
+"j": 2,
+"text": "No branch showed purifying selection on its own, yet significant diversifying selection appeared only among African great apes."
+},
+{
+"j": 3,
+"text": "The faster WDR75 substitution rate in mouse-eared bats goes with a changed rate of ribosome assembly in those species."
+},
+{
+"j": 4,
+"text": "In 70 mammalian WDR75 sequences, roughly a quarter of sites showed significant purifying selection and none showed negative selection."
+}
+]
+},
+{
+"n": 718,
+"id": "pmid:40168346",
+"year": 2025,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "A major goal of evolutionary biology is to identify the genetic basis for the emergence of complex adaptive traits. Diatoms are ancestrally photosynthetic microalgae. However, in the genus Nitzschia, loss of photosynthesis led to a group of free-living secondary heterotrophs whose manner of acquiring chemical energy is unclear. Here, we sequence the genome of the non-photosynthetic diatom Nitzschia sing1 and identify the genetic basis for its catabolism of the brown algal cell wall polysaccharide alginate. N. sing1 obtained an endolytic alginate lyase enzyme by horizontal gene transfer (HGT) from a marine bacterium. Subsequent gene duplication through unequal crossing over and transposition led to 91 genes in three distinct gene families. One family retains the ancestral endolytic enzyme function. By contrast, the two others underwent domain duplication, gain, loss, rearrangement, and mutation to encode novel functions that can account for oligosaccharide import through the endomembrane system and the exolytic production of alginate monosaccharides. Together, our results show how a single HGT event followed by substantial gene duplication and neofunctionalization led to alginate catabolism and access to a new ecological niche."
+}
+],
+"text": "A major goal of evolutionary biology is to identify the genetic basis for the emergence of complex adaptive traits. Diatoms are ancestrally photosynthetic microalgae. However, in the genus Nitzschia, loss of photosynthesis led to a group of free-living secondary heterotrophs whose manner of acquiring chemical energy is unclear. Here, we sequence the genome of the non-photosynthetic diatom Nitzschia sing1 and identify the genetic basis for its catabolism of the brown algal cell wall polysaccharide alginate. N. sing1 obtained an endolytic alginate lyase enzyme by horizontal gene transfer (HGT) from a marine bacterium. Subsequent gene duplication through unequal crossing over and transposition led to 91 genes in three distinct gene families. One family retains the ancestral endolytic enzyme function. By contrast, the two others underwent domain duplication, gain, loss, rearrangement, and mutation to encode novel functions that can account for oligosaccharide import through the endomembrane system and the exolytic production of alginate monosaccharides. Together, our results show how a single HGT event followed by substantial gene duplication and neofunctionalization led to alginate catabolism and access to a new ecological niche.",
+"statements": [
+{
+"j": 1,
+"text": "One of the three gene families kept the ancestral endolytic enzyme activity."
+},
+{
+"j": 2,
+"text": "Nitzschia sing1 grows faster on alginate than on the other carbon sources tested."
+},
+{
+"j": 3,
+"text": "The other two families changed their domains and sequences to encode new functions covering oligosaccharide import and exolytic release of alginate monosaccharides."
+},
+{
+"j": 4,
+"text": "An endolytic alginate lyase picked up from a marine bacterium by horizontal transfer contracted into 91 genes across three gene families."
+}
+]
+},
+{
+"n": 719,
+"id": "pmid:39902196",
+"year": 2024,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": "Introduction",
+"text": "Garuga forrestii W. W. Sm. is a tree species of the Burseraceae family, endemic to China, found in hot/warm-dry valleys. This species plays a crucial role in maintaining biodiversity in these ecosystems."
+},
+{
+"label": "Methods",
+"text": "We performed de novo assembly of the Garuga forrestii mitochondrial genome using PMAT (v.1.5.4), resulting in a typical circular molecule of 606,853 bp. The genome consists of 31 tRNA genes, 3 rRNA genes, 35 protein-coding genes, and 1 pseudogene. The study also investigates RNA editing sites and evolutionary patterns."
+},
+{
+"label": "Results",
+"text": "The mitochondrial genome exhibits a low proportion of repetitive sequences (3.30%), suggesting a highly conserved structure. A high copy number of the trnM-CAT gene (4 copies) is noted, which may contribute to genomic rearrangement and adaptive evolution. Among the 476 RNA editing sites, hydrophilic-hydrophobic and hydrophobic-hydrophobic editing events are most common, accounting for 77.10%. Negative selection predominates among most genes (Ka/Ks < 1), while a few genes (e.g., matR , nad3 , rps1 , rps12 , and rps4 ) show signs of positive selection (Ka/Ks > 1), potentially conferring evolutionary advantages. Additionally, a significant A/T bias is observed at the third codon position. Phylogenomic analysis supports the APG IV classification, with no evidence of horizontal gene transfer."
+},
+{
+"label": "Discussion",
+"text": "This mitochondrial genome offers valuable insights into the adaptive mechanisms and evolutionary processes of Garuga forrestii . It enhances our understanding of the species' biogeography in tropical Southeast Asia and Southwest China, providing key information on the evolutionary history of this genus."
+}
+],
+"text": "Garuga forrestii W. W. Sm. is a tree species of the Burseraceae family, endemic to China, found in hot/warm-dry valleys. This species plays a crucial role in maintaining biodiversity in these ecosystems. We performed de novo assembly of the Garuga forrestii mitochondrial genome using PMAT (v.1.5.4), resulting in a typical circular molecule of 606,853 bp. The genome consists of 31 tRNA genes, 3 rRNA genes, 35 protein-coding genes, and 1 pseudogene. The study also investigates RNA editing sites and evolutionary patterns. The mitochondrial genome exhibits a low proportion of repetitive sequences (3.30%), suggesting a highly conserved structure. A high copy number of the trnM-CAT gene (4 copies) is noted, which may contribute to genomic rearrangement and adaptive evolution. Among the 476 RNA editing sites, hydrophilic-hydrophobic and hydrophobic-hydrophobic editing events are most common, accounting for 77.10%. Negative selection predominates among most genes (Ka/Ks < 1), while a few genes (e.g., matR , nad3 , rps1 , rps12 , and rps4 ) show signs of positive selection (Ka/Ks > 1), potentially conferring evolutionary advantages. Additionally, a significant A/T bias is observed at the third codon position. Phylogenomic analysis supports the APG IV classification, with no evidence of horizontal gene transfer. This mitochondrial genome offers valuable insights into the adaptive mechanisms and evolutionary processes of Garuga forrestii . It enhances our understanding of the species' biogeography in tropical Southeast Asia and Southwest China, providing key information on the evolutionary history of this genus.",
+"statements": [
+{
+"j": 1,
+"text": "The circular mitochondrial genome spans 606,853 bp and holds 35 protein-coding genes, 31 tRNA genes, 3 rRNA genes and one pseudogene."
+},
+{
+"j": 2,
+"text": "Repetitive sequence made up only 3.30% of the genome, and trnM-CAT was present in four copies."
+},
+{
+"j": 3,
+"text": "Mitochondrial gene order in Garuga forrestii differs from that of other Burseraceae species."
+},
+{
+"j": 4,
+"text": "Of 476 RNA editing sites, hydrophilic-to-hydrophobic and hydrophobic-to-hydrophobic events together accounted for 77.10%."
+}
+]
+}
+]
+}

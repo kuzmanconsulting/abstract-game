@@ -1,0 +1,94 @@
+{"batch": "check_A_F01", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+   {"n": 677, "id": "pmid:40864307",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "All plastomes exhibited the canonical angiosperm quadripartite structure (150,490 - 151,856 bp) with consistent AT bias (average GC content: 37.48%) and mononucleotide SSR predominance (37.43%)."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "The non-synonymous (Ka) /synonymous (Ks) substitution ratios revealed that most protein-coding genes showed evidence of purifying selection (Ka/Ks < 0.5), though the ycf2 and accD genes displayed elevated ratios suggesting adaptive evolution."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The genus Bidens (Asteraceae), comprising approximately 280 species, represents a morphologically diverse lineage with significant medicinal and economic value."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Twenty-nine high-frequency codons displayed strong AT preference, with multiple analytical approaches confirming natural selection as the primary driver of codon usage bias."}
+    ]},
+   {"n": 679, "id": "pmid:40282313",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We identified extensive repetitive elements, including 188 SSRs, 20 tandem repeats, and 455 dispersed repeats, and explored their potential roles in genome evolution."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "In addition, extensive gene transfer was detected between the mitochondrial and chloroplast genomes. Ka/Ks and nucleotide diversity analyses indicate that most genes are under purifying selection, with some possibly undergoing positive selection."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "RNA editing analysis revealed 415 sites that mostly convert hydrophilic to hydrophobic amino acids."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The 475,105 bp genome has a 44.80% GC content and an overall AT bias, comprising 74 genes (37 protein-coding, 31 tRNA, three rRNA, and three pseudogenes)."}
+    ]},
+   {"n": 688, "id": "pmid:40872170",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Our evolutionary pressure analysis revealed that most genes are under purifying selection, while genes such as atp4 and nad4 exhibit positive selection."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "A nucleotide diversity analysis revealed that the sdh4 gene exhibits the highest variation, whereas rrn5 is the most conserved."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "A total of 73 genes and 3 pseudogenes were annotated, with the notable absence of the rps2 gene, which is present in related species."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The study assembled a 454,444 bp circular mitochondrial genome of H. rhamnoides ssp. sinensis , with a GC content of 44.86%. A total of 73 genes and 3 pseudogenes were annotated"}
+    ]},
+   {"n": 694, "id": "pmid:39198368",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 2, "evidence": "genome-wide residue signature and genetic diversity indicate that there is a high level of genetic diversity among DENV-1 strains, while DENV-3 strains exhibit the least genetic diversity", "flag": "ambiguous", "reason": "The abstract calls DENV-1 diversity \"high\" and DENV-3 the least, which implies but does not literally state that DENV-1 was the highest of the four."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "certain codons in DENV-2 and -4 were subject to strong purifying selection, while a few codon sites in the envelope region showed evidence of positive selection"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Dengue fever virus (DENV) poses a significant public health risk in tropical and subtropical regions across the world."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Phylogenetic analysis demonstrated the circulation of all four dengue virus serotypes (DENV-1, - 2, - 3, and - 4) with prevalent genotypes III and V within DENV-1, cosmopolitan genotype within DENV-2, genotype III within DENV-3, and genotype I within DENV-4 during 2006-2014."}
+    ]},
+   {"n": 698, "id": "pmid:41315914",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Most PCGs were under purifying selection, while a few, such as matR, exhibited signatures of positive selection, suggesting lineage-specific adaptive evolution."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Five species contained typical single circular mitochondrial genomes, whereas M. falcata, M. platycarpos, and M. sativa displayed complex multipartite circular conformations."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Genome sizes ranged from 281,240 to 356,577 bp, with 55-74 functional genes."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Repeat analysis identified 141 simple sequence repeats (SSRs) and 76 tandem repeats (TSRs), largely composed of A/T-rich mononucleotide motifs, while dispersed repeats were mainly 30-49 bp in length."}
+    ]},
+   {"n": 709, "id": "pmid:40329166",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Our analysis revealed that the mitochondrial genome of S. microcarpa spans 687,378 base pairs and contains a total of 59 genes, which include 37 protein-coding genes (PCGs), 20 transfer RNA (tRNA) genes, and 2 ribosomal RNA (rRNA) genes."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Ka/Ks ratio analysis revealed that most mitochondrial genes are under purifying selection, with a few genes, such as nad9 and ccmB, showing signs of relaxed or adaptive evolution."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Sixteen plastid-derived fragments strongly linked with mitochondrial genes, including one intact plastid-related gene (rps7), were identified."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Sinojackia microcarpa (S. microcarpa) is notable for its library-shaped fruit and sparse distribution, serving as a model system for studying the entire tree family."}
+    ]},
+   {"n": 710, "id": "doi:10.64898/2026.07.22.740151",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Within a population polymorphic for mate preference, we identify senseless-2 as a glia-expressing candidate visual preference gene."},
+      {"j": 2, "label": "contradicted", "confidence": 2, "evidence": "Across species, we reveal that photoreceptors, particularly the color-sensing R7s, are the fastest-evolving cell types.", "flag": "ill_formed", "reason": "The clause \"the colour-sensing R7s few of all\" is ungrammatical; read as denying that R7s stand out it contradicts the abstract, which singles them out."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Furthermore, we molecularly characterize novel R2/5 and R7 photoreceptor subtypes, showing that cellular subfunctionalization arises through the co-option of existing gene regulatory networks."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Within a population polymorphic for mate preference, we identify senseless-2 as a glia-expressing candidate visual preference gene."}
+    ]},
+   {"n": 728, "id": "pmid:42458261",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Phylogenetic analyses using 12 PCGs from 73 mitogenomes robustly support Lygaeoidea as monophyletic and delineate three clades"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Divergence time estimation suggests that Lygaeoidea originated in the Early Cretaceous (~ 133.9 Ma), with major familial diversification events occurring from the latest Early Cretaceous through the Paleogene."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Divergence time estimation suggests that Lygaeoidea originated in the Early Cretaceous (~ 133.9 Ma)"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we observed consistently high A + T content, conserved codon usage bias, and purifying selection acting on protein-coding genes (PCGs), with cox1 being the most conserved and atp8 the most variable"}
+    ]},
+   {"n": 737, "id": "pmid:42497868",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We analyzed 509,817 genome-wide variants from 72,635 Han Taiwanese individuals to identify loci showing age-dependent allele frequency shifts that signal ongoing selection."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Phenome-wide association analysis across 30 hematologic and cardiometabolic traits linked a subset of candidates to increased erythrocyte volume and reduced hemoglobin concentration, suggesting subclinical physiological effects."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "At BRCA1, we identified 16 rare pathogenic variants in strong linkage disequilibrium undergoing purifying selection that coexist with a positively selected haplotype, revealing temporally fluctuating selection"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "we detected 168 variants deviating from neutrality, with most showing declining frequencies in younger generations, consistent with purifying selection on deleterious alleles influencing disease risk"}
+    ]},
+   {"n": 740, "id": "pmid:39663511",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Notably, in the IGF2BP1 gene, a significant positive correlation was observed between the evolutionary rate and body size, suggesting that larger bird species exhibit higher evolutionary rates of the IGF2BP1 gene.", "flag": "ambiguous", "reason": "The statement's first half matches the abstract while its \"so larger species evolve this gene slower\" conclusion reverses it, so the two halves disagree with each other."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "This study investigates the evolutionary patterns of avian body size by analyzing 15 body-size-related genes, including GHSR, IGF2BP1, and IGFBP7 from the growth hormone/insulin-like growth factor axis"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The branch-site model analysis identified numerous positively selected sites, primarily concentrated near functional domains, thereby reinforcing the critical role of these genes in body size evolution."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Furthermore, the IGFBP7 and PLXDC2 genes demonstrated accelerated evolution in large- and medium-sized birds, respectively, indicating distinct evolutionary patterns for these genes among birds of different sizes."}
+    ]},
+   {"n": 760, "id": "pmid:39385020",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Experimental modelling of CCND1 ecDNA confirmed its role as a driver of treatment resistance."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "ecDNA-forming SVs persisted and increased in complexity, incorporating additional DNA segments and contributing to the evolution of treatment resistance."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We show that APOBEC3-induced mutations are clonal and early, whereas chemotherapy induces mutational bursts of hundreds of late subclonal mutations."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "We discovered that most CCND1 amplifications in urothelial cancer arise within circular ecDNA-forming SVs."}
+    ]},
+   {"n": 761, "id": "pmid:41339552",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "we analysed whole-genome sequences from 1,364 clinically annotated breast cancers, with transcriptome data available for most cases"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "were associated with clinical outcomes, highlighting their potential utility as predictive biomarkers for clinical evaluation of treatments such as CDK4/6 and HER2 inhibitors, as well as adjuvant and neoadjuvant chemotherapy"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Timing analyses on copy number alterations suggest that genomic instability emerges decades before tumour diagnosis, and offer insights into early initiation of tumorigenesis."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Pattern-driven genomic features, including mutational signatures 2 , homologous recombination deficiency 3 , tumour mutational burden and tumour heterogeneity scores 4 , were associated with clinical outcomes"}
+    ]},
+   {"n": 766, "id": "pmid:37938774",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "the human silencing hub (HUSH) complex interacts with the leading-strand DNA polymerase Pol ε and contributes to the asymmetric segregation of H3K9me3."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "H3K9me3 is preferentially transferred onto the leading strands of replication forks, which occurs predominantly at long interspersed nuclear element (LINE) retrotransposons (also known as LINE-1s or L1s) that are theoretically transcribed in the head-on direction with replication fork movement"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Cells deficient in Pol ε subunits (POLE3 and POLE4) or the HUSH complex (MPP8 and TASOR) show compromised H3K9me3 asymmetry and increased LINE expression."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Loss of silencing of the repeat elements leads to genome instability and human diseases, including cancer and ageing 1-3 ."}
+    ]}
+]}

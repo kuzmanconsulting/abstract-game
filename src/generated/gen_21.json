@@ -1,0 +1,690 @@
+{
+ "batch": "gen_21",
+ "prompt_version": "gen-v4",
+ "items": [
+  {
+   "n": 660,
+   "id": "pmid:40110960",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Comparative genomics uncovered a whole genome duplication in the related species Caulerpa lentillifera that earlier work had missed.",
+     "evidence": "Comparative genomic analyses revealed a previously overlooked whole genome duplication event in a closely related species, Caulerpa lentillifera.",
+     "note": "The abstract reports this duplication as a finding of its comparative analysis and calls it previously overlooked."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "One hundred genes in the Bryopsis corticulans genome were gained by horizontal gene transfer, among them a cryptochrome photoreceptor CRY homolog.",
+     "evidence": "A total of 100 genes were acquired through horizontal gene transfer, including a homolog of the cryptochrome photoreceptor CRY gene.",
+     "note": "The count and the CRY homolog are stated directly as results."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Siphonein and siphonaxanthin levels in B. corticulans rise when the alga is exposed to direct sunlight at low tide.",
+     "evidence": "We elucidated that the expansion of light-harvesting antenna genes and the biosynthesis pathways for siphonein and siphonaxanthin in B. corticulans likely contribute to its adaptation to intertidal light conditions.",
+     "note": "The abstract links these pigment biosynthesis pathways to intertidal adaptation but reports no measurement of pigment levels under changing light."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "None of the four Bryopsidales species examined possesses the photoprotective genes LHCSR, PsbS, CYP97A3 and VDE.",
+     "evidence": "We also found that all four species studied in Bryopsidales lack key photoprotective genes (LHCSR, PsbS, CYP97A3, and VDE) involved in the xanthophyll cycle and energy-dependent quenching processes.",
+     "note": "The abstract states that all four studied Bryopsidales species lack exactly these genes."
+    }
+   ]
+  },
+  {
+   "n": 661,
+   "id": "pmid:41089885",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Eight orthologues spread over the AGL32, Mβ, MIKC*, AG/STK and AP1/FUL subfamilies departed from purifying selection and showed weak positive selection.",
+     "evidence": "Most MADS-box genes were under purifying selection between T. ciliata and T. sinensis , while eight orthologous genes in the AGL32, Mβ, MIKC*, AG/STK, and AP1/FUL subfamilies were under weakly positive selection.",
+     "note": "The abstract names these eight orthologues and the subfamilies they fall in as the exception to purifying selection."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Genome-wide searches recovered more MADS-box genes in T. ciliata (97) than in T. sinensis (75).",
+     "evidence": "Here we identified 97 and 75 MADS-box genes at the genome scale in T. ciliata and T. sinensis , respectively, which were classified into Type I and Type II groups.",
+     "note": "Both counts, and which species each belongs to, are given in the abstract."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "MADS-box genes expressed at higher levels tended to have lower Ka/Ks values, an inverse relationship that reached statistical significance.",
+     "evidence": "A significantly negative correlation occurred between the evolutionary rate ( Ka/Ks ) and gene expression level of MADS-box genes, suggesting evolutionary constraints on highly expressed genes.",
+     "note": "The abstract reports a significantly negative correlation between evolutionary rate and expression level."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "T. ciliata starts flowering earlier in the season than T. sinensis.",
+     "evidence": "Toona ciliata and Toona sinensis , two economically important timber species in China, exhibit interspecific variation in floral traits that are related to mating systems.",
+     "note": "The abstract says floral traits differ between the two species but never describes flowering time or phenology."
+    }
+   ]
+  },
+  {
+   "n": 662,
+   "id": "pmid:41779816",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Six of the seven Iranian Vicia species had lost one inverted repeat region, while V. villosa kept the ancestral quadripartite chloroplast structure.",
+     "evidence": "a key structural divergence involving the loss of one inverted repeat (IR) region in six species, consolidating their placement within the IR-lacking clade (IRLC), while V. villosa retained the ancestral quadripartite structure",
+     "note": "The abstract contrasts the six IR-lacking species with V. villosa, which retained the quadripartite structure."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "The loss of accD from the V. lathyroides plastid genome is compensated by a nuclear-encoded copy of the gene.",
+     "evidence": "Lineage-specific gene losses were documented, including accD in V. lathyroides and ycf2 in V. narbonensis.",
+     "note": "The abstract records the plastid gene losses but says nothing about nuclear copies or functional compensation."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Among coding regions clpP was the most variable locus, with a nucleotide diversity of 0.19772, ahead of ycf1 at 0.16964.",
+     "evidence": "Nucleotide diversity (Pi) analysis across coding regions identified clpP (Pi = 0.19772) and ycf1 (Pi = 0.16964) as hypervariable loci",
+     "note": "Both Pi values are reported, with these two loci named as the hypervariable ones."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Gene losses differed by lineage: accD was missing in V. lathyroides and ycf2 in V. narbonensis.",
+     "evidence": "Lineage-specific gene losses were documented, including accD in V. lathyroides and ycf2 in V. narbonensis.",
+     "note": "The abstract assigns each of these two gene losses to a named species."
+    }
+   ]
+  },
+  {
+   "n": 663,
+   "id": "pmid:39148054",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Plastome structure, gene order and genome size were largely conserved among the Hydrocotyle species sampled.",
+     "evidence": "Plastomes within Hydrocotyle were generally conservative in structure, gene order, and size.",
+     "note": "Conservation in exactly these three respects is stated as a result."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "The rapid radiation within Clade I was triggered by Pleistocene climate change.",
+     "evidence": "In phylogenetic analysis, three monophyletic clades (Clade I, II, III) were identified with evidence of rapid radiation speciation within Clade I.",
+     "note": "The abstract reports evidence of a rapid radiation in Clade I but gives no dates for it and names no climatic cause."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Three monophyletic clades emerged from the phylogenetic analysis, and Clade I carried evidence of rapid radiation speciation.",
+     "evidence": "In phylogenetic analysis, three monophyletic clades (Clade I, II, III) were identified with evidence of rapid radiation speciation within Clade I.",
+     "note": "The number of clades and the radiation signal in Clade I are both stated."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Six protein-coding genes, among them matK and accD, showed signatures of positive selection in Hydrocotyle species.",
+     "evidence": "The selective pressure analysis detected that six CDS genes (ycf1b, matK, atpF, accD, rps14, and psbB) of Hydrocotyle species were under positive selection.",
+     "note": "The abstract lists the six genes under positive selection, matK and accD among them."
+    }
+   ]
+  },
+  {
+   "n": 664,
+   "id": "pmid:42231900",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Hybridization between Stachyurus species yields fertile offspring.",
+     "evidence": "Phylogenetic analyses based on complete cpDNAs showed widespread paraphyly and strong cytonuclear discordance with previous nuclear phylogenies, providing clear evidence of chloroplast capture associated with hybridization.",
+     "note": "The abstract infers hybridization from chloroplast capture but reports nothing about the fertility of hybrids."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The assembled Stachyurus chloroplast genomes spanned 161,624 to 162,947 bp and carried between 129 and 131 genes.",
+     "evidence": "The assembled Stachyurus cpDNAs range from 161,624 to 162,947 bp in length, with a GC content of 37.0-37.1% and 129-131 genes.",
+     "note": "Both the length range and the gene-number range are given for the assembled genomes."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Chloroplast trees showed widespread paraphyly and conflicted with earlier nuclear phylogenies, which the study reads as chloroplast capture through hybridization.",
+     "evidence": "Phylogenetic analyses based on complete cpDNAs showed widespread paraphyly and strong cytonuclear discordance with previous nuclear phylogenies, providing clear evidence of chloroplast capture associated with hybridization.",
+     "note": "Paraphyly, cytonuclear discordance and the chloroplast-capture interpretation are all stated as results."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Chinese and Japanese species came out as reciprocally monophyletic, but relationships inside the Chinese clade stayed poorly resolved.",
+     "evidence": "While reciprocal monophyly between Chinese and Japanese species was supported, relationships within the Chinese clade remain poorly resolved.",
+     "note": "The abstract contrasts the supported Chinese-Japanese split with the unresolved structure inside the Chinese clade."
+    }
+   ]
+  },
+  {
+   "n": 665,
+   "id": "pmid:42692284",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Geographic origin accounted for more of the genetic variance among the isolates than the anatomical site they were taken from.",
+     "evidence": "The analysis revealed that geographic origin explains a larger fraction of genetic variance than anatomical niche, supporting a predominantly generalist population structure.",
+     "note": "The abstract states this direction of comparison between geography and anatomical niche explicitly."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "All 34 isolates of Cluster N16, Candida africana, in this dataset came from genital sites.",
+     "evidence": "A notable exception was Cluster N16 (Candida africana), which presented a strict genital origin in our dataset (n = 34).",
+     "note": "The abstract gives the cluster, its strict genital origin and the sample size of 34."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Isolates carrying ERG11 variants had higher fluconazole minimum inhibitory concentrations than isolates without them.",
+     "evidence": "Analysis of five resistance-associated genes (ERG11, UPC2, FKS1, TAC1 and FUR1) revealed that resistance-associated variants were generally rare but exhibited distinct gene-specific patterns.",
+     "note": "The study characterises resistance-associated variants genomically and reports no antifungal susceptibility testing."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Across the five resistance-associated genes examined, resistance-linked variants were rare overall yet distributed in gene-specific patterns.",
+     "evidence": "Analysis of five resistance-associated genes (ERG11, UPC2, FKS1, TAC1 and FUR1) revealed that resistance-associated variants were generally rare but exhibited distinct gene-specific patterns.",
+     "note": "Both the rarity of the variants and their gene-specific patterning are reported."
+    }
+   ]
+  },
+  {
+   "n": 666,
+   "id": "pmid:41845246",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Across the Polygonaceae genomes analysed, 89.1% of gene pairs were under strong purifying selection, with photosystem-related genes the most conserved.",
+     "evidence": "Ka/Ks analysis revealed that 89.1% of gene pairs were under strong purifying selection, with photosystem-related genes the most conserved.",
+     "note": "The percentage and the identity of the most conserved gene class are stated directly."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The 4,593 SSR loci detected were mostly mononucleotide repeats and sat largely in intergenic rather than coding regions.",
+     "evidence": "A total of 4,593 SSR loci were identified, predominantly mononucleotide repeats concentrated in intergenic regions.",
+     "note": "The SSR count, the predominant repeat type and their intergenic location are all reported."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Anthraquinone content varies among the Polygonaceae species whose chloroplast genomes were compared.",
+     "evidence": "The Polygonaceae family comprises approximately 1,200 species of pharmacological, economic, and ecological importance, including medicinal genera such as Rheum, Polygonum, and Fagopyrum, which produce bioactive anthraquinones, stilbenes, and flavonoids.",
+     "note": "These compounds appear only as background on the family's importance; no chemical measurements are reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "ENC-GC3 plots, neutrality and PR2 analyses pointed to natural selection rather than mutational pressure as the main shaper of synonymous codon usage.",
+     "evidence": "ENC-GC3 plots, neutrality, and PR2 analyses confirmed that natural selection, rather than mutational pressure, predominantly shaped synonymous codon usage",
+     "note": "The abstract names these three analyses and the conclusion that selection predominates over mutational pressure."
+    }
+   ]
+  },
+  {
+   "n": 667,
+   "id": "pmid:41696175",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The chloroplast genomes compared all showed the usual quadripartite layout, ran 159 to 161 kb, and had GC contents between 38.41% and 38.49%.",
+     "evidence": "All genomes exhibited a typical quadripartite structure, ranging from 159 to 161 kb with GC contents of 38.41-38.49%.",
+     "note": "Structure, size range and GC range are given for all genomes analysed."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "The cultivated Citrus clades carry lower chloroplast nucleotide diversity than the ancestral ones.",
+     "evidence": "Phylogenomic analysis strongly supported the monophyly of Citrus and resolved intrageneric relationships, grouping species into distinct ancestral and cultivated clades.",
+     "note": "The abstract defines ancestral and cultivated clades but never compares genetic diversity between them."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "matK and rps16 stood out with raised Ka/Ks ratios against a background of strong purifying selection across most protein-coding genes.",
+     "evidence": "Most protein-coding genes were under strong purifying selection, whereas matK and rps16 exhibited elevated Ka/Ks ratios",
+     "note": "The abstract contrasts the general purifying selection with elevated ratios in these two genes."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The phylogenomic tree supported Citrus as monophyletic and separated the species into distinct ancestral and cultivated groups.",
+     "evidence": "Phylogenomic analysis strongly supported the monophyly of Citrus and resolved intrageneric relationships, grouping species into distinct ancestral and cultivated clades.",
+     "note": "Monophyly of Citrus and the ancestral/cultivated grouping are both reported."
+    }
+   ]
+  },
+  {
+   "n": 668,
+   "id": "pmid:42185652",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "At least a fifth of the shared osmotrophy gene toolkit carried signatures consistent with horizontal gene transfer.",
+     "evidence": "We report signatures that are compatible with horizontal gene transfer encompassing at least 20% of this toolkit.",
+     "note": "The abstract puts the horizontally transferred share of the toolkit at a minimum of 20%."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Screening total gene content turned up 166 gene tree topologies consistent with transfers between distantly related osmotrophic eukaryotes.",
+     "evidence": "analyses of the total gene content using supervised phylogenetic screening identified 166 gene tree topologies that are supportive of transfer events involving distantly related eukaryotic osmotrophs",
+     "note": "The count of 166 supportive topologies is stated as a result of the phylogenetic screening."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The four osmotrophic groups most likely originated in the Tonian, between 1,000 and 720 million years ago, or slightly earlier.",
+     "evidence": "Here we show that these groups arose most likely during the Tonian period (1,000-720 million years ago) or slightly before, and possess a genetic toolkit enriched in shared metabolic functions.",
+     "note": "The timing and its stated range are given directly in the abstract."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Along the Fungi-Pseudofungi transfer highway, genes moved more often from Fungi to Pseudofungi than in the opposite direction.",
+     "evidence": "These data include transfer highways between Fungi and Pseudofungi and between Labyrinthulea and Teretosporea.",
+     "note": "The abstract names the transfer highways but says nothing about the direction of gene flow along them."
+    }
+   ]
+  },
+  {
+   "n": 669,
+   "id": "doi:10.1101/2025.11.03.686391",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Aerotrophic bacteria make up the majority of cells in these Antarctic soil communities.",
+     "evidence": "The genes for aerotrophy, i.e. the consumption of atmospheric trace gases to provide energy, carbon, and hydration, are among the most frequently and widely disseminated.",
+     "note": "Wide dissemination of aerotrophy genes is reported, but the abstract gives no abundance of the organisms carrying them."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Roughly one in four of the CO dehydrogenases and [NiFe]-hydrogenases found were predicted to have been acquired horizontally.",
+     "evidence": "Approximately a quarter of all carbon monoxide (CO) dehydrogenases and [NiFe]-hydrogenases that catalyze atmospheric CO and hydrogen (H 2 ) oxidation are predicted to be horizontally acquired",
+     "note": "The abstract puts the horizontally acquired share of these enzymes at about a quarter."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Transferred genes spanned many functional categories, but those for energy metabolism were exchanged comparatively more often.",
+     "evidence": "While the transferred genes are distributed across diverse functional categories, those involved in energy metabolism are exchanged at relatively higher frequency.",
+     "note": "The abstract states the higher exchange frequency of energy metabolism genes against a functionally diverse background."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Purifying selection was widespread across protein-encoding genes and was most intense on the aerotrophy genes.",
+     "evidence": "This selection is particularly intense for aerotrophy genes, providing further evidence that this process is critical for microbial survival in Antarctica.",
+     "note": "The abstract reports widespread purifying selection and singles out aerotrophy genes as most intensely selected."
+    }
+   ]
+  },
+  {
+   "n": 670,
+   "id": "pmid:42765113",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Parvovirus DNA turned up in 11 of the 244 rectal swabs tested, a positivity rate of 4.51%.",
+     "evidence": "Eleven of 244 samples (4.51%) were positive for parvovirus DNA.",
+     "note": "The numerator, denominator and percentage are all given in the abstract."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Cats under 12 months of age were infected significantly more often than older cats, while breed, sex and health status showed no significant association.",
+     "evidence": "Cats younger than 12 months exhibited significantly higher infection rates than older cats (p < 0.05), whereas breed, sex, and health status were not significantly associated with viral detection.",
+     "note": "The age effect and the three non-significant variables are reported exactly this way."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Vaccinated cats in the sampled provinces tested positive less often than unvaccinated cats.",
+     "evidence": "Cats younger than 12 months exhibited significantly higher infection rates than older cats (p < 0.05), whereas breed, sex, and health status were not significantly associated with viral detection.",
+     "note": "The abstract lists the epidemiological variables tested against positivity and vaccination status is not among them."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Seven of the sequenced isolates fell among Asian FPV lineages and two sat inside the CPV-2c lineage, and no recombination was detected in either gene.",
+     "evidence": "Phylogenetic analyses demonstrated that seven isolates clustered with Asian FPV lineages, whereas two isolates grouped within the CPV-2c lineage, providing molecular evidence of CPV-2c infection in domestic cats. No recombination events were detected in either gene.",
+     "note": "The abstract gives both isolate groupings and states that no recombination events were found."
+    }
+   ]
+  },
+  {
+   "n": 671,
+   "id": "pmid:41126252",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Diet-related gene groups were repeatedly expanded in zoophagous species and evolved fast under positive selection during the diet reversal in the E. furcellata-A. custos clade.",
+     "evidence": "We defined a set of diet-related gene groups and found that these genes were repetitively expanded in zoophagous species and experienced fast evolution and positive selection during diet reversal in the E. furcellata-A. custos clade.",
+     "note": "Expansion in zoophagous species plus fast evolution and positive selection during the reversal are all stated as findings."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The newly generated data were analysed together with public data from a further 38 phylogenetically related insects and salivary gland transcriptomes of representative species.",
+     "evidence": "Combined with public data of an additional 38 phylogenetically related insects and salivary gland transcriptomes of representative species, we performed a comprehensive analysis on the molecular evolution of feeding traits.",
+     "note": "The abstract states that public data for 38 additional related insects were combined with the new data."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Releasing E. furcellata controls crop pests more effectively than releasing A. custos.",
+     "evidence": "We obtained the high-quality genomes and salivary gland transcriptomes of two essential biocontrol agents, Eocanthecona furcellata and Arma custos (Hemiptera: Heteroptera: Pentatomidae: Asopinae).",
+     "note": "Both species are described as biocontrol agents, but no comparison of their pest-control performance is reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Diet-related genes were upregulated in zoophagous species, and trypsin and carboxypeptidase were narrowed down as candidates behind the diet reversal.",
+     "evidence": "Transcriptomic analysis revealed dynamic upregulation of diet-related gene expression in zoophagous species, and further endeavor narrowed down the candidates to several genes, like trypsin and carboxypeptidase, which might be involved in diet reversal.",
+     "note": "The transcriptomic upregulation and these two candidate genes are both reported."
+    }
+   ]
+  },
+  {
+   "n": 672,
+   "id": "pmid:40364385",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The chloroplast genome of Casearia kurzii came to 157,998 bp and showed the usual quadripartite organisation.",
+     "evidence": "The chloroplast genome was 157,998 bp, showing a typical quadripartite structure.",
+     "note": "The length and the quadripartite structure are stated directly."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The assembly had lost rpl22 at the inverted repeat boundary, and 60 SSRs plus five candidate markers for species identification were identified.",
+     "evidence": "Key findings included: (1) the loss of the rpl22 gene at the IR boundary; (2) the identification of 60 simple sequence repeats (SSRs) and (3) the discovery of five candidate molecular markers for species-level identification.",
+     "note": "All three of these findings are listed in the abstract's key results."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The medicinal compounds of C. kurzii are also produced by the three species that share its clade.",
+     "evidence": "Casearia kurzii is an important medicinal plant of the genus Casearia , but its complete chloroplast genome has not previously been reported, limiting genetic studies and conservation efforts.",
+     "note": "Medicinal value appears only as background; the abstract reports no phytochemistry for any of the species."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "C. kurzii grouped with C. velutina, C. decandra and C. glomerata in a clade with full bootstrap support, dated to about 15.8 million years ago.",
+     "evidence": "Phylogenetic analysis revealed that C. kurzii formed a strongly supported monophyletic clade (100% bootstrap support) with C. velutina , C. decandra , and C. glomerata , this clade originated approximately 15.8 million years ago.",
+     "note": "The clade membership, 100% bootstrap support and the estimated age are all given."
+    }
+   ]
+  },
+  {
+   "n": 673,
+   "id": "pmid:40805752",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Moving a barley HvC3HC4 gene into rice raises the salt tolerance of rice seedlings.",
+     "evidence": "The current results reveal striking differences in salt tolerance between barley and rice mediated by the C3HC4 gene family and offer valuable insight for potential genetic engineering applications in improving crop resilience to salinity stress.",
+     "note": "Genetic engineering is named only as a prospect; no gene transfer experiment is reported."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Comparative genomics turned up 123 C3HC4 genes in barley against 90 in rice, falling into four conserved subgroups.",
+     "evidence": "Through comparative genomics, we identified 123 HvC3HC4 genes and 90 OsC3HC4 genes, phylogenetically classified into four conserved subgroups.",
+     "note": "Both gene counts and the four-subgroup classification are stated."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Barley and rice differed in chromosomal distribution, gene structure, motif composition, duplication events and promoter cis-elements of their C3HC4 genes.",
+     "evidence": "Differences in C3HC4 genes in phylogenetic relationships, chromosomal distribution, gene structure, motif composition, gene duplication events, and cis -elements in the promoter region were observed between barley and rice.",
+     "note": "Exactly these categories of difference between the two species are listed."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "HvC3HC4 genes in barley tissues favoured an energy-conserving strategy, and C3HC4 genes were found to be evolutionarily conserved in salt-tolerant species.",
+     "evidence": "Moreover, HvC3HC4s in barley tissues preferentially adopted an energy-conserving strategy, which may be a key mechanism for barley's higher salt tolerance. Additionally, we found that C3HC4 genes were evolutionarily conserved in salt-tolerant species.",
+     "note": "Both the energy-conserving strategy in barley tissues and the conservation in salt-tolerant species are reported."
+    }
+   ]
+  },
+  {
+   "n": 674,
+   "id": "pmid:39514314",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The young F-box gene Cni-neib-1 of C. nigoni inactivates the essential phosphoglucomutase encoded by Cbr-shls-1 in C. briggsae and in hybrids of the two species.",
+     "evidence": "Here, we demonstrate that a newborn F-box gene, Cni-neib-1 , of the nematode Caenorhabditis nigoni specifically inactivates an essential phosphoglucomutase encoded by Cbr-shls-1 in its sister species Caenorhabditis briggsae and their hybrids.",
+     "note": "This is the central demonstration of the study as stated in the abstract."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Zygotic Cni-neib-1 expression depleted Cbr-SHLS-1 but not the C. nigoni protein within about 40 minutes of gastrulation, killing the embryo.",
+     "evidence": "Zygotic expression of Cni-neib-1 specifically depletes Cbr- SHLS-1, but not Cni- SHLS-1, in approximately 40 min starting from gastrulation, causing embryonic death.",
+     "note": "The timing, the specificity for the C. briggsae protein and the resulting embryonic death are all stated."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "This hybrid incompatibility appears in only one direction of the cross between C. nigoni and C. briggsae.",
+     "evidence": "Here, we demonstrate that a newborn F-box gene, Cni-neib-1 , of the nematode Caenorhabditis nigoni specifically inactivates an essential phosphoglucomutase encoded by Cbr-shls-1 in its sister species Caenorhabditis briggsae and their hybrids.",
+     "note": "The abstract describes the gene's effect in C. briggsae and in hybrids but never compares reciprocal crosses."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Cni-neib-1 is one of thirty-three paralogues from a recent burst of F-box duplication in C. nigoni, all of them evolving under positive selection.",
+     "evidence": "Cni-neib-1 is one of thirty-three paralogues emerging from a recent surge in F-box gene duplication events within C. nigoni , all of which are evolving under positive selection.",
+     "note": "The paralogue count, the recent duplication surge and positive selection on all of them are stated."
+    }
+   ]
+  },
+  {
+   "n": 675,
+   "id": "doi:10.1101/2025.08.18.670985",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "BUSCO completeness of about 87% in the dodder assemblies was read as progressive gene loss following the shift to a parasitic lifestyle.",
+     "evidence": "Relatively low completeness of BUSCO genes ca.87% indicated progressive gene loss after evolution of parasitic lifestyle due to release from functional constraints as photosynthesis and organ development.",
+     "note": "The abstract gives the approximate BUSCO figure and its interpretation as progressive gene loss."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Despite sharing the same cytotype, C. chinensis and C. campestris differ markedly in genome size, and each is allopolyploid from an independent ancient hybridization.",
+     "evidence": "Comparative genomics uncovered that both species are the genome size is completely different regardless of the same cytotypes and allopolyploid through the independent ancient hybridization between different parents.",
+     "note": "The abstract states the genome-size difference despite identical cytotypes and the independent allopolyploid origins."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The two dodder species parasitize different host plant species.",
+     "evidence": "Dodders (Cuscuta spp.) is an obligated parasitic plant, which lost a large part of photosynthetic genes but gained host genes through parasitism-mediated horizontal gene transfer (HGT).",
+     "note": "Parasitism and transfer from hosts are described for dodders in general, but the host ranges of the two species are never compared."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Gene gains and losses, homoeologous recombination between the two subgenomes and lineage-specific transposable element proliferation were all found in the dodder genomes.",
+     "evidence": "Various genomic rearrangements including 1) gene gain and loss events, 2) homoeologous recombination between two subgenomes and 3) the lineage-specific proliferation of transposable elements",
+     "note": "These three classes of genomic rearrangement are listed as what the comparison uncovered."
+    }
+   ]
+  },
+  {
+   "n": 676,
+   "id": "pmid:42863703",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Error correction removed more than 93% of low-frequency artifacts in RT and 69% of those in V1V3.",
+     "evidence": "removed >93% of Reverse Transcriptase (RT) and 69% of Variable Regions 1 to 3 (V1V3)",
+     "note": "Both artifact-removal figures are reported for the two regions."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "MPID-NGS costs more per sample to run than standard NGS.",
+     "evidence": "We then benchmarked this approach against standard NGS and serological Limiting Antigen Avidity Enzyme Immunoassay (LAg-EIA), and further assessed selection pressures and reconstructed molecular transmission networks.",
+     "note": "The benchmark against standard NGS concerns sequencing accuracy and staging, not cost, which is never mentioned."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Recent infections showed significantly higher ω in RT than chronic infections, even though purifying selection dominated overall.",
+     "evidence": "Despite overall purifying selection in RT, recent infections had significantly higher ω than chronic ones (p < 0.001)",
+     "note": "The abstract reports this direction of difference in ω with p < 0.001 against a background of purifying selection."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Of the individuals sequenced, 15.7% were staged as recent infections and 76.5% as chronic ones.",
+     "evidence": "We classified 15.7% as recent and 76.5% as chronic, with serological concordance of 87.5% and 86.4%, respectively.",
+     "note": "Both staging proportions are given directly."
+    }
+   ]
+  },
+  {
+   "n": 677,
+   "id": "pmid:40864307",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The Bidens plastomes ran 150,490 to 151,856 bp, with an average GC content of 37.48% and mononucleotide SSRs predominating.",
+     "evidence": "All plastomes exhibited the canonical angiosperm quadripartite structure (150,490 - 151,856 bp) with consistent AT bias (average GC content: 37.48%) and mononucleotide SSR predominance (37.43%).",
+     "note": "Size range, mean GC content and mononucleotide SSR predominance are all stated."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Bidens alba has spread as an invasive weed well outside its native range.",
+     "evidence": "The genus Bidens (Asteraceae), comprising approximately 280 species, represents a morphologically diverse lineage with significant medicinal and economic value.",
+     "note": "The abstract describes the genus's size, diversity and value but says nothing about the distribution or invasiveness of B. alba."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Most protein-coding genes had Ka/Ks below 0.5, while ycf2 and accD showed elevated ratios suggesting adaptive evolution.",
+     "evidence": "The non-synonymous (Ka) /synonymous (Ks) substitution ratios revealed that most protein-coding genes showed evidence of purifying selection (Ka/Ks < 0.5), though the ycf2 and accD genes displayed elevated ratios suggesting adaptive evolution.",
+     "note": "The abstract contrasts the general purifying selection with elevated ratios in ycf2 and accD."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Twenty-nine high-frequency codons showed a strong AT preference, and several analytical approaches agreed that selection drove the codon usage bias.",
+     "evidence": "Twenty-nine high-frequency codons displayed strong AT preference, with multiple analytical approaches confirming natural selection as the primary driver of codon usage bias.",
+     "note": "The codon count, their AT preference and selection as the primary driver are all stated."
+    }
+   ]
+  },
+  {
+   "n": 678,
+   "id": "doi:10.1101/2025.10.31.685816",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The new chromosome-level assembly came to roughly 243.6 Mb, closer to the genome size expected for this polychaete, with a highly complete gene repertoire.",
+     "evidence": "243.6 Mb) and contains a highly complete, evolutionarily conserved gene repertoire.",
+     "note": "The assembly size and the completeness of its gene repertoire are both reported."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Both the nuclear and the mitochondrial genome were heavily rearranged, indicating that gene family repertoire and chromosomal evolution are decoupled.",
+     "evidence": "Notably, the nuclear and mitochondrial genomes are heavily rearranged, indicating a decoupling between gene family repertoire and chromosomal evolution.",
+     "note": "The rearrangement of both genomes and the decoupling it indicates are stated as findings."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "C. teleta carries fewer protein-coding genes than other sequenced annelids.",
+     "evidence": "243.6 Mb) and contains a highly complete, evolutionarily conserved gene repertoire.",
+     "note": "Completeness of the gene repertoire is reported, but no gene-number comparison with other annelids is made."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Reanalysing the existing bulk and single-cell RNA-seq, ATAC-seq and EM-seq data on the new assembly improved quality and yielded new cell-type-specific gene markers.",
+     "evidence": "resulted in a significant quality improvement, allowing us to identify new cell-type-specific gene markers and gain additional insights of biological relevance",
+     "note": "The abstract reports both the quality improvement of the reanalysis and the new cell-type-specific markers it produced."
+    }
+   ]
+  },
+  {
+   "n": 679,
+   "id": "pmid:40282313",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The first H. salicifolia mitochondrial genome measured 475,105 bp, had 44.80% GC content and contained 74 genes, 37 of them protein-coding.",
+     "evidence": "The 475,105 bp genome has a 44.80% GC content and an overall AT bias, comprising 74 genes (37 protein-coding, 31 tRNA, three rRNA, and three pseudogenes).",
+     "note": "Length, GC content and the gene inventory are all given in the abstract."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "RNA editing was found at 415 sites, most of which replace a hydrophilic amino acid with a hydrophobic one.",
+     "evidence": "RNA editing analysis revealed 415 sites that mostly convert hydrophilic to hydrophobic amino acids",
+     "note": "The site count and the predominant direction of the amino acid change are stated."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The SSRs identified separate Himalayan H. salicifolia populations growing at different altitudes.",
+     "evidence": "We identified extensive repetitive elements, including 188 SSRs, 20 tandem repeats, and 455 dispersed repeats, and explored their potential roles in genome evolution.",
+     "note": "The repeats are catalogued and discussed for genome evolution, but no population or altitudinal sampling is reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Extensive gene transfer was detected between the mitochondrial and chloroplast genomes, and most genes were under purifying selection.",
+     "evidence": "In addition, extensive gene transfer was detected between the mitochondrial and chloroplast genomes. Ka/Ks and nucleotide diversity analyses indicate that most genes are under purifying selection, with some possibly undergoing positive selection.",
+     "note": "Both the organelle gene transfer and the predominance of purifying selection are reported."
+    }
+   ]
+  }
+ ],
+ "flip_rule": "first-of-any-v2",
+ "flip_rule_history": [
+  "first-of-any"
+ ]
+}

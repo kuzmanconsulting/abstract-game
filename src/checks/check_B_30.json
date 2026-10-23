@@ -1,0 +1,143 @@
+{"batch": "check_B_30", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+   {"n": 840, "id": "pmid:38849342",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Characterization of a large collection of melon germplasm points to active transpositions in the wild, compared to cultivated accessions."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We identify a spontaneous mutant exhibiting a transition from bisexual to unisexual male flower, and identify the causal mutation as a Harbinger transposon impairing the expression of Ethylene Insensitive 2 (CmEIN2) gene."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Genetics and transcriptomic analysis reveal a dual role of CmEIN2 in both sex determination and fruit shape formation."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Harbinger transposon mobilization is triggered by environmental cues, and integrates preferentially in active chromatin, particularly within promoter regions"}
+    ]},
+   {"n": 841, "id": "pmid:39019871",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We find that 6%-18% of the cancer genome exhibits ART"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Whereas regions changing from late to early replication contain genes with increased expression and present a preponderance of APOBEC3-mediated mutation clusters and associated driver mutations."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "regions with a change from early to late replication displaying an increased mutation rate and distinct mutational signatures"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We demonstrate that ART occurs relatively early during cancer evolution and that ART may have a stronger correlation with mutation acquisition than alterations in chromatin structure."}
+    ]},
+   {"n": 842, "id": "pmid:38110372",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "with predicting HCC at a median of 11.4 months prior to imaging in prospective external validation cohorts"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "has great potential to improve early diagnosis of HCC"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "in an independent validation cohort, outperforming existing clinical prediction strategies"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "healthy individuals (HC, AUC 0.992, sensitivity 0.975, specificity 1.000) in an independent validation cohort"}
+    ]},
+   {"n": 843, "id": "pmid:37291246",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "we here perform a genome-wide analysis of fitness-altering single nucleotide variants (SNVs) across a cohort of 2583 primary and 3527 metastatic tumours"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Mechanistic studies reveal that SNVs remodel the NEAT1 ribonucleoprotein and boost subnuclear paraspeckles."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "we use in cellulo mutagenesis to introduce tumour-like mutations in the gene and observe a significant and reproducible increase in cell fitness, both in vitro and in a mouse model"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "The resulting 54 mutated and positively-selected lncRNAs are significantly enriched for previously-reported cancer genes"}
+    ]},
+   {"n": 844, "id": "pmid:41290626",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Simulation analysis suggests that B/Yamagata would maintain circulation if it underwent significant antigenic drift around the COVID-19 pandemic or if NPIs were not implemented."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "the probable extinction of B/Yamagata was driven by reduced transmission due to nonpharmaceutical interventions (NPIs) and a depleted susceptible population caused by conserved antigenicity and the 2017/2018 outbreak"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "B/Yamagata exhibited slower antigenic evolution and alternating antigenic dominance compared to the co-circulating B/Victoria lineage, which was consistent with its weaker positive selection pressure"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "These findings provide a mechanistic explanation for the probable extinction of B/Yamagata and offer broader insights for controlling similar respiratory viruses."}
+    ]},
+   {"n": 845, "id": "pmid:40645931",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "the opposing roles of NRBP1 and NRBP2 are not results of a competitive mechanism, but rather due to targeting NRBP1 for degradation by NRBP2"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "our phylogenetic analysis shows that the regulatory function of NRBP2 may be acquired later during evolution"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "our findings not only identify NRBP1/2 as L1 regulators and implicate their involvement in human pathogenesis"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "the gene paralogs NRBP1 and NRBP2 oppositely regulate long interspersed nuclear element-1 (L1) retrotransposition, via influencing integrity of the L1 ribonucleoprotein complex"}
+    ]},
+   {"n": 846, "id": "pmid:39227600",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Yeast EndoG (Nuc1) nuclease limits insertion of cDNA and transfer of very long mtDNA ( >10 kb) to the nucleus, where it forms unstable circles, while promoting the formation of short NUMTs (~45-200 bp)."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "We propose that Nuc1 preserves genome stability by degrading retrotransposon cDNA and long mtDNA"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Nuc1 also regulates transfer of extranuclear DNA to nucleus in aging or meiosis."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "In non-dividing stationary phase cells, Pol4-mediated non-homologous end-joining increases, resulting in frequent insertions of 1-3 nucleotides"}
+    ]},
+   {"n": 847, "id": "pmid:37491530",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The (epi)genomic architecture and 3D chromatin structure of the A and B subgenomes differ significantly"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "suggesting that both the dynamics of the dominant long terminal repeat retrotransposons and DNA methylation have played critical roles in subgenome diversification"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Continuous duplication and divergence of essential genes of GSL biosynthesis (e.g., FMO GS-OX , IGMT, and GH1 gene family) contribute to the broad GSL profile in horseradish."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "the dynamics of the dominant long terminal repeat retrotransposons and DNA methylation have played critical roles in subgenome diversification"}
+    ]},
+   {"n": 848, "id": "pmid:39152110",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Results from our plasma testing demonstrate an overall sensitivity of 75.0% (95% CI: 64.1%-84.0%), specificity 88.7% (95% CI: 77.0%-95.7%)"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "positive predictive value 90.9%, and negative predictive value 70.1% compared to the tissue gold standard", "flag": "ill_formed", "reason": "The statement names 90.9% as the negative predictive value and compares it to the negative predictive value, whereas the abstract gives 90.9% as the positive predictive value."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "the study also highlights the utility of mt-IDH1 dx platform for blood-based monitoring and surveillance, offering valuable prognostic information"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "blinded validation testing across the study population (n = 133), comprising of IDH1.R132H patients (n = 80), IDH1 wild-type gliomas (n = 44), and age matched healthy controls (n = 9)"}
+    ]},
+   {"n": 849, "id": "pmid:41620431",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "a giant thermopower of -30.6 mV K -1 and a remarkable power density of 0.6 mW m -2 K -2 are achieved, respectively, by tuning ion coordination speciation"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "High output voltage of 3.5 V and power of 22 µW are produced in 16-cell i-TE modules when harvesting 15 K."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The long-term power generation exhibits a reversible and sustainable heat-to-electricity conversion."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "an interactive i-TE coupling effect driven by ion speciation is validated, which exhibits an enhanced thermogalvanic redox as CuCl 2 concentrations increase while suppressing the thermodiffusion contribution"}
+    ]},
+   {"n": 850, "id": "pmid:39746954",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "CTC size varies within patients, with 67% overlapping in diameter with WBCs."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "interrogating a mean blood volume of 5.83 liters from seven patients with metastatic cancer. High CTC yields (mean 10,057 CTCs per patient; range 100 to 58,125)"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "In prostate cancers, a subpopulation of small aneuploid cells lacking epithelial markers is enriched for neuroendocrine signatures."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "High-throughput CTC enrichment thus enables cell-based liquid biopsy for comprehensive monitoring of cancer."}
+    ]},
+   {"n": 851, "id": "pmid:39779727",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "we successfully track tumour burden and ctDNA shedding from precancerous lesions post-treatment without requiring matched tumour biopsies"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We conduct a diagnostic accuracy study across multiple cancer types in symptomatic patients, achieving 94.9% sensitivity and 88.8% specificity."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "in silico validation demonstrates strong discrimination (86% AUC) at ctDNA fractions as low as 0.7%"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Most existing methods focus on targeted deep sequencing, but few integrate multiple data modalities."}
+    ]},
+   {"n": 852, "id": "pmid:40050282",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "DrBioRight enables researchers to explore protein-centric cancer omics data, perform advanced analyses, visualize results, and engage in interactive discussions using natural language."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "a comprehensive cancer functional proteomics resource using reverse phase protein arrays, incorporating data from nearly 8000 patient samples from The Cancer Genome Atlas and approximately 900 samples from the Cancer Cell Line Encyclopedia"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Our dataset includes a curated panel of nearly 500 high-quality antibodies, covering all major cancer hallmark pathways."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we introduce DrBioRight 2.0 ( https://drbioright.org ), an intuitive bioinformatic platform powered by state-of-the-art large language models"}
+    ]},
+   {"n": 853, "id": "pmid:41922334",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "This study highlights PhIP-Seq immunoprofiling to identify serum-based immunosignature panels that can serve as biomarkers for GCTs."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "RNA sequencing data from The Cancer Genome Atlas confirmed differential overexpression of target antigens in testicular cancer."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "A secondary model (Sem-iSIGN), consisting of 17 peptides from five proteins, differentiated seminoma from nonseminoma with 96% specificity, 65% sensitivity, and AUC of 0.77.", "flag": "ambiguous", "reason": "The numbers quoted match the abstract but are assigned the wrong way round: 96% is the specificity and 65% the sensitivity, so the model was more specific than sensitive, the reverse of the claim."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we developed and validated an immunosignature panel (GCT-iSIGN) comprising 24 peptides from 16 unique proteins. This panel achieved 93% sensitivity, 99% specificity, and an area under the curve (AUC) of 0.98"}
+    ]},
+   {"n": 854, "id": "pmid:38182597",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Here, we show that the N-terminal portion of P23-45 TMP is an unusual RNA polymerase (RNAP) homologous to cellular RNAPs."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "The non-virion RNAP has a crab-claw-like architecture. By contrast, the virion RNAP adopts a unique flat structure without a clamp."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Structure and sequence comparisons of the P23-45 RNAPs with other RNAPs suggest that, despite the extensive functional differences, the two P23-45 RNAPs originate from an ancient gene duplication in an ancestral phage."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Thermus thermophilus bacteriophage P23-45 encodes a giant 5,002-residue tail tape measure protein (TMP) that defines the length of its extraordinarily long tail."}
+    ]},
+   {"n": 855, "id": "pmid:41484121",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Therapeutic strategies combining CDK4/6 or SHP2 inhibitors with BRAF/MEK inhibitors in preclinical models show greater efficacy than BRAF/MEK inhibitors alone in these cancers."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "The best ORR was 14% (3/21), the primary endpoint was not met."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "These mechanisms include the acquisition of new mutations in NRAS, MAP2K1, RAF1, and RB in ctDNA at the time of disease progression."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Class 2 and 3 non-V600E BRAF mutations are oncogenic drivers in many cancer types."}
+    ]},
+   {"n": 856, "id": "pmid:40593653",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Regulation of Cas9 by CovR is conserved at the species level, with lineage specificities suggesting different adaptive trajectories."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "the master regulator of virulence, CovR, regulates CRISPR-Cas9 immunity against mobile genetic elements in Streptococcus agalactiae, a pathobiont responsible for invasive neonatal infections"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We show that CovR binds to and represses a distal promoter of the cas operon, integrating immunity within the virulence regulatory network."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The CovR-regulated promoter provides a controlled increase in off-target cleavages to counteract mutations in the target DNA, restores the potency of old immune memory"}
+    ]},
+   {"n": 857, "id": "pmid:40593800",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "These mice, termed ABab-I, exhibit increased peripheral CD8 + T cell counts and a higher CD8/CD4 ratio compared to ABab-A2 mice."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "ABab-I mice allow simultaneous epitope and TCR discovery with broad HLA coverage, which could increase the number of cancer patients amenable to TCR-T treatments."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Multi-HLA-I expression selected, on average, TCR with longer complementary determining region 3 (CDR3) compared to expression of a single HLA-I."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Into these mice, we here introduce by PiggyBac transposon HLA-A*03:01, -A*11:01, -B*07:02, -B*15:01, -C*04:01, and -C*07:02 genes."}
+    ]},
+   {"n": 858, "id": "pmid:41980961",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Rare and singleton SVs disrupting protein expression of known cancer susceptibility genes collectively involve 6% of patients."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "SVs involving altered methylation of CpG Islands or enhancers are also implicated in differential protein expression."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "About 24% of the hundreds of genes with SV-associated non-coding cis-regulatory alterations at the mRNA level are similarly associated at the protein level."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Rare and singleton SVs disrupting protein expression of known cancer susceptibility genes collectively involve 6% of patients."}
+    ]},
+   {"n": 859, "id": "pmid:42140950",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Among the mITT population (n = 62), median PFS was 4.2 months with carboplatin plus nivolumab vs 5.5 months with carboplatin."},
+      {"j": 2, "label": "not_addressed", "confidence": 2, "evidence": "The primary endpoint was progression-free survival (PFS) in a modified intention-to-treat (mITT) population of patients with chemotherapy-naïve (i.e., first-line) mTNBC.", "flag": "ambiguous", "reason": "The trial studied only chemotherapy-naive patients, so the abstract reports nothing about previously treated patients, though its overall negative PFS result points the opposite way."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Grade ≥3 adverse events occurred in 56.8% of patients in the combination arm and 65.8% in the carboplatin arm."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "In PD-L1-positive mTNBC patients (n = 24), median PFS was 8.3 vs 4.7 months"}
+    ]}
+ ]}

@@ -1,0 +1,647 @@
+{
+"batch": "check_A_30",
+"pass": "A",
+"source_batch": "gen_30",
+"items": [
+{
+"n": 840,
+"id": "pmid:38849342",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "In flowering plants, the predominant sexual morph is hermaphroditism, and the emergence of unisexuality is poorly understood. Using Cucumis melo (melon) as a model system, we explore the mechanisms driving sexual forms. We identify a spontaneous mutant exhibiting a transition from bisexual to unisexual male flower, and identify the causal mutation as a Harbinger transposon impairing the expression of Ethylene Insensitive 2 (CmEIN2) gene. Genetics and transcriptomic analysis reveal a dual role of CmEIN2 in both sex determination and fruit shape formation. Upon expression of CmACS11, EIN2 is recruited to repress the expression of the carpel inhibitor, CmWIP1. Subsequently, EIN2 is recruited to mediate stamina inhibition. Following the sex determination phase, EIN2 promotes fruit shape elongation. Genome-wide analysis reveals that Harbinger transposon mobilization is triggered by environmental cues, and integrates preferentially in active chromatin, particularly within promoter regions. Characterization of a large collection of melon germplasm points to active transpositions in the wild, compared to cultivated accessions. Our study underscores the association between chromatin dynamics and the temporal aspects of mobile genetic element insertions, providing valuable insights into plant adaptation and crop genome evolution."
+}
+],
+"text": "In flowering plants, the predominant sexual morph is hermaphroditism, and the emergence of unisexuality is poorly understood. Using Cucumis melo (melon) as a model system, we explore the mechanisms driving sexual forms. We identify a spontaneous mutant exhibiting a transition from bisexual to unisexual male flower, and identify the causal mutation as a Harbinger transposon impairing the expression of Ethylene Insensitive 2 (CmEIN2) gene. Genetics and transcriptomic analysis reveal a dual role of CmEIN2 in both sex determination and fruit shape formation. Upon expression of CmACS11, EIN2 is recruited to repress the expression of the carpel inhibitor, CmWIP1. Subsequently, EIN2 is recruited to mediate stamina inhibition. Following the sex determination phase, EIN2 promotes fruit shape elongation. Genome-wide analysis reveals that Harbinger transposon mobilization is triggered by environmental cues, and integrates preferentially in active chromatin, particularly within promoter regions. Characterization of a large collection of melon germplasm points to active transpositions in the wild, compared to cultivated accessions. Our study underscores the association between chromatin dynamics and the temporal aspects of mobile genetic element insertions, providing valuable insights into plant adaptation and crop genome evolution.",
+"statements": [
+{
+"j": 1,
+"text": "Removing the Harbinger insertion from CmEIN2 by genome editing restores bisexual flowers in the mutant."
+},
+{
+"j": 2,
+"text": "In the melon mutant, the shift from bisexual to male-only flowers was caused by a Harbinger transposon that impaired CmEIN2 expression."
+},
+{
+"j": 3,
+"text": "Wild melon accessions carried less active Harbinger transposition than cultivated accessions."
+},
+{
+"j": 4,
+"text": "New Harbinger insertions were non-random, landing preferentially in transcriptionally active chromatin and especially in promoter regions."
+}
+]
+},
+{
+"n": 841,
+"id": "pmid:39019871",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "During each cell cycle, the process of DNA replication timing is tightly regulated to ensure the accurate duplication of the genome. The extent and significance of alterations in this process during malignant transformation have not been extensively explored. Here, we assess the impact of altered replication timing (ART) on cancer evolution by analysing replication-timing sequencing of cancer and normal cell lines and 952 whole-genome sequenced lung and breast tumours. We find that 6%-18% of the cancer genome exhibits ART, with regions with a change from early to late replication displaying an increased mutation rate and distinct mutational signatures. Whereas regions changing from late to early replication contain genes with increased expression and present a preponderance of APOBEC3-mediated mutation clusters and associated driver mutations. We demonstrate that ART occurs relatively early during cancer evolution and that ART may have a stronger correlation with mutation acquisition than alterations in chromatin structure."
+}
+],
+"text": "During each cell cycle, the process of DNA replication timing is tightly regulated to ensure the accurate duplication of the genome. The extent and significance of alterations in this process during malignant transformation have not been extensively explored. Here, we assess the impact of altered replication timing (ART) on cancer evolution by analysing replication-timing sequencing of cancer and normal cell lines and 952 whole-genome sequenced lung and breast tumours. We find that 6%-18% of the cancer genome exhibits ART, with regions with a change from early to late replication displaying an increased mutation rate and distinct mutational signatures. Whereas regions changing from late to early replication contain genes with increased expression and present a preponderance of APOBEC3-mediated mutation clusters and associated driver mutations. We demonstrate that ART occurs relatively early during cancer evolution and that ART may have a stronger correlation with mutation acquisition than alterations in chromatin structure.",
+"statements": [
+{
+"j": 1,
+"text": "Regions switching from early to late replication accumulated mutations at an decreased rate and carried distinct mutational signatures."
+},
+{
+"j": 2,
+"text": "Regions shifting from late to early replication held more highly expressed genes and an excess of APOBEC3-mediated mutation clusters with associated driver mutations."
+},
+{
+"j": 3,
+"text": "Lung tumours with extensive altered replication timing have shorter overall survival than tumours without it."
+},
+{
+"j": 4,
+"text": "Between 6% and 18% of the cancer genome showed altered replication timing."
+}
+]
+},
+{
+"n": 842,
+"id": "pmid:38110372",
+"year": 2023,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Early diagnosis of hepatocellular carcinoma (HCC) lacks highly sensitive and specific protein biomarkers. Here, we describe a staged mass spectrometry (MS)-based discovery-verification-validation proteomics workflow to explore serum proteomic biomarkers for HCC early diagnosis in 1002 individuals. Machine learning model determined as P4 panel (HABP2, CD163, AFP and PIVKA-II) clearly distinguish HCC from liver cirrhosis (LC, AUC 0.979, sensitivity 0.925, specificity 0.915) and healthy individuals (HC, AUC 0.992, sensitivity 0.975, specificity 1.000) in an independent validation cohort, outperforming existing clinical prediction strategies. Furthermore, the P4 panel can accurately predict LC to HCC conversion (AUC 0.890, sensitivity 0.909, specificity 0.877) with predicting HCC at a median of 11.4 months prior to imaging in prospective external validation cohorts (No.: Keshen 2018_005_02 and NCT03588442). These results suggest that proteomics-driven serum biomarker discovery provides a valuable reference for the liquid biopsy, and has great potential to improve early diagnosis of HCC."
+}
+],
+"text": "Early diagnosis of hepatocellular carcinoma (HCC) lacks highly sensitive and specific protein biomarkers. Here, we describe a staged mass spectrometry (MS)-based discovery-verification-validation proteomics workflow to explore serum proteomic biomarkers for HCC early diagnosis in 1002 individuals. Machine learning model determined as P4 panel (HABP2, CD163, AFP and PIVKA-II) clearly distinguish HCC from liver cirrhosis (LC, AUC 0.979, sensitivity 0.925, specificity 0.915) and healthy individuals (HC, AUC 0.992, sensitivity 0.975, specificity 1.000) in an independent validation cohort, outperforming existing clinical prediction strategies. Furthermore, the P4 panel can accurately predict LC to HCC conversion (AUC 0.890, sensitivity 0.909, specificity 0.877) with predicting HCC at a median of 11.4 months prior to imaging in prospective external validation cohorts (No.: Keshen 2018_005_02 and NCT03588442). These results suggest that proteomics-driven serum biomarker discovery provides a valuable reference for the liquid biopsy, and has great potential to improve early diagnosis of HCC.",
+"statements": [
+{
+"j": 1,
+"text": "The P4 panel separated HCC from healthy individuals with an AUC of 0.992 and a specificity of 1.000 in the independent validation cohort."
+},
+{
+"j": 2,
+"text": "In the independent validation cohort the P4 panel performed better than the clinical prediction strategies already in use."
+},
+{
+"j": 3,
+"text": "The panel identified HCC a median of 11.4 months before imaging did in the prospective external validation cohorts."
+},
+{
+"j": 4,
+"text": "Using the P4 panel for cirrhosis surveillance lowers HCC mortality."
+}
+]
+},
+{
+"n": 843,
+"id": "pmid:37291246",
+"year": 2023,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Long noncoding RNAs (lncRNAs) are linked to cancer via pathogenic changes in their expression levels. Yet, it remains unclear whether lncRNAs can also impact tumour cell fitness via function-altering somatic \"driver\" mutations. To search for such driver-lncRNAs, we here perform a genome-wide analysis of fitness-altering single nucleotide variants (SNVs) across a cohort of 2583 primary and 3527 metastatic tumours. The resulting 54 mutated and positively-selected lncRNAs are significantly enriched for previously-reported cancer genes and a range of clinical and genomic features. A number of these lncRNAs promote tumour cell proliferation when overexpressed in in vitro models. Our results also highlight a dense SNV hotspot in the widely-studied NEAT1 oncogene. To directly evaluate the functional significance of NEAT1 SNVs, we use in cellulo mutagenesis to introduce tumour-like mutations in the gene and observe a significant and reproducible increase in cell fitness, both in vitro and in a mouse model. Mechanistic studies reveal that SNVs remodel the NEAT1 ribonucleoprotein and boost subnuclear paraspeckles. In summary, this work demonstrates the utility of driver analysis for mapping cancer-promoting lncRNAs, and provides experimental evidence that somatic mutations can act through lncRNAs to enhance pathological cancer cell fitness."
+}
+],
+"text": "Long noncoding RNAs (lncRNAs) are linked to cancer via pathogenic changes in their expression levels. Yet, it remains unclear whether lncRNAs can also impact tumour cell fitness via function-altering somatic \"driver\" mutations. To search for such driver-lncRNAs, we here perform a genome-wide analysis of fitness-altering single nucleotide variants (SNVs) across a cohort of 2583 primary and 3527 metastatic tumours. The resulting 54 mutated and positively-selected lncRNAs are significantly enriched for previously-reported cancer genes and a range of clinical and genomic features. A number of these lncRNAs promote tumour cell proliferation when overexpressed in in vitro models. Our results also highlight a dense SNV hotspot in the widely-studied NEAT1 oncogene. To directly evaluate the functional significance of NEAT1 SNVs, we use in cellulo mutagenesis to introduce tumour-like mutations in the gene and observe a significant and reproducible increase in cell fitness, both in vitro and in a mouse model. Mechanistic studies reveal that SNVs remodel the NEAT1 ribonucleoprotein and boost subnuclear paraspeckles. In summary, this work demonstrates the utility of driver analysis for mapping cancer-promoting lncRNAs, and provides experimental evidence that somatic mutations can act through lncRNAs to enhance pathological cancer cell fitness.",
+"statements": [
+{
+"j": 1,
+"text": "NEAT1 SNVs remodelled the NEAT1 ribonucleoprotein and increased subnuclear paraspeckles."
+},
+{
+"j": 2,
+"text": "Introducing tumour-like mutations into NEAT1 produced a significant, reproducible gain in cell fitness in culture and in a mouse model."
+},
+{
+"j": 3,
+"text": "The genome-wide search returned 54 mutated, negatively selected lncRNAs that were significantly enriched for genes already reported in cancer."
+},
+{
+"j": 4,
+"text": "Mutations in these lncRNAs are more frequent in metastatic tumours than in primary tumours."
+}
+]
+},
+{
+"n": 844,
+"id": "pmid:41290626",
+"year": 2025,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The COVID-19 pandemic caused an unprecedented disruption to the global circulation of influenza viruses. Among the most notable outcomes was the probable extinction of the B/Yamagata lineage of influenza B viruses, which has been rarely detected since March 2020. However, the underlying mechanism of the probable extinction is unknown. Here, we combine molecular, antigenic, and epidemiological data to explore the drivers of this phenomenon. Our analysis reveals that the probable extinction of B/Yamagata was driven by reduced transmission due to nonpharmaceutical interventions (NPIs) and a depleted susceptible population caused by conserved antigenicity and the 2017/2018 outbreak. Specifically, B/Yamagata exhibited slower antigenic evolution and alternating antigenic dominance compared to the co-circulating B/Victoria lineage, which was consistent with its weaker positive selection pressure. Simulation analysis suggests that B/Yamagata would maintain circulation if it underwent significant antigenic drift around the COVID-19 pandemic or if NPIs were not implemented. These findings provide a mechanistic explanation for the probable extinction of B/Yamagata and offer broader insights for controlling similar respiratory viruses."
+}
+],
+"text": "The COVID-19 pandemic caused an unprecedented disruption to the global circulation of influenza viruses. Among the most notable outcomes was the probable extinction of the B/Yamagata lineage of influenza B viruses, which has been rarely detected since March 2020. However, the underlying mechanism of the probable extinction is unknown. Here, we combine molecular, antigenic, and epidemiological data to explore the drivers of this phenomenon. Our analysis reveals that the probable extinction of B/Yamagata was driven by reduced transmission due to nonpharmaceutical interventions (NPIs) and a depleted susceptible population caused by conserved antigenicity and the 2017/2018 outbreak. Specifically, B/Yamagata exhibited slower antigenic evolution and alternating antigenic dominance compared to the co-circulating B/Victoria lineage, which was consistent with its weaker positive selection pressure. Simulation analysis suggests that B/Yamagata would maintain circulation if it underwent significant antigenic drift around the COVID-19 pandemic or if NPIs were not implemented. These findings provide a mechanistic explanation for the probable extinction of B/Yamagata and offer broader insights for controlling similar respiratory viruses.",
+"statements": [
+{
+"j": 1,
+"text": "The B/Yamagata component should be removed from quadrivalent influenza vaccines."
+},
+{
+"j": 2,
+"text": "B/Yamagata evolved antigenically less slowly than the co-circulating B/Victoria lineage and was under weaker positive selection."
+},
+{
+"j": 3,
+"text": "Simulations kept B/Yamagata circulating when NPIs were absent or when the lineage underwent substantial antigenic drift around the pandemic."
+},
+{
+"j": 4,
+"text": "The lineage's probable extinction was attributed to NPI-reduced transmission together with a susceptible pool depleted by conserved antigenicity and the 2017/2018 outbreak."
+}
+]
+},
+{
+"n": 845,
+"id": "pmid:40645931",
+"year": 2025,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Gene duplication generates gene paralogs that may undergo diverse fates during evolution, and thus serves as a potent catalyst of biological complexity. Genetic paralogs frequently share redundant functions and may also exhibit antagonistic activities by competing for common interaction partners. Here we show that the gene paralogs NRBP1 and NRBP2 oppositely regulate long interspersed nuclear element-1 (L1) retrotransposition, via influencing integrity of the L1 ribonucleoprotein complex. We demonstrate that the opposing roles of NRBP1 and NRBP2 are not results of a competitive mechanism, but rather due to targeting NRBP1 for degradation by NRBP2, probably through heterodimer formation. Moreover, our phylogenetic analysis shows that the regulatory function of NRBP2 may be acquired later during evolution, suggesting that evolutionary pressure has favored this functional fine-tuning of NRBP1. In summary, our findings not only identify NRBP1/2 as L1 regulators and implicate their involvement in human pathogenesis, but also provide a mechanistic insight into the regulatory details arising from gene duplication."
+}
+],
+"text": "Gene duplication generates gene paralogs that may undergo diverse fates during evolution, and thus serves as a potent catalyst of biological complexity. Genetic paralogs frequently share redundant functions and may also exhibit antagonistic activities by competing for common interaction partners. Here we show that the gene paralogs NRBP1 and NRBP2 oppositely regulate long interspersed nuclear element-1 (L1) retrotransposition, via influencing integrity of the L1 ribonucleoprotein complex. We demonstrate that the opposing roles of NRBP1 and NRBP2 are not results of a competitive mechanism, but rather due to targeting NRBP1 for degradation by NRBP2, probably through heterodimer formation. Moreover, our phylogenetic analysis shows that the regulatory function of NRBP2 may be acquired later during evolution, suggesting that evolutionary pressure has favored this functional fine-tuning of NRBP1. In summary, our findings not only identify NRBP1/2 as L1 regulators and implicate their involvement in human pathogenesis, but also provide a mechanistic insight into the regulatory details arising from gene duplication.",
+"statements": [
+{
+"j": 1,
+"text": "The antagonism between the two paralogs arises not from competition for shared partners but from NRBP2 driving NRBP1 degradation."
+},
+{
+"j": 2,
+"text": "The paralogs NRBP1 and NRBP2 act in opposite directions on L1 retrotransposition by affecting the integrity of the L1 ribonucleoprotein complex."
+},
+{
+"j": 3,
+"text": "Phylogenetic analysis placed the regulatory function of NRBP2 as acquired earlier in evolution than that of NRBP1."
+},
+{
+"j": 4,
+"text": "Loss of NRBP2 increases the number of L1 insertions found in patient tumour genomes."
+}
+]
+},
+{
+"n": 846,
+"id": "pmid:39227600",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "In metazoans mitochondrial DNA (mtDNA) or retrotransposon cDNA released to cytoplasm are degraded by nucleases to prevent sterile inflammation. It remains unknown whether degradation of these DNA also prevents nuclear genome instability. We used an amplicon sequencing-based method in yeast enabling analysis of millions of DSB repair products. In non-dividing stationary phase cells, Pol4-mediated non-homologous end-joining increases, resulting in frequent insertions of 1-3 nucleotides, and insertions of mtDNA (NUMTs) or retrotransposon cDNA. Yeast EndoG (Nuc1) nuclease limits insertion of cDNA and transfer of very long mtDNA ( >10 kb) to the nucleus, where it forms unstable circles, while promoting the formation of short NUMTs (~45-200 bp). Nuc1 also regulates transfer of extranuclear DNA to nucleus in aging or meiosis. We propose that Nuc1 preserves genome stability by degrading retrotransposon cDNA and long mtDNA, while short NUMTs originate from incompletely degraded mtDNA. This work suggests that nucleases eliminating extranuclear DNA preserve genome stability."
+}
+],
+"text": "In metazoans mitochondrial DNA (mtDNA) or retrotransposon cDNA released to cytoplasm are degraded by nucleases to prevent sterile inflammation. It remains unknown whether degradation of these DNA also prevents nuclear genome instability. We used an amplicon sequencing-based method in yeast enabling analysis of millions of DSB repair products. In non-dividing stationary phase cells, Pol4-mediated non-homologous end-joining increases, resulting in frequent insertions of 1-3 nucleotides, and insertions of mtDNA (NUMTs) or retrotransposon cDNA. Yeast EndoG (Nuc1) nuclease limits insertion of cDNA and transfer of very long mtDNA ( >10 kb) to the nucleus, where it forms unstable circles, while promoting the formation of short NUMTs (~45-200 bp). Nuc1 also regulates transfer of extranuclear DNA to nucleus in aging or meiosis. We propose that Nuc1 preserves genome stability by degrading retrotransposon cDNA and long mtDNA, while short NUMTs originate from incompletely degraded mtDNA. This work suggests that nucleases eliminating extranuclear DNA preserve genome stability.",
+"statements": [
+{
+"j": 1,
+"text": "In non-dividing stationary phase cells, Pol4-mediated non-homologous end-joining increased and produced frequent insertions of one to three nucleotides."
+},
+{
+"j": 2,
+"text": "Deleting Nuc1 shortens the replicative lifespan of yeast cells."
+},
+{
+"j": 3,
+"text": "Nuc1 also controlled how much extranuclear DNA reached the nucleus during ageing and meiosis."
+},
+{
+"j": 4,
+"text": "Nuc1 restricted nuclear transfer of mtDNA shorter than 10 kb while promoting short NUMTs of roughly 45-200 base pairs."
+}
+]
+},
+{
+"n": 847,
+"id": "pmid:37491530",
+"year": 2023,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Polyploidization can provide a wealth of genetic variation for adaptive evolution and speciation, but understanding the mechanisms of subgenome evolution as well as its dynamics and ultimate consequences remains elusive. Here, we report the telomere-to-telomere (T2T) gap-free reference genome of allotetraploid horseradish (Armoracia rusticana) sequenced using a comprehensive strategy. The (epi)genomic architecture and 3D chromatin structure of the A and B subgenomes differ significantly, suggesting that both the dynamics of the dominant long terminal repeat retrotransposons and DNA methylation have played critical roles in subgenome diversification. Investigation of the genetic basis of biosynthesis of glucosinolates (GSLs) and horseradish peroxidases reveals both the important role of polyploidization and subgenome differentiation in shaping the key traits. Continuous duplication and divergence of essential genes of GSL biosynthesis (e.g., FMO GS-OX , IGMT, and GH1 gene family) contribute to the broad GSL profile in horseradish. Overall, the T2T assembly of the allotetraploid horseradish genome expands our understanding of polyploid genome evolution and provides a fundamental genetic resource for breeding and genetic improvement of horseradish."
+}
+],
+"text": "Polyploidization can provide a wealth of genetic variation for adaptive evolution and speciation, but understanding the mechanisms of subgenome evolution as well as its dynamics and ultimate consequences remains elusive. Here, we report the telomere-to-telomere (T2T) gap-free reference genome of allotetraploid horseradish (Armoracia rusticana) sequenced using a comprehensive strategy. The (epi)genomic architecture and 3D chromatin structure of the A and B subgenomes differ significantly, suggesting that both the dynamics of the dominant long terminal repeat retrotransposons and DNA methylation have played critical roles in subgenome diversification. Investigation of the genetic basis of biosynthesis of glucosinolates (GSLs) and horseradish peroxidases reveals both the important role of polyploidization and subgenome differentiation in shaping the key traits. Continuous duplication and divergence of essential genes of GSL biosynthesis (e.g., FMO GS-OX , IGMT, and GH1 gene family) contribute to the broad GSL profile in horseradish. Overall, the T2T assembly of the allotetraploid horseradish genome expands our understanding of polyploid genome evolution and provides a fundamental genetic resource for breeding and genetic improvement of horseradish.",
+"statements": [
+{
+"j": 1,
+"text": "Dynamics of the recessive LTR retrotransposons and DNA methylation were both implicated as critical in subgenome diversification."
+},
+{
+"j": 2,
+"text": "The horseradish genome contains more LTR retrotransposon copies than the Arabidopsis thaliana genome."
+},
+{
+"j": 3,
+"text": "Repeated duplication and divergence of glucosinolate biosynthesis genes, including FMO GS-OX, IGMT and the GH1 family, underlie the broad glucosinolate profile of horseradish."
+},
+{
+"j": 4,
+"text": "The A and B subgenomes of allotetraploid horseradish differ significantly in their epigenomic architecture and 3D chromatin structure."
+}
+]
+},
+{
+"n": 848,
+"id": "pmid:39152110",
+"year": 2024,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Glioma represents the most common central nervous system neoplasm in adults. Current classification scheme utilizes molecular alterations, particularly IDH1.R132H, to stratify lesions into distinct prognostic groups. Identification of the single nucleotide variant through traditional tissue biopsy assessment poses procedural risks and does not fully reflect the heterogeneous and evolving tumor landscape. Here, we introduce a liquid biopsy assay, mt-IDH1 dx . The blood-based test allows minimally invasive detection of tumor-derived extracellular vesicle RNA using only 2 ml plasma volume. We perform rigorous, blinded validation testing across the study population (n = 133), comprising of IDH1.R132H patients (n = 80), IDH1 wild-type gliomas (n = 44), and age matched healthy controls (n = 9). Results from our plasma testing demonstrate an overall sensitivity of 75.0% (95% CI: 64.1%-84.0%), specificity 88.7% (95% CI: 77.0%-95.7%), positive predictive value 90.9%, and negative predictive value 70.1% compared to the tissue gold standard. In addition to fundamental diagnostic applications, the study also highlights the utility of mt-IDH1 dx platform for blood-based monitoring and surveillance, offering valuable prognostic information. Finally, the optimized workflow enables rapid and efficient completion of both tumor tissue and plasma testing in under 4 hours from the time of sampling."
+}
+],
+"text": "Glioma represents the most common central nervous system neoplasm in adults. Current classification scheme utilizes molecular alterations, particularly IDH1.R132H, to stratify lesions into distinct prognostic groups. Identification of the single nucleotide variant through traditional tissue biopsy assessment poses procedural risks and does not fully reflect the heterogeneous and evolving tumor landscape. Here, we introduce a liquid biopsy assay, mt-IDH1 dx . The blood-based test allows minimally invasive detection of tumor-derived extracellular vesicle RNA using only 2 ml plasma volume. We perform rigorous, blinded validation testing across the study population (n = 133), comprising of IDH1.R132H patients (n = 80), IDH1 wild-type gliomas (n = 44), and age matched healthy controls (n = 9). Results from our plasma testing demonstrate an overall sensitivity of 75.0% (95% CI: 64.1%-84.0%), specificity 88.7% (95% CI: 77.0%-95.7%), positive predictive value 90.9%, and negative predictive value 70.1% compared to the tissue gold standard. In addition to fundamental diagnostic applications, the study also highlights the utility of mt-IDH1 dx platform for blood-based monitoring and surveillance, offering valuable prognostic information. Finally, the optimized workflow enables rapid and efficient completion of both tumor tissue and plasma testing in under 4 hours from the time of sampling.",
+"statements": [
+{
+"j": 1,
+"text": "The assay performs equally well in small, early-stage gliomas and in large, advanced tumours."
+},
+{
+"j": 2,
+"text": "The assay's negative predictive value, 90.9%, exceeded its negative predictive value of 70.1%."
+},
+{
+"j": 3,
+"text": "Against tissue testing as the gold standard, the plasma assay achieved 75.0% sensitivity and 88.7% specificity."
+},
+{
+"j": 4,
+"text": "The blinded validation covered 133 subjects: 80 IDH1.R132H patients, 44 IDH1 wild-type gliomas and 9 age-matched healthy controls."
+}
+]
+},
+{
+"n": 849,
+"id": "pmid:41620431",
+"year": 2026,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Ionic thermoelectric (i-TE) materials have demonstrated a high thermopower in harvesting low-grade heat, emerging as superior candidates for self-powered electronics. However, coupling two i-TE effects in n-type materials is scarce, which restricts the development of high-performance systems. Herein, we uncover an overlooked thermogalvanic redox reaction between Cu 2+ and Cu + stabilized by Cl⁻ and quantitatively track the progressive reaction process by operando characterization. In binary polyvinyl alcohol (PVA)-CuCl 2 gels, an interactive i-TE coupling effect driven by ion speciation is validated, which exhibits an enhanced thermogalvanic redox as CuCl 2 concentrations increase while suppressing the thermodiffusion contribution. By distinguishing and quantifying coordination species, we reveal the impact of [Cu-Cl] speciation on the i-TE effect contributions. Correspondingly, a giant thermopower of -30.6 mV K -1 and a remarkable power density of 0.6 mW m -2 K -2 are achieved, respectively, by tuning ion coordination speciation. The long-term power generation exhibits a reversible and sustainable heat-to-electricity conversion. High output voltage of 3.5 V and power of 22 µW are produced in 16-cell i-TE modules when harvesting 15 K. Our findings reveal an interactive thermo-diffusion/galvanic coupling effect based on coordination chemistry, offering a potential design principle for high-performance i-TE materials."
+}
+],
+"text": "Ionic thermoelectric (i-TE) materials have demonstrated a high thermopower in harvesting low-grade heat, emerging as superior candidates for self-powered electronics. However, coupling two i-TE effects in n-type materials is scarce, which restricts the development of high-performance systems. Herein, we uncover an overlooked thermogalvanic redox reaction between Cu 2+ and Cu + stabilized by Cl⁻ and quantitatively track the progressive reaction process by operando characterization. In binary polyvinyl alcohol (PVA)-CuCl 2 gels, an interactive i-TE coupling effect driven by ion speciation is validated, which exhibits an enhanced thermogalvanic redox as CuCl 2 concentrations increase while suppressing the thermodiffusion contribution. By distinguishing and quantifying coordination species, we reveal the impact of [Cu-Cl] speciation on the i-TE effect contributions. Correspondingly, a giant thermopower of -30.6 mV K -1 and a remarkable power density of 0.6 mW m -2 K -2 are achieved, respectively, by tuning ion coordination speciation. The long-term power generation exhibits a reversible and sustainable heat-to-electricity conversion. High output voltage of 3.5 V and power of 22 µW are produced in 16-cell i-TE modules when harvesting 15 K. Our findings reveal an interactive thermo-diffusion/galvanic coupling effect based on coordination chemistry, offering a potential design principle for high-performance i-TE materials.",
+"statements": [
+{
+"j": 1,
+"text": "Raising the CuCl2 concentration in the PVA gels strengthened the thermogalvanic redox contribution while suppressing the thermodiffusion contribution."
+},
+{
+"j": 2,
+"text": "Tuning ion coordination speciation delivered a thermopower of -30.6 mV per kelvin and a power density of 0.6 mW per square metre per kelvin squared."
+},
+{
+"j": 3,
+"text": "A 16-cell module harvesting a 15 K difference produced 3.5 V and 22 microwatts."
+},
+{
+"j": 4,
+"text": "The gels keep their thermopower when stretched or bent."
+}
+]
+},
+{
+"n": 850,
+"id": "pmid:39746954",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Circulating Tumor Cells (CTCs) in blood encompass DNA, RNA, and protein biomarkers, but clinical utility is limited by their rarity. To enable tumor epitope-agnostic interrogation of large blood volumes, we developed a high-throughput microfluidic device, depleting hematopoietic cells through high-flow channels and force-amplifying magnetic lenses. Here, we apply this technology to analyze patient-derived leukapheresis products, interrogating a mean blood volume of 5.83 liters from seven patients with metastatic cancer. High CTC yields (mean 10,057 CTCs per patient; range 100 to 58,125) reveal considerable intra-patient heterogeneity. CTC size varies within patients, with 67% overlapping in diameter with WBCs. Paired single-cell DNA and RNA sequencing identifies subclonal patterns of aneuploidy and distinct signaling pathways within CTCs. In prostate cancers, a subpopulation of small aneuploid cells lacking epithelial markers is enriched for neuroendocrine signatures. Pooling of CNV-confirmed CTCs enables whole exome sequencing with high mutant allele fractions. High-throughput CTC enrichment thus enables cell-based liquid biopsy for comprehensive monitoring of cancer."
+}
+],
+"text": "Circulating Tumor Cells (CTCs) in blood encompass DNA, RNA, and protein biomarkers, but clinical utility is limited by their rarity. To enable tumor epitope-agnostic interrogation of large blood volumes, we developed a high-throughput microfluidic device, depleting hematopoietic cells through high-flow channels and force-amplifying magnetic lenses. Here, we apply this technology to analyze patient-derived leukapheresis products, interrogating a mean blood volume of 5.83 liters from seven patients with metastatic cancer. High CTC yields (mean 10,057 CTCs per patient; range 100 to 58,125) reveal considerable intra-patient heterogeneity. CTC size varies within patients, with 67% overlapping in diameter with WBCs. Paired single-cell DNA and RNA sequencing identifies subclonal patterns of aneuploidy and distinct signaling pathways within CTCs. In prostate cancers, a subpopulation of small aneuploid cells lacking epithelial markers is enriched for neuroendocrine signatures. Pooling of CNV-confirmed CTCs enables whole exome sequencing with high mutant allele fractions. High-throughput CTC enrichment thus enables cell-based liquid biopsy for comprehensive monitoring of cancer.",
+"statements": [
+{
+"j": 1,
+"text": "CTC counts measured with this device track tumour burden seen on imaging."
+},
+{
+"j": 2,
+"text": "In prostate cancer, a subpopulation of small aneuploid cells without epithelial markers was depleted for neuroendocrine signatures."
+},
+{
+"j": 3,
+"text": "Across seven patients with metastatic cancer the device interrogated a mean of 5.83 litres of blood and recovered on average 10,057 CTCs per patient."
+},
+{
+"j": 4,
+"text": "Two-thirds of the captured circulating tumour cells overlapped in diameter with white blood cells."
+}
+]
+},
+{
+"n": 851,
+"id": "pmid:39779727",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The analysis of circulating tumour DNA (ctDNA) through minimally invasive liquid biopsies is promising for early multi-cancer detection and monitoring minimal residual disease. Most existing methods focus on targeted deep sequencing, but few integrate multiple data modalities. Here, we develop a methodology for ctDNA detection using deep (80x) whole-genome TET-Assisted Pyridine Borane Sequencing (TAPS), a less destructive approach than bisulphite sequencing, which permits the simultaneous analysis of genomic and methylomic data. We conduct a diagnostic accuracy study across multiple cancer types in symptomatic patients, achieving 94.9% sensitivity and 88.8% specificity. Matched tumour biopsies are used for validation, not for guiding the analysis, imitating an early detection scenario. Furthermore, in silico validation demonstrates strong discrimination (86% AUC) at ctDNA fractions as low as 0.7%. Additionally, we successfully track tumour burden and ctDNA shedding from precancerous lesions post-treatment without requiring matched tumour biopsies. This pipeline is ready for further clinical evaluation to extend cancer screening and improve patient triage and monitoring."
+}
+],
+"text": "The analysis of circulating tumour DNA (ctDNA) through minimally invasive liquid biopsies is promising for early multi-cancer detection and monitoring minimal residual disease. Most existing methods focus on targeted deep sequencing, but few integrate multiple data modalities. Here, we develop a methodology for ctDNA detection using deep (80x) whole-genome TET-Assisted Pyridine Borane Sequencing (TAPS), a less destructive approach than bisulphite sequencing, which permits the simultaneous analysis of genomic and methylomic data. We conduct a diagnostic accuracy study across multiple cancer types in symptomatic patients, achieving 94.9% sensitivity and 88.8% specificity. Matched tumour biopsies are used for validation, not for guiding the analysis, imitating an early detection scenario. Furthermore, in silico validation demonstrates strong discrimination (86% AUC) at ctDNA fractions as low as 0.7%. Additionally, we successfully track tumour burden and ctDNA shedding from precancerous lesions post-treatment without requiring matched tumour biopsies. This pipeline is ready for further clinical evaluation to extend cancer screening and improve patient triage and monitoring.",
+"statements": [
+{
+"j": 1,
+"text": "In the diagnostic accuracy study across cancer types in symptomatic patients, the method reached 94.9% sensitivity and 88.8% specificity."
+},
+{
+"j": 2,
+"text": "Whole-genome TAPS at 80x costs less per sample than targeted deep sequencing."
+},
+{
+"j": 3,
+"text": "In silico validation still discriminated strongly, at 86% AUC, down to ctDNA fractions of 0.7%."
+},
+{
+"j": 4,
+"text": "Tumour burden and ctDNA shedding from precancerous lesions after treatment were tracked without needing matched tumour biopsies."
+}
+]
+},
+{
+"n": 852,
+"id": "pmid:40050282",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Functional proteomics provides critical insights into cancer mechanisms, facilitating the discovery of novel biomarkers and therapeutic targets. We have developed a comprehensive cancer functional proteomics resource using reverse phase protein arrays, incorporating data from nearly 8000 patient samples from The Cancer Genome Atlas and approximately 900 samples from the Cancer Cell Line Encyclopedia. Our dataset includes a curated panel of nearly 500 high-quality antibodies, covering all major cancer hallmark pathways. To enhance the accessibility and analytic power of this resource, we introduce DrBioRight 2.0 ( https://drbioright.org ), an intuitive bioinformatic platform powered by state-of-the-art large language models. DrBioRight enables researchers to explore protein-centric cancer omics data, perform advanced analyses, visualize results, and engage in interactive discussions using natural language. By streamlining complex proteogenomic analyses, this tool accelerates the translation of large-scale functional proteomics data into meaningful biomedical insights."
+}
+],
+"text": "Functional proteomics provides critical insights into cancer mechanisms, facilitating the discovery of novel biomarkers and therapeutic targets. We have developed a comprehensive cancer functional proteomics resource using reverse phase protein arrays, incorporating data from nearly 8000 patient samples from The Cancer Genome Atlas and approximately 900 samples from the Cancer Cell Line Encyclopedia. Our dataset includes a curated panel of nearly 500 high-quality antibodies, covering all major cancer hallmark pathways. To enhance the accessibility and analytic power of this resource, we introduce DrBioRight 2.0 ( https://drbioright.org ), an intuitive bioinformatic platform powered by state-of-the-art large language models. DrBioRight enables researchers to explore protein-centric cancer omics data, perform advanced analyses, visualize results, and engage in interactive discussions using natural language. By streamlining complex proteogenomic analyses, this tool accelerates the translation of large-scale functional proteomics data into meaningful biomedical insights.",
+"statements": [
+{
+"j": 1,
+"text": "Protein levels measured by the arrays agree closely with mRNA levels of the same genes."
+},
+{
+"j": 2,
+"text": "The antibody panel comprises nearly 500 curated, high-quality antibodies spanning all major cancer hallmark pathways."
+},
+{
+"j": 3,
+"text": "DrBioRight 2.0 runs on large language models and lets users analyse and visualise the protein data through natural language."
+},
+{
+"j": 4,
+"text": "The resource holds reverse phase protein array data from close to 8000 Cancer Genome Atlas patient samples and about 900 Cancer Cell Line Encyclopedia samples."
+}
+]
+},
+{
+"n": 853,
+"id": "pmid:41922334",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Germ cell tumors (GCTs) pose significant diagnostic challenges because of the limited performance of existing tumor markers. Here, we used phage immunoprecipitation sequencing (PhIP-Seq) to develop a unique immunosignature panel to improve diagnosing and differentiating GCT. Using 427 serum samples (150 GCT, 277 controls), we developed and validated an immunosignature panel (GCT-iSIGN) comprising 24 peptides from 16 unique proteins. This panel achieved 93% sensitivity, 99% specificity, and an area under the curve (AUC) of 0.98, identifying 23/24 biomarker-negative GCT cases. A secondary model (Sem-iSIGN), consisting of 17 peptides from five proteins, differentiated seminoma from nonseminoma with 96% specificity, 65% sensitivity, and AUC of 0.77. RNA sequencing data from The Cancer Genome Atlas confirmed differential overexpression of target antigens in testicular cancer. ELISA validation of ERVK7 and LUZP4 and immunohistochemical detection of ERVK7, MUC4, ZNF91, and LUZP4 in tumor tissues supported target expression. This study highlights PhIP-Seq immunoprofiling to identify serum-based immunosignature panels that can serve as biomarkers for GCTs. This approach addresses the shortcomings of conventional markers and offers a scalable, cost-effective tool for improving cancer diagnosis and management."
+}
+],
+"text": "Germ cell tumors (GCTs) pose significant diagnostic challenges because of the limited performance of existing tumor markers. Here, we used phage immunoprecipitation sequencing (PhIP-Seq) to develop a unique immunosignature panel to improve diagnosing and differentiating GCT. Using 427 serum samples (150 GCT, 277 controls), we developed and validated an immunosignature panel (GCT-iSIGN) comprising 24 peptides from 16 unique proteins. This panel achieved 93% sensitivity, 99% specificity, and an area under the curve (AUC) of 0.98, identifying 23/24 biomarker-negative GCT cases. A secondary model (Sem-iSIGN), consisting of 17 peptides from five proteins, differentiated seminoma from nonseminoma with 96% specificity, 65% sensitivity, and AUC of 0.77. RNA sequencing data from The Cancer Genome Atlas confirmed differential overexpression of target antigens in testicular cancer. ELISA validation of ERVK7 and LUZP4 and immunohistochemical detection of ERVK7, MUC4, ZNF91, and LUZP4 in tumor tissues supported target expression. This study highlights PhIP-Seq immunoprofiling to identify serum-based immunosignature panels that can serve as biomarkers for GCTs. This approach addresses the shortcomings of conventional markers and offers a scalable, cost-effective tool for improving cancer diagnosis and management.",
+"statements": [
+{
+"j": 1,
+"text": "The 24-peptide GCT-iSIGN panel reached 93% sensitivity, 99% specificity and an AUC of 0.98."
+},
+{
+"j": 2,
+"text": "Antibody levels in the panel decline after orchiectomy in patients with germ cell tumours."
+},
+{
+"j": 3,
+"text": "Cancer Genome Atlas RNA sequencing data showed the panel's target antigens overexpressed in testicular cancer."
+},
+{
+"j": 4,
+"text": "The secondary model separating seminoma from nonseminoma was far less specific than sensitive, 96% against 65%."
+}
+]
+},
+{
+"n": 854,
+"id": "pmid:38182597",
+"year": 2024,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Thermus thermophilus bacteriophage P23-45 encodes a giant 5,002-residue tail tape measure protein (TMP) that defines the length of its extraordinarily long tail. Here, we show that the N-terminal portion of P23-45 TMP is an unusual RNA polymerase (RNAP) homologous to cellular RNAPs. The TMP-fused virion RNAP transcribes pre-early phage genes, including a gene that encodes another, non-virion RNAP, that transcribes early and some middle phage genes. We report the crystal structures of both P23-45 RNAPs. The non-virion RNAP has a crab-claw-like architecture. By contrast, the virion RNAP adopts a unique flat structure without a clamp. Structure and sequence comparisons of the P23-45 RNAPs with other RNAPs suggest that, despite the extensive functional differences, the two P23-45 RNAPs originate from an ancient gene duplication in an ancestral phage. Our findings demonstrate striking adaptability of RNAPs that can be attained within a single virus species."
+}
+],
+"text": "Thermus thermophilus bacteriophage P23-45 encodes a giant 5,002-residue tail tape measure protein (TMP) that defines the length of its extraordinarily long tail. Here, we show that the N-terminal portion of P23-45 TMP is an unusual RNA polymerase (RNAP) homologous to cellular RNAPs. The TMP-fused virion RNAP transcribes pre-early phage genes, including a gene that encodes another, non-virion RNAP, that transcribes early and some middle phage genes. We report the crystal structures of both P23-45 RNAPs. The non-virion RNAP has a crab-claw-like architecture. By contrast, the virion RNAP adopts a unique flat structure without a clamp. Structure and sequence comparisons of the P23-45 RNAPs with other RNAPs suggest that, despite the extensive functional differences, the two P23-45 RNAPs originate from an ancient gene duplication in an ancestral phage. Our findings demonstrate striking adaptability of RNAPs that can be attained within a single virus species.",
+"statements": [
+{
+"j": 1,
+"text": "Structural and sequence comparisons trace the two phage RNAPs back to a gene duplication in an ancestral phage."
+},
+{
+"j": 2,
+"text": "Deleting the RNAP domain from the tape measure protein blocks injection of phage DNA into the host."
+},
+{
+"j": 3,
+"text": "The phage's tail tape measure protein is 5,002 residues long and sets the length of its unusually long tail."
+},
+{
+"j": 4,
+"text": "The virion RNAP has a flat architecture lacking a clamp, in contrast to the crab-claw shape of the non-virion enzyme."
+}
+]
+},
+{
+"n": 855,
+"id": "pmid:41484121",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Class 2 and 3 non-V600E BRAF mutations are oncogenic drivers in many cancer types. Currently, there are no established targeted therapies with proven efficacy for cancers with non-V600E BRAF mutations. We developed the investigator-initiated, Phase II BEAVER clinical trial (NCT03839342) to evaluate the efficacy of BRAF and MEK inhibitors in patients with non-V600E BRAF mutations. The primary outcome was objective response rate (ORR). The best ORR was 14% (3/21), the primary endpoint was not met. By analyzing genomic data from patient tumors, circulating tumor DNA (ctDNA), patient-derived xenograft (PDX) models generated from enrolled patients, and Class 2 & 3 BRAF mutant cell lines, we discovered MAPK-dependent and independent mechanisms of resistance to BRAF/MEK inhibition. These mechanisms include the acquisition of new mutations in NRAS, MAP2K1, RAF1, and RB in ctDNA at the time of disease progression. CDK4/6 and SHP2 emerge as mediators of intrinsic resistance to BRAF/MEK inhibition in Class 2 & 3 BRAF mutant tumors. Therapeutic strategies combining CDK4/6 or SHP2 inhibitors with BRAF/MEK inhibitors in preclinical models show greater efficacy than BRAF/MEK inhibitors alone in these cancers."
+}
+],
+"text": "Class 2 and 3 non-V600E BRAF mutations are oncogenic drivers in many cancer types. Currently, there are no established targeted therapies with proven efficacy for cancers with non-V600E BRAF mutations. We developed the investigator-initiated, Phase II BEAVER clinical trial (NCT03839342) to evaluate the efficacy of BRAF and MEK inhibitors in patients with non-V600E BRAF mutations. The primary outcome was objective response rate (ORR). The best ORR was 14% (3/21), the primary endpoint was not met. By analyzing genomic data from patient tumors, circulating tumor DNA (ctDNA), patient-derived xenograft (PDX) models generated from enrolled patients, and Class 2 & 3 BRAF mutant cell lines, we discovered MAPK-dependent and independent mechanisms of resistance to BRAF/MEK inhibition. These mechanisms include the acquisition of new mutations in NRAS, MAP2K1, RAF1, and RB in ctDNA at the time of disease progression. CDK4/6 and SHP2 emerge as mediators of intrinsic resistance to BRAF/MEK inhibition in Class 2 & 3 BRAF mutant tumors. Therapeutic strategies combining CDK4/6 or SHP2 inhibitors with BRAF/MEK inhibitors in preclinical models show greater efficacy than BRAF/MEK inhibitors alone in these cancers.",
+"statements": [
+{
+"j": 1,
+"text": "At disease progression, ctDNA carried newly acquired mutations in NRAS, MAP2K1, RAF1 and RB."
+},
+{
+"j": 2,
+"text": "In preclinical models, adding a CDK4/6 or SHP2 inhibitor to BRAF/MEK inhibition was less effective than BRAF/MEK inhibition alone."
+},
+{
+"j": 3,
+"text": "Only 3 of 21 patients responded, a best objective response rate of 14%, and the primary endpoint was not met."
+},
+{
+"j": 4,
+"text": "Class 3 BRAF mutant tumours responded less often than Class 2 tumours in the trial."
+}
+]
+},
+{
+"n": 856,
+"id": "pmid:40593653",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "CRISPR-Cas9 immune systems protect bacteria from foreign DNA. However, immune efficiency is constrained by Cas9 off-target cleavages and toxicity. How bacteria regulate Cas9 to maximize protection while preventing autoimmunity is not understood. Here, we show that the master regulator of virulence, CovR, regulates CRISPR-Cas9 immunity against mobile genetic elements in Streptococcus agalactiae, a pathobiont responsible for invasive neonatal infections. We show that CovR binds to and represses a distal promoter of the cas operon, integrating immunity within the virulence regulatory network. The CovR-regulated promoter provides a controlled increase in off-target cleavages to counteract mutations in the target DNA, restores the potency of old immune memory, and stimulates the acquisition of new memory in response to recent infections. Regulation of Cas9 by CovR is conserved at the species level, with lineage specificities suggesting different adaptive trajectories. Altogether, we describe the coordinated regulation of immunity and virulence that enhances the bacterial immune repertoire during host-pathogen interaction."
+}
+],
+"text": "CRISPR-Cas9 immune systems protect bacteria from foreign DNA. However, immune efficiency is constrained by Cas9 off-target cleavages and toxicity. How bacteria regulate Cas9 to maximize protection while preventing autoimmunity is not understood. Here, we show that the master regulator of virulence, CovR, regulates CRISPR-Cas9 immunity against mobile genetic elements in Streptococcus agalactiae, a pathobiont responsible for invasive neonatal infections. We show that CovR binds to and represses a distal promoter of the cas operon, integrating immunity within the virulence regulatory network. The CovR-regulated promoter provides a controlled increase in off-target cleavages to counteract mutations in the target DNA, restores the potency of old immune memory, and stimulates the acquisition of new memory in response to recent infections. Regulation of Cas9 by CovR is conserved at the species level, with lineage specificities suggesting different adaptive trajectories. Altogether, we describe the coordinated regulation of immunity and virulence that enhances the bacterial immune repertoire during host-pathogen interaction.",
+"statements": [
+{
+"j": 1,
+"text": "The CovR-regulated promoter raised off-target cleavage in a controlled way, counteracting target-DNA mutations and restoring the potency of old immune memory."
+},
+{
+"j": 2,
+"text": "Regulation of Cas9 by CovR is conserved across the species, with differences between lineages."
+},
+{
+"j": 3,
+"text": "Streptococcus agalactiae strains lacking CovR are less virulent in a neonatal infection model."
+},
+{
+"j": 4,
+"text": "CovR binds and activates a distal promoter of the cas operon, placing CRISPR-Cas9 immunity inside the virulence regulatory network."
+}
+]
+},
+{
+"n": 857,
+"id": "pmid:40593800",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "T cell receptor (TCR) gene therapy is an effective cancer treatment. Ideally, the TCR should be of human origin and have optimal avidity, e.g., isolated from a tumor antigen-non-tolerant host. Previously, we developed ABab-A2 mice which carry human TCRα and TCRβ gene loci and the human leukocyte antigen class I gene HLA-A*02:01 and are deficient for the corresponding mouse genes. Into these mice, we here introduce by PiggyBac transposon HLA-A*03:01, -A*11:01, -B*07:02, -B*15:01, -C*04:01, and -C*07:02 genes. These mice, termed ABab-I, exhibit increased peripheral CD8 + T cell counts and a higher CD8/CD4 ratio compared to ABab-A2 mice. ABab-I mice display a broader TCR repertoire with more unique V(D)J-TCRß clonotypes than ABab-A2 mice. Multi-HLA-I expression selected, on average, TCR with longer complementary determining region 3 (CDR3) compared to expression of a single HLA-I. ABab-I mice mount robust immune responses against viral, tumor-associated, and tumor-specific antigens. ABab-I mice allow simultaneous epitope and TCR discovery with broad HLA coverage, which could increase the number of cancer patients amenable to TCR-T treatments."
+}
+],
+"text": "T cell receptor (TCR) gene therapy is an effective cancer treatment. Ideally, the TCR should be of human origin and have optimal avidity, e.g., isolated from a tumor antigen-non-tolerant host. Previously, we developed ABab-A2 mice which carry human TCRα and TCRβ gene loci and the human leukocyte antigen class I gene HLA-A*02:01 and are deficient for the corresponding mouse genes. Into these mice, we here introduce by PiggyBac transposon HLA-A*03:01, -A*11:01, -B*07:02, -B*15:01, -C*04:01, and -C*07:02 genes. These mice, termed ABab-I, exhibit increased peripheral CD8 + T cell counts and a higher CD8/CD4 ratio compared to ABab-A2 mice. ABab-I mice display a broader TCR repertoire with more unique V(D)J-TCRß clonotypes than ABab-A2 mice. Multi-HLA-I expression selected, on average, TCR with longer complementary determining region 3 (CDR3) compared to expression of a single HLA-I. ABab-I mice mount robust immune responses against viral, tumor-associated, and tumor-specific antigens. ABab-I mice allow simultaneous epitope and TCR discovery with broad HLA coverage, which could increase the number of cancer patients amenable to TCR-T treatments.",
+"statements": [
+{
+"j": 1,
+"text": "Six further human HLA class I genes were introduced into the mice using a PiggyBac transposon."
+},
+{
+"j": 2,
+"text": "Expressing multiple HLA class I molecules selected TCRs with longer CDR3 on average than expressing a single HLA class I."
+},
+{
+"j": 3,
+"text": "ABab-I mice had lower peripheral CD8+ T cell counts and a higher CD8/CD4 ratio than ABab-A2 mice."
+},
+{
+"j": 4,
+"text": "TCRs isolated from ABab-I mice killed patient tumour cells after transfer into human T cells."
+}
+]
+},
+{
+"n": 858,
+"id": "pmid:41980961",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Proteome and transcriptome data combined can help assess the relevance of non-coding germline variants. Here, we combine germline Structural Variants (SVs) with mass spectrometry-based proteomics on tumors from 1637 cancer patients spanning various tumor tissues of origin to determine the extent SV breakpoint patterns involve differential protein expression of nearby genes. Rare and singleton SVs disrupting protein expression of known cancer susceptibility genes collectively involve 6% of patients. About 24% of the hundreds of genes with SV-associated non-coding cis-regulatory alterations at the mRNA level are similarly associated at the protein level. Both rare and common SVs may associate with differential protein expression within a specific tumor type or across multiple tissue types, including SVs differentially represented by patient ancestry. SVs involving altered methylation of CpG Islands or enhancers are also implicated in differential protein expression. Our results emphasize the contribution of germline SVs to cancer heterogeneity at the proteome level."
+}
+],
+"text": "Proteome and transcriptome data combined can help assess the relevance of non-coding germline variants. Here, we combine germline Structural Variants (SVs) with mass spectrometry-based proteomics on tumors from 1637 cancer patients spanning various tumor tissues of origin to determine the extent SV breakpoint patterns involve differential protein expression of nearby genes. Rare and singleton SVs disrupting protein expression of known cancer susceptibility genes collectively involve 6% of patients. About 24% of the hundreds of genes with SV-associated non-coding cis-regulatory alterations at the mRNA level are similarly associated at the protein level. Both rare and common SVs may associate with differential protein expression within a specific tumor type or across multiple tissue types, including SVs differentially represented by patient ancestry. SVs involving altered methylation of CpG Islands or enhancers are also implicated in differential protein expression. Our results emphasize the contribution of germline SVs to cancer heterogeneity at the proteome level.",
+"statements": [
+{
+"j": 1,
+"text": "SVs that altered methylation of CpG islands or enhancers were also linked to differential protein expression."
+},
+{
+"j": 2,
+"text": "About a quarter of the genes with SV-linked non-coding cis-regulatory effects on mRNA showed the same association at the protein level."
+},
+{
+"j": 3,
+"text": "Carrying one of these germline structural variants raises a person's lifetime risk of developing cancer."
+},
+{
+"j": 4,
+"text": "Rare and singleton SVs disrupting protein expression of known cancer susceptibility genes were found in 6% of the patients."
+}
+]
+},
+{
+"n": 859,
+"id": "pmid:42140950",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "This multi-institutional randomized phase II clinical trial (NCT03414684) investigated the efficacy and safety of carboplatin plus nivolumab compared to carboplatin in metastatic triple-negative breast cancer (mTNBC). The primary endpoint was progression-free survival (PFS) in a modified intention-to-treat (mITT) population of patients with chemotherapy-naïve (i.e., first-line) mTNBC. Secondary endpoints included overall survival (OS), confirmed objective response rate, confirmed clinical benefit rate, time to and duration of confirmed objective response, safety, and tolerability. Clinical outcomes were evaluated in the PD-L1-positive subgroup ( ≥ 1% immune cells; SP142 clone) per central review. Biospecimens were collected for correlative analyses. 75 patients were enrolled and treated between 2/2018-9/2020. Among the mITT population (n = 62), median PFS was 4.2 months with carboplatin plus nivolumab vs 5.5 months with carboplatin. Median OS did not significantly differ between arms (16.8 vs 11.1 months, respectively). In PD-L1-positive mTNBC patients (n = 24), median PFS was 8.3 vs 4.7 months; median OS was 17.6 vs 10.7 months. Grade ≥3 adverse events occurred in 56.8% of patients in the combination arm and 65.8% in the carboplatin arm. Carboplatin plus nivolumab did not significantly improve PFS compared to carboplatin in patients overall; however, a trend toward improved outcomes was observed in PD-L1-positive mTNBC patients. High mutational burden, interferon-gamma signaling, early circulating tumor DNA reduction, low baseline serum thymidine kinase activity, and urea cycle dysregulation in the microbiome emerged as potential predictors of response to immune checkpoint inhibitors with platinum."
+}
+],
+"text": "This multi-institutional randomized phase II clinical trial (NCT03414684) investigated the efficacy and safety of carboplatin plus nivolumab compared to carboplatin in metastatic triple-negative breast cancer (mTNBC). The primary endpoint was progression-free survival (PFS) in a modified intention-to-treat (mITT) population of patients with chemotherapy-naïve (i.e., first-line) mTNBC. Secondary endpoints included overall survival (OS), confirmed objective response rate, confirmed clinical benefit rate, time to and duration of confirmed objective response, safety, and tolerability. Clinical outcomes were evaluated in the PD-L1-positive subgroup ( ≥ 1% immune cells; SP142 clone) per central review. Biospecimens were collected for correlative analyses. 75 patients were enrolled and treated between 2/2018-9/2020. Among the mITT population (n = 62), median PFS was 4.2 months with carboplatin plus nivolumab vs 5.5 months with carboplatin. Median OS did not significantly differ between arms (16.8 vs 11.1 months, respectively). In PD-L1-positive mTNBC patients (n = 24), median PFS was 8.3 vs 4.7 months; median OS was 17.6 vs 10.7 months. Grade ≥3 adverse events occurred in 56.8% of patients in the combination arm and 65.8% in the carboplatin arm. Carboplatin plus nivolumab did not significantly improve PFS compared to carboplatin in patients overall; however, a trend toward improved outcomes was observed in PD-L1-positive mTNBC patients. High mutational burden, interferon-gamma signaling, early circulating tumor DNA reduction, low baseline serum thymidine kinase activity, and urea cycle dysregulation in the microbiome emerged as potential predictors of response to immune checkpoint inhibitors with platinum.",
+"statements": [
+{
+"j": 1,
+"text": "In the modified intention-to-treat population, median PFS was shorter with carboplatin plus nivolumab than with carboplatin alone, 4.2 versus 5.5 months."
+},
+{
+"j": 2,
+"text": "Grade 3 or lower adverse events were less frequent in the combination arm, 56.8%, than in the carboplatin arm, 65.8%."
+},
+{
+"j": 3,
+"text": "Among the 24 PD-L1-positive patients, median PFS was 8.3 months with the combination against 4.7 months with carboplatin."
+},
+{
+"j": 4,
+"text": "Adding nivolumab to carboplatin improves progression-free survival in mTNBC patients already treated with chemotherapy."
+}
+]
+}
+]
+}

@@ -1,0 +1,416 @@
+{
+"batch": "check_B_F02",
+"pass": "B",
+"source_batch": "reflip:first-of-any-v2",
+"supersedes": true,
+"items": [
+{
+"n": 772,
+"id": "pmid:42875489",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Astrocytomas and oligodendrogliomas are isocitrate dehydrogenase (IDH)-mutant gliomas that most commonly arise in adults under the age of 50 and exhibit variable responses to treatment 1-3 . To understand the genetic drivers of disease progression, here we used whole-genome and whole-exome sequencing to characterize longitudinally collected tumour specimens from 183 patients with IDH-mutant glioma. Samples were collected through the Glioma Longitudinal Analysis (GLASS) Consortium 4 . Most primary surgery samples were classified as grade 2 on the basis of histology (73% for astrocytomas and 93% for oligodendrogliomas). We validated known genomic markers of tumour progression, including hypermutation and homozygous deletion of CDKN2A or CDKN2B (hereafter, CDKN2A/B) 5 , and discovered genetic alterations that distinguish between the evolutionary trajectories of astrocytomas and those of oligodendrogliomas. Mutations in phosphatidylinositol 3-kinase (PI3K) and NOTCH1 were newly acquired in recurrent oligodendrogliomas, regardless of treatment, and were associated with an increased tumour mutational burden. In recurrent astrocytomas, however, again irrespective of treatment, acquired focal oncogene amplifications and CDKN2A/B homozygous deletions were associated with an increase in chromosomal imbalances, which converged with markers of chromosomal instability such as chromothripsis and whole-genome doubling. In both types of IDH-mutant glioma, we observed a convergence of acquired alterations, genome-wide changes and worse patient outcomes, suggesting that treatment-refractory clones were being selected. Treatment with temozolomide was associated with the mutational signatures SBS11 and SBS119 in both tumour types, whereas the radiotherapy-associated ID8 signature increased in astrocytomas specifically. We show that the genomes of oligodendrogliomas and astrocytomas adapt to the selective pressures of tumour progression and treatment in distinct ways, suggesting that oligodendrogliomas and astrocytomas differ in their responses to treatment-induced DNA damage."
+}
+],
+"text": "Astrocytomas and oligodendrogliomas are isocitrate dehydrogenase (IDH)-mutant gliomas that most commonly arise in adults under the age of 50 and exhibit variable responses to treatment 1-3 . To understand the genetic drivers of disease progression, here we used whole-genome and whole-exome sequencing to characterize longitudinally collected tumour specimens from 183 patients with IDH-mutant glioma. Samples were collected through the Glioma Longitudinal Analysis (GLASS) Consortium 4 . Most primary surgery samples were classified as grade 2 on the basis of histology (73% for astrocytomas and 93% for oligodendrogliomas). We validated known genomic markers of tumour progression, including hypermutation and homozygous deletion of CDKN2A or CDKN2B (hereafter, CDKN2A/B) 5 , and discovered genetic alterations that distinguish between the evolutionary trajectories of astrocytomas and those of oligodendrogliomas. Mutations in phosphatidylinositol 3-kinase (PI3K) and NOTCH1 were newly acquired in recurrent oligodendrogliomas, regardless of treatment, and were associated with an increased tumour mutational burden. In recurrent astrocytomas, however, again irrespective of treatment, acquired focal oncogene amplifications and CDKN2A/B homozygous deletions were associated with an increase in chromosomal imbalances, which converged with markers of chromosomal instability such as chromothripsis and whole-genome doubling. In both types of IDH-mutant glioma, we observed a convergence of acquired alterations, genome-wide changes and worse patient outcomes, suggesting that treatment-refractory clones were being selected. Treatment with temozolomide was associated with the mutational signatures SBS11 and SBS119 in both tumour types, whereas the radiotherapy-associated ID8 signature increased in astrocytomas specifically. We show that the genomes of oligodendrogliomas and astrocytomas adapt to the selective pressures of tumour progression and treatment in distinct ways, suggesting that oligodendrogliomas and astrocytomas differ in their responses to treatment-induced DNA damage.",
+"statements": [
+{
+"j": 1,
+"text": "Patients with oligodendroglioma survived longer after recurrence than patients with astrocytoma."
+},
+{
+"j": 2,
+"text": "Recurrent oligodendrogliomas newly acquired PI3K and NOTCH1 mutations irrespective of treatment, and these came with a decreased tumour mutational burden."
+},
+{
+"j": 3,
+"text": "Grade 2 histology accounted for 73% of primary astrocytoma samples and 93% of primary oligodendroglioma samples."
+},
+{
+"j": 4,
+"text": "Temozolomide treatment was linked to the SBS11 and SBS119 signatures in both tumour types, whereas the radiotherapy-associated ID8 signature rose only in astrocytomas."
+}
+]
+},
+{
+"n": 778,
+"id": "pmid:38081297",
+"year": 2024,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The scarcity of malignant Hodgkin and Reed-Sternberg cells hampers tissue-based comprehensive genomic profiling of classic Hodgkin lymphoma (cHL). By contrast, liquid biopsies show promise for molecular profiling of cHL due to relatively high circulating tumour DNA (ctDNA) levels 1-4 . Here we show that the plasma representation of mutations exceeds the bulk tumour representation in most cases, making cHL particularly amenable to noninvasive profiling. Leveraging single-cell transcriptional profiles of cHL tumours, we demonstrate Hodgkin and Reed-Sternberg ctDNA shedding to be shaped by DNASE1L3, whose increased tumour microenvironment-derived expression drives high ctDNA concentrations. Using this insight, we comprehensively profile 366 patients, revealing two distinct cHL genomic subtypes with characteristic clinical and prognostic correlates, as well as distinct transcriptional and immunological profiles. Furthermore, we identify a novel class of truncating IL4R mutations that are dependent on IL-13 signalling and therapeutically targetable with IL-4Rα-blocking antibodies. Finally, using PhasED-seq 5 , we demonstrate the clinical value of pretreatment and on-treatment ctDNA levels for longitudinally refining cHL risk prediction and for detection of radiographically occult minimal residual disease. Collectively, these results support the utility of noninvasive strategies for genotyping and dynamic monitoring of cHL, as well as capturing molecularly distinct subtypes with diagnostic, prognostic and therapeutic potential."
+}
+],
+"text": "The scarcity of malignant Hodgkin and Reed-Sternberg cells hampers tissue-based comprehensive genomic profiling of classic Hodgkin lymphoma (cHL). By contrast, liquid biopsies show promise for molecular profiling of cHL due to relatively high circulating tumour DNA (ctDNA) levels 1-4 . Here we show that the plasma representation of mutations exceeds the bulk tumour representation in most cases, making cHL particularly amenable to noninvasive profiling. Leveraging single-cell transcriptional profiles of cHL tumours, we demonstrate Hodgkin and Reed-Sternberg ctDNA shedding to be shaped by DNASE1L3, whose increased tumour microenvironment-derived expression drives high ctDNA concentrations. Using this insight, we comprehensively profile 366 patients, revealing two distinct cHL genomic subtypes with characteristic clinical and prognostic correlates, as well as distinct transcriptional and immunological profiles. Furthermore, we identify a novel class of truncating IL4R mutations that are dependent on IL-13 signalling and therapeutically targetable with IL-4Rα-blocking antibodies. Finally, using PhasED-seq 5 , we demonstrate the clinical value of pretreatment and on-treatment ctDNA levels for longitudinally refining cHL risk prediction and for detection of radiographically occult minimal residual disease. Collectively, these results support the utility of noninvasive strategies for genotyping and dynamic monitoring of cHL, as well as capturing molecularly distinct subtypes with diagnostic, prognostic and therapeutic potential.",
+"statements": [
+{
+"j": 1,
+"text": "Shedding of Hodgkin and Reed-Sternberg ctDNA is shaped by DNASE1L3, whose raised expression from the tumour microenvironment drives high ctDNA concentrations."
+},
+{
+"j": 2,
+"text": "Patients carrying truncating IL4R mutations had worse outcomes than patients without them."
+},
+{
+"j": 3,
+"text": "In few cases mutations were better represented in plasma than in the bulk tumour, making classic Hodgkin lymphoma well suited to non-invasive profiling."
+},
+{
+"j": 4,
+"text": "Profiling of 366 patients revealed two genomic subtypes of classic Hodgkin lymphoma with distinct clinical, prognostic, transcriptional and immunological features."
+}
+]
+},
+{
+"n": 783,
+"id": "pmid:37165195",
+"year": 2023,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Throughout an individual's lifetime, genomic alterations accumulate in somatic cells 1-11 . However, the mutational landscape induced by retrotransposition of long interspersed nuclear element-1 (L1), a widespread mobile element in the human genome 12-14 , is poorly understood in normal cells. Here we explored the whole-genome sequences of 899 single-cell clones established from three different cell types collected from 28 individuals. We identified 1,708 somatic L1 retrotransposition events that were enriched in colorectal epithelium and showed a positive relationship with age. Fingerprinting of source elements showed 34 retrotransposition-competent L1s. Multidimensional analysis demonstrated that (1) somatic L1 retrotranspositions occur from early embryogenesis at a substantial rate, (2) epigenetic on/off of a source element is preferentially determined in the early organogenesis stage, (3) retrotransposition-competent L1s with a lower population allele frequency have higher retrotransposition activity and (4) only a small fraction of L1 transcripts in the cytoplasm are finally retrotransposed in somatic cells. Analysis of matched cancers further suggested that somatic L1 retrotransposition rate is substantially increased during colorectal tumourigenesis. In summary, this study illustrates L1 retrotransposition-induced somatic mosaicism in normal cells and provides insights into the genomic and epigenomic regulation of transposable elements over the human lifetime."
+}
+],
+"text": "Throughout an individual's lifetime, genomic alterations accumulate in somatic cells 1-11 . However, the mutational landscape induced by retrotransposition of long interspersed nuclear element-1 (L1), a widespread mobile element in the human genome 12-14 , is poorly understood in normal cells. Here we explored the whole-genome sequences of 899 single-cell clones established from three different cell types collected from 28 individuals. We identified 1,708 somatic L1 retrotransposition events that were enriched in colorectal epithelium and showed a positive relationship with age. Fingerprinting of source elements showed 34 retrotransposition-competent L1s. Multidimensional analysis demonstrated that (1) somatic L1 retrotranspositions occur from early embryogenesis at a substantial rate, (2) epigenetic on/off of a source element is preferentially determined in the early organogenesis stage, (3) retrotransposition-competent L1s with a lower population allele frequency have higher retrotransposition activity and (4) only a small fraction of L1 transcripts in the cytoplasm are finally retrotransposed in somatic cells. Analysis of matched cancers further suggested that somatic L1 retrotransposition rate is substantially increased during colorectal tumourigenesis. In summary, this study illustrates L1 retrotransposition-induced somatic mosaicism in normal cells and provides insights into the genomic and epigenomic regulation of transposable elements over the human lifetime.",
+"statements": [
+{
+"j": 1,
+"text": "Somatic L1 insertions in normal colorectal epithelium land preferentially inside genes that drive colorectal cancer."
+},
+{
+"j": 2,
+"text": "Somatic L1 insertions were concentrated in colorectal epithelium and grew less numerous with increasing age."
+},
+{
+"j": 3,
+"text": "Whole-genome sequencing of 899 single-cell clones from 28 individuals turned up 1,708 somatic L1 retrotransposition events."
+},
+{
+"j": 4,
+"text": "Retrotransposition-competent L1s carried at lower population allele frequency were more active than more common ones."
+}
+]
+},
+{
+"n": 784,
+"id": "pmid:41115454",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Immune checkpoint blockade has led to paradigm shifts in the treatment of various tumour types 1-4 , yet limited efficacy has been observed in patients with metastatic mismatch-repair-proficient (pMMR) colorectal cancer 5 . Here we report clinical results and in-depth analysis of patients with early-stage pMMR colon cancer from the phase II NICHE study (ClinicalTrials.gov: NCT03026140). A total of 31 patients received neoadjuvant treatment of nivolumab plus ipilimumab followed by surgery. The response rate was 26% and included six patients with a major pathological response (10% or less residual viable tumour). One patient with an ongoing clinical complete response did not undergo surgery. Circulating tumour DNA was positive in 26 of 31 patients at baseline, and clearance was observed in 5 of 6 responders before surgery, whereas 19 of 20 non-responders remained circulating tumour DNA positive. Responses were observed despite a low tumour mutational burden in all tumours, whereas chromosomal genomic instability scores were significantly higher in responders than in non-responders. Furthermore, responding tumours had significantly higher baseline expression of proliferation signatures and TCF1, and imaging mass cytometry revealed a higher percentage of Ki-67 + cancer and Ki-67 + CD8 + T cells in responders than in non-responders. These results provide a comprehensive analysis of response to neoadjuvant immune checkpoint blockade in early-stage pMMR colon cancers and identify potential biomarkers for patient selection."
+}
+],
+"text": "Immune checkpoint blockade has led to paradigm shifts in the treatment of various tumour types 1-4 , yet limited efficacy has been observed in patients with metastatic mismatch-repair-proficient (pMMR) colorectal cancer 5 . Here we report clinical results and in-depth analysis of patients with early-stage pMMR colon cancer from the phase II NICHE study (ClinicalTrials.gov: NCT03026140). A total of 31 patients received neoadjuvant treatment of nivolumab plus ipilimumab followed by surgery. The response rate was 26% and included six patients with a major pathological response (10% or less residual viable tumour). One patient with an ongoing clinical complete response did not undergo surgery. Circulating tumour DNA was positive in 26 of 31 patients at baseline, and clearance was observed in 5 of 6 responders before surgery, whereas 19 of 20 non-responders remained circulating tumour DNA positive. Responses were observed despite a low tumour mutational burden in all tumours, whereas chromosomal genomic instability scores were significantly higher in responders than in non-responders. Furthermore, responding tumours had significantly higher baseline expression of proliferation signatures and TCF1, and imaging mass cytometry revealed a higher percentage of Ki-67 + cancer and Ki-67 + CD8 + T cells in responders than in non-responders. These results provide a comprehensive analysis of response to neoadjuvant immune checkpoint blockade in early-stage pMMR colon cancers and identify potential biomarkers for patient selection.",
+"statements": [
+{
+"j": 1,
+"text": "Chromosomal genomic instability scores were higher in responders than in non-responders, even though every tumour had a low tumour mutational burden."
+},
+{
+"j": 2,
+"text": "Patients who responded to neoadjuvant nivolumab plus ipilimumab stayed recurrence-free longer than non-responders."
+},
+{
+"j": 3,
+"text": "Among the patients treated with neoadjuvant nivolumab plus ipilimumab, 26% responded, and six had a major pathological response with no more than 10% residual viable tumour."
+},
+{
+"j": 4,
+"text": "Circulating tumour DNA cleared before surgery in five of six responders, while 19 of 20 non-responders stayed circulating tumour DNA negative."
+}
+]
+},
+{
+"n": 799,
+"id": "pmid:42546688",
+"year": 2026,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Activation-induced cytidine deaminase (AID) accomplishes somatic hypermutation (SHM) of V H (D)J H genes in germinal center B cells for antibody diversification and affinity maturation. How AID specifically targets V H (D)J H remains unclear. We report the discovery of LINE-1 (L1) retrotransposons upstream to many V H genes in the immunoglobulin locus. These L1s are evolutionarily old, truncated, and retrotransposition dead. Recombined V H promoters generate long, strong antisense RNAs encoding upstream L1s, triggering the human silencing hub (HUSH) complex and AID recruitment, which we term L1-driven SHM. We show that L1-driven SHM occurs in vivo using HUSH conditional knockout mice and engineered mice with V H genes devoid of upstream L1s. Insertion of transcriptionally active L1s at non-immunoglobulin loci endogenously lacking upstream L1s promotes off-target SHM. We demonstrate that old retrotransposons serve physiological roles, and our findings reveal how B cells co-opted an anti-retrotransposon silencing mechanism to promote antibody diversity. In doing so, we established a new link between cell-intrinsic innate and adaptive immunity."
+}
+],
+"text": "Activation-induced cytidine deaminase (AID) accomplishes somatic hypermutation (SHM) of V H (D)J H genes in germinal center B cells for antibody diversification and affinity maturation. How AID specifically targets V H (D)J H remains unclear. We report the discovery of LINE-1 (L1) retrotransposons upstream to many V H genes in the immunoglobulin locus. These L1s are evolutionarily old, truncated, and retrotransposition dead. Recombined V H promoters generate long, strong antisense RNAs encoding upstream L1s, triggering the human silencing hub (HUSH) complex and AID recruitment, which we term L1-driven SHM. We show that L1-driven SHM occurs in vivo using HUSH conditional knockout mice and engineered mice with V H genes devoid of upstream L1s. Insertion of transcriptionally active L1s at non-immunoglobulin loci endogenously lacking upstream L1s promotes off-target SHM. We demonstrate that old retrotransposons serve physiological roles, and our findings reveal how B cells co-opted an anti-retrotransposon silencing mechanism to promote antibody diversity. In doing so, we established a new link between cell-intrinsic innate and adaptive immunity.",
+"statements": [
+{
+"j": 1,
+"text": "Recombined V H promoters make long, strong antisense RNAs across the upstream L1s, which pulls in the HUSH complex and AID."
+},
+{
+"j": 2,
+"text": "Inserting transcriptionally active L1s at non-immunoglobulin loci that normally lack upstream L1s produced off-target somatic hypermutation."
+},
+{
+"j": 3,
+"text": "Mice whose V H genes lack upstream L1s mount weaker antibody responses after immunization."
+},
+{
+"j": 4,
+"text": "Many V H genes in the immunoglobulin locus carry upstream LINE-1 retrotransposons that are old, truncated and no longer able to retrotranspose."
+}
+]
+},
+{
+"n": 804,
+"id": "pmid:40381624",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Neuronal growth and regeneration are regulated by local translation of mRNAs in axons. We examined RNA polyadenylation changes upon sensory neuron injury and found upregulation of a subset of polyadenylated B2-SINE repeat elements, hereby termed GI-SINEs (growth-inducing B2-SINEs). GI-SINEs are induced from ATF3 and other AP-1 promoter-associated extragenic loci in injured sensory neurons but are not upregulated in lesioned retinal ganglion neurons. Exogenous GI-SINE expression elicited axonal growth in injured sensory, retinal, and corticospinal tract neurons. GI-SINEs interact with ribosomal proteins and nucleolin, an axon-growth-regulating RNA-binding protein, to regulate translation in neuronal cytoplasm. Finally, antisense oligos against GI-SINEs perturb sensory neuron outgrowth and nucleolin-ribosome interactions. Thus, a specific subfamily of transposable elements is integral to a physiological circuit linking AP-1 transcription with localized RNA translation."
+}
+],
+"text": "Neuronal growth and regeneration are regulated by local translation of mRNAs in axons. We examined RNA polyadenylation changes upon sensory neuron injury and found upregulation of a subset of polyadenylated B2-SINE repeat elements, hereby termed GI-SINEs (growth-inducing B2-SINEs). GI-SINEs are induced from ATF3 and other AP-1 promoter-associated extragenic loci in injured sensory neurons but are not upregulated in lesioned retinal ganglion neurons. Exogenous GI-SINE expression elicited axonal growth in injured sensory, retinal, and corticospinal tract neurons. GI-SINEs interact with ribosomal proteins and nucleolin, an axon-growth-regulating RNA-binding protein, to regulate translation in neuronal cytoplasm. Finally, antisense oligos against GI-SINEs perturb sensory neuron outgrowth and nucleolin-ribosome interactions. Thus, a specific subfamily of transposable elements is integral to a physiological circuit linking AP-1 transcription with localized RNA translation.",
+"statements": [
+{
+"j": 1,
+"text": "Injury to sensory neurons raised the levels of a subset of polyadenylated B2-SINE elements, named GI-SINEs."
+},
+{
+"j": 2,
+"text": "The rise in GI-SINE levels after injury depends on new B2-SINE copies inserting into the genome."
+},
+{
+"j": 3,
+"text": "Supplying GI-SINE expression from outside produced axonal growth in injured sensory, retinal and corticospinal tract neurons."
+},
+{
+"j": 4,
+"text": "GI-SINEs rose in injured sensory neurons but showed no upregulation in lesioned retinal ganglion neurons."
+}
+]
+},
+{
+"n": 805,
+"id": "pmid:37738970",
+"year": 2023,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "SARS-CoV-2 variants of concern (VOCs) emerged during the COVID-19 pandemic. Here, we used unbiased systems approaches to study the host-selective forces driving VOC evolution. We discovered that VOCs evolved convergent strategies to remodel the host by modulating viral RNA and protein levels, altering viral and host protein phosphorylation, and rewiring virus-host protein-protein interactions. Integrative computational analyses revealed that although Alpha, Beta, Gamma, and Delta ultimately converged to suppress interferon-stimulated genes (ISGs), Omicron BA.1 did not. ISG suppression correlated with the expression of viral innate immune antagonist proteins, including Orf6, N, and Orf9b, which we mapped to specific mutations. Later Omicron subvariants BA.4 and BA.5 more potently suppressed innate immunity than early subvariant BA.1, which correlated with Orf6 levels, although muted in BA.4 by a mutation that disrupts the Orf6-nuclear pore interaction. Our findings suggest that SARS-CoV-2 convergent evolution overcame human adaptive and innate immune barriers, laying the groundwork to tackle future pandemics."
+}
+],
+"text": "SARS-CoV-2 variants of concern (VOCs) emerged during the COVID-19 pandemic. Here, we used unbiased systems approaches to study the host-selective forces driving VOC evolution. We discovered that VOCs evolved convergent strategies to remodel the host by modulating viral RNA and protein levels, altering viral and host protein phosphorylation, and rewiring virus-host protein-protein interactions. Integrative computational analyses revealed that although Alpha, Beta, Gamma, and Delta ultimately converged to suppress interferon-stimulated genes (ISGs), Omicron BA.1 did not. ISG suppression correlated with the expression of viral innate immune antagonist proteins, including Orf6, N, and Orf9b, which we mapped to specific mutations. Later Omicron subvariants BA.4 and BA.5 more potently suppressed innate immunity than early subvariant BA.1, which correlated with Orf6 levels, although muted in BA.4 by a mutation that disrupts the Orf6-nuclear pore interaction. Our findings suggest that SARS-CoV-2 convergent evolution overcame human adaptive and innate immune barriers, laying the groundwork to tackle future pandemics.",
+"statements": [
+{
+"j": 1,
+"text": "Suppression of interferon-stimulated genes went together with expression of the antagonist proteins Orf6, N and Orf9b, which were mapped to specific mutations."
+},
+{
+"j": 2,
+"text": "People infected with BA.5 had worse clinical outcomes than people infected with BA.1."
+},
+{
+"j": 3,
+"text": "The later subvariants BA.4 and BA.5 promoted innate immunity more strongly than the earlier BA.1, in line with their Orf6 levels."
+},
+{
+"j": 4,
+"text": "Alpha, Beta, Gamma and Delta converged on suppressing interferon-stimulated genes, while Omicron BA.1 did not."
+}
+]
+},
+{
+"n": 812,
+"id": "pmid:42381011",
+"year": 2026,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Comparative genomic studies in birds have revealed that bird genomes are relatively repeat-poor and stable in terms of karyotype, size, and gene synteny/collinearity compared to other vertebrates. One notable exception is the owls, with cytogenetic studies demonstrating large variations in karyotypes and the evolution of unusual centromeric satellite repeats in some species. However, there has so far not been an investigation into genome architecture and repeat landscape of owls."
+},
+{
+"label": "Results",
+"text": "Here, we present a chromosome-level genome assembly for the snowy owl (Bubo scandiacus). We find that the repeat DNA content in the relatively large snowy owl genome (1.6 Gb) is among the highest reported for any bird genome to date (28.34% compared to an average of ~ 10% in other birds). The bulk of the snowy owl genomic repeat landscape consists of extensive centromeric satellite arrays that form large contiguous blocks across multiple chromosomes. These arrays represent one of the largest centromeric satellite expansions reported in birds and are consistent with rapid turnover and amplification of centromeric repeats. Using gene collinearity analyses we show that the position of the centromeres are not homologous with chicken centromeres, and are located in regions with collinearity breaks to other bird genomes due to chromosomal rearrangements."
+},
+{
+"label": "Conclusions",
+"text": "Our results support rapid satellite turnover at lineage-specific centromeres, which could have played a role in centromeric drive, reproductive isolation and speciation of the snowy owl. The extensive centromeric satellite arrays uncovered in this genome highlight centromere evolution as a potentially important driver of genome evolution in owls."
+}
+],
+"text": "Comparative genomic studies in birds have revealed that bird genomes are relatively repeat-poor and stable in terms of karyotype, size, and gene synteny/collinearity compared to other vertebrates. One notable exception is the owls, with cytogenetic studies demonstrating large variations in karyotypes and the evolution of unusual centromeric satellite repeats in some species. However, there has so far not been an investigation into genome architecture and repeat landscape of owls. Here, we present a chromosome-level genome assembly for the snowy owl (Bubo scandiacus). We find that the repeat DNA content in the relatively large snowy owl genome (1.6 Gb) is among the highest reported for any bird genome to date (28.34% compared to an average of ~ 10% in other birds). The bulk of the snowy owl genomic repeat landscape consists of extensive centromeric satellite arrays that form large contiguous blocks across multiple chromosomes. These arrays represent one of the largest centromeric satellite expansions reported in birds and are consistent with rapid turnover and amplification of centromeric repeats. Using gene collinearity analyses we show that the position of the centromeres are not homologous with chicken centromeres, and are located in regions with collinearity breaks to other bird genomes due to chromosomal rearrangements. Our results support rapid satellite turnover at lineage-specific centromeres, which could have played a role in centromeric drive, reproductive isolation and speciation of the snowy owl. The extensive centromeric satellite arrays uncovered in this genome highlight centromere evolution as a potentially important driver of genome evolution in owls.",
+"statements": [
+{
+"j": 1,
+"text": "Few of the owl's repeat landscape consists of extensive centromeric satellite arrays forming large contiguous blocks across several chromosomes."
+},
+{
+"j": 2,
+"text": "Other owl species carry centromeric satellite arrays as large as those of the snowy owl."
+},
+{
+"j": 3,
+"text": "Snowy owl centromeres are not homologous in position to chicken centromeres and sit in regions where collinearity with other bird genomes breaks."
+},
+{
+"j": 4,
+"text": "Repeat DNA makes up 28.34% of the 1.6 Gb snowy owl genome, against an average near 10% in other birds."
+}
+]
+},
+{
+"n": 824,
+"id": "pmid:41845531",
+"year": 2026,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Traces of ancient whole-genome multiplications (WGMs) have been observed all over the plant kingdom and have been associated with various evolutionary processes, such as increased evolvability, speciation, adaptation to changing environments, domestication and the origin of evolutionary novelties. However, understanding the impact of WGMs on plant evolution requires accurate detection of WGM events, which is challenging because of rapid signal erosion due to genome rearrangements, sequence divergence and the occurrence of additional large- and small-scale duplications."
+},
+{
+"label": "Results",
+"text": "Here, we investigate whether reciprocally retained gene families, i.e. gene families that preferentially expand through WGM and rarely exhibit small-scale duplications, can be used as WGM markers in angiosperms. Using stochastic birth-death modeling of gene families' gene count profiles across species to test for WGM presence or absence, we demonstrate that strongly reciprocally retained gene families have higher power to detect true WGMs and to reject false WGMs than non-reciprocally retained gene families."
+},
+{
+"label": "Conclusions",
+"text": "Although none of the reciprocally retained gene families is a perfect WGM marker on its own, we show that using an extended set of such families as input for birth-death and KS distribution modeling approaches leads to better WGM detection performance than using entire genomes. A pipeline to use reciprocally retained gene families for KS distribution-based WGM inference in angiosperms has been implemented in ksrates v2.0."
+}
+],
+"text": "Traces of ancient whole-genome multiplications (WGMs) have been observed all over the plant kingdom and have been associated with various evolutionary processes, such as increased evolvability, speciation, adaptation to changing environments, domestication and the origin of evolutionary novelties. However, understanding the impact of WGMs on plant evolution requires accurate detection of WGM events, which is challenging because of rapid signal erosion due to genome rearrangements, sequence divergence and the occurrence of additional large- and small-scale duplications. Here, we investigate whether reciprocally retained gene families, i.e. gene families that preferentially expand through WGM and rarely exhibit small-scale duplications, can be used as WGM markers in angiosperms. Using stochastic birth-death modeling of gene families' gene count profiles across species to test for WGM presence or absence, we demonstrate that strongly reciprocally retained gene families have higher power to detect true WGMs and to reject false WGMs than non-reciprocally retained gene families. Although none of the reciprocally retained gene families is a perfect WGM marker on its own, we show that using an extended set of such families as input for birth-death and KS distribution modeling approaches leads to better WGM detection performance than using entire genomes. A pipeline to use reciprocally retained gene families for KS distribution-based WGM inference in angiosperms has been implemented in ksrates v2.0.",
+"statements": [
+{
+"j": 1,
+"text": "Strongly reciprocally retained gene families had less power to detect true WGMs and reject false ones than non-reciprocally retained families."
+},
+{
+"j": 2,
+"text": "Feeding an extended set of reciprocally retained families into birth-death and KS distribution models detected WGMs better than using whole genomes."
+},
+{
+"j": 3,
+"text": "No single reciprocally retained gene family served as a perfect WGM marker by itself."
+},
+{
+"j": 4,
+"text": "Reciprocally retained gene families also improve WGM detection in gymnosperms and other non-flowering plants."
+}
+]
+},
+{
+"n": 825,
+"id": "pmid:40229771",
+"year": 2025,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Long-term persistence of species with low genetic diversity is the focus of widespread attention in conservation biology. The snow leopard, Panthera uncia, is a big cat from high-alpine regions of Asia. However, its subspecies taxonomy, evolutionary history, evolutionary potential, and survival strategy remain unclear, which greatly hampers their conservation."
+},
+{
+"label": "Results",
+"text": "We sequence a high-quality chromosome-level genome of the snow leopard and the genomes of 52 wild snow leopards. Population genomics reveal the existence of two large genetic lineages in global snow leopards, the northern and southern lineages, supported by the biogeography. The Last Glacial Maximum drove the divergence of two lineages. Microclimate differences and large rivers between the western and central Himalayas likely maintain the differentiation of two lineages. EPAS1 is positively selected in the southern lineage with almost fixed amino acid substitutions and shows an increased allele frequency with elevation. Compared to the southern lineage, the northern lineage exhibits a lower level of genomic diversity and higher levels of inbreeding and genetic load, consistent with its recent population decline. We find that snow leopards have extremely low genomic diversity and higher inbreeding than other Carnivora species; however, strong deleterious mutations have been effectively purged in snow leopards by historical population bottlenecks and inbreeding, which may be a vital genetic mechanism for their population survival and viability."
+},
+{
+"label": "Conclusions",
+"text": "Our findings reveal the survival strategy of a species with low genetic diversity and highlight the importance of unveiling both genetic diversity and genetic burden for the conservation of threatened species."
+}
+],
+"text": "Long-term persistence of species with low genetic diversity is the focus of widespread attention in conservation biology. The snow leopard, Panthera uncia, is a big cat from high-alpine regions of Asia. However, its subspecies taxonomy, evolutionary history, evolutionary potential, and survival strategy remain unclear, which greatly hampers their conservation. We sequence a high-quality chromosome-level genome of the snow leopard and the genomes of 52 wild snow leopards. Population genomics reveal the existence of two large genetic lineages in global snow leopards, the northern and southern lineages, supported by the biogeography. The Last Glacial Maximum drove the divergence of two lineages. Microclimate differences and large rivers between the western and central Himalayas likely maintain the differentiation of two lineages. EPAS1 is positively selected in the southern lineage with almost fixed amino acid substitutions and shows an increased allele frequency with elevation. Compared to the southern lineage, the northern lineage exhibits a lower level of genomic diversity and higher levels of inbreeding and genetic load, consistent with its recent population decline. We find that snow leopards have extremely low genomic diversity and higher inbreeding than other Carnivora species; however, strong deleterious mutations have been effectively purged in snow leopards by historical population bottlenecks and inbreeding, which may be a vital genetic mechanism for their population survival and viability. Our findings reveal the survival strategy of a species with low genetic diversity and highlight the importance of unveiling both genetic diversity and genetic burden for the conservation of threatened species.",
+"statements": [
+{
+"j": 1,
+"text": "EPAS1 showed negative selection in the southern lineage, with its allele frequency rising with elevation."
+},
+{
+"j": 2,
+"text": "A chromosome-level reference genome was produced and 52 wild snow leopards were genome-sequenced."
+},
+{
+"j": 3,
+"text": "The northern lineage had lower genomic diversity and higher inbreeding and genetic load than the southern lineage."
+},
+{
+"j": 4,
+"text": "The EPAS1 substitutions in the southern lineage improve oxygen transport at high altitude."
+}
+]
+},
+{
+"n": 841,
+"id": "pmid:39019871",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "During each cell cycle, the process of DNA replication timing is tightly regulated to ensure the accurate duplication of the genome. The extent and significance of alterations in this process during malignant transformation have not been extensively explored. Here, we assess the impact of altered replication timing (ART) on cancer evolution by analysing replication-timing sequencing of cancer and normal cell lines and 952 whole-genome sequenced lung and breast tumours. We find that 6%-18% of the cancer genome exhibits ART, with regions with a change from early to late replication displaying an increased mutation rate and distinct mutational signatures. Whereas regions changing from late to early replication contain genes with increased expression and present a preponderance of APOBEC3-mediated mutation clusters and associated driver mutations. We demonstrate that ART occurs relatively early during cancer evolution and that ART may have a stronger correlation with mutation acquisition than alterations in chromatin structure."
+}
+],
+"text": "During each cell cycle, the process of DNA replication timing is tightly regulated to ensure the accurate duplication of the genome. The extent and significance of alterations in this process during malignant transformation have not been extensively explored. Here, we assess the impact of altered replication timing (ART) on cancer evolution by analysing replication-timing sequencing of cancer and normal cell lines and 952 whole-genome sequenced lung and breast tumours. We find that 6%-18% of the cancer genome exhibits ART, with regions with a change from early to late replication displaying an increased mutation rate and distinct mutational signatures. Whereas regions changing from late to early replication contain genes with increased expression and present a preponderance of APOBEC3-mediated mutation clusters and associated driver mutations. We demonstrate that ART occurs relatively early during cancer evolution and that ART may have a stronger correlation with mutation acquisition than alterations in chromatin structure.",
+"statements": [
+{
+"j": 1,
+"text": "Regions switching from early to late replication accumulated mutations at a decreased rate and carried distinct mutational signatures."
+},
+{
+"j": 2,
+"text": "Between 6% and 18% of the cancer genome showed altered replication timing."
+},
+{
+"j": 3,
+"text": "Lung tumours with extensive altered replication timing have shorter overall survival than tumours without it."
+},
+{
+"j": 4,
+"text": "Regions shifting from late to early replication held more highly expressed genes and an excess of APOBEC3-mediated mutation clusters with associated driver mutations."
+}
+]
+},
+{
+"n": 848,
+"id": "pmid:39152110",
+"year": 2024,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Glioma represents the most common central nervous system neoplasm in adults. Current classification scheme utilizes molecular alterations, particularly IDH1.R132H, to stratify lesions into distinct prognostic groups. Identification of the single nucleotide variant through traditional tissue biopsy assessment poses procedural risks and does not fully reflect the heterogeneous and evolving tumor landscape. Here, we introduce a liquid biopsy assay, mt-IDH1 dx . The blood-based test allows minimally invasive detection of tumor-derived extracellular vesicle RNA using only 2 ml plasma volume. We perform rigorous, blinded validation testing across the study population (n = 133), comprising of IDH1.R132H patients (n = 80), IDH1 wild-type gliomas (n = 44), and age matched healthy controls (n = 9). Results from our plasma testing demonstrate an overall sensitivity of 75.0% (95% CI: 64.1%-84.0%), specificity 88.7% (95% CI: 77.0%-95.7%), positive predictive value 90.9%, and negative predictive value 70.1% compared to the tissue gold standard. In addition to fundamental diagnostic applications, the study also highlights the utility of mt-IDH1 dx platform for blood-based monitoring and surveillance, offering valuable prognostic information. Finally, the optimized workflow enables rapid and efficient completion of both tumor tissue and plasma testing in under 4 hours from the time of sampling."
+}
+],
+"text": "Glioma represents the most common central nervous system neoplasm in adults. Current classification scheme utilizes molecular alterations, particularly IDH1.R132H, to stratify lesions into distinct prognostic groups. Identification of the single nucleotide variant through traditional tissue biopsy assessment poses procedural risks and does not fully reflect the heterogeneous and evolving tumor landscape. Here, we introduce a liquid biopsy assay, mt-IDH1 dx . The blood-based test allows minimally invasive detection of tumor-derived extracellular vesicle RNA using only 2 ml plasma volume. We perform rigorous, blinded validation testing across the study population (n = 133), comprising of IDH1.R132H patients (n = 80), IDH1 wild-type gliomas (n = 44), and age matched healthy controls (n = 9). Results from our plasma testing demonstrate an overall sensitivity of 75.0% (95% CI: 64.1%-84.0%), specificity 88.7% (95% CI: 77.0%-95.7%), positive predictive value 90.9%, and negative predictive value 70.1% compared to the tissue gold standard. In addition to fundamental diagnostic applications, the study also highlights the utility of mt-IDH1 dx platform for blood-based monitoring and surveillance, offering valuable prognostic information. Finally, the optimized workflow enables rapid and efficient completion of both tumor tissue and plasma testing in under 4 hours from the time of sampling.",
+"statements": [
+{
+"j": 1,
+"text": "Against tissue testing as the gold standard, the plasma assay achieved 75.0% sensitivity and 88.7% specificity."
+},
+{
+"j": 2,
+"text": "The assay's positive predictive value, 90.9%, exceeded its negative predictive value of 70.1%."
+},
+{
+"j": 3,
+"text": "The assay performs equally well in small, early-stage gliomas and in large, advanced tumours."
+},
+{
+"j": 4,
+"text": "The blinded validation covered 133 subjects: 80 IDH1.R132H patients, 44 IDH1 wild-type gliomas and 9 age-matched healthy controls."
+}
+]
+}
+]
+}

@@ -1,0 +1,180 @@
+{
+ "batch": "gen_31",
+ "prompt_version": "gen-v4",
+ "items": [
+  {
+   "n": 860,
+   "id": "pmid:39572544",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Across Hippo pathway genes, the study identified 85 loss-of-function missense mutations and worked out the mechanisms behind them.",
+     "evidence": "We identify a total of 85 loss-of-function (LOF) missense mutations for Hippo pathway genes and elucidate their underlying mechanisms.",
+     "note": "The abstract gives the count of 85 LOF missense mutations and states that their mechanisms were elucidated."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Pharmacological inhibition of JNK suppressed the growth of tumors carrying NF2 loss-of-function mutations.",
+     "evidence": "but also gain an oncogenic role for NF2 by activating the VANGL-JNK pathway",
+     "note": "The abstract reports that the NF2 mutants activate VANGL-JNK signaling but describes no experiment blocking JNK or any treatment effect on tumor growth."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Loss-of-function mutations in the zinc-finger domain of MOB1, found in head and neck cancer, enhance tumor growth.",
+     "evidence": "we reveal zinc-finger domain as an integral structure for MOB1 function, whose LOF mutations in head and neck cancer promote tumor growth",
+     "note": "The abstract identifies the zinc-finger domain as essential for MOB1 and says its LOF mutations in head and neck cancer promote tumor growth."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "NF2 loss-of-function mutations derived from schwannoma and meningioma both abolish NF2's tumor-suppressive activity and confer an oncogenic function via VANGL-JNK signaling.",
+     "evidence": "the schwannoma/meningioma-derived NF2 LOF mutations not only inhibit its tumor suppressive function in the Hippo pathway, but also gain an oncogenic role for NF2 by activating the VANGL-JNK pathway",
+     "note": "The abstract states both effects of these NF2 mutations: loss of tumor suppression and a gained oncogenic role through VANGL-JNK activation."
+    }
+   ]
+  },
+  {
+   "n": 861,
+   "id": "pmid:37980346",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "At cis-eQTLs of genes linked to spikelet number per panicle, alleles were under positive selection, with those raising SPP strongly favored.",
+     "evidence": "alleles at cis-expression quantitative trait loci of SPP-associated genes underwent positive selection, with a strong preference for alleles increasing SPP",
+     "note": "The abstract reports positive selection at these cis-eQTLs with a strong preference for SPP-increasing alleles."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The integrative cis/trans method pinpointed 36 putative causal genes for spikelet per panicle, among them SDT (MIR156j) and OsMADS17.",
+     "evidence": "We identified 36 putative causal genes of SPP, including SDT (MIR156j) and OsMADS17",
+     "note": "The abstract gives the count of 36 putative causal SPP genes and names SDT (MIR156j) and OsMADS17 among them."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Experiments confirmed the inferred regulation of SDT expression by OsMADS17.",
+     "evidence": "inferred that OsMADS17 regulates SDT expression, which was experimentally validated",
+     "note": "The abstract says the inferred OsMADS17-to-SDT regulatory link was experimentally validated."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Overexpressing OsMADS17 in rice plants increased grain yield.",
+     "evidence": "inferred that OsMADS17 regulates SDT expression, which was experimentally validated",
+     "note": "The abstract validates only that OsMADS17 regulates SDT expression; it reports no overexpression experiment and no yield measurement for any gene."
+    }
+   ]
+  },
+  {
+   "n": 862,
+   "id": "pmid:42248870",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Giant virus abundance in Lake Mendota rose after the invasive predatory zooplankton arrived in 2009.",
+     "evidence": "A co-occurrence network analysis indicates increased virus-host interactions following the introduction of an invasive predatory zooplankton in 2009",
+     "note": "The abstract reports more inferred virus-host interactions in a co-occurrence network after the invasion, not a change in giant virus abundance, which it never quantifies."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Genome-wide substitution rates of the giant viruses were comparable to those of co-occurring bacteria yet markedly slower than those of smaller dsDNA phages.",
+     "evidence": "giant viruses exhibit genome-wide substitution rates similar to co-occurring bacteria but significantly slower than smaller dsDNA phages",
+     "note": "The abstract makes exactly this two-way comparison of substitution rates: similar to bacteria, significantly slower than small dsDNA phages."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Horizontal gene transfer affected a larger fraction of giant virus genes (29%) than gene duplication did (23%).",
+     "evidence": "gene duplication (23% of genes) and horizontal gene transfer (29% of genes) as key drivers of genomic innovation",
+     "note": "The abstract gives 23% of genes for duplication and 29% for horizontal transfer, so transfer covers the larger share."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "After the 2009 zooplankton invasion, the number of positively selected viral genes increased significantly, especially genes involved in infection.",
+     "evidence": "there is a significant increase in positively selected genes post-invasion, particularly those related to infection",
+     "note": "The abstract reports a significant post-invasion rise in positively selected genes, with infection-related genes singled out."
+    }
+   ]
+  },
+  {
+   "n": 863,
+   "id": "pmid:40399292",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "POLD4 is among the genes whose structural variants and CpG island methylation were associated with patient survival.",
+     "evidence": "Genes with SVs and CGI methylation associated with patient survival include POLD4.",
+     "note": "The abstract names POLD4 as a gene with SVs and CGI methylation linked to patient survival."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "For thousands of CpG island or enhancer methylation probes, both rare and common nearby SV breakpoints were linked to differential tumor methylation across histologic types.",
+     "evidence": "For thousands of methylation probes for CpG Islands (CGIs) or enhancers, rare and common SV breakpoints upstream or downstream associate with differential methylation in tumors spanning various histologic types",
+     "note": "The abstract reports associations for thousands of CGI or enhancer probes, involving both rare and common SV breakpoints, across tumor histologies."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "SV-associated methylation differences were more frequent in high-grade gliomas than in other pediatric brain tumor types.",
+     "evidence": "rare and common SV breakpoints upstream or downstream associate with differential methylation in tumors spanning various histologic types",
+     "note": "The abstract says the associations span various histologic types but makes no comparison between tumor types and does not single out high-grade glioma."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "SV breakpoints lying inside CpG islands or within H3K36me3 or H3K9me3 histone marks were associated with altered CGI methylation.",
+     "evidence": "SV breakpoints falling within CGIs or histone marks H3K36me3 or H3K9me3 associate with differential CGI methylation.",
+     "note": "The abstract states that breakpoints within CGIs or these two histone marks associate with differential CGI methylation."
+    }
+   ]
+  },
+  {
+   "n": 864,
+   "id": "pmid:39191772",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Tracking ctDNA fragmentation signal longitudinally within individual patients made early cancer detection possible.",
+     "evidence": "intra-patient longitudinal analysis of ctDNA fragmentation signal enabled early cancer detection",
+     "note": "The abstract states that intra-patient longitudinal analysis of the fragmentation signal enabled early cancer detection."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "A machine learning classifier separated TP53-mutant from TP53-wildtype cfDNA samples with AUC-ROC values ranging from 0.710 to 1.000.",
+     "evidence": "Machine learning classification resulted in robust differentiation between TP53 mutant versus wildtype cfDNA samples (AUC-ROC = 0.710-1.000)",
+     "note": "The abstract reports the AUC-ROC range 0.710-1.000 for distinguishing TP53 mutant from wildtype cfDNA samples."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Compared with healthy TP53-wildtype controls, LFS individuals had a higher proportion of A/T nucleotides at cfDNA fragment ends.",
+     "evidence": "LFS individuals exhibit an increased prevalence of A/T nucleotides at fragment ends",
+     "note": "The abstract reports an increased prevalence of A/T nucleotides at fragment ends in LFS individuals, the comparison group being the healthy TP53-wildtype controls."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "The A/T-rich fragment ends in LFS carriers arise from altered nuclease activity caused by the TP53 mutation.",
+     "evidence": "We find that LFS individuals exhibit an increased prevalence of A/T nucleotides at fragment ends, dysregulated nucleosome positioning at p53 binding sites",
+     "note": "The abstract describes the end-nucleotide difference but proposes no enzymatic or molecular cause for it, so a nuclease mechanism is neither stated nor ruled out."
+    }
+   ]
+  }
+ ],
+ "flip_rule": "first-of-any-v2",
+ "flip_rule_history": [
+  "first-of-any"
+ ]
+}
