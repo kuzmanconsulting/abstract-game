@@ -1,100 +1,60 @@
 # Abstract Reader
 
-A reading game: one scientific abstract, four statements — does the abstract **support** each one, **contradict**
-it, or **not address** it? On "Check answers" every statement is marked, the passage it rests on is highlighted in
-the text, and the paper appears with title, authors, journal or preprint server, year, DOI and PubMed links.
+**Play:** https://kuzmanconsulting.github.io/abstract-game/
 
-Corpus: journal articles (PubMed) and bioRxiv/medRxiv preprints, 2016–2026, in cell-free DNA / liquid biopsy,
-transposable elements / genome evolution, cancer genomics, evolutionary genomics, evo-devo / comparative genomics and
-small RNA / RNA biology, fetched through Europe PMC, with a targeted share from *Nature*, *Science*, *Cell*, *Nature
-Genetics*, *Nature Methods*, *Nature Biotechnology*, *Nature Communications*, *Cell Genomics*, *Molecular Cell*,
-*Science Advances*, *Genome Biology*, *Genome Research* and *Nucleic Acids Research* reaching back to 2020, the
-most-cited primary research papers of 2016–2026 in each field (docs/DECISIONS.md D18), and the evo-devo and
-pure-biology small-RNA slices drawn from a curated list of leading journals only (`pipeline/journals.py`, D23).
-The page's "Leading journals" chip restricts play to that list; it is a curated list, not a bibliometric quartile. Statements were written
-by Claude from the abstract text alone and kept only when at least two of three independent blind check passes
-agreed with the label (docs/DECISIONS.md D5–D6).
+A reading game for people who read scientific papers. You get one abstract and four short statements about it.
+For each statement, decide whether the abstract **supports** it, **contradicts** it, or **does not address** it —
+judging from the text alone, not from what you know or expect. Then check your answers: every statement is marked,
+the passage it rests on is highlighted in the abstract, and the paper appears with its title, authors, journal or
+preprint server, year, DOI and PubMed links.
 
-```
-abstract-game/
-├── docs/index.html          the game (one static page; fetches data.json next to it) — GitHub Pages serves /docs
-├── docs/data.json           the published items (built, not hand-edited)
-├── build/artifact.html      the same page as a body fragment, for the claude.ai artifact (built)
-├── pipeline/
-│   ├── fetch_candidates.py  Europe PMC → src/candidates.json (+ src/raw/)
-│   ├── select_corpus.py     balanced, seeded selection → src/corpus.json
-│   ├── make_batches.py      generation batches; blind check batches; reflip (re-check after a flip-rule change)
-│   ├── split_batch.py       split a batch into parts after a failed run
-│   ├── validate.py          schema + evidence checks; compose / flip rules
-│   ├── merge_checks.py      three passes → src/items.json
-│   ├── build_site.py        src/items.json → docs/data.json (+ build/artifact.html)
-│   └── prompts/             gen-v1…v4.md, check-v1.md (the exact instructions the agents got)
-├── src/                     candidates, corpus, batches, generated, checks, items — provenance, all committed
-├── tests/                   test_pipeline.py (rules, merge) · test_page.py (headless browser: filters, shuffle, score, reading list)
-│                            python3 -m unittest discover -s tests -v
-└── docs/*.md                DECISIONS.md · SCHEMA.md · DIARY.md · LOG.md (served too, as plain text)
-```
+## How to play
 
-## Play locally
+- Read the abstract. Its journal, year, first author and title are shown above it (the title can be hidden until
+  after you answer: "About the items" → *Title shown before answering*).
+- Label each of the four statements. Keys **1 · 2 · 3** answer the next open statement (supported · contradicted ·
+  not addressed); **Enter** checks the answers, and after the reveal **Enter** or **Space** goes to the next
+  abstract; **Skip** drops the current one without scoring.
+- After the reveal, each statement shows why its label is what it is. A "contradicted" statement is a true statement
+  from the abstract with one direction word reversed; the reveal says which.
+- **Score:** statements answered, % correct, current streak and best streak, kept in your browser only (per
+  device). "Share my score" draws a card you can save or hand to your phone's share sheet. Reset from "About the items".
+- **Reading list:** after the reveal, *Save for reading* (key **S**) keeps the paper in a list at the top of the
+  page; copy the list out as plain citations, BibTeX or RIS. The list lives in this browser only.
 
-```bash
-cd ~/work/abstract-game/docs && python3 -m http.server 8000     # then http://localhost:8000/
-```
+## Choosing what to read
 
-(`data.json` is fetched, so the page needs http, not file://.)
+- **Fields:** cfDNA / liquid biopsy · transposable elements · cancer genomics · evolutionary genomics · evo-devo /
+  comparative genomics · small RNA / RNA biology. A paper's field is the search it was found under; a few papers sit
+  at the edge of two fields.
+- **Sources:** journal articles indexed in PubMed and bioRxiv/medRxiv preprints (preprints have not been
+  peer-reviewed; the page says so). *Leading journals* restricts play to a curated list of the fields' selective
+  journals — the Nature, Cell and Science research families, PNAS, eLife, Genome Biology/Research, Nucleic Acids
+  Research, Molecular Biology and Evolution, PLoS Genetics/Biology, Development, Current Biology, the EMBO journals,
+  the leading cancer and medical journals, and the like. It is a curated list, not a bibliometric quartile.
+- **Journal picker:** any single journal or preprint server in the current field and source selection, with counts.
+- Abstracts are drawn at random from the selection; each one is shown once before any repeats.
 
-## Publish on GitHub Pages
+## Where the items come from
 
-Pages is free for public repositories, personal or organisation. Once:
+Abstracts are journal articles and preprints from 2016–2026, fetched through Europe PMC: recent papers in each
+field, a targeted share from the top journals, the most-cited primary research papers of the decade in each field,
+and the evo-devo and small-RNA-biology slices drawn from leading journals only. The current counts by field and
+source are in "About the items" on the page.
 
-```bash
-cd ~/work/abstract-game
-git init && git add -A && git commit -m "Abstract Reader: first corpus"
-git remote add origin https://github.com/kuzmanconsulting/abstract-game.git && git push -u origin main
-gh api -X POST repos/kuzmanconsulting/abstract-game/pages -f build_type=legacy -f "source[branch]=main" -f "source[path]=/docs"
-```
+The statements were written from the abstract text alone and kept only when three independent blind checks (each
+judging the statements without knowing the intended labels) agreed with the label. Abstracts are shown for reading
+practice, each with its citation and links; they remain the work of their authors and publishers.
 
-or in the repository's Settings → Pages: *Deploy from a branch*, branch `main`, folder `/docs` (a branch deploy
-can only serve the root or `/docs`, which is why the page lives there). The game is then at
-`https://kuzmanconsulting.github.io/abstract-game/`. After every rebuild of `docs/data.json`: commit and push.
+Nothing you do on the page leaves your browser: no accounts, no tracking, no server.
 
-## Rebuild or extend the corpus
+## A wrong label or a bad statement?
 
-```bash
-python3 pipeline/fetch_candidates.py --exclude ~/work/pilltrackerapp/tasks/bank   # drop everything in the trial banks
-python3 pipeline/select_corpus.py --n 560 --preprint-share 0.3 --seed 20261023
-python3 pipeline/make_batches.py gen --size 35
-#   generation: one agent per src/batches/gen_*.json with pipeline/prompts/gen-v4.md → src/generated/
-python3 pipeline/validate.py gen
-python3 pipeline/make_batches.py check --passes A B C --seed 7
-#   checks: one agent per src/batches/check_*.json with pipeline/prompts/check-v1.md → src/checks/
-python3 pipeline/validate.py check
-python3 pipeline/merge_checks.py --passes A B C
-python3 pipeline/build_site.py --repo-url https://github.com/kuzmanconsulting/abstract-game
-python3 -m unittest discover -s tests -v
-```
+Open an issue at https://github.com/kuzmanconsulting/abstract-game/issues with the DOI and the statement number.
 
-New fields go into `FIELDS` in `fetch_candidates.py` (with a `require` list of words the abstract must contain — a
-bare "speciation" also matches chemistry — and optionally `exclude` words and `as`, the field a second query feeds);
-a wider year window is `--start 2000-01-01`; a journal-targeted fetch is `--journals top2`, `--journals leading`
-(the list in `pipeline/journals.py`, enforced on the returned titles) or exact titles, with `--suffix … --out
-src/candidates_….json`; a curated draw is `select_landmark.py shortlist [--sample-seed …] --split-dir …` → one
-curation agent per shortlist → `select_landmark.py apply --pick-glob …` (D18, D23), and `select_corpus.py
---spread journal` cycles over journals when drawing so the small high-profile ones are not drowned by the big ones. Anything already in
-`src/corpus.json` keeps its `n`; new abstracts are appended with `select_corpus.py --append --candidates … --n …
---fields … [--journals …] --label …`, batched with `make_batches.py gen --start <first new n> --first-batch <next
-batch number>`, generated and checked in their own batches, and merged with everything else (see docs/LOG.md
-15:20–16:30 for the second corpus).
+## For the curious
 
-## Changing the flip rule
+How the corpus is built, checked and published: `docs/PIPELINE.md`. The decisions behind every rule, with dates:
+`docs/DECISIONS.md`. The data files, field by field: `docs/SCHEMA.md`.
 
-The contradicted statement of a gen-v4 abstract is made by the pipeline (`validate.flip`), so a rule change changes
-what players see. Never change a rule in place: add a new `flip_rule` name, run `make_batches.py reflip --from-rule
-<old> --to-rule <new>`, which moves the files, lists the abstracts whose wording changes (`src/reflips.json`) and
-builds superseding check batches for them, and send those through all passes before merging (docs/DECISIONS.md D13).
-
-## Scores and the reading list
-
-Statements answered, % correct, streak and best streak are kept in the browser (localStorage), per device, and can
-be reset from "About the items". "Save for reading" (key S after the reveal) keeps a paper in a list at the top of
-the page; the list copies out as plain citations, BibTeX or RIS. Nothing leaves the browser.
+Abstract Reader is made by [Kuzman Consulting](https://kuzmanconsulting.com), Zagreb.

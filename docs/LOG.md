@@ -203,3 +203,10 @@ python3 -m unittest discover -s tests                              # 22 OK (16 p
 # delivery: tar (no .git, no src/_bak) → split 24 MB → device_commit_files → on the Mac: cat _incoming4.* > _incoming4.tgz; tar --overwrite -xzf … --strip-components=1
 ```
 
+## 2026-10-23 22:04–22:08 — README for players (Maja: "show only the readme for people using the app/site")
+
+```bash
+# README.md rewritten for players (play, keys, filters, leading journals, sources, privacy, reporting); the repository layout, local
+#   serving, GitHub Pages, corpus rebuild/extension and flip-rule sections moved verbatim to docs/PIPELINE.md
+```
+
