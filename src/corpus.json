@@ -1052,6 +1052,15 @@
 780
 ],
 "reason": "cancer papers retrieved under the evogen query (field overlap, D22)"
+},
+{
+"to": "cancergen",
+"n": [
+563,
+999,
+1080
+],
+"reason": "Maja 21:08: evogen abstracts containing 'tumor' → cancer; evolution stays evolution (D22)"
 }
 ]
 },
@@ -28343,7 +28352,7 @@
 "journal": "Nature genetics",
 "year": 2025,
 "date": "2025-11-03",
-"field": "evogen",
+"field": "cancergen",
 "sections": [
 {
 "label": null,
@@ -28361,7 +28370,8 @@
 "doi_url": "https://doi.org/10.1038/s41588-025-02374-0",
 "is_open_access": true,
 "n": 563,
-"added": "evogen-2026-10-23"
+"added": "evogen-2026-10-23",
+"field_was": "evogen"
 },
 {
 "id": "doi:10.1101/2025.11.05.686523",
@@ -49963,7 +49973,7 @@
 "journal": "Genome biology",
 "year": 2022,
 "date": "2022-12-06",
-"field": "evogen",
+"field": "cancergen",
 "sections": [
 {
 "label": "Background",
@@ -49989,7 +49999,8 @@
 "doi_url": "https://doi.org/10.1186/s13059-022-02821-9",
 "is_open_access": true,
 "n": 999,
-"added": "third-top2"
+"added": "third-top2",
+"field_was": "evogen"
 },
 {
 "id": "pmid:32025018",
@@ -55574,7 +55585,7 @@
 "journal": "Cell",
 "year": 2017,
 "date": "2017-10-19",
-"field": "evogen",
+"field": "cancergen",
 "sections": [
 {
 "label": null,
@@ -55593,7 +55604,8 @@
 "doi_url": "https://doi.org/10.1016/j.cell.2017.09.042",
 "is_open_access": true,
 "n": 1080,
-"added": "landmark-2016-2026"
+"added": "landmark-2016-2026",
+"field_was": "evogen"
 },
 {
 "id": "pmid:29643504",
