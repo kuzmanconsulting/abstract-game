@@ -5,8 +5,10 @@ it, or **not address** it? On "Check answers" every statement is marked, the pas
 the text, and the paper appears with title, authors, journal or preprint server, year, DOI and PubMed links.
 
 Corpus: journal articles (PubMed) and bioRxiv/medRxiv preprints, 2023–2026, in cell-free DNA / liquid biopsy,
-transposable elements / genome evolution, cancer genomics and evolutionary genomics, fetched through Europe PMC,
-with a targeted share from *Nature*, *Cell*, *Genome Biology* and *Nature Communications*. Statements were written
+transposable elements / genome evolution, cancer genomics, evolutionary genomics and small RNA / RNA biology, fetched
+through Europe PMC, with a targeted share from *Nature*, *Science*, *Cell*, *Nature Genetics*, *Nature Methods*,
+*Nature Biotechnology*, *Nature Communications*, *Cell Genomics*, *Molecular Cell*, *Science Advances*, *Genome
+Biology*, *Genome Research* and *Nucleic Acids Research* reaching back to 2020. Statements were written
 by Claude from the abstract text alone and kept only when at least two of three independent blind check passes
 agreed with the label (docs/DECISIONS.md D5–D6).
 
@@ -18,14 +20,15 @@ abstract-game/
 ├── pipeline/
 │   ├── fetch_candidates.py  Europe PMC → src/candidates.json (+ src/raw/)
 │   ├── select_corpus.py     balanced, seeded selection → src/corpus.json
-│   ├── make_batches.py      generation batches; blind check batches
+│   ├── make_batches.py      generation batches; blind check batches; reflip (re-check after a flip-rule change)
 │   ├── split_batch.py       split a batch into parts after a failed run
 │   ├── validate.py          schema + evidence checks; compose / flip rules
 │   ├── merge_checks.py      three passes → src/items.json
 │   ├── build_site.py        src/items.json → docs/data.json (+ build/artifact.html)
 │   └── prompts/             gen-v1…v4.md, check-v1.md (the exact instructions the agents got)
 ├── src/                     candidates, corpus, batches, generated, checks, items — provenance, all committed
-├── tests/test_pipeline.py   python3 -m unittest discover -s tests -v
+├── tests/                   test_pipeline.py (rules, merge) · test_page.py (headless browser: filters, shuffle, score, reading list)
+│                            python3 -m unittest discover -s tests -v
 └── docs/*.md                DECISIONS.md · SCHEMA.md · DIARY.md · LOG.md (served too, as plain text)
 ```
 
@@ -68,12 +71,21 @@ python3 pipeline/build_site.py --repo-url https://github.com/kuzmanconsulting/ab
 python3 -m unittest discover -s tests -v
 ```
 
-New fields go into `FIELDS` in `fetch_candidates.py`; a wider year window is `--start 2000-01-01`; a journal-targeted
-fetch is `--journals top` (or exact titles) with `--suffix top --out src/candidates_top.json`. Anything already in
+New fields go into `FIELDS` in `fetch_candidates.py` (with a `require` list of words the abstract must contain — a
+bare "speciation" also matches chemistry); a wider year window is `--start 2000-01-01`; a journal-targeted fetch is
+`--journals top2` (or exact titles) with `--suffix top2 --out src/candidates_top2.json`, and `select_corpus.py
+--spread journal` cycles over journals when drawing so the small high-profile ones are not drowned by the big ones. Anything already in
 `src/corpus.json` keeps its `n`; new abstracts are appended with `select_corpus.py --append --candidates … --n …
 --fields … [--journals …] --label …`, batched with `make_batches.py gen --start <first new n> --first-batch <next
 batch number>`, generated and checked in their own batches, and merged with everything else (see docs/LOG.md
 15:20–16:30 for the second corpus).
+
+## Changing the flip rule
+
+The contradicted statement of a gen-v4 abstract is made by the pipeline (`validate.flip`), so a rule change changes
+what players see. Never change a rule in place: add a new `flip_rule` name, run `make_batches.py reflip --from-rule
+<old> --to-rule <new>`, which moves the files, lists the abstracts whose wording changes (`src/reflips.json`) and
+builds superseding check batches for them, and send those through all passes before merging (docs/DECISIONS.md D13).
 
 ## Scores and the reading list
 

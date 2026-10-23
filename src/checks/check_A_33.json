@@ -1,0 +1,108 @@
+{"batch": "check_A_33", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+   {"n": 880, "id": "pmid:40216969",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Karyopherin Subunit Alpha 2 (KPNA2) negatively correlated with patient survival."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "KPNA2/YBX1/DDX3X axis might be potential targets for inhibiting disease progression and improving OS patient survival."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "gene expression and AS analyses were performed on 44 osteosarcoma patients to create a genome-wide co-expression network of RNA-binding proteins (RBPs), AS events, and AS genes."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "YBX1 accelerates the degradation of the ATP-dependent RNA helicase DDX3X (DDX3X) through the nonsense-mediated decay (NMD) pathway to promote intron retention of the DDX3X gene, thus reducing DDX3X protein levels."}
+    ]},
+   {"n": 881, "id": "pmid:40650263",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "While in a previous study we established the list of paraspeckle target RNAs in a rat pituitary cell line, we did not find, however, inverted repeated SINEs, the rat equivalent of primate IRAlus in 3'UTR of these RNAs."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "We found a 15-nucleotide sequence surrounded in 5' by a C-rich sequence, which is present as a tandem repeat in the 3'UTR of this mRNA"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We found a 15-nucleotide sequence surrounded in 5' by a C-rich sequence, which is present as a tandem repeat in the 3'UTR of this mRNA and which is involved in the nuclear retention by paraspeckles."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "As shown by mass spectrometry analysis, 6 proteins bound to the 15-nucleotide sequence are paraspeckle proteins"}
+    ]},
+   {"n": 882, "id": "pmid:41655928",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "PCBP2 recruits hnRNPU and DDX5 to key transcripts related to meiosis (Spo11, Tdrd5 and Brme1) and spermiogenesis (Eif4g3, Piwil1 and Dlec1)"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "To investigate its function, we generated mice with a germline-specific ablation of Pcbp2. These mice exhibited delayed meiotic prophase and impaired spermiogenesis."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "we identified and validated PCBP2 downregulation in testicular tissues from patients with non-obstructive azoospermia (NOA) by integrating bulk and single-cell RNA sequencing (scRNA-seq) datasets"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we observed a reduction in mid-pachytene spermatocytes and a distinct developmental arrest at step 9 of spermiogenesis"}
+    ]},
+   {"n": 883, "id": "pmid:42858641",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Using CL-treated PFFs as donor cells, the blastocyst rate of cloned embryos was significantly increased."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Immunofluorescence analysis revealed lower m6A and H3K9me3 levels in the CL-treated group than in the control group during the 2-8-cell stages."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Using CL-treated PFFs as donor cells, the blastocyst rate of cloned embryos was significantly increased."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "treatment of PFFs with 10 mmol/L CL for 48 h significantly decreased the expression of METTL3, WTAP, YTHDC1, and YTHDF2, increased the expression of the demethylase FTO"}
+    ]},
+   {"n": 884, "id": "doi:10.64898/2026.10.01.752299",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "the pseudogene encoded sORF RPL26P19 was detected consistently in HeLa cells but missed or inconsistently identified by existing tools"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "a separate pseudogene sORF from UBE3AP2 was observed specifically in normal primary cell types and absent in HeLa"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "the pseudogene encoded sORF RPL26P19 was detected consistently in HeLa cells but missed or inconsistently identified by existing tools"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "When applied to four human cell lines with matched replicates and benchmarked against existing tools, the framework produces dramatically smaller and more reliable candidate sets, reducing thousands to millions of predicted sORFs down to a small number of high confidence concordant loci."}
+    ]},
+   {"n": 885, "id": "pmid:41181626",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Key gene expression levels were evaluated using reverse transcription-quantitative PCR and immunohistochemistry."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "These core genes demonstrated significantly higher expression levels in tumor tissues compared with in adjacent normal tissues, were associated with a worse overall survival"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "A ceRNA network comprising these four mRNAs, 13 long noncoding RNAs, and 20 microRNAs was constructed."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "A total of 94 metastasis-related mRNAs were identified as differentially expressed, of which 45 demonstrated significant associations with m6A regulators."}
+    ]},
+   {"n": 886, "id": "pmid:40753411",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Hsa_piR_018849 facilitated the proliferation of osteosarcoma cells in vivo."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "The expression levels of CCN5 were reduced by hsa_piR_018849. Hsa_piR_018849 reduced the stability of CCN5 by binding to the coding sequence (CDS) region of CCN5 mRNA."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Overexpression of hsa_piR_018849 promoted the proliferation, migration, and invasion of osteosarcoma cells while inhibiting apoptosis."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "PiRNA hsa_piR_018849 regulates the function of osteosarcoma cells by targeting and inhibiting the expression of CCN5."}
+    ]},
+   {"n": 887, "id": "doi:10.1101/2025.06.11.25329423",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The lead genetic variant was not linked with expression levels of the nearby protein-coding gene TRIB1 (Tribbles Pseudokinase 1)."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "These results open the door to liver-targeted therapeutics silencing of the non-coding genome for the prevention and treatment of MASLD and cardiometabolic diseases."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "we conducted a new GWAS meta-analysis including 16,532 cases and 1,240,188 controls"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Targeted- and phenome-wide MR also identified lower liver-expressed TRIB1AL as being associated with reduced liver fat accumulation, lower plasma lipoprotein-lipid levels, decreased atherosclerotic cardiovascular disease risk, and increased human lifespan."}
+    ]},
+   {"n": 888, "id": "pmid:42123534",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "ADAR1 alters the isoform expression of other splicing factors (e.g., ACIN1), suggesting an indirect regulatory mechanism."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "ADAR1p110 interacts with pivotal spliceosome components and auxiliary splicing regulators."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "ADAR1 extensively modulates alternative-splicing events, with most of these alterations occurring independently of its RNA-editing activity and often its RNA-binding capacity."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "This study elucidates how the ADAR1p110 isoform influences alternative splicing independently of its canonical editing activity."}
+    ]},
+   {"n": 889, "id": "pmid:42773549",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "qRT-PCR revealed elevated LINC00200 and HMGB3 levels in BC cells, with minor differences in LINC00200 across cell lines. The expression of miR-20b-5p decreased in MCF-7 cells but increased in BT549 and MDA-MB-231."},
+      {"j": 2, "label": "contradicted", "confidence": 2, "evidence": "Active cluster of differentiation 4+ (CD4+) memory T cells were more infiltrated in BC, whereas resting mast cells were less infiltrated in controls.", "flag": "ambiguous", "reason": "The abstract reports the finding for active CD4+ memory T cells and never mentions repressed or resting CD4+ memory T cells, so the statement is a group swap rather than a direct negation and could also be read as not_addressed."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Although this axis holds promise as a novel prognostic marker, further functional studies and assessment of diagnostic utility are warranted."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "WGCNA revealed 14 lncRNA modules linked to immune cells and 277 modules associated with BC and immune traits."}
+    ]},
+   {"n": 890, "id": "doi:10.1101/2025.07.10.663777",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "At the synaptic level, TraxE126A mice exhibit deficits in specific forms of long-term hippocampal synaptic plasticity."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "a mouse line harboring a point mutation in Trax (E126A) that renders the Translin/Trax RNase inactive"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "we found alterations in the levels of multiple small RNAs including miRNAs, tsRNAs and substantial downregulation of gene expression at the mRNA level in the hippocampus of TraxE126A mice"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "TraxE126A mice display impaired long-term spatial memory and altered open-field and acoustic-startle behavior."}
+    ]},
+   {"n": 891, "id": "pmid:41566196",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "allowing a user to process small single-end sequencing on species possessing a small genome like Arabidopsis thaliana to very large paired-end sequencing on polyploid species like wheat"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "enables analysis of differential expression, differential alternative splicing, differential transcript usage, and gene ontology-based functional enrichment for all three"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "differentially expressed protein-coding genes, TEs and differential alternative splicing events were consistent with previously published datasets"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "benchmarking CRESCENT performance indicated that it can be run on a personal computer or a remote server, including a high-performance computing cluster"}
+    ]},
+   {"n": 892, "id": "doi:10.64898/2026.03.10.710617",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 2, "evidence": "the same “dominant” (in terms of gene expression) svtRNAs emerged independently from Argonaute-associated and total small RNA datasets", "flag": "ambiguous", "reason": "The abstract reports this for the dominant (highly expressed) svtRNAs; 'recessive' svtRNAs are not a group the abstract defines or discusses, so the statement reads as an antonym swap but could also be judged not_addressed."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "we generated two annotation sets: a stringent “miRNA-like” set enriched in Argonaute-associated datasets, and (ii) a broader “Total” set derived from total small RNA-seq libraries under relaxed structural constraints"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "in several cases, reach abundance levels comparable to canonical miRNAs"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We further identified svtRNAs derived from distinct vtRNA precursors that could share identical seed sequences, suggesting the possibility of svtRNA families with potential miRNA-like regulatory properties."}
+    ]},
+   {"n": 893, "id": "doi:10.1101/2024.09.24.24314089",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Isoform-level analyses revealed stronger prognostic associations than gene-level parameter, including for IGF2BP2-202, PUF60-202, and GLUL-203."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "IDH1-mutant gliomas exhibited globally elevated m6A methylation, along with increased expression of methyltransferases (METTL3, METTL14) and stabilizing readers (YTHDF3)."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "wild-type glioblastomas showed enhanced expression of m6A erasers (ALKBH5, FTO) and RNA decay factors (YTHDF2)"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Our study establishes m6A as a critical, subtype-specific layer of RNA regulation in glioma with clinical and therapeutic implications."}
+    ]},
+   {"n": 894, "id": "pmid:42749839",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Expression levels varied widely, with Pdp1ε showing the greatest variation (an 86-fold difference between extreme lines) and cyc the least (11.3-fold)."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Expression levels varied widely, with Pdp1ε showing the greatest variation (an 86-fold difference between extreme lines) and cyc the least (11.3-fold)."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Only three significant SNPs were located within clock genes themselves, all in Clk, whereas most associations represented trans-eQTLs in genes with diverse molecular functions."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We identified 109 significant SNPs and 28 indels associated with expression variation across the clock network."}
+    ]}
+ ]}

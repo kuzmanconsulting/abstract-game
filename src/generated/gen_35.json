@@ -1,0 +1,517 @@
+{
+ "batch": "gen_35",
+ "prompt_version": "gen-v4",
+ "items": [
+  {
+   "n": 910,
+   "id": "pmid:33159038",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Expression of Srrm4, described as the master regulator of microexons, was reduced in the mutant mice.",
+     "evidence": "the master regulator of microexons, Srrm4, has decreased expression",
+     "note": "The abstract reports lower Srrm4 expression among the splicing-factor changes it found."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Restoring Srrm4 levels in m3m4 mice reverses their autism-like behavioural phenotype.",
+     "evidence": "For instance, the master regulator of microexons, Srrm4, has decreased expression",
+     "note": "The abstract reports the drop in Srrm4 but describes no rescue or restoration experiment, so the consequence of putting it back is untested here."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Microexon inclusion fell by roughly 10 percent in the cortex of Pten m3m4/m3m4 mice.",
+     "evidence": "we found decreased inclusion of microexons in the Pten m3m4/m3m4 cortex (~10% decrease)",
+     "note": "The abstract gives the magnitude of the decrease in microexon inclusion explicitly."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The m3m4 mutation broke the physical interaction between Pten and the spliceosome component U2af2.",
+     "evidence": "the m3m4 mutation disrupts the interaction between Pten and U2af2, a member of the spliceosome",
+     "note": "Loss of the Pten-U2af2 interaction in the mutant is one of the reported results."
+    }
+   ]
+  },
+  {
+   "n": 911,
+   "id": "doi:10.1101/2024.10.22.619587",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Comparing native RNA with the modification-free reference yielded 26,619 modification sites in 2,520 isoforms belonging to 1,766 genes.",
+     "evidence": "We detected 26,619 modification sites across 2,520 isoforms from 1,766 genes.",
+     "note": "These counts are stated directly as the study's detection output."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Of the eight or more modification types inferred, m6A and m5C occurred most often.",
+     "evidence": "to identify at least eight distinct RNA modifications, with m6A and m5C being the most prevalent",
+     "note": "The abstract names m6A and m5C as the most prevalent of at least eight inferred modifications."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "m6A and m5C turned up together more often than chance on shared transcripts and on some individual molecules.",
+     "evidence": "we uncovered non-random co-occurrence of m6A and m5C on both the same transcripts and a subset of the same molecules",
+     "note": "Non-random co-occurrence at transcript and single-molecule level is reported as a finding."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Transcripts carrying both m6A and m5C are degraded faster in K562 cells than transcripts carrying only one of them.",
+     "evidence": "Importantly, we uncovered non-random co-occurrence of m6A and m5C on both the same transcripts and a subset of the same molecules, suggesting potential combinatorial regulation.",
+     "note": "The abstract maps where the two modifications coincide but measures no stability or decay, so a difference in transcript half-life is neither stated nor ruled out."
+    }
+   ]
+  },
+  {
+   "n": 912,
+   "id": "doi:10.64898/2026.10.12.758628",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Small-molecule inhibitors of paraspeckle assembly shrink Ewing sarcoma tumours in mice.",
+     "evidence": "provides a potential target for further mechanistic understanding and drug development",
+     "note": "Drug development is named only as a prospect; the work described is in cell lines, with no compound or animal experiment."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "ERG was able to enter phase-separated droplets formed by EWSR1.",
+     "evidence": "We found that ERG could integrate into EWSR1 phase separated droplets.",
+     "note": "Integration of ERG into EWSR1 droplets is reported as a direct observation."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Breaking up paraspeckles in prostate cancer and Ewing sarcoma cells undid oncogenic phenotypes much as losing the ETS fusion factors did.",
+     "evidence": "Disruption of paraspeckles in prostate cancer and Ewing sarcoma cell lines resulted in disruption of oncogenic phenotypes mimicking the loss of oncogenic ETS factors.",
+     "note": "The abstract states that paraspeckle disruption phenocopied loss of the oncogenic ETS factors in both cell types."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "ERG and EWSR1::FLI1 both bound the paraspeckle scaffold lncRNA NEAT1_2.",
+     "evidence": "Both ERG and EWSR1::FLI1 associated with the paraspeckle scaffold long non-coding RNA NEAT1_2.",
+     "note": "Association of both fusion-related ETS proteins with NEAT1_2 is one of the reported results."
+    }
+   ]
+  },
+  {
+   "n": 913,
+   "id": "pmid:40456740",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "SingleMod reached about 0.95 for both ROC AUC and PR AUC when predicting m6A on single molecules.",
+     "evidence": "achieves ROC AUC and PR AUC of ~0.95 for single-molecule m6A prediction",
+     "note": "Both performance values are given explicitly in the abstract."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Across eight species the study resolved three different m6A distribution patterns that tracked phylogenetic relationships.",
+     "evidence": "Through comparative analyzes across eight diverse species, we quantitatively elucidate three distinct m6A distribution patterns correlated with phylogenetic relationships",
+     "note": "The number of species, the number of patterns and the link to phylogeny are all stated."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "m6A heterogeneity among molecules of the same transcript shifts when cells are exposed to stress.",
+     "evidence": "characterizing m6A heterogeneity in RNA molecules from the same transcript",
+     "note": "Heterogeneity is characterised in standard cell lines; no stress treatment or time course is described, so a dynamic response is left open."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The model was trained in a multiple instance regression setup that exploits methylation-rate labels from a quantitative short-read method.",
+     "evidence": "employs a multiple instance regression (MIR) framework, leveraging extensive methylation-rate labels provided by the quantitative NGS-based method",
+     "note": "The abstract describes exactly this framework and label source for SingleMod."
+    }
+   ]
+  },
+  {
+   "n": 914,
+   "id": "pmid:38784389",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Condyloma acuminatum tissue carried a different m6A level from the paired control tissue of the same patients.",
+     "evidence": "The results show that the m6A level in CA tissues differed from that in the paired controls.",
+     "note": "The difference in m6A level between lesion and paired control tissue is the study's first stated result."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Patients whose lesions showed the largest m6A changes went on to relapse more often after treatment.",
+     "evidence": "Condyloma acuminatum (CA) is caused by low-risk human papillomavirus, and is characterized by high recurrence after treatment.",
+     "note": "High recurrence appears only as background; no follow-up or outcome data are linked to the measured m6A changes."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Seven RNA binding protein genes bearing specific m6A sites were expressed at either higher or lower mRNA levels in lesions than in paired normal tissue.",
+     "evidence": "seven RNA binding protein genes with specific m6A methylated sites, showed a higher or lower expression at the mRNA level in CA tissues than in the paired normal tissues",
+     "note": "The count of seven RBP genes and the direction of change are reported directly."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "m6A-modified genes tied to the cell cycle and to cell adhesion were differentially expressed in lesions relative to paired controls.",
+     "evidence": "cell cycle- and cell adhesion- associated genes with m6A modification were differentially expressed in CA tissues compared to the paired controls",
+     "note": "These two functional categories are the ones the abstract names among differentially expressed m6A-modified genes."
+    }
+   ]
+  },
+  {
+   "n": 915,
+   "id": "doi:10.1101/2024.10.28.620763",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Global m6A in the glioma cells was half that of the controls.",
+     "evidence": "Glioma cells exhibited a two-fold reduction in global m6A",
+     "note": "A two-fold reduction in global m6A in glioma cells is stated as measured."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Knocking down the regulators, ALKBH5 above all, pushed m6A toward 3'UTRs and the affected genes went up in expression.",
+     "evidence": "Regulator KD, particularly ALKBH5 induced redistribution of m6A toward 3′UTR with consequent gene upregulation.",
+     "note": "The abstract reports this 3'UTR redistribution and the accompanying upregulation, strongest for ALKBH5 knockdown."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "ALKBH5 knockdown damped MYC target and pro-apoptotic signalling, whereas METTL3 knockdown raised mTOR and PI3K-AKT signalling.",
+     "evidence": "ALKBH5 KD suppressed MYC targets and pro-apoptotic signaling while METTL3 KD enhanced mTOR and PI3K-AKT signaling.",
+     "note": "The two knockdowns are reported with opposite effects on these specific pathways."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "IGF2BP2 knockdown slowed the growth of the glioma cells.",
+     "evidence": "Using long-read RNA sequencing, we mapped m6A in an in vitro glioma model following knockdown (KD) of the reader IGF2BP2, writer METTL3, and eraser ALKBH5, with naive glioma cells and astrocytes as controls.",
+     "note": "The IGF2BP2 knockdown is used for m6A and transcript mapping; no proliferation or growth measurement is reported for it."
+    }
+   ]
+  },
+  {
+   "n": 916,
+   "id": "pmid:40629330",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "circRAPGEF5 measured in blood separates lung adenocarcinoma patients from healthy donors.",
+     "evidence": "These results establish the circRAPGEF5/IGF2BP2/NUP160 axis as a potential therapeutic target for LUAD intervention.",
+     "note": "The axis is proposed as a therapeutic target; no circulating or diagnostic measurement in people is described."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "circRAPGEF5 was abundant in lung adenocarcinoma cells, where it held back autophagic flux and drove proliferation, migration and invasion.",
+     "evidence": "we identified elevated circRAPGEF5 expression in LUAD cells, which significantly suppressed autophagic flux while promoting malignant phenotypes including enhanced proliferation, migration, and invasion",
+     "note": "Elevated expression together with suppressed autophagy and the three malignant phenotypes is reported directly."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Silencing NUP160 by RNA interference brought autophagic activity back and blunted the aggressive behaviour of the cancer cells.",
+     "evidence": "Genetic ablation of NUP160 through RNA interference effectively restored autophagic activity, thereby attenuating the aggressive biological behaviors of LUAD cells.",
+     "note": "The rescue of autophagy and loss of aggressiveness upon NUP160 knockdown are stated results."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "circRAPGEF5 bound the m6A reader IGF2BP2 through its KH3-4 domain, which stabilised NUP160 mRNA.",
+     "evidence": "circRAPGEF5 directly interacts with the KH3-4 functional domain of Insulin-like Growth Factor 2 mRNA-Binding Protein 2 (IGF2BP2), an m6A reader protein. This interaction facilitated IGF2BP2-mediated stabilization of NUP160 mRNA",
+     "note": "The abstract names the binding domain and the resulting stabilisation of NUP160 mRNA."
+    }
+   ]
+  },
+  {
+   "n": 917,
+   "id": "doi:10.1101/2025.07.22.666181",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Circular guide RNAs were more stable than linear ones while binding Cas13d about as well.",
+     "evidence": "cgRNAs enhanced biostability with comparable Cas13d-binding affinity relative to lgRNA.",
+     "note": "Greater stability at comparable binding affinity is the reported comparison between cgRNA and lgRNA."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Compared with linear guides, circular guides knocked down Adar1 more efficiently with little collateral activity and made the cancer cells more prone to cytokine-driven apoptosis.",
+     "evidence": "relative to lgRNA, cgRNA significantly enhanced the efficiency of Adar1 knockdown with minimal collateral activity, which sensitized the cancer cells for cytokine-mediated cell apoptosis",
+     "note": "All three outcomes of the cgRNA-versus-lgRNA comparison in cells are stated in this sentence."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The circular guide RNAs triggered weaker innate immune activation in the treated mice than the linear guides did.",
+     "evidence": "the immunogenicity of prokaryotic microorganism-derived Cas proteins in human that restrains their long-term therapeutic efficacy",
+     "note": "Immunogenicity is raised only for the bacterial Cas protein as motivation; no immune readout comparing the two guide formats is reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "In 4T1 tumour-bearing syngeneic mice the Adar1-targeting circular guide beat the linear guide when combined with immune checkpoint blockade.",
+     "evidence": "In a 4T1 murine TNBC tumor model in syngeneic mice, Adar1 -targeting cgRNA outperformed lgRNA for tumor immunotherapy in combination with immune checkpoint blockade (ICB).",
+     "note": "The in vivo advantage of cgRNA over lgRNA with ICB is reported for this model."
+    }
+   ]
+  },
+  {
+   "n": 918,
+   "id": "pmid:39476961",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Males lacking all four epididymal ribonuclease genes were sterile: their sperm fertilised oocytes in a dish but could not get past the utero-tubular junction in vivo.",
+     "evidence": "KO male mice are sterile; KO sperm fertilized oocytes in vitro but failed to efficiently fertilize oocytes in vivo due to an inability of sperm to pass through the utero-tubular junction.",
+     "note": "Sterility with the in vitro versus in vivo contrast and the transit defect are all reported."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The knockout epididymis and its luminal fluid held less tRF and rRNA-derived small RNA, even though RNases 9-12 cleaved nothing in vitro.",
+     "evidence": "there were decreased levels of tRFs and rRNAs (rRNA-derived small RNAs or rsRNAs) in the KO epididymis and epididymal luminal fluid, although RNases 9-12 did not show ribonucleolytic activity in vitro",
+     "note": "Both the decrease in the two small RNA classes and the absent in vitro nuclease activity are stated."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Sperm from the knockout mice carried markedly fewer tRNA fragments than control sperm.",
+     "evidence": "KO sperm showed a dramatic decrease in the levels of tRFs",
+     "note": "The sharp drop in sperm tRF levels is the result the authors call out as important."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Offspring sired by these knockout males show metabolic changes caused by the missing sperm tRNA fragments.",
+     "evidence": "Sperm small RNAs are implicated in intergenerational transmission of paternal environmental effects.",
+     "note": "Intergenerational transmission is framing from the literature; the abstract reports no offspring phenotype."
+    }
+   ]
+  },
+  {
+   "n": 919,
+   "id": "doi:10.1101/2024.07.19.604269",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Sequencing small RNAs at four developmental time points in Pristionchus pacificus turned up 64 previously undescribed, stage-restricted miRNAs.",
+     "evidence": "We performed small RNA sequencing across four developmental time-points in the satellite nematode Pristionchus pacificus , identifying 64 novel and ontogenically specifically expressed miRNAs.",
+     "note": "The number of time points and of novel stage-specific miRNAs are both given."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "The let-7-complex arrangement seen in P. pacificus is the ancestral one for nematodes.",
+     "evidence": "Lastly, we observe two alternative arrangements of the highly conserved miRNA locus let-7-complex .",
+     "note": "Two arrangements are observed, but nothing in the abstract reconstructs which came first."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Worms mutant for mir-100, for let-7, or for both survived but developed abnormally, with collagen and astacin gene families misregulated.",
+     "evidence": "Mutants of mir-100 and let-7 , individually as well as simultaneously, resulted in viable but developmentally defective worms, showing misregulation in collagen and astacin gene families.",
+     "note": "Viability with developmental defects and the two misregulated gene families are reported for the single and double mutants."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "miR-100 was the most plentiful miRNA of the post-embryonic juvenile stages.",
+     "evidence": "We also identified miR-100 as the most abundant miRNA in post-embryonic juvenile stages.",
+     "note": "The abstract names miR-100 the most abundant miRNA of the post-embryonic juvenile stages."
+    }
+   ]
+  },
+  {
+   "n": 920,
+   "id": "pmid:42520632",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "An m6A-specific antibody was used to pull out modified RNA molecules, leaving unmodified ones unselected.",
+     "evidence": "The method employs an m6A-specific antibody enrichment strategy to selectively enrich RNA molecules harboring m6A modifications, while RNA molecules lacking m6A remain unselected.",
+     "note": "The enrichment step and what happens to unmodified RNA are described exactly this way."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Pairing Cas13a recognition with droplet partitioning detected m6A-modified RNA down to femtomolar levels without any amplification step, a marked sensitivity gain.",
+     "evidence": "enables amplification-free detection of m6A-modified RNA at fM concentrations, with a significant improvement in sensitivity",
+     "note": "The femtomolar, amplification-free detection and the sensitivity improvement are both stated."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The platform picked up m6A differences in plasma from cancer patients before tumours were visible on imaging.",
+     "evidence": "with significant potential for applications in early disease diagnosis and therapeutic efficacy assessment",
+     "note": "Early diagnosis is named as potential; no patient samples or comparison with imaging appear in the abstract."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The assay allowed methylation site proportions in cellular RNA to be visualised and quantified.",
+     "evidence": "The Dd-Cas13a detection platform enables visualization and quantitative analysis of methylation site proportions in cellular RNA",
+     "note": "Visualisation and quantification of site proportions in cellular RNA is reported as what the platform achieves."
+    }
+   ]
+  },
+  {
+   "n": 921,
+   "id": "pmid:41029503",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "tsRNA levels in clear cell renal cell carcinoma tissue tracked tumour stage and patient survival.",
+     "evidence": "Here, we determined to elucidate the role of tsRNAs in ccRCC and their potential as new tumor biomarkers.",
+     "note": "Biomarker potential is the stated aim, but no staging or survival analysis is reported."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The microarray screen found 433 tsRNAs raised and 798 lowered in clear cell renal cell carcinoma.",
+     "evidence": "The microarray sequence result shown statistically significantly 433 up-regulated tsRNAs and 798 down-regulated tsRNAs in ccRCC.",
+     "note": "Both counts and their directions come straight from the microarray result."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Eight dysregulated tsRNAs were confirmed by RT-qPCR, and their likely targets were predicted with TargetScan and miRanda.",
+     "evidence": "eight tsRNAs were validated by RT-qPCR and the target genes of the validated tsRNAs were predicted by TargetScan and miRanda databases",
+     "note": "The number validated and the two prediction tools are named in the results."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "In functional assays tRF5-23-ValAAC-2 curbed proliferation and migration of ccRCC cells while pushing apoptosis up.",
+     "evidence": "The functional assays revealed that tRF5-23-ValAAC-2 hinders the proliferation and migration while promotes apoptosis of ccRCC.",
+     "note": "The three directional effects of this tsRNA are reported from the functional assays."
+    }
+   ]
+  },
+  {
+   "n": 922,
+   "id": "doi:10.1101/2024.10.31.621399",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "In leukemia cells IGF2BP3 kept glycolytic flux and one-carbon metabolism high, which raised production of S-adenosyl methionine.",
+     "evidence": "In leukemia cells, IGF2BP3 supports increased glycolytic flux and one-carbon metabolism, leading to increased production of S-adenosyl methionine (SAM)",
+     "note": "The metabolic rewiring and the resulting rise in SAM are reported as the study's central finding."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "IGF2BP3 acts on the translation of MAT2B, the regulatory subunit of the methionine-adenosyltransferase complex.",
+     "evidence": "IGF2BP3 directly regulates the translation of MAT2B, the regulatory subunit of the methionine-adenosyltransferase complex",
+     "note": "Direct translational regulation of MAT2B by IGF2BP3 is stated."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The extra methyl donor led to more m6A on RNA, closing a positive feedback loop.",
+     "evidence": "This, in turn, results in increased m6A modifications on RNA, resulting in positive feedback regulation.",
+     "note": "The increase in m6A and its description as positive feedback are both reported."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Knocking down MAT2B slows leukemia cell growth.",
+     "evidence": "IGF2BP3 directly regulates the translation of MAT2B, the regulatory subunit of the methionine-adenosyltransferase complex, which is the final enzyme in a pathway leading to SAM production.",
+     "note": "MAT2B appears as a regulated target in the pathway; no MAT2B loss-of-function or growth experiment is described."
+    }
+   ]
+  },
+  {
+   "n": 923,
+   "id": "doi:10.64898/2026.05.15.725286",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Nine Adar isoforms and the pre-mRNA each carried a different editing level at the S>G auto-recoding site.",
+     "evidence": "Nine different Adar isoforms together with pre-mRNA had distinct editing levels at the S>G auto-recoding site",
+     "note": "The count of isoforms and the distinct editing levels at that site are reported directly."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Enzyme assays confirmed that the isoform-specific editing differences change ADAR catalytic activity.",
+     "evidence": "which was predicted to have isoform-specific effects on catalytic activities",
+     "note": "The effect on catalysis is a prediction in the abstract, not a measurement."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Editing sites lying close together in the neuronal genes qvr and stj had tightly correlated editing levels, attributed to co-editing.",
+     "evidence": "closely located editing sites, such as those in neuronal genes qvr and stj , still exhibited high correlation in editing levels due to co-editing",
+     "note": "The high correlation for neighbouring sites in these two genes is a reported result."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The interfering-primer approach showed that the long and short 3'UTR forms of jef differ in how much they are recoded.",
+     "evidence": "iPrimer strategy further discovered differential recoding levels between the long/short 3’UTR isoforms of gene jef",
+     "note": "Differential recoding between the two 3'UTR isoforms of jef is what the iPrimer strategy uncovered."
+    }
+   ]
+  },
+  {
+   "n": 924,
+   "id": "doi:10.1101/2025.05.11.653140",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "RHA-1 needs EGO-1, the enzyme that makes CSR-1 small RNAs, in order to sit in germ granules.",
+     "evidence": "RHA-1 localizes to germ granules dependent on EGO-1, which synthesizes CSR-1 small RNAs.",
+     "note": "The EGO-1 dependence of RHA-1 localisation is reported directly."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "RHA-1 favours small RNA production from the 5' ends of mRNAs and their loading onto CSR-1.",
+     "evidence": "We find RHA-1 promotes small RNA production from the 5’ regions of mRNAs and small RNA sorting to CSR-1.",
+     "note": "Both roles, 5'-biased biogenesis and sorting to CSR-1, are stated findings."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Worms lacking RHA-1 lose silencing of transposons in the germ line.",
+     "evidence": "In germ cells, small RNAs function as a defense system to silence invading RNAs like viruses and transposons to protect genome integrity.",
+     "note": "Transposon silencing is background for the small RNA pathway; the abstract reports no transposon measurement in rha-1 mutants."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Losing RHA-1 pushed CSR-1 target mRNAs up and left the animals with impaired fertility.",
+     "evidence": "Loss of RHA-1 leads to elevated CSR-1 target mRNA levels and compromised fertility.",
+     "note": "Both consequences of RHA-1 loss are reported in the same sentence."
+    }
+   ]
+  }
+ ],
+ "flip_rule": "first-of-any-v3"
+}

@@ -128,6 +128,10 @@ def merge(passes, repair_pass="R"):
                 stats["dropped_by_label"][s["label"]] += 1
         if len(kept) < MIN_STATEMENTS:
             stats["abstracts_dropped_too_few"] += 1
+            stats["statements_kept"] -= len(kept)                  # they do not reach the page
+            for row in kept:
+                stats["kept_by_label"][row["label"]] -= 1
+                stats["agreement"][row["agreement"]] -= 1
             continue
         stats["abstracts_kept"] += 1
         items.append({"n": n, "id": src["id"], "field": src["field"], "source": src["source"], "server": src.get("server"), "text_repaired": bool(src.get("text_repaired")), "added": src.get("added"),

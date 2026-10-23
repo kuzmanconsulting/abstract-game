@@ -169,3 +169,12 @@ Communications, Cell Genomics, Molecular Cell, Science Advances, Genome Biology,
 Research, 2020-01-01 onwards, 75 abstracts = 15 per field over the five fields, drawn cycling over journals
 (`--spread journal`) so Nature, Cell and Science are drawn as often as Nature Communications. Corpus = 1,000.
 Generation gen-v4 in batches of 15 (gen_32..gen_40), flip rule v3, three blind check passes as before.
+
+**D17. Abstracts without a contradicted item (2026-10-23 19:55).** Under gen-v4 the contradicted item exists only
+when one of the three true statements carries a direction word. In the first corpus that was 7 abstracts, in the
+second 69 of 305 (v2 rule), in the third 51 of 135 — small-RNA and top-journal abstracts report mechanisms and
+identities more than comparisons, and the writers paraphrase accordingly. These abstracts play as 3 supported + 1
+not addressed, which is fine for reading practice but makes the game's label mix thinner (D15). Fix for the next
+generation round, not applied retroactively: a gen-v5 prompt that asks the writer, when the abstract itself states a
+comparison or a direction (more/less, higher/lower, increased/decreased, gain/loss …), to put one such comparative
+in at least one supported statement, so the pipeline has a word to flip. Statements already checked stay as they are.

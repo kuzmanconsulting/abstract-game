@@ -1,0 +1,109 @@
+{"batch": "check_C_37", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+   {"n": 940, "id": "pmid:42068976",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "The HOTSCRAMBL variant disrupts lncRNA function and reduces human hematopoietic stem cell (HSC) self-renewal."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Mechanistically, HOTSCRAMBL enables appropriate expression and splicing of HOXA genes in HSCs, most notably HOXA9, in an SRSF2-dependent manner."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "associated with globally reduced blood counts, protection from blood cancers, and variation in anthropometric phenotypes"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we also demonstrate that HOTSCRAMBL variation or deletion compromises HOXA-dependent acute myeloid leukemias"}
+    ]},
+   {"n": 941, "id": "pmid:39214976",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "suggesting that they are potential vehicles for the transmission of antibiotic resistance genes (ARGs) in the biome"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "We reveal that 39.5% of them carry ARGs, which is approximately 37 times higher than that for phage genomes."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Two NCLDV-encoded trimethoprim resistance genes are demonstrated to confer trimethoprim resistance in Escherichia coli."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The presence of ARGs in NCLDV genomes is significantly correlated with mobile genetic elements and virulence factors."}
+    ]},
+   {"n": 942, "id": "pmid:32619424",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "TBL1XR1 mutants co-opt SMRT/HDAC3 repressor complexes toward binding the MB cell transcription factor (TF) BACH2 at the expense of the germinal center (GC) TF BCL6, leading to pre-memory transcriptional reprogramming and cell-fate bias."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "we show that TBL1XR1 mutations skew the humoral immune response toward generating abnormal immature memory B cells (MB), while impairing plasma cell differentiation"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Upon antigen recall, TBL1XR1 mutant MB cells fail to differentiate into plasma cells and instead preferentially reenter new GC reactions"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "TBL1XR1 mutants co-opt SMRT/HDAC3 repressor complexes toward binding the MB cell transcription factor (TF) BACH2 at the expense of the germinal center (GC) TF BCL6"}
+    ]},
+   {"n": 943, "id": "pmid:40669467",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We characterized circulating extracellular vesicles (EVs) in obese and lean humans, identifying transcriptional cargo differentially expressed in obesity (277 unique genes; false discovery rate < 10%)."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "we compared this obesity EV transcriptome with expression from human visceral-adipose-tissue-derived EVs from freshly collected and cultured biopsies from the same obese individuals, observing high concordance"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "identifying transcriptional cargo differentially expressed in obesity (277 unique genes; false discovery rate < 10%)"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Using a phenome-wide association study of the regulatory SNPs for the EV-derived transcripts, we identified a substantial enrichment for inflammatory phenotypes, including type 2 diabetes."}
+    ]},
+   {"n": 944, "id": "pmid:40200121",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "we integrated bulk RNA sequencing (RNA-seq) data from 7,015 samples, single-cell RNA-seq data from 127,598 cells and 2,869 whole-genome sequences to present a pilot atlas of regulatory variants across 28 chicken tissues"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "millions of regulatory effects on primary expression (protein-coding genes, long non-coding RNA and exons) and post-transcriptional modifications (alternative splicing and 3'-untranslated region alternative polyadenylation)"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "their utility in interpreting genome-wide associations for 39 chicken complex traits"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "our comparative analyses of gene regulation between chickens and mammals demonstrate how this resource can facilitate cross-species gene mapping of complex traits"}
+    ]},
+   {"n": 945, "id": "pmid:38991068",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We identified specific features for a candidate \"IStron\" from Clostridium botulinum that allow the element to carefully control the relative levels of spliced products versus functional guide RNAs."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "TnpB nucleases represent the evolutionary precursors to CRISPR-Cas12 and are widespread in all domains of life."},
+      {"j": 3, "label": "supported", "confidence": 1, "evidence": "we uncovered molecular mechanisms of the transposition life cycle of IS607-family elements that, notably, also encode group I introns", "flag": "ambiguous", "reason": "The abstract states that the IS607-family elements encode group I introns and marks this as notable, but it never says IS605-family TnpB systems lack them, so the contrast is implied rather than stated."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Our results suggest that IStron transcripts evolved an ability to balance competing and mutually exclusive activities that promote selfish transposon spread while limiting adverse fitness costs on the host."}
+    ]},
+   {"n": 946, "id": "pmid:38468344",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The computational workflow is first validated by comparing the resulting metabolite-gene pairs with multi-omics data (i.e., mutation data, RNA-seq data, and metabolome data) from acute myeloid leukemia and renal cell carcinoma samples collected in this study."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "The computational workflow uses both cancer patient-specific genome-scale metabolic models (GEMs) and mutation data to generate metabolite-gene-pathway sets."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Therapeutic potential of the resulting metabolite-gene-pathway sets is also discussed."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The computational workflow is further validated by evaluating the metabolite-gene-pathway sets predicted for 18 cancer types, by using RNA-seq data publicly available, in comparison with the reported studies."}
+    ]},
+   {"n": 947, "id": "pmid:41533582",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We found that the median fungal mitogenome size is 58 kb and identified exceptionally large examples over 1 Mb in Pezizomycetes."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "enabling us to document 3131 total fungal mitogenomes from JGI-derived metagenomic datasets. We also identified 6467 total undeclared mitogenomes embedded in Genbank fungal nuclear assemblies."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "including the transfer of mitochondrially encoded atp8 and atp9 to the nuclear genomes across the Pezizomycotina"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We found that the median fungal mitogenome size is 58 kb and identified exceptionally large examples over 1 Mb in Pezizomycetes."}
+    ]},
+   {"n": 948, "id": "pmid:42155443",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Using transcriptome profiling in single cells, we discover that loss of essential lncRNAs impairs cell cycle progression and drives apoptosis."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "we probed how the loss of ∼5,500 lncRNAs impacts cell fitness across five human cell lines and identified 788 lncRNAs with context-specific or broad essentiality"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Using ∼9,000 primary tumors, we pinpoint those lncRNAs whose expression in tumors correlates with survival, yielding new biomarkers and potential therapeutic targets."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "find that the majority of essential lncRNAs operate independently of their nearest protein-coding genes"}
+    ]},
+   {"n": 949, "id": "pmid:37228752",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "we resolve genome-wide SVs in 20 genetically distinct inbred mice with long-read sequencing. We report 413,758 site-specific SVs affecting 13% (356 Mbp) of the mouse reference assembly"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "we find that TEs comprise 39% of SVs and account for 75% of altered bases"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "including 510 previously unannotated coding variants"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We further utilize this callset to investigate how TE heterogeneity affects mouse embryonic stem cells and find multiple TE classes that influence chromatin accessibility."}
+    ]},
+   {"n": 950, "id": "pmid:39147922",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "In contrast to satellite-rich Arabidopsis and rice centromeres, cotton centromeres lack phased CENH3 nucleosome positioning patterns and probably evolved by invasion from long terminal repeat retrotransposons."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "revealed a previously unannotated DNA transposon (MuTC01) that interacts with miR2947 to produce trans-acting small interfering RNAs (siRNAs), one of which targets the newly evolved LEC2 (LEC2b) to produce phased siRNAs"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Systematic genome editing experiments revealed that this tripartite module, miR2947-MuTC01-LEC2b, controls the morphogenesis of complex folded embryos characteristic of Gossypium and its close relatives in the cotton tribe."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Our assembly identified gaps and misoriented or misassembled regions in previous assemblies and produced 13 centromeres, with 25 chromosomal ends having telomeres."}
+    ]},
+   {"n": 951, "id": "pmid:34321211",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "which is highly methylated in malignant cells compared to the normal counterparts and subject to expedited degradation upon the modification"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "expression of the RNA methyltransferase METTL3 is negatively correlated with the telomere length but favorably with fractions of altered cancer genome, whereas HMBOX1 mRNA levels show the opposite patterns"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "A-mediated down-regulation of HMBOX1 causes telomere dysfunction and inactivation of p53 signaling, which leads to chromosome abnormalities and aggressive phenotypes."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "In multiple types of human cancers, expression of the RNA methyltransferase METTL3 is negatively correlated with the telomere length but favorably with fractions of altered cancer genome"}
+    ]},
+   {"n": 952, "id": "pmid:42717097",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "highlights their potential to improve both risk stratification and biomarker-guided treatment selection"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "we identify eight integrated mutational footprints (IMFs) that collectively explain the mutational processes in 85% of primary prostate cancer genomes"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Extending to the metastatic setting, we found that IMFs predicted sensitivity to androgen receptor pathway inhibitors."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Four IMFs, present in 37% of primary tumours, were significantly associated with shorter time to metastasis."}
+    ]},
+   {"n": 953, "id": "pmid:32029502",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "APA is frequently disrupted in cancer and promotes tumorigenesis through altered expression of oncogenes and tumor suppressors."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "we integrate RNA-sequencing data from the Genotype-Tissue Expression (GTEx) project and The Cancer Genome Atlas (TCGA) to comprehensively analyze APA events in 148 pancreatic ductal adenocarcinomas (PDACs)"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We find enrichment for APA events in genes associated with known PDAC pathways, loss of tumor-suppressive miRNA binding sites, and increased heterogeneity in 3'-UTR forms of metabolic genes."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Knockdown or pharmacological inhibition of CSNK1A1 attenuates PDAC cell proliferation and clonogenic growth."}
+    ]},
+   {"n": 954, "id": "pmid:42748252",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 2, "evidence": "which is architecturally different from the previously reported ring-shaped D3-symmetric supercomplex of a methanogen belonging to phylogenetically distinct Class II methanogens", "flag": "ambiguous", "reason": "Everything else in the statement matches, but the abstract calls the D3-symmetric Class II structure previously reported, not reported later."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "The ancestral form was likely C2 symmetric, whereas D3-symmetric supercomplexes were acquired by horizontal gene transfer, a transition probably helpful for growth in substrate-poor environments."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The ancestral form was likely C2 symmetric, whereas D3-symmetric supercomplexes were acquired by horizontal gene transfer"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "In this C2-symmetric form, the redox active sites of Hdr and Fmd are connected by two MvhB polyferredoxins, whose branching electron paths appear to be available for electron transfer to/from other partners."}
+    ]}
+ ]}
+

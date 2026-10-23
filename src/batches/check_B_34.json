@@ -1,0 +1,535 @@
+{
+"batch": "check_B_34",
+"pass": "B",
+"source_batch": "gen_34",
+"items": [
+{
+"n": 895,
+"id": "pmid:41245464",
+"year": 2025,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "N6-methyladenosine (m6A) RNA represents the most prevalent internal modification found in mRNA and plays a crucial role in stress response and developmental processes across various crop species. However, the understanding of m6A modification in monocot species remains limited. In this study, we conducted a comprehensive analysis of m6A methyltransferase genes \"writers\" in maize, focusing on gene localization, structural characteristics, conserved domains, phylogenetic relationships, promoter analysis, and expression profiles. Our analysis identified three m6A regulatory genes within the maize genome. Through the phylogenetic relationship analysis, we classified these genes into three distinct clusters alongside the model species Arabidopsis thaliana and Oryza sativa . Promoter analysis revealed that m6A pathway genes are mainly associated with hormone-responsive elements, environmental stress-related elements, and transcription factors. The conserved domain analysis indicated that all identified maize m6A proteins possess the MT-A70 domain. Furthermore, RNA-seq and RT-qPCR analysis demonstrated that the identified Zmm6A genes exhibit tissue-specific expression patterns, as well as differential expression in response to various abiotic stresses, suggesting a potential role for m6A modification in influencing reproductive development. Notably, the expression of ZmMTA-03 genes was significantly upregulated under cold stress conditions. This study provides valuable insights into the regulatory genes associated with m6A modification and their potential epigenetic regulatory mechanisms in maize."
+}
+],
+"text": "N6-methyladenosine (m6A) RNA represents the most prevalent internal modification found in mRNA and plays a crucial role in stress response and developmental processes across various crop species. However, the understanding of m6A modification in monocot species remains limited. In this study, we conducted a comprehensive analysis of m6A methyltransferase genes \"writers\" in maize, focusing on gene localization, structural characteristics, conserved domains, phylogenetic relationships, promoter analysis, and expression profiles. Our analysis identified three m6A regulatory genes within the maize genome. Through the phylogenetic relationship analysis, we classified these genes into three distinct clusters alongside the model species Arabidopsis thaliana and Oryza sativa . Promoter analysis revealed that m6A pathway genes are mainly associated with hormone-responsive elements, environmental stress-related elements, and transcription factors. The conserved domain analysis indicated that all identified maize m6A proteins possess the MT-A70 domain. Furthermore, RNA-seq and RT-qPCR analysis demonstrated that the identified Zmm6A genes exhibit tissue-specific expression patterns, as well as differential expression in response to various abiotic stresses, suggesting a potential role for m6A modification in influencing reproductive development. Notably, the expression of ZmMTA-03 genes was significantly upregulated under cold stress conditions. This study provides valuable insights into the regulatory genes associated with m6A modification and their potential epigenetic regulatory mechanisms in maize.",
+"statements": [
+{
+"j": 1,
+"text": "Cold stress significantly decreased the expression of ZmMTA-03 genes."
+},
+{
+"j": 2,
+"text": "Three m6A regulatory genes were found in the maize genome."
+},
+{
+"j": 3,
+"text": "Every maize m6A protein identified in the study carries the MT-A70 domain."
+},
+{
+"j": 4,
+"text": "Maize lines overexpressing the m6A writer genes survive drought better than wild-type plants."
+}
+]
+},
+{
+"n": 896,
+"id": "pmid:41191559",
+"year": 2025,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "RNA molecules are localized to subcellular regions through interactions between localization-regulatory cis-elements and trans-acting RNA binding proteins (RBPs). However, the identities of RNAs whose localization is regulated by a specific RBP, as well as the impacts of that RNA localization on cell function, have generally remained unknown. Here, we demonstrate that the RBP HNRNPA2B1 acts to keep specific RNAs out of neuronal projections. Using subcellular fractionation, high-throughput sequencing, and single-molecule RNA FISH, we find that hundreds of RNAs demonstrate markedly increased abundance in neurites in HNRNPA2B1 knockout cells. These RNAs often encode motor proteins and are enriched for known HNRNPA2B1 binding sites and motifs in their 3' UTRs. The speed and processivity of microtubule-based transport are impaired in these cells. HNRNPA2B1 point mutations that increase its cytoplasmic abundance relative to wildtype lead to stronger suppression of RNA mislocalization defects than seen with wildtype HNRNPA2B1. We further find that the subcellular localizations of HNRNPA2B1 target RNAs are sensitive to perturbations of RNA decay machinery, suggesting that HNRNPA2B1's known role in regulating cytoplasmic RNA stability may explain these observations. These findings establish HNRNPA2B1 as a negative regulator of neurite RNA abundance and a necessary factor for efficient motor-dependent cargo transport."
+}
+],
+"text": "RNA molecules are localized to subcellular regions through interactions between localization-regulatory cis-elements and trans-acting RNA binding proteins (RBPs). However, the identities of RNAs whose localization is regulated by a specific RBP, as well as the impacts of that RNA localization on cell function, have generally remained unknown. Here, we demonstrate that the RBP HNRNPA2B1 acts to keep specific RNAs out of neuronal projections. Using subcellular fractionation, high-throughput sequencing, and single-molecule RNA FISH, we find that hundreds of RNAs demonstrate markedly increased abundance in neurites in HNRNPA2B1 knockout cells. These RNAs often encode motor proteins and are enriched for known HNRNPA2B1 binding sites and motifs in their 3' UTRs. The speed and processivity of microtubule-based transport are impaired in these cells. HNRNPA2B1 point mutations that increase its cytoplasmic abundance relative to wildtype lead to stronger suppression of RNA mislocalization defects than seen with wildtype HNRNPA2B1. We further find that the subcellular localizations of HNRNPA2B1 target RNAs are sensitive to perturbations of RNA decay machinery, suggesting that HNRNPA2B1's known role in regulating cytoplasmic RNA stability may explain these observations. These findings establish HNRNPA2B1 as a negative regulator of neurite RNA abundance and a necessary factor for efficient motor-dependent cargo transport.",
+"statements": [
+{
+"j": 1,
+"text": "Microtubule-based transport in HNRNPA2B1 knockout cells was slower and less processive."
+},
+{
+"j": 2,
+"text": "Hundreds of transcripts became markedly less abundant in neurites once HNRNPA2B1 was knocked out."
+},
+{
+"j": 3,
+"text": "Neurites of HNRNPA2B1 knockout cells are shorter than those of wildtype cells."
+},
+{
+"j": 4,
+"text": "Point mutants with more cytoplasmic HNRNPA2B1 suppressed RNA mislocalisation more strongly than wildtype protein did."
+}
+]
+},
+{
+"n": 897,
+"id": "doi:10.1101/2025.09.09.675143",
+"year": 2025,
+"field": "smallrna",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Despite extensive investigation, the molecular control of developmental hemoglobin expression remains incompletely elucidated. Hemoglobin switching is controlled by transcription factors, miRNAs, and RNA-binding proteins (RBPs) that enforce gene regulatory changes through development. Here we examine the role of the heterochronically silenced N-6 methyladenosine (m6A) RNA-binding protein IGF2BP1 that was previously described to regulate HBG1/2 indirectly by suppressing BCL11A expression through an unknown mechanism. We find that IGF2BP1 binds and activates HIC2, itself a BCL11A repressor. Furthermore, we identify that IGF2BP1 plays a BCL11A-independent role by direct binding to HBG1/2 to promote its translation. Stop codon-proximal m6A-modified coding sequences within HBG2 transcripts are necessary and sufficient for direct positive regulation mediated by IGF2BP1. This work deepens the mechanistic understanding of hemoglobin switching and suggests a physical relationship between heterochronic RBPs and globin transcripts."
+}
+],
+"text": "Despite extensive investigation, the molecular control of developmental hemoglobin expression remains incompletely elucidated. Hemoglobin switching is controlled by transcription factors, miRNAs, and RNA-binding proteins (RBPs) that enforce gene regulatory changes through development. Here we examine the role of the heterochronically silenced N-6 methyladenosine (m6A) RNA-binding protein IGF2BP1 that was previously described to regulate HBG1/2 indirectly by suppressing BCL11A expression through an unknown mechanism. We find that IGF2BP1 binds and activates HIC2, itself a BCL11A repressor. Furthermore, we identify that IGF2BP1 plays a BCL11A-independent role by direct binding to HBG1/2 to promote its translation. Stop codon-proximal m6A-modified coding sequences within HBG2 transcripts are necessary and sufficient for direct positive regulation mediated by IGF2BP1. This work deepens the mechanistic understanding of hemoglobin switching and suggests a physical relationship between heterochronic RBPs and globin transcripts.",
+"statements": [
+{
+"j": 1,
+"text": "IGF2BP1 binds HIC2 and activates it, and HIC2 itself represses BCL11A."
+},
+{
+"j": 2,
+"text": "Raising IGF2BP1 in adult erythroid cells lifts fetal hemoglobin enough to relieve sickle cell disease."
+},
+{
+"j": 3,
+"text": "IGF2BP1 also acts independently of BCL11A, binding HBG1/2 directly and decreasing their translation."
+},
+{
+"j": 4,
+"text": "m6A-modified coding sequence near the HBG2 stop codon is both required and sufficient for IGF2BP1's positive regulation."
+}
+]
+},
+{
+"n": 898,
+"id": "pmid:42561431",
+"year": 2026,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Chondrosarcoma is a common bone sarcoma in adults with limited therapeutic options due to frequent chemoresistance. Cisplatin (CDDP) is a key chemotherapeutic agent, but resistance often develops. This study investigated the role and mechanism of circular RNA HMGB2 (circHMGB2) in cisplatin resistance of chondrosarcoma. Clinically, circHMGB2 was upregulated in chondrosarcoma tumors and associated with cisplatin resistance and poor patient survival. Functionally, exogenous overexpression of circHMGB2 elevated cisplatin resistance in chondrosarcoma cells (SW1353, OUMS-27) in vitro, while its silencing re-sensitized resistant cells. Mechanistically, circHMGB2 did not function as a miRNA sponge but acted as a competitive molecular decoy for the RNA-binding protein IGF2BP1. We demonstrated that circHMGB2 directly binds IGF2BP1, competitively impairing IGF2BP1's binding to and stabilization of Grb10 mRNA, leading to its destabilization and subsequent downregulation of Grb10 protein. This suppression of Grb10, a known negative regulator of the PI3K/Akt pathway, resulted in constitutive Akt phosphorylation, driving resistance. Crucially, co-overexpression of IGF2BP1 rescued circHMGB2-induced Grb10 downregulation, Akt activation, and cisplatin resistance, validating the decoy mechanism. Furthermore, in a cisplatin-resistant xenograft model, silencing circHMGB2 synergized with cisplatin to significantly inhibit tumor growth, improve host survival, and upregulate intratumoral Grb10 while suppressing Akt phosphorylation. Our results delineate a novel circHMGB2/IGF2BP1/Grb10/Akt axis that drives cisplatin resistance in chondrosarcoma. Targeting circHMGB2 could therefore serve as a promising therapeutic strategy to overcome chemoresistance and enhance treatment efficacy."
+}
+],
+"text": "Chondrosarcoma is a common bone sarcoma in adults with limited therapeutic options due to frequent chemoresistance. Cisplatin (CDDP) is a key chemotherapeutic agent, but resistance often develops. This study investigated the role and mechanism of circular RNA HMGB2 (circHMGB2) in cisplatin resistance of chondrosarcoma. Clinically, circHMGB2 was upregulated in chondrosarcoma tumors and associated with cisplatin resistance and poor patient survival. Functionally, exogenous overexpression of circHMGB2 elevated cisplatin resistance in chondrosarcoma cells (SW1353, OUMS-27) in vitro, while its silencing re-sensitized resistant cells. Mechanistically, circHMGB2 did not function as a miRNA sponge but acted as a competitive molecular decoy for the RNA-binding protein IGF2BP1. We demonstrated that circHMGB2 directly binds IGF2BP1, competitively impairing IGF2BP1's binding to and stabilization of Grb10 mRNA, leading to its destabilization and subsequent downregulation of Grb10 protein. This suppression of Grb10, a known negative regulator of the PI3K/Akt pathway, resulted in constitutive Akt phosphorylation, driving resistance. Crucially, co-overexpression of IGF2BP1 rescued circHMGB2-induced Grb10 downregulation, Akt activation, and cisplatin resistance, validating the decoy mechanism. Furthermore, in a cisplatin-resistant xenograft model, silencing circHMGB2 synergized with cisplatin to significantly inhibit tumor growth, improve host survival, and upregulate intratumoral Grb10 while suppressing Akt phosphorylation. Our results delineate a novel circHMGB2/IGF2BP1/Grb10/Akt axis that drives cisplatin resistance in chondrosarcoma. Targeting circHMGB2 could therefore serve as a promising therapeutic strategy to overcome chemoresistance and enhance treatment efficacy.",
+"statements": [
+{
+"j": 1,
+"text": "Overexpressing circHMGB2 raised cisplatin resistance in SW1353 and OUMS-27 cells, and silencing it restored sensitivity in resistant cells."
+},
+{
+"j": 2,
+"text": "circHMGB2 worked as a competitive decoy for IGF2BP1 rather than as a miRNA sponge."
+},
+{
+"j": 3,
+"text": "Circulating circHMGB2 in blood identifies chondrosarcoma patients who will not respond to cisplatin."
+},
+{
+"j": 4,
+"text": "In cisplatin-resistant xenografts, silencing circHMGB2 together with cisplatin curbed tumour growth and extended host survival."
+}
+]
+},
+{
+"n": 899,
+"id": "pmid:42432548",
+"year": 2026,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Arteriovenous fistula (AVF) is the preferred vascular access for hemodialysis in patients with end-stage renal disease. However, AVF stenosis, a severe complication, significantly impairs the patient's quality of life. The mechanisms underlying AVF stenosis are multifactorial, with neointima (NI) hyperplasia within the fistula being a key contributor. While the involvement of RNA-binding proteins in the pathogenesis of various vascular diseases has garnered increasing attention, their role in autogenous AVFs remains poorly understood."
+},
+{
+"label": "Methods",
+"text": "Differentially expressed genes in a mouse AVF model were identified through public database analysis, and quantitative real-time polymerase chain reaction (qRT-PCR) confirmed RBM47 as the most significantly altered gene. Endothelial-specific RBM47 overexpression was achieved by local delivery of adeno-associated virus (AAV)-RBM47 using F127 hydrogel. Hematoxylin-eosin staining was used to assess neointimal thickness in human and mouse AVF tissues. RBM47 expression and function were evaluated by qRT-PCR, Western blotting, and assays of proliferation and migration. Mechanistic studies, including transcriptome sequencing, Replicate Multivariate Analysis of Transcript Splicing (rMATS) analysis, RNA-Binding Protein Immunoprecipitation (RIP) Assay, molecular docking, immunohistochemistry, and immunofluorescence, were performed to investigate the relationship between RBM47, SEC31A splicing, and downstream signaling."
+},
+{
+"label": "Results",
+"text": "RBM47 expression was markedly increased in stenotic AVF tissues from both patients and mouse models. Endothelial overexpression of RBM47 significantly aggravated neointimal hyperplasia. In vitro, RBM47 promoted human umbilical vein endothelial cell (HUVEC) proliferation, migration, and EndMT. Mechanistically, RBM47 was predominantly localized in the nucleus, suggesting a role in alternative splicing. Transcriptome sequencing revealed that RBM47 promoted retention of exon 13 in SEC31A, thereby suppressing the generation of the SEC31A-Δ13 splice variant. This splice variant inhibited SMAD3 phosphorylation and its downstream signaling cascade."
+},
+{
+"label": "Conclusions",
+"text": "RBM47 promotes neointimal hyperplasia in autogenous AVF by inducing EndMT. Specifically, RBM47 regulates alternative splicing of SEC31A and reduces the production of the SEC31A-Δ13 splice variant, which inhibits SMAD3 phosphorylation. These findings reveal a novel mechanism by which RNA-binding proteins contribute to AVF stenosis and suggest RBM47 as a potential therapeutic target for preventing AVF failure."
+}
+],
+"text": "Arteriovenous fistula (AVF) is the preferred vascular access for hemodialysis in patients with end-stage renal disease. However, AVF stenosis, a severe complication, significantly impairs the patient's quality of life. The mechanisms underlying AVF stenosis are multifactorial, with neointima (NI) hyperplasia within the fistula being a key contributor. While the involvement of RNA-binding proteins in the pathogenesis of various vascular diseases has garnered increasing attention, their role in autogenous AVFs remains poorly understood. Differentially expressed genes in a mouse AVF model were identified through public database analysis, and quantitative real-time polymerase chain reaction (qRT-PCR) confirmed RBM47 as the most significantly altered gene. Endothelial-specific RBM47 overexpression was achieved by local delivery of adeno-associated virus (AAV)-RBM47 using F127 hydrogel. Hematoxylin-eosin staining was used to assess neointimal thickness in human and mouse AVF tissues. RBM47 expression and function were evaluated by qRT-PCR, Western blotting, and assays of proliferation and migration. Mechanistic studies, including transcriptome sequencing, Replicate Multivariate Analysis of Transcript Splicing (rMATS) analysis, RNA-Binding Protein Immunoprecipitation (RIP) Assay, molecular docking, immunohistochemistry, and immunofluorescence, were performed to investigate the relationship between RBM47, SEC31A splicing, and downstream signaling. RBM47 expression was markedly increased in stenotic AVF tissues from both patients and mouse models. Endothelial overexpression of RBM47 significantly aggravated neointimal hyperplasia. In vitro, RBM47 promoted human umbilical vein endothelial cell (HUVEC) proliferation, migration, and EndMT. Mechanistically, RBM47 was predominantly localized in the nucleus, suggesting a role in alternative splicing. Transcriptome sequencing revealed that RBM47 promoted retention of exon 13 in SEC31A, thereby suppressing the generation of the SEC31A-Δ13 splice variant. This splice variant inhibited SMAD3 phosphorylation and its downstream signaling cascade. RBM47 promotes neointimal hyperplasia in autogenous AVF by inducing EndMT. Specifically, RBM47 regulates alternative splicing of SEC31A and reduces the production of the SEC31A-Δ13 splice variant, which inhibits SMAD3 phosphorylation. These findings reveal a novel mechanism by which RNA-binding proteins contribute to AVF stenosis and suggest RBM47 as a potential therapeutic target for preventing AVF failure.",
+"statements": [
+{
+"j": 1,
+"text": "RBM47 favoured retention of SEC31A exon 13 and so cut production of the SEC31A-Δ13 splice variant."
+},
+{
+"j": 2,
+"text": "Overexpressing RBM47 in endothelium made neointimal hyperplasia significantly worse."
+},
+{
+"j": 3,
+"text": "RBM47 was markedly less abundant in stenotic arteriovenous fistula tissue from patients and from mice alike."
+},
+{
+"j": 4,
+"text": "RBM47 levels in stenotic fistula tissue rise with the time elapsed since fistula creation."
+}
+]
+},
+{
+"n": 900,
+"id": "pmid:41037404",
+"year": 2025,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "RNAs and RNA-binding proteins (RBPs) play crucial roles in stress granule (SG) dynamics, yet the specific interactions between SG-associated circular RNAs (circRNAs) and RBPs in esophageal squamous cell carcinoma (ESCC) remain unclear. In this study, we identified m6A-modified circG3BP1 as a potential prognostic biomarker in ESCC. Under cisplatin-induced stress, IGF2BPs facilitate the m6A-dependent translocation of circG3BP1 to SGs, where it functions as a scaffold to enhance TIAR-CAPRIN1 interactions, thereby promoting SG nucleation. SG formation suppresses the translation of senescence-associated mRNAs, such as p21, delaying chemotherapy-induced cellular senescence and contributing to cisplatin resistance in ESCC cells. Clinically, elevated circG3BP1 expression is associated with cisplatin resistance in patients with ESCC. These findings reveal a previously uncharacterized m6A-dependent mechanism by which circG3BP1 promotes SG-mediated chemoresistance, providing a promising potential biomarker and therapeutic target for ESCC treatment."
+}
+],
+"text": "RNAs and RNA-binding proteins (RBPs) play crucial roles in stress granule (SG) dynamics, yet the specific interactions between SG-associated circular RNAs (circRNAs) and RBPs in esophageal squamous cell carcinoma (ESCC) remain unclear. In this study, we identified m6A-modified circG3BP1 as a potential prognostic biomarker in ESCC. Under cisplatin-induced stress, IGF2BPs facilitate the m6A-dependent translocation of circG3BP1 to SGs, where it functions as a scaffold to enhance TIAR-CAPRIN1 interactions, thereby promoting SG nucleation. SG formation suppresses the translation of senescence-associated mRNAs, such as p21, delaying chemotherapy-induced cellular senescence and contributing to cisplatin resistance in ESCC cells. Clinically, elevated circG3BP1 expression is associated with cisplatin resistance in patients with ESCC. These findings reveal a previously uncharacterized m6A-dependent mechanism by which circG3BP1 promotes SG-mediated chemoresistance, providing a promising potential biomarker and therapeutic target for ESCC treatment.",
+"statements": [
+{
+"j": 1,
+"text": "Under cisplatin-induced stress, IGF2BPs drive circG3BP1 into stress granules in an m6A-dependent manner."
+},
+{
+"j": 2,
+"text": "Inside stress granules circG3BP1 scaffolds weaker TIAR-CAPRIN1 interactions and so promotes granule nucleation."
+},
+{
+"j": 3,
+"text": "circG3BP1 is likewise elevated in gastric adenocarcinoma tissue."
+},
+{
+"j": 4,
+"text": "Stress granule formation lowered translation of senescence mRNAs such as p21 and delayed chemotherapy-induced senescence."
+}
+]
+},
+{
+"n": 901,
+"id": "pmid:40267130",
+"year": 2025,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Argonaute (AGO) proteins bind to small RNAs to induce RNA interference (RNAi), a conserved gene regulatory mechanism in animal, plant, and fungal kingdoms. Small RNAs of the fungal plant pathogen Botrytis cinerea were previously shown to translocate into plant cells and to bind to the host AGO, which induced cross-kingdom RNAi to promote infection. However, the role of pathogen AGOs during host infection stayed elusive. In this study, we revealed that members of fungal plant pathogen B. cinerea BcAGO family contribute to plant infection. BcAGO1 binds to both fungal and plant small RNAs during infection and acts in bidirectional cross-kingdom RNAi, from fungus to plant and vice versa. BcAGO2 also binds fungal and plant small RNAs but acts independent from BcAGO1 by regulating distinct genes. Nevertheless, BcAGO2 is important for infection, as it is required for effective pathogen small RNA delivery into host cells and fungal induced cross-kingdom RNAi. Providing these mechanistic insights of pathogen AGOs promises to improve RNAi-based crop protection strategies."
+}
+],
+"text": "Argonaute (AGO) proteins bind to small RNAs to induce RNA interference (RNAi), a conserved gene regulatory mechanism in animal, plant, and fungal kingdoms. Small RNAs of the fungal plant pathogen Botrytis cinerea were previously shown to translocate into plant cells and to bind to the host AGO, which induced cross-kingdom RNAi to promote infection. However, the role of pathogen AGOs during host infection stayed elusive. In this study, we revealed that members of fungal plant pathogen B. cinerea BcAGO family contribute to plant infection. BcAGO1 binds to both fungal and plant small RNAs during infection and acts in bidirectional cross-kingdom RNAi, from fungus to plant and vice versa. BcAGO2 also binds fungal and plant small RNAs but acts independent from BcAGO1 by regulating distinct genes. Nevertheless, BcAGO2 is important for infection, as it is required for effective pathogen small RNA delivery into host cells and fungal induced cross-kingdom RNAi. Providing these mechanistic insights of pathogen AGOs promises to improve RNAi-based crop protection strategies.",
+"statements": [
+{
+"j": 1,
+"text": "Deleting BcAGO1 and BcAGO2 together abolishes Botrytis cinerea virulence entirely."
+},
+{
+"j": 2,
+"text": "BcAGO1 binds small RNAs of both fungal and plant origin during infection and operates in cross-kingdom RNAi in both directions."
+},
+{
+"j": 3,
+"text": "Efficient delivery of pathogen small RNAs into host cells requires BcAGO2."
+},
+{
+"j": 4,
+"text": "BcAGO2 binds fungal and plant small RNAs too, but regulates genes distinct from those controlled by BcAGO1."
+}
+]
+},
+{
+"n": 902,
+"id": "pmid:42825844",
+"year": 2026,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Oral squamous cell carcinoma (OSCC), the most prevalent histological subtype of oral cancer, is characterized by an immunosuppressive tumor microenvironment (TME) predominantly modulated by tumor-associated macrophages (TAMs). The CXCL9/SPP1 ratio (CS ratio) has been validated as a more reliable prognostic biomarker than the conventional M1/M2 classification. Although methyltransferase-like 14 (METTL14) participates in TAM polarization, its specific role in regulating the CS balance in OSCC remains elusive. This investigation elucidates the mechanism by which METTL14 modulates TAM CS polarization and affects OSCC growth and stemness. We utilized single-cell RNA sequencing (scRNA-seq) data for OSCC and normal samples from Gene Expression Omnibus (GEO) to characterize TAM CS polarization and screen critical regulatory molecules. To independently validate the expression of key candidate genes, we additionally analyzed three independent bulk transcriptomics cohorts from GEO, comprising 330 patient tissue samples. A METTL14-overexpressing TAM model was constructed to explore the effects of METTL14 on CS polarization and OSCC growth and stemness. The target gene of METTL14-mediated m6A modification was identified using the RM2Target database and validated by cellular experiments. Insulin-like growth factor 2 mRNA-binding protein 3 (IGF2BP3), an m6A reader protein, mediates the downstream biological effects of this epigenetic modification. Finally, the impact of METTL14-driven TAM CS polarization on OSCC tumor growth and stemness was verified in vitro and in vivo in a macrophage-specific Mettl14 knockout mouse model. scRNA-seq re-analysis uncovered mutually exclusive CXCL9⁺ and SPP1⁺ TAM populations in OSCC. METTL14 was markedly enriched and co-expressed in CXCL9⁺ TAMs, where it showed a negative correlation with cancer stemness pathways. Independent validation in three bulk transcriptomics cohorts (n = 330) confirmed significant differential expression of CXCL9 and METTL14 between OSCC tumor and normal tissues. In vitro, METTL14 overexpression in TAMs promoted CXCL9⁺ TAM generation and suppressed OSCC cell growth and stemness, an effect attributed to METTL14-mediated m6A modification of CXCL9 mRNA, which was recognized and stabilized by the m6A reader protein IGF2BP3. Consistently, in vivo assays using macrophage-specific METTL14-knockout mice revealed that METTL14 knockdown reduced m6A modification levels of CXCL9 mRNA, promoted the polarization of TAMs toward the SPP1⁺ phenotype, and ultimately accelerated OSCC tumor growth and enhanced cancer stemness. Collectively, this study identifies a novel mechanism wherein METTL14 regulates TAM CS polarization by promoting m6A modification of CXCL9 mRNA, thereby driving TAMs towards a CXCL9⁺ phenotype and suppressing OSCC growth and stemness."
+}
+],
+"text": "Oral squamous cell carcinoma (OSCC), the most prevalent histological subtype of oral cancer, is characterized by an immunosuppressive tumor microenvironment (TME) predominantly modulated by tumor-associated macrophages (TAMs). The CXCL9/SPP1 ratio (CS ratio) has been validated as a more reliable prognostic biomarker than the conventional M1/M2 classification. Although methyltransferase-like 14 (METTL14) participates in TAM polarization, its specific role in regulating the CS balance in OSCC remains elusive. This investigation elucidates the mechanism by which METTL14 modulates TAM CS polarization and affects OSCC growth and stemness. We utilized single-cell RNA sequencing (scRNA-seq) data for OSCC and normal samples from Gene Expression Omnibus (GEO) to characterize TAM CS polarization and screen critical regulatory molecules. To independently validate the expression of key candidate genes, we additionally analyzed three independent bulk transcriptomics cohorts from GEO, comprising 330 patient tissue samples. A METTL14-overexpressing TAM model was constructed to explore the effects of METTL14 on CS polarization and OSCC growth and stemness. The target gene of METTL14-mediated m6A modification was identified using the RM2Target database and validated by cellular experiments. Insulin-like growth factor 2 mRNA-binding protein 3 (IGF2BP3), an m6A reader protein, mediates the downstream biological effects of this epigenetic modification. Finally, the impact of METTL14-driven TAM CS polarization on OSCC tumor growth and stemness was verified in vitro and in vivo in a macrophage-specific Mettl14 knockout mouse model. scRNA-seq re-analysis uncovered mutually exclusive CXCL9⁺ and SPP1⁺ TAM populations in OSCC. METTL14 was markedly enriched and co-expressed in CXCL9⁺ TAMs, where it showed a negative correlation with cancer stemness pathways. Independent validation in three bulk transcriptomics cohorts (n = 330) confirmed significant differential expression of CXCL9 and METTL14 between OSCC tumor and normal tissues. In vitro, METTL14 overexpression in TAMs promoted CXCL9⁺ TAM generation and suppressed OSCC cell growth and stemness, an effect attributed to METTL14-mediated m6A modification of CXCL9 mRNA, which was recognized and stabilized by the m6A reader protein IGF2BP3. Consistently, in vivo assays using macrophage-specific METTL14-knockout mice revealed that METTL14 knockdown reduced m6A modification levels of CXCL9 mRNA, promoted the polarization of TAMs toward the SPP1⁺ phenotype, and ultimately accelerated OSCC tumor growth and enhanced cancer stemness. Collectively, this study identifies a novel mechanism wherein METTL14 regulates TAM CS polarization by promoting m6A modification of CXCL9 mRNA, thereby driving TAMs towards a CXCL9⁺ phenotype and suppressing OSCC growth and stemness.",
+"statements": [
+{
+"j": 1,
+"text": "Overexpressing METTL14 in tumour-associated macrophages decreased CXCL9-positive macrophages and suppressed OSCC cell growth and stemness."
+},
+{
+"j": 2,
+"text": "OSCC patients with a high CXCL9/SPP1 ratio respond better to immune checkpoint blockade."
+},
+{
+"j": 3,
+"text": "Validation in three bulk transcriptomic cohorts totalling 330 samples confirmed CXCL9 and METTL14 differ between OSCC and normal tissue."
+},
+{
+"j": 4,
+"text": "In macrophage-specific METTL14-knockout mice, macrophages shifted towards SPP1-positive, and tumour growth and stemness rose."
+}
+]
+},
+{
+"n": 903,
+"id": "pmid:42874926",
+"year": 2026,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Obesity, diabetes, and related metabolic disorders have become global epidemics driven mainly by an imbalance between energy intake and energy expenditure. Brown adipose tissue (BAT), the principal site of non-shivering thermogenesis, can be activated to mitigate obesity and its metabolic sequelae. RNA modification is as important regulators of obesity. The N7-methylguanosine (m 7 G) modification broadly influences RNA stability, enhances translational efficiency, and helps determine cell fate. However, the specific mechanisms by which m 7 G regulates adipose thermogenesis remain unclear. Using untargeted metabolomics, we found that cold exposure activates thermogenic metabolism in BAT and that 7-Methylguanosine is elevated in thermogenically activated BAT. METTL1-mediated m 7 G modification correlates positively with adipose thermogenic activation. Loss of METTL1 reduces m 7 G levels and impairs adipocyte thermogenic capacity. At the same time, METTL1 deficiency alters tRNA cleavage patterns and generates regulatory tRNA-derived fragments that modulate gene expression. Overexpression of tRF-Lys-CTT, which derives from an m 7 G-modified tRNA, inhibits brown adipocyte differentiation and thermogenic activation; conversely, inhibiting tRF-Lys-CTT produces the opposite effects. Mechanistically, tRF-Lys-CTT associates with AGO2 to form a functional RISC complex that binds the 3'UTR of Uqcr10 mRNA and directly represses Uqcr10 post-transcriptionally. Under basal conditions, elevated tRF-Lys-CTT may constrain mitochondrial function by repressing Uqcr10 expression; upon cold stimulation, downregulation of tRF-Lys-CTT relieves this repression and promotes respiratory chain supercomplex assembly and UCP1-mediated thermogenesis. In summary, our study indicates that tRF-Lys-CTT functions as a post-transcriptional regulator of metabolism that suppresses thermogenesis, and provides new insights into the regulatory relationship among the METTL1/m 7 G/tRF axis and thermogenic control."
+}
+],
+"text": "Obesity, diabetes, and related metabolic disorders have become global epidemics driven mainly by an imbalance between energy intake and energy expenditure. Brown adipose tissue (BAT), the principal site of non-shivering thermogenesis, can be activated to mitigate obesity and its metabolic sequelae. RNA modification is as important regulators of obesity. The N7-methylguanosine (m 7 G) modification broadly influences RNA stability, enhances translational efficiency, and helps determine cell fate. However, the specific mechanisms by which m 7 G regulates adipose thermogenesis remain unclear. Using untargeted metabolomics, we found that cold exposure activates thermogenic metabolism in BAT and that 7-Methylguanosine is elevated in thermogenically activated BAT. METTL1-mediated m 7 G modification correlates positively with adipose thermogenic activation. Loss of METTL1 reduces m 7 G levels and impairs adipocyte thermogenic capacity. At the same time, METTL1 deficiency alters tRNA cleavage patterns and generates regulatory tRNA-derived fragments that modulate gene expression. Overexpression of tRF-Lys-CTT, which derives from an m 7 G-modified tRNA, inhibits brown adipocyte differentiation and thermogenic activation; conversely, inhibiting tRF-Lys-CTT produces the opposite effects. Mechanistically, tRF-Lys-CTT associates with AGO2 to form a functional RISC complex that binds the 3'UTR of Uqcr10 mRNA and directly represses Uqcr10 post-transcriptionally. Under basal conditions, elevated tRF-Lys-CTT may constrain mitochondrial function by repressing Uqcr10 expression; upon cold stimulation, downregulation of tRF-Lys-CTT relieves this repression and promotes respiratory chain supercomplex assembly and UCP1-mediated thermogenesis. In summary, our study indicates that tRF-Lys-CTT functions as a post-transcriptional regulator of metabolism that suppresses thermogenesis, and provides new insights into the regulatory relationship among the METTL1/m 7 G/tRF axis and thermogenic control.",
+"statements": [
+{
+"j": 1,
+"text": "Cold exposure repressed thermogenic metabolism in brown adipose tissue, where 7-methylguanosine was elevated."
+},
+{
+"j": 2,
+"text": "Overexpressing tRF-Lys-CTT blocked brown adipocyte differentiation and thermogenic activation, while inhibiting it produced the reverse."
+},
+{
+"j": 3,
+"text": "Mice lacking tRF-Lys-CTT gain less weight than controls on a high-fat diet."
+},
+{
+"j": 4,
+"text": "Loss of METTL1 lowered m7G levels and weakened the thermogenic capacity of adipocytes."
+}
+]
+},
+{
+"n": 904,
+"id": "pmid:40361089",
+"year": 2025,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Transposable elements (TEs) are DNA sequences that can change their position within a genome. In insects, small RNA pathways are central to the transcriptional and post-transcriptional regulation of TE expression. The Piwi-interacting RNA (piRNA) pathway is particularly important in germline tissues, where it silences TE transcripts via small RNAs of 24-30 nucleotides (nt) in length produced from genomic precursor transcripts as well as through a \"ping-pong\" amplification cycle. The small interfering RNA (siRNA) pathway helps restrict TE expression in somatic tissues via 21nt small RNAs produced from double-stranded RNA by the endonuclease Dicer2, which guide an RNA-induced silencing complex to degrade complementary RNAs. However, much of this knowledge comes from studies of the model insect Drosophila melanogaster. In the mosquito Aedes aegypti, a medically significant vector species, the siRNA pathway has mainly been investigated in connection with its antiviral role, leaving open whether it also regulates TE expression."
+},
+{
+"label": "Results",
+"text": "We investigated the expression of TEs and small RNAs in both somatic and gonadal tissues of a Dicer2 mutant line of Ae. aegypti and its wild-type counterpart. Our results show a modified pattern of TE expression and a decrease in TE-derived 21nt RNAs in the Dicer2 mutant, but no major shift of TE transcript abundance. The lack of a functional siRNA pathway also causes perturbations in piRNA ping-pong signatures and the expression of certain piRNA-associated genes, but without clear evidence for compensation by increased piRNA pathway activity."
+},
+{
+"label": "Conclusions",
+"text": "The mosquito Ae. aegypti produces siRNAs derived from TEs but these lack a critical role in the regulation of TE expression both in somatic and in gonadal tissues."
+}
+],
+"text": "Transposable elements (TEs) are DNA sequences that can change their position within a genome. In insects, small RNA pathways are central to the transcriptional and post-transcriptional regulation of TE expression. The Piwi-interacting RNA (piRNA) pathway is particularly important in germline tissues, where it silences TE transcripts via small RNAs of 24-30 nucleotides (nt) in length produced from genomic precursor transcripts as well as through a \"ping-pong\" amplification cycle. The small interfering RNA (siRNA) pathway helps restrict TE expression in somatic tissues via 21nt small RNAs produced from double-stranded RNA by the endonuclease Dicer2, which guide an RNA-induced silencing complex to degrade complementary RNAs. However, much of this knowledge comes from studies of the model insect Drosophila melanogaster. In the mosquito Aedes aegypti, a medically significant vector species, the siRNA pathway has mainly been investigated in connection with its antiviral role, leaving open whether it also regulates TE expression. We investigated the expression of TEs and small RNAs in both somatic and gonadal tissues of a Dicer2 mutant line of Ae. aegypti and its wild-type counterpart. Our results show a modified pattern of TE expression and a decrease in TE-derived 21nt RNAs in the Dicer2 mutant, but no major shift of TE transcript abundance. The lack of a functional siRNA pathway also causes perturbations in piRNA ping-pong signatures and the expression of certain piRNA-associated genes, but without clear evidence for compensation by increased piRNA pathway activity. The mosquito Ae. aegypti produces siRNAs derived from TEs but these lack a critical role in the regulation of TE expression both in somatic and in gonadal tissues.",
+"statements": [
+{
+"j": 1,
+"text": "Dicer2 mutant mosquitoes are less fertile than their wild-type counterparts."
+},
+{
+"j": 2,
+"text": "Without a working siRNA pathway, piRNA ping-pong signatures were perturbed with no clear sign of compensating piRNA pathway activity."
+},
+{
+"j": 3,
+"text": "Aedes aegypti does make TE-derived siRNAs, but they are not critical for TE regulation in somatic or gonadal tissue."
+},
+{
+"j": 4,
+"text": "The Dicer2 mutant showed more TE-derived 21nt RNAs and an altered TE expression pattern, yet TE transcript abundance did not shift much."
+}
+]
+},
+{
+"n": 905,
+"id": "pmid:42805014",
+"year": 2026,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Ulcerative colitis (UC), a primary subtype of inflammatory bowel disease, remains incompletely understood in terms of its molecular etiology. This study aimed to characterize the gene signatures associated with m6A, m7G, m5C, and m1A RNA modifications and explore their potential role in UC pathogenesis. We integrated three GEO datasets and, via LASSO regression, random forest, and SVM-RFE algorithms, identified three core differentially expressed RNA methylation-related genes (DERMGs): upregulated IFIT5 and MSI2 and downregulated NCBP1. These biomarkers showed diagnostic capability in the training cohort, with area under the curve (AUC) values above 0.75. The nomogram incorporating all three markers achieved an AUC of 0.947, with robust performance maintained in both the testing set and an additional external validation cohort. Functional enrichment analysis revealed that IFIT5 and MSI2 expression was positively correlated, whereas NCBP1 expression was inversely correlated with key inflammatory pathways, such as TNFA signaling via NF-κB, the inflammatory response, IL6/JAK/STAT3 signaling, and apoptosis. Immune infiltration assessment revealed that the expression of the core DERMGs was primarily associated with T cell subsets, as further supported by partial correlation analysis controlling for inflammatory burden. In addition, changes in the expression of these genes corresponded with clinical remission after treatment with infliximab or vedolizumab. In vitro experiments confirmed that LPS stimulation upregulated IFIT5 and MSI2 and downregulated NCBP1 in NCM460 and Caco-2 colonic epithelial cells. Collectively, these findings highlight the involvement of RNA methylations in UC pathogenesis and suggest IFIT5, MSI2, and NCBP1 as potential diagnostic and therapeutic targets."
+}
+],
+"text": "Ulcerative colitis (UC), a primary subtype of inflammatory bowel disease, remains incompletely understood in terms of its molecular etiology. This study aimed to characterize the gene signatures associated with m6A, m7G, m5C, and m1A RNA modifications and explore their potential role in UC pathogenesis. We integrated three GEO datasets and, via LASSO regression, random forest, and SVM-RFE algorithms, identified three core differentially expressed RNA methylation-related genes (DERMGs): upregulated IFIT5 and MSI2 and downregulated NCBP1. These biomarkers showed diagnostic capability in the training cohort, with area under the curve (AUC) values above 0.75. The nomogram incorporating all three markers achieved an AUC of 0.947, with robust performance maintained in both the testing set and an additional external validation cohort. Functional enrichment analysis revealed that IFIT5 and MSI2 expression was positively correlated, whereas NCBP1 expression was inversely correlated with key inflammatory pathways, such as TNFA signaling via NF-κB, the inflammatory response, IL6/JAK/STAT3 signaling, and apoptosis. Immune infiltration assessment revealed that the expression of the core DERMGs was primarily associated with T cell subsets, as further supported by partial correlation analysis controlling for inflammatory burden. In addition, changes in the expression of these genes corresponded with clinical remission after treatment with infliximab or vedolizumab. In vitro experiments confirmed that LPS stimulation upregulated IFIT5 and MSI2 and downregulated NCBP1 in NCM460 and Caco-2 colonic epithelial cells. Collectively, these findings highlight the involvement of RNA methylations in UC pathogenesis and suggest IFIT5, MSI2, and NCBP1 as potential diagnostic and therapeutic targets.",
+"statements": [
+{
+"j": 1,
+"text": "The three-gene signature distinguishes ulcerative colitis from Crohn's disease."
+},
+{
+"j": 2,
+"text": "LPS stimulation of NCM460 and Caco-2 colonic epithelial cells pushed IFIT5 and MSI2 up and NCBP1 down."
+},
+{
+"j": 3,
+"text": "Among the three core RNA methylation-related genes, IFIT5 and MSI2 were raised and NCBP1 was lowered."
+},
+{
+"j": 4,
+"text": "A nomogram combining all three markers reached an area under the curve of 0.947."
+}
+]
+},
+{
+"n": 906,
+"id": "pmid:40897238",
+"year": 2026,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": "Introduction",
+"text": "Small non-coding RNAs (sncRNAs) have been proven to play crucial roles in various biological processes such as development, stress responses, virulence, and pathogenicity. However, to the best of our knowledge, none of the currently available databases can store, manage, and analyze the vast amounts of sncRNA sequencing data. A comprehensive web-based platform for the integration and analysis of sncRNAs in fungi and their potential functions is still lacking."
+},
+{
+"label": "Objectives",
+"text": "To provide an integrated database for fungi sncRNAs. It represents the first comprehensive platform encompassing diverse categories of sncRNAs."
+},
+{
+"label": "Methods",
+"text": "We implemented a standardized analytical workflow encompassing (i) data preprocessing of both public repositories and in-house sRNA-seq datasets, (ii) systematic sncRNA detection and classification, and (iii) functional annotation analysis, with all results integrated into a relational database featuring embedded analytical tools for user-friendly exploration."
+},
+{
+"label": "Results",
+"text": "We herein present FungiSNC (https://rnainformatics.org.cn/FungiSNC), an integrated database for fungal sncRNAs. It represents the first comprehensive platform encompassing diverse categories of sncRNAs, including siRNAs (small-interfering RNAs), predicted milRNAs (microRNA-like RNAs) and phasiRNAs (phased, secondary, small-interfering RNAs), rRNAs (ribosomal RNAs), tRNAs (transfer RNAs), snRNAs (small nuclear RNAs), snoRNAs (small nucleolar RNAs), piRNAs (piwi-interacting RNAs) and tRFs (tRNA-derived small RNA fragments), aggregating 989 next generation sequencing (NGS) samples from 29 fungal species."
+},
+{
+"label": "Conclusions",
+"text": "FungiSNC (Fungal Small Non-Coding RNA Database), is the first comprehensive platform dedicated to the curation, annotation, and functional analysis of fungal sncRNA sequencing data. By bridging fragmented data resources with advanced computational tools, FungiSNC aims to facilitate mechanistic exploration of sncRNA-mediated regulatory networks in fungal biology, with important implications for antifungal therapy and agricultural biocontrol."
+}
+],
+"text": "Small non-coding RNAs (sncRNAs) have been proven to play crucial roles in various biological processes such as development, stress responses, virulence, and pathogenicity. However, to the best of our knowledge, none of the currently available databases can store, manage, and analyze the vast amounts of sncRNA sequencing data. A comprehensive web-based platform for the integration and analysis of sncRNAs in fungi and their potential functions is still lacking. To provide an integrated database for fungi sncRNAs. It represents the first comprehensive platform encompassing diverse categories of sncRNAs. We implemented a standardized analytical workflow encompassing (i) data preprocessing of both public repositories and in-house sRNA-seq datasets, (ii) systematic sncRNA detection and classification, and (iii) functional annotation analysis, with all results integrated into a relational database featuring embedded analytical tools for user-friendly exploration. We herein present FungiSNC (https://rnainformatics.org.cn/FungiSNC), an integrated database for fungal sncRNAs. It represents the first comprehensive platform encompassing diverse categories of sncRNAs, including siRNAs (small-interfering RNAs), predicted milRNAs (microRNA-like RNAs) and phasiRNAs (phased, secondary, small-interfering RNAs), rRNAs (ribosomal RNAs), tRNAs (transfer RNAs), snRNAs (small nuclear RNAs), snoRNAs (small nucleolar RNAs), piRNAs (piwi-interacting RNAs) and tRFs (tRNA-derived small RNA fragments), aggregating 989 next generation sequencing (NGS) samples from 29 fungal species. FungiSNC (Fungal Small Non-Coding RNA Database), is the first comprehensive platform dedicated to the curation, annotation, and functional analysis of fungal sncRNA sequencing data. By bridging fragmented data resources with advanced computational tools, FungiSNC aims to facilitate mechanistic exploration of sncRNA-mediated regulatory networks in fungal biology, with important implications for antifungal therapy and agricultural biocontrol.",
+"statements": [
+{
+"j": 1,
+"text": "Users can upload their own sRNA-seq datasets to FungiSNC and analyse them against the stored data."
+},
+{
+"j": 2,
+"text": "FungiSNC aggregates 989 next-generation sequencing samples drawn from 29 fungal species."
+},
+{
+"j": 3,
+"text": "The platform covers many small non-coding RNA classes, among them siRNAs, predicted milRNAs, phasiRNAs, snoRNAs and piRNAs."
+},
+{
+"j": 4,
+"text": "The build pipeline preprocessed public and in-house sRNA-seq data, then detected and classified sncRNAs and annotated their function."
+}
+]
+},
+{
+"n": 907,
+"id": "doi:10.1101/2024.11.24.624934",
+"year": 2024,
+"field": "smallrna",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Gene expression programs underpin the development of shared phenotypes, yet the importance of transcript complexity in shaping mammalian evolution remains unclear. Here we present a comprehensive long-read direct RNA sequencing atlas of full-length transcripts and their m6A modifications across six tissues (hippocampus, frontal cortex, cerebellum, testes, skeletal muscle, and liver) in five mammals (human, mouse, rat, dog, and cow) and a non-mammalian out-group (chicken). Our analysis reveals that 29% of genes have multiple mammalian-conserved alternative transcripts, with 31% of these genes showing tissue-specific switching of the major transcript isoforms. We uncover extensive conservation of coordinated splicing events, primarily driven by tissue-specific mutually associated exon splicing, particularly in neural tissues and cytoskeletal genes. At the epitranscriptome level, we find that 14.2% of m6A RNA modifications are conserved across mammals, with 39% of analysed genes containing a conserved m6A RNA modification. Our work provides unprecedented insight into the evolution of transcript complexity and the epitranscriptome, highlighting their potential roles in shaping mammalian phenotypic diversity and providing a valuable resource for understanding post-transcriptional regulation across mammalian evolutionary time."
+}
+],
+"text": "Gene expression programs underpin the development of shared phenotypes, yet the importance of transcript complexity in shaping mammalian evolution remains unclear. Here we present a comprehensive long-read direct RNA sequencing atlas of full-length transcripts and their m6A modifications across six tissues (hippocampus, frontal cortex, cerebellum, testes, skeletal muscle, and liver) in five mammals (human, mouse, rat, dog, and cow) and a non-mammalian out-group (chicken). Our analysis reveals that 29% of genes have multiple mammalian-conserved alternative transcripts, with 31% of these genes showing tissue-specific switching of the major transcript isoforms. We uncover extensive conservation of coordinated splicing events, primarily driven by tissue-specific mutually associated exon splicing, particularly in neural tissues and cytoskeletal genes. At the epitranscriptome level, we find that 14.2% of m6A RNA modifications are conserved across mammals, with 39% of analysed genes containing a conserved m6A RNA modification. Our work provides unprecedented insight into the evolution of transcript complexity and the epitranscriptome, highlighting their potential roles in shaping mammalian phenotypic diversity and providing a valuable resource for understanding post-transcriptional regulation across mammalian evolutionary time.",
+"statements": [
+{
+"j": 1,
+"text": "Conserved m6A sites sit predominantly in the 3' UTRs of the transcripts that carry them."
+},
+{
+"j": 2,
+"text": "Across mammals 14.2% of m6A modifications were conserved, and 39% of the analysed genes contained a conserved m6A site."
+},
+{
+"j": 3,
+"text": "Conserved coordinated splicing was driven mainly by tissue-specific mutually associated exon splicing, most prominently in neural tissues and cytoskeletal genes."
+},
+{
+"j": 4,
+"text": "29% of genes carried several mammalian-divergent alternative transcripts, and 31% of those genes switched their major isoform between tissues."
+}
+]
+},
+{
+"n": 908,
+"id": "pmid:42613376",
+"year": 2026,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Type 1 and type 2 diabetes are characterized by beta cell dysfunction and insulin deficiency, and the appropriate turnover of MYC expression appears to control the beta-cell fate. Therefore, it is important to better understand the mechanism that controls MYC expression. Hence, the current study aimed to elucidate the interactions of the long non-coding RNA molecule PHAROH at the interface of MYC mRNA and the RNA-binding protein TIA1. For this purpose, we studied MYC mRNA levels in glucagon-producing alpha-TC1-6 cells, insulin-producing MIN6 cells, and in human pancreatic islets. We observed that in insulin-producing cells, but not in alpha cells, MYC mRNA levels were increased in response to stress (proinflammatory cytokines or palmitate + high glucose). Levels of PHAROH were also increased in insulin-producing cells, but not in glucagon-producing cells. To evaluate whether the increased PHAROH levels participated in the induction of MYC mRNA, we treated MIN6 cells with synthetic antisense LNA GapmeR oligonucleotides (ASO) designed to target PHAROH. We observed that the PHAROH ASO 1 increased both PHAROH and MYC mRNA expression. MYC protein levels were also increased by PHAROH ASO 1, both in the absence and presence of pro-inflammatory cytokines. Using an RNA immunoprecipitation strategy, we observed that PHAROH ASO 1 decreased MYC mRNA binding to TIA1, and instead increased PHAROH binding to TIA1. It is concluded that beta cells increase their MYC expression during stress and that this occurs via increased PHAROH-mediated sequestration of TIA1 and subsequent release of MYC mRNA from TIA1-induced inhibition."
+}
+],
+"text": "Type 1 and type 2 diabetes are characterized by beta cell dysfunction and insulin deficiency, and the appropriate turnover of MYC expression appears to control the beta-cell fate. Therefore, it is important to better understand the mechanism that controls MYC expression. Hence, the current study aimed to elucidate the interactions of the long non-coding RNA molecule PHAROH at the interface of MYC mRNA and the RNA-binding protein TIA1. For this purpose, we studied MYC mRNA levels in glucagon-producing alpha-TC1-6 cells, insulin-producing MIN6 cells, and in human pancreatic islets. We observed that in insulin-producing cells, but not in alpha cells, MYC mRNA levels were increased in response to stress (proinflammatory cytokines or palmitate + high glucose). Levels of PHAROH were also increased in insulin-producing cells, but not in glucagon-producing cells. To evaluate whether the increased PHAROH levels participated in the induction of MYC mRNA, we treated MIN6 cells with synthetic antisense LNA GapmeR oligonucleotides (ASO) designed to target PHAROH. We observed that the PHAROH ASO 1 increased both PHAROH and MYC mRNA expression. MYC protein levels were also increased by PHAROH ASO 1, both in the absence and presence of pro-inflammatory cytokines. Using an RNA immunoprecipitation strategy, we observed that PHAROH ASO 1 decreased MYC mRNA binding to TIA1, and instead increased PHAROH binding to TIA1. It is concluded that beta cells increase their MYC expression during stress and that this occurs via increased PHAROH-mediated sequestration of TIA1 and subsequent release of MYC mRNA from TIA1-induced inhibition.",
+"statements": [
+{
+"j": 1,
+"text": "After PHAROH ASO 1, less MYC mRNA and more PHAROH was bound to TIA1."
+},
+{
+"j": 2,
+"text": "PHAROH ASO 1 decreased both PHAROH and MYC mRNA expression in MIN6 cells."
+},
+{
+"j": 3,
+"text": "Treating MIN6 cells with PHAROH ASO 1 protected them from cytokine-induced cell death."
+},
+{
+"j": 4,
+"text": "Stress raised MYC mRNA in insulin-producing cells but not in alpha cells."
+}
+]
+},
+{
+"n": 909,
+"id": "doi:10.64898/2026.06.22.730622",
+"year": 2026,
+"field": "smallrna",
+"source": "preprint",
+"sections": [
+{
+"label": "BACKGROUND",
+"text": "TAR DNA binding protein - 43 (TDP-43) nuclear loss is a pathological hallmark of amyotrophic lateral sclerosis (ALS), frontotemporal dementia (FTD), and related neurodegenerative disorders. While the consequences of TDP-43 dysfunction have been well-characterized, the mechanisms driving TDP-43 mislocalization remain poorly understood. Previous observations of altered localization and function of the adenosine-to-inosine (A-to-I) RNA editing enzyme adenosine deaminase acting on RNA 2 (ADAR2) in ALS/FTD tissue prompted us to investigate whether dysregulated RNA editing contributes to pathological TDP-43 nucleocytoplasmic trafficking."
+},
+{
+"label": "METHODS",
+"text": "TDP-43 cytoplasmic mislocalization was assessed following ADAR2 and TDP-43 co-overexpression in HEK293T cells and a Drosophila model co-overexpressing human TDP-43 and dADAR in motor neurons. We further evaluated TDP-43 mislocalization through both HeLa cell assays and interspecies heterokaryon assays. Next, we assessed TDP-43 binding to A-to-I edited RNA oligomers through electrophoretic mobility shift assays (EMSAs), and investigated inosine-containing RNAs in vivo via TDP-43 RNA immunoprecipitation followed by sequencing (RIP-seq) datasets from human TDP-43-expressing Drosophila . Finally, RNAseq and enhanced cross-linking and immunoprecipitation (eCLIP-seq) were performed in SH-SY5Y cells overexpressing three ADAR2 variants with differing editing activity to identify editing-related transcriptional alterations and RNAs differentially bound to TDP-43."
+},
+{
+"label": "RESULTS",
+"text": "ADAR2 overexpression reduced the nucleocytoplasmic (N:C) ratio of TDP-43 in HEK293T cells in a ADAR2 catalytic activity- and TDP-43 RNA-binding capacity-dependent manner. Drosophila motor neurons overexpressing dADAR also exhibited decreased nuclear TDP-43. Interspecies heterokaryons and permeabilized HeLa cell assays demonstrated that catalytically active ADAR2 and synthetic inosine-containing RNA oligomers, respectively, enhance nuclear export of endogenous TDP-43. EMSAs revealed preferential binding of TDP-43 to inosine-containing RNAs relative to unedited RNAs, and analysis of Drosophila RIP-seq datasets demonstrated enrichment of edited transcripts within TDP-43-bound RNAs. Finally, RNAseq and eCLIP-seq analyses identified editing-dependent alterations in gene expression and TDP-43 RNA-binding profiles in SH-SY5Y cells overexpressing active ADAR2 variants."
+},
+{
+"label": "CONCLUSIONS",
+"text": "Together, our findings identify A-to-I RNA editing as a previously unrecognized regulator of TDP-43 localization and RNA interactions. These results support a model where altered RNA editing modifies TDP-43-RNA interactions, promoting increased nuclear export of TDP-43. Broadly, our work highlights RNA editing dysregulation as a potential contributor to early pathogenic mechanisms underlying TDP-43 proteinopathies."
+}
+],
+"text": "TAR DNA binding protein - 43 (TDP-43) nuclear loss is a pathological hallmark of amyotrophic lateral sclerosis (ALS), frontotemporal dementia (FTD), and related neurodegenerative disorders. While the consequences of TDP-43 dysfunction have been well-characterized, the mechanisms driving TDP-43 mislocalization remain poorly understood. Previous observations of altered localization and function of the adenosine-to-inosine (A-to-I) RNA editing enzyme adenosine deaminase acting on RNA 2 (ADAR2) in ALS/FTD tissue prompted us to investigate whether dysregulated RNA editing contributes to pathological TDP-43 nucleocytoplasmic trafficking. TDP-43 cytoplasmic mislocalization was assessed following ADAR2 and TDP-43 co-overexpression in HEK293T cells and a Drosophila model co-overexpressing human TDP-43 and dADAR in motor neurons. We further evaluated TDP-43 mislocalization through both HeLa cell assays and interspecies heterokaryon assays. Next, we assessed TDP-43 binding to A-to-I edited RNA oligomers through electrophoretic mobility shift assays (EMSAs), and investigated inosine-containing RNAs in vivo via TDP-43 RNA immunoprecipitation followed by sequencing (RIP-seq) datasets from human TDP-43-expressing Drosophila . Finally, RNAseq and enhanced cross-linking and immunoprecipitation (eCLIP-seq) were performed in SH-SY5Y cells overexpressing three ADAR2 variants with differing editing activity to identify editing-related transcriptional alterations and RNAs differentially bound to TDP-43. ADAR2 overexpression reduced the nucleocytoplasmic (N:C) ratio of TDP-43 in HEK293T cells in a ADAR2 catalytic activity- and TDP-43 RNA-binding capacity-dependent manner. Drosophila motor neurons overexpressing dADAR also exhibited decreased nuclear TDP-43. Interspecies heterokaryons and permeabilized HeLa cell assays demonstrated that catalytically active ADAR2 and synthetic inosine-containing RNA oligomers, respectively, enhance nuclear export of endogenous TDP-43. EMSAs revealed preferential binding of TDP-43 to inosine-containing RNAs relative to unedited RNAs, and analysis of Drosophila RIP-seq datasets demonstrated enrichment of edited transcripts within TDP-43-bound RNAs. Finally, RNAseq and eCLIP-seq analyses identified editing-dependent alterations in gene expression and TDP-43 RNA-binding profiles in SH-SY5Y cells overexpressing active ADAR2 variants. Together, our findings identify A-to-I RNA editing as a previously unrecognized regulator of TDP-43 localization and RNA interactions. These results support a model where altered RNA editing modifies TDP-43-RNA interactions, promoting increased nuclear export of TDP-43. Broadly, our work highlights RNA editing dysregulation as a potential contributor to early pathogenic mechanisms underlying TDP-43 proteinopathies.",
+"statements": [
+{
+"j": 1,
+"text": "ADAR2 overexpression lowered the nucleocytoplasmic ratio of TDP-43 in HEK293T cells, depending on ADAR2 catalytic activity and TDP-43 RNA binding."
+},
+{
+"j": 2,
+"text": "Gel shift assays showed TDP-43 binds inosine-containing RNAs in preference to unedited ones."
+},
+{
+"j": 3,
+"text": "Drosophila motor neurons overexpressing dADAR held less TDP-43 in the nucleus."
+},
+{
+"j": 4,
+"text": "Flies overexpressing dADAR in motor neurons had a shorter lifespan than control flies."
+}
+]
+}
+]
+}

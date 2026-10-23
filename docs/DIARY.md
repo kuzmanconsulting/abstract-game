@@ -79,12 +79,12 @@ the usage limit at launch (reset 19:40) and were resumed. Three off-topic papers
 speciation — battery, toothpaste, thermoelectrics) excluded, query tightened (D14). The page showed statements in
 the writer's order, which leaks "not addressed last" — shuffled on every display now (D15); what remains is the
 3+1 recipe itself, which a knowing player can exploit; options recorded, Maja's call. Merge: 861 abstracts,
-3,375 of 3,448 statements, every kept statement unanimous, 14 of 10,344 pairwise verdicts differ. Four headless
+3,373 of 3,448 statements, every kept statement unanimous, 14 of 10,344 pairwise verdicts differ. Four headless
 page tests added (journal filter holds over 12 picks; statements shuffled; streak/best/percent arithmetic and
 persistence across reload; reading list save + BibTeX export) — Maja asked whether the streak "really works", and
 the honest answer is a test, not a reading of the code.
 
-**19:40–20:05 — third corpus started (D16).** Maja: small RNA / RNA biology as a field, more Nature / Cell / Science
+**19:42–19:52 — third corpus started (D16).** Maja: small RNA / RNA biology as a field, more Nature / Cell / Science
 league papers, 2020 onwards. New field `smallrna` (1,060 candidates), `top2` journal list over all five fields from
 2020 (1,919 candidates), 60 + 75 appended drawn cycling over journals so the big three are not drowned by Nature
 Communications. Corpus = 1,000. gen_32..gen_40 generating; flip rule v3 (v2 + "more often" → "less often").
@@ -92,3 +92,11 @@ Checks next, then merge, build, delivery.
 
 Open points for Maja: (1) the 3+1 label recipe is guessable (D15) — shuffle 3-of-4 or vary the mix? (2) per-item
 statistics (local first; shared needs a Worker or the artifact store); (3) the Pages flip still needs her push.
+
+**19:52–20:10 — third corpus in.** Nine generator batches (chunked writes, no classifier losses this time), 27 blind
+check batches of 15, run as 20 + 7. Merge over everything: 996 abstracts kept of 1,000 (3 off-topic excluded, 1 too
+few statements), 3,902 statements, every kept statement unanimous, 20 of 11,964 pairwise checker verdicts differ.
+Fields: cfDNA 225 · TE 232 · cancer genomics 233 · evolutionary genomics 231 · small RNA 75; 754 journal articles,
+242 preprints; Nature 50, Nature Communications 43, Genome Biology 36, Cell 30, Nucleic Acids Research 11, Science 5
+… 165 abstracts have no contradicted item (D17). Years now 2020–2026 because of the top-journal reach-back.
+Delivered to the Mac and the artifact; the GitHub push is Maja's.

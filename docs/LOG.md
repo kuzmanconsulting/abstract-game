@@ -97,12 +97,12 @@ python3 pipeline/make_batches.py reflip --from-rule first-of-any --to-rule first
 # 9 checker agents (one batch each, written in chunks); first launch hit the usage limit (reset 19:40), resumed
 python3 pipeline/validate.py check                                                 # 130 OK
 #  corpus: n 753, 838, 849 marked "excluded" (D14); docs/index.html: statements shuffled on display (D15); smallrna field label
-python3 pipeline/merge_checks.py --passes A B C      # 865 generated · 3 excluded · 861 kept · 3375/3448 statements · dropped ill_formed 13, ambiguous 60 · too few 1 (n=859) · pairwise differ 14/10344
+python3 pipeline/merge_checks.py --passes A B C      # 865 generated · 3 excluded · 861 kept · 3373/3448 statements reach the page · dropped ill_formed 13, ambiguous 60 · too few 1 (n=859) · pairwise differ 14/10344
 python3 pipeline/build_site.py --repo-url https://github.com/kuzmanconsulting/abstract-game   # docs/data.json 3.5 MB
 python3 -m unittest discover -s tests -v             # 16 OK (12 pipeline + 4 headless page tests: journal filter, shuffle, streak/best/persistence, reading list)
 ```
 
-## 2026-10-23 19:45–20:05 — third corpus: small RNA + top-league journals 2020– (D16)
+## 2026-10-23 19:42–19:52 — third corpus: small RNA + top-league journals 2020– (D16)
 
 ```bash
 python3 pipeline/fetch_candidates.py --fields smallrna --sources journal preprint --suffix rna --out src/candidates_rna.json --exclude <bank>      # 1060 kept
@@ -112,4 +112,17 @@ python3 pipeline/select_corpus.py --append --candidates src/candidates_rna.json 
 python3 pipeline/select_corpus.py --append --candidates src/candidates_top2.json --n 75 --preprint-share 0 --seed 20261023004 --fields cfdna te cancergen evogen smallrna --spread journal --label third-top2   # corpus 1000
 python3 pipeline/make_batches.py gen --size 15 --start 865 --first-batch 32        # gen_32 … gen_40
 # 9 generator agents, gen-v4, outputs written in chunks
+```
+
+## 2026-10-23 19:52–20:10 — third corpus: generation, checks, merge, build (D16, D17)
+
+```bash
+# 9 generator agents (gen_32 … gen_40, gen-v4, chunked writes); then "flip_rule": "first-of-any-v3" written into each file
+python3 pipeline/validate.py gen                                                   # 50 files OK (51 new abstracts without a direction word → no contradicted item, D17)
+python3 pipeline/make_batches.py check --passes A B C --seed 7                     # +27 check batches (check_P_32 … check_P_40, 15 abstracts each)
+# 27 checker agents, one batch each, ≤ 20 at once
+python3 pipeline/validate.py check                                                 # 157 OK
+python3 pipeline/merge_checks.py --passes A B C      # 1000 generated · 3 excluded · 996 kept · 3902/3988 statements · dropped ill_formed 14, ambiguous 70 · too few 1 · pairwise differ 20/11964
+python3 pipeline/build_site.py --repo-url https://github.com/kuzmanconsulting/abstract-game   # docs/data.json 4.0 MB, years 2020–2026; "Science (New York, N.Y.)" shown as "Science"
+python3 -m unittest discover -s tests -v             # 17 OK
 ```

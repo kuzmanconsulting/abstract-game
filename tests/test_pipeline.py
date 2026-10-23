@@ -125,6 +125,28 @@ class Compose(unittest.TestCase):
         self.assertEqual(validate.flip("Fewer patients relapsed after therapy.")[0], "More patients relapsed after therapy.")
         self.assertEqual(validate.flip("Expression was more strongly correlated in responders.")[0], "Expression was less strongly correlated in responders.")
 
+    def test_flip_rule_v2_v3_skips_idioms_negations_and_pairs(self):
+        R2, R3 = "first-of-any-v2", "first-of-any-v3"
+        self.assertEqual(validate.flip("Most plastid genes showed purifying selection.", R2)[0], "Few plastid genes showed purifying selection.")
+        self.assertEqual(validate.flip("The control region varied most between species.", R2)[0], "The control region varied least between species.")
+        self.assertEqual(validate.flip("It was the most variable region.", R2)[0], "It was the least variable region.")
+        self.assertEqual(validate.flip("An increased burden was seen.", R2)[0], "A decreased burden was seen.")
+        # idiom / method name skipped, the next direction word is taken
+        self.assertEqual(validate.flip("Maximum likelihood trees had higher support.", R2)[2], "lower")
+        self.assertEqual(validate.flip("The copy is no longer active and more often methylated.", R2)[2], "less")
+        # negated word skipped; a pair whose opposite is present skipped
+        self.assertEqual(validate.flip("Sites were non-conserved and showed higher divergence.", R2)[1], "higher")
+        self.assertEqual(validate.flip("Gains exceeded losses by tenfold.", R2)[3], "flip statement has no direction word")
+        self.assertEqual(validate.flip("Larger species evolve this gene faster than smaller ones.", R2)[1], "faster")
+        # "more": plural count noun -> fewer, otherwise less; v3 also stops at an adverb
+        self.assertEqual(validate.flip("It found more orthologous groups than before.", R2)[2], "fewer")
+        self.assertEqual(validate.flip("The model had more power to detect events.", R2)[2], "less")
+        self.assertEqual(validate.flip("Hotspots were more often sites under selection.", R2)[0], "Hotspots were fewer often sites under selection.")
+        self.assertEqual(validate.flip("Hotspots were more often sites under selection.", R3)[0], "Hotspots were less often sites under selection.")
+        # the first-corpus rules are untouched
+        self.assertEqual(validate.flip("Most genes were conserved.", "first-of-any")[0], "Least genes were conserved.")
+        self.assertIn("needs exactly 1", validate.flip("Most genes were conserved.")[3])
+
     def test_v2_basis_alter_composes_once(self):
         s = {"basis": "ctDNA was detected in 80% of responders.", "alter": {"from": "80%", "to": "20%", "kind": "magnitude"}}
         self.assertEqual(validate.compose(s), ("ctDNA was detected in 20% of responders.", None))
