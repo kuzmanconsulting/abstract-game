@@ -265,3 +265,15 @@ python3 pipeline/merge_checks.py --passes A B C
 python3 pipeline/build_site.py --repo-url https://github.com/kuzmanconsulting/abstract-game   # 1740 / 6838, years 2005–2026
 python3 -m unittest discover -s tests                                           # 24 OK
 ```
+
+## 2026-10-24 — D27: visibility, PWA and visual design pass
+
+```bash
+# docs/: og.png (1200x630 preview), icon-192/512/512-maskable.png, robots.txt, sitemap.xml, manifest.webmanifest, sw.js
+# docs/index.html: PAGES-ONLY head (meta description, canonical, Open Graph/Twitter cards, theme-color, favicon, manifest, JSON-LD);
+#   hero lead + first-run intro; per-field colour+glyph system on chips/eyebrow; verdict glyphs on choices and pills; reveal sweep;
+#   two-stage data-lite.json -> data.json loader; host-gated service-worker registration
+# pipeline/build_site.py: strip the PAGES-ONLY block from the artifact; emit docs/data-lite.json (seeded, field-stratified slice)
+python3 pipeline/build_site.py --repo-url https://github.com/kuzmanconsulting/abstract-game
+python3 -m unittest discover -s tests          # 26 OK
+```

@@ -356,6 +356,13 @@ class EndToEnd(unittest.TestCase):
         self.assertTrue(all("checks" not in s for s in s0), "checker details stay out of the public file")
         self.assertIn("altered", [k for s in s0 for k in s if k == "altered"])
         self.assertEqual(data["header"]["repo_url"], "https://example.org/r")
+        # a small representative slice is emitted for instant first paint
+        lite_path = os.path.join(self.tmp, "docs", "data-lite.json")
+        self.assertTrue(os.path.exists(lite_path), "data-lite.json is emitted")
+        with open(lite_path, encoding="utf-8") as f:
+            lite = json.load(f)
+        self.assertTrue(lite["header"].get("lite"))
+        self.assertTrue(0 < len(lite["items"]) <= header["n_items"])
         # an abstract with fewer than 3 surviving statements is dropped
         merge.MIN_STATEMENTS = 4
         try:
@@ -381,6 +388,27 @@ class PageFieldMap(unittest.TestCase):
         with open(os.path.join(ROOT, "docs", "index.html"), encoding="utf-8") as f:
             src = f.read()
         self.assertIn('epi:"epigenetics / genome regulation"', src)
+
+
+class PageAssetsAndSEO(unittest.TestCase):
+    def test_seo_pwa_head_is_stripped_from_artifact(self):
+        """Social cards, JSON-LD and the PWA manifest live in a PAGES-ONLY head block; build_site strips it from the
+        artifact fragment while the game code (the field colour system) survives into both."""
+        with open(os.path.join(ROOT, "docs", "index.html"), encoding="utf-8") as f:
+            idx = f.read()
+        for needle in ('property="og:image"', '<link rel="manifest"', 'application/ld+json',
+                       '<!--PAGES-ONLY', '<!--/PAGES-ONLY-->', 'FIELD_META', 'class="herostrip"'):
+            self.assertIn(needle, idx, needle)
+        out = os.path.join(tempfile.mkdtemp(), "artifact.html")
+        with open(build_site.artifact_page(os.path.join(ROOT, "docs", "index.html"), out), encoding="utf-8") as f:
+            frag = f.read()
+        for gone in ('property="og:image"', 'rel="manifest"', 'PAGES-ONLY', 'application/ld+json'):
+            self.assertNotIn(gone, frag, gone + " must be stripped from the artifact")
+        self.assertIn("FIELD_META", frag)
+
+    def test_static_site_files_present(self):
+        for f in ("robots.txt", "sitemap.xml", "manifest.webmanifest", "sw.js", "og.png", "icon-192.png", "icon-512.png"):
+            self.assertTrue(os.path.exists(os.path.join(ROOT, "docs", f)), f)
 
 
 if __name__ == "__main__":

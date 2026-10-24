@@ -42,8 +42,12 @@ STRIP = ("<!doctype html>", '<html lang="en">', "<head>", "</head>", "<body>", "
 
 def artifact_page(index_path=os.path.join(ROOT, "docs", "index.html"), out_path=ARTIFACT):
     """The same page as a body fragment for the claude.ai Artifact tool, which wraps it in its own document skeleton."""
+    import re
     with open(index_path, encoding="utf-8") as f:
         html = f.read()
+    # the SEO/social/PWA head block is for the GitHub Pages site only (absolute github.io URLs, a manifest and icons
+    # that are not published beside the artifact); drop it from the artifact body fragment.
+    html = re.sub(r"<!--PAGES-ONLY.*?<!--/PAGES-ONLY-->\s*", "", html, flags=re.S)
     for tag in STRIP:
         html = html.replace(tag + "\n", "").replace(tag, "")
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
@@ -77,6 +81,25 @@ def build(items_path=ITEMS, out_path=OUT, repo_url=None):
               "generation": "Claude, prompts gen-v1/gen-v2; three independent blind check passes check-v1 (pipeline/prompts/)"}
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump({"header": header, "items": items}, f, ensure_ascii=False, separators=(",", ":"))
+    # a small, representative slice for instant first paint; the page loads this first, then swaps in the full set.
+    # Stratified across fields so the first abstract and the field chips look right before the full corpus arrives.
+    import random
+    by_field = {}
+    for it in items:
+        by_field.setdefault(it["field"], []).append(it)
+    rng = random.Random(42)
+    lite = []
+    for f_key in sorted(by_field):
+        s = by_field[f_key][:]
+        rng.shuffle(s)
+        lite.extend(s[:8])
+    rng.shuffle(lite)
+    lite_header = dict(header)
+    lite_header["lite"] = True
+    lite_header["n_items_lite"] = len(lite)
+    lite_path = os.path.join(os.path.dirname(out_path), "data-lite.json")
+    with open(lite_path, "w", encoding="utf-8") as f:
+        json.dump({"header": lite_header, "items": lite}, f, ensure_ascii=False, separators=(",", ":"))
     return header
 
 

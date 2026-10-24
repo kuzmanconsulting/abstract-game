@@ -3,8 +3,50 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Abstract Reader</title>
+<title>Abstract Reader — read scientific abstracts like a reviewer</title>
 <meta name="claude:viewport-fit-sides" content="cover">
+<!--PAGES-ONLY: SEO, social cards and PWA shell for the GitHub Pages site; build_site.py strips this block from the claude.ai artifact build.-->
+<meta name="description" content="A free reading-practice game: read a real scientific abstract from a leading journal and decide whether each statement is supported, contradicted, or not addressed — then see the answers and the citation. 1,740 abstracts across seven fields, from cfDNA and cancer genomics to epigenetics.">
+<link rel="canonical" href="https://kuzmanconsulting.github.io/abstract-game/">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#1F6F63" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141716" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Abstract Reader">
+<meta property="og:title" content="Abstract Reader — read scientific abstracts like a reviewer">
+<meta property="og:description" content="Read a real scientific abstract and decide whether each statement is supported, contradicted, or not addressed — then see the answer and the citation. 1,740 abstracts from leading journals, seven fields.">
+<meta property="og:url" content="https://kuzmanconsulting.github.io/abstract-game/">
+<meta property="og:image" content="https://kuzmanconsulting.github.io/abstract-game/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Abstract Reader — a sample statement with Supported / Contradicted / Not addressed choices.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Abstract Reader — read scientific abstracts like a reviewer">
+<meta name="twitter:description" content="Read a real abstract; judge each statement; see the answer and the citation. 1,740 abstracts from leading journals, seven fields.">
+<meta name="twitter:image" content="https://kuzmanconsulting.github.io/abstract-game/og.png">
+<link rel="icon" type="image/png" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["WebApplication", "LearningResource"],
+  "name": "Abstract Reader",
+  "url": "https://kuzmanconsulting.github.io/abstract-game/",
+  "description": "A free reading-practice game: read a real scientific abstract and decide whether each statement is supported, contradicted, or not addressed, then see the answers and the citation.",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "applicationCategory": "EducationalApplication",
+  "operatingSystem": "Any (web browser)",
+  "learningResourceType": "quiz",
+  "educationalUse": "practice",
+  "about": ["scientific literacy", "critical appraisal of evidence", "reading scientific papers"],
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "author": { "@type": "Organization", "name": "Kuzman Consulting", "url": "https://kuzmanconsulting.com" },
+  "publisher": { "@type": "Organization", "name": "Kuzman Consulting", "url": "https://kuzmanconsulting.com" }
+}
+</script>
+<!--/PAGES-ONLY-->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
 /* Layout: one reading column (~68ch) like a journal page; the abstract is the hero, statements sit under it like a
@@ -124,6 +166,35 @@ a.chip{text-decoration:none;display:inline-block}
 .toast.show{opacity:1;transform:translateX(-50%)}
 @media (max-width:460px){ article.abs{font-size:16.5px} .seg button{padding:10px 4px;font-size:12.5px} header.top h1 small{display:block;margin:4px 0 0} }
 @media (prefers-reduced-motion: reduce){ .toast{transition:none} }
+.lead{font:400 16px/1.55 var(--sans);color:var(--ink-soft);max-width:66ch;margin:14px 0 0}
+.lead b{color:var(--ink);font-weight:600}
+.intro{margin-top:14px;padding:12px 14px;border:1px solid var(--rule);border-left:3px solid var(--accent);border-radius:8px;background:var(--card);font:400 14px/1.5 var(--sans);color:var(--ink-soft);display:flex;gap:10px 14px;flex-wrap:wrap;align-items:center}
+.intro strong{color:var(--ink)}
+.intro .ik{margin-left:auto;flex:none}
+kbd{font:600 12px/1 var(--mono);background:var(--paper);border:1px solid var(--rule-strong);border-bottom-width:2px;border-radius:4px;padding:2px 6px;color:var(--ink)}
+/* field icon + colour system and verdict glyphs (visual hooks) */
+.ic{width:16px;height:16px;flex:none;display:inline-block;vertical-align:-3px}
+.chip.fchip{display:inline-flex;align-items:center;gap:6px}
+.chip.fchip .fic{color:var(--field,var(--ink-soft))}
+.chip.fchip[aria-pressed="true"]{background:var(--field,var(--accent));border-color:var(--field,var(--accent));color:#fff}
+.chip.fchip[aria-pressed="true"] .fic{color:#fff}
+.eyebrow .ftag{display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:999px;text-transform:none;letter-spacing:0;font:500 12.5px/1 var(--sans);color:var(--ink);background:color-mix(in srgb, var(--field,var(--accent)) 13%, var(--card));border:1px solid color-mix(in srgb, var(--field,var(--accent)) 32%, transparent)}
+.eyebrow .ftag .fic{color:var(--field,var(--accent))}
+.eyebrow .yr{background:color-mix(in srgb, var(--field,var(--accent)) 16%, var(--card))}
+.seg button{display:inline-flex;align-items:center;justify-content:center;gap:6px}
+.seg button .vic{width:15px;height:15px}
+.seg button[data-k="supported"] .vic{color:var(--ok)}
+.seg button[data-k="contradicted"] .vic{color:var(--no)}
+.seg button[data-k="not_addressed"] .vic{color:var(--na)}
+.seg button[aria-pressed="true"] .vic{color:var(--accent)}
+.pill{display:inline-flex;align-items:center;gap:5px}
+.pill .vic{width:13px;height:13px}
+@keyframes sweep{from{background-size:0 100%}to{background-size:100% 100%}}
+mark.swept{background-image:linear-gradient(var(--mark),var(--mark));background-repeat:no-repeat;background-size:0 100%;animation:sweep .5s ease forwards}
+@media (prefers-reduced-motion: reduce){ mark.swept{animation:none;background-size:100% 100%} }
+.herostrip{display:block;width:100%;max-width:340px;height:34px;margin:14px 0 2px}
+.herostrip .hl{stroke:var(--rule-strong);stroke-width:3;stroke-linecap:round}
+.herostrip .hlmark{stroke:var(--mark);stroke-width:11;stroke-linecap:round;opacity:.9}
 [hidden]{display:none!important}
 </style>
 </head>
@@ -133,6 +204,17 @@ a.chip{text-decoration:none;display:inline-block}
     <h1><a class="brand" href="https://kuzmanconsulting.com" target="_blank" rel="noopener" title="Kuzman Consulting"><img class="kmark" src="data:image/png;base64,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" width="22" height="22" alt="Kuzman Consulting"></a>Abstract Reader <small>does the abstract support it?</small></h1>
     <div class="score" id="score" aria-live="polite"></div>
   </header>
+  <p class="lead">Read a real abstract from a leading journal. For each statement, decide whether the abstract <b>supports</b> it, <b>contradicts</b> it, or <b>doesn't address</b> it — then reveal the answer, the highlighted evidence and the citation.</p>
+  <svg class="herostrip" viewBox="0 0 340 34" preserveAspectRatio="xMinYMid meet" aria-hidden="true">
+    <line class="hl" x1="4" y1="6" x2="300" y2="6"/>
+    <line class="hlmark" x1="4" y1="17" x2="150" y2="17"/>
+    <line class="hl" x1="4" y1="17" x2="236" y2="17"/>
+    <line class="hl" x1="4" y1="28" x2="320" y2="28"/>
+  </svg>
+  <aside class="intro" id="intro" hidden>
+    <span><strong>New here?</strong> Answer each statement with the buttons or keys <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd>, press <kbd>Enter</kbd> to reveal, <kbd>S</kbd> to save a paper. Judge from the text alone — not from what you already know.</span>
+    <button type="button" class="chip ik" id="introClose">Got it</button>
+  </aside>
   <div class="filters" id="filters"></div>
   <details class="saved" id="savedPanel" hidden>
     <summary id="savedSummary">Saved for reading</summary>
@@ -171,6 +253,29 @@ a.chip{text-decoration:none;display:inline-block}
 const $ = id => document.getElementById(id);
 const el = (tag, cls, text) => { const e=document.createElement(tag); if(cls) e.className=cls; if(text!=null) e.textContent=text; return e; };
 const FIELD = {cfdna:"cfDNA / liquid biopsy", te:"transposable elements", cancergen:"cancer genomics", evogen:"evolutionary genomics", evodevo:"evo-devo / comparative genomics", smallrna:"small RNA / RNA biology", epi:"epigenetics / genome regulation"};
+// each field has a distinct accent hue and a monoline glyph (colour is an accent only; running text stays --ink)
+const FIELD_META = {
+  cfdna:{hue:"#1F8F7E",icon:"droplet"}, te:{hue:"#C0771E",icon:"te"}, cancergen:{hue:"#C24A4A",icon:"cancer"},
+  evogen:{hue:"#3C7BB0",icon:"tree"}, evodevo:{hue:"#7A6CD1",icon:"evodevo"}, smallrna:{hue:"#B34E86",icon:"rna"}, epi:{hue:"#3E9A62",icon:"epi"}
+};
+const ICONS = {
+  droplet:'<path d="M12 3c3.2 4 5.2 6.7 5.2 9.2a5.2 5.2 0 0 1-10.4 0C6.8 9.7 8.8 7 12 3z"/>',
+  te:'<path d="M3 17h5"/><path d="M16 17h5"/><path d="M8 17c0-5 8-5 8 0"/><path d="M13.6 15.1 16 17.6l2.4-2.5"/>',
+  cancer:'<path d="M8 4c3 3.5 5 5.5 8 16"/><path d="M16 4c-3 3.5-5 5.5-8 16"/>',
+  tree:'<path d="M4 12h3.5"/><path d="M7.5 6.5v11"/><path d="M7.5 6.5H12M7.5 12H12M7.5 17.5H12"/>',
+  evodevo:'<circle cx="5" cy="12" r="1.7"/><path d="M6.7 12h2.3"/><path d="M9 12c3.5 0 3.5-5 7-5"/><path d="M9 12c3.5 0 3.5 5 7 5"/>',
+  rna:'<path d="M10 21v-8.5"/><path d="M14 21v-8.5"/><path d="M10 12.5a2 2 0 0 1 4 0"/><path d="M10 16h4M10 18.5h4"/>',
+  epi:'<path d="M3 12h18"/><circle cx="7" cy="12" r="2.3"/><circle cx="12" cy="12" r="2.3"/><circle cx="17" cy="12" r="2.3"/>',
+  all:'<path d="M4 6h16M4 12h16M4 18h16"/>'
+};
+const VGLYPH = {
+  supported:'<path d="M5 12.5l4.2 4.2L19 7"/>',
+  contradicted:'<path d="M5 9.5h14M5 14.5h14M16.5 5 8 19"/>',
+  not_addressed:'<circle cx="12" cy="12" r="8"/><path d="M8.5 12h7"/>'
+};
+function makeSVG(inner, cls){ const d=document.createElement("div"); d.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"'+(cls?' class="'+cls+'"':'')+'>'+inner+'</svg>'; return d.firstChild; }
+function fieldIcon(field){ const m=FIELD_META[field]; return makeSVG(ICONS[(m&&m.icon)]||ICONS.all, "ic fic"); }
+function verdictIcon(label){ return makeSVG(VGLYPH[label]||"", "ic vic"); }
 const LABEL = {supported:"Supported", contradicted:"Contradicted", not_addressed:"Not addressed"};
 const LABEL_LONG = {supported:"the abstract states this or it follows directly", contradicted:"the abstract states something incompatible with this", not_addressed:"the abstract neither says nor rules this out"};
 const KEYS = ["supported","contradicted","not_addressed"];
@@ -199,9 +304,12 @@ function displayYear(it){ return (it.date && /^\d{4}/.test(it.date)) ? it.date.s
 
 function renderFilters(){
   const f=$("filters"); f.textContent="";
-  const mk=(group,val,label)=>{ const b=el("button","chip",label); b.type="button"; b.setAttribute("aria-pressed",String(filt[group]===val)); b.onclick=()=>{ filt[group]=val; store.set("ar.filt",filt); renderFilters(); next(); }; return b; };
+  const mk=(group,val,label)=>{ const b=el("button","chip",label); b.type="button"; b.setAttribute("aria-pressed",String(filt[group]===val));
+    if(group==="field"){ b.classList.add("fchip"); const m=FIELD_META[val]; if(m) b.style.setProperty("--field",m.hue); b.insertBefore(fieldIcon(val), b.firstChild); }
+    b.onclick=()=>{ filt[group]=val; store.set("ar.filt",filt); renderFilters(); next(); }; return b; };
   f.appendChild(mk("field","all","All fields"));
-  Object.keys(FIELD).forEach(k=>{ if(items.some(it=>it.field===k)) f.appendChild(mk("field",k,FIELD[k])); });
+  const bf = (DATA && DATA.header && DATA.header.by_field) || {};
+  Object.keys(FIELD).forEach(k=>{ if(bf[k] || items.some(it=>it.field===k)) f.appendChild(mk("field",k,FIELD[k])); });
   f.appendChild(el("span","sep"));
   f.appendChild(mk("source","all","Journals + preprints")); f.appendChild(mk("source","journal","Journals"));
   const lead = mk("source","leading","Leading journals"); lead.title = "Journal articles from the curated list of leading journals (see About)"; f.appendChild(lead);
@@ -289,9 +397,10 @@ function show(it){
   const main=$("main"); main.textContent="";
   if(!it){ main.appendChild(el("div","empty","No abstracts match this filter.")); return; }
   try{ if(location.hash !== "#a"+it.n) history.replaceState(null,"","#a"+it.n); }catch(e){}
-  const eb = el("div","eyebrow");
+  const fm = FIELD_META[it.field];
+  const eb = el("div","eyebrow"); if(fm) eb.style.setProperty("--field", fm.hue);
   eb.appendChild(el("span","yr", "Published "+displayYear(it)));
-  eb.appendChild(el("span",null, FIELD[it.field]||it.field));
+  const ftag = el("span","ftag", FIELD[it.field]||it.field); ftag.insertBefore(fieldIcon(it.field), ftag.firstChild); eb.appendChild(ftag);
   eb.appendChild(el("span","src", (it.journal||it.server||"") + (it.source==="preprint" ? " preprint" : "")));
   const au = it.authors||[]; if(au.length) eb.appendChild(el("span","au", au.length>2 ? au[0]+" et al." : au.join(" & ")));
   main.appendChild(eb);
@@ -304,7 +413,7 @@ function show(it){
     const li = el("li","st"); li.id="st-"+s.k;
     const t = el("div","txt"); t.appendChild(el("span","k", String(idx+1))); t.appendChild(document.createTextNode(s.text)); li.appendChild(t);
     const seg = el("div","seg"); seg.setAttribute("role","group"); seg.setAttribute("aria-label","Statement "+(idx+1));
-    KEYS.forEach(k => { const b=el("button",null,LABEL[k]); b.type="button"; b.dataset.k=k; b.setAttribute("aria-pressed","false"); b.title=LABEL_LONG[k]; b.onclick=()=>choose(s.k,k); seg.appendChild(b); });
+    KEYS.forEach(k => { const b=el("button",null,LABEL[k]); b.type="button"; b.dataset.k=k; b.setAttribute("aria-pressed","false"); b.title=LABEL_LONG[k]; b.insertBefore(verdictIcon(k), b.firstChild); b.onclick=()=>choose(s.k,k); seg.appendChild(b); });
     li.appendChild(seg);
     ol.appendChild(li);
   });
@@ -325,6 +434,7 @@ function reveal(){
   if(revealed || !cur) return; revealed=true;
   const marks = cur.statements.filter(s=>s.evidence).map(s=>({text:s.evidence, k:s.k}));
   const old = document.querySelector("article.abs"); const fresh = renderAbstract(cur, marks); old.replaceWith(fresh);
+  fresh.querySelectorAll("mark").forEach((m,i)=>{ m.classList.add("swept"); m.style.animationDelay=(i*0.07)+"s"; });
   let right=0;
   cur.statements.forEach(s => {
     const li=$("st-"+s.k); const mine=answers[s.k]; const ok = mine===s.label; if(ok) right++;
@@ -332,7 +442,7 @@ function reveal(){
     li.classList.add(ok?"right":"wrong");
     li.querySelectorAll(".seg button").forEach(b => { b.disabled=true; });
     const v = el("div","verdict");
-    v.appendChild(el("span","pill "+s.label, LABEL[s.label]));
+    const pill = el("span","pill "+s.label, LABEL[s.label]); pill.insertBefore(verdictIcon(s.label), pill.firstChild); v.appendChild(pill);
     const note = el("div","note");
     if(!ok){ const b=el("b",null,"You said "+LABEL[mine].toLowerCase()+". "); note.appendChild(b); }
     note.appendChild(document.createTextNode(s.note || LABEL_LONG[s.label]));
@@ -432,12 +542,31 @@ function start(){
   const savedS = store.get("ar.seen"); if(Array.isArray(savedS)) seen = new Set(savedS);
   const savedL = store.get("ar.saved"); if(Array.isArray(savedL)) saved = savedL.filter(x => x && x.id && x.title);
   renderFilters(); renderScore(); renderAbout(); renderSaved();
+  if(!store.get("ar.introDone")){ const i=$("intro"); if(i) i.hidden=false; }
+  const ic=$("introClose"); if(ic) ic.onclick=()=>{ $("intro").hidden=true; store.set("ar.introDone",true); };
   const m = /^#a(\d+)$/.exec(location.hash||""); const want = m ? items.find(it => it.n===+m[1]) : null;
   show(want || pick());
 }
-fetch("data.json", {cache:"no-store"}).then(r => { if(!r.ok) throw new Error("http "+r.status); return r.json(); }).then(d => { DATA=d; items=d.items||[]; start(); })
-  .catch(e => { $("main").appendChild(el("div","empty","Could not load the items (data.json): "+e.message+". Serve this folder over http, e.g. python3 -m http.server, or open the published page.")); });
+// Two-stage load: a small representative slice (data-lite.json) starts the game at once; the full corpus
+// (data.json) loads in the background and swaps in without interrupting the current abstract. Falls back to the
+// full file directly if the lite slice is absent.
+let fullLoaded=false;
+function begin(d){ DATA=d; items=d.items||[]; start(); }
+function loadFull(){
+  if(fullLoaded) return; fullLoaded=true;
+  fetch("data.json", {cache:"no-store"}).then(r => { if(!r.ok) throw new Error("http "+r.status); return r.json(); })
+    .then(d => { DATA=d; items=d.items||[]; renderFilters(); renderAbout(); })
+    .catch(()=>{});
+}
+const fail = e => { $("main").appendChild(el("div","empty","Could not load the items: "+(e&&e.message||e)+". Serve this folder over http, e.g. python3 -m http.server, or open the published page.")); };
+fetch("data-lite.json", {cache:"no-store"}).then(r => { if(!r.ok) throw 0; return r.json(); })
+  .then(d => { begin(d); loadFull(); })
+  .catch(() => { fullLoaded=true; fetch("data.json", {cache:"no-store"}).then(r => { if(!r.ok) throw new Error("http "+r.status); return r.json(); }).then(begin).catch(fail); });
 })();
+/* PWA: register the service worker on the live site only (no-op inside the claude.ai artifact sandbox). */
+if("serviceWorker" in navigator && (location.hostname.endsWith("github.io") || location.hostname==="localhost" || location.hostname==="127.0.0.1")){
+  window.addEventListener("load", () => { navigator.serviceWorker.register("./sw.js").catch(()=>{}); });
+}
 </script>
 </body>
 </html>

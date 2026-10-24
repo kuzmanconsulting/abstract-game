@@ -326,3 +326,18 @@ recent leading-journal papers are association studies (EWAS, methylation clocks,
 the landmark set carries those foundations. Merge over the whole corpus: 1,740 abstracts and 6,838 statements, every
 kept statement all-but-one unanimous; the new field adds 100 abstracts and 391 statements. Page label: "epigenetics /
 genome regulation".
+
+**D27. Online visibility, PWA and a visual design pass (requirement 2026-10-24: improve online visibility and raise the
+look and experience; add visual hooks; keep the github.io URL).** Three strands, shipped to the GitHub Pages site and
+the artifact. (1) Visibility: added a meta description, Open Graph and Twitter cards with a 1200×630 preview image
+(og.png) in the app's visual language, schema.org JSON-LD (WebApplication/LearningResource, Kuzman Consulting as
+publisher), a favicon, robots.txt, sitemap.xml and a descriptive title. The Pages-only head tags sit inside
+<!--PAGES-ONLY--> markers that build_site.artifact_page strips, keeping the artifact head clean. (2) Experience: a
+first-run intro, a one-line hero lead, two-stage loading (build_site emits a seeded, field-stratified data-lite.json
+slice loaded first for instant play, with the full corpus swapped in behind it), and a PWA (manifest + service worker:
+network-first for the page and data, cache-first for assets; installable and offline-capable; service-worker
+registration host-gated so it is inert in the artifact sandbox). (3) Visual language: a per-field identity system —
+each field has a distinct accent hue and a monoline SVG glyph — applied to the filter chips (which fill with the field
+hue when active), the abstract eyebrow tag and year badge, plus verdict glyphs on the three choices and the reveal
+pills, a reduced-motion-safe highlighter-sweep on the evidence, and a hero motif. Colour is an accent; running text
+keeps the ink token for contrast, in both light and dark themes. 26 tests pass.
