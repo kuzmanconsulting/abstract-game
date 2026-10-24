@@ -1,0 +1,107 @@
+{
+  "batch": "gen_96",
+  "prompt_version": "gen-v5",
+  "flip_rule": "first-of-any-v3",
+  "items": [
+    {
+      "n": 1605,
+      "id": "pmid:36746940",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "Particular TE families and subfamilies have given rise to 3D chromatin structures specific to individual mammalian lineages.", "evidence": "We show that specific families and subfamilies of TEs have contributed to lineage-specific 3D chromatin structures across mammalian species.", "note": "The abstract reports specific TE families and subfamilies produced lineage-specific 3D chromatin structures across mammals."},
+        {"k": 2, "label": "not_addressed", "text": "TE-derived CTCF binding sites are more common in primate genomes than in rodent genomes.", "evidence": "including the multifarious master protein, CTCF, which shapes the 3D genome by creating loops, domains, compartment borders, and RNA-DNA interactions.", "note": "The abstract notes TEs carry CTCF binding sites but never compares their abundance between primate and rodent genomes."},
+        {"k": 3, "label": "supported", "text": "The study quantified how transposable elements give rise to loops and domain-border differences across multiple cell types and species using several 3D genome mapping technologies.", "evidence": "we explore the widespread contribution of TEs to mammalian 3D genomes by quantifying the extent to which they give rise to loops and domain border differences across various cell types and species using several 3D genome mapping technologies.", "note": "The abstract reports quantifying TE contributions to loops and domain-border differences across cell types and species with several 3D mapping technologies."},
+        {"k": 4, "label": "supported", "text": "Deleting a candidate transposable element with CRISPR-Cas9 disrupted the 3D chromatin structure specific to a species.", "evidence": "An experimental validation of our analytical findings using CRISPR-Cas9 to delete a candidate TE resulted in disruption of species-specific 3D chromatin structure.", "note": "The abstract reports CRISPR-Cas9 deletion of a candidate TE disrupted species-specific 3D chromatin structure."}
+      ]
+    },
+    {
+      "n": 1606,
+      "id": "pmid:37438532",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "Of replicated retrotransposon DNA, a larger fraction (90%) persisted as extrachromosomal circular DNA than the fraction (10%) that produced new insertions.", "evidence": "found that 10% of them achieve new insertions, whereas 90% exist as extrachromosomal circular DNA (eccDNA)", "note": "The study found 90% of replicated retrotransposon DNA remained as eccDNA, versus 10% that produced new insertions."},
+        {"k": 2, "label": "not_addressed", "text": "Retrotransposon second-strand synthesis by alt-EJ proceeds more efficiently in germline cells than in somatic cells.", "evidence": "alt-EJ drives the second-strand synthesis of the long terminal repeat retrotransposon DNA through a circularization process", "note": "The abstract describes alt-EJ-driven second-strand synthesis but makes no comparison between germline and somatic cells."},
+        {"k": 3, "label": "supported", "text": "Retrotransposons co-opt the host's alternative end-joining repair pathway, via a circularization step, to build the second strand of their DNA.", "evidence": "retrotransposons hijack the alternative end-joining (alt-EJ) DNA repair process of the host for a circularization step to synthesize their second-strand DNA.", "note": "The abstract reports retrotransposons hijack host alt-EJ repair, through circularization, to synthesize their second-strand DNA."},
+        {"k": 4, "label": "supported", "text": "Genetic screens pinpointed alt-EJ components as required for retrotransposons to replicate.", "evidence": "further genetic screens identified factors from alt-EJ as essential for retrotransposon replication.", "note": "The study's genetic screens identified alt-EJ factors as essential for retrotransposon replication."}
+      ]
+    },
+    {
+      "n": 1607,
+      "id": "pmid:37012406",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "The regulatory endogenous retrovirus families identified lie close to genes showing higher expression in trophoblast.", "evidence": "we identified multiple endogenous retrovirus families with regulatory potential that lie close to genes with preferential expression in trophoblast.", "note": "The abstract reports regulatory ERV families lying close to genes preferentially, more highly, expressed in trophoblast."},
+        {"k": 2, "label": "supported", "text": "Genetic editing showed several of these elements act as transcriptional enhancers for placental genes including CSF1R and PSG5.", "evidence": "we demonstrate that several elements act as transcriptional enhancers of important placental genes, such as CSF1R and PSG5.", "note": "The abstract reports genetic editing confirmed several elements act as enhancers of placental genes such as CSF1R and PSG5."},
+        {"k": 3, "label": "supported", "text": "An LTR10A element was found to control ENG expression and thereby the secretion of soluble endoglin, relevant to preeclampsia.", "evidence": "We also identify an LTR10A element that regulates ENG expression, affecting secretion of soluble endoglin, with potential implications for preeclampsia.", "note": "The abstract reports an LTR10A element regulating ENG and affecting soluble-endoglin secretion, with possible preeclampsia relevance."},
+        {"k": 4, "label": "not_addressed", "text": "The primate-specific ERV enhancers arose more recently than the placental genes they regulate.", "evidence": "These largely primate-specific elements are associated with inter-species gene expression differences and are bound by transcription factors with key roles in placental development.", "note": "The abstract calls the elements primate-specific but never compares their evolutionary age with that of the regulated genes."}
+      ]
+    },
+    {
+      "n": 1608,
+      "id": "pmid:38096901",
+      "statements": [
+        {"k": 1, "label": "not_addressed", "text": "L1 ORF2p nicks target DNA more efficiently than the endonucleases encoded by other retrotransposons.", "evidence": "L1 spreads through a mechanism termed target-primed reverse transcription, in which the encoded enzyme (ORF2p) nicks the target DNA to prime reverse transcription of its own or non-self RNAs", "note": "The abstract describes ORF2p nicking target DNA but never compares its efficiency with endonucleases of other retrotransposons."},
+        {"k": 2, "label": "supported", "text": "L1 ORF2p uses upstream single-stranded DNA to place the adjacent duplex in its endonuclease active site, nicking the longer DNA strand.", "evidence": "L1 ORF2p relies on upstream single-stranded DNA to position the adjacent duplex in the endonuclease active site for nicking of the longer DNA strand", "note": "The abstract states ORF2p uses upstream single-stranded DNA to position the duplex for nicking the longer DNA strand."},
+        {"k": 3, "label": "supported", "text": "A sequence-specific polyadenosine tract in the template RNA is recognized by five separate domains of the enzyme.", "evidence": "The template polyadenosine tract is recognized in a sequence-specific manner by five distinct domains.", "note": "The abstract reports the template poly(A) tract is recognized by five distinct domains."},
+        {"k": 4, "label": "supported", "text": "The researchers purified intact L1 ORF2p and rebuilt target-primed reverse transcription in vitro with template RNA and target-site DNA.", "evidence": "we purified full-length L1 ORF2p and biochemically reconstituted robust target-primed reverse transcription with template RNA and target-site DNA.", "note": "The abstract reports purifying full-length ORF2p and reconstituting target-primed reverse transcription with template RNA and target DNA."}
+      ]
+    },
+    {
+      "n": 1609,
+      "id": "pmid:37658059",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "A genome-wide reporter assay flagged transposable elements with functional enhancer activity in two endoderm-derived cancers, colorectal and liver.", "evidence": "we utilize unbiased massively parallel reporter assay data using a whole human genome library to identify TEs with functional enhancer activity in two human cancer types of endodermal lineage, colorectal and liver cancers.", "note": "The abstract reports a genome-wide MPRA identified TEs with enhancer activity in colorectal and liver cancers."},
+        {"k": 2, "label": "supported", "text": "Distinct TE subfamilies serve as tissue-specific enhancers, MER11 elements in colon cancer and LTR12 elements in liver cancer.", "evidence": "we identify distinct TE subfamilies that function as tissue-specific enhancers, namely MER11- and LTR12-elements in colon and liver cancers, respectively.", "note": "The abstract reports MER11 elements act as enhancers in colon cancer and LTR12 elements in liver cancer."},
+        {"k": 3, "label": "not_addressed", "text": "Silencing these TE-derived enhancers slows proliferation of colorectal and liver cancer cells.", "evidence": "they have predicted associations to differentially expressed genes.", "note": "The abstract links the TE enhancers to differentially expressed genes but never tests whether silencing them affects cancer-cell proliferation."},
+        {"k": 4, "label": "supported", "text": "The TE enhancers identified carry hallmarks of active enhancers, such as epigenetic marks and transcription-factor binding.", "evidence": "the identified TE enhancers are characterized by genomic features associated with active enhancers, such as epigenetic marks and TF binding.", "note": "The abstract states the identified TE enhancers show active-enhancer features like epigenetic marks and TF binding."}
+      ]
+    },
+    {
+      "n": 1610,
+      "id": "pmid:37910626",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "Silencing LINC01876 by CRISPR interference reduced the size of cerebral organoids and drove neural progenitors to differentiate prematurely.", "evidence": "CRISPR interference silencing of LINC01876 results in reduced size of cerebral organoids and premature differentiation of neural progenitors", "note": "The abstract reports CRISPRi silencing of LINC01876 reduced cerebral-organoid size and caused premature neural-progenitor differentiation."},
+        {"k": 2, "label": "not_addressed", "text": "L1-derived transcriptome complexity contributes more to human cognition than to cognition in other primates.", "evidence": "our results demonstrate that L1-derived transcripts provide a previously undescribed layer of primate- and human-specific transcriptome complexity that contributes to the functional diversification of the human brain.", "note": "The abstract links L1 transcripts to human-brain diversification but makes no comparison of cognitive contribution across primates."},
+        {"k": 3, "label": "supported", "text": "L1 elements give rise to hundreds of developmentally regulated, cell-type-specific transcripts, many co-opted as chimeric transcripts or regulatory RNAs.", "evidence": "L1s generate hundreds of developmentally regulated and cell type-specific transcripts, many that are co-opted as chimeric transcripts or regulatory RNAs.", "note": "The abstract reports L1s generate hundreds of developmentally regulated, cell-type-specific transcripts, many used as chimeric or regulatory RNAs."},
+        {"k": 4, "label": "supported", "text": "Multiomics profiling showed L1 promoters are actively transcribed in both the developing and the adult human brain.", "evidence": "we here demonstrate that L1 promoters are dynamically active in the developing and the adult human brain.", "note": "The abstract reports L1 promoters are dynamically active in the developing and adult human brain."}
+      ]
+    },
+    {
+      "n": 1611,
+      "id": "pmid:40023154",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "Inactivation of the VHL tumour suppressor in ccRCC drives upregulation of the HIF transcription factor.", "evidence": "The signature lesion in ccRCC is inactivation of the VHL tumor suppressor gene and consequent upregulation of the HIF transcription factor.", "note": "The abstract states the VHL lesion in ccRCC leads to upregulation of HIF."},
+        {"k": 2, "label": "supported", "text": "The study reports ERVE-4 is one of many HIF-induced ERVs that become HLA-bound peptides in ccRCC and elicit antigen-specific T-cell responses.", "evidence": "ERVE-4 is one of many ERVs that are induced by HIF, translated into HLA-bound peptides in ccRCCs, and capable of generating antigen-specific T cell responses.", "note": "The abstract reports many HIF-induced ERVs are presented as HLA-bound peptides in ccRCC and elicit antigen-specific T-cell responses."},
+        {"k": 3, "label": "supported", "text": "Clinical-grade HIF stabilizers can switch on ERV expression even in tumours that are not ccRCC.", "evidence": "ERV expression can be induced in non-ccRCC tumors with clinical-grade HIF stabilizers.", "note": "The abstract reports ERV expression can be induced in non-ccRCC tumours using clinical-grade HIF stabilizers."},
+        {"k": 4, "label": "not_addressed", "text": "HIF-stabilizing drugs prolong survival in patients with non-ccRCC tumours.", "evidence": "These findings have implications for leveraging ERVs for cancer immunotherapy.", "note": "The abstract raises cancer-immunotherapy implications but reports no patient survival outcomes for HIF stabilizers."}
+      ]
+    },
+    {
+      "n": 1612,
+      "id": "pmid:37738971",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "In the diatom P. tricornutum and the red alga C. merolae, a greater fraction of transposable elements than of genes fell under PRC2 silencing.", "evidence": "In this diatom and the red alga C. merolae, a greater proportion of TEs than genes were repressed by PRC2", "note": "The abstract reports a greater proportion of TEs than genes fell under PRC2 silencing in the diatom and red alga."},
+        {"k": 2, "label": "not_addressed", "text": "Reducing PRC2 activity reactivates transposon mobility and triggers genome instability in the diatom.", "evidence": "Their uncontrolled activity causes genomic instability; therefore, expression of TEs is silenced by host genomes.", "note": "The abstract links uncontrolled TE activity to instability in general but never tests whether reducing PRC2 reactivates TE mobility in the diatom."},
+        {"k": 3, "label": "supported", "text": "PRC2-mediated TE silencing occurs across Archaeplastida as well as in diatoms and ciliates, pointing to H3K27me3 TE silencing in the eukaryotic last common ancestor.", "evidence": "silencing of TEs by PRC2 is observed not only in Archaeplastida but also in diatoms and ciliates, suggesting that PRC2 deposited H3K27me3 to silence TEs in the last common ancestor of eukaryotes.", "note": "The abstract reports PRC2 silences TEs across Archaeplastida, diatoms and ciliates, implying this trait in the eukaryotic ancestor."},
+        {"k": 4, "label": "supported", "text": "To test this, the researchers generated mutants with lowered PRC2 activity across the Archaeplastida lineage and in the diatom P. tricornutum.", "evidence": "we generated mutants with reduced PRC2 activity and analyzed the role of PRC2 in extant species along the lineage of Archaeplastida and in the diatom P. tricornutum.", "note": "The abstract reports generating mutants with reduced PRC2 activity across Archaeplastida and in the diatom P. tricornutum."}
+      ]
+    },
+    {
+      "n": 1613,
+      "id": "pmid:38926616",
+      "statements": [
+        {"k": 1, "label": "not_addressed", "text": "IS110 recombinases can be reprogrammed to insert DNA at chosen sites in human cells.", "evidence": "this study reveals the mechanism by which a bispecific RNA confers target and donor DNA specificity to IS110 recombinases for programmable DNA recombination.", "note": "The abstract establishes a mechanism for programmable recombination but never tests IS110 recombinases in human cells."},
+        {"k": 2, "label": "supported", "text": "The IS110 synaptic complex contains two recombinase dimers, one binding the bridge RNA's target loop and target DNA, the other its donor loop and donor DNA.", "evidence": "The IS110 synaptic complex comprises two recombinase dimers, one of which houses the target-binding loop of the bRNA and binds to target DNA, whereas the other coordinates the bRNA donor-binding loop and donor DNA.", "note": "The abstract reports the synaptic complex has two recombinase dimers, handling target and donor DNA through the bridge RNA's two loops."},
+        {"k": 3, "label": "supported", "text": "Cryo-EM captured the IS110 recombinase bound to its bridge RNA, target DNA and donor DNA at three different stages of the recombination cycle.", "evidence": "we report the cryo-electron microscopy structures of the IS110 recombinase in complex with its bRNA, target DNA and donor DNA in three different stages of the recombination reaction cycle.", "note": "The abstract reports cryo-EM structures of the recombinase with bRNA, target and donor DNA at three reaction stages."},
+        {"k": 4, "label": "supported", "text": "A composite RuvC-Tnp active site forms across the two dimers, placing catalytic serine residues beside the recombination sites in both target and donor DNA.", "evidence": "the formation of a composite RuvC-Tnp active site that spans the two dimers, positioning the catalytic serine residues adjacent to the recombination sites in both target and donor DNA.", "note": "The abstract reports a composite RuvC-Tnp active site spanning both dimers, positioning catalytic serines beside both recombination sites."}
+      ]
+    },
+    {
+      "n": 1614,
+      "id": "pmid:39251347",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "Tropical maize genomes carry about 35.1 Mb more transposable-element sequence per genome than temperate maize.", "evidence": "which reveals an excess of 35.1 Mb of TE sequences per genome in tropical maize relative to temperate maize.", "note": "The study found tropical maize genomes hold about 35.1 Mb more TE sequence per genome than temperate maize."},
+        {"k": 2, "label": "supported", "text": "A small set of 216 TE families, mostly LTR retrotransposons, accounts for these differences between tropical and temperate maize.", "evidence": "A small number ( n = 216) of TE families, mainly LTR retrotransposons, drive these differences.", "note": "The abstract reports 216 TE families, mainly LTR retrotransposons, drive the differences between the two maize types."},
+        {"k": 3, "label": "not_addressed", "text": "The young LTR families expanding in tropical maize raise grain yield under heat stress.", "evidence": "we find enrichment for Young LTR families adjacent to nucleotide-binding and leucine-rich repeat (NLR) clusters of varying copy number across lines, suggesting TE activity may be associated with disease resistance in maize.", "note": "The abstract connects young LTR families to disease resistance via NLR clusters but never addresses grain yield or heat stress."},
+        {"k": 4, "label": "supported", "text": "About two-thirds (64.7%) of the variability traces to young LTR families that are less methylated and more expressed in tropical maize.", "evidence": "64.7% of the variability is contributed by LTR families that are young, less methylated, and more expressed in tropical maize", "note": "The abstract reports 64.7% of the variability comes from young, less-methylated, more-expressed LTR families in tropical maize."}
+      ]
+    }
+  ]
+}

@@ -101,6 +101,20 @@ class FetchNormalise(unittest.TestCase):
         self.assertEqual(fetch.keep(fetch.normalise(rec2, "evodevo", "journal"), set(), set(), journals.is_leading), "journal_not_listed")
         self.assertEqual(fetch.normalise(rec2, "evodevo", "journal")["field"], "evodevo")
 
+    def test_d26_epi_field_query_and_mapping(self):
+        """D26: the epigenetics / genome-regulation field carries chromatin, methylation and 3D-genome terms plus an
+        exclude clause, maps to itself (no 'as'), and is fetched from the leading-journal list."""
+        q = fetch.build_query("epi", "journal", "2016-01-01", "2026-12-31", journals.QUERY_TOKENS)
+        self.assertIn('ABSTRACT:"DNA methylation"', q)
+        self.assertIn('ABSTRACT:"topologically associating domain"', q)
+        self.assertIn('ABSTRACT:"Polycomb"', q)
+        self.assertIn(" NOT (ABSTRACT:cancer", q)
+        self.assertIn('JOURNAL:"Nat Commun"', q)
+        rec = epmc_record(pmid="126"); rec["journalInfo"] = {"journal": {"title": "Molecular cell"}}
+        c = fetch.normalise(rec, "epi", "journal")
+        self.assertEqual((c["field"], c["query_field"]), ("epi", "epi"))
+        self.assertIsNone(fetch.keep(c, set(), set(), journals.is_leading))
+
 
 class LeadingJournals(unittest.TestCase):
     def test_canonical_forms_and_display(self):
@@ -359,6 +373,14 @@ def gen_path(tmp):
 def gen_items(path):
     with open(path, encoding="utf-8") as f:
         return {it["n"]: it["statements"] for it in json.load(f)["items"]}
+
+
+class PageFieldMap(unittest.TestCase):
+    def test_epi_in_field_map(self):
+        """D26: the page's FIELD map carries the epigenetics field so its filter chip and About entry render."""
+        with open(os.path.join(ROOT, "docs", "index.html"), encoding="utf-8") as f:
+            src = f.read()
+        self.assertIn('epi:"epigenetics / genome regulation"', src)
 
 
 if __name__ == "__main__":

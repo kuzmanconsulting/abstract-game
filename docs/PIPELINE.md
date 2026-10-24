@@ -1,7 +1,7 @@
 # Pipeline and deployment — Abstract Reader
 
 How the corpus is built, checked, published and extended. Players need none of this; it moved here from the README
-on 2026-10-23 (Maja: "show only the readme for people using the app/site"). The reasoning behind every rule is in
+on 2026-10-23 so that the README addresses players only. The reasoning behind every rule is in
 `docs/DECISIONS.md`, the exact commands with times in `docs/LOG.md`, every file's fields in `docs/SCHEMA.md`.
 
 ## Repository layout

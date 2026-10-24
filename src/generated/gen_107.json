@@ -1,0 +1,107 @@
+{
+ "batch": "gen_107",
+ "prompt_version": "gen-v5",
+ "flip_rule": "first-of-any-v3",
+ "items": [
+  {
+   "n": 1715,
+   "id": "pmid:19815776",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "Hi-C produced spatial proximity maps of the human genome at a resolution of one megabase.", "evidence": "We constructed spatial proximity maps of the human genome with Hi-C at a resolution of 1 megabase.", "note": "The abstract reports proximity maps built at a 1-megabase resolution."},
+    {"k": 2, "label": "not_addressed", "text": "The fractal globule arrangement rearranges when cells enter mitosis.", "evidence": "Our results demonstrate the power of Hi-C to map the dynamic conformations of whole genomes.", "note": "The abstract mentions dynamic conformations but never addresses mitotic or cell-cycle changes."},
+    {"k": 3, "label": "supported", "text": "The fractal globule model differs from the more commonly used globular equilibrium model.", "evidence": "The fractal globule is distinct from the more commonly used globular equilibrium model.", "note": "The abstract states the fractal globule is distinct from the more commonly used equilibrium model."},
+    {"k": 4, "label": "supported", "text": "Hi-C revealed genome-wide segregation of open and closed chromatin into two compartments.", "evidence": "the spatial segregation of open and closed chromatin to form two genome-wide compartments.", "note": "The abstract reports open and closed chromatin segregate into two genome-wide compartments."}
+   ]
+  },
+  {
+   "n": 1716,
+   "id": "pmid:17571346",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "The project found the genome is pervasively transcribed, with the majority of bases appearing in primary transcripts.", "evidence": "the genome is pervasively transcribed, such that the majority of its bases can be found in primary transcripts", "note": "The abstract reports pervasive transcription, with the majority of bases in primary transcripts."},
+    {"k": 2, "label": "supported", "text": "A more sophisticated view of chromatin structure emerged, linked to DNA replication and transcriptional regulation.", "evidence": "a more sophisticated view of chromatin structure has emerged, including its inter-relationship with DNA replication and transcriptional regulation.", "note": "The abstract reports a more sophisticated view of chromatin structure tied to replication and regulation."},
+    {"k": 3, "label": "not_addressed", "text": "ENCODE's cross-species comparisons identified regulatory elements unique to the human lineage.", "evidence": "integration of these new sources of information, in particular with respect to mammalian evolution based on inter- and intra-species sequence comparisons, has yielded new mechanistic and evolutionary insights", "note": "The abstract reports evolutionary insights from species comparisons but never claims human-specific elements."},
+    {"k": 4, "label": "supported", "text": "The ENCODE pilot analysed functional data covering a targeted 1% of the human genome.", "evidence": "performed on a targeted 1% of the human genome as part of the pilot phase of the ENCODE Project.", "note": "The abstract states the pilot targeted 1% of the human genome."}
+   ]
+  },
+  {
+   "n": 1717,
+   "id": "pmid:17512414",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "CTCF demarcates the boundaries of histone methylation domains, while H2A.Z associates with functional regulatory elements.", "evidence": "H2A.Z associates with functional regulatory elements, and CTCF marks boundaries of histone methylation domains.", "note": "The abstract reports CTCF marks domain boundaries and H2A.Z binds regulatory elements."},
+    {"k": 2, "label": "not_addressed", "text": "Removing H3K4 methylation from these regions triggers chromosome breakpoints in T cells.", "evidence": "Chromosome breakpoints detected in T cell cancers frequently reside in chromatin regions associated with H3K4 methylations.", "note": "The abstract reports breakpoints co-locate with H3K4-methylated regions but never tests whether removing the mark causes breaks."},
+    {"k": 3, "label": "supported", "text": "High-resolution genome-wide maps were generated for 20 histone lysine and arginine methylations across the human genome.", "evidence": "high-resolution maps for the genome-wide distribution of 20 histone lysine and arginine methylations", "note": "The abstract reports mapping 20 histone lysine and arginine methylations genome-wide."},
+    {"k": 4, "label": "supported", "text": "Monomethylations of H3K27, H3K9, H4K20, H3K79 and H2BK5 were all associated with gene activation.", "evidence": "The monomethylations of H3K27, H3K9, H4K20, H3K79, and H2BK5 are all linked to gene activation", "note": "The abstract links these five monomethylations to gene activation."}
+   ]
+  },
+  {
+   "n": 1718,
+   "id": "pmid:17603471",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "Lysine 4 and lysine 27 trimethylation distinguished genes that are expressed, poised, or stably repressed.", "evidence": "lysine 4 and lysine 27 trimethylation effectively discriminates genes that are expressed, poised for expression, or stably repressed", "note": "The abstract reports K4 and K27 trimethylation discriminate expressed, poised and stably repressed genes."},
+    {"k": 2, "label": "supported", "text": "The chromatin-state maps were built from over four billion bases of ChIP DNA sequence.", "evidence": "By obtaining over four billion bases of sequence from chromatin immunoprecipitated DNA", "note": "The abstract reports obtaining over four billion bases of ChIP sequence."},
+    {"k": 3, "label": "not_addressed", "text": "Allele-specific chromatin states were used to predict disease risk in these cell types.", "evidence": "we show that chromatin state can be read in an allele-specific manner by using single nucleotide polymorphisms.", "note": "The abstract demonstrates allele-specific reading of chromatin state but never connects it to disease-risk prediction."},
+    {"k": 4, "label": "supported", "text": "Trimethylation of lysine 9 and lysine 20 was found at satellite, telomeric and active long-terminal repeats and could spread into adjacent unique sequences.", "evidence": "Trimethylation of lysine 9 and lysine 20 is detected at satellite, telomeric and active long-terminal repeats, and can spread into proximal unique sequences.", "note": "The abstract reports K9/K20 trimethylation at repeats that can spread into neighbouring unique sequences."}
+   ]
+  },
+  {
+   "n": 1719,
+   "id": "pmid:16630819",
+   "statements": [
+    {"k": 1, "label": "not_addressed", "text": "Removal of bivalent domains is required for terminal differentiation of ES cells.", "evidence": "suggest a novel chromatin-based mechanism for maintaining pluripotency.", "note": "The abstract proposes bivalent domains help maintain pluripotency but never states their removal is required for differentiation."},
+    {"k": 2, "label": "supported", "text": "Histone methylation was examined in mouse ES cells across 56 large HCNE-rich loci.", "evidence": "examining histone methylation in mouse embryonic stem (ES) cells across 56 large HCNE-rich loci.", "note": "The abstract reports examining histone methylation across 56 HCNE-rich loci."},
+    {"k": 3, "label": "supported", "text": "The genome-sequence and histone-methylation correspondences in ES cells became weaker in differentiated cells.", "evidence": "striking correspondences between genome sequence and histone methylation in ES cells, which become notably weaker in differentiated cells.", "note": "The abstract reports these correspondences weaken in differentiated cells."},
+    {"k": 4, "label": "supported", "text": "Bivalent domains were proposed to silence developmental genes in ES cells while keeping them poised to switch on.", "evidence": "bivalent domains silence developmental genes in ES cells while keeping them poised for activation.", "note": "The abstract proposes bivalent domains silence developmental genes yet keep them poised."}
+   ]
+  },
+  {
+   "n": 1720,
+   "id": "pmid:16625203",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "Genome-wide location analysis showed PRC1 and PRC2 co-occupied 512 genes in murine ES cells.", "evidence": "the Polycomb repressive complexes PRC1 and PRC2 co-occupied 512 genes", "note": "The abstract reports PRC1 and PRC2 co-occupied 512 genes."},
+    {"k": 2, "label": "not_addressed", "text": "PcG occupancy of these genes disappears when ES cells are reprogrammed from fibroblasts.", "evidence": "Our results indicate that dynamic repression of developmental pathways by Polycomb complexes may be required for maintaining ES cell pluripotency and plasticity during embryonic development.", "note": "The abstract links PcG repression to pluripotency maintenance but never addresses reprogramming from fibroblasts."},
+    {"k": 3, "label": "supported", "text": "PcG proteins directly repress a large cohort of developmental regulators whose expression would otherwise drive differentiation.", "evidence": "PcG proteins directly repress a large cohort of developmental regulators in murine ES cells, the expression of which would otherwise promote differentiation.", "note": "The abstract reports PcG proteins directly repress developmental regulators that would otherwise promote differentiation."},
+    {"k": 4, "label": "supported", "text": "On induction of differentiation, PcG target genes were preferentially activated.", "evidence": "were preferentially activated on induction of differentiation.", "note": "The abstract reports PcG targets are preferentially activated on differentiation."}
+   ]
+  },
+  {
+   "n": 1721,
+   "id": "pmid:22495304",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "The promoters of Xist and Tsix sit in adjacent TADs, each holding their known positive regulators.", "evidence": "the respective promoters of Xist and Tsix lying in adjacent TADs, each containing their known positive regulators.", "note": "The abstract reports Xist and Tsix promoters lie in adjacent TADs with their positive regulators."},
+    {"k": 2, "label": "supported", "text": "TADs aligned with domain-wide epigenome features such as H3K27me3 blocks but did not depend on them.", "evidence": "TADs align with, but do not rely on, several domain-wide features of the epigenome, such as H3K27me3 or H3K9me2 blocks and lamina-associated domains.", "note": "The abstract reports TADs align with epigenome features like H3K27me3 blocks without relying on them."},
+    {"k": 3, "label": "not_addressed", "text": "Disrupting a TAD boundary is sufficient to block X-chromosome inactivation.", "evidence": "Disruption of a TAD boundary causes ectopic chromosomal contacts and long-range transcriptional misregulation.", "note": "The abstract reports boundary disruption causes ectopic contacts and misregulation but never tests whether it blocks X-inactivation."},
+    {"k": 4, "label": "supported", "text": "The study mapped discrete topologically associating domains of 200 kilobases to 1 megabase within the Xic region.", "evidence": "a series of discrete 200-kilobase to 1 Mb topologically associating domains (TADs)", "note": "The abstract reports discrete TADs ranging from 200 kb to 1 Mb."}
+   ]
+  },
+  {
+   "n": 1722,
+   "id": "pmid:20639862",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "Human TET1 was reported to convert 5-methylcytosine into 5-hydroxymethylcytosine.", "evidence": "the human TET1 protein could catalyse the conversion of 5-methylcytosine (5mC) of DNA to 5-hydroxymethylcytosine (5hmC)", "note": "The abstract reports human TET1 converts 5mC to 5hmC."},
+    {"k": 2, "label": "supported", "text": "Downregulation of Nanog following Tet1 knockdown tracked with methylation of the Nanog promoter.", "evidence": "Downregulation of Nanog via Tet1 knockdown correlates with methylation of the Nanog promoter", "note": "The abstract reports Nanog downregulation after Tet1 knockdown correlates with Nanog promoter methylation."},
+    {"k": 3, "label": "supported", "text": "All three mouse Tet proteins, Tet1, Tet2 and Tet3, could catalyse the same conversion reaction.", "evidence": "all three mouse Tet proteins (Tet1, Tet2 and Tet3) can also catalyse a similar reaction.", "note": "The abstract reports all three mouse Tet proteins catalyse the reaction."},
+    {"k": 4, "label": "not_addressed", "text": "Tet2 and Tet3 are each required for maintaining Nanog expression in ES cells.", "evidence": "Tet1 has an important role in mouse embryonic stem (ES) cell maintenance through maintaining the expression of Nanog in ES cells.", "note": "The abstract assigns the Nanog-maintenance role to Tet1 but never tests Tet2 or Tet3 for this function."}
+   ]
+  },
+  {
+   "n": 1723,
+   "id": "pmid:25693563",
+   "statements": [
+    {"k": 1, "label": "not_addressed", "text": "The 111 epigenomes include samples from individuals across multiple ancestral populations.", "evidence": "the NIH Roadmap Epigenomics Consortium generated the largest collection so far of human epigenomes for primary cells and tissues.", "note": "The abstract describes primary cells and tissues but never reports the ancestral diversity of the samples."},
+    {"k": 2, "label": "supported", "text": "Disease- and trait-associated genetic variants were enriched within tissue-specific epigenomic marks.", "evidence": "disease- and trait-associated genetic variants are enriched in tissue-specific epigenomic marks", "note": "The abstract reports disease and trait variants are enriched in tissue-specific marks."},
+    {"k": 3, "label": "supported", "text": "The analysis established global maps of regulatory elements and defined modules of coordinated activity.", "evidence": "We establish global maps of regulatory elements, define regulatory modules of coordinated activity, and their likely activators and repressors.", "note": "The abstract reports establishing global regulatory-element maps and coordinated-activity modules."},
+    {"k": 4, "label": "supported", "text": "The consortium integratively analysed 111 reference human epigenomes from primary cells and tissues.", "evidence": "the integrative analysis of 111 reference human epigenomes generated as part of the programme", "note": "The abstract reports an integrative analysis of 111 reference human epigenomes."}
+   ]
+  },
+  {
+   "n": 1724,
+   "id": "pmid:22955617",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "Genome-wide profiling across 125 cell and tissue types identified roughly 2.9 million DHSs.", "evidence": "genome-wide profiling in 125 diverse cell and tissue types. We identify ∼2.9 million DHSs", "note": "The abstract reports about 2.9 million DHSs found across 125 cell and tissue types."},
+    {"k": 2, "label": "supported", "text": "In pluripotent and immortalized cells the DHS compartment showed higher mutation rates than in highly differentiated cells.", "evidence": "the DHS compartment in pluripotent and immortalized cells exhibits higher mutation rates than that in highly differentiated cells", "note": "The abstract reports higher mutation rates in the DHS compartment of pluripotent and immortalized cells than differentiated cells."},
+    {"k": 3, "label": "not_addressed", "text": "The high mutation rate in pluripotent cells results from impaired DNA repair.", "evidence": "exposing an unexpected link between chromatin accessibility, proliferative potential and patterns of human variation.", "note": "The abstract links mutation rate to proliferative potential but never identifies a DNA-repair mechanism."},
+    {"k": 4, "label": "supported", "text": "About 580,000 distal DHSs were linked to their target promoters, showing systematic pairing of DHS and promoter classes.", "evidence": "We connect ∼580,000 distal DHSs with their target promoters, revealing systematic pairing of different classes of distal DHSs and specific promoter types.", "note": "The abstract reports connecting about 580,000 distal DHSs to target promoters with systematic class pairing."}
+   ]
+  }
+ ]
+}

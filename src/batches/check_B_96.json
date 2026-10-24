@@ -1,0 +1,327 @@
+{
+"batch": "check_B_96",
+"pass": "B",
+"source_batch": "gen_96",
+"items": [
+{
+"n": 1605,
+"id": "pmid:36746940",
+"year": 2023,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Transposable elements (TEs) are major contributors of genetic material in mammalian genomes. These often include binding sites for architectural proteins, including the multifarious master protein, CTCF, which shapes the 3D genome by creating loops, domains, compartment borders, and RNA-DNA interactions. These play a role in the compact packaging of DNA and have the potential to facilitate regulatory function. In this study, we explore the widespread contribution of TEs to mammalian 3D genomes by quantifying the extent to which they give rise to loops and domain border differences across various cell types and species using several 3D genome mapping technologies. We show that specific families and subfamilies of TEs have contributed to lineage-specific 3D chromatin structures across mammalian species. In many cases, these loops may facilitate sustained interaction between distant cis-regulatory elements and target genes, and domains may segregate chromatin state to impact gene expression in a lineage-specific manner. An experimental validation of our analytical findings using CRISPR-Cas9 to delete a candidate TE resulted in disruption of species-specific 3D chromatin structure. Taken together, we comprehensively quantify and selectively validate our finding that TEs contribute to shaping 3D genome organization and may, in some cases, impact gene regulation during the course of mammalian evolution."
+}
+],
+"text": "Transposable elements (TEs) are major contributors of genetic material in mammalian genomes. These often include binding sites for architectural proteins, including the multifarious master protein, CTCF, which shapes the 3D genome by creating loops, domains, compartment borders, and RNA-DNA interactions. These play a role in the compact packaging of DNA and have the potential to facilitate regulatory function. In this study, we explore the widespread contribution of TEs to mammalian 3D genomes by quantifying the extent to which they give rise to loops and domain border differences across various cell types and species using several 3D genome mapping technologies. We show that specific families and subfamilies of TEs have contributed to lineage-specific 3D chromatin structures across mammalian species. In many cases, these loops may facilitate sustained interaction between distant cis-regulatory elements and target genes, and domains may segregate chromatin state to impact gene expression in a lineage-specific manner. An experimental validation of our analytical findings using CRISPR-Cas9 to delete a candidate TE resulted in disruption of species-specific 3D chromatin structure. Taken together, we comprehensively quantify and selectively validate our finding that TEs contribute to shaping 3D genome organization and may, in some cases, impact gene regulation during the course of mammalian evolution.",
+"statements": [
+{
+"j": 1,
+"text": "Deleting a candidate transposable element with CRISPR-Cas9 disrupted the 3D chromatin structure specific to a species."
+},
+{
+"j": 2,
+"text": "The study quantified how transposable elements give rise to loops and domain-border differences across multiple cell types and species using several 3D genome mapping technologies."
+},
+{
+"j": 3,
+"text": "TE-derived CTCF binding sites are more common in primate genomes than in rodent genomes."
+},
+{
+"j": 4,
+"text": "Particular TE families and subfamilies have given rise to 3D chromatin structures specific to individual mammalian lineages."
+}
+]
+},
+{
+"n": 1606,
+"id": "pmid:37438532",
+"year": 2023,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Retrotransposons are highly enriched in the animal genome 1-3 . The activation of retrotransposons can rewrite host DNA information and fundamentally impact host biology 1-3 . Although developmental activation of retrotransposons can offer benefits for the host, such as against virus infection, uncontrolled activation promotes disease or potentially drives ageing 1-5 . After activation, retrotransposons use their mRNA as templates to synthesize double-stranded DNA for making new insertions in the host genome 1-3,6 . Although the reverse transcriptase that they encode can synthesize the first-strand DNA 1-3,6 , how the second-strand DNA is generated remains largely unclear. Here we report that retrotransposons hijack the alternative end-joining (alt-EJ) DNA repair process of the host for a circularization step to synthesize their second-strand DNA. We used Nanopore sequencing to examine the fates of replicated retrotransposon DNA, and found that 10% of them achieve new insertions, whereas 90% exist as extrachromosomal circular DNA (eccDNA). Using eccDNA production as a readout, further genetic screens identified factors from alt-EJ as essential for retrotransposon replication. alt-EJ drives the second-strand synthesis of the long terminal repeat retrotransposon DNA through a circularization process and is therefore necessary for eccDNA production and new insertions. Together, our study reveals that alt-EJ is essential in driving the propagation of parasitic genomic retroelements. Our study uncovers a conserved function of this understudied DNA repair process, and provides a new perspective to understand-and potentially control-the retrotransposon life cycle."
+}
+],
+"text": "Retrotransposons are highly enriched in the animal genome 1-3 . The activation of retrotransposons can rewrite host DNA information and fundamentally impact host biology 1-3 . Although developmental activation of retrotransposons can offer benefits for the host, such as against virus infection, uncontrolled activation promotes disease or potentially drives ageing 1-5 . After activation, retrotransposons use their mRNA as templates to synthesize double-stranded DNA for making new insertions in the host genome 1-3,6 . Although the reverse transcriptase that they encode can synthesize the first-strand DNA 1-3,6 , how the second-strand DNA is generated remains largely unclear. Here we report that retrotransposons hijack the alternative end-joining (alt-EJ) DNA repair process of the host for a circularization step to synthesize their second-strand DNA. We used Nanopore sequencing to examine the fates of replicated retrotransposon DNA, and found that 10% of them achieve new insertions, whereas 90% exist as extrachromosomal circular DNA (eccDNA). Using eccDNA production as a readout, further genetic screens identified factors from alt-EJ as essential for retrotransposon replication. alt-EJ drives the second-strand synthesis of the long terminal repeat retrotransposon DNA through a circularization process and is therefore necessary for eccDNA production and new insertions. Together, our study reveals that alt-EJ is essential in driving the propagation of parasitic genomic retroelements. Our study uncovers a conserved function of this understudied DNA repair process, and provides a new perspective to understand-and potentially control-the retrotransposon life cycle.",
+"statements": [
+{
+"j": 1,
+"text": "Of replicated retrotransposon DNA, a smaller fraction (90%) persisted as extrachromosomal circular DNA than the fraction (10%) that produced new insertions."
+},
+{
+"j": 2,
+"text": "Genetic screens pinpointed alt-EJ components as required for retrotransposons to replicate."
+},
+{
+"j": 3,
+"text": "Retrotransposons co-opt the host's alternative end-joining repair pathway, via a circularization step, to build the second strand of their DNA."
+},
+{
+"j": 4,
+"text": "Retrotransposon second-strand synthesis by alt-EJ proceeds more efficiently in germline cells than in somatic cells."
+}
+]
+},
+{
+"n": 1607,
+"id": "pmid:37012406",
+"year": 2023,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The placenta is a fast-evolving organ with large morphological and histological differences across eutherians, but the genetic changes driving placental evolution have not been fully elucidated. Transposable elements, through their capacity to quickly generate genetic variation and affect host gene regulation, may have helped to define species-specific trophoblast gene expression programs. Here we assess the contribution of transposable elements to human trophoblast gene expression as enhancers or promoters. Using epigenomic data from primary human trophoblast and trophoblast stem-cell lines, we identified multiple endogenous retrovirus families with regulatory potential that lie close to genes with preferential expression in trophoblast. These largely primate-specific elements are associated with inter-species gene expression differences and are bound by transcription factors with key roles in placental development. Using genetic editing, we demonstrate that several elements act as transcriptional enhancers of important placental genes, such as CSF1R and PSG5. We also identify an LTR10A element that regulates ENG expression, affecting secretion of soluble endoglin, with potential implications for preeclampsia. Our data show that transposons have made important contributions to human trophoblast gene regulation, and suggest that their activity may affect pregnancy outcomes."
+}
+],
+"text": "The placenta is a fast-evolving organ with large morphological and histological differences across eutherians, but the genetic changes driving placental evolution have not been fully elucidated. Transposable elements, through their capacity to quickly generate genetic variation and affect host gene regulation, may have helped to define species-specific trophoblast gene expression programs. Here we assess the contribution of transposable elements to human trophoblast gene expression as enhancers or promoters. Using epigenomic data from primary human trophoblast and trophoblast stem-cell lines, we identified multiple endogenous retrovirus families with regulatory potential that lie close to genes with preferential expression in trophoblast. These largely primate-specific elements are associated with inter-species gene expression differences and are bound by transcription factors with key roles in placental development. Using genetic editing, we demonstrate that several elements act as transcriptional enhancers of important placental genes, such as CSF1R and PSG5. We also identify an LTR10A element that regulates ENG expression, affecting secretion of soluble endoglin, with potential implications for preeclampsia. Our data show that transposons have made important contributions to human trophoblast gene regulation, and suggest that their activity may affect pregnancy outcomes.",
+"statements": [
+{
+"j": 1,
+"text": "An LTR10A element was found to control ENG expression and thereby the secretion of soluble endoglin, relevant to preeclampsia."
+},
+{
+"j": 2,
+"text": "Genetic editing showed several of these elements act as transcriptional enhancers for placental genes including CSF1R and PSG5."
+},
+{
+"j": 3,
+"text": "The primate-specific ERV enhancers arose more recently than the placental genes they regulate."
+},
+{
+"j": 4,
+"text": "The regulatory endogenous retrovirus families identified lie close to genes showing lower expression in trophoblast."
+}
+]
+},
+{
+"n": 1608,
+"id": "pmid:38096901",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The long interspersed element-1 (LINE-1, hereafter L1) retrotransposon has generated nearly one-third of the human genome and serves as an active source of genetic diversity and human disease 1 . L1 spreads through a mechanism termed target-primed reverse transcription, in which the encoded enzyme (ORF2p) nicks the target DNA to prime reverse transcription of its own or non-self RNAs 2 . Here we purified full-length L1 ORF2p and biochemically reconstituted robust target-primed reverse transcription with template RNA and target-site DNA. We report cryo-electron microscopy structures of the complete human L1 ORF2p bound to structured template RNAs and initiating cDNA synthesis. The template polyadenosine tract is recognized in a sequence-specific manner by five distinct domains. Among them, an RNA-binding domain bends the template backbone to allow engagement of an RNA hairpin stem with the L1 ORF2p C-terminal segment. Moreover, structure and biochemical reconstitutions demonstrate an unexpected target-site requirement: L1 ORF2p relies on upstream single-stranded DNA to position the adjacent duplex in the endonuclease active site for nicking of the longer DNA strand, with a single nick generating a staggered DNA break. Our research provides insights into the mechanism of ongoing transposition in the human genome and informs the engineering of retrotransposon proteins for gene therapy."
+}
+],
+"text": "The long interspersed element-1 (LINE-1, hereafter L1) retrotransposon has generated nearly one-third of the human genome and serves as an active source of genetic diversity and human disease 1 . L1 spreads through a mechanism termed target-primed reverse transcription, in which the encoded enzyme (ORF2p) nicks the target DNA to prime reverse transcription of its own or non-self RNAs 2 . Here we purified full-length L1 ORF2p and biochemically reconstituted robust target-primed reverse transcription with template RNA and target-site DNA. We report cryo-electron microscopy structures of the complete human L1 ORF2p bound to structured template RNAs and initiating cDNA synthesis. The template polyadenosine tract is recognized in a sequence-specific manner by five distinct domains. Among them, an RNA-binding domain bends the template backbone to allow engagement of an RNA hairpin stem with the L1 ORF2p C-terminal segment. Moreover, structure and biochemical reconstitutions demonstrate an unexpected target-site requirement: L1 ORF2p relies on upstream single-stranded DNA to position the adjacent duplex in the endonuclease active site for nicking of the longer DNA strand, with a single nick generating a staggered DNA break. Our research provides insights into the mechanism of ongoing transposition in the human genome and informs the engineering of retrotransposon proteins for gene therapy.",
+"statements": [
+{
+"j": 1,
+"text": "A sequence-specific polyadenosine tract in the template RNA is recognized by five separate domains of the enzyme."
+},
+{
+"j": 2,
+"text": "L1 ORF2p nicks target DNA more efficiently than the endonucleases encoded by other retrotransposons."
+},
+{
+"j": 3,
+"text": "L1 ORF2p uses upstream single-stranded DNA to place the adjacent duplex in its endonuclease active site, nicking the shorter DNA strand."
+},
+{
+"j": 4,
+"text": "The researchers purified intact L1 ORF2p and rebuilt target-primed reverse transcription in vitro with template RNA and target-site DNA."
+}
+]
+},
+{
+"n": 1609,
+"id": "pmid:37658059",
+"year": 2023,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Transposable elements (TE) are repetitive genomic elements that harbor binding sites for human transcription factors (TF). A regulatory role for TEs has been suggested in embryonal development and diseases such as cancer but systematic investigation of their functions has been limited by their widespread silencing in the genome. Here, we utilize unbiased massively parallel reporter assay data using a whole human genome library to identify TEs with functional enhancer activity in two human cancer types of endodermal lineage, colorectal and liver cancers. We show that the identified TE enhancers are characterized by genomic features associated with active enhancers, such as epigenetic marks and TF binding. Importantly, we identify distinct TE subfamilies that function as tissue-specific enhancers, namely MER11- and LTR12-elements in colon and liver cancers, respectively. These elements are bound by distinct TFs in each cell type, and they have predicted associations to differentially expressed genes. In conclusion, these data demonstrate how different cancer types can utilize distinct TEs as tissue-specific enhancers, paving the way for comprehensive understanding of the role of TEs as bona fide enhancers in the cancer genomes."
+}
+],
+"text": "Transposable elements (TE) are repetitive genomic elements that harbor binding sites for human transcription factors (TF). A regulatory role for TEs has been suggested in embryonal development and diseases such as cancer but systematic investigation of their functions has been limited by their widespread silencing in the genome. Here, we utilize unbiased massively parallel reporter assay data using a whole human genome library to identify TEs with functional enhancer activity in two human cancer types of endodermal lineage, colorectal and liver cancers. We show that the identified TE enhancers are characterized by genomic features associated with active enhancers, such as epigenetic marks and TF binding. Importantly, we identify distinct TE subfamilies that function as tissue-specific enhancers, namely MER11- and LTR12-elements in colon and liver cancers, respectively. These elements are bound by distinct TFs in each cell type, and they have predicted associations to differentially expressed genes. In conclusion, these data demonstrate how different cancer types can utilize distinct TEs as tissue-specific enhancers, paving the way for comprehensive understanding of the role of TEs as bona fide enhancers in the cancer genomes.",
+"statements": [
+{
+"j": 1,
+"text": "The TE enhancers identified carry hallmarks of active enhancers, such as epigenetic marks and transcription-factor binding."
+},
+{
+"j": 2,
+"text": "A genome-wide reporter assay flagged transposable elements with functional enhancer activity in two endoderm-derived cancers, colorectal and liver."
+},
+{
+"j": 3,
+"text": "Distinct TE subfamilies serve as tissue-specific enhancers, MER11 elements in colon cancer and LTR12 elements in liver cancer."
+},
+{
+"j": 4,
+"text": "Silencing these TE-derived enhancers slows proliferation of colorectal and liver cancer cells."
+}
+]
+},
+{
+"n": 1610,
+"id": "pmid:37910626",
+"year": 2023,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The genetic mechanisms underlying the expansion in size and complexity of the human brain remain poorly understood. Long interspersed nuclear element-1 (L1) retrotransposons are a source of divergent genetic information in hominoid genomes, but their importance in physiological functions and their contribution to human brain evolution are largely unknown. Using multiomics profiling, we here demonstrate that L1 promoters are dynamically active in the developing and the adult human brain. L1s generate hundreds of developmentally regulated and cell type-specific transcripts, many that are co-opted as chimeric transcripts or regulatory RNAs. One L1-derived long noncoding RNA, LINC01876 , is a human-specific transcript expressed exclusively during brain development. CRISPR interference silencing of LINC01876 results in reduced size of cerebral organoids and premature differentiation of neural progenitors, implicating L1s in human-specific developmental processes. In summary, our results demonstrate that L1-derived transcripts provide a previously undescribed layer of primate- and human-specific transcriptome complexity that contributes to the functional diversification of the human brain."
+}
+],
+"text": "The genetic mechanisms underlying the expansion in size and complexity of the human brain remain poorly understood. Long interspersed nuclear element-1 (L1) retrotransposons are a source of divergent genetic information in hominoid genomes, but their importance in physiological functions and their contribution to human brain evolution are largely unknown. Using multiomics profiling, we here demonstrate that L1 promoters are dynamically active in the developing and the adult human brain. L1s generate hundreds of developmentally regulated and cell type-specific transcripts, many that are co-opted as chimeric transcripts or regulatory RNAs. One L1-derived long noncoding RNA, LINC01876 , is a human-specific transcript expressed exclusively during brain development. CRISPR interference silencing of LINC01876 results in reduced size of cerebral organoids and premature differentiation of neural progenitors, implicating L1s in human-specific developmental processes. In summary, our results demonstrate that L1-derived transcripts provide a previously undescribed layer of primate- and human-specific transcriptome complexity that contributes to the functional diversification of the human brain.",
+"statements": [
+{
+"j": 1,
+"text": "L1-derived transcriptome complexity contributes more to human cognition than to cognition in other primates."
+},
+{
+"j": 2,
+"text": "L1 elements give rise to hundreds of developmentally regulated, cell-type-specific transcripts, many co-opted as chimeric transcripts or regulatory RNAs."
+},
+{
+"j": 3,
+"text": "Multiomics profiling showed L1 promoters are actively transcribed in both the developing and the adult human brain."
+},
+{
+"j": 4,
+"text": "Silencing LINC01876 by CRISPR interference elevated the size of cerebral organoids and drove neural progenitors to differentiate prematurely."
+}
+]
+},
+{
+"n": 1611,
+"id": "pmid:40023154",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Clear cell renal cell carcinoma (ccRCC), despite having a low mutational burden, is considered immunogenic because it occasionally undergoes spontaneous regressions and often responds to immunotherapies. The signature lesion in ccRCC is inactivation of the VHL tumor suppressor gene and consequent upregulation of the HIF transcription factor. An earlier case report described a ccRCC patient who was cured by an allogeneic stem cell transplant and later found to have donor-derived T cells that recognized a ccRCC-specific peptide encoded by a HIF-responsive endogenous retrovirus (ERV), ERVE-4. We report that ERVE-4 is one of many ERVs that are induced by HIF, translated into HLA-bound peptides in ccRCCs, and capable of generating antigen-specific T cell responses. Moreover, ERV expression can be induced in non-ccRCC tumors with clinical-grade HIF stabilizers. These findings have implications for leveraging ERVs for cancer immunotherapy."
+}
+],
+"text": "Clear cell renal cell carcinoma (ccRCC), despite having a low mutational burden, is considered immunogenic because it occasionally undergoes spontaneous regressions and often responds to immunotherapies. The signature lesion in ccRCC is inactivation of the VHL tumor suppressor gene and consequent upregulation of the HIF transcription factor. An earlier case report described a ccRCC patient who was cured by an allogeneic stem cell transplant and later found to have donor-derived T cells that recognized a ccRCC-specific peptide encoded by a HIF-responsive endogenous retrovirus (ERV), ERVE-4. We report that ERVE-4 is one of many ERVs that are induced by HIF, translated into HLA-bound peptides in ccRCCs, and capable of generating antigen-specific T cell responses. Moreover, ERV expression can be induced in non-ccRCC tumors with clinical-grade HIF stabilizers. These findings have implications for leveraging ERVs for cancer immunotherapy.",
+"statements": [
+{
+"j": 1,
+"text": "HIF-stabilizing drugs prolong survival in patients with non-ccRCC tumours."
+},
+{
+"j": 2,
+"text": "Inactivation of the VHL tumour suppressor in ccRCC drives downregulation of the HIF transcription factor."
+},
+{
+"j": 3,
+"text": "Clinical-grade HIF stabilizers can switch on ERV expression even in tumours that are not ccRCC."
+},
+{
+"j": 4,
+"text": "The study reports ERVE-4 is one of many HIF-induced ERVs that become HLA-bound peptides in ccRCC and elicit antigen-specific T-cell responses."
+}
+]
+},
+{
+"n": 1612,
+"id": "pmid:37738971",
+"year": 2023,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The mobility of transposable elements (TEs) contributes to evolution of genomes. Their uncontrolled activity causes genomic instability; therefore, expression of TEs is silenced by host genomes. TEs are marked with DNA and H3K9 methylation, which are associated with silencing in flowering plants, animals, and fungi. However, in distantly related groups of eukaryotes, TEs are marked by H3K27me3 deposited by the Polycomb repressive complex 2 (PRC2), an epigenetic mark associated with gene silencing in flowering plants and animals. The direct silencing of TEs by PRC2 has so far only been shown in one species of ciliates. To test if PRC2 silences TEs in a broader range of eukaryotes, we generated mutants with reduced PRC2 activity and analyzed the role of PRC2 in extant species along the lineage of Archaeplastida and in the diatom P. tricornutum. In this diatom and the red alga C. merolae, a greater proportion of TEs than genes were repressed by PRC2, whereas a greater proportion of genes than TEs were repressed by PRC2 in bryophytes. In flowering plants, TEs contained potential cis-elements recognized by transcription factors and associated with neighbor genes as transcriptional units repressed by PRC2. Thus, silencing of TEs by PRC2 is observed not only in Archaeplastida but also in diatoms and ciliates, suggesting that PRC2 deposited H3K27me3 to silence TEs in the last common ancestor of eukaryotes. We hypothesize that during the evolution of Archaeplastida, TE fragments marked with H3K27me3 were selected to shape transcriptional regulation, controlling networks of genes regulated by PRC2."
+}
+],
+"text": "The mobility of transposable elements (TEs) contributes to evolution of genomes. Their uncontrolled activity causes genomic instability; therefore, expression of TEs is silenced by host genomes. TEs are marked with DNA and H3K9 methylation, which are associated with silencing in flowering plants, animals, and fungi. However, in distantly related groups of eukaryotes, TEs are marked by H3K27me3 deposited by the Polycomb repressive complex 2 (PRC2), an epigenetic mark associated with gene silencing in flowering plants and animals. The direct silencing of TEs by PRC2 has so far only been shown in one species of ciliates. To test if PRC2 silences TEs in a broader range of eukaryotes, we generated mutants with reduced PRC2 activity and analyzed the role of PRC2 in extant species along the lineage of Archaeplastida and in the diatom P. tricornutum. In this diatom and the red alga C. merolae, a greater proportion of TEs than genes were repressed by PRC2, whereas a greater proportion of genes than TEs were repressed by PRC2 in bryophytes. In flowering plants, TEs contained potential cis-elements recognized by transcription factors and associated with neighbor genes as transcriptional units repressed by PRC2. Thus, silencing of TEs by PRC2 is observed not only in Archaeplastida but also in diatoms and ciliates, suggesting that PRC2 deposited H3K27me3 to silence TEs in the last common ancestor of eukaryotes. We hypothesize that during the evolution of Archaeplastida, TE fragments marked with H3K27me3 were selected to shape transcriptional regulation, controlling networks of genes regulated by PRC2.",
+"statements": [
+{
+"j": 1,
+"text": "To test this, the researchers generated mutants with lowered PRC2 activity across the Archaeplastida lineage and in the diatom P. tricornutum."
+},
+{
+"j": 2,
+"text": "Reducing PRC2 activity reactivates transposon mobility and triggers genome instability in the diatom."
+},
+{
+"j": 3,
+"text": "In the diatom P. tricornutum and the red alga C. merolae, a smaller fraction of transposable elements than of genes fell under PRC2 silencing."
+},
+{
+"j": 4,
+"text": "PRC2-mediated TE silencing occurs across Archaeplastida as well as in diatoms and ciliates, pointing to H3K27me3 TE silencing in the eukaryotic last common ancestor."
+}
+]
+},
+{
+"n": 1613,
+"id": "pmid:38926616",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Insertion sequence (IS) elements are the simplest autonomous transposable elements found in prokaryotic genomes 1 . We recently discovered that IS110 family elements encode a recombinase and a non-coding bridge RNA (bRNA) that confers modular specificity for target DNA and donor DNA through two programmable loops 2 . Here we report the cryo-electron microscopy structures of the IS110 recombinase in complex with its bRNA, target DNA and donor DNA in three different stages of the recombination reaction cycle. The IS110 synaptic complex comprises two recombinase dimers, one of which houses the target-binding loop of the bRNA and binds to target DNA, whereas the other coordinates the bRNA donor-binding loop and donor DNA. We uncovered the formation of a composite RuvC-Tnp active site that spans the two dimers, positioning the catalytic serine residues adjacent to the recombination sites in both target and donor DNA. A comparison of the three structures revealed that (1) the top strands of target and donor DNA are cleaved at the composite active sites to form covalent 5'-phosphoserine intermediates, (2) the cleaved DNA strands are exchanged and religated to create a Holliday junction intermediate, and (3) this intermediate is subsequently resolved by cleavage of the bottom strands. Overall, this study reveals the mechanism by which a bispecific RNA confers target and donor DNA specificity to IS110 recombinases for programmable DNA recombination."
+}
+],
+"text": "Insertion sequence (IS) elements are the simplest autonomous transposable elements found in prokaryotic genomes 1 . We recently discovered that IS110 family elements encode a recombinase and a non-coding bridge RNA (bRNA) that confers modular specificity for target DNA and donor DNA through two programmable loops 2 . Here we report the cryo-electron microscopy structures of the IS110 recombinase in complex with its bRNA, target DNA and donor DNA in three different stages of the recombination reaction cycle. The IS110 synaptic complex comprises two recombinase dimers, one of which houses the target-binding loop of the bRNA and binds to target DNA, whereas the other coordinates the bRNA donor-binding loop and donor DNA. We uncovered the formation of a composite RuvC-Tnp active site that spans the two dimers, positioning the catalytic serine residues adjacent to the recombination sites in both target and donor DNA. A comparison of the three structures revealed that (1) the top strands of target and donor DNA are cleaved at the composite active sites to form covalent 5'-phosphoserine intermediates, (2) the cleaved DNA strands are exchanged and religated to create a Holliday junction intermediate, and (3) this intermediate is subsequently resolved by cleavage of the bottom strands. Overall, this study reveals the mechanism by which a bispecific RNA confers target and donor DNA specificity to IS110 recombinases for programmable DNA recombination.",
+"statements": [
+{
+"j": 1,
+"text": "Cryo-EM captured the IS110 recombinase bound to its bridge RNA, target DNA and donor DNA at three different stages of the recombination cycle."
+},
+{
+"j": 2,
+"text": "The IS110 synaptic complex contains two recombinase dimers, one binding the bridge RNA's target loop and target DNA, the other its donor loop and donor DNA."
+},
+{
+"j": 3,
+"text": "A composite RuvC-Tnp active site forms across the two dimers, placing catalytic serine residues beside the recombination sites in both target and donor DNA."
+},
+{
+"j": 4,
+"text": "IS110 recombinases can be reprogrammed to insert DNA at chosen sites in human cells."
+}
+]
+},
+{
+"n": 1614,
+"id": "pmid:39251347",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Much of the profound interspecific variation in genome content has been attributed to transposable elements (TEs). To explore the extent of TE variation within species, we developed an optimized open-source algorithm, panEDTA, to de novo annotate TEs in a pangenome context. We then generated a unified TE annotation for a maize pangenome derived from 26 reference-quality genomes, which reveals an excess of 35.1 Mb of TE sequences per genome in tropical maize relative to temperate maize. A small number ( n = 216) of TE families, mainly LTR retrotransposons, drive these differences. Evidence from the methylome, transcriptome, LTR age distribution, and LTR insertional polymorphisms reveals that 64.7% of the variability is contributed by LTR families that are young, less methylated, and more expressed in tropical maize, whereas 18.5% is driven by LTR families with removal or loss in temperate maize. Additionally, we find enrichment for Young LTR families adjacent to nucleotide-binding and leucine-rich repeat (NLR) clusters of varying copy number across lines, suggesting TE activity may be associated with disease resistance in maize."
+}
+],
+"text": "Much of the profound interspecific variation in genome content has been attributed to transposable elements (TEs). To explore the extent of TE variation within species, we developed an optimized open-source algorithm, panEDTA, to de novo annotate TEs in a pangenome context. We then generated a unified TE annotation for a maize pangenome derived from 26 reference-quality genomes, which reveals an excess of 35.1 Mb of TE sequences per genome in tropical maize relative to temperate maize. A small number ( n = 216) of TE families, mainly LTR retrotransposons, drive these differences. Evidence from the methylome, transcriptome, LTR age distribution, and LTR insertional polymorphisms reveals that 64.7% of the variability is contributed by LTR families that are young, less methylated, and more expressed in tropical maize, whereas 18.5% is driven by LTR families with removal or loss in temperate maize. Additionally, we find enrichment for Young LTR families adjacent to nucleotide-binding and leucine-rich repeat (NLR) clusters of varying copy number across lines, suggesting TE activity may be associated with disease resistance in maize.",
+"statements": [
+{
+"j": 1,
+"text": "The young LTR families expanding in tropical maize raise grain yield under heat stress."
+},
+{
+"j": 2,
+"text": "A small set of 216 TE families, mostly LTR retrotransposons, accounts for these differences between tropical and temperate maize."
+},
+{
+"j": 3,
+"text": "Tropical maize genomes carry about 35.1 Mb less transposable-element sequence per genome than temperate maize."
+},
+{
+"j": 4,
+"text": "About two-thirds (64.7%) of the variability traces to young LTR families that are less methylated and more expressed in tropical maize."
+}
+]
+}
+]
+}

@@ -1,0 +1,309 @@
+{
+ "batch": "check_A_102",
+ "pass": "A",
+ "prompt_version": "check-v1",
+ "items": [
+  {
+   "n": 1665,
+   "id": "pmid:29967174",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "depletion of chromatin-associated cohesin reduced TADs and revealed finer compartments"
+    },
+    {
+     "j": 2,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "[topologically associating domains (TADs)] and are central to gene regulation"
+    },
+    {
+     "j": 3,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "Loop extrusion, essential for TAD formation, in turn, interferes with compartmentalization."
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "alternating regions (1-10 Mb) of active and inactive chromatin that spatially segregate into different compartments"
+    }
+   ]
+  },
+  {
+   "n": 1666,
+   "id": "pmid:28467304",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "after unbinding, CTCF quickly rebinds another cognate site unlike cohesin for which the search process is long"
+    },
+    {
+     "j": 2,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "CTCF binds chromatin much more dynamically than cohesin (~1-2 min vs. ~22 min residence time)"
+    },
+    {
+     "j": 3,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "CTCF and cohesin co-occupy the same sites and physically interact as a biochemically stable complex"
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "CTCF and cohesin form a rapidly exchanging 'dynamic complex' rather than a typical stable complex"
+    }
+   ]
+  },
+  {
+   "n": 1667,
+   "id": "pmid:32302590",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "cells initially counteract via a calcium-dependent nuclear softening driven by loss of H3K9me3-marked heterochromatin"
+    },
+    {
+     "j": 2,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "Failure to mount this nuclear mechanoresponse results in DNA damage."
+    },
+    {
+     "j": 3,
+     "label": "not_addressed",
+     "confidence": 2,
+     "evidence": "This tissue-scale mechanoadaptation functions through a separate pathway mediated by cell-cell contacts",
+     "flag": "ambiguous",
+     "reason": "The abstract attributes the tissue-scale pathway to cell-cell contacts and never mentions integrins or cell-matrix adhesions, so it can be read as naming a different mediator (contradicting) or as simply not addressing integrin dependence."
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "The resulting changes in chromatin rheology and architecture are required to insulate genetic material from mechanical force."
+    }
+   ]
+  },
+  {
+   "n": 1668,
+   "id": "pmid:27626377",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "We developed a micro-scale chromatin immunoprecipitation and sequencing (μChIP-seq) method, which we used to profile genome-wide histone H3 lysine methylation (H3K4me3) and acetylation (H3K27ac) in mouse immature and metaphase II oocytes and in 2-cell and 8-cell embryos"
+    },
+    {
+     "j": 2,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "~22% of the oocyte genome is associated with broad H3K4me3 domains that are anti-correlated with DNA methylation"
+    },
+    {
+     "j": 3,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "Recent improvements allow for 500 cell-equivalents of chromatin per reaction, but require 10,000 cells for initial steps"
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "Active removal of broad H3K4me3 domains by the lysine demethylases KDM5A and KDM5B is required for normal zygotic genome activation and is essential for early embryo development."
+    }
+   ]
+  },
+  {
+   "n": 1669,
+   "id": "pmid:29374079",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "substantial fractions of primary B lymphocytes, monocytes, and plasmacytoid dendritic cells not only in women but also in Klinefelter syndrome males express TLR7 on both X chromosomes"
+    },
+    {
+     "j": 2,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "TLR7 escape from X inactivation endows the B cell compartment with added responsiveness to TLR7 ligands."
+    },
+    {
+     "j": 3,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "biallelic cells showed a greater than twofold increase over monoallelic cells in the propensity to immunoglobulin G class switch"
+    },
+    {
+     "j": 4,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "This finding supports the hypothesis that enhanced TLR7 expression owing to biallelism contributes to the higher risk of developing SLE"
+    }
+   ]
+  },
+  {
+   "n": 1670,
+   "id": "pmid:28111071",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "inducing the redistribution of somatic TFs away from somatic enhancers to sites elsewhere engaged by OSK, recruiting Hdac1, and repressing the somatic TF Fra1"
+    },
+    {
+     "j": 2,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "OSK predominantly bind active somatic enhancers early in reprogramming and immediately initiate their inactivation genome-wide"
+    },
+    {
+     "j": 3,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "Most pluripotency enhancers are selected later in the process and require OS and other pluripotency TFs."
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "recruiting Hdac1, and repressing the somatic TF Fra1"
+    }
+   ]
+  },
+  {
+   "n": 1671,
+   "id": "pmid:30602787",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "cell-type-specific gene expression is primarily shaped by changes in burst frequencies"
+    },
+    {
+     "j": 2,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "Here we determine transcriptome-wide burst frequencies and sizes for endogenous mouse and human genes using allele-sensitive single-cell RNA sequencing."
+    },
+    {
+     "j": 3,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "allelic single-cell RNA sequencing is a powerful model for investigating transcriptional kinetics"
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "core promoter elements affect burst size and uncover synergistic effects between TATA and initiator elements, which were masked at mean expression levels"
+    }
+   ]
+  },
+  {
+   "n": 1672,
+   "id": "pmid:28703188",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "chromatin compaction in preimplantation embryos can partially proceed in the absence of zygotic transcription and is a multi-level hierarchical process"
+    },
+    {
+     "j": 2,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "The two sets of parental chromosomes are spatially separated from each other and display distinct compartmentalization in zygotes. Such allele separation and allelic compartmentalization can be found as late as the 8-cell stage."
+    },
+    {
+     "j": 3,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "chromatin shows greatly diminished higher-order structure after fertilization"
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "oocytes in metaphase II show homogeneous chromatin folding that lacks detectable topologically associating domains (TADs) and chromatin compartments"
+    }
+   ]
+  },
+  {
+   "n": 1673,
+   "id": "pmid:28826674",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "transcriptional state is a major predictor of Hi-C contact maps in several eukaryotes tested, including C. elegans and A. thaliana"
+    },
+    {
+     "j": 2,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "Using high-resolution Hi-C and HiChIP, we show that Drosophila chromatin is organized into domains we term compartmental domains that correspond precisely with A/B compartments at high resolution"
+    },
+    {
+     "j": 3,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "Drosophila chromatin is organized into domains we term compartmental domains that correspond precisely with A/B compartments at high resolution"
+    },
+    {
+     "j": 4,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "Architectural proteins insulate compartmental domains by reducing interaction frequencies between neighboring regions in Drosophila"
+    }
+   ]
+  },
+  {
+   "n": 1674,
+   "id": "pmid:27096366",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "we identify a common Parkinson's disease associated risk variant in a non-coding distal enhancer element that regulates the expression of α-synuclein (SNCA)"
+    },
+    {
+     "j": 2,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "the transcriptional deregulation of SNCA is associated with sequence-dependent binding of the brain-specific transcription factors EMX2 and NKX6-1"
+    },
+    {
+     "j": 3,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "Recent genome-scale epigenetic studies have highlighted the enrichment of GWAS-identified variants in regulatory DNA elements of disease-relevant cell types"
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "combining genome-wide epigenetic information with clustered regularly-interspaced short palindromic repeats (CRISPR)/Cas9 genome editing in human pluripotent stem cells"
+    }
+   ]
+  }
+ ]
+}

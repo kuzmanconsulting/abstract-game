@@ -1,0 +1,73 @@
+{"batch": "check_C_108", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1725, "id": "pmid:17277777",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "predicting over 200 promoters and 400 enhancers within the 30-Mb region"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "active promoters are marked by trimethylation of Lys4 of histone H3 (H3K4), whereas enhancers are marked by monomethylation, but not trimethylation, of H3K4"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We determined the chromatin modification states in high resolution along 30 Mb of the human genome"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "active promoters are marked by trimethylation of Lys4 of histone H3 (H3K4)"}
+    ]},
+   {"n": 1726, "id": "pmid:21106759",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "we interrogate the epigenetic landscape of enhancer elements in embryonic stem cells and several adult tissues in the mouse"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "This indicates that the amount of actively used enhancers is lower than previously anticipated."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "we show that enhancers are reset during nuclear reprogramming"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "histone H3K27ac distinguishes active enhancers from inactive/poised enhancer elements containing H3K4me1 alone"}
+    ]},
+   {"n": 1727, "id": "pmid:23582322",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Super-enhancers differ from typical enhancers in size, transcription factor density and content, ability to activate transcription, and sensitivity to perturbation"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "consist of clusters of enhancers that are densely occupied by the master regulators and Mediator"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Super-enhancers thus play key roles in the control of mammalian cell identity."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Reduced levels of Oct4 or Mediator cause preferential loss of expression of super-enhancer-associated genes relative to other genes"}
+    ]},
+   {"n": 1728, "id": "pmid:20393465",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "A function of CBP at enhancers may be to recruit RNA polymerase II (RNAPII), as we also observed activity-regulated RNAPII binding to thousands of enhancers"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "RNAPII at enhancers transcribes bi-directionally a novel class of enhancer RNAs (eRNAs) within enhancer domains defined by the presence of histone H3 monomethylated at lysine 4"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "The level of eRNA expression at neuronal enhancers positively correlates with the level of messenger RNA synthesis at nearby genes"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We identified approximately 12,000 neuronal activity-regulated enhancers that are bound by the general transcriptional co-activator CBP in an activity-dependent manner"}
+    ]},
+   {"n": 1729, "id": "pmid:19295514",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "to locate promoters, enhancers and insulators in the human genome"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Our results define over 55,000 potential transcriptional enhancers in the human genome"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "enhancers are marked with highly cell-type-specific histone modification patterns, strongly correlate to cell-type-specific gene expression programs on a global scale"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "the chromatin state at promoters and CTCF-binding at insulators is largely invariant across diverse cell types. In contrast, enhancers are marked with highly cell-type-specific histone modification patterns"}
+    ]},
+   {"n": 1730, "id": "pmid:21160473",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "indicate an unappreciated role of H3K27me3 at distal regulatory elements"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "are distinguished by the absence of H3K27ac, enrichment of histone H3 lysine 27 trimethylation (H3K27me3)"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "both of which are marked by the presence of chromatin regulators p300 and BRG1, monomethylation of histone H3 at lysine 4 (H3K4me1), and low nucleosomal density"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "during differentiation of hESCs to neuroepithelium, a neuroectoderm-specific subset of poised enhancers acquires a chromatin signature associated with active enhancers"}
+    ]},
+   {"n": 1731, "id": "pmid:17604720",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "termed HOTAIR, which represses transcription in trans across 40 kilobases of the HOXD locus"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "HOTAIR interacts with Polycomb Repressive Complex 2 (PRC2) and is required for PRC2 occupancy and histone H3 lysine-27 trimethylation of HOXD locus"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "these results have broad implications for gene regulation in development and disease states"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "the four human HOX loci at five base pair resolution in 11 anatomic sites and identify 231 HOX ncRNAs"}
+    ]},
+   {"n": 1732, "id": "pmid:19182780",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "demonstrating a diverse range of roles for lincRNAs in processes from embryonic stem cell pluripotency to cell proliferation"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Our approach identified approximately 1,600 large multi-exonic RNAs across four mouse cell types"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "with greater than 95% showing clear evolutionary conservation"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "specific lincRNAs are transcriptionally regulated by key transcription factors in these processes such as p53, NFkappaB, Sox2, Oct4 (also known as Pou5f1) and Nanog"}
+    ]},
+   {"n": 1733, "id": "pmid:16630818",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 2, "evidence": "the ES cell regulators OCT4, SOX2, and NANOG cooccupy a significant subset of these genes", "flag": "ambiguous", "reason": "The abstract reports co-occupancy of these factors but does not state they recruit PRC2, so the causal claim is neither asserted nor denied."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "PRC2 target genes are preferentially activated during ES cell differentiation"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "These genes are occupied by nucleosomes trimethylated at histone H3K27, are transcriptionally repressed"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "SUZ12 is distributed across large portions of over two hundred genes encoding key developmental regulators"}
+    ]},
+   {"n": 1734, "id": "pmid:16357870",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "EZH2 (Enhancer of Zeste homolog 2) interacts-within the context of the Polycomb repressive complexes 2 and 3 (PRC2/3)-with DNA methyltransferases (DNMTs) and associates with DNMT activity in vivo"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "binding of DNMTs to several EZH2-repressed genes depends on the presence of EZH2"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "highlighting a previously unrecognized direct connection between two key epigenetic repression systems"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we show by bisulphite genomic sequencing that EZH2 is required for DNA methylation of EZH2-target promoters"}
+    ]}
+ ]}

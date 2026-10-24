@@ -1,0 +1,65 @@
+{
+"batch": "check_A_77", "pass": "A", "prompt_version": "check-v1",
+"items": [
+    {"n": 1415, "id": "pmid:36780195", "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Tumor DNA levels were higher in urine supernatants and urine pellets compared with plasma samples (P < 0.001)."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Detection of tumor DNA after NAC was associated with lower response rates in plasma, urine supernatant, and urine pellet (P < 0.001, P = 0.03, P = 0.002)."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We identified tumor DNA before NAC in 89% of urine supernatants, 85% of urine pellets, and 43% of plasma samples."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "In plasma, detection of circulating tumor DNA (ctDNA) before NAC was associated with a lower NAC response rate (P < 0.001)."}
+    ]},
+    {"n": 1416, "id": "pmid:36043882", "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "ctDNA can greatly complement tissue testing in identifying patients with mCRPC and BRCA or ATM alterations who are potentially suitable for receiving targeted PARP inhibitor treatments"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "81% (503/619) of ctDNA samples yielded an NGS result"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "concordance was high for nonsense (93%), splice (87%), and frameshift (86%) alterations but lower for large rearrangements (63%) and homozygous deletions (27%)"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "BRCA and ATM status in tissue compared with ctDNA showed 81% positive percentage agreement and 92% negative percentage agreement, using tissue as reference"}
+    ]},
+    {"n": 1417, "id": "pmid:38632274", "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "In an additional cohort of 41 patients with CUP CUPiD predictions were made in 32/41 (78.0%) cases, with 88.5% of the predictions clinically consistent with a subsequent or suspected primary tumour diagnosis, when available (23/26 patients)."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Combining CUPiD with cfDNA mutation data demonstrated potential diagnosis re-classification and/or treatment change in this hard-to-treat cancer group."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "a machine learning classifier for accurate TOO predictions across 29 tumour classes using circulating cell-free DNA (cfDNA) methylation patterns"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "We tested CUPiD on 143 cfDNA samples from patients with 13 cancer types alongside 27 non-cancer controls, with overall sensitivity of 84.6% and TOO accuracy of 96.8%."}
+    ]},
+    {"n": 1418, "id": "pmid:37330052", "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "most of these analyses used whole-genome sequencing, which is insufficient to identify FDA-approved biomarker indications in a cost-effective manner"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Training cross-validated accuracy was 80.6%, and accuracy in the independent validation cohort was 76.3%."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "In the UW cohort, training cross-validated accuracy was 82.1%, and accuracy in the independent validation cohort was 86.6%"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "In the validation cohort where the ctDNA fractions were all <0.05 and as low as 0.0003, the cancer versus non-cancer area under the curve was 0.99."}
+    ]},
+    {"n": 1419, "id": "pmid:36630480", "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "we developed a machine learning model to differentiate healthy individuals from patients with cancer"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Our findings remained robust with as few as 1 million fragments analyzed per sample"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "iwFAF strongly correlated with tumor fraction, was higher for DNA fragments carrying somatic mutations"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We observed an area under the receiver operative characteristic curve (AUC) of 0.91 for detection of cancer at any stage and an AUC of 0.87 for detection of stage I cancer."}
+    ]},
+    {"n": 1420, "id": "pmid:37972346", "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "patients at high risk of recurrence for future treatment intensification trials"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "On multivariable analyses, detectable HPV ctDNA on dPCR and HPV-seq remained independently associated with inferior PFS."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "HPV-seq showed similar results as dPCR."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "had significantly worse 2-year PFS compared with those with undetectable HPV ctDNA (77% v 51%, P = .03; 82% v 15%, P < .001; and 82% v 24%, P < .001, respectively)"}
+    ]},
+    {"n": 1421, "id": "pmid:40455622", "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Sensitivity for colorectal cancer was 79.2% (57/72; 95% CI, 68.4%-86.9%) and specificity for advanced colorectal neoplasia was 91.5% (22 306/24 371; 95% CI, 91.2%-91.9%)"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "The negative predictive value for advanced colorectal neoplasia was 90.8% (22 306/24 567; 95% CI, 90.7%-90.9%) and the positive predictive value for advanced colorectal neoplasia was 15.5% (378/2443; 95% CI, 14.2%-16.8%)."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "The sensitivity for advanced precancerous lesions was 12.5% (321/2567; 95% CI, 11.3%-13.8%), which did not meet the prespecified acceptance criterion."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Blood-based screening offers the potential for higher adherence compared with endoscopy or stool-based testing but must first be clinically validated in a screening population."}
+    ]},
+    {"n": 1422, "id": "pmid:37500728", "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "A machine-learning model using genome-wide mutational profiles combined with other features and followed by CT imaging detected >90% of patients with lung cancer"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "A machine-learning model using genome-wide mutational profiles combined with other features and followed by CT imaging detected >90% of patients with lung cancer, including those with stage I and II disease."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "distinct regional mutation type-specific frequencies in tissue and cell-free DNA from patients with cancer that were associated with replication timing and other chromatin features"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "The fixed model was validated in an independent cohort, detected patients with cancer earlier than standard approaches and could be used to monitor response to therapy."}
+    ]},
+    {"n": 1423, "id": "pmid:36648487", "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "enable tissue-agnostic identification of main glioma molecular subtypes"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "tumor DNA is mostly released by cells invading liquoral spaces, generating a gradient that attenuates by departing from the tumor"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "tumor DNA is abundant in CSF close to the tumor, but scanty and mostly below NGS sensitivity threshold in CSF from LP"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "in >60% of LP CSF samples, tumor DNA is sufficient to assess a selected panel of genetic alterations (IDH and TERT promoter mutations, EGFR amplification, CDKN2A/B deletion: ITEC protocol) and MGMT methylation"}
+    ]},
+    {"n": 1424, "id": "pmid:36996325", "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "PFS and OS were shortest for patients with persistent ctDNA at 4 weeks (univariate HR, 4.79; 95% CI, 2.62-8.77 and univariate HR, 5.49; 95% CI, 2.76-10.91, respectively), independent of clinical prognostic factors."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "ctDNA fraction for samples with detected ctDNA was lower at 4 weeks versus baseline (median 5.0% versus 14.5%, P = 0.017)."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "ctDNA was detected in 48/81 (59%) baseline and 29/81 (36%) 4-week samples."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "may inform early therapy switches or treatment intensification"}
+    ]}
+  ]
+}

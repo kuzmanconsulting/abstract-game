@@ -1,0 +1,73 @@
+{"batch": "check_A_104", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1685, "id": "pmid:27398909",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Perturbing this mechanosensory pathway by deleting NMIIA in mouse epidermis leads to attenuated H3K27me3-mediated silencing and precocious lineage commitment, abrogating morphogenesis."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "recruitment of NMIIA to promote local actin polymerization that reduces nuclear actin levels, resulting in attenuation of transcription and subsequent accumulation of H3K27me3 at facultative heterochromatin"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "deleting NMIIA in mouse epidermis leads to attenuated H3K27me3-mediated silencing and precocious lineage commitment"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Force-driven enrichment of Emd at the outer nuclear membrane of epidermal stem cells leads to defective heterochromatin anchoring to the nuclear lamina and a switch from H3K9me2,3 to H3K27me3 occupancy at constitutive heterochromatin."}
+    ]},
+   {"n": 1686, "id": "pmid:29686265",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Here, we map the genome-wide distribution of H3K9me3 modifications in mouse early embryos."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "We identify that Chaf1a is essential for the establishment of H3K9me3 on LTRs and subsequent transcriptional repression."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The rebuilding of H3K9me3 on LTRs is involved in silencing their active transcription triggered by DNA demethylation."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Both parental genomes undergo large-scale H3K9me3 reestablishment after fertilization, and the imbalance in parental H3K9me3 signals lasts until blastocyst."}
+    ]},
+   {"n": 1687, "id": "pmid:27635762",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Unexpectedly, we observed extensive loss of promoter H3K27me3 at Hox and other developmental genes upon fertilization."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "inheritance of distal H3K27me3 from oocytes. The resulting allele-specific H3K27me3 patterns persist to blastocysts"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Using an ultra-sensitive approach, STAR ChIP-seq, we investigated H3K27me3 across 14 developmental stages along mouse gametogenesis and early development."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "This is accompanied by global erasure of sperm H3K27me3 but inheritance of distal H3K27me3 from oocytes."}
+    ]},
+   {"n": 1688, "id": "pmid:29217590",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Fertilization triggers assembly of higher-order chromatin structure from a condensed maternal and a naïve paternal genome to generate a totipotent embryo."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Using snHi-C of mouse knockout embryos, we demonstrate that the zygotic genome folds into loops and domains that critically depend on Scc1-cohesin and that are regulated in size and linear density by Wapl."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Remarkably, we discovered distinct effects on maternal and paternal chromatin loop sizes, likely reflecting differences in loop extrusion dynamics and epigenetic reprogramming."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "cohesin-dependent loop extrusion organizes mammalian genomes over multiple scales from the one-cell embryo onward"}
+    ]},
+   {"n": 1689, "id": "pmid:28507144",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "In the fruits of the tomato mutants, increased DNA methylation was found in thousands of genes."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "we generated loss-of-function mutant alleles of a tomato gene, SlDML2"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Our results show that SlDML2 is critical for tomato fruit ripening and suggest that active DNA demethylation is required for both the activation of ripening-induced genes and the inhibition of ripening-repressed genes."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "These genes included not only hundreds of ripening-induced genes but also many ripening-repressed genes."}
+    ]},
+   {"n": 1690, "id": "pmid:30872525",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "KDM6A loss, like hypoxia, prevented H3K27 demethylation and blocked cellular differentiation."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We found that the H3K27 histone demethylase KDM6A/UTX, but not its paralog KDM6B, is oxygen sensitive."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "KDM6A loss, like hypoxia, prevented H3K27 demethylation and blocked cellular differentiation."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Here, we report that hypoxia promotes histone methylation in a HIF- and 2-HG-independent manner."}
+    ]},
+   {"n": 1691, "id": "pmid:27437574",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We demonstrate a crucial role for Xist and the DXZ4-containing boundary in shaping Xi chromosome structure using allele-specific genome-wide chromosome conformation capture (Hi-C) analysis, an assay for transposase-accessible chromatin with high throughput sequencing (ATAC-seq) and RNA sequencing."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Deletion of the boundary disrupts mega-domain formation, and induction of Xist RNA initiates formation of the boundary and the loss of DNA accessibility."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "in NPCs, the Xi chromosome lacks active/inactive compartments and topologically associating domains (TADs), except around genes that escape XCI."},
+      {"j": 4, "label": "not_addressed", "confidence": 2, "evidence": "Escapee gene clusters display TAD-like structures and retain DNA accessibility at promoter-proximal and CTCF-binding sites."}
+    ]},
+   {"n": 1692, "id": "pmid:31124784",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "we visualize the spatial organization and transcriptional output of the key pluripotency regulator Sox2 and its essential enhancer Sox2 Control Region (SCR) in living embryonic stem cells (ESCs)."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We find that Sox2 and SCR show no evidence of enhanced spatial proximity and that spatial dynamics of this pair is limited over tens of minutes."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Sox2 transcription occurs in short, intermittent bursts in ESCs and, intriguingly, we find this activity demonstrates no association with enhancer proximity"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "supports an unexpected mechanism for enhancer control of Sox2 expression that uncouples transcription from enhancer proximity"}
+    ]},
+   {"n": 1693, "id": "pmid:28483418",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "enhancer H3K4me1 provides only a minor contribution to the long-range coactivator function of Mll3/4"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Loss of H3K4me1 from enhancers in Mll3/4 catalytically deficient cells causes partial reduction of H3K27ac, but has surprisingly minor effects on transcription from either enhancers or promoters."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "downregulated genes exhibit reduced polymerase levels in gene bodies, but not at promoters, suggestive of pause-release defects."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "loss of Mll3/4 proteins leads to strong depletion of enhancer Pol II occupancy and eRNA synthesis, concomitant with downregulation of target genes."}
+    ]},
+   {"n": 1694, "id": "pmid:27121947",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "A missense mutation in the substrate of PRC2, histone H3K27M, is associated with certain pediatric brain cancers and is linked to a global decrease of H3K27me3 in the affected cells"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "The structure and binding studies suggest a mechanism for the oncogenic inhibition of H3K27M."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Polycomb repressive complex 2 (PRC2) silences gene expression through trimethylation of K27 of histone H3 (H3K27me3) via its catalytic SET domain."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "binding of repressive marks, like H3K27me3, to the EED subunit of the complex leads to enhancement of the catalytic efficiency of the SET domain and thus the propagation of this repressive histone modification."}
+    ]}
+ ]}

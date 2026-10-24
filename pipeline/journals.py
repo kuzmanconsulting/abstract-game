@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Leading journals (D23, Maja 2026-10-23 21:14/21:16: "enrich more in Q1 journals, i dont want a lot of random papers …
-or please have a filter for q1 journals only").
+"""Leading journals (D23; requirement 2026-10-23 21:14/21:16: enrich the corpus from Q1 journals rather than from
+lower-ranked ones, and offer a filter for them on the page).
 
 A curated list, not a bibliometric quartile: by SCImago (SJR) or JCR quartile, Scientific Reports, PLoS ONE, the MDPI and
 Frontiers titles and most BMC journals are Q1 in at least one category, which is not what "Q1" means in conversation. The

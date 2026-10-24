@@ -1,0 +1,67 @@
+{
+"batch": "check_A_90",
+"pass": "A",
+"prompt_version": "check-v1",
+"items": [
+{"n": 1545, "id": "pmid:38093017", "verdicts": [
+{"j": 1, "label": "contradicted", "confidence": 3, "evidence": "the expression of circFAM53B and its encoded peptides was associated with substantial infiltration of antigen-specific CD8 + T cells and better survival in patients with breast cancer and patients with melanoma"},
+{"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "administration of vaccines consisting of tumour-specific circRNA or its encoded peptides in mice bearing breast cancer tumours or melanoma induced enhanced infiltration of tumour-antigen-specific cytotoxic T cells, which led to effective tumour control"},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "identified HLA-I-binding cryptic antigenic peptides that were noncanonically translated by a tumour-specific circular RNA (circRNA): circFAM53B"},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "circFAM53B-encoded peptides had strong binding affinity to both HLA-I and HLA-II molecules"}
+]},
+{"n": 1546, "id": "pmid:36599352", "verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "relying exclusively on presence of m6A motifs and exon-intron architecture, allows in silico recapitulation of experimentally measured m6A profiles"},
+{"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "unless they are within a window of ∼100 nt from a splice junction"},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "exclusion from splice junctions is mediated by the exon junction complex (EJC), potentially via physical occlusion"},
+{"j": 4, "label": "contradicted", "confidence": 3, "evidence": "m6A consensus motifs are methylated by default, unless they are within a window of ∼100 nt from a splice junction"}
+]},
+{"n": 1547, "id": "pmid:37474601", "verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "fungi secrete sRNAs via EVs, which then enter host plant cells mainly through CME"},
+{"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Arabidopsis knockout mutants and inducible dominant-negative mutants of key components of the CME pathway exhibit increased resistance to B. cinerea infection"},
+{"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Arabidopsis knockout mutants and inducible dominant-negative mutants of key components of the CME pathway exhibit increased resistance to B. cinerea infection"},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "The B. cinerea tetraspanin protein, Punchless 1 (BcPLS1), serves as an EV biomarker and plays an essential role in fungal pathogenicity"}
+]},
+{"n": 1548, "id": "pmid:36634675", "verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "its knockdown prolonged the survival of human neurons carrying ALS-associated mutations"},
+{"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "we identified several m6A factors that enhance or suppress TDP43-mediated toxicity via single-cell CRISPR-Cas9 in primary neurons"},
+{"j": 3, "label": "contradicted", "confidence": 3, "evidence": "observed extensive RNA hypermethylation in ALS spinal cord, corresponding to methylated TDP43 substrates"},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "TDP43 recognizes m6A RNA and that RNA methylation is critical for both TDP43 binding and autoregulation"}
+]},
+{"n": 1549, "id": "pmid:36813958", "verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "a group of arginine residues recognize the 5' terminal base (disfavouring guanine) and terminal monophosphate"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "we report the cryo-electron microscopy structure of hDICER bound to pre-miRNA in a dicing state"},
+{"j": 3, "label": "contradicted", "confidence": 3, "evidence": "has limited activity towards long dsRNAs-unlike its homologues in lower eukaryotes and plants, which cleave long dsRNAs"},
+{"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We identify cancer-associated mutations in the 5' pocket residues that impair miRNA biogenesis"}
+]},
+{"n": 1550, "id": "pmid:38387462", "verdicts": [
+{"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Polycomb repressive complex 2 (PRC2) is reported to bind to many RNAs and has become a central player in reports of how long non-coding RNAs (lncRNAs) regulate gene expression"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "despite accurately mapping bona fide RNA-binding sites across others (SPEN, TET2, and others)"},
+{"j": 3, "label": "contradicted", "confidence": 3, "evidence": "we observe a loss of detectable RNA binding to PRC2 and chromatin-associated proteins previously reported to bind RNA"},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "we revisit the evidence supporting RNA binding by PRC2 and show that many reported interactions may not occur in vivo"}
+]},
+{"n": 1551, "id": "pmid:39577428", "verdicts": [
+{"j": 1, "label": "contradicted", "confidence": 3, "evidence": "CDS m6A sites act considerably faster and more efficiently than those in the 3' untranslated region"},
+{"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "which is particularly important for controlling the expression of developmental regulators and retrogenes"},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "CMD depends on translation, whereby m6A deposition in the CDS triggers ribosome pausing and transcript destabilization"},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "using human cells, we reveal that m6A sites in the coding sequence (CDS) trigger CDS-m6A decay (CMD), a pathway that is distinct from previously reported m6A-dependent degradation mechanisms"}
+]},
+{"n": 1552, "id": "pmid:39223315", "verdicts": [
+{"j": 1, "label": "contradicted", "confidence": 3, "evidence": "We report threefold more unproductive splicing compared with prior estimates using steady-state RNA"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "This unproductive splicing compounds across multi-intronic genes, resulting in 15% of transcript molecules from protein-coding genes being unproductive"},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "GWAS trait-associated loci explained by AS are as often associated with NMD-induced expression level differences as with differences in protein isoform usage"},
+{"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "resulting in 15% of transcript molecules from protein-coding genes being unproductive"}
+]},
+{"n": 1553, "id": "pmid:38355801", "verdicts": [
+{"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "circRNAs are predominantly localized in the cytoplasm, indicating that they must be exported from the nucleus"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "Depletion or knockout of exportin-2 specifically inhibits nuclear export of circRNA"},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "Here we identify a pathway that is specific for the nuclear export of circular RNA. This pathway requires Ran-GTP, exportin-2 and IGF2BP1"},
+{"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Enhancing the nuclear Ran-GTP gradient by depletion or chemical inhibition of the major protein exporter CRM1 selectively increases the nuclear export of circRNAs"}
+]},
+{"n": 1554, "id": "pmid:36753414", "verdicts": [
+{"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "As BDNF and EV-miRNAs miR-218 and miR-132 were previously implicated in neuropsychiatric disorders such as anxiety and depression"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "BDNF-induced EVs up-regulate synaptic vesicle (SV) clustering in a transmissible manner, thereby increasing synaptic transmission and synchronous neuronal activity"},
+{"j": 3, "label": "contradicted", "confidence": 3, "evidence": "BDNF-induced EVs in turn increase excitatory synapse formation in recipient hippocampal neurons, which is dependent on the inter-neuronal delivery of these miRNAs"},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "brain-derived neurotrophic factor (BDNF) mediates the sorting of miR-132-5p, miR-218-5p, and miR-690 in neuron-derived EVs"}
+]}
+]
+}

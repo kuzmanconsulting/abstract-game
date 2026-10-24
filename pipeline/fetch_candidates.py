@@ -33,7 +33,7 @@ OUT = os.path.join(ROOT, "src", "candidates.json")
 API = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
 API_POST = "https://www.ebi.ac.uk/europepmc/webservices/rest/searchPOST"     # same parameters, for queries too long for a GET URL
 
-# The three fields (Maja, 2026-10-23 14:14: "newer articles and preprints on this topics, omitting the clinical").
+# The first three fields (requirement, 2026-10-23 14:14: recent articles and preprints on these topics, clinical studies left out).
 FIELDS = {
     "cfdna": {
         "label": "cfDNA / liquid biopsy",
@@ -50,7 +50,7 @@ FIELDS = {
                   '"somatic mutations"', '"cancer genome"', '"cancer genomes"', '"copy number alterations"', '"structural variants"'],
         "require": ["cancer", "tumor", "tumour", "carcinoma", "leukemia", "leukaemia", "lymphoma", "melanoma", "glioma", "sarcoma"],
     },
-    # added 2026-10-23 15:20 (Maja: "yes absolutely do evolutionary genomics as well")
+    # added 2026-10-23 15:20 (requirement: an evolutionary-genomics field)
     "evogen": {
         "label": "evolutionary genomics",
         "terms": ['"molecular evolution"', "phylogenomic*", '"adaptive evolution"', '"positive selection"', '"comparative genomics"',
@@ -59,7 +59,7 @@ FIELDS = {
         # D14: "speciation" alone also matches chemical speciation (tin in toothpaste, ion speciation in thermoelectrics)
         "require": ["genome", "genomes", "genomic", "gene", "genes", "phylogen*", "species", "lineage", "lineages", "organism*", "evolutionary"],
     },
-    # added 2026-10-23 19:41 (Maja: "add also smallrna field including mirna pirna and rna biology and so on")
+    # added 2026-10-23 19:41 (requirement: a small-RNA / RNA-biology field — miRNA, piRNA and RNA biology)
     "smallrna": {
         "label": "small RNA / RNA biology",
         "terms": ["microRNA*", "miRNA*", "piRNA*", '"piwi-interacting"', "siRNA*", '"small RNA"', '"small RNAs"', '"tRNA-derived"', '"tRNA fragments"',
@@ -68,7 +68,7 @@ FIELDS = {
                   '"RNA decay"', '"nonsense-mediated"', '"RNA structure"'],
         "require": ["RNA", "RNAs", "transcript*", "gene", "genes", "genome", "genomic", "cell", "cells", "organism*", "species", "mRNA"],
     },
-    # added 2026-10-23 21:13 (Maja: "more pure biology papers, pirna, mirna in transposon regulation, in development and so on") — a
+    # added 2026-10-23 21:13 (requirement: the biology of piRNA and miRNA in transposon regulation and development, not biomarkers) — a
     # second query for the smallrna field ("as"): the small-RNA pathways themselves, in germline, development and transposon control,
     # with the clinical/biomarker vocabulary excluded. D23.
     "rnadev": {
@@ -84,7 +84,7 @@ FIELDS = {
                     "zebrafish", "Caenorhabditis", "elegans", "Arabidopsis", '"stem cell"', '"stem cells"', "differentiation", "pluripoten*"],
         "exclude": ["cancer", "tumor", "tumour", "carcinoma", "patients", "biomarker", "biomarkers", "serum", "plasma", "prognos*", "chemotherapy"],
     },
-    # added 2026-10-23 21:13 (Maja: "evolution.. but like evodevo evolution, comparative genomics" — distinct from the molecular-evolution
+    # added 2026-10-23 21:13 (requirement: evolution in the sense of evo-devo and comparative genomics — distinct from the molecular-evolution
     # slice above, which stays). D23.
     "evodevo": {
         "label": "evo-devo / comparative genomics",
@@ -100,9 +100,31 @@ FIELDS = {
                     "evolution*", "phylogen*"],
         "exclude": ["cancer", "tumor", "tumour", "carcinoma", "leukemia", "leukaemia", "lymphoma", "melanoma", "glioma", "patients"],
     },
+    # added 2026-10-24 (requirement 2026-10-23 22:36/22:42: a field on epigenetics / genome regulation — the 2016–2026 window
+    # kept, plus up to ~30 pre-2016 landmarks). The mechanism of genome regulation: chromatin, histone marks, DNA methylation,
+    # Polycomb, enhancers, 3D genome organisation, X-inactivation and imprinting. Clinical/cancer vocabulary excluded to keep it
+    # mechanistic and distinct from the cancer-genomics field. D26.
+    "epi": {
+        "label": "epigenetics / genome regulation",
+        "terms": ['"epigenetic"', '"epigenetics"', '"epigenome"', '"epigenomic"', '"epigenomics"', '"chromatin"', '"chromatin accessibility"',
+                  '"chromatin remodeling"', '"chromatin remodelling"', '"chromatin state"', '"chromatin states"', '"histone modification"',
+                  '"histone modifications"', '"histone methylation"', '"histone acetylation"', '"histone variant"', '"histone variants"',
+                  '"H3K27me3"', '"H3K4me3"', '"H3K9me3"', '"H3K27ac"', '"H3K36me3"', '"DNA methylation"', '"DNA demethylation"',
+                  '"5-methylcytosine"', '"5-hydroxymethylcytosine"', '"CpG island"', '"CpG islands"', '"Polycomb"', '"Trithorax"', '"PRC2"',
+                  '"PRC1"', '"enhancer"', '"enhancers"', '"super-enhancer"', '"super-enhancers"', '"cis-regulatory element"', '"nucleosome"',
+                  '"nucleosomes"', '"nucleosome positioning"', '"topologically associating domain"', '"topologically associating domains"',
+                  '"chromatin loop"', '"chromatin loops"', '"3D genome"', '"genome architecture"', '"genome organization"', '"genome folding"',
+                  '"CTCF"', '"cohesin"', '"X-chromosome inactivation"', '"X chromosome inactivation"', '"X-inactivation"', '"dosage compensation"',
+                  '"genomic imprinting"', '"imprinted gene"', '"imprinted genes"', '"heterochromatin"', '"euchromatin"', '"DNA methyltransferase"',
+                  '"ten-eleven translocation"', '"pioneer factor"', '"pioneer transcription factor"', '"bivalent domain"', '"bivalent domains"'],
+        "require": ["genome", "genomes", "genomic", "chromatin", "epigenetic*", "gene", "genes", "transcription*", "histone*", "methylation",
+                    "cell", "cells", "nucleus", "nuclear", "regulatory", "embryo*", "development*"],
+        "exclude": ["cancer", "tumor", "tumour", "carcinoma", "leukemia", "leukaemia", "lymphoma", "melanoma", "glioma", "patients",
+                    "biomarker", "biomarkers", "prognos*", "chemotherapy"],
+    },
 }
-# journal-targeted top-up (Maja, 15:20: "add more Nature papers !! and the Cell and Genome Biology and Nature Communications";
-# 19:41: "more nature cell science and those league of papers", from 2020 on)
+# journal-targeted top-up (requirement 15:20: more papers from Nature, Cell, Genome Biology and Nature Communications;
+# 19:41: Nature, Cell, Science and journals of that rank, from 2020 on)
 TOP_JOURNALS = ["Nature", "Cell", "Genome Biology", "Nature Communications"]
 TOP_JOURNALS_V2 = TOP_JOURNALS + ["Science", "Nature Genetics", "Nature Methods", "Nature Biotechnology", "Cell Genomics", "Molecular Cell",
                                   "Science Advances", "Genome Research", "Nucleic Acids Research"]

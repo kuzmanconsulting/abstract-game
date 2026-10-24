@@ -51,14 +51,14 @@ python3 pipeline/repair_text.py                  # 13 abstracts repaired from sr
 python3 pipeline/merge_checks.py --passes A B C  # 560 kept · 2201/2240 statements · dropped ambiguous 36, ill_formed 3 · pairwise differ 12/6720
 python3 pipeline/build_site.py                   # site/data.json 2.27 MB · site/artifact.html (body fragment for the artifact) — moved to docs/ + build/ at 15:25, see below
 python3 -m unittest discover -s tests -v         # 12 OK (+ the more→less/fewer flip test)
-# one look at the page: python3 -m http.server in site/ + Playwright screenshots at 1100 px light and 390 px dark — no overflow, no console errors
+# page inspection: python3 -m http.server in site/ + Playwright screenshots at 1100 px light and 390 px dark — no overflow, no console errors
 ```
 
 ## 2026-10-23 15:14 — delivery
 
 ```bash
 tar --exclude='__pycache__' --exclude='.DS_Store' -czf /mnt/user-data/outputs/abstract-game-1514.tar.gz -C <scratchpad> abstract-game
-# bridge: tarball → ~/work/abstract-game/_incoming.tar.gz; on the Mac side: tar -xzf … --strip-components=1; sha256 compared
+# bridge: tarball → ~/work/abstract-game/_incoming.tar.gz; on the local machine: tar -xzf … --strip-components=1; sha256 compared
 # artifact: site/artifact.html + files {"data.json": site/data.json}
 # GitHub Pages: README "Publish on GitHub Pages" (git init, gh repo create <org>/abstract-game --public, Pages from main:/site)
 ```
@@ -70,7 +70,7 @@ git mv site/index.html docs/index.html && git mv site/data.json docs/data.json &
 #   build_site.py, README, SCHEMA, DECISIONS D2, tests updated for the new paths
 python3 pipeline/build_site.py --repo-url https://github.com/kuzmanconsulting/abstract-game
 python3 -m unittest discover -s tests -v         # 12 OK
-# Mac (Maja): git add -A && git commit -m "page served from docs/" && git push ; Settings → Pages → main, folder /docs
+# on the local machine: git add -A && git commit -m "page served from docs/" && git push ; Settings → Pages → main, folder /docs
 ```
 
 ## 2026-10-23 15:20–17:10 — second corpus: evolutionary genomics + top journals (D10, D11)
@@ -94,7 +94,7 @@ python3 pipeline/validate.py check                                              
 ```bash
 cp -r src/generated src/_bak/generated_before_reflip
 python3 pipeline/make_batches.py reflip --from-rule first-of-any --to-rule first-of-any-v2 --seed 7   # 38 abstracts → check_{A,B,C}_F00..F02; src/reflips.json
-# 9 checker agents (one batch each, written in chunks); first launch hit the usage limit (reset 19:40), resumed
+# 9 checker agents (one batch each, written in chunks); first launch reached the usage limit (reset 19:40), resumed
 python3 pipeline/validate.py check                                                 # 130 OK
 #  corpus: n 753, 838, 849 marked "excluded" (D14); docs/index.html: statements shuffled on display (D15); smallrna field label
 python3 pipeline/merge_checks.py --passes A B C      # 865 generated · 3 excluded · 861 kept · 3373/3448 statements reach the page · dropped ill_formed 13, ambiguous 60 · too few 1 (n=859) · pairwise differ 14/10344
@@ -161,11 +161,11 @@ python3 -m unittest discover -s tests -v           # 17 OK
 ## 2026-10-23 21:13–21:36 — D23: evo-devo and pure-biology small RNA from leading journals, journal tier, page
 
 ```bash
-# 21:13 Maja: pure-biology piRNA/miRNA papers (TE regulation, development) + evolution "like evodevo, comparative genomics", added not replaced;
-#       21:14 "enrich more in Q1 journals, i dont want a lot of random papers"; 21:16 "a filter for q1 journals only"; 21:24 remove the Instagram hint, title before abstract
+# 21:13 requirement: pure-biology piRNA/miRNA papers (TE regulation, development) and an evo-devo / comparative-genomics slice, added, nothing removed;
+#       21:14 requirement: higher share of Q1-journal papers, fewer papers from arbitrary venues; 21:16 requirement: a Q1-only journal filter; 21:24 requirement: Instagram hint removed, title before abstract
 # 21:21 pipeline/journals.py — 82 leading journals (display name, NLM abbreviation), canon()/is_leading()/display(); self-check: python3 pipeline/journals.py
 #       fetch_candidates.py: FIELDS rnadev (as smallrna) and evodevo with require + exclude; --journals leading; keep() drops journal_not_listed;
-#       queries > 4000 chars go to Europe PMC searchPOST (GET gave nothing; POST to /search is 405)
+#       queries > 4000 chars go to Europe PMC searchPOST (GET returned nothing; POST to /search returns 405)
 BANK=<verify2 copy of the trial bank, 936 PMIDs>
 python3 pipeline/fetch_candidates.py --fields rnadev evodevo --sources journal --journals leading --start 2016-01-01 --pages 2 --min-numbered 1 --suffix leading --out src/candidates_leading.json --exclude $BANK            # 21:24: rnadev 1715 kept of 2000 (hitCount 3210), evodevo 1478 of 2000 (5426)
 python3 pipeline/fetch_candidates.py --fields rnadev evodevo --sources journal --journals leading --start 2016-01-01 --sort cited --page-size 300 --pages 1 --min-numbered 1 --suffix leading_cited --out src/candidates_leading_cited.json --exclude $BANK   # 21:25: 248 + 231
@@ -183,14 +183,14 @@ python3 pipeline/make_batches.py gen --size 10 --start 1192 --first-batch 54    
 python3 pipeline/build_site.py --repo-url https://github.com/kuzmanconsulting/abstract-game    # 462 leading of 946 journal abstracts (before the new slices)
 # tests: test_pipeline +2 (D23 query/field/journal post-filter; journals canon/display/tier), test_page +2 (leading-journals chip over 12 picks; title shown, hint gone) — 16 + 6 OK
 # validate.py --only <batch …> so each generator/checker validates its own file
-# 16 generator agents (Opus 4.8, extra effort, gen-v5, flip rule first-of-any-v3, chunked writes); gen_58 stopped by the classifier at once →
+# 16 generator agents (Opus 4.8, extra effort, gen-v5, flip rule first-of-any-v3, chunked writes); gen_58 stopped by the classifier immediately →
 python3 pipeline/split_batch.py gen_58 3                                           # 21:35: gen_58a (4), gen_58b (4), gen_58c (2), written one item at a time
 ```
 
 ## 2026-10-23 21:36–21:52 — D23 generation, checks, merge, deploy
 
 ```bash
-# 16 generators done 21:36–21:45 (gen_54 … gen_69 incl. 58a/b/c); one generator replaced "AMP-activated protein kinase" in a statement after
+# 16 generators completed 21:36–21:45 (gen_54 … gen_69 incl. 58a/b/c); one generator replaced "AMP-activated protein kinase" in a statement after
 #   seeing the flip "AMP-repressed" → validate.py IDIOMS_V2 += amp-activated (no existing statement text contains it; v2/v3 compositions unchanged)
 python3 pipeline/validate.py gen --only gen_54 … gen_69            # 18 OK; 9 of 153 abstracts without a direction word (no contradicted item)
 python3 pipeline/make_batches.py check --passes A B C --seed 7     # +54 check batches (check_P_54 … check_P_69, 10 abstracts each; 68's three re-made after gen_68 completed)
@@ -200,13 +200,68 @@ python3 pipeline/merge_checks.py --passes A B C                    # 21:50: 1344
 #   · pairwise 16070 agree / 22 differ (the 54 new checks: 0 differ) · D23 slice: 153 abstracts, 611 of 612 statements kept (1 ambiguous), 9 without a contradicted item
 python3 pipeline/build_site.py --repo-url https://github.com/kuzmanconsulting/abstract-game   # 1340 / 5258, years 2016–2026, leading 615 of 1098 journal abstracts (61 journals)
 python3 -m unittest discover -s tests                              # 22 OK (16 pipeline + 6 page)
-# delivery: tar (no .git, no src/_bak) → split 24 MB → device_commit_files → on the Mac: cat _incoming4.* > _incoming4.tgz; tar --overwrite -xzf … --strip-components=1
+# delivery: tar (no .git, no src/_bak) → split 24 MB → device_commit_files → on the local machine: cat _incoming4.* > _incoming4.tgz; tar --overwrite -xzf … --strip-components=1
 ```
 
-## 2026-10-23 22:04–22:08 — README for players (Maja: "show only the readme for people using the app/site")
+## 2026-10-23 22:04–22:05 — README for players (requirement: README addressed only to users of the app/site)
 
 ```bash
 # README.md rewritten for players (play, keys, filters, leading journals, sources, privacy, reporting); the repository layout, local
 #   serving, GitHub Pages, corpus rebuild/extension and flip-rule sections moved verbatim to docs/PIPELINE.md
 ```
 
+## 2026-10-24 — D24: recent, most-cited leading-journal layer (requirement: 50 more per field from 2023–2026 leading journals, ranked by citations)
+
+```bash
+BANK=<trial-bank exclusion list, 936 PMIDs>
+python3 pipeline/fetch_candidates.py --fields cfdna te cancergen evogen evodevo smallrna rnadev --sources journal --journals leading \
+  --start 2023-01-01 --sort cited --page-size 400 --pages 1 --min-numbered 1 --suffix recent_cited --out src/candidates_recent_cited.json --exclude $BANK
+python3 pipeline/fetch_candidates.py --fields cancergen evogen evodevo --sources journal --journals leading \
+  --start 2023-01-01 --sort cited --page-size 400 --pages 2 --min-numbered 1 --suffix recent_cited2 --out src/candidates_recent_cited2.json --exclude $BANK
+# rnadev records relabelled query_field=smallrna so the small-RNA field has one shortlist
+python3 pipeline/select_landmark.py shortlist --candidates src/candidates_recent_cited.json --per-field 100 --out src/d24/shortlist_recent.json --split-dir src/d24/shortlists
+# 6 curation agents (curate-recent-v1, written field definitions) → src/d24/pick_<field>.json; 50 kept per field, best fit first, citation order preserved
+python3 pipeline/select_landmark.py apply --picks "src/d24/pick_*.json" --candidates src/candidates_recent_cited.json   # +300 abstracts, title-deduped, into src/corpus.json
+python3 pipeline/make_batches.py gen --size 10            # gen_70 … gen_99 (one batch split into 89a/b/c after a content-classifier stop)
+# 30 generators (gen-v5: true statements only, comparative word when the abstract compares), all leading-journal abstracts
+python3 pipeline/validate.py gen                          # all gen_70–99 + 89a/b/c statement files OK
+python3 pipeline/make_batches.py check --passes A B C --seed 7   # 96 blind-check batches (A/B/C × 32), labels stripped, statement order randomised
+```
+
+## 2026-10-24 02:44–03:46 — D24 three blind passes, merge, build, deploy
+
+```bash
+# 96 checker agents (check-v1, chunked writes), waves of ≤ 20; each ran validate.py check --only <batch> to OK
+python3 pipeline/validate.py check                        # 370 check files OK, 0 FATAL (A/B/C 123 each + reflip); validated before merge — a file existing is not a file complete
+python3 pipeline/merge_checks.py --passes A B C
+#   abstracts 1644 generated · 3 excluded · 1 too few · 1640 kept · 6447 statements
+#   dropped: ill_formed 19 · ambiguous 95 · disagreement 1 ; agreement unanimous 6446 · majority 1
+#   pairwise checker verdicts 19666 agree / 26 differ (0.13%)
+#   kept_by_field cancergen 329 · te 314 · cfdna 315 · evogen 315 · smallrna 241 · evodevo 126 ; journal 1398 · preprint 242
+python3 pipeline/build_site.py --repo-url https://github.com/kuzmanconsulting/abstract-game   # 1640 / 6447, years 2016–2026, leading tier 915 of 1398 journal abstracts
+python3 -m unittest discover -s tests                     # 22 OK
+# delivery: tar (no .git, no src/_bak) → split 24 MB → device_commit_files → on the local machine: cat parts > tgz; tar --overwrite -xzf … --strip-components=1
+```
+
+## 2026-10-24 — D26: epigenetics / genome-regulation field (requirement: top ~100 genome-regulation papers; 2016–2026 window plus up to 30 pre-2016 landmarks)
+
+```bash
+# field "epi" added to fetch_candidates.py (chromatin, histone marks, DNA methylation/TET, Polycomb, enhancers, 3D genome, X-inactivation, imprinting; cancer/clinical excluded)
+BANK=<trial-bank exclusion list, 936 PMIDs>
+python3 pipeline/fetch_candidates.py --fields epi --sources journal --journals leading --start 2016-01-01 --end 2026-12-31 --sort cited --page-size 400 --pages 2 --min-numbered 1 --suffix epi_recent  --out src/candidates_epi_recent.json  --exclude $BANK   # 617 / 800
+python3 pipeline/fetch_candidates.py --fields epi --sources journal --journals leading --start 2005-01-01 --end 2015-12-31 --sort cited --page-size 400 --pages 2 --min-numbered 1 --suffix epi_landmark --out src/candidates_epi_landmark.json --exclude $BANK   # 612 / 800
+python3 pipeline/select_landmark.py shortlist --candidates src/candidates_epi_recent.json  --per-field 220 --out src/epi/shortlist_recent220.json --split-dir src/epi/sl_recent220   # recent pool deepened: top-120 strict pool was only ~47 clean findings (atlases/methods dominate the citation-top)
+python3 pipeline/select_landmark.py shortlist --candidates src/candidates_epi_landmark.json --per-field 60  --out src/epi/shortlist_landmark.json  --split-dir src/epi/sl_landmark
+# 3 curation agents (curate-epi-v1): recent strict → 70 genuine-finding papers; landmark → 30 pre-2016 classics
+python3 pipeline/select_landmark.py apply --candidates src/candidates_epi_recent.json  --pick-glob src/epi/pick_recent.json  --label epi-recent-2016-2026  --n 70
+python3 pipeline/select_landmark.py apply --candidates src/candidates_epi_landmark.json --pick-glob src/epi/pick_landmark.json --label epi-landmark-2005-2015 --n 30   # corpus → 1745 items (100 epi, n 1645–1744)
+python3 pipeline/make_batches.py gen --size 10 --start 1645 --first-batch 100   # gen_100 … gen_109
+python3 pipeline/validate.py gen                                                # epi gen files OK (3 abstracts without a contradicted item, D17)
+python3 pipeline/make_batches.py check --passes A B C --seed 7                   # +30 blind-check batches
+python3 pipeline/validate.py check                                              # 400 check files OK, 0 FATAL (whole set validated before merge)
+python3 pipeline/merge_checks.py --passes A B C
+#   abstracts 1744 gen / 1740 kept ; statements 6964 gen / 6838 kept ; dropped ill_formed 19 · ambiguous 104 · disagreement 1
+#   agreement unanimous 6837 · majority 1 ; pairwise 20862 agree / 30 differ (0.14%) ; by_field epi 100 ; leading tier 1015
+python3 pipeline/build_site.py --repo-url https://github.com/kuzmanconsulting/abstract-game   # 1740 / 6838, years 2005–2026
+python3 -m unittest discover -s tests                                           # 24 OK
+```

@@ -1,0 +1,347 @@
+{
+ "batch": "gen_109",
+ "prompt_version": "gen-v5",
+ "flip_rule": "first-of-any-v3",
+ "items": [
+  {
+   "n": 1735,
+   "id": "pmid:16362057",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Overexpressing JHDM1 reduced the amount of dimethyl-H3-K36 (H3K36me2) inside cells.",
+     "evidence": "Overexpression of JHDM1 reduced the level of dimethyl-H3-K36 (H3K36me2) in vivo.",
+     "note": "The study reports that raising JHDM1 lowered the dimethyl-H3-K36 level in cells."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Removal of the H3-K36 methyl mark by JHDM1 increases transcription of its target genes.",
+     "evidence": "Covalent modification of histones has an important role in regulating chromatin dynamics and transcription.",
+     "note": "The abstract links histone modification to transcription in general but never reports JHDM1's effect on any gene's transcription."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "With Fe(II) and alpha-ketoglutarate present, JHDM1 removes the methyl group from H3-K36, yielding formaldehyde and succinate.",
+     "evidence": "In the presence of Fe(ii) and alpha-ketoglutarate, JHDM1 demethylates H3-methyl-K36 and generates formaldehyde and succinate.",
+     "note": "The study shows JHDM1 demethylates H3-methyl-K36 using these cofactors, producing formaldehyde and succinate."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "A JHDM1 homologue in budding yeast likewise demethylates histone H3 at lysine 36.",
+     "evidence": "a JHDM1 homologue in Saccharomyces cerevisiae also has H3-K36 demethylase activity.",
+     "note": "The study reports a yeast JHDM1 homologue also has H3-K36 demethylase activity."
+    }
+   ]
+  },
+  {
+   "n": 1736,
+   "id": "pmid:17334365",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "CpG-poor promoters were hypermethylated in somatic cells, yet this methylation did not prevent their activity.",
+     "evidence": "We find CpG-poor promoters hypermethylated in somatic cells, which does not preclude their activity.",
+     "note": "The study found CpG-poor promoters hypermethylated in soma while they stayed active."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The researchers profiled methylation, RNA polymerase occupancy and histone modifications across 16,000 promoters in primary human somatic and germline cells.",
+     "evidence": "we measured methylation, RNA polymerase occupancy and histone modifications at 16,000 promoters in primary human somatic and germline cells.",
+     "note": "The study assayed these features at 16,000 promoters in human somatic and germline cells."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Inactive CpG island promoters that stayed unmethylated carried high H3K4 dimethylation, a mark that may protect DNA from methylation.",
+     "evidence": "inactive unmethylated CpG island promoters show elevated levels of dimethylation of Lys4 of histone H3, suggesting that this chromatin mark may protect DNA from methylation.",
+     "note": "The study links inactive unmethylated CpG island promoters to high H3K4 dimethylation that may shield DNA."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Removing methylation from germline-specific genes restores their expression in somatic cells.",
+     "evidence": "most germline-specific genes are methylated in somatic cells, suggesting additional functional selection.",
+     "note": "The abstract reports germline genes are methylated in soma but never tests whether demethylation restores their expression."
+    }
+   ]
+  },
+  {
+   "n": 1737,
+   "id": "pmid:18278030",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The team mapped methylated cytosines in Arabidopsis at single-base-pair resolution by pairing bisulphite treatment with Illumina 1G/Solexa ultra-high-throughput sequencing.",
+     "evidence": "we generated a map at single-base-pair resolution of methylated cytosines for Arabidopsis, by combining bisulphite treatment of genomic DNA with ultra-high-throughput sequencing using the Illumina 1G Genome Analyser and Solexa sequencing technology.",
+     "note": "The study built a single-base-pair-resolution Arabidopsis methylation map using bisulphite treatment plus Illumina/Solexa sequencing."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "In Arabidopsis, promoter methylation suppresses gene expression more strongly than methylation within transcribed regions.",
+     "evidence": "many endogenous genes are methylated either within their promoters or within their transcribed regions, and that gene methylation is highly correlated with transcription levels.",
+     "note": "The abstract notes methylation in both promoters and transcribed regions but never compares their effects on expression."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Compared with previous microarray-based methods, BS-Seq measures cytosine methylation more sensitively across the genome within specific sequence contexts.",
+     "evidence": "This approach, termed BS-Seq, unlike previous microarray-based methods, allows one to sensitively measure cytosine methylation on a genome-wide scale within specific sequence contexts.",
+     "note": "The study presents BS-Seq as sensitively measuring methylation genome-wide, unlike earlier microarray methods."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The map revealed methylation on previously inaccessible parts of the genome and characterised its sequence composition and distribution.",
+     "evidence": "Here we describe methylation on previously inaccessible components of the genome and analyse the DNA methylation sequence composition and distribution.",
+     "note": "The study describes methylation on previously inaccessible genomic components and analyses its composition and distribution."
+    }
+   ]
+  },
+  {
+   "n": 1738,
+   "id": "pmid:23828890",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Highly conserved non-CG methylation (mCH) builds up in neurons but not glia, becoming the dominant methylation form in the human neuronal genome.",
+     "evidence": "highly conserved non-CG methylation (mCH) accumulates in neurons, but not glia, to become the dominant form of methylation in the human neuronal genome.",
+     "note": "The study reports highly conserved mCH accumulating in neurons, not glia, as the dominant neuronal methylation form."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The researchers charted DNA methylation at single-base resolution across the lifespan of both human and mouse frontal cortex.",
+     "evidence": "We report the genome-wide composition, patterning, cell specificity, and dynamics of DNA methylation at single-base resolution in human and mouse frontal cortex throughout their lifespan.",
+     "note": "The study profiled methylation at single-base resolution over the lifespan in human and mouse frontal cortex."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Age-related changes in frontal-cortex DNA methylation drive the onset of neurodegenerative disease.",
+     "evidence": "DNA methylation is implicated in mammalian brain development and plasticity underlying learning and memory.",
+     "note": "The abstract ties methylation to normal development and memory but never addresses neurodegeneration or disease."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "hmC marks fetal brain regulatory regions that later become CG-demethylated and activated in the adult brain, with that demethylation depending on Tet2.",
+     "evidence": "hmC marks fetal brain cell genomes at putative regulatory regions that are CG-demethylated and activated in the adult brain and that CG demethylation at these hmC-poised loci depends on Tet2 activity.",
+     "note": "The study shows hmC-marked fetal regulatory regions become CG-demethylated and activated in adults, dependent on Tet2."
+    }
+   ]
+  },
+  {
+   "n": 1739,
+   "id": "pmid:20613842",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Examination of the SHANK3 locus showed tissue-specific DNA methylation controlling intragenic promoter activity both in vitro and in vivo.",
+     "evidence": "this tissue-specific DNA methylation regulates intragenic promoter activity in vitro and in vivo.",
+     "note": "The study found tissue-specific methylation regulates SHANK3 intragenic promoter activity in vitro and in vivo."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "A human-brain DNA methylation map was generated covering 24.7 million of the roughly 28 million CpG sites.",
+     "evidence": "we generated a map of DNA methylation from the human brain encompassing 24.7 million of the 28 million CpG sites.",
+     "note": "The study generated a human-brain methylation map spanning 24.7 of the 28 million CpG sites."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Intragenic DNA methylation in gene bodies slows transcription elongation by RNA polymerase.",
+     "evidence": "Tissue-specific intragenic methylation might reduce, or, paradoxically, enhance transcription elongation efficiency.",
+     "note": "The abstract raises both reduced and enhanced elongation as possibilities and never settles which occurs."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Tissue- and cell-type-specific methylation affects only a small percentage of 5' CpG island promoters but a far greater proportion of gene bodies.",
+     "evidence": "tissue- and cell type-specific methylation is present in a small percentage of 5' CpG island (CGI) promoters, whereas a far greater proportion occurs across gene bodies, coinciding with highly conserved sequences.",
+     "note": "The study contrasts a small fraction of promoters with a far greater proportion of gene bodies carrying this methylation."
+    }
+   ]
+  },
+  {
+   "n": 1740,
+   "id": "pmid:18974356",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "PRC2 is first recruited to the X chromosome by RepA RNA, with its Ezh2 subunit providing the RNA-binding activity.",
+     "evidence": "PRC2 is initially recruited to the X by RepA RNA, with Ezh2 serving as the RNA binding subunit.",
+     "note": "The study shows RepA RNA first brings PRC2 to the X, with Ezh2 as the RNA-binding subunit."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Within Xist the researchers identified a 1.6-kilobase non-coding RNA, RepA, and found the Polycomb complex PRC2 to be its direct target.",
+     "evidence": "We discovered a 1.6-kilobase ncRNA (RepA) within Xist and identified the Polycomb complex, PRC2, as its direct target.",
+     "note": "The study discovered the 1.6-kb RepA RNA inside Xist and identified PRC2 as its direct target."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "RepA RNA is also required to maintain X-chromosome inactivation in fully differentiated cells.",
+     "evidence": "RepA, together with PRC2, is required for the initiation and spread of XCI.",
+     "note": "The abstract shows RepA is needed to initiate and spread XCI but never addresses long-term maintenance."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "A deficiency of PRC2 compromises the upregulation of Xist.",
+     "evidence": "PRC2 deficiency compromises Xist up-regulation.",
+     "note": "The study reports that losing PRC2 compromises Xist up-regulation."
+    }
+   ]
+  },
+  {
+   "n": 1741,
+   "id": "pmid:18463634",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The genome-wide map showed lamina interactions occurring across more than 1,300 sharply defined domains of 0.1-10 megabases.",
+     "evidence": "genome-lamina interactions occur through more than 1,300 sharply defined large domains 0.1-10 megabases in size.",
+     "note": "The study mapped over 1,300 sharply defined genome-lamina interaction domains of 0.1-10 megabases."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "LADs typically showed low gene-expression levels, marking them as a repressive chromatin environment.",
+     "evidence": "These lamina-associated domains (LADs) are typified by low gene-expression levels, indicating that LADs represent a repressive chromatin environment.",
+     "note": "The study found LADs have low expression, representing a repressive chromatin environment."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The number of lamina-associated domains differs markedly between human and mouse cells.",
+     "evidence": "Here we construct a high-resolution map of the interaction sites of the entire genome with NL components in human fibroblasts.",
+     "note": "The map was made in human fibroblasts and the abstract never compares LAD numbers across species."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "LAD boundaries are marked by the insulator protein CTCF, by promoters oriented away from the domains, or by CpG islands.",
+     "evidence": "The borders of LADs are demarcated by the insulator protein CTCF, by promoters that are oriented away from LADs, or by CpG islands, suggesting possible mechanisms of LAD confinement.",
+     "note": "The study found LAD borders marked by CTCF, outward-facing promoters, or CpG islands."
+    }
+   ]
+  },
+  {
+   "n": 1742,
+   "id": "pmid:26499245",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The team carried out 13 genome-editing experiments that altered CTCF-binding sites to test their effect on chromatin folding.",
+     "evidence": "we perform 13 genome-editing experiments examining the effect of altering CTCF-binding sites on chromatin folding.",
+     "note": "The study performed 13 genome-editing experiments altering CTCF-binding sites to probe chromatin folding."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The study found that CTCF and cohesin act together to extrude unknotted chromatin loops during interphase.",
+     "evidence": "CCCTC-binding factor (CTCF) and cohesin act together to extrude unknotted loops during interphase.",
+     "note": "The study's extrusion model has CTCF and cohesin together extruding unknotted loops in interphase."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Compared with the tension-globule model, the loop-extrusion model explained more of the observed genome-folding features.",
+     "evidence": "the extrusion model explains a far wider array of observations",
+     "note": "The study reports the extrusion model explains a far wider array of observations than the tension-globule model."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "The loop-extrusion mechanism shown here also governs chromosome folding in bacteria.",
+     "evidence": "We recently used in situ Hi-C to create kilobase-resolution 3D maps of mammalian genomes.",
+     "note": "The study maps mammalian genomes and never addresses whether extrusion operates in bacteria."
+    }
+   ]
+  },
+  {
+   "n": 1743,
+   "id": "pmid:25959774",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Distinct human limb malformations arise from deletions, inversions, or duplications that alter the TAD-spanning WNT6/IHH/EPHA4/PAX3 locus.",
+     "evidence": "distinct human limb malformations are caused by deletions, inversions, or duplications altering the structure of the TAD-spanning WNT6/IHH/EPHA4/PAX3 locus.",
+     "note": "The study attributes distinct limb malformations to structural variants altering this TAD-spanning locus."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "A cluster of limb enhancers normally linked to Epha4 becomes misplaced relative to TAD boundaries and activates ectopic limb expression of another gene.",
+     "evidence": "a cluster of limb enhancers normally associated with Epha4 is misplaced relative to TAD boundaries and drives ectopic limb expression of another gene in the locus.",
+     "note": "The study shows displaced Epha4 limb enhancers drive ectopic limb expression of a neighbouring gene."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Using CRISPR/Cas genome editing, the researchers generated mice carrying the corresponding chromosomal rearrangements.",
+     "evidence": "Using CRISPR/Cas genome editing, we generated mice with corresponding rearrangements.",
+     "note": "The study used CRISPR/Cas editing to make mice with the matching rearrangements."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Restoring the disrupted CTCF-associated boundary reverses the limb malformation phenotype in mice.",
+     "evidence": "We demonstrate that disruption of TADs can rewire long-range regulatory architecture and result in pathogenic phenotypes.",
+     "note": "The abstract shows TAD disruption produces pathogenic phenotypes but never tests whether restoring the boundary reverses them."
+    }
+   ]
+  },
+  {
+   "n": 1744,
+   "id": "pmid:17554336",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The reprogrammed cells' DNA methylation, gene expression, and chromatin state resembled those of embryonic stem cells.",
+     "evidence": "DNA methylation, gene expression and chromatin state of such induced reprogrammed stem cells are similar to those of ES cells.",
+     "note": "The study found the reprogrammed cells' methylation, expression, and chromatin state resemble ES cells."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Ectopic expression of four transcription factors - Oct4, Sox2, c-Myc and Klf4 - reprogrammed fibroblasts to a pluripotent state in vitro.",
+     "evidence": "Reprogramming of fibroblasts to a pluripotent state can be induced in vitro through ectopic expression of the four transcription factors Oct4 (also called Oct3/4 or Pou5f1), Sox2, c-Myc and Klf4.",
+     "note": "The study reprogrammed fibroblasts to pluripotency in vitro using four factors: Oct4, Sox2, c-Myc, Klf4."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Human fibroblasts can be reprogrammed to pluripotency using the same four transcription factors.",
+     "evidence": "One potential use of the nuclear cloning approach is the derivation of 'customized' embryonic stem (ES) cells for patient-specific cell treatment, but technical and ethical considerations impede the therapeutic application of this technology.",
+     "note": "The abstract's reprogramming results use mouse fibroblasts and never test human cells."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The reprogrammed mouse-fibroblast cells formed viable chimaeras, contributed to the germ line, and produced live late-term embryos in tetraploid blastocysts.",
+     "evidence": "the cells-derived from mouse fibroblasts-can form viable chimaeras, can contribute to the germ line and can generate live late-term embryos when injected into tetraploid blastocysts.",
+     "note": "The study reports these cells formed chimaeras, entered the germ line, and made late-term embryos."
+    }
+   ]
+  }
+ ]
+}

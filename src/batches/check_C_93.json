@@ -1,0 +1,343 @@
+{
+"batch": "check_C_93",
+"pass": "C",
+"source_batch": "gen_93",
+"items": [
+{
+"n": 1575,
+"id": "pmid:38443404",
+"year": 2024,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Cardiac macrophage contributes to the development of cardiac fibrosis, but factors that regulate cardiac macrophages transition and activation during this process remains elusive. Here we show, by single-cell transcriptomics, lineage tracing and parabiosis, that cardiac macrophages from circulating monocytes preferentially commit to macrophage-to-myofibroblast transition (MMT) under angiotensin II (Ang II)-induced hypertension, with accompanying increased expression of the RNA N6-methyladenosine demethylases, ALKBH5. Meanwhile, macrophage-specific knockout of ALKBH5 inhibits Ang II-induced MMT, and subsequently ameliorates cardiac fibrosis and dysfunction. Mechanistically, RNA immunoprecipitation sequencing identifies interlukin-11 (IL-11) mRNA as a target for ALKBH5-mediated m6A demethylation, leading to increased IL-11 mRNA stability and protein levels. By contrast, overexpression of IL11 in circulating macrophages reverses the phenotype in ALKBH5-deficient mice and macrophage. Lastly, targeted delivery of ALKBH5 or IL-11 receptor α (IL11RA1) siRNA to monocytes/macrophages attenuates MMT and cardiac fibrosis under hypertensive stress. Our results thus suggest that the ALKBH5/IL-11/IL11RA1/MMT axis alters cardiac macrophage and contributes to hypertensive cardiac fibrosis and dysfunction in mice, and thereby identify potential targets for cardiac fibrosis therapy in patients."
+}
+],
+"text": "Cardiac macrophage contributes to the development of cardiac fibrosis, but factors that regulate cardiac macrophages transition and activation during this process remains elusive. Here we show, by single-cell transcriptomics, lineage tracing and parabiosis, that cardiac macrophages from circulating monocytes preferentially commit to macrophage-to-myofibroblast transition (MMT) under angiotensin II (Ang II)-induced hypertension, with accompanying increased expression of the RNA N6-methyladenosine demethylases, ALKBH5. Meanwhile, macrophage-specific knockout of ALKBH5 inhibits Ang II-induced MMT, and subsequently ameliorates cardiac fibrosis and dysfunction. Mechanistically, RNA immunoprecipitation sequencing identifies interlukin-11 (IL-11) mRNA as a target for ALKBH5-mediated m6A demethylation, leading to increased IL-11 mRNA stability and protein levels. By contrast, overexpression of IL11 in circulating macrophages reverses the phenotype in ALKBH5-deficient mice and macrophage. Lastly, targeted delivery of ALKBH5 or IL-11 receptor α (IL11RA1) siRNA to monocytes/macrophages attenuates MMT and cardiac fibrosis under hypertensive stress. Our results thus suggest that the ALKBH5/IL-11/IL11RA1/MMT axis alters cardiac macrophage and contributes to hypertensive cardiac fibrosis and dysfunction in mice, and thereby identify potential targets for cardiac fibrosis therapy in patients.",
+"statements": [
+{
+"j": 1,
+"text": "ALKBH5 stripped m6A marks from IL-11 mRNA, stabilising the transcript and lifting IL-11 protein levels."
+},
+{
+"j": 2,
+"text": "Under angiotensin II-induced hypertension, cardiac macrophages from circulating monocytes showed decreased expression of the m6A demethylase ALKBH5."
+},
+{
+"j": 3,
+"text": "Deleting ALKBH5 only in macrophages blocked angiotensin II-induced MMT and eased cardiac fibrosis and dysfunction."
+},
+{
+"j": 4,
+"text": "The ALKBH5/IL-11 axis drives cardiac fibrosis in human hypertension patients just as it does in mice."
+}
+]
+},
+{
+"n": 1576,
+"id": "pmid:37208334",
+"year": 2023,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Targetable drivers governing 5-fluorouracil and cisplatin (5FU + CDDP) resistance remain elusive due to the paucity of physiologically and therapeutically relevant models. Here, we establish 5FU + CDDP resistant intestinal subtype GC patient-derived organoid lines. JAK/STAT signaling and its downstream, adenosine deaminases acting on RNA 1 (ADAR1), are shown to be concomitantly upregulated in the resistant lines. ADAR1 confers chemoresistance and self-renewal in an RNA editing-dependent manner. WES coupled with RNA-seq identify enrichment of hyper-edited lipid metabolism genes in the resistant lines. Mechanistically, ADAR1-mediated A-to-I editing on 3'UTR of stearoyl-CoA desaturase (SCD1) increases binding of KH domain-containing, RNA-binding, signal transduction-associated 1 (KHDRBS1), thereby augmenting SCD1 mRNA stability. Consequently, SCD1 facilitates lipid droplet formation to alleviate chemotherapy-induced ER stress and enhances self-renewal through increasing β-catenin expression. Pharmacological inhibition of SCD1 abrogates chemoresistance and tumor-initiating cell frequency. Clinically, high proteomic level of ADAR1 and SCD1, or high SCD1 editing/ADAR1 mRNA signature score predicts a worse prognosis. Together, we unveil a potential target to circumvent chemoresistance."
+}
+],
+"text": "Targetable drivers governing 5-fluorouracil and cisplatin (5FU + CDDP) resistance remain elusive due to the paucity of physiologically and therapeutically relevant models. Here, we establish 5FU + CDDP resistant intestinal subtype GC patient-derived organoid lines. JAK/STAT signaling and its downstream, adenosine deaminases acting on RNA 1 (ADAR1), are shown to be concomitantly upregulated in the resistant lines. ADAR1 confers chemoresistance and self-renewal in an RNA editing-dependent manner. WES coupled with RNA-seq identify enrichment of hyper-edited lipid metabolism genes in the resistant lines. Mechanistically, ADAR1-mediated A-to-I editing on 3'UTR of stearoyl-CoA desaturase (SCD1) increases binding of KH domain-containing, RNA-binding, signal transduction-associated 1 (KHDRBS1), thereby augmenting SCD1 mRNA stability. Consequently, SCD1 facilitates lipid droplet formation to alleviate chemotherapy-induced ER stress and enhances self-renewal through increasing β-catenin expression. Pharmacological inhibition of SCD1 abrogates chemoresistance and tumor-initiating cell frequency. Clinically, high proteomic level of ADAR1 and SCD1, or high SCD1 editing/ADAR1 mRNA signature score predicts a worse prognosis. Together, we unveil a potential target to circumvent chemoresistance.",
+"statements": [
+{
+"j": 1,
+"text": "In the resistant organoid lines, JAK/STAT signaling and its downstream effector ADAR1 were jointly downregulated."
+},
+{
+"j": 2,
+"text": "ADAR1 edited the 3'UTR of SCD1, strengthening KHDRBS1 binding and stabilising the SCD1 transcript."
+},
+{
+"j": 3,
+"text": "ADAR1 inhibitors reverse chemoresistance more effectively than SCD1 inhibitors in the gastric cancer organoids."
+},
+{
+"j": 4,
+"text": "ADAR1 granted the resistant cells both chemoresistance and self-renewal, and this relied on its RNA-editing activity."
+}
+]
+},
+{
+"n": 1577,
+"id": "pmid:38679071",
+"year": 2024,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": "Background & aims",
+"text": "Intrahepatic cholangiocarcinoma (iCCA) is a fatal malignancy of the biliary system. The lack of a detailed understanding of oncogenic signaling or global gene expression alterations has impeded clinical iCCA diagnosis and therapy. The role of protein lactylation, a newly unraveled post-translational modification that orchestrates gene expression, remains largely elusive in the pathogenesis of iCCA."
+},
+{
+"label": "Methods",
+"text": "Proteomics analysis of clinical iCCA specimens and adjacent tissues was performed to screen for proteins aberrantly lactylated in iCCA. Mass spectrometry, macromolecule interaction and cell behavioral studies were employed to identify the specific lactylation sites on the candidate protein(s) and to decipher the downstream mechanisms responsible for iCCA development, which were subsequently validated using a xenograft tumor model and clinical samples."
+},
+{
+"label": "Results",
+"text": "Nucleolin (NCL), the most abundant RNA-binding protein in the nucleolus, was identified as a functional lactylation target that correlates with iCCA occurrence and progression. NCL was lactylated predominantly at lysine 477 by the acyltransferase P300 in response to a hyperactivity of glycolysis, and promoted the proliferation and invasion of iCCA cells. Mechanistically, lactylated NCL bound to the primary transcript of MAP kinase-activating death domain protein (MADD) and led to efficient translation of MADD by circumventing alternative splicing that generates a premature termination codon. NCL lactylation, MADD translation and subsequent ERK activation promoted xenograft tumor growth and were associated with overall survival in patients with iCCA."
+},
+{
+"label": "Conclusion",
+"text": "NCL is lactylated to upregulate MADD through an RNA splicing-dependent mechanism, which potentiates iCCA pathogenesis via the MAPK pathway. Our findings reveal a novel link between metabolic reprogramming and canonical tumor-initiating events, and uncover biomarkers that can potentially be used for prognostic evaluation or targeted treatment of iCCA."
+},
+{
+"label": "Impact and implications",
+"text": "Intrahepatic cholangiocarcinoma (iCCA) is a highly aggressive liver malignancy with largely uncharacterized pathogenetic mechanisms. Herein, we demonstrated that glycolysis promotes P300-catalyzed lactylation of nucleolin, which upregulates MAP kinase-activating death domain protein (MADD) through precise mRNA splicing and activates ERK signaling to drive iCCA development. These findings unravel a novel link between metabolic rewiring and canonical oncogenic pathways, and reveal new biomarkers for prognostic assessment and targeting of clinical iCCA."
+}
+],
+"text": "Intrahepatic cholangiocarcinoma (iCCA) is a fatal malignancy of the biliary system. The lack of a detailed understanding of oncogenic signaling or global gene expression alterations has impeded clinical iCCA diagnosis and therapy. The role of protein lactylation, a newly unraveled post-translational modification that orchestrates gene expression, remains largely elusive in the pathogenesis of iCCA. Proteomics analysis of clinical iCCA specimens and adjacent tissues was performed to screen for proteins aberrantly lactylated in iCCA. Mass spectrometry, macromolecule interaction and cell behavioral studies were employed to identify the specific lactylation sites on the candidate protein(s) and to decipher the downstream mechanisms responsible for iCCA development, which were subsequently validated using a xenograft tumor model and clinical samples. Nucleolin (NCL), the most abundant RNA-binding protein in the nucleolus, was identified as a functional lactylation target that correlates with iCCA occurrence and progression. NCL was lactylated predominantly at lysine 477 by the acyltransferase P300 in response to a hyperactivity of glycolysis, and promoted the proliferation and invasion of iCCA cells. Mechanistically, lactylated NCL bound to the primary transcript of MAP kinase-activating death domain protein (MADD) and led to efficient translation of MADD by circumventing alternative splicing that generates a premature termination codon. NCL lactylation, MADD translation and subsequent ERK activation promoted xenograft tumor growth and were associated with overall survival in patients with iCCA. NCL is lactylated to upregulate MADD through an RNA splicing-dependent mechanism, which potentiates iCCA pathogenesis via the MAPK pathway. Our findings reveal a novel link between metabolic reprogramming and canonical tumor-initiating events, and uncover biomarkers that can potentially be used for prognostic evaluation or targeted treatment of iCCA. Intrahepatic cholangiocarcinoma (iCCA) is a highly aggressive liver malignancy with largely uncharacterized pathogenetic mechanisms. Herein, we demonstrated that glycolysis promotes P300-catalyzed lactylation of nucleolin, which upregulates MAP kinase-activating death domain protein (MADD) through precise mRNA splicing and activates ERK signaling to drive iCCA development. These findings unravel a novel link between metabolic rewiring and canonical oncogenic pathways, and reveal new biomarkers for prognostic assessment and targeting of clinical iCCA.",
+"statements": [
+{
+"j": 1,
+"text": "Glycolysis suppresses the P300-catalysed lactylation of nucleolin in intrahepatic cholangiocarcinoma."
+},
+{
+"j": 2,
+"text": "Lactylated nucleolin bound the MADD primary transcript and enabled MADD translation by bypassing a splicing event that makes a premature stop codon."
+},
+{
+"j": 3,
+"text": "Nucleolin was lactylated mainly at lysine 477 by the acyltransferase P300 when glycolysis was hyperactive."
+},
+{
+"j": 4,
+"text": "Blocking P300 lactyltransferase activity shrinks established iCCA xenograft tumors."
+}
+]
+},
+{
+"n": 1578,
+"id": "pmid:36717587",
+"year": 2023,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Vascular repair is considered a key restorative measure to improve long-term outcomes after ischemic stroke. N 6 -methyladenosine (m 6 A), the most prevalent internal modification in eukaryotic mRNAs, functionally mediates vascular repair. However, whether circular RNA SCMH1 (circSCMH1) promotes vascular repair by m 6 A methylation after stroke remains to be elucidated. Here, we identify the role of circSCMH1 in promoting vascular repair in peri-infarct cortex of male mice and male monkeys after photothrombotic (PT) stroke, and attenuating the ischemia-induced m 6 A methylation in peri-infarct cortex of male mice after PT stroke. Mechanically, circSCMH1 increased the translocation of ubiquitination-modified fat mass and obesity-associated protein (FTO) into nucleus of endothelial cells (ECs), leading to m 6 A demethylation of phospholipid phosphatase 3 (Plpp3) mRNA and subsequently the increase of Plpp3 expression in ECs. Our data demonstrate that circSCMH1 enhances vascular repair via FTO-regulated m 6 A methylation after stroke, providing insights into the mechanism of circSCMH1 in promoting stroke recovery."
+}
+],
+"text": "Vascular repair is considered a key restorative measure to improve long-term outcomes after ischemic stroke. N 6 -methyladenosine (m 6 A), the most prevalent internal modification in eukaryotic mRNAs, functionally mediates vascular repair. However, whether circular RNA SCMH1 (circSCMH1) promotes vascular repair by m 6 A methylation after stroke remains to be elucidated. Here, we identify the role of circSCMH1 in promoting vascular repair in peri-infarct cortex of male mice and male monkeys after photothrombotic (PT) stroke, and attenuating the ischemia-induced m 6 A methylation in peri-infarct cortex of male mice after PT stroke. Mechanically, circSCMH1 increased the translocation of ubiquitination-modified fat mass and obesity-associated protein (FTO) into nucleus of endothelial cells (ECs), leading to m 6 A demethylation of phospholipid phosphatase 3 (Plpp3) mRNA and subsequently the increase of Plpp3 expression in ECs. Our data demonstrate that circSCMH1 enhances vascular repair via FTO-regulated m 6 A methylation after stroke, providing insights into the mechanism of circSCMH1 in promoting stroke recovery.",
+"statements": [
+{
+"j": 1,
+"text": "circSCMH1 treatment improves long-term functional recovery in human stroke patients."
+},
+{
+"j": 2,
+"text": "circSCMH1 drove vascular repair in the peri-infarct cortex of both male mice and male monkeys after photothrombotic stroke."
+},
+{
+"j": 3,
+"text": "circSCMH1 diminishes vascular repair after stroke by way of FTO-regulated m6A methylation."
+},
+{
+"j": 4,
+"text": "In endothelial cells, circSCMH1 pushed ubiquitinated FTO into the nucleus, demethylating Plpp3 mRNA and lifting Plpp3 expression."
+}
+]
+},
+{
+"n": 1579,
+"id": "pmid:38216551",
+"year": 2024,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Mutant KRAS (KRAS MUT ) is often exploited by cancers to shape tumor immunity, but the underlying mechanisms are not fully understood. Here we report that tumor-specific cytotoxic T lymphocytes (CTLs) from KRAS MUT cancers are sensitive to activation-induced cell death (AICD). circATXN7, an NF-κB-interacting circular RNA, governs T cell sensitivity to AICD by inactivating NF-κB. Mechanistically, histone lactylation derived from KRAS MUT tumor cell-produced lactic acid directly activates transcription of circATXN7, which binds to NF-κB p65 subunit and masks the p65 nuclear localization signal motif, thereby sequestering it in the cytoplasm. Clinically, circATXN7 upregulation in tumor-specific CTLs correlates with adverse clinical outcomes and immunotherapeutic resistance. Genetic ablation of circAtxn7 in CD8 + T cells leads to mutant-selective tumor inhibition, while also increases anti-PD1 efficacy in multiple tumor models in female mice. Furthermore, targeting circATXN7 in adoptively transferred tumor-reactive CTLs improves their antitumor activities. These findings provide insight into how lymphocyte-expressed circRNAs contribute to T-cell fate decisions and anticancer immunotherapies."
+}
+],
+"text": "Mutant KRAS (KRAS MUT ) is often exploited by cancers to shape tumor immunity, but the underlying mechanisms are not fully understood. Here we report that tumor-specific cytotoxic T lymphocytes (CTLs) from KRAS MUT cancers are sensitive to activation-induced cell death (AICD). circATXN7, an NF-κB-interacting circular RNA, governs T cell sensitivity to AICD by inactivating NF-κB. Mechanistically, histone lactylation derived from KRAS MUT tumor cell-produced lactic acid directly activates transcription of circATXN7, which binds to NF-κB p65 subunit and masks the p65 nuclear localization signal motif, thereby sequestering it in the cytoplasm. Clinically, circATXN7 upregulation in tumor-specific CTLs correlates with adverse clinical outcomes and immunotherapeutic resistance. Genetic ablation of circAtxn7 in CD8 + T cells leads to mutant-selective tumor inhibition, while also increases anti-PD1 efficacy in multiple tumor models in female mice. Furthermore, targeting circATXN7 in adoptively transferred tumor-reactive CTLs improves their antitumor activities. These findings provide insight into how lymphocyte-expressed circRNAs contribute to T-cell fate decisions and anticancer immunotherapies.",
+"statements": [
+{
+"j": 1,
+"text": "Deleting circAtxn7 from CD8+ T cells decreased the efficacy of anti-PD1 therapy across several tumor models in female mice."
+},
+{
+"j": 2,
+"text": "circATXN7 sets sensitivity to activation-induced cell death in CD4+ helper T cells as well as CD8+ CTLs."
+},
+{
+"j": 3,
+"text": "circATXN7 decides whether tumor-specific cytotoxic T lymphocytes die by AICD, acting by switching off NF-κB."
+},
+{
+"j": 4,
+"text": "Histone lactylation fuelled by lactic acid from mutant KRAS tumor cells switched on circATXN7 transcription."
+}
+]
+},
+{
+"n": 1580,
+"id": "pmid:37115914",
+"year": 2023,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Granzyme A from killer lymphocytes cleaves gasdermin B (GSDMB) and triggers pyroptosis in targeted human tumor cells, eliciting antitumor immunity. However, GSDMB has a controversial role in pyroptosis and has been linked to both anti- and protumor functions. Here, we found that GSDMB splicing variants are functionally distinct. Cleaved N-terminal (NT) fragments of GSDMB isoforms 3 and 4 caused pyroptosis, but isoforms 1, 2, and 5 did not. The nonfunctional isoforms have a deleted or modified exon 6 and therefore lack a stable belt motif. The belt likely contributes to the insertion of oligomeric GSDMB-NTs into the membrane. Consistently, noncytotoxic GSDMB-NTs blocked pyroptosis caused by cytotoxic GSDMB-NTs in a dominant-negative manner. Upon natural killer (NK) cell attack, GSDMB3-expressing cells died by pyroptosis, whereas GSDMB4-expressing cells died by mixed pyroptosis and apoptosis, and GSDMB1/2-expressing cells died only by apoptosis. GSDMB4 partially resisted NK cell-triggered cleavage, suggesting that only GSDMB3 is fully functional. GSDMB1-3 were the most abundant isoforms in the tested tumor cell lines and were similarly induced by interferon-γ and the chemotherapy drug methotrexate. Expression of cytotoxic GSDMB3/4 isoforms, but not GSDMB1/2 isoforms that are frequently up-regulated in tumors, was associated with better outcomes in bladder and cervical cancers, suggesting that GSDMB3/4-mediated pyroptosis was protective in those tumors. Our study indicates that tumors may block and evade killer cell-triggered pyroptosis by generating noncytotoxic GSDMB isoforms. Therefore, therapeutics that favor the production of cytotoxic GSDMB isoforms by alternative splicing may improve antitumor immunity."
+}
+],
+"text": "Granzyme A from killer lymphocytes cleaves gasdermin B (GSDMB) and triggers pyroptosis in targeted human tumor cells, eliciting antitumor immunity. However, GSDMB has a controversial role in pyroptosis and has been linked to both anti- and protumor functions. Here, we found that GSDMB splicing variants are functionally distinct. Cleaved N-terminal (NT) fragments of GSDMB isoforms 3 and 4 caused pyroptosis, but isoforms 1, 2, and 5 did not. The nonfunctional isoforms have a deleted or modified exon 6 and therefore lack a stable belt motif. The belt likely contributes to the insertion of oligomeric GSDMB-NTs into the membrane. Consistently, noncytotoxic GSDMB-NTs blocked pyroptosis caused by cytotoxic GSDMB-NTs in a dominant-negative manner. Upon natural killer (NK) cell attack, GSDMB3-expressing cells died by pyroptosis, whereas GSDMB4-expressing cells died by mixed pyroptosis and apoptosis, and GSDMB1/2-expressing cells died only by apoptosis. GSDMB4 partially resisted NK cell-triggered cleavage, suggesting that only GSDMB3 is fully functional. GSDMB1-3 were the most abundant isoforms in the tested tumor cell lines and were similarly induced by interferon-γ and the chemotherapy drug methotrexate. Expression of cytotoxic GSDMB3/4 isoforms, but not GSDMB1/2 isoforms that are frequently up-regulated in tumors, was associated with better outcomes in bladder and cervical cancers, suggesting that GSDMB3/4-mediated pyroptosis was protective in those tumors. Our study indicates that tumors may block and evade killer cell-triggered pyroptosis by generating noncytotoxic GSDMB isoforms. Therefore, therapeutics that favor the production of cytotoxic GSDMB isoforms by alternative splicing may improve antitumor immunity.",
+"statements": [
+{
+"j": 1,
+"text": "The N-terminal fragments of GSDMB isoforms 3 and 4 set off pyroptosis, whereas isoforms 1, 2, and 5 did not."
+},
+{
+"j": 2,
+"text": "The belt motif missing from the nonfunctional GSDMB isoforms is needed for GSDMB to bind granzyme A."
+},
+{
+"j": 3,
+"text": "Expression of the cytotoxic GSDMB3/4 isoforms, unlike the GSDMB1/2 isoforms, tracked with better outcomes in bladder and cervical cancers."
+},
+{
+"j": 4,
+"text": "Across the tumor cell lines examined, GSDMB isoforms 1 to 3 were the least abundant."
+}
+]
+},
+{
+"n": 1581,
+"id": "pmid:37009655",
+"year": 2023,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The molecular mechanisms underlying estrogen receptor (ER)-positive breast carcinogenesis and endocrine therapy resistance remain incompletely understood. Here, we report that circPVT1, a circular RNA generated from the lncRNA PVT1, is highly expressed in ERα-positive breast cancer cell lines and tumor samples and is functionally important in promoting ERα-positive breast tumorigenesis and endocrine therapy resistance. CircPVT1 acts as a competing endogenous RNA (ceRNA) to sponge miR-181a-2-3p, promoting the expression of ESR1 and downstream ERα-target genes and breast cancer cell growth. Furthermore, circPVT1 directly interacts with MAVS protein to disrupt the RIGI-MAVS complex formation, inhibiting type I interferon (IFN) signaling pathway and anti-tumor immunity. Anti-sense oligonucleotide (ASO)-targeting circPVT1 inhibits ERα-positive breast cancer cell and tumor growth, re-sensitizing tamoxifen-resistant ERα-positive breast cancer cells to tamoxifen treatment. Taken together, our data demonstrated that circPVT1 can work through both ceRNA and protein scaffolding mechanisms to promote cancer. Thus, circPVT1 may serve as a diagnostic biomarker and therapeutic target for ERα-positive breast cancer in the clinic."
+}
+],
+"text": "The molecular mechanisms underlying estrogen receptor (ER)-positive breast carcinogenesis and endocrine therapy resistance remain incompletely understood. Here, we report that circPVT1, a circular RNA generated from the lncRNA PVT1, is highly expressed in ERα-positive breast cancer cell lines and tumor samples and is functionally important in promoting ERα-positive breast tumorigenesis and endocrine therapy resistance. CircPVT1 acts as a competing endogenous RNA (ceRNA) to sponge miR-181a-2-3p, promoting the expression of ESR1 and downstream ERα-target genes and breast cancer cell growth. Furthermore, circPVT1 directly interacts with MAVS protein to disrupt the RIGI-MAVS complex formation, inhibiting type I interferon (IFN) signaling pathway and anti-tumor immunity. Anti-sense oligonucleotide (ASO)-targeting circPVT1 inhibits ERα-positive breast cancer cell and tumor growth, re-sensitizing tamoxifen-resistant ERα-positive breast cancer cells to tamoxifen treatment. Taken together, our data demonstrated that circPVT1 can work through both ceRNA and protein scaffolding mechanisms to promote cancer. Thus, circPVT1 may serve as a diagnostic biomarker and therapeutic target for ERα-positive breast cancer in the clinic.",
+"statements": [
+{
+"j": 1,
+"text": "By binding MAVS protein, circPVT1 breaks up the RIGI-MAVS complex and dampens type I interferon signaling and anti-tumor immunity."
+},
+{
+"j": 2,
+"text": "circPVT1 works as a diagnostic biomarker for triple-negative breast cancer."
+},
+{
+"j": 3,
+"text": "By sponging miR-181a-2-3p, circPVT1 raises ESR1 and downstream ERα-target gene expression and fuels breast cancer cell growth."
+},
+{
+"j": 4,
+"text": "circPVT1 suppresses tumorigenesis and endocrine therapy resistance in ERα-positive breast cancer."
+}
+]
+},
+{
+"n": 1582,
+"id": "pmid:37463108",
+"year": 2023,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Aberrant RNA modifications are frequently associated with cancers, while the underlying mechanisms and clinical significance remain poorly understood. Here, we find that the ac4C RNA acetyltransferase NAT10 is significantly upregulated in esophageal cancers (ESCAs) and associated with poor ESCA prognosis. In addition, using ESCA cell lines and mouse models, we confirm the critical functions of NAT10 in promoting ESCA tumorigenesis and progression in vitro and in vivo. Mechanistically, NAT10 depletion reduces the abundance of ac4C-modified tRNAs and decreases the translation efficiencies of mRNAs enriched for ac4C-modified tRNA-decoded codons. We further identify EGFR as a key downstream target that facilitates NAT10's oncogenic functions. In terms of clinical significance, we demonstrate that NAT10 depletion and gefitinib treatment synergistically inhibit ESCA progression in vitro and in vivo. Our data indicate the mechanisms underlying ESCA progression at the layer of mRNA translation control and provide molecular insights for the development of effective cancer therapeutic strategies."
+}
+],
+"text": "Aberrant RNA modifications are frequently associated with cancers, while the underlying mechanisms and clinical significance remain poorly understood. Here, we find that the ac4C RNA acetyltransferase NAT10 is significantly upregulated in esophageal cancers (ESCAs) and associated with poor ESCA prognosis. In addition, using ESCA cell lines and mouse models, we confirm the critical functions of NAT10 in promoting ESCA tumorigenesis and progression in vitro and in vivo. Mechanistically, NAT10 depletion reduces the abundance of ac4C-modified tRNAs and decreases the translation efficiencies of mRNAs enriched for ac4C-modified tRNA-decoded codons. We further identify EGFR as a key downstream target that facilitates NAT10's oncogenic functions. In terms of clinical significance, we demonstrate that NAT10 depletion and gefitinib treatment synergistically inhibit ESCA progression in vitro and in vivo. Our data indicate the mechanisms underlying ESCA progression at the layer of mRNA translation control and provide molecular insights for the development of effective cancer therapeutic strategies.",
+"statements": [
+{
+"j": 1,
+"text": "Measuring ac4C levels in blood provides a noninvasive test for detecting esophageal cancer."
+},
+{
+"j": 2,
+"text": "Pairing NAT10 depletion with gefitinib treatment cooperatively blocked ESCA progression in vitro and in vivo."
+},
+{
+"j": 3,
+"text": "NAT10, the ac4C acetyltransferase, was markedly downregulated in esophageal cancers and went with a poor ESCA prognosis."
+},
+{
+"j": 4,
+"text": "Depleting NAT10 cut the pool of ac4C-modified tRNAs and lowered the translation efficiency of mRNAs read by those tRNAs."
+}
+]
+},
+{
+"n": 1583,
+"id": "pmid:37898647",
+"year": 2023,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Metastasis is the leading cause of cancer-related death, where TGFβ-induced epithelial-mesenchymal transition (EMT) process confers on cancer cells increased metastatic potential. However, the involvement of circRNAs in this process is still obscure. Here, we identify a TGFβ-induced circRNA called circITGB6 as an indispensable factor during the TGFβ-mediated EMT process. circITGB6 is significantly upregulated in metastatic cancer samples and its higher abundance is closely correlated to worse prognosis of colorectal cancer (CRC) patients. Through gain- and loss-of-function assays, circITGB6 is found to potently promote EMT process and tumor metastasis in various models in vitro and in vivo. Mechanistically, circITGB6 enhances the mRNA stability of PDPN, an EMT-promoting gene, by directly interacting with IGF2BP3. Notably, interfering circITGB6 with PEI-coated specific siRNA effectively represses liver metastasis. Therefore, our study reveals the function of a TGFβ-regulated circRNA in tumor metastasis and suggests that targeting circITGB6 is a promising strategy for cancer therapy."
+}
+],
+"text": "Metastasis is the leading cause of cancer-related death, where TGFβ-induced epithelial-mesenchymal transition (EMT) process confers on cancer cells increased metastatic potential. However, the involvement of circRNAs in this process is still obscure. Here, we identify a TGFβ-induced circRNA called circITGB6 as an indispensable factor during the TGFβ-mediated EMT process. circITGB6 is significantly upregulated in metastatic cancer samples and its higher abundance is closely correlated to worse prognosis of colorectal cancer (CRC) patients. Through gain- and loss-of-function assays, circITGB6 is found to potently promote EMT process and tumor metastasis in various models in vitro and in vivo. Mechanistically, circITGB6 enhances the mRNA stability of PDPN, an EMT-promoting gene, by directly interacting with IGF2BP3. Notably, interfering circITGB6 with PEI-coated specific siRNA effectively represses liver metastasis. Therefore, our study reveals the function of a TGFβ-regulated circRNA in tumor metastasis and suggests that targeting circITGB6 is a promising strategy for cancer therapy.",
+"statements": [
+{
+"j": 1,
+"text": "Functional assays showed circITGB6 potently suppresses the EMT process and tumor metastasis in vitro and in vivo."
+},
+{
+"j": 2,
+"text": "Delivering circITGB6-targeting siRNA on PEI-coated particles effectively shut down liver metastasis."
+},
+{
+"j": 3,
+"text": "circITGB6 can be measured in blood to screen patients for colorectal cancer."
+},
+{
+"j": 4,
+"text": "circITGB6 stabilised the mRNA of the EMT-driving gene PDPN by binding straight to IGF2BP3."
+}
+]
+},
+{
+"n": 1584,
+"id": "pmid:36892464",
+"year": 2023,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Skeletal muscle stem cells (also known as satellite cells [SCs]) are essential for muscle regeneration and the regenerative activities of SCs are intrinsically governed by gene regulatory mechanisms, but the post-transcriptional regulation in SCs remains largely unknown. N(6)-methyladenosine (m6A) modification of RNAs is the most pervasive and highly conserved RNA modification in eukaryotic cells; it exerts powerful impact on almost all aspects of mRNA processing that is mainly endowed by its binding with m6A reader proteins. In this study, we investigate the previously uncharacterized regulatory roles of YTHDC1, an m6A reader in mouse SCs. Our results demonstrate that YTHDC1 is an essential regulator of SC activation and proliferation upon acute injury-induced muscle regeneration. The induction of YTHDC1 is indispensable for SC activation and proliferation; thus, inducible YTHDC1 depletion almost abolishes SC regenerative capacity. Mechanistically, transcriptome-wide profiling using LACE-seq in both SCs and mouse C2C12 myoblasts identifies m6A-mediated binding targets of YTHDC1. Next, splicing analysis defines splicing mRNA targets of m6A-YTHDC1. Furthermore, nuclear export analysis also leads to the identification of potential mRNA export targets of m6A-YTHDC1 in SCs and C2C12 myoblasts;interestingly, some mRNAs can be regulated at both splicing and export levels. Lastly, we map YTHDC1 interacting protein partners in myoblasts and unveil a myriad of factors governing mRNA splicing, nuclear export, and transcription, among which hnRNPG appears to be a bona fide interacting partner of YTHDC1. Altogether, our findings uncover YTHDC1 as an essential factor controlling SC regenerative ability through multifaceted gene regulatory mechanisms in mouse myoblast cells."
+}
+],
+"text": "Skeletal muscle stem cells (also known as satellite cells [SCs]) are essential for muscle regeneration and the regenerative activities of SCs are intrinsically governed by gene regulatory mechanisms, but the post-transcriptional regulation in SCs remains largely unknown. N(6)-methyladenosine (m6A) modification of RNAs is the most pervasive and highly conserved RNA modification in eukaryotic cells; it exerts powerful impact on almost all aspects of mRNA processing that is mainly endowed by its binding with m6A reader proteins. In this study, we investigate the previously uncharacterized regulatory roles of YTHDC1, an m6A reader in mouse SCs. Our results demonstrate that YTHDC1 is an essential regulator of SC activation and proliferation upon acute injury-induced muscle regeneration. The induction of YTHDC1 is indispensable for SC activation and proliferation; thus, inducible YTHDC1 depletion almost abolishes SC regenerative capacity. Mechanistically, transcriptome-wide profiling using LACE-seq in both SCs and mouse C2C12 myoblasts identifies m6A-mediated binding targets of YTHDC1. Next, splicing analysis defines splicing mRNA targets of m6A-YTHDC1. Furthermore, nuclear export analysis also leads to the identification of potential mRNA export targets of m6A-YTHDC1 in SCs and C2C12 myoblasts;interestingly, some mRNAs can be regulated at both splicing and export levels. Lastly, we map YTHDC1 interacting protein partners in myoblasts and unveil a myriad of factors governing mRNA splicing, nuclear export, and transcription, among which hnRNPG appears to be a bona fide interacting partner of YTHDC1. Altogether, our findings uncover YTHDC1 as an essential factor controlling SC regenerative ability through multifaceted gene regulatory mechanisms in mouse myoblast cells.",
+"statements": [
+{
+"j": 1,
+"text": "Using LACE-seq in satellite cells and C2C12 myoblasts, the study mapped the m6A-dependent RNA targets bound by YTHDC1."
+},
+{
+"j": 2,
+"text": "Inducibly depleting YTHDC1 almost wiped out the regenerative capacity of satellite cells."
+},
+{
+"j": 3,
+"text": "YTHDC1 is required for satellite cell repression and proliferation during acute injury-induced muscle regeneration."
+},
+{
+"j": 4,
+"text": "hnRNPG acts together with YTHDC1 to control satellite cell proliferation."
+}
+]
+}
+]
+}

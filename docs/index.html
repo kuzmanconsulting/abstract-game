@@ -170,13 +170,13 @@ a.chip{text-decoration:none;display:inline-block}
 "use strict";
 const $ = id => document.getElementById(id);
 const el = (tag, cls, text) => { const e=document.createElement(tag); if(cls) e.className=cls; if(text!=null) e.textContent=text; return e; };
-const FIELD = {cfdna:"cfDNA / liquid biopsy", te:"transposable elements", cancergen:"cancer genomics", evogen:"evolutionary genomics", evodevo:"evo-devo / comparative genomics", smallrna:"small RNA / RNA biology"};
+const FIELD = {cfdna:"cfDNA / liquid biopsy", te:"transposable elements", cancergen:"cancer genomics", evogen:"evolutionary genomics", evodevo:"evo-devo / comparative genomics", smallrna:"small RNA / RNA biology", epi:"epigenetics / genome regulation"};
 const LABEL = {supported:"Supported", contradicted:"Contradicted", not_addressed:"Not addressed"};
 const LABEL_LONG = {supported:"the abstract states this or it follows directly", contradicted:"the abstract states something incompatible with this", not_addressed:"the abstract neither says nor rules this out"};
 const KEYS = ["supported","contradicted","not_addressed"];
 let DATA=null, items=[], cur=null, answers={}, revealed=false;
 let filt = {field:"all", source:"all", journal:"all"};
-let prefs = {titleFirst:true};   // the title is shown above the abstract unless turned off in About (Maja 21:24)
+let prefs = {titleFirst:true};   // the title is shown above the abstract unless turned off in About (D23, 21:24)
 let tally = {n:0, right:0, streak:0, best:0, byLabel:{supported:[0,0],contradicted:[0,0],not_addressed:[0,0]}};
 let seen = new Set();
 let saved = [];   // [{id, n, title, authors, journal, year, doi, url, source, saved_at}] — this browser only
@@ -243,7 +243,7 @@ function scoreCard(){
   const bl=tally.byLabel||{}; y+=10; g.fillStyle=soft; g.font="500 34px "+sans; g.fillText("BY LABEL", 90, y); y+=20;
   KEYS.forEach(k=>{ const [r,n]=bl[k]||[0,0]; const pct=n?Math.round(100*r/n):null; y+=78; g.fillStyle=ink; g.font="500 40px "+sans; g.fillText(LABEL[k], 90, y); g.textAlign="right"; g.fillStyle=pct===null?soft:ink; g.fillText(pct===null?"—":pct+"% of "+n, W-90, y); g.textAlign="left"; g.fillStyle=cssVar("--rule","#ddd6c8"); g.fillRect(90,y+22,W-180,2); });
   const fieldsPlayed = (filt.field==="all") ? "all fields" : (FIELD[filt.field]||filt.field);
-  // bottom block, laid out upwards (no logo on the card — Maja, 20:50)
+  // bottom block, laid out upwards (no logo on the card — D20, 20:50)
   const bTop=H-40;
   g.fillStyle=soft; g.font="400 36px "+sans; g.fillText("Played: "+fieldsPlayed+(filt.journal!=="all"?" · "+filt.journal:""), 90, bTop-300);
   g.fillText(items.length+" abstracts · "+((DATA.header||{}).years||"")+" · "+new Date().toISOString().slice(0,10), 90, bTop-246);

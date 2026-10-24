@@ -114,7 +114,7 @@ class PageTest(unittest.TestCase):
         ctx, pg, errors = self.page()
         it, _ = self.shown(pg)
         self.assertEqual(pg.inner_text(".pretitle").strip(), it["title"])
-        self.assertEqual(pg.locator("#shareHint").count(), 0)             # the Instagram note was removed (Maja 21:24)
+        self.assertEqual(pg.locator("#shareHint").count(), 0)             # the Instagram note was removed (D23, 21:24)
         ctx.close()
 
     def test_statements_are_shuffled_on_display(self):

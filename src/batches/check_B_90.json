@@ -1,0 +1,327 @@
+{
+"batch": "check_B_90",
+"pass": "B",
+"source_batch": "gen_90",
+"items": [
+{
+"n": 1545,
+"id": "pmid:38093017",
+"year": 2024,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Emerging data have shown that previously defined noncoding genomes might encode peptides that bind human leukocyte antigen (HLA) as cryptic antigens to stimulate adaptive immunity 1,2 . However, the significance and mechanisms of action of cryptic antigens in anti-tumour immunity remain unclear. Here mass spectrometry of the HLA class I (HLA-I) peptidome coupled with ribosome sequencing of human breast cancer samples identified HLA-I-binding cryptic antigenic peptides that were noncanonically translated by a tumour-specific circular RNA (circRNA): circFAM53B. The cryptic peptides efficiently primed naive CD4 + and CD8 + T cells in an antigen-specific manner and induced anti-tumour immunity. Clinically, the expression of circFAM53B and its encoded peptides was associated with substantial infiltration of antigen-specific CD8 + T cells and better survival in patients with breast cancer and patients with melanoma. Mechanistically, circFAM53B-encoded peptides had strong binding affinity to both HLA-I and HLA-II molecules. In vivo, administration of vaccines consisting of tumour-specific circRNA or its encoded peptides in mice bearing breast cancer tumours or melanoma induced enhanced infiltration of tumour-antigen-specific cytotoxic T cells, which led to effective tumour control. Overall, our findings reveal that noncanonical translation of circRNAs can drive efficient anti-tumour immunity, which suggests that vaccination exploiting tumour-specific circRNAs may serve as an immunotherapeutic strategy against malignant tumours."
+}
+],
+"text": "Emerging data have shown that previously defined noncoding genomes might encode peptides that bind human leukocyte antigen (HLA) as cryptic antigens to stimulate adaptive immunity 1,2 . However, the significance and mechanisms of action of cryptic antigens in anti-tumour immunity remain unclear. Here mass spectrometry of the HLA class I (HLA-I) peptidome coupled with ribosome sequencing of human breast cancer samples identified HLA-I-binding cryptic antigenic peptides that were noncanonically translated by a tumour-specific circular RNA (circRNA): circFAM53B. The cryptic peptides efficiently primed naive CD4 + and CD8 + T cells in an antigen-specific manner and induced anti-tumour immunity. Clinically, the expression of circFAM53B and its encoded peptides was associated with substantial infiltration of antigen-specific CD8 + T cells and better survival in patients with breast cancer and patients with melanoma. Mechanistically, circFAM53B-encoded peptides had strong binding affinity to both HLA-I and HLA-II molecules. In vivo, administration of vaccines consisting of tumour-specific circRNA or its encoded peptides in mice bearing breast cancer tumours or melanoma induced enhanced infiltration of tumour-antigen-specific cytotoxic T cells, which led to effective tumour control. Overall, our findings reveal that noncanonical translation of circRNAs can drive efficient anti-tumour immunity, which suggests that vaccination exploiting tumour-specific circRNAs may serve as an immunotherapeutic strategy against malignant tumours.",
+"statements": [
+{
+"j": 1,
+"text": "In breast cancer and melanoma patients, circFAM53B and its encoded peptides tracked with heavier antigen-specific CD8+ T cell infiltration and worsened survival."
+},
+{
+"j": 2,
+"text": "circFAM53B-derived peptide vaccines produced durable complete tumour regression in patients enrolled in a clinical trial."
+},
+{
+"j": 3,
+"text": "The circFAM53B-encoded peptides bound both HLA-I and HLA-II molecules with strong affinity."
+},
+{
+"j": 4,
+"text": "Mass spectrometry of the HLA-I peptidome together with ribosome sequencing of human breast cancer samples identified cryptic antigenic peptides translated noncanonically by the circular RNA circFAM53B."
+}
+]
+},
+{
+"n": 1546,
+"id": "pmid:36599352",
+"year": 2023,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "N6-methyladenosine (m6A), a widespread destabilizing mark on mRNA, is non-uniformly distributed across the transcriptome, yet the basis for its selective deposition is unknown. Here, we propose that m6A deposition is not selective. Instead, it is exclusion based: m6A consensus motifs are methylated by default, unless they are within a window of ∼100 nt from a splice junction. A simple model which we extensively validate, relying exclusively on presence of m6A motifs and exon-intron architecture, allows in silico recapitulation of experimentally measured m6A profiles. We provide evidence that exclusion from splice junctions is mediated by the exon junction complex (EJC), potentially via physical occlusion, and that previously observed associations between exon-intron architecture and mRNA decay are mechanistically mediated via m6A. Our findings establish a mechanism coupling nuclear mRNA splicing and packaging with the covalent installation of m6A, in turn controlling cytoplasmic decay."
+}
+],
+"text": "N6-methyladenosine (m6A), a widespread destabilizing mark on mRNA, is non-uniformly distributed across the transcriptome, yet the basis for its selective deposition is unknown. Here, we propose that m6A deposition is not selective. Instead, it is exclusion based: m6A consensus motifs are methylated by default, unless they are within a window of ∼100 nt from a splice junction. A simple model which we extensively validate, relying exclusively on presence of m6A motifs and exon-intron architecture, allows in silico recapitulation of experimentally measured m6A profiles. We provide evidence that exclusion from splice junctions is mediated by the exon junction complex (EJC), potentially via physical occlusion, and that previously observed associations between exon-intron architecture and mRNA decay are mechanistically mediated via m6A. Our findings establish a mechanism coupling nuclear mRNA splicing and packaging with the covalent installation of m6A, in turn controlling cytoplasmic decay.",
+"statements": [
+{
+"j": 1,
+"text": "Exclusion of m6A at splice junctions is mediated by the exon junction complex, possibly through physical occlusion."
+},
+{
+"j": 2,
+"text": "The exclusion window around splice junctions is wider near first introns than near internal introns."
+},
+{
+"j": 3,
+"text": "m6A consensus motifs are methylated by default, but those falling within roughly 100 nucleotides of a splice junction carry elevated methylation."
+},
+{
+"j": 4,
+"text": "A model relying only on the presence of m6A motifs and exon-intron architecture reproduced experimentally measured m6A profiles in silico."
+}
+]
+},
+{
+"n": 1547,
+"id": "pmid:37474601",
+"year": 2023,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Small RNAs (sRNAs) of the fungal pathogen Botrytis cinerea can enter plant cells and hijack host Argonaute protein 1 (AGO1) to silence host immunity genes. However, the mechanism by which these fungal sRNAs are secreted and enter host cells remains unclear. Here, we demonstrate that B. cinerea utilizes extracellular vesicles (EVs) to secrete Bc-sRNAs, which are then internalized by plant cells through clathrin-mediated endocytosis (CME). The B. cinerea tetraspanin protein, Punchless 1 (BcPLS1), serves as an EV biomarker and plays an essential role in fungal pathogenicity. We observe numerous Arabidopsis clathrin-coated vesicles (CCVs) around B. cinerea infection sites and the colocalization of B. cinerea EV marker BcPLS1 and Arabidopsis CLATHRIN LIGHT CHAIN 1, one of the core components of CCV. Meanwhile, BcPLS1 and the B. cinerea-secreted sRNAs are detected in purified CCVs after infection. Arabidopsis knockout mutants and inducible dominant-negative mutants of key components of the CME pathway exhibit increased resistance to B. cinerea infection. Furthermore, Bc-sRNA loading into Arabidopsis AGO1 and host target gene suppression are attenuated in those CME mutants. Together, our results demonstrate that fungi secrete sRNAs via EVs, which then enter host plant cells mainly through CME."
+}
+],
+"text": "Small RNAs (sRNAs) of the fungal pathogen Botrytis cinerea can enter plant cells and hijack host Argonaute protein 1 (AGO1) to silence host immunity genes. However, the mechanism by which these fungal sRNAs are secreted and enter host cells remains unclear. Here, we demonstrate that B. cinerea utilizes extracellular vesicles (EVs) to secrete Bc-sRNAs, which are then internalized by plant cells through clathrin-mediated endocytosis (CME). The B. cinerea tetraspanin protein, Punchless 1 (BcPLS1), serves as an EV biomarker and plays an essential role in fungal pathogenicity. We observe numerous Arabidopsis clathrin-coated vesicles (CCVs) around B. cinerea infection sites and the colocalization of B. cinerea EV marker BcPLS1 and Arabidopsis CLATHRIN LIGHT CHAIN 1, one of the core components of CCV. Meanwhile, BcPLS1 and the B. cinerea-secreted sRNAs are detected in purified CCVs after infection. Arabidopsis knockout mutants and inducible dominant-negative mutants of key components of the CME pathway exhibit increased resistance to B. cinerea infection. Furthermore, Bc-sRNA loading into Arabidopsis AGO1 and host target gene suppression are attenuated in those CME mutants. Together, our results demonstrate that fungi secrete sRNAs via EVs, which then enter host plant cells mainly through CME.",
+"statements": [
+{
+"j": 1,
+"text": "Arabidopsis mutants lacking key clathrin-mediated endocytosis components showed decreased resistance to Botrytis cinerea infection."
+},
+{
+"j": 2,
+"text": "Botrytis cinerea secretes its small RNAs inside extracellular vesicles, which plant cells take up mainly by clathrin-mediated endocytosis."
+},
+{
+"j": 3,
+"text": "Blocking clathrin-mediated endocytosis protects crop species such as tomato and grapevine from Botrytis cinerea."
+},
+{
+"j": 4,
+"text": "The tetraspanin BcPLS1 acts as an extracellular-vesicle marker and is required for Botrytis cinerea pathogenicity."
+}
+]
+},
+{
+"n": 1548,
+"id": "pmid:36634675",
+"year": 2023,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "RNA methylation at adenosine N6 (m6A) is one of the most common RNA modifications, impacting RNA stability, transport, and translation. Previous studies uncovered RNA destabilization in amyotrophic lateral sclerosis (ALS) models in association with accumulation of the RNA-binding protein TDP43. Here, we show that TDP43 recognizes m6A RNA and that RNA methylation is critical for both TDP43 binding and autoregulation. We also observed extensive RNA hypermethylation in ALS spinal cord, corresponding to methylated TDP43 substrates. Emphasizing the importance of m6A for TDP43 binding and function, we identified several m6A factors that enhance or suppress TDP43-mediated toxicity via single-cell CRISPR-Cas9 in primary neurons. The most promising modifier-the canonical m6A reader YTHDF2-accumulated within ALS spinal neurons, and its knockdown prolonged the survival of human neurons carrying ALS-associated mutations. Collectively, these data show that m6A modifications modulate RNA binding by TDP43 and that m6A is pivotal for TDP43-related neurodegeneration in ALS."
+}
+],
+"text": "RNA methylation at adenosine N6 (m6A) is one of the most common RNA modifications, impacting RNA stability, transport, and translation. Previous studies uncovered RNA destabilization in amyotrophic lateral sclerosis (ALS) models in association with accumulation of the RNA-binding protein TDP43. Here, we show that TDP43 recognizes m6A RNA and that RNA methylation is critical for both TDP43 binding and autoregulation. We also observed extensive RNA hypermethylation in ALS spinal cord, corresponding to methylated TDP43 substrates. Emphasizing the importance of m6A for TDP43 binding and function, we identified several m6A factors that enhance or suppress TDP43-mediated toxicity via single-cell CRISPR-Cas9 in primary neurons. The most promising modifier-the canonical m6A reader YTHDF2-accumulated within ALS spinal neurons, and its knockdown prolonged the survival of human neurons carrying ALS-associated mutations. Collectively, these data show that m6A modifications modulate RNA binding by TDP43 and that m6A is pivotal for TDP43-related neurodegeneration in ALS.",
+"statements": [
+{
+"j": 1,
+"text": "Lowering m6A levels with a methyltransferase inhibitor reversed motor deficits in ALS model mice."
+},
+{
+"j": 2,
+"text": "ALS spinal cord tissue displayed widespread RNA hypomethylation, matching the substrates methylated on TDP43."
+},
+{
+"j": 3,
+"text": "Knocking down the m6A reader YTHDF2 extended the survival of human neurons carrying ALS-associated mutations."
+},
+{
+"j": 4,
+"text": "TDP43 binds m6A-modified RNA, and this methylation is essential for both TDP43 binding and its autoregulation."
+}
+]
+},
+{
+"n": 1549,
+"id": "pmid:36813958",
+"year": 2023,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Dicer has a key role in small RNA biogenesis, processing double-stranded RNAs (dsRNAs) 1,2 . Human DICER (hDICER, also known as DICER1) is specialized for cleaving small hairpin structures such as precursor microRNAs (pre-miRNAs) and has limited activity towards long dsRNAs-unlike its homologues in lower eukaryotes and plants, which cleave long dsRNAs. Although the mechanism by which long dsRNAs are cleaved has been well documented, our understanding of pre-miRNA processing is incomplete because structures of hDICER in a catalytic state are lacking. Here we report the cryo-electron microscopy structure of hDICER bound to pre-miRNA in a dicing state and uncover the structural basis of pre-miRNA processing. hDICER undergoes large conformational changes to attain the active state. The helicase domain becomes flexible, which allows the binding of pre-miRNA to the catalytic valley. The double-stranded RNA-binding domain relocates and anchors pre-miRNA in a specific position through both sequence-independent and sequence-specific recognition of the newly identified 'GYM motif' 3 . The DICER-specific PAZ helix is also reoriented to accommodate the RNA. Furthermore, our structure identifies a configuration of the 5' end of pre-miRNA inserted into a basic pocket. In this pocket, a group of arginine residues recognize the 5' terminal base (disfavouring guanine) and terminal monophosphate; this explains the specificity of hDICER and how it determines the cleavage site. We identify cancer-associated mutations in the 5' pocket residues that impair miRNA biogenesis. Our study reveals how hDICER recognizes pre-miRNAs with stringent specificity and enables a mechanistic understanding of hDICER-related diseases."
+}
+],
+"text": "Dicer has a key role in small RNA biogenesis, processing double-stranded RNAs (dsRNAs) 1,2 . Human DICER (hDICER, also known as DICER1) is specialized for cleaving small hairpin structures such as precursor microRNAs (pre-miRNAs) and has limited activity towards long dsRNAs-unlike its homologues in lower eukaryotes and plants, which cleave long dsRNAs. Although the mechanism by which long dsRNAs are cleaved has been well documented, our understanding of pre-miRNA processing is incomplete because structures of hDICER in a catalytic state are lacking. Here we report the cryo-electron microscopy structure of hDICER bound to pre-miRNA in a dicing state and uncover the structural basis of pre-miRNA processing. hDICER undergoes large conformational changes to attain the active state. The helicase domain becomes flexible, which allows the binding of pre-miRNA to the catalytic valley. The double-stranded RNA-binding domain relocates and anchors pre-miRNA in a specific position through both sequence-independent and sequence-specific recognition of the newly identified 'GYM motif' 3 . The DICER-specific PAZ helix is also reoriented to accommodate the RNA. Furthermore, our structure identifies a configuration of the 5' end of pre-miRNA inserted into a basic pocket. In this pocket, a group of arginine residues recognize the 5' terminal base (disfavouring guanine) and terminal monophosphate; this explains the specificity of hDICER and how it determines the cleavage site. We identify cancer-associated mutations in the 5' pocket residues that impair miRNA biogenesis. Our study reveals how hDICER recognizes pre-miRNAs with stringent specificity and enables a mechanistic understanding of hDICER-related diseases.",
+"statements": [
+{
+"j": 1,
+"text": "A cryo-electron microscopy structure captured human DICER bound to a pre-miRNA in its dicing state."
+},
+{
+"j": 2,
+"text": "Arginine residues in a basic pocket read the pre-miRNA 5' terminal base, disfavouring guanine, along with its terminal monophosphate."
+},
+{
+"j": 3,
+"text": "hDICER has stronger activity on long double-stranded RNAs than its homologues in plants and lower eukaryotes."
+},
+{
+"j": 4,
+"text": "Restoring the wild-type 5' pocket residues rescued microRNA biogenesis in patient tumour cells."
+}
+]
+},
+{
+"n": 1550,
+"id": "pmid:38387462",
+"year": 2024,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Polycomb repressive complex 2 (PRC2) is reported to bind to many RNAs and has become a central player in reports of how long non-coding RNAs (lncRNAs) regulate gene expression. Yet, there is a growing discrepancy between the biochemical evidence supporting specific lncRNA-PRC2 interactions and functional evidence demonstrating that PRC2 is often dispensable for lncRNA function. Here, we revisit the evidence supporting RNA binding by PRC2 and show that many reported interactions may not occur in vivo. Using denaturing purification of in vivo crosslinked RNA-protein complexes in human and mouse cell lines, we observe a loss of detectable RNA binding to PRC2 and chromatin-associated proteins previously reported to bind RNA (CTCF, YY1, and others), despite accurately mapping bona fide RNA-binding sites across others (SPEN, TET2, and others). Taken together, these results argue for a critical re-evaluation of the broad role of RNA binding to orchestrate various chromatin regulatory mechanisms."
+}
+],
+"text": "Polycomb repressive complex 2 (PRC2) is reported to bind to many RNAs and has become a central player in reports of how long non-coding RNAs (lncRNAs) regulate gene expression. Yet, there is a growing discrepancy between the biochemical evidence supporting specific lncRNA-PRC2 interactions and functional evidence demonstrating that PRC2 is often dispensable for lncRNA function. Here, we revisit the evidence supporting RNA binding by PRC2 and show that many reported interactions may not occur in vivo. Using denaturing purification of in vivo crosslinked RNA-protein complexes in human and mouse cell lines, we observe a loss of detectable RNA binding to PRC2 and chromatin-associated proteins previously reported to bind RNA (CTCF, YY1, and others), despite accurately mapping bona fide RNA-binding sites across others (SPEN, TET2, and others). Taken together, these results argue for a critical re-evaluation of the broad role of RNA binding to orchestrate various chromatin regulatory mechanisms.",
+"statements": [
+{
+"j": 1,
+"text": "Deleting the PRC2 subunit EZH2 abolishes repressive H3K27 methylation at lncRNA target genes."
+},
+{
+"j": 2,
+"text": "Many RNA-PRC2 interactions described in prior studies are not observed inside living cells."
+},
+{
+"j": 3,
+"text": "Denaturing purification of crosslinked complexes revealed a gain of detectable RNA binding to PRC2 in human and mouse cells."
+},
+{
+"j": 4,
+"text": "The same denaturing approach still accurately mapped genuine RNA-binding sites for proteins such as SPEN and TET2."
+}
+]
+},
+{
+"n": 1551,
+"id": "pmid:39577428",
+"year": 2024,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "N 6 -Methyladenosine (m6A) is the predominant internal RNA modification in eukaryotic messenger RNAs (mRNAs) and plays a crucial role in mRNA stability. Here, using human cells, we reveal that m6A sites in the coding sequence (CDS) trigger CDS-m6A decay (CMD), a pathway that is distinct from previously reported m6A-dependent degradation mechanisms. Importantly, CDS m6A sites act considerably faster and more efficiently than those in the 3' untranslated region, which to date have been considered the main effectors. Mechanistically, CMD depends on translation, whereby m6A deposition in the CDS triggers ribosome pausing and transcript destabilization. The subsequent decay involves the translocation of the CMD target transcripts to processing bodies (P-bodies) and recruitment of the m6A reader protein YT521-B homology domain family protein 2 (YTHDF2). Our findings highlight CMD as a previously unknown pathway, which is particularly important for controlling the expression of developmental regulators and retrogenes."
+}
+],
+"text": "N 6 -Methyladenosine (m6A) is the predominant internal RNA modification in eukaryotic messenger RNAs (mRNAs) and plays a crucial role in mRNA stability. Here, using human cells, we reveal that m6A sites in the coding sequence (CDS) trigger CDS-m6A decay (CMD), a pathway that is distinct from previously reported m6A-dependent degradation mechanisms. Importantly, CDS m6A sites act considerably faster and more efficiently than those in the 3' untranslated region, which to date have been considered the main effectors. Mechanistically, CMD depends on translation, whereby m6A deposition in the CDS triggers ribosome pausing and transcript destabilization. The subsequent decay involves the translocation of the CMD target transcripts to processing bodies (P-bodies) and recruitment of the m6A reader protein YT521-B homology domain family protein 2 (YTHDF2). Our findings highlight CMD as a previously unknown pathway, which is particularly important for controlling the expression of developmental regulators and retrogenes.",
+"statements": [
+{
+"j": 1,
+"text": "CDS-m6A decay depends on translation, with coding-region m6A deposition triggering ribosome pausing and transcript destabilization."
+},
+{
+"j": 2,
+"text": "In human cells, coding-sequence m6A sites initiate a degradation route, CDS-m6A decay, that is distinct from known m6A degradation mechanisms."
+},
+{
+"j": 3,
+"text": "m6A sites in the coding sequence drive transcript decay considerably slower and more efficiently than sites in the 3' untranslated region."
+},
+{
+"j": 4,
+"text": "CDS-m6A decay sets the overall half-life of most housekeeping mRNAs in human cells."
+}
+]
+},
+{
+"n": 1552,
+"id": "pmid:39223315",
+"year": 2024,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Alternative splicing (AS) in human genes is widely viewed as a mechanism for enhancing proteomic diversity. AS can also impact gene expression levels without increasing protein diversity by producing 'unproductive' transcripts that are targeted for rapid degradation by nonsense-mediated decay (NMD). However, the relative importance of this regulatory mechanism remains underexplored. To better understand the impact of AS-NMD relative to other regulatory mechanisms, we analyzed population-scale genomic data across eight molecular assays, covering various stages from transcription to cytoplasmic decay. We report threefold more unproductive splicing compared with prior estimates using steady-state RNA. This unproductive splicing compounds across multi-intronic genes, resulting in 15% of transcript molecules from protein-coding genes being unproductive. Leveraging genetic variation across cell lines, we find that GWAS trait-associated loci explained by AS are as often associated with NMD-induced expression level differences as with differences in protein isoform usage. Our findings suggest that much of the impact of AS is mediated by NMD-induced changes in gene expression rather than diversification of the proteome."
+}
+],
+"text": "Alternative splicing (AS) in human genes is widely viewed as a mechanism for enhancing proteomic diversity. AS can also impact gene expression levels without increasing protein diversity by producing 'unproductive' transcripts that are targeted for rapid degradation by nonsense-mediated decay (NMD). However, the relative importance of this regulatory mechanism remains underexplored. To better understand the impact of AS-NMD relative to other regulatory mechanisms, we analyzed population-scale genomic data across eight molecular assays, covering various stages from transcription to cytoplasmic decay. We report threefold more unproductive splicing compared with prior estimates using steady-state RNA. This unproductive splicing compounds across multi-intronic genes, resulting in 15% of transcript molecules from protein-coding genes being unproductive. Leveraging genetic variation across cell lines, we find that GWAS trait-associated loci explained by AS are as often associated with NMD-induced expression level differences as with differences in protein isoform usage. Our findings suggest that much of the impact of AS is mediated by NMD-induced changes in gene expression rather than diversification of the proteome.",
+"statements": [
+{
+"j": 1,
+"text": "The fraction of transcripts that are unproductive is higher in neurons than in other human cell types."
+},
+{
+"j": 2,
+"text": "Loci where alternative splicing explains a GWAS trait associate with NMD-induced expression differences about as often as with protein-isoform usage."
+},
+{
+"j": 3,
+"text": "Across eight molecular assays, the analysis found threefold less unproductive splicing than prior estimates derived from steady-state RNA."
+},
+{
+"j": 4,
+"text": "Unproductive splicing accumulates across multi-intronic genes, leaving 15% of transcript molecules from protein-coding genes unproductive."
+}
+]
+},
+{
+"n": 1553,
+"id": "pmid:38355801",
+"year": 2024,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Circular RNAs (circRNAs), which are increasingly being implicated in a variety of functions in normal and cancerous cells 1-5 , are formed by back-splicing of precursor mRNAs in the nucleus 6-10 . circRNAs are predominantly localized in the cytoplasm, indicating that they must be exported from the nucleus. Here we identify a pathway that is specific for the nuclear export of circular RNA. This pathway requires Ran-GTP, exportin-2 and IGF2BP1. Enhancing the nuclear Ran-GTP gradient by depletion or chemical inhibition of the major protein exporter CRM1 selectively increases the nuclear export of circRNAs, while reducing the nuclear Ran-GTP gradient selectively blocks circRNA export. Depletion or knockout of exportin-2 specifically inhibits nuclear export of circRNA. Analysis of nuclear circRNA-binding proteins reveals that interaction between IGF2BP1 and circRNA is enhanced by Ran-GTP. The formation of circRNA export complexes in the nucleus is promoted by Ran-GTP through its interactions with exportin-2, circRNA and IGF2BP1. Our findings demonstrate that adaptors such as IGF2BP1 that bind directly to circular RNAs recruit Ran-GTP and exportin-2 to export circRNAs in a mechanism that is analogous to protein export, rather than mRNA export."
+}
+],
+"text": "Circular RNAs (circRNAs), which are increasingly being implicated in a variety of functions in normal and cancerous cells 1-5 , are formed by back-splicing of precursor mRNAs in the nucleus 6-10 . circRNAs are predominantly localized in the cytoplasm, indicating that they must be exported from the nucleus. Here we identify a pathway that is specific for the nuclear export of circular RNA. This pathway requires Ran-GTP, exportin-2 and IGF2BP1. Enhancing the nuclear Ran-GTP gradient by depletion or chemical inhibition of the major protein exporter CRM1 selectively increases the nuclear export of circRNAs, while reducing the nuclear Ran-GTP gradient selectively blocks circRNA export. Depletion or knockout of exportin-2 specifically inhibits nuclear export of circRNA. Analysis of nuclear circRNA-binding proteins reveals that interaction between IGF2BP1 and circRNA is enhanced by Ran-GTP. The formation of circRNA export complexes in the nucleus is promoted by Ran-GTP through its interactions with exportin-2, circRNA and IGF2BP1. Our findings demonstrate that adaptors such as IGF2BP1 that bind directly to circular RNAs recruit Ran-GTP and exportin-2 to export circRNAs in a mechanism that is analogous to protein export, rather than mRNA export.",
+"statements": [
+{
+"j": 1,
+"text": "Exported circular RNAs are loaded onto ribosomes and translated once they reach the cytoplasm."
+},
+{
+"j": 2,
+"text": "Depleting or knocking out exportin-2 specifically prevents circular RNAs from being exported out of the nucleus."
+},
+{
+"j": 3,
+"text": "Strengthening the nuclear Ran-GTP gradient by removing or inhibiting CRM1 selectively decreases circular RNA export from the nucleus."
+},
+{
+"j": 4,
+"text": "The study identifies a dedicated nuclear export pathway for circular RNAs that relies on Ran-GTP, exportin-2, and IGF2BP1."
+}
+]
+},
+{
+"n": 1554,
+"id": "pmid:36753414",
+"year": 2023,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Extracellular vesicles (EVs) have emerged as mediators of cellular communication, in part via the delivery of associated microRNAs (miRNAs), small non-coding RNAs that regulate gene expression. We show that brain-derived neurotrophic factor (BDNF) mediates the sorting of miR-132-5p, miR-218-5p, and miR-690 in neuron-derived EVs. BDNF-induced EVs in turn increase excitatory synapse formation in recipient hippocampal neurons, which is dependent on the inter-neuronal delivery of these miRNAs. Transcriptomic analysis further indicates the differential expression of developmental and synaptogenesis-related genes by BDNF-induced EVs, many of which are predicted targets of miR-132-5p, miR-218-5p, and miR-690. Furthermore, BDNF-induced EVs up-regulate synaptic vesicle (SV) clustering in a transmissible manner, thereby increasing synaptic transmission and synchronous neuronal activity. As BDNF and EV-miRNAs miR-218 and miR-132 were previously implicated in neuropsychiatric disorders such as anxiety and depression, our results contribute to a better understanding of disorders characterized by aberrant neural circuit connectivity."
+}
+],
+"text": "Extracellular vesicles (EVs) have emerged as mediators of cellular communication, in part via the delivery of associated microRNAs (miRNAs), small non-coding RNAs that regulate gene expression. We show that brain-derived neurotrophic factor (BDNF) mediates the sorting of miR-132-5p, miR-218-5p, and miR-690 in neuron-derived EVs. BDNF-induced EVs in turn increase excitatory synapse formation in recipient hippocampal neurons, which is dependent on the inter-neuronal delivery of these miRNAs. Transcriptomic analysis further indicates the differential expression of developmental and synaptogenesis-related genes by BDNF-induced EVs, many of which are predicted targets of miR-132-5p, miR-218-5p, and miR-690. Furthermore, BDNF-induced EVs up-regulate synaptic vesicle (SV) clustering in a transmissible manner, thereby increasing synaptic transmission and synchronous neuronal activity. As BDNF and EV-miRNAs miR-218 and miR-132 were previously implicated in neuropsychiatric disorders such as anxiety and depression, our results contribute to a better understanding of disorders characterized by aberrant neural circuit connectivity.",
+"statements": [
+{
+"j": 1,
+"text": "Brain-derived neurotrophic factor directs the sorting of miR-132-5p, miR-218-5p, and miR-690 into neuron-derived extracellular vesicles."
+},
+{
+"j": 2,
+"text": "Extracellular vesicles induced by BDNF decrease excitatory synapse formation in recipient hippocampal neurons, depending on delivery of the sorted miRNAs."
+},
+{
+"j": 3,
+"text": "BDNF-induced vesicles boosted synaptic vesicle clustering in a transmissible way, raising synaptic transmission and synchronous neuronal activity."
+},
+{
+"j": 4,
+"text": "Injecting BDNF-induced extracellular vesicles reduces anxiety-like behaviour in mice."
+}
+]
+}
+]
+}

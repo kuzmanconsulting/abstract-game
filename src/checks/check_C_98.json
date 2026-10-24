@@ -1,0 +1,107 @@
+{
+  "batch": "check_C_98",
+  "pass": "C",
+  "prompt_version": "check-v1",
+  "items": [
+    {
+      "n": 1625,
+      "id": "pmid:38355802",
+      "verdicts": [
+        {"j": 1, "label": "supported", "confidence": 3, "evidence": "A significant subset of splicing events suppressed by SAFB in somatic cells are activated in the testis"},
+        {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "SAFB also suppresses LTR/ERV elements in species in which they are still active, such as mice and flies"},
+        {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "This unique dual role is possible because of L1's conserved adenosine-rich coding sequences that are bound by SAFB proteins"},
+        {"j": 4, "label": "supported", "confidence": 3, "evidence": "Transposable elements (TEs) are a major constituent of human genes, occupying approximately half of the intronic space"}
+      ]
+    },
+    {
+      "n": 1626,
+      "id": "pmid:38049398",
+      "verdicts": [
+        {"j": 1, "label": "supported", "confidence": 3, "evidence": "This leads to the cytoplasmic accumulation of HERVK-derived RNA-DNA hybrids, the activation of the cGAS-STING cascade, and increased levels of cleaved caspase-3"},
+        {"j": 2, "label": "supported", "confidence": 3, "evidence": "inhibiting c-Jun effectively blocks all these downstream molecular processes and rescues neuronal death and the impaired neurogenesis phenotype in AD progenitors"},
+        {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "the upregulation of the AP-1 subunit, c-Jun, triggers decondensation of genomic regions containing TEs"},
+        {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Mobilization of transposable elements (TEs) in heterochromatic regions was recently reported in AD, but the underlying mechanisms are still underappreciated"}
+      ]
+    },
+    {
+      "n": 1627,
+      "id": "pmid:37758951",
+      "verdicts": [
+        {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "this interaction enhances piRNA production in vivo"},
+        {"j": 2, "label": "supported", "confidence": 3, "evidence": "uncovers a type of RNA endonuclease formed by three SLFL proteins"},
+        {"j": 3, "label": "supported", "confidence": 3, "evidence": "we identify an endoribonuclease, precursor of 21U RNA 5'-end cleavage holoenzyme (PUCH), that initiates piRNA processing in the nematode Caenorhabditis elegans"},
+        {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Mammalian Schlafen (SLFN) genes have been associated with immunity"}
+      ]
+    },
+    {
+      "n": 1628,
+      "id": "pmid:37169872",
+      "verdicts": [
+        {"j": 1, "label": "supported", "confidence": 3, "evidence": "We developed a tool that accurately genotypes MEVs using short-read whole-genome sequencing (WGS)"},
+        {"j": 2, "label": "supported", "confidence": 3, "evidence": "including an Alu insertion distribution distinguishing Japanese from other populations"},
+        {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "MEVs more often associate with gene expression changes than SNVs, thus plausibly impacting traits"},
+        {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "including a LINE-1 insertion associated with keloid and fasciitis"}
+      ]
+    },
+    {
+      "n": 1629,
+      "id": "pmid:37164018",
+      "verdicts": [
+        {"j": 1, "label": "supported", "confidence": 3, "evidence": "HUSH accumulates at sites of high RNAPII occupancy including long exons and transcription termination sites"},
+        {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "These classes are further distinguished by their transposon content and differential response to the loss of HUSH"},
+        {"j": 3, "label": "supported", "confidence": 3, "evidence": "endogenous targets of the HUSH complex fall into two distinct classes based on the presence or absence of H3K9me3"},
+        {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "The HUSH complex recognizes and silences foreign DNA such as viruses, transposons, and transgenes without prior exposure to its targets"}
+      ]
+    },
+    {
+      "n": 1630,
+      "id": "pmid:37005409",
+      "verdicts": [
+        {"j": 1, "label": "supported", "confidence": 3, "evidence": "uncover a genome up to 1.25 Gb comprising two haplotypes with a transposable element (TE) content of ~93%"},
+        {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Here, we sequence three independent P. pachyrhizi genomes"},
+        {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "the causal agent of Asian soybean rust disease, one of the world's most economically damaging agricultural diseases"},
+        {"j": 4, "label": "supported", "confidence": 3, "evidence": "show how they have a key impact on various processes such as host range adaptation, stress responses and genetic plasticity"}
+      ]
+    },
+    {
+      "n": 1631,
+      "id": "pmid:37714714",
+      "verdicts": [
+        {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "the largest ZNF subfamily found in cyprinid fish, which is characterized by a conserved sequence we dubbed the fish N-terminal zinc finger-associated (FiNZ) domain"},
+        {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Zebrafish possess approximately 700 FiNZ-ZNFs, many of which are evolving adaptively under positive selection"},
+        {"j": 3, "label": "supported", "confidence": 3, "evidence": "Sampling from 3221 genome assemblies, we show that the copy number of retroelements correlates with that of ZNFs across at least 750 million years of metazoan evolution"},
+        {"j": 4, "label": "supported", "confidence": 3, "evidence": "blocking their translation using morpholinos during early embryogenesis results in derepression of transcriptionally active TEs"}
+      ]
+    },
+    {
+      "n": 1632,
+      "id": "pmid:37973953",
+      "verdicts": [
+        {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "loss of ZNF808 in vitro results in aberrant activation of regulatory potential contained in the primate-specific transposable elements it represses during early pancreas development"},
+        {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Our results highlight the essential role of ZNF808 in pancreatic development in humans"},
+        {"j": 3, "label": "supported", "confidence": 3, "evidence": "ZNF808 is a member of the KRAB zinc finger protein family, a large and rapidly evolving group of epigenetic silencers which target transposable elements"},
+        {"j": 4, "label": "supported", "confidence": 2, "evidence": "we report the identification of homozygous loss-of-function variants in the primate-specific gene ZNF808 as a cause of pancreatic agenesis"}
+      ]
+    },
+    {
+      "n": 1633,
+      "id": "pmid:37591988",
+      "verdicts": [
+        {"j": 1, "label": "supported", "confidence": 3, "evidence": "In cortical cultured neurons, L1 RNAs are mainly associated to chromatin and interact with the Polycomb Repressive Complex 2 (PRC2) protein subunits enhancer of Zeste homolog 2 (Ezh2) and suppressor of zeste 12 (Suz12)"},
+        {"j": 2, "label": "supported", "confidence": 3, "evidence": "Here we show that L1s are required for proper mouse brain corticogenesis operating as regulatory long non-coding RNAs"},
+        {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "the migration of post-mitotic neurons and the proportions of different cell types"},
+        {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Long Interspersed Nuclear Elements-1s (L1s) are transposable elements that constitute most of the genome's transcriptional output"}
+      ]
+    },
+    {
+      "n": 1634,
+      "id": "pmid:36864754",
+      "verdicts": [
+        {"j": 1, "label": "supported", "confidence": 3, "evidence": "We delineate that ERVs profoundly rewire the transcriptional program of trophoblast syncytialization"},
+        {"j": 2, "label": "supported", "confidence": 3, "evidence": "deletions of MER50 elements adjacent to several STB genes, including MFSD2A and TNFAIP2, significantly attenuated their expression concomitant to compromised syncytium formation"},
+        {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Endogenous retroviruses (ERVs) have been proposed as a driving force for the evolution of the mammalian placenta"},
+        {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "enhancers overlapping several ERV families tend to exhibit increased H3K27ac and reduced H3K9me3 occupancy in STBs relative to hTSCs"}
+      ]
+    }
+  ]
+}

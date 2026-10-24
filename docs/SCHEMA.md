@@ -52,6 +52,18 @@ citations), `shortlist_pool.json` + `pool/shortlist_<qfield>.json` (`sample_seed
 of 120), `pick_cited_<qfield>.json`, `pick_pool_<qfield>.json` (prompt curate-d23-v1). Candidates:
 `src/candidates_leading.json` (relevance), `src/candidates_leading_cited.json` (CITED desc).
 
+D24 (recent leading-journal papers, all fields) uses `src/candidates_recent_cited.json` (CITED desc, 2023-01-01 onwards,
+leading journals; rnadev records relabelled `query_field = smallrna` with `query_field_was`; `header.merged_from`
+records the second, wider fetch for cancergen, evogen and evodevo), `src/d24/shortlist_recent.json` +
+`src/d24/shortlists/shortlist_<field>.json` (100 most-cited per field) and `src/d24/pick_<field>.json` (prompt
+curate-recent-v1, 50 kept per field).
+
+## `private/` — working notes, not published (D25)
+
+`private/DIARY.md`, `private/LOG.md`, `private/DECISIONS.md`: the working versions of the records, with timestamps and
+the requests that drove each step. The directory is listed in `.gitignore`; the public versions are `docs/LOG.md` and
+`docs/DECISIONS.md` (same content in a formal register, no personal names or quotations). There is no public diary.
+
 ## `pipeline/journals.py` — the leading-journal list (D23)
 
 `LEADING` [(display name, NLM abbreviation)], `ALIASES` {Europe PMC title → display name} for titles that `canon()`

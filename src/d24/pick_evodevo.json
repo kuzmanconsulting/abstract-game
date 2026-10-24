@@ -1,0 +1,607 @@
+{
+ "field": "evodevo",
+ "prompt_version": "curate-recent-v1",
+ "keep": [
+  "pmid:38280868",
+  "pmid:36593289",
+  "pmid:37208359",
+  "pmid:39312655",
+  "pmid:40335694",
+  "pmid:38977687",
+  "pmid:38530892",
+  "pmid:37833361",
+  "pmid:37336953",
+  "pmid:39107305",
+  "pmid:38437180",
+  "pmid:38378804",
+  "pmid:37494290",
+  "pmid:39365921",
+  "pmid:38658750",
+  "pmid:39753957",
+  "pmid:38306396",
+  "pmid:38059517",
+  "pmid:36963385",
+  "pmid:40866708",
+  "pmid:40269175",
+  "pmid:38604126",
+  "pmid:38861596",
+  "pmid:38713714",
+  "pmid:39039090",
+  "pmid:37016448",
+  "pmid:37856609",
+  "pmid:38683998",
+  "pmid:39094571",
+  "pmid:37321213",
+  "pmid:37862424",
+  "pmid:37414759",
+  "pmid:38838158",
+  "pmid:38336937",
+  "pmid:37294634",
+  "pmid:38241378",
+  "pmid:39060477",
+  "pmid:38421027",
+  "pmid:38309269",
+  "pmid:38105444",
+  "pmid:40828025",
+  "pmid:40044858",
+  "pmid:39302728",
+  "pmid:36658391",
+  "pmid:40903584",
+  "pmid:40743330",
+  "pmid:39121058",
+  "pmid:37306301",
+  "pmid:38753069",
+  "pmid:40425814"
+ ],
+ "drop": [
+  {
+   "id": "pmid:37824647",
+   "reason": "single-species developmental atlas (human cortex) with no cross-species comparison"
+  },
+  {
+   "id": "pmid:37248328",
+   "reason": "human disease transcriptomics (Alzheimer's microglia); not evolutionary"
+  },
+  {
+   "id": "pmid:38167340",
+   "reason": "chromatin/metabolism mechanism in one species; uses GRN vocabulary without an evolutionary result"
+  },
+  {
+   "id": "pmid:36996230",
+   "reason": "single-species hormone-response GRN atlas (Arabidopsis root)"
+  },
+  {
+   "id": "pmid:38182825",
+   "reason": "single-species liver zonation regulatory map; no comparison across species"
+  },
+  {
+   "id": "pmid:39578560",
+   "reason": "human ovarian aging atlas; not evolutionary"
+  },
+  {
+   "id": "pmid:38347009",
+   "reason": "kidney injury and repair disease study"
+  },
+  {
+   "id": "pmid:38448474",
+   "reason": "microglia/macrophage disease biology"
+  },
+  {
+   "id": "pmid:39265576",
+   "reason": "human dementia single-cell study"
+  },
+  {
+   "id": "pmid:37468485",
+   "reason": "single-species muscle development GRN atlas"
+  },
+  {
+   "id": "pmid:37155865",
+   "reason": "kidney organoid differentiation atlas; benchmark against human tissue, not across species"
+  },
+  {
+   "id": "pmid:39638780",
+   "reason": "single-cell transcriptome/proteome method; result is a tool"
+  },
+  {
+   "id": "pmid:38199997",
+   "reason": "human kidney health/injury chromatin atlas; disease focus"
+  },
+  {
+   "id": "pmid:38167709",
+   "reason": "single-species endosperm GRN atlas (maize)"
+  },
+  {
+   "id": "pmid:37348464",
+   "reason": "single-species screen of TF effector domains; resource rather than evolutionary finding"
+  },
+  {
+   "id": "pmid:38734724",
+   "reason": "reference genome plus biosynthetic pathway discovery; the evolutionary angle on citrus PMF genes is covered by pmid:38530892"
+  },
+  {
+   "id": "pmid:40037709",
+   "reason": "GRN inference software; result is a tool"
+  },
+  {
+   "id": "pmid:41193844",
+   "reason": "single-species cortical development atlas (mouse)"
+  },
+  {
+   "id": "pmid:38237592",
+   "reason": "development vs regeneration within one species (zebrafish), not a cross-species comparison"
+  },
+  {
+   "id": "pmid:37794034",
+   "reason": "cancer genomics (Barrett's esophagus to adenocarcinoma); belongs to cancergen"
+  },
+  {
+   "id": "pmid:38009929",
+   "reason": "single-species GRN of axillary bud dormancy"
+  },
+  {
+   "id": "pmid:37550370",
+   "reason": "single-species meristem signalling mechanism"
+  },
+  {
+   "id": "pmid:36989136",
+   "reason": "organoid post-transcriptional regulation; not evolutionary"
+  },
+  {
+   "id": "pmid:36857457",
+   "reason": "Polycomb/histone chromatin mechanism; not evolutionary"
+  },
+  {
+   "id": "pmid:38565144",
+   "reason": "human trans-eQTL method and trait genetics"
+  },
+  {
+   "id": "pmid:36867045",
+   "reason": "single-species developmental GRN (neural induction) with no comparison across species"
+  },
+  {
+   "id": "pmid:38196033",
+   "reason": "mitotic bookmarking mechanism in pluripotent cells"
+  },
+  {
+   "id": "pmid:36991439",
+   "reason": "single-species maize multi-omics GRN resource"
+  },
+  {
+   "id": "pmid:41261132",
+   "reason": "generative design of synthetic genes with a language model; not about how genes evolve"
+  },
+  {
+   "id": "pmid:39173638",
+   "reason": "Hox chromatin-boundary mechanism in one species; no evolutionary result"
+  },
+  {
+   "id": "pmid:36688410",
+   "reason": "single-species molting GRN (C. elegans)"
+  },
+  {
+   "id": "pmid:40179192",
+   "reason": "human blood-trait heritability and Perturb-multiome method"
+  },
+  {
+   "id": "pmid:39146179",
+   "reason": "peach breeding flavor genetics; no evolutionary or developmental result"
+  },
+  {
+   "id": "pmid:36908088",
+   "reason": "comparative root physiology of two species; the finding is physiological, not genomic or developmental evolution"
+  },
+  {
+   "id": "pmid:40512619",
+   "reason": "single-species hypothalamus development atlas (mouse)"
+  },
+  {
+   "id": "pmid:40345192",
+   "reason": "spatial atlas of a single human embryo; no comparison"
+  },
+  {
+   "id": "pmid:39261725",
+   "reason": "mouse cortical development mechanism; no comparison across species"
+  },
+  {
+   "id": "pmid:38019863",
+   "reason": "single-species uterus development atlas"
+  },
+  {
+   "id": "pmid:37254169",
+   "reason": "human QTL-based GRN inference"
+  },
+  {
+   "id": "pmid:36757364",
+   "reason": "gut microbial community ecology and diversification; belongs to evogen"
+  },
+  {
+   "id": "pmid:36810131",
+   "reason": "human skeletal dysplasia disease model"
+  },
+  {
+   "id": "pmid:36920035",
+   "reason": "human chondrocyte differentiation; no comparison"
+  },
+  {
+   "id": "pmid:36841901",
+   "reason": "marine microbial gene-content biogeography; microbial ecology rather than evo-devo"
+  },
+  {
+   "id": "pmid:40118065",
+   "reason": "human skeletal stem cell atlas"
+  },
+  {
+   "id": "pmid:39456129",
+   "reason": "single-species plant metabolic cell-type regulatory atlas"
+  },
+  {
+   "id": "pmid:36856544",
+   "reason": "pathogen evolution (Vibrio lineages); excluded by definition"
+  },
+  {
+   "id": "pmid:35961046",
+   "reason": "biomechanical macroevolution of jaw morphology; no developmental or genomic result"
+  },
+  {
+   "id": "pmid:41501532",
+   "reason": "single-species meristem atlas and imputation method"
+  },
+  {
+   "id": "pmid:37463216",
+   "reason": "synthetic CRISPRa/i circuit engineering; tool"
+  },
+  {
+   "id": "pmid:40419657",
+   "reason": "single-cell multiplexed chromatin/RNA assay; method"
+  },
+  {
+   "id": "pmid:39106433",
+   "reason": "horizontal transfer in Wolbachia genes; bacterial gene evolution belongs to evogen"
+  },
+  {
+   "id": "pmid:37952154",
+   "reason": "cochlear organoid differentiation; single species"
+  },
+  {
+   "id": "pmid:37414772",
+   "reason": "single-species limb GRN mechanism (mouse); no comparison"
+  },
+  {
+   "id": "pmid:39752518",
+   "reason": "theoretical optimisation model of the gap gene network; not evolutionary"
+  },
+  {
+   "id": "pmid:39437788",
+   "reason": "human cardiac development GRN; single species"
+  },
+  {
+   "id": "pmid:39116876",
+   "reason": "Hox-driven gut morphogenesis in chick; developmental mechanism without an evolutionary comparison"
+  },
+  {
+   "id": "pmid:38383453",
+   "reason": "human rare eye disease regulatory variants; disease genetics"
+  },
+  {
+   "id": "pmid:37116498",
+   "reason": "Drosophila cell genetic interaction map; resource"
+  },
+  {
+   "id": "pmid:41565813",
+   "reason": "single-species human cortical GRN"
+  },
+  {
+   "id": "pmid:39951527",
+   "reason": "glucocorticoid exposure in brain organoids"
+  },
+  {
+   "id": "pmid:39500321",
+   "reason": "selection on bill-colour alleles in a hybrid zone; population genomics belongs to evogen"
+  },
+  {
+   "id": "pmid:39122969",
+   "reason": "human breast tissue atlas across ancestries"
+  },
+  {
+   "id": "pmid:39095365",
+   "reason": "single-species cardiac conduction system atlas"
+  },
+  {
+   "id": "pmid:37650381",
+   "reason": "experimental evolution of quantitative traits; belongs to evogen"
+  },
+  {
+   "id": "pmid:37590135",
+   "reason": "single-species retinal GRN (mouse)"
+  },
+  {
+   "id": "pmid:37453424",
+   "reason": "single-species developmental GRN dynamics (bistability modelling); no cross-species comparison"
+  },
+  {
+   "id": "pmid:36815629",
+   "reason": "Hox expression in adult mouse muscle interstitial cells; Hox vocabulary only, no evolutionary result"
+  },
+  {
+   "id": "pmid:39962241",
+   "reason": "single-species human postnatal brain multiomic atlas"
+  },
+  {
+   "id": "pmid:39567486",
+   "reason": "single-species human fetal spine HOX atlas; no comparison"
+  },
+  {
+   "id": "pmid:37339966",
+   "reason": "reference-genome paper whose comparative results (gene loss, monocot phylogeny) fit only marginally; cut at cap of 15"
+  },
+  {
+   "id": "pmid:37015806",
+   "reason": "lncRNA atlas in mouse liver disease; not evo-devo"
+  },
+  {
+   "id": "pmid:36727308",
+   "reason": "single-species Arabidopsis root GRN response to elevated CO2; physiology"
+  },
+  {
+   "id": "pmid:39439297",
+   "reason": "WGD preceding climatic niche shifts fits but is macroecological; WGD already covered by kept pmid:40044858 and pmid:39121058; cut at cap"
+  },
+  {
+   "id": "pmid:38039969",
+   "reason": "fits (early streptophyte origin of RHO signalling) but cut at cap of 15"
+  },
+  {
+   "id": "pmid:37750335",
+   "reason": "neopolyploidy effect on duckweed microbiome; ecological, not genome or development evolution"
+  },
+  {
+   "id": "pmid:37263270",
+   "reason": "V-ATPase photosynthesis physiology in phytoplankton; evolutionary link is interpretive"
+  },
+  {
+   "id": "pmid:37191016",
+   "reason": "zebrafish lincRNA micropeptide function; single-species, no evolutionary result"
+  },
+  {
+   "id": "pmid:36620995",
+   "reason": "single-species mouse endocardial Hand2 GRN"
+  },
+  {
+   "id": "pmid:39695844",
+   "reason": "single-species soybean TF binding map (resource-like); no comparison"
+  },
+  {
+   "id": "pmid:39137786",
+   "reason": "morphological macroevolution (tempo and mode) without a genomic or developmental mechanism"
+  },
+  {
+   "id": "pmid:38977307",
+   "reason": "pathogen (Cryptosporidium) population evolution"
+  },
+  {
+   "id": "pmid:38153160",
+   "reason": "within-species mouse strain regulatory variation in a liver/diet context; not cross-species"
+  },
+  {
+   "id": "pmid:37923729",
+   "reason": "bacterial pathogen niche adaptation"
+  },
+  {
+   "id": "pmid:36578177",
+   "reason": "convergence via ILS/introgression fits marginally but is mainly phylogenomics (evogen); cut at cap"
+  },
+  {
+   "id": "pmid:41125606",
+   "reason": "pig-human pancreas comparison aimed at model validation; comparative atlas without an evolutionary result"
+  },
+  {
+   "id": "pmid:40967205",
+   "reason": "fits (recent origin of morphological complexity in Coleochaetophyceae) but cut at cap of 15"
+  },
+  {
+   "id": "pmid:40595690",
+   "reason": "reference-genome paper; results mostly descriptive giga-genome architecture"
+  },
+  {
+   "id": "pmid:40279387",
+   "reason": "phenotypic convergence in a radiation without a genomic or developmental mechanism"
+  },
+  {
+   "id": "pmid:39794121",
+   "reason": "prokaryotic HGT versus defense systems; microbial genome evolution belongs to evogen"
+  },
+  {
+   "id": "pmid:39453979",
+   "reason": "plant pathogen effector copy-number variation"
+  },
+  {
+   "id": "pmid:38602904",
+   "reason": "genetic tool (split-intein Trojan exons); result is a method"
+  },
+  {
+   "id": "pmid:38408234",
+   "reason": "single-species mouse inner-ear GRN"
+  },
+  {
+   "id": "pmid:38063857",
+   "reason": "mouse midface developmental genetics; conservation asserted but no cross-species result"
+  },
+  {
+   "id": "pmid:37978173",
+   "reason": "bacterial synthetic oscillators and host interaction; not evo-devo"
+  },
+  {
+   "id": "pmid:37604818",
+   "reason": "erythropoietin effect on hippocampal transcription; neuropharmacology"
+  },
+  {
+   "id": "pmid:37582749",
+   "reason": "bivalve exploitation and extinction vulnerability; conservation biology"
+  },
+  {
+   "id": "pmid:36912250",
+   "reason": "Hox in periosteal stem cells; no evolutionary result"
+  },
+  {
+   "id": "pmid:40494892",
+   "reason": "iPSC-to-microglia differentiation method"
+  },
+  {
+   "id": "pmid:39891516",
+   "reason": "single-species Arabidopsis root hair GRN"
+  },
+  {
+   "id": "pmid:39136558",
+   "reason": "fits (early evolution of a sex-determining gene and sex chromosomes) but cut at cap of 15"
+  },
+  {
+   "id": "pmid:38922927",
+   "reason": "plant pathogen breakdown of a resistance locus"
+  },
+  {
+   "id": "pmid:38583492",
+   "reason": "somatic hepatocyte polyploidy and ageing; not evolutionary"
+  },
+  {
+   "id": "pmid:38509075",
+   "reason": "mouse-only regulatory-landscape study with evolutionary framing; no cross-species data"
+  },
+  {
+   "id": "pmid:37491077",
+   "reason": "method (Hi-C to geometry); result is a tool"
+  },
+  {
+   "id": "pmid:37338008",
+   "reason": "fits (dosage sensitivity after allopolyploidy) but same kind of finding as kept pmid:39121058, which is more cited"
+  },
+  {
+   "id": "pmid:37330911",
+   "reason": "single-species ETV2 enhancer priming in fate commitment"
+  },
+  {
+   "id": "pmid:35984328",
+   "reason": "macroevolution of a bioluminescent courtship trait; no genomic or developmental mechanism"
+  },
+  {
+   "id": "pmid:40737318",
+   "reason": "WGD and genetic load in A. arenosa is population genetics (evogen side); WGD already represented"
+  },
+  {
+   "id": "pmid:39604701",
+   "reason": "morphological macroevolution after habitat transitions"
+  },
+  {
+   "id": "pmid:39122679",
+   "reason": "single-species sea urchin TF expression atlas; no cross-species comparison"
+  },
+  {
+   "id": "pmid:39122670",
+   "reason": "software (MOCHA)"
+  },
+  {
+   "id": "pmid:38383596",
+   "reason": "bacterial pathogen convergent evolution"
+  },
+  {
+   "id": "pmid:38381605",
+   "reason": "reference-genome paper focused on a biosynthesis pathway"
+  },
+  {
+   "id": "pmid:38365230",
+   "reason": "archaeal metabolism"
+  },
+  {
+   "id": "pmid:37594984",
+   "reason": "single-species mouse hippocampal primordium chromatin study"
+  },
+  {
+   "id": "pmid:37561391",
+   "reason": "phenotypic colour convergence via comparative methods; no genomic or developmental mechanism"
+  },
+  {
+   "id": "pmid:36864746",
+   "reason": "viral lysogeny regulation"
+  },
+  {
+   "id": "pmid:36625090",
+   "reason": "fits (evolution of the bilaterian corepressor CtBP) but cut at cap of 15"
+  },
+  {
+   "id": "pmid:36477354",
+   "reason": "fits (comparative genomics of grass self-incompatibility loci) but cut at cap of 15"
+  },
+  {
+   "id": "pmid:40903575",
+   "reason": "companion to kept pmid:40903584 on the same cephalic-furrow question; kept the cross-species paper for breadth"
+  },
+  {
+   "id": "pmid:40542495",
+   "reason": "fits (convergent S-locus supergene for heterostyly) but cut at cap of 15"
+  },
+  {
+   "id": "pmid:40244654",
+   "reason": "fits (genome rearrangements under morphological stasis in chitons) but cut at cap of 15"
+  },
+  {
+   "id": "pmid:39852593",
+   "reason": "computational protein-structure convergence; molecular evolution, not development or a trait"
+  },
+  {
+   "id": "pmid:39470581",
+   "reason": "venom toxin innovation fits only loosely (molecular pharmacology); cut at cap"
+  },
+  {
+   "id": "pmid:39283716",
+   "reason": "species-relationship phylogenomics belongs to evogen"
+  },
+  {
+   "id": "pmid:39258573",
+   "reason": "morphological macroevolution after an innovation; no genomic or developmental mechanism"
+  },
+  {
+   "id": "pmid:38875306",
+   "reason": "single-species mouse extraocular muscle stem cell GRN"
+  },
+  {
+   "id": "pmid:38652773",
+   "reason": "single-species C. elegans Hox target study; no evolutionary result"
+  },
+  {
+   "id": "pmid:37882764",
+   "reason": "single-species mouse notochord enhancer catalogue"
+  },
+  {
+   "id": "pmid:37844224",
+   "reason": "co-option of a host transporter in symbiosis fits loosely; co-option already represented; cut"
+  },
+  {
+   "id": "pmid:37714829",
+   "reason": "fits (sequential co-option of a developmental network) but co-option already represented by kept pmid:38105444, pmid:36658391 and pmid:38309269; cut at cap for breadth"
+  },
+  {
+   "id": "pmid:37695237",
+   "reason": "methods benchmark for correlated-rate tests"
+  },
+  {
+   "id": "pmid:37221394",
+   "reason": "toxin-gene pangenomics in an invasive fungus; population-level, not evo-devo"
+  },
+  {
+   "id": "pmid:37104544",
+   "reason": "bacterial pathogen sRNA point mutation"
+  },
+  {
+   "id": "pmid:41407855",
+   "reason": "single-species human reproductive tract developmental atlas"
+  },
+  {
+   "id": "pmid:40707449",
+   "reason": "parasite comparative genomics of host spillover (pathogen evolution)"
+  }
+ ],
+ "notes": "Only 35 of the 100 shortlisted papers fit: the search terms pulled in many single-species GRN and single-cell atlases plus disease studies, which the definition excludes, so the keep list is short of 50 rather than padded. The kept set covers de novo gene origin (Drosophila, human, E. coli), whole-genome duplication and duplicate-gene fates (sturgeon, gastropods, cotton, soybean, tea, citrus, horse chestnut, wheat), cis-regulatory evolution (C3/C4 grasses, plant stem-cell regulator, mouse, human-chimp), Hox and body-plan evolution, morphological novelty and co-option (gliding membranes, bipedalism, deceptive flowers), convergent evolution and comparative genomes (hornworts, ferns, MHC, chromatin loops). It lacks cross-species single-cell developmental atlases, deep-animal GRN comparisons (e.g. cnidarian/sponge), and evo-devo of the vertebrate head or neural crest. TOP-UP (ranks 101-200): The kept set covers Hox and body-plan evolution (teleost caudal fin), vertebrate neural-crest origins, morphological novelty and co-option (Drosophila genitalia, nematode predatory mouth, liverwort setae), evolution of developmental bias and of gastrulation mechanics, cis-regulatory evolution (mammalian enhancer innovation, convergent hibernation elements, conserved cucurbit fruit CREs), WGD consequences (yeast multicellularity experiment, angiosperm homoeolog dosage), paralog retention, de novo gene evolution and yeast gene-family gain and loss. It lacks non-bilaterian and deep body-plan work, sex-determination and supergene loci, and animal comparative-genome papers; several further fitting papers (pmid:37714829, pmid:40542495, pmid:36477354, pmid:40244654, pmid:36625090, pmid:39136558, pmid:40967205, pmid:38039969) were cut only by the cap of 15.",
+ "merged_from": [
+  "pick_evodevo.json (first pass, 35)",
+  "pick_evodevo_b.json (top-up, 15)"
+ ]
+}

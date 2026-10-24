@@ -1,0 +1,107 @@
+{
+  "batch": "check_B_80",
+  "pass": "B",
+  "prompt_version": "check-v1",
+  "items": [
+    {
+      "n": 1445,
+      "id": "pmid:38280868",
+      "verdicts": [
+        {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "indicating potentially important but less emphasized roles of early germline cells in the de novo gene origination in testis"},
+        {"j": 2, "label": "supported", "confidence": 3, "evidence": "We identify 555 de novo gene candidates in D. melanogaster that originated within the Drosophilinae lineage."},
+        {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "although most de novo gene candidates are enriched in spermatocytes, several young candidates are biased towards the early spermatogenesis stage"},
+        {"j": 4, "label": "supported", "confidence": 3, "evidence": "we find little overall protein structural changes in candidates from the Drosophilinae lineage"}
+      ]
+    },
+    {
+      "n": 1446,
+      "id": "pmid:36593289",
+      "verdicts": [
+        {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "we verified the regulations of splicing and U1 recognition on the nuclear export efficiency of one of these genes, the ENSG00000205704, in human neural progenitor cells"},
+        {"j": 2, "label": "supported", "confidence": 3, "evidence": "The transgenic mice with ectopically expressed ENSG00000205704 showed enlarged brains with cortical expansion."},
+        {"j": 3, "label": "supported", "confidence": 3, "evidence": "in 74 human/hominoid-specific de novo genes, we identified distinctive U1 elements and RNA splice-related sequences accounting for RNA nuclear export"},
+        {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "knock-out or over-expression of this gene in human embryonic stem cells accelerates or delays the neuronal maturation of cortical organoids, respectively"}
+      ]
+    },
+    {
+      "n": 1447,
+      "id": "pmid:37208359",
+      "verdicts": [
+        {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "these derive from a shared genome duplication event occurring well over 200 million years ago"},
+        {"j": 2, "label": "supported", "confidence": 3, "evidence": "Thus, for most genes the resolution to diploidy was lineage-specific."},
+        {"j": 3, "label": "supported", "confidence": 3, "evidence": "the sharing of this WGD is masked by the fact that paddlefish and sturgeon lineage divergence occurred before rediploidization had proceeded even half-way"},
+        {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "This was followed by a prolonged process of reversion to stable diploid inheritance (rediploidization)"}
+      ]
+    },
+    {
+      "n": 1448,
+      "id": "pmid:39312655",
+      "verdicts": [
+        {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "C 4 genes have two to three distal cell-type-specific ACRs, highlighting the complexity and divergent nature of C 4 evolution"},
+        {"j": 2, "label": "supported", "confidence": 3, "evidence": "Integrating these data with phylogenetics revealed diverse co-option of gene family members between species"},
+        {"j": 3, "label": "supported", "confidence": 3, "evidence": "revealed a spectrum of conserved and novel ACRs, even among closely related species, indicating ongoing evolution of cis -regulation at these C 4 loci"},
+        {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "we use single-cell-indexed ATAC-seq to identify cell-type-specific accessible chromatin regions (ACRs) associated with C 4 enzymes"}
+      ]
+    },
+    {
+      "n": 1449,
+      "id": "pmid:40335694",
+      "verdicts": [
+        {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Our comparative analysis showed that chromatin looping is a conserved feature of genome architecture in ctenophores, placozoans and cnidarians."},
+        {"j": 2, "label": "supported", "confidence": 3, "evidence": "These sequence-determined distal contacts involve both promoter-enhancer and promoter-promoter interactions."},
+        {"j": 3, "label": "supported", "confidence": 3, "evidence": "By contrast, chromatin loops are absent in the unicellular relatives of animals."},
+        {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "chromatin looping is a conserved feature of genome architecture in ctenophores, placozoans and cnidarians"}
+      ]
+    },
+    {
+      "n": 1450,
+      "id": "pmid:38977687",
+      "verdicts": [
+        {"j": 1, "label": "supported", "confidence": 3, "evidence": "Gene expression and interaction analyses indicate that GhCIPK6 homologous genes show significant functional changes after polyploidy."},
+        {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Among these, GhCIPK6D1 and GhCIPK6D3 are significantly up-regulated by drought stress."},
+        {"j": 3, "label": "supported", "confidence": 3, "evidence": "through GhCBL1A1-GhCIPK6D1 and GhCBL2A1-GhCIPK6D3, respectively, to regulate stomatal movement by controlling the directional flow of K + in guard cells"},
+        {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "high GhCIPK6D1 expression promotes cotton drought sensitivity, while GhCIPK6D3 expression promotes drought tolerance"}
+      ]
+    },
+    {
+      "n": 1451,
+      "id": "pmid:38530892",
+      "verdicts": [
+        {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "A 1,041-bp deletion in the CreOMT4 promoter, which is found in most modern cultivated mandarins, has reduced the PMF content relative to that in wild and early-admixture mandarins."},
+        {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Polymethoxyflavones (PMFs) are a class of abundant specialized metabolites with remarkable anticancer properties in citrus."},
+        {"j": 3, "label": "supported", "confidence": 3, "evidence": "we report that PMFs are highly accumulated in wild mandarins and mandarin-derived accessions, while undetectable in early-diverging citrus species and related species"},
+        {"j": 4, "label": "supported", "confidence": 3, "evidence": "their encoded methyltransferases exhibit multisite O -methylation activities for hydroxyflavones, producing seven PMFs in vitro and in vivo"}
+      ]
+    },
+    {
+      "n": 1452,
+      "id": "pmid:37833361",
+      "verdicts": [
+        {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "the essential gene-encoding enzymes necessary for BAT biosynthesis are recruited before the splitting of Aesculus, Acer, and Xanthoceras"},
+        {"j": 2, "label": "supported", "confidence": 3, "evidence": "we report a 470.02 Mb genome assembly and characterize an Aesculus-specific whole-genome duplication event, which leads to the formation and duplication of two triterpenoid biosynthesis-related gene clusters (BGCs)"},
+        {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "and achieve the de novo synthesis of aesculin in E. coli"},
+        {"j": 4, "label": "supported", "confidence": 3, "evidence": "AcOCS6, AcCYP716A278, AcCYP716A275, and AcCSL1 genes within these two BGCs along with a seed-specific expressed AcBAHD6 are responsible for the formation of aescin"}
+      ]
+    },
+    {
+      "n": 1453,
+      "id": "pmid:37336953",
+      "verdicts": [
+        {"j": 1, "label": "supported", "confidence": 3, "evidence": "However, RLP30 and RE02 share little sequence similarity and respond to different parts of the native/folded protein."},
+        {"j": 2, "label": "supported", "confidence": 3, "evidence": "Surprisingly, RLP30 shows a second ligand specificity for a SCP-nonhomologous protein secreted by bacterial Pseudomonads."},
+        {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "RLP30 expression in N. tabacum results in quantitatively lower susceptibility to bacterial, fungal and oomycete pathogens"},
+        {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "The Arabidopsis thaliana Receptor-Like Protein RLP30 contributes to immunity against the fungal pathogen Sclerotinia sclerotiorum."}
+      ]
+    },
+    {
+      "n": 1454,
+      "id": "pmid:39107305",
+      "verdicts": [
+        {"j": 1, "label": "supported", "confidence": 3, "evidence": "Our results suggest pan-genome shrinkage occurred during wild range expansion."},
+        {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Selection signatures provide evidence that partial or complete gene loss was a key adaptive genetic change in common bean populations with major implications for plant adaptation."},
+        {"j": 3, "label": "supported", "confidence": 3, "evidence": "It reveals ~234 Mb of additional sequences containing 6,905 protein-coding genes missing from the reference, constituting 49% of all presence/absence variants (PAVs)."},
+        {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "More non-synonymous mutations are found in PAVs than core genes"}
+      ]
+    }
+  ]
+}

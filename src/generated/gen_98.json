@@ -1,0 +1,97 @@
+{
+  "batch": "gen_98",
+  "prompt_version": "gen-v5",
+  "flip_rule": "first-of-any-v3",
+  "items": [
+    {
+      "n": 1625, "id": "pmid:38355802",
+      "statements": [
+        {"k": 1, "label": "not_addressed", "text": "The suppressive role of SAFB against transposons is conserved in plant genomes.", "evidence": "Moreover, SAFB also suppresses LTR/ERV elements in species in which they are still active, such as mice and flies.", "note": "The abstract reports SAFB suppression only in animals such as mice and flies and never mentions plants."},
+        {"k": 2, "label": "supported", "text": "Transposable elements make up roughly half of the intronic sequence within human genes.", "evidence": "occupying approximately half of the intronic space", "note": "The abstract states TEs occupy approximately half of the intronic space."},
+        {"k": 3, "label": "supported", "text": "SAFB proteins bind L1's conserved adenosine-rich coding sequences, which underlies their dual role.", "evidence": "conserved adenosine-rich coding sequences that are bound by SAFB proteins", "note": "The abstract attributes SAFB's dual role to binding L1's conserved adenosine-rich coding sequences."},
+        {"k": 4, "label": "supported", "text": "Many splicing events that SAFB suppresses in somatic cells become activated in the testis.", "evidence": "A significant subset of splicing events suppressed by SAFB in somatic cells are activated in the testis", "note": "The abstract reports a subset of SAFB-suppressed somatic splicing events are activated in the testis."}
+      ]
+    },
+    {
+      "n": 1626, "id": "pmid:38049398",
+      "statements": [
+        {"k": 1, "label": "not_addressed", "text": "TE mobilization in heterochromatin is the earliest detectable event in Alzheimer's disease progression.", "evidence": "Mobilization of transposable elements (TEs) in heterochromatic regions was recently reported in AD, but the underlying mechanisms are still underappreciated.", "note": "The abstract notes TE mobilization was reported in AD but never ranks it as the earliest event in progression."},
+        {"k": 2, "label": "supported", "text": "Inhibiting c-Jun rescues neuronal death and the impaired neurogenesis phenotype in Alzheimer's disease progenitors.", "evidence": "inhibiting c-Jun effectively blocks all these downstream molecular processes and rescues neuronal death and the impaired neurogenesis phenotype in AD progenitors", "note": "The abstract reports that inhibiting c-Jun rescues neuronal death and the impaired neurogenesis phenotype."},
+        {"k": 3, "label": "supported", "text": "Upregulation of the AP-1 subunit c-Jun triggers decondensation of TE-containing genomic regions in Alzheimer's cells.", "evidence": "the upregulation of the AP-1 subunit, c-Jun, triggers decondensation of genomic regions containing TEs", "note": "The abstract shows c-Jun upregulation triggers decondensation of TE-containing genomic regions."},
+        {"k": 4, "label": "supported", "text": "c-Jun activity drives accumulation of HERVK RNA-DNA hybrids, activation of cGAS-STING, and increased cleaved caspase-3.", "evidence": "the cytoplasmic accumulation of HERVK-derived RNA-DNA hybrids, the activation of the cGAS-STING cascade, and increased levels of cleaved caspase-3", "note": "The abstract links c-Jun to HERVK hybrid accumulation, cGAS-STING activation, and increased cleaved caspase-3."}
+      ]
+    },
+    {
+      "n": 1627, "id": "pmid:37758951",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "PUCH is an RNA endonuclease built from three Schlafen-like-domain SLFL proteins.", "evidence": "a type of RNA endonuclease formed by three SLFL proteins", "note": "The abstract describes PUCH as an RNA endonuclease formed by three SLFL proteins."},
+        {"k": 2, "label": "not_addressed", "text": "PUCH also cleaves piRNA precursors in mammalian germ cells.", "evidence": "Mammalian Schlafen (SLFN) genes have been associated with immunity", "note": "The abstract only draws a molecular link to mammalian Schlafen genes and never shows PUCH cleaving precursors in mammals."},
+        {"k": 3, "label": "supported", "text": "The interaction between PUCH and PETISCO enhances piRNA production in living animals.", "evidence": "this interaction enhances piRNA production in vivo", "note": "The abstract shows the PUCH-PETISCO interaction enhances piRNA production in vivo."},
+        {"k": 4, "label": "supported", "text": "The endoribonuclease PUCH initiates piRNA processing in the nematode Caenorhabditis elegans.", "evidence": "that initiates piRNA processing in the nematode Caenorhabditis elegans", "note": "The abstract identifies PUCH as the enzyme that initiates piRNA processing in C. elegans."}
+      ]
+    },
+    {
+      "n": 1628, "id": "pmid:37169872",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "An Alu insertion distribution sets Japanese individuals apart from other human populations.", "evidence": "an Alu insertion distribution distinguishing Japanese from other populations", "note": "The abstract reports an Alu insertion distribution distinguishing Japanese from other populations."},
+        {"k": 2, "label": "supported", "text": "Mobile element variants associate with gene expression changes more often than single-nucleotide variants.", "evidence": "MEVs more often associate with gene expression changes than SNVs", "note": "The abstract states MEVs associate with expression changes more often than SNVs."},
+        {"k": 3, "label": "not_addressed", "text": "A LINE-1 insertion associated with keloid is specific to Japanese populations.", "evidence": "a LINE-1 insertion associated with keloid and fasciitis", "note": "The abstract links this LINE-1 insertion to keloid and fasciitis but never restricts it to any population."},
+        {"k": 4, "label": "supported", "text": "The developed tool genotypes mobile element variants accurately from short-read whole-genome sequencing.", "evidence": "a tool that accurately genotypes MEVs using short-read whole-genome sequencing (WGS)", "note": "The abstract reports a tool that accurately genotypes MEVs from short-read WGS."}
+      ]
+    },
+    {
+      "n": 1629, "id": "pmid:37164018",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "HUSH accumulates at sites of high RNAPII occupancy, including long exons and transcription termination sites.", "evidence": "HUSH accumulates at sites of high RNAPII occupancy including long exons and transcription termination sites", "note": "The abstract reports HUSH accumulates where RNAPII occupancy is high, including long exons and termination sites."},
+        {"k": 2, "label": "not_addressed", "text": "HUSH dysfunction contributes to cancer by derepressing transposons.", "evidence": "The HUSH complex recognizes and silences foreign DNA such as viruses, transposons, and transgenes without prior exposure to its targets.", "note": "The abstract describes HUSH silencing of foreign DNA but never connects it to cancer or disease."},
+        {"k": 3, "label": "supported", "text": "HUSH's endogenous targets split into two distinct classes defined by whether H3K9me3 is present.", "evidence": "endogenous targets of the HUSH complex fall into two distinct classes based on the presence or absence of H3K9me3", "note": "The abstract shows HUSH's endogenous targets fall into two classes based on presence or absence of H3K9me3."},
+        {"k": 4, "label": "supported", "text": "The two target classes differ in transposon content and in their response to loss of HUSH.", "evidence": "These classes are further distinguished by their transposon content and differential response to the loss of HUSH.", "note": "The abstract distinguishes the two classes by transposon content and their differential response to HUSH loss."}
+      ]
+    },
+    {
+      "n": 1630, "id": "pmid:37005409",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "The P. pachyrhizi genome reaches up to 1.25 Gb and is about 93% transposable elements across two haplotypes.", "evidence": "a genome up to 1.25 Gb comprising two haplotypes with a transposable element (TE) content of ~93%", "note": "The abstract reports a genome up to 1.25 Gb with roughly 93% transposable element content across two haplotypes."},
+        {"k": 2, "label": "supported", "text": "These transposable elements shape host range adaptation, stress responses, and genetic plasticity in the fungus.", "evidence": "they have a key impact on various processes such as host range adaptation, stress responses and genetic plasticity", "note": "The abstract reports the TEs affect host range adaptation, stress responses, and genetic plasticity."},
+        {"k": 3, "label": "not_addressed", "text": "The three sequenced P. pachyrhizi isolates were collected from different continents.", "evidence": "Here, we sequence three independent P. pachyrhizi genomes and uncover a genome up to 1.25 Gb", "note": "The abstract reports three independent genomes but gives no geographic origin for the isolates."},
+        {"k": 4, "label": "supported", "text": "Asian soybean rust caused by P. pachyrhizi ranks among the world's most economically damaging agricultural diseases.", "evidence": "most economically damaging agricultural diseases", "note": "The abstract calls Asian soybean rust one of the world's most economically damaging agricultural diseases."}
+      ]
+    },
+    {
+      "n": 1631, "id": "pmid:37714714",
+      "statements": [
+        {"k": 1, "label": "not_addressed", "text": "The roughly 700 zebrafish FiNZ-ZNFs outnumber the KRAB-ZNF genes found in humans.", "evidence": "Zebrafish possess approximately 700 FiNZ-ZNFs, many of which are evolving adaptively under positive selection.", "note": "The abstract counts about 700 zebrafish FiNZ-ZNFs but never compares this number to human KRAB-ZNFs."},
+        {"k": 2, "label": "supported", "text": "Across 3221 genome assemblies, retroelement copy number correlates with ZNF copy number over 750 million years of evolution.", "evidence": "the copy number of retroelements correlates with that of ZNFs across at least 750 million years of metazoan evolution", "note": "The abstract reports retroelement copy number correlates with ZNF copy number across 3221 assemblies spanning 750 million years."},
+        {"k": 3, "label": "supported", "text": "In cyprinid fish the largest ZNF subfamily shares a conserved motif named the FiNZ domain.", "evidence": "characterized by a conserved sequence we dubbed the fish N-terminal zinc finger-associated (FiNZ) domain", "note": "The abstract names the FiNZ domain as a conserved sequence defining the largest cyprinid ZNF subfamily."},
+        {"k": 4, "label": "supported", "text": "Blocking FiNZ-ZNF translation with morpholinos in early zebrafish embryos derepresses transcriptionally active TEs.", "evidence": "blocking their translation using morpholinos during early embryogenesis results in derepression of transcriptionally active TEs", "note": "The abstract shows blocking FiNZ-ZNF translation during early embryogenesis derepresses transcriptionally active TEs."}
+      ]
+    },
+    {
+      "n": 1632, "id": "pmid:37973953",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "Depleting ZNF808 in vitro causes aberrant activation of regulatory potential in primate-specific transposable elements.", "evidence": "aberrant activation of regulatory potential contained in the primate-specific transposable elements", "note": "The abstract reports loss of ZNF808 in vitro aberrantly activates regulatory potential in primate-specific TEs."},
+        {"k": 2, "label": "supported", "text": "ZNF808 belongs to the KRAB zinc finger family, epigenetic silencers that target transposable elements.", "evidence": "ZNF808 is a member of the KRAB zinc finger protein family, a large and rapidly evolving group of epigenetic silencers which target transposable elements", "note": "The abstract places ZNF808 in the KRAB zinc finger family of epigenetic silencers that target TEs."},
+        {"k": 3, "label": "not_addressed", "text": "Restoring ZNF808 expression reverses established pancreatic agenesis in affected patients.", "evidence": "Our results highlight the essential role of ZNF808 in pancreatic development in humans", "note": "The abstract establishes ZNF808's developmental role but never tests whether restoring it reverses pancreatic agenesis."},
+        {"k": 4, "label": "supported", "text": "Biallelic inactivating variants in the primate-specific gene ZNF808 cause pancreatic agenesis.", "evidence": "homozygous loss-of-function variants in the primate-specific gene ZNF808 as a cause of pancreatic agenesis", "note": "The abstract identifies homozygous loss-of-function ZNF808 variants as a cause of pancreatic agenesis."}
+      ]
+    },
+    {
+      "n": 1633, "id": "pmid:37591988",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "L1 elements are required for proper corticogenesis in the mouse brain, acting as regulatory long non-coding RNAs.", "evidence": "L1s are required for proper mouse brain corticogenesis operating as regulatory long non-coding RNAs", "note": "The abstract reports L1s are required for proper mouse brain corticogenesis, functioning as regulatory long non-coding RNAs."},
+        {"k": 2, "label": "supported", "text": "L1 elements generate most of the genome's transcripts.", "evidence": "constitute most of the genome's transcriptional output", "note": "The abstract states L1s constitute most of the genome's transcriptional output."},
+        {"k": 3, "label": "not_addressed", "text": "L1 RNAs set the ratio of excitatory to inhibitory neurons in the cortex.", "evidence": "the proportions of different cell types", "note": "The abstract reports L1s influence the proportions of different cell types but never specifies excitatory versus inhibitory neurons."},
+        {"k": 4, "label": "supported", "text": "In cultured cortical neurons, L1 RNAs bind chromatin and the PRC2 subunits Ezh2 and Suz12.", "evidence": "L1 RNAs are mainly associated to chromatin and interact with the Polycomb Repressive Complex 2 (PRC2) protein subunits", "note": "The abstract reports L1 RNAs associate with chromatin and interact with PRC2 subunits Ezh2 and Suz12."}
+      ]
+    },
+    {
+      "n": 1634, "id": "pmid:36864754",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "Endogenous retroviruses rewire the transcriptional program that drives human trophoblast syncytialization.", "evidence": "ERVs profoundly rewire the transcriptional program of trophoblast syncytialization", "note": "The abstract reports ERVs rewire the transcriptional program of trophoblast syncytialization."},
+        {"k": 2, "label": "supported", "text": "Deleting MER50 elements near STB genes such as MFSD2A and TNFAIP2 lowered their expression and impaired syncytium formation.", "evidence": "deletions of MER50 elements adjacent to several STB genes, including MFSD2A and TNFAIP2, significantly attenuated their expression concomitant to compromised syncytium formation", "note": "The abstract shows deleting MER50 elements near STB genes attenuated their expression and compromised syncytium formation."},
+        {"k": 3, "label": "supported", "text": "In syncytiotrophoblasts, ERV-family enhancers show increased H3K27ac and reduced H3K9me3 compared with trophoblast stem cells.", "evidence": "enhancers overlapping several ERV families tend to exhibit increased H3K27ac and reduced H3K9me3 occupancy in STBs relative to hTSCs", "note": "The abstract reports these enhancers show increased H3K27ac and reduced H3K9me3 in STBs relative to trophoblast stem cells."},
+        {"k": 4, "label": "not_addressed", "text": "ERV-derived enhancers are required for embryo implantation into the uterine wall.", "evidence": "A key process of placental development is the formation of multinucleated syncytiotrophoblasts (STBs) in direct contact with maternal blood", "note": "The abstract focuses on syncytiotrophoblast formation and never addresses embryo implantation."}
+      ]
+    }
+  ]
+}

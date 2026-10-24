@@ -1,0 +1,73 @@
+{"batch": "check_C_86", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1505, "id": "pmid:40527318",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Comparative analyses of 163 ant genomes, including newly generated whole-genome sequences of 145 ant species, reveal extensive genome rearrangements correlated with speciation rates."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Previously uncharacterized genetic regulators of caste development were confirmed by functional experiments."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Gene families related to digestion, endocrine signaling, cuticular hydrocarbon synthesis, and chemoreception expanded in the ant ancestor"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "conserved syntenic blocks are enriched with co-expressed genes involved in basal metabolism and caste differentiation"}
+    ]},
+   {"n": 1506, "id": "pmid:38632270",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "phylogenomic/phylotranscriptomic analyses of 363 grasses covering all 12 subfamilies and report nine previously unknown whole-genome duplications"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "recent paralogues of a tetraploid Oryza are implicated in tolerance of seawater submergence"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "CK2β for cold responses (Pooideae), SPIRAL1 for rapid cell elongation (Bambusoideae)"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Poaceae members shared a whole-genome duplication called rho."}
+    ]},
+   {"n": 1507, "id": "pmid:39141777",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "the Clitellata, a group containing leeches and earthworms, possesses completely scrambled genomes"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "compared to the last common ancestor of bilaterians, leeches and earthworms have among the most highly rearranged genomes of any currently sampled species"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "bilaterian genomes can be classified into two distinct categories-high and low rearrangement-largely influenced by the presence or absence, respectively, of chromosome fission events"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "while many annelid lineages have maintained the conserved bilaterian genome structure, the Clitellata, a group containing leeches and earthworms, possesses completely scrambled genomes"}
+    ]},
+   {"n": 1508, "id": "pmid:38244543",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We provide evidence that the first multicellular streptophytes likely lived about a billion years ago"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Using an analysis built on 845 loci and sophisticated mixture models, we establish a phylogenomic framework, dividing the six distinct genera of Klebsormidiophyceae in a novel three-order system, with a deep divergence more than 830 million years ago"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Klebsormidiophyceae can exhibit filamentous body plans and display remarkable resilience as colonizers of terrestrial habitats"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "an evolutionary history of multiple transitions between terrestrial-aquatic habitats, with stem Klebsormidiales having conquered land earlier than embryophytes"}
+    ]},
+   {"n": 1509, "id": "pmid:37235649",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Transitions were accompanied by systematic changes in amino acid composition and isoelectric point distributions of inferred proteomes, which evolved over millions of years"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Average nucleotide identity analyses showed that bacterial species rarely existed in multiple biomes"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We further identified the most recent cross-biome transitions, which were rare, ancient, and most commonly directed toward the brackish biome"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "distinct brackish basins cohosted numerous species, but their intraspecific population structures displayed clear signs of geographic separation"}
+    ]},
+   {"n": 1510, "id": "pmid:36763410",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "the montium group of Drosophila species lost otherwise-conserved SNBP genes, coincident with an X-Y chromosomal fusion"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "evolutionarily young SNBP genes are more likely to be critical for fertility than ancient, conserved SNBP genes"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We found 19 independent SNBP gene amplification events that occurred preferentially on sex chromosomes"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "CG30056 is dispensable for male fertility despite being one of three SNBP genes universally retained in Drosophila species"}
+    ]},
+   {"n": 1511, "id": "pmid:39642877",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "(14 apusomonads, 25 , 26 7 ancyromonads, 27 and 1 cultured Mediterranean strain of Meteora sporadica 17 )"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "we infer an opimodan biflagellate ancestor with an excavate-like feeding groove, which ancyromonads subsequently lost"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Our findings support the monophyly of Opimoda, with CRuMs being sister to the Amorphea (amoebozoans, breviates, apusomonads, and opisthokonts)"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Although breviates and apusomonads retained the ancestral biflagellate state, some early-diverging Amorphea lost one or both flagella"}
+    ]},
+   {"n": 1512, "id": "pmid:38388712",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Sonneratia, adapting mangrove habitats, experienced extensive chromosome rearrangements post-WGT"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Their common ancestor has experienced a whole-genome triplication (WGT) approximately 64 million years ago coinciding with a period of dramatic global climate change"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We observe the WGT retentions display sequence and expression divergence, suggesting potential neo- and sub-functionalization"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Strong selection acting on three-copy retentions indicates adaptive value in response to new environments"}
+    ]},
+   {"n": 1513, "id": "pmid:37550506",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "acquired at least 1,025 genes via 124 horizontal gene transfer events, primarily from Ascomycota"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "this study details how evolution knitted together horizontally and vertically inherited genes in complex adaptive traits of plant biomass degradation and pathogenicity"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "provides an explanation for their unusual, soft rot-like wood decay strategy"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "two novel conserved pathogenicity-induced small secreted proteins, which induced necrosis in planta"}
+    ]},
+   {"n": 1514, "id": "pmid:39737664",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The genus Thornia is placed outside of Dorylaimina and Nygolaimina, disagreeing with its position in previous studies"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Taxa possessing a stomatostylet form a monophyletic group; however, the superfamily Aphelenchoidea does not constitute a monophyletic clade"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The subclass Enoplia is placed as a sister group to the rest of Nematoda, agreeing with previously published phylogenies"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "The genera Trichinella and Trichuris are inferred to have shared a common ancestor approximately 202 millions of years ago (Ma), a considerably later period than previously suggested"}
+    ]}
+ ]}

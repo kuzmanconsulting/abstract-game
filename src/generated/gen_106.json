@@ -1,0 +1,347 @@
+{
+ "batch": "gen_106",
+ "prompt_version": "gen-v5",
+ "flip_rule": "first-of-any-v3",
+ "items": [
+  {
+   "n": 1705,
+   "id": "pmid:28086087",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The RNAs associated with CBP in cells comprised a large number of eRNAs.",
+     "evidence": "RNAs bound to CBP in vivo include a large number of eRNAs",
+     "note": "The abstract reports that eRNAs make up a large share of the RNAs bound to CBP in vivo."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "CBP-bound eRNAs are degraded soon after they stimulate histone acetylation at enhancers.",
+     "evidence": "eRNAs contribute to the unique chromatin structure at active enhancers",
+     "note": "The abstract describes eRNAs stimulating acetylation but never addresses whether the eRNAs are later degraded."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "RNA bound at the HAT domain's RNA-binding region enhances CBP's histone acetyltransferase activity.",
+     "evidence": "allows RNA to stimulate CBP's HAT activity",
+     "note": "The abstract states this RNA-binding region lets bound RNA stimulate CBP's HAT activity."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "CBP binds RNA directly both inside living cells and in vitro.",
+     "evidence": "CBP binds directly to RNAs in vivo and in vitro",
+     "note": "The abstract demonstrates that CBP binds RNA directly in vivo and in vitro."
+    }
+   ]
+  },
+  {
+   "n": 1706,
+   "id": "pmid:32001526",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "A cryo-electron microscopy structure resolved human BAF bound to the nucleosome at 3.7-angstrom resolution.",
+     "evidence": "The 3.7-angstrom-resolution cryo-electron microscopy structure of human BAF bound to the nucleosome",
+     "note": "The abstract reports a 3.7-angstrom cryo-EM structure of human BAF bound to the nucleosome."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "After ATP hydrolysis the ATPase motor engages nucleosomal DNA and pumps it along the nucleosome.",
+     "evidence": "upon ATP hydrolysis, engages with and pumps DNA along the nucleosome",
+     "note": "The abstract states the ATPase motor engages and pumps DNA along the nucleosome upon ATP hydrolysis."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "PBAF engages the nucleosome through the same interface that BAF uses.",
+     "evidence": "Mammalian SWI/SNF family chromatin remodelers, BRG1/BRM-associated factor (BAF) and polybromo-associated BAF (PBAF), regulate chromatin structure and transcription",
+     "note": "The abstract solves the BAF-nucleosome structure but never describes how PBAF contacts the nucleosome."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "SMARCB1's C-terminal α helix is enriched in positively charged residues and contacts the nucleosome's acidic patch.",
+     "evidence": "The C-terminal α helix of SMARCB1, enriched in positively charged residues",
+     "note": "The abstract reports this positively charged SMARCB1 helix mediates interactions with the nucleosome's acidic patch."
+    }
+   ]
+  },
+  {
+   "n": 1707,
+   "id": "pmid:31171700",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "PRC1 droplet formation is required to silence target genes in living cells.",
+     "evidence": "raising the possibility of a mechanistic or evolutionary link between these activities",
+     "note": "The abstract only raises the possibility of a link and never shows droplet formation is needed for gene silencing."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Each canonical PRC1 complex is built from four core proteins, one of them a CBX-family member.",
+     "evidence": "each of which contains four core proteins, including one from the CBX family",
+     "note": "The abstract states canonical PRC1 complexes each contain four core proteins, including a CBX protein."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Reconstituted PRC1 spontaneously formed droplets in vitro at low concentrations and physiological salt.",
+     "evidence": "reconstituted PRC1 readily phase-separates into droplets in vitro at low concentrations and physiological salt conditions",
+     "note": "The abstract reports reconstituted PRC1 readily phase-separates into droplets under these conditions."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The CBX2 subunit promotes PRC1's phase separation into droplets.",
+     "evidence": "This behavior is driven by the CBX2 subunit",
+     "note": "The abstract states this phase-separation behavior is driven by the CBX2 subunit."
+    }
+   ]
+  },
+  {
+   "n": 1708,
+   "id": "pmid:29220657",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Removing XR-PID abolished Xist-dependent Polycomb recruitment and blocked Xist-mediated gene silencing.",
+     "evidence": "Deletion of XR-PID abolishes Xist-dependent Polycomb recruitment, in turn abrogating Xist-mediated gene silencing",
+     "note": "The abstract reports deletion of XR-PID abolishes Polycomb recruitment and abrogates Xist-mediated silencing."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "H2A lysine 119 ubiquitylation by PCGF3/5-PRC1 promotes recruitment of additional PRC1 complexes and PRC2.",
+     "evidence": "catalyzes chromosome-wide H2A lysine 119 ubiquitylation, signaling recruitment of other PRC1 complexes, and PRC2",
+     "note": "The abstract states this ubiquitylation signals recruitment of other PRC1 complexes and PRC2."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "hnRNPK also recruits Polycomb to autosomal genes independently of Xist RNA.",
+     "evidence": "We identify the RNA-binding protein hnRNPK as the principal XR-PID binding factor required to recruit PCGF3/5-PRC1",
+     "note": "The abstract shows hnRNPK recruits Polycomb via Xist's XR-PID but never addresses Xist-independent recruitment elsewhere."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "XR-PID is a 600-nucleotide region that encompasses the Xist B-repeat element.",
+     "evidence": "a 600 nt sequence encompassing the Xist B-repeat element",
+     "note": "The abstract defines XR-PID as a 600 nt sequence encompassing the Xist B-repeat element."
+    }
+   ]
+  },
+  {
+   "n": 1709,
+   "id": "pmid:27436229",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The study identifies SIRT7 as an NAD+-dependent histone desuccinylase.",
+     "evidence": "we report that SIRT7 is an NAD(+)-dependent histone desuccinylase",
+     "note": "The abstract reports SIRT7 is an NAD+-dependent histone desuccinylase."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "SIRT7 also desuccinylates non-histone substrates during the DNA-damage response.",
+     "evidence": "Our study indicates SIRT7 is a histone desuccinylase, providing a molecular basis for the understanding of epigenetic regulation by this sirtuin protein",
+     "note": "The abstract establishes SIRT7 as a histone desuccinylase but never addresses non-histone substrates."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "At double-strand breaks SIRT7 desuccinylated H3K122 and promoted chromatin condensation and DSB repair.",
+     "evidence": "catalyses desuccinylation of H3K122 therein, thereby promoting chromatin condensation and DSB repair",
+     "note": "The abstract states SIRT7's H3K122 desuccinylation promotes chromatin condensation and DSB repair."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Depleting SIRT7 impaired chromatin compaction in the DNA-damage response and sensitized cells to genotoxic stress.",
+     "evidence": "depletion of SIRT7 impairs chromatin compaction during DNA-damage response and sensitizes cells to genotoxic stresses",
+     "note": "The abstract reports SIRT7 depletion impairs chromatin compaction and sensitizes cells to genotoxic stresses."
+    }
+   ]
+  },
+  {
+   "n": 1710,
+   "id": "pmid:26903244",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Foxp3 expression stability was markedly compromised in Treg cells from Tet2/Tet3 double-deficient mice.",
+     "evidence": "the stability of Foxp3 expression is markedly compromised in T reg cells from Tet2/Tet3 double-deficient mice",
+     "note": "The abstract reports Foxp3 expression stability is markedly compromised in Tet2/Tet3 double-deficient Treg cells."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "TET enzymes convert 5-methylcytosine into 5-hydroxymethylcytosine and other oxidized bases that serve as DNA demethylation intermediates.",
+     "evidence": "Ten-eleven translocation (TET) enzymes oxidize 5-methylcytosine (5mC) to 5-hydroxymethylcytosine and other oxidized methylcytosines, intermediates in DNA demethylation",
+     "note": "The abstract states TET enzymes oxidize 5mC to 5hmC and other oxidized methylcytosines, intermediates in DNA demethylation."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Vitamin C potentiates TET activity and, acting through Tet2/Tet3, increases Foxp3 expression stability in TGF-β-induced Treg cells.",
+     "evidence": "Vitamin C potentiates TET activity and acts through Tet2/Tet3 to increase the stability of Foxp3 expression in TGF-β-induced T reg cells",
+     "note": "The abstract reports vitamin C potentiates TET activity and increases Foxp3 expression stability via Tet2/Tet3."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Vitamin C supplementation raises regulatory T cell numbers in human patients.",
+     "evidence": "targeting TET enzymes with small molecule activators such as vitamin C might increase induced T reg cell efficacy",
+     "note": "The abstract only suggests vitamin C might raise induced Treg efficacy in mice and never tests human supplementation or cell counts."
+    }
+   ]
+  },
+  {
+   "n": 1711,
+   "id": "pmid:28143930",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Oxidation of promoter DNA into 8-oxoguanine acts as a signal that drives gene expression.",
+     "evidence": "ROS-mediated oxidation of DNA to yield 8-oxo-7,8-dihydroguanine (OG) in gene promoters is a signaling agent for gene activation",
+     "note": "The abstract states promoter OG is a signaling agent for gene activation."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "APE1 binds the abasic site but cleaves it only inefficiently to switch on the VEGF or NTHL1 genes.",
+     "evidence": "(APE1) binds, but inefficiently cleaves, the AP for activation of vascular endothelial growth factor ( VEGF ) or endonuclease III-like protein 1 ( NTHL1 ) genes",
+     "note": "The abstract reports APE1 binds but inefficiently cleaves the abasic site to activate VEGF or NTHL1."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Accumulation of OG in gene promoters contributes to tumor development in humans.",
+     "evidence": "Identification of the oxidatively modified DNA base OG to guide BER activity in a gene promoter and impact cellular phenotype ascribes an epigenetic role to OG",
+     "note": "The abstract assigns OG an epigenetic gene-regulatory role but never addresses tumor formation."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Forming OG in guanine-rich G-quadruplex-forming sequences of promoter coding strands enhanced gene expression.",
+     "evidence": "Enhanced gene expression occurs when OG is formed in guanine-rich, potential G-quadruplex-forming sequences (PQS) in promoter-coding strands",
+     "note": "The abstract reports enhanced gene expression when OG forms in these guanine-rich promoter sequences."
+    }
+   ]
+  },
+  {
+   "n": 1712,
+   "id": "pmid:31308546",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Although the rearrangements disrupted long-range loops, TADs and promoter contacts, these were not predictive of expression changes.",
+     "evidence": "disrupting long-range loops, topologically associating domains (TADs) and promoter interactions, yet these are not predictive of changes in expression",
+     "note": "The abstract reports topology disruptions were not predictive of changes in gene expression."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Genome sequencing resolved eight large nested inversions along with smaller inversions, duplications and thousands of deletions.",
+     "evidence": "we resolved eight large nested inversions, smaller inversions, duplications and thousands of deletions",
+     "note": "The abstract reports sequencing resolved eight large nested inversions plus smaller inversions, duplications and thousands of deletions."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "In mammalian embryos, disrupting TADs likewise leaves gene expression largely unchanged.",
+     "evidence": "Our results suggest that properties other than chromatin topology ensure productive enhancer-promoter interactions",
+     "note": "The findings come from Drosophila and the abstract never extends them to mammalian genomes."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The balancer chromosomes used spanned roughly 75% of the Drosophila genome.",
+     "evidence": "spanning ~75% of the Drosophila genome",
+     "note": "The abstract states the balancers span about 75% of the Drosophila genome."
+    }
+   ]
+  },
+  {
+   "n": 1713,
+   "id": "pmid:32029600",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "NGR5 drives nitrogen-dependent recruitment of PRC2 to repress branching-inhibitory genes through H3K27me3.",
+     "evidence": "facilitates nitrogen-dependent recruitment of polycomb repressive complex 2 to repress branching-inhibitory genes via H3K27me3 modification",
+     "note": "The abstract states NGR5 facilitates nitrogen-dependent PRC2 recruitment that represses branching-inhibitory genes via H3K27me3."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The gibberellin receptor GID1 targets NGR5 for proteasomal destruction.",
+     "evidence": "NGR5 is a target of gibberellin receptor GIBBERELLIN INSENSITIVE DWARF1 (GID1)-promoted proteasomal destruction",
+     "note": "The abstract states NGR5 is a target of GID1-promoted proteasomal destruction."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Increased NGR5 activity uncouples tillering from nitrogen regulation and boosts rice yield at low nitrogen levels.",
+     "evidence": "Increased NGR5 activity consequently uncouples tillering from nitrogen regulation, boosting rice yield at low nitrogen fertilization levels",
+     "note": "The abstract reports increased NGR5 activity uncouples tillering from nitrogen and boosts yield at low nitrogen fertilization."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "The same NGR5 mechanism improves nitrogen use efficiency in wheat and maize.",
+     "evidence": "NGR5 thus enables enhanced nitrogen use efficiency for improved future agricultural sustainability and food security",
+     "note": "The mechanism is demonstrated in rice and the abstract never tests other cereal crops."
+    }
+   ]
+  },
+  {
+   "n": 1714,
+   "id": "pmid:28157505",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The loci of PcG target genes formed discrete tight-interaction domains of 20 to 140 kilobases at canonical PRC1 sites.",
+     "evidence": "formed discrete, small (20-140 Kb) domains of tight interaction that corresponded to locations bound by canonical polycomb repressive complex 1 (PRC1)",
+     "note": "The abstract reports repressed PcG target loci form 20-140 Kb domains coinciding with canonical PRC1 binding."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Covalent histone modification by some PcG proteins contributes to heritable gene repression.",
+     "evidence": "Some PcG proteins covalently modify histones, which contributes to heritable repression",
+     "note": "The abstract states some PcG proteins covalently modify histones, contributing to heritable repression."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Formation of these domains required the Polyhomeotic subunit of canonical PRC1 but not PRC1-catalyzed ubiquitylation.",
+     "evidence": "Their formation depended upon the Polyhomeotic component of canonical PRC1 and occurred independently of PRC1-catalyzed ubiquitylation",
+     "note": "The abstract reports domain formation depended on Polyhomeotic and occurred independently of PRC1-catalyzed ubiquitylation."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "PRC1-bound domains are larger than the topologically associating domains around them.",
+     "evidence": "PRC1 domains differ from topologically associating domains in size and boundary characteristics",
+     "note": "The abstract says PRC1 domains differ from TADs in size but never states which type is larger."
+    }
+   ]
+  }
+ ]
+}

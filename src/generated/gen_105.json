@@ -1,0 +1,347 @@
+{
+ "batch": "gen_105",
+ "prompt_version": "gen-v5",
+ "flip_rule": "first-of-any-v3",
+ "items": [
+  {
+   "n": 1695,
+   "id": "pmid:27174990",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "H3K36M mutant nucleosomes blocked the enzymatic activity of several H3K36 methyltransferases.",
+     "evidence": "H3K36M mutant nucleosomes inhibit the enzymatic activities of several H3K36 methyltransferases.",
+     "note": "The abstract states H3K36M mutant nucleosomes inhibit the enzymatic activities of several H3K36 methyltransferases."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "The H3K36M mutation shortens overall survival in children diagnosed with sarcoma.",
+     "evidence": "Several types of pediatric cancers reportedly contain high-frequency missense mutations in histone H3, yet the underlying oncogenic mechanism remains poorly characterized.",
+     "note": "The abstract concerns the oncogenic mechanism of H3 mutations and never reports patient survival."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "A genome-wide gain in H3K27 methylation followed the drop in H3K36 methylation and redistributed polycomb repressive complex 1.",
+     "evidence": "After the loss of H3K36 methylation, a genome-wide gain in H3K27 methylation leads to a redistribution of polycomb repressive complex 1",
+     "note": "The abstract reports that losing H3K36 methylation causes a genome-wide gain in H3K27 methylation that redistributes PRC1."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The H3K36M mutation impaired mesenchymal progenitor cell differentiation and produced undifferentiated sarcoma in living mice.",
+     "evidence": "the H3 lysine 36-to-methionine (H3K36M) mutation impairs the differentiation of mesenchymal progenitor cells and generates undifferentiated sarcoma in vivo",
+     "note": "The abstract reports H3K36M impairs mesenchymal progenitor differentiation and generates undifferentiated sarcoma in vivo."
+    }
+   ]
+  },
+  {
+   "n": 1696,
+   "id": "pmid:31324781",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "In Csf1r ΔFIRE/ΔFIRE mice, macrophages were absent from the embryo, brain microglia, skin, kidney, heart, and peritoneum.",
+     "evidence": "Csf1r ΔFIRE/ΔFIRE mice lack macrophages in the embryo, brain microglia and resident macrophages in the skin, kidney, heart and peritoneum.",
+     "note": "The abstract lists these tissues as lacking macrophages in ΔFIRE mice."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The Csf1r locus carries a highly conserved super-enhancer, the fms-intronic regulatory element (FIRE).",
+     "evidence": "The mammalian Csf1r locus contains a highly conserved super-enhancer, the fms-intronic regulatory element (FIRE).",
+     "note": "The abstract reports the Csf1r locus contains a highly conserved super-enhancer called FIRE."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The FIRE super-enhancer controls CSF1R expression in human macrophages.",
+     "evidence": "genomic deletion of FIRE in mice selectively impacts CSF1R expression and tissue macrophage development in specific tissues",
+     "note": "The study was performed in mice and never tested human macrophages."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Deleting FIRE ablated the development of macrophages from murine embryonic stem cells.",
+     "evidence": "Deletion of FIRE ablates macrophage development from murine embryonic stem cells.",
+     "note": "The abstract states FIRE deletion ablates macrophage development from murine embryonic stem cells."
+    }
+   ]
+  },
+  {
+   "n": 1697,
+   "id": "pmid:31543422",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The droplets were dense chromatin structures resistant to DNase that kept out the general transcription factor TFIIB.",
+     "evidence": "they are highly dense chromatin-containing structures that are resistant to DNase and exclude the general transcription factor TFIIB",
+     "note": "The abstract describes the droplets as dense, DNase-resistant, and excluding TFIIB."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "HP1 together with SUV39H1 and TRIM28 formed complexes showing increased multivalent engagement of H3K9me2/3-modified chromatin.",
+     "evidence": "to form complexes with increased multivalent engagement of H3K9me2 and 3-modified chromatin",
+     "note": "The abstract reports HP1, SUV39H1 and TRIM28 form complexes with increased multivalent engagement of H3K9me2/3 chromatin."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "H3K9me2/3-marked nucleosomal arrays and associated complexes phase-separated into dense liquid droplets packed with macromolecules.",
+     "evidence": "H3K9me2 and 3-marked nucleosomal arrays and associated complexes undergo phase separation to form macromolecule-enriched liquid droplets.",
+     "note": "The abstract states these nucleosomal arrays undergo phase separation into macromolecule-enriched droplets."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "The same phase separation occurs at euchromatin marked by H3K4 methylation.",
+     "evidence": "Our data suggest a general mechanism by which histone marks regulate chromosome compartmentalization by promoting phase separation.",
+     "note": "The abstract studies H3K9me2/3 heterochromatin and never examines euchromatic H3K4 marks."
+    }
+   ]
+  },
+  {
+   "n": 1698,
+   "id": "pmid:27058788",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The pioneer factor FoxA displaced linker histone H1, keeping enhancer nucleosomes accessible so other liver-specific factors could bind and stimulate transcription.",
+     "evidence": "The pioneer factor FoxA displaces linker histone H1, thereby keeping enhancer nucleosomes accessible in chromatin and allowing other liver-specific transcription factors to bind and stimulate transcription.",
+     "note": "The abstract reports FoxA displaces H1 to keep enhancer nucleosomes accessible for other liver-specific TFs."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "FoxA performs the same pioneer role at enhancers in pancreatic cells.",
+     "evidence": "to assess the nucleosomal configuration at enhancers and promoters in mouse liver",
+     "note": "The study examined mouse liver and never tested FoxA in pancreatic cells."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Transcription-factor-bound, MNase-accessible nucleosomes were retained more at liver-specific enhancers than at promoters or ubiquitous enhancers.",
+     "evidence": "MNase-accessible nucleosomes, bound by transcription factors, are retained more at liver-specific enhancers than at promoters and ubiquitous enhancers.",
+     "note": "The abstract reports these nucleosomes are retained more at liver-specific enhancers than at promoters or ubiquitous enhancers."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The study combined low and high MNase digestion with core histone mapping to probe nucleosome configuration at enhancers and promoters in mouse liver.",
+     "evidence": "We combined low and high levels of micrococcal nuclease (MNase) digestion along with core histone mapping to assess the nucleosomal configuration at enhancers and promoters in mouse liver.",
+     "note": "The abstract describes combining low and high MNase digestion with histone mapping in mouse liver."
+    }
+   ]
+  },
+  {
+   "n": 1699,
+   "id": "pmid:27133166",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Although these marks silence chromatin globally, some regions open up and recruit canonical stress factors such as DVE-1.",
+     "evidence": "While globally the chromatin becomes silenced by these marks, remaining portions of the chromatin open up, at which point the binding of canonical stress responsive factors such as DVE-1 occurs.",
+     "note": "The abstract describes global silencing with selected regions opening to bind DVE-1."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "As organisms respond to mitochondrial stress, a set of protective genes are upregulated.",
+     "evidence": "Organisms respond to mitochondrial stress through the upregulation of an array of protective genes",
+     "note": "The abstract states the mitochondrial stress response involves upregulating protective genes."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The same H3K9-based stress response operates in human cells.",
+     "evidence": "a metabolic stress response is established and propagated into adulthood of animals through specific epigenetic modifications that allow for selective gene expression and lifespan extension",
+     "note": "The abstract describes the response in animals generally and never tests human cells."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Activating the mitochondrial stress response depended on H3K9 di-methylation carried out by the methyltransferase met-2 and the nuclear co-factor lin-65.",
+     "evidence": "Mitochondrial stress response activation requires the di-methylation of histone H3K9 through the activity of the histone methyltransferase met-2 and the nuclear co-factor lin-65.",
+     "note": "The abstract reports met-2 and lin-65 drive the H3K9 di-methylation needed to activate the response."
+    }
+   ]
+  },
+  {
+   "n": 1700,
+   "id": "pmid:30250250",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The study systematically examined how the nucleosome interacts with 220 transcription factors drawn from varied structural families.",
+     "evidence": "we systematically explore interactions between the nucleosome and 220 transcription factors representing diverse structural families",
+     "note": "The abstract reports systematically exploring 220 transcription factors interacting with the nucleosome."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Many transcription factors preferentially bound near the end of nucleosomal DNA or at periodic positions on its solvent-exposed face.",
+     "evidence": "Many transcription factors preferentially bind close to the end of nucleosomal DNA, or to periodic positions on the solvent-exposed side of the DNA.",
+     "note": "The abstract states many TFs prefer the end of nucleosomal DNA or periodic solvent-exposed positions."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Most of the transcription factors studied had less access to nucleosomal DNA than to free DNA.",
+     "evidence": "the majority of the studied transcription factors have less access to nucleosomal DNA than to free DNA",
+     "note": "The abstract reports most studied transcription factors have less access to nucleosomal DNA than to free DNA."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Transcription factors binding at the dyad activate transcription more strongly than those spanning two gyres.",
+     "evidence": "Some transcription factors specifically interact with DNA located at the dyad position at which only one DNA gyre is wound, whereas other transcription factors prefer sites spanning two DNA gyres and bind specifically to each of them.",
+     "note": "The abstract contrasts dyad and two-gyre binding but never measures transcriptional activation."
+    }
+   ]
+  },
+  {
+   "n": 1701,
+   "id": "pmid:27105114",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "In a cell-based model, AF9 co-localized with crotonylated histone H3 and drove gene expression in a YEATS-domain-dependent manner.",
+     "evidence": "AF9 co-localizes with crotonylated histone H3 and positively regulates gene expression in a YEATS domain-dependent manner",
+     "note": "The abstract shows AF9 co-localizes with crotonylated H3 and regulates gene expression via its YEATS domain."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The crotonyl-binding features were shared across YEATS domains but absent from bromodomains.",
+     "evidence": "These features are conserved among the YEATS, but not the bromodomains.",
+     "note": "The abstract reports these features are conserved in YEATS domains but not bromodomains."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Histone crotonylation levels rise during cell differentiation.",
+     "evidence": "specifically demonstrate that the YEATS domain of AF9 directly links histone crotonylation to active transcription",
+     "note": "The abstract ties crotonylation to active transcription but never addresses differentiation or crotonylation dynamics."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The AF9 YEATS domain bound crotonyllysine with selectively higher affinity than acetyllysine.",
+     "evidence": "the AF9 YEATS domain displays selectively higher binding affinity for crotonyllysine over acetyllysine",
+     "note": "The abstract reports the AF9 YEATS domain binds crotonyllysine with higher affinity than acetyllysine."
+    }
+   ]
+  },
+  {
+   "n": 1702,
+   "id": "pmid:31494034",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The conformational change appeared to require the catalytic activity of poly(ADP-ribose) polymerase.",
+     "evidence": "appears to involve the catalytic activity of poly (ADP-ribose) polymerase",
+     "note": "The abstract reports the change appears to involve PARP catalytic activity."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "During differentiation of embryonic stem cells into neural progenitors, the spatial proximity between Shh and its enhancers decreased.",
+     "evidence": "we observe a decreased spatial proximity between Shh and its enhancers during the differentiation of embryonic stem cells to neural progenitors",
+     "note": "The abstract reports decreased spatial proximity between Shh and its enhancers during ES-to-neural-progenitor differentiation."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The Shh conformational change was reproduced by switching on a synthetic enhancer and was impeded by chromatin-bound proteins between the enhancer and promoter.",
+     "evidence": "this can be recapitulated by synthetic enhancer activation, is impeded by chromatin-bound proteins located between the enhancer and the promoter",
+     "note": "The abstract shows the conformation change is recapitulated by synthetic enhancer activation and impeded by intervening chromatin-bound proteins."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "The decreased Shh-enhancer proximity depends on cohesin.",
+     "evidence": "appears to involve the catalytic activity of poly (ADP-ribose) polymerase",
+     "note": "The abstract implicates PARP activity but never mentions cohesin."
+    }
+   ]
+  },
+  {
+   "n": 1703,
+   "id": "pmid:31883952",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "A catalytically dead RING1B mutant showed that H2AK119ub1 deposition is required to keep PcG target genes silenced in embryonic stem cells.",
+     "evidence": "we demonstrated that H2AK119ub1 deposition is essential to maintain PcG-target gene repression in embryonic stem cells (ESCs)",
+     "note": "The abstract shows via a catalytic-dead RING1B mutant that H2AK119ub1 is essential for PcG-target gene repression in ESCs."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Removing H2AK119ub1 rapidly displaced PRC2 activity and abolished H3K27me3 deposition, preferentially hitting the PRC2.2 variant over PRC2.1 and destabilizing canonical PRC1.",
+     "evidence": "Loss of H2AK119ub1 induced a rapid displacement of PRC2 activity and a loss of H3K27me3 deposition. This preferentially affected PRC2.2 variant with respect to PRC2.1, destabilizing canonical PRC1 activity.",
+     "note": "The abstract reports H2AK119ub1 loss displaces PRC2, abolishes H3K27me3, preferentially affects PRC2.2, and destabilizes PRC1."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Variant PRC1 forms can sense H2AK119ub1 and are stabilized specifically at sites where this mark is highly enriched.",
+     "evidence": "variant PRC1 forms can sense H2AK119ub1 deposition, which contributes to their stabilization specifically at sites where this modification is highly enriched",
+     "note": "The abstract reports variant PRC1 forms are stabilized at sites highly enriched for H2AK119ub1."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "H2AK119ub1 is also essential for maintaining PcG-target gene repression in differentiated cells.",
+     "evidence": "we demonstrated that H2AK119ub1 deposition is essential to maintain PcG-target gene repression in embryonic stem cells (ESCs)",
+     "note": "The study was done in embryonic stem cells and never tested differentiated cells."
+    }
+   ]
+  },
+  {
+   "n": 1704,
+   "id": "pmid:29378787",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The study found transcription to be a nearly universal feature of enhancers in Drosophila and mammalian cells.",
+     "evidence": "transcription is a nearly universal feature of enhancers in Drosophila and mammalian cells and that nascent RNA sequencing strategies are optimal for identification of both enhancers and superenhancers",
+     "note": "The abstract states transcription is a nearly universal feature of enhancers in Drosophila and mammalian cells."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "At enhancers, RNA polymerase II underwent regulated pausing and subsequent release.",
+     "evidence": "RNA polymerase II (RNAPII) undergoes regulated pausing and release at enhancers.",
+     "note": "The abstract reports RNAPII undergoes regulated pausing and release at enhancers."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Enhancer RNA transcripts are required to recruit RNA polymerase II to target promoters.",
+     "evidence": "we demonstrate that transcription is a nearly universal feature of enhancers in Drosophila and mammalian cells",
+     "note": "The abstract establishes enhancers are transcribed but never tests whether the resulting RNA recruits RNAPII to promoters."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Compared with mRNA genes, enhancer RNA polymerase II was more prone to early termination.",
+     "evidence": "as compared with mRNA genes, RNAPII at enhancers is less stable and more prone to early termination",
+     "note": "The abstract reports that, versus mRNA genes, enhancer RNAPII is more prone to early termination."
+    }
+   ]
+  }
+ ]
+}
