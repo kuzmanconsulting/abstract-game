@@ -1,0 +1,347 @@
+{
+"batch": "gen_116",
+"prompt_version": "gen-v5",
+"flip_rule": "first-of-any-v3",
+"items": [
+{
+"n": 1805,
+"id": "pmid:29152572",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "The study examined 177 members of the Berne Amish community, of whom 43 carried the null SERPINE1 mutation.",
+"evidence": "We studied 177 members of the Berne Amish community, which included 43 carriers of the null SERPINE1 mutation.",
+"note": "The abstract states 177 members were studied, including 43 carriers of the null SERPINE1 mutation."
+},
+{
+"k": 2,
+"label": "not_addressed",
+"text": "The null SERPINE1 mutation was also linked to a lower prevalence of cardiovascular disease in carriers.",
+"evidence": "Our study indicates a causal effect of PAI-1 on human longevity, which may be mediated by alterations in metabolism.",
+"note": "The abstract ties longevity to metabolic changes and never reports any cardiovascular disease outcome."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Heterozygous carriers had lower fasting insulin levels and a lower prevalence of diabetes mellitus than non-carriers.",
+"evidence": "Heterozygosity was associated with significantly longer leukocyte telomere length, lower fasting insulin levels, and lower prevalence of diabetes mellitus.",
+"note": "Heterozygosity was associated with lower fasting insulin and lower diabetes prevalence."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Within the extended Amish kindred, carriers of the null SERPINE1 allele lived longer.",
+"evidence": "In the extended Amish kindred, carriers of the null SERPINE1 allele had a longer life span.",
+"note": "The abstract reports a longer life span for null-allele carriers in the extended kindred."
+}
+]
+},
+{
+"n": 1806,
+"id": "pmid:38917807",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "HSCs from clonal hematopoiesis samples, whether mutant or not, were enriched for inflammatory and aging signatures versus non-CH HSCs.",
+"evidence": "both mutant and non-mutant HSCs from CH samples are enriched for inflammatory and aging transcriptomic signatures, compared with HSCs from non-CH samples",
+"note": "The abstract reports CH-sample HSCs are enriched for inflammatory and aging signatures compared with non-CH HSCs."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "TET2 mutations sped up myeloid maturation in a dose-dependent way.",
+"evidence": "TET2 mutations accelerate myeloid maturation in a dose-dependent manner.",
+"note": "The abstract states TET2 mutations accelerate myeloid maturation dose-dependently."
+},
+{
+"k": 3,
+"label": "not_addressed",
+"text": "Carriers of DNMT3A or TET2 clonal hematopoiesis mutations had a higher rate of progression to acute myeloid leukemia.",
+"evidence": "Clonal hematopoiesis (CH) arises when hematopoietic stem cells (HSCs) acquire mutations, most frequently in the DNMT3A and TET2 genes, conferring a competitive advantage through mechanisms that remain unclear.",
+"note": "The abstract covers clonal expansion and selective advantage but never mentions progression to leukemia."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Mutant DNMT3A and TET2 HSCs mounted a weaker inflammatory response than wild-type HSCs in the same sample.",
+"evidence": "DNMT3A- and TET2-mutant HSCs have an attenuated inflammatory response relative to wild-type HSCs within the same sample.",
+"note": "The abstract reports an attenuated inflammatory response in mutant HSCs relative to wild-type HSCs."
+}
+]
+},
+{
+"n": 1807,
+"id": "pmid:37379396",
+"statements": [
+{
+"k": 1,
+"label": "not_addressed",
+"text": "The supercentenarians' delayed aging was also seen in their first-degree relatives and offspring.",
+"evidence": "A blood single-cell RNA sequencing dataset for seven supercentenarians (SCs) was recently generated.",
+"note": "The study analyzes the supercentenarians themselves and never examines their relatives or offspring."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "The aging clock estimated the supercentenarians' blood biological age at 80.43 to 102.67 years.",
+"evidence": "Our clock model placed the SCs at a blood biological age to between 80.43 and 102.67 years.",
+"note": "The abstract gives the clock-estimated biological age range of 80.43 to 102.67 years."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Relative to the expected trajectory, supercentenarians had increased naive CD8+ T cells and decreased cytotoxic CD8+ T cells.",
+"evidence": "SCs display increased naive CD8 + T cells, decreased cytotoxic CD8 + T cells, memory CD4 + T cells, and megakaryocytes.",
+"note": "The abstract reports increased naive and decreased cytotoxic CD8+ T cells in supercentenarians."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Supercentenarians held more cells with high ribosome levels, which was linked to low inflammation and slow aging.",
+"evidence": "SCs contain more cells and cell types with high ribosome level, which is associated with and, according to Bayesian network inference, contributes to a low inflammation state and slow aging of SCs.",
+"note": "The abstract states supercentenarians have more high-ribosome cells associated with low inflammation and slow aging."
+}
+]
+},
+{
+"n": 1808,
+"id": "pmid:36864206",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Senescent cells accumulate cholesterol in lysosomes to sustain the senescence-associated secretory phenotype.",
+"evidence": "senescent cells accumulate cholesterol in lysosomes to maintain the senescence-associated secretory phenotype (SASP)",
+"note": "The abstract reports lysosomal cholesterol accumulation maintains the SASP."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "Inducing senescence through various triggers increased cellular cholesterol metabolism.",
+"evidence": "induction of cellular senescence by diverse triggers enhances cellular cholesterol metabolism",
+"note": "The abstract states diverse senescence triggers enhance cholesterol metabolism."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Senescence upregulated the cholesterol exporter ABCA1, which was rerouted to the lysosome to act as a cholesterol importer.",
+"evidence": "Senescence is associated with the upregulation of the cholesterol exporter ABCA1, which is rerouted to the lysosome, where it moonlights as a cholesterol importer.",
+"note": "The abstract reports ABCA1 upregulation and its rerouting to the lysosome as a cholesterol importer."
+},
+{
+"k": 4,
+"label": "not_addressed",
+"text": "Lowering dietary cholesterol intake reduced the senescent-cell burden in the mice.",
+"evidence": "We further show that pharmacological modulation of lysosomal cholesterol partitioning alters senescence-associated inflammation and in vivo senescence during osteoarthritis progression in male mice.",
+"note": "The study manipulates lysosomal cholesterol partitioning pharmacologically and never tests dietary cholesterol intake."
+}
+]
+},
+{
+"n": 1809,
+"id": "pmid:37616346",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Aging lowered nerve density in the ventricle and disrupted vascular-derived neuroregulatory genes.",
+"evidence": "aging reduces nerve density in the ventricle and dysregulates vascular-derived neuroregulatory genes",
+"note": "The abstract reports aging reduces ventricular nerve density and dysregulates neuroregulatory genes."
+},
+{
+"k": 2,
+"label": "not_addressed",
+"text": "The age-related loss of ventricular nerve density was greater in male hearts than in female hearts.",
+"evidence": "We report that aging reduces nerve density in the ventricle and dysregulates vascular-derived neuroregulatory genes.",
+"note": "The abstract reports aging effects on nerve density but never compares male and female hearts."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Aging decreased miR-145 and released the neurorepulsive factor semaphorin-3A from repression.",
+"evidence": "Aging down-regulates microRNA 145 (miR-145) and derepresses the neurorepulsive factor semaphorin-3A.",
+"note": "The abstract states aging down-regulates miR-145 and derepresses semaphorin-3A."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Clearing senescent cells reversed age-induced denervation, preserved heart rate patterns, and lowered electrical instability.",
+"evidence": "Removal of senescent cells, which accumulated with chronological age in parallel to the decline in nerve density, rescued age-induced denervation, reversed Sema3a expression, preserved heart rate patterns, and reduced electrical instability.",
+"note": "The abstract reports senescent-cell removal rescued denervation, preserved heart rate patterns, and reduced electrical instability."
+}
+]
+},
+{
+"n": 1810,
+"id": "pmid:30413620",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Choroid plexus klotho levels fall naturally with aging.",
+"evidence": "these levels naturally decline with aging",
+"note": "The abstract reports choroid plexus klotho levels naturally decline with aging."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "Depleting klotho from the choroid plexus of young mice raised proinflammatory factor expression and drove macrophage infiltration.",
+"evidence": "Depleting klotho selectively from the choroid plexus via targeted viral vector-induced knockout in Klotho flox/flox mice increased the expression of multiple proinflammatory factors and triggered macrophage infiltration of this structure in young mice",
+"note": "The abstract reports klotho depletion in young mice increased proinflammatory factors and triggered macrophage infiltration."
+},
+{
+"k": 3,
+"label": "not_addressed",
+"text": "Supplementing klotho improved cognitive performance in aged mice.",
+"evidence": "Klotho depletion in aging or disease may weaken this barrier and promote immune-mediated neuropathogenesis.",
+"note": "The study measures inflammatory and glial changes but never assesses cognitive or behavioral outcomes."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Klotho depletion heightened hippocampal microglial activation after mice received peripheral lipopolysaccharide.",
+"evidence": "Experimental depletion of klotho from the choroid plexus enhanced microglial activation in the hippocampus after peripheral injection of mice with lipopolysaccharide.",
+"note": "The abstract reports klotho depletion enhanced hippocampal microglial activation following peripheral lipopolysaccharide."
+}
+]
+},
+{
+"n": 1811,
+"id": "pmid:39743592",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "High-resolution clustering yielded 847 cell clusters, including at least 14 age-biased clusters that were mostly glial.",
+"evidence": "High-resolution clustering of all cells results in 847 cell clusters and reveals at least 14 age-biased clusters that are mostly glial types.",
+"note": "The abstract reports 847 clusters and at least 14 mostly glial age-biased clusters."
+},
+{
+"k": 2,
+"label": "not_addressed",
+"text": "The hypothalamic third-ventricle ageing hub was confirmed in human brain tissue.",
+"evidence": "These findings suggest that the third ventricle in the hypothalamus may be a hub for ageing in the mouse brain.",
+"note": "The dataset is from mice and the abstract does not extend the hypothalamic hub finding to humans."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "With ageing, many neurons, major astrocytes, and mature oligodendrocytes decreased expression of neuronal structure and function genes.",
+"evidence": "a decrease in expression of genes related to neuronal structure and function in many neuron types, major astrocyte types and mature oligodendrocytes",
+"note": "The abstract reports decreased neuronal structure and function gene expression across neurons, astrocytes, and oligodendrocytes."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Immune and some vascular cell types increased expression of genes for immune function, inflammation, and cell motility with ageing.",
+"evidence": "an increase in expression of genes related to immune function, antigen presentation, inflammation, and cell motility in immune cell types and some vascular cell types.",
+"note": "The abstract reports increased immune, inflammation, and cell-motility gene expression in immune and some vascular cells."
+}
+]
+},
+{
+"n": 1812,
+"id": "pmid:28096374",
+"statements": [
+{
+"k": 1,
+"label": "not_addressed",
+"text": "T-cell receptor repertoires showed the same age-related contraction as B-cell receptors.",
+"evidence": "we used a phylogenetic distance metric to analyze Ig heavy-chain transcript sequences in both young and elderly individuals before and after influenza vaccination",
+"note": "The study analyzes B-cell receptor (immunoglobulin) sequences only and never examines T-cell receptors."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "In half of the elderly individuals, a few recall lineages filled a large repertoire space and did not decline after vaccination.",
+"evidence": "In 50% of the elderly individuals, a large space in the repertoire was occupied by a small number of recall lineages that did not decline during vaccine response and contained hypermutated IgD + B cells.",
+"note": "The abstract reports that in 50% of elderly individuals recall lineages occupied a large space and did not decline during the vaccine response."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Compared with younger subjects, older subjects had a contracted naive repertoire and less intralineage diversification.",
+"evidence": "older subjects demonstrated a contracted naive repertoire and diminished intralineage diversification",
+"note": "The abstract reports older subjects had a contracted naive repertoire and diminished intralineage diversification relative to younger subjects."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Elderly subjects' vaccine responses showed fewer radical mutations than conservative mutations.",
+"evidence": "we observed a decreased incidence of radical mutations compared with conservative mutations in elderly subjects' vaccine responses",
+"note": "The abstract reports a decreased incidence of radical versus conservative mutations in elderly vaccine responses."
+}
+]
+},
+{
+"n": 1813,
+"id": "pmid:39266768",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Aged bone marrow macrophages spread senescence to multiple tissues via extracellular vesicles, driving age-associated dysfunction in mice.",
+"evidence": "physiologically aged bone marrow monocytes/macrophages (BMMs) propagate senescence to multiple tissues, through extracellular vesicles (EVs), and drive age-associated dysfunction in mice",
+"note": "The abstract reports aged bone marrow macrophages propagate senescence through extracellular vesicles and drive dysfunction."
+},
+{
+"k": 2,
+"label": "not_addressed",
+"text": "Transplanting young bone marrow macrophages into aged mice reversed their age-related dysfunction.",
+"evidence": "Here we found that physiologically aged bone marrow monocytes/macrophages (BMMs) propagate senescence to multiple tissues, through extracellular vesicles (EVs), and drive age-associated dysfunction in mice.",
+"note": "The study shows aged macrophages propagate senescence but never tests transplanting young macrophages into aged animals."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "The PPARα agonist fenofibrate restored tissue homeostasis in aged mice.",
+"evidence": "treatment with the PPARα agonist fenofibrate effectively restores tissue homeostasis in aged mice",
+"note": "The abstract reports fenofibrate restored tissue homeostasis in aged mice."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Among 7,986 cohort participants, fenofibrate use was associated with lower risk of age-related chronic disease and higher life expectancy.",
+"evidence": "in a cohort study of 7,986 participants, we found that fenofibrate use is associated with a reduced risk of age-related chronic disease and higher life expectancy",
+"note": "The abstract reports fenofibrate use in 7,986 participants was associated with reduced chronic-disease risk and higher life expectancy."
+}
+]
+},
+{
+"n": 1814,
+"id": "pmid:38262419",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Loss of type 2 cytokine signaling accelerated aging, while the IL-4–STAT6 pathway protected macrophages from senescence.",
+"evidence": "type 2 cytokine signaling deficiency accelerated aging and, conversely, that the interleukin-4 (IL-4)-STAT6 pathway protected macrophages from senescence",
+"note": "The abstract reports type 2 cytokine signaling deficiency accelerated aging while IL-4-STAT6 protected macrophages."
+},
+{
+"k": 2,
+"label": "not_addressed",
+"text": "IL-4 treatment extended the maximum lifespan of aged mice.",
+"evidence": "improved the health span of aged mice to an extent comparable to senolytic treatment",
+"note": "The study measures health span and never reports effects on maximum lifespan or survival."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Activated STAT6 drove expression of DNA repair genes acting through homologous recombination and Fanconi anemia pathways.",
+"evidence": "activated STAT6 promoted the expression of genes involved in DNA repair both via homologous recombination and Fanconi anemia pathways",
+"note": "The abstract states activated STAT6 promoted DNA repair gene expression via homologous recombination and Fanconi anemia pathways."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "IL-4 treatment blocked macrophage senescence and improved aged mice's health span comparably to senolytics, with additive effects when combined.",
+"evidence": "IL-4 treatment prevented macrophage senescence and improved the health span of aged mice to an extent comparable to senolytic treatment, with further additive effects when combined.",
+"note": "The abstract reports IL-4 prevented macrophage senescence and improved health span comparably to senolytic treatment, additively when combined."
+}
+]
+}
+]
+}

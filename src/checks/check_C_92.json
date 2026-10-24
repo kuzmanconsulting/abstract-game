@@ -1,0 +1,67 @@
+{
+  "batch": "check_C_92",
+  "pass": "C",
+  "prompt_version": "check-v1",
+  "items": [
+    { "n": 1565, "id": "pmid:37295428", "verdicts": [
+      { "j": 1, "label": "supported", "confidence": 3, "evidence": "overexpressing circRNAs in mouse leukemia xenograft models results in co-localization of genomic loci, de novo generation of clinically relevant chromosomal translocations mimicking the MLL recombinome, and hastening of disease onset." },
+      { "j": 2, "label": "contradicted", "confidence": 3, "evidence": "circular RNAs (circRNAs)-a family of covalently closed, alternatively spliced RNA molecules-are enriched within the MLL recombinome and can bind DNA" },
+      { "j": 3, "label": "supported", "confidence": 3, "evidence": "the formation of a potent oncogene by chromosomal translocations between the mixed lineage leukemia (MLL) gene and one of 100 translocation partners, known as the MLL recombinome." },
+      { "j": 4, "label": "not_addressed", "confidence": 3, "evidence": "forming circRNA:DNA hybrids (circR loops) at their cognate loci." }
+    ] },
+    { "n": 1566, "id": "pmid:39579764", "verdicts": [
+      { "j": 1, "label": "supported", "confidence": 3, "evidence": "yielding thousands of previously unrecognized snoRNA-mRNA interactions in human cells and mouse brain tissues." },
+      { "j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Many interactions occur outside of snoRNA-guided RNA modification sites, hinting at non-canonical functions beyond RNA modification." },
+      { "j": 3, "label": "supported", "confidence": 3, "evidence": "SNORA73, targets mRNAs that encode secretory proteins and membrane proteins. SNORA73 also interacts with 7SL RNA, part of the signal recognition particle (SRP)" },
+      { "j": 4, "label": "contradicted", "confidence": 3, "evidence": "The mRNA-SNORA73-7SL RNA interactions enhance the association of the SNORA73-target mRNAs with SRP, thereby facilitating the secretion of encoded proteins." }
+    ] },
+    { "n": 1567, "id": "pmid:38180812", "verdicts": [
+      { "j": 1, "label": "not_addressed", "confidence": 2, "evidence": "RNA modification at the N6 position of internal adenosine (m6A) in TERRA by the methyltransferase METTL3 is essential for telomere maintenance in ALT+ cells", "flag": "ambiguous", "reason": "The abstract scopes the mechanism to ALT+ cells and never discusses telomerase-positive neuroblastomas, so the claim can be read as contradicted-by-implication or simply not addressed." },
+      { "j": 2, "label": "supported", "confidence": 3, "evidence": "RNA modification at the N6 position of internal adenosine (m6A) in TERRA by the methyltransferase METTL3 is essential for telomere maintenance in ALT+ cells" },
+      { "j": 3, "label": "supported", "confidence": 3, "evidence": "treatment of ALT+ NB cells with a METTL3 inhibitor resulted in compromised telomere targeting of TERRA and accumulation of DNA damage at telomeres" },
+      { "j": 4, "label": "contradicted", "confidence": 3, "evidence": "We observed that m6A modification is abundant in R-loop enriched TERRA, and the m6A-mediated recruitment of hnRNPA2B1 to TERRA is critical for R-loop formation." }
+    ] },
+    { "n": 1568, "id": "pmid:39633052", "verdicts": [
+      { "j": 1, "label": "supported", "confidence": 3, "evidence": "Heterotypic interactions between the microexon and a cluster of histidine residues prevent the irreversible aggregation of CPEB4 by competing with homotypic interactions between histidine clusters." },
+      { "j": 2, "label": "contradicted", "confidence": 3, "evidence": "decreased inclusion of a 24-nucleotide neuron-specific microexon in CPEB4" },
+      { "j": 3, "label": "supported", "confidence": 3, "evidence": "neuronal CPEB4 forms condensates that dissolve after depolarization, a transition associated with a switch from translational repression to activation." },
+      { "j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We conclude that the microexon is required in neuronal CPEB4 to preserve the reversible regulation of CPEB4-mediated gene expression in response to neuronal stimulation." }
+    ] },
+    { "n": 1569, "id": "pmid:38233523", "verdicts": [
+      { "j": 1, "label": "supported", "confidence": 3, "evidence": "LPHN3 organizes synapses through a convergent dual-pathway mechanism: activation of Gα s signalling and recruitment of phase-separated postsynaptic protein scaffolds." },
+      { "j": 2, "label": "contradicted", "confidence": 3, "evidence": "neuronal activity promotes alternative splicing of the synaptogenic Gα s -coupled variant of LPHN3." },
+      { "j": 3, "label": "supported", "confidence": 3, "evidence": "CRISPR-mediated manipulation of Lphn3 alternative splicing that shifts LPHN3 from a Gα s - to a Gα 12/13 -coupled mode impaired synaptic connectivity as severely as the overall deletion of Lphn3" },
+      { "j": 4, "label": "not_addressed", "confidence": 3, "evidence": "activity-dependent alternative splicing of a key synaptic adhesion molecule controls synapse formation by parallel activation of two convergent pathways" }
+    ] },
+    { "n": 1570, "id": "pmid:36964127", "verdicts": [
+      { "j": 1, "label": "supported", "confidence": 3, "evidence": "PRRC2A-null spermatocytes exhibit delayed metaphase entry, chromosome misalignment, and spindle disorganization at metaphase I and are finally arrested at this stage." },
+      { "j": 2, "label": "supported", "confidence": 3, "evidence": "Germ cell-specific knockout of Prrc2a causes XY asynapsis and impaired meiotic sex chromosome inactivation in late-prophase spermatocytes." },
+      { "j": 3, "label": "contradicted", "confidence": 3, "evidence": "PRRC2A decreases the RNA abundance or improves the translation efficiency of targeting transcripts." },
+      { "j": 4, "label": "not_addressed", "confidence": 3, "evidence": "N6-methyladenosine (m6A) and its reader proteins YTHDC1, YTHDC2, and YTHDF2 have been shown to exert essential functions during spermatogenesis." }
+    ] },
+    { "n": 1571, "id": "pmid:37932453", "verdicts": [
+      { "j": 1, "label": "not_addressed", "confidence": 3, "evidence": "This study shows that the paraspeckle shell composition dictates the independence of MLOs in the nucleus, providing insights into the importance of the shell in defining features and functions of MLOs." },
+      { "j": 2, "label": "supported", "confidence": 3, "evidence": "Several paraspeckle proteins, including SFPQ, HNRNPF and BRG1, prevent this incorporation and thus contribute to the segregation of paraspeckles from nuclear speckles." },
+      { "j": 3, "label": "supported", "confidence": 3, "evidence": "Conversely, U2-related spliceosomal proteins are involved in internalizing the paraspeckles into nuclear speckles." },
+      { "j": 4, "label": "supported", "confidence": 3, "evidence": "We identified NEAT1 deletion mutants that assemble paraspeckles that are incorporated into nuclear speckles." }
+    ] },
+    { "n": 1572, "id": "pmid:36717220", "verdicts": [
+      { "j": 1, "label": "not_addressed", "confidence": 3, "evidence": "targeting YTHDF1 by CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) or VNPs-si YTHDF1 boosted anti-PD1 efficacy in MSI-H CRC, and overcame anti-PD1 resistance in MSS CRC." },
+      { "j": 2, "label": "supported", "confidence": 3, "evidence": "Clinical significance of YTHDF1 was assessed in tissue microarrays (N=408) and TCGA (N=526) cohorts." },
+      { "j": 3, "label": "contradicted", "confidence": 3, "evidence": "YTHDF1 expression negatively correlated with interferon-γ gene signature in TCGA-CRC." },
+      { "j": 4, "label": "supported", "confidence": 3, "evidence": "scRNA-seq identified reduction of myeloid-derived suppressor cells (MDSCs), concomitant with increased cytotoxic T cells in Ythdf1 knockout tumours." }
+    ] },
+    { "n": 1573, "id": "pmid:37616368", "verdicts": [
+      { "j": 1, "label": "supported", "confidence": 3, "evidence": "by dissociating the PPARγ inhibitor sirtuin 1 from cell cycle and apoptosis protein 2 (CCAR2)." },
+      { "j": 2, "label": "contradicted", "confidence": 3, "evidence": "Forced expression of Snhg9 in the intestinal epithelium of conventional mice impaired lipid absorption, reduced body fat, and protected against diet-induced obesity." },
+      { "j": 3, "label": "not_addressed", "confidence": 3, "evidence": "repressing the expression of long noncoding RNA (lncRNA) Snhg9 (small nucleolar RNA host gene 9) in small intestinal epithelial cells." },
+      { "j": 4, "label": "supported", "confidence": 3, "evidence": "the microbiota reprograms intestinal lipid metabolism in mice by repressing the expression of long noncoding RNA (lncRNA) Snhg9 (small nucleolar RNA host gene 9) in small intestinal epithelial cells." }
+    ] },
+    { "n": 1574, "id": "pmid:36882514", "verdicts": [
+      { "j": 1, "label": "supported", "confidence": 3, "evidence": "NAT10 in turn promotes metastasis by increasing NOTCH3 mRNA stability in an N4-acetylcytidine-dependent manner." },
+      { "j": 2, "label": "contradicted", "confidence": 3, "evidence": "focused on 2-hydroxyisobutyrylation (Khib) due to its significant upregulation in cancer metastases." },
+      { "j": 3, "label": "supported", "confidence": 3, "evidence": "systemic Khib proteome profiling in 20 paired primary esophageal tumor and metastatic tumor tissues with CRISPR/Cas9 functional screening, we identified N-acetyltransferase 10 (NAT10) as a substrate for Khib modification." },
+      { "j": 4, "label": "not_addressed", "confidence": 3, "evidence": "we discovered a lead compound #7586-3507 that inhibited NAT10 Khib modification and showed efficacy in tumor models in vivo at a low concentration." }
+    ] }
+  ]
+}

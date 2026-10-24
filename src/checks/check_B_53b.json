@@ -1,0 +1,31 @@
+{"batch": "check_B_53b", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1184, "id": "pmid:28459454",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Thus, the ancestral DUX4-regulated genes are characteristic of cleavage-stage embryos and are driven by conventional promoters, whereas divergence of the DUX4 and DUX homeodomains correlates with retrotransposon specificity."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We found that human DUX4 expressed in mouse cells maintained modest activation of cleavage-stage genes driven by conventional promoters but did not activate MERVL-promoted genes."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Despite the divergence of their binding motifs, both mouse DUX and human DUX4 in mouse and human muscle cells, respectively, activate genes associated with cleavage-stage embryos, including MERVL and ERVL-MaLR retrotransposons."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Facioscapulohumeral dystrophy (FSHD; MIM158900, MIM158901) is caused by misexpression of the DUX4 transcription factor in skeletal muscle."}
+    ]},
+   {"n": 1185, "id": "pmid:34619744",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Here we show that TnpB of Deinococcus radiodurans ISDra2 is an RNA-directed nuclease that is guided by an RNA, derived from the right-end element of a transposon, to cleave DNA next to the 5'-TTGAT transposon-associated motif."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We also show that TnpB could be reprogrammed to cleave DNA target sites in human cells."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "experimentally confirms that TnpB is a functional progenitor of CRISPR-Cas nucleases and establishes TnpB as a prototype of a new system for genome editing"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Insertion sequences of IS200/IS605 and IS607 families 2 are among the simplest mobile genetic elements and contain only the genes that are required for their transposition and its regulation."}
+    ]},
+   {"n": 1186, "id": "pmid:31665631",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "The largest cluster, identified in 61% of patient samples, displays hallmarks of oxidative and proteotoxic stress. Another 19% of the samples shows predominant signatures of glial activation."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Using machine learning algorithms, we stratify the transcriptomes of 148 ALS postmortem cortex samples into three distinct molecular subtypes."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "While several pathogenic mutations have been identified, the vast majority of ALS cases have no family history of disease."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Finally, a third group (20%) exhibits high levels of retrotransposon expression and signatures of TARDBP/TDP-43 dysfunction."}
+    ]},
+   {"n": 1187, "id": "pmid:28803918",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "We observed abundant extrachromosomal DNA in TREX1-deficient neural cells, of which endogenous Long Interspersed Element-1 retrotransposons were a major source."},
+      {"j": 2, "label": "contradicted", "confidence": 2, "evidence": "TREX1-deficient astrocytes further contributed to the observed neurotoxicity through increased type I interferon secretion.", "flag": "ambiguous", "reason": "The abstract attributes the interferon-driven neurotoxicity to astrocytes and says nothing about microglia, so the cell type named is wrong but microglia are not explicitly excluded."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "TREX1-deficient neurons also exhibited increased apoptosis and formed three-dimensional cortical organoids of reduced size."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "In this model, reverse-transcriptase inhibitors rescued the neurotoxicity of AGS neurons and organoids"}
+    ]}
+ ]}

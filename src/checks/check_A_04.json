@@ -1,0 +1,248 @@
+{"batch": "check_A_04", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+   {"n": 140, "id": "pmid:41027434",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "TranCs utilize both CRISPR RNAs and reRNAs to direct DNA cleavage."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "We identify TranCs (transposon-CRISPR intermediates) derived from distinct IS605- or IS607-TnpB lineages."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "An engineered RNA split of ISDra2 TnpB enabled activity with a CRISPR array."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "unlike a single-molecule reRNA, the LaTranC guide RNA is functionally split into a tracrRNA and crRNA"}
+    ]},
+   {"n": 141, "id": "pmid:39594687",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Prognostic significance was established for miR-29a-3p , showing lower expression in NSCLC patients with disease progression compared to stable disease ( p = 0.004)."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Kaplan-Meier survival analysis indicated that patients with miR-29a-3p under-expression had significantly shorter overall survival (OS) ( p = 0.038)."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Despite the expression of lncRNA H19 in plasma EVs being undetected, its expression in plasma cfRNAs correlated significantly with disease progression ( p = 0.035)."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "showing lower expression in NSCLC patients with disease progression compared to stable disease ( p = 0.004)"}
+    ]},
+   {"n": 142, "id": "pmid:42406326",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "In a discovery cohort (n = 17), targeted mutation and methylation profiling on baseline and progression cfDNA was performed."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Mutation analysis yielded no predictive markers."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Multivariate logistic regression analysis confirmed that high CD86 methylation was independently associated with DR (odds ratio: 6.96, 95% confidence interval: 1.70-28.50; p = 0.0071)."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "High-cfDNA independently predicted shorter OS (median 13.0 vs. 33.1 months; p = 0.0015) but not ORR, DCR, or DR."}
+    ]},
+   {"n": 143, "id": "doi:10.64898/2026.10.11.758337",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Most genes belong to shared orthogroups, indicating a largely conserved gene repertoire."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Caupuri and tucunacá assemblies span 1.16 and 1.13 Gb, respectively, each organized into ten high-quality chromosome-scale pseudomolecules."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "both genomes are highly repetitive, with approximately 78% of their assemblies composed of repetitive DNA largely shaped by LTR retrotransposons"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "The species encompasses culturally recognized ethnovarieties, some differing in stem architecture."}
+    ]},
+   {"n": 144, "id": "pmid:41991340",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "This study suggests the clinical utility of ctDNA profiling as both a prognostic and a monitoring tool in patients with bone mCRPC treated with 223 Ra."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Of 93 patients analyzed, ctDNA was successfully profiled in 84 baseline and 74 EOT samples, with matched data available for 68 patients."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "A ctDNA fraction of at least 5%, as well as TP53 alteration, PTEN alteration, and cell cycle pathway alterations at baseline were significantly associated with shorter rPFS and OS."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Dynamic changes in ctDNA fraction and PTEN alteration between baseline and EOT correlated with distinct rPFS and OS."}
+    ]},
+   {"n": 145, "id": "doi:10.1101/2025.07.08.25331118",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Single-cell transcriptomics revealed marked expansion of CD8 + T cells in the proband, accompanied by altered expression of JAK/STAT pathway genes, including elevated STAT3, STAT 1 , and downstream target genes ( BATF, MAF, MYC ), but diminished cytokine transcripts ( IL1B, TNF )."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Immunomodulatory therapies, including cyclosporin A and tacrolimus, controlled autoimmune symptoms in the proband, whereas the parent was refractory to conventional treatments"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Immunomodulatory therapies, including cyclosporin A and tacrolimus, controlled autoimmune symptoms in the proband, whereas the parent was refractory to conventional treatments, ultimately succumbing after unsuccessful hematopoietic stem cell transplantation."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Serum cytokines, however, were markedly elevated, highlighting discordant transcriptional and translational regulation."}
+    ]},
+   {"n": 146, "id": "pmid:40558079",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "The second analysis revealed that a high proportion of dMMR-associated signatures were associated with larger tumour size, advanced tumour stages, upregulation of cell cycle-related genes, and lower expression of the IL6 gene, but not with decreased expression of mismatch repair genes."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "The third analysis showed that a high proportion of dMMR-associated signatures were significantly associated with better response rates and longer progression-free survival."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "In the first analysis, dMMR-associated signatures were commonly observed in subclonal mutations in HCC, but were absent in noncancerous liver tissues."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "First, we performed mutational signature analyses across various stages of hepatocarcinogenesis using multi-regional whole-genome sequencing data from 529 samples from 26 patients with or without HCC."}
+    ]},
+   {"n": 147, "id": "pmid:42192570",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Tumor mutation burden was consistently low, with CDKN2A homozygous deletion being the only recurrent secondary event (4/5 cases profiled)."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We identified a total of 24 cases harboring BRAF fusions, with 18 (75%) occurring in canonical BRAF-driven histotypes"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Among the five patients with follow-up (median 34 months), one patient died of disease, with two developing local recurrences at 5 and 84 months."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "In this group, BRAF breakpoints clustered in exons 8-11 retaining an intact kinase domain"}
+    ]},
+   {"n": 148, "id": "pmid:38339300",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "In 17 of 19 patients with identified hotspot mutations in tumor gDNA, at least one hotspot mutation could be detected in plasma DNA at the time of diagnosis."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "while when analyzing cfDNA from plasma with a typical input of 33 ng, the practical detection limit was ~10 -4 or 0.01% mutant allele frequency (MAF)"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The MAF increased at subsequent time points in four of the patients who experienced a clinical relapse."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "The MAF increased at subsequent time points in four of the patients who experienced a clinical relapse."}
+    ]},
+   {"n": 149, "id": "pmid:41006474",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Our results analysis indicated that enzyme-based whole-genome methylation sequencing retained more longer cfDNA and detected more CpG sites than bisulfite-based method in both gDNA and cfDNA."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Our study uses enzymatic method to detect whole genome abnormal methylation regions in esophageal squamous cell carcinoma (ESCC)."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Compared to traditional models, our BCNN demonstrates the best performance in identifying ctDNA (AUC = 0.970)."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Specifically, in the validation cohort, when the specificity is 93.75%, 7 out of 8 early-stage ESCC (TNM Stage I) were identified as positive in our preliminary results."}
+    ]},
+   {"n": 150, "id": "doi:10.64898/2026.10.08.757030",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Repeat content is higher in S. oregonense than in P. mocquerysi, 54.3% against a lower bound of 15.7%."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "with notable expansions in several gene families including carboxylesterases, serine proteases, and lipid metabolism genes in Amblyoponinae"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "we assembled the P. mocquerysi genome (187 Mb, 307 scaffolds, N50 = 5.26 Mb, BUSCO 99.2% complete) and the S. oregonense genome (262 Mb, 1,189 scaffolds, N50 = 0.84 Mb, BUSCO 98.3% complete)"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Most of the difference is in unclassified repeats, which we show to be diverged transposable elements."}
+    ]},
+   {"n": 151, "id": "doi:10.1101/2023.09.03.556123",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Therefore, we selected three algorithms: Accucopy, Sequenza , and ControlFreeC , and applied them to data simulated under different settings."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Sequenza can only perform well in high-coverage and more-CNA samples."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "For coverage=5X samples, ControlFreeC requires tumor purity to be above 50% to perform well."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Under the settings tested (sequencing depth at 5X or 30X, purity from 0.1 to 0.9, existence of subclones or not), Accucopy is the best-performing algorithm overall."}
+    ]},
+   {"n": 152, "id": "pmid:40419568",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Low depth models were fitted and evaluated on whole exome sequencing (WES) cfDNA data at depths of approximately 10X while the high depth data was sequenced at approximately 500X."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Our results demonstrate the utility of supervised ML models for filtering variants in cfDNA data."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Partial dependence plots showed membership in the COSMIC database, absence from the dbSNP common variants database, and increasing read depth increased mean probability of high confidence somatic variant prediction in both models."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Precision-recall curves showed the high depth model outperformed rule-based filtering at all thresholds in Test Data (PR-AUC 0.71)."}
+    ]},
+   {"n": 153, "id": "pmid:42210697",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "ST135 was identified as a highly MDR lineage, with 95% of genomes carrying ≥16 resistance genes."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Multilocus sequence typing (MLST) identified 213 MLSTs, with only 7% having ≥10 genomes, highlighting strain diversity."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "While the presence of genes like aph(3')-la reliably predicted kanamycin resistance, discordance for antibiotics such as trimethoprim-sulfamethoxazole and chloramphenicol revealed that AMR gene stacking, regulatory context, and intrinsic mechanisms, like efflux pumps, modulate phenotypic outcomes."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Proteus mirabilis is an undercharacterized and challenging UTI pathogen due to intrinsic resistance and biofilm formation."}
+    ]},
+   {"n": 154, "id": "pmid:40597611",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Long Interspersed Nuclear Elements (LINEs, 12.64%), DNA transposons (7.35%), and Long Terminal Repeats (LTRs, 5.44%) were the most common. Less abundant transposable elements included Rolling Circles (1.3%), Short Interspersed Nuclear Elements (SINEs, 0.64%)"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Among annotated transposable elements, Long Interspersed Nuclear Elements (LINEs, 12.64%), DNA transposons (7.35%), and Long Terminal Repeats (LTRs, 5.44%) were the most common."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Our GS estimates are well below the GS (= 4.56 Gbp) determined for the same species using flow cytometry."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "In J. frontalis, the circular mitochondrial genome is 15,514 bp in length and contains 22 transfer (tRNA) genes, 13 PCGs, and two ribosomal RNA genes (12 S and 16 S ribosomal RNA)."}
+    ]},
+   {"n": 155, "id": "pmid:41660603",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Unlike SNPs, which were significantly more numerous in oilseed flax than in fiber flax, we did not find such a substantial difference in the number of insertions of different transposon families per plant among samples of different morphotypes."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "A genome-wide association study (GWAS) identified 50 TE insertions associated with different phenotypic traits, with many associations confirmed by multiple models or detected in data from multiple years."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Analysis of genomic regions affected by recent breeding efforts revealed a total of 61 candidate regions, of which 18 regions overlapped with QTLs associated with important agronomic traits."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We discovered 588,480 new transposon insertion sites not present in the reference flax genome (NCBI assembly ASM22429v2), the majority of which were attributed to retrotransposons of the Copia and Gypsy superfamilies"}
+    ]},
+   {"n": 156, "id": "pmid:40917997",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Functional annotation identified 187 PP78-specific and 236 PP85-specific genes, with the latter enriched in TE-related and putative virulence factors."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "The expansion of non-ribosomal peptide synthetase and polyketide synthase pathways, alongside contraction of terpenoid clusters typical of ECM fungi, further indicated its adaptation to saprotroph."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Phlebopus portentosus is a widely consumed edible mushroom and the only Boletales species currently cultivated on an industrial scale."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Comparative genomic analysis revealed a genome size difference of 1.17 Mb (30.87 vs. 32.04 Mb), primarily attributed to transposable element (TE) expansion in strain PP85."}
+    ]},
+   {"n": 157, "id": "doi:10.64898/2026.09.16.752100",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "The genomes are structurally conserved, showing no chromosome-scale rearrangements and uniform transposable element content."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "This suggests that the large phenotypic variance in aggressiveness observed between isolates likely resides in regulatory differences and/or within the small and largely uncharacterised accessory fraction."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Orthology assignment placed 90.4% of genes in the core genome."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Each genome was assembled into four nuclear chromosomes, with 118 of 120 telomeres resolved"}
+    ]},
+   {"n": 158, "id": "pmid:42016323",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Functional assays demonstrated that IFNGR2 knockdown suppressed glioma cell proliferation and attenuated NF- κ B signaling, underscoring its role as a key driver within the TRP network."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Genomically, high-TRPRS tumors were enriched for PTEN loss and 9q21.3 amplification, whereas low-TRPRS tumors frequently harbored TP53 mutations and 1q21.3 deletions."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "TRPRS robustly stratified GBM patients into high- and low-risk groups with significantly distinct overall survival across all four datasets (AUC = 0.72-0.81)."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "High TRPRS was associated with diminished cytotoxic T-cell infiltration and predicted resistance to multiple therapeutics-including cisplatin, carmustine, gefitinib, buparlisib, and afatinib."}
+    ]},
+   {"n": 159, "id": "pmid:38966395",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "The R20291 ϕ027 deletant was sensitive to ϕ027 infection"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "This work indicates the commonly used pMTL8000 plasmid series works well for CRISPR-Cas9-mediated gene deletion, resulting in the largest deleted locus (56.8 kb) described in C. difficile ."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The 630 Tn 5397 deletant transferred PaLoc at the same frequency (1 × 10 -7 ) as 630 harboring Tn 5397 , indicating that Tn 5397 alone did not mediate conjugative transfer of PaLoc."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Growth kinetics of R20291 ϕ027 deletant was similar to wild type (WT) in rich medium but marginally reduced compared with WT in minimal medium."}
+    ]},
+   {"n": 160, "id": "pmid:41566997",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We identified 14,145 genes and over 78% of the genome consists of transposable elements (TEs). Of these, 94% are affected by repeat-induced point mutations (RIP)"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Screening of 15 additional C. geophilum strains revealed recent and lineage-specific TE expansions, implying that several TEs escaped the RIP machinery and retained potential activity."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "we found 56 TEs differentially transcribed between ectomycorrhizal and free-living mycelium tissues. An even higher number (n = 66) of TEs were differentially expressed between stress resistance morphology (i.e. sclerotia) and free-living mycelium."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "with three TE families (Ty3, Ty1, and Tad1) contributing over 60% of the genome size, indicating recent transposition bursts"}
+    ]},
+   {"n": 161, "id": "doi:10.1101/2025.07.17.665281",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Here, we describe the structure and mechanism of a new family of ring nucleases, Crn4, associated with type III-D CRISPR systems."},
+      {"j": 2, "label": "supported", "confidence": 2, "evidence": "Crn4 degrades a range of cOA species to linear oligoadenylates in vitro and ameliorates type III CRISPR immunity in vivo .", "flag": "ambiguous", "reason": "The abstract's word \"ameliorates\" could be read as improving rather than dampening immunity, though the stated resetting role of ring nucleases points to dampening."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Phage and plasmids also encode Crn4 orthologues that may function as anti-CRISPRs."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The crystal structure of Crn4 reveals a small homodimeric protein with a fold unrelated to any known ring nuclease or, indeed, any known protein structure."}
+    ]},
+   {"n": 162, "id": "doi:10.64898/2026.04.27.720831",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "whereas apparent expansions in the laboratory strain largely reflect annotation inflation arising from assembly fragmentation"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Expanded orthogroups in the resurrected strain are enriched for retroelement-associated domains, nucleic-acid processing functions, and stress-responsive gene families, including small heat shock proteins"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The resurrected genome harbors ∼38% repetitive DNA approximately 1.8-fold higher than the laboratory strain dominated by LTR retrotransposons and a large fraction of unclassified repeats"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Despite a strongly conserved core genome, the two strains differ markedly in repeat content, gene family copy number, and functional enrichment patterns."}
+    ]},
+   {"n": 163, "id": "pmid:42532350",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "The introduction of antibody-drug-conjugates (ADC) that target HER2 has renewed interest in ERBB2 alterations in bladder cancer."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "ERBB2 amplification was present in 59 (7.4%) of 820 bladder cancers and amplification varied by subtype with amplification most frequently identified in micropapillary carcinoma (19%)"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "ERBB2 amplification occurred in 26 (12.4%) of 209 nodal metastases and there was concordance in amplification between primary and nodal metastases (kappa = 0.61)."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "There was agreement in protein expression between primary and lymph node metastases (kapp = 0.52), and the nodal metastases had a significantly higher expression (p < 0.001)."}
+    ]},
+   {"n": 164, "id": "pmid:41980879",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "In most tumors (8/11; 73%), CNA profiles of the paired samples were similar."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "In the remaining 3 tumors (3/11; 27%), the CNA profiles showed noticeable differences, with a higher number of CNAs in SM."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "No highly recurrent CNAs were identified in the SM components."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "The differences observed in a subset likely reflect earlier divergent evolution of the SM subclones, with CNAs possibly underlying tumor progression."}
+    ]},
+   {"n": 165, "id": "pmid:39383864",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Our structures reveal a striking bending of the att DNA, featured by the intercalation of an arginine side chain of TnsD into a CC/GG dinucleotide step."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Recognition of the attachment (att) site by TnsD recruits the TnsABC proteins to form the transpososome and facilitate transposition."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "demonstrates that TnsC not only recruits TnsAB but also directly participates in the transpososome assembly"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "These findings provide mechanistic insights into targeted DNA insertion by Tn7-like transposons, with implications for improving the precision and efficiency of their genome-editing applications."}
+    ]},
+   {"n": 166, "id": "pmid:42760813",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "After age adjustment, neither size mismatch nor age was independently associated with first dd-cfDNA%."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Higher first dd-cfDNA% was associated with larger BSA ratio (p = 0.039), BSA ratio ≥ 1.5 (median 0.17% vs. 0.06%, p = 0.0185), larger weight ratio (p = 0.016), LV mass oversizing (median 0.17% vs. 0.06%, p = 0.0196), and younger age (p = 0.008)."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "BSA ratio ≥ 1.5 (median 0.17% vs. 0.06%, p = 0.0185)"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "These exploratory findings support further investigation of size mismatch, recipient age, and early allograft adaptation as potential non-rejection contributors to dd-cfDNA elevation."}
+    ]},
+   {"n": 167, "id": "pmid:41422053",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Although coding sequences add to this disparity, transposable elements (TEs) are the main contributors to genome size variation."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "In our research, we have characterized the landscape of TEs in 18 species of Myrtaceae. Our results showed that LTR Class I elements are the main contributors to genome size variations in Myrtaceae."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Most available Myrtaceae genome assemblies are arranged in 11 chromosomes, and possess large variability in genome sizes, sometimes over triple the size."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "A positive HTT of a Copia/Ivana TE among Syzygieae and Myrteae tribes could affect the regulation of proximal microorganism defense response genes."}
+    ]},
+   {"n": 168, "id": "pmid:41991549",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "However, there was significant decline in TF from pre-infusion to D9 (16% to 6.5%, p = 0.004)."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Circulating tumor DNA (ctDNA) 'tumor fraction' (TF) may correlate with therapy response, but little is known regarding TF dynamics immediately after therapy initiation."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "There was no ctDNA TF surge within minutes to 24 h of onalespib, paclitaxel, or combination, despite an overall decline in TF during the first therapy cycle."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "There was significant TF decline from pre-infusion to 6 h for paclitaxel (p = 0.03) but no change for onalespib or onalespib+paclitaxel at 6hl."}
+    ]},
+   {"n": 169, "id": "doi:10.1101/2024.01.30.24301871",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "This contrasts with gains and amplifications of chromosome 8q, which were not restricted to one of the main subtypes and showed subclonality in 31% of the affected tumours."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "These tertiary alterations were not required for metastatic dissemination."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "gains and amplifications of chromosome 8q, which were not restricted to one of the main subtypes and showed subclonality in 31% of the affected tumours"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "three main evolutionary subtypes could be identified based on having an EIF1AX mutation, SF3B1 mutation or monosomy 3p. These alterations were usually mutually-exclusive and (near-) clonally abundant, suggesting to represent distinct secondary drivers."}
+    ]},
+   {"n": 170, "id": "pmid:39139705",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "This study examines the diversity and evolution of human endogenous retroviruses (HERVs) of the HERVL family, which has long terminal repeats (LTRs) named MLT2."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "human endogenous retroviruses (HERVs) of the HERVL family, which has long terminal repeats (LTRs) named MLT2"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Our analysis identifies new subfamilies within the MLT2 group, proposes a refined classification scheme, and constructs new consensus sequences."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "By probability-based sequence comparison, we uncover systematic annotation errors that conceal the true complexity and diversity of transposable elements (TEs) in the human genome."}
+    ]},
+   {"n": 171, "id": "pmid:39194330",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We further explored the prognostic differences according to, for example, the HPV status in head and neck squamous cell carcinomas and smoking status in lung cancers."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "The clock-like signatures SBS5 and SBS40 were most commonly associated with survival endpoints."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "In 12 of 18 studied cancer types, we identified at least one mutational signature whose activity predicted survival outcomes after adjusting for the established prognostic factors."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "overall survival was associated with the activity of mutational signatures in nine cancer types and disease-specific survival in seven cancer types"}
+    ]},
+   {"n": 172, "id": "pmid:38892284",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "SMYD4 demonstrated its role as a tumor suppressor in the majority of tumors evaluated."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "In terms of CNAs, SMYD4 consistently exhibited heterozygous loss and downregulation across all tumors evaluated."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Moreover, SMYD4 showed low expression in tumor samples compared to normal samples, except for stomach adenocarcinoma."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Additionally, patients with low SMYD4 expression in STAD and LUAD tumors exhibited significantly poorer overall survival."}
+    ]},
+   {"n": 173, "id": "pmid:41280668",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "PDOs from oxaliplatin-resistant patients maintained this resistance, showing the upregulation of ZNF300 , TGM2 , and Hedgehog pathway enrichment."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Combining PDO drug sensitivity assessments with RNA and whole genome sequencing, we found PDOs from pretreated patients exhibited higher mutational load and more structural variants."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "by comparing 35 patient-derived metastatic organoids (PDOs) from pretreated and chemonaive patients with mCRC. Combining PDO drug sensitivity assessments with RNA and whole genome sequencing, we found PDOs from pretreated patients exhibited higher mutational load and more structural variants."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Acquired resistance to 5-FU and irinotecan was only partially captured, with irinotecan resistance linked to specific mutational signatures and deep deletions in common fragile sites"}
+    ]},
+   {"n": 174, "id": "doi:10.64898/2026.03.02.709031",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "In particular, we uncover novel candidate biomarkers with prognostic value, as well as a transcriptional profile associated with neural system development."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Our results highlight distinct molecular profiles across the three glioma types and identify potential relationships between methylation and genetic expression."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "In this work, we apply integrative multi-omics analysis to explore the interplay between genomic (mutations), epigenomic (DNA methylation), and transcriptomic (mRNA and miRNA) layers."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Our results highlight distinct molecular profiles across the three glioma types"}
+    ]}
+ ]}

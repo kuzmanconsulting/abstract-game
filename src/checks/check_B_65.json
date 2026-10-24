@@ -1,0 +1,73 @@
+{"batch": "check_B_65", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1302, "id": "pmid:28348234",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Rather, the mutation significantly reduced nuclear portion of HYL1 protein and correspondingly compromised the pri-miRNA processing in the nucleus."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "We propose that KETCH1 transports HYL1 from the cytoplasm to the nucleus to constitute functional microprocessor in Arabidopsis"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "ketch1 knockdown mutation also substantially reduced miRNA accumulation, but did not alter nuclear-cytoplasmic shuttling of miRNAs."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Null mutation of ketch1 is embryonic-lethal, whereas knockdown mutation of ketch1 caused morphological defects, reminiscent of mutants in the miRNA pathway."}
+    ]},
+   {"n": 1303, "id": "pmid:28165511",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "SUSI-1 is a homolog of the human DIS3L2 exonuclease involved in 3'-5' degradation of oligouridylated RNAs."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Stress stimuli, including low temperature and UV irradiation, induced the accumulation of risiRNAs."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "risiRNAs show sequence complementary to 18S and 26S rRNAs and require RNA-dependent RNA polymerases (RdRPs) for their production."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "In susi-1 mutant and in low temperature-treated animals, 3'-tail oligouridylated 26S rRNA accumulated."}
+    ]},
+   {"n": 1304, "id": "pmid:34650259",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "This emphasizes that the production of secondary small interfering RNAs is required."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Exogenous miRNAs, such as miR156 and miR399, trigger RNAi via a mechanism requiring both AGO1 and RDR6."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Here we show that micro-RNAs (miRNAs) produced by plants act as signalling molecules affecting gene expression in other, nearby plants."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Here we show that micro-RNAs (miRNAs) produced by plants act as signalling molecules affecting gene expression in other, nearby plants."}
+    ]},
+   {"n": 1305, "id": "pmid:29804889",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Loss- and gain-of-function experiments reveal that ISY1 promotes exit from the naive state and is necessary and sufficient to induce and maintain poised pluripotency"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We identify a large subset of ISY1-dependent miRNAs that can rescue the inability of miRNA-deficient ESCs to establish the poised state and transition to the primed state."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "defines a specific phase of \"poised\" pluripotency characterized by distinct miRNA and mRNA transcriptomes and widespread poised cell contribution to mouse chimeras."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "widespread poised cell contribution to mouse chimeras"}
+    ]},
+   {"n": 1306, "id": "pmid:28441530",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 2, "evidence": "which promotes translation of self-renewal and differentiation factors by directly binding to its target mRNAs and interacting with translational initiation factors."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "RNA-iCLIP results show that Aub binds the mRNAs encoding self-renewal and differentiation factors in cultured GSCs."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Here we report that Aub promotes GSC self-renewal and GSC progeny differentiation."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Aub controls GSC self-renewal by preventing DNA-damage-induced Chk2 activation and by translationally controlling the expression of self-renewal factors."}
+    ]},
+   {"n": 1307, "id": "pmid:30016624",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Degradation of HYL1 leads to the release of gene silencing, triggering a proper response to dark and shade."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "the miRNA biogenesis factor HYPONASTIC LEAVES 1 (HYL1) is degraded but an inactive pool of phosphorylated protein remains stable inside the nucleus."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Upon light restoration, a quick dephosphorylation of HYL1 leads to the reactivation of miRNA biogenesis and a switch toward a developmental program that maximizes the light uptake."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Here we show that plants alter microRNA (miRNA) biogenesis in response to light transition."}
+    ]},
+   {"n": 1308, "id": "pmid:35947946",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Here, we show that the mir-35 miRNA family undergoes selective decay at the transition from embryonic to larval development in C. elegans."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Enzymatic modifications of the miRNA 3' end are neither prevalent nor correlated with changes in decay"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The seed sequence of the miRNA is necessary and largely sufficient for this regulation."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "a class of mechanism that has great biological and therapeutic potential for dynamic regulation of a miRNA family's target repertoire."}
+    ]},
+   {"n": 1309, "id": "pmid:32868918",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We use experimental evolution to characterize the rate, spectrum and stability of epimutations driven by small silencing RNAs in the model nematode Caenorhabditis elegans."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Epimutations mediated by small RNAs may thus contribute to evolutionary processes over a short timescale but are unlikely to bring about long-term divergence in the absence of selection."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We show that epimutations arise spontaneously at a rate approximately 25 times greater than DNA sequence changes and typically have short half-lives of two to three generations."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Nevertheless, some epimutations last at least ten generations."}
+    ]},
+   {"n": 1310, "id": "pmid:28827804",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "In the fly ovarian somatic follicle cells, the transcript becomes cleaved in a stepwise manner, with a 5'→3' directionality, liberating U1-containing ~24 nt piRNAs that are loaded into Piwi."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Here we demonstrate that artificial tethering of the piRNA biogenesis factor, Armi, to a transcript is sufficient to direct it into primary processing in Drosophila ovaries and in an ovarian cell culture model."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Tethering-mediated primary piRNA biogenesis is also functional in the fly ovarian germline and loads all the three PIWI proteins present in this environment."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Although uridines are preferred for generation of piRNA 5' ends, processing takes place even in their absence, albeit at a lower efficiency."}
+    ]},
+   {"n": 1311, "id": "pmid:30590800",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "TDRKH specifically recruits MIWI, but not MILI, to engage the piRNA pathway."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Here, we show that mitochondria-anchored TDRKH controls multiple steps of pachytene piRNA biogenesis in mice."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "The failure to recruit MIWI to the IMC with TDRKH deficiency results in loss of MIWI in the chromatoid body, leading to spermiogenic arrest"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "It is required for the production of the entire MIWI-bound piRNA population and enables trimming of MILI-bound piRNAs."}
+    ]}
+ ]}

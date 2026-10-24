@@ -1,0 +1,107 @@
+{
+"batch": "check_C_81",
+"pass": "C",
+"prompt_version": "check-v1",
+"items": [
+{
+"n": 1455,
+"id": "pmid:38437180",
+"verdicts": [
+{"j": 1, "label": "contradicted", "confidence": 3, "evidence": "We found that sequences upstream of tomato CLV3 are highly sensitive to even small perturbations compared to its downstream region."},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "Whereas phenotypic enhancement from adding downstream mutations was predominantly weak and additive in tomato, mutating both regions of Arabidopsis CLV3 caused substantial and synergistic effects"},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "we generated over 70 deletion alleles in the upstream and downstream regions of the stem cell repressor gene CLAVATA3 (CLV3) and compared their individual and combined effects on a shared phenotype, the number of carpels that make fruits"},
+{"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "major reconfiguration of cis-regulatory sequence space is a common yet cryptic evolutionary force altering genotype-to-phenotype relationships from regulatory variation in conserved genes"}
+]
+},
+{
+"n": 1456,
+"id": "pmid:38378804",
+"verdicts": [
+{"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "we find an allele-specific decrease in Hoxd13 expression in the embryonic tail bud of long-tailed forest mice, consistent with its role in axial elongation"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "For all six loci, the forest allele increases tail length, indicative of the cumulative effect of natural selection."},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "we find an allele-specific decrease in Hoxd13 expression in the embryonic tail bud of long-tailed forest mice"},
+{"j": 4, "label": "contradicted", "confidence": 3, "evidence": "forest embryos have more presomitic mesoderm than prairie embryos"}
+]
+},
+{
+"n": 1457,
+"id": "pmid:37494290",
+"verdicts": [
+{"j": 1, "label": "not_addressed", "confidence": 2, "evidence": "A comparison of the expression of ohnolog genes (using transcriptomes from osphradium and salivary glands in S. haemastoma)"},
+{"j": 2, "label": "contradicted", "confidence": 3, "evidence": "The two obtained high-quality genomes had 3 and 2.2 Gb, respectively"},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "Through the analysis of syntenic blocks, Hox gene cluster duplication, and synonymous substitutions distribution pattern, we inferred the occurrence of a whole genome duplication event in both genomes."},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "where both copies were differentially expressed, showed that most of them had similar expression profiles"}
+]
+},
+{
+"n": 1458,
+"id": "pmid:39365921",
+"verdicts": [
+{"j": 1, "label": "not_addressed", "confidence": 2, "evidence": "In Cluster II of group G, differences in substrate selection (e.g. abscisic acid) of the enzymes encoded by UGT genes led to their functional diversification"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "All Cluster III genes respond to low-temperature stress, whereas UGTs within Cluster III-1, shaped by artificial selection, are unresponsive to drought."},
+{"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Our findings revealed a distinctive expansion and contraction of UGTs in the G and H groups in tea (Camellia sinensis), respectively."},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "Whole-genome duplication and tandem duplication events jointly drove the massive expansion of UGTs"}
+]
+},
+{
+"n": 1459,
+"id": "pmid:38658750",
+"verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "using mouse functional experiments, we find evidence that Emx2 expression patterns in gliders may have been modified from a pre-existing program found in all mammals"},
+{"j": 2, "label": "contradicted", "confidence": 3, "evidence": "the Emx2 locus experienced lineage-specific patterns of accelerated cis-regulatory evolution in gliding species"},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "By combining epigenomics, transcriptomics and in-pouch marsupial transgenics, we show that Emx2 is a critical upstream regulator of patagium development"},
+{"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "patagia repeatedly originated through a process of convergent genomic evolution, whereby regulation of Emx2 was altered by distinct cis-regulatory elements in independently evolved species"}
+]
+},
+{
+"n": 1460,
+"id": "pmid:39753957",
+"verdicts": [
+{"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We further uncovered multiple accessory and putative sex chromosomes that are highly repetitive and CpG methylated."},
+{"j": 2, "label": "contradicted", "confidence": 3, "evidence": "synteny was surprisingly conserved across all hornwort genomes"},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "In contrast to autosomes, these chromosomes mostly lack syntenic relationships with one another and are evolutionarily labile."},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "we report ten new chromosome-scale genomes representing all hornwort families and most of the genera"}
+]
+},
+{
+"n": 1461,
+"id": "pmid:38306396",
+"verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "expression evolution occurred largely at tissue-specific and cis-regulated genes, and that these genes were over-represented in parallel cases of evolution"},
+{"j": 2, "label": "contradicted", "confidence": 3, "evidence": "the proportion of shared changes (i.e. parallelism) was greater than expected by chance"},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "selection outliers were associated with cis-regulated genes more than expected by chance; cis-regulated genes under selection influenced phenotypes such as body size, immune functioning, and activity level"},
+{"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "we studied gene expression in liver and brown adipose tissue in two wild-derived strains of house mice that independently adapted to cold, northern environments"}
+]
+},
+{
+"n": 1462,
+"id": "pmid:38059517",
+"verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "nonclassical MHC class Ib (MHC-Ib) regions with 450 million-year-old lineages"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "No MHC-Ib genes were found outside of the elasmobranch MHC."},
+{"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "a classical MHC class Ia (MHC-Ia) region containing antigen processing (antigen peptide transporters and immunoproteasome) and presenting (MHC-Ia) genes"},
+{"j": 4, "label": "contradicted", "confidence": 3, "evidence": "both MHC-I and MHC-II genes arose after the second round of whole-genome duplication (2R) on a human chromosome (huchr) 6 precursor"}
+]
+},
+{
+"n": 1463,
+"id": "pmid:36963385",
+"verdicts": [
+{"j": 1, "label": "contradicted", "confidence": 3, "evidence": "co-option of the root hair gene GdEXPA7 enabled the formation of enlarged papillate petal epidermal cells, eliciting copulation responses from male flies"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "co-option of the miR156-GdSPL1 transcription factor module altered petal spot placement, resulting in better mimicry of female flies resting on the flower"},
+{"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "co-option of iron homeostasis genes altered petal spot pigmentation, producing a color similar to that of female pollinators"},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "strength of sexual deception in different G. diffusa floral forms strongly correlates with the presence of the three corresponding morphological alterations"}
+]
+},
+{
+"n": 1464,
+"id": "pmid:40866708",
+"verdicts": [
+{"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "the human ilium cartilage growth plate underwent a heterotopic shift, residing perpendicular to the orientation present in other primate (and mouse) ilia"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "the human ilium cartilage growth plate underwent a heterotopic shift, residing perpendicular to the orientation present in other primate (and mouse) ilia"},
+{"j": 3, "label": "contradicted", "confidence": 3, "evidence": "is delayed compared with other bones in humans and with primate ilia"},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "regulatory changes in an integrated chondrocyte-perichondral-osteoblast pathway, involving complex hierarchical interactions between SOX9-ZNF521-PTH1R and RUNX2-FOXP1/2"}
+]
+}
+]
+}

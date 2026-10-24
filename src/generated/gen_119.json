@@ -1,0 +1,347 @@
+{
+"batch": "gen_119",
+"prompt_version": "gen-v5",
+"flip_rule": "first-of-any-v3",
+"items": [
+{
+"n": 1835,
+"id": "pmid:10784448",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "The study reported the birth of six healthy cloned calves derived from senescent donor somatic cells.",
+"evidence": "we report the birth of six healthy cloned calves derived from populations of senescent donor somatic cells",
+"note": "The abstract states six healthy cloned calves were born from senescent donor cells."
+},
+{
+"k": 2,
+"label": "not_addressed",
+"text": "Telomere elongation in the cloned cells was driven by reactivation of telomerase.",
+"evidence": "Southern blot and flow cytometric analyses indicated that the telomeres were also extended beyond those of newborn (<2 weeks old) and age-matched control animals.",
+"note": "The abstract reports telomeres were extended but never identifies telomerase or any underlying mechanism."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "EPC-1 expression in the cloned animals' cells ran 3.5- to 5-fold higher than in age-matched control cells.",
+"evidence": "Early population doubling level complementary DNA-1 (EPC-1, an age-dependent gene) expression in cells from the cloned animals was 3.5- to 5-fold higher than that in cells from age-matched (5 to 10 months old) controls.",
+"note": "The abstract gives the 3.5- to 5-fold higher EPC-1 expression over age-matched controls."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Nuclear transfer lengthened senescent cells' replicative life-span from a few doublings to more than 90 population doublings.",
+"evidence": "Nuclear transfer extended the replicative life-span of senescent cells (zero to four population doublings remaining) to greater than 90 population doublings.",
+"note": "The abstract states nuclear transfer extended the life-span from zero-to-four to over 90 doublings."
+}
+]
+},
+{
+"n": 1836,
+"id": "pmid:20428172",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Cholesterol crystals activated the NLRP3 inflammasome in phagocytes in vitro through a process involving phagolysosomal damage.",
+"evidence": "cholesterol crystals activate the NLRP3 inflammasome in phagocytes in vitro in a process that involves phagolysosomal damage",
+"note": "The abstract directly reports this in vitro activation involving phagolysosomal damage."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "Minute cholesterol crystals appear in early atherosclerotic lesions, coinciding with the first appearance of inflammatory cells in mice.",
+"evidence": "minute cholesterol crystals are present in early diet-induced atherosclerotic lesions and that their appearance in mice coincides with the first appearance of inflammatory cells",
+"note": "The abstract reports crystals in early lesions coinciding with the first inflammatory cells."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "LDLR-deficient mice given inflammasome-deficient bone marrow on a high-cholesterol diet showed markedly decreased early atherosclerosis.",
+"evidence": "they had markedly decreased early atherosclerosis and inflammasome-dependent IL-18 levels",
+"note": "The abstract states these transplanted mice had markedly decreased early atherosclerosis."
+},
+{
+"k": 4,
+"label": "not_addressed",
+"text": "Inhibiting interleukin-1 lowers the rate of cardiovascular events in patients with atherosclerosis.",
+"evidence": "These findings provide new insights into the pathogenesis of atherosclerosis and indicate new potential molecular targets for the therapy of this disease.",
+"note": "The abstract only points to potential molecular targets and reports no clinical or patient outcomes."
+}
+]
+},
+{
+"n": 1837,
+"id": "pmid:22342844",
+"statements": [
+{
+"k": 1,
+"label": "not_addressed",
+"text": "Scavenging reactive oxygen species with antioxidants prevents NLRP3 inflammasome activation in living animals.",
+"evidence": "These results provide a missing link between apoptosis and inflammasome activation, via binding of cytosolic oxidized mtDNA to the NLRP3 inflammasome.",
+"note": "The abstract describes the molecular link in cells but tests no antioxidant intervention in vivo."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "With NF-κB signal 1 present, mitochondrial apoptotic signaling activated the NLRP3 inflammasome and licensed interleukin-1β production.",
+"evidence": "in the presence of signal 1 (NF-κB), the NLRP3 inflammasome was activated by mitochondrial apoptotic signaling that licensed production of interleukin-1β (IL-1β)",
+"note": "The abstract states this directly as its opening finding."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Macrophages lacking mitochondrial DNA showed severely attenuated IL-1β production yet still underwent apoptosis.",
+"evidence": "macrophages lacking mtDNA had severely attenuated IL-1β production, yet still underwent apoptosis",
+"note": "The abstract reports severely attenuated IL-1β production despite intact apoptosis in mtDNA-lacking macrophages."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "The antiapoptotic protein Bcl-2 inversely regulated mitochondrial dysfunction and NLRP3 inflammasome activation.",
+"evidence": "The antiapoptotic protein Bcl-2 inversely regulated mitochondrial dysfunction and NLRP3 inflammasome activation.",
+"note": "The abstract states Bcl-2 inversely regulated both mitochondrial dysfunction and inflammasome activation."
+}
+]
+},
+{
+"n": 1838,
+"id": "pmid:19918053",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Necrotic cells were sensed by the Nlrp3 inflammasome, leading to release of the proinflammatory cytokine IL-1beta.",
+"evidence": "necrotic cells are sensed by the Nlrp3 inflammasome resulting in the subsequent release of the proinflammatory cytokine IL-1beta",
+"note": "The abstract directly reports necrotic-cell sensing by Nlrp3 and IL-1beta release."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "Nlrp3 inflammasome activation was triggered partly by ATP produced from mitochondria released by damaged cells.",
+"evidence": "Nlrp3 inflammasome activation was triggered in part through ATP produced by mitochondria released from damaged cells.",
+"note": "The abstract states activation was triggered in part through mitochondria-derived ATP."
+},
+{
+"k": 3,
+"label": "not_addressed",
+"text": "Pharmacologically blocking Nlrp3 reduced inflammation in human kidney transplant recipients.",
+"evidence": "These findings suggest that the inhibition of Nlrp3 inflammasome activity can diminish the acute inflammation and damage associated with tissue injury.",
+"note": "The abstract suggests inhibition could help but reports only animal models, no human data."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Neutrophil influx into the peritoneum after necrotic-cell exposure was markedly diminished when Nlrp3 was absent.",
+"evidence": "Neutrophilic influx into the peritoneum in response to necrotic cells in vivo was also markedly diminished in the absence of Nlrp3.",
+"note": "The abstract reports neutrophil influx was markedly diminished without Nlrp3."
+}
+]
+},
+{
+"n": 1839,
+"id": "pmid:23812099",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "CD36 drove an endocytic pathway converting soluble ligands into crystals or fibrils, causing lysosomal disruption and NLRP3 inflammasome activation.",
+"evidence": "an endocytic pathway mediated by the pattern-recognition receptor CD36 that coordinated the intracellular conversion of those soluble ligands into crystals or fibrils, which resulted in lysosomal disruption and activation of the NLRP3 inflammasome",
+"note": "The abstract describes exactly this CD36-mediated conversion and resulting inflammasome activation."
+},
+{
+"k": 2,
+"label": "not_addressed",
+"text": "Pharmacological CD36 inhibitors improve cognition in patients with Alzheimer's disease.",
+"evidence": "Particulate ligands, including cholesterol crystals and amyloid fibrils, induce production of interleukin 1β (IL-1β) dependent on the cytoplasmic sensor NLRP3 in atherosclerosis, Alzheimer's disease and diabetes.",
+"note": "The abstract lists Alzheimer's as a context but reports no cognitive or patient outcomes."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Targeting CD36 in atherosclerotic mice produced lower serum IL-1β and reduced cholesterol crystal accumulation in plaques.",
+"evidence": "targeting CD36 in atherosclerotic mice resulted in lower serum concentrations of IL-1β and accumulation of cholesterol crystals in plaques",
+"note": "The abstract reports targeting CD36 gave lower serum IL-1β and less crystal accumulation in plaques."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "CD36 acts as a central regulator of inflammasome activation in sterile inflammation.",
+"evidence": "position CD36 as a central regulator of inflammasome activation in sterile inflammation",
+"note": "The abstract concludes by positioning CD36 as a central regulator of inflammasome activation."
+}
+]
+},
+{
+"n": 1840,
+"id": "pmid:21217695",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Calorie restriction and exercise-driven weight loss in obese type 2 diabetics reduced adipose Nlrp3 expression and improved insulin sensitivity.",
+"evidence": "calorie restriction and exercise-mediated weight loss in obese individuals with type 2 diabetes is associated with a reduction in adipose tissue expression of Nlrp3 as well as with decreased inflammation and improved insulin sensitivity",
+"note": "The abstract links this weight loss to reduced Nlrp3, less inflammation and improved insulin sensitivity."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "The Nlrp3 inflammasome sensed lipotoxicity-associated rises in intracellular ceramide to drive caspase-1 cleavage in macrophages and adipose tissue.",
+"evidence": "the Nlrp3 inflammasome senses lipotoxicity-associated increases in intracellular ceramide to induce caspase-1 cleavage in macrophages and adipose tissue",
+"note": "The abstract states Nlrp3 senses ceramide increases to induce caspase-1 cleavage."
+},
+{
+"k": 3,
+"label": "not_addressed",
+"text": "Pharmacologic NLRP3 inhibitors improve glycemic control in patients with type 2 diabetes.",
+"evidence": "Collectively, these data establish that the Nlrp3 inflammasome senses obesity-associated danger signals and contributes to obesity-induced inflammation and insulin resistance.",
+"note": "The abstract shows Nlrp3 contributes to insulin resistance but tests no NLRP3-inhibiting drug in patients."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Eliminating Nlrp3 in obese mice lowered IL-18 and IFN-γ, raised naive T cell numbers, and cut effector T cells.",
+"evidence": "elimination of Nlrp3 in obese mice reduces IL-18 and adipose tissue interferon-γ (IFN-γ) expression, increases naive T cell numbers and reduces effector T cell numbers in adipose tissue",
+"note": "The abstract reports these reductions in IL-18, IFN-γ and effector T cells and the rise in naive T cells."
+}
+]
+},
+{
+"n": 1841,
+"id": "pmid:21109192",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Caspase-1 rose during adipocyte differentiation and pushed adipocytes toward a more insulin-resistant phenotype.",
+"evidence": "Caspase-1 is upregulated during adipocyte differentiation and directs adipocytes toward a more insulin-resistant phenotype.",
+"note": "The abstract states caspase-1 is upregulated during differentiation and drives a more insulin-resistant phenotype."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "Caspase-1-deficient mice were more insulin sensitive than wild-type animals.",
+"evidence": "mice deficient in caspase-1 are more insulin sensitive as compared to wild-type animals",
+"note": "The abstract directly reports caspase-1-deficient mice as more insulin sensitive than wild-type."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Indirect calorimetry showed higher fat oxidation rates in caspase-1-knockout animals.",
+"evidence": "Indirect calorimetry analysis revealed higher fat oxidation rates in caspase-1(-/-) animals.",
+"note": "The abstract reports higher fat oxidation rates in caspase-1 knockouts by calorimetry."
+},
+{
+"k": 4,
+"label": "not_addressed",
+"text": "Blocking caspase-1 lowers fasting blood glucose in human patients with type 2 diabetes.",
+"evidence": "In vivo, treatment of obese mice with a caspase-1 inhibitor significantly increases their insulin sensitivity.",
+"note": "The abstract reports caspase-1 inhibition only in mice, with no human patient data."
+}
+]
+},
+{
+"n": 1842,
+"id": "pmid:22541070",
+"statements": [
+{
+"k": 1,
+"label": "not_addressed",
+"text": "Alu RNA activates the NLRP3 inflammasome through release of mitochondrial DNA.",
+"evidence": "The mechanism of Alu RNA-induced cytotoxicity is unknown.",
+"note": "The abstract reports NLRP3 activation but never identifies the upstream trigger, so the mtDNA route is neither stated nor ruled out."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "DICER1 deficiency or Alu RNA exposure activated the NLRP3 inflammasome and triggered TLR-independent MyD88 signaling via IL18 in the RPE.",
+"evidence": "DICER1 deficit or Alu RNA exposure activates the NLRP3 inflammasome and triggers TLR-independent MyD88 signaling via IL18 in the RPE",
+"note": "The abstract states this activation and TLR-independent MyD88 signaling directly."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Inhibiting inflammasome components, MyD88, or IL18 prevented RPE degeneration caused by DICER1 loss or Alu RNA exposure.",
+"evidence": "Genetic or pharmacological inhibition of inflammasome components (NLRP3, Pycard, Caspase-1), MyD88, or IL18 prevents RPE degeneration induced by DICER1 loss or Alu RNA exposure",
+"note": "The abstract reports that inhibiting these components prevents the RPE degeneration."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Human geographic atrophy RPE contained elevated NLRP3, PYCARD, and IL18 with increased caspase-1 and MyD88 activation.",
+"evidence": "human GA RPE contains elevated amounts of NLRP3, PYCARD, and IL18 and evidence of increased Caspase-1 and MyD88 activation",
+"note": "The abstract reports elevated NLRP3, PYCARD and IL18 and increased caspase-1 and MyD88 activation in human GA RPE."
+}
+]
+},
+{
+"n": 1843,
+"id": "pmid:19098271",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Myeloma cells exposed to low-dose doxorubicin, melphalan, or bortezomib up-regulated DNAM-1 and NKG2D ligands.",
+"evidence": "myeloma cells treated with low doses of therapeutic agents commonly used in the management of patients with MM, such as doxorubicin, melphalan, and bortezomib, up-regulate DNAM-1 and NKG2D ligands",
+"note": "The abstract reports these low-dose drugs up-regulate DNAM-1 and NKG2D ligands."
+},
+{
+"k": 2,
+"label": "not_addressed",
+"text": "Combining these drugs with NK-cell infusions improves clinical outcomes in multiple myeloma patients.",
+"evidence": "There is much evidence to support a role for natural killer (NK) cells in controlling the progression of multiple myeloma (MM), a malignancy characterized by an abnormal plasma cell proliferation in the bone marrow (BM).",
+"note": "The abstract studies ligand regulation in cell lines and ex vivo cells but reports no patient clinical outcomes."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Drug treatment of myeloma cells increased NK-cell degranulation, with NKG2D and DNAM-1 as the major triggering receptors.",
+"evidence": "therapeutic drug treatment of MM cells increases NK-cell degranulation, the NKG2D and DNAM-1 receptors being the major triggering molecules",
+"note": "The abstract reports drug treatment increases NK degranulation via NKG2D and DNAM-1."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "The ATM and ATR inhibitors caffeine and KU-55933 abolished the drug-induced DNAM-1 and NKG2D ligand expression.",
+"evidence": "Drug-induced DNAM-1 and NKG2D ligand expression was abolished after treatment with the ATM (ataxia telangiectasia mutated) and ATR (ATM- and RAD3-related) pharmacologic inhibitors caffeine and KU-55933",
+"note": "The abstract reports the ATM/ATR inhibitors caffeine and KU-55933 abolished the drug-induced ligand expression."
+}
+]
+},
+{
+"n": 1844,
+"id": "pmid:23254930",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Active caspase-1 expression was strongly enhanced in human mild cognitive impairment and Alzheimer's disease brains.",
+"evidence": "we demonstrate strongly enhanced active caspase-1 expression in human mild cognitive impairment and brains with Alzheimer's disease",
+"note": "The abstract reports strongly enhanced active caspase-1 in human MCI and Alzheimer's brains."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "Knockout mice carrying familial-Alzheimer's mutations were largely protected from loss of spatial memory and other disease sequelae.",
+"evidence": "mice carrying mutations associated with familial Alzheimer's disease were largely protected from loss of spatial memory and other sequelae associated with Alzheimer's disease",
+"note": "The abstract reports these Nlrp3- and Casp1-knockout mice were largely protected from spatial memory loss and other sequelae."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "NLRP3 deficiency skewed microglia toward an M2 phenotype and decreased amyloid-β deposition in the APP/PS1 model.",
+"evidence": "NLRP3 inflammasome deficiency skewed microglial cells to an M2 phenotype and resulted in the decreased deposition of amyloid-β in the APP/PS1 model of Alzheimer's disease",
+"note": "The abstract reports NLRP3 deficiency drove an M2 microglial phenotype and decreased amyloid-β deposition."
+},
+{
+"k": 4,
+"label": "not_addressed",
+"text": "Pharmacological NLRP3 inhibition reverses established memory deficits in Alzheimer's disease patients.",
+"evidence": "These results show an important role for the NLRP3/caspase-1 axis in the pathogenesis of Alzheimer's disease, and suggest that NLRP3 inflammasome inhibition represents a new therapeutic intervention for the disease.",
+"note": "The abstract suggests NLRP3 inhibition as a therapeutic intervention but tests only mice, not patients."
+}
+]
+}
+]
+}

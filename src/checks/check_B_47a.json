@@ -1,0 +1,38 @@
+{"batch": "check_B_47a", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1090, "id": "pmid:32681114",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The algorithm reveals a total of 276 PTUs in the bacterial domain."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Each PTU exhibits a characteristic host distribution, organized into a six-grade scale (I-VI), ranging from plasmids restricted to a single host species (grade I) to plasmids able to colonize species from different phyla (grade VI)."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We identify 83 PTUs in the order Enterobacterales, 28 of them corresponding to previously described archetypes."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "More than 60% of the plasmids in the global map are in groups with host ranges beyond the species barrier."}
+    ]},
+   {"n": 1091, "id": "pmid:32313247",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Furthermore, polyploidy induces recombination suppression, which correlates with altered epigenetic landscapes and can be overcome by wild introgression."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Selection and domestication drive parallel gene expression similarities in fibers of two cultivated cottons"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Although these polyploid genomes are conserved in gene content and synteny, they have diversified by subgenomic transposon exchanges"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "These differential evolutionary trajectories are accompanied by gene-family diversification and homoeolog expression divergence among polyploid lineages."}
+    ]},
+   {"n": 1092, "id": "pmid:38658746",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Steady diversification ensued through the remaining Mesozoic Era until rates resurged in the Cenozoic Era, concurrent with decreasing global temperatures"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "However, the limited and biased sampling of both taxa and genomes undermines confidence in the tree and its implications."},
+      {"j": 3, "label": "supported", "confidence": 2, "evidence": "brings notable change to key groups, especially in rosids, while substantiating many previously predicted relationships", "flag": "ill_formed", "reason": "\"contracted nuclear tree\" is not a term the abstract defines and reads as a typo for \"constructed\"; the content is supported only under that reading."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "early angiosperm evolution was characterized by high gene tree conflict and explosive diversification, giving rise to more than 80% of extant angiosperm orders"}
+    ]},
+   {"n": 1093, "id": "pmid:31740605",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Beetle diversity thus appears to have resulted from multiple factors, including low extinction rates over a long evolutionary history"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "both major independent origins of specialized herbivory in beetles coincide with the first appearances of an arsenal of PCWDEs encoded in their genomes"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Furthermore, corresponding (Jurassic) diversification rate increases suggest that these novel genes triggered adaptive radiations"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "dated the origin of Coleoptera to the Carboniferous, and supported the codiversification of beetles and angiosperms"}
+    ]},
+   {"n": 1094, "id": "pmid:38383850",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Against this stable background, eight lineages have undergone extensive reorganization either through numerous fissions or a combination of fusion and fission events."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "the chromosomes of extant lepidopterans are derived from 32 ancestral linkage groups, which we term Merian elements"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Fusions often involve small, repeat-rich Merian elements and the sex-linked element."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Outside these lineages, fusions are rare and fissions are rarer still."}
+    ]}
+ ]}

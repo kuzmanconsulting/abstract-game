@@ -1,0 +1,73 @@
+{"batch": "check_A_76", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1405, "id": "pmid:37079312",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "At postoperative month 1, ctDNA-positive patients were 17.5 times more likely to relapse than were ctDNA-negative patients (hazard ratio [HR], 17.5; 95% CI, 8.9-34.4; P < .001)."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Postdefinitive treatment analysis detected CRC recurrence earlier than radiologically confirmed recurrence, with a median lead time of 3.3 months (IQR, 0.5-6.5 months)."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Of 296 patients with preoperative samples, 232 (78.4%) tested positive for any of the 6 ctDNA methylation markers."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Furthermore, ctDNA status at postoperative month 1 was strongly associated with prognosis in patients treated with adjuvant chemotherapy of different durations and intensities."}
+    ]},
+   {"n": 1406, "id": "pmid:38526394",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Patients with lung cancer with negative LBx and ctDNA TF ≥1% are unlikely to have a driver detected on confirmatory tissue testing"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Among 505 patients with lung cancer with no targetable driver alterations found by LBx who had subsequent tissue-based profiling, 37% had a driver, all of which had ctDNA TF <1%."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Among 505 patients with lung cancer with no targetable driver alterations found by LBx who had subsequent tissue-based profiling, 37% had a driver"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "The positive percent agreement and negative predictive value between liquid and tissue samples for driver alterations increased from 63% and 66% for all samples to 98% and 97% in samples with ctDNA TF ≥1%."}
+    ]},
+   {"n": 1407, "id": "pmid:39806071",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "NeXT Personal is a whole-genome-based, tumor-informed platform that has been analytically validated for ultrasensitive ctDNA detection at 1-3 ppm of ctDNA with 99.9% specificity."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "we detected ctDNA pre-operatively within 81% of patients with lung adenocarcinoma (LUAD), including 53% of those with pathological TNM (pTNM) stage I disease."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "ctDNA predicted worse clinical outcome"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "patients with LUAD with <80 ppm preoperative ctDNA levels (the 95% limit of detection of a ctDNA detection approach previously published in TRACERx) experienced reduced overall survival compared with ctDNA-negative patients with LUAD."}
+    ]},
+   {"n": 1408, "id": "pmid:37075072",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "F-profile VI was more prominent in patients with nasopharyngeal carcinoma undergoing chemoradiotherapy."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "F-profile VI could be used to detect individuals with hepatocellular carcinoma, with an area under the receiver operating characteristic curve of 0.97."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We revealed that 42.9% of plasma cfDNA molecules were attributed to DNASE1L3-mediated fragmentation, whereas 43.4% of urinary cfDNA molecules involved DNASE1-mediated fragmentation."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "F-profiles I, II, and III were linked to deoxyribonuclease 1 like 3 (DNASE1L3), deoxyribonuclease 1 (DNASE1), and DNA fragmentation factor subunit beta (DFFB), respectively."}
+    ]},
+   {"n": 1409, "id": "pmid:37819044",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "For tumor-of-origin, our assay achieved an accuracy of 0.7."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "The sensitivities for detecting early-stage cancers were 73.9% and 62.3% for stages I and II, respectively, increasing to 88.3% for non-metastatic stage IIIA."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Our study demonstrates comparable performance to other ctDNA-based assays while requiring significantly lower sequencing depth, making it economically feasible for population-wide screening."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "SPOT-MAS successfully detected the five cancer types with a sensitivity of 72.4% at 97.0% specificity."}
+    ]},
+   {"n": 1410, "id": "pmid:38472221",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "We correlate cfDNA-inferred nucleosome spacing with gene expression to rank the relative contribution of over 490 cell types to plasma cfDNA."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "We correlate cfDNA-inferred nucleosome spacing with gene expression to rank the relative contribution of over 490 cell types to plasma cfDNA."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We train predictive models that can differentiate patients with colorectal cancer (84.7%), early-stage breast cancer (90.1%), multiple myeloma (AUC 95.0%), and preeclampsia (88.3%) from matched controls."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "our approach performs well in ultra-low coverage cfDNA datasets and can be readily transferred to diverse clinical settings for the expansion of liquid biopsy."}
+    ]},
+   {"n": 1411, "id": "pmid:39059389",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "tracking longitudinal on-treatment ctDNA can forecast real-time recurrence risk, facilitating risk-adapted, individualized patient management."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "prospectively recruited 1,000 NPC patients undergoing per-protocol cfEBV DNA assessments at 11 time points and receiving sequential chemo-radiotherapy. Longitudinal cfEBV DNA displayed distinct patterns during neoadjuvant chemotherapy and radiotherapy."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "we identified phenotypes of whole-course ctDNA changing dynamics associated with different survival outcomes."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Despite the prognostic significance of cfEBV DNA at each time point, real-time recurrence risks changed in sync with cfEBV DNA dynamics."}
+    ]},
+   {"n": 1412, "id": "pmid:38829053",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Changes in genome-wide cell-free DNA fragmentation profiles (fragmentomes) in peripheral blood reflected genomic and chromatin characteristics of lung cancer."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "The validation demonstrated high sensitivity for lung cancer and consistency across demographic groups and comorbid conditions."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We trained the classifier using 576 cases and controls from study samples and validated it in a held-out group of 382 cases and controls."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Applying test performance to the screening eligible population in a 5-year model with modest utilization assumptions suggested the potential to prevent thousands of lung cancer deaths."}
+    ]},
+   {"n": 1413, "id": "pmid:37640858",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We detected DNA methylation differences between control and PE pregnancies that enabled risk stratification at PE diagnosis but also presymptomatically, at around 12 weeks of gestation (range 9-14 weeks)."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "The combined risk score correctly predicted 72% of patients with early-onset PE at 80% specificity."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "The first-trimester risk prediction model was validated in an external cohort collected from two centers (area under the curve (AUC) = 0.75) and integrated with routinely available maternal risk factors (AUC = 0.85)."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "To enable prophylaxis in the prevention of PE, pregnancies at risk of PE must be identified early-in the first trimester."}
+    ]},
+   {"n": 1414, "id": "pmid:37758728",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "In the test cohort, our approach achieves an area under the curve value of 0.966 for overall cancer detection."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "we adapt an enzyme-mediated methylation sequencing method for comprehensive analysis of genome-wide cfDNA methylation, fragmentation, and copy number alteration (CNA) characteristics for enhanced cancer detection."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Detection sensitivity for early-stage patients achieves 73% at 99% specificity."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we demonstrate the feasibility to accurately localize the origin of cancer signals with combined methylation and fragmentation profiling of tissue-specific accessible chromatin regions."}
+    ]}
+ ]}

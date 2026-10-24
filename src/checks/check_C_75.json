@@ -1,0 +1,73 @@
+{"batch": "check_C_75", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1395, "id": "pmid:39284954",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "prognostic value of ctDNA positivity during the MRD window with significantly inferior disease-free survival (DFS; hazard ratio (HR): 11.99, P < 0.0001) and overall survival (OS; HR: 9.68, P < 0.0001)"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Sustained ctDNA clearance in response to ACT was an indicator of favorable DFS and OS compared to transient clearance (24-month DFS: 89.0% versus 3.3%; 24-month OS: 100.0% versus 82.3%)"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "True spontaneous clearance rate with no clinical recurrence was 1.9% (2/105)."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "In patients who experienced recurrence, ctDNA positivity correlated with shorter OS (HR: 2.71, P < 0.0001)."}
+    ]},
+   {"n": 1396, "id": "pmid:37146605",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "ctDNA negativity after NAC correlates with improved outcomes, even in patients with extensive residual cancer."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "the I-SPY2 trial will prospectively test ctDNA for utility in redirecting therapy to improve response and prognosis.", "flag": "ambiguous", "reason": "The abstract states this as a future plan, not a demonstrated result, so switching therapy improving outcomes is not established."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "ctDNA positivity rates before, during, and after NAC are higher in TNBC than in HR-positive/HER2-negative breast cancer patients."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Early clearance of ctDNA 3 weeks after treatment initiation predicts a favorable response to NAC in TNBC only."}
+    ]},
+   {"n": 1397, "id": "pmid:36928816",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "median 7.1 versus 22.3 months for high- versus low-intermediate risk"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "The model also identified high-risk patients in an external validation cohort from the randomized phase 3 OAK study of ICI versus chemo in NSCLC (OS HR = 3.73 (1.83-7.60), P = 0.00012)"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "measuring ctDNA dynamics during treatment can improve patient risk stratification and may allow early differentiation between competing therapies during clinical trials"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Simulations of clinical trial scenarios employing our ctDNA model suggested that early ctDNA testing outperforms early radiographic imaging for predicting trial outcomes."}
+    ]},
+   {"n": 1398, "id": "pmid:38824959",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Our study provides insights on the potential value of assessing dd-cfDNA, in addition to standard of care monitoring, to improve the detection of allograft rejection."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "These results were confirmed in the external validation cohorts (n = 1,748) including a cohort of African American patients (n = 439)."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "The inclusion of dd-cfDNA to a standard of care prediction model showed improved discrimination (area under the curve 0.777 (95% CI 0.741-0.811) to 0.821 (95% CI 0.784-0.852); P = 0.0011)"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Donor-derived cell-free DNA levels strongly correlated with allograft rejection, including antibody-mediated rejection (P < 0.0001), T cell-mediated rejection (P < 0.0001) and mixed rejection (P < 0.0001)."}
+    ]},
+   {"n": 1399, "id": "pmid:38877116",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "MRD-EDGE SNV uses deep learning and a ctDNA-specific feature space to increase SNV signal-to-noise enrichment in WGS by ~300× compared to previous WGS error suppression."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "MRD-EDGE CNV also reduces the degree of aneuploidy needed for ultrasensitive CNV detection through WGS from 1 Gb to 200 Mb"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We harness the improved performance to identify MRD following surgery in multiple cancer types"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "the radical signal-to-noise enrichment in MRD-EDGE SNV enables plasma-only (non-tumor-informed) disease monitoring in advanced melanoma and lung cancer, yielding clinically informative TF monitoring for patients on immune-checkpoint inhibition."}
+    ]},
+   {"n": 1400, "id": "pmid:37865722",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "we developed a method for comprehensive epigenomic profiling of cancer from 1 ml of patient plasma."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Our assay provided a robust proxy for transcriptional activity, allowing us to infer the expression levels of diagnostic markers and drug targets"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "we measured 1,268 epigenomic profiles in plasma from 433 individuals with one of 15 cancers."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "This proof-of-concept study in advanced cancers shows how plasma epigenomic profiling has the potential to unlock clinically actionable information that is currently accessible only via direct tissue sampling."}
+    ]},
+   {"n": 1401, "id": "pmid:38418825",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "738 plasma samples from 491 male mCRPC patients from two randomized multicentre phase II trials and a prospective province-wide blood biobanking program"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "ctDNA% correlates with serum and radiographic metrics of disease burden and is highest in patients with liver metastases."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Our results affirm ctDNA% as an actionable tool for patient risk stratification and provide a practical framework for optimized biomarker testing."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "ctDNA% strongly predicts overall survival, progression-free survival, and treatment response independent of therapeutic context and outperformed established prognostic clinical factors."}
+    ]},
+   {"n": 1402, "id": "pmid:36849097",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "For early-stage (I-III) patients, the sensitivity of MCDBT-1 was 59.8% (54.4%-65.0%)."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "MCDBT-2 was generated at a slightly low specificity of 95.1% (92.8%-96.9%) but a higher sensitivity of 75.1% (71.9%-79.8%) than MCDBT-1 for populations at relatively high risk of cancers"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "MCDBT-1 yielded a sensitivity of 69.1% (64.8%-73.3%), a specificity of 98.9% (97.6%-99.7%), and tissue origin accuracy of 83.2% (78.7%-87.1%) in the independent validation set."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "in the early detection and localization of six types of cancers in the colorectum, esophagus, liver, lung, ovary, and pancreas."}
+    ]},
+   {"n": 1403, "id": "pmid:37683638",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "demonstrates a median lead-time of 299 days to radiologically confirmed recurrence."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "PROPHET shows potential to evaluate the effect of adjuvant therapy and serve as an arbiter of the equivocal radiological diagnosis."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "PROPHET shows higher sensitivity of 45% at baseline with circulating tumor DNA (ctDNA). It outperforms fixed-panel assays in prognostic analysis"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Personalized non-canonical variants account for 98.2% with prognostic effects similar to canonical variants."}
+    ]},
+   {"n": 1404, "id": "pmid:37816331",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Thirty-eight (27.3%) patients with early undetectable ctDNA at both on-RT (RT reached 40 Gy) and after-RT time points, indicating early response to CRT, had better survival outcomes for both with or without consolidation immune checkpoint inhibitors."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Further analysis revealed that pretreatment ctDNA variants serve as an essential MRD informed source."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "ctDNA concentrations showed a significantly declining trend as CRT progressed at on-RT and after-RT time points versus baseline."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Longitudinal undetectable MRD was found in 20.1% patients. The 2-year cancer-specific progression-free survival of these patients was 88.4%"}
+    ]}
+]}

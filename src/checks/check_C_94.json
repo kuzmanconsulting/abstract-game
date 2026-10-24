@@ -1,0 +1,74 @@
+{"batch": "check_C_94", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1585, "id": "pmid:36593103",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "gene delivery of miR-223 via adenovirus inhibited angiogenesis and hypoxia-mediated PD-1/PD-L1 activation in both HCC models, thereby hindering HCC progression"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "which may serve as a novel therapeutic target for HCC"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "miR-223 knockout mice had more infiltrated programmed cell death 1 (PD-1 + ) T cells and programmed cell death ligand 1 (PD-L1 + ) macrophages after DEN+CCl 4 administration"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "miR-223 did not directly target PD-1 and PD-L1 in immune cells rather than indirectly downregulated them by modulating tumour microenvironment via the suppression of hypoxia-inducible factor 1α-driven CD39/CD73-adenosine pathway"}
+    ]},
+   {"n": 1586, "id": "pmid:37403528",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "TaHSFA6e-III enhances the transcriptional activity of three downstream heat shock protein 70 (TaHSP70) genes to a greater extent than does TaHSFA6e-II."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "a 14-amino acid peptide at its C-terminus, which arises from alternative splicing and is predicted to form an amphipathic helix"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "knockout of TaHSFA6e or TaHSP70s increases heat sensitivity in wheat"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Our finding provides insight into the molecular mechanisms by which alternative splicing improves the thermotolerance in wheat."}
+    ]},
+   {"n": 1587, "id": "pmid:37723137",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "1526 and 3308 circRNAs are custom-tailored to the cell identity of dopamine and pyramidal neurons and enriched in synapse pathways"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "29% of Parkinson's and 12% of Alzheimer's disease-associated genes produced validated circRNAs"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "circDNAJC6, which is transcribed from a juvenile-onset Parkinson's gene, is already dysregulated during prodromal, onset stages of common Parkinson's disease neuropathology", "flag": "ambiguous", "reason": "The abstract reports circDNAJC6 dysregulation at early disease stages but never mentions a circulating or blood-based biomarker."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "systematically identify over 11,039 circRNAs expressed in vulnerable dopamine and pyramidal neurons laser-captured from 190 human brains and non-neuronal cells using ultra-deep, total RNA sequencing"}
+    ]},
+   {"n": 1588, "id": "pmid:36917980",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Genetic deletion of the Syngap1 A3SS in mice upregulates Syngap1 protein and alleviates the long-term potentiation and membrane excitability deficits caused by a Syngap1 knockout allele."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We demonstrate that PTBP1/2 directly bind to and promote SYNGAP1 A3SS inclusion."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "the development of an SSO to potentially alleviate SYNGAP1-associated haploinsufficiency"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We further report a splice-switching oligonucleotide (SSO) that converts SYNGAP1 unproductive isoform to the functional form in human iPSC-derived neurons."}
+    ]},
+   {"n": 1589, "id": "pmid:36994542",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "LITATS1 expression is reduced in lung adenocarcinoma tissues compared with adjacent normal tissues and correlates with a favorable prognosis in breast and non-small cell lung cancer patients."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "LITATS1 enhances the polyubiquitination and proteasomal degradation of TGF-β type I receptor (TβRI)."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "LITATS1 depletion promotes TGF-β-induced EMT, migration, and extravasation in cancer cells."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "the long noncoding RNA LITATS1 (LINC01137, ZC3H12A-DT) is an epithelial gatekeeper in normal epithelial cells and inhibits EMT in breast and non-small cell lung cancer cells"}
+    ]},
+   {"n": 1590, "id": "pmid:37106037",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We found molecular aging trajectories are largely tissue-specific except for eight broadly deregulated microRNAs (miRNAs)."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "In mice rejuvenated by heterochronic parabiosis, miR-29c-3p was the most prominent miRNA restored to similar levels found in young liver."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "which may function as systemic regulators of aging via plasma and EVs"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "generated a body-wide map of noncoding RNA (ncRNA) expression in aging (16 organs at ten timepoints from 1 to 27 months) and rejuvenated mice"}
+    ]},
+   {"n": 1591, "id": "pmid:38195932",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "the long noncoding RNA Malat1 is required for tumor initiation and metastatic reactivation in mouse models of breast cancer and other tumor types"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "represents a tractable and clinically relevant drug target"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "On-target inhibition of Malat1 using therapeutic antisense nucleotides suppresses metastasis in a SERPINB6B-dependent manner."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "SERPINB6B suppresses immunogenic cell death and confers evasion of T cell-mediated tumor lysis of incipient metastatic cells"}
+    ]},
+   {"n": 1592, "id": "pmid:37264180",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Conditional Myh10 deletion in mouse cardiomyocytes leads to LD accumulation, reduced fatty acid oxidation and compromised cardiac function."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "hold significant clinical implications for treating metabolic syndrome-associated heart diseases"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "LIPTER binds phosphatidic acid and phosphatidylinositol 4-phosphate on LD surface membranes and the MYH10 protein, connecting LDs to the MYH10-ACTIN cytoskeleton and facilitating LD transport"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "LIPTER transgenic expression mitigates cardiac lipotoxicity, preserves cardiac function and alleviates cardiomyopathies in high-fat-diet-fed and Lepr db/db mice"}
+    ]},
+   {"n": 1593, "id": "pmid:36849569",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Liver tumour-initiating cells (TICs) contribute to tumour initiation, metastasis, progression and drug resistance."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "mcPGK1 regulates metabolic reprogramming by inhibiting mitochondrial oxidative phosphorylation (OXPHOS) and promoting glycolysis"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "mcPGK1 promotes PGK1 mitochondrial import via TOM40 interactions, reprogramming metabolism from oxidative phosphorylation to glycolysis through PGK1-PDK1-PDH axis"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "mcPGK1 knockdown impairs liver TIC self-renewal, whereas its overexpression drives liver TIC self-renewal"}
+    ]},
+   {"n": 1594, "id": "pmid:38195860",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Knocking down coPARSE-lncRNAs in zebrafish embryos caused severe developmental delays that were rescued by human homologs."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "several hundred human coPARSE-lncRNAs can be evolutionarily traced to zebrafish"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "a unique class of long noncoding RNAs (lncRNAs) with conserved genomic locations and patterns of RNA-binding protein (RBP) binding sites (coPARSE-lncRNAs)"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "knocking out many human coPARSE-lncRNAs led to cell proliferation defects, which were subsequently rescued by predicted zebrafish homologs"}
+    ]}
+ ]
+}

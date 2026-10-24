@@ -1,0 +1,108 @@
+{"batch": "check_C_49", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1120, "id": "pmid:30951670",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We further show that small extracellular vesicles are not vehicles of active DNA release."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Argonaute 1-4, glycolytic enzymes, and cytoskeletal proteins were not detected in exosomes."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Extracellular RNA, RNA-binding proteins, and other cellular proteins are differentially expressed in exosomes and non-vesicle compartments."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Extracellular RNA, RNA-binding proteins, and other cellular proteins are differentially expressed in exosomes and non-vesicle compartments."}
+    ]},
+   {"n": 1121, "id": "pmid:32330414",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "In addition to the canonical genomic and 9 subgenomic RNAs, SARS-CoV-2 produces transcripts encoding unknown ORFs with fusion, deletion, and/or frameshift."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Using nanopore direct RNA sequencing, we further find at least 41 RNA modification sites on viral transcripts, with the most frequent motif, AAGAA."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Using nanopore direct RNA sequencing, we further find at least 41 RNA modification sites on viral transcripts, with the most frequent motif, AAGAA."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Modified RNAs have shorter poly(A) tails than unmodified RNAs, suggesting a link between the modification and the 3' tail."}
+    ]},
+   {"n": 1122, "id": "pmid:28344082",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "One of them, circ-ZNF609, resulted in specifically controlling myoblast proliferation."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Here we performed expression profiling of circRNAs during in vitro differentiation of murine and human myoblasts, and we identified conserved species regulated in myogenesis and altered in Duchenne muscular dystrophy."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Circ-ZNF609 is associated with heavy polysomes, and it is translated into a protein in a splicing-dependent and cap-independent manner"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Circ-ZNF609 contains an open reading frame spanning from the start codon, in common with the linear transcript, and terminating at an in-frame STOP codon, created upon circularization."}
+    ]},
+   {"n": 1123, "id": "pmid:27050392",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Many of these circRNAs are differently expressed between the normal and cancerous tissues."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Here we generate ribosomal-depleted RNA sequencing data from six normal tissues and seven cancers, and detect at least 27,000 circRNA candidates."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Specifically, we show that circHIPK3 directly binds to miR-124 and inhibits miR-124 activity."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "The silencing of circHIPK3 but not HIPK3 mRNA significantly inhibits human cell growth."}
+    ]},
+   {"n": 1124, "id": "pmid:28281539",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Further analyses through polysome profiling, computational prediction and mass spectrometry reveal that m 6 A-driven translation of circRNAs is widespread, with hundreds of endogenous circRNAs having translation potential."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Here we report that N 6 -methyladenosine (m 6 A), the most abundant base modification of RNA, promotes efficient initiation of protein translation from circRNAs in human cells."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "This m 6 A-driven translation requires initiation factor eIF4G2 and m 6 A reader YTHDF3, and is enhanced by methyltransferase METTL3/14, inhibited by demethylase FTO, and upregulated upon heat shock."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We discover that consensus m 6 A motifs are enriched in circRNAs and a single m 6 A site is sufficient to drive translation initiation."}
+    ]},
+   {"n": 1125, "id": "pmid:26861625",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Silencing endogenous circ-Foxo3 promoted cell proliferation."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Ectopic expression of circ-Foxo3 repressed cell cycle progression by binding to the cell cycle proteins cyclin-dependent kinase 2"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Ectopic expression of circ-Foxo3 repressed cell cycle progression by binding to the cell cycle proteins cyclin-dependent kinase 2 (also known as cell division protein kinase 2 or CDK2) and cyclin-dependent kinase inhibitor 1 (or p21), resulting in the formation of a ternary complex."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We demonstrate that the circular RNA circ-Foxo3 was highly expressed in non-cancer cells and were associated with cell cycle progression."}
+    ]},
+   {"n": 1126, "id": "pmid:31806698",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "These data enabled construction of a biochemical model of miRNA-mediated repression, which was extended to all miRNA sequences using a convolutional neural network."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Here, we adapted RNA bind-n-seq to enable measurement of relative binding affinities between Argonaute-miRNA complexes and all sequences ≤12 nucleotides in length."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "This model substantially improved prediction of cellular repression"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "This approach revealed noncanonical target sites specific to each miRNA, miRNA-specific differences in canonical target-site affinities, and a 100-fold impact of dinucleotides flanking each site."}
+    ]},
+   {"n": 1127, "id": "pmid:28199304",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Expression of a human-specific miRNA in the brown adipose tissue of one mouse in vivo can also regulate its 3' UTR reporter in the liver of another mouse through serum exosomal transfer."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "This gene regulation can be mimicked by the administration of normal, but not ADicerKO, serum exosomes."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Transplantation of both white and brown adipose tissue-brown especially-into ADicerKO mice restores the level of numerous circulating miRNAs"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Here we show that mice with an adipose-tissue-specific knockout of the microRNA (miRNA)-processing enzyme Dicer (ADicerKO), as well as humans with lipodystrophy, exhibit a substantial decrease in levels of circulating exosomal miRNAs."}
+    ]},
+   {"n": 1128, "id": "pmid:27558897",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Here we report that m(6)A-containing RNAs exhibit accelerated deadenylation that is mediated by the CCR4-NOT deadenylase complex."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We further show that YTHDF2 recruits the CCR4-NOT complex through a direct interaction between the YTHDF2 N-terminal region and the SH domain of the CNOT1 subunit, and that this recruitment is essential for the deadenylation of m(6)A-containing RNAs by CAF1 and CCR4."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We further show that YTHDF2 recruits the CCR4-NOT complex through a direct interaction between the YTHDF2 N-terminal region and the SH domain of the CNOT1 subunit"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Therefore, we have uncovered the mechanism of YTHDF2-mediated degradation of m(6)A-containing RNAs in mammalian cells."}
+    ]},
+   {"n": 1129, "id": "pmid:27783602",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "find that 5 of these loci influence the expression of a neighbouring gene in cis."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "we find that four out of six protein-coding loci also influence the expression of a neighbour."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Here we use genetic manipulation in mouse cell lines to dissect 12 genomic loci that produce lncRNAs and find that 5 of these loci influence the expression of a neighbouring gene in cis."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Notably, none of these effects requires the specific lncRNA transcripts themselves and instead involves general processes associated with their production, including enhancer-like activity of gene promoters, the process of transcription, and the splicing of the transcript."}
+    ]},
+   {"n": 1130, "id": "pmid:28297667",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "In contrast, overexpression of METTL3 or inhibition of the RNA demethylase FTO suppresses GSC growth and self-renewal."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Moreover, inhibition of FTO suppresses tumor progression and prolongs lifespan of GSC-grafted mice substantially."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Knockdown of METTL3 or METTL14, key components of the RNA methyltransferase complex, dramatically promotes human GSC growth, self-renewal, and tumorigenesis."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "m 6 A sequencing reveals that knockdown of METTL3 or METTL14 induced changes in mRNA m 6 A enrichment and altered mRNA expression of genes (e.g., ADAM19) with critical biological functions in GSCs."}
+    ]},
+   {"n": 1131, "id": "pmid:28942920",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Our results show that miR-155KO animals are insulin sensitive and glucose tolerant compared to controls."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Here, we show that adipose tissue macrophages (ATMs) in obese mice secrete miRNA-containing exosomes (Exos), which cause glucose intolerance and insulin resistance when administered to lean mice."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Here, we show that adipose tissue macrophages (ATMs) in obese mice secrete miRNA-containing exosomes (Exos), which cause glucose intolerance and insulin resistance when administered to lean mice."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Conversely, ATM Exos obtained from lean mice improve glucose tolerance and insulin sensitivity when administered to obese recipients."}
+    ]},
+   {"n": 1132, "id": "pmid:28798046",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "When the Cdr1as locus was removed from the mouse genome, knockout animals displayed impaired sensorimotor gating"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Expression of miR-7 and miR-671 was specifically and posttranscriptionally misregulated in all brain regions analyzed."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Expression of immediate early genes such as Fos , a direct miR-7 target, was enhanced in Cdr1as -deficient brains"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "When the Cdr1as locus was removed from the mouse genome, knockout animals displayed impaired sensorimotor gating-a deficit in the ability to filter out unnecessary information"}
+    ]},
+   {"n": 1133, "id": "pmid:29249359",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "High levels of FTO sensitize leukemic cells to R-2HG"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "High levels of FTO sensitize leukemic cells to R-2HG, whereas hyperactivation of MYC signaling confers resistance that can be reversed by the inhibition of MYC signaling."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We show here that R-2HG also exerts a broad anti-leukemic activity in vitro and in vivo by inhibiting leukemia cell proliferation/viability and by promoting cell-cycle arrest and apoptosis."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Mechanistically, R-2HG inhibits fat mass and obesity-associated protein (FTO) activity, thereby increasing global N 6 -methyladenosine (m 6 A) RNA modification in R-2HG-sensitive leukemia cells, which in turn decreases the stability of MYC/CEBPA transcripts"}
+    ]},
+   {"n": 1134, "id": "pmid:27539542",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "circular antisense non-coding RNA in the INK4 locus (circANRIL), which is transcribed at a locus of atherosclerotic cardiovascular disease on chromosome 9p21"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "As a consequence, circANRIL induces nucleolar stress and p53 activation, resulting in the induction of apoptosis and inhibition of proliferation"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "CircANRIL binds to pescadillo homologue 1 (PES1), an essential 60S-preribosomal assembly factor, thereby impairing exonuclease-mediated pre-rRNA processing and ribosome biogenesis in vascular smooth muscle cells and macrophages."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Here we show that circular antisense non-coding RNA in the INK4 locus (circANRIL), which is transcribed at a locus of atherosclerotic cardiovascular disease on chromosome 9p21, confers atheroprotection by controlling ribosomal RNA (rRNA) maturation"}
+    ]}
+ ]}

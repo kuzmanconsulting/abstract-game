@@ -1,0 +1,59 @@
+{"batch": "check_C_02ab", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+   {"n": 79, "id": "doi:10.64898/2026.05.04.722472",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Compared to other ascomycetes, it contains a low number of genes but a high genomic TE content of approximately 75%."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "The intergenic and TE genomic space of Bh TUM1 gives rise to thousands of transcripts and several novel TE-derived proteins that lack from previous TE protein predictions."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Compared to other ascomycetes, it contains a low number of genes but a high genomic TE content of approximately 75%."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Using long-read RNA sequencing, we detected extensive co-transcription of TEs and genes as TE-gene chimeric transcripts."}
+    ]},
+   {"n": 80, "id": "pmid:41073477",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Additionally, 11,801 and 10,921 MITE-derived microRNAs were identified in CC and C. olitorius"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Validation of thirty-eight randomly selected MIP markers across 30 jute accessions demonstrated their efficacy in genetic diversity analysis, grouping the accessions into five distinct clusters."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "A notable proportion of MITEs were found in genic and near-genic regions, underscoring their potential as tools for gene function exploration."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Genome-wide analysis identified 51,369 and 50,829 MITEs, classified into 632 and 539 families in CC and C. olitorius, respectively."}
+    ]},
+   {"n": 81, "id": "pmid:39317576",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "A reduction in the ctDNA was observed after treatment in 14 patients, 12 of whom achieved complete remission."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "CREBBP was the most frequent mutated gene (67 %).", "flag": "ill_formed", "reason": "The statement is ungrammatical ('mutated fewer often'), though its meaning is clearly the opposite of the abstract's 'most frequent'."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "In 12 of the 15 patients with complete remission, the mutation attributed to the disease found at diagnosis cleared with treatment."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Correlations were found between the ctDNA at diagnosis and total metabolic tumor volume (r = 0.51; p-value = 0.014)"}
+    ]},
+   {"n": 82, "id": "doi:10.1101/2025.09.09.675050",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Among the tested 26 ARGs, four clinically relevant ones ( bla CMY , bla OXA-48 , bla CTX-M , dfr A1) increased in relative abundance in a dose-dependent manner"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "CBZ reduced growth of the community in a concentration-dependent manner. Still, community composition was largely unaffected by CBZ exposure."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "In contrast, only erm F abundance rose independently of MGEs, suggesting direct selection."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Effects were strongest at subinhibitory concentrations (0.05-5 µg/mL), matching upper levels detected in surface waters."}
+    ]},
+   {"n": 83, "id": "pmid:40023140",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "immune infiltrations analysis showed that the mRNA expression levels and somatic copy number alterations (SCNA) in E2F transcription factor 1 were significantly correlated with recruitment of several immune cells"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Individuals with elevated E2F transcription factor 1 expression had a worse prognosis (HR=1.43, p = 0.01)."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Using the expression level of E2F transcription factor 1, a reliable distinction between tumor and normal tissues can be made (Area Under the Curve =0.949)."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "the mRNA expression levels and somatic copy number alterations (SCNA) in E2F transcription factor 1 were significantly correlated with recruitment of several immune cells"}
+    ]},
+   {"n": 84, "id": "doi:10.64898/2026.09.18.752768",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Further analyses showed that 46 of these differentially altered hits intersected with The Cancer Genome Atlas (TCGA)-OSCC datasets, where four of these genes, including INHBA, associated with cell stemness-pathway."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Functional assays using OSCC cell lines demonstrated that PIAS1 acts in a SUMO E3-dependent manner to suppress TGFβ-induced migration and invasion."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Analysis across multiple cohorts revealed that PIAS1 mRNA expression is significantly lower in tumor tissues than in normal oral cavity squamous epithelium, including in a cohort of 60 patient-matched tumor and normal pairs."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "a SUMO E3 ligase involved in transcriptional regulation, DNA repair, and epithelial–mesenchymal transition (EMT), exhibits cancer type–specific roles"}
+    ]},
+   {"n": 85, "id": "pmid:41515531",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The total turnaround time from plasma separation to report generation was approximately 27 h, requiring only 40 min of total hands-on time."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "This rapid, automated workflow enabled comprehensive cfDNA analysis within a clinically practical timeframe"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Three pathogenic hotspot mutations-KRAS G12R, TP53 M246I/M246K, and GNA11-and one copy number gain in PIK3CA were identified"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "whereas no variants were detected in a healthy volunteer control"}
+    ]},
+   {"n": 86, "id": "pmid:41646843",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "its high expression is closely associated with clinical progression, poor prognosis, and activation of classical oncogenic pathways in multiple cancers"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "providing solid theoretical and experimental evidence for KIF20A as a potential anti-cancer therapeutic target"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "in vivo experimental results indicate that interfering with KIF20A can inhibit tumor growth in nude mice"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "In vitro experiments have confirmed that interfering with KIF20A expression can effectively inhibit the proliferation, migration, and invasion of KIRC cells."}
+    ]}
+ ]}

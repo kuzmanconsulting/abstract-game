@@ -1,0 +1,107 @@
+{
+  "batch": "check_C_71",
+  "pass": "C",
+  "prompt_version": "check-v1",
+  "items": [
+    {
+      "n": 1355,
+      "id": "pmid:38030613",
+      "verdicts": [
+        {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We analyse normal crypts that were distant vs adjacent to the cancer."},
+        {"j": 2, "label": "supported", "confidence": 3, "evidence": "These signatures are compatible with many clonal driver mutations detected in the corresponding cancer samples, including in chromatin modifier genes"},
+        {"j": 3, "label": "supported", "confidence": 3, "evidence": "The dominant mutational signature in colorectal cancer genomes is C > T deamination (COSMIC Signature 1) and, in a small subgroup, mismatch repair signature (COSMIC signatures 6 and 44)."},
+        {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "In contrast to healthy individuals, normal crypts of colon cancer patients have a high incidence of pks + (polyketide synthases) E.coli (Escherichia coli) mutational and indel signatures"}
+      ]
+    },
+    {
+      "n": 1356,
+      "id": "pmid:36736290",
+      "verdicts": [
+        {"j": 1, "label": "supported", "confidence": 3, "evidence": "MDM4 triplication conferred greater fitness to murine and human primary FA HSPCs, rescued inflammation-mediated bone marrow failure, and drove clonal dominance in FA mouse models, while targeting MDM4 impaired leukemia cells in vitro and in vivo."},
+        {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "predisposition to poor-prognosis myeloid leukemia"},
+        {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Half the patients developed chromosome 1q gain, driving clonal hematopoiesis through MDM4 trisomy downmodulating p53 signaling"},
+        {"j": 4, "label": "supported", "confidence": 3, "evidence": "Based on a longitudinal cohort of 335 patients, we performed clinical, genomic, and functional studies in 62 patients with clonal evolution."}
+      ]
+    },
+    {
+      "n": 1357,
+      "id": "pmid:40604281",
+      "verdicts": [
+        {"j": 1, "label": "supported", "confidence": 3, "evidence": "contributed the largest proportion of single base substitutions in adenocarcinomas, and was enriched in cases with EGFR mutations."},
+        {"j": 2, "label": "supported", "confidence": 3, "evidence": "patients from regions with high levels of air pollution were more likely to have TP53 mutations and shorter telomeres"},
+        {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "examining the cancer genomes of 871 treatment-naive individuals with lung cancer who had never smoked, from 28 geographical locations"},
+        {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "KRAS mutations were 3.8 times more common in adenocarcinomas of never smokers from North America and Europe than in those from East Asia"}
+      ]
+    },
+    {
+      "n": 1358,
+      "id": "pmid:37478850",
+      "verdicts": [
+        {"j": 1, "label": "supported", "confidence": 3, "evidence": "The cytosine deaminase APOBEC proteins have been implicated in the mutational signatures of more than 70% of human cancers."},
+        {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "which plays a significant role in conferring AR-targeted therapy resistance in PCa"},
+        {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We identify SYNCRIP as an endogenous molecular brake which suppresses APOBEC-driven mutagenesis in prostate cancer (PCa)."},
+        {"j": 4, "label": "supported", "confidence": 3, "evidence": "Functional screening identifies eight crucial drivers for androgen receptor (AR)-targeted therapy resistance in PCa that are mutated by APOBEC3B: BRD7, CBX8, EP300, FOXA1, HDAC5, HSF4, STAT3, and AR."}
+      ]
+    },
+    {
+      "n": 1359,
+      "id": "pmid:36626250",
+      "verdicts": [
+        {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "were hypermutated and enriched for complex structural variants (ie, chromothripsis), whereas neoplasms with nonmutagenic chemotherapy exposures were genomically similar to de novo acute myeloid leukemia"},
+        {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Patients treated with cytotoxic therapies, including autologous stem cell transplantation, are at risk for developing therapy-related myeloid neoplasms (tMN)."},
+        {"j": 3, "label": "supported", "confidence": 3, "evidence": "we reconstructed the evolutionary life-history of 39 therapy-related myeloid malignancies."},
+        {"j": 4, "label": "supported", "confidence": 3, "evidence": "tMN can develop from either a reinfused CH clone that escapes melphalan exposure and is selected after reinfusion"}
+      ]
+    },
+    {
+      "n": 1360,
+      "id": "pmid:37125628",
+      "verdicts": [
+        {"j": 1, "label": "supported", "confidence": 3, "evidence": "we identify and characterize more than 230,000 eccDNAs from 4 paired samples of HCC tumor and adjacent nontumor liver tissues"},
+        {"j": 2, "label": "supported", "confidence": 3, "evidence": "miRNA-17-92-containing eccDNAs, along with the expression of their corresponding miRNAs, are elevated in HCC tumors and associated with poor outcomes and the age of HCC patients"},
+        {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "EccDNAs are highly enriched in HCC tumors, preferentially originate from certain chromosomal hotspots, and are correlated with differential gene expression."},
+        {"j": 4, "label": "not_addressed", "confidence": 2, "evidence": "a series of eccDNAs carrying the miRNA-17-92 cluster are validated by outward PCR and Sanger sequencing"}
+      ]
+    },
+    {
+      "n": 1361,
+      "id": "pmid:37082141",
+      "verdicts": [
+        {"j": 1, "label": "supported", "confidence": 3, "evidence": "We also perform long-read-based methylome profiling and discover allele-specific methylation (ASM) effects, complex rearrangements exhibiting differential methylation, and differential promoter methylation in cancer-driver genes."},
+        {"j": 2, "label": "supported", "confidence": 3, "evidence": "Cancer genomes harbor a broad spectrum of structural variants (SVs) driving tumorigenesis, a relevant subset of which escape discovery using short-read sequencing."},
+        {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We employed Oxford Nanopore Technologies (ONT) long-read sequencing in a paired diagnostic and post-therapy medulloblastoma"},
+        {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "TI threads occur in 3% of cancers, with a prevalence up to 74% in liposarcoma, and frequent colocalization with chromothripsis."}
+      ]
+    },
+    {
+      "n": 1362,
+      "id": "pmid:36702998",
+      "verdicts": [
+        {"j": 1, "label": "supported", "confidence": 3, "evidence": "Crypts with SBS2/SBS13 often had immediate crypt neighbors without SBS2/SBS13, suggesting that the underlying cause of SBS2/SBS13 is cell-intrinsic."},
+        {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "SBS2/SBS13 mutations were present in 17% of crypts, more frequent than most other normal tissues."},
+        {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "the high levels of SBS2/SBS13 in the small intestine are collateral damage from APOBEC1 fulfilling its physiological function of editing APOB mRNA"},
+        {"j": 4, "label": "supported", "confidence": 3, "evidence": "APOBEC1 mRNA levels were very high in the small intestine epithelium, but low in the large intestine epithelium and other tissues."}
+      ]
+    },
+    {
+      "n": 1363,
+      "id": "pmid:40379787",
+      "verdicts": [
+        {"j": 1, "label": "supported", "confidence": 3, "evidence": "Mutational signatures associated with apolipoprotein B mRNA-editing enzyme catalytic polypeptide-like 3 (APOBEC3) enzymes were prevalent and enriched in post-treatment hormone receptor-positive cancers."},
+        {"j": 2, "label": "supported", "confidence": 3, "evidence": "we utilized a clinically annotated cohort of 3,880 patient samples with tumor-normal sequencing"},
+        {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "These signatures correlated with shorter progression-free survival on antiestrogen plus CDK4/6 inhibitor therapy in hormone receptor-positive metastatic breast cancer."},
+        {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "highlight its potential as a biomarker and target for overcoming resistance"}
+      ]
+    },
+    {
+      "n": 1364,
+      "id": "pmid:37142601",
+      "verdicts": [
+        {"j": 1, "label": "supported", "confidence": 3, "evidence": "XP is associated with an increased skin cancer risk, reaching, for some groups, several thousand-fold compared to the general population."},
+        {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "the activity of NER determines heterogeneity of the mutation rates across skin cancer genomes and that transcription-coupled NER extends beyond the gene boundaries reducing the intergenic mutation rate"},
+        {"j": 3, "label": "supported", "confidence": 3, "evidence": "the role of polymerase η in the error-free bypass of (i) rare TpG and TpA DNA lesions, (ii) 3' nucleotides in pyrimidine dimers, and (iii) TpT photodimers"},
+        {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "provides insights into the mechanisms reducing UV-induced mutagenesis in the general population"}
+      ]
+    }
+  ]
+}

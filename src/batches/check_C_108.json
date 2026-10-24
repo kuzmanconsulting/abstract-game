@@ -1,0 +1,327 @@
+{
+"batch": "check_C_108",
+"pass": "C",
+"source_batch": "gen_108",
+"items": [
+{
+"n": 1725,
+"id": "pmid:17277777",
+"year": 2007,
+"field": "epi",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Eukaryotic gene transcription is accompanied by acetylation and methylation of nucleosomes near promoters, but the locations and roles of histone modifications elsewhere in the genome remain unclear. We determined the chromatin modification states in high resolution along 30 Mb of the human genome and found that active promoters are marked by trimethylation of Lys4 of histone H3 (H3K4), whereas enhancers are marked by monomethylation, but not trimethylation, of H3K4. We developed computational algorithms using these distinct chromatin signatures to identify new regulatory elements, predicting over 200 promoters and 400 enhancers within the 30-Mb region. This approach accurately predicted the location and function of independently identified regulatory elements with high sensitivity and specificity and uncovered a novel functional enhancer for the carnitine transporter SLC22A5 (OCTN2). Our results give insight into the connections between chromatin modifications and transcriptional regulatory activity and provide a new tool for the functional annotation of the human genome."
+}
+],
+"text": "Eukaryotic gene transcription is accompanied by acetylation and methylation of nucleosomes near promoters, but the locations and roles of histone modifications elsewhere in the genome remain unclear. We determined the chromatin modification states in high resolution along 30 Mb of the human genome and found that active promoters are marked by trimethylation of Lys4 of histone H3 (H3K4), whereas enhancers are marked by monomethylation, but not trimethylation, of H3K4. We developed computational algorithms using these distinct chromatin signatures to identify new regulatory elements, predicting over 200 promoters and 400 enhancers within the 30-Mb region. This approach accurately predicted the location and function of independently identified regulatory elements with high sensitivity and specificity and uncovered a novel functional enhancer for the carnitine transporter SLC22A5 (OCTN2). Our results give insight into the connections between chromatin modifications and transcriptional regulatory activity and provide a new tool for the functional annotation of the human genome.",
+"statements": [
+{
+"j": 1,
+"text": "Applying the chromatin signatures, the algorithms predicted fewer enhancers than promoters within the 30-Mb region."
+},
+{
+"j": 2,
+"text": "Enhancers displayed monomethylation of H3K4 rather than the trimethylation that marked promoters."
+},
+{
+"j": 3,
+"text": "The same histone modification patterns were also mapped in the mouse genome."
+},
+{
+"j": 4,
+"text": "Active promoters carried trimethylation of lysine 4 on histone H3 across the region studied."
+}
+]
+},
+{
+"n": 1726,
+"id": "pmid:21106759",
+"year": 2010,
+"field": "epi",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Developmental programs are controlled by transcription factors and chromatin regulators, which maintain specific gene expression programs through epigenetic modification of the genome. These regulatory events at enhancers contribute to the specific gene expression programs that determine cell state and the potential for differentiation into new cell types. Although enhancer elements are known to be associated with certain histone modifications and transcription factors, the relationship of these modifications to gene expression and developmental state has not been clearly defined. Here we interrogate the epigenetic landscape of enhancer elements in embryonic stem cells and several adult tissues in the mouse. We find that histone H3K27ac distinguishes active enhancers from inactive/poised enhancer elements containing H3K4me1 alone. This indicates that the amount of actively used enhancers is lower than previously anticipated. Furthermore, poised enhancer networks provide clues to unrealized developmental programs. Finally, we show that enhancers are reset during nuclear reprogramming."
+}
+],
+"text": "Developmental programs are controlled by transcription factors and chromatin regulators, which maintain specific gene expression programs through epigenetic modification of the genome. These regulatory events at enhancers contribute to the specific gene expression programs that determine cell state and the potential for differentiation into new cell types. Although enhancer elements are known to be associated with certain histone modifications and transcription factors, the relationship of these modifications to gene expression and developmental state has not been clearly defined. Here we interrogate the epigenetic landscape of enhancer elements in embryonic stem cells and several adult tissues in the mouse. We find that histone H3K27ac distinguishes active enhancers from inactive/poised enhancer elements containing H3K4me1 alone. This indicates that the amount of actively used enhancers is lower than previously anticipated. Furthermore, poised enhancer networks provide clues to unrealized developmental programs. Finally, we show that enhancers are reset during nuclear reprogramming.",
+"statements": [
+{
+"j": 1,
+"text": "The poised enhancers found in adult tissues are the same elements that are poised in embryonic stem cells."
+},
+{
+"j": 2,
+"text": "The fraction of enhancers that are actively used proved higher than had previously been anticipated."
+},
+{
+"j": 3,
+"text": "During nuclear reprogramming, the enhancer landscape is reset."
+},
+{
+"j": 4,
+"text": "H3K27ac set active enhancers apart from poised enhancers bearing only H3K4me1."
+}
+]
+},
+{
+"n": 1727,
+"id": "pmid:23582322",
+"year": 2013,
+"field": "epi",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Master transcription factors Oct4, Sox2, and Nanog bind enhancer elements and recruit Mediator to activate much of the gene expression program of pluripotent embryonic stem cells (ESCs). We report here that the ESC master transcription factors form unusual enhancer domains at most genes that control the pluripotent state. These domains, which we call super-enhancers, consist of clusters of enhancers that are densely occupied by the master regulators and Mediator. Super-enhancers differ from typical enhancers in size, transcription factor density and content, ability to activate transcription, and sensitivity to perturbation. Reduced levels of Oct4 or Mediator cause preferential loss of expression of super-enhancer-associated genes relative to other genes, suggesting how changes in gene expression programs might be accomplished during development. In other more differentiated cells, super-enhancers containing cell-type-specific master transcription factors are also found at genes that define cell identity. Super-enhancers thus play key roles in the control of mammalian cell identity."
+}
+],
+"text": "Master transcription factors Oct4, Sox2, and Nanog bind enhancer elements and recruit Mediator to activate much of the gene expression program of pluripotent embryonic stem cells (ESCs). We report here that the ESC master transcription factors form unusual enhancer domains at most genes that control the pluripotent state. These domains, which we call super-enhancers, consist of clusters of enhancers that are densely occupied by the master regulators and Mediator. Super-enhancers differ from typical enhancers in size, transcription factor density and content, ability to activate transcription, and sensitivity to perturbation. Reduced levels of Oct4 or Mediator cause preferential loss of expression of super-enhancer-associated genes relative to other genes, suggesting how changes in gene expression programs might be accomplished during development. In other more differentiated cells, super-enhancers containing cell-type-specific master transcription factors are also found at genes that define cell identity. Super-enhancers thus play key roles in the control of mammalian cell identity.",
+"statements": [
+{
+"j": 1,
+"text": "Super-enhancers and typical enhancers differ in size, transcription-factor density, and their capacity to drive transcription."
+},
+{
+"j": 2,
+"text": "Super-enhancers consist of dense clusters of enhancers heavily bound by the master regulators and Mediator."
+},
+{
+"j": 3,
+"text": "Super-enhancers are evolutionarily conserved across vertebrate species."
+},
+{
+"j": 4,
+"text": "Lowering Oct4 or Mediator levels caused preferential gain of expression at super-enhancer-associated genes relative to other genes."
+}
+]
+},
+{
+"n": 1728,
+"id": "pmid:20393465",
+"year": 2010,
+"field": "epi",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "We used genome-wide sequencing methods to study stimulus-dependent enhancer function in mouse cortical neurons. We identified approximately 12,000 neuronal activity-regulated enhancers that are bound by the general transcriptional co-activator CBP in an activity-dependent manner. A function of CBP at enhancers may be to recruit RNA polymerase II (RNAPII), as we also observed activity-regulated RNAPII binding to thousands of enhancers. Notably, RNAPII at enhancers transcribes bi-directionally a novel class of enhancer RNAs (eRNAs) within enhancer domains defined by the presence of histone H3 monomethylated at lysine 4. The level of eRNA expression at neuronal enhancers positively correlates with the level of messenger RNA synthesis at nearby genes, suggesting that eRNA synthesis occurs specifically at enhancers that are actively engaged in promoting mRNA synthesis. These findings reveal that a widespread mechanism of enhancer activation involves RNAPII binding and eRNA synthesis."
+}
+],
+"text": "We used genome-wide sequencing methods to study stimulus-dependent enhancer function in mouse cortical neurons. We identified approximately 12,000 neuronal activity-regulated enhancers that are bound by the general transcriptional co-activator CBP in an activity-dependent manner. A function of CBP at enhancers may be to recruit RNA polymerase II (RNAPII), as we also observed activity-regulated RNAPII binding to thousands of enhancers. Notably, RNAPII at enhancers transcribes bi-directionally a novel class of enhancer RNAs (eRNAs) within enhancer domains defined by the presence of histone H3 monomethylated at lysine 4. The level of eRNA expression at neuronal enhancers positively correlates with the level of messenger RNA synthesis at nearby genes, suggesting that eRNA synthesis occurs specifically at enhancers that are actively engaged in promoting mRNA synthesis. These findings reveal that a widespread mechanism of enhancer activation involves RNAPII binding and eRNA synthesis.",
+"statements": [
+{
+"j": 1,
+"text": "CBP appears to recruit RNA polymerase II, which showed activity-regulated binding at thousands of enhancers."
+},
+{
+"j": 2,
+"text": "These enhancer RNAs are polyadenylated and exported to the cytoplasm for translation."
+},
+{
+"j": 3,
+"text": "eRNA levels at neuronal enhancers correlated negatively with messenger RNA synthesis at neighbouring genes."
+},
+{
+"j": 4,
+"text": "The study identified roughly 12,000 activity-regulated enhancers bound by the co-activator CBP in neurons."
+}
+]
+},
+{
+"n": 1729,
+"id": "pmid:19295514",
+"year": 2009,
+"field": "epi",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The human body is composed of diverse cell types with distinct functions. Although it is known that lineage specification depends on cell-specific gene expression, which in turn is driven by promoters, enhancers, insulators and other cis-regulatory DNA sequences for each gene, the relative roles of these regulatory elements in this process are not clear. We have previously developed a chromatin-immunoprecipitation-based microarray method (ChIP-chip) to locate promoters, enhancers and insulators in the human genome. Here we use the same approach to identify these elements in multiple cell types and investigate their roles in cell-type-specific gene expression. We observed that the chromatin state at promoters and CTCF-binding at insulators is largely invariant across diverse cell types. In contrast, enhancers are marked with highly cell-type-specific histone modification patterns, strongly correlate to cell-type-specific gene expression programs on a global scale, and are functionally active in a cell-type-specific manner. Our results define over 55,000 potential transcriptional enhancers in the human genome, significantly expanding the current catalogue of human enhancers and highlighting the role of these elements in cell-type-specific gene expression."
+}
+],
+"text": "The human body is composed of diverse cell types with distinct functions. Although it is known that lineage specification depends on cell-specific gene expression, which in turn is driven by promoters, enhancers, insulators and other cis-regulatory DNA sequences for each gene, the relative roles of these regulatory elements in this process are not clear. We have previously developed a chromatin-immunoprecipitation-based microarray method (ChIP-chip) to locate promoters, enhancers and insulators in the human genome. Here we use the same approach to identify these elements in multiple cell types and investigate their roles in cell-type-specific gene expression. We observed that the chromatin state at promoters and CTCF-binding at insulators is largely invariant across diverse cell types. In contrast, enhancers are marked with highly cell-type-specific histone modification patterns, strongly correlate to cell-type-specific gene expression programs on a global scale, and are functionally active in a cell-type-specific manner. Our results define over 55,000 potential transcriptional enhancers in the human genome, significantly expanding the current catalogue of human enhancers and highlighting the role of these elements in cell-type-specific gene expression.",
+"statements": [
+{
+"j": 1,
+"text": "The same ChIP-chip method can also locate silencer elements in the human genome."
+},
+{
+"j": 2,
+"text": "The work defined over 55,000 candidate transcriptional enhancers in the human genome."
+},
+{
+"j": 3,
+"text": "Enhancer marking correlated strongly with cell-type-specific gene-expression programs at a global scale."
+},
+{
+"j": 4,
+"text": "Enhancer chromatin patterns varied far less between cell types than the largely invariant promoter and insulator states."
+}
+]
+},
+{
+"n": 1730,
+"id": "pmid:21160473",
+"year": 2011,
+"field": "epi",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Cell-fate transitions involve the integration of genomic information encoded by regulatory elements, such as enhancers, with the cellular environment. However, identification of genomic sequences that control human embryonic development represents a formidable challenge. Here we show that in human embryonic stem cells (hESCs), unique chromatin signatures identify two distinct classes of genomic elements, both of which are marked by the presence of chromatin regulators p300 and BRG1, monomethylation of histone H3 at lysine 4 (H3K4me1), and low nucleosomal density. In addition, elements of the first class are distinguished by the acetylation of histone H3 at lysine 27 (H3K27ac), overlap with previously characterized hESC enhancers, and are located proximally to genes expressed in hESCs and the epiblast. In contrast, elements of the second class, which we term 'poised enhancers', are distinguished by the absence of H3K27ac, enrichment of histone H3 lysine 27 trimethylation (H3K27me3), and are linked to genes inactive in hESCs and instead are involved in orchestrating early steps in embryogenesis, such as gastrulation, mesoderm formation and neurulation. Consistent with the poised identity, during differentiation of hESCs to neuroepithelium, a neuroectoderm-specific subset of poised enhancers acquires a chromatin signature associated with active enhancers. When assayed in zebrafish embryos, poised enhancers are able to direct cell-type and stage-specific expression characteristic of their proximal developmental gene, even in the absence of sequence conservation in the fish genome. Our data demonstrate that early developmental enhancers are epigenetically pre-marked in hESCs and indicate an unappreciated role of H3K27me3 at distal regulatory elements. Moreover, the wealth of new regulatory sequences identified here provides an invaluable resource for studies and isolation of transient, rare cell populations representing early stages of human embryogenesis."
+}
+],
+"text": "Cell-fate transitions involve the integration of genomic information encoded by regulatory elements, such as enhancers, with the cellular environment. However, identification of genomic sequences that control human embryonic development represents a formidable challenge. Here we show that in human embryonic stem cells (hESCs), unique chromatin signatures identify two distinct classes of genomic elements, both of which are marked by the presence of chromatin regulators p300 and BRG1, monomethylation of histone H3 at lysine 4 (H3K4me1), and low nucleosomal density. In addition, elements of the first class are distinguished by the acetylation of histone H3 at lysine 27 (H3K27ac), overlap with previously characterized hESC enhancers, and are located proximally to genes expressed in hESCs and the epiblast. In contrast, elements of the second class, which we term 'poised enhancers', are distinguished by the absence of H3K27ac, enrichment of histone H3 lysine 27 trimethylation (H3K27me3), and are linked to genes inactive in hESCs and instead are involved in orchestrating early steps in embryogenesis, such as gastrulation, mesoderm formation and neurulation. Consistent with the poised identity, during differentiation of hESCs to neuroepithelium, a neuroectoderm-specific subset of poised enhancers acquires a chromatin signature associated with active enhancers. When assayed in zebrafish embryos, poised enhancers are able to direct cell-type and stage-specific expression characteristic of their proximal developmental gene, even in the absence of sequence conservation in the fish genome. Our data demonstrate that early developmental enhancers are epigenetically pre-marked in hESCs and indicate an unappreciated role of H3K27me3 at distal regulatory elements. Moreover, the wealth of new regulatory sequences identified here provides an invaluable resource for studies and isolation of transient, rare cell populations representing early stages of human embryogenesis.",
+"statements": [
+{
+"j": 1,
+"text": "Removing H3K27me3 from poised enhancers causes their target genes to switch on prematurely."
+},
+{
+"j": 2,
+"text": "Poised enhancers were depleted for H3K27me3 while lacking the H3K27ac mark."
+},
+{
+"j": 3,
+"text": "Both classes of hESC regulatory elements carried p300, BRG1, and H3K4me1 with low nucleosomal density."
+},
+{
+"j": 4,
+"text": "When hESCs differentiated toward neuroepithelium, a neuroectoderm subset of poised enhancers took on an active-enhancer signature."
+}
+]
+},
+{
+"n": 1731,
+"id": "pmid:17604720",
+"year": 2007,
+"field": "epi",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Noncoding RNAs (ncRNA) participate in epigenetic regulation but are poorly understood. Here we characterize the transcriptional landscape of the four human HOX loci at five base pair resolution in 11 anatomic sites and identify 231 HOX ncRNAs that extend known transcribed regions by more than 30 kilobases. HOX ncRNAs are spatially expressed along developmental axes and possess unique sequence motifs, and their expression demarcates broad chromosomal domains of differential histone methylation and RNA polymerase accessibility. We identified a 2.2 kilobase ncRNA residing in the HOXC locus, termed HOTAIR, which represses transcription in trans across 40 kilobases of the HOXD locus. HOTAIR interacts with Polycomb Repressive Complex 2 (PRC2) and is required for PRC2 occupancy and histone H3 lysine-27 trimethylation of HOXD locus. Thus, transcription of ncRNA may demarcate chromosomal domains of gene silencing at a distance; these results have broad implications for gene regulation in development and disease states."
+}
+],
+"text": "Noncoding RNAs (ncRNA) participate in epigenetic regulation but are poorly understood. Here we characterize the transcriptional landscape of the four human HOX loci at five base pair resolution in 11 anatomic sites and identify 231 HOX ncRNAs that extend known transcribed regions by more than 30 kilobases. HOX ncRNAs are spatially expressed along developmental axes and possess unique sequence motifs, and their expression demarcates broad chromosomal domains of differential histone methylation and RNA polymerase accessibility. We identified a 2.2 kilobase ncRNA residing in the HOXC locus, termed HOTAIR, which represses transcription in trans across 40 kilobases of the HOXD locus. HOTAIR interacts with Polycomb Repressive Complex 2 (PRC2) and is required for PRC2 occupancy and histone H3 lysine-27 trimethylation of HOXD locus. Thus, transcription of ncRNA may demarcate chromosomal domains of gene silencing at a distance; these results have broad implications for gene regulation in development and disease states.",
+"statements": [
+{
+"j": 1,
+"text": "HOTAIR, a 2.2-kilobase ncRNA from the HOXC locus, activates transcription in trans across 40 kilobases of HOXD."
+},
+{
+"j": 2,
+"text": "HOTAIR binds Polycomb Repressive Complex 2 and is needed for PRC2 occupancy and H3K27 trimethylation at the HOXD locus."
+},
+{
+"j": 3,
+"text": "Loss of HOTAIR expression causes developmental limb malformations in humans."
+},
+{
+"j": 4,
+"text": "The survey of the four human HOX loci identified 231 HOX noncoding RNAs across 11 anatomic sites."
+}
+]
+},
+{
+"n": 1732,
+"id": "pmid:19182780",
+"year": 2009,
+"field": "epi",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "There is growing recognition that mammalian cells produce many thousands of large intergenic transcripts. However, the functional significance of these transcripts has been particularly controversial. Although there are some well-characterized examples, most (>95%) show little evidence of evolutionary conservation and have been suggested to represent transcriptional noise. Here we report a new approach to identifying large non-coding RNAs using chromatin-state maps to discover discrete transcriptional units intervening known protein-coding loci. Our approach identified approximately 1,600 large multi-exonic RNAs across four mouse cell types. In sharp contrast to previous collections, these large intervening non-coding RNAs (lincRNAs) show strong purifying selection in their genomic loci, exonic sequences and promoter regions, with greater than 95% showing clear evolutionary conservation. We also developed a functional genomics approach that assigns putative functions to each lincRNA, demonstrating a diverse range of roles for lincRNAs in processes from embryonic stem cell pluripotency to cell proliferation. We obtained independent functional validation for the predictions for over 100 lincRNAs, using cell-based assays. In particular, we demonstrate that specific lincRNAs are transcriptionally regulated by key transcription factors in these processes such as p53, NFkappaB, Sox2, Oct4 (also known as Pou5f1) and Nanog. Together, these results define a unique collection of functional lincRNAs that are highly conserved and implicated in diverse biological processes."
+}
+],
+"text": "There is growing recognition that mammalian cells produce many thousands of large intergenic transcripts. However, the functional significance of these transcripts has been particularly controversial. Although there are some well-characterized examples, most (>95%) show little evidence of evolutionary conservation and have been suggested to represent transcriptional noise. Here we report a new approach to identifying large non-coding RNAs using chromatin-state maps to discover discrete transcriptional units intervening known protein-coding loci. Our approach identified approximately 1,600 large multi-exonic RNAs across four mouse cell types. In sharp contrast to previous collections, these large intervening non-coding RNAs (lincRNAs) show strong purifying selection in their genomic loci, exonic sequences and promoter regions, with greater than 95% showing clear evolutionary conservation. We also developed a functional genomics approach that assigns putative functions to each lincRNA, demonstrating a diverse range of roles for lincRNAs in processes from embryonic stem cell pluripotency to cell proliferation. We obtained independent functional validation for the predictions for over 100 lincRNAs, using cell-based assays. In particular, we demonstrate that specific lincRNAs are transcriptionally regulated by key transcription factors in these processes such as p53, NFkappaB, Sox2, Oct4 (also known as Pou5f1) and Nanog. Together, these results define a unique collection of functional lincRNAs that are highly conserved and implicated in diverse biological processes.",
+"statements": [
+{
+"j": 1,
+"text": "These lincRNAs act mainly by guiding chromatin-modifying complexes to their target genes."
+},
+{
+"j": 2,
+"text": "The chromatin-state approach uncovered about 1,600 large multi-exonic RNAs in four mouse cell types."
+},
+{
+"j": 3,
+"text": "In sharp contrast to previous collections, smaller than 95% of these lincRNAs showed clear evolutionary conservation."
+},
+{
+"j": 4,
+"text": "Specific lincRNAs are transcriptionally regulated by key factors including p53, NF-kappaB, Sox2, Oct4, and Nanog."
+}
+]
+},
+{
+"n": 1733,
+"id": "pmid:16630818",
+"year": 2006,
+"field": "epi",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Polycomb group proteins are essential for early development in metazoans, but their contributions to human development are not well understood. We have mapped the Polycomb Repressive Complex 2 (PRC2) subunit SUZ12 across the entire nonrepeat portion of the genome in human embryonic stem (ES) cells. We found that SUZ12 is distributed across large portions of over two hundred genes encoding key developmental regulators. These genes are occupied by nucleosomes trimethylated at histone H3K27, are transcriptionally repressed, and contain some of the most highly conserved noncoding elements in the genome. We found that PRC2 target genes are preferentially activated during ES cell differentiation and that the ES cell regulators OCT4, SOX2, and NANOG cooccupy a significant subset of these genes. These results indicate that PRC2 occupies a special set of developmental genes in ES cells that must be repressed to maintain pluripotency and that are poised for activation during ES cell differentiation."
+}
+],
+"text": "Polycomb group proteins are essential for early development in metazoans, but their contributions to human development are not well understood. We have mapped the Polycomb Repressive Complex 2 (PRC2) subunit SUZ12 across the entire nonrepeat portion of the genome in human embryonic stem (ES) cells. We found that SUZ12 is distributed across large portions of over two hundred genes encoding key developmental regulators. These genes are occupied by nucleosomes trimethylated at histone H3K27, are transcriptionally repressed, and contain some of the most highly conserved noncoding elements in the genome. We found that PRC2 target genes are preferentially activated during ES cell differentiation and that the ES cell regulators OCT4, SOX2, and NANOG cooccupy a significant subset of these genes. These results indicate that PRC2 occupies a special set of developmental genes in ES cells that must be repressed to maintain pluripotency and that are poised for activation during ES cell differentiation.",
+"statements": [
+{
+"j": 1,
+"text": "The ES cell regulators OCT4, SOX2, and NANOG recruit PRC2 to these developmental genes."
+},
+{
+"j": 2,
+"text": "PRC2 target genes were preferentially repressed as the ES cells underwent differentiation."
+},
+{
+"j": 3,
+"text": "The SUZ12-bound genes carried H3K27-trimethylated nucleosomes and were transcriptionally silent."
+},
+{
+"j": 4,
+"text": "SUZ12 occupied large portions of over two hundred genes encoding key developmental regulators in human ES cells."
+}
+]
+},
+{
+"n": 1734,
+"id": "pmid:16357870",
+"year": 2006,
+"field": "epi",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The establishment and maintenance of epigenetic gene silencing is fundamental to cell determination and function. The essential epigenetic systems involved in heritable repression of gene activity are the Polycomb group (PcG) proteins and the DNA methylation systems. Here we show that the corresponding silencing pathways are mechanistically linked. We find that the PcG protein EZH2 (Enhancer of Zeste homolog 2) interacts-within the context of the Polycomb repressive complexes 2 and 3 (PRC2/3)-with DNA methyltransferases (DNMTs) and associates with DNMT activity in vivo. Chromatin immunoprecipitations indicate that binding of DNMTs to several EZH2-repressed genes depends on the presence of EZH2. Furthermore, we show by bisulphite genomic sequencing that EZH2 is required for DNA methylation of EZH2-target promoters. Our results suggest that EZH2 serves as a recruitment platform for DNA methyltransferases, thus highlighting a previously unrecognized direct connection between two key epigenetic repression systems."
+}
+],
+"text": "The establishment and maintenance of epigenetic gene silencing is fundamental to cell determination and function. The essential epigenetic systems involved in heritable repression of gene activity are the Polycomb group (PcG) proteins and the DNA methylation systems. Here we show that the corresponding silencing pathways are mechanistically linked. We find that the PcG protein EZH2 (Enhancer of Zeste homolog 2) interacts-within the context of the Polycomb repressive complexes 2 and 3 (PRC2/3)-with DNA methyltransferases (DNMTs) and associates with DNMT activity in vivo. Chromatin immunoprecipitations indicate that binding of DNMTs to several EZH2-repressed genes depends on the presence of EZH2. Furthermore, we show by bisulphite genomic sequencing that EZH2 is required for DNA methylation of EZH2-target promoters. Our results suggest that EZH2 serves as a recruitment platform for DNA methyltransferases, thus highlighting a previously unrecognized direct connection between two key epigenetic repression systems.",
+"statements": [
+{
+"j": 1,
+"text": "EZH2, acting within the PRC2/3 complexes, physically interacts with DNA methyltransferases and associates with their activity in cells."
+},
+{
+"j": 2,
+"text": "DNMT recruitment to the target genes was lower in the presence of EZH2 than in its absence."
+},
+{
+"j": 3,
+"text": "This EZH2-DNMT link is disrupted in cancer cells that overexpress EZH2."
+},
+{
+"j": 4,
+"text": "Bisulphite sequencing showed that EZH2 is needed for DNA methylation of EZH2-target promoters."
+}
+]
+}
+]
+}

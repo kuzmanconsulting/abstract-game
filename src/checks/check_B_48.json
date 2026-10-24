@@ -1,0 +1,108 @@
+{"batch": "check_B_48", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1105, "id": "pmid:28186635",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The major lineages rapidly diversified in warm and wet habits during the Late Cretaceous, and the rapid diversification of genera from the early Oligocene onwards occurred in colder and drier environments."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Rosaceae were estimated to have originated during the Late Cretaceous with evidence for rapid diversification events during several geological periods."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Three subfamilies and 16 tribes (as previously delimited) were strongly supported as monophyletic"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Phylogenetic relationships in Rosaceae have long been problematic because of frequent hybridisation, apomixis and presumed rapid radiation"}
+    ]},
+   {"n": 1106, "id": "pmid:28376325",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "gathering sequence data from >800 UCE loci and 187 samples, including 30 out of 31 aculeate families"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "we find unequivocal evidence that ants are the sister group to bees+apoid wasps (Apoidea) and that bees are nested within a paraphyletic Crabronidae"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "fully appreciate the biological implications of the switch from carnivory to pollen feeding (pollenivory)"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We also demonstrate that taxon choice can fundamentally impact tree topology and clade support in phylogenomic inference."}
+    ]},
+   {"n": 1107, "id": "pmid:37316666",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "we infer that the last common ancestor of Asgard archaea was probably a thermophilic chemolithotroph and that the lineage from which eukaryotes evolved adapted to mesophilic conditions"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Our work provides key insights into the prokaryote-to-eukaryote transition and a platform for better understanding the emergence of cellular complexity in eukaryotic cells."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We find that eukaryotes are placed, with high confidence, as a well-nested clade within Asgard archaea and as a sister lineage to Hodarchaeales, a newly proposed order within Heimdallarchaeia."},
+      {"j": 4, "label": "contradicted", "confidence": 2, "evidence": "genome evolution in Asgard archaea involved significantly more gene duplication and fewer gene loss events compared with other archaea", "flag": "ambiguous", "reason": "The abstract reports fewer gene loss events and says nothing about gene gain as such; since duplication is itself a gain, the statement conflicts with the reported pattern but is not strictly incompatible with it."}
+    ]},
+   {"n": 1108, "id": "pmid:33597750",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Here we report the recovery of genome-wide data from three mammoth specimens dating to the Early and Middle Pleistocene subepochs, two of which are more than one million years old."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "the other represents a previously unrecognized lineage that was ancestral to the first mammoths to colonize North America"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "we show that the majority of protein-coding changes associated with cold adaptation in woolly mammoths were already present one million years ago"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "the Columbian mammoth of North America traces its ancestry to a Middle Pleistocene hybridization between these two lineages, with roughly equal admixture proportions"}
+    ]},
+   {"n": 1109, "id": "pmid:26748513",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "most adaptations targeting coding variation have occurred in the last 6,000-13,000 years, the period at which populations shifted from hunting and gathering to farming"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "innate immunity genes present higher Neandertal introgression than the remainder of the coding genome"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We then evaluate the occurrence of local adaptation and detect 57 high-scoring signals of positive selection at innate immunity genes"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "innate immunity genes have globally evolved under stronger purifying selection than the remainder of protein-coding genes"}
+    ]},
+   {"n": 1110, "id": "pmid:36544022",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Genes predominantly expressed in spermatogonia (germ cells fuelling spermatogenesis) and Sertoli (somatic support) cells accumulated on X chromosomes during evolution"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "testes from 11 species that cover the three main mammalian lineages (eutherians, marsupials and monotremes) and birds (the evolutionary outgroup), and include seven primates"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "the rapid evolution of the testis was driven by accelerated fixation rates of gene expression changes, amino acid substitutions and new genes in late spermatogenic stages"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Further work identified transcriptomal differences between X- and Y-bearing spermatids"}
+    ]},
+   {"n": 1111, "id": "pmid:27548311",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "we show here that MHC II is missing in the entire Gadiformes lineage and thus was lost once in their common ancestor"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "we identify an association between high MHC I copy number and elevated speciation rates using trait-dependent diversification models"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "we find that MHC I gene expansions have occurred multiple times, both inside and outside this clade"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "assembly and comparative analyses for 66 teleost species, we show here that MHC II is missing in the entire Gadiformes lineage and thus was lost once in their common ancestor."}
+    ]},
+   {"n": 1112, "id": "pmid:29717040",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "show evidence of parallel loss in nonnodulating species of putative orthologs of NIN , RPG , and NOD FACTOR PERCEPTION"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Intergeneric crosses between Parasponia andersonii and its nonnodulating relative Trema tomentosa demonstrated that nodule organogenesis, but not intracellular infection, is a dominant genetic trait."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "This will have profound implications for translational approaches aimed at engineering nitrogen-fixing nodules in crop plants."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Comparative transcriptomics of P. andersonii and the legume Medicago truncatula revealed utilization of at least 290 orthologous symbiosis genes in nodules."}
+    ]},
+   {"n": 1113, "id": "pmid:29456146",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Butterflies originated around 119 million years ago (mya) in the late Cretaceous, but most extant lineages diverged after the Cretaceous-Paleogene (K-Pg) mass-extinction 65 mya."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "This study overturns prior notions of the taxon's evolutionary history, as many long-recognized subfamilies and tribes are para- or polyphyletic."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "followed by skippers (Hesperiidae) + the nocturnal butterflies (Hedylidae) as sister to the remainder, indicating a secondary reversal from diurnality to nocturnality"},
+      {"j": 4, "label": "supported", "confidence": 2, "evidence": "Ant association independently evolved once in Lycaenidae and twice in Riodinidae."}
+    ]},
+   {"n": 1114, "id": "pmid:26752180",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "This relationship, however, appears to be primarily driven by a decreased rate of nearly-neutral amino-acid substitution because of more efficient purifying selection in large populations."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Our results reveal that adaptive processes dominate the evolution of proteins in most animal species"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Data analysis uncovers a major contribution of adaptive evolution to the amino-acid substitution process across all major metazoan phyla-with the notable exception of humans and primates."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The proportion of adaptive amino-acid substitution is found to be positively correlated to species effective population size."}
+    ]},
+   {"n": 1115, "id": "pmid:28096377",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "As evolutionary responses to a bamboo diet, adaptive convergence has occurred in genes involved in the digestion and utilization of bamboo nutrients such as essential amino acids, fatty acids, and vitamins."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "we identified genomic signatures of convergent evolution"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Limb development genes DYNC2H1 and PCNT have undergone adaptive convergence and may be important candidate genes for pseudothumb development."},
+      {"j": 4, "label": "contradicted", "confidence": 2, "evidence": "Similarly, the umami taste receptor gene TAS1R1 has been pseudogenized in both pandas.", "flag": "ill_formed", "reason": "The statement is internally inconsistent, claiming the pandas gained a functional TAS1R1 that is now a pseudogene, while the abstract reports only pseudogenization (loss of function)."}
+    ]},
+   {"n": 1116, "id": "pmid:29018197",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "This concentration increases with genome size and with the rate of transfer."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Overrepresentation of hotspots with fewer mobile genetic elements in naturally transformable bacteria"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We found that transferred genes are concentrated in only ~1% of the chromosomal regions (hotspots) in 80 bacterial species."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Most mobile genetic elements and antibiotic resistance genes are in hotspots"}
+    ]},
+   {"n": 1117, "id": "pmid:28369655",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We suggest that the observed differences in the estimates of topology for these studies reflect data-type effects due to violations of the models used in phylogenetic analyses"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Although increased taxon sampling appeared to have a positive impact on phylogenetic analyses the most important variable was data type."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "we found that increased taxon sampling actually resulted in increased congruence with the tree from the previous taxon-poor study (which had a majority of non-coding data) instead of the taxon-rich study"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we assembled a novel, large-scale data matrix comprising 90% non-coding sequences from 235 bird species"}
+    ]},
+   {"n": 1118, "id": "pmid:28533395",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Metabolic reconstructions on the rooted tree suggest that early Archaea were anaerobes"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "This model uses evidence from gene duplications, horizontal transfers, and gene losses contained in 31,236 archaeal gene families to identify the most likely root for the tree."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "In contrast to proposals suggesting that genome reduction has been the predominant mode of archaeal evolution, our analyses infer a relatively small-genomed archaeal ancestor that subsequently increased in complexity via gene duplication and horizontal gene transfer."},
+      {"j": 4, "label": "contradicted", "confidence": 2, "evidence": "in contrast to previous work, place the tree root between DPANN and all other Archaea"}
+    ]},
+   {"n": 1119, "id": "pmid:34937052",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "This approach can be used to address other contentious cases of animal and plant diversifications that require analysis of species-level phylogenomic datasets."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "We show that increasingly larger phylogenomic datasets produce diversification time estimates with progressively smaller uncertainties"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Here we develop a Bayesian molecular-clock dating approach to estimate a timetree of 4,705 mammal species integrating information from 72 mammal genomes."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we confidently reject an explosive model of placental mammal origination in the Palaeogene 8 and show that crown Placentalia originated in the Late Cretaceous"}
+    ]}
+ ]}

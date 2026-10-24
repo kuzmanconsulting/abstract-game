@@ -1,0 +1,1223 @@
+{
+"batch": "check_A_04",
+"pass": "A",
+"source_batch": "gen_04",
+"items": [
+{
+"n": 140,
+"id": "pmid:41027434",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Transposon-encoded TnpB nucleases gave rise to type V CRISPR-Cas12 effectors through multiple independent domestication events. These systems use different RNA molecules as guides for DNA targeting: transposon-derived right-end RNAs (reRNAs or omega RNAs) for TnpB and CRISPR RNAs for type V CRISPR-Cas systems. However, the molecular mechanisms bridging transposon activity and CRISPR immunity remain unclear. We identify TranCs (transposon-CRISPR intermediates) derived from distinct IS605- or IS607-TnpB lineages. TranCs utilize both CRISPR RNAs and reRNAs to direct DNA cleavage. The cryoelectron microscopy (cryo-EM) structure of LaTranC from Lawsonibacter sp. closely resembles that of the ISDra2 TnpB complex; however, unlike a single-molecule reRNA, the LaTranC guide RNA is functionally split into a tracrRNA and crRNA. An engineered RNA split of ISDra2 TnpB enabled activity with a CRISPR array. These findings indicate that functional RNA splitting was the primary molecular event driving the emergence of diverse type V CRISPR-Cas systems from transposons."
+}
+],
+"text": "Transposon-encoded TnpB nucleases gave rise to type V CRISPR-Cas12 effectors through multiple independent domestication events. These systems use different RNA molecules as guides for DNA targeting: transposon-derived right-end RNAs (reRNAs or omega RNAs) for TnpB and CRISPR RNAs for type V CRISPR-Cas systems. However, the molecular mechanisms bridging transposon activity and CRISPR immunity remain unclear. We identify TranCs (transposon-CRISPR intermediates) derived from distinct IS605- or IS607-TnpB lineages. TranCs utilize both CRISPR RNAs and reRNAs to direct DNA cleavage. The cryoelectron microscopy (cryo-EM) structure of LaTranC from Lawsonibacter sp. closely resembles that of the ISDra2 TnpB complex; however, unlike a single-molecule reRNA, the LaTranC guide RNA is functionally split into a tracrRNA and crRNA. An engineered RNA split of ISDra2 TnpB enabled activity with a CRISPR array. These findings indicate that functional RNA splitting was the primary molecular event driving the emergence of diverse type V CRISPR-Cas systems from transposons.",
+"statements": [
+{
+"j": 1,
+"text": "TranCs can direct DNA cleavage using CRISPR RNAs as well as transposon-derived right-end RNAs."
+},
+{
+"j": 2,
+"text": "TranC-carrying elements transpose more frequently than TnpB-only elements of the same lineages."
+},
+{
+"j": 3,
+"text": "Engineering a split into the ISDra2 TnpB guide RNA made the nuclease active with a CRISPR array."
+},
+{
+"j": 4,
+"text": "In LaTranC the guide RNA stays a single reRNA molecule instead of being divided into two parts."
+}
+]
+},
+{
+"n": 141,
+"id": "pmid:39594687",
+"year": 2024,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background and objective",
+"text": "Lung cancer, the second most prevalent cancer globally, poses significant challenges in early detection and prognostic assessment. Despite advancements in targeted therapies and immunotherapy, the timely identification of relapse remains elusive. Blood-based liquid biopsy biomarkers, including circulating tumor cells (CTCs), cell-free DNA (cfDNA), circulating tumor DNA (ctDNA), circulating-free RNAs (cfRNAs), and extracellular vesicles (EVs)/exosomes, offer promise for non-invasive monitoring."
+},
+{
+"label": "Methods",
+"text": "We employ a comprehensive approach integrating miRNA/lncRNA/metabolomic datasets, following a mixed-methods content analysis, to identify candidate biomarkers in NSCLC. NSCLC-associated miRNA/gene/lncRNA associations were linked to in silico-derived molecular pathways."
+},
+{
+"label": "Results",
+"text": "For data validation, mass spectrometry-based untargeted metabolomics of plasma EVs highlighted miRNA/lncRNA/metabotypes, linking \"glycerophospholipid metabolism\" to lncRNA H19 and \"alanine, aspartate and glutamate metabolism\" to miR-29a-3p . Prognostic significance was established for miR-29a-3p , showing lower expression in NSCLC patients with disease progression compared to stable disease ( p = 0.004). Kaplan-Meier survival analysis indicated that patients with miR-29a-3p under-expression had significantly shorter overall survival (OS) ( p = 0.038). Despite the expression of lncRNA H19 in plasma EVs being undetected, its expression in plasma cfRNAs correlated significantly with disease progression ( p = 0.035)."
+},
+{
+"label": "Conclusions",
+"text": "Herein, we showcase the potential of plasma EV-derived miR-29a-3p as a prognostic biomarker and underscore the intricate interplay of miRNAs, lncRNAs, and metabolites in NSCLC biology. Our findings offer new insights and avenues for further exploration, contributing to the ongoing quest for effective biomarkers in early-stage NSCLC."
+}
+],
+"text": "Lung cancer, the second most prevalent cancer globally, poses significant challenges in early detection and prognostic assessment. Despite advancements in targeted therapies and immunotherapy, the timely identification of relapse remains elusive. Blood-based liquid biopsy biomarkers, including circulating tumor cells (CTCs), cell-free DNA (cfDNA), circulating tumor DNA (ctDNA), circulating-free RNAs (cfRNAs), and extracellular vesicles (EVs)/exosomes, offer promise for non-invasive monitoring. We employ a comprehensive approach integrating miRNA/lncRNA/metabolomic datasets, following a mixed-methods content analysis, to identify candidate biomarkers in NSCLC. NSCLC-associated miRNA/gene/lncRNA associations were linked to in silico-derived molecular pathways. For data validation, mass spectrometry-based untargeted metabolomics of plasma EVs highlighted miRNA/lncRNA/metabotypes, linking \"glycerophospholipid metabolism\" to lncRNA H19 and \"alanine, aspartate and glutamate metabolism\" to miR-29a-3p . Prognostic significance was established for miR-29a-3p , showing lower expression in NSCLC patients with disease progression compared to stable disease ( p = 0.004). Kaplan-Meier survival analysis indicated that patients with miR-29a-3p under-expression had significantly shorter overall survival (OS) ( p = 0.038). Despite the expression of lncRNA H19 in plasma EVs being undetected, its expression in plasma cfRNAs correlated significantly with disease progression ( p = 0.035). Herein, we showcase the potential of plasma EV-derived miR-29a-3p as a prognostic biomarker and underscore the intricate interplay of miRNAs, lncRNAs, and metabolites in NSCLC biology. Our findings offer new insights and avenues for further exploration, contributing to the ongoing quest for effective biomarkers in early-stage NSCLC.",
+"statements": [
+{
+"j": 1,
+"text": "miR-29a-3p levels in plasma extracellular vesicles were compared between smokers and non-smokers with NSCLC."
+},
+{
+"j": 2,
+"text": "Patients under-expressing miR-29a-3p had significantly shorter overall survival in Kaplan-Meier analysis (p = 0.038)."
+},
+{
+"j": 3,
+"text": "lncRNA H19 was readily detected in plasma extracellular vesicles, where its level tracked disease progression."
+},
+{
+"j": 4,
+"text": "miR-29a-3p expression was lower in NSCLC patients with disease progression than in those with stable disease, at p = 0.004."
+}
+]
+},
+{
+"n": 142,
+"id": "pmid:42406326",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "/purpose. Although atezolizumab-bevacizumab is approved for unresectable hepatocellular carcinoma (HCC), only a subset of patients attains a durable response (DR). Non-invasive predictors of long-term benefit are lacking. We aimed to assess whether baseline circulating cell-free DNA (cfDNA) quantity combined with cfDNA-derived genetic and methylation profiling could predict prognosis and DR."
+},
+{
+"label": "Methods",
+"text": "We retrospectively analyzed 55 patients with HCC. Baseline cfDNA was dichotomized at the median to evaluate associations with overall survival (OS) and treatment response (objective response rate [ORR], disease control rate [DCR], and DR). In a discovery cohort (n = 17), targeted mutation and methylation profiling on baseline and progression cfDNA was performed. Candidate CpGs were identified by intersecting baseline differential methylation with longitudinal changes, and top hits were validated in an independent cohort (n = 32)."
+},
+{
+"label": "Results",
+"text": "High-cfDNA independently predicted shorter OS (median 13.0 vs. 33.1 months; p = 0.0015) but not ORR, DCR, or DR. Mutation analysis yielded no predictive markers. Integrative methylation profiling identified a locus in CD86 (Chr3:121,795,811) (area under the curve [AUC], 0.903 in discovery); baseline methylation here was associated with DR with an AUC of 0.806 in validation. Patients with high CD86 methylation exhibited higher DR rates and prolonged progression-free survival. Multivariate logistic regression analysis confirmed that high CD86 methylation was independently associated with DR (odds ratio: 6.96, 95% confidence interval: 1.70-28.50; p = 0.0071)."
+},
+{
+"label": "Conclusions",
+"text": "Baseline cfDNA quantity and cfDNA-derived CD86 methylation were associated with clinical outcomes in patients with unresectable HCC treated with atezolizumab-bevacizumab. Prospective validation in larger independent cohorts is warranted before clinical implementation."
+}
+],
+"text": "/purpose. Although atezolizumab-bevacizumab is approved for unresectable hepatocellular carcinoma (HCC), only a subset of patients attains a durable response (DR). Non-invasive predictors of long-term benefit are lacking. We aimed to assess whether baseline circulating cell-free DNA (cfDNA) quantity combined with cfDNA-derived genetic and methylation profiling could predict prognosis and DR. We retrospectively analyzed 55 patients with HCC. Baseline cfDNA was dichotomized at the median to evaluate associations with overall survival (OS) and treatment response (objective response rate [ORR], disease control rate [DCR], and DR). In a discovery cohort (n = 17), targeted mutation and methylation profiling on baseline and progression cfDNA was performed. Candidate CpGs were identified by intersecting baseline differential methylation with longitudinal changes, and top hits were validated in an independent cohort (n = 32). High-cfDNA independently predicted shorter OS (median 13.0 vs. 33.1 months; p = 0.0015) but not ORR, DCR, or DR. Mutation analysis yielded no predictive markers. Integrative methylation profiling identified a locus in CD86 (Chr3:121,795,811) (area under the curve [AUC], 0.903 in discovery); baseline methylation here was associated with DR with an AUC of 0.806 in validation. Patients with high CD86 methylation exhibited higher DR rates and prolonged progression-free survival. Multivariate logistic regression analysis confirmed that high CD86 methylation was independently associated with DR (odds ratio: 6.96, 95% confidence interval: 1.70-28.50; p = 0.0071). Baseline cfDNA quantity and cfDNA-derived CD86 methylation were associated with clinical outcomes in patients with unresectable HCC treated with atezolizumab-bevacizumab. Prospective validation in larger independent cohorts is warranted before clinical implementation.",
+"statements": [
+{
+"j": 1,
+"text": "Serial cfDNA measurement detected progression earlier than radiological imaging did."
+},
+{
+"j": 2,
+"text": "Targeted mutation profiling of baseline cfDNA produced several markers predictive of durable response."
+},
+{
+"j": 3,
+"text": "High CD86 methylation was independently associated with durable response, with an odds ratio of 6.96."
+},
+{
+"j": 4,
+"text": "Patients with high baseline cfDNA had a median overall survival of 13.0 months against 33.1 months in the low group."
+}
+]
+},
+{
+"n": 143,
+"id": "doi:10.64898/2026.10.11.758337",
+"year": 2026,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "Banisteriopsis caapi is the Amazonian liana that provides the β-carboline-rich vine component of ayahuasca, a traditional Amazonian psychoactive preparation used in Indigenous and ceremonial contexts. The species encompasses culturally recognized ethnovarieties, some differing in stem architecture. Despite its cultural, ecological, and pharmacological importance, B. caapi remains largely unexplored at the genomic level. Here, we generated chromosome-scale genome assemblies for the caupuri and tucunacá ethnovarieties and used them to investigate genome evolution, structural variation, repeat composition, and candidate genomic features associated with ethnovariety-level differentiation."
+},
+{
+"label": "Results",
+"text": "Caupuri and tucunacá assemblies span 1.16 and 1.13 Gb, respectively, each organized into ten high-quality chromosome-scale pseudomolecules. Both genomes retain signatures of two ancient post-gamma duplication components, with related signals also detected in Malpighia emarginata , suggesting that at least part of this paleopolyploid history may predate the divergence of these Malpighiaceae lineages. Against this conserved chromosomal framework, the sampled caupuri and tucunacá genomes differ in structural variation, repeat composition, and gene-family profiles. Transposable element-associated insertions and deletions dominate the structural-variant landscape, while both genomes are highly repetitive, with approximately 78% of their assemblies composed of repetitive DNA largely shaped by LTR retrotransposons, including Gypsy /Retand and Copia /Ale, Copia /Tork, and Copia /Ivana lineages, together with non-autonomous large retrotransposon derivatives (LARDs). Most genes belong to shared orthogroups, indicating a largely conserved gene repertoire. However, candidate ethnovariety-biased differences emerge from the combined remodeling of gene families, LARD and LTR-associated genomic neighborhoods, and comparatively recent local expansions of tandem-duplicated gene arrays encoding signaling receptors, transporters, hormone-associated genes, cell wall and secondary wall functions, and meristem or organ-development pathways."
+},
+{
+"label": "Conclusions",
+"text": "These results indicate that the sampled caupuri and tucunacá genomes differ mainly through localized remodeling of shared genomic modules, including comparatively recent repeat turnover and local tandem-gene expansions. These assemblies provide the first large-scale nuclear genomic resource for B. caapi and a foundation for investigating paleopolyploid evolution in Malpighiaceae and candidate mechanisms of ethnovariety diversification."
+}
+],
+"text": "Banisteriopsis caapi is the Amazonian liana that provides the β-carboline-rich vine component of ayahuasca, a traditional Amazonian psychoactive preparation used in Indigenous and ceremonial contexts. The species encompasses culturally recognized ethnovarieties, some differing in stem architecture. Despite its cultural, ecological, and pharmacological importance, B. caapi remains largely unexplored at the genomic level. Here, we generated chromosome-scale genome assemblies for the caupuri and tucunacá ethnovarieties and used them to investigate genome evolution, structural variation, repeat composition, and candidate genomic features associated with ethnovariety-level differentiation. Caupuri and tucunacá assemblies span 1.16 and 1.13 Gb, respectively, each organized into ten high-quality chromosome-scale pseudomolecules. Both genomes retain signatures of two ancient post-gamma duplication components, with related signals also detected in Malpighia emarginata , suggesting that at least part of this paleopolyploid history may predate the divergence of these Malpighiaceae lineages. Against this conserved chromosomal framework, the sampled caupuri and tucunacá genomes differ in structural variation, repeat composition, and gene-family profiles. Transposable element-associated insertions and deletions dominate the structural-variant landscape, while both genomes are highly repetitive, with approximately 78% of their assemblies composed of repetitive DNA largely shaped by LTR retrotransposons, including Gypsy /Retand and Copia /Ale, Copia /Tork, and Copia /Ivana lineages, together with non-autonomous large retrotransposon derivatives (LARDs). Most genes belong to shared orthogroups, indicating a largely conserved gene repertoire. However, candidate ethnovariety-biased differences emerge from the combined remodeling of gene families, LARD and LTR-associated genomic neighborhoods, and comparatively recent local expansions of tandem-duplicated gene arrays encoding signaling receptors, transporters, hormone-associated genes, cell wall and secondary wall functions, and meristem or organ-development pathways. These results indicate that the sampled caupuri and tucunacá genomes differ mainly through localized remodeling of shared genomic modules, including comparatively recent repeat turnover and local tandem-gene expansions. These assemblies provide the first large-scale nuclear genomic resource for B. caapi and a foundation for investigating paleopolyploid evolution in Malpighiaceae and candidate mechanisms of ethnovariety diversification.",
+"statements": [
+{
+"j": 1,
+"text": "Most genes of the two ethnovarieties fall into ethnovariety-specific orthogroups rather than shared ones."
+},
+{
+"j": 2,
+"text": "Each of the two assemblies resolves into ten chromosome-scale pseudomolecules, spanning 1.16 and 1.13 Gb."
+},
+{
+"j": 3,
+"text": "Roughly 78% of each assembly consists of repetitive DNA, shaped mainly by LTR retrotransposons."
+},
+{
+"j": 4,
+"text": "Alkaloid content differs between the caupuri and tucunaca ethnovarieties."
+}
+]
+},
+{
+"n": 144,
+"id": "pmid:41991340",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Circulating tumor DNA (ctDNA) testing has emerged as a cancer precision medicine approach. We investigated the genomic landscape and clinical utility of ctDNA in patients receiving 223 Ra dichloride for bone metastatic castration-resistant prostate cancer (mCRPC). Methods: This prospective, observational, multicenter study enrolled patients treated with 223 Ra for bone mCRPC. Targeted sequencing of cell-free DNA from plasma at baseline and end of treatment (EOT), along with paired leukocyte DNA, was performed using an 88-gene panel. Associations between ctDNA profiles and clinical outcomes, including biomarker response, radiographic progression-free survival (rPFS), and overall survival (OS), were analyzed. Results: Of 93 patients analyzed, ctDNA was successfully profiled in 84 baseline and 74 EOT samples, with matched data available for 68 patients. A ctDNA fraction of at least 5%, as well as TP53 alteration, PTEN alteration, and cell cycle pathway alterations at baseline were significantly associated with shorter rPFS and OS. Dynamic changes in ctDNA fraction and PTEN alteration between baseline and EOT correlated with distinct rPFS and OS. Conclusion: This study suggests the clinical utility of ctDNA profiling as both a prognostic and a monitoring tool in patients with bone mCRPC treated with 223 Ra. The findings obtained in this study raise the possibility that ctDNA could contribute to future strategies for risk stratification or treatment monitoring during 223 Ra therapy."
+}
+],
+"text": "Circulating tumor DNA (ctDNA) testing has emerged as a cancer precision medicine approach. We investigated the genomic landscape and clinical utility of ctDNA in patients receiving 223 Ra dichloride for bone metastatic castration-resistant prostate cancer (mCRPC). Methods: This prospective, observational, multicenter study enrolled patients treated with 223 Ra for bone mCRPC. Targeted sequencing of cell-free DNA from plasma at baseline and end of treatment (EOT), along with paired leukocyte DNA, was performed using an 88-gene panel. Associations between ctDNA profiles and clinical outcomes, including biomarker response, radiographic progression-free survival (rPFS), and overall survival (OS), were analyzed. Results: Of 93 patients analyzed, ctDNA was successfully profiled in 84 baseline and 74 EOT samples, with matched data available for 68 patients. A ctDNA fraction of at least 5%, as well as TP53 alteration, PTEN alteration, and cell cycle pathway alterations at baseline were significantly associated with shorter rPFS and OS. Dynamic changes in ctDNA fraction and PTEN alteration between baseline and EOT correlated with distinct rPFS and OS. Conclusion: This study suggests the clinical utility of ctDNA profiling as both a prognostic and a monitoring tool in patients with bone mCRPC treated with 223 Ra. The findings obtained in this study raise the possibility that ctDNA could contribute to future strategies for risk stratification or treatment monitoring during 223 Ra therapy.",
+"statements": [
+{
+"j": 1,
+"text": "ctDNA profiling identified patients who benefit more from 223Ra than from taxane chemotherapy."
+},
+{
+"j": 2,
+"text": "Of 93 patients, ctDNA was profiled in 84 baseline and 74 end-of-treatment samples, with 68 patients matched."
+},
+{
+"j": 3,
+"text": "A baseline ctDNA fraction of at least 5% was significantly associated with both shorter rPFS and shorter overall survival."
+},
+{
+"j": 4,
+"text": "Changes in ctDNA fraction between baseline and end of treatment showed no relationship with rPFS or OS."
+}
+]
+},
+{
+"n": 145,
+"id": "doi:10.1101/2025.07.08.25331118",
+"year": 2025,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Germline activating mutations in STAT 3 result in immune dysregulation, autoimmunity, and increased malignancy risk, yet the precise molecular mechanisms underlying disease heterogeneity remain unclear. We identified a familial germline STAT 3 p.R278H mutation shared between the parent diagnosed with T-cell large granular lymphocytic leukemia and the proband presenting with infantile-onset multisystem autoimmune disease-1. Employing whole-exome sequencing, single-cell RNA sequencing, comprehensive cytokine profiling, and flow cytometry-based immunophenotyping, we characterized their distinct clinical phenotypes and underlying immune dysregulation. Single-cell transcriptomics revealed marked expansion of CD8 + T cells in the proband, accompanied by altered expression of JAK/STAT pathway genes, including elevated STAT3, STAT 1 , and downstream target genes ( BATF, MAF, MYC ), but diminished cytokine transcripts ( IL1B, TNF ). Serum cytokines, however, were markedly elevated, highlighting discordant transcriptional and translational regulation. The parent exhibited additional somatic mutations, notably FLT 3 -ITD, suggesting a multi-hit model underpinning leukemogenesis rather than direct oncogenic transformation by STAT 3 alone. Immunomodulatory therapies, including cyclosporin A and tacrolimus, controlled autoimmune symptoms in the proband, whereas the parent was refractory to conventional treatments, ultimately succumbing after unsuccessful hematopoietic stem cell transplantation. Our findings emphasize that germline STAT 3 activating mutations predispose individuals to complex immune dysregulation and require additional somatic mutations to initiate overt malignancy. This study supports comprehensive genetic profiling and precision medicine approaches for patients harboring congenital STAT 3 mutations, aiming to optimize clinical management and improve therapeutic outcomes."
+}
+],
+"text": "Germline activating mutations in STAT 3 result in immune dysregulation, autoimmunity, and increased malignancy risk, yet the precise molecular mechanisms underlying disease heterogeneity remain unclear. We identified a familial germline STAT 3 p.R278H mutation shared between the parent diagnosed with T-cell large granular lymphocytic leukemia and the proband presenting with infantile-onset multisystem autoimmune disease-1. Employing whole-exome sequencing, single-cell RNA sequencing, comprehensive cytokine profiling, and flow cytometry-based immunophenotyping, we characterized their distinct clinical phenotypes and underlying immune dysregulation. Single-cell transcriptomics revealed marked expansion of CD8 + T cells in the proband, accompanied by altered expression of JAK/STAT pathway genes, including elevated STAT3, STAT 1 , and downstream target genes ( BATF, MAF, MYC ), but diminished cytokine transcripts ( IL1B, TNF ). Serum cytokines, however, were markedly elevated, highlighting discordant transcriptional and translational regulation. The parent exhibited additional somatic mutations, notably FLT 3 -ITD, suggesting a multi-hit model underpinning leukemogenesis rather than direct oncogenic transformation by STAT 3 alone. Immunomodulatory therapies, including cyclosporin A and tacrolimus, controlled autoimmune symptoms in the proband, whereas the parent was refractory to conventional treatments, ultimately succumbing after unsuccessful hematopoietic stem cell transplantation. Our findings emphasize that germline STAT 3 activating mutations predispose individuals to complex immune dysregulation and require additional somatic mutations to initiate overt malignancy. This study supports comprehensive genetic profiling and precision medicine approaches for patients harboring congenital STAT 3 mutations, aiming to optimize clinical management and improve therapeutic outcomes.",
+"statements": [
+{
+"j": 1,
+"text": "Single-cell sequencing of the proband showed marked CD8+ T-cell expansion with raised STAT3 and STAT1 expression."
+},
+{
+"j": 2,
+"text": "Cyclosporin A and tacrolimus controlled the proband's autoimmune symptoms, while the parent was refractory to conventional treatment."
+},
+{
+"j": 3,
+"text": "JAK inhibition controls the immune dysregulation caused by the germline STAT3 p.R278H variant."
+},
+{
+"j": 4,
+"text": "Serum cytokine levels in the proband were reduced, matching the lowered IL1B and TNF transcript levels."
+}
+]
+},
+{
+"n": 146,
+"id": "pmid:40558079",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background and aims",
+"text": "Multiple systemic therapies have received approval for hepatocellular carcinoma (HCC), necessitating the prediction of treatment efficacy to promote personalised treatment strategies. Mutational signatures reflect the mutational processes in human cancers and have emerged as promising biomarkers. In this study, we aimed to elucidate the acquisition process and clinical relevance of mismatch repair deficiency (dMMR)-associated mutational signatures."
+},
+{
+"label": "Methods",
+"text": "First, we performed mutational signature analyses across various stages of hepatocarcinogenesis using multi-regional whole-genome sequencing data from 529 samples from 26 patients with or without HCC. Second, multi-omics analysis of an additional 239 HCC samples was conducted. Third, we analysed whole-exome sequencing data from 75 additional HCC samples to elucidate the effect of dMMR-associated signatures on the response to atezolizumab plus bevacizumab."
+},
+{
+"label": "Results",
+"text": "In the first analysis, dMMR-associated signatures were commonly observed in subclonal mutations in HCC, but were absent in noncancerous liver tissues. The second analysis revealed that a high proportion of dMMR-associated signatures were associated with larger tumour size, advanced tumour stages, upregulation of cell cycle-related genes, and lower expression of the IL6 gene, but not with decreased expression of mismatch repair genes. The third analysis showed that a high proportion of dMMR-associated signatures were significantly associated with better response rates and longer progression-free survival."
+},
+{
+"label": "Conclusions",
+"text": "Our findings indicate that dMMR-associated signatures can accumulate in HCC without diminished expression levels of mismatch repair proteins, especially during the later stages of tumour progression. They can be a novel biomarker for predicting the efficacy of immunotherapy for HCC."
+}
+],
+"text": "Multiple systemic therapies have received approval for hepatocellular carcinoma (HCC), necessitating the prediction of treatment efficacy to promote personalised treatment strategies. Mutational signatures reflect the mutational processes in human cancers and have emerged as promising biomarkers. In this study, we aimed to elucidate the acquisition process and clinical relevance of mismatch repair deficiency (dMMR)-associated mutational signatures. First, we performed mutational signature analyses across various stages of hepatocarcinogenesis using multi-regional whole-genome sequencing data from 529 samples from 26 patients with or without HCC. Second, multi-omics analysis of an additional 239 HCC samples was conducted. Third, we analysed whole-exome sequencing data from 75 additional HCC samples to elucidate the effect of dMMR-associated signatures on the response to atezolizumab plus bevacizumab. In the first analysis, dMMR-associated signatures were commonly observed in subclonal mutations in HCC, but were absent in noncancerous liver tissues. The second analysis revealed that a high proportion of dMMR-associated signatures were associated with larger tumour size, advanced tumour stages, upregulation of cell cycle-related genes, and lower expression of the IL6 gene, but not with decreased expression of mismatch repair genes. The third analysis showed that a high proportion of dMMR-associated signatures were significantly associated with better response rates and longer progression-free survival. Our findings indicate that dMMR-associated signatures can accumulate in HCC without diminished expression levels of mismatch repair proteins, especially during the later stages of tumour progression. They can be a novel biomarker for predicting the efficacy of immunotherapy for HCC.",
+"statements": [
+{
+"j": 1,
+"text": "A high proportion of dMMR-associated signatures went together with reduced expression of mismatch repair genes."
+},
+{
+"j": 2,
+"text": "Tumours with a high proportion of dMMR-associated signatures carry a higher neoantigen load."
+},
+{
+"j": 3,
+"text": "dMMR-associated signatures were common among subclonal mutations in HCC but absent from noncancerous liver tissue."
+},
+{
+"j": 4,
+"text": "The first analysis drew on multi-regional whole-genome sequencing of 529 samples from 26 patients."
+}
+]
+},
+{
+"n": 147,
+"id": "pmid:42192570",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "BRAF fusions are rare but recurrent driver events in a spectrum of mostly pediatric and young adult mesenchymal soft tissue tumors, including infantile fibrosarcoma, lipofibromatosis-like neural tumors, and other kinase fusion spindle cell neoplasms. Their clinicopathologic spectrum, co-occurring secondary genomic events, and frequency among various sarcoma histotypes remain incompletely characterized. The purpose of this study is to comprehensively investigate the incidence and structural variants of BRAF fusions among a large clinicopathologic and molecular sarcoma cohort. The additional goal was to distinguish primary driver BRAF fusions from potential passenger events and correlate with sarcoma histotypes. We identified a total of 24 cases harboring BRAF fusions, with 18 (75%) occurring in canonical BRAF-driven histotypes, including kinase-associated spindle cell tumors (n = 12), myxoinflammatory fibroblastic sarcoma (n = 3), GIST (n = 2) and one hybrid nerve sheath tumor. The remaining six cases were detected in various established pathologic entities (undifferentiated pleomorphic sarcoma, angiosarcoma, embryonal rhabdomyosarcoma, dedifferentiated liposarcoma, PEComa), likely as secondary or passenger events. Among the 12 kinase-associated spindle cell tumors, the most common histologies included tumors resembling infantile fibrosarcoma (n = 4), malignant peripheral nerve sheath tumor (n = 3), lipofibromatosis (n = 2), and myoid/pericytic lesions (n = 2). This predominant group had a wide age range at diagnosis (median 15.5 years), a predilection for soft tissues of extremities, trunk, and head/neck and showed CD34 and S100 co-expression in 45% of cases. In this group, BRAF breakpoints clustered in exons 8-11 retaining an intact kinase domain, and fusion partners were diverse (AGK, AHNAK, NRF1, PAK2, TMEM245, FNBP1, STEAP4, TSC1, KIAA1549). Tumor mutation burden was consistently low, with CDKN2A homozygous deletion being the only recurrent secondary event (4/5 cases profiled). Among the five patients with follow-up (median 34 months), one patient died of disease, with two developing local recurrences at 5 and 84 months. The BRAF fusions occurring in non-canonical histotypes had similar breakpoint patterns and various partners. These results highlight the heterogeneity of mesenchymal neoplasms harboring BRAF fusions, including both driver and likely secondary genetic events, which often require a comprehensive approach that integrates clinical, histopathologic, and detailed molecular data, for a definitive classification."
+}
+],
+"text": "BRAF fusions are rare but recurrent driver events in a spectrum of mostly pediatric and young adult mesenchymal soft tissue tumors, including infantile fibrosarcoma, lipofibromatosis-like neural tumors, and other kinase fusion spindle cell neoplasms. Their clinicopathologic spectrum, co-occurring secondary genomic events, and frequency among various sarcoma histotypes remain incompletely characterized. The purpose of this study is to comprehensively investigate the incidence and structural variants of BRAF fusions among a large clinicopathologic and molecular sarcoma cohort. The additional goal was to distinguish primary driver BRAF fusions from potential passenger events and correlate with sarcoma histotypes. We identified a total of 24 cases harboring BRAF fusions, with 18 (75%) occurring in canonical BRAF-driven histotypes, including kinase-associated spindle cell tumors (n = 12), myxoinflammatory fibroblastic sarcoma (n = 3), GIST (n = 2) and one hybrid nerve sheath tumor. The remaining six cases were detected in various established pathologic entities (undifferentiated pleomorphic sarcoma, angiosarcoma, embryonal rhabdomyosarcoma, dedifferentiated liposarcoma, PEComa), likely as secondary or passenger events. Among the 12 kinase-associated spindle cell tumors, the most common histologies included tumors resembling infantile fibrosarcoma (n = 4), malignant peripheral nerve sheath tumor (n = 3), lipofibromatosis (n = 2), and myoid/pericytic lesions (n = 2). This predominant group had a wide age range at diagnosis (median 15.5 years), a predilection for soft tissues of extremities, trunk, and head/neck and showed CD34 and S100 co-expression in 45% of cases. In this group, BRAF breakpoints clustered in exons 8-11 retaining an intact kinase domain, and fusion partners were diverse (AGK, AHNAK, NRF1, PAK2, TMEM245, FNBP1, STEAP4, TSC1, KIAA1549). Tumor mutation burden was consistently low, with CDKN2A homozygous deletion being the only recurrent secondary event (4/5 cases profiled). Among the five patients with follow-up (median 34 months), one patient died of disease, with two developing local recurrences at 5 and 84 months. The BRAF fusions occurring in non-canonical histotypes had similar breakpoint patterns and various partners. These results highlight the heterogeneity of mesenchymal neoplasms harboring BRAF fusions, including both driver and likely secondary genetic events, which often require a comprehensive approach that integrates clinical, histopathologic, and detailed molecular data, for a definitive classification.",
+"statements": [
+{
+"j": 1,
+"text": "Tumour mutation burden in the kinase-associated spindle cell tumours was consistently high."
+},
+{
+"j": 2,
+"text": "Of the 24 BRAF fusion cases identified, 18 (75%) arose in histotypes already recognised as BRAF-driven."
+},
+{
+"j": 3,
+"text": "Patients whose tumours carried BRAF fusions responded to MEK or RAF inhibitor treatment."
+},
+{
+"j": 4,
+"text": "In the kinase-associated spindle cell tumours the BRAF breakpoints fell in exons 8-11, leaving the kinase domain intact."
+}
+]
+},
+{
+"n": 148,
+"id": "pmid:38339300",
+"year": 2024,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Mutation analysis of circulating tumor DNA (ctDNA) has applications in monitoring of colorectal cancer (CRC) patients for recurrence. Considering the low tumor fraction of ctDNA in cell-free DNA (cfDNA) isolated from blood plasma, the sensitivity of the detection method is important. Here, plasma DNA collected at diagnosis and follow-up from 25 CRC patients was analyzed using a multiplex superRCA mutation detection assay. The assay was also performed on genomic DNA (gDNA) from tumor and normal tissue from 20 of these patients. The lower limit of detection for most sequence variants was in the range of 10 -5 , while when analyzing cfDNA from plasma with a typical input of 33 ng, the practical detection limit was ~10 -4 or 0.01% mutant allele frequency (MAF). In 17 of 19 patients with identified hotspot mutations in tumor gDNA, at least one hotspot mutation could be detected in plasma DNA at the time of diagnosis. The MAF increased at subsequent time points in four of the patients who experienced a clinical relapse. Multiplex superRCA analysis of the remaining six patients did not reveal any hotspot mutations. In conclusion, multiplex superRCA assays proved suitable for monitoring CRC patients by analyzing hotspot mutations in cfDNA, and dynamic changes in MAF were observed in patients with clinical relapse."
+}
+],
+"text": "Mutation analysis of circulating tumor DNA (ctDNA) has applications in monitoring of colorectal cancer (CRC) patients for recurrence. Considering the low tumor fraction of ctDNA in cell-free DNA (cfDNA) isolated from blood plasma, the sensitivity of the detection method is important. Here, plasma DNA collected at diagnosis and follow-up from 25 CRC patients was analyzed using a multiplex superRCA mutation detection assay. The assay was also performed on genomic DNA (gDNA) from tumor and normal tissue from 20 of these patients. The lower limit of detection for most sequence variants was in the range of 10 -5 , while when analyzing cfDNA from plasma with a typical input of 33 ng, the practical detection limit was ~10 -4 or 0.01% mutant allele frequency (MAF). In 17 of 19 patients with identified hotspot mutations in tumor gDNA, at least one hotspot mutation could be detected in plasma DNA at the time of diagnosis. The MAF increased at subsequent time points in four of the patients who experienced a clinical relapse. Multiplex superRCA analysis of the remaining six patients did not reveal any hotspot mutations. In conclusion, multiplex superRCA assays proved suitable for monitoring CRC patients by analyzing hotspot mutations in cfDNA, and dynamic changes in MAF were observed in patients with clinical relapse.",
+"statements": [
+{
+"j": 1,
+"text": "In 17 of the 19 patients whose tumour DNA carried hotspot mutations, at least one was found in plasma at diagnosis."
+},
+{
+"j": 2,
+"text": "With a typical 33 ng cfDNA input the practical detection limit was about 0.01% mutant allele frequency."
+},
+{
+"j": 3,
+"text": "Plasma analysis flagged relapse earlier than clinical or imaging diagnosis in these colorectal cancer patients."
+},
+{
+"j": 4,
+"text": "Mutant allele frequency fell across follow-up time points in the four patients who relapsed clinically."
+}
+]
+},
+{
+"n": 149,
+"id": "pmid:41006474",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Detection of cancer at early stage can significantly improve the five-year survival rate of patients. Bisulfite-based methylation detection can cause DNA damage, especially in high GC content regions which was associated with the development of cancers. Loss of aberrant methylated CpG sites in cfDNA will lead to the undetectability of certain circulating tumor DNA (ctDNA), consequently may affect the cancer detection. Our study uses enzymatic method to detect whole genome abnormal methylation regions in esophageal squamous cell carcinoma (ESCC). We also provide a pretrained neural network, hybrid of BERT and CNN (BCNN), to identify ctDNA robustly. Maximum posterior probability is utilized to estimate the fraction of ESCC-derived ctDNA in plasma for predicting the risk of ESCC cancer. Our results analysis indicated that enzyme-based whole-genome methylation sequencing retained more longer cfDNA and detected more CpG sites than bisulfite-based method in both gDNA and cfDNA. Enrichment analysis of differentially methylated regions (DMR) showed that top five pathways were associated with ESCC. Compared to traditional models, our BCNN demonstrates the best performance in identifying ctDNA (AUC = 0.970). By estimating the fraction of plasma ctDNA, our BCNN exhibits high accuracy in ESCC detection even at ultralow sequencing depths (AUC = 0.946). Specifically, in the validation cohort, when the specificity is 93.75%, 7 out of 8 early-stage ESCC (TNM Stage I) were identified as positive in our preliminary results. In conclusion, our preliminary results reinforce the idea of employing BCNN as a novel strategy for ESCC early detection in clinical practice. However, to be applied in clinical, further validation with a larger sample size is necessary."
+}
+],
+"text": "Detection of cancer at early stage can significantly improve the five-year survival rate of patients. Bisulfite-based methylation detection can cause DNA damage, especially in high GC content regions which was associated with the development of cancers. Loss of aberrant methylated CpG sites in cfDNA will lead to the undetectability of certain circulating tumor DNA (ctDNA), consequently may affect the cancer detection. Our study uses enzymatic method to detect whole genome abnormal methylation regions in esophageal squamous cell carcinoma (ESCC). We also provide a pretrained neural network, hybrid of BERT and CNN (BCNN), to identify ctDNA robustly. Maximum posterior probability is utilized to estimate the fraction of ESCC-derived ctDNA in plasma for predicting the risk of ESCC cancer. Our results analysis indicated that enzyme-based whole-genome methylation sequencing retained more longer cfDNA and detected more CpG sites than bisulfite-based method in both gDNA and cfDNA. Enrichment analysis of differentially methylated regions (DMR) showed that top five pathways were associated with ESCC. Compared to traditional models, our BCNN demonstrates the best performance in identifying ctDNA (AUC = 0.970). By estimating the fraction of plasma ctDNA, our BCNN exhibits high accuracy in ESCC detection even at ultralow sequencing depths (AUC = 0.946). Specifically, in the validation cohort, when the specificity is 93.75%, 7 out of 8 early-stage ESCC (TNM Stage I) were identified as positive in our preliminary results. In conclusion, our preliminary results reinforce the idea of employing BCNN as a novel strategy for ESCC early detection in clinical practice. However, to be applied in clinical, further validation with a larger sample size is necessary.",
+"statements": [
+{
+"j": 1,
+"text": "The enzymatic whole-genome methylation protocol recovered fewer CpG sites than the bisulfite-based method."
+},
+{
+"j": 2,
+"text": "The BCNN model detects ctDNA in gastric and colorectal cancer plasma as accurately as in ESCC."
+},
+{
+"j": 3,
+"text": "The BCNN reached an AUC of 0.970 for identifying ctDNA, the best of the models compared."
+},
+{
+"j": 4,
+"text": "At 93.75% specificity in the validation cohort, 7 of 8 stage I ESCC cases were called positive."
+}
+]
+},
+{
+"n": 150,
+"id": "doi:10.64898/2026.10.08.757030",
+"year": 2026,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "We present draft genome assemblies for two poneroid ant species with distinctive life history traits: Platythyrea mocquerysi Emery, 1899 (Ponerinae) and Stigmatomma oregonense Wheeler, 1915 (Amblyoponinae). Platythyrea mocquerysi is a Malagasy ant in which larvae produce secretions from a ventral tubercle that are consumed by adults, representing an unusual form of larva-to-adult trophallaxis. Stigmatomma oregonense , a North American “dracula ant,” feeds non-lethally on larval haemolymph. Using PacBio HiFi long-read sequencing, we assembled the P. mocquerysi genome (187 Mb, 307 scaffolds, N50 = 5.26 Mb, BUSCO 99.2% complete) and the S. oregonense genome (262 Mb, 1,189 scaffolds, N50 = 0.84 Mb, BUSCO 98.3% complete). These genomes encode 10,860 and 12,354 protein-coding genes, respectively. Repeat content is higher in S. oregonense than in P. mocquerysi, 54.3% against a lower bound of 15.7%. Most of the difference is in unclassified repeats, which we show to be diverged transposable elements. Comparative analysis with two additional poneroid genomes from closely related species reveals that genome size variation across poneroid ants is largely explained by transposable element dynamics, with notable expansions in several gene families including carboxylesterases, serine proteases, and lipid metabolism genes in Amblyoponinae. These genomes provide essential resources for investigating the molecular basis of unconventional brood management strategies in ants."
+}
+],
+"text": "We present draft genome assemblies for two poneroid ant species with distinctive life history traits: Platythyrea mocquerysi Emery, 1899 (Ponerinae) and Stigmatomma oregonense Wheeler, 1915 (Amblyoponinae). Platythyrea mocquerysi is a Malagasy ant in which larvae produce secretions from a ventral tubercle that are consumed by adults, representing an unusual form of larva-to-adult trophallaxis. Stigmatomma oregonense , a North American “dracula ant,” feeds non-lethally on larval haemolymph. Using PacBio HiFi long-read sequencing, we assembled the P. mocquerysi genome (187 Mb, 307 scaffolds, N50 = 5.26 Mb, BUSCO 99.2% complete) and the S. oregonense genome (262 Mb, 1,189 scaffolds, N50 = 0.84 Mb, BUSCO 98.3% complete). These genomes encode 10,860 and 12,354 protein-coding genes, respectively. Repeat content is higher in S. oregonense than in P. mocquerysi, 54.3% against a lower bound of 15.7%. Most of the difference is in unclassified repeats, which we show to be diverged transposable elements. Comparative analysis with two additional poneroid genomes from closely related species reveals that genome size variation across poneroid ants is largely explained by transposable element dynamics, with notable expansions in several gene families including carboxylesterases, serine proteases, and lipid metabolism genes in Amblyoponinae. These genomes provide essential resources for investigating the molecular basis of unconventional brood management strategies in ants.",
+"statements": [
+{
+"j": 1,
+"text": "Repeat content reaches 54.3% in S. oregonense against at least 15.7% in P. mocquerysi."
+},
+{
+"j": 2,
+"text": "Expression of the expanded carboxylesterase genes is highest in larvae."
+},
+{
+"j": 3,
+"text": "The S. oregonense assembly is the larger of the two at 262 Mb and the more fragmented, with 1,189 scaffolds."
+},
+{
+"j": 4,
+"text": "The repeat-content gap between the two ant genomes lies mostly in well-classified LTR retrotransposon families."
+}
+]
+},
+{
+"n": 151,
+"id": "doi:10.1101/2023.09.03.556123",
+"year": 2023,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Copy number alterations (CNAs) are an important type of genomic aberrations. It plays an important role in tumor pathogenesis and progression of cancer. It is important to detect regions of the cancer genome where copy number changes occur, which may provide clues that drive cancer progression. Deep sequencing technology provides genomic data at single-nucleotide resolution and is considered a better technique for detecting CNAs. There are currently many CNA-detection algorithms developed for whole genome sequencing (WGS) data. However, their detection capabilities have not been systematically investigated. Therefore, we selected three algorithms: Accucopy, Sequenza , and ControlFreeC , and applied them to data simulated under different settings. The results indicate that: 1) the correct inference of tumor sample purity is crucial to the inference of CNAs. If the tumor purity is wrongly inferred, the CNA detection will fail. 2) Higher sequencing depth and abundance of CNAs can improve performance. 3) Under the settings tested (sequencing depth at 5X or 30X, purity from 0.1 to 0.9, existence of subclones or not), Accucopy is the best-performing algorithm overall. For coverage=5X samples, ControlFreeC requires tumor purity to be above 50% to perform well. Sequenza can only perform well in high-coverage and more-CNA samples."
+}
+],
+"text": "Copy number alterations (CNAs) are an important type of genomic aberrations. It plays an important role in tumor pathogenesis and progression of cancer. It is important to detect regions of the cancer genome where copy number changes occur, which may provide clues that drive cancer progression. Deep sequencing technology provides genomic data at single-nucleotide resolution and is considered a better technique for detecting CNAs. There are currently many CNA-detection algorithms developed for whole genome sequencing (WGS) data. However, their detection capabilities have not been systematically investigated. Therefore, we selected three algorithms: Accucopy, Sequenza , and ControlFreeC , and applied them to data simulated under different settings. The results indicate that: 1) the correct inference of tumor sample purity is crucial to the inference of CNAs. If the tumor purity is wrongly inferred, the CNA detection will fail. 2) Higher sequencing depth and abundance of CNAs can improve performance. 3) Under the settings tested (sequencing depth at 5X or 30X, purity from 0.1 to 0.9, existence of subclones or not), Accucopy is the best-performing algorithm overall. For coverage=5X samples, ControlFreeC requires tumor purity to be above 50% to perform well. Sequenza can only perform well in high-coverage and more-CNA samples.",
+"statements": [
+{
+"j": 1,
+"text": "Runtime and memory use differ substantially among the three algorithms."
+},
+{
+"j": 2,
+"text": "Sequenza performed well on low-coverage samples carrying few copy number alterations."
+},
+{
+"j": 3,
+"text": "At 5X coverage ControlFreeC performed well only when tumour purity was above 50%."
+},
+{
+"j": 4,
+"text": "Across the simulated settings tested, Accucopy gave the best overall performance of the three callers."
+}
+]
+},
+{
+"n": 152,
+"id": "pmid:40419568",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Circulating tumour DNA (ctDNA) is a minimally invasive cancer biomarker that can be used to inform treatment of cancer patients. The utility of ctDNA as a cancer biomarker depends on the ability to accurately detect somatic variants associated with cancer. Accurate somatic variant detection in circulating cell free DNA (cfDNA) NGS data requires filtering strategies to remove germline variants, and NGS artifacts. Rule-based variant filtering methods either remove a substantial number of true positive ctDNA variants along with false variant calls or retain an implausibly large number of total variants. Machine Learning (ML) enables identification of complex patterns which may improve ability to distinguish between real somatic ctDNA variants and false positive calls. We built two Random Forest (RF) models for predicting high confidence somatic ctDNA variants in low and high depth cfDNA NGS data. Low depth models were fitted and evaluated on whole exome sequencing (WES) cfDNA data at depths of approximately 10X while the high depth data was sequenced at approximately 500X. Both models utilise a set of 15 features from variants detected by bcftools, FreeBayes, LoFreq and Mutect2. High confidence ground truth sets were obtained from matched tissue biopsy samples. We benchmarked our models against rule-based filtering with a set of hard, medium, and soft thresholds. Precision-recall curves showed the high depth model outperformed rule-based filtering at all thresholds in Test Data (PR-AUC 0.71). Partial dependence plots showed membership in the COSMIC database, absence from the dbSNP common variants database, and increasing read depth increased mean probability of high confidence somatic variant prediction in both models. Our results demonstrate the utility of supervised ML models for filtering variants in cfDNA data."
+}
+],
+"text": "Circulating tumour DNA (ctDNA) is a minimally invasive cancer biomarker that can be used to inform treatment of cancer patients. The utility of ctDNA as a cancer biomarker depends on the ability to accurately detect somatic variants associated with cancer. Accurate somatic variant detection in circulating cell free DNA (cfDNA) NGS data requires filtering strategies to remove germline variants, and NGS artifacts. Rule-based variant filtering methods either remove a substantial number of true positive ctDNA variants along with false variant calls or retain an implausibly large number of total variants. Machine Learning (ML) enables identification of complex patterns which may improve ability to distinguish between real somatic ctDNA variants and false positive calls. We built two Random Forest (RF) models for predicting high confidence somatic ctDNA variants in low and high depth cfDNA NGS data. Low depth models were fitted and evaluated on whole exome sequencing (WES) cfDNA data at depths of approximately 10X while the high depth data was sequenced at approximately 500X. Both models utilise a set of 15 features from variants detected by bcftools, FreeBayes, LoFreq and Mutect2. High confidence ground truth sets were obtained from matched tissue biopsy samples. We benchmarked our models against rule-based filtering with a set of hard, medium, and soft thresholds. Precision-recall curves showed the high depth model outperformed rule-based filtering at all thresholds in Test Data (PR-AUC 0.71). Partial dependence plots showed membership in the COSMIC database, absence from the dbSNP common variants database, and increasing read depth increased mean probability of high confidence somatic variant prediction in both models. Our results demonstrate the utility of supervised ML models for filtering variants in cfDNA data.",
+"statements": [
+{
+"j": 1,
+"text": "The low-depth model was fitted on whole exome cfDNA data sequenced to roughly 500X."
+},
+{
+"j": 2,
+"text": "Applying the random forest filter changed how many patients were judged eligible for targeted therapy."
+},
+{
+"j": 3,
+"text": "Presence in COSMIC and absence from dbSNP common variants raised the predicted probability of a true somatic variant."
+},
+{
+"j": 4,
+"text": "The high-depth random forest beat rule-based filtering at every threshold in the test data, with a PR-AUC of 0.71."
+}
+]
+},
+{
+"n": 153,
+"id": "pmid:42210697",
+"year": 2026,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Urinary tract infections (UTIs) impose a large healthcare burden, with escalating antimicrobial resistance (AMR), and treatment failure. Proteus mirabilis is an undercharacterized and challenging UTI pathogen due to intrinsic resistance and biofilm formation. To understand P. mirabilis population genomics, we combined pangenome analysis, in silico AMR prediction, and phenotypic antimicrobial susceptibility testing (AST) across 1,027 P. mirabilis genomes derived from human urine specimens. This revealed a mosaic pangenome driven by extensive accessory genome plasticity. Multilocus sequence typing (MLST) identified 213 MLSTs, with only 7% having ≥10 genomes, highlighting strain diversity. AMR gene profiles were largely lineage-specific, with 25% of genomes harboring resistances for >6 antimicrobial subclasses. ST135 was identified as a highly MDR lineage, with 95% of genomes carrying ≥16 resistance genes. Mobile genetic element (MGE) analysis of 22 clinical isolates with complete, reference-level genomes revealed that Tn7 transposons, IS26-mediated genomic islands, and class 1 integrons act as vehicles for high AMR gene dissemination, including IS26-mediated gene stacking within a P. mirabilis Genomic Resistance Island 1 ( PmGRI1 ) in ST135 isolates. While the presence of genes like aph(3')-la reliably predicted kanamycin resistance, discordance for antibiotics such as trimethoprim-sulfamethoxazole and chloramphenicol revealed that AMR gene stacking, regulatory context, and intrinsic mechanisms, like efflux pumps, modulate phenotypic outcomes. In summary, our study provides a comprehensive and phenotypic resolution of P. mirabilis AMR, establishing that resistance architecture is lineage-structured, MGE-driven, and phenotypically non-deterministic. We emphasize the need to shift toward a standardized, genome-informed surveillance framework to translate into diagnostic and therapeutic strategies."
+}
+],
+"text": "Urinary tract infections (UTIs) impose a large healthcare burden, with escalating antimicrobial resistance (AMR), and treatment failure. Proteus mirabilis is an undercharacterized and challenging UTI pathogen due to intrinsic resistance and biofilm formation. To understand P. mirabilis population genomics, we combined pangenome analysis, in silico AMR prediction, and phenotypic antimicrobial susceptibility testing (AST) across 1,027 P. mirabilis genomes derived from human urine specimens. This revealed a mosaic pangenome driven by extensive accessory genome plasticity. Multilocus sequence typing (MLST) identified 213 MLSTs, with only 7% having ≥10 genomes, highlighting strain diversity. AMR gene profiles were largely lineage-specific, with 25% of genomes harboring resistances for >6 antimicrobial subclasses. ST135 was identified as a highly MDR lineage, with 95% of genomes carrying ≥16 resistance genes. Mobile genetic element (MGE) analysis of 22 clinical isolates with complete, reference-level genomes revealed that Tn7 transposons, IS26-mediated genomic islands, and class 1 integrons act as vehicles for high AMR gene dissemination, including IS26-mediated gene stacking within a P. mirabilis Genomic Resistance Island 1 ( PmGRI1 ) in ST135 isolates. While the presence of genes like aph(3')-la reliably predicted kanamycin resistance, discordance for antibiotics such as trimethoprim-sulfamethoxazole and chloramphenicol revealed that AMR gene stacking, regulatory context, and intrinsic mechanisms, like efflux pumps, modulate phenotypic outcomes. In summary, our study provides a comprehensive and phenotypic resolution of P. mirabilis AMR, establishing that resistance architecture is lineage-structured, MGE-driven, and phenotypically non-deterministic. We emphasize the need to shift toward a standardized, genome-informed surveillance framework to translate into diagnostic and therapeutic strategies.",
+"statements": [
+{
+"j": 1,
+"text": "In the multidrug-resistant ST135 lineage, 95% of genomes carried at least 16 resistance genes."
+},
+{
+"j": 2,
+"text": "Sequence typing of the collection found 213 sequence types, only 7% of them represented by ten or more genomes."
+},
+{
+"j": 3,
+"text": "Genotype matched phenotype for trimethoprim-sulfamethoxazole and chloramphenicol, while kanamycin predictions were discordant."
+},
+{
+"j": 4,
+"text": "ST135 isolates formed thicker biofilms than isolates of other sequence types."
+}
+]
+},
+{
+"n": 154,
+"id": "pmid:40597611",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "The Juan Fernández rock lobster Jasus frontalis (H. Milne-Edwards, 1837) is found along the Juan Fernández archipelago and Desventuradas Islands in the southeastern Pacific Ocean where it supports a profitable but likely unsustainable artisanal fishery. Only a few genomic resources are available for this species to support efficient managing practices. In this study, we took a first look at the genome of J. frontalis profiting from recently developed bioinformatics tools that mine for biological insight from low sequencing-depth datasets. Specifically, we have (i) estimated the nuclear genome size, (ii) assembled and described in detail the mitochondrial genome, (iii) discovered, quantified, and annotated nuclear transposable elements, and (iv) examined the phylogenetic position of the genus Jasus among spiny lobsters (family Palinuridae) using a maximum likelihood phylogenetic analysis based on translated mitochondrial protein coding genes (PCG's)."
+},
+{
+"label": "Results",
+"text": "Using an in-silico k-mer approach, the haploid nuclear genome size (GS) calculated for J. frontalis ranged between 1.42 Gbp (estimated using k-mer = 54 bp) and 1.65 Gbp (with k-mer = 18). Our GS estimates are well below the GS (= 4.56 Gbp) determined for the same species using flow cytometry. In J. frontalis, the circular mitochondrial genome is 15,514 bp in length and contains 22 transfer (tRNA) genes, 13 PCGs, and two ribosomal RNA genes (12 S and 16 S ribosomal RNA). In the nuclear genome of J. frontalis, repetitive elements content varied between 41% (with k-mer = 54) and 64% (using k-mer = 18 bp). Nearly a third (64.94%) of the transposable elements were not annotated. Among annotated transposable elements, Long Interspersed Nuclear Elements (LINEs, 12.64%), DNA transposons (7.35%), and Long Terminal Repeats (LTRs, 5.44%) were the most common. Less abundant transposable elements included Rolling Circles (1.3%), Short Interspersed Nuclear Elements (SINEs, 0.64%), Satellite DNA (0.43%), and simple repeats (0.42%), among others. A phylomitogenomic analysis based on PCGs indicated supported the monophyletic status of the infraorder Achelata and the superfamilies Paniluridae and Syllaridae. The genus Jasus together with Sagmariasus verreauxi were recovered as a monophyletic clade that also provided support for the monophyletic status of lobsters that do not produce sound (\"Silentes\")."
+},
+{
+"label": "Conclusion",
+"text": "The genomic resources developed in this study will support conservation strategies and efficient fisheries management in this spiny lobster that is likely overexploited."
+}
+],
+"text": "The Juan Fernández rock lobster Jasus frontalis (H. Milne-Edwards, 1837) is found along the Juan Fernández archipelago and Desventuradas Islands in the southeastern Pacific Ocean where it supports a profitable but likely unsustainable artisanal fishery. Only a few genomic resources are available for this species to support efficient managing practices. In this study, we took a first look at the genome of J. frontalis profiting from recently developed bioinformatics tools that mine for biological insight from low sequencing-depth datasets. Specifically, we have (i) estimated the nuclear genome size, (ii) assembled and described in detail the mitochondrial genome, (iii) discovered, quantified, and annotated nuclear transposable elements, and (iv) examined the phylogenetic position of the genus Jasus among spiny lobsters (family Palinuridae) using a maximum likelihood phylogenetic analysis based on translated mitochondrial protein coding genes (PCG's). Using an in-silico k-mer approach, the haploid nuclear genome size (GS) calculated for J. frontalis ranged between 1.42 Gbp (estimated using k-mer = 54 bp) and 1.65 Gbp (with k-mer = 18). Our GS estimates are well below the GS (= 4.56 Gbp) determined for the same species using flow cytometry. In J. frontalis, the circular mitochondrial genome is 15,514 bp in length and contains 22 transfer (tRNA) genes, 13 PCGs, and two ribosomal RNA genes (12 S and 16 S ribosomal RNA). In the nuclear genome of J. frontalis, repetitive elements content varied between 41% (with k-mer = 54) and 64% (using k-mer = 18 bp). Nearly a third (64.94%) of the transposable elements were not annotated. Among annotated transposable elements, Long Interspersed Nuclear Elements (LINEs, 12.64%), DNA transposons (7.35%), and Long Terminal Repeats (LTRs, 5.44%) were the most common. Less abundant transposable elements included Rolling Circles (1.3%), Short Interspersed Nuclear Elements (SINEs, 0.64%), Satellite DNA (0.43%), and simple repeats (0.42%), among others. A phylomitogenomic analysis based on PCGs indicated supported the monophyletic status of the infraorder Achelata and the superfamilies Paniluridae and Syllaridae. The genus Jasus together with Sagmariasus verreauxi were recovered as a monophyletic clade that also provided support for the monophyletic status of lobsters that do not produce sound (\"Silentes\"). The genomic resources developed in this study will support conservation strategies and efficient fisheries management in this spiny lobster that is likely overexploited.",
+"statements": [
+{
+"j": 1,
+"text": "SINEs were more abundant in the nuclear genome than LINEs."
+},
+{
+"j": 2,
+"text": "Among annotated transposable elements LINEs were most abundant at 12.64%, ahead of DNA transposons and LTR elements."
+},
+{
+"j": 3,
+"text": "The k-mer genome size estimates fall far below the 4.56 Gbp measured for the same species by flow cytometry."
+},
+{
+"j": 4,
+"text": "The mitochondrial genome shows gene order rearrangements relative to other spiny lobsters."
+}
+]
+},
+{
+"n": 155,
+"id": "pmid:41660603",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Flax is an important agricultural crop with multifunctional uses. Diversified breeding for oil content in seeds and fiber in stems has led to the emergence of two morphotypes - fiber flax and oilseed flax. Previously, using single nucleotide polymorphisms (SNPs), we characterized the genetic diversity of 306 flax samples from the collection of the Russian Federal Research Center for Bast Crops. However, larger structural variations, such as mobile genetic elements, also play a significant role in shaping agronomically important plant traits and can be used for further flax improvement. Here, we used the same flax collection to predict sites of new transposon insertions and to assess the role of such insertions in the formation of agronomically important traits, as well as in the process of flax domestication. We discovered 588,480 new transposon insertion sites not present in the reference flax genome (NCBI assembly ASM22429v2), the majority of which were attributed to retrotransposons of the Copia and Gypsy superfamilies, while among DNA transposons, insertion sites of the MULE-MuDR, hAT, and CMC-EnSpm superfamilies were most common. Unlike SNPs, which were significantly more numerous in oilseed flax than in fiber flax, we did not find such a substantial difference in the number of insertions of different transposon families per plant among samples of different morphotypes. Analysis of genomic regions affected by recent breeding efforts revealed a total of 61 candidate regions, of which 18 regions overlapped with QTLs associated with important agronomic traits. Interestingly, 5 regions of reduced genetic diversity in kryazhs and cultivars compared to landraces were also identified as regions of reduced diversity when using single nucleotide polymorphisms as markers. A genome-wide association study (GWAS) identified 50 TE insertions associated with different phenotypic traits, with many associations confirmed by multiple models or detected in data from multiple years. Thus, transposon insertion sites are an important source of genetic diversity in flax, alongside single nucleotide polymorphisms, making them suitable for further crop improvement in breeding."
+}
+],
+"text": "Flax is an important agricultural crop with multifunctional uses. Diversified breeding for oil content in seeds and fiber in stems has led to the emergence of two morphotypes - fiber flax and oilseed flax. Previously, using single nucleotide polymorphisms (SNPs), we characterized the genetic diversity of 306 flax samples from the collection of the Russian Federal Research Center for Bast Crops. However, larger structural variations, such as mobile genetic elements, also play a significant role in shaping agronomically important plant traits and can be used for further flax improvement. Here, we used the same flax collection to predict sites of new transposon insertions and to assess the role of such insertions in the formation of agronomically important traits, as well as in the process of flax domestication. We discovered 588,480 new transposon insertion sites not present in the reference flax genome (NCBI assembly ASM22429v2), the majority of which were attributed to retrotransposons of the Copia and Gypsy superfamilies, while among DNA transposons, insertion sites of the MULE-MuDR, hAT, and CMC-EnSpm superfamilies were most common. Unlike SNPs, which were significantly more numerous in oilseed flax than in fiber flax, we did not find such a substantial difference in the number of insertions of different transposon families per plant among samples of different morphotypes. Analysis of genomic regions affected by recent breeding efforts revealed a total of 61 candidate regions, of which 18 regions overlapped with QTLs associated with important agronomic traits. Interestingly, 5 regions of reduced genetic diversity in kryazhs and cultivars compared to landraces were also identified as regions of reduced diversity when using single nucleotide polymorphisms as markers. A genome-wide association study (GWAS) identified 50 TE insertions associated with different phenotypic traits, with many associations confirmed by multiple models or detected in data from multiple years. Thus, transposon insertion sites are an important source of genetic diversity in flax, alongside single nucleotide polymorphisms, making them suitable for further crop improvement in breeding.",
+"statements": [
+{
+"j": 1,
+"text": "Transposon insertions per plant were markedly more numerous in oilseed flax than in fiber flax, mirroring the SNP difference."
+},
+{
+"j": 2,
+"text": "The 50 trait-associated insertions sit inside or near genes whose expression they alter."
+},
+{
+"j": 3,
+"text": "Of 61 candidate regions shaped by recent breeding, 18 overlapped QTLs for important agronomic traits."
+},
+{
+"j": 4,
+"text": "The screen found 588,480 transposon insertion sites absent from the reference flax genome, mostly Copia and Gypsy retrotransposons."
+}
+]
+},
+{
+"n": 156,
+"id": "pmid:40917997",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Phlebopus portentosus is a widely consumed edible mushroom and the only Boletales species currently cultivated on an industrial scale. Despite its economic importance, its trophic strategy and genomic adaptations remain elusive. Here, we presented high-quality, chromosome-level genome assemblies for two sexually compatible monokaryons (PP78 and PP85) of P. portentosus . Comparative genomic analysis revealed a genome size difference of 1.17 Mb (30.87 vs. 32.04 Mb), primarily attributed to transposable element (TE) expansion in strain PP85. Genome structural variations were largely driven by TEs, particularly LTR retrotransposons. DNA transposons were also involved in structural rearrangement of secondary metabolite biosynthetic gene clusters, impacting their organization and transcriptional profiles. Functional annotation identified 187 PP78-specific and 236 PP85-specific genes, with the latter enriched in TE-related and putative virulence factors. P. portentosus displays genomic signatures of both ECM symbiosis (reduced lignocellulose-degrading enzymes) and saprotroph (expanded glycoside hydrolase 31 and sugar transporters), supporting a facultative ECM lifestyle. The expansion of non-ribosomal peptide synthetase and polyketide synthase pathways, alongside contraction of terpenoid clusters typical of ECM fungi, further indicated its adaptation to saprotroph. These findings highlight the role of TEs in driving genome plasticity, metabolic diversity, and nuclear divergence in P. portentosus , providing valuable genomic resources for this species."
+}
+],
+"text": "Phlebopus portentosus is a widely consumed edible mushroom and the only Boletales species currently cultivated on an industrial scale. Despite its economic importance, its trophic strategy and genomic adaptations remain elusive. Here, we presented high-quality, chromosome-level genome assemblies for two sexually compatible monokaryons (PP78 and PP85) of P. portentosus . Comparative genomic analysis revealed a genome size difference of 1.17 Mb (30.87 vs. 32.04 Mb), primarily attributed to transposable element (TE) expansion in strain PP85. Genome structural variations were largely driven by TEs, particularly LTR retrotransposons. DNA transposons were also involved in structural rearrangement of secondary metabolite biosynthetic gene clusters, impacting their organization and transcriptional profiles. Functional annotation identified 187 PP78-specific and 236 PP85-specific genes, with the latter enriched in TE-related and putative virulence factors. P. portentosus displays genomic signatures of both ECM symbiosis (reduced lignocellulose-degrading enzymes) and saprotroph (expanded glycoside hydrolase 31 and sugar transporters), supporting a facultative ECM lifestyle. The expansion of non-ribosomal peptide synthetase and polyketide synthase pathways, alongside contraction of terpenoid clusters typical of ECM fungi, further indicated its adaptation to saprotroph. These findings highlight the role of TEs in driving genome plasticity, metabolic diversity, and nuclear divergence in P. portentosus , providing valuable genomic resources for this species.",
+"statements": [
+{
+"j": 1,
+"text": "Annotation found 187 genes unique to PP78 and 236 unique to PP85, the latter enriched for TE-related and putative virulence functions."
+},
+{
+"j": 2,
+"text": "Terpenoid biosynthetic clusters were expanded in this fungus while the polyketide synthase pathways contracted."
+},
+{
+"j": 3,
+"text": "Fruiting body yield in cultivation is higher for PP85 than for PP78."
+},
+{
+"j": 4,
+"text": "The two monokaryon assemblies differ by 1.17 Mb (30.87 versus 32.04 Mb), attributed mainly to transposable element expansion in PP85."
+}
+]
+},
+{
+"n": 157,
+"id": "doi:10.64898/2026.09.16.752100",
+"year": 2026,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Fusarium graminearum is the causative agent of Fusarium head blight of wheat, yet genomic resources for Brazilian populations, where it is the dominant species, remain limited to a single reference genome. We report fifteen near telomere-to-telomere (T2T) assemblies of Brazilian F. graminearum isolates generated with Oxford Nanopore sequencing. Each genome was assembled into four nuclear chromosomes, with 118 of 120 telomeres resolved, BUSCO completeness of 99.1–99.3%, and 14,802–14,894 predicted genes per isolate. The genomes are structurally conserved, showing no chromosome-scale rearrangements and uniform transposable element content. Orthology assignment placed 90.4% of genes in the core genome. This suggests that the large phenotypic variance in aggressiveness observed between isolates likely resides in regulatory differences and/or within the small and largely uncharacterised accessory fraction. Ultimately, these assemblies provide a high-resolution resource for the global FHB community and a foundation for comparative analysis of a previously underrepresented population."
+}
+],
+"text": "Fusarium graminearum is the causative agent of Fusarium head blight of wheat, yet genomic resources for Brazilian populations, where it is the dominant species, remain limited to a single reference genome. We report fifteen near telomere-to-telomere (T2T) assemblies of Brazilian F. graminearum isolates generated with Oxford Nanopore sequencing. Each genome was assembled into four nuclear chromosomes, with 118 of 120 telomeres resolved, BUSCO completeness of 99.1–99.3%, and 14,802–14,894 predicted genes per isolate. The genomes are structurally conserved, showing no chromosome-scale rearrangements and uniform transposable element content. Orthology assignment placed 90.4% of genes in the core genome. This suggests that the large phenotypic variance in aggressiveness observed between isolates likely resides in regulatory differences and/or within the small and largely uncharacterised accessory fraction. Ultimately, these assemblies provide a high-resolution resource for the global FHB community and a foundation for comparative analysis of a previously underrepresented population.",
+"statements": [
+{
+"j": 1,
+"text": "Transposable element content varied widely between the Brazilian isolates, alongside several chromosome-scale rearrangements."
+},
+{
+"j": 2,
+"text": "Deoxynivalenol production differs among the fifteen sequenced isolates."
+},
+{
+"j": 3,
+"text": "Orthology analysis assigned 90.4% of genes to the core genome."
+},
+{
+"j": 4,
+"text": "The assemblies each contain four nuclear chromosomes and together resolved 118 of 120 telomeres."
+}
+]
+},
+{
+"n": 158,
+"id": "pmid:42016323",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Transient receptor potential (TRP) channels regulate Ca 2+ homeostasis and tumor malignant phenotypes, whereas their prognostic relevance and therapeutic implications in glioblastoma (GBM) remain poorly characterized."
+},
+{
+"label": "Methods",
+"text": "We curated a comprehensive compendium of 522 TRP-related genes from MSigDB, KEGG, and GeneCards. Differential expression analysis across clinical variables in The Cancer Genome Atlas Glioblastoma cohort (TCGA-GBM; n = 529) identified 193 TRP-associated genes significantly linked to patient outcomes. Using univariate Cox regression followed by LASSO-Cox regularization, we developed a seven-gene transient receptor potential-related prognostic risk score (TRPRS). The model was rigorously validated in three independent external cohorts. Integrated multiomics analyses encompassed genomic alterations, tumor immune microenvironment profiling, and drug sensitivity prediction. Functional validation focused on the top-ranked gene, IFNGR2, using in vitro glioma models."
+},
+{
+"label": "Results",
+"text": "TRPRS robustly stratified GBM patients into high- and low-risk groups with significantly distinct overall survival across all four datasets (AUC = 0.72-0.81). Genomically, high-TRPRS tumors were enriched for PTEN loss and 9q21.3 amplification, whereas low-TRPRS tumors frequently harbored TP53 mutations and 1q21.3 deletions. High TRPRS was associated with diminished cytotoxic T-cell infiltration and predicted resistance to multiple therapeutics-including cisplatin, carmustine, gefitinib, buparlisib, and afatinib. Notably, TIDE analysis revealed significantly reduced likelihood of response to immune checkpoint blockade in high-TRPRS GBM, a pattern consistently observed in immunotherapy-treated cohorts of melanoma, renal cell carcinoma, and bladder cancer. Functional assays demonstrated that IFNGR2 knockdown suppressed glioma cell proliferation and attenuated NF- κ B signaling, underscoring its role as a key driver within the TRP network."
+},
+{
+"label": "Discussion",
+"text": "TRPRS provides a robust, biologically grounded tool for simultaneous prognostication and therapy guidance in GBM, highlighting TRP signaling as a therapeutic vulnerability."
+}
+],
+"text": "Transient receptor potential (TRP) channels regulate Ca 2+ homeostasis and tumor malignant phenotypes, whereas their prognostic relevance and therapeutic implications in glioblastoma (GBM) remain poorly characterized. We curated a comprehensive compendium of 522 TRP-related genes from MSigDB, KEGG, and GeneCards. Differential expression analysis across clinical variables in The Cancer Genome Atlas Glioblastoma cohort (TCGA-GBM; n = 529) identified 193 TRP-associated genes significantly linked to patient outcomes. Using univariate Cox regression followed by LASSO-Cox regularization, we developed a seven-gene transient receptor potential-related prognostic risk score (TRPRS). The model was rigorously validated in three independent external cohorts. Integrated multiomics analyses encompassed genomic alterations, tumor immune microenvironment profiling, and drug sensitivity prediction. Functional validation focused on the top-ranked gene, IFNGR2, using in vitro glioma models. TRPRS robustly stratified GBM patients into high- and low-risk groups with significantly distinct overall survival across all four datasets (AUC = 0.72-0.81). Genomically, high-TRPRS tumors were enriched for PTEN loss and 9q21.3 amplification, whereas low-TRPRS tumors frequently harbored TP53 mutations and 1q21.3 deletions. High TRPRS was associated with diminished cytotoxic T-cell infiltration and predicted resistance to multiple therapeutics-including cisplatin, carmustine, gefitinib, buparlisib, and afatinib. Notably, TIDE analysis revealed significantly reduced likelihood of response to immune checkpoint blockade in high-TRPRS GBM, a pattern consistently observed in immunotherapy-treated cohorts of melanoma, renal cell carcinoma, and bladder cancer. Functional assays demonstrated that IFNGR2 knockdown suppressed glioma cell proliferation and attenuated NF- κ B signaling, underscoring its role as a key driver within the TRP network. TRPRS provides a robust, biologically grounded tool for simultaneous prognostication and therapy guidance in GBM, highlighting TRP signaling as a therapeutic vulnerability.",
+"statements": [
+{
+"j": 1,
+"text": "Knocking down IFNGR2 reduced glioma cell proliferation and dampened NF-kB signalling in vitro."
+},
+{
+"j": 2,
+"text": "High-TRPRS tumours were the ones frequently carrying TP53 mutations and 1q21.3 deletions."
+},
+{
+"j": 3,
+"text": "The seven-gene TRPRS split patients by overall survival in all four datasets, with AUCs of 0.72 to 0.81."
+},
+{
+"j": 4,
+"text": "Patients with high TRPRS had larger tumour volumes at diagnosis."
+}
+]
+},
+{
+"n": 159,
+"id": "pmid:38966395",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Clostridioides difficile is an emerging pathogen of One Health significance. Its highly variable genome contains mobile genetic elements (MGEs) such as transposons and prophages that influence its biology. Systematic deletion of each genetic element is required to determine their precise role in C. difficile biology and contribution to the wider mobilome. Here, Tn 5397 (21 kb) and ϕ027 (56 kb) were deleted from C. difficile 630 and R20291, respectively, using allele replacement facilitated by CRISPR-Cas9. The 630 Tn 5397 deletant transferred PaLoc at the same frequency (1 × 10 -7 ) as 630 harboring Tn 5397 , indicating that Tn 5397 alone did not mediate conjugative transfer of PaLoc. The R20291 ϕ027 deletant was sensitive to ϕ027 infection, and contained two unexpected features, a 2.7 kb remnant of the mutagenesis plasmid, and a putative catalase gene adjacent to the deleted prophage was also deleted. Growth kinetics of R20291 ϕ027 deletant was similar to wild type (WT) in rich medium but marginally reduced compared with WT in minimal medium. This work indicates the commonly used pMTL8000 plasmid series works well for CRISPR-Cas9-mediated gene deletion, resulting in the largest deleted locus (56.8 kb) described in C. difficile . Removal of MGEs was achieved by targeting conjugative/integrative regions to promote excision and permanent loss. The deletants created will be useful strains for investigating Tn 5397 or ϕ027 prophage contribution to host virulence, fitness, and physiology, and a platform for other mutagenesis studies aimed at functional gene analysis without native transposon or phage interference in C. difficile 630 and R20291."
+}
+],
+"text": "Clostridioides difficile is an emerging pathogen of One Health significance. Its highly variable genome contains mobile genetic elements (MGEs) such as transposons and prophages that influence its biology. Systematic deletion of each genetic element is required to determine their precise role in C. difficile biology and contribution to the wider mobilome. Here, Tn 5397 (21 kb) and ϕ027 (56 kb) were deleted from C. difficile 630 and R20291, respectively, using allele replacement facilitated by CRISPR-Cas9. The 630 Tn 5397 deletant transferred PaLoc at the same frequency (1 × 10 -7 ) as 630 harboring Tn 5397 , indicating that Tn 5397 alone did not mediate conjugative transfer of PaLoc. The R20291 ϕ027 deletant was sensitive to ϕ027 infection, and contained two unexpected features, a 2.7 kb remnant of the mutagenesis plasmid, and a putative catalase gene adjacent to the deleted prophage was also deleted. Growth kinetics of R20291 ϕ027 deletant was similar to wild type (WT) in rich medium but marginally reduced compared with WT in minimal medium. This work indicates the commonly used pMTL8000 plasmid series works well for CRISPR-Cas9-mediated gene deletion, resulting in the largest deleted locus (56.8 kb) described in C. difficile . Removal of MGEs was achieved by targeting conjugative/integrative regions to promote excision and permanent loss. The deletants created will be useful strains for investigating Tn 5397 or ϕ027 prophage contribution to host virulence, fitness, and physiology, and a platform for other mutagenesis studies aimed at functional gene analysis without native transposon or phage interference in C. difficile 630 and R20291.",
+"statements": [
+{
+"j": 1,
+"text": "The prophage deletant of R20291 remained resistant to infection by the phage it had lost."
+},
+{
+"j": 2,
+"text": "The prophage deletion produced the largest deleted locus so far described in C. difficile, at 56.8 kb."
+},
+{
+"j": 3,
+"text": "Deleting the transposon from strain 630 left PaLoc transfer frequency unchanged at 1 x 10-7."
+},
+{
+"j": 4,
+"text": "The prophage deletant produced less toxin than the wild type strain."
+}
+]
+},
+{
+"n": 160,
+"id": "pmid:41566997",
+"year": 2026,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Transposable elements (TEs) play crucial roles in genome evolution and ecological adaptation in fungi, yet their dynamics in ectomycorrhizal species remain poorly understood. Cenococcum geophilum, the most widespread ectomycorrhizal fungus in boreal and temperate forests with its large, repeat-rich genome, represents an ideal system to investigate TE-mediated adaptation to the physical environment and symbiotic lifestyle. However, previous studies have been limited by fragmented genome assemblies that prevented the resolution of repeat-rich regions. We assembled a telomere-to-telomere reference genome of C. geophilum strain 1.58 using PacBio HiFi and Hi-C datasets, resulting in a 178.54 Mbp genome with seven contiguous chromosomes. We identified 14,145 genes and over 78% of the genome consists of transposable elements (TEs). Of these, 94% are affected by repeat-induced point mutations (RIP), a genome defense mechanism that acts during the sexual reproduction phase, indicating cryptic or ancient sexual reproduction in this putatively asexual fungus. Long terminal repeat retrotransposons, LINEs, and DNA transposons dominate, with three TE families (Ty3, Ty1, and Tad1) contributing over 60% of the genome size, indicating recent transposition bursts. Screening of 15 additional C. geophilum strains revealed recent and lineage-specific TE expansions, implying that several TEs escaped the RIP machinery and retained potential activity. Supporting TE activity in the context of symbiosis, we found 56 TEs differentially transcribed between ectomycorrhizal and free-living mycelium tissues. An even higher number (n = 66) of TEs were differentially expressed between stress resistance morphology (i.e. sclerotia) and free-living mycelium. This supports that TEs are differentially regulated as a response to symbiotic and stress-related conditions. Our results demonstrate that the C. geophilum genome expansion was driven by a few lineage-specific TE families in recent history, with high RIP activity attesting to sexual reproduction. We also provide insights how TEs could respond to lifestyle transitions and traits associated with desiccation resistance."
+}
+],
+"text": "Transposable elements (TEs) play crucial roles in genome evolution and ecological adaptation in fungi, yet their dynamics in ectomycorrhizal species remain poorly understood. Cenococcum geophilum, the most widespread ectomycorrhizal fungus in boreal and temperate forests with its large, repeat-rich genome, represents an ideal system to investigate TE-mediated adaptation to the physical environment and symbiotic lifestyle. However, previous studies have been limited by fragmented genome assemblies that prevented the resolution of repeat-rich regions. We assembled a telomere-to-telomere reference genome of C. geophilum strain 1.58 using PacBio HiFi and Hi-C datasets, resulting in a 178.54 Mbp genome with seven contiguous chromosomes. We identified 14,145 genes and over 78% of the genome consists of transposable elements (TEs). Of these, 94% are affected by repeat-induced point mutations (RIP), a genome defense mechanism that acts during the sexual reproduction phase, indicating cryptic or ancient sexual reproduction in this putatively asexual fungus. Long terminal repeat retrotransposons, LINEs, and DNA transposons dominate, with three TE families (Ty3, Ty1, and Tad1) contributing over 60% of the genome size, indicating recent transposition bursts. Screening of 15 additional C. geophilum strains revealed recent and lineage-specific TE expansions, implying that several TEs escaped the RIP machinery and retained potential activity. Supporting TE activity in the context of symbiosis, we found 56 TEs differentially transcribed between ectomycorrhizal and free-living mycelium tissues. An even higher number (n = 66) of TEs were differentially expressed between stress resistance morphology (i.e. sclerotia) and free-living mycelium. This supports that TEs are differentially regulated as a response to symbiotic and stress-related conditions. Our results demonstrate that the C. geophilum genome expansion was driven by a few lineage-specific TE families in recent history, with high RIP activity attesting to sexual reproduction. We also provide insights how TEs could respond to lifestyle transitions and traits associated with desiccation resistance.",
+"statements": [
+{
+"j": 1,
+"text": "More than 78% of the assembly is transposable elements, and 94% of those carry repeat-induced point mutations."
+},
+{
+"j": 2,
+"text": "Strains from drier sites carry more TE copies than strains from wetter sites."
+},
+{
+"j": 3,
+"text": "Fewer TEs were differentially expressed between sclerotia and free-living mycelium than between ectomycorrhizal and free-living mycelium."
+},
+{
+"j": 4,
+"text": "Three TE families, Ty3, Ty1 and Tad1, together account for over 60% of genome size."
+}
+]
+},
+{
+"n": 161,
+"id": "doi:10.1101/2025.07.17.665281",
+"year": 2025,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Type III CRISPR systems detect the presence of RNA from mobile genetic elements (MGE) in prokaryotes, providing antiviral immunity. On activation, the catalytic Cas10 subunit conjugates ATP to form cyclic oligoadenylate (cOA) signalling molecules that activate ancillary e\\ectors, providing an immune response. Cellular ring nucleases degrade cOA to reset the system. Here, we describe the structure and mechanism of a new family of ring nucleases, Crn4, associated with type III-D CRISPR systems. The crystal structure of Crn4 reveals a small homodimeric protein with a fold unrelated to any known ring nuclease or, indeed, any known protein structure. Crn4 degrades a range of cOA species to linear oligoadenylates in vitro and ameliorates type III CRISPR immunity in vivo . Phage and plasmids also encode Crn4 orthologues that may function as anti-CRISPRs. These observations expand our understanding of ring nucleases and reveal a new protein fold for cyclic nucleotide recognition."
+}
+],
+"text": "Type III CRISPR systems detect the presence of RNA from mobile genetic elements (MGE) in prokaryotes, providing antiviral immunity. On activation, the catalytic Cas10 subunit conjugates ATP to form cyclic oligoadenylate (cOA) signalling molecules that activate ancillary e\\ectors, providing an immune response. Cellular ring nucleases degrade cOA to reset the system. Here, we describe the structure and mechanism of a new family of ring nucleases, Crn4, associated with type III-D CRISPR systems. The crystal structure of Crn4 reveals a small homodimeric protein with a fold unrelated to any known ring nuclease or, indeed, any known protein structure. Crn4 degrades a range of cOA species to linear oligoadenylates in vitro and ameliorates type III CRISPR immunity in vivo . Phage and plasmids also encode Crn4 orthologues that may function as anti-CRISPRs. These observations expand our understanding of ring nucleases and reveal a new protein fold for cyclic nucleotide recognition.",
+"statements": [
+{
+"j": 1,
+"text": "Crn4 belongs to type I CRISPR systems rather than type III-D systems."
+},
+{
+"j": 2,
+"text": "Crn4 cleaves several cyclic oligoadenylate species to linear oligoadenylates in vitro and weakens type III immunity in vivo."
+},
+{
+"j": 3,
+"text": "The Crn4 orthologues of phages and plasmids are expressed during infection."
+},
+{
+"j": 4,
+"text": "Crn4 is a small homodimer whose fold matches no previously described ring nuclease or any known protein structure."
+}
+]
+},
+{
+"n": 162,
+"id": "doi:10.64898/2026.04.27.720831",
+"year": 2026,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Diatoms are major contributors to global primary production and biogeochemical cycling, yet high quality nuclear genome resources remain limited for ecologically dominant lineages such as Chaetoceros . Here, we present a highly contiguous nuclear genome assembly of Chaetoceros muelleri generated from living cells resurrected from resting spores preserved in Baltic Sea sediments and sequenced using PacBio HiFi long read technology. The resurrected BS20 assembly is highly contiguous and gapless, enabling robust resolution of genes, protein domain architecture, and transposable element (TE) landscapes that are poorly captured in fragmented assemblies. By directly comparing this resurrected genome with a contemporary laboratory strain ( C. muelleri NMCA1316), we disentangle biological divergence from assembly-driven artefacts. Despite a strongly conserved core genome, the two strains differ markedly in repeat content, gene family copy number, and functional enrichment patterns. The resurrected genome harbors ∼38% repetitive DNA approximately 1.8-fold higher than the laboratory strain dominated by LTR retrotransposons and a large fraction of unclassified repeats, indicating extensive historical TE activity. Expanded orthogroups in the resurrected strain are enriched for retroelement-associated domains, nucleic-acid processing functions, and stress-responsive gene families, including small heat shock proteins, whereas apparent expansions in the laboratory strain largely reflect annotation inflation arising from assembly fragmentation. Spatial analyses further reveal widespread proximity between TEs, and genes involved in membrane transport and environmental responsiveness, suggesting a role for TE dynamics in regulatory and functional diversification. Together, our results demonstrate that assembly strategy and strain history critically shape genomic inference and highlight the value of resurrected genomes for accessing historical diversity. This study provides a foundational genomic resource for C. muelleri and establishes a genomic framework that explicitly accounts for strain level variation when investigating diatom genome evolution, TE mediated innovation, and long-term ecological adaptation."
+}
+],
+"text": "Diatoms are major contributors to global primary production and biogeochemical cycling, yet high quality nuclear genome resources remain limited for ecologically dominant lineages such as Chaetoceros . Here, we present a highly contiguous nuclear genome assembly of Chaetoceros muelleri generated from living cells resurrected from resting spores preserved in Baltic Sea sediments and sequenced using PacBio HiFi long read technology. The resurrected BS20 assembly is highly contiguous and gapless, enabling robust resolution of genes, protein domain architecture, and transposable element (TE) landscapes that are poorly captured in fragmented assemblies. By directly comparing this resurrected genome with a contemporary laboratory strain ( C. muelleri NMCA1316), we disentangle biological divergence from assembly-driven artefacts. Despite a strongly conserved core genome, the two strains differ markedly in repeat content, gene family copy number, and functional enrichment patterns. The resurrected genome harbors ∼38% repetitive DNA approximately 1.8-fold higher than the laboratory strain dominated by LTR retrotransposons and a large fraction of unclassified repeats, indicating extensive historical TE activity. Expanded orthogroups in the resurrected strain are enriched for retroelement-associated domains, nucleic-acid processing functions, and stress-responsive gene families, including small heat shock proteins, whereas apparent expansions in the laboratory strain largely reflect annotation inflation arising from assembly fragmentation. Spatial analyses further reveal widespread proximity between TEs, and genes involved in membrane transport and environmental responsiveness, suggesting a role for TE dynamics in regulatory and functional diversification. Together, our results demonstrate that assembly strategy and strain history critically shape genomic inference and highlight the value of resurrected genomes for accessing historical diversity. This study provides a foundational genomic resource for C. muelleri and establishes a genomic framework that explicitly accounts for strain level variation when investigating diatom genome evolution, TE mediated innovation, and long-term ecological adaptation.",
+"statements": [
+{
+"j": 1,
+"text": "The gene-family expansions seen in the laboratory strain reflect genuine copy-number gains rather than assembly artefacts."
+},
+{
+"j": 2,
+"text": "Expanded orthogroups in the resurrected strain are enriched for retroelement domains and stress-response families such as small heat shock proteins."
+},
+{
+"j": 3,
+"text": "The resurrected genome contains about 38% repetitive DNA, roughly 1.8 times the proportion in the laboratory strain."
+},
+{
+"j": 4,
+"text": "The resurrected strain grows faster than the laboratory strain under high salinity."
+}
+]
+},
+{
+"n": 163,
+"id": "pmid:42532350",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The introduction of antibody-drug-conjugates (ADC) that target HER2 has renewed interest in ERBB2 alterations in bladder cancer. Little is known about the frequency of ERBB2 copy number alterations in primary bladder cancer subtypes and regional nodal metastases, and the effect of amplification on protein expression. The objective of this study was to determine the frequency of ERBB2 copy number alterations and protein expression in a cohort of primary bladder cancer subtypes treated by cystectomy. Tissue microarrays (TMA) were constructed from 820 patients who underwent cystectomy at the Mayo Clinic between 2000 and 2020. In 209 patients, TMAs were constructed from a concurrent pelvic lymph node metastasis. ERBB2 copy numbers were assessed by fluorescence in situ hybridization (FISH) and protein expression by immunohistochemistry (IHC). In a subset of 756 patients, ERBB2 ploidy was compared to previously assessed NECTIN4 ploidy. ERBB2 amplification was present in 59 (7.4%) of 820 bladder cancers and amplification varied by subtype with amplification most frequently identified in micropapillary carcinoma (19%), conventional urothelial carcinoma (8%), urothelial carcinoma with squamous differentiation (7%) and pure squamous cell carcinoma (5%), and less frequently in nested (3%), plasmacytoid (3%), high-grade neuroendocrine (2%) carcinoma, and sarcomatoid carcinoma (0%). There was a significant association between ERBB2 amplification and protein expression in primary and nodal metastases (p < 0.0001). ERBB2 amplification occurred in 26 (12.4%) of 209 nodal metastases and there was concordance in amplification between primary and nodal metastases (kappa = 0.61). Discordance occurred in 15 cases (7.2%) most commonly due to gain of amplification in the nodal metastasis. There was agreement in protein expression between primary and lymph node metastases (kapp = 0.52), and the nodal metastases had a significantly higher expression (p < 0.001). In a subset of five patients with amplified primary tumors and distant metastases, the metastatic tumor was amplified in all cases. Co-amplification of NECTIN4 and ERBB2 occurred in 18 (2.4%) cases. The frequency of ERBB2 amplifications varied by bladder cancer subtype, and amplification resulted in increased protein expression. Nodal metastases had a higher frequency of amplification and protein expression than the primary tumors. A small subset of tumors exhibited co-amplification of ERBB2 and NECTIN4."
+}
+],
+"text": "The introduction of antibody-drug-conjugates (ADC) that target HER2 has renewed interest in ERBB2 alterations in bladder cancer. Little is known about the frequency of ERBB2 copy number alterations in primary bladder cancer subtypes and regional nodal metastases, and the effect of amplification on protein expression. The objective of this study was to determine the frequency of ERBB2 copy number alterations and protein expression in a cohort of primary bladder cancer subtypes treated by cystectomy. Tissue microarrays (TMA) were constructed from 820 patients who underwent cystectomy at the Mayo Clinic between 2000 and 2020. In 209 patients, TMAs were constructed from a concurrent pelvic lymph node metastasis. ERBB2 copy numbers were assessed by fluorescence in situ hybridization (FISH) and protein expression by immunohistochemistry (IHC). In a subset of 756 patients, ERBB2 ploidy was compared to previously assessed NECTIN4 ploidy. ERBB2 amplification was present in 59 (7.4%) of 820 bladder cancers and amplification varied by subtype with amplification most frequently identified in micropapillary carcinoma (19%), conventional urothelial carcinoma (8%), urothelial carcinoma with squamous differentiation (7%) and pure squamous cell carcinoma (5%), and less frequently in nested (3%), plasmacytoid (3%), high-grade neuroendocrine (2%) carcinoma, and sarcomatoid carcinoma (0%). There was a significant association between ERBB2 amplification and protein expression in primary and nodal metastases (p < 0.0001). ERBB2 amplification occurred in 26 (12.4%) of 209 nodal metastases and there was concordance in amplification between primary and nodal metastases (kappa = 0.61). Discordance occurred in 15 cases (7.2%) most commonly due to gain of amplification in the nodal metastasis. There was agreement in protein expression between primary and lymph node metastases (kapp = 0.52), and the nodal metastases had a significantly higher expression (p < 0.001). In a subset of five patients with amplified primary tumors and distant metastases, the metastatic tumor was amplified in all cases. Co-amplification of NECTIN4 and ERBB2 occurred in 18 (2.4%) cases. The frequency of ERBB2 amplifications varied by bladder cancer subtype, and amplification resulted in increased protein expression. Nodal metastases had a higher frequency of amplification and protein expression than the primary tumors. A small subset of tumors exhibited co-amplification of ERBB2 and NECTIN4.",
+"statements": [
+{
+"j": 1,
+"text": "Patients with ERBB2-amplified tumours treated with HER2-directed antibody-drug conjugates had longer survival."
+},
+{
+"j": 2,
+"text": "ERBB2 amplification was found in 59 of 820 primary bladder cancers (7.4%) and was commonest in micropapillary carcinoma at 19%."
+},
+{
+"j": 3,
+"text": "Among 209 nodal metastases, 26 (12.4%) were ERBB2-amplified, with a kappa of 0.61 against the matched primary."
+},
+{
+"j": 4,
+"text": "Protein expression was significantly higher in the primary tumours than in their lymph node metastases."
+}
+]
+},
+{
+"n": 164,
+"id": "pmid:41980879",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "So-called \"somatic-type\" malignancies (SMs) of germ cell tumor (GCT) origin resemble malignant neoplasms that arise from true somatic tissue. Except for enrichment in TP53 pathway alterations, the mutational profile of GCTs with SMs does not significantly differ from that of typical GCTs. Prior studies have suggested that copy number alterations (CNAs) of SMs may differ from those of conventional GCTs, but comparative genome-wide CNA analyses of paired components of GCTs with SMs have not been previously performed. The objective of this study was to compare CNAs in paired SMs and conventional components of individual GCTs. Twenty-two paired samples from 11 tumors were included in the study (6 metastases, 4 testicular primaries, and 1 mediastinal primary). Each paired sample represented synchronous conventional GCT and SM components from the same tumor, without pretreatment and post-treatment or primary-metastatic comparisons. The molecularly studied conventional GCT components included: teratoma (n=7), teratoma and yolk sac tumor (n=1), teratoma and seminoma (n=1), and seminoma (n=2). The SM components included: embryonic-type neuroectodermal tumor (ENT; n=3), rhabdomyosarcoma (RMS; n=2), ENT and RMS (n=1), unclassified sarcoma (n=2), nephroblastoma (n=1), carcinoma, NOS (n=1), and acinar cell carcinoma (n=1). In most tumors (8/11; 73%), CNA profiles of the paired samples were similar. In the remaining 3 tumors (3/11; 27%), the CNA profiles showed noticeable differences, with a higher number of CNAs in SM. Two of these were metastatic and the remaining was a mediastinal primary. No highly recurrent CNAs were identified in the SM components. The similar CNA profiles of paired SMs and conventional GCTs reinforces their common clonal origin. The differences observed in a subset likely reflect earlier divergent evolution of the SM subclones, with CNAs possibly underlying tumor progression."
+}
+],
+"text": "So-called \"somatic-type\" malignancies (SMs) of germ cell tumor (GCT) origin resemble malignant neoplasms that arise from true somatic tissue. Except for enrichment in TP53 pathway alterations, the mutational profile of GCTs with SMs does not significantly differ from that of typical GCTs. Prior studies have suggested that copy number alterations (CNAs) of SMs may differ from those of conventional GCTs, but comparative genome-wide CNA analyses of paired components of GCTs with SMs have not been previously performed. The objective of this study was to compare CNAs in paired SMs and conventional components of individual GCTs. Twenty-two paired samples from 11 tumors were included in the study (6 metastases, 4 testicular primaries, and 1 mediastinal primary). Each paired sample represented synchronous conventional GCT and SM components from the same tumor, without pretreatment and post-treatment or primary-metastatic comparisons. The molecularly studied conventional GCT components included: teratoma (n=7), teratoma and yolk sac tumor (n=1), teratoma and seminoma (n=1), and seminoma (n=2). The SM components included: embryonic-type neuroectodermal tumor (ENT; n=3), rhabdomyosarcoma (RMS; n=2), ENT and RMS (n=1), unclassified sarcoma (n=2), nephroblastoma (n=1), carcinoma, NOS (n=1), and acinar cell carcinoma (n=1). In most tumors (8/11; 73%), CNA profiles of the paired samples were similar. In the remaining 3 tumors (3/11; 27%), the CNA profiles showed noticeable differences, with a higher number of CNAs in SM. Two of these were metastatic and the remaining was a mediastinal primary. No highly recurrent CNAs were identified in the SM components. The similar CNA profiles of paired SMs and conventional GCTs reinforces their common clonal origin. The differences observed in a subset likely reflect earlier divergent evolution of the SM subclones, with CNAs possibly underlying tumor progression.",
+"statements": [
+{
+"j": 1,
+"text": "In 8 of 11 tumours (73%) the paired somatic-type and conventional components had similar copy number profiles."
+},
+{
+"j": 2,
+"text": "In the three tumours whose profiles differed, the somatic-type component carried the greater number of copy number alterations."
+},
+{
+"j": 3,
+"text": "A set of highly recurrent copy number alterations was identified in the somatic-type malignancy components."
+},
+{
+"j": 4,
+"text": "Patients whose paired components had divergent copy number profiles had worse overall survival."
+}
+]
+},
+{
+"n": 165,
+"id": "pmid:39383864",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Tn7-like transposons are characterized by their ability to insert specifically into host chromosomes. Recognition of the attachment (att) site by TnsD recruits the TnsABC proteins to form the transpososome and facilitate transposition. Although this pathway is well established, atomic-level structural insights of this process remain largely elusive. Here, we present the cryo-electron microscopy (cryo-EM) structures of the TnsC-TnsD-att DNA complex and the TnsABCD transpososome from the Tn7-like transposon in Peltigera membranacea cyanobiont 210A, a type I-B CRISPR-associated transposon. Our structures reveal a striking bending of the att DNA, featured by the intercalation of an arginine side chain of TnsD into a CC/GG dinucleotide step. The TnsABCD transpososome structure reveals TnsA-TnsB interactions and demonstrates that TnsC not only recruits TnsAB but also directly participates in the transpososome assembly. These findings provide mechanistic insights into targeted DNA insertion by Tn7-like transposons, with implications for improving the precision and efficiency of their genome-editing applications."
+}
+],
+"text": "Tn7-like transposons are characterized by their ability to insert specifically into host chromosomes. Recognition of the attachment (att) site by TnsD recruits the TnsABC proteins to form the transpososome and facilitate transposition. Although this pathway is well established, atomic-level structural insights of this process remain largely elusive. Here, we present the cryo-electron microscopy (cryo-EM) structures of the TnsC-TnsD-att DNA complex and the TnsABCD transpososome from the Tn7-like transposon in Peltigera membranacea cyanobiont 210A, a type I-B CRISPR-associated transposon. Our structures reveal a striking bending of the att DNA, featured by the intercalation of an arginine side chain of TnsD into a CC/GG dinucleotide step. The TnsABCD transpososome structure reveals TnsA-TnsB interactions and demonstrates that TnsC not only recruits TnsAB but also directly participates in the transpososome assembly. These findings provide mechanistic insights into targeted DNA insertion by Tn7-like transposons, with implications for improving the precision and efficiency of their genome-editing applications.",
+"statements": [
+{
+"j": 1,
+"text": "The att DNA is sharply bent, with an arginine side chain of TnsD inserted into a CC/GG dinucleotide step."
+},
+{
+"j": 2,
+"text": "TnsD binds the attachment site but does not recruit the TnsABC proteins, which assemble independently."
+},
+{
+"j": 3,
+"text": "Besides recruiting TnsAB, TnsC takes part directly in assembling the transpososome."
+},
+{
+"j": 4,
+"text": "Mutating the intercalating arginine of TnsD abolished transposition."
+}
+]
+},
+{
+"n": 166,
+"id": "pmid:42760813",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Acute rejection (AR) is a major cause of graft loss after orthotopic heart transplant (OHT). Donor-derived cell-free DNA fraction (dd-cfDNA%) is a noninvasive biomarker for AR but may be elevated without AR. We evaluated associations of donor-recipient size mismatch and recipient age with early dd-cfDNA% in pediatric OHT recipients without AR."
+},
+{
+"label": "Methods",
+"text": "This single-center retrospective study evaluated initial dd-cfDNA% testing in pediatric OHT recipients without AR. Size mismatch was assessed using donor-to-recipient body surface area (BSA) ratio, weight ratio, and allograft left ventricular (LV) mass z-score. Associations with dd-cfDNA% were assessed using Spearman correlation and Mann-Whitney U tests; multivariable linear regression adjusted for age. Analyses of size mismatch and recipient age were repeated at the second post-OHT dd-cfDNA assessment."
+},
+{
+"label": "Results",
+"text": "Between 2022 and 2025, 58 pediatric OHT recipients underwent dd-cfDNA% testing; 39 had no rejection. After excluding 2 outliers, 37 remained. Higher first dd-cfDNA% was associated with larger BSA ratio (p = 0.039), BSA ratio ≥ 1.5 (median 0.17% vs. 0.06%, p = 0.0185), larger weight ratio (p = 0.016), LV mass oversizing (median 0.17% vs. 0.06%, p = 0.0196), and younger age (p = 0.008). After age adjustment, neither size mismatch nor age was independently associated with first dd-cfDNA%. No significant associations were observed at the second assessment."
+},
+{
+"label": "Conclusions",
+"text": "Greater donor-recipient size mismatch and younger recipient age were associated with higher first dd-cfDNA% in unadjusted analyses, but not after age adjustment. These exploratory findings support further investigation of size mismatch, recipient age, and early allograft adaptation as potential non-rejection contributors to dd-cfDNA elevation."
+}
+],
+"text": "Acute rejection (AR) is a major cause of graft loss after orthotopic heart transplant (OHT). Donor-derived cell-free DNA fraction (dd-cfDNA%) is a noninvasive biomarker for AR but may be elevated without AR. We evaluated associations of donor-recipient size mismatch and recipient age with early dd-cfDNA% in pediatric OHT recipients without AR. This single-center retrospective study evaluated initial dd-cfDNA% testing in pediatric OHT recipients without AR. Size mismatch was assessed using donor-to-recipient body surface area (BSA) ratio, weight ratio, and allograft left ventricular (LV) mass z-score. Associations with dd-cfDNA% were assessed using Spearman correlation and Mann-Whitney U tests; multivariable linear regression adjusted for age. Analyses of size mismatch and recipient age were repeated at the second post-OHT dd-cfDNA assessment. Between 2022 and 2025, 58 pediatric OHT recipients underwent dd-cfDNA% testing; 39 had no rejection. After excluding 2 outliers, 37 remained. Higher first dd-cfDNA% was associated with larger BSA ratio (p = 0.039), BSA ratio ≥ 1.5 (median 0.17% vs. 0.06%, p = 0.0185), larger weight ratio (p = 0.016), LV mass oversizing (median 0.17% vs. 0.06%, p = 0.0196), and younger age (p = 0.008). After age adjustment, neither size mismatch nor age was independently associated with first dd-cfDNA%. No significant associations were observed at the second assessment. Greater donor-recipient size mismatch and younger recipient age were associated with higher first dd-cfDNA% in unadjusted analyses, but not after age adjustment. These exploratory findings support further investigation of size mismatch, recipient age, and early allograft adaptation as potential non-rejection contributors to dd-cfDNA elevation.",
+"statements": [
+{
+"j": 1,
+"text": "After adjustment for age, neither size mismatch nor age remained independently associated with the first dd-cfDNA value."
+},
+{
+"j": 2,
+"text": "Older recipient age went with higher first dd-cfDNA% in the unadjusted analysis."
+},
+{
+"j": 3,
+"text": "Recipients with a donor-to-recipient BSA ratio of at least 1.5 had a median first dd-cfDNA of 0.17% against 0.06%."
+},
+{
+"j": 4,
+"text": "A higher dd-cfDNA% threshold is needed to flag rejection in recipients of oversized grafts."
+}
+]
+},
+{
+"n": 167,
+"id": "pmid:41422053",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "BACKGROUND: Myrtaceae is a family of woody trees with over 5,800 species, representing the sixth most diverse plant family. It includes many economically important members distributed throughout East Asia, Oceania, and the Americas, including but not limited to Eucalyptus grandis and Syzygium aromaticum. Most available Myrtaceae genome assemblies are arranged in 11 chromosomes, and possess large variability in genome sizes, sometimes over triple the size. Although coding sequences add to this disparity, transposable elements (TEs) are the main contributors to genome size variation. RESULTS: In our research, we have characterized the landscape of TEs in 18 species of Myrtaceae. Our results showed that LTR Class I elements are the main contributors to genome size variations in Myrtaceae. Furthermore, specific lineages among the Gypsy and Copia superfamilies are linked to historical events of transposon activity amongst Myrtaceae tribes. Extracted climatic and distribution data were in correlation with TE profiles, indicating possible lineages more sensitive to climatic conditions. A gene ontology over-representation analysis revealed shared biological processes influenced by TEs, and exclusive ones linked to different environmental responses. Lastly, we identified high-identity sequences among many species, and performed phylogenies for horizontal transposable element transfer (HTT) events analysis. A positive HTT of a Copia/Ivana TE among Syzygieae and Myrteae tribes could affect the regulation of proximal microorganism defense response genes. CONCLUSIONS: Our findings suggest that TEs may influence the genetic diversity present in Myrtaceae, where TE lineages contribute asymmetrically to their genomic profiles. More importantly, specific lineages are correlated with climatic variables possibly by their influence on proximal genes, a balance between genetic variation and fitness influence. Lastly, the impact of TEs on microorganism defense response genes appears to be a key element in the adaptation process of Myrtaceae species."
+}
+],
+"text": "BACKGROUND: Myrtaceae is a family of woody trees with over 5,800 species, representing the sixth most diverse plant family. It includes many economically important members distributed throughout East Asia, Oceania, and the Americas, including but not limited to Eucalyptus grandis and Syzygium aromaticum. Most available Myrtaceae genome assemblies are arranged in 11 chromosomes, and possess large variability in genome sizes, sometimes over triple the size. Although coding sequences add to this disparity, transposable elements (TEs) are the main contributors to genome size variation. RESULTS: In our research, we have characterized the landscape of TEs in 18 species of Myrtaceae. Our results showed that LTR Class I elements are the main contributors to genome size variations in Myrtaceae. Furthermore, specific lineages among the Gypsy and Copia superfamilies are linked to historical events of transposon activity amongst Myrtaceae tribes. Extracted climatic and distribution data were in correlation with TE profiles, indicating possible lineages more sensitive to climatic conditions. A gene ontology over-representation analysis revealed shared biological processes influenced by TEs, and exclusive ones linked to different environmental responses. Lastly, we identified high-identity sequences among many species, and performed phylogenies for horizontal transposable element transfer (HTT) events analysis. A positive HTT of a Copia/Ivana TE among Syzygieae and Myrteae tribes could affect the regulation of proximal microorganism defense response genes. CONCLUSIONS: Our findings suggest that TEs may influence the genetic diversity present in Myrtaceae, where TE lineages contribute asymmetrically to their genomic profiles. More importantly, specific lineages are correlated with climatic variables possibly by their influence on proximal genes, a balance between genetic variation and fitness influence. Lastly, the impact of TEs on microorganism defense response genes appears to be a key element in the adaptation process of Myrtaceae species.",
+"statements": [
+{
+"j": 1,
+"text": "Coding sequences, rather than transposable elements, are the main contributors to genome size variation in this family."
+},
+{
+"j": 2,
+"text": "TE landscapes were characterised in 18 Myrtaceae species, and LTR Class I elements were the main contributors to genome size variation."
+},
+{
+"j": 3,
+"text": "TE content correlates with chromosome number across the species examined."
+},
+{
+"j": 4,
+"text": "A horizontal transfer of a Copia/Ivana element was detected between the Syzygieae and Myrteae tribes."
+}
+]
+},
+{
+"n": 168,
+"id": "pmid:41991549",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Circulating tumor DNA (ctDNA) 'tumor fraction' (TF) may correlate with therapy response, but little is known regarding TF dynamics immediately after therapy initiation. Plasma samples from a single-arm clinical trial enrolling patients with triple-negative breast cancer were collected at a variety of time points following infusion of onalespib (day -7), paclitaxel (day 1), and onalespib + paclitaxel (day 8). 313 samples from 14 patients underwent shallow whole genome sequencing and TF determination. The primary objective was to evaluate TF change from pre-infusion to 6 h and 24 h post-infusion. There was significant TF decline from pre-infusion to 6 h for paclitaxel (p = 0.03) but no change for onalespib or onalespib+paclitaxel at 6hl. There was no ctDNA TF surge within minutes to 24 h of onalespib, paclitaxel, or combination, despite an overall decline in TF during the first therapy cycle. However, there was significant decline in TF from pre-infusion to D9 (16% to 6.5%, p = 0.004). These findings support further research on ctDNA dynamics immediately after therapy initiation."
+}
+],
+"text": "Circulating tumor DNA (ctDNA) 'tumor fraction' (TF) may correlate with therapy response, but little is known regarding TF dynamics immediately after therapy initiation. Plasma samples from a single-arm clinical trial enrolling patients with triple-negative breast cancer were collected at a variety of time points following infusion of onalespib (day -7), paclitaxel (day 1), and onalespib + paclitaxel (day 8). 313 samples from 14 patients underwent shallow whole genome sequencing and TF determination. The primary objective was to evaluate TF change from pre-infusion to 6 h and 24 h post-infusion. There was significant TF decline from pre-infusion to 6 h for paclitaxel (p = 0.03) but no change for onalespib or onalespib+paclitaxel at 6hl. There was no ctDNA TF surge within minutes to 24 h of onalespib, paclitaxel, or combination, despite an overall decline in TF during the first therapy cycle. However, there was significant decline in TF from pre-infusion to D9 (16% to 6.5%, p = 0.004). These findings support further research on ctDNA dynamics immediately after therapy initiation.",
+"statements": [
+{
+"j": 1,
+"text": "Tumour fraction fell significantly from pre-infusion to day 9, from 16% to 6.5%."
+},
+{
+"j": 2,
+"text": "The size of the early tumour fraction decline predicted which patients responded to therapy."
+},
+{
+"j": 3,
+"text": "No surge in ctDNA tumour fraction occurred within 24 hours of onalespib, paclitaxel or the combination."
+},
+{
+"j": 4,
+"text": "Tumour fraction rose significantly from pre-infusion to 6 hours after paclitaxel."
+}
+]
+},
+{
+"n": 169,
+"id": "doi:10.1101/2024.01.30.24301871",
+"year": 2024,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Uveal melanoma is an aggressive intraocular tumour characterised by a limited number of genetic alterations. However, the evolution of this malignancy remains enigmatic. In this study, we performed a deep quantitative analysis of 80 primary uveal melanomas by novel digital PCR-based approaches. Mutations were quantified by targeted and drop-off mutation assays, copy number alterations were precisely measured by quantifying the allelic imbalance of heterozygous single-nucleotide polymorphisms. By comparing the absolute abundances of genetic alterations present in a bulk tumour, the heterogeneity and early evolution could be inferred. Tumour progression was further studied by analysing matched primary and metastatic lesions from five patients. Gα q signalling mutations were generically and always clonally present, suggesting to be acquired in the earliest stage of uveal melanoma development (‘primary driver’). Next, three main evolutionary subtypes could be identified based on having an EIF1AX mutation, SF3B1 mutation or monosomy 3p. These alterations were usually mutually-exclusive and (near-) clonally abundant, suggesting to represent distinct secondary drivers. This contrasts with gains and amplifications of chromosome 8q, which were not restricted to one of the main subtypes and showed subclonality in 31% of the affected tumours. These tertiary alterations were not required for metastatic dissemination. Using high-resolution analyses, we identified systematic differences in the evolutionary timing of genetic events in uveal melanoma. The observed intratumour heterogeneity suggests a more complex model of gradual tumour evolution and argues for a comprehensive genetic analysis in clinical practice, which may be facilitated by the sensitive digital PCR assays developed in this study."
+}
+],
+"text": "Uveal melanoma is an aggressive intraocular tumour characterised by a limited number of genetic alterations. However, the evolution of this malignancy remains enigmatic. In this study, we performed a deep quantitative analysis of 80 primary uveal melanomas by novel digital PCR-based approaches. Mutations were quantified by targeted and drop-off mutation assays, copy number alterations were precisely measured by quantifying the allelic imbalance of heterozygous single-nucleotide polymorphisms. By comparing the absolute abundances of genetic alterations present in a bulk tumour, the heterogeneity and early evolution could be inferred. Tumour progression was further studied by analysing matched primary and metastatic lesions from five patients. Gα q signalling mutations were generically and always clonally present, suggesting to be acquired in the earliest stage of uveal melanoma development (‘primary driver’). Next, three main evolutionary subtypes could be identified based on having an EIF1AX mutation, SF3B1 mutation or monosomy 3p. These alterations were usually mutually-exclusive and (near-) clonally abundant, suggesting to represent distinct secondary drivers. This contrasts with gains and amplifications of chromosome 8q, which were not restricted to one of the main subtypes and showed subclonality in 31% of the affected tumours. These tertiary alterations were not required for metastatic dissemination. Using high-resolution analyses, we identified systematic differences in the evolutionary timing of genetic events in uveal melanoma. The observed intratumour heterogeneity suggests a more complex model of gradual tumour evolution and argues for a comprehensive genetic analysis in clinical practice, which may be facilitated by the sensitive digital PCR assays developed in this study.",
+"statements": [
+{
+"j": 1,
+"text": "Subclonal 8q gains were more frequent in larger primary tumours."
+},
+{
+"j": 2,
+"text": "Chromosome 8q gains were required for metastatic dissemination in these tumours."
+},
+{
+"j": 3,
+"text": "Chromosome 8q gains and amplifications were subclonal in 31% of the tumours carrying them."
+},
+{
+"j": 4,
+"text": "The three evolutionary subtypes defined by EIF1AX mutation, SF3B1 mutation or monosomy 3p were usually mutually exclusive and near-clonal."
+}
+]
+},
+{
+"n": 170,
+"id": "pmid:39139705",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Endogenous retroviruses (ERVs), which blur the boundary between virus and transposable element, are genetic material derived from retroviruses and have important implications for evolution. This study examines the diversity and evolution of human endogenous retroviruses (HERVs) of the HERVL family, which has long terminal repeats (LTRs) named MLT2."
+},
+{
+"label": "Results",
+"text": "By probability-based sequence comparison, we uncover systematic annotation errors that conceal the true complexity and diversity of transposable elements (TEs) in the human genome. Our analysis identifies new subfamilies within the MLT2 group, proposes a refined classification scheme, and constructs new consensus sequences. We present an evolutionary analysis including phylogenetic trees that elucidate the relationships between these subfamilies and their contributions to human evolution. The results underscore the significance of accurate TE annotation in understanding genome evolution, highlighting the potential for misclassified TEs to impact interpretations of genomic studies."
+},
+{
+"label": "Availability and implementation",
+"text": "Not applicable."
+}
+],
+"text": "Endogenous retroviruses (ERVs), which blur the boundary between virus and transposable element, are genetic material derived from retroviruses and have important implications for evolution. This study examines the diversity and evolution of human endogenous retroviruses (HERVs) of the HERVL family, which has long terminal repeats (LTRs) named MLT2. By probability-based sequence comparison, we uncover systematic annotation errors that conceal the true complexity and diversity of transposable elements (TEs) in the human genome. Our analysis identifies new subfamilies within the MLT2 group, proposes a refined classification scheme, and constructs new consensus sequences. We present an evolutionary analysis including phylogenetic trees that elucidate the relationships between these subfamilies and their contributions to human evolution. The results underscore the significance of accurate TE annotation in understanding genome evolution, highlighting the potential for misclassified TEs to impact interpretations of genomic studies. Not applicable.",
+"statements": [
+{
+"j": 1,
+"text": "MLT2 elements are transcribed in human embryonic stem cells."
+},
+{
+"j": 2,
+"text": "MLT2 is the long terminal repeat of the HERVK family."
+},
+{
+"j": 3,
+"text": "The analysis defines new MLT2 subfamilies and builds new consensus sequences for them."
+},
+{
+"j": 4,
+"text": "Probability-based sequence comparison uncovered systematic annotation errors that mask the diversity of human transposable elements."
+}
+]
+},
+{
+"n": 171,
+"id": "pmid:39194330",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Different endogenous and exogenous mutational processes cause specific patterns of somatic mutations and mutational signatures. Although their biological research has been intensive, there are only rare studies assessing the possible prognostic role of mutational signatures. We used data from The Cancer Genome Atlas to study the associations between the activity of the mutational signatures and four survival endpoints in 18 types of malignancies. We further explored the prognostic differences according to, for example, the HPV status in head and neck squamous cell carcinomas and smoking status in lung cancers. The predictive power of the signatures over time was evaluated with a dynamic area under the curve model, and the links between mutational signature activities and differences in gene expression patterns were analyzed. In 12 of 18 studied cancer types, we identified at least one mutational signature whose activity predicted survival outcomes after adjusting for the established prognostic factors. For example, overall survival was associated with the activity of mutational signatures in nine cancer types and disease-specific survival in seven cancer types. The clock-like signatures SBS5 and SBS40 were most commonly associated with survival endpoints. The genes of the myosin binding protein and melanoma antigen families were among the most substantially dysregulated genes between the signatures of low and high activity. The differences in gene expression also revealed various enriched pathways. Based on these data, specific mutational signatures associate with the gene expression and have the potential to serve as strong prognostic factors in several cancer types."
+}
+],
+"text": "Different endogenous and exogenous mutational processes cause specific patterns of somatic mutations and mutational signatures. Although their biological research has been intensive, there are only rare studies assessing the possible prognostic role of mutational signatures. We used data from The Cancer Genome Atlas to study the associations between the activity of the mutational signatures and four survival endpoints in 18 types of malignancies. We further explored the prognostic differences according to, for example, the HPV status in head and neck squamous cell carcinomas and smoking status in lung cancers. The predictive power of the signatures over time was evaluated with a dynamic area under the curve model, and the links between mutational signature activities and differences in gene expression patterns were analyzed. In 12 of 18 studied cancer types, we identified at least one mutational signature whose activity predicted survival outcomes after adjusting for the established prognostic factors. For example, overall survival was associated with the activity of mutational signatures in nine cancer types and disease-specific survival in seven cancer types. The clock-like signatures SBS5 and SBS40 were most commonly associated with survival endpoints. The genes of the myosin binding protein and melanoma antigen families were among the most substantially dysregulated genes between the signatures of low and high activity. The differences in gene expression also revealed various enriched pathways. Based on these data, specific mutational signatures associate with the gene expression and have the potential to serve as strong prognostic factors in several cancer types.",
+"statements": [
+{
+"j": 1,
+"text": "Patients were grouped by treatment received to test whether signature activity predicted therapy response."
+},
+{
+"j": 2,
+"text": "The clock-like signatures SBS5 and SBS40 were the ones least often linked to the survival endpoints."
+},
+{
+"j": 3,
+"text": "In 12 of the 18 cancer types studied, at least one signature's activity predicted survival after adjustment for established prognostic factors."
+},
+{
+"j": 4,
+"text": "Signature activity was associated with overall survival in nine cancer types and with disease-specific survival in seven."
+}
+]
+},
+{
+"n": 172,
+"id": "pmid:38892284",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "SMYD4 is a member of the SMYD family that has lysine methyltransferase function. Little is known about the roles of SMYD4 in cancer. The aim of this study is to investigate genetic alterations in the SMYD4 gene across the most prevalent solid tumors and determine its potential as a biomarker. We performed an integrative multi-platform analysis of the most common mutations, copy number alterations (CNAs), and mRNA expression levels of the SMYD family genes using cohorts available at the Cancer Genome Atlas (TCGA), cBioPortal, and the Catalogue of Somatic Mutations in Cancer (COSMIC). SMYD genes displayed a lower frequency of mutations across the studied tumors, with none of the SMYD4 mutations detected demonstrating sufficient discriminatory power to serve as a biomarker. In terms of CNAs, SMYD4 consistently exhibited heterozygous loss and downregulation across all tumors evaluated. Moreover, SMYD4 showed low expression in tumor samples compared to normal samples, except for stomach adenocarcinoma. SMYD4 demonstrated a frequent negative correlation with other members of the SMYD family and a positive correlation between CNAs and mRNA expression. Additionally, patients with low SMYD4 expression in STAD and LUAD tumors exhibited significantly poorer overall survival. SMYD4 demonstrated its role as a tumor suppressor in the majority of tumors evaluated. The consistent downregulation of SMYD4 , coupled with its association with cancer progression, underscores its potential usefulness as a biomarker."
+}
+],
+"text": "SMYD4 is a member of the SMYD family that has lysine methyltransferase function. Little is known about the roles of SMYD4 in cancer. The aim of this study is to investigate genetic alterations in the SMYD4 gene across the most prevalent solid tumors and determine its potential as a biomarker. We performed an integrative multi-platform analysis of the most common mutations, copy number alterations (CNAs), and mRNA expression levels of the SMYD family genes using cohorts available at the Cancer Genome Atlas (TCGA), cBioPortal, and the Catalogue of Somatic Mutations in Cancer (COSMIC). SMYD genes displayed a lower frequency of mutations across the studied tumors, with none of the SMYD4 mutations detected demonstrating sufficient discriminatory power to serve as a biomarker. In terms of CNAs, SMYD4 consistently exhibited heterozygous loss and downregulation across all tumors evaluated. Moreover, SMYD4 showed low expression in tumor samples compared to normal samples, except for stomach adenocarcinoma. SMYD4 demonstrated a frequent negative correlation with other members of the SMYD family and a positive correlation between CNAs and mRNA expression. Additionally, patients with low SMYD4 expression in STAD and LUAD tumors exhibited significantly poorer overall survival. SMYD4 demonstrated its role as a tumor suppressor in the majority of tumors evaluated. The consistent downregulation of SMYD4 , coupled with its association with cancer progression, underscores its potential usefulness as a biomarker.",
+"statements": [
+{
+"j": 1,
+"text": "Restoring SMYD4 expression in tumour cells slows their proliferation."
+},
+{
+"j": 2,
+"text": "SMYD4 showed heterozygous loss and downregulation in every tumour type evaluated."
+},
+{
+"j": 3,
+"text": "Stomach adenocarcinoma was the one tumour type in which SMYD4 expression was lower than in normal tissue."
+},
+{
+"j": 4,
+"text": "Low SMYD4 expression went with significantly poorer overall survival in stomach and lung adenocarcinoma."
+}
+]
+},
+{
+"n": 173,
+"id": "pmid:41280668",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The treatment of metastatic colorectal cancer (mCRC) is impeded by drug resistance. We investigated how prior chemotherapy affects tumor genotype, phenotype, and resistance mechanisms by comparing 35 patient-derived metastatic organoids (PDOs) from pretreated and chemonaive patients with mCRC. Combining PDO drug sensitivity assessments with RNA and whole genome sequencing, we found PDOs from pretreated patients exhibited higher mutational load and more structural variants. Chemotherapy-related mutational signatures correlated with previous exposure. PDOs from oxaliplatin-resistant patients maintained this resistance, showing the upregulation of ZNF300 , TGM2 , and Hedgehog pathway enrichment. Acquired resistance to 5-FU and irinotecan was only partially captured, with irinotecan resistance linked to specific mutational signatures and deep deletions in common fragile sites, associated with distinct gene expression profiles. Our findings reveal that PDOs capture chemotherapy-induced genomic and phenotypic changes differently depending on the drug, suggesting varied mechanisms of acquired resistance involving both tumor cell-intrinsic properties and dynamic tumor cell states."
+}
+],
+"text": "The treatment of metastatic colorectal cancer (mCRC) is impeded by drug resistance. We investigated how prior chemotherapy affects tumor genotype, phenotype, and resistance mechanisms by comparing 35 patient-derived metastatic organoids (PDOs) from pretreated and chemonaive patients with mCRC. Combining PDO drug sensitivity assessments with RNA and whole genome sequencing, we found PDOs from pretreated patients exhibited higher mutational load and more structural variants. Chemotherapy-related mutational signatures correlated with previous exposure. PDOs from oxaliplatin-resistant patients maintained this resistance, showing the upregulation of ZNF300 , TGM2 , and Hedgehog pathway enrichment. Acquired resistance to 5-FU and irinotecan was only partially captured, with irinotecan resistance linked to specific mutational signatures and deep deletions in common fragile sites, associated with distinct gene expression profiles. Our findings reveal that PDOs capture chemotherapy-induced genomic and phenotypic changes differently depending on the drug, suggesting varied mechanisms of acquired resistance involving both tumor cell-intrinsic properties and dynamic tumor cell states.",
+"statements": [
+{
+"j": 1,
+"text": "Organoids from oxaliplatin-resistant patients stayed resistant, with ZNF300 and TGM2 upregulation and Hedgehog pathway enrichment."
+},
+{
+"j": 2,
+"text": "Organoid drug sensitivity predicted how the corresponding patients responded to their next line of treatment."
+},
+{
+"j": 3,
+"text": "Among 35 patient-derived metastatic organoids, those from pretreated patients carried a higher mutational load and more structural variants."
+},
+{
+"j": 4,
+"text": "Acquired resistance to 5-FU and irinotecan was fully reproduced in the organoids."
+}
+]
+},
+{
+"n": 174,
+"id": "doi:10.64898/2026.03.02.709031",
+"year": 2026,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "Gliomas are the most common malignant brain tumors in adults, characterized by a poor prognosis. Although the current World Health Organization (WHO) classification provides clear guidelines for classifying oligodendroglioma, astrocytoma, and glioblastoma patients, significant heterogeneity persists within each class, limiting the effectiveness of current treatment strategies. With the increase of large-scale multi-omics datasets due to advancements in sequencing technologies, and online databases that provide them, such as The Cancer Genome Atlas (TCGA), it is now possible to investigate these tumors at multiple molecular levels."
+},
+{
+"label": "Methods",
+"text": "In this work, we apply integrative multi-omics analysis to explore the interplay between genomic (mutations), epigenomic (DNA methylation), and transcriptomic (mRNA and miRNA) layers. Our approach relies on Multi-Omics Factor Analysis (MOFA), a Bayesian latent factor analysis model designed to capture sources of variation across different omics types."
+},
+{
+"label": "Results",
+"text": "Our results highlight distinct molecular profiles across the three glioma types and identify potential relationships between methylation and genetic expression. In particular, we uncover novel candidate biomarkers with prognostic value, as well as a transcriptional profile associated with neural system development."
+},
+{
+"label": "Conclusions",
+"text": "These findings may contribute to more personalized therapeutic strategies, potentially enhancing treatment effectiveness and improving survival outcomes for this disease."
+}
+],
+"text": "Gliomas are the most common malignant brain tumors in adults, characterized by a poor prognosis. Although the current World Health Organization (WHO) classification provides clear guidelines for classifying oligodendroglioma, astrocytoma, and glioblastoma patients, significant heterogeneity persists within each class, limiting the effectiveness of current treatment strategies. With the increase of large-scale multi-omics datasets due to advancements in sequencing technologies, and online databases that provide them, such as The Cancer Genome Atlas (TCGA), it is now possible to investigate these tumors at multiple molecular levels. In this work, we apply integrative multi-omics analysis to explore the interplay between genomic (mutations), epigenomic (DNA methylation), and transcriptomic (mRNA and miRNA) layers. Our approach relies on Multi-Omics Factor Analysis (MOFA), a Bayesian latent factor analysis model designed to capture sources of variation across different omics types. Our results highlight distinct molecular profiles across the three glioma types and identify potential relationships between methylation and genetic expression. In particular, we uncover novel candidate biomarkers with prognostic value, as well as a transcriptional profile associated with neural system development. These findings may contribute to more personalized therapeutic strategies, potentially enhancing treatment effectiveness and improving survival outcomes for this disease.",
+"statements": [
+{
+"j": 1,
+"text": "The analysis turned up candidate biomarkers with prognostic value and a transcriptional profile tied to neural system development."
+},
+{
+"j": 2,
+"text": "The candidate biomarkers were confirmed in an independent glioma cohort."
+},
+{
+"j": 3,
+"text": "The integrative analysis drew on transcriptomic data alone, leaving mutation and methylation layers aside."
+},
+{
+"j": 4,
+"text": "The factor analysis separated distinct molecular profiles across the three glioma types."
+}
+]
+}
+]
+}

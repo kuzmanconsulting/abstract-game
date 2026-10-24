@@ -1,0 +1,143 @@
+{
+ "batch": "gen_50a",
+ "prompt_version": "gen-v5",
+ "items": [
+  {
+   "n": 1135,
+   "id": "pmid:28903484",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Translation of the junction-spanning open reading frame of circ-FBXW7, driven by an internal ribosome entry site, yields a new 21-kDa protein called FBXW7-185aa.",
+     "evidence": "The spanning junction open reading frame in circ-FBXW7 driven by internal ribosome entry site encodes a novel 21-kDa protein, which we termed FBXW7-185aa.",
+     "note": "The abstract reports that the IRES-driven junction-spanning ORF of circ-FBXW7 encodes a novel 21-kDa protein named FBXW7-185aa."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Glioblastoma clinical samples contained lower levels of both circ-FBXW7 and FBXW7-185aa than their paired tumor-adjacent tissues (P < .001).",
+     "evidence": "circ-FBXW7 and FBXW7-185aa levels were reduced in glioblastoma clinical samples compared with their paired tumor-adjacent tissues (P < .001)",
+     "note": "Both the circRNA and its encoded protein were reduced in glioblastoma relative to paired adjacent tissue, with P < .001."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Restoring FBXW7-185aa expression made glioblastoma cells more sensitive to temozolomide chemotherapy.",
+     "evidence": "circ-FBXW7 and FBXW7-185aa have potential prognostic implications in brain cancer.",
+     "note": "The abstract claims prognostic relevance and anti-proliferative effects but reports no experiment with temozolomide or any chemotherapy, so drug sensitivity is neither shown nor ruled out."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Overexpressing FBXW7-185aa in cancer cells suppressed proliferation and cell-cycle acceleration, whereas depleting it enhanced malignant phenotypes both in vitro and in vivo.",
+     "evidence": "Upregulation of FBXW7-185aa in cancer cells inhibited proliferation and cell cycle acceleration, while knockdown of FBXW7-185aa promoted malignant phenotypes invitro and invivo.",
+     "note": "The abstract reports opposite effects of raising versus knocking down FBXW7-185aa on cancer cell proliferation and malignant phenotypes."
+    }
+   ]
+  },
+  {
+   "n": 1136,
+   "id": "pmid:28283059",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Pab1 hydrogels formed under stress dissolve again once normal growth conditions are restored.",
+     "evidence": "Poly(A)-binding protein thus acts as a physiological stress sensor, exploiting phase separation to precisely mark stress onset, a broadly generalizable mechanism.",
+     "note": "The abstract links Pab1 phase separation only to the onset of stress; whether the assemblies reverse after stress ends is never examined."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Unlike other RNA-binding proteins, Pab1 does not need its low-complexity region to demix, and RNA suppresses rather than promotes its phase separation.",
+     "evidence": "Other RNA-binding proteins depend upon low-complexity regions (LCRs) or RNA for phase separation, whereas Pab1's LCR is not required for demixing, and RNA inhibits it.",
+     "note": "The abstract contrasts Pab1 with other RNA-binding proteins: its LCR is dispensable for demixing and RNA inhibits the process."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "During prolonged stress, organism fitness was lower when Pab1 carried mutations that hamper its phase separation.",
+     "evidence": "Mutations that impede phase separation reduce organism fitness during prolonged stress.",
+     "note": "The abstract states directly that mutations impeding phase separation reduce organism fitness under prolonged stress."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "In vitro, physiological stress conditions trigger phase separation and hydrogel formation by yeast Pab1, a hallmark protein of stress granules.",
+     "evidence": "We show that poly(A)-binding protein (Pab1 in yeast), a defining marker of stress granules, phase separates and forms hydrogels in vitro upon exposure to physiological stress conditions.",
+     "note": "The abstract reports that Pab1 phase separates and forms hydrogels in vitro when exposed to physiological stress conditions."
+    }
+   ]
+  },
+  {
+   "n": 1137,
+   "id": "pmid:26863196",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The study found that the distinctive features of m(1)A, such as its placement near translation start sites, are strongly conserved between mouse and human cells.",
+     "evidence": "These unique features are highly conserved in mouse and human cells",
+     "note": "The abstract states that the unique features of m(1)A it describes are highly conserved in mouse and human cells."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "m(1)A marks thousands of distinct transcripts across eukaryotes from yeast to mammals, and its average stoichiometry per transcript in humans is estimated at 20%.",
+     "evidence": "occurs on thousands of different gene transcripts in eukaryotic cells, from yeast to mammals, at an estimated average transcript stoichiometry of 20% in humans",
+     "note": "The abstract gives both the breadth of m(1)A (thousands of transcripts, yeast to mammals) and its estimated 20% average transcript stoichiometry in humans."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Around canonical and alternative translation initiation sites, m(1)A preferentially sits in more structured regions, and it is enriched near the start codon before the first splice site.",
+     "evidence": "m(1)A is enriched around the start codon upstream of the first splice site: it preferentially decorates more structured regions around canonical and alternative translation initiation sites",
+     "note": "The sequencing data show m(1)A enrichment near the start codon and a preference for more structured regions around initiation sites."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Transcripts carrying m(1)A are also frequently modified with m(6)A.",
+     "evidence": "A recent noteworthy example is N(6)-methyladenosine (m(6)A), which affects messenger RNA (mRNA) localization, stability, translation and splicing.",
+     "note": "m(6)A appears only as background; the abstract reports no analysis of whether the two modifications occur on the same transcripts."
+    }
+   ]
+  },
+  {
+   "n": 1138,
+   "id": "pmid:28792938",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "In naive T cells lacking Mettl3, the m6A-marked mRNAs of SOCS1, SOCS3 and CISH decayed more slowly and reached higher mRNA and protein levels.",
+     "evidence": "were marked by m 6 A, exhibited slower mRNA decay and showed increased mRNAs and levels of protein expression in Mettl3-deficient naive T cells",
+     "note": "The abstract reports slower decay and increased mRNA and protein levels of these m6A-marked SOCS family genes in Mettl3-deficient naive T cells."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Deleting METTL3 in mouse B cells likewise disrupted their homeostatic expansion and differentiation.",
+     "evidence": "Here we show that the deletion of m 6 A 'writer' protein METTL3 in mouse T cells disrupts T cell homeostasis and differentiation.",
+     "note": "Only T cells were studied; the abstract says nothing about B cells, so this generalisation is neither supported nor refuted."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The elevated SOCS family activity in Mettl3-deficient T cells suppressed IL-7-driven STAT5 activation and held back T cell homeostatic proliferation and differentiation.",
+     "evidence": "This increased SOCS family activity consequently inhibited IL-7-mediated STAT5 activation and T cell homeostatic proliferation and differentiation.",
+     "note": "The abstract attributes the inhibition of IL-7-mediated STAT5 activation and of homeostatic proliferation and differentiation to the increased SOCS family activity."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "After adoptive transfer into lymphopaenic mice, naive T cells lacking Mettl3 did not expand homeostatically, stayed naive for as long as 12 weeks, and did not cause colitis.",
+     "evidence": "naive Mettl3-deficient T cells failed to undergo homeostatic expansion and remained in the naive state for up to 12 weeks, thereby preventing colitis",
+     "note": "In the lymphopaenic transfer model, Mettl3-deficient naive T cells showed no homeostatic expansion, stayed naive up to 12 weeks, and colitis was prevented."
+    }
+   ]
+  }
+ ],
+ "flip_rule": "first-of-any-v3"
+}

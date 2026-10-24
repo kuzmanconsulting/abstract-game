@@ -1,0 +1,108 @@
+{"batch": "check_B_36", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+{"n": 925, "id": "pmid:38843831",
+ "verdicts": [
+{"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Further functional characterization of TEs revealed additional divergence in features such as insertion bias."},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "we found that the Tc1/mariner superfamily exhibits elevated activity"},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "in CAR-T therapy for hematological and solid tumors, Mariner2_AG (MAG), the most active DNA TE identified, largely outperformed two widely used vectors, the lentiviral vector and the TE-based vector SB100X"},
+{"j": 4, "label": "contradicted", "confidence": 3, "evidence": "We identified 40 active (integration-competent) TEs, surpassing the cumulative number (20) of TEs found previously."}
+]},
+{"n": 926, "id": "pmid:37792944",
+ "verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "SORTER differentiated PCa and benign prostatic hyperplasia with an accuracy of 100%. Notably, the diagnostic accuracy reached 90.6% in the classification of metastatic and nonmetastatic PCa."},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "The SORTER uses two allosteric aptamers against exosomal marker CD63 and tumor marker EpCAM to create an orthogonal labeling barcode and achieve selective sorting of tumor-specific exosome subtypes."},
+{"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We envision that the SORTER will promote the clinical adaptability of miRNA-based liquid biopsy."},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "With a signature of six miRNAs, SORTER differentiated PCa and benign prostatic hyperplasia with an accuracy of 100%."}
+]},
+{"n": 927, "id": "pmid:37735266",
+ "verdicts": [
+{"j": 1, "label": "contradicted", "confidence": 3, "evidence": "we processed over 2.7 trillion base pairs of sequencing data, leading to the discovery of millions of viruses and plasmids that are available through the IMG/VR and IMG/PR databases"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "geNomad achieved high classification performance for diverse plasmids and viruses (Matthews correlation coefficient of 77.8% and 95.3%, respectively)"},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "Using a conditional random field model, geNomad also detects proviruses integrated into host genomes with high precision."},
+{"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "leading to the discovery of millions of viruses and plasmids that are available through the IMG/VR and IMG/PR databases"}
+]},
+{"n": 928, "id": "pmid:42303449",
+ "verdicts": [
+{"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "two panels are designed using MAPLE and the conventional method respectively to target 13,264 colorectal cancer (CRC)-related methylation haplotypes and are validated through a blood plasma cohort of 162 samples including CRC patients and controls"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "Aided by a LightGBM classifier, the MAPLE panel accurately identifies patients with 95% specificity and 80% sensitivity."},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "Even with just 0.05% of total sequencing reads, MAPLE exhibits only a modest performance decline, in contrast to the conventional method's significant decline"},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "In 24 stage I and II cancer samples, MAPLE maps 22.7% of unique reads to 5045 targeted haplotypes, compared to 0.8% of reads mapping to 190 haplotypes with the conventional method."}
+]},
+{"n": 929, "id": "pmid:41086806",
+ "verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "PRMT5 inhibition in mammalian cells causes polyadenylated mRNA and Smith antigen (Sm) protein accumulation on chromatin"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "Biochemical assays reveal that the SMN Tudor domain competes with nucleic acid binding of methylated Sm tails."},
+{"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We conclude that PRMT5 ensures mRNA processing and nuclear export by preventing aberrant chromatin retention"},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "These retained transcripts are intron rich and splice slowly."}
+]},
+{"n": 930, "id": "pmid:39476839",
+ "verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "at least two molecularly and spatially distinct pathways are responsible: antiviral defense mediated by hair follicle stem cells and progenitors and antiviral-independent response due to replication stress in transient amplifying cells"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "dynamic expression of histone methyltransferase SETDB1 (a retrotransposon repressor) closely mirrors stem cell activities in murine skin"},
+{"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "resulting in hair loss and stem cell exhaustion that is reversible by antiviral drugs"},
+{"j": 4, "label": "contradicted", "confidence": 3, "evidence": "SETDB1 ablation leads to the reactivation of endogenous retroviruses (ERVs, a type of retrotransposon) and the assembly of viral-like particles, resulting in hair loss and stem cell exhaustion that is reversible by antiviral drugs."}
+]},
+{"n": 931, "id": "pmid:36805559",
+ "verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "Comparative analysis of 1,197 high-quality genomes from these biobanks shows interesting intra- and interpersonal strain evolution, selection and horizontal gene transfer."},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "Spatial analysis on >100,000 visually captured colonies reveals cogrowth patterns between Ruminococcaceae, Bacteroidaceae, Coriobacteriaceae and Bifidobacteriaceae families"},
+{"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "an open-source high-throughput robotic strain isolation platform for the rapid generation of isolates on demand"},
+{"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Application of this platform on fecal samples from 20 humans yields personalized gut microbiome biobanks totaling 26,997 isolates that represented >80% of all abundant taxa."}
+]},
+{"n": 932, "id": "pmid:39084227",
+ "verdicts": [
+{"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We identified four centromere satellite (cenSat) families and experimentally validated two representatives."},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "We identified four centromere satellite (cenSat) families and experimentally validated two representatives."},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "we used long-read sequencing to generate nearly complete genome assemblies for four karyotypically diverse Papaver species, P. setigerum (2n = 44), P. somniferum (2n = 22), P. rhoeas (2n = 14), and P. bracteatum (2n = 14), collectively representing 45 gapless centromeres"},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "An interspecies comparison of the peri-centromeric regions further revealed extensive centromere-mediated chromosome rearrangements."}
+]},
+{"n": 933, "id": "pmid:39313558",
+ "verdicts": [
+{"j": 1, "label": "contradicted", "confidence": 3, "evidence": "capable of predicting ISDra2 TnpB guiding RNA (ωRNA) activity with high performance (r > 0.8)"},
+{"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "This enabled us to delineate rules for on-target and off-target editing"},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "we optimized the design of Deinococcus radiodurans (ISDra2) TnpB for application in mammalian cells (TnpBmax), leading to an average 4.4-fold improvement in editing"},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "we achieved editing efficiencies up to 75.3% in the murine liver and 65.9% in the murine brain after adeno-associated virus (AAV) vector delivery of TnpBmax"}
+]},
+{"n": 934, "id": "pmid:40540573",
+ "verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "we report high-resolution cryo-electron microscopy structures of two vertebrate A-clade R2 proteins at the initiation of target-primed reverse transcription and after cDNA synthesis and second-strand nicking"},
+{"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "avian A-clade R2 proteins achieve efficient and precise insertion of transgenes into their native safe-harbor loci in human cells"},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "Reverse transcriptase active site architecture is reinforced by an unanticipated insertion motif specific to vertebrate A-clade R2 proteins."},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "unique roles for each of the three zinc-finger domains in nucleic acid recognition"}
+]},
+{"n": 935, "id": "pmid:40716781",
+ "verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "Expression of NMD component UPF1 negatively correlates with 3UI-splicing in normal, but not colon cancer, samples."},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "We present a transcriptome assembly built from 7897 solid tumour and normal samples from The Cancer Genome Atlas. We identify thousands of 3UI-containing transcripts"},
+{"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Bona-fide 3UI-transcripts are over-spliced in cancer samples."},
+{"j": 4, "label": "contradicted", "confidence": 3, "evidence": "In colon cancer, differentially-spliced 3UI transcripts are enriched in the Wnt signalling pathway, with CTNNB1 showing the greatest increase in splicing."}
+]},
+{"n": 936, "id": "pmid:41118570",
+ "verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "Spacer acquisition restores the reading frame of a disrupted lacZ gene, forming blue papillae on lactose X-gal plates. The assay is semi-quantitative, highly sensitive, capable of detecting single events among 109 cells"},
+{"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "CRISPR-Cas systems provide adaptive immunity by integrating short DNA fragments from mobile genetic elements into host arrays."},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "in liquid culture, 64% of spacers were plasmid-derived, but on solid medium this dropped to ∼9%"},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "Adjusting inducer concentration to match liquid conditions did not restore plasmid bias, indicating a physiological basis linked to colony growth."}
+]},
+{"n": 937, "id": "pmid:35512709",
+ "verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "Notably, METTL3 only promotes tumor suppression in the context of intact p53."},
+{"j": 2, "label": "not_addressed", "confidence": 2, "evidence": "We find that METTL3 promotes p53 protein stabilization and target gene expression in response to DNA damage and oncogenic signals, by both catalytic activity-dependent and independent mechanisms."},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "This approach identified METTL3, an m 6 A RNA-methyltransferase complex (MTC) constituent, as a p53 interactor."},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "We find that METTL3 promotes p53 protein stabilization and target gene expression in response to DNA damage and oncogenic signals, by both catalytic activity-dependent and independent mechanisms."}
+]},
+{"n": 938, "id": "pmid:39366703",
+ "verdicts": [
+{"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Plasmid-mediated acquisition of bla KPC occurred in 23%-27% of isolates."},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "CRE isolates belonged to 96 multilocus sequence types (STs) encoding bla KPC on 447 plasmids which formed 54 plasmid clusters"},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "Six hundred and five CRE isolates collected between 2009 and 2018 first underwent Illumina sequencing for genome-wide genotyping; 435 bla KPC -positive isolates were then successfully nanopore sequenced to generate hybrid assemblies"},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "We found evidence for clonal transmission in 66% of CRE isolates, over half of which belonged to four clades comprising K. pneumoniae ST258. Plasmid-mediated acquisition of bla KPC occurred in 23%-27% of isolates."}
+]},
+{"n": 939, "id": "pmid:33863366",
+ "verdicts": [
+{"j": 1, "label": "contradicted", "confidence": 3, "evidence": "In reference Sample A, we identify more than 40,000 variants down to 1% allele frequency with more than 25,000 variants having less than 20% allele frequency with 1653 variants in COSMIC-related genes."},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "including known variants having allele frequency of 0.02%, a range suitable for assessing liquid biopsy panels"},
+{"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We also identify an unprecedented number of negative positions in coding regions, allowing statistical rigor in assessing limit-of-detection, sensitivity, and precision."},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "Over 300 loci are randomly selected and independently verified via droplet digital PCR with 100% concordance."}
+]}
+]}

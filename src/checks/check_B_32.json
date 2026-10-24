@@ -1,0 +1,108 @@
+{"batch": "check_B_32", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+   {"n": 865, "id": "pmid:42369015",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The primary sequence of SLNCR contains four triplex-forming regions (TFRs), which are homologous to the TFRs of MEG3, HOTAIR , and PARTICLE lncRNAs."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Full-length SLNCR overexpression promotes proliferation, migration, and invasion of melanoma cells by inducing characteristic gene expression changes of genes that are enriched in pathways involved in cell cycle regulation and cell migration."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Finally, inhibitory oligos that block SLNCR •DNA:DNA triplex formation reversed the effect of SLNCR -mediated migration ex vivo , demonstrating that triplex formation plays a role in driving melanoma progression."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Finally, inhibitory oligos that block SLNCR •DNA:DNA triplex formation reversed the effect of SLNCR -mediated migration ex vivo"}
+    ]},
+   {"n": 866, "id": "pmid:40958715",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "The expressions of CARS1-AS1 and miR-142-5p were upregulated in treatment-responsive patients.", "flag": "ambiguous", "reason": "The abstract links BACH1 regulation to let-7c-5p and miR-98-5p via OLMALINC and only reports miR-142-5p as upregulated in responders, so neither the suppression mechanism nor the causal direction is stated."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "The levels of microRNAs (miRNAs) miR-125a-5p, miR-30e-5p, miR-16-2-3p, miR-98-5p, and the let-7 family were significantly suppressed, whereas that of miR-6731-5p was significantly elevated."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "CARS1-AS1 (adjusted hazard ratio [HR] 0.33; 95% confidence interval [CI], 0.15-0.73; P =0.0061) and miR-142-5p (adjusted HR 0.79; 95% CI, 0.61-1.01; P = 0.0581) were associated with improved overall survival."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "The total Ex-smRNA count was substantially reduced in patients with PDAC compared with that in control individuals."}
+    ]},
+   {"n": 867, "id": "doi:10.64898/2026.07.14.738560",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "This regulatory axis is functionally conserved in Spodoptera frugiperda , validated across loss-of-function, gain-of-function, and cell-based systems."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "This drives broad transcriptomic and metabolomic reprogramming of carbohydrate, lipid, and growth-signalling pathways, resulting in accelerated larval growth. Overexpression of lncRNA1 reverses these phenotypes."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "RNAi-mediated silencing of lncRNA1 in Helicoverpa armigera elevates TPS/TPP and Treh transcript abundance, increases enzyme activities, reduces haemolymph trehalose, raises glucose."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "lncRNA1 physically associates with TPS/TPP and Treh mRNAs through evolutionarily conserved sequence motifs, modulating their post-transcriptional dynamics. Targeted deletion of these motifs abolishes regulatory activity and disrupts metabolic homeostasis."}
+    ]},
+   {"n": 868, "id": "pmid:41414669",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Sequence alignment across Caenorhabditis species reveals three conserved RG motifs, which we confirm to be methylated by mass spectrometry."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "mutation of the RG motifs results in defects in downstream small RNA production, specifically the depletion of WAGO-class small interfering RNAs (siRNAs), without affecting piRNA biogenesis"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Sequence alignment across Caenorhabditis species reveals three conserved RG motifs, which we confirm to be methylated by mass spectrometry."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "While the RG motifs are critical for fertility, germline morphology, and Piwi-interacting RNAs (piRNAs) silencing, they are not required for PRG-1 expression, localization, or piRNA loading."}
+    ]},
+   {"n": 869, "id": "pmid:42798623",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The AUC value of each predicted circRNA-miRNA-mRNA path in diagnosing POCD exceeded 0.8."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Dual-luciferase assays further confirmed the direct interactions of mmu_circ_0001838 with mmu-miR-337-3p and mmu-miR-337-3p with PLA2G12B mRNA."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "we successfully predicted a circRNA-miRNA-mRNA network, comprising 4 circRNAs, 14 miRNAs and 12 mRNAs."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "while the levels of mmu_circRNA_009396, mmu_miR-6912-5p, mmu_miR-362-3p, mmu_miR-337-3p, SLC25A13 mRNA, and GPR171 mRNA were reduced in the hippocampal tissues of POCD mice compared to the control group."}
+    ]},
+   {"n": 870, "id": "pmid:40175608",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "we examined ALKBH5 protein expression and m6A levels by immunohistochemistry and analyzed their correlation with clinical features and prognosis in patients with ovarian cancer", "flag": "ambiguous", "reason": "The abstract says prognosis was analysed but never reports the direction of the association with survival."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "In the ovarian cancer cell line A2780, ALKBH5 depletion was found using the siRNA strategy or the CRISPR/Cas9 knockout (KO) method, which significantly reduced the level of m6A and inhibited cell viability, proliferation, and migration."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We identified the elevated expression of ALKBH5 and a general reduction in the level of m6A in ovarian cancer patients."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "ALKBH5 knockdown resulted in increased retention of SRSF10 exon 5 and decreased expression of transcript SRSF10-211."}
+    ]},
+   {"n": 871, "id": "pmid:42480769",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "In vivo models confirm its overexpression suppresses tumor growth by promoting cuproptosis."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "It localizes in nucleus, acts as tumor suppressor by inhibiting cell proliferation, positively regulates cuproptosis and enhances sensitivity to Elesclomol."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "This study finds long non-coding RNA LINC02207 is significantly downregulated in TNBC tissues and low expression correlates with poorer survival."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Bioinformatics analysis of transcriptomic data from breast cancer patients in the TCGA databases identified a key gene associated with copper-mediated cell death."}
+    ]},
+   {"n": 872, "id": "pmid:41013174",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Expression analysis for a subset of these small RNAs indicates that many display differential expression across human tissues with the pattern correlating significantly with the expression of the candidate protein-coding host gene."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Relatedly, processing of a small RNA from an exon of a protein-coding mRNA, in principle, may destabilize it and compromise translation of the host gene.", "flag": "ambiguous", "reason": "The abstract raises this only as a principle, not as a measurement made in the study."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Our analysis finds 201 small RNAs (118 human and 83 mouse) encoded by expressed exons of protein-coding genes (5'-UTR, CDS, 3'-UTR)."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Many of these small RNAs are poorly characterized with 96% of the protein-coding host gene relationships identified here not previously known."}
+    ]},
+   {"n": 873, "id": "pmid:41455750",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "VCD treatment reduces ovarian reserve, elevates oxidative stress, and causes severe chromosome segregation defects."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We find that VCD dysregulates the expression of m6A writers and erasers, leading to altered methylation of transcripts critical for cell division and meiosis."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Specifically, VCD downregulates the RNA-binding protein IGF2BP3, which destabilizes target genes required for chromosome alignment and spindle assembly."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Specifically, VCD downregulates the RNA-binding protein IGF2BP3, which destabilizes target genes required for chromosome alignment and spindle assembly."}
+    ]},
+   {"n": 874, "id": "pmid:41071868",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Here, we report the high-quality germline genome assembly of a marine ciliate Euplotes vannus , where ~80% are transposons and other germline-specific DNA that has to be precisely eliminated during soma development."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "These small RNAs are cleaved by Dicer-like ribonuclease from long noncoding RNAs, which are bidirectionally transcribed of somatic chromosomes, initiated at subtelomeric chromosome breakage sequences (5'-TTGAA-3')."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We demonstrate that a class of soma-derived 30-nucleotide small RNAs precisely targets nontransposon DNA against elimination during this process."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Small RNA-mediated targeting remains functional across varying small RNA lengths and is compatible with heterozygous sites."}
+    ]},
+   {"n": 875, "id": "pmid:38847568",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We found that both siRNA and piRNA pathways are transcriptionally active in PP9ad cells, with genomic mapping of small RNAs generating typical piRNA signatures."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "In this study, we identified and assembled a strain of American nodavirus (ANV) in the Phlebotomus papatasi-derived PP9ad cell line."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Our analysis of the updated P. papatasi genome (Ppap_2.1) has shown no PIWI protein expansion in sandflies."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we demonstrate that ANV replication in PP9ad cells is primarily targeted by the exogenous small interfering RNA (exo-siRNA) pathway, with minimal engagement from the PIWI-interacting RNA (piRNA) pathway"}
+    ]},
+   {"n": 876, "id": "pmid:42772092",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Furthermore, the biosensor effectively discriminated breast cancer cells (MDA-MB-231) from normal breast epithelial cells (MCF-10A) by detecting markedly elevated levels of circCDR1as in the malignant cells."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Then, plasmonic nanoparticles labeled with a Raman reporter (5,5'-dithio bis-(2-nitrobenzoic acid), DTNB) attach to the bead surface through complementary hybridization, forming a core-satellite structure that greatly enhances the SERS signal."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "This method demonstrated sensitive and selective detection of a circCDR1as mimic, with a detection limit of 1 pM."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "the biosensor effectively discriminated breast cancer cells (MDA-MB-231) from normal breast epithelial cells (MCF-10A) by detecting markedly elevated levels of circCDR1as in the malignant cells"}
+    ]},
+   {"n": 877, "id": "doi:10.1101/2025.07.29.667427",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The Python implementation runs natively on Linux and in WSL in Windows, and the Docker image can run on Linux, Windows, and MacOS."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We present piRAT, a piR NA A nnotation T ool for annotating both primary piRNAs from piRNA clusters and secondary piRNAs generated via the ping-pong cycle, using small RNA-seq data mapped to a genome."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "However, there is a lack of robust computational tools that facilitate their accurate annotation, analysis, and visualization, which would allow large-scale analysis of piRNAs across samples and species."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "piRAT is available on GitHub ( https://github.com/ylla-lab/piRAT ), implemented in Python 3, and released under MIT license. It is also installable through pip, conda, and available as Docker container"}
+    ]},
+   {"n": 878, "id": "pmid:42584802",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We previously showed hnRNP A1 overexpression increases invasion and cell growth in thyroid carcinoma cells through association with miR-17a and miR-18a.", "flag": "ambiguous", "reason": "Growth effects are reported for thyroid carcinoma cells in earlier work; nothing is said about proliferation of the HEK-293FT cells used here."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Surprisingly, the same pattern was not observed in cells overexpressing hnRNP K."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Reverse transcription quantitative PCR (RT-qPCR) analysis indicated higher levels of MIR17HG-i3 isoforms, which correlated with increase on pre-miR-19a generation upon hnRNP A1 overexpression."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Higher concentration of functional miR-19a in hnRNP A1 overexpressing cells was confirmed by luciferase reporter assays."}
+    ]},
+   {"n": 879, "id": "pmid:41817976",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Ablation studies confirm the contribution of each module, while literature evidence and tissue-specific expression profiling further support the biological relevance of the predictions."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "These features are subsequently mapped into the hidden space of LLaMA-3.2-3B through adapter modules, with LoRA employed for parameter-efficient fine-tuning."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The method integrates 19,020 experimentally validated associations and 120,009 disease association records."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "NCRDLLM achieves AUC-ROC values of 0.9665, 0.9832, and 0.9676 on miRNA-drug, lncRNA-drug, and circRNA-drug data sets, respectively.", "flag": "ambiguous", "reason": "The statement is internally inconsistent: 0.9832 for lncRNA-drug is the highest of the three values, so calling it the lowest is contradicted even though the rest of the sentence matches the abstract."}
+    ]}
+ ]}

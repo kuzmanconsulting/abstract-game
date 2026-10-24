@@ -1,0 +1,347 @@
+{
+"batch": "gen_118",
+"prompt_version": "gen-v5",
+"flip_rule": "first-of-any-v3",
+"items": [
+{
+"n": 1825,
+"id": "pmid:26687007",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "In mice, fat-tissue activin A rose as the animals grew older.",
+"evidence": "Mouse fat tissue activin A increased with aging.",
+"note": "The abstract states mouse fat tissue activin A increased with aging."
+},
+{
+"k": 2,
+"label": "not_addressed",
+"text": "Senescent-cell clearance extended the lifespan of the naturally-aged mice.",
+"evidence": "Clearing senescent cells from 18-month-old naturally-aged INK-ATTAC mice reduced circulating activin A, blunted fat loss, and enhanced adipogenic transcription factor expression within 3 weeks.",
+"note": "The abstract reports fat and activin A effects of clearance within 3 weeks but never mentions survival or lifespan."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Eight weeks of the JAK1/2 inhibitor ruxolitinib lowered circulating activin A and preserved fat mass in 22-month-old mice.",
+"evidence": "Eight weeks-treatment with ruxolitinib, an FDA-approved JAK1/2 inhibitor, reduced circulating activin A, preserved fat mass, reduced lipotoxicity, and increased insulin sensitivity in 22-month-old mice.",
+"note": "The abstract reports eight-week ruxolitinib reduced circulating activin A and preserved fat mass in 22-month-old mice."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Primary human senescent fat progenitors release activin A and directly block adipogenesis in non-senescent progenitors.",
+"evidence": "primary human senescent fat progenitors secrete activin A and directly inhibit adipogenesis in non-senescent progenitors",
+"note": "The abstract states senescent human fat progenitors secrete activin A and inhibit adipogenesis in non-senescent progenitors."
+}
+]
+},
+{
+"n": 1826,
+"id": "pmid:24093676",
+"statements": [
+{
+"k": 1,
+"label": "not_addressed",
+"text": "A small-molecule Nlrp3 inhibitor was given to aged mice and delayed the onset of chronic age-related diseases.",
+"evidence": "These studies reveal Nlrp3 inflammasome as an upstream target that controls age-related inflammation and offer an innovative therapeutic strategy to lower Nlrp3 activity to delay multiple age-related chronic diseases.",
+"note": "The abstract proposes lowering Nlrp3 activity as a strategy but reports only genetic ablation, not any drug treatment."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "Deleting the Nlrp3 inflammasome protected mice against age-related rises in innate immune activation, CNS transcriptome changes, and astrogliosis.",
+"evidence": "Ablation of Nlrp3 inflammasome protected mice from age-related increases in the innate immune activation, alterations in CNS transcriptome, and astrogliosis.",
+"note": "The abstract states Nlrp3 ablation protected mice from these age-related increases."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "In aged mice, IL-1 accounted only for the Nlrp3 inflammasome-dependent gains in cognitive function and motor performance.",
+"evidence": "Notably, IL-1 mediated only Nlrp3 inflammasome-dependent improvement in cognitive function and motor performance in aged mice.",
+"note": "The abstract states IL-1 mediated only the Nlrp3-dependent cognitive and motor improvements in aged mice."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Reduced caspase-1 activity in Nlrp3-deficient mice improved glycemic control and lessened bone loss and thymic involution.",
+"evidence": "the deficient Nlrp3 inflammasome-mediated caspase-1 activity improved glycemic control and attenuated bone loss and thymic demise.",
+"note": "The abstract states deficient Nlrp3-mediated caspase-1 activity improved glycemic control and attenuated bone loss and thymic demise."
+}
+]
+},
+{
+"n": 1827,
+"id": "pmid:24960204",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Mice lacking nfkb1 showed reduced tissue regeneration in the liver and gut.",
+"evidence": "We also show that these mice have reduced regeneration in liver and gut.",
+"note": "The abstract states the nfkb1-knockout mice have reduced regeneration in liver and gut."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "Chronic low-grade inflammation caused by nfkb1 knockout drives premature ageing in mice.",
+"evidence": "chronic, progressive low-grade inflammation induced by knockout of the nfkb1 subunit of the transcription factor NF-κB induces premature ageing in mice.",
+"note": "The abstract states nfkb1-knockout-induced chronic inflammation induces premature ageing in mice."
+},
+{
+"k": 3,
+"label": "not_addressed",
+"text": "The premature ageing of nfkb1-knockout mice was accompanied by cognitive decline.",
+"evidence": "Frequencies of senescent cells in liver and intestinal crypts quantitatively predict mean and maximum lifespan in both short- and long-lived mice cohorts.",
+"note": "The abstract examines liver, gut and fibroblasts but never assesses cognition or neural function."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Anti-inflammatory or antioxidant treatment blocked senescent-cell accumulation in nfkb1-/- tissues and restored their regenerative potential.",
+"evidence": "Preferential accumulation of telomere-dysfunctional senescent cells in nfkb1(-/-) tissues is blocked by anti-inflammatory or antioxidant treatment of mice, and this rescues tissue regenerative potential.",
+"note": "The abstract states such treatment blocks senescent-cell accumulation and rescues regenerative potential."
+}
+]
+},
+{
+"n": 1828,
+"id": "pmid:12433688",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Proliferative failure in these HIV-specific CD8+ T cells was marked by surface CD57, not by loss of CD28 or CCR7.",
+"evidence": "This lack of proliferative ability of HIV-specific CD8(+) T cells is defined by surface expression of CD57 but not by absence of CD28 or CCR7.",
+"note": "The abstract states the proliferative failure is defined by CD57, not by absence of CD28 or CCR7."
+},
+{
+"k": 2,
+"label": "not_addressed",
+"text": "Adding exogenous IL-7 restored the proliferative capacity of the HIV-specific CD8+ T cells.",
+"evidence": "This inability to proliferate in response to antigen cannot be overcome by exogenous interleukin-2 (IL-2) or IL-15.",
+"note": "The abstract reports IL-2 and IL-15 failed to rescue proliferation but never tests IL-7."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "A large fraction of cytokine-producing HIV-specific CD8+ T cells failed to divide and died during a 48-hour in vitro culture.",
+"evidence": "a large proportion of HIV-specific CD8(+) T cells that produce cytokines in response to cognate antigen are unable to divide and die during a 48-hour in vitro culture.",
+"note": "The abstract states many such cytokine-producing cells cannot divide and die within the 48-hour culture."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Across CD8+, CD4+ T cells and NK cells, CD57 marked proliferative inability, a history of more cell divisions, and short telomeres.",
+"evidence": "CD57 expression on CD8(+) T cells, CD4(+) T cells, and NK cells is a general marker of proliferative inability, a history of more cell divisions, and short telomeres.",
+"note": "The abstract states CD57 marks proliferative inability, more prior divisions, and short telomeres across these cell types."
+}
+]
+},
+{
+"n": 1829,
+"id": "pmid:24191150",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Cross-sectional data showed neutrophil migratory behavior begins to change in the sixth decade of life.",
+"evidence": "Cross-sectional data indicate that migratory behavior changes in the sixth decade of life.",
+"note": "The abstract states migratory behavior changes in the sixth decade of life."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "Neutrophils from healthy older subjects showed reduced chemotaxis but preserved chemokinesis toward inflammatory stimuli.",
+"evidence": "reduced chemotaxis but preserved chemokinesis toward a range of inflammatory stimuli in migrating neutrophils isolated from healthy older subjects.",
+"note": "The abstract describes reduced chemotaxis but preserved chemokinesis in older subjects' neutrophils."
+},
+{
+"k": 3,
+"label": "not_addressed",
+"text": "Treating older patients with a PI3K inhibitor lowered their rate of bacterial infections.",
+"evidence": "Targeting PI3K signaling may therefore offer a new strategy in improving neutrophil functions during infections and reduce inappropriate inflammation in older patients.",
+"note": "The abstract proposes PI3K targeting during infections but does not test infection rates in patients."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Inhibiting PI3Kγ or PI3Kδ restored neutrophil migratory accuracy, whereas SHIP1 inhibition worsened the migratory defects.",
+"evidence": "inhibition of PI3Kγ or PI3Kδ, restored neutrophil migratory accuracy, whereas SHIP1 inhibition worsened migratory flaws.",
+"note": "The abstract reports PI3Kγ/PI3Kδ inhibition restored accuracy while SHIP1 inhibition worsened it."
+}
+]
+},
+{
+"n": 1830,
+"id": "pmid:22560076",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Elevated Cdc42 activity in aged HSCs was causally linked to their aging and correlated with a loss of polarity.",
+"evidence": "elevated activity of the small RhoGTPase Cdc42 in aged HSCs is causally linked to HSC aging and correlates with a loss of polarity in aged HSCs.",
+"note": "The abstract states elevated Cdc42 activity is causally linked to HSC aging and correlates with loss of polarity."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "Aging-related hematopoietic decline includes a progressive reduction in immune response and an increased incidence of myeloid malignancy.",
+"evidence": "The decline in hematopoietic function seen during aging involves a progressive reduction in the immune response and an increased incidence of myeloid malignancy",
+"note": "The abstract states aging hematopoietic decline involves reduced immune response and more myeloid malignancy."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Pharmacological inhibition of Cdc42 rejuvenated aged HSCs and raised the percentage of polarized cells in the aged population.",
+"evidence": "Pharmacological inhibition of Cdc42 activity functionally rejuvenates aged HSCs, increases the percentage of polarized cells in an aged HSC population",
+"note": "The abstract states Cdc42 inhibition rejuvenates aged HSCs and increases the percentage of polarized cells."
+},
+{
+"k": 4,
+"label": "not_addressed",
+"text": "Inhibiting Cdc42 reduced the incidence of myeloid malignancy in aged mice.",
+"evidence": "Our data therefore suggest a mechanistic role for Cdc42 activity in HSC biology and epigenetic regulation, and identify Cdc42 activity as a pharmacological target for ameliorating stem cell aging.",
+"note": "The abstract identifies Cdc42 as a target for stem cell aging but does not measure malignancy outcomes."
+}
+]
+},
+{
+"n": 1831,
+"id": "pmid:16150936",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Irradiated LKS+ HSCs showed increased p16(Ink4a) and SA-beta-gal, while irradiated LKS- progenitors showed no such change.",
+"evidence": "LKS+ HSCs from irradiated mice exhibited an increased expression of the 2 commonly used biomarkers of cellular senescence, p16(Ink4a) and SA-beta-gal. In contrast, no such changes were observed in irradiated LKS- hematopoietic progenitor cells.",
+"note": "The abstract reports senescence biomarkers rose in LKS+ HSCs but not in LKS- progenitors."
+},
+{
+"k": 2,
+"label": "not_addressed",
+"text": "Chemotherapeutic agents induced HSC senescence through the same p16(Ink4a) and SA-beta-gal markers.",
+"evidence": "Exposure to ionizing radiation (IR) and certain chemotherapeutic agents not only causes acute bone marrow (BM) suppression but also leads to long-term residual hematopoietic injury.",
+"note": "The abstract names chemotherapy as a cause of injury but tests only irradiation for senescence induction."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "A sublethal 6.5 Gy total-body irradiation of C57BL/6 mice produced a sustained reduction of LKS+ HSCs.",
+"evidence": "exposure of C57BL/6 mice to a sublethal dose (6.5 Gy) of total body irradiation (TBI) resulted in a sustained quantitative and qualitative reduction of LKS+ HSCs.",
+"note": "The abstract reports 6.5 Gy TBI caused a sustained reduction of LKS+ HSCs."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "HSC senescence coincided with prolonged elevation of p21, p19(Arf) and p16(Ink4a) mRNA, while p27(Kip1) and p18(Ink4c) were not increased.",
+"evidence": "the induction of HSC senescence was associated with a prolonged elevation of p21(Cip1/Waf1), p19(Arf), and p16(Ink4a) mRNA expression, while the expression of p27(Kip1) and p18(Ink4c) mRNA was not increased following TBI.",
+"note": "The abstract reports prolonged elevation of p21, p19Arf and p16 mRNA, but not p27Kip1 or p18Ink4c."
+}
+]
+},
+{
+"n": 1832,
+"id": "pmid:24490752",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Methylation at three CpGs in ITGA2B, ASPA and PDE4C was measured by bisulfite pyrosequencing of 151 blood samples.",
+"evidence": "Methylation levels at three age-related CpGs--located in the genes ITGA2B, ASPA and PDE4C--were subsequently analyzed by bisulfite pyrosequencing of 151 blood samples.",
+"note": "The abstract reports three CpGs in these genes were pyrosequenced in 151 blood samples."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "The methylation signature predicted age more precisely than predictions based on telomere length.",
+"evidence": "This precision is higher than age predictions based on telomere length.",
+"note": "The abstract states the signature's precision is higher than telomere-length-based age predictions."
+},
+{
+"k": 3,
+"label": "not_addressed",
+"text": "The methylation aging signature also predicted age accurately in tissues other than blood.",
+"evidence": "Our epigenetic aging signature provides a simple biomarker to estimate the state of aging in blood.",
+"note": "The abstract develops and validates the signature in blood only and does not test other tissues."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "The epigenetic signature predicted age with a mean absolute deviation from chronological age of less than 5 years.",
+"evidence": "This epigenetic aging signature facilitates age predictions with a mean absolute deviation from chronological age of less than 5 years.",
+"note": "The abstract reports a mean absolute deviation from chronological age of less than 5 years."
+}
+]
+},
+{
+"n": 1833,
+"id": "pmid:26150497",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Before midlife, faster-aging individuals were less physically able, showed cognitive decline, reported worse health, and looked older.",
+"evidence": "individuals who were aging more rapidly were less physically able, showed cognitive decline and brain aging, self-reported worse health, and looked older.",
+"note": "The abstract states more rapidly aging individuals were less able, declined cognitively, reported worse health, and looked older."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "The study tracked aging in 954 Dunedin cohort members across three time points in their third and fourth decades.",
+"evidence": "We studied aging in 954 young humans, the Dunedin Study birth cohort, tracking multiple biomarkers across three time points spanning their third and fourth decades of life.",
+"note": "The abstract reports 954 Dunedin cohort participants tracked across three time points in their third and fourth decades."
+},
+{
+"k": 3,
+"label": "not_addressed",
+"text": "A rejuvenation therapy applied to the cohort slowed their measured biological aging.",
+"evidence": "Measured biological aging in young adults can be used to identify causes of aging and evaluate rejuvenation therapies.",
+"note": "The abstract proposes the measure for evaluating rejuvenation therapies but tests no such therapy."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Two aging-measurement methods, one cross-sectional and one longitudinal, were developed and validated for young adults.",
+"evidence": "We developed and validated two methods by which aging can be measured in young adults, one cross-sectional and one longitudinal.",
+"note": "The abstract states two methods, cross-sectional and longitudinal, were developed and validated."
+}
+]
+},
+{
+"n": 1834,
+"id": "pmid:17687332",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "TRF2 and POT1 act independently to repress the two pathways: TRF2 represses ATM, while POT1 prevents ATR activation.",
+"evidence": "The data indicate that TRF2 and POT1 act independently to repress these two DNA damage response pathways. TRF2 represses ATM, whereas POT1 prevents activation of ATR.",
+"note": "The abstract states TRF2 and POT1 act independently, TRF2 repressing ATM and POT1 preventing ATR activation."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "Damaged mammalian telomeres can activate both the ATM and the ATR DNA-damage signalling pathways.",
+"evidence": "damaged mammalian telomeres can activate both ATM and ATR",
+"note": "The abstract shows damaged mammalian telomeres can activate both ATM and ATR."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Shortened telomeres drive replicative senescence and genome instability, which these mechanisms help explain.",
+"evidence": "provide an explanation for the induction of replicative senescence and genome instability by shortened telomeres.",
+"note": "The abstract states shortened telomeres induce replicative senescence and genome instability."
+},
+{
+"k": 4,
+"label": "not_addressed",
+"text": "Depleting both TRF2 and POT1 caused more severe telomere dysfunction than depleting either one alone.",
+"evidence": "We analysed the telomere damage response on depletion of either or both of the shelterin proteins telomeric repeat binding factor 2 (TRF2) and protection of telomeres 1 (POT1) from cells lacking ATM and/or ATR kinase signalling.",
+"note": "The abstract reports analyzing single and double depletions but does not compare their severity."
+}
+]
+}
+]
+}

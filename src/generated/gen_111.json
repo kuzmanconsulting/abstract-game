@@ -1,0 +1,347 @@
+{
+"batch": "gen_111",
+"prompt_version": "gen-v5",
+"flip_rule": "first-of-any-v3",
+"items": [
+{
+"n": 1755,
+"id": "pmid:28608850",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Removing senescent cells with the senolytic drugs dasatinib and quercetin lowered overall hepatic steatosis.",
+"evidence": "treatment with a combination of the senolytic drugs dasatinib and quercetin (D+Q) reduces overall hepatic steatosis.",
+"note": "The abstract reports that D+Q senolytic treatment reduces overall hepatic steatosis."
+},
+{
+"k": 2,
+"label": "not_addressed",
+"text": "Clearing senescent cells reversed established liver fibrosis in the treated mice.",
+"evidence": "The elimination of senescent cells by suicide gene-meditated ablation of p16 Ink4a -expressing senescent cells in INK-ATTAC mice or by treatment with a combination of the senolytic drugs dasatinib and quercetin (D+Q) reduces overall hepatic steatosis.",
+"note": "The abstract reports reduced steatosis from clearing senescent cells but never mentions fibrosis."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Markers of hepatocyte senescence closely tracked the amount of fat accumulating in the liver.",
+"evidence": "We report a close correlation between hepatic fat accumulation and markers of hepatocyte senescence.",
+"note": "The abstract reports a close correlation between hepatic fat accumulation and hepatocyte senescence markers."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Mitochondria in senescent cells became less able to metabolize fatty acids efficiently.",
+"evidence": "mitochondria in senescent cells lose the ability to metabolize fatty acids efficiently.",
+"note": "The abstract states senescent-cell mitochondria lose efficient fatty-acid metabolism."
+}
+]
+},
+{
+"n": 1756,
+"id": "pmid:37532932",
+"statements": [
+{
+"k": 1,
+"label": "not_addressed",
+"text": "Treating aged mice with a STING inhibitor extended their median lifespan.",
+"evidence": "reveal blockade of cGAS-STING signalling as a potential strategy to halt neurodegenerative processes during old age.",
+"note": "The abstract reports improved tissue function from STING blockade but never measures lifespan or survival."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "Blocking STING reduced ageing-related inflammation across several peripheral organs and the brain in mice.",
+"evidence": "attenuates ageing-related inflammation in multiple peripheral organs and the brain in mice, and leads to an improvement in tissue function.",
+"note": "The abstract states STING blockade attenuates ageing-related inflammation in peripheral organs and the brain."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Activating STING drove reactive microglial transcriptional states, neurodegeneration and cognitive decline.",
+"evidence": "activation of STING triggers reactive microglial transcriptional states, neurodegeneration and cognitive decline.",
+"note": "The abstract reports STING activation triggers reactive microglia, neurodegeneration and cognitive decline."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "In old microglia, cytosolic DNA released from perturbed mitochondria set off cGAS activity.",
+"evidence": "Cytosolic DNA released from perturbed mitochondria elicits cGAS activity in old microglia",
+"note": "The abstract states mitochondrial cytosolic DNA elicits cGAS activity in old microglia."
+}
+]
+},
+{
+"n": 1757,
+"id": "pmid:27048913",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Senescent cells raised their levels of the anti-apoptotic proteins BCL-W and BCL-XL.",
+"evidence": "senescent cells upregulate the anti-apoptotic proteins BCL-W and BCL-XL.",
+"note": "The abstract states senescent cells upregulate BCL-W and BCL-XL."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "Jointly inhibiting BCL-W and BCL-XL, by siRNA or ABT-737, selectively triggered apoptosis in senescent cells.",
+"evidence": "Joint inhibition of BCL-W and BCL-XL by siRNAs or the small-molecule ABT-737 specifically induces apoptosis in senescent cells.",
+"note": "The abstract reports joint BCL-W/BCL-XL inhibition specifically induces apoptosis in senescent cells."
+},
+{
+"k": 3,
+"label": "not_addressed",
+"text": "ABT-737 eliminated senescent cells more effectively in the lungs than in the epidermis of treated mice.",
+"evidence": "treatment of mice with ABT-737 efficiently eliminates senescent cells induced by DNA damage in the lungs as well as senescent cells formed in the epidermis by activation of p53 through transgenic p14(ARF).",
+"note": "The abstract reports elimination in both lungs and epidermis but makes no efficacy comparison between the tissues."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Clearing senescent cells from the epidermis increased hair-follicle stem cell proliferation.",
+"evidence": "Elimination of senescent cells from the epidermis leads to an increase in hair-follicle stem cell proliferation.",
+"note": "The abstract reports epidermal senescent-cell removal increases hair-follicle stem cell proliferation."
+}
+]
+},
+{
+"n": 1758,
+"id": "pmid:35835107",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "The endonuclease FEN1 cut oxidized mtDNA into 500-650 bp fragments that then exited the mitochondria.",
+"evidence": "cleaved by the endonuclease FEN1 to 500-650 bp fragments that exited mitochondria via mPTP- and VDAC-dependent channels to initiate cytosolic NLRP3 inflammasome activation.",
+"note": "The abstract states FEN1 cleaves Ox-mtDNA into 500-650 bp fragments that exit mitochondria."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "FEN1 inhibitors suppressed interleukin-1β production and mitochondrial DNA release in mice.",
+"evidence": "FEN1 inhibitors that suppressed interleukin-1β (IL-1β) production and mtDNA release in mice.",
+"note": "The abstract reports FEN1 inhibitors suppressed IL-1β production and mtDNA release in mice."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Opening of the permeability transition pores and VDAC oligomerization occurred independently of mtDNA or reactive oxygen species.",
+"evidence": "This occurred independently of mtDNA or reactive oxygen species, which induce Ox-mtDNA generation.",
+"note": "The abstract states this pore opening occurred independently of mtDNA or reactive oxygen species."
+},
+{
+"k": 4,
+"label": "not_addressed",
+"text": "Extracellular oxidized mtDNA triggered inflammation in neighbouring cells that had not been stressed.",
+"evidence": "Ox-mtDNA fragments also activated cGAS-STING signaling and gave rise to pro-inflammatory extracellular DNA.",
+"note": "The abstract reports pro-inflammatory extracellular DNA but does not describe effects on neighbouring unstressed cells."
+}
+]
+},
+{
+"n": 1759,
+"id": "pmid:28483762",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Whole-genome sequencing of 11 262 Icelanders identified 1403 cases of clonal hematopoiesis.",
+"evidence": "whole-genome sequencing of 11 262 Icelanders, we found 1403 cases of CH",
+"note": "The abstract reports 1403 CH cases found by whole-genome sequencing of 11 262 Icelanders."
+},
+{
+"k": 2,
+"label": "not_addressed",
+"text": "The germline TERT risk deletion was more common among smokers than non-smokers.",
+"evidence": "we find a germline deletion in intron 3 of the telomerase reverse transcriptase ( TERT ) gene that predisposes to CH",
+"note": "The abstract reports the TERT deletion predisposes to CH but never links it to smoking status."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "The clonal hematopoiesis detected was associated with increased mortality rates and higher risk of hematological malignancy.",
+"evidence": "the highly prevalent CH we detect associates with increased mortality rates, risk for hematological malignancy",
+"note": "The abstract reports CH associates with increased mortality and hematological malignancy risk."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Known candidate-driver mutations were present in only a fraction of the clonal hematopoiesis cases.",
+"evidence": "known CD mutations were evident in only a fraction of CH cases.",
+"note": "The abstract states known candidate-driver mutations were evident in only a fraction of CH cases."
+}
+]
+},
+{
+"n": 1760,
+"id": "pmid:27546487",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Using error-corrected sequencing, clonal haematopoiesis was found in 95% of the healthy 50-60-year-old participants studied.",
+"evidence": "clonal haematopoiesis, frequently harbouring mutations in DNMT3A and TET2, in 95% of individuals studied.",
+"note": "The abstract reports CH in 95% of the individuals studied, frequently with DNMT3A and TET2 mutations."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "Earlier NGS studies detected haematopoietic clones in 10% of 70-year-olds and only rarely in younger individuals.",
+"evidence": "observed haematopoietic clones in 10% of 70-year olds and rarely in younger individuals.",
+"note": "The abstract states prior NGS found clones in 10% of 70-year-olds and rarely in younger people."
+},
+{
+"k": 3,
+"label": "not_addressed",
+"text": "Some participants' clonal mutations progressed to overt leukaemia during longitudinal follow-up.",
+"evidence": "These clonal mutations are often stable longitudinally and present in multiple haematopoietic compartments, suggesting a long-lived haematopoietic stem and progenitor cell of origin.",
+"note": "The abstract reports longitudinal stability but never reports progression to leukaemia in any participant."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "The new error-corrected sequencing accurately detected clonal mutations as rare as 0.0003 variant allele fraction.",
+"evidence": "enable the accurate detection of clonal mutations as rare as 0.0003 VAF.",
+"note": "The abstract states the method detects clonal mutations as rare as 0.0003 VAF."
+}
+]
+},
+{
+"n": 1761,
+"id": "pmid:33271118",
+"statements": [
+{
+"k": 1,
+"label": "not_addressed",
+"text": "Depleting GZMK+ Taa cells restored immune function in aged mice.",
+"evidence": "These results identify GZMK + Taa cells as a potential target to address age-associated dysfunctions of the immune system.",
+"note": "The abstract proposes Taa cells as a potential target but reports no depletion or functional-rescue experiment."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "The GZMK-expressing Taa CD8+ T cells formed a subpopulation distinct from T effector memory cells.",
+"evidence": "age-associated granzyme K (GZMK)-expressing CD8 + T (Taa) cells that are distinct from T effector memory (Tem) cells.",
+"note": "The abstract identifies Taa cells as distinct from T effector memory cells."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "In humans, the proportion of circulating GZMK+ CD8+ T cells resembling mouse Taa cells increased during healthy aging.",
+"evidence": "proportions of the circulating GZMK + CD8 + T cell population that shares transcriptional and epigenetic signatures with mouse Taa cells increased during healthy aging.",
+"note": "The abstract reports this circulating population increases during healthy human aging."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Activated Taa cells were the main source of GZMK, which enhanced inflammatory functions of non-immune cells.",
+"evidence": "Activated Taa cells were the primary source of GZMK, which enhanced inflammatory functions of non-immune cells.",
+"note": "The abstract states activated Taa cells are the primary GZMK source, enhancing inflammation in non-immune cells."
+}
+]
+},
+{
+"n": 1762,
+"id": "pmid:37024597",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "The models predicted premature death with an area under the curve of 0.86 and survival time with 0.77.",
+"evidence": "predicts survival time (area under the curve of 0.77) and premature death (area under the curve of 0.86).",
+"note": "The abstract reports AUCs of 0.77 for survival time and 0.86 for premature death."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "The researchers built normative biological-age models for three brain systems and seven body systems from UK Biobank data.",
+"evidence": "we establish normative models of biological age for three brain and seven body systems.",
+"note": "The abstract states normative models were built for three brain and seven body systems."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Across 16 chronic diseases, advanced biological aging spread from the primarily diseased organ to multiple other systems.",
+"evidence": "advanced biological aging extends from the organ of primary disease to multiple systems.",
+"note": "The abstract reports advanced aging extends from the organ of primary disease to multiple systems."
+},
+{
+"k": 4,
+"label": "not_addressed",
+"text": "Adopting healthier lifestyle habits slowed organ-specific aging in the participants.",
+"evidence": "inform new strategies to potentially limit organ-specific aging in such individuals.",
+"note": "The abstract raises limiting organ aging as a future possibility but tests no lifestyle intervention."
+}
+]
+},
+{
+"n": 1763,
+"id": "pmid:29432122",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Inside cells, the dominant active caspase-1 dimers were full-length p46 and a transient p33/p10 species.",
+"evidence": "the dominant species of active caspase-1 dimers elicited by inflammasomes are in fact full-length p46 and a transient species, p33/p10.",
+"note": "The abstract reports the dominant active dimers in cells are p46 and transient p33/p10."
+},
+{
+"k": 2,
+"label": "not_addressed",
+"text": "This self-limiting mechanism prevents excessive interleukin-1β secretion during infection.",
+"evidence": "This intrinsic mechanism of inflammasome signal shutdown offers a molecular basis for the transient nature, and coordinated timing, of inflammasome-dependent inflammatory responses.",
+"note": "The abstract explains transient inflammatory responses but mentions neither IL-1β levels nor infection."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "The rate of p33/p10 autoprocessing was set by the inflammasome's size and the cell type.",
+"evidence": "Further p33/p10 autoprocessing occurs with kinetics specified by inflammasome size and cell type",
+"note": "The abstract states p33/p10 autoprocessing kinetics are specified by inflammasome size and cell type."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "After release from the inflammasome, the p20/p10 tetramer grew unstable in cells and caspase-1 activity was terminated.",
+"evidence": "releases p20/p10 from the inflammasome, whereupon the tetramer becomes unstable in cells and protease activity is terminated.",
+"note": "The abstract reports the released tetramer becomes unstable and protease activity is terminated."
+}
+]
+},
+{
+"n": 1764,
+"id": "pmid:34888528",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "The inflammatory clock iAge was derived from the blood immunome of 1,001 individuals aged 8 to 96 years.",
+"evidence": "From the blood immunome of 1,001 individuals aged 8-96 years, we developed a deep-learning method based on patterns of systemic age-related inflammation.",
+"note": "The abstract states iAge was developed from 1,001 individuals aged 8-96 years."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "The strongest single contributor to iAge was the chemokine CXCL9.",
+"evidence": "The strongest contributor to iAge was the chemokine CXCL9",
+"note": "The abstract names CXCL9 as the strongest contributor to iAge."
+},
+{
+"k": 3,
+"label": "not_addressed",
+"text": "Lowering CXCL9 levels extended lifespan in the mice studied.",
+"evidence": "is also associated with exceptional longevity in centenarians.",
+"note": "The abstract links iAge to longevity and shows CXCL9 silencing reverses cell phenotypes but tests no lifespan effect."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Silencing CXCL9 reversed the loss of function, senescence and arterial-stiffness phenotypes of aging endothelial cells.",
+"evidence": "aging endothelial cells in human and mice show loss of function, cellular senescence and hallmark phenotypes of arterial stiffness, all of which are reversed by silencing CXCL9.",
+"note": "The abstract reports silencing CXCL9 reverses these aging endothelial-cell phenotypes."
+}
+]
+}
+]
+}

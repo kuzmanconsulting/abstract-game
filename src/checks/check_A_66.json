@@ -1,0 +1,73 @@
+{"batch": "check_A_66", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+  {"n": 1312, "id": "pmid:31227013",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Finally, we find that ZAM trapping in a germinal piRNA cluster is a frequent event that occurs early during the isolation of the mutant line."},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Here, we show that the germline can protect itself by trapping invading somatic-specific TEs into germline piRNA clusters."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "These piRNAs originated from a new ZAM insertion into a germline dual-strand piRNA cluster and silence ZAM expression specifically in germ cells."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "This deletion leads to derepression of the retrotransposon ZAM in the somatic follicular cells and subsequent germline genome invasion."}
+   ]},
+  {"n": 1313, "id": "pmid:27185895",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "In contrast to their expected habitation, we find two isoforms also present in the cytoplasm, while the other two isoforms reside exclusively in the nucleus."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "The pri-miRNA processing efficiency is not significantly different between groups of cells with or without cytoplasmic Drosha expression."},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "In multiple cell lines, the endogenous mRNA expression of the Drosha isoforms correlates with the localization of endogenous Drosha proteins."},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "we identify alternatively spliced Drosha transcripts that are devoid of a part of the arginine/serine-rich (RS-rich) domain and expressed in a large set of human cells"}
+   ]},
+  {"n": 1314, "id": "pmid:30024380",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We found that 5' nucleotides influence stability of mature miRNAs."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "we profile a time course of mature and pri-miRNAs in Drosophila embryos and reveal the dynamics of miRNA production and degradation as well as dynamic changes in pri-miRNA isoform selection"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "distinct half-lives of miRNAs from the mir-309 cluster shape their temporal expression patterns"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "We found that 5' nucleotides influence stability of mature miRNAs."}
+   ]},
+  {"n": 1315, "id": "pmid:34850679",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "without H1 sRNA production quantitatively expands to non-CG-methylated loci"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "Furthermore, H3K9me is dispensable for RdDM, as is CG DNA methylation."},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Here, we show that loss of histone H1 enhances heterochromatic RdDM, preferentially at nucleosome linker DNA."},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Here, we show that loss of histone H1 enhances heterochromatic RdDM, preferentially at nucleosome linker DNA."}
+   ]},
+  {"n": 1316, "id": "pmid:30401736",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "We find that primary (pri)-miR-124-1 is expressed in mouse embryonic stem cells where mature miR-124 is absent."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "we find that the pool of pri-miR-124 whose maturation is blocked by PTBP1 creates a robust and self-reinforcing transition in gene expression as PTBP1 is depleted during early neuronal differentiation"},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "PTBP1 binds to this precursor RNA upstream of the miRNA stem-loop to inhibit mature miR-124 expression in vivo and DROSHA cleavage of pri-miR-124-1 in vitro."},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "This function for PTBP1 in repressing miR-124 biogenesis defines an additional regulatory loop in the already intricate interplay between these two molecules."}
+   ]},
+  {"n": 1317, "id": "pmid:32658892",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Mutants in these genes are unable to launch a proper virulence response to macrophage phagocytosis, resulting in a decreased virulence potential."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "The transcriptomic profile of rdrp1Δ and r3b2Δ mutants revealed a pre-exposure adaptation to the stressful phagosomal environment even when the strains are not confronted by macrophages."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "In the absence of NCRIP, these retrotransposons are robustly repressed by the canonical RNAi machinery"},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "These results suggest that NCRIP represses key targets during regular growth and releases its control when a stressful environment challenges the fungus."}
+   ]},
+  {"n": 1318, "id": "pmid:27095199",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "While greater distances with the poly(A) tail exacerbate dependency on PABP for deadenylation, more potent miRNA-binding sites partially suppress this effect."},
+    {"j": 2, "label": "not_addressed", "confidence": 2, "evidence": "We find that C. elegans PABPs are required for miRNA-mediated silencing in embryonic and larval developmental stages"},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "PABPs accelerate miRNA-mediated deadenylation, but this contribution can be modulated by 3'UTR sequences."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Depletion of PAB-1 and PAB-2 results in loss of both poly(A)-dependent and -independent translational silencing."}
+   ]},
+  {"n": 1319, "id": "pmid:33570655",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "to control female gametophyte and integument growth in Arabidopsis thaliana by inhibiting transcription of the microRNA gene MIR398c in early-stage megagametogenesis"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "the Swi2/Snf2-Related1 (SWR1) chromatin-remodeling complex acts with the ERECTA receptor kinase-signaling pathway to control female gametophyte and integument growth in Arabidopsis thaliana by inhibiting transcription of the microRNA gene MIR398c in early-stage megagametogenesis"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "Moreover, pri-miR398c is transcribed in the female gametophyte but is then translocated to and processed in the ovule sporophytic tissues."},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Together, SWR1 and ERECTA also activate ARGONAUTE10 (AGO10) expression in the chalaza"}
+   ]},
+  {"n": 1320, "id": "pmid:29728561",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "In addition, HP1a-GLKD increases the splicing of transcripts arising from clusters in above regions, suggesting HP1a also functions upstream to piRNA processing."},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Our study suggests that HP1a functions to repress transposons in a chromosomal compartmentalised manner."},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "HP1a germline knockdown (HP1a-GLKD) leads to a reduction in the total and Piwi-bound piRNAs mapping to clusters and transposons insertions, predominantly in the regions close to telomeres and centromeres"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Evolutionarily old transposons enriched in the pericentric regions exhibit significant loss in piRNAs targeting these transposons upon HP1a-GLKD."}
+   ]},
+  {"n": 1321, "id": "pmid:36717582",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Here, we report 24 reprogramming roadblock genes identified by CRISPR/Cas9-mediated genome-wide knockout (KO) screening."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "Replacing the KRAB co-suppressor with co-activator domains converts ZFP266 from an inhibitor to a potent facilitator of iPSC reprogramming."},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "depletion of the predicted KRAB zinc finger protein (KRAB-ZFP) Zfp266 strongly and consistently enhances murine iPSC generation in several reprogramming settings"},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "depletion of the predicted KRAB zinc finger protein (KRAB-ZFP) Zfp266 strongly and consistently enhances murine iPSC generation in several reprogramming settings"}
+   ]}
+ ]}

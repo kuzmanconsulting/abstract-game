@@ -1,0 +1,21 @@
+{
+"batch": "check_B_89c",
+"pass": "B",
+"prompt_version": "check-v1",
+"items": [
+{"n": 1543, "id": "pmid:37052956",
+ "verdicts": [
+   {"j": 1, "label": "supported", "confidence": 3, "evidence": "the S gene, particularly the S1 region, has experienced positive selection in both SARS-CoV-2 and other coronaviruses"},
+   {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "coronaviruses from different genera being able to recognize the same receptor and coronaviruses from the same genus able to bind distinct receptors"},
+   {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "altering the receptor-binding affinity, reducing antibody neutralization activities, or affecting T-cell responses"},
+   {"j": 4, "label": "supported", "confidence": 3, "evidence": "the S1 N-terminal domain exhibits signals of positive selection in the pairwise comparisons in all four coronavirus genera"}
+ ]},
+{"n": 1544, "id": "pmid:37192163",
+ "verdicts": [
+   {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "potentially pathogenic splicing variants found only in Neanderthals and Denisovans in genes related to sperm maturation and immunity"},
+   {"j": 2, "label": "supported", "confidence": 3, "evidence": "Of the 5,169 alleles tested in this massively parallel splicing reporter assay (MaPSy), we report 962 exonic splicing mutations that correspond to differences in exon recognition between extant and extinct hominins"},
+   {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "splice-disrupting variants experienced greater purifying selection in anatomically modern humans than that in Neanderthals"},
+   {"j": 4, "label": "supported", "confidence": 3, "evidence": "Adaptively introgressed variants were enriched for moderate-effect splicing variants, consistent with positive selection for alternative spliced alleles following introgression"}
+ ]}
+]
+}

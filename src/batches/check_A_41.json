@@ -1,0 +1,511 @@
+{
+"batch": "check_A_41",
+"pass": "A",
+"source_batch": "gen_41",
+"items": [
+{
+"n": 1000,
+"id": "pmid:32025018",
+"year": 2020,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Somatic mutations in cancer genomes are caused by multiple mutational processes, each of which generates a characteristic mutational signature 1 . Here, as part of the Pan-Cancer Analysis of Whole Genomes (PCAWG) Consortium 2 of the International Cancer Genome Consortium (ICGC) and The Cancer Genome Atlas (TCGA), we characterized mutational signatures using 84,729,690 somatic mutations from 4,645 whole-genome and 19,184 exome sequences that encompass most types of cancer. We identified 49 single-base-substitution, 11 doublet-base-substitution, 4 clustered-base-substitution and 17 small insertion-and-deletion signatures. The substantial size of our dataset, compared with previous analyses 3-15 , enabled the discovery of new signatures, the separation of overlapping signatures and the decomposition of signatures into components that may represent associated-but distinct-DNA damage, repair and/or replication mechanisms. By estimating the contribution of each signature to the mutational catalogues of individual cancer genomes, we revealed associations of signatures to exogenous or endogenous exposures, as well as to defective DNA-maintenance processes. However, many signatures are of unknown cause. This analysis provides a systematic perspective on the repertoire of mutational processes that contribute to the development of human cancer."
+}
+],
+"text": "Somatic mutations in cancer genomes are caused by multiple mutational processes, each of which generates a characteristic mutational signature 1 . Here, as part of the Pan-Cancer Analysis of Whole Genomes (PCAWG) Consortium 2 of the International Cancer Genome Consortium (ICGC) and The Cancer Genome Atlas (TCGA), we characterized mutational signatures using 84,729,690 somatic mutations from 4,645 whole-genome and 19,184 exome sequences that encompass most types of cancer. We identified 49 single-base-substitution, 11 doublet-base-substitution, 4 clustered-base-substitution and 17 small insertion-and-deletion signatures. The substantial size of our dataset, compared with previous analyses 3-15 , enabled the discovery of new signatures, the separation of overlapping signatures and the decomposition of signatures into components that may represent associated-but distinct-DNA damage, repair and/or replication mechanisms. By estimating the contribution of each signature to the mutational catalogues of individual cancer genomes, we revealed associations of signatures to exogenous or endogenous exposures, as well as to defective DNA-maintenance processes. However, many signatures are of unknown cause. This analysis provides a systematic perspective on the repertoire of mutational processes that contribute to the development of human cancer.",
+"statements": [
+{
+"j": 1,
+"text": "Compared with later analyses, the study's larger dataset made it possible to discover new signatures and to separate signatures that overlap."
+},
+{
+"j": 2,
+"text": "Smoking-related signatures contributed the largest share of the 84,729,690 somatic mutations analysed in the study."
+},
+{
+"j": 3,
+"text": "Seventeen small insertion-and-deletion signatures and 49 single-base-substitution signatures were among the signatures identified in the analysis."
+},
+{
+"j": 4,
+"text": "Estimating how much each signature contributed to individual cancer genomes linked signatures to exogenous or endogenous exposures and to defective DNA maintenance."
+}
+]
+},
+{
+"n": 1001,
+"id": "pmid:28420421",
+"year": 2017,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "High tumor mutational burden (TMB) is an emerging biomarker of sensitivity to immune checkpoint inhibitors and has been shown to be more significantly associated with response to PD-1 and PD-L1 blockade immunotherapy than PD-1 or PD-L1 expression, as measured by immunohistochemistry (IHC). The distribution of TMB and the subset of patients with high TMB has not been well characterized in the majority of cancer types."
+},
+{
+"label": "Methods",
+"text": "In this study, we compare TMB measured by a targeted comprehensive genomic profiling (CGP) assay to TMB measured by exome sequencing and simulate the expected variance in TMB when sequencing less than the whole exome. We then describe the distribution of TMB across a diverse cohort of 100,000 cancer cases and test for association between somatic alterations and TMB in over 100 tumor types."
+},
+{
+"label": "Results",
+"text": "We demonstrate that measurements of TMB from comprehensive genomic profiling are strongly reflective of measurements from whole exome sequencing and model that below 0.5 Mb the variance in measurement increases significantly. We find that a subset of patients exhibits high TMB across almost all types of cancer, including many rare tumor types, and characterize the relationship between high TMB and microsatellite instability status. We find that TMB increases significantly with age, showing a 2.4-fold difference between age 10 and age 90 years. Finally, we investigate the molecular basis of TMB and identify genes and mutations associated with TMB level. We identify a cluster of somatic mutations in the promoter of the gene PMS2, which occur in 10% of skin cancers and are highly associated with increased TMB."
+},
+{
+"label": "Conclusions",
+"text": "These results show that a CGP assay targeting ~1.1 Mb of coding genome can accurately assess TMB compared with sequencing the whole exome. Using this method, we find that many disease types have a substantial portion of patients with high TMB who might benefit from immunotherapy. Finally, we identify novel, recurrent promoter mutations in PMS2, which may be another example of regulatory mutations contributing to tumorigenesis."
+}
+],
+"text": "High tumor mutational burden (TMB) is an emerging biomarker of sensitivity to immune checkpoint inhibitors and has been shown to be more significantly associated with response to PD-1 and PD-L1 blockade immunotherapy than PD-1 or PD-L1 expression, as measured by immunohistochemistry (IHC). The distribution of TMB and the subset of patients with high TMB has not been well characterized in the majority of cancer types. In this study, we compare TMB measured by a targeted comprehensive genomic profiling (CGP) assay to TMB measured by exome sequencing and simulate the expected variance in TMB when sequencing less than the whole exome. We then describe the distribution of TMB across a diverse cohort of 100,000 cancer cases and test for association between somatic alterations and TMB in over 100 tumor types. We demonstrate that measurements of TMB from comprehensive genomic profiling are strongly reflective of measurements from whole exome sequencing and model that below 0.5 Mb the variance in measurement increases significantly. We find that a subset of patients exhibits high TMB across almost all types of cancer, including many rare tumor types, and characterize the relationship between high TMB and microsatellite instability status. We find that TMB increases significantly with age, showing a 2.4-fold difference between age 10 and age 90 years. Finally, we investigate the molecular basis of TMB and identify genes and mutations associated with TMB level. We identify a cluster of somatic mutations in the promoter of the gene PMS2, which occur in 10% of skin cancers and are highly associated with increased TMB. These results show that a CGP assay targeting ~1.1 Mb of coding genome can accurately assess TMB compared with sequencing the whole exome. Using this method, we find that many disease types have a substantial portion of patients with high TMB who might benefit from immunotherapy. Finally, we identify novel, recurrent promoter mutations in PMS2, which may be another example of regulatory mutations contributing to tumorigenesis.",
+"statements": [
+{
+"j": 1,
+"text": "Modelling indicated that TMB measurements become substantially more variable when less than 0.5 Mb of sequence is assessed."
+},
+{
+"j": 2,
+"text": "In 10% of skin cancers a cluster of PMS2 promoter mutations was found, and these mutations were strongly linked to decreased TMB."
+},
+{
+"j": 3,
+"text": "TMB was higher in older patients, with a 2.4-fold difference between those aged 10 years and those aged 90 years."
+},
+{
+"j": 4,
+"text": "The recurrent PMS2 promoter mutations reduce PMS2 expression in skin cancers."
+}
+]
+},
+{
+"n": 1002,
+"id": "pmid:28481359",
+"year": 2017,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Tumor molecular profiling is a fundamental component of precision oncology, enabling the identification of genomic alterations in genes and pathways that can be targeted therapeutically. The existence of recurrent targetable alterations across distinct histologically defined tumor types, coupled with an expanding portfolio of molecularly targeted therapies, demands flexible and comprehensive approaches to profile clinically relevant genes across the full spectrum of cancers. We established a large-scale, prospective clinical sequencing initiative using a comprehensive assay, MSK-IMPACT, through which we have compiled tumor and matched normal sequence data from a unique cohort of more than 10,000 patients with advanced cancer and available pathological and clinical annotations. Using these data, we identified clinically relevant somatic mutations, novel noncoding alterations, and mutational signatures that were shared by common and rare tumor types. Patients were enrolled on genomically matched clinical trials at a rate of 11%. To enable discovery of novel biomarkers and deeper investigation into rare alterations and tumor types, all results are publicly accessible."
+}
+],
+"text": "Tumor molecular profiling is a fundamental component of precision oncology, enabling the identification of genomic alterations in genes and pathways that can be targeted therapeutically. The existence of recurrent targetable alterations across distinct histologically defined tumor types, coupled with an expanding portfolio of molecularly targeted therapies, demands flexible and comprehensive approaches to profile clinically relevant genes across the full spectrum of cancers. We established a large-scale, prospective clinical sequencing initiative using a comprehensive assay, MSK-IMPACT, through which we have compiled tumor and matched normal sequence data from a unique cohort of more than 10,000 patients with advanced cancer and available pathological and clinical annotations. Using these data, we identified clinically relevant somatic mutations, novel noncoding alterations, and mutational signatures that were shared by common and rare tumor types. Patients were enrolled on genomically matched clinical trials at a rate of 11%. To enable discovery of novel biomarkers and deeper investigation into rare alterations and tumor types, all results are publicly accessible.",
+"statements": [
+{
+"j": 1,
+"text": "Through the MSK-IMPACT initiative, tumour and matched normal sequence data were compiled for less than 10,000 patients with advanced cancer."
+},
+{
+"j": 2,
+"text": "The publicly released MSK-IMPACT data have already yielded new biomarkers for rare tumour types."
+},
+{
+"j": 3,
+"text": "Eleven percent of the profiled patients were enrolled on clinical trials matched to the genomic alterations of their tumours."
+},
+{
+"j": 4,
+"text": "Mutational signatures, novel noncoding alterations and clinically relevant somatic mutations identified in the cohort were shared by common and rare tumour types alike."
+}
+]
+},
+{
+"n": 1003,
+"id": "pmid:27135926",
+"year": 2016,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "We analysed whole-genome sequences of 560 breast cancers to advance understanding of the driver mutations conferring clonal advantage and the mutational processes generating somatic mutations. We found that 93 protein-coding cancer genes carried probable driver mutations. Some non-coding regions exhibited high mutation frequencies, but most have distinctive structural features probably causing elevated mutation rates and do not contain driver mutations. Mutational signature analysis was extended to genome rearrangements and revealed twelve base substitution and six rearrangement signatures. Three rearrangement signatures, characterized by tandem duplications or deletions, appear associated with defective homologous-recombination-based DNA repair: one with deficient BRCA1 function, another with deficient BRCA1 or BRCA2 function, the cause of the third is unknown. This analysis of all classes of somatic mutation across exons, introns and intergenic regions highlights the repertoire of cancer genes and mutational processes operating, and progresses towards a comprehensive account of the somatic genetic basis of breast cancer."
+}
+],
+"text": "We analysed whole-genome sequences of 560 breast cancers to advance understanding of the driver mutations conferring clonal advantage and the mutational processes generating somatic mutations. We found that 93 protein-coding cancer genes carried probable driver mutations. Some non-coding regions exhibited high mutation frequencies, but most have distinctive structural features probably causing elevated mutation rates and do not contain driver mutations. Mutational signature analysis was extended to genome rearrangements and revealed twelve base substitution and six rearrangement signatures. Three rearrangement signatures, characterized by tandem duplications or deletions, appear associated with defective homologous-recombination-based DNA repair: one with deficient BRCA1 function, another with deficient BRCA1 or BRCA2 function, the cause of the third is unknown. This analysis of all classes of somatic mutation across exons, introns and intergenic regions highlights the repertoire of cancer genes and mutational processes operating, and progresses towards a comprehensive account of the somatic genetic basis of breast cancer.",
+"statements": [
+{
+"j": 1,
+"text": "Three rearrangement signatures featuring tandem duplications or deletions were associated with defective homologous-recombination DNA repair, one of them with deficient BRCA1 function."
+},
+{
+"j": 2,
+"text": "Across the 560 breast cancer whole genomes, probable driver mutations were found in 93 protein-coding cancer genes."
+},
+{
+"j": 3,
+"text": "Few non-coding regions with high mutation frequencies contained no driver mutations and had distinctive structural features linked to increased mutation rates."
+},
+{
+"j": 4,
+"text": "Rearrangement signatures were more common in triple-negative breast cancers than in other breast cancer subtypes."
+}
+]
+},
+{
+"n": 1004,
+"id": "pmid:29713087",
+"year": 2018,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Diffuse large B cell lymphoma (DLBCL), the most common lymphoid malignancy in adults, is a clinically and genetically heterogeneous disease that is further classified into transcriptionally defined activated B cell (ABC) and germinal center B cell (GCB) subtypes. We carried out a comprehensive genetic analysis of 304 primary DLBCLs and identified low-frequency alterations, captured recurrent mutations, somatic copy number alterations, and structural variants, and defined coordinate signatures in patients with available outcome data. We integrated these genetic drivers using consensus clustering and identified five robust DLBCL subsets, including a previously unrecognized group of low-risk ABC-DLBCLs of extrafollicular/marginal zone origin; two distinct subsets of GCB-DLBCLs with different outcomes and targetable alterations; and an ABC/GCB-independent group with biallelic inactivation of TP53, CDKN2A loss, and associated genomic instability. The genetic features of the newly characterized subsets, their mutational signatures, and the temporal ordering of identified alterations provide new insights into DLBCL pathogenesis. The coordinate genetic signatures also predict outcome independent of the clinical International Prognostic Index and suggest new combination treatment strategies. More broadly, our results provide a roadmap for an actionable DLBCL classification."
+}
+],
+"text": "Diffuse large B cell lymphoma (DLBCL), the most common lymphoid malignancy in adults, is a clinically and genetically heterogeneous disease that is further classified into transcriptionally defined activated B cell (ABC) and germinal center B cell (GCB) subtypes. We carried out a comprehensive genetic analysis of 304 primary DLBCLs and identified low-frequency alterations, captured recurrent mutations, somatic copy number alterations, and structural variants, and defined coordinate signatures in patients with available outcome data. We integrated these genetic drivers using consensus clustering and identified five robust DLBCL subsets, including a previously unrecognized group of low-risk ABC-DLBCLs of extrafollicular/marginal zone origin; two distinct subsets of GCB-DLBCLs with different outcomes and targetable alterations; and an ABC/GCB-independent group with biallelic inactivation of TP53, CDKN2A loss, and associated genomic instability. The genetic features of the newly characterized subsets, their mutational signatures, and the temporal ordering of identified alterations provide new insights into DLBCL pathogenesis. The coordinate genetic signatures also predict outcome independent of the clinical International Prognostic Index and suggest new combination treatment strategies. More broadly, our results provide a roadmap for an actionable DLBCL classification.",
+"statements": [
+{
+"j": 1,
+"text": "Low-frequency alterations, recurrent mutations, somatic copy number alterations and structural variants were all identified across 304 primary DLBCLs."
+},
+{
+"j": 2,
+"text": "Consensus clustering produced five robust DLBCL subsets, one being a previously unrecognised low-risk group of ABC-DLBCLs of extrafollicular/marginal zone origin."
+},
+{
+"j": 3,
+"text": "In DLBCL, coordinate genetic signatures predicted patient outcome independently of the clinical International Prognostic Index."
+},
+{
+"j": 4,
+"text": "In the DLBCL subset with biallelic TP53 inactivation, TP53 loss was the earliest alteration acquired."
+}
+]
+},
+{
+"n": 1005,
+"id": "pmid:27251275",
+"year": 2016,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Somatic mutations have been extensively characterized in breast cancer, but the effects of these genetic alterations on the proteomic landscape remain poorly understood. Here we describe quantitative mass-spectrometry-based proteomic and phosphoproteomic analyses of 105 genomically annotated breast cancers, of which 77 provided high-quality data. Integrated analyses provided insights into the somatic cancer genome including the consequences of chromosomal loss, such as the 5q deletion characteristic of basal-like breast cancer. Interrogation of the 5q trans-effects against the Library of Integrated Network-based Cellular Signatures, connected loss of CETN3 and SKP1 to elevated expression of epidermal growth factor receptor (EGFR), and SKP1 loss also to increased SRC tyrosine kinase. Global proteomic data confirmed a stromal-enriched group of proteins in addition to basal and luminal clusters, and pathway analysis of the phosphoproteome identified a G-protein-coupled receptor cluster that was not readily identified at the mRNA level. In addition to ERBB2, other amplicon-associated highly phosphorylated kinases were identified, including CDK12, PAK1, PTK2, RIPK2 and TLK2. We demonstrate that proteogenomic analysis of breast cancer elucidates the functional consequences of somatic mutations, narrows candidate nominations for driver genes within large deletions and amplified regions, and identifies therapeutic targets."
+}
+],
+"text": "Somatic mutations have been extensively characterized in breast cancer, but the effects of these genetic alterations on the proteomic landscape remain poorly understood. Here we describe quantitative mass-spectrometry-based proteomic and phosphoproteomic analyses of 105 genomically annotated breast cancers, of which 77 provided high-quality data. Integrated analyses provided insights into the somatic cancer genome including the consequences of chromosomal loss, such as the 5q deletion characteristic of basal-like breast cancer. Interrogation of the 5q trans-effects against the Library of Integrated Network-based Cellular Signatures, connected loss of CETN3 and SKP1 to elevated expression of epidermal growth factor receptor (EGFR), and SKP1 loss also to increased SRC tyrosine kinase. Global proteomic data confirmed a stromal-enriched group of proteins in addition to basal and luminal clusters, and pathway analysis of the phosphoproteome identified a G-protein-coupled receptor cluster that was not readily identified at the mRNA level. In addition to ERBB2, other amplicon-associated highly phosphorylated kinases were identified, including CDK12, PAK1, PTK2, RIPK2 and TLK2. We demonstrate that proteogenomic analysis of breast cancer elucidates the functional consequences of somatic mutations, narrows candidate nominations for driver genes within large deletions and amplified regions, and identifies therapeutic targets.",
+"statements": [
+{
+"j": 1,
+"text": "Of the 105 genomically annotated breast cancers analysed by mass spectrometry, 77 yielded high-quality proteomic data."
+},
+{
+"j": 2,
+"text": "Patients whose breast tumours contained highly phosphorylated CDK12 or PAK1 had shorter survival."
+},
+{
+"j": 3,
+"text": "Pathway analysis of the phosphoproteome revealed a G-protein-coupled receptor cluster that mRNA-level data did not readily reveal."
+},
+{
+"j": 4,
+"text": "In breast cancers, gain of SKP1 was connected both to elevated EGFR expression and to increased SRC tyrosine kinase."
+}
+]
+},
+{
+"n": 1006,
+"id": "pmid:29489754",
+"year": 2018,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Pan-cancer analyses that examine commonalities and differences among various cancer types have emerged as a powerful way to obtain novel insights into cancer biology. Here we present a comprehensive analysis of genetic alterations in a pan-cancer cohort including 961 tumours from children, adolescents, and young adults, comprising 24 distinct molecular types of cancer. Using a standardized workflow, we identified marked differences in terms of mutation frequency and significantly mutated genes in comparison to previously analysed adult cancers. Genetic alterations in 149 putative cancer driver genes separate the tumours into two classes: small mutation and structural/copy-number variant (correlating with germline variants). Structural variants, hyperdiploidy, and chromothripsis are linked to TP53 mutation status and mutational signatures. Our data suggest that 7-8% of the children in this cohort carry an unambiguous predisposing germline variant and that nearly 50% of paediatric neoplasms harbour a potentially druggable event, which is highly relevant for the design of future clinical trials."
+}
+],
+"text": "Pan-cancer analyses that examine commonalities and differences among various cancer types have emerged as a powerful way to obtain novel insights into cancer biology. Here we present a comprehensive analysis of genetic alterations in a pan-cancer cohort including 961 tumours from children, adolescents, and young adults, comprising 24 distinct molecular types of cancer. Using a standardized workflow, we identified marked differences in terms of mutation frequency and significantly mutated genes in comparison to previously analysed adult cancers. Genetic alterations in 149 putative cancer driver genes separate the tumours into two classes: small mutation and structural/copy-number variant (correlating with germline variants). Structural variants, hyperdiploidy, and chromothripsis are linked to TP53 mutation status and mutational signatures. Our data suggest that 7-8% of the children in this cohort carry an unambiguous predisposing germline variant and that nearly 50% of paediatric neoplasms harbour a potentially druggable event, which is highly relevant for the design of future clinical trials.",
+"statements": [
+{
+"j": 1,
+"text": "An estimated 7-8% of the children in the cohort carry an unambiguous predisposing germline variant."
+},
+{
+"j": 2,
+"text": "Alterations in 149 putative cancer driver genes divided the young patients' tumours into a small-mutation class and a structural/copy-number variant class."
+},
+{
+"j": 3,
+"text": "Mutation frequency and significantly mutated genes in these tumours from children, adolescents and young adults differed markedly from those of previously analysed adult cancers."
+},
+{
+"j": 4,
+"text": "Paediatric tumours with TP53 mutations were associated with poorer survival than tumours without them."
+}
+]
+},
+{
+"n": 1007,
+"id": "pmid:29850653",
+"year": 2017,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Purpose",
+"text": "Microsatellite instability (MSI) is a pattern of hypermutation that occurs at genomic microsatellites and is caused by defects in the mismatch repair system. Mismatch repair deficiency that leads to MSI has been well described in several types of human cancer, most frequently in colorectal, endometrial, and gastric adenocarcinomas. MSI is known to be both predictive and prognostic, especially in colorectal cancer; however, current clinical guidelines only recommend MSI testing for colorectal and endometrial cancers. Therefore, less is known about the prevalence and extent of MSI among other types of cancer."
+},
+{
+"label": "Methods",
+"text": "Using our recently published MSI-calling software, MANTIS, we analyzed whole-exome data from 11,139 tumor-normal pairs from The Cancer Genome Atlas and Therapeutically Applicable Research to Generate Effective Treatments projects and external data sources across 39 cancer types. Within a subset of these cancer types, we assessed mutation burden, mutational signatures, and somatic variants associated with MSI."
+},
+{
+"label": "Results",
+"text": "We identified MSI in 3.8% of all cancers assessed-present in 27 of tumor types-most notably adrenocortical carcinoma (ACC), cervical cancer (CESC), and mesothelioma, in which MSI has not yet been well described. In addition, MSI-high ACC and CESC tumors were observed to have a higher average mutational burden than microsatellite-stable ACC and CESC tumors."
+},
+{
+"label": "Conclusion",
+"text": "We provide evidence of as-yet-unappreciated MSI in several types of cancer. These findings support an expanded role for clinical MSI testing across multiple cancer types as patients with MSI-positive tumors are predicted to benefit from novel immunotherapies in clinical trials."
+}
+],
+"text": "Microsatellite instability (MSI) is a pattern of hypermutation that occurs at genomic microsatellites and is caused by defects in the mismatch repair system. Mismatch repair deficiency that leads to MSI has been well described in several types of human cancer, most frequently in colorectal, endometrial, and gastric adenocarcinomas. MSI is known to be both predictive and prognostic, especially in colorectal cancer; however, current clinical guidelines only recommend MSI testing for colorectal and endometrial cancers. Therefore, less is known about the prevalence and extent of MSI among other types of cancer. Using our recently published MSI-calling software, MANTIS, we analyzed whole-exome data from 11,139 tumor-normal pairs from The Cancer Genome Atlas and Therapeutically Applicable Research to Generate Effective Treatments projects and external data sources across 39 cancer types. Within a subset of these cancer types, we assessed mutation burden, mutational signatures, and somatic variants associated with MSI. We identified MSI in 3.8% of all cancers assessed-present in 27 of tumor types-most notably adrenocortical carcinoma (ACC), cervical cancer (CESC), and mesothelioma, in which MSI has not yet been well described. In addition, MSI-high ACC and CESC tumors were observed to have a higher average mutational burden than microsatellite-stable ACC and CESC tumors. We provide evidence of as-yet-unappreciated MSI in several types of cancer. These findings support an expanded role for clinical MSI testing across multiple cancer types as patients with MSI-positive tumors are predicted to benefit from novel immunotherapies in clinical trials.",
+"statements": [
+{
+"j": 1,
+"text": "Microsatellite-stable adrenocortical and cervical tumours had a higher average mutational burden than MSI-high tumours of the same two types."
+},
+{
+"j": 2,
+"text": "Patients with MSI-positive adrenocortical carcinoma in the study responded to immune checkpoint inhibitor therapy."
+},
+{
+"j": 3,
+"text": "MSI was detected in 3.8% of all assessed cancers, with adrenocortical carcinoma, cervical cancer and mesothelioma standing out among the affected tumour types."
+},
+{
+"j": 4,
+"text": "The analysis uncovered MSI in several cancer types where its presence had not previously been appreciated."
+}
+]
+},
+{
+"n": 1008,
+"id": "pmid:32106218",
+"year": 2020,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Various species of the intestinal microbiota have been associated with the development of colorectal cancer 1,2 , but it has not been demonstrated that bacteria have a direct role in the occurrence of oncogenic mutations. Escherichia coli can carry the pathogenicity island pks, which encodes a set of enzymes that synthesize colibactin 3 . This compound is believed to alkylate DNA on adenine residues 4,5 and induces double-strand breaks in cultured cells 3 . Here we expose human intestinal organoids to genotoxic pks + E. coli by repeated luminal injection over five months. Whole-genome sequencing of clonal organoids before and after this exposure revealed a distinct mutational signature that was absent from organoids injected with isogenic pks-mutant bacteria. The same mutational signature was detected in a subset of 5,876 human cancer genomes from two independent cohorts, predominantly in colorectal cancer. Our study describes a distinct mutational signature in colorectal cancer and implies that the underlying mutational process results directly from past exposure to bacteria carrying the colibactin-producing pks pathogenicity island."
+}
+],
+"text": "Various species of the intestinal microbiota have been associated with the development of colorectal cancer 1,2 , but it has not been demonstrated that bacteria have a direct role in the occurrence of oncogenic mutations. Escherichia coli can carry the pathogenicity island pks, which encodes a set of enzymes that synthesize colibactin 3 . This compound is believed to alkylate DNA on adenine residues 4,5 and induces double-strand breaks in cultured cells 3 . Here we expose human intestinal organoids to genotoxic pks + E. coli by repeated luminal injection over five months. Whole-genome sequencing of clonal organoids before and after this exposure revealed a distinct mutational signature that was absent from organoids injected with isogenic pks-mutant bacteria. The same mutational signature was detected in a subset of 5,876 human cancer genomes from two independent cohorts, predominantly in colorectal cancer. Our study describes a distinct mutational signature in colorectal cancer and implies that the underlying mutational process results directly from past exposure to bacteria carrying the colibactin-producing pks pathogenicity island.",
+"statements": [
+{
+"j": 1,
+"text": "A subset of 5,876 human cancer genomes from two independent cohorts, mostly colorectal cancers, carried the signature first seen in the exposed organoids."
+},
+{
+"j": 2,
+"text": "The distinct mutational signature seen in organoids after pks+ E. coli exposure was absent when organoids were injected with isogenic pks-mutant bacteria."
+},
+{
+"j": 3,
+"text": "The study concludes that the mutational process behind this colorectal cancer signature stems directly from past exposure to colibactin-producing pks+ bacteria."
+},
+{
+"j": 4,
+"text": "Most Escherichia coli strains in the healthy human gut carry the pks pathogenicity island."
+}
+]
+},
+{
+"n": 1009,
+"id": "pmid:32025013",
+"year": 2020,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Cancer develops through a process of somatic evolution 1,2 . Sequencing data from a single biopsy represent a snapshot of this process that can reveal the timing of specific genomic aberrations and the changing influence of mutational processes 3 . Here, by whole-genome sequencing analysis of 2,658 cancers as part of the Pan-Cancer Analysis of Whole Genomes (PCAWG) Consortium of the International Cancer Genome Consortium (ICGC) and The Cancer Genome Atlas (TCGA) 4 , we reconstruct the life history and evolution of mutational processes and driver mutation sequences of 38 types of cancer. Early oncogenesis is characterized by mutations in a constrained set of driver genes, and specific copy number gains, such as trisomy 7 in glioblastoma and isochromosome 17q in medulloblastoma. The mutational spectrum changes significantly throughout tumour evolution in 40% of samples. A nearly fourfold diversification of driver genes and increased genomic instability are features of later stages. Copy number alterations often occur in mitotic crises, and lead to simultaneous gains of chromosomal segments. Timing analyses suggest that driver mutations often precede diagnosis by many years, if not decades. Together, these results determine the evolutionary trajectories of cancer, and highlight opportunities for early cancer detection."
+}
+],
+"text": "Cancer develops through a process of somatic evolution 1,2 . Sequencing data from a single biopsy represent a snapshot of this process that can reveal the timing of specific genomic aberrations and the changing influence of mutational processes 3 . Here, by whole-genome sequencing analysis of 2,658 cancers as part of the Pan-Cancer Analysis of Whole Genomes (PCAWG) Consortium of the International Cancer Genome Consortium (ICGC) and The Cancer Genome Atlas (TCGA) 4 , we reconstruct the life history and evolution of mutational processes and driver mutation sequences of 38 types of cancer. Early oncogenesis is characterized by mutations in a constrained set of driver genes, and specific copy number gains, such as trisomy 7 in glioblastoma and isochromosome 17q in medulloblastoma. The mutational spectrum changes significantly throughout tumour evolution in 40% of samples. A nearly fourfold diversification of driver genes and increased genomic instability are features of later stages. Copy number alterations often occur in mitotic crises, and lead to simultaneous gains of chromosomal segments. Timing analyses suggest that driver mutations often precede diagnosis by many years, if not decades. Together, these results determine the evolutionary trajectories of cancer, and highlight opportunities for early cancer detection.",
+"statements": [
+{
+"j": 1,
+"text": "Later stages of tumour evolution featured increased genomic instability and a nearly fourfold diversification of driver genes."
+},
+{
+"j": 2,
+"text": "In 40% of the samples, the mutational spectrum shifted significantly as the tumour evolved."
+},
+{
+"j": 3,
+"text": "Copy number alterations arising in mitotic crises were more frequent in metastases than in primary tumours."
+},
+{
+"j": 4,
+"text": "Timing analyses indicated that driver mutations rarely arise many years, sometimes decades, before diagnosis."
+}
+]
+},
+{
+"n": 1010,
+"id": "pmid:28288110",
+"year": 2017,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Approximately 1-5% of breast cancers are attributed to inherited mutations in BRCA1 or BRCA2 and are selectively sensitive to poly(ADP-ribose) polymerase (PARP) inhibitors. In other cancer types, germline and/or somatic mutations in BRCA1 and/or BRCA2 (BRCA1/BRCA2) also confer selective sensitivity to PARP inhibitors. Thus, assays to detect BRCA1/BRCA2-deficient tumors have been sought. Recently, somatic substitution, insertion/deletion and rearrangement patterns, or 'mutational signatures', were associated with BRCA1/BRCA2 dysfunction. Herein we used a lasso logistic regression model to identify six distinguishing mutational signatures predictive of BRCA1/BRCA2 deficiency. A weighted model called HRDetect was developed to accurately detect BRCA1/BRCA2-deficient samples. HRDetect identifies BRCA1/BRCA2-deficient tumors with 98.7% sensitivity (area under the curve (AUC) = 0.98). Application of this model in a cohort of 560 individuals with breast cancer, of whom 22 were known to carry a germline BRCA1 or BRCA2 mutation, allowed us to identify an additional 22 tumors with somatic loss of BRCA1 or BRCA2 and 47 tumors with functional BRCA1/BRCA2 deficiency where no mutation was detected. We validated HRDetect on independent cohorts of breast, ovarian and pancreatic cancers and demonstrated its efficacy in alternative sequencing strategies. Integrating all of the classes of mutational signatures thus reveals a larger proportion of individuals with breast cancer harboring BRCA1/BRCA2 deficiency (up to 22%) than hitherto appreciated (∼1-5%) who could have selective therapeutic sensitivity to PARP inhibition."
+}
+],
+"text": "Approximately 1-5% of breast cancers are attributed to inherited mutations in BRCA1 or BRCA2 and are selectively sensitive to poly(ADP-ribose) polymerase (PARP) inhibitors. In other cancer types, germline and/or somatic mutations in BRCA1 and/or BRCA2 (BRCA1/BRCA2) also confer selective sensitivity to PARP inhibitors. Thus, assays to detect BRCA1/BRCA2-deficient tumors have been sought. Recently, somatic substitution, insertion/deletion and rearrangement patterns, or 'mutational signatures', were associated with BRCA1/BRCA2 dysfunction. Herein we used a lasso logistic regression model to identify six distinguishing mutational signatures predictive of BRCA1/BRCA2 deficiency. A weighted model called HRDetect was developed to accurately detect BRCA1/BRCA2-deficient samples. HRDetect identifies BRCA1/BRCA2-deficient tumors with 98.7% sensitivity (area under the curve (AUC) = 0.98). Application of this model in a cohort of 560 individuals with breast cancer, of whom 22 were known to carry a germline BRCA1 or BRCA2 mutation, allowed us to identify an additional 22 tumors with somatic loss of BRCA1 or BRCA2 and 47 tumors with functional BRCA1/BRCA2 deficiency where no mutation was detected. We validated HRDetect on independent cohorts of breast, ovarian and pancreatic cancers and demonstrated its efficacy in alternative sequencing strategies. Integrating all of the classes of mutational signatures thus reveals a larger proportion of individuals with breast cancer harboring BRCA1/BRCA2 deficiency (up to 22%) than hitherto appreciated (∼1-5%) who could have selective therapeutic sensitivity to PARP inhibition.",
+"statements": [
+{
+"j": 1,
+"text": "HRDetect performed better in the ovarian cancer cohorts than in the breast cancer cohorts."
+},
+{
+"j": 2,
+"text": "HRDetect's sensitivity for BRCA1/BRCA2-deficient tumours was 98.7%, with an area under the curve of 0.98."
+},
+{
+"j": 3,
+"text": "In the 560-patient breast cancer cohort, HRDetect identified 47 tumours with functional BRCA1/BRCA2 deficiency in which no mutation was detected."
+},
+{
+"j": 4,
+"text": "When all mutational signature classes are integrated, up to 22% of breast cancer patients show BRCA1/BRCA2 deficiency, a smaller share than the roughly 1-5% previously recognised."
+}
+]
+},
+{
+"n": 1011,
+"id": "pmid:27811275",
+"year": 2016,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Tobacco smoking increases the risk of at least 17 classes of human cancer. We analyzed somatic mutations and DNA methylation in 5243 cancers of types for which tobacco smoking confers an elevated risk. Smoking is associated with increased mutation burdens of multiple distinct mutational signatures, which contribute to different extents in different cancers. One of these signatures, mainly found in cancers derived from tissues directly exposed to tobacco smoke, is attributable to misreplication of DNA damage caused by tobacco carcinogens. Others likely reflect indirect activation of DNA editing by APOBEC cytidine deaminases and of an endogenous clocklike mutational process. Smoking is associated with limited differences in methylation. The results are consistent with the proposition that smoking increases cancer risk by increasing the somatic mutation load, although direct evidence for this mechanism is lacking in some smoking-related cancer types."
+}
+],
+"text": "Tobacco smoking increases the risk of at least 17 classes of human cancer. We analyzed somatic mutations and DNA methylation in 5243 cancers of types for which tobacco smoking confers an elevated risk. Smoking is associated with increased mutation burdens of multiple distinct mutational signatures, which contribute to different extents in different cancers. One of these signatures, mainly found in cancers derived from tissues directly exposed to tobacco smoke, is attributable to misreplication of DNA damage caused by tobacco carcinogens. Others likely reflect indirect activation of DNA editing by APOBEC cytidine deaminases and of an endogenous clocklike mutational process. Smoking is associated with limited differences in methylation. The results are consistent with the proposition that smoking increases cancer risk by increasing the somatic mutation load, although direct evidence for this mechanism is lacking in some smoking-related cancer types.",
+"statements": [
+{
+"j": 1,
+"text": "One signature, seen mostly in cancers of tissues directly exposed to tobacco smoke, arises from misreplication of DNA damage caused by tobacco carcinogens."
+},
+{
+"j": 2,
+"text": "Quitting smoking lowers the somatic mutation load of cancers that develop later."
+},
+{
+"j": 3,
+"text": "Smoking showed only a limited association with differences in DNA methylation in these cancers."
+},
+{
+"j": 4,
+"text": "Across 5243 cancers of smoking-related types, smoking was associated with lower mutation burdens of several distinct mutational signatures."
+}
+]
+},
+{
+"n": 1012,
+"id": "pmid:29489755",
+"year": 2018,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Analysis of molecular aberrations across multiple cancer types, known as pan-cancer analysis, identifies commonalities and differences in key biological processes that are dysregulated in cancer cells from diverse lineages. Pan-cancer analyses have been performed for adult but not paediatric cancers, which commonly occur in developing mesodermic rather than adult epithelial tissues. Here we present a pan-cancer study of somatic alterations, including single nucleotide variants, small insertions or deletions, structural variations, copy number alterations, gene fusions and internal tandem duplications in 1,699 paediatric leukaemias and solid tumours across six histotypes, with whole-genome, whole-exome and transcriptome sequencing data processed under a uniform analytical framework. We report 142 driver genes in paediatric cancers, of which only 45% match those found in adult pan-cancer studies; copy number alterations and structural variants constituted the majority (62%) of events. Eleven genome-wide mutational signatures were identified, including one attributed to ultraviolet-light exposure in eight aneuploid leukaemias. Transcription of the mutant allele was detectable for 34% of protein-coding mutations, and 20% exhibited allele-specific expression. These data provide a comprehensive genomic architecture for paediatric cancers and emphasize the need for paediatric cancer-specific development of precision therapies."
+}
+],
+"text": "Analysis of molecular aberrations across multiple cancer types, known as pan-cancer analysis, identifies commonalities and differences in key biological processes that are dysregulated in cancer cells from diverse lineages. Pan-cancer analyses have been performed for adult but not paediatric cancers, which commonly occur in developing mesodermic rather than adult epithelial tissues. Here we present a pan-cancer study of somatic alterations, including single nucleotide variants, small insertions or deletions, structural variations, copy number alterations, gene fusions and internal tandem duplications in 1,699 paediatric leukaemias and solid tumours across six histotypes, with whole-genome, whole-exome and transcriptome sequencing data processed under a uniform analytical framework. We report 142 driver genes in paediatric cancers, of which only 45% match those found in adult pan-cancer studies; copy number alterations and structural variants constituted the majority (62%) of events. Eleven genome-wide mutational signatures were identified, including one attributed to ultraviolet-light exposure in eight aneuploid leukaemias. Transcription of the mutant allele was detectable for 34% of protein-coding mutations, and 20% exhibited allele-specific expression. These data provide a comprehensive genomic architecture for paediatric cancers and emphasize the need for paediatric cancer-specific development of precision therapies.",
+"statements": [
+{
+"j": 1,
+"text": "Of the eleven genome-wide mutational signatures, one was attributed to ultraviolet-light exposure and occurred in eight aneuploid leukaemias."
+},
+{
+"j": 2,
+"text": "For 34% of protein-coding mutations, transcription of the mutant allele could be detected."
+},
+{
+"j": 3,
+"text": "More than half (45%) of the 142 driver genes reported in paediatric cancers matched those identified in adult pan-cancer studies."
+},
+{
+"j": 4,
+"text": "Paediatric solid tumours carried more driver mutations than paediatric leukaemias."
+}
+]
+},
+{
+"n": 1013,
+"id": "pmid:32025012",
+"year": 2020,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "A key mutational process in cancer is structural variation, in which rearrangements delete, amplify or reorder genomic segments that range in size from kilobases to whole chromosomes 1-7 . Here we develop methods to group, classify and describe somatic structural variants, using data from the Pan-Cancer Analysis of Whole Genomes (PCAWG) Consortium of the International Cancer Genome Consortium (ICGC) and The Cancer Genome Atlas (TCGA), which aggregated whole-genome sequencing data from 2,658 cancers across 38 tumour types 8 . Sixteen signatures of structural variation emerged. Deletions have a multimodal size distribution, assort unevenly across tumour types and patients, are enriched in late-replicating regions and correlate with inversions. Tandem duplications also have a multimodal size distribution, but are enriched in early-replicating regions-as are unbalanced translocations. Replication-based mechanisms of rearrangement generate varied chromosomal structures with low-level copy-number gains and frequent inverted rearrangements. One prominent structure consists of 2-7 templates copied from distinct regions of the genome strung together within one locus. Such cycles of templated insertions correlate with tandem duplications, and-in liver cancer-frequently activate the telomerase gene TERT. A wide variety of rearrangement processes are active in cancer, which generate complex configurations of the genome upon which selection can act."
+}
+],
+"text": "A key mutational process in cancer is structural variation, in which rearrangements delete, amplify or reorder genomic segments that range in size from kilobases to whole chromosomes 1-7 . Here we develop methods to group, classify and describe somatic structural variants, using data from the Pan-Cancer Analysis of Whole Genomes (PCAWG) Consortium of the International Cancer Genome Consortium (ICGC) and The Cancer Genome Atlas (TCGA), which aggregated whole-genome sequencing data from 2,658 cancers across 38 tumour types 8 . Sixteen signatures of structural variation emerged. Deletions have a multimodal size distribution, assort unevenly across tumour types and patients, are enriched in late-replicating regions and correlate with inversions. Tandem duplications also have a multimodal size distribution, but are enriched in early-replicating regions-as are unbalanced translocations. Replication-based mechanisms of rearrangement generate varied chromosomal structures with low-level copy-number gains and frequent inverted rearrangements. One prominent structure consists of 2-7 templates copied from distinct regions of the genome strung together within one locus. Such cycles of templated insertions correlate with tandem duplications, and-in liver cancer-frequently activate the telomerase gene TERT. A wide variety of rearrangement processes are active in cancer, which generate complex configurations of the genome upon which selection can act.",
+"statements": [
+{
+"j": 1,
+"text": "Deletions were enriched in late-replicating regions, correlated with inversions and showed a multimodal size distribution."
+},
+{
+"j": 2,
+"text": "Early-replicating genomic regions were depleted for tandem duplications and also for unbalanced translocations."
+},
+{
+"j": 3,
+"text": "The analysis of whole cancer genomes yielded sixteen distinct signatures of structural variation."
+},
+{
+"j": 4,
+"text": "In liver cancer, TERT activation by cycles of templated insertions was associated with poorer patient survival."
+}
+]
+},
+{
+"n": 1014,
+"id": "pmid:28336671",
+"year": 2017,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Cancers are caused by mutations that may be inherited, induced by environmental factors, or result from DNA replication errors (R). We studied the relationship between the number of normal stem cell divisions and the risk of 17 cancer types in 69 countries throughout the world. The data revealed a strong correlation (median = 0.80) between cancer incidence and normal stem cell divisions in all countries, regardless of their environment. The major role of R mutations in cancer etiology was supported by an independent approach, based solely on cancer genome sequencing and epidemiological data, which suggested that R mutations are responsible for two-thirds of the mutations in human cancers. All of these results are consistent with epidemiological estimates of the fraction of cancers that can be prevented by changes in the environment. Moreover, they accentuate the importance of early detection and intervention to reduce deaths from the many cancers arising from unavoidable R mutations."
+}
+],
+"text": "Cancers are caused by mutations that may be inherited, induced by environmental factors, or result from DNA replication errors (R). We studied the relationship between the number of normal stem cell divisions and the risk of 17 cancer types in 69 countries throughout the world. The data revealed a strong correlation (median = 0.80) between cancer incidence and normal stem cell divisions in all countries, regardless of their environment. The major role of R mutations in cancer etiology was supported by an independent approach, based solely on cancer genome sequencing and epidemiological data, which suggested that R mutations are responsible for two-thirds of the mutations in human cancers. All of these results are consistent with epidemiological estimates of the fraction of cancers that can be prevented by changes in the environment. Moreover, they accentuate the importance of early detection and intervention to reduce deaths from the many cancers arising from unavoidable R mutations.",
+"statements": [
+{
+"j": 1,
+"text": "The results matched epidemiological estimates of the fraction of cancers preventable through environmental change."
+},
+{
+"j": 2,
+"text": "Cancer types involving less normal stem cell divisions had higher incidence, a strong correlation (median 0.80) seen in every country regardless of environment."
+},
+{
+"j": 3,
+"text": "Early detection programmes reduced deaths from replication-error-driven cancers in the 69 countries studied."
+},
+{
+"j": 4,
+"text": "An approach using only cancer genome sequencing and epidemiological data attributed two-thirds of the mutations in human cancers to DNA replication errors."
+}
+]
+}
+]
+}

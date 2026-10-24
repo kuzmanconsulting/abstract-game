@@ -1,0 +1,517 @@
+{
+ "batch": "gen_40",
+ "prompt_version": "gen-v4",
+ "items": [
+  {
+   "n": 985,
+   "id": "pmid:40882628",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Random priming in Stereo-seq V2 yields uniform gene body coverage and increases sensitivity to marker genes and immune repertoire coverage.",
+     "evidence": "The random-priming-based strategy offers unbiased transcript capturing and uniform gene body coverage, which increase the sensitivity to marker genes, the efficiency of non-polyadenylation (poly(A)) RNA profiling, and immune repertoire coverage.",
+     "note": "The abstract attributes uniform gene body coverage and higher marker-gene and immune-repertoire sensitivity to the random-priming strategy."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "In FFPE sections of triple-negative breast cancer, the method identified alternative splicing events specific to the tumor.",
+     "evidence": "We demonstrated the robust performance of Stereo-seq V2 on clinical FFPE samples using triple-negative breast cancer (TNBC) sections and identified tumor-specific alternative splicing events.",
+     "note": "The TNBC FFPE experiment is reported to have revealed tumor-specific alternative splicing events."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The tumor-specific splicing events found in TNBC sections were associated with patient survival.",
+     "evidence": "We demonstrated the robust performance of Stereo-seq V2 on clinical FFPE samples using triple-negative breast cancer (TNBC) sections and identified tumor-specific alternative splicing events.",
+     "note": "The abstract reports that tumor-specific splicing events were identified but says nothing about their relation to patient outcomes."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Mtb-specific BCR clones identified in infected mice were also detectable in human tuberculous lung samples.",
+     "evidence": "We also assembled immune repertoires and identified Mtb-specific BCR clones, which could also be observed in human tuberculous lung samples.",
+     "note": "The abstract states that the Mtb-specific BCR clones found in the mouse model could also be observed in human tuberculous lung tissue."
+    }
+   ]
+  },
+  {
+   "n": 986,
+   "id": "pmid:40875841",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Modern horse breeds carrying the selected GSDMC variants are faster than breeds that lack them.",
+     "evidence": "GSDMC genotypes are linked to body conformation in horses and to spinal anatomy, motor coordination, and muscular strength in mice.",
+     "note": "The abstract links GSDMC to body conformation and to an ancient role in mobility, but reports no comparison of speed among modern breeds."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The selection signal at ZFPM1, dated to about 5000 years ago, predates the onset of intensive selection at GSDMC around 4750 years ago.",
+     "evidence": "We detected a signature of positive selection at ZFPM1 -known to be a modulator of behavior in mice-occurring ~5000 years ago (ya), suggesting that taming was one of the earliest steps toward domestication of horses. Intensive selection at GSDMC began ~4750 ya",
+     "note": "The abstract dates the ZFPM1 signal to ~5000 ya and the start of intensive GSDMC selection to ~4750 ya, so ZFPM1 comes first."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Regulatory variants at GSDMC reached high frequency by roughly 4150 years ago, following the domestication bottleneck.",
+     "evidence": "Intensive selection at GSDMC began ~4750 ya with the domestication bottleneck, leading regulatory variants to high frequency by ~4150 ya.",
+     "note": "The abstract states that GSDMC regulatory variants were driven to high frequency by ~4150 ya."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The selection scan examined 266 trait-associated markers across a time series of horse genomes.",
+     "evidence": "We scanned an extensive horse genome time series for selection signatures at 266 markers associated with key traits.",
+     "note": "The study design, as stated, was a scan of 266 trait-associated markers in a genome time series."
+    }
+   ]
+  },
+  {
+   "n": 987,
+   "id": "pmid:40107723",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Of the transcripts detected on average, 36.6% (31,531) were previously uncharacterized after stringent filtering.",
+     "evidence": "The remaining 31,531 transcripts (36.6% of the 86,182 detected transcripts on average) were previously uncharacterized.",
+     "note": "The abstract gives 31,531 previously uncharacterized transcripts, 36.6% of the 86,182 detected on average."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Many novel transcripts showed cell-specific expression, unlike known transcripts.",
+     "evidence": "In contrast to known transcripts, many of the novel transcripts have cell-specific expression.",
+     "note": "The abstract contrasts novel transcripts, many with cell-specific expression, against known transcripts."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "More than half of the novel transcripts have a predicted complete protein-coding open reading frame.",
+     "evidence": "Moreover, >50% of novel transcripts possess a predicted complete protein-coding open reading frame.",
+     "note": "The abstract states that >50% of novel transcripts carry a predicted complete ORF."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "The novel transcripts with complete open reading frames were shown to produce proteins in ccRCC cells.",
+     "evidence": "Moreover, >50% of novel transcripts possess a predicted complete protein-coding open reading frame.",
+     "note": "A predicted ORF is a computational prediction; the abstract reports no protein-level detection of the novel transcripts."
+    }
+   ]
+  },
+  {
+   "n": 988,
+   "id": "pmid:40739582",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The TE families mobile in the soma mostly match those seen in germline studies of hypomethylated genotypes, but the specific copies differ.",
+     "evidence": "Most somatically mobile families coincide with those found in germline studies of hypomethylated genotypes, although the exact TE copies differ.",
+     "note": "The abstract reports overlap at the family level with germline studies but divergence at the level of individual TE copies."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Somatic TE insertions detected in the met1 plants were inherited by their offspring.",
+     "evidence": "Assessing somatic instead of germline mobilization is a fast and reliable method to investigate different aspects of TE mobility at the single plant level.",
+     "note": "The abstract studies somatic mobilization as an alternative to germline assays and reports nothing on transmission of the detected insertions to progeny."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Somatic TE activity varied between individual plants and also within TE families.",
+     "evidence": "Somatic TE activity is variable among individual plants, but also within TE families.",
+     "note": "The abstract states variability at both levels, among plants and within families."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Some of the mobile elements found had been missed by standard TE annotation methods.",
+     "evidence": "We also discover mobile elements that had been missed by standard TE annotation methods.",
+     "note": "The abstract reports discovery of mobile elements absent from standard annotations."
+    }
+   ]
+  },
+  {
+   "n": 989,
+   "id": "pmid:32795414",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Tissue-explant EVP proteins such as VCAN, TNC and THBS2 separated tumors from normal tissue with 90% sensitivity and 94% specificity.",
+     "evidence": "Comparison of TE EVPs identified proteins (e.g., VCAN, TNC, and THBS2) that distinguish tumors from normal tissues with 90% sensitivity/94% specificity.",
+     "note": "The abstract reports 90% sensitivity and 94% specificity for tumor-versus-normal discrimination by TE EVP proteins."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Machine-learning classification of plasma EVP cargo detected cancer with 95% sensitivity and 90% specificity.",
+     "evidence": "Machine-learning classification of plasma-derived EVP cargo, including immunoglobulins, revealed 95% sensitivity/90% specificity in detecting cancer.",
+     "note": "The plasma classifier's reported performance is 95% sensitivity and 90% specificity."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "ACTB, MSN and RAP1B were identified as new pan-EVP markers, in addition to traditional markers like CD9 and ALIX.",
+     "evidence": "Among traditional exosome markers, CD9, HSPA8, ALIX, and HSP90AB1 represent pan-EVP markers, while ACTB, MSN, and RAP1B are novel pan-EVP markers.",
+     "note": "The abstract lists ACTB, MSN and RAP1B as novel pan-EVP markers alongside the traditional ones."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "The plasma EVP classifier detects early-stage cancers as accurately as advanced-stage cancers.",
+     "evidence": "Machine-learning classification of plasma-derived EVP cargo, including immunoglobulins, revealed 95% sensitivity/90% specificity in detecting cancer.",
+     "note": "The abstract gives only overall sensitivity and specificity and does not report performance by tumor stage."
+    }
+   ]
+  },
+  {
+   "n": 990,
+   "id": "pmid:35022609",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "The reduced mutation rate inside gene bodies was also observed in animal genomes.",
+     "evidence": "Here we test this assumption with large surveys of de novo mutations in the plant Arabidopsis thaliana.",
+     "note": "All data come from Arabidopsis; the abstract makes no claim about other organisms."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Mutation frequency was halved inside gene bodies and cut by two-thirds in essential genes.",
+     "evidence": "mutation frequency is reduced by half inside gene bodies and by two-thirds in essential genes.",
+     "note": "The abstract gives the magnitudes directly: half in gene bodies, two-thirds in essential genes."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Epigenomic and physical features explained more than 90% of the variance in mutation bias around genes.",
+     "evidence": "we demonstrate that epigenomic and physical features explain over 90% of variance in the genome-wide pattern of mutation bias surrounding genes.",
+     "note": "The abstract reports that these features explain over 90% of variance in the mutation bias pattern."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Mutation rates are lower in genes experiencing stronger purifying selection.",
+     "evidence": "Finally, we find that genes subject to stronger purifying selection have a lower mutation rate.",
+     "note": "The abstract reports a negative relation between the strength of purifying selection and mutation rate."
+    }
+   ]
+  },
+  {
+   "n": 991,
+   "id": "pmid:38428424",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The study identified 1,338,997 lineage-specific fixed structural variants that disrupt 1,561 protein-coding genes.",
+     "evidence": "We identified 1,338,997 lineage-specific fixed structural variants (SVs) disrupting 1,561 protein-coding genes and 136,932 regulatory elements",
+     "note": "Both counts are given directly in the abstract."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Human-specific fixed structural variants are more numerous than chimpanzee-specific ones.",
+     "evidence": "including the most complete set of human-specific fixed differences.",
+     "note": "The abstract mentions a human-specific set but gives no per-lineage counts to compare."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "An estimated 819.47 Mbp, around 27% of the genome, has been affected by structural variation during primate evolution.",
+     "evidence": "We estimate that 819.47 Mbp or ∼27% of the genome has been affected by SVs across primate evolution.",
+     "note": "The abstract states this estimate explicitly."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Within 1,607 structurally divergent regions, recurrent structural variation created hotspots where gene families were repeatedly lost and new lineage-specific genes arose.",
+     "evidence": "We identify 1,607 structurally divergent regions wherein recurrent structural variation contributes to creating SV hotspots where genes are recurrently lost (e.g., CARD, C4, and OLAH gene families) and additional lineage-specific genes are generated",
+     "note": "The abstract describes 1,607 regions with recurrent SVs causing both gene loss and lineage-specific gene generation."
+    }
+   ]
+  },
+  {
+   "n": 992,
+   "id": "pmid:33434495",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "A network-based analysis of 20 TCGA cohorts identified 407 master regulator proteins that sort samples into 112 transcriptionally distinct subtypes.",
+     "evidence": "identified 407 master regulator (MR) proteins responsible for canalizing the genetics of individual samples from 20 cohorts in The Cancer Genome Atlas (TCGA) into 112 transcriptionally distinct tumor subtypes.",
+     "note": "The abstract gives 407 MR proteins, 20 cohorts and 112 subtypes."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "More than half of the somatic alterations in each sample were predicted to cause aberrant master regulator activity.",
+     "evidence": "Of all somatic alterations detected in each individual sample, >50% were predicted to induce aberrant MR activity",
+     "note": "The abstract states >50% of detected somatic alterations were predicted to induce aberrant MR activity."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Pharmacological targeting of master regulators improved survival in cancer patients.",
+     "evidence": "Genetic and pharmacological validation assays confirmed the predicted effect of upstream mutations and MR activity on downstream cellular identity and phenotype.",
+     "note": "Validation was at the level of cellular identity and phenotype; no patient treatment outcomes are reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Master regulators grouped into 24 pan-cancer block modules, each predictive of patient outcome across multiple cohorts.",
+     "evidence": "MR proteins could be further organized into 24 pan-cancer, master regulator block modules (MRBs), each regulating key cancer hallmarks and predictive of patient outcome in multiple cohorts.",
+     "note": "The abstract describes 24 MRBs, each predictive of outcome in multiple cohorts."
+    }
+   ]
+  },
+  {
+   "n": 993,
+   "id": "pmid:42680740",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Hominin hunting was the main driver of the Pleistocene increase in ungulate extinction rates.",
+     "evidence": "Whether attributed to humans or climate, prevailing views of megaherbivore decline have focused on size-biased extinction (i.e., higher extinction rates among the largest species) while neglecting the role of speciation rates.",
+     "note": "The abstract names humans and climate as drivers invoked in prior views but does not attribute the Pleistocene extinction increase to either."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Extinction rates rose sharply at the onset of the Pleistocene (2.58 Ma), after speciation had leveled off following 3.6 Ma.",
+     "evidence": "While speciation plateaued after 3.6 Ma, extinction rates increased sharply at the onset of the Pleistocene (2.58 Ma), leading to widespread diversity losses across herbivore guilds.",
+     "note": "The abstract dates the speciation plateau to after 3.6 Ma and the sharp extinction rise to 2.58 Ma."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Intrinsic extinction rates are lower in large-bodied lineages and in the larger species within families.",
+     "evidence": "Yet, we find that extinction rates are intrinsically lower in large-size lineages and in larger species within families.",
+     "note": "The abstract reports lower intrinsic extinction rates for larger body size at both the lineage and the within-family level."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The largest herbivores have intrinsically low speciation rates, and in some lineages speciation was further suppressed by aridification over the last 5 million years.",
+     "evidence": "Importantly, speciation rates in the largest herbivores are intrinsically low, and in some lineages were suppressed in response to increasing aridification during the last 5 Myrs.",
+     "note": "The abstract reports both intrinsically low speciation in the largest herbivores and aridification-linked suppression in some lineages."
+    }
+   ]
+  },
+  {
+   "n": 994,
+   "id": "pmid:42086854",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The super-pangenome was built from 138 reference-grade assemblies, 135 of them newly generated, covering all seven watermelon species.",
+     "evidence": "constructed from 138 reference-grade assemblies, including 135 newly generated genomes representing all seven species.",
+     "note": "The abstract gives 138 assemblies, 135 of them new, spanning all seven species."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "About one million structural variants were captured, allowing accurate genotyping in 914 accessions.",
+     "evidence": "This super-pangenome captures approximately 1 million structural variants (SVs), enabling accurate variant genotyping across 914 accessions.",
+     "note": "The abstract states approximately 1 million SVs and genotyping across 914 accessions."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Flesh color intensity is controlled, in a dosage-dependent way, by a copy number variant lying upstream of ClFCI1.",
+     "evidence": "reveals a copy number variant upstream of ClFCI1 that regulates flesh color intensity in a dosage-dependent manner.",
+     "note": "The abstract reports this CNV as a dosage-dependent regulator of flesh color intensity."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Cultivated watermelon was domesticated from a single wild progenitor species.",
+     "evidence": "Broader sampling within the pangenome provides insights into watermelon genome evolution and the origin of cultivated watermelon.",
+     "note": "The abstract says the pangenome informs the origin of cultivated watermelon but gives no detail about the progenitor."
+    }
+   ]
+  },
+  {
+   "n": 995,
+   "id": "pmid:37751945",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "SNPs are over-represented in ATAC-seq peaks, which the study attributes to a roughly 1.3-fold higher mutation rate within peaks.",
+     "evidence": "the proportion of single-nucleotide polymorphisms mapping to ATAC-seq peaks is higher than expected and that this is owing to an approximately 1.3-fold higher mutation rate within peaks.",
+     "note": "The abstract reports SNP enrichment in peaks and attributes it to an approximately 1.3-fold higher mutation rate."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Adding ATAC-seq peak annotations to genomic selection models increased prediction accuracy in cattle.",
+     "evidence": "We discuss the implication of these findings on the utility of ATAC-seq information to improve the accuracy of genomic selection.",
+     "note": "The abstract discusses implications for genomic selection but reports no test of prediction accuracy."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Roughly one in three regulatory variants lie in ATAC-seq peaks, whereas only about one in 25 variants within peaks are regulatory.",
+     "evidence": "the proportion of regulatory variants mapping to ATAC-seq peaks is approximately one in three and that the proportion of variants mapping to ATAC-seq peaks that are regulatory is approximately one in 25.",
+     "note": "Both proportions are stated in the abstract."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Variants that drive eQTL in liver and blood fall into tissue-specific ATAC-seq peaks more often than expected by chance.",
+     "evidence": "We generate eQTL data sets for liver and blood and show that variants that drive eQTL fall into liver- and blood-specific ATAC-seq peaks more often than expected by chance.",
+     "note": "The abstract reports that eQTL-driving variants are enriched in liver- and blood-specific peaks."
+    }
+   ]
+  },
+  {
+   "n": 996,
+   "id": "pmid:38604171",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "SAFB limits L1's effect by recognizing transcriptionally active L1s through their transcripts and blocking RNA Pol II enrichment.",
+     "evidence": "This impact of L1 is restricted by a nuclear matrix protein scaffold attachment factor B (SAFB) that recognizes transcriptionally active L1s by binding L1 transcripts to inhibit RNA Pol II enrichment.",
+     "note": "The abstract describes SAFB binding L1 transcripts to inhibit RNA Pol II enrichment at active L1s."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Acute inhibition of RNA Pol II transcription removed the domain boundaries associated with L1 chimeric transcripts.",
+     "evidence": "Acute inhibition of RNA Pol II transcription abolishes the domain boundaries associated with L1 chimeric transcripts, indicating a transcription-dependent mechanism.",
+     "note": "The abstract reports that the boundaries disappear when Pol II transcription is acutely inhibited."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Loss of SAFB increases the rate of new L1 retrotransposition events.",
+     "evidence": "Our data show that L1 can create RNA Pol II-enriched regions that alter genome organization and that SAFB regulates L1 and RNA Pol II activity to preserve gene regulation.",
+     "note": "SAFB's reported role concerns L1 transcription and RNA Pol II enrichment; new insertion events are not measured."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Deleting L1 impaired boundary formation, and L1 insertions during evolution have created species-specific domain boundaries.",
+     "evidence": "Deleting L1 impairs domain boundary formation, and L1 insertions during evolution have introduced species-specific domain boundaries.",
+     "note": "Both the deletion result and the evolutionary insertion result are stated in the abstract."
+    }
+   ]
+  },
+  {
+   "n": 997,
+   "id": "pmid:41709466",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Most LINE-1 chimeric insertions in the human genome are younger than 10 million years.",
+     "evidence": "a computational pipeline that leverages multiple sequence alignments (MSAs) to estimate the age of LINE-1 insertions and identify candidate chimeric insertions where an adjacent sequence arrives contemporaneously.",
+     "note": "The pipeline estimates insertion ages, but the abstract reports no age distribution for the chimeras."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "TiMEstamp uses multiple sequence alignments to date LINE-1 insertions and flags adjacent sequences that arrived at the same time as candidate chimeras.",
+     "evidence": "a computational pipeline that leverages multiple sequence alignments (MSAs) to estimate the age of LINE-1 insertions and identify candidate chimeric insertions where an adjacent sequence arrives contemporaneously.",
+     "note": "The abstract describes the pipeline's two functions: age estimation and detection of contemporaneously arriving adjacent sequences."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The pipeline uncovered new chimeric insertions involving small RNAs, Alu elements and mRNA fragments.",
+     "evidence": "With this pipeline, we discovered new chimeric insertions involving small RNAs, Alu elements, and mRNA fragments.",
+     "note": "The three classes of chimeric partner are listed in the abstract."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "LINE-1 loci whose promoters are defunct showed evidence of acquiring regulatory elements from nearby genes, restoring expression and retrotransposition.",
+     "evidence": "we saw evidence that LINE-1 loci with defunct promoters can acquire regulatory elements from nearby genes to restore expression and retrotransposition activity.",
+     "note": "The abstract reports evidence for promoter-defunct L1 loci regaining activity via regulatory elements of neighboring genes."
+    }
+   ]
+  },
+  {
+   "n": 998,
+   "id": "pmid:38908378",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Combining short-read and long-read sequencing, optical genome mapping and strand-seq resolved the haplotype structure in 18 samples.",
+     "evidence": "Using a combination of short-read genome sequencing (GS), long-read GS, optical genome mapping, and single-cell DNA template strand sequencing (strand-seq), the haplotype structure was resolved in 18 samples.",
+     "note": "The abstract reports resolution in 18 samples using the four technologies."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "In four samples, template switching occurred within a segment of about 2.2-5.5 kb of complete nucleotide identity between inverted repeats.",
+     "evidence": "The point of template switching in 4 samples was shown to be a segment of ∼2.2-5.5 kb of 100% nucleotide similarity within inverted repeat pairs.",
+     "note": "The abstract gives the size (∼2.2-5.5 kb) and 100% similarity of the template-switch segment in 4 samples."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "All four predicted structural-variant haplotypes were found among the 24 patients studied.",
+     "evidence": "investigating the DNA of 24 patients identified by array comparative genomic hybridization (aCGH) on whom we found evidence for the existence of 4 out of 4 predicted structural variant (SV) haplotypes.",
+     "note": "The abstract states evidence for 4 out of 4 predicted SV haplotypes across the 24 patients."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "DUP-TRP/INV-DUP rearrangements arise more often in the paternal than the maternal germline.",
+     "evidence": "These data provide experimental evidence that inverted low-copy repeats act as recombinant substrates.",
+     "note": "The abstract addresses the repeat substrates of the rearrangement, not its parental origin."
+    }
+   ]
+  },
+  {
+   "n": 999,
+   "id": "pmid:36474250",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Primate-specific genes were upregulated across 13 cancer types, aided by copy-number gain and promoter hypomethylation.",
+     "evidence": "we find the upregulation of PSGs across 13 cancer types, which is facilitated by copy-number gain and promoter hypomethylation.",
+     "note": "The abstract reports PSG upregulation in 13 cancer types with these two facilitating mechanisms."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Knockdown of DDX11 in non-malignant human cells had no effect on their proliferation.",
+     "evidence": "Genome-wide screening data and knockdown experiments demonstrate that DDX11 is broadly essential across cancer cell lines.",
+     "note": "Essentiality was assessed in cancer cell lines; the abstract reports nothing about non-malignant cells."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "DDX11 proved broadly essential across cancer cell lines in genome-wide screens and knockdown experiments.",
+     "evidence": "Genome-wide screening data and knockdown experiments demonstrate that DDX11 is broadly essential across cancer cell lines.",
+     "note": "The abstract states DDX11 is broadly essential across cancer cell lines on the basis of screens and knockdowns."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The cell cycle-related uPSGs showed preferential upregulation in the embryonic cerebrum, a highly proliferative tissue.",
+     "evidence": "Finally, we find that cell cycle-related uPSGs are also preferentially upregulated in the highly proliferative embryonic cerebrum.",
+     "note": "The abstract reports this expression pattern in the embryonic cerebrum as a final finding."
+    }
+   ]
+  }
+ ],
+ "flip_rule": "first-of-any-v3"
+}

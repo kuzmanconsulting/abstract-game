@@ -1,0 +1,67 @@
+{
+"batch": "check_C_93",
+"pass": "C",
+"prompt_version": "check-v1",
+"items": [
+{"n": 1575, "id": "pmid:38443404", "verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "interlukin-11 (IL-11) mRNA as a target for ALKBH5-mediated m6A demethylation, leading to increased IL-11 mRNA stability and protein levels"},
+{"j": 2, "label": "contradicted", "confidence": 3, "evidence": "with accompanying increased expression of the RNA N6-methyladenosine demethylases, ALKBH5"},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "macrophage-specific knockout of ALKBH5 inhibits Ang II-induced MMT, and subsequently ameliorates cardiac fibrosis and dysfunction"},
+{"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "contributes to hypertensive cardiac fibrosis and dysfunction in mice, and thereby identify potential targets for cardiac fibrosis therapy in patients"}
+]},
+{"n": 1576, "id": "pmid:37208334", "verdicts": [
+{"j": 1, "label": "contradicted", "confidence": 3, "evidence": "adenosine deaminases acting on RNA 1 (ADAR1), are shown to be concomitantly upregulated in the resistant lines"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "ADAR1-mediated A-to-I editing on 3'UTR of stearoyl-CoA desaturase (SCD1) increases binding of KH domain-containing, RNA-binding, signal transduction-associated 1 (KHDRBS1), thereby augmenting SCD1 mRNA stability"},
+{"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Pharmacological inhibition of SCD1 abrogates chemoresistance and tumor-initiating cell frequency"},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "ADAR1 confers chemoresistance and self-renewal in an RNA editing-dependent manner"}
+]},
+{"n": 1577, "id": "pmid:38679071", "verdicts": [
+{"j": 1, "label": "contradicted", "confidence": 3, "evidence": "glycolysis promotes P300-catalyzed lactylation of nucleolin"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "lactylated NCL bound to the primary transcript of MAP kinase-activating death domain protein (MADD) and led to efficient translation of MADD by circumventing alternative splicing that generates a premature termination codon"},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "NCL was lactylated predominantly at lysine 477 by the acyltransferase P300 in response to a hyperactivity of glycolysis"},
+{"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "NCL lactylation, MADD translation and subsequent ERK activation promoted xenograft tumor growth and were associated with overall survival in patients with iCCA"}
+]},
+{"n": 1578, "id": "pmid:36717587", "verdicts": [
+{"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "providing insights into the mechanism of circSCMH1 in promoting stroke recovery"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "we identify the role of circSCMH1 in promoting vascular repair in peri-infarct cortex of male mice and male monkeys after photothrombotic (PT) stroke"},
+{"j": 3, "label": "contradicted", "confidence": 3, "evidence": "circSCMH1 enhances vascular repair via FTO-regulated m 6 A methylation after stroke"},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "circSCMH1 increased the translocation of ubiquitination-modified fat mass and obesity-associated protein (FTO) into nucleus of endothelial cells (ECs), leading to m 6 A demethylation of phospholipid phosphatase 3 (Plpp3) mRNA and subsequently the increase of Plpp3 expression in ECs"}
+]},
+{"n": 1579, "id": "pmid:38216551", "verdicts": [
+{"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Genetic ablation of circAtxn7 in CD8 + T cells leads to mutant-selective tumor inhibition, while also increases anti-PD1 efficacy in multiple tumor models in female mice"},
+{"j": 2, "label": "not_addressed", "confidence": 2, "evidence": "tumor-specific cytotoxic T lymphocytes (CTLs) from KRAS MUT cancers are sensitive to activation-induced cell death (AICD)", "flag": "ambiguous", "reason": "The abstract addresses only cytotoxic (CD8+) T lymphocytes and never mentions CD4+ helper T cells, so the CD4+ claim is neither stated nor contradicted."},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "circATXN7, an NF-κB-interacting circular RNA, governs T cell sensitivity to AICD by inactivating NF-κB"},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "histone lactylation derived from KRAS MUT tumor cell-produced lactic acid directly activates transcription of circATXN7"}
+]},
+{"n": 1580, "id": "pmid:37115914", "verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "Cleaved N-terminal (NT) fragments of GSDMB isoforms 3 and 4 caused pyroptosis, but isoforms 1, 2, and 5 did not"},
+{"j": 2, "label": "not_addressed", "confidence": 2, "evidence": "The belt likely contributes to the insertion of oligomeric GSDMB-NTs into the membrane", "flag": "ambiguous", "reason": "The abstract gives the belt motif a role in membrane insertion, not in granzyme A binding, so whether the belt is needed for granzyme A binding is left unsettled."},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "Expression of cytotoxic GSDMB3/4 isoforms, but not GSDMB1/2 isoforms that are frequently up-regulated in tumors, was associated with better outcomes in bladder and cervical cancers"},
+{"j": 4, "label": "contradicted", "confidence": 3, "evidence": "GSDMB1-3 were the most abundant isoforms in the tested tumor cell lines"}
+]},
+{"n": 1581, "id": "pmid:37009655", "verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "circPVT1 directly interacts with MAVS protein to disrupt the RIGI-MAVS complex formation, inhibiting type I interferon (IFN) signaling pathway and anti-tumor immunity"},
+{"j": 2, "label": "not_addressed", "confidence": 2, "evidence": "circPVT1 may serve as a diagnostic biomarker and therapeutic target for ERα-positive breast cancer in the clinic"},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "CircPVT1 acts as a competing endogenous RNA (ceRNA) to sponge miR-181a-2-3p, promoting the expression of ESR1 and downstream ERα-target genes and breast cancer cell growth"},
+{"j": 4, "label": "contradicted", "confidence": 3, "evidence": "functionally important in promoting ERα-positive breast tumorigenesis and endocrine therapy resistance"}
+]},
+{"n": 1582, "id": "pmid:37463108", "verdicts": [
+{"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "the ac4C RNA acetyltransferase NAT10 is significantly upregulated in esophageal cancers (ESCAs) and associated with poor ESCA prognosis"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "NAT10 depletion and gefitinib treatment synergistically inhibit ESCA progression in vitro and in vivo"},
+{"j": 3, "label": "contradicted", "confidence": 3, "evidence": "the ac4C RNA acetyltransferase NAT10 is significantly upregulated in esophageal cancers (ESCAs) and associated with poor ESCA prognosis"},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "NAT10 depletion reduces the abundance of ac4C-modified tRNAs and decreases the translation efficiencies of mRNAs enriched for ac4C-modified tRNA-decoded codons"}
+]},
+{"n": 1583, "id": "pmid:37898647", "verdicts": [
+{"j": 1, "label": "contradicted", "confidence": 3, "evidence": "circITGB6 is found to potently promote EMT process and tumor metastasis in various models in vitro and in vivo"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "interfering circITGB6 with PEI-coated specific siRNA effectively represses liver metastasis"},
+{"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "its higher abundance is closely correlated to worse prognosis of colorectal cancer (CRC) patients"},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "circITGB6 enhances the mRNA stability of PDPN, an EMT-promoting gene, by directly interacting with IGF2BP3"}
+]},
+{"n": 1584, "id": "pmid:36892464", "verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "transcriptome-wide profiling using LACE-seq in both SCs and mouse C2C12 myoblasts identifies m6A-mediated binding targets of YTHDC1"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "inducible YTHDC1 depletion almost abolishes SC regenerative capacity"},
+{"j": 3, "label": "contradicted", "confidence": 3, "evidence": "YTHDC1 is an essential regulator of SC activation and proliferation upon acute injury-induced muscle regeneration"},
+{"j": 4, "label": "not_addressed", "confidence": 2, "evidence": "among which hnRNPG appears to be a bona fide interacting partner of YTHDC1"}
+]}
+]
+}

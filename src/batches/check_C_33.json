@@ -1,0 +1,539 @@
+{
+"batch": "check_C_33",
+"pass": "C",
+"source_batch": "gen_33",
+"items": [
+{
+"n": 880,
+"id": "pmid:40216969",
+"year": 2025,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Osteosarcoma (OS) is a rapidly progressive primary malignant bone tumor that occurs in children and adolescents aged between 15 and 19 years and adults aged over 60 years. As alternative splicing (AS) changes caused by abnormal splicing factors contribute to tumor progression, gene expression and AS analyses were performed on 44 osteosarcoma patients to create a genome-wide co-expression network of RNA-binding proteins (RBPs), AS events, and AS genes. A gain- or loss-of-function osteosarcoma cell model was established, and an interactive network analysis and enrichment analysis were performed. Karyopherin Subunit Alpha 2 (KPNA2) negatively correlated with patient survival. KPNA2 transports splicing factor Y-box Binding Protein 1 (YBX1) into the nucleus and YBX1 accelerates the degradation of the ATP-dependent RNA helicase DDX3X (DDX3X) through the nonsense-mediated decay (NMD) pathway to promote intron retention of the DDX3X gene, thus reducing DDX3X protein levels. KPNA2/YBX1 axis regulates the stability of DDX3X mRNA and cell cycle progression. KPNA2/YBX1/DDX3X axis might be potential targets for inhibiting disease progression and improving OS patient survival. It integrates AS control of DDX3X into the progression of OS and represents a potential prognostic biomarker and therapeutic target for OS therapy."
+}
+],
+"text": "Osteosarcoma (OS) is a rapidly progressive primary malignant bone tumor that occurs in children and adolescents aged between 15 and 19 years and adults aged over 60 years. As alternative splicing (AS) changes caused by abnormal splicing factors contribute to tumor progression, gene expression and AS analyses were performed on 44 osteosarcoma patients to create a genome-wide co-expression network of RNA-binding proteins (RBPs), AS events, and AS genes. A gain- or loss-of-function osteosarcoma cell model was established, and an interactive network analysis and enrichment analysis were performed. Karyopherin Subunit Alpha 2 (KPNA2) negatively correlated with patient survival. KPNA2 transports splicing factor Y-box Binding Protein 1 (YBX1) into the nucleus and YBX1 accelerates the degradation of the ATP-dependent RNA helicase DDX3X (DDX3X) through the nonsense-mediated decay (NMD) pathway to promote intron retention of the DDX3X gene, thus reducing DDX3X protein levels. KPNA2/YBX1 axis regulates the stability of DDX3X mRNA and cell cycle progression. KPNA2/YBX1/DDX3X axis might be potential targets for inhibiting disease progression and improving OS patient survival. It integrates AS control of DDX3X into the progression of OS and represents a potential prognostic biomarker and therapeutic target for OS therapy.",
+"statements": [
+{
+"j": 1,
+"text": "YBX1 lowers DDX3X protein by promoting intron retention in the DDX3X transcript and speeding its degradation through nonsense-mediated decay."
+},
+{
+"j": 2,
+"text": "Lower KPNA2 expression went together with poorer survival of osteosarcoma patients."
+},
+{
+"j": 3,
+"text": "Pharmacological inhibition of KPNA2 prolonged survival in a mouse model of osteosarcoma."
+},
+{
+"j": 4,
+"text": "Gene expression and alternative splicing analyses were run on 44 osteosarcoma patients to build a genome-wide co-expression network of RNA-binding proteins, alternative splicing events and alternatively spliced genes."
+}
+]
+},
+{
+"n": 881,
+"id": "pmid:40650263",
+"year": 2025,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Paraspeckles are nuclear membraneless structures composed of a long non-coding RNA, Nuclear-Enriched-Abundant-Transcript-1, and RNA-binding proteins, which associate with numerous mRNAs. It is therefore believed that their cellular function is to sequester in the nucleus their associated proteins and/or target mRNAs. However, little is known about the molecular determinant in mRNA targets that allows their association to paraspeckles, except that inverted repeats of Alu sequences (IRAlu) present in the 3'UTR of mRNAs may allow this association. While in a previous study we established the list of paraspeckle target RNAs in a rat pituitary cell line, we did not find, however, inverted repeated SINEs, the rat equivalent of primate IRAlus in 3'UTR of these RNAs. By developing a candidate gene strategy, we selected a paraspeckle target gene, namely calreticulin mRNA, and we searched for other potential RNA recruitment elements in its 3'UTR, since 3'UTRs usually contain the sequence recognition for nuclear localization. We found a 15-nucleotide sequence surrounded in 5' by a C-rich sequence, which is present as a tandem repeat in the 3'UTR of this mRNA and which is involved in the nuclear retention by paraspeckles. As shown by mass spectrometry analysis, 6 proteins bound to the 15-nucleotide sequence are paraspeckle proteins and constitute, therefore, bridging proteins between paraspeckles and target mRNAs."
+}
+],
+"text": "Paraspeckles are nuclear membraneless structures composed of a long non-coding RNA, Nuclear-Enriched-Abundant-Transcript-1, and RNA-binding proteins, which associate with numerous mRNAs. It is therefore believed that their cellular function is to sequester in the nucleus their associated proteins and/or target mRNAs. However, little is known about the molecular determinant in mRNA targets that allows their association to paraspeckles, except that inverted repeats of Alu sequences (IRAlu) present in the 3'UTR of mRNAs may allow this association. While in a previous study we established the list of paraspeckle target RNAs in a rat pituitary cell line, we did not find, however, inverted repeated SINEs, the rat equivalent of primate IRAlus in 3'UTR of these RNAs. By developing a candidate gene strategy, we selected a paraspeckle target gene, namely calreticulin mRNA, and we searched for other potential RNA recruitment elements in its 3'UTR, since 3'UTRs usually contain the sequence recognition for nuclear localization. We found a 15-nucleotide sequence surrounded in 5' by a C-rich sequence, which is present as a tandem repeat in the 3'UTR of this mRNA and which is involved in the nuclear retention by paraspeckles. As shown by mass spectrometry analysis, 6 proteins bound to the 15-nucleotide sequence are paraspeckle proteins and constitute, therefore, bridging proteins between paraspeckles and target mRNAs.",
+"statements": [
+{
+"j": 1,
+"text": "Mass spectrometry showed that six of the proteins binding the 15-nucleotide sequence are paraspeckle proteins."
+},
+{
+"j": 2,
+"text": "The 15-nucleotide motif also occurs in the 3'UTRs of other paraspeckle target mRNAs identified in the rat pituitary cell line."
+},
+{
+"j": 3,
+"text": "A tandemly repeated 15-nucleotide sequence with a C-rich stretch upstream in the calreticulin 3'UTR contributes to nuclear retention by paraspeckles."
+},
+{
+"j": 4,
+"text": "In the rat pituitary cell line, the previously identified paraspeckle target RNAs lacked inverted repeated SINEs in their 3'UTRs."
+}
+]
+},
+{
+"n": 882,
+"id": "pmid:41655928",
+"year": 2026,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "RNA-binding proteins (RBPs) govern mRNA fate and critically regulate spermatogenesis. The poly(rC)-binding protein 2 (PCBP2), a testis-enriched RBP, remains uncharacterized in spermatogenesis. In this study, we identified and validated PCBP2 downregulation in testicular tissues from patients with non-obstructive azoospermia (NOA) by integrating bulk and single-cell RNA sequencing (scRNA-seq) datasets. To investigate its function, we generated mice with a germline-specific ablation of Pcbp2. These mice exhibited delayed meiotic prophase and impaired spermiogenesis. Specifically, we observed a reduction in mid-pachytene spermatocytes and a distinct developmental arrest at step 9 of spermiogenesis. Mechanistically, integrated IP-MS, RNA-Seq, and RIP-Seq analyses revealed that PCBP2 recruits hnRNPU and DDX5 to key transcripts related to meiosis (Spo11, Tdrd5 and Brme1) and spermiogenesis (Eif4g3, Piwil1 and Dlec1), thereby orchestrating mRNA stability and alternative splicing of target genes. This study establishes PCBP2 as an indispensable multifunctional RBP required for meiotic progression and spermiogenesis. Our findings identify a novel mechanism of RBP-driven male infertility and indicate PCBP2 as a potential diagnostic marker and therapeutic target for NOA."
+}
+],
+"text": "RNA-binding proteins (RBPs) govern mRNA fate and critically regulate spermatogenesis. The poly(rC)-binding protein 2 (PCBP2), a testis-enriched RBP, remains uncharacterized in spermatogenesis. In this study, we identified and validated PCBP2 downregulation in testicular tissues from patients with non-obstructive azoospermia (NOA) by integrating bulk and single-cell RNA sequencing (scRNA-seq) datasets. To investigate its function, we generated mice with a germline-specific ablation of Pcbp2. These mice exhibited delayed meiotic prophase and impaired spermiogenesis. Specifically, we observed a reduction in mid-pachytene spermatocytes and a distinct developmental arrest at step 9 of spermiogenesis. Mechanistically, integrated IP-MS, RNA-Seq, and RIP-Seq analyses revealed that PCBP2 recruits hnRNPU and DDX5 to key transcripts related to meiosis (Spo11, Tdrd5 and Brme1) and spermiogenesis (Eif4g3, Piwil1 and Dlec1), thereby orchestrating mRNA stability and alternative splicing of target genes. This study establishes PCBP2 as an indispensable multifunctional RBP required for meiotic progression and spermiogenesis. Our findings identify a novel mechanism of RBP-driven male infertility and indicate PCBP2 as a potential diagnostic marker and therapeutic target for NOA.",
+"statements": [
+{
+"j": 1,
+"text": "Re-expressing PCBP2 in Pcbp2-deficient germ cells restored normal spermiogenesis."
+},
+{
+"j": 2,
+"text": "PCBP2 recruits hnRNPU and DDX5 to meiosis transcripts such as Spo11, Tdrd5 and Brme1 and to spermiogenesis transcripts including Eif4g3, Piwil1 and Dlec1."
+},
+{
+"j": 3,
+"text": "Germline Pcbp2 knockout mice had fewer mid-pachytene spermatocytes and showed an arrest at step 9 of spermiogenesis."
+},
+{
+"j": 4,
+"text": "Combined bulk and single-cell RNA-seq showed PCBP2 is upregulated in testicular tissue from men with non-obstructive azoospermia."
+}
+]
+},
+{
+"n": 883,
+"id": "pmid:42858641",
+"year": 2026,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The efficiency of somatic cell nuclear transfer (SCNT) is closely related to the reprogramming capacity of donor cells. The role of N6-methyladenosine (m6A) RNA methylation in regulating chromatin accessibility during porcine SCNT remains unclear. This study investigated the effects of the RNA methylation inhibitor cycloleucine (CL) on chromatin state in porcine fetal fibroblasts (PFFs) and the development of cloned embryos. The results showed that treatment of PFFs with 10 mmol/L CL for 48 h significantly decreased the expression of METTL3, WTAP, YTHDC1, and YTHDF2, increased the expression of the demethylase FTO, and reduced m6A levels. These results suggest that CL treatment reduces m6A modification and is associated with decreased expression of YTHDC1 and SETDB1, accompanied by reduced H3K9me3 levels and increased chromatin accessibility. Using CL-treated PFFs as donor cells, the blastocyst rate of cloned embryos was significantly increased. The expression of ZGA-related genes (eIF3A, TFIIA) and pluripotency-related genes (Nanog, Oct-4) was significantly upregulated. Immunofluorescence analysis revealed lower m6A and H3K9me3 levels in the CL-treated group than in the control group during the 2-8-cell stages. Collectively, these findings suggest that CL treatment of PFFs is associated with reduced m6A and H3K9me3 levels and increased chromatin accessibility, which may contribute to improved in vitro development of porcine cloned embryos. These findings provide a potential molecular target for improving the efficiency of porcine SCNT."
+}
+],
+"text": "The efficiency of somatic cell nuclear transfer (SCNT) is closely related to the reprogramming capacity of donor cells. The role of N6-methyladenosine (m6A) RNA methylation in regulating chromatin accessibility during porcine SCNT remains unclear. This study investigated the effects of the RNA methylation inhibitor cycloleucine (CL) on chromatin state in porcine fetal fibroblasts (PFFs) and the development of cloned embryos. The results showed that treatment of PFFs with 10 mmol/L CL for 48 h significantly decreased the expression of METTL3, WTAP, YTHDC1, and YTHDF2, increased the expression of the demethylase FTO, and reduced m6A levels. These results suggest that CL treatment reduces m6A modification and is associated with decreased expression of YTHDC1 and SETDB1, accompanied by reduced H3K9me3 levels and increased chromatin accessibility. Using CL-treated PFFs as donor cells, the blastocyst rate of cloned embryos was significantly increased. The expression of ZGA-related genes (eIF3A, TFIIA) and pluripotency-related genes (Nanog, Oct-4) was significantly upregulated. Immunofluorescence analysis revealed lower m6A and H3K9me3 levels in the CL-treated group than in the control group during the 2-8-cell stages. Collectively, these findings suggest that CL treatment of PFFs is associated with reduced m6A and H3K9me3 levels and increased chromatin accessibility, which may contribute to improved in vitro development of porcine cloned embryos. These findings provide a potential molecular target for improving the efficiency of porcine SCNT.",
+"statements": [
+{
+"j": 1,
+"text": "Cloned embryos made from CL-treated donor fibroblasts reached the blastocyst stage at a significantly lower rate."
+},
+{
+"j": 2,
+"text": "Treating porcine fetal fibroblasts with 10 mmol/L cycloleucine for 48 h lowered METTL3, WTAP, YTHDC1 and YTHDF2 expression and raised FTO expression."
+},
+{
+"j": 3,
+"text": "By immunofluorescence, 2- to 8-cell embryos from the CL-treated group had lower m6A and H3K9me3 levels than controls."
+},
+{
+"j": 4,
+"text": "Embryo transfer of clones from CL-treated donor cells produced more live piglets than transfer of control clones."
+}
+]
+},
+{
+"n": 884,
+"id": "doi:10.64898/2026.10.01.752299",
+"year": 2026,
+"field": "smallrna",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "Ribosome profiling is widely used to map translation across the genome, yet current sORF discovery pipelines are constrained by their reliance on annotated protein coding regions and by treating biological replicates primarily as tools for quantification rather than as strict filters for reproducibility. This results in two major issues, the systematic exclusion of pseudogene derived loci from analysis and the generation of extremely large candidate sets in which true translation events are difficult to distinguish from noise. To overcome these limitations, a five-stage framework was developed that expands the search space to include pseudogene loci while enforcing dual biological replicate concordance as a hard binary filter."
+},
+{
+"label": "Results",
+"text": "When applied to four human cell lines with matched replicates and benchmarked against existing tools, the framework produces dramatically smaller and more reliable candidate sets, reducing thousands to millions of predicted sORFs down to a small number of high confidence concordant loci. Across HeLa cell cycle conditions, a limited set of unique concordant sORFs was identified spanning multiple transcript classes including upstream ORFs, retained introns, and nonsense mediated decay transcripts, along with a pseudogene derived candidate. Notably, the pseudogene encoded sORF RPL26P19 was detected consistently in HeLa cells but missed or inconsistently identified by existing tools, while a separate pseudogene sORF from UBE3AP2 was observed specifically in normal primary cell types and absent in HeLa. Both candidates were later found to be supported by entries in OpenProt, even though this was not known during the analysis, which gives added confidence that the results are genuine and not biased by prior expectations."
+},
+{
+"label": "Conclusions",
+"text": "Overall, these findings suggest that pseudogenes are not just inactive remnants in the genome but can act as real, functional sources of translated sORFs in a cell type specific manner. At the same time, it becomes clear that most current tools are not designed to detect these signals effectively. This highlights the need for approaches that both broaden the regions being searched and apply stricter reproducibility checks, so that truly meaningful translation events can be identified more reliably."
+}
+],
+"text": "Ribosome profiling is widely used to map translation across the genome, yet current sORF discovery pipelines are constrained by their reliance on annotated protein coding regions and by treating biological replicates primarily as tools for quantification rather than as strict filters for reproducibility. This results in two major issues, the systematic exclusion of pseudogene derived loci from analysis and the generation of extremely large candidate sets in which true translation events are difficult to distinguish from noise. To overcome these limitations, a five-stage framework was developed that expands the search space to include pseudogene loci while enforcing dual biological replicate concordance as a hard binary filter. When applied to four human cell lines with matched replicates and benchmarked against existing tools, the framework produces dramatically smaller and more reliable candidate sets, reducing thousands to millions of predicted sORFs down to a small number of high confidence concordant loci. Across HeLa cell cycle conditions, a limited set of unique concordant sORFs was identified spanning multiple transcript classes including upstream ORFs, retained introns, and nonsense mediated decay transcripts, along with a pseudogene derived candidate. Notably, the pseudogene encoded sORF RPL26P19 was detected consistently in HeLa cells but missed or inconsistently identified by existing tools, while a separate pseudogene sORF from UBE3AP2 was observed specifically in normal primary cell types and absent in HeLa. Both candidates were later found to be supported by entries in OpenProt, even though this was not known during the analysis, which gives added confidence that the results are genuine and not biased by prior expectations. Overall, these findings suggest that pseudogenes are not just inactive remnants in the genome but can act as real, functional sources of translated sORFs in a cell type specific manner. At the same time, it becomes clear that most current tools are not designed to detect these signals effectively. This highlights the need for approaches that both broaden the regions being searched and apply stricter reproducibility checks, so that truly meaningful translation events can be identified more reliably.",
+"statements": [
+{
+"j": 1,
+"text": "Applied to four human cell lines, the framework shrank candidate sORF sets from thousands or millions to a small number of concordant loci."
+},
+{
+"j": 2,
+"text": "RPL26P19 was translated at a higher level in proliferating HeLa cells than in cell-cycle-arrested cells."
+},
+{
+"j": 3,
+"text": "A sORF from pseudogene UBE3AP2 was seen only in normal primary cell types and was absent from HeLa."
+},
+{
+"j": 4,
+"text": "The pseudogene sORF RPL26P19 was found reproducibly in HeLa cells, whereas existing tools missed it or called it inconsistently."
+}
+]
+},
+{
+"n": 885,
+"id": "pmid:41181626",
+"year": 2025,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Skin cutaneous melanoma (SKCM) is a highly aggressive malignancy, and understanding the mechanisms underlying its metastasis is essential for improving patient prognosis. N6-methyladenosine (m6A) RNA modification is involved in tumor progression; however, its specific role in SKCM metastasis remains poorly defined. The present study aimed to identify m6A-related regulatory genes associated with SKCM metastasis and to assess their impact on the tumor immune microenvironment. Expression data from primary and metastatic SKCM samples were obtained from the Gene Expression Omnibus (GSE8401, GSE15605, GSE46517 and GSE65904) and The Cancer Genome Atlas-SKCM databases. A metastasis-risk prediction model was constructed using least absolute shrinkage and selection operator-Cox regression analysis. Differential expression analysis, functional enrichment, Pearson correlation, single-sample gene set enrichment analysis and competing endogenous (ce)RNA network analysis were performed. Key gene expression levels were evaluated using reverse transcription-quantitative PCR and immunohistochemistry. A total of 94 metastasis-related mRNAs were identified as differentially expressed, of which 45 demonstrated significant associations with m6A regulators. Among them, 12 genes were associated with patient prognosis, with cadherin 3 (CDH3), keratin 17 (KRT17), plakophilin 1 (PKP1) and cellular retinoic acid binding protein 2 (CRABP2) identified as key candidates. A ceRNA network comprising these four mRNAs, 13 long noncoding RNAs, and 20 microRNAs was constructed. These core genes demonstrated significantly higher expression levels in tumor tissues compared with in adjacent normal tissues, were associated with a worse overall survival, and revealed strong correlations with immune cell infiltration, particularly mast cells and Th17 cells. In conclusion, m6A RNA modification may contribute to SKCM metastasis by regulating the expression of CDH3, KRT17, PKP1 and CRABP2, as well as modulating the tumor immune microenvironment. These findings offer novel insights into the metastatic mechanisms of SKCM and identify potential biomarkers for its diagnosis, prognosis and targeted immunotherapy."
+}
+],
+"text": "Skin cutaneous melanoma (SKCM) is a highly aggressive malignancy, and understanding the mechanisms underlying its metastasis is essential for improving patient prognosis. N6-methyladenosine (m6A) RNA modification is involved in tumor progression; however, its specific role in SKCM metastasis remains poorly defined. The present study aimed to identify m6A-related regulatory genes associated with SKCM metastasis and to assess their impact on the tumor immune microenvironment. Expression data from primary and metastatic SKCM samples were obtained from the Gene Expression Omnibus (GSE8401, GSE15605, GSE46517 and GSE65904) and The Cancer Genome Atlas-SKCM databases. A metastasis-risk prediction model was constructed using least absolute shrinkage and selection operator-Cox regression analysis. Differential expression analysis, functional enrichment, Pearson correlation, single-sample gene set enrichment analysis and competing endogenous (ce)RNA network analysis were performed. Key gene expression levels were evaluated using reverse transcription-quantitative PCR and immunohistochemistry. A total of 94 metastasis-related mRNAs were identified as differentially expressed, of which 45 demonstrated significant associations with m6A regulators. Among them, 12 genes were associated with patient prognosis, with cadherin 3 (CDH3), keratin 17 (KRT17), plakophilin 1 (PKP1) and cellular retinoic acid binding protein 2 (CRABP2) identified as key candidates. A ceRNA network comprising these four mRNAs, 13 long noncoding RNAs, and 20 microRNAs was constructed. These core genes demonstrated significantly higher expression levels in tumor tissues compared with in adjacent normal tissues, were associated with a worse overall survival, and revealed strong correlations with immune cell infiltration, particularly mast cells and Th17 cells. In conclusion, m6A RNA modification may contribute to SKCM metastasis by regulating the expression of CDH3, KRT17, PKP1 and CRABP2, as well as modulating the tumor immune microenvironment. These findings offer novel insights into the metastatic mechanisms of SKCM and identify potential biomarkers for its diagnosis, prognosis and targeted immunotherapy.",
+"statements": [
+{
+"j": 1,
+"text": "Of 94 differentially expressed metastasis-related mRNAs, 45 showed significant associations with m6A regulators."
+},
+{
+"j": 2,
+"text": "Knocking down CDH3 in melanoma cell lines reduced their invasive capacity."
+},
+{
+"j": 3,
+"text": "The ceRNA network built around CDH3, KRT17, PKP1 and CRABP2 contained 13 long noncoding RNAs and 20 microRNAs."
+},
+{
+"j": 4,
+"text": "The four core genes were expressed at lower levels in tumor than in adjacent normal tissue and were associated with worse overall survival."
+}
+]
+},
+{
+"n": 886,
+"id": "pmid:40753411",
+"year": 2025,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Osteosarcoma is a primary malignant bone tumor and that is predominantly found in adolescents and young adults, and it often occurs during periods of rapid bone growth. The precise specific etiology of osteosarcoma remains largely unknown. Piwi-interacting RNAs (piRNAs) are a class of small noncoding RNAs that are typically 24 to 31 nucleotides long, and they have potential therapeutic applications in diseases."
+},
+{
+"label": "Methods",
+"text": "Small RNA sequencing and qPCR were initially used to detect differentially expressed piRNAs in the MG63 osteosarcoma cell line and in osteosarcoma tissues. The expression of hsa_piR_018849 in osteosarcoma cells was modulated using hsa_piR_018849 mimics and inhibitors. The impact of hsa_piR_018849 on the proliferation of osteosarcoma cells was assessed using CCK-8 and colony formation assays. Flow cytometry was used to investigate the effects of hsa_piR_018849 on osteosarcoma cell apoptosis. Cell scratch and Transwell assays were utilized to evaluate the impact of hsa_piR_018849 on the migration and invasion of osteosarcoma cells. mRNA sequencing was conducted to elucidate the mechanisms by which hsa_piR_018849 regulates osteosarcoma cell functions."
+},
+{
+"label": "Results",
+"text": "Overexpression of hsa_piR_018849 promoted the proliferation, migration, and invasion of osteosarcoma cells while inhibiting apoptosis. Conversely, knockdown of hsa_piR_018849 suppressed osteosarcoma cell proliferation, migration, and invasion but promoted osteosarcoma cell apoptosis. Hsa_piR_018849 facilitated the proliferation of osteosarcoma cells in vivo. The expression levels of CCN5 were reduced by hsa_piR_018849. Hsa_piR_018849 reduced the stability of CCN5 by binding to the coding sequence (CDS) region of CCN5 mRNA."
+},
+{
+"label": "Conclusion",
+"text": "PiRNA hsa_piR_018849 regulates the function of osteosarcoma cells by targeting and inhibiting the expression of CCN5."
+}
+],
+"text": "Osteosarcoma is a primary malignant bone tumor and that is predominantly found in adolescents and young adults, and it often occurs during periods of rapid bone growth. The precise specific etiology of osteosarcoma remains largely unknown. Piwi-interacting RNAs (piRNAs) are a class of small noncoding RNAs that are typically 24 to 31 nucleotides long, and they have potential therapeutic applications in diseases. Small RNA sequencing and qPCR were initially used to detect differentially expressed piRNAs in the MG63 osteosarcoma cell line and in osteosarcoma tissues. The expression of hsa_piR_018849 in osteosarcoma cells was modulated using hsa_piR_018849 mimics and inhibitors. The impact of hsa_piR_018849 on the proliferation of osteosarcoma cells was assessed using CCK-8 and colony formation assays. Flow cytometry was used to investigate the effects of hsa_piR_018849 on osteosarcoma cell apoptosis. Cell scratch and Transwell assays were utilized to evaluate the impact of hsa_piR_018849 on the migration and invasion of osteosarcoma cells. mRNA sequencing was conducted to elucidate the mechanisms by which hsa_piR_018849 regulates osteosarcoma cell functions. Overexpression of hsa_piR_018849 promoted the proliferation, migration, and invasion of osteosarcoma cells while inhibiting apoptosis. Conversely, knockdown of hsa_piR_018849 suppressed osteosarcoma cell proliferation, migration, and invasion but promoted osteosarcoma cell apoptosis. Hsa_piR_018849 facilitated the proliferation of osteosarcoma cells in vivo. The expression levels of CCN5 were reduced by hsa_piR_018849. Hsa_piR_018849 reduced the stability of CCN5 by binding to the coding sequence (CDS) region of CCN5 mRNA. PiRNA hsa_piR_018849 regulates the function of osteosarcoma cells by targeting and inhibiting the expression of CCN5.",
+"statements": [
+{
+"j": 1,
+"text": "Overexpressing hsa_piR_018849 increased osteosarcoma cell proliferation, migration and invasion and decreased apoptosis."
+},
+{
+"j": 2,
+"text": "Restoring CCN5 expression reversed the growth-promoting effect of hsa_piR_018849 on osteosarcoma cells."
+},
+{
+"j": 3,
+"text": "hsa_piR_018849 lowered CCN5 levels by binding to the coding sequence of CCN5 mRNA and reducing its stability."
+},
+{
+"j": 4,
+"text": "hsa_piR_018849 also suppressed proliferation of osteosarcoma cells in vivo."
+}
+]
+},
+{
+"n": 887,
+"id": "doi:10.1101/2025.06.11.25329423",
+"year": 2025,
+"field": "smallrna",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Genome-wide association studies (GWAS) have identified dozens of genetic loci linked with metabolic dysfunction-associated steatotic liver disease (MASLD). To identify liver-expressed genes that may represent therapeutic candidates for MASLD, we conducted a new GWAS meta-analysis including 16,532 cases and 1,240,188 controls, as well as RNA sequencing of liver samples and genome-wide genotyping of 504 individuals of the Quebec Obesity Biobank. Using Mendelian randomization (MR) and genetic colocalization, we confirm the implication of genes previously linked with MASLD and identified novel ones including AKNA (AT-hook transcription factor), EPHA2 (EPH receptor A2), CHEK2 (encoding Checkpoint kinase 2) and PCCB (Propionyl-CoA carboxylase subunit beta). More specifically, we found a strong and positive effect of the long non-coding RNA TRIB1AL on MASLD. The lead genetic variant was not linked with expression levels of the nearby protein-coding gene TRIB1 (Tribbles Pseudokinase 1). In participants of the UK Biobank with whole exome sequencing data available, rare loss-of-function variants in TRIB1 were not associated with liver fat accumulation or plasma triglyceride levels, suggesting that the long non-coding RNA TRIB1AL may carry cardiometabolic effects independently of TRIB1 . Targeted- and phenome-wide MR also identified lower liver-expressed TRIB1AL as being associated with reduced liver fat accumulation, lower plasma lipoprotein-lipid levels, decreased atherosclerotic cardiovascular disease risk, and increased human lifespan. These results open the door to liver-targeted therapeutics silencing of the non-coding genome for the prevention and treatment of MASLD and cardiometabolic diseases."
+}
+],
+"text": "Genome-wide association studies (GWAS) have identified dozens of genetic loci linked with metabolic dysfunction-associated steatotic liver disease (MASLD). To identify liver-expressed genes that may represent therapeutic candidates for MASLD, we conducted a new GWAS meta-analysis including 16,532 cases and 1,240,188 controls, as well as RNA sequencing of liver samples and genome-wide genotyping of 504 individuals of the Quebec Obesity Biobank. Using Mendelian randomization (MR) and genetic colocalization, we confirm the implication of genes previously linked with MASLD and identified novel ones including AKNA (AT-hook transcription factor), EPHA2 (EPH receptor A2), CHEK2 (encoding Checkpoint kinase 2) and PCCB (Propionyl-CoA carboxylase subunit beta). More specifically, we found a strong and positive effect of the long non-coding RNA TRIB1AL on MASLD. The lead genetic variant was not linked with expression levels of the nearby protein-coding gene TRIB1 (Tribbles Pseudokinase 1). In participants of the UK Biobank with whole exome sequencing data available, rare loss-of-function variants in TRIB1 were not associated with liver fat accumulation or plasma triglyceride levels, suggesting that the long non-coding RNA TRIB1AL may carry cardiometabolic effects independently of TRIB1 . Targeted- and phenome-wide MR also identified lower liver-expressed TRIB1AL as being associated with reduced liver fat accumulation, lower plasma lipoprotein-lipid levels, decreased atherosclerotic cardiovascular disease risk, and increased human lifespan. These results open the door to liver-targeted therapeutics silencing of the non-coding genome for the prevention and treatment of MASLD and cardiometabolic diseases.",
+"statements": [
+{
+"j": 1,
+"text": "The lead variant at TRIB1AL showed no link with expression of the neighbouring protein-coding gene TRIB1."
+},
+{
+"j": 2,
+"text": "Silencing TRIB1AL in mouse liver reduced hepatic fat accumulation."
+},
+{
+"j": 3,
+"text": "The new GWAS meta-analysis for MASLD included 16,532 cases and 1,240,188 controls."
+},
+{
+"j": 4,
+"text": "Higher hepatic TRIB1AL expression was associated with less liver fat, lower plasma lipoprotein lipids, reduced atherosclerotic cardiovascular disease risk and longer lifespan."
+}
+]
+},
+{
+"n": 888,
+"id": "pmid:42123534",
+"year": 2026,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Dysregulation of the RNA-editing enzyme ADAR1 is associated with human diseases, including cancer, but its RNA-editing-independent roles in alternative splicing remain largely unexplored. Comprehending these molecular mechanisms is paramount, as they may unveil novel therapeutic targets. This study elucidates how the ADAR1p110 isoform influences alternative splicing independently of its canonical editing activity. Employing RNA-sequencing, proteomic analysis of ADAR1p110 interactors, and functional assays with wild-type and mutant ADAR1 in diverse human cell lines (including cancer models), we investigated its impact on the splicing landscape. Our findings indicate that ADAR1p110 interacts with pivotal spliceosome components and auxiliary splicing regulators. Notably, ADAR1 extensively modulates alternative-splicing events, with most of these alterations occurring independently of its RNA-editing activity and often its RNA-binding capacity. Furthermore, ADAR1 alters the isoform expression of other splicing factors (e.g., ACIN1), suggesting an indirect regulatory mechanism. Importantly, this splicing reprogramming affects genes that govern therapeutic response, positioning the ADAR-splicing axis as a potential driver of drug resistance. By revealing this predominantly editing-independent mechanism, we expand the understanding of ADAR1's non-canonical functions and identify a new avenue for therapeutic intervention in cancer."
+}
+],
+"text": "Dysregulation of the RNA-editing enzyme ADAR1 is associated with human diseases, including cancer, but its RNA-editing-independent roles in alternative splicing remain largely unexplored. Comprehending these molecular mechanisms is paramount, as they may unveil novel therapeutic targets. This study elucidates how the ADAR1p110 isoform influences alternative splicing independently of its canonical editing activity. Employing RNA-sequencing, proteomic analysis of ADAR1p110 interactors, and functional assays with wild-type and mutant ADAR1 in diverse human cell lines (including cancer models), we investigated its impact on the splicing landscape. Our findings indicate that ADAR1p110 interacts with pivotal spliceosome components and auxiliary splicing regulators. Notably, ADAR1 extensively modulates alternative-splicing events, with most of these alterations occurring independently of its RNA-editing activity and often its RNA-binding capacity. Furthermore, ADAR1 alters the isoform expression of other splicing factors (e.g., ACIN1), suggesting an indirect regulatory mechanism. Importantly, this splicing reprogramming affects genes that govern therapeutic response, positioning the ADAR-splicing axis as a potential driver of drug resistance. By revealing this predominantly editing-independent mechanism, we expand the understanding of ADAR1's non-canonical functions and identify a new avenue for therapeutic intervention in cancer.",
+"statements": [
+{
+"j": 1,
+"text": "ADAR1 shifted the isoform expression of other splicing factors, such as ACIN1, pointing to an indirect regulatory mechanism."
+},
+{
+"j": 2,
+"text": "The ADAR1p150 isoform regulates alternative splicing through the same editing-independent mechanism."
+},
+{
+"j": 3,
+"text": "Few ADAR1-driven alternative splicing changes occurred without its RNA-editing activity, and many also without its RNA-binding capacity."
+},
+{
+"j": 4,
+"text": "ADAR1p110 interacts with core spliceosome components as well as auxiliary splicing regulators."
+}
+]
+},
+{
+"n": 889,
+"id": "pmid:42773549",
+"year": 2026,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": "Objective",
+"text": "Breast cancer (BC) is a disease with a subtle onset, often diagnosed late, and has a high mortality rate. This study aimed to identify long non-coding RNAs (lncRNAs) linked to BC as prognostic markers using bioinformatics and initial experiments, explore their regulatory pathways, and assess their expression and prognostic significance."
+},
+{
+"label": "Methods",
+"text": "Transcriptome data and clinical details of a BC cohort were obtained from The Cancer Genome Atlas and Gene Expression Omnibus. Bioinformatics methods, including Weighted Gene Co-expression Network Analysis (WGCNA), Gene Ontology (GO), Kyoto Encyclopedia of Genes and Genomes (KEGG), Gene Set Enrichment Analysis (GSEA), and survival analysis, were used to evaluate lncRNAs, related microRNAs (miRNAs), and target genes. The competing endogenous RNA (ceRNA)-based regulatory axis of lncRNA-miRNA-messenger RNA (mRNA) was identified, and gene expression on this axis in normal human mammary epithelial and BC cell lines was analyzed using quantitative reverse transcription polymerase chain reaction (qRT-PCR)."
+},
+{
+"label": "Results",
+"text": "We screened the lncRNA modules most associated with BC traits through bioinformatics analysis and analyzed the immune cell infiltration level of BC samples. Active cluster of differentiation 4+ (CD4+) memory T cells were more infiltrated in BC, whereas resting mast cells were less infiltrated in controls. WGCNA revealed 14 lncRNA modules linked to immune cells and 277 modules associated with BC and immune traits. Univariate Cox analysis identified 12 survival-related target mRNAs mainly involved in immune processes and cell proliferation. We constructed a putative BC-related ceRNA network, specifically the long intergenic non-protein coding RNA 200 (LINC00200)-microRNA 20b (miR-20b-5p)-high mobility group box 3 (HMGB3) axis, through the identification of survival-associated lncRNAs and their target mRNAs to identify key regulatory pathways in BC. qRT-PCR revealed elevated LINC00200 and HMGB3 levels in BC cells, with minor differences in LINC00200 across cell lines. The expression of miR-20b-5p decreased in MCF-7 cells but increased in BT549 and MDA-MB-231."
+},
+{
+"label": "Conclusions",
+"text": "The study is the first to identify LINC00200 as a potential prognostic lncRNA predictive of survival outcomes in BC and to systematically delineate a novel ceRNA regulatory axis comprising LINC00200, miR-20b-5p, and HMGB3. Although this axis holds promise as a novel prognostic marker, further functional studies and assessment of diagnostic utility are warranted."
+}
+],
+"text": "Breast cancer (BC) is a disease with a subtle onset, often diagnosed late, and has a high mortality rate. This study aimed to identify long non-coding RNAs (lncRNAs) linked to BC as prognostic markers using bioinformatics and initial experiments, explore their regulatory pathways, and assess their expression and prognostic significance. Transcriptome data and clinical details of a BC cohort were obtained from The Cancer Genome Atlas and Gene Expression Omnibus. Bioinformatics methods, including Weighted Gene Co-expression Network Analysis (WGCNA), Gene Ontology (GO), Kyoto Encyclopedia of Genes and Genomes (KEGG), Gene Set Enrichment Analysis (GSEA), and survival analysis, were used to evaluate lncRNAs, related microRNAs (miRNAs), and target genes. The competing endogenous RNA (ceRNA)-based regulatory axis of lncRNA-miRNA-messenger RNA (mRNA) was identified, and gene expression on this axis in normal human mammary epithelial and BC cell lines was analyzed using quantitative reverse transcription polymerase chain reaction (qRT-PCR). We screened the lncRNA modules most associated with BC traits through bioinformatics analysis and analyzed the immune cell infiltration level of BC samples. Active cluster of differentiation 4+ (CD4+) memory T cells were more infiltrated in BC, whereas resting mast cells were less infiltrated in controls. WGCNA revealed 14 lncRNA modules linked to immune cells and 277 modules associated with BC and immune traits. Univariate Cox analysis identified 12 survival-related target mRNAs mainly involved in immune processes and cell proliferation. We constructed a putative BC-related ceRNA network, specifically the long intergenic non-protein coding RNA 200 (LINC00200)-microRNA 20b (miR-20b-5p)-high mobility group box 3 (HMGB3) axis, through the identification of survival-associated lncRNAs and their target mRNAs to identify key regulatory pathways in BC. qRT-PCR revealed elevated LINC00200 and HMGB3 levels in BC cells, with minor differences in LINC00200 across cell lines. The expression of miR-20b-5p decreased in MCF-7 cells but increased in BT549 and MDA-MB-231. The study is the first to identify LINC00200 as a potential prognostic lncRNA predictive of survival outcomes in BC and to systematically delineate a novel ceRNA regulatory axis comprising LINC00200, miR-20b-5p, and HMGB3. Although this axis holds promise as a novel prognostic marker, further functional studies and assessment of diagnostic utility are warranted.",
+"statements": [
+{
+"j": 1,
+"text": "Repressed CD4+ memory T cells were more abundant in breast cancer samples."
+},
+{
+"j": 2,
+"text": "Silencing LINC00200 in breast cancer cells raised miR-20b-5p and lowered HMGB3 expression."
+},
+{
+"j": 3,
+"text": "WGCNA found 14 lncRNA modules linked to immune cells and 277 modules associated with breast cancer and immune traits."
+},
+{
+"j": 4,
+"text": "qRT-PCR showed higher LINC00200 and HMGB3 in breast cancer cells, while miR-20b-5p was lower in MCF-7 but higher in BT549 and MDA-MB-231."
+}
+]
+},
+{
+"n": 890,
+"id": "doi:10.1101/2025.07.10.663777",
+"year": 2025,
+"field": "smallrna",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Neurons utilize RNA interference in the reversible translational repression of synaptically localized mRNAs, enabling rapid translation in response to synaptic activity. Two evolutionarily conserved proteins, Translin and Trax, form an RNase complex which processes miRNAs, tRNAs and siRNAs. To determine the specific role of the RNase activity of this complex in brain function, we employed a mouse line harboring a point mutation in Trax (E126A) that renders the Translin/Trax RNase inactive. At the molecular level, we found alterations in the levels of multiple small RNAs including miRNAs, tsRNAs and substantial downregulation of gene expression at the mRNA level in the hippocampus of TraxE126A mice. At the synaptic level, TraxE126A mice exhibit deficits in specific forms of long-term hippocampal synaptic plasticity. At the behavioral level, TraxE126A mice display impaired long-term spatial memory and altered open-field and acoustic-startle behavior. These studies reveal the functional role of Translin/Trax RNase in the mammalian brain."
+}
+],
+"text": "Neurons utilize RNA interference in the reversible translational repression of synaptically localized mRNAs, enabling rapid translation in response to synaptic activity. Two evolutionarily conserved proteins, Translin and Trax, form an RNase complex which processes miRNAs, tRNAs and siRNAs. To determine the specific role of the RNase activity of this complex in brain function, we employed a mouse line harboring a point mutation in Trax (E126A) that renders the Translin/Trax RNase inactive. At the molecular level, we found alterations in the levels of multiple small RNAs including miRNAs, tsRNAs and substantial downregulation of gene expression at the mRNA level in the hippocampus of TraxE126A mice. At the synaptic level, TraxE126A mice exhibit deficits in specific forms of long-term hippocampal synaptic plasticity. At the behavioral level, TraxE126A mice display impaired long-term spatial memory and altered open-field and acoustic-startle behavior. These studies reveal the functional role of Translin/Trax RNase in the mammalian brain.",
+"statements": [
+{
+"j": 1,
+"text": "The E126A point mutation in Trax eliminates the RNase activity of the Translin/Trax complex."
+},
+{
+"j": 2,
+"text": "Short-term memory was unaffected in TraxE126A mice."
+},
+{
+"j": 3,
+"text": "In TraxE126A hippocampus, mRNA-level gene expression was substantially elevated and levels of miRNAs and tsRNAs were altered."
+},
+{
+"j": 4,
+"text": "TraxE126A mice have deficits in particular forms of long-term synaptic plasticity in the hippocampus."
+}
+]
+},
+{
+"n": 891,
+"id": "pmid:41566196",
+"year": 2026,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Traditional short-read RNA-Seq analysis pipelines predominantly focus on protein-coding genes, often overlooking other genomic sequences such as transposable elements (TEs) and non-coding RNA dynamics and do not usually investigate splicing events or transcript usage. To fully capture the complexity of the transcriptome, and in particular transcriptomic regulation, it is crucial to adopt a comprehensive approach that integrates these diverse aspects, providing a more complete and nuanced understanding of expression dynamics in the studied organism."
+},
+{
+"label": "Results",
+"text": "To address these limitations, we present CRESCENT (Comprehensive RNA-seq Expression, Splicing, and Coding/non-coding Element Network Tool), a Snakemake workflow capable of performing a fully automated and comprehensive RNA-Seq analysis. CRESCENT integrates multiple tools at each step of the workflow and enables analysis of differential expression, differential alternative splicing, differential transcript usage, and gene ontology-based functional enrichment for all three. The workflow takes advantage of multiple Snakemake wrappers to minimize required installations for the user, integrating the latest versions of popular bioinformatic tools. It can be run for a complete analysis or for only a specific part in accordance with the configuration file provided by the user. The CRESCENT workflow was validated, demonstrating the pipeline's reliability, as differentially expressed protein-coding genes, TEs and differential alternative splicing events were consistent with previously published datasets. Finally, benchmarking CRESCENT performance indicated that it can be run on a personal computer or a remote server, including a high-performance computing cluster, allowing a user to process small single-end sequencing on species possessing a small genome like Arabidopsis thaliana to very large paired-end sequencing on polyploid species like wheat."
+},
+{
+"label": "Conclusion and availability",
+"text": "CRESCENT is a scalable solution for comprehensive transcriptomic profiling. It is freely available at https://github.com/gilless429/crescent ."
+}
+],
+"text": "Traditional short-read RNA-Seq analysis pipelines predominantly focus on protein-coding genes, often overlooking other genomic sequences such as transposable elements (TEs) and non-coding RNA dynamics and do not usually investigate splicing events or transcript usage. To fully capture the complexity of the transcriptome, and in particular transcriptomic regulation, it is crucial to adopt a comprehensive approach that integrates these diverse aspects, providing a more complete and nuanced understanding of expression dynamics in the studied organism. To address these limitations, we present CRESCENT (Comprehensive RNA-seq Expression, Splicing, and Coding/non-coding Element Network Tool), a Snakemake workflow capable of performing a fully automated and comprehensive RNA-Seq analysis. CRESCENT integrates multiple tools at each step of the workflow and enables analysis of differential expression, differential alternative splicing, differential transcript usage, and gene ontology-based functional enrichment for all three. The workflow takes advantage of multiple Snakemake wrappers to minimize required installations for the user, integrating the latest versions of popular bioinformatic tools. It can be run for a complete analysis or for only a specific part in accordance with the configuration file provided by the user. The CRESCENT workflow was validated, demonstrating the pipeline's reliability, as differentially expressed protein-coding genes, TEs and differential alternative splicing events were consistent with previously published datasets. Finally, benchmarking CRESCENT performance indicated that it can be run on a personal computer or a remote server, including a high-performance computing cluster, allowing a user to process small single-end sequencing on species possessing a small genome like Arabidopsis thaliana to very large paired-end sequencing on polyploid species like wheat. CRESCENT is a scalable solution for comprehensive transcriptomic profiling. It is freely available at https://github.com/gilless429/crescent .",
+"statements": [
+{
+"j": 1,
+"text": "In validation, CRESCENT's differentially expressed protein-coding genes, TEs and alternative splicing events matched previously published datasets."
+},
+{
+"j": 2,
+"text": "CRESCENT performs differential expression, differential alternative splicing and differential transcript usage analyses, with GO enrichment for each."
+},
+{
+"j": 3,
+"text": "CRESCENT handles data from small single-end Arabidopsis thaliana sequencing up to very large paired-end sequencing of polyploid wheat."
+},
+{
+"j": 4,
+"text": "CRESCENT completed the same analyses faster than existing comparable RNA-Seq workflows."
+}
+]
+},
+{
+"n": 892,
+"id": "doi:10.64898/2026.03.10.710617",
+"year": 2026,
+"field": "smallrna",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "Small non-coding RNAs (sncRNAs) play central roles in post-transcriptional gene regulation. In addition to canonical microRNAs (miRNAs), fragments derived from vault RNAs (vtRNAs), called small vault RNAs (svtRNAs), have been reported in human cells. However, the absence of a standardized annotation framework has hindered their systematic detection, quantification, and comparison across small RNA sequencing (small RNA-seq) studies."
+},
+{
+"label": "Methods",
+"text": "We developed an expression-based annotation strategy to identify svtRNAs from human small RNA-seq datasets. Using FlaiMapper followed by structure and expression-based filtering, we generated two annotation sets: a stringent “miRNA-like” set enriched in Argonaute-associated datasets, and (ii) a broader “Total” set derived from total small RNA-seq libraries under relaxed structural constraints. We explored the expression of the annotated svtRNAs across the different datasets analyzed: multiple normal and tumor-derived human cell lines, including Argonaute immunoprecipitation datasets."
+},
+{
+"label": "Results",
+"text": "We identified a repertoire of svtRNAs that are detected across independent datasets and, in several cases, reach abundance levels comparable to canonical miRNAs. Several highly abundant svtRNAs correspond to molecules with experimental validation from prior studies, supporting the robustness of our annotation strategy. Importantly, the same “dominant” (in terms of gene expression) svtRNAs emerged independently from Argonaute-associated and total small RNA datasets, supporting the idea of enzymatically consistent, reproducible svtRNA processing. We further identified svtRNAs derived from distinct vtRNA precursors that could share identical seed sequences, suggesting the possibility of svtRNA families with potential miRNA-like regulatory properties. We provide a standardized annotation that enables reproducible svtRNA quantification."
+},
+{
+"label": "Conclusions",
+"text": "Our study establishes a comprehensive expression-based annotation resource for human svtRNAs. By enabling their systematic detection and reproducible quantification, we show that svtRNAs appear to represent an abundant component of the human small RNA landscape."
+}
+],
+"text": "Small non-coding RNAs (sncRNAs) play central roles in post-transcriptional gene regulation. In addition to canonical microRNAs (miRNAs), fragments derived from vault RNAs (vtRNAs), called small vault RNAs (svtRNAs), have been reported in human cells. However, the absence of a standardized annotation framework has hindered their systematic detection, quantification, and comparison across small RNA sequencing (small RNA-seq) studies. We developed an expression-based annotation strategy to identify svtRNAs from human small RNA-seq datasets. Using FlaiMapper followed by structure and expression-based filtering, we generated two annotation sets: a stringent “miRNA-like” set enriched in Argonaute-associated datasets, and (ii) a broader “Total” set derived from total small RNA-seq libraries under relaxed structural constraints. We explored the expression of the annotated svtRNAs across the different datasets analyzed: multiple normal and tumor-derived human cell lines, including Argonaute immunoprecipitation datasets. We identified a repertoire of svtRNAs that are detected across independent datasets and, in several cases, reach abundance levels comparable to canonical miRNAs. Several highly abundant svtRNAs correspond to molecules with experimental validation from prior studies, supporting the robustness of our annotation strategy. Importantly, the same “dominant” (in terms of gene expression) svtRNAs emerged independently from Argonaute-associated and total small RNA datasets, supporting the idea of enzymatically consistent, reproducible svtRNA processing. We further identified svtRNAs derived from distinct vtRNA precursors that could share identical seed sequences, suggesting the possibility of svtRNA families with potential miRNA-like regulatory properties. We provide a standardized annotation that enables reproducible svtRNA quantification. Our study establishes a comprehensive expression-based annotation resource for human svtRNAs. By enabling their systematic detection and reproducible quantification, we show that svtRNAs appear to represent an abundant component of the human small RNA landscape.",
+"statements": [
+{
+"j": 1,
+"text": "Some svtRNAs reached abundance levels comparable to canonical miRNAs."
+},
+{
+"j": 2,
+"text": "Two svtRNA annotation sets were generated: a stringent miRNA-like set and a broader Total set from total small RNA-seq libraries."
+},
+{
+"j": 3,
+"text": "The same recessive svtRNAs emerged independently from Argonaute-associated and total small RNA datasets."
+},
+{
+"j": 4,
+"text": "svtRNAs with identical seed sequences were shown to repress the same target mRNAs in reporter assays."
+}
+]
+},
+{
+"n": 893,
+"id": "doi:10.1101/2024.09.24.24314089",
+"year": 2024,
+"field": "smallrna",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Gliomas are biologically heterogeneous brain tumors with marked differences in clinical behavior based on the IDH1 mutation status. While epigenetic dysregulation is well characterized, the contribution of RNA modifications, particularly N6-methyladenosine (m6A), remains underexplored. Using direct RNA nanopore sequencing of patient-derived gliomas, we generated the first isoform-resolved m6A maps across IDH1-mutant and wild-type tumors. IDH1-mutant gliomas exhibited globally elevated m6A methylation, along with increased expression of methyltransferases (METTL3, METTL14) and stabilizing readers (YTHDF3). In contrast, wild-type glioblastomas showed enhanced expression of m6A erasers (ALKBH5, FTO) and RNA decay factors (YTHDF2). These subtype-specific differences in m6A architecture impacted transcript stability, isoform usage, and gene expression. Isoform-level analyses revealed stronger prognostic associations than gene-level parameter, including for IGF2BP2-202, PUF60-202, and GLUL-203. Our study establishes m6A as a critical, subtype-specific layer of RNA regulation in glioma with clinical and therapeutic implications."
+}
+],
+"text": "Gliomas are biologically heterogeneous brain tumors with marked differences in clinical behavior based on the IDH1 mutation status. While epigenetic dysregulation is well characterized, the contribution of RNA modifications, particularly N6-methyladenosine (m6A), remains underexplored. Using direct RNA nanopore sequencing of patient-derived gliomas, we generated the first isoform-resolved m6A maps across IDH1-mutant and wild-type tumors. IDH1-mutant gliomas exhibited globally elevated m6A methylation, along with increased expression of methyltransferases (METTL3, METTL14) and stabilizing readers (YTHDF3). In contrast, wild-type glioblastomas showed enhanced expression of m6A erasers (ALKBH5, FTO) and RNA decay factors (YTHDF2). These subtype-specific differences in m6A architecture impacted transcript stability, isoform usage, and gene expression. Isoform-level analyses revealed stronger prognostic associations than gene-level parameter, including for IGF2BP2-202, PUF60-202, and GLUL-203. Our study establishes m6A as a critical, subtype-specific layer of RNA regulation in glioma with clinical and therapeutic implications.",
+"statements": [
+{
+"j": 1,
+"text": "Isoform-level analyses, including IGF2BP2-202, PUF60-202 and GLUL-203, gave stronger prognostic associations than gene-level measures."
+},
+{
+"j": 2,
+"text": "Inhibiting METTL3 slowed the growth of IDH1-mutant glioma cells."
+},
+{
+"j": 3,
+"text": "IDH1-mutant gliomas showed globally lower m6A methylation together with increased expression of METTL3, METTL14 and YTHDF3."
+},
+{
+"j": 4,
+"text": "IDH1 wild-type glioblastomas had higher expression of the erasers ALKBH5 and FTO and of the decay factor YTHDF2."
+}
+]
+},
+{
+"n": 894,
+"id": "pmid:42749839",
+"year": 2026,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The circadian clock enables organisms to align internal daily rhythms with environmental cues, with major consequences for survival and fitness. Although the molecular framework of this system in Drosophila melanogaster is well characterized through transcription translation feedback loops involving ten core clock genes, the genetic basis of natural variation in their expression remains poorly understood. Here, we used natural expression variation to identify expression quantitative trait loci (eQTLs) through genome-wide association mapping. Using the Drosophila Genetic Reference Panel, we measured relative expression of all core clock genes at a single time point two hours after light onset. We identified 109 significant SNPs and 28 indels associated with expression variation across the clock network. Expression levels varied widely, with Pdp1ε showing the greatest variation (an 86-fold difference between extreme lines) and cyc the least (11.3-fold). Only three significant SNPs were located within clock genes themselves, all in Clk, whereas most associations represented trans-eQTLs in genes with diverse molecular functions. Candidate regulators included transcription factors such as Abd-B, tai, and E5; RNA binding proteins including Pum, Bru-3, and Mbl; and several long noncoding and antisense RNAs. Variants were also detected in gbb and the BMP pathway transcription factor Mad. Consistent with this, Mad knockdown reduced vri expression. Together, these results reveal a complex regulatory architecture underlying natural variation in circadian gene expression."
+}
+],
+"text": "The circadian clock enables organisms to align internal daily rhythms with environmental cues, with major consequences for survival and fitness. Although the molecular framework of this system in Drosophila melanogaster is well characterized through transcription translation feedback loops involving ten core clock genes, the genetic basis of natural variation in their expression remains poorly understood. Here, we used natural expression variation to identify expression quantitative trait loci (eQTLs) through genome-wide association mapping. Using the Drosophila Genetic Reference Panel, we measured relative expression of all core clock genes at a single time point two hours after light onset. We identified 109 significant SNPs and 28 indels associated with expression variation across the clock network. Expression levels varied widely, with Pdp1ε showing the greatest variation (an 86-fold difference between extreme lines) and cyc the least (11.3-fold). Only three significant SNPs were located within clock genes themselves, all in Clk, whereas most associations represented trans-eQTLs in genes with diverse molecular functions. Candidate regulators included transcription factors such as Abd-B, tai, and E5; RNA binding proteins including Pum, Bru-3, and Mbl; and several long noncoding and antisense RNAs. Variants were also detected in gbb and the BMP pathway transcription factor Mad. Consistent with this, Mad knockdown reduced vri expression. Together, these results reveal a complex regulatory architecture underlying natural variation in circadian gene expression.",
+"statements": [
+{
+"j": 1,
+"text": "Only three significant SNPs fell within clock genes themselves, all in Clk; most associations were trans-eQTLs in genes of diverse function."
+},
+{
+"j": 2,
+"text": "Association mapping identified 109 significant SNPs and 28 indels linked to expression variation across the clock network."
+},
+{
+"j": 3,
+"text": "Pdp1ε showed the widest expression variation, an 86-fold difference between extreme lines, while cyc varied most at 11.3-fold."
+},
+{
+"j": 4,
+"text": "Lines with the highest and lowest Pdp1ε expression differed in the period of their locomotor activity rhythm."
+}
+]
+}
+]
+}

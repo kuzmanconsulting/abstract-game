@@ -1,0 +1,495 @@
+{
+"batch": "check_C_36",
+"pass": "C",
+"source_batch": "gen_36",
+"items": [
+{
+"n": 925,
+"id": "pmid:38843831",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Experimental studies on DNA transposable elements (TEs) have been limited in scale, leading to a lack of understanding of the factors influencing transposition activity, evolutionary dynamics, and application potential as genome engineering tools. We predicted 130 active DNA TEs from 102 metazoan genomes and evaluated their activity in human cells. We identified 40 active (integration-competent) TEs, surpassing the cumulative number (20) of TEs found previously. With this unified comparative data, we found that the Tc1/mariner superfamily exhibits elevated activity, potentially explaining their pervasive horizontal transfers. Further functional characterization of TEs revealed additional divergence in features such as insertion bias. Remarkably, in CAR-T therapy for hematological and solid tumors, Mariner2_AG (MAG), the most active DNA TE identified, largely outperformed two widely used vectors, the lentiviral vector and the TE-based vector SB100X. Overall, this study highlights the varied transposition features and evolutionary dynamics of DNA TEs and increases the TE toolbox diversity."
+}
+],
+"text": "Experimental studies on DNA transposable elements (TEs) have been limited in scale, leading to a lack of understanding of the factors influencing transposition activity, evolutionary dynamics, and application potential as genome engineering tools. We predicted 130 active DNA TEs from 102 metazoan genomes and evaluated their activity in human cells. We identified 40 active (integration-competent) TEs, surpassing the cumulative number (20) of TEs found previously. With this unified comparative data, we found that the Tc1/mariner superfamily exhibits elevated activity, potentially explaining their pervasive horizontal transfers. Further functional characterization of TEs revealed additional divergence in features such as insertion bias. Remarkably, in CAR-T therapy for hematological and solid tumors, Mariner2_AG (MAG), the most active DNA TE identified, largely outperformed two widely used vectors, the lentiviral vector and the TE-based vector SB100X. Overall, this study highlights the varied transposition features and evolutionary dynamics of DNA TEs and increases the TE toolbox diversity.",
+"statements": [
+{
+"j": 1,
+"text": "Testing in human cells yielded 40 integration-competent DNA transposable elements, twice the number of such elements reported in all later work combined."
+},
+{
+"j": 2,
+"text": "For CAR-T therapy against blood and solid tumours, Mariner2_AG worked better than both the lentiviral vector and the transposon vector SB100X."
+},
+{
+"j": 3,
+"text": "Mariner2_AG inserts into cancer-driver genes less often than the lentiviral vector does."
+},
+{
+"j": 4,
+"text": "Elements of the Tc1/mariner superfamily were more active than other elements in the comparative dataset."
+}
+]
+},
+{
+"n": 926,
+"id": "pmid:37792944",
+"year": 2023,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The clinical potential of miRNA-based liquid biopsy has been largely limited by the heterogeneous sources in plasma and tedious assay processes. Here, we develop a precise and robust one-pot assay called dual-surface-protein-guided orthogonal recognition of tumor-derived exosomes and in situ profiling of microRNAs (SORTER) to detect tumor-derived exosomal miRNAs and enhance the diagnostic accuracy of prostate cancer (PCa). The SORTER uses two allosteric aptamers against exosomal marker CD63 and tumor marker EpCAM to create an orthogonal labeling barcode and achieve selective sorting of tumor-specific exosome subtypes. Furthermore, the labeled barcode on tumor-derived exosomes initiated targeted membrane fusion with liposome probes to import miRNA detection reagents, enabling in situ sensitive profiling of tumor-derived exosomal miRNAs. With a signature of six miRNAs, SORTER differentiated PCa and benign prostatic hyperplasia with an accuracy of 100%. Notably, the diagnostic accuracy reached 90.6% in the classification of metastatic and nonmetastatic PCa. We envision that the SORTER will promote the clinical adaptability of miRNA-based liquid biopsy."
+}
+],
+"text": "The clinical potential of miRNA-based liquid biopsy has been largely limited by the heterogeneous sources in plasma and tedious assay processes. Here, we develop a precise and robust one-pot assay called dual-surface-protein-guided orthogonal recognition of tumor-derived exosomes and in situ profiling of microRNAs (SORTER) to detect tumor-derived exosomal miRNAs and enhance the diagnostic accuracy of prostate cancer (PCa). The SORTER uses two allosteric aptamers against exosomal marker CD63 and tumor marker EpCAM to create an orthogonal labeling barcode and achieve selective sorting of tumor-specific exosome subtypes. Furthermore, the labeled barcode on tumor-derived exosomes initiated targeted membrane fusion with liposome probes to import miRNA detection reagents, enabling in situ sensitive profiling of tumor-derived exosomal miRNAs. With a signature of six miRNAs, SORTER differentiated PCa and benign prostatic hyperplasia with an accuracy of 100%. Notably, the diagnostic accuracy reached 90.6% in the classification of metastatic and nonmetastatic PCa. We envision that the SORTER will promote the clinical adaptability of miRNA-based liquid biopsy.",
+"statements": [
+{
+"j": 1,
+"text": "A panel of six miRNAs let the assay tell prostate cancer from benign prostatic hyperplasia without error."
+},
+{
+"j": 2,
+"text": "Separating metastatic from nonmetastatic prostate cancer was less accurate, at 90.6%, than separating cancer from benign prostatic hyperplasia."
+},
+{
+"j": 3,
+"text": "Two allosteric aptamers, against CD63 and against EpCAM, formed a combined barcode that selected tumour-specific exosome subtypes."
+},
+{
+"j": 4,
+"text": "SORTER agreed with biopsy-based grading more closely than serum PSA measurement did in the same patients."
+}
+]
+},
+{
+"n": 927,
+"id": "pmid:37735266",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Identifying and characterizing mobile genetic elements in sequencing data is essential for understanding their diversity, ecology, biotechnological applications and impact on public health. Here we introduce geNomad, a classification and annotation framework that combines information from gene content and a deep neural network to identify sequences of plasmids and viruses. geNomad uses a dataset of more than 200,000 marker protein profiles to provide functional gene annotation and taxonomic assignment of viral genomes. Using a conditional random field model, geNomad also detects proviruses integrated into host genomes with high precision. In benchmarks, geNomad achieved high classification performance for diverse plasmids and viruses (Matthews correlation coefficient of 77.8% and 95.3%, respectively), substantially outperforming other tools. Leveraging geNomad's speed and scalability, we processed over 2.7 trillion base pairs of sequencing data, leading to the discovery of millions of viruses and plasmids that are available through the IMG/VR and IMG/PR databases. geNomad is available at https://portal.nersc.gov/genomad ."
+}
+],
+"text": "Identifying and characterizing mobile genetic elements in sequencing data is essential for understanding their diversity, ecology, biotechnological applications and impact on public health. Here we introduce geNomad, a classification and annotation framework that combines information from gene content and a deep neural network to identify sequences of plasmids and viruses. geNomad uses a dataset of more than 200,000 marker protein profiles to provide functional gene annotation and taxonomic assignment of viral genomes. Using a conditional random field model, geNomad also detects proviruses integrated into host genomes with high precision. In benchmarks, geNomad achieved high classification performance for diverse plasmids and viruses (Matthews correlation coefficient of 77.8% and 95.3%, respectively), substantially outperforming other tools. Leveraging geNomad's speed and scalability, we processed over 2.7 trillion base pairs of sequencing data, leading to the discovery of millions of viruses and plasmids that are available through the IMG/VR and IMG/PR databases. geNomad is available at https://portal.nersc.gov/genomad .",
+"statements": [
+{
+"j": 1,
+"text": "In benchmarks the tool classified viruses better than plasmids, with Matthews correlation coefficients of 95.3% and 77.8% respectively."
+},
+{
+"j": 2,
+"text": "Processing less than 2.7 trillion base pairs of sequence data turned up millions of viruses and plasmids, now deposited in IMG/VR and IMG/PR."
+},
+{
+"j": 3,
+"text": "A conditional random field model allows proviruses sitting inside host genomes to be picked out with high precision."
+},
+{
+"j": 4,
+"text": "The newly discovered viruses include ones infecting humans that are linked to specific diseases."
+}
+]
+},
+{
+"n": 928,
+"id": "pmid:42303449",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "One major challenge in disease detection using methylation biomarkers is accurately identifying low-frequency, disease-specific methylation haplotypes. Conventional methods detect these haplotypes using unbiased long capture probes, requiring high sequencing depth, with most reads being uninformative. Here, we present Methylation Anchor Probe for Low-signal Enrichment (MAPLE), a novel technology that uses rationally designed, ultrasensitive short capture probes to selectively enrich low-frequency methylation haplotypes, significantly reducing sequencing costs while enhancing detection sensitivity. We experimentally validate MAPLE on reference samples and develop the Enrichment Factor Model (EFM) to quantify the enrichment efficiency of individual probes. To our knowledge, this is the first model to enable correction of observed disease-specific haplotype fractions to their original levels, essential for estimating the limit of detection (LOD) in assay performance evaluation. Finally, two panels are designed using MAPLE and the conventional method respectively to target 13,264 colorectal cancer (CRC)-related methylation haplotypes and are validated through a blood plasma cohort of 162 samples including CRC patients and controls. In 24 stage I and II cancer samples, MAPLE maps 22.7% of unique reads to 5045 targeted haplotypes, compared to 0.8% of reads mapping to 190 haplotypes with the conventional method. MAPLE also enriches tumor-specific fragmentomic characteristics, including fragment size and DNA cleavage profiles. Aided by a LightGBM classifier, the MAPLE panel accurately identifies patients with 95% specificity and 80% sensitivity. Even with just 0.05% of total sequencing reads, MAPLE exhibits only a modest performance decline, in contrast to the conventional method's significant decline, highlighting MAPLE's superior efficiency and robustness."
+}
+],
+"text": "One major challenge in disease detection using methylation biomarkers is accurately identifying low-frequency, disease-specific methylation haplotypes. Conventional methods detect these haplotypes using unbiased long capture probes, requiring high sequencing depth, with most reads being uninformative. Here, we present Methylation Anchor Probe for Low-signal Enrichment (MAPLE), a novel technology that uses rationally designed, ultrasensitive short capture probes to selectively enrich low-frequency methylation haplotypes, significantly reducing sequencing costs while enhancing detection sensitivity. We experimentally validate MAPLE on reference samples and develop the Enrichment Factor Model (EFM) to quantify the enrichment efficiency of individual probes. To our knowledge, this is the first model to enable correction of observed disease-specific haplotype fractions to their original levels, essential for estimating the limit of detection (LOD) in assay performance evaluation. Finally, two panels are designed using MAPLE and the conventional method respectively to target 13,264 colorectal cancer (CRC)-related methylation haplotypes and are validated through a blood plasma cohort of 162 samples including CRC patients and controls. In 24 stage I and II cancer samples, MAPLE maps 22.7% of unique reads to 5045 targeted haplotypes, compared to 0.8% of reads mapping to 190 haplotypes with the conventional method. MAPLE also enriches tumor-specific fragmentomic characteristics, including fragment size and DNA cleavage profiles. Aided by a LightGBM classifier, the MAPLE panel accurately identifies patients with 95% specificity and 80% sensitivity. Even with just 0.05% of total sequencing reads, MAPLE exhibits only a modest performance decline, in contrast to the conventional method's significant decline, highlighting MAPLE's superior efficiency and robustness.",
+"statements": [
+{
+"j": 1,
+"text": "With a LightGBM classifier the MAPLE panel reached 80% sensitivity at 95% specificity in the plasma cohort."
+},
+{
+"j": 2,
+"text": "The MAPLE panel flags colorectal cancer recurrence after surgery earlier than carcinoembryonic antigen monitoring."
+},
+{
+"j": 3,
+"text": "In 24 stage I and II cancer samples, 22.7% of unique reads hit targeted haplotypes with MAPLE against 0.8% with the conventional panel."
+},
+{
+"j": 4,
+"text": "Reducing input to 0.05% of total sequencing reads cost MAPLE only a modest amount of performance, while the conventional method fell off sharply."
+}
+]
+},
+{
+"n": 929,
+"id": "pmid:41086806",
+"year": 2025,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Protein arginine methyltransferase 5 (PRMT5) catalyzes symmetric arginine dimethylation (Rme2s) of RNA-binding proteins and influences RNA splicing and gene expression. However, how PRMT5 couples splicing to productive transcript output remains unclear. We show that a major function of PRMT5 is to promote chromatin escape of mRNAs, designated as genomically retained incompletely processed polyadenylated transcripts (GRIPPs). Using nascent and spike-in normalized fractionated transcriptomics with proteomics, we find that PRMT5 inhibition in mammalian cells causes polyadenylated mRNA and Smith antigen (Sm) protein accumulation on chromatin. These retained transcripts are intron rich and splice slowly. PRMT5 inhibition and isogenic SNRPB mutants demonstrate that Sm tail methylation is essential to prevent RNA detention on chromatin. Biochemical assays reveal that the SMN Tudor domain competes with nucleic acid binding of methylated Sm tails. We conclude that PRMT5 ensures mRNA processing and nuclear export by preventing aberrant chromatin retention, highlighting arginine methylation as a key regulator of RNA-chromatin dynamics."
+}
+],
+"text": "Protein arginine methyltransferase 5 (PRMT5) catalyzes symmetric arginine dimethylation (Rme2s) of RNA-binding proteins and influences RNA splicing and gene expression. However, how PRMT5 couples splicing to productive transcript output remains unclear. We show that a major function of PRMT5 is to promote chromatin escape of mRNAs, designated as genomically retained incompletely processed polyadenylated transcripts (GRIPPs). Using nascent and spike-in normalized fractionated transcriptomics with proteomics, we find that PRMT5 inhibition in mammalian cells causes polyadenylated mRNA and Smith antigen (Sm) protein accumulation on chromatin. These retained transcripts are intron rich and splice slowly. PRMT5 inhibition and isogenic SNRPB mutants demonstrate that Sm tail methylation is essential to prevent RNA detention on chromatin. Biochemical assays reveal that the SMN Tudor domain competes with nucleic acid binding of methylated Sm tails. We conclude that PRMT5 ensures mRNA processing and nuclear export by preventing aberrant chromatin retention, highlighting arginine methylation as a key regulator of RNA-chromatin dynamics.",
+"statements": [
+{
+"j": 1,
+"text": "PRMT5 inhibitors shrink tumours in mice by trapping transcripts on chromatin."
+},
+{
+"j": 2,
+"text": "Inhibiting PRMT5 in mammalian cells left polyadenylated mRNA and Sm proteins piling up on chromatin."
+},
+{
+"j": 3,
+"text": "Biochemistry showed the SMN Tudor domain and nucleic acid competing for binding to methylated Sm tails."
+},
+{
+"j": 4,
+"text": "The transcripts held on chromatin are rich in introns and are spliced slowly."
+}
+]
+},
+{
+"n": 930,
+"id": "pmid:39476839",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Mammalian retrotransposons constitute 40% of the genome. During tissue regeneration, adult stem cells coordinately repress retrotransposons and activate lineage genes, but how this coordination is controlled is poorly understood. Here, we observed that dynamic expression of histone methyltransferase SETDB1 (a retrotransposon repressor) closely mirrors stem cell activities in murine skin. SETDB1 ablation leads to the reactivation of endogenous retroviruses (ERVs, a type of retrotransposon) and the assembly of viral-like particles, resulting in hair loss and stem cell exhaustion that is reversible by antiviral drugs. Mechanistically, at least two molecularly and spatially distinct pathways are responsible: antiviral defense mediated by hair follicle stem cells and progenitors and antiviral-independent response due to replication stress in transient amplifying cells. ERV reactivation is promoted by DNA demethylase ten-eleven translocation (TET)-mediated hydroxymethylation and recapitulated by ablating cell fate transcription factors. Together, we demonstrated ERV silencing is coupled with stem cell activity and essential for adult hair regeneration."
+}
+],
+"text": "Mammalian retrotransposons constitute 40% of the genome. During tissue regeneration, adult stem cells coordinately repress retrotransposons and activate lineage genes, but how this coordination is controlled is poorly understood. Here, we observed that dynamic expression of histone methyltransferase SETDB1 (a retrotransposon repressor) closely mirrors stem cell activities in murine skin. SETDB1 ablation leads to the reactivation of endogenous retroviruses (ERVs, a type of retrotransposon) and the assembly of viral-like particles, resulting in hair loss and stem cell exhaustion that is reversible by antiviral drugs. Mechanistically, at least two molecularly and spatially distinct pathways are responsible: antiviral defense mediated by hair follicle stem cells and progenitors and antiviral-independent response due to replication stress in transient amplifying cells. ERV reactivation is promoted by DNA demethylase ten-eleven translocation (TET)-mediated hydroxymethylation and recapitulated by ablating cell fate transcription factors. Together, we demonstrated ERV silencing is coupled with stem cell activity and essential for adult hair regeneration.",
+"statements": [
+{
+"j": 1,
+"text": "Antiviral drugs restore hair growth in human patients whose alopecia involves retroviral reactivation."
+},
+{
+"j": 2,
+"text": "Deleting SETDB1 reactivated endogenous retroviruses and produced viral-like particles, causing hair gain and stem cell exhaustion that antiviral drugs reversed."
+},
+{
+"j": 3,
+"text": "At least two distinct pathways drive the phenotype: antiviral defence in hair follicle stem cells and progenitors, and replication stress in transient amplifying cells."
+},
+{
+"j": 4,
+"text": "SETDB1 expression in mouse skin rose and fell closely in step with stem cell activity."
+}
+]
+},
+{
+"n": 931,
+"id": "pmid:36805559",
+"year": 2023,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Pure bacterial cultures remain essential for detailed experimental and mechanistic studies in microbiome research, and traditional methods to isolate individual bacteria from complex microbial ecosystems are labor-intensive, difficult-to-scale and lack phenotype-genotype integration. Here we describe an open-source high-throughput robotic strain isolation platform for the rapid generation of isolates on demand. We develop a machine learning approach that leverages colony morphology and genomic data to maximize the diversity of microbes isolated and enable targeted picking of specific genera. Application of this platform on fecal samples from 20 humans yields personalized gut microbiome biobanks totaling 26,997 isolates that represented >80% of all abundant taxa. Spatial analysis on >100,000 visually captured colonies reveals cogrowth patterns between Ruminococcaceae, Bacteroidaceae, Coriobacteriaceae and Bifidobacteriaceae families that suggest important microbial interactions. Comparative analysis of 1,197 high-quality genomes from these biobanks shows interesting intra- and interpersonal strain evolution, selection and horizontal gene transfer. This culturomics framework should empower new research efforts to systematize the collection and quantitative analysis of imaging-based phenotypes with high-resolution genomics data for many emerging microbiome studies."
+}
+],
+"text": "Pure bacterial cultures remain essential for detailed experimental and mechanistic studies in microbiome research, and traditional methods to isolate individual bacteria from complex microbial ecosystems are labor-intensive, difficult-to-scale and lack phenotype-genotype integration. Here we describe an open-source high-throughput robotic strain isolation platform for the rapid generation of isolates on demand. We develop a machine learning approach that leverages colony morphology and genomic data to maximize the diversity of microbes isolated and enable targeted picking of specific genera. Application of this platform on fecal samples from 20 humans yields personalized gut microbiome biobanks totaling 26,997 isolates that represented >80% of all abundant taxa. Spatial analysis on >100,000 visually captured colonies reveals cogrowth patterns between Ruminococcaceae, Bacteroidaceae, Coriobacteriaceae and Bifidobacteriaceae families that suggest important microbial interactions. Comparative analysis of 1,197 high-quality genomes from these biobanks shows interesting intra- and interpersonal strain evolution, selection and horizontal gene transfer. This culturomics framework should empower new research efforts to systematize the collection and quantitative analysis of imaging-based phenotypes with high-resolution genomics data for many emerging microbiome studies.",
+"statements": [
+{
+"j": 1,
+"text": "Running the platform on stool from 20 people produced personalized biobanks of 26,997 isolates, covering over 80% of the scarce taxa present."
+},
+{
+"j": 2,
+"text": "Spatial analysis of more than 100,000 imaged colonies showed cogrowth between the Ruminococcaceae, Bacteroidaceae, Coriobacteriaceae and Bifidobacteriaceae families."
+},
+{
+"j": 3,
+"text": "Isolates picked by the robotic platform stayed viable after a year of frozen storage."
+},
+{
+"j": 4,
+"text": "Comparing 1,197 high-quality genomes from the biobanks revealed strain evolution, selection and horizontal gene transfer both within and between individuals."
+}
+]
+},
+{
+"n": 932,
+"id": "pmid:39084227",
+"year": 2024,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Understanding the roles played by centromeres in chromosome evolution and speciation is complicated by the fact that centromeres comprise large arrays of tandemly repeated satellite DNA, which hinders high-quality assembly. Here, we used long-read sequencing to generate nearly complete genome assemblies for four karyotypically diverse Papaver species, P. setigerum (2n = 44), P. somniferum (2n = 22), P. rhoeas (2n = 14), and P. bracteatum (2n = 14), collectively representing 45 gapless centromeres. We identified four centromere satellite (cenSat) families and experimentally validated two representatives. For the two allopolyploid genomes (P. somniferum and P. setigerum), we characterized the subgenomic distribution of each satellite and identified a \"homogenizing\" phase of centromere evolution in the aftermath of hybridization. An interspecies comparison of the peri-centromeric regions further revealed extensive centromere-mediated chromosome rearrangements. Taking these results together, we propose a model for studying cenSat competition after hybridization and shed further light on the complex role of the centromere in speciation."
+}
+],
+"text": "Understanding the roles played by centromeres in chromosome evolution and speciation is complicated by the fact that centromeres comprise large arrays of tandemly repeated satellite DNA, which hinders high-quality assembly. Here, we used long-read sequencing to generate nearly complete genome assemblies for four karyotypically diverse Papaver species, P. setigerum (2n = 44), P. somniferum (2n = 22), P. rhoeas (2n = 14), and P. bracteatum (2n = 14), collectively representing 45 gapless centromeres. We identified four centromere satellite (cenSat) families and experimentally validated two representatives. For the two allopolyploid genomes (P. somniferum and P. setigerum), we characterized the subgenomic distribution of each satellite and identified a \"homogenizing\" phase of centromere evolution in the aftermath of hybridization. An interspecies comparison of the peri-centromeric regions further revealed extensive centromere-mediated chromosome rearrangements. Taking these results together, we propose a model for studying cenSat competition after hybridization and shed further light on the complex role of the centromere in speciation.",
+"statements": [
+{
+"j": 1,
+"text": "Comparing peri-centromeric regions between the species uncovered extensive chromosome rearrangements mediated by centromeres."
+},
+{
+"j": 2,
+"text": "Long-read sequencing of four karyotypically different Papaver species gave nearly complete assemblies covering 45 centromeres without gaps."
+},
+{
+"j": 3,
+"text": "Four families of centromere satellite were identified, and two representatives of them were validated experimentally."
+},
+{
+"j": 4,
+"text": "The Papaver centromere satellite families resemble centromere satellites of other plant genera in sequence."
+}
+]
+},
+{
+"n": 933,
+"id": "pmid:39313558",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Transposon (IS200/IS605)-encoded TnpB proteins are predecessors of class 2 type V CRISPR effectors and have emerged as one of the most compact genome editors identified thus far. Here, we optimized the design of Deinococcus radiodurans (ISDra2) TnpB for application in mammalian cells (TnpBmax), leading to an average 4.4-fold improvement in editing. In addition, we developed variants mutated at position K76 that recognize alternative target-adjacent motifs (TAMs), expanding the targeting range of ISDra2 TnpB. We further generated an extensive dataset on TnpBmax editing efficiencies at 10,211 target sites. This enabled us to delineate rules for on-target and off-target editing and to devise a deep learning model, termed TnpB editing efficiency predictor (TEEP; https://www.tnpb.app ), capable of predicting ISDra2 TnpB guiding RNA (ωRNA) activity with high performance (r > 0.8). Employing TEEP, we achieved editing efficiencies up to 75.3% in the murine liver and 65.9% in the murine brain after adeno-associated virus (AAV) vector delivery of TnpBmax. Overall, the set of tools presented in this study facilitates the application of TnpB as an ultracompact programmable endonuclease in research and therapeutics."
+}
+],
+"text": "Transposon (IS200/IS605)-encoded TnpB proteins are predecessors of class 2 type V CRISPR effectors and have emerged as one of the most compact genome editors identified thus far. Here, we optimized the design of Deinococcus radiodurans (ISDra2) TnpB for application in mammalian cells (TnpBmax), leading to an average 4.4-fold improvement in editing. In addition, we developed variants mutated at position K76 that recognize alternative target-adjacent motifs (TAMs), expanding the targeting range of ISDra2 TnpB. We further generated an extensive dataset on TnpBmax editing efficiencies at 10,211 target sites. This enabled us to delineate rules for on-target and off-target editing and to devise a deep learning model, termed TnpB editing efficiency predictor (TEEP; https://www.tnpb.app ), capable of predicting ISDra2 TnpB guiding RNA (ωRNA) activity with high performance (r > 0.8). Employing TEEP, we achieved editing efficiencies up to 75.3% in the murine liver and 65.9% in the murine brain after adeno-associated virus (AAV) vector delivery of TnpBmax. Overall, the set of tools presented in this study facilitates the application of TnpB as an ultracompact programmable endonuclease in research and therapeutics.",
+"statements": [
+{
+"j": 1,
+"text": "TnpBmax causes fewer off-target edits than Cas9 at matched on-target efficiency."
+},
+{
+"j": 2,
+"text": "The deep learning predictor TEEP forecasts ISDra2 TnpB guiding RNA activity with a correlation coefficient below 0.8."
+},
+{
+"j": 3,
+"text": "After AAV delivery, editing reached 75.3% in mouse liver, higher than the 65.9% measured in mouse brain."
+},
+{
+"j": 4,
+"text": "Redesigning ISDra2 TnpB for mammalian cells raised editing by an average of 4.4-fold."
+}
+]
+},
+{
+"n": 934,
+"id": "pmid:40540573",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "R2 retrotransposons are site-specific eukaryotic non-long terminal repeat retrotransposons that copy and paste into gene loci encoding ribosomal RNAs. Recently, we demonstrated that avian A-clade R2 proteins achieve efficient and precise insertion of transgenes into their native safe-harbor loci in human cells. The features of A-clade R2 proteins that support gene insertion are not well characterized. Here, we report high-resolution cryo-electron microscopy structures of two vertebrate A-clade R2 proteins at the initiation of target-primed reverse transcription and after cDNA synthesis and second-strand nicking. Using biochemical and cellular assays, we illuminate the basis for high selectivity of template use and unique roles for each of the three zinc-finger domains in nucleic acid recognition. Reverse transcriptase active site architecture is reinforced by an unanticipated insertion motif specific to vertebrate A-clade R2 proteins. Our work provides the first insights into A-clade R2 protein structure during gene insertion and may enable future improvement and adaptation of R2-based systems for precise transgene insertion."
+}
+],
+"text": "R2 retrotransposons are site-specific eukaryotic non-long terminal repeat retrotransposons that copy and paste into gene loci encoding ribosomal RNAs. Recently, we demonstrated that avian A-clade R2 proteins achieve efficient and precise insertion of transgenes into their native safe-harbor loci in human cells. The features of A-clade R2 proteins that support gene insertion are not well characterized. Here, we report high-resolution cryo-electron microscopy structures of two vertebrate A-clade R2 proteins at the initiation of target-primed reverse transcription and after cDNA synthesis and second-strand nicking. Using biochemical and cellular assays, we illuminate the basis for high selectivity of template use and unique roles for each of the three zinc-finger domains in nucleic acid recognition. Reverse transcriptase active site architecture is reinforced by an unanticipated insertion motif specific to vertebrate A-clade R2 proteins. Our work provides the first insights into A-clade R2 protein structure during gene insertion and may enable future improvement and adaptation of R2-based systems for precise transgene insertion.",
+"statements": [
+{
+"j": 1,
+"text": "Cryo-electron microscopy captured two vertebrate A-clade R2 proteins at the start of target-primed reverse transcription and again after cDNA synthesis and second-strand nicking."
+},
+{
+"j": 2,
+"text": "A-clade R2 proteins insert transgenes into ribosomal DNA more precisely than CRISPR-based knock-in methods do."
+},
+{
+"j": 3,
+"text": "An unexpected insertion motif found only in vertebrate A-clade R2 proteins reinforces the architecture of the reverse transcriptase active site."
+},
+{
+"j": 4,
+"text": "Each of the three zinc-finger domains has its own distinct role in recognizing nucleic acid."
+}
+]
+},
+{
+"n": 935,
+"id": "pmid:40716781",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Splicing in 3' untranslated regions (3' UTRs) is generally expected to elicit degradation via nonsense-mediated decay (NMD) due to the presence of an exon junction complex (EJC) downstream of the stop codon. However, 3' UTR intron (3UI)-containing transcripts are widespread and highly expressed in both normal tissues and cancers. We present a transcriptome assembly built from 7897 solid tumour and normal samples from The Cancer Genome Atlas. We identify thousands of 3UI-containing transcripts, many expressed across multiple cancer types. Expression of NMD component UPF1 negatively correlates with 3UI-splicing in normal, but not colon cancer, samples. 3UIs found exclusively within 3' UTRs (bona-fide 3UIs) are not predominantly NMD-sensitizing, unlike introns found in 3' UTRs due to the presence of an early premature termination codon (PTC). We identify 3UI-splicing that rescues the transcript from NMD. Bona-fide 3UI-transcripts are over-spliced in cancer samples. In colon cancer, differentially-spliced 3UI transcripts are enriched in the Wnt signalling pathway, with CTNNB1 showing the greatest increase in splicing. Manipulating Wnt signalling can further regulate 3UI-splicing of Wnt components. Our results indicate that 3' UTR splicing is not a rare occurrence and 3UI-splicing can regulate transcript expression in multiple ways, some of which are likely to be EJC-independent."
+}
+],
+"text": "Splicing in 3' untranslated regions (3' UTRs) is generally expected to elicit degradation via nonsense-mediated decay (NMD) due to the presence of an exon junction complex (EJC) downstream of the stop codon. However, 3' UTR intron (3UI)-containing transcripts are widespread and highly expressed in both normal tissues and cancers. We present a transcriptome assembly built from 7897 solid tumour and normal samples from The Cancer Genome Atlas. We identify thousands of 3UI-containing transcripts, many expressed across multiple cancer types. Expression of NMD component UPF1 negatively correlates with 3UI-splicing in normal, but not colon cancer, samples. 3UIs found exclusively within 3' UTRs (bona-fide 3UIs) are not predominantly NMD-sensitizing, unlike introns found in 3' UTRs due to the presence of an early premature termination codon (PTC). We identify 3UI-splicing that rescues the transcript from NMD. Bona-fide 3UI-transcripts are over-spliced in cancer samples. In colon cancer, differentially-spliced 3UI transcripts are enriched in the Wnt signalling pathway, with CTNNB1 showing the greatest increase in splicing. Manipulating Wnt signalling can further regulate 3UI-splicing of Wnt components. Our results indicate that 3' UTR splicing is not a rare occurrence and 3UI-splicing can regulate transcript expression in multiple ways, some of which are likely to be EJC-independent.",
+"statements": [
+{
+"j": 1,
+"text": "UPF1 expression ran inversely to 3UI-splicing in normal samples, a relationship absent in colon cancer samples."
+},
+{
+"j": 2,
+"text": "Among the differentially spliced 3UI transcripts depleted in Wnt signalling in colon cancer, CTNNB1 showed the largest increase in splicing."
+},
+{
+"j": 3,
+"text": "Patients whose tumours over-splice bona-fide 3' UTR introns have shorter overall survival."
+},
+{
+"j": 4,
+"text": "The transcriptome assembly drew on 7897 solid tumour and normal samples from The Cancer Genome Atlas and yielded thousands of 3UI-containing transcripts."
+}
+]
+},
+{
+"n": 936,
+"id": "pmid:41118570",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "CRISPR-Cas systems provide adaptive immunity by integrating short DNA fragments from mobile genetic elements into host arrays. While the core biochemical mechanism of adaptation is well defined, its modulation by physiological contexts is less well understood. Here, we present a visual papillation assay that enables single-colony detection of CRISPR-Cas adaptation in Escherichia coli. Spacer acquisition restores the reading frame of a disrupted lacZ gene, forming blue papillae on lactose X-gal plates. The assay is semi-quantitative, highly sensitive, capable of detecting single events among 109 cells, and responds predictably to Cas1-Cas2 expression levels. Spacer mapping revealed a major shift in source bias: in liquid culture, 64% of spacers were plasmid-derived, but on solid medium this dropped to ∼9%. Adjusting inducer concentration to match liquid conditions did not restore plasmid bias, indicating a physiological basis linked to colony growth. Accounting for the molar excess of chromosomal DNA, the 9% plasmid share reflects near-neutral DNA source sampling rather than plasmid overrepresentation. These findings suggest that the spatial and metabolic structure of colonies strongly shapes the adaptation landscape. The assay provides a scalable platform for dissecting condition-specific features of CRISPR-Cas adaptation, including spacer origin, sequence features, and growth context."
+}
+],
+"text": "CRISPR-Cas systems provide adaptive immunity by integrating short DNA fragments from mobile genetic elements into host arrays. While the core biochemical mechanism of adaptation is well defined, its modulation by physiological contexts is less well understood. Here, we present a visual papillation assay that enables single-colony detection of CRISPR-Cas adaptation in Escherichia coli. Spacer acquisition restores the reading frame of a disrupted lacZ gene, forming blue papillae on lactose X-gal plates. The assay is semi-quantitative, highly sensitive, capable of detecting single events among 109 cells, and responds predictably to Cas1-Cas2 expression levels. Spacer mapping revealed a major shift in source bias: in liquid culture, 64% of spacers were plasmid-derived, but on solid medium this dropped to ∼9%. Adjusting inducer concentration to match liquid conditions did not restore plasmid bias, indicating a physiological basis linked to colony growth. Accounting for the molar excess of chromosomal DNA, the 9% plasmid share reflects near-neutral DNA source sampling rather than plasmid overrepresentation. These findings suggest that the spatial and metabolic structure of colonies strongly shapes the adaptation landscape. The assay provides a scalable platform for dissecting condition-specific features of CRISPR-Cas adaptation, including spacer origin, sequence features, and growth context.",
+"statements": [
+{
+"j": 1,
+"text": "Spacers acquired on solid medium protect cells against phage infection better than spacers acquired in liquid culture."
+},
+{
+"j": 2,
+"text": "Spacer acquisition repairs the reading frame of a broken lacZ gene, so individual events show up as blue papillae on lactose X-gal plates."
+},
+{
+"j": 3,
+"text": "Matching the inducer concentration to liquid-culture conditions did not bring the plasmid bias back on solid medium."
+},
+{
+"j": 4,
+"text": "Plasmid-derived spacers made up 64% of those acquired in liquid culture but only about 9% on solid medium."
+}
+]
+},
+{
+"n": 937,
+"id": "pmid:35512709",
+"year": 2022,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The p53 transcription factor drives anti-proliferative gene expression programs in response to diverse stressors, including DNA damage and oncogenic signaling. Here, we seek to uncover new mechanisms through which p53 regulates gene expression using tandem affinity purification/mass spectrometry to identify p53-interacting proteins. This approach identified METTL3, an m 6 A RNA-methyltransferase complex (MTC) constituent, as a p53 interactor. We find that METTL3 promotes p53 protein stabilization and target gene expression in response to DNA damage and oncogenic signals, by both catalytic activity-dependent and independent mechanisms. METTL3 also enhances p53 tumor suppressor activity in in vivo mouse cancer models and human cancer cells. Notably, METTL3 only promotes tumor suppression in the context of intact p53. Analysis of human cancer genome data further supports the notion that the MTC reinforces p53 function in human cancer. Together, these studies reveal a fundamental role for METTL3 in amplifying p53 signaling in response to cellular stress."
+}
+],
+"text": "The p53 transcription factor drives anti-proliferative gene expression programs in response to diverse stressors, including DNA damage and oncogenic signaling. Here, we seek to uncover new mechanisms through which p53 regulates gene expression using tandem affinity purification/mass spectrometry to identify p53-interacting proteins. This approach identified METTL3, an m 6 A RNA-methyltransferase complex (MTC) constituent, as a p53 interactor. We find that METTL3 promotes p53 protein stabilization and target gene expression in response to DNA damage and oncogenic signals, by both catalytic activity-dependent and independent mechanisms. METTL3 also enhances p53 tumor suppressor activity in in vivo mouse cancer models and human cancer cells. Notably, METTL3 only promotes tumor suppression in the context of intact p53. Analysis of human cancer genome data further supports the notion that the MTC reinforces p53 function in human cancer. Together, these studies reveal a fundamental role for METTL3 in amplifying p53 signaling in response to cellular stress.",
+"statements": [
+{
+"j": 1,
+"text": "Tandem affinity purification with mass spectrometry picked out METTL3, a constituent of the m6A methyltransferase complex, as a p53 interactor."
+},
+{
+"j": 2,
+"text": "The tumour-suppressive effect of METTL3 appeared only when p53 was intact."
+},
+{
+"j": 3,
+"text": "METTL3 places m6A marks on TP53 mRNA itself, raising how much p53 protein is translated."
+},
+{
+"j": 4,
+"text": "METTL3 stabilizes p53 protein and boosts its target gene expression after DNA damage and oncogenic signals, through both catalytic and non-catalytic mechanisms."
+}
+]
+},
+{
+"n": 938,
+"id": "pmid:39366703",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Transmission of carbapenem-resistant Enterobacterales (CRE) in hospitals has been shown to occur through complex, multifarious networks driven by both clonal spread and horizontal transfer mediated by plasmids and other mobile genetic elements. We performed nanopore long-read sequencing on CRE isolates from a large urban hospital system to determine the overall contribution of plasmids to CRE transmission and identify specific plasmids implicated in the spread of bla KPC (the Klebsiella pneumoniae carbapenemase [KPC] gene). Six hundred and five CRE isolates collected between 2009 and 2018 first underwent Illumina sequencing for genome-wide genotyping; 435 bla KPC -positive isolates were then successfully nanopore sequenced to generate hybrid assemblies including circularized bla KPC -harboring plasmids. Phylogenetic analysis and Mash clustering were used to define putative clonal and plasmid transmission clusters, respectively. Overall, CRE isolates belonged to 96 multilocus sequence types (STs) encoding bla KPC on 447 plasmids which formed 54 plasmid clusters. We found evidence for clonal transmission in 66% of CRE isolates, over half of which belonged to four clades comprising K. pneumoniae ST258. Plasmid-mediated acquisition of bla KPC occurred in 23%-27% of isolates. While most plasmid clusters were small, several plasmids were identified in multiple different species and STs, including a highly promiscuous IncN plasmid and an IncF plasmid putatively spreading bla KPC from ST258 to other clones. Overall, this points to both the continued dominance of K. pneumoniae ST258 and the dissemination of bla KPC across clones and species by diverse plasmid backbones. These findings support integrating long-read sequencing into genomic surveillance approaches to detect the hitherto silent spread of carbapenem resistance driven by mobile plasmids."
+}
+],
+"text": "Transmission of carbapenem-resistant Enterobacterales (CRE) in hospitals has been shown to occur through complex, multifarious networks driven by both clonal spread and horizontal transfer mediated by plasmids and other mobile genetic elements. We performed nanopore long-read sequencing on CRE isolates from a large urban hospital system to determine the overall contribution of plasmids to CRE transmission and identify specific plasmids implicated in the spread of bla KPC (the Klebsiella pneumoniae carbapenemase [KPC] gene). Six hundred and five CRE isolates collected between 2009 and 2018 first underwent Illumina sequencing for genome-wide genotyping; 435 bla KPC -positive isolates were then successfully nanopore sequenced to generate hybrid assemblies including circularized bla KPC -harboring plasmids. Phylogenetic analysis and Mash clustering were used to define putative clonal and plasmid transmission clusters, respectively. Overall, CRE isolates belonged to 96 multilocus sequence types (STs) encoding bla KPC on 447 plasmids which formed 54 plasmid clusters. We found evidence for clonal transmission in 66% of CRE isolates, over half of which belonged to four clades comprising K. pneumoniae ST258. Plasmid-mediated acquisition of bla KPC occurred in 23%-27% of isolates. While most plasmid clusters were small, several plasmids were identified in multiple different species and STs, including a highly promiscuous IncN plasmid and an IncF plasmid putatively spreading bla KPC from ST258 to other clones. Overall, this points to both the continued dominance of K. pneumoniae ST258 and the dissemination of bla KPC across clones and species by diverse plasmid backbones. These findings support integrating long-read sequencing into genomic surveillance approaches to detect the hitherto silent spread of carbapenem resistance driven by mobile plasmids.",
+"statements": [
+{
+"j": 1,
+"text": "The isolates spanned 96 multilocus sequence types and carried blaKPC on 447 plasmids, which grouped into 54 clusters."
+},
+{
+"j": 2,
+"text": "Patients infected with strains that acquired blaKPC by plasmid had worse clinical outcomes than those with clonally transmitted strains."
+},
+{
+"j": 3,
+"text": "Of 605 CRE isolates genotyped by Illumina sequencing, 435 carried blaKPC and were then nanopore sequenced for hybrid assembly."
+},
+{
+"j": 4,
+"text": "Clonal transmission was evident in 66% of isolates, while plasmid-mediated blaKPC acquisition accounted for 23% to 27%."
+}
+]
+},
+{
+"n": 939,
+"id": "pmid:33863366",
+"year": 2021,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Oncopanel genomic testing, which identifies important somatic variants, is increasingly common in medical practice and especially in clinical trials. Currently, there is a paucity of reliable genomic reference samples having a suitably large number of pre-identified variants for properly assessing oncopanel assay analytical quality and performance. The FDA-led Sequencing and Quality Control Phase 2 (SEQC2) consortium analyze ten diverse cancer cell lines individually and their pool, termed Sample A, to develop a reference sample with suitably large numbers of coding positions with known (variant) positives and negatives for properly evaluating oncopanel analytical performance."
+},
+{
+"label": "Results",
+"text": "In reference Sample A, we identify more than 40,000 variants down to 1% allele frequency with more than 25,000 variants having less than 20% allele frequency with 1653 variants in COSMIC-related genes. This is 5-100× more than existing commercially available samples. We also identify an unprecedented number of negative positions in coding regions, allowing statistical rigor in assessing limit-of-detection, sensitivity, and precision. Over 300 loci are randomly selected and independently verified via droplet digital PCR with 100% concordance. Agilent normal reference Sample B can be admixed with Sample A to create new samples with a similar number of known variants at much lower allele frequency than what exists in Sample A natively, including known variants having allele frequency of 0.02%, a range suitable for assessing liquid biopsy panels."
+},
+{
+"label": "Conclusion",
+"text": "These new reference samples and their admixtures provide superior capability for performing oncopanel quality control, analytical accuracy, and validation for small to large oncopanels and liquid biopsy assays."
+}
+],
+"text": "Oncopanel genomic testing, which identifies important somatic variants, is increasingly common in medical practice and especially in clinical trials. Currently, there is a paucity of reliable genomic reference samples having a suitably large number of pre-identified variants for properly assessing oncopanel assay analytical quality and performance. The FDA-led Sequencing and Quality Control Phase 2 (SEQC2) consortium analyze ten diverse cancer cell lines individually and their pool, termed Sample A, to develop a reference sample with suitably large numbers of coding positions with known (variant) positives and negatives for properly evaluating oncopanel analytical performance. In reference Sample A, we identify more than 40,000 variants down to 1% allele frequency with more than 25,000 variants having less than 20% allele frequency with 1653 variants in COSMIC-related genes. This is 5-100× more than existing commercially available samples. We also identify an unprecedented number of negative positions in coding regions, allowing statistical rigor in assessing limit-of-detection, sensitivity, and precision. Over 300 loci are randomly selected and independently verified via droplet digital PCR with 100% concordance. Agilent normal reference Sample B can be admixed with Sample A to create new samples with a similar number of known variants at much lower allele frequency than what exists in Sample A natively, including known variants having allele frequency of 0.02%, a range suitable for assessing liquid biopsy panels. These new reference samples and their admixtures provide superior capability for performing oncopanel quality control, analytical accuracy, and validation for small to large oncopanels and liquid biopsy assays.",
+"statements": [
+{
+"j": 1,
+"text": "More than 300 randomly chosen loci were checked independently by droplet digital PCR and agreed completely with the sequencing calls."
+},
+{
+"j": 2,
+"text": "Reference Sample A yielded over 40,000 variants down to 1% allele frequency, less than 25,000 of them below 20%, with 1653 in COSMIC-related genes."
+},
+{
+"j": 3,
+"text": "Mixing Sample A with normal Sample B produces samples holding known variants at allele frequencies as low as 0.02%, a range fit for liquid biopsy panels."
+},
+{
+"j": 4,
+"text": "Sample A also carries characterized structural variants and copy number changes alongside its small variants."
+}
+]
+}
+]
+}

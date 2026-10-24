@@ -1,0 +1,467 @@
+{
+"batch": "check_C_12b",
+"pass": "C",
+"source_batch": "gen_12b",
+"items": [
+{
+"n": 432,
+"id": "pmid:39298928",
+"year": 2024,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Liquid biopsy for CNS tumors is in its nascent phase, hindered by the low levels of circulating tumor DNA (ctDNA). Overcoming this challenge requires highly sensitive molecular techniques. DD-PCR emerges as a standout technique due to its ability to identify rare mutations, copy number variations, and circulating nucleic acids, making it one of the best methods for identifying somatic mutations in cell-free DNA (cfDNA). Despite promising results from various studies demonstrating the feasibility of obtaining informative ctDNA profiles from liquid biopsy samples, challenges persist, including the need to standardize sample collection, storage, and processing methods, define clear assay positivity thresholds, and address the overall low assay sensitivity. Our two-phase study began by assessing DD-PCR efficacy in FFPE tissues, revealing robust concordance with immunohistochemistry. In Phase 1 (85 cases), DD-PCR on FFPE tissues demonstrated 100 % sensitivity and specificity for IDH1 R132H mutations. In Phase 2 (100 cases), analysis extended to cfDNA, maintaining high specificity (100 %) with moderate sensitivity (44.2 %). Overall concordance with immunohistochemistry was 61 %, highlighting liquid biopsy's potential in glioma management. The findings emphasized DD-PCR's clinical utility in both tissue and liquid biopsy, underscoring its role in early detection, diagnosis, and therapeutic monitoring of diffuse gliomas."
+}
+],
+"text": "Liquid biopsy for CNS tumors is in its nascent phase, hindered by the low levels of circulating tumor DNA (ctDNA). Overcoming this challenge requires highly sensitive molecular techniques. DD-PCR emerges as a standout technique due to its ability to identify rare mutations, copy number variations, and circulating nucleic acids, making it one of the best methods for identifying somatic mutations in cell-free DNA (cfDNA). Despite promising results from various studies demonstrating the feasibility of obtaining informative ctDNA profiles from liquid biopsy samples, challenges persist, including the need to standardize sample collection, storage, and processing methods, define clear assay positivity thresholds, and address the overall low assay sensitivity. Our two-phase study began by assessing DD-PCR efficacy in FFPE tissues, revealing robust concordance with immunohistochemistry. In Phase 1 (85 cases), DD-PCR on FFPE tissues demonstrated 100 % sensitivity and specificity for IDH1 R132H mutations. In Phase 2 (100 cases), analysis extended to cfDNA, maintaining high specificity (100 %) with moderate sensitivity (44.2 %). Overall concordance with immunohistochemistry was 61 %, highlighting liquid biopsy's potential in glioma management. The findings emphasized DD-PCR's clinical utility in both tissue and liquid biopsy, underscoring its role in early detection, diagnosis, and therapeutic monitoring of diffuse gliomas.",
+"statements": [
+{
+"j": 1,
+"text": "In the 100-case cfDNA phase, DD-PCR kept 100 % specificity while detecting the mutation in 44.2 % of cases."
+},
+{
+"j": 2,
+"text": "Overall agreement between DD-PCR and immunohistochemistry reached 61 %."
+},
+{
+"j": 3,
+"text": "DD-PCR sensitivity for IDH1 R132H was higher in cfDNA than in FFPE tissue."
+},
+{
+"j": 4,
+"text": "Sensitivity of cfDNA DD-PCR was related to glioma tumor grade."
+}
+]
+},
+{
+"n": 433,
+"id": "doi:10.64898/2026.02.17.706500",
+"year": 2026,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Cancer cell lines have long been used as in vitro models for molecular assays in diagnostic and therapeutic development due to their accessibility as a well-controlled system. MCF-7 cell lines are the most widely studied cell lines in human breast cancer research, and its sublines have been reported to exhibit clonal, cytogenetic, and transcriptomic variability. However, allele-specific methylation alterations in cancer genomes remain inadequately explored, largely due to limitations in sequencing methods. Here, we applied nanopore sequencing technology to characterise the genomic and epigenomic landscapes of two MCF-7 sublines. We identified global and local DNA methylation differences as well as structural variants (SVs), and single-nucleotide variants (SNVs) between and within the sublines. Our analysis revealed substantial divergence in methylation patterns between the sublines, with ∼3% of the differentially methylated regions (DMRs) overlapping with known cancer driver genes. These DMRs overlap breast cancer-associated genes, including ERBB2, CDH1, SALL4, GATA2, GATA3, HMGA2, and FBLN2. We find that the majority of differentially methylated sites are explained by differential allelic methylation, and that allele-specific DMRs often overlap points where antisense non-coding RNAs overlap protein-coding genes. Transposable elements in both sublines also showed distinct methylation profiles, with one subline having hypomethylated L1 elements compared to the other, which correlated with the amount of apparent insertional mutagenesis attributable to L1 between the sublines. Our study demonstrates the utility of nanopore sequencing in providing novel insights into genomic and methylomic differences within cell lines, in addition to insight into the nature of differential allelic methylation."
+}
+],
+"text": "Cancer cell lines have long been used as in vitro models for molecular assays in diagnostic and therapeutic development due to their accessibility as a well-controlled system. MCF-7 cell lines are the most widely studied cell lines in human breast cancer research, and its sublines have been reported to exhibit clonal, cytogenetic, and transcriptomic variability. However, allele-specific methylation alterations in cancer genomes remain inadequately explored, largely due to limitations in sequencing methods. Here, we applied nanopore sequencing technology to characterise the genomic and epigenomic landscapes of two MCF-7 sublines. We identified global and local DNA methylation differences as well as structural variants (SVs), and single-nucleotide variants (SNVs) between and within the sublines. Our analysis revealed substantial divergence in methylation patterns between the sublines, with ∼3% of the differentially methylated regions (DMRs) overlapping with known cancer driver genes. These DMRs overlap breast cancer-associated genes, including ERBB2, CDH1, SALL4, GATA2, GATA3, HMGA2, and FBLN2. We find that the majority of differentially methylated sites are explained by differential allelic methylation, and that allele-specific DMRs often overlap points where antisense non-coding RNAs overlap protein-coding genes. Transposable elements in both sublines also showed distinct methylation profiles, with one subline having hypomethylated L1 elements compared to the other, which correlated with the amount of apparent insertional mutagenesis attributable to L1 between the sublines. Our study demonstrates the utility of nanopore sequencing in providing novel insights into genomic and methylomic differences within cell lines, in addition to insight into the nature of differential allelic methylation.",
+"statements": [
+{
+"j": 1,
+"text": "About 3 % of the differentially methylated regions separating the sublines fell in known cancer driver genes."
+},
+{
+"j": 2,
+"text": "The methylation divergence between the sublines arose during passaging in separate laboratories."
+},
+{
+"j": 3,
+"text": "One of the two MCF-7 sublines carried hypermethylated L1 elements relative to the other."
+},
+{
+"j": 4,
+"text": "Most differentially methylated sites between the sublines were attributable to differential allelic methylation."
+}
+]
+},
+{
+"n": 434,
+"id": "pmid:39966887",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Tn7 family transposons are mobile genetic elements known for precise target site selection, with some co-opting CRISPR-Cas systems for RNA-guided transposition. We identified a novel group of Tn7-like transposons in Cyanobacteria that preferentially target CRISPR arrays, suggesting a new functional interaction between these elements and CRISPR-Cas systems. Using bioinformatics tools, we characterized their phylogeny, target specificity, and sub-specialization. The array-targeting elements are phylogenetically close to tRNA-targeting elements. The distinct target preference coincides with loss of a C-terminal region in the TnsD protein which is responsible for recognizing target sites when compared to closely related elements. Notably, elements are found integrated into a fixed position within CRISPR spacer regions, a behavior that might minimize negative impacts on the host defense system. These transposons were identified in both plasmid and genomic CRISPR arrays, indicating that their preferred target provides a means for both safe insertion in the host chromosome and a mechanism for dissemination. Attempts to reconstitute these elements in E. coli were unsuccessful, indicating possible dependence on native host factors. Our findings expand the diversity of interactions between Tn7-like transposons and CRISPR systems."
+}
+],
+"text": "Tn7 family transposons are mobile genetic elements known for precise target site selection, with some co-opting CRISPR-Cas systems for RNA-guided transposition. We identified a novel group of Tn7-like transposons in Cyanobacteria that preferentially target CRISPR arrays, suggesting a new functional interaction between these elements and CRISPR-Cas systems. Using bioinformatics tools, we characterized their phylogeny, target specificity, and sub-specialization. The array-targeting elements are phylogenetically close to tRNA-targeting elements. The distinct target preference coincides with loss of a C-terminal region in the TnsD protein which is responsible for recognizing target sites when compared to closely related elements. Notably, elements are found integrated into a fixed position within CRISPR spacer regions, a behavior that might minimize negative impacts on the host defense system. These transposons were identified in both plasmid and genomic CRISPR arrays, indicating that their preferred target provides a means for both safe insertion in the host chromosome and a mechanism for dissemination. Attempts to reconstitute these elements in E. coli were unsuccessful, indicating possible dependence on native host factors. Our findings expand the diversity of interactions between Tn7-like transposons and CRISPR systems.",
+"statements": [
+{
+"j": 1,
+"text": "The elements integrate at a fixed position inside CRISPR spacer regions."
+},
+{
+"j": 2,
+"text": "The shift in target preference coincided with a gained C-terminal region of the TnsD protein."
+},
+{
+"j": 3,
+"text": "These transposons transfer between cyanobacterial strains at measurable rates in culture."
+},
+{
+"j": 4,
+"text": "Phylogenetic analysis placed the CRISPR-array-targeting elements close to elements that target tRNA genes."
+}
+]
+},
+{
+"n": 435,
+"id": "pmid:38470545",
+"year": 2024,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Purpose",
+"text": "We previously demonstrated the clinical significance of circulating tumor DNA (ctDNA) in patients with HER2-negative breast cancer receiving neoadjuvant chemotherapy (NAC). Here, we compared its predictive and prognostic value with cell-free DNA (cfDNA) concentration measured in the same samples from the same patients."
+},
+{
+"label": "Experimental design",
+"text": "145 patients with hormone receptor (HR)-positive/HER2-negative and 138 triple-negative breast cancer (TNBC) with ctDNA data from a previous study were included in the analysis. Associations of serial cfDNA concentration with residual cancer burden (RCB) and distant recurrence-free survival (DRFS) were examined."
+},
+{
+"label": "Results",
+"text": "In TNBC, we observed a modest negative correlation between cfDNA concentration 3 weeks after treatment initiation and RCB, but none of the other timepoints showed significant correlation. In contrast, ctDNA was significantly positively correlated with RCB at all timepoints (all R > 0.3 and P < 0.05). In the HR-positive/HER2-negative group, cfDNA concentration did not associate with response to NAC, but survival analysis showed that high cfDNA shedders at pretreatment had a significantly worse DRFS than low shedders (hazard ratio, 2.12; P = 0.037). In TNBC, the difference in survival between high versus low cfDNA shedders at all timepoints was not statistically significant. In contrast, as previously reported, ctDNA at all timepoints was significantly correlated with DRFS in both subtypes."
+},
+{
+"label": "Conclusions",
+"text": "In TNBC, cfDNA concentrations during therapy were not strongly correlated with response or prognosis. In the HR-positive/HER2-negative group, pretreatment cfDNA concentration was prognostic for DRFS. Overall, the predictive and prognostic value of cfDNA concentration was more limited than that of ctDNA."
+}
+],
+"text": "We previously demonstrated the clinical significance of circulating tumor DNA (ctDNA) in patients with HER2-negative breast cancer receiving neoadjuvant chemotherapy (NAC). Here, we compared its predictive and prognostic value with cell-free DNA (cfDNA) concentration measured in the same samples from the same patients. 145 patients with hormone receptor (HR)-positive/HER2-negative and 138 triple-negative breast cancer (TNBC) with ctDNA data from a previous study were included in the analysis. Associations of serial cfDNA concentration with residual cancer burden (RCB) and distant recurrence-free survival (DRFS) were examined. In TNBC, we observed a modest negative correlation between cfDNA concentration 3 weeks after treatment initiation and RCB, but none of the other timepoints showed significant correlation. In contrast, ctDNA was significantly positively correlated with RCB at all timepoints (all R > 0.3 and P < 0.05). In the HR-positive/HER2-negative group, cfDNA concentration did not associate with response to NAC, but survival analysis showed that high cfDNA shedders at pretreatment had a significantly worse DRFS than low shedders (hazard ratio, 2.12; P = 0.037). In TNBC, the difference in survival between high versus low cfDNA shedders at all timepoints was not statistically significant. In contrast, as previously reported, ctDNA at all timepoints was significantly correlated with DRFS in both subtypes. In TNBC, cfDNA concentrations during therapy were not strongly correlated with response or prognosis. In the HR-positive/HER2-negative group, pretreatment cfDNA concentration was prognostic for DRFS. Overall, the predictive and prognostic value of cfDNA concentration was more limited than that of ctDNA.",
+"statements": [
+{
+"j": 1,
+"text": "Among HR-positive/HER2-negative patients, high pretreatment cfDNA shedders had significantly worse DRFS than low shedders (hazard ratio 2.12, P = 0.037)."
+},
+{
+"j": 2,
+"text": "cfDNA concentration has the same limited prognostic value in HER2-positive breast cancer."
+},
+{
+"j": 3,
+"text": "In TNBC, survival did not differ significantly between high and low cfDNA shedders at any timepoint."
+},
+{
+"j": 4,
+"text": "In TNBC, ctDNA was significantly negatively correlated with residual cancer burden at all timepoints."
+}
+]
+},
+{
+"n": 436,
+"id": "pmid:42893750",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Introduction",
+"text": "Long non-coding RNAs have been implicated in crucial roles in developing malignant tumors. However, comprehensive analyses of lncRNA within the tumor microenvironment, particularly at the single-cell level across various tumor types, remain limited."
+},
+{
+"label": "Objectives",
+"text": "This study aimed to establish a comprehensive methodological framework for prioritizing and identifying novel cancer-associated lncRNA biomarkers and potential therapeutic targets at the single-cell level, and to integrate these findings into a unified platform."
+},
+{
+"label": "Methods",
+"text": "We developed SIGLNCOS, a computational framework for analyzing single-cell lncRNA regulation via: i) Constructing the lncRNA visualization landscape. ii) Identifying cellular signature lncRNA. iii) Functional enrichment of clncRNAs. iv) Identifying co-lncRNA pairs based on shared functional annotations and weighted functional association scores. Cell-composition-adjusted prognostic analysis evaluated the prognostic relevance of individual lncRNAs and co-lncRNA pairs."
+},
+{
+"label": "Results",
+"text": "Applying SIGLNCOS, we identified 667 cellular-signature lncRNAs (clncRNAs) from over half a million single cells across 31 cancers, revealing their roles in immune modulation, tumor progression, and differentiation. NEAT1 was associated with distinct macrophage states and functional changes along pseudotime. SIGLNCOS identified 3,381 co-lncRNA pairs involved in key cancer-related pathways, revealing a complex landscape of lncRNA co-regulation. Notably, we uncovered distinct co-lncRNA networks associated with different thyroid cancer states, particularly between papillary thyroid carcinoma and anaplastic thyroid carcinoma. These networks exhibit functionally concordant regulatory effects that individual lncRNAs cannot, underscoring the importance of co-regulation in tumor evolution. The prognostic analysis demonstrated that co-lncRNA networks outperform individual lncRNAs in predicting patient outcomes, emphasizing their potential as biomarkers and therapeutic targets."
+},
+{
+"label": "Conclusion",
+"text": "This study constructs pan-cancer lncRNA landscapes and develops SIGLNCOS, a comprehensive framework for uncovering lncRNA at single-cell resolution, offering new insights into cancer biology and potential avenues for targeted therapies and novel biomarker discovery. We further developed sCo-Lnc (https://bio-bigdata.hrbmu.edu.cn/scolnc), a web-based platform for visualizing novel lncRNA biomarkers across cancers."
+}
+],
+"text": "Long non-coding RNAs have been implicated in crucial roles in developing malignant tumors. However, comprehensive analyses of lncRNA within the tumor microenvironment, particularly at the single-cell level across various tumor types, remain limited. This study aimed to establish a comprehensive methodological framework for prioritizing and identifying novel cancer-associated lncRNA biomarkers and potential therapeutic targets at the single-cell level, and to integrate these findings into a unified platform. We developed SIGLNCOS, a computational framework for analyzing single-cell lncRNA regulation via: i) Constructing the lncRNA visualization landscape. ii) Identifying cellular signature lncRNA. iii) Functional enrichment of clncRNAs. iv) Identifying co-lncRNA pairs based on shared functional annotations and weighted functional association scores. Cell-composition-adjusted prognostic analysis evaluated the prognostic relevance of individual lncRNAs and co-lncRNA pairs. Applying SIGLNCOS, we identified 667 cellular-signature lncRNAs (clncRNAs) from over half a million single cells across 31 cancers, revealing their roles in immune modulation, tumor progression, and differentiation. NEAT1 was associated with distinct macrophage states and functional changes along pseudotime. SIGLNCOS identified 3,381 co-lncRNA pairs involved in key cancer-related pathways, revealing a complex landscape of lncRNA co-regulation. Notably, we uncovered distinct co-lncRNA networks associated with different thyroid cancer states, particularly between papillary thyroid carcinoma and anaplastic thyroid carcinoma. These networks exhibit functionally concordant regulatory effects that individual lncRNAs cannot, underscoring the importance of co-regulation in tumor evolution. The prognostic analysis demonstrated that co-lncRNA networks outperform individual lncRNAs in predicting patient outcomes, emphasizing their potential as biomarkers and therapeutic targets. This study constructs pan-cancer lncRNA landscapes and develops SIGLNCOS, a comprehensive framework for uncovering lncRNA at single-cell resolution, offering new insights into cancer biology and potential avenues for targeted therapies and novel biomarker discovery. We further developed sCo-Lnc (https://bio-bigdata.hrbmu.edu.cn/scolnc), a web-based platform for visualizing novel lncRNA biomarkers across cancers.",
+"statements": [
+{
+"j": 1,
+"text": "The framework pinpointed 3,381 co-lncRNA pairs acting in key cancer-related pathways."
+},
+{
+"j": 2,
+"text": "SIGLNCOS extracted 667 cellular-signature lncRNAs from over half a million single cells spanning 31 cancer types."
+},
+{
+"j": 3,
+"text": "Knocking down NEAT1 shifted macrophages toward an anti-tumor state."
+},
+{
+"j": 4,
+"text": "Co-lncRNA networks underperformed individual lncRNAs in predicting patient outcomes."
+}
+]
+},
+{
+"n": 437,
+"id": "pmid:37032811",
+"year": 2023,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Mutational signatures computed from somatic mutations, allow an in-depth understanding of tumorigenesis and may illuminate early prevention strategies. Many studies have shown the regulation effects between somatic mutation and gene expression dysregulation."
+},
+{
+"label": "Methods",
+"text": "We hypothesized that there are potential associations between mutational signature and gene expression. We capitalized upon RNA-seq data to model 49 established mutational signatures in 33 cancer types. Both accuracy and area under the curve were used as performance measures in five-fold cross-validation."
+},
+{
+"label": "Results",
+"text": "A total of 475 models using unconstrained genes, and 112 models using protein-coding genes were selected for future inference purposes. An independent gene expression dataset on lung cancer smoking status was used for validation which achieved over 80% for both accuracy and area under the curve."
+},
+{
+"label": "Conclusion",
+"text": "These results demonstrate that the associations between gene expression and somatic mutations can translate into the associations between gene expression and mutational signatures."
+}
+],
+"text": "Mutational signatures computed from somatic mutations, allow an in-depth understanding of tumorigenesis and may illuminate early prevention strategies. Many studies have shown the regulation effects between somatic mutation and gene expression dysregulation. We hypothesized that there are potential associations between mutational signature and gene expression. We capitalized upon RNA-seq data to model 49 established mutational signatures in 33 cancer types. Both accuracy and area under the curve were used as performance measures in five-fold cross-validation. A total of 475 models using unconstrained genes, and 112 models using protein-coding genes were selected for future inference purposes. An independent gene expression dataset on lung cancer smoking status was used for validation which achieved over 80% for both accuracy and area under the curve. These results demonstrate that the associations between gene expression and somatic mutations can translate into the associations between gene expression and mutational signatures.",
+"statements": [
+{
+"j": 1,
+"text": "Model selection retained 475 models built on unconstrained genes and 112 built on protein-coding genes."
+},
+{
+"j": 2,
+"text": "Forty-nine established mutational signatures were modelled from RNA-seq expression data across 33 cancer types."
+},
+{
+"j": 3,
+"text": "In the independent lung cancer smoking-status validation set, accuracy and area under the curve were both below 80 %."
+},
+{
+"j": 4,
+"text": "Expression-based prediction of mutational signatures removes the need to sequence tumor DNA in clinical practice."
+}
+]
+},
+{
+"n": 438,
+"id": "pmid:40790260",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The active DNA demethylase Repressor of Silencing 1 (ROS1) regulates genomic DNA methylation patterns during plant development. ROS1 expression is promoted by DNA methylation within its promoter region. However, the mechanisms and biological significance of ROS1 regulation under abiotic stresses remain elusive. Here we show that heat stress reduces DNA methylation in the ROS1 promoter to suppress its expression. Under normal conditions, SUVH1 and SUVH3 bind methylated ROS1 promoter regions, inhibiting chromatin interactions around the ROS1 locus; heat stress triggers their dissociation, enabling chromatin loop formation to suppress ROS1 transcription. Transgenic plants with exogenous ROS1 maintain high expression levels during heat stress, causing transposable element hypomethylation and enhanced transcription and transgenerational transposition of the heat-activated retrotransposon ONSEN. We propose that heat-induced suppression of ROS1 transcription, which is conserved across plant species, serves as a brake system to limit transposable element activation, thereby safeguarding genome stability."
+}
+],
+"text": "The active DNA demethylase Repressor of Silencing 1 (ROS1) regulates genomic DNA methylation patterns during plant development. ROS1 expression is promoted by DNA methylation within its promoter region. However, the mechanisms and biological significance of ROS1 regulation under abiotic stresses remain elusive. Here we show that heat stress reduces DNA methylation in the ROS1 promoter to suppress its expression. Under normal conditions, SUVH1 and SUVH3 bind methylated ROS1 promoter regions, inhibiting chromatin interactions around the ROS1 locus; heat stress triggers their dissociation, enabling chromatin loop formation to suppress ROS1 transcription. Transgenic plants with exogenous ROS1 maintain high expression levels during heat stress, causing transposable element hypomethylation and enhanced transcription and transgenerational transposition of the heat-activated retrotransposon ONSEN. We propose that heat-induced suppression of ROS1 transcription, which is conserved across plant species, serves as a brake system to limit transposable element activation, thereby safeguarding genome stability.",
+"statements": [
+{
+"j": 1,
+"text": "Heat stress elevated DNA methylation in the ROS1 promoter."
+},
+{
+"j": 2,
+"text": "Under normal conditions SUVH1 and SUVH3 bind the methylated ROS1 promoter and block chromatin interactions at the locus; heat triggers their dissociation."
+},
+{
+"j": 3,
+"text": "Plants lacking ROS1 activity survive heat stress better than wild-type plants."
+},
+{
+"j": 4,
+"text": "Transgenic plants that sustained ROS1 expression during heat stress showed loss of transposable element methylation and transgenerational ONSEN transposition."
+}
+]
+},
+{
+"n": 439,
+"id": "pmid:41619106",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Circulating tumor DNA (ctDNA) has emerged as a prognostic biomarker for breast cancer, potentially offering a more comprehensive representation of tumor genetic heterogeneity. In this study, we assessed the prognostic and monitoring values of ctDNA at multiple clinical time points during diagnosis and therapy."
+},
+{
+"label": "Methods",
+"text": "A total of 119 patients with breast cancer underwent ctDNA analysis using next-generation sequencing, targeting 47 breast cancer-related genes at three predefined time points (baseline, post-neoadjuvant chemotherapy [post-NAC], and follow-up). Disease-free survival (DFS) was analyzed based on ctDNA status."
+},
+{
+"label": "Results",
+"text": "ctDNA was detected in 50.9% of patients at baseline, 25.0% post-NAC, and 58.3% during follow-up. ctDNA positivity was associated with worse DFS at baseline (hazard ratio [HR] 7.54, 95% CI: 1.71-33.17, P = 0.008), post-NAC (HR 3.54, 95% CI: 1.24-10.12, P = 0.018), and follow-up (HR 7.68, 95% CI: 0.98-59.97, P = 0.052). TP53 mutations were the most frequently observed, present in 37.5%, 14.8%, and 20.4% of patients at baseline, post-NAC, and follow-up, respectively. PIK3CA mutations were the second most common, detected in 11.6%, 4.5%, and 5.8% of patients, respectively. ctDNA positivity for these mutations consistently showed elevated HRs for disease progression across clinical time points (HR range, 2.73-20.49). ctDNA non-clearance was associated with the highest risk of disease progression (HR 81.09, P < 0.001) and remained the strongest independent prognostic factor in the multivariate analysis (HR 52.07, P < 0.001)."
+},
+{
+"label": "Conclusions",
+"text": "ctDNA analysis provides significant clinical utility for prognostic stratification and disease monitoring in breast cancer management."
+}
+],
+"text": "Circulating tumor DNA (ctDNA) has emerged as a prognostic biomarker for breast cancer, potentially offering a more comprehensive representation of tumor genetic heterogeneity. In this study, we assessed the prognostic and monitoring values of ctDNA at multiple clinical time points during diagnosis and therapy. A total of 119 patients with breast cancer underwent ctDNA analysis using next-generation sequencing, targeting 47 breast cancer-related genes at three predefined time points (baseline, post-neoadjuvant chemotherapy [post-NAC], and follow-up). Disease-free survival (DFS) was analyzed based on ctDNA status. ctDNA was detected in 50.9% of patients at baseline, 25.0% post-NAC, and 58.3% during follow-up. ctDNA positivity was associated with worse DFS at baseline (hazard ratio [HR] 7.54, 95% CI: 1.71-33.17, P = 0.008), post-NAC (HR 3.54, 95% CI: 1.24-10.12, P = 0.018), and follow-up (HR 7.68, 95% CI: 0.98-59.97, P = 0.052). TP53 mutations were the most frequently observed, present in 37.5%, 14.8%, and 20.4% of patients at baseline, post-NAC, and follow-up, respectively. PIK3CA mutations were the second most common, detected in 11.6%, 4.5%, and 5.8% of patients, respectively. ctDNA positivity for these mutations consistently showed elevated HRs for disease progression across clinical time points (HR range, 2.73-20.49). ctDNA non-clearance was associated with the highest risk of disease progression (HR 81.09, P < 0.001) and remained the strongest independent prognostic factor in the multivariate analysis (HR 52.07, P < 0.001). ctDNA analysis provides significant clinical utility for prognostic stratification and disease monitoring in breast cancer management.",
+"statements": [
+{
+"j": 1,
+"text": "ctDNA was detected in 50.9 % of patients at baseline, 25.0 % after neoadjuvant chemotherapy, and 58.3 % at follow-up."
+},
+{
+"j": 2,
+"text": "Failure to clear ctDNA carried the highest risk of disease progression and remained the strongest independent prognostic factor in multivariate analysis."
+},
+{
+"j": 3,
+"text": "Patients with TP53-mutant ctDNA benefited from platinum-based chemotherapy."
+},
+{
+"j": 4,
+"text": "ctDNA positivity for TP53 and PIK3CA mutations showed reduced hazard ratios for disease progression at every time point."
+}
+]
+},
+{
+"n": 440,
+"id": "pmid:39276497",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Objective",
+"text": "Endometrial carcinoma (EC) has different molecular subtypes associated with varied prognosis. We sought to characterize the molecular features of ECs with POLE hotspot mutations and concurrent mismatch repair (MMR) deficiency/high microsatellite instability (MSI)."
+},
+{
+"label": "Methods",
+"text": "We identified POLE-mutated (POLEmut), MMR-deficient (MMRd)/MSI-high (MSI-H), or combined POLEmut/MMRd ECs subjected to clinical tumor-normal panel sequencing between 2014 and 2023. Clonality of somatic mutations, MSI scoring, tumor mutational burden (TMB), proportion of somatic insertions and deletions (indels), and single base substitution (SBS) mutational signatures were extracted."
+},
+{
+"label": "Results",
+"text": "We identified 41 ECs harboring POLE exonuclease domain hotspot mutations, 138 MMRd and/or MSI-H ECs, and 14 POLEmut/MMRd ECs. Among the 14 POLEmut/MMRd ECs, 11 (79 %) exhibited clonal POLE hotspot mutations; 4 (29 %) had a dominant POLE-related mutational signature, 4 (29 %) displayed dominant MMRd-related signatures, and 6 (43 %) had mixtures of POLE, aging/clock, MMRd, and POLEmut/MMRd-related SBS mutational signatures. The number of single nucleotide variants was higher in POLEmut/MMR-proficient (MMRp) and in POLEmut/MMRd ECs compared to POLE wild-type (wt)/MMRd EC (both p < 0.001). Small indels were enriched in POLEwt/MMRd ECs (p < 0.001). TMB was highest in POLEmut/MMRd EC compared to POLEmut/MMRp and POLEwt/MMRd ECs (both p < 0.001). Of 14 patients with POLEmut/MMRd EC, 21 % had a recurrence, versus 10 % of those with POLEmut/MMRp EC. Similar findings were noted in 3 POLEmut ECs in patients with Lynch syndrome; akin to somatic POLEmut ECs, these tumors had high TMB."
+},
+{
+"label": "Conclusion",
+"text": "POLEmut/MMRd ECs may be genetically distinct. Further studies are needed to assess the impact on outcomes and treatment response within this population."
+}
+],
+"text": "Endometrial carcinoma (EC) has different molecular subtypes associated with varied prognosis. We sought to characterize the molecular features of ECs with POLE hotspot mutations and concurrent mismatch repair (MMR) deficiency/high microsatellite instability (MSI). We identified POLE-mutated (POLEmut), MMR-deficient (MMRd)/MSI-high (MSI-H), or combined POLEmut/MMRd ECs subjected to clinical tumor-normal panel sequencing between 2014 and 2023. Clonality of somatic mutations, MSI scoring, tumor mutational burden (TMB), proportion of somatic insertions and deletions (indels), and single base substitution (SBS) mutational signatures were extracted. We identified 41 ECs harboring POLE exonuclease domain hotspot mutations, 138 MMRd and/or MSI-H ECs, and 14 POLEmut/MMRd ECs. Among the 14 POLEmut/MMRd ECs, 11 (79 %) exhibited clonal POLE hotspot mutations; 4 (29 %) had a dominant POLE-related mutational signature, 4 (29 %) displayed dominant MMRd-related signatures, and 6 (43 %) had mixtures of POLE, aging/clock, MMRd, and POLEmut/MMRd-related SBS mutational signatures. The number of single nucleotide variants was higher in POLEmut/MMR-proficient (MMRp) and in POLEmut/MMRd ECs compared to POLE wild-type (wt)/MMRd EC (both p < 0.001). Small indels were enriched in POLEwt/MMRd ECs (p < 0.001). TMB was highest in POLEmut/MMRd EC compared to POLEmut/MMRp and POLEwt/MMRd ECs (both p < 0.001). Of 14 patients with POLEmut/MMRd EC, 21 % had a recurrence, versus 10 % of those with POLEmut/MMRp EC. Similar findings were noted in 3 POLEmut ECs in patients with Lynch syndrome; akin to somatic POLEmut ECs, these tumors had high TMB. POLEmut/MMRd ECs may be genetically distinct. Further studies are needed to assess the impact on outcomes and treatment response within this population.",
+"statements": [
+{
+"j": 1,
+"text": "Among the 14 POLEmut/MMRd carcinomas, 11 (79 %) harboured clonal POLE hotspot mutations."
+},
+{
+"j": 2,
+"text": "Small insertions and deletions were depleted in POLE wild-type, MMR-deficient endometrial carcinomas."
+},
+{
+"j": 3,
+"text": "Tumor mutational burden was highest in POLEmut/MMRd carcinomas compared with POLEmut/MMRp and POLEwt/MMRd tumors."
+},
+{
+"j": 4,
+"text": "POLEmut/MMRd carcinomas respond to immune checkpoint blockade as well as MMR-deficient carcinomas do."
+}
+]
+},
+{
+"n": 441,
+"id": "doi:10.64898/2026.09.24.754008",
+"year": 2026,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Genome-scale metabolic models guide rational strain engineering, while high-throughput insertional mutagenesis enables systematic investigation of gene function and condition-dependent growth requirements. However, a platform integrating high-density transposon insertion sequencing with matched stoichiometric, thermodynamic, enzyme-constrained and combined metabolic models has not, to our knowledge, been reported in Aspergillus . Here, we establish a unified experimental and computational platform in Aspergillus niger ATCC 1015 by combining curated metabolic reconstruction, Ac/Ds transposon mutagenesis and machine-learning-based essentiality prediction. Our stoichiometric reconstruction, FBA1015, expands reaction coverage and compartmental resolution beyond four published reconstructions. From FBA1015, we developed three models sharing its biochemical network: GECKO light with enzyme-capacity constraints, TFA with thermodynamic constraints and ecTFA combining both. FBA1015 and its derivatives performed competitively in phenotype benchmarks, with added constraints improving agreement with measured growth and gas exchange. Insertion libraries grown in rich medium, glucose or xylose achieved genome-wide densities of one distinct site per 21–112 bp across individual libraries. A machine-learning classifier integrated insertion patterns and gene structure to predict essentiality across 11,111 genes. Applying a stringent consensus criterion identified 709 genes predicted essential on both glucose and xylose as sole carbon sources, and 91 predicted essential on one but nonessential on the other. Integration with simulated gene deletions prioritizes candidate genes and testable pathway hypotheses, connecting high-throughput genetic screening with mechanistic analysis for fungal functional investigation and strain engineering."
+}
+],
+"text": "Genome-scale metabolic models guide rational strain engineering, while high-throughput insertional mutagenesis enables systematic investigation of gene function and condition-dependent growth requirements. However, a platform integrating high-density transposon insertion sequencing with matched stoichiometric, thermodynamic, enzyme-constrained and combined metabolic models has not, to our knowledge, been reported in Aspergillus . Here, we establish a unified experimental and computational platform in Aspergillus niger ATCC 1015 by combining curated metabolic reconstruction, Ac/Ds transposon mutagenesis and machine-learning-based essentiality prediction. Our stoichiometric reconstruction, FBA1015, expands reaction coverage and compartmental resolution beyond four published reconstructions. From FBA1015, we developed three models sharing its biochemical network: GECKO light with enzyme-capacity constraints, TFA with thermodynamic constraints and ecTFA combining both. FBA1015 and its derivatives performed competitively in phenotype benchmarks, with added constraints improving agreement with measured growth and gas exchange. Insertion libraries grown in rich medium, glucose or xylose achieved genome-wide densities of one distinct site per 21–112 bp across individual libraries. A machine-learning classifier integrated insertion patterns and gene structure to predict essentiality across 11,111 genes. Applying a stringent consensus criterion identified 709 genes predicted essential on both glucose and xylose as sole carbon sources, and 91 predicted essential on one but nonessential on the other. Integration with simulated gene deletions prioritizes candidate genes and testable pathway hypotheses, connecting high-throughput genetic screening with mechanistic analysis for fungal functional investigation and strain engineering.",
+"statements": [
+{
+"j": 1,
+"text": "Insertion libraries reached genome-wide densities of one distinct site per 21 to 112 bp."
+},
+{
+"j": 2,
+"text": "A stringent consensus criterion flagged 709 genes as essential on both glucose and xylose and 91 as essential on only one of them."
+},
+{
+"j": 3,
+"text": "The essentiality predictions hold in other Aspergillus species."
+},
+{
+"j": 4,
+"text": "Adding enzyme-capacity and thermodynamic constraints worsened agreement with measured growth and gas exchange."
+}
+]
+},
+{
+"n": 442,
+"id": "pmid:42729067",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Clear cell renal cell carcinoma (ccRCC) remains a clinically heterogeneous urologic malignancy, and improved biomarkers are needed to refine prognostic stratification. VEPH1 has been implicated in cancer biology, but its role in ccRCC is incompletely defined. This study aimed to investigate the expression, prognostic relevance, and functional effects of VEPH1 in ccRCC."
+},
+{
+"label": "Methods",
+"text": "VEPH1 transcript expression and prognostic relevance were evaluated using The Cancer Genome Atlas Kidney Renal Clear Cell Carcinoma (TCGA-KIRC) dataset and the University of Alabama at Birmingham Cancer Data Analysis Portal (UALCAN) and validated in paired ccRCC and adjacent normal renal tissues. The ability of VEPH1 transcript expression to distinguish tumor from normal tissues within the TCGA-KIRC dataset was assessed by receiver operating characteristic analysis. Gain- and loss-of-function experiments were performed in 786-O and 769-P ccRCC cells to determine the effects of VEPH1 on epithelial-mesenchymal transition (EMT)-related markers, migration, and invasion. AKT and ERK phosphorylation was evaluated by western blotting."
+},
+{
+"label": "Results",
+"text": "VEPH1 transcript expression was significantly lower in ccRCC tissues than in normal renal tissues and distinguished tumor from normal samples within the TCGA-KIRC dataset. Low VEPH1 transcript expression was associated with poorer overall survival. Validation in 11 paired clinical specimens confirmed reduced VEPH1 messenger RNA (mRNA) and VEPH1 protein expression in tumor tissues. Functionally, VEPH1 overexpression increased E-cadherin, decreased N-cadherin, and suppressed migration and invasion, whereas partial VEPH1 knockdown produced the opposite changes. In exploratory signaling analyses, VEPH1 overexpression was associated with reduced AKT and ERK phosphorylation without altering total AKT or ERK levels."
+},
+{
+"label": "Conclusions",
+"text": "Reduced VEPH1 transcript expression was associated with poorer overall survival, whereas experimental VEPH1 depletion was associated with invasive and EMT-related features in ccRCC cells. VEPH1 may represent a candidate prognostic indicator in ccRCC; however, its relationship with AKT and ERK signaling and its clinical relevance require further mechanistic and independent-cohort validation."
+}
+],
+"text": "Clear cell renal cell carcinoma (ccRCC) remains a clinically heterogeneous urologic malignancy, and improved biomarkers are needed to refine prognostic stratification. VEPH1 has been implicated in cancer biology, but its role in ccRCC is incompletely defined. This study aimed to investigate the expression, prognostic relevance, and functional effects of VEPH1 in ccRCC. VEPH1 transcript expression and prognostic relevance were evaluated using The Cancer Genome Atlas Kidney Renal Clear Cell Carcinoma (TCGA-KIRC) dataset and the University of Alabama at Birmingham Cancer Data Analysis Portal (UALCAN) and validated in paired ccRCC and adjacent normal renal tissues. The ability of VEPH1 transcript expression to distinguish tumor from normal tissues within the TCGA-KIRC dataset was assessed by receiver operating characteristic analysis. Gain- and loss-of-function experiments were performed in 786-O and 769-P ccRCC cells to determine the effects of VEPH1 on epithelial-mesenchymal transition (EMT)-related markers, migration, and invasion. AKT and ERK phosphorylation was evaluated by western blotting. VEPH1 transcript expression was significantly lower in ccRCC tissues than in normal renal tissues and distinguished tumor from normal samples within the TCGA-KIRC dataset. Low VEPH1 transcript expression was associated with poorer overall survival. Validation in 11 paired clinical specimens confirmed reduced VEPH1 messenger RNA (mRNA) and VEPH1 protein expression in tumor tissues. Functionally, VEPH1 overexpression increased E-cadherin, decreased N-cadherin, and suppressed migration and invasion, whereas partial VEPH1 knockdown produced the opposite changes. In exploratory signaling analyses, VEPH1 overexpression was associated with reduced AKT and ERK phosphorylation without altering total AKT or ERK levels. Reduced VEPH1 transcript expression was associated with poorer overall survival, whereas experimental VEPH1 depletion was associated with invasive and EMT-related features in ccRCC cells. VEPH1 may represent a candidate prognostic indicator in ccRCC; however, its relationship with AKT and ERK signaling and its clinical relevance require further mechanistic and independent-cohort validation.",
+"statements": [
+{
+"j": 1,
+"text": "In 786-O and 769-P cells, VEPH1 overexpression raised E-cadherin, diminished N-cadherin, and suppressed migration and invasion."
+},
+{
+"j": 2,
+"text": "VEPH1 transcript expression was higher in ccRCC tissue than in normal renal tissue."
+},
+{
+"j": 3,
+"text": "VEPH1 expression predicts response to tyrosine kinase inhibitor therapy in ccRCC."
+},
+{
+"j": 4,
+"text": "In 11 paired clinical specimens, tumor tissue carried less VEPH1 mRNA and protein than matched normal tissue."
+}
+]
+},
+{
+"n": 443,
+"id": "pmid:40804861",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Background: Cell-free DNA (cfDNA) has become a cornerstone of liquid biopsy applications, offering promise for early disease detection and monitoring. However, its widespread clinical adoption is limited by variability in pre-analytical processing, especially during isolation. Current extraction methods face challenges in yield, purity, and reproducibility. Methods: We developed and optimized SafeCAP 2.0, a novel magnetic bead-based cfDNA extraction kit, focusing on efficient recovery, minimal genomic DNA contamination, and PCR compatibility. Optimization involved systematic evaluation of magnetic bead chemistry, buffer composition, and reagent volumes. Performance was benchmarked against a commercial reference kit (Apostle MiniMax) using spiked oligonucleotides and plasma from patients with stage IV NSCLC. Results: The optimized protocol demonstrated superior recovery with a limit of detection (LoD) as low as 0.3 pg/µL and a limit of quantification (LoQ) of 1 pg/μL with no detectable PCR inhibition. In comparative studies, SafeCAP 2.0 showed equivalent or improved performance over the commercial kit. Clinical validation using 47 patient plasma samples confirmed robust cfDNA recovery and fragment integrity. Conclusions: SafeCAP 2.0 offers a cost-effective, high-performance solution for cfDNA extraction in both research and clinical workflows. Its design and validation address key pre-analytical barriers, supporting integration into routine diagnostics and precision medicine platforms."
+}
+],
+"text": "Background: Cell-free DNA (cfDNA) has become a cornerstone of liquid biopsy applications, offering promise for early disease detection and monitoring. However, its widespread clinical adoption is limited by variability in pre-analytical processing, especially during isolation. Current extraction methods face challenges in yield, purity, and reproducibility. Methods: We developed and optimized SafeCAP 2.0, a novel magnetic bead-based cfDNA extraction kit, focusing on efficient recovery, minimal genomic DNA contamination, and PCR compatibility. Optimization involved systematic evaluation of magnetic bead chemistry, buffer composition, and reagent volumes. Performance was benchmarked against a commercial reference kit (Apostle MiniMax) using spiked oligonucleotides and plasma from patients with stage IV NSCLC. Results: The optimized protocol demonstrated superior recovery with a limit of detection (LoD) as low as 0.3 pg/µL and a limit of quantification (LoQ) of 1 pg/μL with no detectable PCR inhibition. In comparative studies, SafeCAP 2.0 showed equivalent or improved performance over the commercial kit. Clinical validation using 47 patient plasma samples confirmed robust cfDNA recovery and fragment integrity. Conclusions: SafeCAP 2.0 offers a cost-effective, high-performance solution for cfDNA extraction in both research and clinical workflows. Its design and validation address key pre-analytical barriers, supporting integration into routine diagnostics and precision medicine platforms.",
+"statements": [
+{
+"j": 1,
+"text": "Benchmarking used spiked oligonucleotides and plasma from patients with stage IV NSCLC against the Apostle MiniMax kit."
+},
+{
+"j": 2,
+"text": "The optimized SafeCAP 2.0 protocol achieved inferior cfDNA recovery with no detectable PCR inhibition."
+},
+{
+"j": 3,
+"text": "Extraction with SafeCAP 2.0 yields cfDNA suitable for whole-genome bisulfite sequencing."
+},
+{
+"j": 4,
+"text": "Clinical validation on 47 patient plasma samples confirmed robust cfDNA recovery and fragment integrity."
+}
+]
+}
+]
+}

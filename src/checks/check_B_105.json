@@ -1,0 +1,73 @@
+{"batch": "check_B_105", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+  {"n": 1695, "id": "pmid:27174990",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "H3K36M mutant nucleosomes inhibit the enzymatic activities of several H3K36 methyltransferases."},
+    {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "a genome-wide gain in H3K27 methylation leads to a redistribution of polycomb repressive complex 1"},
+    {"j": 3, "label": "not_addressed", "confidence": 2, "evidence": "the H3 lysine 36-to-methionine (H3K36M) mutation impairs the differentiation of mesenchymal progenitor cells and generates undifferentiated sarcoma in vivo.", "flag": "ambiguous", "reason": "The abstract says 'in vivo' and never names the organism; calling it mice would need field knowledge the abstract does not supply."},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Several types of pediatric cancers reportedly contain high-frequency missense mutations in histone H3"}
+   ]},
+  {"n": 1696, "id": "pmid:31324781",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Csf1r ΔFIRE/ΔFIRE mice lack macrophages in the embryo, brain microglia and resident macrophages in the skin, kidney, heart and peritoneum."},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "genomic deletion of FIRE in mice selectively impacts CSF1R expression and tissue macrophage development in specific tissues"},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "The mammalian Csf1r locus contains a highly conserved super-enhancer, the fms-intronic regulatory element (FIRE)."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Deletion of FIRE ablates macrophage development from murine embryonic stem cells."}
+   ]},
+  {"n": 1697, "id": "pmid:31543422",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "to form complexes with increased multivalent engagement of H3K9me2 and 3-modified chromatin"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "they are highly dense chromatin-containing structures that are resistant to DNase and exclude the general transcription factor TFIIB"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "H3K9me2 and 3-marked nucleosomal arrays and associated complexes undergo phase separation to form macromolecule-enriched liquid droplets."},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Our data suggest a general mechanism by which histone marks regulate chromosome compartmentalization by promoting phase separation."}
+   ]},
+  {"n": 1698, "id": "pmid:27058788",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "The pioneer factor FoxA displaces linker histone H1, thereby keeping enhancer nucleosomes accessible in chromatin"},
+    {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "MNase-accessible nucleosomes, bound by transcription factors, are retained more at liver-specific enhancers than at promoters and ubiquitous enhancers."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "We combined low and high levels of micrococcal nuclease (MNase) digestion along with core histone mapping to assess the nucleosomal configuration at enhancers and promoters in mouse liver."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "The pioneer factor FoxA displaces linker histone H1, thereby keeping enhancer nucleosomes accessible in chromatin and allowing other liver-specific transcription factors to bind and stimulate transcription."}
+   ]},
+  {"n": 1699, "id": "pmid:27133166",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "While globally the chromatin becomes silenced by these marks, remaining portions of the chromatin open up, at which point the binding of canonical stress responsive factors such as DVE-1 occurs."},
+    {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Organisms respond to mitochondrial stress through the upregulation of an array of protective genes"},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "a metabolic stress response is established and propagated into adulthood of animals through specific epigenetic modifications that allow for selective gene expression and lifespan extension"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Mitochondrial stress response activation requires the di-methylation of histone H3K9 through the activity of the histone methyltransferase met-2 and the nuclear co-factor lin-65."}
+   ]},
+  {"n": 1700, "id": "pmid:30250250",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Some transcription factors specifically interact with DNA located at the dyad position at which only one DNA gyre is wound, whereas other transcription factors prefer sites spanning two DNA gyres and bind specifically to each of them."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "Here we systematically explore interactions between the nucleosome and 220 transcription factors representing diverse structural families."},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "we find that the majority of the studied transcription factors have less access to nucleosomal DNA than to free DNA"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Many transcription factors preferentially bind close to the end of nucleosomal DNA, or to periodic positions on the solvent-exposed side of the DNA."}
+   ]},
+  {"n": 1701, "id": "pmid:27105114",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "AF9 co-localizes with crotonylated histone H3 and positively regulates gene expression in a YEATS domain-dependent manner"},
+    {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "the AF9 YEATS domain displays selectively higher binding affinity for crotonyllysine over acetyllysine"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "Using a cell-based model, we showed that AF9 co-localizes with crotonylated histone H3 and positively regulates gene expression in a YEATS domain-dependent manner."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "These features are conserved among the YEATS, but not the bromodomains."}
+   ]},
+  {"n": 1702, "id": "pmid:31494034",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "is impeded by chromatin-bound proteins located between the enhancer and the promoter, and appears to involve the catalytic activity of poly (ADP-ribose) polymerase"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "this can be recapitulated by synthetic enhancer activation, is impeded by chromatin-bound proteins located between the enhancer and the promoter"},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "we observe a decreased spatial proximity between Shh and its enhancers during the differentiation of embryonic stem cells to neural progenitors"},
+    {"j": 4, "label": "supported", "confidence": 2, "evidence": "appears to involve the catalytic activity of poly (ADP-ribose) polymerase", "flag": "ambiguous", "reason": "The abstract says the change 'appears to involve' PARP catalytic activity; the statement reads this as 'required', a modest strengthening of involvement to necessity."}
+   ]},
+  {"n": 1703, "id": "pmid:31883952",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Using a fully catalytic inactive RING1B mutant, we demonstrated that H2AK119ub1 deposition is essential to maintain PcG-target gene repression in embryonic stem cells (ESCs)."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "Loss of H2AK119ub1 induced a rapid displacement of PRC2 activity and a loss of H3K27me3 deposition. This preferentially affected PRC2.2 variant with respect to PRC2.1, destabilizing canonical PRC1 activity."},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "H2AK119ub1 deposition is essential to maintain PcG-target gene repression in embryonic stem cells (ESCs)"},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "variant PRC1 forms can sense H2AK119ub1 deposition, which contributes to their stabilization specifically at sites where this modification is highly enriched"}
+   ]},
+  {"n": 1704, "id": "pmid:29378787",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We show that RNA polymerase II (RNAPII) undergoes regulated pausing and release at enhancers."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "We show that RNA polymerase II (RNAPII) undergoes regulated pausing and release at enhancers."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "transcription is a nearly universal feature of enhancers in Drosophila and mammalian cells"},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "as compared with mRNA genes, RNAPII at enhancers is less stable and more prone to early termination"}
+   ]}
+ ]}

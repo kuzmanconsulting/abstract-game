@@ -1,0 +1,347 @@
+{
+"batch": "gen_112",
+"prompt_version": "gen-v5",
+"flip_rule": "first-of-any-v3",
+"items": [
+{
+"n": 1765,
+"id": "pmid:30575733",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "In Prf1-/- mice, impaired cell cytotoxicity coincided with a higher senescent-cell tissue burden and chronic inflammation.",
+"evidence": "Prf1 -/- mice with impaired cell cytotoxicity exhibit both higher senescent-cell tissue burden and chronic inflammation",
+"note": "The abstract reports these cytotoxicity-impaired mice carried a greater senescent-cell burden and inflammation."
+},
+{
+"k": 2,
+"label": "not_addressed",
+"text": "ABT-737 raised median survival when given to wild-type mice with intact cell cytotoxicity.",
+"evidence": "ABT-737 administration during the second half of life of these progeroid mice abrogates senescence signature and increases median survival",
+"note": "The survival benefit was shown in progeroid mice; no treatment of wild-type mice is reported."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Pharmacologically eliminating senescent cells with ABT-737 partially eased the accelerated-aging phenotype of the Prf1-/- mice.",
+"evidence": "pharmacological elimination of senescent-cells by ABT-737 partially alleviates accelerated aging phenotype in these mice",
+"note": "The abstract states ABT-737 partially alleviates the phenotype in these mice."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "In LMNA +/G609G progeroid mice, impaired cytotoxicity increased senescent-cell accumulation and shortened lifespan.",
+"evidence": "In LMNA +/G609G progeroid mice, impaired cell cytotoxicity further promotes senescent-cell accumulation and shortens lifespan",
+"note": "The abstract states impaired cytotoxicity further promotes accumulation and shortens lifespan."
+}
+]
+},
+{
+"n": 1766,
+"id": "pmid:31160572",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Senescent dermal fibroblasts expressed HLA-E, which engages the inhibitory receptor NKG2A on NK and highly differentiated CD8+ T cells to inhibit immune responses against them.",
+"evidence": "senescent dermal fibroblasts express the non-classical MHC molecule HLA-E, which interacts with the inhibitory receptor NKG2A expressed by NK and highly differentiated CD8 + T cells to inhibit immune responses against senescent cells",
+"note": "This inhibitory mechanism is stated directly."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "HLA-E on senescent cells was higher in skin from old individuals than from young, and in melanocytic nevi versus normal skin.",
+"evidence": "HLA-E expression is increased on senescent cells in human skin sections from old individuals, when compared with those from young, and in human melanocytic nevi relative to normal skin",
+"note": "The abstract reports increased HLA-E with age and in nevi."
+},
+{
+"k": 3,
+"label": "not_addressed",
+"text": "Clearing HLA-E-positive senescent cells extended lifespan in aged mice.",
+"evidence": "We thus propose that increased HLA-E expression contributes to persistence of senescent cells in tissues, thereby suggesting a new strategy for eliminating senescent cells during ageing",
+"note": "The work uses human samples and in vitro assays and only proposes a strategy; no lifespan or mouse experiment is reported."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Blocking the HLA-E-NKG2A interaction strengthened immune responses against senescent cells in vitro.",
+"evidence": "blocking the interaction between HLA-E and NKG2A boosts immune responses against senescent cells in vitro",
+"note": "Stated directly as an in vitro result."
+}
+]
+},
+{
+"n": 1767,
+"id": "pmid:27525720",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "NOTCH1 and NOTCH1-driven TGF-β drove lateral induction of senescence through a juxtacrine NOTCH-JAG1 pathway.",
+"evidence": "NOTCH1 and NOTCH1-driven TGF-β contribute to 'lateral induction of senescence' through a juxtacrine NOTCH-JAG1 pathway",
+"note": "Stated directly as a mechanism."
+},
+{
+"k": 2,
+"label": "not_addressed",
+"text": "The NOTCH1-driven TGF-β-rich secretome accelerated tumour growth in neighbouring cells.",
+"evidence": "which provides complex functionality for senescent cells within the tissue microenvironment",
+"note": "The abstract describes secretome composition and general functionality but reports no tumour-growth outcome."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Fluctuating NOTCH1 activity drove a TGF-β-rich secretome while suppressing the pro-inflammatory secretome by inhibiting C/EBPβ.",
+"evidence": "which drives a TGF-β-rich secretome, while suppressing the senescence-associated pro-inflammatory secretome through inhibition of C/EBPβ",
+"note": "Stated directly."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Inhibiting NOTCH1 during senescence upregulated pro-inflammatory cytokines and promoted lymphocyte recruitment and senescence surveillance in vivo.",
+"evidence": "NOTCH1 inhibition during senescence facilitates upregulation of pro-inflammatory cytokines, promoting lymphocyte recruitment and senescence surveillance in vivo",
+"note": "Stated directly."
+}
+]
+},
+{
+"n": 1768,
+"id": "pmid:30737259",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Clearing senescent cells, pharmacologically or genetically, decreased myocardial hypertrophy and fibrosis in aged mouse hearts.",
+"evidence": "Pharmacological or genetic clearance of senescent cells in mice alleviates detrimental features of cardiac ageing, including myocardial hypertrophy and fibrosis",
+"note": "The abstract states clearance alleviates these features of cardiac ageing."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "Cardiomyocyte telomere DNA damage arose independently of cell division and telomere length and could stem from mitochondrial dysfunction.",
+"evidence": "persistent DNA damage at telomere regions that can be driven by mitochondrial dysfunction and crucially can occur independently of cell division and telomere length",
+"note": "Stated directly."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Length-independent telomere damage activated p21CIP and p16INK4a and produced a pro-fibrotic, pro-hypertrophic secretory phenotype.",
+"evidence": "Length-independent telomere damage in cardiomyocytes activates the classical senescence-inducing pathways, p21 CIP and p16 INK4a , and results in a non-canonical senescence-associated secretory phenotype, which is pro-fibrotic and pro-hypertrophic",
+"note": "Stated directly."
+},
+{
+"k": 4,
+"label": "not_addressed",
+"text": "Senescent-cell clearance improved survival in the aged mice.",
+"evidence": "Our data describe a mechanism by which senescence can occur and contribute to age-related myocardial dysfunction and in the wider setting to ageing in post-mitotic tissues",
+"note": "The abstract reports reduced hypertrophy and fibrosis but no survival or lifespan measurement."
+}
+]
+},
+{
+"n": 1769,
+"id": "pmid:33731931",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Jak2 VF lesions had increased AIM2 expression, oxidative DNA damage and replication stress, and Aim2 deficiency reduced atherosclerosis.",
+"evidence": "Jak2 VF lesions showed increased expression of AIM2, oxidative DNA damage and DNA replication stress, and Aim2 deficiency reduced atherosclerosis",
+"note": "Stated directly."
+},
+{
+"k": 2,
+"label": "not_addressed",
+"text": "Carriers of JAK2 V617F clonal haematopoiesis responded better to statins than non-carriers.",
+"evidence": "Precise application of therapies that target interleukin-1β or specific inflammasomes according to clonal haematopoiesis status could substantially reduce cardiovascular risk",
+"note": "The abstract proposes IL-1β/inflammasome-targeted therapy by clonal-haematopoiesis status but never mentions statins."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Expressing Jak2 VF selectively in macrophages increased macrophage proliferation and necrotic-core formation in atherosclerotic lesions.",
+"evidence": "Here we show increased proliferation of macrophages and prominent formation of necrotic cores in atherosclerotic lesions in mice that express Jak2 VF selectively in macrophages",
+"note": "Stated directly."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Inhibiting interleukin-1β reduced macrophage proliferation and necrotic formation and thickened fibrous caps, stabilizing plaques.",
+"evidence": "Inhibition of the inflammasome product interleukin-1β reduced macrophage proliferation and necrotic formation while increasing the thickness of fibrous caps, indicating that it stabilized plaques",
+"note": "Stated directly."
+}
+]
+},
+{
+"n": 1770,
+"id": "pmid:36323784",
+"statements": [
+{
+"k": 1,
+"label": "not_addressed",
+"text": "PD-1 antibody treatment extended the lifespan of naturally ageing mice.",
+"evidence": "the elimination of PD-L1 + senescent cells by immune checkpoint blockade may be a promising strategy for anti-ageing therapy",
+"note": "The abstract reports fewer senescent cells and improved phenotypes but no lifespan or survival measurement."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "PD-L1-negative senescent cells were sensitive to T cell surveillance, whereas PD-L1-positive cells resisted it despite SASP.",
+"evidence": "PD-L1 - cells are sensitive to T cell surveillance, whereas PD-L1 + cells are resistant, even in the presence of senescence-associated secretory phenotypes (SASP)",
+"note": "Stated directly."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Among p16+ cells, PD-L1 expression correlated with higher SASP levels.",
+"evidence": "Single-cell analysis of p16 + cells in vivo revealed that PD-L1 expression correlated with higher levels of SASP",
+"note": "Stated directly from single-cell analysis."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "PD-1 antibody reduced total p16+ and PD-L1+ cell numbers via activated CD8+ T cells, easing ageing phenotypes.",
+"evidence": "reduces the total number of p16 + cells in vivo as well as the PD-L1 + population in an activated CD8 + T cell-dependent manner, ameliorating various ageing-related phenotypes",
+"note": "Stated directly."
+}
+]
+},
+{
+"n": 1771,
+"id": "pmid:28953873",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Deleting NLRP3 in aged mice restored catecholamine-induced lipolysis by downregulating GDF3 and MAOA.",
+"evidence": "Deletion of NLRP3 in ageing restored catecholamine-induced lipolysis by downregulating growth differentiation factor-3 (GDF3) and monoamine oxidase A (MAOA) that is known to degrade noradrenaline",
+"note": "Stated directly."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "Inhibiting MAOA reversed the age-related drop in adipose noradrenaline and restored lipolysis with increased ATGL and HSL.",
+"evidence": "inhibition of MAOA reversed the age-related reduction in noradrenaline concentration in adipose tissue, and restored lipolysis with increased levels of the key lipolytic enzymes adipose triglyceride lipase (ATGL) and hormone sensitive lipase (HSL)",
+"note": "Stated directly."
+},
+{
+"k": 3,
+"label": "not_addressed",
+"text": "The age-related lipolysis defect was more pronounced in male mice than in female mice.",
+"evidence": "The defect in the mobilization of free fatty acids in the elderly is accompanied by increased visceral adiposity, lower exercise capacity",
+"note": "The abstract characterizes the defect without ever comparing male and female animals."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Adipose tissue macrophages drove the age-related reduction in adipocyte lipolysis by lowering noradrenaline bioavailability in mice.",
+"evidence": "adipose tissue macrophages regulate the age-related reduction in adipocyte lipolysis in mice by lowering the bioavailability of noradrenaline",
+"note": "Stated directly."
+}
+]
+},
+{
+"n": 1772,
+"id": "pmid:33199924",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Pro-inflammatory M1-like macrophages, unlike naive or M2 macrophages, accumulated in visceral white adipose tissue and liver during ageing.",
+"evidence": "pro-inflammatory M1-like macrophages, but not naive or M2 macrophages, accumulate in metabolic tissues, including visceral white adipose tissue and liver, during ageing and acute responses to inflammation",
+"note": "Stated directly."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "These M1-like macrophages had high CD38 and enhanced CD38-dependent NADase activity, thereby lowering tissue NAD levels.",
+"evidence": "These M1-like macrophages express high levels of the NAD-consuming enzyme CD38 and have enhanced CD38-dependent NADase activity, thereby reducing tissue NAD levels",
+"note": "Stated directly."
+},
+{
+"k": 3,
+"label": "not_addressed",
+"text": "Supplementing an NAD precursor restored tissue NAD and reversed metabolic dysfunction in the aged mice.",
+"evidence": "These results uncover a new causal link among resident tissue macrophages, cellular senescence and tissue NAD decline during ageing and offer novel therapeutic opportunities to maintain NAD levels during ageing",
+"note": "The abstract raises therapeutic opportunities to maintain NAD but reports no supplementation experiment or outcome."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "SASP cytokines from senescent cells prompted macrophages to proliferate and express CD38.",
+"evidence": "inflammatory cytokines secreted by senescent cells (the senescence-associated secretory phenotype, SASP) induce macrophages to proliferate and express CD38",
+"note": "Stated directly."
+}
+]
+},
+{
+"n": 1773,
+"id": "pmid:32485135",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Most p16High cells were liver sinusoidal endothelial cells, with macrophages and adipocytes contributing to a lesser extent.",
+"evidence": "The majority of p16 High cells were vascular endothelial cells mostly in liver sinusoids (LSECs), and to lesser extent macrophages and adipocytes",
+"note": "Stated directly."
+},
+{
+"k": 2,
+"label": "not_addressed",
+"text": "Transplanting young endothelial cells to replace senescent LSECs slowed aging in the mice.",
+"evidence": "delaying senescence or replacement of senescent LSECs could represent a powerful tool in slowing down aging",
+"note": "The abstract raises replacement of LSECs as a possible tool but tests no transplantation or regeneration."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Eliminating p16High senescent cells disrupted blood-tissue barriers, causing liver and perivascular fibrosis and health deterioration.",
+"evidence": "continuous or acute elimination of p16 High senescent cells disrupted blood-tissue barriers with subsequent liver and perivascular tissue fibrosis and health deterioration",
+"note": "Stated directly."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Age-induced p16High senescence was slow, becoming apparent around 10-12 months of age.",
+"evidence": "age-induced p16 High senescence is a slow process that manifests around 10-12 months of age",
+"note": "The abstract gives this timing directly."
+}
+]
+},
+{
+"n": 1774,
+"id": "pmid:32032542",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "The study established acetylation-switch dysregulation of the NLRP3 inflammasome as an origin of aging-associated chronic inflammation, which was reversible.",
+"evidence": "establish the dysregulation of the acetylation switch of the NLRP3 inflammasome as an origin of aging-associated chronic inflammation and highlight the reversibility of aging-associated chronic inflammation and insulin resistance",
+"note": "Stated directly."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "NLRP3 was acetylated in macrophages and deacetylated by SIRT2, an NAD+-dependent deacetylase.",
+"evidence": "NLRP3, a pattern recognition receptor, is modified by acetylation in macrophages and is deacetylated by SIRT2, an NAD + -dependent deacetylase and a metabolic sensor",
+"note": "Stated directly."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Targeting SIRT2-mediated NLRP3 deacetylation prevented and reduced aging-associated inflammation and insulin resistance.",
+"evidence": "demonstrate that SIRT2 and NLRP3 deacetylation prevent, and can be targeted to reverse, aging-associated inflammation and insulin resistance",
+"note": "The abstract states deacetylation prevents and can be targeted to reverse these conditions."
+},
+{
+"k": 4,
+"label": "not_addressed",
+"text": "SIRT2 activators improved insulin sensitivity in human type 2 diabetes patients.",
+"evidence": "How the interface of immunity and metabolism impinges upon the diabetes pandemic is largely unknown",
+"note": "The study uses cell-based and mouse models and mentions diabetes only as background; no human patient outcome is reported."
+}
+]
+}
+]
+}

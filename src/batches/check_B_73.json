@@ -1,0 +1,335 @@
+{
+"batch": "check_B_73",
+"pass": "B",
+"source_batch": "gen_73",
+"items": [
+{
+"n": 1375,
+"id": "pmid:39567747",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The prevalence and nature of somatic copy number alterations (CNAs) in breast epithelium and their role in tumor initiation and evolution remain poorly understood. Using single-cell DNA sequencing (49,238 cells) of epithelium from BRCA1 and BRCA2 carriers or wild-type individuals, we identified recurrent CNAs (for example, 1q-gain and 7q, 10q, 16q and 22q-loss) that are present in a rare population of cells across almost all samples (n = 28). In BRCA1/BRCA2 carriers, these occur before loss of heterozygosity (LOH) of wild-type alleles. These CNAs, common in malignant tumors, are enriched in luminal cells but absent in basal myoepithelial cells. Allele-specific analysis of prevalent CNAs reveals that they arose by independent mutational events, consistent with convergent evolution. BRCA1/BRCA2 carriers contained a small percentage of cells with extreme aneuploidy, featuring loss of TP53, BRCA1/BRCA2 LOH and multiple breast cancer-associated CNAs. Our findings suggest that CNAs arising in normal luminal breast epithelium are precursors to clonally expanded tumor genomes."
+}
+],
+"text": "The prevalence and nature of somatic copy number alterations (CNAs) in breast epithelium and their role in tumor initiation and evolution remain poorly understood. Using single-cell DNA sequencing (49,238 cells) of epithelium from BRCA1 and BRCA2 carriers or wild-type individuals, we identified recurrent CNAs (for example, 1q-gain and 7q, 10q, 16q and 22q-loss) that are present in a rare population of cells across almost all samples (n = 28). In BRCA1/BRCA2 carriers, these occur before loss of heterozygosity (LOH) of wild-type alleles. These CNAs, common in malignant tumors, are enriched in luminal cells but absent in basal myoepithelial cells. Allele-specific analysis of prevalent CNAs reveals that they arose by independent mutational events, consistent with convergent evolution. BRCA1/BRCA2 carriers contained a small percentage of cells with extreme aneuploidy, featuring loss of TP53, BRCA1/BRCA2 LOH and multiple breast cancer-associated CNAs. Our findings suggest that CNAs arising in normal luminal breast epithelium are precursors to clonally expanded tumor genomes.",
+"statements": [
+{
+"j": 1,
+"text": "In carriers of BRCA1 or BRCA2 mutations, the recurrent copy number alterations arise prior to LOH of the wild-type allele."
+},
+{
+"j": 2,
+"text": "The proportion of breast epithelial cells carrying recurrent copy number alterations rose with the donor's age."
+},
+{
+"j": 3,
+"text": "The recurrent copy number alterations were depleted in luminal cells and were not found in basal myoepithelial cells."
+},
+{
+"j": 4,
+"text": "Single-cell DNA sequencing of 49,238 breast epithelial cells detected recurrent copy number alterations in a rare subpopulation of cells in almost all of the 28 samples."
+}
+]
+},
+{
+"n": 1376,
+"id": "pmid:39266532",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Dedifferentiated liposarcoma (DDLPS) is the most frequent high-grade soft tissue sarcoma subtype. It is characterized by a component of undifferentiated tumor cells coexisting with a component of well-differentiated adipocytic tumor cells. Both dedifferentiated (DD) and well-differentiated (WD) components exhibit MDM2 amplification, however their cellular origin remains elusive. Using single-cell RNA sequencing, DNA sequencing, in situ multiplex immunofluorescence and functional assays in paired WD and DD components from primary DDLPS tumors, we characterize the cellular heterogeneity of DDLPS tumor and micro-environment. We identify a population of tumor adipocyte stem cells (ASC) showing striking similarities with adipocyte stromal progenitors found in white adipose tissue. We show that tumor ASC harbor the ancestral genomic alterations of WD and DD components, suggesting that both derive from these progenitors following clonal evolution. Last, we show that DD tumor cells keep important biological properties of ASC including pluripotency and that their adipogenic properties are inhibited by a TGF-β-high immunosuppressive tumor micro-environment."
+}
+],
+"text": "Dedifferentiated liposarcoma (DDLPS) is the most frequent high-grade soft tissue sarcoma subtype. It is characterized by a component of undifferentiated tumor cells coexisting with a component of well-differentiated adipocytic tumor cells. Both dedifferentiated (DD) and well-differentiated (WD) components exhibit MDM2 amplification, however their cellular origin remains elusive. Using single-cell RNA sequencing, DNA sequencing, in situ multiplex immunofluorescence and functional assays in paired WD and DD components from primary DDLPS tumors, we characterize the cellular heterogeneity of DDLPS tumor and micro-environment. We identify a population of tumor adipocyte stem cells (ASC) showing striking similarities with adipocyte stromal progenitors found in white adipose tissue. We show that tumor ASC harbor the ancestral genomic alterations of WD and DD components, suggesting that both derive from these progenitors following clonal evolution. Last, we show that DD tumor cells keep important biological properties of ASC including pluripotency and that their adipogenic properties are inhibited by a TGF-β-high immunosuppressive tumor micro-environment.",
+"statements": [
+{
+"j": 1,
+"text": "Patients whose DDLPS tumors contain a larger share of tumor adipocyte stem cells have worse overall survival."
+},
+{
+"j": 2,
+"text": "Within DDLPS tumors, the study identified a population of tumor adipocyte stem cells closely resembling the adipocyte stromal progenitors of white adipose tissue."
+},
+{
+"j": 3,
+"text": "A TGF-β-rich, immunosuppressive tumor micro-environment promoted the adipogenic properties of the dedifferentiated tumor cells."
+},
+{
+"j": 4,
+"text": "Tumor adipocyte stem cells carry the ancestral genomic alterations of both the well-differentiated and the dedifferentiated tumor components."
+}
+]
+},
+{
+"n": 1377,
+"id": "pmid:39543136",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Transition of cytosine to thymine in CpG dinucleotides is the most frequent type of mutation in cancer. This increased mutability is commonly attributed to the spontaneous deamination of 5-methylcytosine (5mC), which is normally repaired by the base-excision repair (BER) pathway. However, the contribution of 5mC deamination in the increasing diversity of cancer mutational signatures remains poorly explored. We integrate mutational signatures analysis in a large series of tumor whole genomes with lineage-specific epigenomic data to draw a detailed view of 5mC deamination in cancer. We uncover tumor type-specific patterns of 5mC deamination signatures in CpG and non-CpG contexts. We demonstrate that the BER glycosylase MBD4 preferentially binds to active chromatin and early replicating DNA, which correlates with lower mutational burden in these domains. We validate our findings by modeling BER deficiencies in isogenic cell models. Here, we establish MBD4 as the main actor responsible for 5mC deamination repair in humans."
+}
+],
+"text": "Transition of cytosine to thymine in CpG dinucleotides is the most frequent type of mutation in cancer. This increased mutability is commonly attributed to the spontaneous deamination of 5-methylcytosine (5mC), which is normally repaired by the base-excision repair (BER) pathway. However, the contribution of 5mC deamination in the increasing diversity of cancer mutational signatures remains poorly explored. We integrate mutational signatures analysis in a large series of tumor whole genomes with lineage-specific epigenomic data to draw a detailed view of 5mC deamination in cancer. We uncover tumor type-specific patterns of 5mC deamination signatures in CpG and non-CpG contexts. We demonstrate that the BER glycosylase MBD4 preferentially binds to active chromatin and early replicating DNA, which correlates with lower mutational burden in these domains. We validate our findings by modeling BER deficiencies in isogenic cell models. Here, we establish MBD4 as the main actor responsible for 5mC deamination repair in humans.",
+"statements": [
+{
+"j": 1,
+"text": "The study found 5-methylcytosine deamination signatures whose patterns were specific to tumor type, in both CpG and non-CpG sequence contexts."
+},
+{
+"j": 2,
+"text": "MBD4 was identified as the principal factor responsible for repairing 5-methylcytosine deamination in humans."
+},
+{
+"j": 3,
+"text": "Tumors with inactivating MBD4 mutations respond better to immune checkpoint inhibitors than MBD4-proficient tumors."
+},
+{
+"j": 4,
+"text": "Active chromatin and early-replicating DNA, which MBD4 preferentially binds, show a higher mutational burden."
+}
+]
+},
+{
+"n": 1378,
+"id": "pmid:39428388",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Cancer is caused by an accumulation of somatic mutations and copy number alterations (CNAs). Besides mutations, these copy number changes are key characteristics of cancer development. Nonetheless, some tumors show hardly any CNAs, a remarkable phenomenon in oncogenesis. Head and neck squamous cell carcinomas (HNSCCs) arise by either exposure to carcinogens, or infection with the human papillomavirus (HPV). HPV-negative HNSCCs are generally characterized by many CNAs and frequent mutations in CDKN2A, TP53, FAT1, and NOTCH1. Here, we present the hallmarks of the distinct subgroup of HPV-negative HNSCC with no or few CNAs (CNA-quiet) by genetic profiling of 802 oral cavity squamous cell carcinomas (OCSCCs). In total, 73 OCSCC (9.1%) are classified as CNA-quiet and 729 as CNA-other. The CNA-quiet group is characterized by wild-type TP53, frequent CASP8 and HRAS mutations, and a less immunosuppressed tumor immune microenvironment with lower density of regulatory T cells. Patients with CNA-quiet OCSCC are older, more often women, less frequently current smokers, and have a better 5-year overall survival compared to CNA-other OCSCC. This study demonstrates that CNA-quiet OCSCC should be considered as a distinct, clinically relevant subclass. Given the clinical characteristics, the patient group with these tumors will rapidly increase in the aging population."
+}
+],
+"text": "Cancer is caused by an accumulation of somatic mutations and copy number alterations (CNAs). Besides mutations, these copy number changes are key characteristics of cancer development. Nonetheless, some tumors show hardly any CNAs, a remarkable phenomenon in oncogenesis. Head and neck squamous cell carcinomas (HNSCCs) arise by either exposure to carcinogens, or infection with the human papillomavirus (HPV). HPV-negative HNSCCs are generally characterized by many CNAs and frequent mutations in CDKN2A, TP53, FAT1, and NOTCH1. Here, we present the hallmarks of the distinct subgroup of HPV-negative HNSCC with no or few CNAs (CNA-quiet) by genetic profiling of 802 oral cavity squamous cell carcinomas (OCSCCs). In total, 73 OCSCC (9.1%) are classified as CNA-quiet and 729 as CNA-other. The CNA-quiet group is characterized by wild-type TP53, frequent CASP8 and HRAS mutations, and a less immunosuppressed tumor immune microenvironment with lower density of regulatory T cells. Patients with CNA-quiet OCSCC are older, more often women, less frequently current smokers, and have a better 5-year overall survival compared to CNA-other OCSCC. This study demonstrates that CNA-quiet OCSCC should be considered as a distinct, clinically relevant subclass. Given the clinical characteristics, the patient group with these tumors will rapidly increase in the aging population.",
+"statements": [
+{
+"j": 1,
+"text": "Of the 802 oral cavity squamous cell carcinomas profiled, 73 (9.1%) had no or few copy number alterations and were classed as CNA-quiet."
+},
+{
+"j": 2,
+"text": "Tumors in the CNA-quiet group typically retained wild-type TP53 and often carried CASP8 and HRAS mutations."
+},
+{
+"j": 3,
+"text": "Compared with CNA-other OCSCC, patients with CNA-quiet OCSCC were younger and had better 5-year overall survival."
+},
+{
+"j": 4,
+"text": "A CNA-quiet subgroup occurs at a similar frequency among HPV-negative squamous cell carcinomas of the larynx and pharynx."
+}
+]
+},
+{
+"n": 1379,
+"id": "pmid:39865078",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Integration of human papillomavirus (HPV) into the host genome drives HPV-positive head and neck squamous cell carcinoma (HPV + HNSCC). Whole-genome sequencing of 51 tumors revealed intratumor heterogeneity of HPV integration, with 44% of breakpoints subclonal, and a biased distribution of integration breakpoints across the HPV genome. Four HPV physical states were identified, with at least 49% of tumors progressing without integration. HPV integration was associated with APOBEC-induced broad genomic instability and focal genomic instability, including structural variants at integration sites. HPV + HNSCCs exhibited almost no smoking-induced mutational signatures. Heterozygous loss of ataxia-telangiectasia mutated (ATM) was observed in 67% of tumors, with its downregulation confirmed by single-cell RNA sequencing and immunohistochemistry, suggesting ATM haploinsufficiency contributes to carcinogenesis. PI3K activation was the major oncogenic mutation, with JAK-STAT activation in tumors with clonal integration and NF-kappa B activation in those without. These findings provide valuable insights into HPV integration in HPV + HNSCC."
+}
+],
+"text": "Integration of human papillomavirus (HPV) into the host genome drives HPV-positive head and neck squamous cell carcinoma (HPV + HNSCC). Whole-genome sequencing of 51 tumors revealed intratumor heterogeneity of HPV integration, with 44% of breakpoints subclonal, and a biased distribution of integration breakpoints across the HPV genome. Four HPV physical states were identified, with at least 49% of tumors progressing without integration. HPV integration was associated with APOBEC-induced broad genomic instability and focal genomic instability, including structural variants at integration sites. HPV + HNSCCs exhibited almost no smoking-induced mutational signatures. Heterozygous loss of ataxia-telangiectasia mutated (ATM) was observed in 67% of tumors, with its downregulation confirmed by single-cell RNA sequencing and immunohistochemistry, suggesting ATM haploinsufficiency contributes to carcinogenesis. PI3K activation was the major oncogenic mutation, with JAK-STAT activation in tumors with clonal integration and NF-kappa B activation in those without. These findings provide valuable insights into HPV integration in HPV + HNSCC.",
+"statements": [
+{
+"j": 1,
+"text": "In 67% of tumors one copy of ATM was missing, and single-cell RNA sequencing and immunohistochemistry confirmed that ATM was upregulated."
+},
+{
+"j": 2,
+"text": "Patients whose tumors had clonal HPV integration had worse overall survival than patients whose tumors lacked integration."
+},
+{
+"j": 3,
+"text": "Mutational signatures caused by smoking were almost absent from HPV-positive head and neck squamous cell carcinomas."
+},
+{
+"j": 4,
+"text": "Whole-genome sequencing of 51 HPV-positive head and neck squamous cell carcinomas found that 44% of HPV integration breakpoints were subclonal."
+}
+]
+},
+{
+"n": 1380,
+"id": "pmid:38517886",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The basal breast cancer subtype is enriched for triple-negative breast cancer (TNBC) and displays consistent large chromosomal deletions. Here, we characterize evolution and maintenance of chromosome 4p (chr4p) loss in basal breast cancer. Analysis of The Cancer Genome Atlas data shows recurrent deletion of chr4p in basal breast cancer. Phylogenetic analysis of a panel of 23 primary tumor/patient-derived xenograft basal breast cancers reveals early evolution of chr4p deletion. Mechanistically we show that chr4p loss is associated with enhanced proliferation. Gene function studies identify an unknown gene, C4orf19, within chr4p, which suppresses proliferation when overexpressed-a member of the PDCD10-GCKIII kinase module we name PGCKA1. Genome-wide pooled overexpression screens using a barcoded library of human open reading frames identify chromosomal regions, including chr4p, that suppress proliferation when overexpressed in a context-dependent manner, implicating network interactions. Together, these results shed light on the early emergence of complex aneuploid karyotypes involving chr4p and adaptive landscapes shaping breast cancer genomes."
+}
+],
+"text": "The basal breast cancer subtype is enriched for triple-negative breast cancer (TNBC) and displays consistent large chromosomal deletions. Here, we characterize evolution and maintenance of chromosome 4p (chr4p) loss in basal breast cancer. Analysis of The Cancer Genome Atlas data shows recurrent deletion of chr4p in basal breast cancer. Phylogenetic analysis of a panel of 23 primary tumor/patient-derived xenograft basal breast cancers reveals early evolution of chr4p deletion. Mechanistically we show that chr4p loss is associated with enhanced proliferation. Gene function studies identify an unknown gene, C4orf19, within chr4p, which suppresses proliferation when overexpressed-a member of the PDCD10-GCKIII kinase module we name PGCKA1. Genome-wide pooled overexpression screens using a barcoded library of human open reading frames identify chromosomal regions, including chr4p, that suppress proliferation when overexpressed in a context-dependent manner, implicating network interactions. Together, these results shed light on the early emergence of complex aneuploid karyotypes involving chr4p and adaptive landscapes shaping breast cancer genomes.",
+"statements": [
+{
+"j": 1,
+"text": "Chromosome 4p deletion is associated with shorter overall survival in patients with basal breast cancer."
+},
+{
+"j": 2,
+"text": "Overexpressing C4orf19, a previously unknown chr4p gene that belongs to the PDCD10-GCKIII kinase module and was named PGCKA1, suppressed proliferation."
+},
+{
+"j": 3,
+"text": "The study linked deletion of chr4p to diminished cell proliferation."
+},
+{
+"j": 4,
+"text": "Phylogenetic reconstruction across 23 basal breast cancers, from primary tumors and patient-derived xenografts, showed that chr4p deletion arises early in tumor evolution."
+}
+]
+},
+{
+"n": 1381,
+"id": "pmid:38232733",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The epigenetic landscape of cancer is regulated by many factors, but primarily it derives from the underlying genome sequence. Chromothripsis is a catastrophic localized genome shattering event that drives, and often initiates, cancer evolution. We characterized five esophageal adenocarcinoma organoids with chromothripsis using long-read sequencing and transcriptome and epigenome profiling. Complex structural variation and subclonal variants meant that haplotype-aware de novo methods were required to generate contiguous cancer genome assemblies. Chromosomes were assembled separately and scaffolded using haplotype-resolved Hi-C reads, producing accurate assemblies even with up to 900 structural rearrangements. There were widespread differences between the chromothriptic and wild-type copies of chromosomes in topologically associated domains, chromatin accessibility, histone modifications, and gene expression. Differential epigenome peaks were most enriched within 10 kb of chromothriptic structural variants. Alterations in transcriptome and higher-order chromosome organization frequently occurred near differential epigenetic marks. Overall, chromothripsis reshapes gene regulation, causing coordinated changes in epigenetic landscape, transcription, and chromosome conformation."
+}
+],
+"text": "The epigenetic landscape of cancer is regulated by many factors, but primarily it derives from the underlying genome sequence. Chromothripsis is a catastrophic localized genome shattering event that drives, and often initiates, cancer evolution. We characterized five esophageal adenocarcinoma organoids with chromothripsis using long-read sequencing and transcriptome and epigenome profiling. Complex structural variation and subclonal variants meant that haplotype-aware de novo methods were required to generate contiguous cancer genome assemblies. Chromosomes were assembled separately and scaffolded using haplotype-resolved Hi-C reads, producing accurate assemblies even with up to 900 structural rearrangements. There were widespread differences between the chromothriptic and wild-type copies of chromosomes in topologically associated domains, chromatin accessibility, histone modifications, and gene expression. Differential epigenome peaks were most enriched within 10 kb of chromothriptic structural variants. Alterations in transcriptome and higher-order chromosome organization frequently occurred near differential epigenetic marks. Overall, chromothripsis reshapes gene regulation, causing coordinated changes in epigenetic landscape, transcription, and chromosome conformation.",
+"statements": [
+{
+"j": 1,
+"text": "Regions within 10 kb of chromothriptic structural variants were depleted in differential epigenome peaks."
+},
+{
+"j": 2,
+"text": "Compared with their wild-type counterparts, chromothriptic chromosome copies showed widespread differences in topologically associated domains, chromatin accessibility, histone marks and gene expression."
+},
+{
+"j": 3,
+"text": "Esophageal adenocarcinoma organoids with chromothripsis grew faster than organoids without chromothripsis."
+},
+{
+"j": 4,
+"text": "Assembling each chromosome on its own and scaffolding with haplotype-resolved Hi-C reads yielded accurate assemblies despite as many as 900 structural rearrangements."
+}
+]
+},
+{
+"n": 1382,
+"id": "pmid:37635261",
+"year": 2023,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "In humans, muscle-invasive bladder cancer (MIBC) is highly aggressive and associated with a poor prognosis. With a high mutation load and large number of altered genes, strategies to delineate key driver events are necessary. Dogs and cats develop urothelial carcinoma (UC) with histological and clinical similarities to human MIBC. Cattle that graze on bracken fern also develop UC, associated with exposure to the carcinogen ptaquiloside. These species may represent relevant animal models of spontaneous and carcinogen-induced UC that can provide insight into human MIBC."
+},
+{
+"label": "Results",
+"text": "Whole-exome sequencing of domestic canine (n = 87) and feline (n = 23) UC, and comparative analysis with human MIBC reveals a lower mutation rate in animal cases and the absence of APOBEC mutational signatures. A convergence of driver genes (ARID1A, KDM6A, TP53, FAT1, and NRAS) is discovered, along with common focally amplified and deleted genes involved in regulation of the cell cycle and chromatin remodelling. We identify mismatch repair deficiency in a subset of canine and feline UCs with biallelic inactivation of MSH2. Bovine UC (n = 8) is distinctly different; we identify novel mutational signatures which are recapitulated in vitro in human urinary bladder UC cells treated with bracken fern extracts or purified ptaquiloside."
+},
+{
+"label": "Conclusion",
+"text": "Canine and feline urinary bladder UC represent relevant models of MIBC in humans, and cross-species analysis can identify evolutionarily conserved driver genes. We characterize mutational signatures in bovine UC associated with bracken fern and ptaquiloside exposure, a human-linked cancer exposure. Our work demonstrates the relevance of cross-species comparative analysis in understanding both human and animal UC."
+}
+],
+"text": "In humans, muscle-invasive bladder cancer (MIBC) is highly aggressive and associated with a poor prognosis. With a high mutation load and large number of altered genes, strategies to delineate key driver events are necessary. Dogs and cats develop urothelial carcinoma (UC) with histological and clinical similarities to human MIBC. Cattle that graze on bracken fern also develop UC, associated with exposure to the carcinogen ptaquiloside. These species may represent relevant animal models of spontaneous and carcinogen-induced UC that can provide insight into human MIBC. Whole-exome sequencing of domestic canine (n = 87) and feline (n = 23) UC, and comparative analysis with human MIBC reveals a lower mutation rate in animal cases and the absence of APOBEC mutational signatures. A convergence of driver genes (ARID1A, KDM6A, TP53, FAT1, and NRAS) is discovered, along with common focally amplified and deleted genes involved in regulation of the cell cycle and chromatin remodelling. We identify mismatch repair deficiency in a subset of canine and feline UCs with biallelic inactivation of MSH2. Bovine UC (n = 8) is distinctly different; we identify novel mutational signatures which are recapitulated in vitro in human urinary bladder UC cells treated with bracken fern extracts or purified ptaquiloside. Canine and feline urinary bladder UC represent relevant models of MIBC in humans, and cross-species analysis can identify evolutionarily conserved driver genes. We characterize mutational signatures in bovine UC associated with bracken fern and ptaquiloside exposure, a human-linked cancer exposure. Our work demonstrates the relevance of cross-species comparative analysis in understanding both human and animal UC.",
+"statements": [
+{
+"j": 1,
+"text": "Bovine urothelial carcinomas carried novel mutational signatures that human bladder cancer cells reproduced in vitro after treatment with bracken fern extract or ptaquiloside."
+},
+{
+"j": 2,
+"text": "Canine urothelial carcinomas with MSH2 inactivation respond well to immune checkpoint inhibitors."
+},
+{
+"j": 3,
+"text": "Compared with human MIBC, the 87 canine and 23 feline urothelial carcinomas showed a higher mutation rate and no APOBEC mutational signatures."
+},
+{
+"j": 4,
+"text": "Dog, cat and human bladder cancers converged on shared driver genes, including ARID1A, KDM6A, TP53, FAT1 and NRAS."
+}
+]
+},
+{
+"n": 1383,
+"id": "pmid:41688639",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Whole-genome sequencing (WGS) enables exploration of the full spectrum of oncogenic processes that generate characteristic patterns of mutations. Mutational signatures provide clues to tumor etiology and highlight potentially targetable pathway defects. Here alongside single-base substitution, doublet-base substitution, small insertion and deletion and copy number aberration signatures previously covered by the Catalogue of Somatic Mutations in Cancer (COSMIC), we report signatures from an additional mutation type, structural variations (SVs), extracted de novo from WGS in 10,983 patients across 16 tumor types recruited to the 100,000 Genomes Project. Across the five mutation classes, we report 134 signatures, 26 of which are new to COSMIC, including an SV signature reference set. By relating signatures to genomic features and clinical phenotypes, we provide further insights into mutagenic processes and the application of signature analysis to precision oncology."
+}
+],
+"text": "Whole-genome sequencing (WGS) enables exploration of the full spectrum of oncogenic processes that generate characteristic patterns of mutations. Mutational signatures provide clues to tumor etiology and highlight potentially targetable pathway defects. Here alongside single-base substitution, doublet-base substitution, small insertion and deletion and copy number aberration signatures previously covered by the Catalogue of Somatic Mutations in Cancer (COSMIC), we report signatures from an additional mutation type, structural variations (SVs), extracted de novo from WGS in 10,983 patients across 16 tumor types recruited to the 100,000 Genomes Project. Across the five mutation classes, we report 134 signatures, 26 of which are new to COSMIC, including an SV signature reference set. By relating signatures to genomic features and clinical phenotypes, we provide further insights into mutagenic processes and the application of signature analysis to precision oncology.",
+"statements": [
+{
+"j": 1,
+"text": "Each of the 26 newly reported signatures was confined to a single tumor type."
+},
+{
+"j": 2,
+"text": "More than a quarter of the 134 signatures reported across the five mutation classes were new to COSMIC."
+},
+{
+"j": 3,
+"text": "In 10,983 patients spanning 16 tumor types from the 100,000 Genomes Project, signatures of structural variations were derived de novo from whole genomes."
+},
+{
+"j": 4,
+"text": "The study related the extracted mutational signatures to genomic features and to the patients' clinical phenotypes."
+}
+]
+},
+{
+"n": 1384,
+"id": "pmid:41062697",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Men are at higher risk of several cancer types than women 1 . For bladder cancer the risk is four times higher for reasons that are not clear 2 . Smoking is also a principal risk factor for several tumour types, including bladder cancer 3 . As tumourigenesis is driven by somatic mutations, we wondered whether the landscape of clones in the normal bladder differs by sex and smoking history. Using ultradeep duplex DNA sequencing (approximately 5,000×), we identified thousands of clonal driver mutations in 16 genes across 79 normal bladder samples from 45 people. Men had significantly more truncating driver mutations in RBM10, CDKN1A and ARID1A than women, despite similar levels of non-protein-affecting mutations. This result indicates stronger positive selection on driver truncating mutations in these genes in the male urothelium. We also found activating TERT promoter mutations driving clonal expansions in the normal bladder that were associated strongly with age and smoking. These findings indicate that bladder cancer risk factors, such as sex and smoking, shape the clonal landscape of the normal urothelium. The high number of mutations identified by this approach offers a new strategy to study the functional effect of thousands of mutations in vivo-natural saturation mutagenesis-that can be extended to other human tissues."
+}
+],
+"text": "Men are at higher risk of several cancer types than women 1 . For bladder cancer the risk is four times higher for reasons that are not clear 2 . Smoking is also a principal risk factor for several tumour types, including bladder cancer 3 . As tumourigenesis is driven by somatic mutations, we wondered whether the landscape of clones in the normal bladder differs by sex and smoking history. Using ultradeep duplex DNA sequencing (approximately 5,000×), we identified thousands of clonal driver mutations in 16 genes across 79 normal bladder samples from 45 people. Men had significantly more truncating driver mutations in RBM10, CDKN1A and ARID1A than women, despite similar levels of non-protein-affecting mutations. This result indicates stronger positive selection on driver truncating mutations in these genes in the male urothelium. We also found activating TERT promoter mutations driving clonal expansions in the normal bladder that were associated strongly with age and smoking. These findings indicate that bladder cancer risk factors, such as sex and smoking, shape the clonal landscape of the normal urothelium. The high number of mutations identified by this approach offers a new strategy to study the functional effect of thousands of mutations in vivo-natural saturation mutagenesis-that can be extended to other human tissues.",
+"statements": [
+{
+"j": 1,
+"text": "Duplex DNA sequencing at roughly 5,000× depth found thousands of clonal driver mutations in 16 genes across 79 normal bladder samples from 45 people."
+},
+{
+"j": 2,
+"text": "Compared with women, men had significantly fewer truncating driver mutations in RBM10, CDKN1A and ARID1A in the normal bladder."
+},
+{
+"j": 3,
+"text": "Quitting smoking reverses the clonal expansions of TERT promoter-mutant cells in the normal bladder."
+},
+{
+"j": 4,
+"text": "In normal bladder tissue, clonal expansions driven by activating TERT promoter mutations showed strong associations with both age and smoking."
+}
+]
+}
+]
+}

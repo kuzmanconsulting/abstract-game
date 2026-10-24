@@ -1,0 +1,73 @@
+{"batch": "check_A_74", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1385, "id": "pmid:39366934",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "NECTIN4 and TACSTD2 are highly expressed regardless of molecular subtypes, FGFR3 alterations and sites of metastases."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Molecular subtyping using consensus transcriptomic classification in mUC shows enrichment in neuroendocrine subtype."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "APOBEC, platin, and HRD mutational signatures are the most prevalent in mUC, identified in 56%, 14%, and 9% of mUC samples, respectively."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Paired samples analysis reveals subtype heterogeneity and temporal evolution."}
+    ]},
+   {"n": 1386, "id": "pmid:41372401",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "LUAD in people who have never smoked (hereafter, never-smokers) showed early occurrence of copy-number alterations and EGFR mutations associated with SBS5 and SBS40a mutational signatures."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "we identified 542 LUADs with a diverse clonal architecture"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "These tumours exhibited an aggressive phenotype with genomic instability, elevated hypoxia scores, low neoantigen burden, metastasis propensity and poor overall survival."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Tumours containing EGFR mutations exhibited long latency, particularly in female individuals of European-ancestry."}
+    ]},
+   {"n": 1387, "id": "pmid:37868040",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Neuroblastoma is a pediatric solid tumor characterized by strong clinical heterogeneity."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "high-risk MYCN -amplified neuroblastomas were characterized by signs of replication slippage and stress"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "clinical heterogeneity of neuroblastoma patients can be linked to differences in the mutational processes that are active in their tumors."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Non-high-risk neuroblastomas were marked by footprints of chromosome mis-segregation and TOP1 mutational activity."}
+    ]},
+   {"n": 1388, "id": "pmid:37851574",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Our finding of many tumor types carrying unique sets of SV signatures suggests that distinct molecular mechanisms shape genome instability in different tumor types."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "We decompose mutational signatures of clustered complex SVs, non-clustered complex SVs, and simple SVs separately to infer their mutational mechanisms."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "The patterns of somatic SV signatures in pediatric brain tumors are substantially different from those in adult cancers."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we detect a total of 13,199 high-confidence somatic SVs in 744 whole-genome sequences of pediatric brain tumors from the Pediatric Brain Tumor Atlas."}
+    ]},
+   {"n": 1389, "id": "pmid:37328455",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "these potential buffering events are highly influenced by gene functions, essentiality, and mutation impact and that they occur early during tumor evolution."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "we demonstrate that copy number amplifications frequently cover haploinsufficient genes in mutation-prone regions."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We show how cancer type-specific mutation landscapes drive copy number alteration patterns across cancer types."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "our work paves the way for the detection of novel cancer vulnerabilities by revealing genes that fall within amplifications likely selected during evolution to mitigate the effect of mutations."}
+    ]},
+   {"n": 1390, "id": "pmid:41372419",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Exogenous sources, including treatment, underpinned, on average, more than 40% of mutations in liver but less than 10% of mutations in brain samples."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "More than 25% of driver mutations in normal tissue exposed to systemic anti-cancer therapy, including in TP53, could be attributed to treatment."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "In every sample, we identified somatic mutations (range 305-2,854 mutations) at low variant allele frequencies"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Immunotherapy, although not associated with increased mutagenesis, was linked to driver mutations in PPM1D and TP53"}
+    ]},
+   {"n": 1391, "id": "pmid:37592287",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "some mutational signatures are enriched in hotspot sequence contexts, corresponding to well-defined sequence preferences for the underlying localized mutational processes."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "such as signature 62 in transcribed regions, where the mutation rate is increased up to 9-folds over cancer type and mutational signature average."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We summarize our findings in a catalog of localized mutational processes, their sequence preferences, and their estimated mutation rates."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We show that hotspots generally identify highly mutable sequence contexts."}
+    ]},
+   {"n": 1392, "id": "pmid:39300140",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "combustion byproducts are capable of inducing WGDs in cell culture"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "tumors from self-reported Black patients are significantly more likely to exhibit whole-genome duplications (WGDs), a genomic event that enhances metastasis and aggressive disease, compared to tumors from self-reported white patients."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "This increase in WGD frequency is observed across multiple cancer types, including breast, endometrial, and lung cancer, and is associated with shorter patient survival."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Here, we examine chromosome copy number changes in cancers from more than 1800 self-reported Black patients."}
+    ]},
+   {"n": 1393, "id": "pmid:40804524",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "ALPACA uncovers loss-of-heterozygosity and amplification events in minor clones that may be missed using standard approaches and reveals the temporal order of somatic alterations."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "ALPACA estimates the SCNA evolution of simulated tumours with a higher accuracy than current state-of-the-art methods"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "we find evidence of increased chromosomal instability in metastasis-seeding clones"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "an association between higher clone copy number diversity and reduced disease-free survival in patients with lung cancer."}
+    ]},
+   {"n": 1394, "id": "pmid:38374116",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "In patient 10, we mapped the spread of cancer from the apex of the prostate to the seminal vesicles and identified specific genomic changes associated with the transformation of adenocarcinoma to amphicrine morphology during this spread."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "In all patients in whom histological heterogeneity was observed (4/5), we found that the distinct morphologies were located on separate branches of their respective evolutionary trees."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "In patient 15, we observed increased mutational burden, altered mutational signatures and histological changes associated with whole genome duplication."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we show that the lymph node metastases in this patient arose from specific cancer clones found at the base of the prostate and the seminal vesicles."}
+    ]}
+ ]}

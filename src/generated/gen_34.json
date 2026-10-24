@@ -1,0 +1,517 @@
+{
+ "batch": "gen_34",
+ "prompt_version": "gen-v4",
+ "items": [
+  {
+   "n": 895,
+   "id": "pmid:41245464",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Every maize m6A protein identified in the study carries the MT-A70 domain.",
+     "evidence": "The conserved domain analysis indicated that all identified maize m6A proteins possess the MT-A70 domain.",
+     "note": "The conserved domain analysis is reported as covering all identified maize m6A proteins."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Maize lines overexpressing the m6A writer genes survive drought better than wild-type plants.",
+     "evidence": "Furthermore, RNA-seq and RT-qPCR analysis demonstrated that the identified Zmm6A genes exhibit tissue-specific expression patterns, as well as differential expression in response to various abiotic stresses",
+     "note": "Only expression responses are measured; no overexpression lines or stress-tolerance phenotypes appear in the abstract."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Three m6A regulatory genes were found in the maize genome.",
+     "evidence": "Our analysis identified three m6A regulatory genes within the maize genome.",
+     "note": "The count of three regulatory genes is stated directly as a result."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Cold stress significantly increased the expression of ZmMTA-03 genes.",
+     "evidence": "Notably, the expression of ZmMTA-03 genes was significantly upregulated under cold stress conditions.",
+     "note": "Upregulation of ZmMTA-03 under cold stress is reported as a specific finding."
+    }
+   ]
+  },
+  {
+   "n": 896,
+   "id": "pmid:41191559",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Hundreds of transcripts became markedly more abundant in neurites once HNRNPA2B1 was knocked out.",
+     "evidence": "we find that hundreds of RNAs demonstrate markedly increased abundance in neurites in HNRNPA2B1 knockout cells",
+     "note": "The increase in neurite RNA abundance in knockout cells is a reported sequencing and FISH result."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Microtubule-based transport in HNRNPA2B1 knockout cells was slower and less processive.",
+     "evidence": "The speed and processivity of microtubule-based transport are impaired in these cells.",
+     "note": "Impaired speed and processivity of transport in the knockout cells is stated as a measured outcome."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Point mutants with more cytoplasmic HNRNPA2B1 suppressed RNA mislocalisation more strongly than wildtype protein did.",
+     "evidence": "HNRNPA2B1 point mutations that increase its cytoplasmic abundance relative to wildtype lead to stronger suppression of RNA mislocalization defects than seen with wildtype HNRNPA2B1.",
+     "note": "The abstract reports this direct comparison between cytoplasm-shifted point mutants and wildtype."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Neurites of HNRNPA2B1 knockout cells are shorter than those of wildtype cells.",
+     "evidence": "Here, we demonstrate that the RBP HNRNPA2B1 acts to keep specific RNAs out of neuronal projections.",
+     "note": "The abstract reports RNA abundance and transport in neurites but says nothing about neurite length or morphology."
+    }
+   ]
+  },
+  {
+   "n": 897,
+   "id": "doi:10.1101/2025.09.09.675143",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Raising IGF2BP1 in adult erythroid cells lifts fetal hemoglobin enough to relieve sickle cell disease.",
+     "evidence": "This work deepens the mechanistic understanding of hemoglobin switching and suggests a physical relationship between heterochronic RBPs and globin transcripts.",
+     "note": "The abstract stays at the level of molecular mechanism and never mentions a disease, patients, or therapeutic benefit."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "IGF2BP1 binds HIC2 and activates it, and HIC2 itself represses BCL11A.",
+     "evidence": "We find that IGF2BP1 binds and activates HIC2, itself a BCL11A repressor.",
+     "note": "Binding and activation of the BCL11A repressor HIC2 is reported as a finding of the study."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "IGF2BP1 also acts independently of BCL11A, binding HBG1/2 directly and increasing their translation.",
+     "evidence": "Furthermore, we identify that IGF2BP1 plays a BCL11A-independent role by direct binding to HBG1/2 to promote its translation.",
+     "note": "The BCL11A-independent, translation-promoting role of direct HBG1/2 binding is stated outright."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "m6A-modified coding sequence near the HBG2 stop codon is both required and sufficient for IGF2BP1's positive regulation.",
+     "evidence": "Stop codon-proximal m6A-modified coding sequences within HBG2 transcripts are necessary and sufficient for direct positive regulation mediated by IGF2BP1.",
+     "note": "Necessity and sufficiency of these stop-codon-proximal m6A sequences is reported directly."
+    }
+   ]
+  },
+  {
+   "n": 898,
+   "id": "pmid:42561431",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Overexpressing circHMGB2 raised cisplatin resistance in SW1353 and OUMS-27 cells, and silencing it restored sensitivity in resistant cells.",
+     "evidence": "exogenous overexpression of circHMGB2 elevated cisplatin resistance in chondrosarcoma cells (SW1353, OUMS-27) in vitro, while its silencing re-sensitized resistant cells",
+     "note": "Both directions of the manipulation and their opposite effects on resistance are reported in the named cell lines."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "circHMGB2 worked as a competitive decoy for IGF2BP1 rather than as a miRNA sponge.",
+     "evidence": "circHMGB2 did not function as a miRNA sponge but acted as a competitive molecular decoy for the RNA-binding protein IGF2BP1.",
+     "note": "The abstract explicitly contrasts the decoy mechanism with miRNA sponging."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Circulating circHMGB2 in blood identifies chondrosarcoma patients who will not respond to cisplatin.",
+     "evidence": "Clinically, circHMGB2 was upregulated in chondrosarcoma tumors and associated with cisplatin resistance and poor patient survival.",
+     "note": "The clinical data concern circHMGB2 in tumour tissue; no blood-based measurement or prospective prediction is described."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "In cisplatin-resistant xenografts, silencing circHMGB2 together with cisplatin curbed tumour growth and extended host survival.",
+     "evidence": "in a cisplatin-resistant xenograft model, silencing circHMGB2 synergized with cisplatin to significantly inhibit tumor growth, improve host survival, and upregulate intratumoral Grb10 while suppressing Akt phosphorylation",
+     "note": "The xenograft experiment reports both reduced tumour growth and improved survival from the combination."
+    }
+   ]
+  },
+  {
+   "n": 899,
+   "id": "pmid:42432548",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "RBM47 was markedly more abundant in stenotic arteriovenous fistula tissue from patients and from mice alike.",
+     "evidence": "RBM47 expression was markedly increased in stenotic AVF tissues from both patients and mouse models.",
+     "note": "Increased RBM47 in stenotic AVF tissue of both species is stated as a result."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Overexpressing RBM47 in endothelium made neointimal hyperplasia significantly worse.",
+     "evidence": "Endothelial overexpression of RBM47 significantly aggravated neointimal hyperplasia.",
+     "note": "Aggravation of neointimal hyperplasia by endothelial RBM47 overexpression is reported directly."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "RBM47 favoured retention of SEC31A exon 13 and so cut production of the SEC31A-Δ13 splice variant.",
+     "evidence": "Transcriptome sequencing revealed that RBM47 promoted retention of exon 13 in SEC31A, thereby suppressing the generation of the SEC31A-Δ13 splice variant.",
+     "note": "Exon 13 retention and the resulting loss of the SEC31A-Δ13 variant are reported from transcriptome sequencing."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "RBM47 levels in stenotic fistula tissue rise with the time elapsed since fistula creation.",
+     "evidence": "RBM47 expression was markedly increased in stenotic AVF tissues from both patients and mouse models.",
+     "note": "The abstract reports higher RBM47 in stenotic tissue but relates it to no measure of fistula age or duration."
+    }
+   ]
+  },
+  {
+   "n": 900,
+   "id": "pmid:41037404",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Under cisplatin-induced stress, IGF2BPs drive circG3BP1 into stress granules in an m6A-dependent manner.",
+     "evidence": "Under cisplatin-induced stress, IGF2BPs facilitate the m6A-dependent translocation of circG3BP1 to SGs",
+     "note": "The m6A-dependent, IGF2BP-mediated translocation of circG3BP1 into stress granules is reported as a finding."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "circG3BP1 is likewise elevated in gastric adenocarcinoma tissue.",
+     "evidence": "In this study, we identified m6A-modified circG3BP1 as a potential prognostic biomarker in ESCC.",
+     "note": "Only oesophageal squamous cell carcinoma is studied; no other tumour type is examined or mentioned."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Inside stress granules circG3BP1 scaffolds stronger TIAR-CAPRIN1 interactions and so promotes granule nucleation.",
+     "evidence": "where it functions as a scaffold to enhance TIAR-CAPRIN1 interactions, thereby promoting SG nucleation",
+     "note": "The scaffolding role and the resulting promotion of granule nucleation are stated directly."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Stress granule formation lowered translation of senescence mRNAs such as p21 and delayed chemotherapy-induced senescence.",
+     "evidence": "SG formation suppresses the translation of senescence-associated mRNAs, such as p21, delaying chemotherapy-induced cellular senescence and contributing to cisplatin resistance in ESCC cells.",
+     "note": "Suppressed p21 translation and delayed senescence are reported as consequences of granule formation."
+    }
+   ]
+  },
+  {
+   "n": 901,
+   "id": "pmid:40267130",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Deleting BcAGO1 and BcAGO2 together abolishes Botrytis cinerea virulence entirely.",
+     "evidence": "In this study, we revealed that members of fungal plant pathogen B. cinerea BcAGO family contribute to plant infection.",
+     "note": "A contribution of the BcAGO family to infection is reported, but no double mutant or complete loss of virulence is described."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "BcAGO1 binds small RNAs of both fungal and plant origin during infection and operates in cross-kingdom RNAi in both directions.",
+     "evidence": "BcAGO1 binds to both fungal and plant small RNAs during infection and acts in bidirectional cross-kingdom RNAi, from fungus to plant and vice versa.",
+     "note": "Binding of both small RNA pools and bidirectional cross-kingdom RNAi by BcAGO1 are stated as results."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "BcAGO2 binds fungal and plant small RNAs too, but regulates genes distinct from those controlled by BcAGO1.",
+     "evidence": "BcAGO2 also binds fungal and plant small RNAs but acts independent from BcAGO1 by regulating distinct genes.",
+     "note": "The abstract reports that BcAGO2 acts independently of BcAGO1 on a distinct set of genes."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Efficient delivery of pathogen small RNAs into host cells requires BcAGO2.",
+     "evidence": "it is required for effective pathogen small RNA delivery into host cells and fungal induced cross-kingdom RNAi",
+     "note": "The requirement for BcAGO2 in small RNA delivery into host cells is stated directly."
+    }
+   ]
+  },
+  {
+   "n": 902,
+   "id": "pmid:42825844",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Validation in three bulk transcriptomic cohorts totalling 330 samples confirmed CXCL9 and METTL14 differ between OSCC and normal tissue.",
+     "evidence": "Independent validation in three bulk transcriptomics cohorts (n = 330) confirmed significant differential expression of CXCL9 and METTL14 between OSCC tumor and normal tissues.",
+     "note": "The abstract gives the cohort count and sample number together with the confirmed differential expression."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Overexpressing METTL14 in tumour-associated macrophages increased CXCL9-positive macrophages and suppressed OSCC cell growth and stemness.",
+     "evidence": "In vitro, METTL14 overexpression in TAMs promoted CXCL9⁺ TAM generation and suppressed OSCC cell growth and stemness",
+     "note": "Both the shift towards CXCL9-positive macrophages and the suppression of growth and stemness are reported in vitro."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "OSCC patients with a high CXCL9/SPP1 ratio respond better to immune checkpoint blockade.",
+     "evidence": "The CXCL9/SPP1 ratio (CS ratio) has been validated as a more reliable prognostic biomarker than the conventional M1/M2 classification.",
+     "note": "The ratio is described as a prognostic biomarker; no treatment, and no immunotherapy response, is examined."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "In macrophage-specific METTL14-knockout mice, macrophages shifted towards SPP1-positive, and tumour growth and stemness rose.",
+     "evidence": "METTL14 knockdown reduced m6A modification levels of CXCL9 mRNA, promoted the polarization of TAMs toward the SPP1⁺ phenotype, and ultimately accelerated OSCC tumor growth and enhanced cancer stemness",
+     "note": "The in vivo knockout experiment reports the SPP1-positive shift alongside faster growth and greater stemness."
+    }
+   ]
+  },
+  {
+   "n": 903,
+   "id": "pmid:42874926",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Cold exposure activated thermogenic metabolism in brown adipose tissue, where 7-methylguanosine was elevated.",
+     "evidence": "we found that cold exposure activates thermogenic metabolism in BAT and that 7-Methylguanosine is elevated in thermogenically activated BAT",
+     "note": "Both the metabolic activation and the raised 7-methylguanosine level come from the untargeted metabolomics result."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Loss of METTL1 lowered m7G levels and weakened the thermogenic capacity of adipocytes.",
+     "evidence": "Loss of METTL1 reduces m 7 G levels and impairs adipocyte thermogenic capacity.",
+     "note": "Reduced modification levels and impaired thermogenic capacity on METTL1 loss are stated together."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Overexpressing tRF-Lys-CTT blocked brown adipocyte differentiation and thermogenic activation, while inhibiting it produced the reverse.",
+     "evidence": "Overexpression of tRF-Lys-CTT, which derives from an m 7 G-modified tRNA, inhibits brown adipocyte differentiation and thermogenic activation; conversely, inhibiting tRF-Lys-CTT produces the opposite effects.",
+     "note": "The abstract reports opposite outcomes for gain and loss of tRF-Lys-CTT."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Mice lacking tRF-Lys-CTT gain less weight than controls on a high-fat diet.",
+     "evidence": "In summary, our study indicates that tRF-Lys-CTT functions as a post-transcriptional regulator of metabolism that suppresses thermogenesis",
+     "note": "The work addresses thermogenic capacity and its mechanism; no body-weight or dietary-challenge experiment is reported."
+    }
+   ]
+  },
+  {
+   "n": 904,
+   "id": "pmid:40361089",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The Dicer2 mutant showed fewer TE-derived 21nt RNAs and an altered TE expression pattern, yet TE transcript abundance did not shift much.",
+     "evidence": "Our results show a modified pattern of TE expression and a decrease in TE-derived 21nt RNAs in the Dicer2 mutant, but no major shift of TE transcript abundance.",
+     "note": "The decrease in 21nt RNAs together with unchanged overall TE transcript abundance is the reported result."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Dicer2 mutant mosquitoes are less fertile than their wild-type counterparts.",
+     "evidence": "We investigated the expression of TEs and small RNAs in both somatic and gonadal tissues of a Dicer2 mutant line of Ae. aegypti and its wild-type counterpart.",
+     "note": "The comparison with wild-type covers TE and small RNA expression; no fertility or reproductive phenotype is measured."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Without a working siRNA pathway, piRNA ping-pong signatures were perturbed with no clear sign of compensating piRNA pathway activity.",
+     "evidence": "The lack of a functional siRNA pathway also causes perturbations in piRNA ping-pong signatures and the expression of certain piRNA-associated genes, but without clear evidence for compensation by increased piRNA pathway activity.",
+     "note": "Both the perturbation and the absence of evidence for compensation are stated in the results."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Aedes aegypti does make TE-derived siRNAs, but they are not critical for TE regulation in somatic or gonadal tissue.",
+     "evidence": "The mosquito Ae. aegypti produces siRNAs derived from TEs but these lack a critical role in the regulation of TE expression both in somatic and in gonadal tissues.",
+     "note": "This is the conclusion the abstract draws for both tissue types."
+    }
+   ]
+  },
+  {
+   "n": 905,
+   "id": "pmid:42805014",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "The three-gene signature distinguishes ulcerative colitis from Crohn's disease.",
+     "evidence": "We integrated three GEO datasets and, via LASSO regression, random forest, and SVM-RFE algorithms, identified three core differentially expressed RNA methylation-related genes (DERMGs): upregulated IFIT5 and MSI2 and downregulated NCBP1.",
+     "note": "Diagnostic performance is reported for ulcerative colitis cohorts only; Crohn's disease is never tested or mentioned."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Among the three core RNA methylation-related genes, IFIT5 and MSI2 were raised and NCBP1 was lowered.",
+     "evidence": "identified three core differentially expressed RNA methylation-related genes (DERMGs): upregulated IFIT5 and MSI2 and downregulated NCBP1",
+     "note": "The direction of change for each of the three genes is stated explicitly."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "A nomogram combining all three markers reached an area under the curve of 0.947.",
+     "evidence": "The nomogram incorporating all three markers achieved an AUC of 0.947",
+     "note": "The 0.947 AUC for the three-marker nomogram is reported as a result."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "LPS stimulation of NCM460 and Caco-2 colonic epithelial cells pushed IFIT5 and MSI2 up and NCBP1 down.",
+     "evidence": "In vitro experiments confirmed that LPS stimulation upregulated IFIT5 and MSI2 and downregulated NCBP1 in NCM460 and Caco-2 colonic epithelial cells.",
+     "note": "The in vitro experiment reports exactly these directions in the two named cell lines."
+    }
+   ]
+  },
+  {
+   "n": 906,
+   "id": "pmid:40897238",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "FungiSNC aggregates 989 next-generation sequencing samples drawn from 29 fungal species.",
+     "evidence": "aggregating 989 next generation sequencing (NGS) samples from 29 fungal species",
+     "note": "The sample and species counts are given directly in the results."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The platform covers many small non-coding RNA classes, among them siRNAs, predicted milRNAs, phasiRNAs, snoRNAs and piRNAs.",
+     "evidence": "including siRNAs (small-interfering RNAs), predicted milRNAs (microRNA-like RNAs) and phasiRNAs (phased, secondary, small-interfering RNAs), rRNAs (ribosomal RNAs), tRNAs (transfer RNAs), snRNAs (small nuclear RNAs), snoRNAs (small nucleolar RNAs), piRNAs (piwi-interacting RNAs)",
+     "note": "All the listed classes appear in the abstract's enumeration of the categories FungiSNC covers."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Users can upload their own sRNA-seq datasets to FungiSNC and analyse them against the stored data.",
+     "evidence": "with all results integrated into a relational database featuring embedded analytical tools for user-friendly exploration",
+     "note": "Embedded tools for exploring the stored results are described, but no user data submission or upload function is mentioned."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The build pipeline preprocessed public and in-house sRNA-seq data, then detected and classified sncRNAs and annotated their function.",
+     "evidence": "We implemented a standardized analytical workflow encompassing (i) data preprocessing of both public repositories and in-house sRNA-seq datasets, (ii) systematic sncRNA detection and classification, and (iii) functional annotation analysis",
+     "note": "The three workflow stages are listed in the methods exactly in this order."
+    }
+   ]
+  },
+  {
+   "n": 907,
+   "id": "doi:10.1101/2024.11.24.624934",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "29% of genes carried several mammalian-conserved alternative transcripts, and 31% of those genes switched their major isoform between tissues.",
+     "evidence": "Our analysis reveals that 29% of genes have multiple mammalian-conserved alternative transcripts, with 31% of these genes showing tissue-specific switching of the major transcript isoforms.",
+     "note": "Both percentages are reported directly from the long-read atlas."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Conserved coordinated splicing was driven mainly by tissue-specific mutually associated exon splicing, most prominently in neural tissues and cytoskeletal genes.",
+     "evidence": "We uncover extensive conservation of coordinated splicing events, primarily driven by tissue-specific mutually associated exon splicing, particularly in neural tissues and cytoskeletal genes.",
+     "note": "The dominant driver and the tissues and gene class where it stands out are stated as findings."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Across mammals 14.2% of m6A modifications were conserved, and 39% of the analysed genes contained a conserved m6A site.",
+     "evidence": "we find that 14.2% of m6A RNA modifications are conserved across mammals, with 39% of analysed genes containing a conserved m6A RNA modification",
+     "note": "Both epitranscriptome conservation figures are given explicitly."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Conserved m6A sites sit predominantly in the 3' UTRs of the transcripts that carry them.",
+     "evidence": "At the epitranscriptome level, we find that 14.2% of m6A RNA modifications are conserved across mammals, with 39% of analysed genes containing a conserved m6A RNA modification.",
+     "note": "Conservation is quantified, but the abstract reports nothing about where within transcripts the conserved sites lie."
+    }
+   ]
+  },
+  {
+   "n": 908,
+   "id": "pmid:42613376",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Stress raised MYC mRNA in insulin-producing cells but not in alpha cells.",
+     "evidence": "We observed that in insulin-producing cells, but not in alpha cells, MYC mRNA levels were increased in response to stress (proinflammatory cytokines or palmitate + high glucose).",
+     "note": "The contrast between insulin-producing and alpha cells under stress is reported directly."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Treating MIN6 cells with PHAROH ASO 1 protected them from cytokine-induced cell death.",
+     "evidence": "MYC protein levels were also increased by PHAROH ASO 1, both in the absence and presence of pro-inflammatory cytokines.",
+     "note": "The abstract follows MYC transcript, protein and TIA1 binding after the ASO, never cell viability or apoptosis."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "PHAROH ASO 1 increased both PHAROH and MYC mRNA expression in MIN6 cells.",
+     "evidence": "We observed that the PHAROH ASO 1 increased both PHAROH and MYC mRNA expression.",
+     "note": "The rise in both transcripts after PHAROH ASO 1 treatment is stated as an observation."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "After PHAROH ASO 1, less MYC mRNA and more PHAROH was bound to TIA1.",
+     "evidence": "we observed that PHAROH ASO 1 decreased MYC mRNA binding to TIA1, and instead increased PHAROH binding to TIA1",
+     "note": "The reciprocal change in TIA1 binding comes from the RNA immunoprecipitation result."
+    }
+   ]
+  },
+  {
+   "n": 909,
+   "id": "doi:10.64898/2026.06.22.730622",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "ADAR2 overexpression lowered the nucleocytoplasmic ratio of TDP-43 in HEK293T cells, depending on ADAR2 catalytic activity and TDP-43 RNA binding.",
+     "evidence": "ADAR2 overexpression reduced the nucleocytoplasmic (N:C) ratio of TDP-43 in HEK293T cells in a ADAR2 catalytic activity- and TDP-43 RNA-binding capacity-dependent manner.",
+     "note": "The reduced N:C ratio and its two dependencies are reported as the primary result."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Gel shift assays showed TDP-43 binds inosine-containing RNAs in preference to unedited ones.",
+     "evidence": "EMSAs revealed preferential binding of TDP-43 to inosine-containing RNAs relative to unedited RNAs",
+     "note": "The preference of TDP-43 for edited over unedited RNA is an explicit EMSA result."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Flies overexpressing dADAR in motor neurons had a shorter lifespan than control flies.",
+     "evidence": "Drosophila motor neurons overexpressing dADAR also exhibited decreased nuclear TDP-43.",
+     "note": "For these flies the abstract reports only TDP-43 localisation; survival and lifespan are not measured."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Drosophila motor neurons overexpressing dADAR held less TDP-43 in the nucleus.",
+     "evidence": "Drosophila motor neurons overexpressing dADAR also exhibited decreased nuclear TDP-43.",
+     "note": "Decreased nuclear TDP-43 in dADAR-overexpressing motor neurons is stated as a result."
+    }
+   ]
+  }
+ ],
+ "flip_rule": "first-of-any-v3"
+}

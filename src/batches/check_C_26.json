@@ -1,0 +1,647 @@
+{
+"batch": "check_C_26",
+"pass": "C",
+"source_batch": "gen_26",
+"items": [
+{
+"n": 760,
+"id": "pmid:39385020",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Advanced urothelial cancer is a frequently lethal disease characterized by marked genetic heterogeneity 1 . In this study, we investigated the evolution of genomic signatures caused by endogenous and external mutagenic processes and their interplay with complex structural variants (SVs). We superimposed mutational signatures and phylogenetic analyses of matched serial tumours from patients with urothelial cancer to define the evolutionary dynamics of these processes. We show that APOBEC3-induced mutations are clonal and early, whereas chemotherapy induces mutational bursts of hundreds of late subclonal mutations. Using a genome graph computational tool 2 , we observed frequent high copy-number circular amplicons characteristic of extrachromosomal DNA (ecDNA)-forming SVs. We characterized the distinct temporal patterns of APOBEC3-induced and chemotherapy-induced mutations within ecDNA-forming SVs, gaining new insights into the timing of these mutagenic processes relative to ecDNA biogenesis. We discovered that most CCND1 amplifications in urothelial cancer arise within circular ecDNA-forming SVs. ecDNA-forming SVs persisted and increased in complexity, incorporating additional DNA segments and contributing to the evolution of treatment resistance. Oxford Nanopore Technologies long-read whole-genome sequencing followed by de novo assembly mapped out CCND1 ecDNA structure. Experimental modelling of CCND1 ecDNA confirmed its role as a driver of treatment resistance. Our findings define fundamental mechanisms that drive urothelial cancer evolution and have important therapeutic implications."
+}
+],
+"text": "Advanced urothelial cancer is a frequently lethal disease characterized by marked genetic heterogeneity 1 . In this study, we investigated the evolution of genomic signatures caused by endogenous and external mutagenic processes and their interplay with complex structural variants (SVs). We superimposed mutational signatures and phylogenetic analyses of matched serial tumours from patients with urothelial cancer to define the evolutionary dynamics of these processes. We show that APOBEC3-induced mutations are clonal and early, whereas chemotherapy induces mutational bursts of hundreds of late subclonal mutations. Using a genome graph computational tool 2 , we observed frequent high copy-number circular amplicons characteristic of extrachromosomal DNA (ecDNA)-forming SVs. We characterized the distinct temporal patterns of APOBEC3-induced and chemotherapy-induced mutations within ecDNA-forming SVs, gaining new insights into the timing of these mutagenic processes relative to ecDNA biogenesis. We discovered that most CCND1 amplifications in urothelial cancer arise within circular ecDNA-forming SVs. ecDNA-forming SVs persisted and increased in complexity, incorporating additional DNA segments and contributing to the evolution of treatment resistance. Oxford Nanopore Technologies long-read whole-genome sequencing followed by de novo assembly mapped out CCND1 ecDNA structure. Experimental modelling of CCND1 ecDNA confirmed its role as a driver of treatment resistance. Our findings define fundamental mechanisms that drive urothelial cancer evolution and have important therapeutic implications.",
+"statements": [
+{
+"j": 1,
+"text": "Over time ecDNA-forming structural variants persisted rather than disappearing, took up further DNA segments and became more complex."
+},
+{
+"j": 2,
+"text": "Patients whose tumours carried CCND1 ecDNA had shorter overall survival than patients whose tumours lacked it."
+},
+{
+"j": 3,
+"text": "Least CCND1 amplifications in urothelial cancer were found to originate inside circular ecDNA-forming structural variants."
+},
+{
+"j": 4,
+"text": "APOBEC3-driven mutations in urothelial cancer were clonal and early, whereas chemotherapy produced bursts of hundreds of late subclonal mutations."
+}
+]
+},
+{
+"n": 761,
+"id": "pmid:41339552",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Breast cancer remains a major global health challenge 1 . Here, to comprehensively characterize its genomic landscape and the clinical significance of genomic characteristics, we analysed whole-genome sequences from 1,364 clinically annotated breast cancers, with transcriptome data available for most cases. Our study expands the repertoire of oncogenic alterations and identifies novel driver genes, recurrent gene fusions, structural variants and copy number alterations. Timing analyses on copy number alterations suggest that genomic instability emerges decades before tumour diagnosis, and offer insights into early initiation of tumorigenesis. Pattern-driven genomic features, including mutational signatures 2 , homologous recombination deficiency 3 , tumour mutational burden and tumour heterogeneity scores 4 , were associated with clinical outcomes, highlighting their potential utility as predictive biomarkers for clinical evaluation of treatments such as CDK4/6 and HER2 inhibitors, as well as adjuvant and neoadjuvant chemotherapy. These findings highlight the power of large-scale, clinically annotated whole-genome sequencing in advancing our understanding of how genomic alterations shape patient outcomes."
+}
+],
+"text": "Breast cancer remains a major global health challenge 1 . Here, to comprehensively characterize its genomic landscape and the clinical significance of genomic characteristics, we analysed whole-genome sequences from 1,364 clinically annotated breast cancers, with transcriptome data available for most cases. Our study expands the repertoire of oncogenic alterations and identifies novel driver genes, recurrent gene fusions, structural variants and copy number alterations. Timing analyses on copy number alterations suggest that genomic instability emerges decades before tumour diagnosis, and offer insights into early initiation of tumorigenesis. Pattern-driven genomic features, including mutational signatures 2 , homologous recombination deficiency 3 , tumour mutational burden and tumour heterogeneity scores 4 , were associated with clinical outcomes, highlighting their potential utility as predictive biomarkers for clinical evaluation of treatments such as CDK4/6 and HER2 inhibitors, as well as adjuvant and neoadjuvant chemotherapy. These findings highlight the power of large-scale, clinically annotated whole-genome sequencing in advancing our understanding of how genomic alterations shape patient outcomes.",
+"statements": [
+{
+"j": 1,
+"text": "Whole-genome sequencing predicted which patients would relapse more accurately than standard clinical pathology did."
+},
+{
+"j": 2,
+"text": "Mutational signatures, homologous recombination deficiency, tumour mutational burden and heterogeneity scores were associated with clinical outcomes."
+},
+{
+"j": 3,
+"text": "Dating of copy number alterations placed the onset of genomic instability decades before the tumour was diagnosed."
+},
+{
+"j": 4,
+"text": "The study analysed whole-genome sequences of 1,364 clinically annotated breast cancers, with transcriptome data available for least of those cases."
+}
+]
+},
+{
+"n": 762,
+"id": "pmid:36792825",
+"year": 2023,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The latitudinal diversity gradient (LDG) is a prevalent feature of modern ecosystems across diverse clades 1-4 . Recognized for well over a century, the causal mechanisms for LDGs remain disputed, in part because numerous putative drivers simultaneously covary with latitude 1,3,5 . The past provides the opportunity to disentangle LDG mechanisms because the relationships among biodiversity, latitude and possible causal factors have varied over time 6-9 . Here we quantify the emergence of the LDG in planktonic foraminifera at high spatiotemporal resolution over the past 40 million years, finding that a modern-style gradient arose only 15 million years ago. Spatial and temporal models suggest that LDGs for planktonic foraminifera may be controlled by the physical structure of the water column. Steepening of the latitudinal temperature gradient over 15 million years ago, associated with an increased vertical temperature gradient at low latitudes, may have enhanced niche partitioning and provided more opportunities for speciation at low latitudes. Supporting this hypothesis, we find that higher rates of low-latitude speciation steepened the diversity gradient, consistent with spatiotemporal patterns of depth partitioning by planktonic foraminifera. Extirpation of species from high latitudes also strengthened the LDG, but this effect tended to be weaker than speciation. Our results provide a step change in understanding the evolution of marine LDGs over long timescales."
+}
+],
+"text": "The latitudinal diversity gradient (LDG) is a prevalent feature of modern ecosystems across diverse clades 1-4 . Recognized for well over a century, the causal mechanisms for LDGs remain disputed, in part because numerous putative drivers simultaneously covary with latitude 1,3,5 . The past provides the opportunity to disentangle LDG mechanisms because the relationships among biodiversity, latitude and possible causal factors have varied over time 6-9 . Here we quantify the emergence of the LDG in planktonic foraminifera at high spatiotemporal resolution over the past 40 million years, finding that a modern-style gradient arose only 15 million years ago. Spatial and temporal models suggest that LDGs for planktonic foraminifera may be controlled by the physical structure of the water column. Steepening of the latitudinal temperature gradient over 15 million years ago, associated with an increased vertical temperature gradient at low latitudes, may have enhanced niche partitioning and provided more opportunities for speciation at low latitudes. Supporting this hypothesis, we find that higher rates of low-latitude speciation steepened the diversity gradient, consistent with spatiotemporal patterns of depth partitioning by planktonic foraminifera. Extirpation of species from high latitudes also strengthened the LDG, but this effect tended to be weaker than speciation. Our results provide a step change in understanding the evolution of marine LDGs over long timescales.",
+"statements": [
+{
+"j": 1,
+"text": "Across a 40-million-year record, a modern-style latitudinal diversity gradient in planktonic foraminifera appeared only 15 million years ago."
+},
+{
+"j": 2,
+"text": "Species loss from high latitudes also reinforced the gradient, but this contribution was generally smaller than that of speciation."
+},
+{
+"j": 3,
+"text": "Slower speciation at low latitudes made the planktonic foraminiferal diversity gradient steeper."
+},
+{
+"j": 4,
+"text": "Terrestrial plant and insect clades acquired their modern latitudinal diversity gradients at the same time, around 15 million years ago."
+}
+]
+},
+{
+"n": 763,
+"id": "pmid:40240612",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Sensitive methods for detection of cell-free RNA (cfRNA) could facilitate non-invasive gene expression profiling and monitoring of diseases 1-6 . Here we describe RARE-seq (random priming and affinity capture of cfRNA fragments for enrichment analysis by sequencing), a method optimized for cfRNA analysis. We demonstrate that platelet contamination can substantially confound cfRNA analyses and develop an approach to overcome it. In analytical validations, we find RARE-seq to be approximately 50-fold more sensitive for detecting tumour-derived cfRNA than whole-transcriptome RNA sequencing (RNA-seq), with a limit of detection of 0.05%. To explore clinical utility, we profiled 437 plasma samples from 369 individuals with cancer or non-malignant conditions and controls. Detection of non-small-cell lung cancer expression signatures in cfRNA increased with stage (6 out of 20 (30%) in stage I; 5 out of 8 (63%) in stage II; 10 out of 15 (67%) in stage III; 80 out of 96 (83% sensitivity) in stage IV at 95% specificity) and RARE-seq was more sensitive than tumour-naive circulating tumour DNA (ctDNA) analysis. In patients with EGFR-mutant non-small-cell lung cancer who developed resistance to tyrosine kinase inhibitors, we detected both histological transformation and mutation-based resistance mechanisms. Finally, we demonstrate the potential utility of RARE-seq for determination of tissue of origin, assessing benign pulmonary conditions and tracking response to mRNA vaccines. These results highlight the potential value of ultrasensitive cfRNA analysis and provide proof of concept for diverse clinical applications."
+}
+],
+"text": "Sensitive methods for detection of cell-free RNA (cfRNA) could facilitate non-invasive gene expression profiling and monitoring of diseases 1-6 . Here we describe RARE-seq (random priming and affinity capture of cfRNA fragments for enrichment analysis by sequencing), a method optimized for cfRNA analysis. We demonstrate that platelet contamination can substantially confound cfRNA analyses and develop an approach to overcome it. In analytical validations, we find RARE-seq to be approximately 50-fold more sensitive for detecting tumour-derived cfRNA than whole-transcriptome RNA sequencing (RNA-seq), with a limit of detection of 0.05%. To explore clinical utility, we profiled 437 plasma samples from 369 individuals with cancer or non-malignant conditions and controls. Detection of non-small-cell lung cancer expression signatures in cfRNA increased with stage (6 out of 20 (30%) in stage I; 5 out of 8 (63%) in stage II; 10 out of 15 (67%) in stage III; 80 out of 96 (83% sensitivity) in stage IV at 95% specificity) and RARE-seq was more sensitive than tumour-naive circulating tumour DNA (ctDNA) analysis. In patients with EGFR-mutant non-small-cell lung cancer who developed resistance to tyrosine kinase inhibitors, we detected both histological transformation and mutation-based resistance mechanisms. Finally, we demonstrate the potential utility of RARE-seq for determination of tissue of origin, assessing benign pulmonary conditions and tracking response to mRNA vaccines. These results highlight the potential value of ultrasensitive cfRNA analysis and provide proof of concept for diverse clinical applications.",
+"statements": [
+{
+"j": 1,
+"text": "RARE-seq detected tumour-derived cfRNA roughly 50 times less sensitively than whole-transcriptome RNA-seq, reaching a detection limit of 0.05%."
+},
+{
+"j": 2,
+"text": "Platelet contamination substantially confounds cfRNA analysis, and an approach was developed to overcome it."
+},
+{
+"j": 3,
+"text": "Annual RARE-seq screening of asymptomatic smokers reduces lung cancer mortality."
+},
+{
+"j": 4,
+"text": "Detection of lung cancer expression signatures rose with stage, from 30% in stage I to 83% sensitivity in stage IV at 95% specificity."
+}
+]
+},
+{
+"n": 764,
+"id": "pmid:37046089",
+"year": 2023,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Oncogene amplification on extrachromosomal DNA (ecDNA) drives the evolution of tumours and their resistance to treatment, and is associated with poor outcomes for patients with cancer 1-6 . At present, it is unclear whether ecDNA is a later manifestation of genomic instability, or whether it can be an early event in the transition from dysplasia to cancer. Here, to better understand the development of ecDNA, we analysed whole-genome sequencing (WGS) data from patients with oesophageal adenocarcinoma (EAC) or Barrett's oesophagus. These data included 206 biopsies in Barrett's oesophagus surveillance and EAC cohorts from Cambridge University. We also analysed WGS and histology data from biopsies that were collected across multiple regions at 2 time points from 80 patients in a case-control study at the Fred Hutchinson Cancer Center. In the Cambridge cohorts, the frequency of ecDNA increased between Barrett's-oesophagus-associated early-stage (24%) and late-stage (43%) EAC, suggesting that ecDNA is formed during cancer progression. In the cohort from the Fred Hutchinson Cancer Center, 33% of patients who developed EAC had at least one oesophageal biopsy with ecDNA before or at the diagnosis of EAC. In biopsies that were collected before cancer diagnosis, higher levels of ecDNA were present in samples from patients who later developed EAC than in samples from those who did not. We found that ecDNAs contained diverse collections of oncogenes and immunomodulatory genes. Furthermore, ecDNAs showed increases in copy number and structural complexity at more advanced stages of disease. Our findings show that ecDNA can develop early in the transition from high-grade dysplasia to cancer, and that ecDNAs progressively form and evolve under positive selection."
+}
+],
+"text": "Oncogene amplification on extrachromosomal DNA (ecDNA) drives the evolution of tumours and their resistance to treatment, and is associated with poor outcomes for patients with cancer 1-6 . At present, it is unclear whether ecDNA is a later manifestation of genomic instability, or whether it can be an early event in the transition from dysplasia to cancer. Here, to better understand the development of ecDNA, we analysed whole-genome sequencing (WGS) data from patients with oesophageal adenocarcinoma (EAC) or Barrett's oesophagus. These data included 206 biopsies in Barrett's oesophagus surveillance and EAC cohorts from Cambridge University. We also analysed WGS and histology data from biopsies that were collected across multiple regions at 2 time points from 80 patients in a case-control study at the Fred Hutchinson Cancer Center. In the Cambridge cohorts, the frequency of ecDNA increased between Barrett's-oesophagus-associated early-stage (24%) and late-stage (43%) EAC, suggesting that ecDNA is formed during cancer progression. In the cohort from the Fred Hutchinson Cancer Center, 33% of patients who developed EAC had at least one oesophageal biopsy with ecDNA before or at the diagnosis of EAC. In biopsies that were collected before cancer diagnosis, higher levels of ecDNA were present in samples from patients who later developed EAC than in samples from those who did not. We found that ecDNAs contained diverse collections of oncogenes and immunomodulatory genes. Furthermore, ecDNAs showed increases in copy number and structural complexity at more advanced stages of disease. Our findings show that ecDNA can develop early in the transition from high-grade dysplasia to cancer, and that ecDNAs progressively form and evolve under positive selection.",
+"statements": [
+{
+"j": 1,
+"text": "Screening Barrett's oesophagus biopsies for ecDNA identifies patients needing earlier surgery better than current histological grading does."
+},
+{
+"j": 2,
+"text": "In the Cambridge cohorts ecDNA was present in 24% of early-stage and 43% of late-stage Barrett's-associated oesophageal adenocarcinomas."
+},
+{
+"j": 3,
+"text": "ecDNAs carried varied sets of oncogenes and immunomodulatory genes and gained copy number and structural complexity in more advanced disease."
+},
+{
+"j": 4,
+"text": "In biopsies taken before cancer diagnosis, ecDNA levels were lower in patients who later developed oesophageal adenocarcinoma than in those who did not."
+}
+]
+},
+{
+"n": 765,
+"id": "pmid:41781618",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Cell-free DNA in blood originates from fragmented chromatin released by dying cells from both healthy and diseased tissues 1,2 . These fragments carry rich molecular modalities that can reveal pathological alterations in tissues of origin 3-10 . Here we develop cf-EpiTracing, a highly sensitive automated platform that profiles histone modifications in cell-free DNA from as little as 50 μl of human plasma. By integrating multimodal chromatin states with machine learning, cf-EpiTracing enables accurate deconvolution of cell types of origin. We generated 2,417 cf-EpiTracing profiles from plasma of 125 healthy individuals and 549 patients with inflammatory bowel disease, colorectal cancer, coronary heart disease or lymphoma. cf-EpiTracing enabled unbiased identification of primary diseased tissues and other organ involvement, stratification of B cell lymphoma subtypes with different genetic and epigenetic underpinnings, and detection of early-stage diseases or lesions. Surveying dynamics of epigenetic signatures uncovered disease transformation from follicular lymphoma to diffuse large B cell lymphoma. Further, cf-EpiTracing revealed genomic translocations and epigenetic alterations in patients with mantle cell lymphoma. Of note, our study leverages holistic epigenetic signatures, independently of knowledge of gene transcription, to accurately report recurrence risk and therapeutic response. Together, these findings establish cf-EpiTracing as an automated, non-invasive, epigenome-centric framework with broad applications in early diagnosis, molecular subtyping and prognostic prediction."
+}
+],
+"text": "Cell-free DNA in blood originates from fragmented chromatin released by dying cells from both healthy and diseased tissues 1,2 . These fragments carry rich molecular modalities that can reveal pathological alterations in tissues of origin 3-10 . Here we develop cf-EpiTracing, a highly sensitive automated platform that profiles histone modifications in cell-free DNA from as little as 50 μl of human plasma. By integrating multimodal chromatin states with machine learning, cf-EpiTracing enables accurate deconvolution of cell types of origin. We generated 2,417 cf-EpiTracing profiles from plasma of 125 healthy individuals and 549 patients with inflammatory bowel disease, colorectal cancer, coronary heart disease or lymphoma. cf-EpiTracing enabled unbiased identification of primary diseased tissues and other organ involvement, stratification of B cell lymphoma subtypes with different genetic and epigenetic underpinnings, and detection of early-stage diseases or lesions. Surveying dynamics of epigenetic signatures uncovered disease transformation from follicular lymphoma to diffuse large B cell lymphoma. Further, cf-EpiTracing revealed genomic translocations and epigenetic alterations in patients with mantle cell lymphoma. Of note, our study leverages holistic epigenetic signatures, independently of knowledge of gene transcription, to accurately report recurrence risk and therapeutic response. Together, these findings establish cf-EpiTracing as an automated, non-invasive, epigenome-centric framework with broad applications in early diagnosis, molecular subtyping and prognostic prediction.",
+"statements": [
+{
+"j": 1,
+"text": "The study produced 2,417 cf-EpiTracing profiles from the plasma of 125 healthy individuals and 549 patients with one of four diseases."
+},
+{
+"j": 2,
+"text": "cf-EpiTracing detected colorectal cancer earlier than standard faecal immunochemical testing in the same patients."
+},
+{
+"j": 3,
+"text": "The platform identified primary diseased tissues and other organ involvement, separated B cell lymphoma subtypes, and picked up early-stage diseases or lesions."
+},
+{
+"j": 4,
+"text": "Following epigenetic signatures over time revealed transformation of follicular lymphoma into diffuse large B cell lymphoma."
+}
+]
+},
+{
+"n": 766,
+"id": "pmid:37938774",
+"year": 2023,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "In eukaryotes, repetitive DNA sequences are transcriptionally silenced through histone H3 lysine 9 trimethylation (H3K9me3). Loss of silencing of the repeat elements leads to genome instability and human diseases, including cancer and ageing 1-3 . Although the role of H3K9me3 in the establishment and maintenance of heterochromatin silencing has been extensively studied 4-6 , the pattern and mechanism that underlie the partitioning of parental H3K9me3 at replicating DNA strands are unknown. Here we report that H3K9me3 is preferentially transferred onto the leading strands of replication forks, which occurs predominantly at long interspersed nuclear element (LINE) retrotransposons (also known as LINE-1s or L1s) that are theoretically transcribed in the head-on direction with replication fork movement. Mechanistically, the human silencing hub (HUSH) complex interacts with the leading-strand DNA polymerase Pol ε and contributes to the asymmetric segregation of H3K9me3. Cells deficient in Pol ε subunits (POLE3 and POLE4) or the HUSH complex (MPP8 and TASOR) show compromised H3K9me3 asymmetry and increased LINE expression. Similar results were obtained in cells expressing a MPP8 mutant defective in H3K9me3 binding and in TASOR mutants with reduced interactions with Pol ε. These results reveal an unexpected mechanism whereby the HUSH complex functions with Pol ε to promote asymmetric H3K9me3 distribution at head-on LINEs to suppress their expression in S phase."
+}
+],
+"text": "In eukaryotes, repetitive DNA sequences are transcriptionally silenced through histone H3 lysine 9 trimethylation (H3K9me3). Loss of silencing of the repeat elements leads to genome instability and human diseases, including cancer and ageing 1-3 . Although the role of H3K9me3 in the establishment and maintenance of heterochromatin silencing has been extensively studied 4-6 , the pattern and mechanism that underlie the partitioning of parental H3K9me3 at replicating DNA strands are unknown. Here we report that H3K9me3 is preferentially transferred onto the leading strands of replication forks, which occurs predominantly at long interspersed nuclear element (LINE) retrotransposons (also known as LINE-1s or L1s) that are theoretically transcribed in the head-on direction with replication fork movement. Mechanistically, the human silencing hub (HUSH) complex interacts with the leading-strand DNA polymerase Pol ε and contributes to the asymmetric segregation of H3K9me3. Cells deficient in Pol ε subunits (POLE3 and POLE4) or the HUSH complex (MPP8 and TASOR) show compromised H3K9me3 asymmetry and increased LINE expression. Similar results were obtained in cells expressing a MPP8 mutant defective in H3K9me3 binding and in TASOR mutants with reduced interactions with Pol ε. These results reveal an unexpected mechanism whereby the HUSH complex functions with Pol ε to promote asymmetric H3K9me3 distribution at head-on LINEs to suppress their expression in S phase.",
+"statements": [
+{
+"j": 1,
+"text": "Mice lacking the HUSH complex develop tumours as a result of LINE de-repression."
+},
+{
+"j": 2,
+"text": "Parental H3K9me3 goes mainly onto the leading strands of replication forks, below all at LINE retrotransposons oriented head-on to fork movement."
+},
+{
+"j": 3,
+"text": "Cells lacking the Pol ε subunits POLE3 and POLE4, or the HUSH components MPP8 and TASOR, showed weakened H3K9me3 asymmetry and raised LINE expression."
+},
+{
+"j": 4,
+"text": "The HUSH complex binds the leading-strand polymerase Pol ε and contributes to the asymmetric segregation of H3K9me3."
+}
+]
+},
+{
+"n": 767,
+"id": "pmid:37046093",
+"year": 2023,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Intratumour heterogeneity (ITH) fuels lung cancer evolution, which leads to immune evasion and resistance to therapy 1 . Here, using paired whole-exome and RNA sequencing data, we investigate intratumour transcriptomic diversity in 354 non-small cell lung cancer tumours from 347 out of the first 421 patients prospectively recruited into the TRACERx study 2,3 . Analyses of 947 tumour regions, representing both primary and metastatic disease, alongside 96 tumour-adjacent normal tissue samples implicate the transcriptome as a major source of phenotypic variation. Gene expression levels and ITH relate to patterns of positive and negative selection during tumour evolution. We observe frequent copy number-independent allele-specific expression that is linked to epigenomic dysfunction. Allele-specific expression can also result in genomic-transcriptomic parallel evolution, which converges on cancer gene disruption. We extract signatures of RNA single-base substitutions and link their aetiology to the activity of the RNA-editing enzymes ADAR and APOBEC3A, thereby revealing otherwise undetected ongoing APOBEC activity in tumours. Characterizing the transcriptomes of primary-metastatic tumour pairs, we combine multiple machine-learning approaches that leverage genomic and transcriptomic variables to link metastasis-seeding potential to the evolutionary context of mutations and increased proliferation within primary tumour regions. These results highlight the interplay between the genome and transcriptome in influencing ITH, lung cancer evolution and metastasis."
+}
+],
+"text": "Intratumour heterogeneity (ITH) fuels lung cancer evolution, which leads to immune evasion and resistance to therapy 1 . Here, using paired whole-exome and RNA sequencing data, we investigate intratumour transcriptomic diversity in 354 non-small cell lung cancer tumours from 347 out of the first 421 patients prospectively recruited into the TRACERx study 2,3 . Analyses of 947 tumour regions, representing both primary and metastatic disease, alongside 96 tumour-adjacent normal tissue samples implicate the transcriptome as a major source of phenotypic variation. Gene expression levels and ITH relate to patterns of positive and negative selection during tumour evolution. We observe frequent copy number-independent allele-specific expression that is linked to epigenomic dysfunction. Allele-specific expression can also result in genomic-transcriptomic parallel evolution, which converges on cancer gene disruption. We extract signatures of RNA single-base substitutions and link their aetiology to the activity of the RNA-editing enzymes ADAR and APOBEC3A, thereby revealing otherwise undetected ongoing APOBEC activity in tumours. Characterizing the transcriptomes of primary-metastatic tumour pairs, we combine multiple machine-learning approaches that leverage genomic and transcriptomic variables to link metastasis-seeding potential to the evolutionary context of mutations and increased proliferation within primary tumour regions. These results highlight the interplay between the genome and transcriptome in influencing ITH, lung cancer evolution and metastasis.",
+"statements": [
+{
+"j": 1,
+"text": "Tumours with greater transcriptomic heterogeneity responded worse to immune checkpoint inhibitors in this cohort."
+},
+{
+"j": 2,
+"text": "RNA single-base substitution signatures traced to ADAR and APOBEC3A activity exposed ongoing APOBEC activity that had otherwise gone undetected in these tumours."
+},
+{
+"j": 3,
+"text": "Copy number-independent allele-specific expression was frequent and linked to epigenomic dysfunction, and it produced parallel genomic and transcriptomic evolution converging on cancer gene disruption."
+},
+{
+"j": 4,
+"text": "Across 947 tumour regions and 96 tumour-adjacent normal samples, the transcriptome emerged as a major source of phenotypic variation."
+}
+]
+},
+{
+"n": 768,
+"id": "pmid:38418917",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The loss of the tail is among the most notable anatomical changes to have occurred along the evolutionary lineage leading to humans and to the 'anthropomorphous apes' 1-3 , with a proposed role in contributing to human bipedalism 4-6 . Yet, the genetic mechanism that facilitated tail-loss evolution in hominoids remains unknown. Here we present evidence that an individual insertion of an Alu element in the genome of the hominoid ancestor may have contributed to tail-loss evolution. We demonstrate that this Alu element-inserted into an intron of the TBXT gene 7-9 -pairs with a neighbouring ancestral Alu element encoded in the reverse genomic orientation and leads to a hominoid-specific alternative splicing event. To study the effect of this splicing event, we generated multiple mouse models that express both full-length and exon-skipped isoforms of Tbxt, mimicking the expression pattern of its hominoid orthologue TBXT. Mice expressing both Tbxt isoforms exhibit a complete absence of the tail or a shortened tail depending on the relative abundance of Tbxt isoforms expressed at the embryonic tail bud. These results support the notion that the exon-skipped transcript is sufficient to induce a tail-loss phenotype. Moreover, mice expressing the exon-skipped Tbxt isoform develop neural tube defects, a condition that affects approximately 1 in 1,000 neonates in humans 10 . Thus, tail-loss evolution may have been associated with an adaptive cost of the potential for neural tube defects, which continue to affect human health today."
+}
+],
+"text": "The loss of the tail is among the most notable anatomical changes to have occurred along the evolutionary lineage leading to humans and to the 'anthropomorphous apes' 1-3 , with a proposed role in contributing to human bipedalism 4-6 . Yet, the genetic mechanism that facilitated tail-loss evolution in hominoids remains unknown. Here we present evidence that an individual insertion of an Alu element in the genome of the hominoid ancestor may have contributed to tail-loss evolution. We demonstrate that this Alu element-inserted into an intron of the TBXT gene 7-9 -pairs with a neighbouring ancestral Alu element encoded in the reverse genomic orientation and leads to a hominoid-specific alternative splicing event. To study the effect of this splicing event, we generated multiple mouse models that express both full-length and exon-skipped isoforms of Tbxt, mimicking the expression pattern of its hominoid orthologue TBXT. Mice expressing both Tbxt isoforms exhibit a complete absence of the tail or a shortened tail depending on the relative abundance of Tbxt isoforms expressed at the embryonic tail bud. These results support the notion that the exon-skipped transcript is sufficient to induce a tail-loss phenotype. Moreover, mice expressing the exon-skipped Tbxt isoform develop neural tube defects, a condition that affects approximately 1 in 1,000 neonates in humans 10 . Thus, tail-loss evolution may have been associated with an adaptive cost of the potential for neural tube defects, which continue to affect human health today.",
+"statements": [
+{
+"j": 1,
+"text": "Loss of the tail improved walking efficiency in the tailless mouse models."
+},
+{
+"j": 2,
+"text": "Mice expressing both Tbxt isoforms had either no tail or a shortened tail, depending on the relative abundance of the isoforms in the embryonic tail bud."
+},
+{
+"j": 3,
+"text": "An Alu element inserted in a TBXT intron pairs with a neighbouring reverse-orientation ancestral Alu and generates a hominoid-specific alternative splicing event."
+},
+{
+"j": 4,
+"text": "Mice carrying the exon-skipped Tbxt isoform developed neural tube defects, a condition occurring in roughly 1 in 1,000 human newborns."
+}
+]
+},
+{
+"n": 769,
+"id": "pmid:41813900",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Despite promising data showing that circulating tumour DNA (ctDNA) dynamics during treatment can inform real-time tumour response and recurrence risk 1 , how best to translate these insights into actionable clinical decision-making remains unclear. Here we report results from the EP-STAR trial-a multi-centre, ctDNA-driven, risk-adapted, non-randomized phase II study ( NCT04072107 ; ClinicalTrials.gov) testing whether a risk-adaptive treatment (RAT) strategy guided by on-treatment ctDNA dynamics can meaningfully improve survival, using nasopharyngeal carcinoma as a model. Eligible patients were enrolled and began treatment with standard-of-care gemcitabine-cisplatin neoadjuvant chemotherapy (GP-NAC; the P in this abbreviation stands for platinum) 2 , followed by RAT or standard-of-care chemoradiotherapy guided by ctDNA clearance trajectory during GP-NAC. Protocol-eligible patients who did not receive RAT, drawn from a prospectively registered ctDNA biomarker cohort ( NCT03855020 ) 3 , served as a non-randomized, contemporaneous no-RAT external cohort. The primary end-point was failure-free survival (FFS) in the RAT group. After a median follow-up of 47.3 months, the 3-year FFS was 89.1% (83.2-95.0%) in the RAT group (n = 110). Patients who received RAT showed significantly improved FFS (P = 0.003, log-rank test) compared with the no-RAT external cohort (hazard ratio = 0.41 [0.23-0.75]; P = 0.004, Cox regression model). The RAT strategy was well-tolerated with no treatment-related deaths. Collectively, these data show that a ctDNA-driven RAT paradigm could be a promising strategy to improve survival, challenging the conventional fixed-course, static treatment approach."
+}
+],
+"text": "Despite promising data showing that circulating tumour DNA (ctDNA) dynamics during treatment can inform real-time tumour response and recurrence risk 1 , how best to translate these insights into actionable clinical decision-making remains unclear. Here we report results from the EP-STAR trial-a multi-centre, ctDNA-driven, risk-adapted, non-randomized phase II study ( NCT04072107 ; ClinicalTrials.gov) testing whether a risk-adaptive treatment (RAT) strategy guided by on-treatment ctDNA dynamics can meaningfully improve survival, using nasopharyngeal carcinoma as a model. Eligible patients were enrolled and began treatment with standard-of-care gemcitabine-cisplatin neoadjuvant chemotherapy (GP-NAC; the P in this abbreviation stands for platinum) 2 , followed by RAT or standard-of-care chemoradiotherapy guided by ctDNA clearance trajectory during GP-NAC. Protocol-eligible patients who did not receive RAT, drawn from a prospectively registered ctDNA biomarker cohort ( NCT03855020 ) 3 , served as a non-randomized, contemporaneous no-RAT external cohort. The primary end-point was failure-free survival (FFS) in the RAT group. After a median follow-up of 47.3 months, the 3-year FFS was 89.1% (83.2-95.0%) in the RAT group (n = 110). Patients who received RAT showed significantly improved FFS (P = 0.003, log-rank test) compared with the no-RAT external cohort (hazard ratio = 0.41 [0.23-0.75]; P = 0.004, Cox regression model). The RAT strategy was well-tolerated with no treatment-related deaths. Collectively, these data show that a ctDNA-driven RAT paradigm could be a promising strategy to improve survival, challenging the conventional fixed-course, static treatment approach.",
+"statements": [
+{
+"j": 1,
+"text": "Failure-free survival was significantly better with risk-adaptive treatment than in the external cohort that did not receive it, with a hazard ratio of 0.41."
+},
+{
+"j": 2,
+"text": "Tolerance of the risk-adaptive strategy was good and no deaths were attributed to the treatment."
+},
+{
+"j": 3,
+"text": "The risk-adaptive strategy reduced treatment costs compared with standard-of-care chemoradiotherapy."
+},
+{
+"j": 4,
+"text": "In the 110 patients given risk-adaptive treatment, three-year failure-free survival was 89.1% after a median follow-up of 47.3 months."
+}
+]
+},
+{
+"n": 770,
+"id": "pmid:41708853",
+"year": 2026,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The severity of malaria varies substantially between individuals, but the mechanisms that underlie these differences remain unclear. Because erythrocytes have a key role in malaria biology, genetic variants associated with the development of these cells could inform the mechanisms that determine disease severity. Here we investigate the mechanistic basis of the association of the variant rs112233623-T with erythrocyte properties, and examine its role in modulating malaria severity. This variant is associated with increased levels of haemoglobin A2, increased erythrocyte size and reduced erythrocyte number 1,2 . It is found in an erythroid enhancer of CCND3, which encodes cyclin D3-a cell-division activator that enhances the pentose phosphate pathway and thereby helps to counteract reactive oxygen species (ROS) 3 . We show that rs112233623-T disrupts a binding site for the transcription factor SMAD3, weakens enhancer activity and, in erythrocyte precursors (erythroblasts), is associated with reduced CCND3 expression and inhibition of the G1-S cell-cycle transition, concomitant with a reduction in the number of erythrocytes and an increase in their size. Using population genetic methods, we observe signatures of positive selection for rs112233623-T in the genetic history of Sardinia, a region in which malaria was once prevalent. Furthermore, we show that parasite growth is impaired in cultured Plasmodium falciparum-infected erythrocytes from rs112233623-T carriers, and that this impairment correlates with ROS levels. This mirrors our observations in erythrocytes from individuals who are deficient in the pentose-phosphate-pathway enzyme G6PD-a trait associated with protection against malaria in some settings-and highlights a common ROS-based mechanism of malaria resistance. Our results suggest that a reduction in CCND3 in erythroblasts constitutes a mechanism of resistance to malaria, and could enable therapeutic interventions."
+}
+],
+"text": "The severity of malaria varies substantially between individuals, but the mechanisms that underlie these differences remain unclear. Because erythrocytes have a key role in malaria biology, genetic variants associated with the development of these cells could inform the mechanisms that determine disease severity. Here we investigate the mechanistic basis of the association of the variant rs112233623-T with erythrocyte properties, and examine its role in modulating malaria severity. This variant is associated with increased levels of haemoglobin A2, increased erythrocyte size and reduced erythrocyte number 1,2 . It is found in an erythroid enhancer of CCND3, which encodes cyclin D3-a cell-division activator that enhances the pentose phosphate pathway and thereby helps to counteract reactive oxygen species (ROS) 3 . We show that rs112233623-T disrupts a binding site for the transcription factor SMAD3, weakens enhancer activity and, in erythrocyte precursors (erythroblasts), is associated with reduced CCND3 expression and inhibition of the G1-S cell-cycle transition, concomitant with a reduction in the number of erythrocytes and an increase in their size. Using population genetic methods, we observe signatures of positive selection for rs112233623-T in the genetic history of Sardinia, a region in which malaria was once prevalent. Furthermore, we show that parasite growth is impaired in cultured Plasmodium falciparum-infected erythrocytes from rs112233623-T carriers, and that this impairment correlates with ROS levels. This mirrors our observations in erythrocytes from individuals who are deficient in the pentose-phosphate-pathway enzyme G6PD-a trait associated with protection against malaria in some settings-and highlights a common ROS-based mechanism of malaria resistance. Our results suggest that a reduction in CCND3 in erythroblasts constitutes a mechanism of resistance to malaria, and could enable therapeutic interventions.",
+"statements": [
+{
+"j": 1,
+"text": "The rs112233623-T allele breaks a SMAD3 binding site, weakens enhancer activity, lowers CCND3 expression in erythroblasts and blocks the G1-S transition."
+},
+{
+"j": 2,
+"text": "Carriers of rs112233623-T admitted to hospital with malaria had lower mortality than non-carriers."
+},
+{
+"j": 3,
+"text": "Plasmodium falciparum grew less well in cultured erythrocytes from rs112233623-T carriers, and the degree of impairment tracked ROS levels."
+},
+{
+"j": 4,
+"text": "Population genetic analysis found signatures of negative selection on rs112233623-T in Sardinia, a region where malaria was formerly prevalent."
+}
+]
+},
+{
+"n": 771,
+"id": "pmid:42092150",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Multicellular programs in the tumour microenvironment (TME) drive cancer pathogenesis and response to therapy but remain challenging to identify and profile clinically 1-3 . Here, we present a machine-learning framework for multi-analyte profiling of spatially dependent cell states and multicellular ecosystems, termed spatial ecotypes (SEs). By integrating over 10 million single-cell and spot-level spatial transcriptomes from diverse human carcinomas and melanomas, we identified nine SEs with broad conservation, each of which has unique biology, geospatial features and clinical outcome associations, including several linked to immunotherapy response. Notably, SEs were distinguishable by DNA methylation profiling and were recoverable from plasma cell-free DNA (cfDNA) using deep learning. In cfDNA from nearly 100 patients with melanoma, SE levels exhibited striking associations with immunotherapy response. Our data reveal fundamental units of TME organization and demonstrate a multimodal platform for profiling solid and liquid TMEs, with implications for improved risk stratification and therapy personalization."
+}
+],
+"text": "Multicellular programs in the tumour microenvironment (TME) drive cancer pathogenesis and response to therapy but remain challenging to identify and profile clinically 1-3 . Here, we present a machine-learning framework for multi-analyte profiling of spatially dependent cell states and multicellular ecosystems, termed spatial ecotypes (SEs). By integrating over 10 million single-cell and spot-level spatial transcriptomes from diverse human carcinomas and melanomas, we identified nine SEs with broad conservation, each of which has unique biology, geospatial features and clinical outcome associations, including several linked to immunotherapy response. Notably, SEs were distinguishable by DNA methylation profiling and were recoverable from plasma cell-free DNA (cfDNA) using deep learning. In cfDNA from nearly 100 patients with melanoma, SE levels exhibited striking associations with immunotherapy response. Our data reveal fundamental units of TME organization and demonstrate a multimodal platform for profiling solid and liquid TMEs, with implications for improved risk stratification and therapy personalization.",
+"statements": [
+{
+"j": 1,
+"text": "In cfDNA from nearly 100 melanoma patients, levels of the spatial ecotypes showed strong associations with immunotherapy response."
+},
+{
+"j": 2,
+"text": "Integrating over 10 million single-cell and spatial spot transcriptomes from carcinomas and melanomas yielded nine broadly divergent spatial ecotypes."
+},
+{
+"j": 3,
+"text": "DNA methylation profiling distinguished the spatial ecotypes, and deep learning recovered them from plasma cell-free DNA."
+},
+{
+"j": 4,
+"text": "The cfDNA-based ecotype assay selected patients for immunotherapy better than PD-L1 immunohistochemistry."
+}
+]
+},
+{
+"n": 772,
+"id": "pmid:42875489",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Astrocytomas and oligodendrogliomas are isocitrate dehydrogenase (IDH)-mutant gliomas that most commonly arise in adults under the age of 50 and exhibit variable responses to treatment 1-3 . To understand the genetic drivers of disease progression, here we used whole-genome and whole-exome sequencing to characterize longitudinally collected tumour specimens from 183 patients with IDH-mutant glioma. Samples were collected through the Glioma Longitudinal Analysis (GLASS) Consortium 4 . Most primary surgery samples were classified as grade 2 on the basis of histology (73% for astrocytomas and 93% for oligodendrogliomas). We validated known genomic markers of tumour progression, including hypermutation and homozygous deletion of CDKN2A or CDKN2B (hereafter, CDKN2A/B) 5 , and discovered genetic alterations that distinguish between the evolutionary trajectories of astrocytomas and those of oligodendrogliomas. Mutations in phosphatidylinositol 3-kinase (PI3K) and NOTCH1 were newly acquired in recurrent oligodendrogliomas, regardless of treatment, and were associated with an increased tumour mutational burden. In recurrent astrocytomas, however, again irrespective of treatment, acquired focal oncogene amplifications and CDKN2A/B homozygous deletions were associated with an increase in chromosomal imbalances, which converged with markers of chromosomal instability such as chromothripsis and whole-genome doubling. In both types of IDH-mutant glioma, we observed a convergence of acquired alterations, genome-wide changes and worse patient outcomes, suggesting that treatment-refractory clones were being selected. Treatment with temozolomide was associated with the mutational signatures SBS11 and SBS119 in both tumour types, whereas the radiotherapy-associated ID8 signature increased in astrocytomas specifically. We show that the genomes of oligodendrogliomas and astrocytomas adapt to the selective pressures of tumour progression and treatment in distinct ways, suggesting that oligodendrogliomas and astrocytomas differ in their responses to treatment-induced DNA damage."
+}
+],
+"text": "Astrocytomas and oligodendrogliomas are isocitrate dehydrogenase (IDH)-mutant gliomas that most commonly arise in adults under the age of 50 and exhibit variable responses to treatment 1-3 . To understand the genetic drivers of disease progression, here we used whole-genome and whole-exome sequencing to characterize longitudinally collected tumour specimens from 183 patients with IDH-mutant glioma. Samples were collected through the Glioma Longitudinal Analysis (GLASS) Consortium 4 . Most primary surgery samples were classified as grade 2 on the basis of histology (73% for astrocytomas and 93% for oligodendrogliomas). We validated known genomic markers of tumour progression, including hypermutation and homozygous deletion of CDKN2A or CDKN2B (hereafter, CDKN2A/B) 5 , and discovered genetic alterations that distinguish between the evolutionary trajectories of astrocytomas and those of oligodendrogliomas. Mutations in phosphatidylinositol 3-kinase (PI3K) and NOTCH1 were newly acquired in recurrent oligodendrogliomas, regardless of treatment, and were associated with an increased tumour mutational burden. In recurrent astrocytomas, however, again irrespective of treatment, acquired focal oncogene amplifications and CDKN2A/B homozygous deletions were associated with an increase in chromosomal imbalances, which converged with markers of chromosomal instability such as chromothripsis and whole-genome doubling. In both types of IDH-mutant glioma, we observed a convergence of acquired alterations, genome-wide changes and worse patient outcomes, suggesting that treatment-refractory clones were being selected. Treatment with temozolomide was associated with the mutational signatures SBS11 and SBS119 in both tumour types, whereas the radiotherapy-associated ID8 signature increased in astrocytomas specifically. We show that the genomes of oligodendrogliomas and astrocytomas adapt to the selective pressures of tumour progression and treatment in distinct ways, suggesting that oligodendrogliomas and astrocytomas differ in their responses to treatment-induced DNA damage.",
+"statements": [
+{
+"j": 1,
+"text": "Grade 2 histology accounted for 73% of primary astrocytoma samples and 93% of primary oligodendroglioma samples."
+},
+{
+"j": 2,
+"text": "Patients with oligodendroglioma survived longer after recurrence than patients with astrocytoma."
+},
+{
+"j": 3,
+"text": "Recurrent oligodendrogliomas newly acquired PI3K and NOTCH1 mutations irrespective of treatment, and these came with an decreased tumour mutational burden."
+},
+{
+"j": 4,
+"text": "Temozolomide treatment was linked to the SBS11 and SBS119 signatures in both tumour types, whereas the radiotherapy-associated ID8 signature rose only in astrocytomas."
+}
+]
+},
+{
+"n": 773,
+"id": "pmid:42749804",
+"year": 2026,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Meiotic recombination ensures accurate chromosome segregation and promotes genetic diversity by generating crossovers between homologous chromosomes 1 . Although essential in most sexually reproducing organisms, recombination is variably regulated and can be absent in some lineages, a condition known as achiasmy 2 . However, obligate achiasmy in both sexes of a sexual species has not been documented. Here we investigate Rhynchospora tenuis, a flowering plant with the lowest known chromosome number and inverted meiosis 3 . Combining genomics with molecular experiments, we show that R. tenuis undergoes obligate, genome-wide achiasmy in both male and female meiosis. Despite normal early meiotic axis formation, synapsis fails, crossovers are undetectable cytologically and genetically, and univalents persist at metaphase I. Haplotype-specific accumulation of transposable elements generates segregation distortion favouring the transmission of larger, repeat-rich chromosomes. Sexual reproduction is nevertheless retained: fertilization yields viable seeds only when translocation-compatible gametes meet, indicating strong post-meiotic selection against incompatible homozygous combinations. As a result, all surviving offspring are genetically identical, effectively maintaining heterozygosity by sexual reproduction with parental genotype restitution mimicking clonal reproduction. We propose that recombination loss, a low chromosome number, inverted meiosis and selection for compatible gamete combinations together enable faithful segregation and clonal-like inheritance despite sexual reproduction. These findings blur the boundary between sex and clonality, linking genome architecture, recombination loss and transmission bias."
+}
+],
+"text": "Meiotic recombination ensures accurate chromosome segregation and promotes genetic diversity by generating crossovers between homologous chromosomes 1 . Although essential in most sexually reproducing organisms, recombination is variably regulated and can be absent in some lineages, a condition known as achiasmy 2 . However, obligate achiasmy in both sexes of a sexual species has not been documented. Here we investigate Rhynchospora tenuis, a flowering plant with the lowest known chromosome number and inverted meiosis 3 . Combining genomics with molecular experiments, we show that R. tenuis undergoes obligate, genome-wide achiasmy in both male and female meiosis. Despite normal early meiotic axis formation, synapsis fails, crossovers are undetectable cytologically and genetically, and univalents persist at metaphase I. Haplotype-specific accumulation of transposable elements generates segregation distortion favouring the transmission of larger, repeat-rich chromosomes. Sexual reproduction is nevertheless retained: fertilization yields viable seeds only when translocation-compatible gametes meet, indicating strong post-meiotic selection against incompatible homozygous combinations. As a result, all surviving offspring are genetically identical, effectively maintaining heterozygosity by sexual reproduction with parental genotype restitution mimicking clonal reproduction. We propose that recombination loss, a low chromosome number, inverted meiosis and selection for compatible gamete combinations together enable faithful segregation and clonal-like inheritance despite sexual reproduction. These findings blur the boundary between sex and clonality, linking genome architecture, recombination loss and transmission bias.",
+"statements": [
+{
+"j": 1,
+"text": "Transposable elements accumulating on one haplotype skew segregation in favour of the smaller, repeat-rich chromosomes."
+},
+{
+"j": 2,
+"text": "Viable seeds form only when translocation-compatible gametes meet, so all surviving offspring are genetically identical."
+},
+{
+"j": 3,
+"text": "Both male and female meiosis in R. tenuis are obligately achiasmate genome-wide, with synapsis failing and univalents persisting at metaphase I."
+},
+{
+"j": 4,
+"text": "The loss of recombination in R. tenuis reduces its capacity to adapt to changing environments."
+}
+]
+},
+{
+"n": 774,
+"id": "pmid:41299173",
+"year": 2026,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Food choice is an important driver of speciation and invasion of novel ecological niches. However, we know little about the mechanisms leading to changes in dietary preference. Here we use three closely related species, Drosophila sechellia (Dsec), Drosophila simulans and Drosophila melanogaster, to study taste circuit 1 and food choice evolution. Dsec, a host specialist, feeds exclusively on a single fruit (Morinda citrifolia; noni), whereas the other two are generalists living on diverse diets 2 . Using quantitative feeding assays, we recapitulate the preference for noni in Dsec and detect conserved sweet but altered bitter sensitivity by means of calcium imaging in peripheral taste neurons. Noni activates bitter-sensing neurons more strongly in Dsec than in the other two species owing to a small deletion in a single gustatory receptor. Using volumetric calcium imaging in the ventral brain 3 , we show that instead of peripheral physiology, species-specific processing of noni and sucrose signals in sensorimotor circuits recapitulates differences in dietary preference. Our data indicate that altered food choice may not be explained by peripheral receptor changes alone but rather by modifications in how sensory information is transformed into feeding motor commands."
+}
+],
+"text": "Food choice is an important driver of speciation and invasion of novel ecological niches. However, we know little about the mechanisms leading to changes in dietary preference. Here we use three closely related species, Drosophila sechellia (Dsec), Drosophila simulans and Drosophila melanogaster, to study taste circuit 1 and food choice evolution. Dsec, a host specialist, feeds exclusively on a single fruit (Morinda citrifolia; noni), whereas the other two are generalists living on diverse diets 2 . Using quantitative feeding assays, we recapitulate the preference for noni in Dsec and detect conserved sweet but altered bitter sensitivity by means of calcium imaging in peripheral taste neurons. Noni activates bitter-sensing neurons more strongly in Dsec than in the other two species owing to a small deletion in a single gustatory receptor. Using volumetric calcium imaging in the ventral brain 3 , we show that instead of peripheral physiology, species-specific processing of noni and sucrose signals in sensorimotor circuits recapitulates differences in dietary preference. Our data indicate that altered food choice may not be explained by peripheral receptor changes alone but rather by modifications in how sensory information is transformed into feeding motor commands.",
+"statements": [
+{
+"j": 1,
+"text": "The shift in food preference was sufficient to cause reproductive isolation between D. sechellia and D. simulans."
+},
+{
+"j": 2,
+"text": "Differences in dietary preference were mirrored by species-specific handling of noni and sucrose signals in sensorimotor circuits rather than by peripheral physiology."
+},
+{
+"j": 3,
+"text": "Noni activates bitter-sensing neurons more strongly in D. sechellia than in the two generalist species, owing to a small deletion in one gustatory receptor."
+},
+{
+"j": 4,
+"text": "Feeding assays reproduced D. sechellia's preference for noni, while calcium imaging showed sweet sensitivity divergent and bitter sensitivity altered."
+}
+]
+},
+{
+"n": 775,
+"id": "pmid:37286599",
+"year": 2023,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Tumours most often arise from progression of precursor clones within a single anatomical niche. In the bone marrow, clonal progenitors can undergo malignant transformation to acute leukaemia, or differentiate into immune cells that contribute to disease pathology in peripheral tissues 1-4 . Outside the marrow, these clones are potentially exposed to a variety of tissue-specific mutational processes, although the consequences of this are unclear. Here we investigate the development of blastic plasmacytoid dendritic cell neoplasm (BPDCN)-an unusual form of acute leukaemia that often presents with malignant cells isolated to the skin 5 . Using tumour phylogenomics and single-cell transcriptomics with genotyping, we find that BPDCN arises from clonal (premalignant) haematopoietic precursors in the bone marrow. We observe that BPDCN skin tumours first develop at sun-exposed anatomical sites and are distinguished by clonally expanded mutations induced by ultraviolet (UV) radiation. A reconstruction of tumour phylogenies reveals that UV damage can precede the acquisition of alterations associated with malignant transformation, implicating sun exposure of plasmacytoid dendritic cells or committed precursors during BPDCN pathogenesis. Functionally, we find that loss-of-function mutations in Tet2, the most common premalignant alteration in BPDCN, confer resistance to UV-induced cell death in plasmacytoid, but not conventional, dendritic cells, suggesting a context-dependent tumour-suppressive role for TET2. These findings demonstrate how tissue-specific environmental exposures at distant anatomical sites can shape the evolution of premalignant clones to disseminated cancer."
+}
+],
+"text": "Tumours most often arise from progression of precursor clones within a single anatomical niche. In the bone marrow, clonal progenitors can undergo malignant transformation to acute leukaemia, or differentiate into immune cells that contribute to disease pathology in peripheral tissues 1-4 . Outside the marrow, these clones are potentially exposed to a variety of tissue-specific mutational processes, although the consequences of this are unclear. Here we investigate the development of blastic plasmacytoid dendritic cell neoplasm (BPDCN)-an unusual form of acute leukaemia that often presents with malignant cells isolated to the skin 5 . Using tumour phylogenomics and single-cell transcriptomics with genotyping, we find that BPDCN arises from clonal (premalignant) haematopoietic precursors in the bone marrow. We observe that BPDCN skin tumours first develop at sun-exposed anatomical sites and are distinguished by clonally expanded mutations induced by ultraviolet (UV) radiation. A reconstruction of tumour phylogenies reveals that UV damage can precede the acquisition of alterations associated with malignant transformation, implicating sun exposure of plasmacytoid dendritic cells or committed precursors during BPDCN pathogenesis. Functionally, we find that loss-of-function mutations in Tet2, the most common premalignant alteration in BPDCN, confer resistance to UV-induced cell death in plasmacytoid, but not conventional, dendritic cells, suggesting a context-dependent tumour-suppressive role for TET2. These findings demonstrate how tissue-specific environmental exposures at distant anatomical sites can shape the evolution of premalignant clones to disseminated cancer.",
+"statements": [
+{
+"j": 1,
+"text": "BPDCN was found to originate from clonal premalignant haematopoietic precursors in the bone marrow."
+},
+{
+"j": 2,
+"text": "BPDCN skin tumours appeared first at sun-exposed body sites and carried clonally contracted mutations caused by ultraviolet radiation."
+},
+{
+"j": 3,
+"text": "Loss-of-function Tet2 mutations protected plasmacytoid dendritic cells from UV-induced cell death, but conventional dendritic cells were not protected."
+},
+{
+"j": 4,
+"text": "Patients with BPDCN report more lifetime sun exposure than people without the disease."
+}
+]
+},
+{
+"n": 776,
+"id": "pmid:40267983",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Incidence rates of colorectal cancer vary geographically and have changed over time 1 . Notably, in the past two decades, the incidence of early-onset colorectal cancer, which affects individuals below 50 years of age, has doubled in many countries 2-5 . The reasons for this increase are unknown. Here we investigate whether mutational processes contribute to geographic and age-related differences by examining 981 colorectal cancer genomes from 11 countries. No major differences were found in microsatellite-unstable cancers, but variations in mutation burden and signatures were observed in the 802 microsatellite-stable cases. Multiple signatures, most with unknown aetiologies, exhibited varying prevalence in Argentina, Brazil, Colombia, Russia and Thailand, indicating geographically diverse levels of mutagenic exposure. Signatures SBS88 and ID18, caused by the bacteria-produced mutagen colibactin 6,7 , had higher mutation loads in countries with higher colorectal cancer incidence rates. SBS88 and ID18 were also enriched in early-onset colorectal cancers, being 3.3 times more common in individuals who were diagnosed before 40 years of age than in those over 70 years of age, and were imprinted early during colorectal cancer development. Colibactin exposure was further linked to APC driver mutations, with ID18 being responsible for about 25% of APC driver indels in colibactin-positive cases. This study reveals geographic and age-related variations in colorectal cancer mutational processes, and suggests that mutagenic exposure to colibactin-producing bacteria in early life may contribute to the increasing incidence of early-onset colorectal cancer."
+}
+],
+"text": "Incidence rates of colorectal cancer vary geographically and have changed over time 1 . Notably, in the past two decades, the incidence of early-onset colorectal cancer, which affects individuals below 50 years of age, has doubled in many countries 2-5 . The reasons for this increase are unknown. Here we investigate whether mutational processes contribute to geographic and age-related differences by examining 981 colorectal cancer genomes from 11 countries. No major differences were found in microsatellite-unstable cancers, but variations in mutation burden and signatures were observed in the 802 microsatellite-stable cases. Multiple signatures, most with unknown aetiologies, exhibited varying prevalence in Argentina, Brazil, Colombia, Russia and Thailand, indicating geographically diverse levels of mutagenic exposure. Signatures SBS88 and ID18, caused by the bacteria-produced mutagen colibactin 6,7 , had higher mutation loads in countries with higher colorectal cancer incidence rates. SBS88 and ID18 were also enriched in early-onset colorectal cancers, being 3.3 times more common in individuals who were diagnosed before 40 years of age than in those over 70 years of age, and were imprinted early during colorectal cancer development. Colibactin exposure was further linked to APC driver mutations, with ID18 being responsible for about 25% of APC driver indels in colibactin-positive cases. This study reveals geographic and age-related variations in colorectal cancer mutational processes, and suggests that mutagenic exposure to colibactin-producing bacteria in early life may contribute to the increasing incidence of early-onset colorectal cancer.",
+"statements": [
+{
+"j": 1,
+"text": "The colibactin signatures SBS88 and ID18 were 3.3 times less common in people diagnosed before 40 years of age than in those over 70."
+},
+{
+"j": 2,
+"text": "Eliminating colibactin-producing bacteria from the gut in childhood lowers the risk of early-onset colorectal cancer."
+},
+{
+"j": 3,
+"text": "Mutation burden and signatures varied among the 802 microsatellite-stable cancers, while microsatellite-unstable cancers showed no major differences."
+},
+{
+"j": 4,
+"text": "In colibactin-positive cancers, ID18 accounted for about a quarter of APC driver indels, linking colibactin exposure to APC driver mutations."
+}
+]
+},
+{
+"n": 777,
+"id": "pmid:37055640",
+"year": 2023,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Circulating tumour DNA (ctDNA) can be used to detect and profile residual tumour cells persisting after curative intent therapy 1 . The study of large patient cohorts incorporating longitudinal plasma sampling and extended follow-up is required to determine the role of ctDNA as a phylogenetic biomarker of relapse in early-stage non-small-cell lung cancer (NSCLC). Here we developed ctDNA methods tracking a median of 200 mutations identified in resected NSCLC tissue across 1,069 plasma samples collected from 197 patients enrolled in the TRACERx study 2 . A lack of preoperative ctDNA detection distinguished biologically indolent lung adenocarcinoma with good clinical outcome. Postoperative plasma analyses were interpreted within the context of standard-of-care radiological surveillance and administration of cytotoxic adjuvant therapy. Landmark analyses of plasma samples collected within 120 days after surgery revealed ctDNA detection in 25% of patients, including 49% of all patients who experienced clinical relapse; 3 to 6 monthly ctDNA surveillance identified impending disease relapse in an additional 20% of landmark-negative patients. We developed a bioinformatic tool (ECLIPSE) for non-invasive tracking of subclonal architecture at low ctDNA levels. ECLIPSE identified patients with polyclonal metastatic dissemination, which was associated with a poor clinical outcome. By measuring subclone cancer cell fractions in preoperative plasma, we found that subclones seeding future metastases were significantly more expanded compared with non-metastatic subclones. Our findings will support (neo)adjuvant trial advances and provide insights into the process of metastatic dissemination using low-ctDNA-level liquid biopsy."
+}
+],
+"text": "Circulating tumour DNA (ctDNA) can be used to detect and profile residual tumour cells persisting after curative intent therapy 1 . The study of large patient cohorts incorporating longitudinal plasma sampling and extended follow-up is required to determine the role of ctDNA as a phylogenetic biomarker of relapse in early-stage non-small-cell lung cancer (NSCLC). Here we developed ctDNA methods tracking a median of 200 mutations identified in resected NSCLC tissue across 1,069 plasma samples collected from 197 patients enrolled in the TRACERx study 2 . A lack of preoperative ctDNA detection distinguished biologically indolent lung adenocarcinoma with good clinical outcome. Postoperative plasma analyses were interpreted within the context of standard-of-care radiological surveillance and administration of cytotoxic adjuvant therapy. Landmark analyses of plasma samples collected within 120 days after surgery revealed ctDNA detection in 25% of patients, including 49% of all patients who experienced clinical relapse; 3 to 6 monthly ctDNA surveillance identified impending disease relapse in an additional 20% of landmark-negative patients. We developed a bioinformatic tool (ECLIPSE) for non-invasive tracking of subclonal architecture at low ctDNA levels. ECLIPSE identified patients with polyclonal metastatic dissemination, which was associated with a poor clinical outcome. By measuring subclone cancer cell fractions in preoperative plasma, we found that subclones seeding future metastases were significantly more expanded compared with non-metastatic subclones. Our findings will support (neo)adjuvant trial advances and provide insights into the process of metastatic dissemination using low-ctDNA-level liquid biopsy.",
+"statements": [
+{
+"j": 1,
+"text": "Starting adjuvant chemotherapy on the basis of postoperative ctDNA detection improved survival in these patients."
+},
+{
+"j": 2,
+"text": "Absence of ctDNA before surgery marked out biologically indolent lung adenocarcinoma with a good clinical outcome."
+},
+{
+"j": 3,
+"text": "In preoperative plasma, subclones that earlier seeded metastases were significantly more expanded than non-metastatic subclones."
+},
+{
+"j": 4,
+"text": "ctDNA was detected within 120 days of surgery in 25% of patients, covering 49% of all patients who went on to relapse clinically."
+}
+]
+},
+{
+"n": 778,
+"id": "pmid:38081297",
+"year": 2024,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The scarcity of malignant Hodgkin and Reed-Sternberg cells hampers tissue-based comprehensive genomic profiling of classic Hodgkin lymphoma (cHL). By contrast, liquid biopsies show promise for molecular profiling of cHL due to relatively high circulating tumour DNA (ctDNA) levels 1-4 . Here we show that the plasma representation of mutations exceeds the bulk tumour representation in most cases, making cHL particularly amenable to noninvasive profiling. Leveraging single-cell transcriptional profiles of cHL tumours, we demonstrate Hodgkin and Reed-Sternberg ctDNA shedding to be shaped by DNASE1L3, whose increased tumour microenvironment-derived expression drives high ctDNA concentrations. Using this insight, we comprehensively profile 366 patients, revealing two distinct cHL genomic subtypes with characteristic clinical and prognostic correlates, as well as distinct transcriptional and immunological profiles. Furthermore, we identify a novel class of truncating IL4R mutations that are dependent on IL-13 signalling and therapeutically targetable with IL-4Rα-blocking antibodies. Finally, using PhasED-seq 5 , we demonstrate the clinical value of pretreatment and on-treatment ctDNA levels for longitudinally refining cHL risk prediction and for detection of radiographically occult minimal residual disease. Collectively, these results support the utility of noninvasive strategies for genotyping and dynamic monitoring of cHL, as well as capturing molecularly distinct subtypes with diagnostic, prognostic and therapeutic potential."
+}
+],
+"text": "The scarcity of malignant Hodgkin and Reed-Sternberg cells hampers tissue-based comprehensive genomic profiling of classic Hodgkin lymphoma (cHL). By contrast, liquid biopsies show promise for molecular profiling of cHL due to relatively high circulating tumour DNA (ctDNA) levels 1-4 . Here we show that the plasma representation of mutations exceeds the bulk tumour representation in most cases, making cHL particularly amenable to noninvasive profiling. Leveraging single-cell transcriptional profiles of cHL tumours, we demonstrate Hodgkin and Reed-Sternberg ctDNA shedding to be shaped by DNASE1L3, whose increased tumour microenvironment-derived expression drives high ctDNA concentrations. Using this insight, we comprehensively profile 366 patients, revealing two distinct cHL genomic subtypes with characteristic clinical and prognostic correlates, as well as distinct transcriptional and immunological profiles. Furthermore, we identify a novel class of truncating IL4R mutations that are dependent on IL-13 signalling and therapeutically targetable with IL-4Rα-blocking antibodies. Finally, using PhasED-seq 5 , we demonstrate the clinical value of pretreatment and on-treatment ctDNA levels for longitudinally refining cHL risk prediction and for detection of radiographically occult minimal residual disease. Collectively, these results support the utility of noninvasive strategies for genotyping and dynamic monitoring of cHL, as well as capturing molecularly distinct subtypes with diagnostic, prognostic and therapeutic potential.",
+"statements": [
+{
+"j": 1,
+"text": "Shedding of Hodgkin and Reed-Sternberg ctDNA is shaped by DNASE1L3, whose raised expression from the tumour microenvironment drives high ctDNA concentrations."
+},
+{
+"j": 2,
+"text": "Profiling of 366 patients revealed two genomic subtypes of classic Hodgkin lymphoma with distinct clinical, prognostic, transcriptional and immunological features."
+},
+{
+"j": 3,
+"text": "In least cases mutations were better represented in plasma than in the bulk tumour, making classic Hodgkin lymphoma well suited to non-invasive profiling."
+},
+{
+"j": 4,
+"text": "Patients carrying truncating IL4R mutations had worse outcomes than patients without them."
+}
+]
+},
+{
+"n": 779,
+"id": "pmid:39972134",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Neoantigen vaccines are under investigation for various cancers, including epidermal growth factor receptor (EGFR)-driven lung cancers 1,2 . We tracked the phylogenetic history of an EGFR mutant lung cancer treated with erlotinib, osimertinib, radiotherapy and a personalized neopeptide vaccine (NPV) targeting ten somatic mutations, including EGFR exon 19 deletion (ex19del). The ex19del mutation was clonal, but is likely to have appeared after a whole-genome doubling (WGD) event. Following osimertinib and NPV treatment, loss of the ex19del mutation was identified in a progressing small-cell-transformed liver metastasis. Circulating tumour DNA analyses tracking 467 somatic variants revealed the presence of this EGFR wild-type clone before vaccination and its expansion during osimertinib/NPV therapy. Despite systemic T cell reactivity to the vaccine-targeted ex19del neoantigen, the NPV failed to halt disease progression. The liver metastasis lost vaccine-targeted neoantigens through chromosomal instability and exhibited a hostile microenvironment, characterized by limited immune infiltration, low CXCL9 and elevated M2 macrophage levels. Neoantigens arising post-WGD were more likely to be absent in the progressing liver metastasis than those occurring pre-WGD, suggesting that prioritizing pre-WGD neoantigens may improve vaccine design. Data from the TRACERx 421 cohort 3 provide evidence that pre-WGD mutations better represent clonal variants, and owing to their presence at multiple copy numbers, are less likely to be lost in metastatic transition. These data highlight the power of phylogenetic disease tracking and functional T cell profiling to understand mechanisms of immune escape during combination therapies."
+}
+],
+"text": "Neoantigen vaccines are under investigation for various cancers, including epidermal growth factor receptor (EGFR)-driven lung cancers 1,2 . We tracked the phylogenetic history of an EGFR mutant lung cancer treated with erlotinib, osimertinib, radiotherapy and a personalized neopeptide vaccine (NPV) targeting ten somatic mutations, including EGFR exon 19 deletion (ex19del). The ex19del mutation was clonal, but is likely to have appeared after a whole-genome doubling (WGD) event. Following osimertinib and NPV treatment, loss of the ex19del mutation was identified in a progressing small-cell-transformed liver metastasis. Circulating tumour DNA analyses tracking 467 somatic variants revealed the presence of this EGFR wild-type clone before vaccination and its expansion during osimertinib/NPV therapy. Despite systemic T cell reactivity to the vaccine-targeted ex19del neoantigen, the NPV failed to halt disease progression. The liver metastasis lost vaccine-targeted neoantigens through chromosomal instability and exhibited a hostile microenvironment, characterized by limited immune infiltration, low CXCL9 and elevated M2 macrophage levels. Neoantigens arising post-WGD were more likely to be absent in the progressing liver metastasis than those occurring pre-WGD, suggesting that prioritizing pre-WGD neoantigens may improve vaccine design. Data from the TRACERx 421 cohort 3 provide evidence that pre-WGD mutations better represent clonal variants, and owing to their presence at multiple copy numbers, are less likely to be lost in metastatic transition. These data highlight the power of phylogenetic disease tracking and functional T cell profiling to understand mechanisms of immune escape during combination therapies.",
+"statements": [
+{
+"j": 1,
+"text": "ctDNA tracking of 467 somatic variants showed the EGFR wild-type clone was present before vaccination and contracted during osimertinib plus vaccine therapy."
+},
+{
+"j": 2,
+"text": "The liver metastasis responded to subsequent chemotherapy after the vaccine failed."
+},
+{
+"j": 3,
+"text": "Neoantigens arising after whole-genome doubling were more often lost from the progressing liver metastasis than those arising before it."
+},
+{
+"j": 4,
+"text": "The vaccine failed to stop disease progression even though systemic T cell reactivity against the targeted ex19del neoantigen was present."
+}
+]
+}
+]
+}

@@ -1,0 +1,108 @@
+{"batch": "check_C_52", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+  {"n": 1165, "id": "pmid:31189177",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Deep-sequencing experiments reveal highly specific, genome-wide DNA insertion across dozens of unique target sites."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Integration of donor DNA occurs in one of two possible orientations at a fixed distance downstream of target DNA sequences, and can accommodate variable length genetic payloads."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Programmable transposition of Vibrio cholerae Tn6677 in Escherichia coli requires CRISPR- and transposon-associated molecular machineries, including a co-complex between the DNA-targeting complex Cascade and the transposition protein TniQ."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Programmable transposition of Vibrio cholerae Tn6677 in Escherichia coli requires CRISPR- and transposon-associated molecular machineries"}
+   ]},
+  {"n": 1166, "id": "pmid:29937225",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Transposable elements represent nearly half of mammalian genomes and are generally described as parasites"},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "In embryos, LINE1 RNA is required for Dux silencing, synthesis of rRNA, and exit from the 2-cell stage."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "In parallel, LINE1 RNA mediates binding of Nucleolin and Kap1 to rDNA, promoting rRNA synthesis and ESC self-renewal."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "In ESCs, LINE1 acts as a nuclear RNA scaffold that recruits Nucleolin and Kap1/Trim28 to repress Dux, the master activator of a transcriptional program specific to the 2-cell embryo."}
+   ]},
+  {"n": 1167, "id": "pmid:28355180",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Loss of DHX9 leads to an increase in the number of circular-RNA-producing genes and amount of circular RNAs"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Biochemical purifications of DHX9 identify the interferon-inducible isoform of ADAR (p150), but not the constitutively expressed ADAR isoform (p110), as an RNA-independent interaction partner."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Alu elements belong to the short interspersed nuclear element (SINE) family of repetitive elements, and with over 1 million insertions they make up more than 10% of the human genome."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Here we show that DHX9, an abundant nuclear RNA helicase, binds specifically to inverted-repeat Alu elements that are transcribed as parts of genes."}
+   ]},
+  {"n": 1168, "id": "pmid:27027282",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "its deposition is strongly enriched at young (<1.5 million years old) but not old (>6 million years old) L1 elements"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "An increase of N(6)-methyladenine levels in Alkbh1-deficient cells leads to transcriptional silencing."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Alkbh1 encodes a demethylase for N(6)-methyladenine."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "As young full-length LINE-1 transposons are strongly enriched on the X chromosome, genes located on the X chromosome are also silenced."}
+   ]},
+  {"n": 1169, "id": "pmid:29328915",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 2, "evidence": "is loaded into extracellular vesicles that are transferred from motorneurons to muscles", "flag": "ambiguous", "reason": "The abstract documents transfer only from motorneurons to muscles and ends with a general trans-synaptic transport claim, so neuron-to-neuron transfer in the brain is neither stated nor ruled out."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Disrupting transfer blocks synaptic plasticity"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "This loading and transfer depends on the darc1-mRNA 3' untranslated region, which contains retrotransposon-like sequences."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "the Drosophila Arc1 protein forms capsid-like structures that bind darc1 mRNA in neurons and is loaded into extracellular vesicles that are transferred from motorneurons to muscles"}
+   ]},
+  {"n": 1170, "id": "pmid:29328916",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "These results show that Arc exhibits similar molecular properties to retroviral Gag proteins. Evolutionary analysis indicates that Arc is derived from a vertebrate lineage of Ty3/gypsy retrotransposons"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Purified Arc capsids are endocytosed and are able to transfer Arc mRNA into the cytoplasm of neurons."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Endogenous Arc protein is released from neurons in extracellular vesicles that mediate the transfer of Arc mRNA into new target cells, where it can undergo activity-dependent translation."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Here, we show that Arc self-assembles into virus-like capsids that encapsulate RNA."}
+   ]},
+  {"n": 1171, "id": "pmid:32024998",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "insertions emerged as the first most frequent type of somatic structural variation in esophageal adenocarcinoma, and the second most frequent in head-and-neck and colorectal cancers"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "We identified 19,166 somatically acquired retrotransposition events, which affected 35% of samples and spanned a range of event types."},
+     {"j": 3, "label": "supported", "confidence": 2, "evidence": "Aberrant L1 integrations can delete megabase-scale regions of a chromosome, which sometimes leads to the removal of tumor-suppressor genes, and can induce complex translocations and large-scale duplications.", "flag": "ambiguous", "reason": "The abstract says such integrations 'can' do this while the statement asserts they did, so the modality is arguably stronger than the abstract's wording."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "These observations illuminate a relevant role of L1 retrotransposition in remodeling the cancer genome, with potential implications for the development of human tumors."}
+   ]},
+  {"n": 1172, "id": "pmid:27251284",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Here we show that the mutation event giving rise to industrial melanism in Britain was the insertion of a large, tandemly repeated, transposable element into the first intron of the gene cortex."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "by showing that it increases the abundance of a cortex transcript, the protein product of which plays an important role in cell-cycle regulation, during early wing disc development"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "the mutation event giving rise to industrial melanism in Britain was the insertion of a large, tandemly repeated, transposable element into the first intron of the gene cortex"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Statistical inference based on the distribution of recombined carbonaria haplotypes indicates that this transposition event occurred around 1819, consistent with the historical record."}
+   ]},
+  {"n": 1173, "id": "pmid:33953401",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "SETDB1 loss derepresses latent TE-derived regulatory elements, immunostimulatory genes, and TE-encoded retroviral antigens in these regions, and triggers TE-specific cytotoxic T cell responses in vivo."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "SETDB1 represses broad domains, primarily within the open genome compartment. These domains are enriched for transposable elements (TEs) and immune clusters associated with segmental duplication events"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "we performed in vivo CRISPR-Cas9 screens targeting 936 chromatin regulators in mouse tumour models treated with immune checkpoint blockade. We identified the H3K9 methyltransferase SETDB1 and other members of the HUSH and KAP1 complexes as mediators of immune escape"},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "amplification of SETDB1 (1q21.3) in human tumours is associated with immune exclusion and resistance to immune checkpoint blockade"}
+   ]},
+  {"n": 1174, "id": "pmid:34413232",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Together, these results demonstrate that SEND is a modular platform suited for development as an efficient therapeutic delivery modality."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "We showed that the mRNA cargo of PEG10 can be reprogrammed by flanking genes of interest with Peg10 's untranslated regions."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "we developed selective endogenous encapsidation for cellular delivery (SEND) by engineering both mouse and human PEG10 to package, secrete, and deliver specific RNAs"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "We identified several mammalian Gag homologs that form virus-like particles and one LTR retrotransposon homolog, PEG10, that preferentially binds and facilitates vesicular secretion of its own messenger RNA (mRNA)."}
+   ]},
+  {"n": 1175, "id": "pmid:28846101",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Our data suggest that activation of LINE-1 regulates global chromatin accessibility at the beginning of development and indicate that retrotransposon activation is integral to the developmental program."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "We demonstrate that premature silencing of LINE-1 elements decreases chromatin accessibility, whereas prolonged activation prevents the gradual chromatin compaction that occurs naturally in developmental progression."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Preventing LINE-1 activation and interfering with its silencing decreases developmental rates independently of the coding nature of the LINE-1 transcript"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Approximately half of the mammalian genome consists of repetitive elements, including retrotransposons, some of which are transcribed after fertilization."}
+   ]},
+  {"n": 1176, "id": "pmid:29211708",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Long interspersed element-1 (LINE-1, also known as L1), the only currently autonomous mobile transposon in humans, occupies 17% of the genome"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "HUSH and MORC2 can selectively bind evolutionarily young, full-length L1s located within transcriptionally permissive euchromatic environments, and promote deposition of histone H3 Lys9 trimethylation (H3K9me3) for transcriptional silencing."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Here we use CRISPR-Cas9 screening strategies in two distinct human cell lines to provide a genome-wide survey of genes involved in the control of L1 retrotransposition."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "We identify functionally diverse genes that either promote or restrict L1 retrotransposition."}
+   ]},
+  {"n": 1177, "id": "pmid:33658714",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "its depletion results in the reactivation of these silenced retrotransposons, accompanied by a global decrease in SETDB1-mediated trimethylation at lysine 9 of histone H3 (H3K9me3)"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "(YTHDC1) is required for the maintenance of mouse embryonic stem (ES) cells in an m 6 A-dependent manner, and that its deletion initiates cellular reprogramming to a 2C-like state"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "However, the function of m 6 A in the early phase of mammalian development remains poorly understood."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "We further demonstrate that YTHDC1 and its target m 6 A RNAs act upstream of SETDB1 to repress retrotransposons and Dux, the master inducer of the two-cell stage (2C)-like program."}
+   ]},
+  {"n": 1178, "id": "pmid:28666125",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "We found abundant 18 nt tRNA-derived small RNA (tRF) in these cells and ubiquitously expressed 22 nt tRFs that include the 3' terminal CCA of mature tRNAs and target the tRNA primer binding site (PBS) essential for ERV reverse transcription."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "We show that the two most active ERV families, IAP and MusD/ETn, are major targets and are strongly inhibited by tRFs in retrotransposition assays."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "22 nt tRFs post-transcriptionally silence coding-competent ERVs, while 18 nt tRFs specifically interfere with reverse transcription and retrotransposon mobility."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "The PBS offers a unique target to specifically inhibit LTR-retrotransposons, and tRF-targeting is a potentially highly conserved mechanism of small RNA-mediated transposon control."}
+   ]},
+  {"n": 1179, "id": "pmid:30622655",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "We also characterized various features of LTR-retrotransposon sequences including additional polyprotein domains, extra open reading frames and primer binding sites, and found that the occurrence and/or type of these features correlates with phylogenies inferred from the three protein domains."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Phylogenetic analysis of the three most conserved polyprotein domains (RT, RH and INT) led to dividing Ty1/copia and Ty3/gypsy retrotransposons into 16 and 14 lineages respectively."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We have established an improved classification system applicable to LTR-retrotransposons from a wide range of plant species."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "We have assembled a database of retrotransposon encoded polyprotein domains sequences extracted from 5410 Ty1/copia elements and 8453 Ty3/gypsy elements sampled from 80 species representing major groups of green plants (Viridiplantae)."}
+   ]}
+ ]}

@@ -1,0 +1,547 @@
+{
+"batch": "check_C_32",
+"pass": "C",
+"source_batch": "gen_32",
+"items": [
+{
+"n": 865,
+"id": "pmid:42369015",
+"year": 2026,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "SLNCR is a long non-coding RNA (lncRNA) that promotes melanoma formation. Previously, we have shown that SLNCR regulates gene expression via its interactions with different transcription factors. Here we show that SLNCR is associated with several genomic sites that contain RNA•DNA triplex target sites (TTSs). The primary sequence of SLNCR contains four triplex-forming regions (TFRs), which are homologous to the TFRs of MEG3, HOTAIR , and PARTICLE lncRNAs. Full-length SLNCR overexpression promotes proliferation, migration, and invasion of melanoma cells by inducing characteristic gene expression changes of genes that are enriched in pathways involved in cell cycle regulation and cell migration. The transcriptomic signature of full-length SLNCR is reversed by deletions of TFR1, 2, 3, or 4. Full-length SLNCR is structurally flexible and permissive of different interactions with the DNA and/or proteins. Deletion of any individual TFR causes SLNCR to gain structural definition, potentially preventing some of its native interactions. Using RNA sequencing and the Triplex Domain Finder tool, we demonstrate that SLNCR TFRs form RNA•DNA:DNA triplexes with the TTSs in promoters of key genes (nodes) predicted to regulate melanoma migration and invasion networks. We further validate the effect on invasion using A375 cells in functional assays. Finally, inhibitory oligos that block SLNCR •DNA:DNA triplex formation reversed the effect of SLNCR -mediated migration ex vivo , demonstrating that triplex formation plays a role in driving melanoma progression."
+}
+],
+"text": "SLNCR is a long non-coding RNA (lncRNA) that promotes melanoma formation. Previously, we have shown that SLNCR regulates gene expression via its interactions with different transcription factors. Here we show that SLNCR is associated with several genomic sites that contain RNA•DNA triplex target sites (TTSs). The primary sequence of SLNCR contains four triplex-forming regions (TFRs), which are homologous to the TFRs of MEG3, HOTAIR , and PARTICLE lncRNAs. Full-length SLNCR overexpression promotes proliferation, migration, and invasion of melanoma cells by inducing characteristic gene expression changes of genes that are enriched in pathways involved in cell cycle regulation and cell migration. The transcriptomic signature of full-length SLNCR is reversed by deletions of TFR1, 2, 3, or 4. Full-length SLNCR is structurally flexible and permissive of different interactions with the DNA and/or proteins. Deletion of any individual TFR causes SLNCR to gain structural definition, potentially preventing some of its native interactions. Using RNA sequencing and the Triplex Domain Finder tool, we demonstrate that SLNCR TFRs form RNA•DNA:DNA triplexes with the TTSs in promoters of key genes (nodes) predicted to regulate melanoma migration and invasion networks. We further validate the effect on invasion using A375 cells in functional assays. Finally, inhibitory oligos that block SLNCR •DNA:DNA triplex formation reversed the effect of SLNCR -mediated migration ex vivo , demonstrating that triplex formation plays a role in driving melanoma progression.",
+"statements": [
+{
+"j": 1,
+"text": "SLNCR carries four triplex-forming regions, homologous to the triplex-forming regions of the MEG3, HOTAIR and PARTICLE lncRNAs."
+},
+{
+"j": 2,
+"text": "Raising full-length SLNCR levels decreased melanoma cell proliferation, migration and invasion, with expression shifts in cell cycle regulation and cell migration pathways."
+},
+{
+"j": 3,
+"text": "Oligos that prevent SLNCR triplex formation undid SLNCR-driven melanoma cell migration ex vivo."
+},
+{
+"j": 4,
+"text": "Treating melanoma-bearing mice with the triplex-blocking oligos reduced tumour growth."
+}
+]
+},
+{
+"n": 866,
+"id": "pmid:40958715",
+"year": 2025,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Pancreatic ductal adenocarcinoma (PDAC) has a poor prognosis and lacks clinical biomarkers. Exosomes are extracellular vesicles that facilitate cell-cell communication by distributing macromolecules, such as small RNAs (smRNAs). We assessed the potential of exosome-derived small RNAs (Ex-smRNAs) as PDAC biomarkers."
+},
+{
+"label": "Methods",
+"text": "Peripheral blood was collected from 51 patients with PDAC and 15 control individuals. Exosomes were isolated using an aqueous two-phase system. Ex-smRNAs were analyzed using smRNA sequencing. smRNA-mediated target gene regulation was verified via The Cancer Genome Atlas analysis and in vitro transfection and wound-healing assays using PDAC organoids."
+},
+{
+"label": "Results",
+"text": "The total Ex-smRNA count was substantially reduced in patients with PDAC compared with that in control individuals. The levels of microRNAs (miRNAs) miR-125a-5p, miR-30e-5p, miR-16-2-3p, miR-98-5p, and the let-7 family were significantly suppressed, whereas that of miR-6731-5p was significantly elevated. Let-7c-5p and miR-98-5p were found to interact with the long non-coding RNA OLMALINC to regulate their common target genes, BACH1 and CCND1 , thus controlling PDAC proliferation and migration. The expressions of CARS1-AS1 and miR-142-5p were upregulated in treatment-responsive patients. Multivariable Cox regression analyses, adjusting for potential prognostic factors such as sex, Eastern Cooperative Oncology Group performance status, and tumor size and stage, revealed that CARS1-AS1 (adjusted hazard ratio [HR] 0.33; 95% confidence interval [CI], 0.15-0.73; P =0.0061) and miR-142-5p (adjusted HR 0.79; 95% CI, 0.61-1.01; P = 0.0581) were associated with improved overall survival."
+},
+{
+"label": "Conclusions",
+"text": "We identified potential Ex-smRNA biomarkers involved in PDAC progression and prognosis that reflect key molecular alterations in PDAC and may serve as clinically relevant biomarkers for disease monitoring."
+}
+],
+"text": "Pancreatic ductal adenocarcinoma (PDAC) has a poor prognosis and lacks clinical biomarkers. Exosomes are extracellular vesicles that facilitate cell-cell communication by distributing macromolecules, such as small RNAs (smRNAs). We assessed the potential of exosome-derived small RNAs (Ex-smRNAs) as PDAC biomarkers. Peripheral blood was collected from 51 patients with PDAC and 15 control individuals. Exosomes were isolated using an aqueous two-phase system. Ex-smRNAs were analyzed using smRNA sequencing. smRNA-mediated target gene regulation was verified via The Cancer Genome Atlas analysis and in vitro transfection and wound-healing assays using PDAC organoids. The total Ex-smRNA count was substantially reduced in patients with PDAC compared with that in control individuals. The levels of microRNAs (miRNAs) miR-125a-5p, miR-30e-5p, miR-16-2-3p, miR-98-5p, and the let-7 family were significantly suppressed, whereas that of miR-6731-5p was significantly elevated. Let-7c-5p and miR-98-5p were found to interact with the long non-coding RNA OLMALINC to regulate their common target genes, BACH1 and CCND1 , thus controlling PDAC proliferation and migration. The expressions of CARS1-AS1 and miR-142-5p were upregulated in treatment-responsive patients. Multivariable Cox regression analyses, adjusting for potential prognostic factors such as sex, Eastern Cooperative Oncology Group performance status, and tumor size and stage, revealed that CARS1-AS1 (adjusted hazard ratio [HR] 0.33; 95% confidence interval [CI], 0.15-0.73; P =0.0061) and miR-142-5p (adjusted HR 0.79; 95% CI, 0.61-1.01; P = 0.0581) were associated with improved overall survival. We identified potential Ex-smRNA biomarkers involved in PDAC progression and prognosis that reflect key molecular alterations in PDAC and may serve as clinically relevant biomarkers for disease monitoring.",
+"statements": [
+{
+"j": 1,
+"text": "Patients with PDAC carried substantially more total exosomal small RNAs than control individuals."
+},
+{
+"j": 2,
+"text": "miR-125a-5p, miR-30e-5p, miR-16-2-3p, miR-98-5p and the let-7 family were suppressed in PDAC, whereas miR-6731-5p ran in the opposite direction and was elevated."
+},
+{
+"j": 3,
+"text": "CARS1-AS1 was linked to better overall survival with an adjusted hazard ratio of 0.33 (95% CI 0.15-0.73)."
+},
+{
+"j": 4,
+"text": "miR-142-5p improves treatment response in PDAC by suppressing BACH1."
+}
+]
+},
+{
+"n": 867,
+"id": "doi:10.64898/2026.07.14.738560",
+"year": 2026,
+"field": "smallrna",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Trehalose is a primary circulating sugar in insects and essential for energy homeostasis, yet its non-coding RNA-based regulatory circuitry remains enigmatic. Here, we characterize a conserved long non-coding RNA, lncRNA1, as a post-transcriptional regulator of trehalose-glucose homeostasis in Lepidoptera. lncRNA1 encodes a structurally stable, pseudoknot-containing transcript that is strongly induced upon trehalose pathway perturbation and exhibits a reciprocal developmental expression pattern relative to the trehalose metabolism enzymes. RNAi-mediated silencing of lncRNA1 in Helicoverpa armigera elevates TPS/TPP and Treh transcript abundance, increases enzyme activities, reduces haemolymph trehalose, raises glucose. This drives broad transcriptomic and metabolomic reprogramming of carbohydrate, lipid, and growth-signalling pathways, resulting in accelerated larval growth. Overexpression of lncRNA1 reverses these phenotypes. Mechanistically, lncRNA1 physically associates with TPS/TPP and Treh mRNAs through evolutionarily conserved sequence motifs, modulating their post-transcriptional dynamics. Targeted deletion of these motifs abolishes regulatory activity and disrupts metabolic homeostasis. This regulatory axis is functionally conserved in Spodoptera frugiperda , validated across loss-of-function, gain-of-function, and cell-based systems. Our findings reveal a conserved lncRNA-based layer of post-transcriptional control over insect energy metabolism."
+}
+],
+"text": "Trehalose is a primary circulating sugar in insects and essential for energy homeostasis, yet its non-coding RNA-based regulatory circuitry remains enigmatic. Here, we characterize a conserved long non-coding RNA, lncRNA1, as a post-transcriptional regulator of trehalose-glucose homeostasis in Lepidoptera. lncRNA1 encodes a structurally stable, pseudoknot-containing transcript that is strongly induced upon trehalose pathway perturbation and exhibits a reciprocal developmental expression pattern relative to the trehalose metabolism enzymes. RNAi-mediated silencing of lncRNA1 in Helicoverpa armigera elevates TPS/TPP and Treh transcript abundance, increases enzyme activities, reduces haemolymph trehalose, raises glucose. This drives broad transcriptomic and metabolomic reprogramming of carbohydrate, lipid, and growth-signalling pathways, resulting in accelerated larval growth. Overexpression of lncRNA1 reverses these phenotypes. Mechanistically, lncRNA1 physically associates with TPS/TPP and Treh mRNAs through evolutionarily conserved sequence motifs, modulating their post-transcriptional dynamics. Targeted deletion of these motifs abolishes regulatory activity and disrupts metabolic homeostasis. This regulatory axis is functionally conserved in Spodoptera frugiperda , validated across loss-of-function, gain-of-function, and cell-based systems. Our findings reveal a conserved lncRNA-based layer of post-transcriptional control over insect energy metabolism.",
+"statements": [
+{
+"j": 1,
+"text": "Silencing lncRNA1 in Helicoverpa armigera raised TPS/TPP and Treh transcripts and enzyme activities, lowered haemolymph trehalose and pushed glucose up."
+},
+{
+"j": 2,
+"text": "Larval growth delayed after lncRNA1 knockdown, and overexpressing lncRNA1 reversed the phenotypes."
+},
+{
+"j": 3,
+"text": "lncRNA1 binds TPS/TPP and Treh mRNAs through conserved sequence motifs, and deleting those motifs removed its regulatory activity."
+},
+{
+"j": 4,
+"text": "The lncRNA1 regulatory axis also controls trehalose levels in dipteran insects such as Drosophila melanogaster."
+}
+]
+},
+{
+"n": 868,
+"id": "pmid:41414669",
+"year": 2025,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Argonaute proteins are essential components of RNA silencing pathways, and their N-terminal extensions, particularly in the PIWI clade, often harbor conserved RG motifs. Despite their prevalence, the function of these motifs remains poorly understood. In this study, we investigate the RG motifs in the N-terminal region of Caenorhabditis elegans PRG-1, a PIWI clade Argonaute. Sequence alignment across Caenorhabditis species reveals three conserved RG motifs, which we confirm to be methylated by mass spectrometry. The region surrounding these motifs is intrinsically disordered, as predicted by disorder algorithms and structural modeling. While the RG motifs are critical for fertility, germline morphology, and Piwi-interacting RNAs (piRNAs) silencing, they are not required for PRG-1 expression, localization, or piRNA loading. Notably, mutation of the RG motifs results in defects in downstream small RNA production, specifically the depletion of WAGO-class small interfering RNAs (siRNAs), without affecting piRNA biogenesis. These findings suggest that the RG motifs of PRG-1 play a crucial role in linking piRNA-mediated silencing to siRNA production, and that their function is critical for fertility and germline maintenance in C. elegans. Despite these defects, the phenotypic severity in the RG mutant is milder than in a PRG-1 null mutant, highlighting the complexity of PRG-1 function and its post-translational modifications."
+}
+],
+"text": "Argonaute proteins are essential components of RNA silencing pathways, and their N-terminal extensions, particularly in the PIWI clade, often harbor conserved RG motifs. Despite their prevalence, the function of these motifs remains poorly understood. In this study, we investigate the RG motifs in the N-terminal region of Caenorhabditis elegans PRG-1, a PIWI clade Argonaute. Sequence alignment across Caenorhabditis species reveals three conserved RG motifs, which we confirm to be methylated by mass spectrometry. The region surrounding these motifs is intrinsically disordered, as predicted by disorder algorithms and structural modeling. While the RG motifs are critical for fertility, germline morphology, and Piwi-interacting RNAs (piRNAs) silencing, they are not required for PRG-1 expression, localization, or piRNA loading. Notably, mutation of the RG motifs results in defects in downstream small RNA production, specifically the depletion of WAGO-class small interfering RNAs (siRNAs), without affecting piRNA biogenesis. These findings suggest that the RG motifs of PRG-1 play a crucial role in linking piRNA-mediated silencing to siRNA production, and that their function is critical for fertility and germline maintenance in C. elegans. Despite these defects, the phenotypic severity in the RG mutant is milder than in a PRG-1 null mutant, highlighting the complexity of PRG-1 function and its post-translational modifications.",
+"statements": [
+{
+"j": 1,
+"text": "PRMT5 is the methyltransferase that modifies the RG motifs of PRG-1."
+},
+{
+"j": 2,
+"text": "The RG motifs were dispensable for PRG-1 expression, localisation and piRNA loading, but fertility, germline morphology and piRNA silencing depended on them."
+},
+{
+"j": 3,
+"text": "Three divergent RG motifs were found in PRG-1 by alignment across Caenorhabditis species, and mass spectrometry showed them to be methylated."
+},
+{
+"j": 4,
+"text": "Mutating the RG motifs depleted WAGO-class siRNAs while leaving piRNA biogenesis intact."
+}
+]
+},
+{
+"n": 869,
+"id": "pmid:42798623",
+"year": 2026,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Postoperative cognitive dysfunction (POCD) is a common neurological complication involving the hippocampus, a brain region critical for learning and memory. Circular RNA (circRNA) plays an important role in regulating gene expression. Our objective is to predict and verify a circRNA-miRNA-mRNA network in POCD."
+},
+{
+"label": "Methods",
+"text": "Microarray data of POCD mouse models were retrieved from the Gene Expression Omnibus (GEO) database. Differential expression analysis was used to identify differentially expressed circRNA, miRNA, and mRNA. An in silico circRNA-miRNA-mRNA network was subsequently predicted based on miRNA-mRNA pairs and miRNA-circRNA pairs obtained from public databases. From this global network, three hub subnetworks based on the competing endogenous RNA (ceRNA) hypothesis were analyzed. In hippocampal tissue of POCD mice, RT-qPCR quantified key circRNAs, miRNAs, and mRNAs, with protein levels of the corresponding mRNA confirmed by western blot. Dual-luciferase assays in HT22 cells verified interactions between mmu_circ_0001838 (mmu_circRNA_009748) and mmu-miR-337-3p, and between mmu-miR-337-3p and PLA2G12B mRNA."
+},
+{
+"label": "Results",
+"text": "Analysis of publicly datasets related to POCD identified 12 genes potentially associated with programmed cell death, inflammation, immunity, and oxidative stress in POCD. According to these results, we successfully predicted a circRNA-miRNA-mRNA network, comprising 4 circRNAs, 14 miRNAs and 12 mRNAs. Furthermore, three circRNA-miRNA-mRNA subnetworks were then derived based on the ceRNA hypothesis, which included 3 circRNAs, 4 miRNAs and 8 mRNAs: mmu_circRNA_016232-mmu_miR-6912-5p-four mRNAs (GBP2, BCL3, ADGRL4, PLN), mmu_circRNA_009748-mmu_miR-362-3p/mmu_miR-337-3p-two mRNAs (RSAD2, PLA2G12B), and mmu_circRNA_009396-mmu_miR-7030-5p-two mRNAs (SLC25A13, GPR171). The AUC value of each predicted circRNA-miRNA-mRNA path in diagnosing POCD exceeded 0.8. RT-qPCR results validated that the levels of mmu_circRNA_016232, mmu_circRNA_009748, mmu_miR-7030-5p, GBP2 mRNA, BCL3 mRNA, ADGRL4 mRNA, PLN mRNA, RSAD2 mRNA and PLA2G12B mRNA were elevated, while the levels of mmu_circRNA_009396, mmu_miR-6912-5p, mmu_miR-362-3p, mmu_miR-337-3p, SLC25A13 mRNA, and GPR171 mRNA were reduced in the hippocampal tissues of POCD mice compared to the control group. Western blot corroborated the protein-level changes for the corresponding mRNAs. Dual-luciferase assays further confirmed the direct interactions of mmu_circ_0001838 with mmu-miR-337-3p and mmu-miR-337-3p with PLA2G12B mRNA."
+},
+{
+"label": "Conclusion",
+"text": "This study predicted and verified three critical circRNA-miRNA-mRNA regulatory axes, providing new insights into the molecular mechanisms underlying POCD and identifying potential biomarkers for its diagnosis and intervention strategies."
+}
+],
+"text": "Postoperative cognitive dysfunction (POCD) is a common neurological complication involving the hippocampus, a brain region critical for learning and memory. Circular RNA (circRNA) plays an important role in regulating gene expression. Our objective is to predict and verify a circRNA-miRNA-mRNA network in POCD. Microarray data of POCD mouse models were retrieved from the Gene Expression Omnibus (GEO) database. Differential expression analysis was used to identify differentially expressed circRNA, miRNA, and mRNA. An in silico circRNA-miRNA-mRNA network was subsequently predicted based on miRNA-mRNA pairs and miRNA-circRNA pairs obtained from public databases. From this global network, three hub subnetworks based on the competing endogenous RNA (ceRNA) hypothesis were analyzed. In hippocampal tissue of POCD mice, RT-qPCR quantified key circRNAs, miRNAs, and mRNAs, with protein levels of the corresponding mRNA confirmed by western blot. Dual-luciferase assays in HT22 cells verified interactions between mmu_circ_0001838 (mmu_circRNA_009748) and mmu-miR-337-3p, and between mmu-miR-337-3p and PLA2G12B mRNA. Analysis of publicly datasets related to POCD identified 12 genes potentially associated with programmed cell death, inflammation, immunity, and oxidative stress in POCD. According to these results, we successfully predicted a circRNA-miRNA-mRNA network, comprising 4 circRNAs, 14 miRNAs and 12 mRNAs. Furthermore, three circRNA-miRNA-mRNA subnetworks were then derived based on the ceRNA hypothesis, which included 3 circRNAs, 4 miRNAs and 8 mRNAs: mmu_circRNA_016232-mmu_miR-6912-5p-four mRNAs (GBP2, BCL3, ADGRL4, PLN), mmu_circRNA_009748-mmu_miR-362-3p/mmu_miR-337-3p-two mRNAs (RSAD2, PLA2G12B), and mmu_circRNA_009396-mmu_miR-7030-5p-two mRNAs (SLC25A13, GPR171). The AUC value of each predicted circRNA-miRNA-mRNA path in diagnosing POCD exceeded 0.8. RT-qPCR results validated that the levels of mmu_circRNA_016232, mmu_circRNA_009748, mmu_miR-7030-5p, GBP2 mRNA, BCL3 mRNA, ADGRL4 mRNA, PLN mRNA, RSAD2 mRNA and PLA2G12B mRNA were elevated, while the levels of mmu_circRNA_009396, mmu_miR-6912-5p, mmu_miR-362-3p, mmu_miR-337-3p, SLC25A13 mRNA, and GPR171 mRNA were reduced in the hippocampal tissues of POCD mice compared to the control group. Western blot corroborated the protein-level changes for the corresponding mRNAs. Dual-luciferase assays further confirmed the direct interactions of mmu_circ_0001838 with mmu-miR-337-3p and mmu-miR-337-3p with PLA2G12B mRNA. This study predicted and verified three critical circRNA-miRNA-mRNA regulatory axes, providing new insights into the molecular mechanisms underlying POCD and identifying potential biomarkers for its diagnosis and intervention strategies.",
+"statements": [
+{
+"j": 1,
+"text": "The predicted regulatory network held 4 circRNAs, 14 miRNAs and 12 mRNAs."
+},
+{
+"j": 2,
+"text": "Knocking down mmu_circRNA_009748 in mice reduced postoperative memory impairment."
+},
+{
+"j": 3,
+"text": "In hippocampal tissue from POCD mice, mmu_miR-337-3p, SLC25A13 mRNA and GPR171 mRNA sat above control levels."
+},
+{
+"j": 4,
+"text": "Every predicted circRNA-miRNA-mRNA path reached an AUC above 0.8 for diagnosing POCD."
+}
+]
+},
+{
+"n": 870,
+"id": "pmid:40175608",
+"year": 2025,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "N6-methyladenosine (m6A) methylation was found to be involved in the tumorigenesis and development of ovarian cancer. Until now, it is not clear to identify the mechanism by m6A demethylase ALKBH5 affects RNA splicing in ovarian cancer. In this study, we examined ALKBH5 protein expression and m6A levels by immunohistochemistry and analyzed their correlation with clinical features and prognosis in patients with ovarian cancer. We identified the elevated expression of ALKBH5 and a general reduction in the level of m6A in ovarian cancer patients. In the ovarian cancer cell line A2780, ALKBH5 depletion was found using the siRNA strategy or the CRISPR/Cas9 knockout (KO) method, which significantly reduced the level of m6A and inhibited cell viability, proliferation, and migration. The MeRIP-seq and RNA-seq showed that ALKBH5-regulated m6A RNA modification mainly affects RNA splicing function in ovarian cancer cells. SRSF10 is a key target gene involved in alternative splicing regulation through ALKBH5-m6A. ALKBH5 knockdown resulted in increased retention of SRSF10 exon 5 and decreased expression of transcript SRSF10-211. In conclusion, the alternative splicing regulation effect by ALKBH5-mediated m6A suggests a novel promising approach for m6A modification in OC and provides novel insights into the mechanisms involved in ovarian cancer therapy."
+}
+],
+"text": "N6-methyladenosine (m6A) methylation was found to be involved in the tumorigenesis and development of ovarian cancer. Until now, it is not clear to identify the mechanism by m6A demethylase ALKBH5 affects RNA splicing in ovarian cancer. In this study, we examined ALKBH5 protein expression and m6A levels by immunohistochemistry and analyzed their correlation with clinical features and prognosis in patients with ovarian cancer. We identified the elevated expression of ALKBH5 and a general reduction in the level of m6A in ovarian cancer patients. In the ovarian cancer cell line A2780, ALKBH5 depletion was found using the siRNA strategy or the CRISPR/Cas9 knockout (KO) method, which significantly reduced the level of m6A and inhibited cell viability, proliferation, and migration. The MeRIP-seq and RNA-seq showed that ALKBH5-regulated m6A RNA modification mainly affects RNA splicing function in ovarian cancer cells. SRSF10 is a key target gene involved in alternative splicing regulation through ALKBH5-m6A. ALKBH5 knockdown resulted in increased retention of SRSF10 exon 5 and decreased expression of transcript SRSF10-211. In conclusion, the alternative splicing regulation effect by ALKBH5-mediated m6A suggests a novel promising approach for m6A modification in OC and provides novel insights into the mechanisms involved in ovarian cancer therapy.",
+"statements": [
+{
+"j": 1,
+"text": "ALKBH5 knockdown left SRSF10 exon 5 retained less often and lowered expression of the SRSF10-211 transcript."
+},
+{
+"j": 2,
+"text": "Depleting ALKBH5 in A2780 cells by siRNA or CRISPR/Cas9 knockout cut m6A levels and held back viability, proliferation and migration."
+},
+{
+"j": 3,
+"text": "Ovarian cancer patients showed raised ALKBH5 expression alongside a general drop in m6A levels."
+},
+{
+"j": 4,
+"text": "High ALKBH5 protein expression went with shorter overall survival in ovarian cancer patients."
+}
+]
+},
+{
+"n": 871,
+"id": "pmid:42480769",
+"year": 2026,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Breast cancer remains a leading cause of cancer-related mortality worldwide, with triple-negative breast cancer (TNBC) representing a particularly aggressive subtype lacking targeted therapies. Inducing copper-mediated cell death stands as a significant therapeutic approach for tumors; however, research into non-coding RNA regulation of copper-mediated cell death in TNBC remains relatively scarce. This study analyses transcriptomic data from TNBC patients to identify long non-coding RNAs (lncRNAs) associated with copper-mediated cell death, aiming to uncover potential therapeutic targets."
+},
+{
+"label": "Methods",
+"text": "Bioinformatics analysis of transcriptomic data from breast cancer patients in the TCGA databases identified a key gene associated with copper-mediated cell death. The role of this gene in breast cancer tumor growth was then investigated at molecular, cellular, and animal model levels."
+},
+{
+"label": "Result",
+"text": "This study finds long non-coding RNA LINC02207 is significantly downregulated in TNBC tissues and low expression correlates with poorer survival. It localizes in nucleus, acts as tumor suppressor by inhibiting cell proliferation, positively regulates cuproptosis and enhances sensitivity to Elesclomol. Knockdown impairs cuproptosis by modulating key genes. Mechanistically, NFAT5 is its nuclear binding partner. LINC02207 may regulate copper-dependent apoptosis by influencing the nuclear localisation of NFAT5, thereby influencing cancer progression. In vivo models confirm its overexpression suppresses tumor growth by promoting cuproptosis."
+},
+{
+"label": "Conclusion",
+"text": "These findings reveal a critical tumor-suppressive role of LINC02207 mediated through NFAT5-dependent regulation of cuproptosis and suggest that LINC02207 may serve as a promising therapeutic target in breast cancer."
+}
+],
+"text": "Breast cancer remains a leading cause of cancer-related mortality worldwide, with triple-negative breast cancer (TNBC) representing a particularly aggressive subtype lacking targeted therapies. Inducing copper-mediated cell death stands as a significant therapeutic approach for tumors; however, research into non-coding RNA regulation of copper-mediated cell death in TNBC remains relatively scarce. This study analyses transcriptomic data from TNBC patients to identify long non-coding RNAs (lncRNAs) associated with copper-mediated cell death, aiming to uncover potential therapeutic targets. Bioinformatics analysis of transcriptomic data from breast cancer patients in the TCGA databases identified a key gene associated with copper-mediated cell death. The role of this gene in breast cancer tumor growth was then investigated at molecular, cellular, and animal model levels. This study finds long non-coding RNA LINC02207 is significantly downregulated in TNBC tissues and low expression correlates with poorer survival. It localizes in nucleus, acts as tumor suppressor by inhibiting cell proliferation, positively regulates cuproptosis and enhances sensitivity to Elesclomol. Knockdown impairs cuproptosis by modulating key genes. Mechanistically, NFAT5 is its nuclear binding partner. LINC02207 may regulate copper-dependent apoptosis by influencing the nuclear localisation of NFAT5, thereby influencing cancer progression. In vivo models confirm its overexpression suppresses tumor growth by promoting cuproptosis. These findings reveal a critical tumor-suppressive role of LINC02207 mediated through NFAT5-dependent regulation of cuproptosis and suggest that LINC02207 may serve as a promising therapeutic target in breast cancer.",
+"statements": [
+{
+"j": 1,
+"text": "Overexpressing LINC02207 suppressed tumour growth in animal models by promoting cuproptosis."
+},
+{
+"j": 2,
+"text": "LINC02207 is significantly upregulated in TNBC tissue, and its low expression goes together with poorer survival."
+},
+{
+"j": 3,
+"text": "Nuclear LINC02207 holds back cell proliferation, drives cuproptosis and makes cells more sensitive to Elesclomol."
+},
+{
+"j": 4,
+"text": "Circulating LINC02207 levels separate TNBC patients from healthy women in blood samples."
+}
+]
+},
+{
+"n": 872,
+"id": "pmid:41013174",
+"year": 2025,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Small RNAs regulate gene expression in species across the tree of life. miRNAs, which impact a variety of cellular and physiological processes ranging from development and stress adaptation to host defense, are one of the best characterized classes of small RNA. Many miRNAs are produced from longer non-coding transcripts generated from host genes via a series of RNA cleavage reactions. The location of a small RNA within a host gene can shape the processing of the mature small RNA. For example, a type of miRNAs derived from host gene intronic sequence, referred to as miRtrons, are Drosha-independent and reliant on splicing for biogenesis. Relatedly, processing of a small RNA from an exon of a protein-coding mRNA, in principle, may destabilize it and compromise translation of the host gene. Prior to extensive transcriptome analysis, informatics analyses identified six human miRNAs embedded in exons of protein-coding genes and experimental studies have characterized additional anecdotal examples. Still, whether protein-coding mRNAs encoding small RNAs represent an appreciable class of host genes given the now recognized complexity of the transcriptome is unclear."
+},
+{
+"label": "Results",
+"text": "Our analysis finds 201 small RNAs (118 human and 83 mouse) encoded by expressed exons of protein-coding genes (5'-UTR, CDS, 3'-UTR). Forty-six of these cases (29 human and 17 mouse) are also present in MirGeneDB which includes the most up-to-date miRNA classifications. Many of these small RNAs are poorly characterized with 96% of the protein-coding host gene relationships identified here not previously known. Furthermore, the identification of nearly fifty human and mouse small RNAs embedded within coding exons of canonical ORFs suggests that overlapping hybrid genes might be more common than previously appreciated in higher organisms. Expression analysis for a subset of these small RNAs indicates that many display differential expression across human tissues with the pattern correlating significantly with the expression of the candidate protein-coding host gene."
+},
+{
+"label": "Significance",
+"text": "Overall, our analysis suggests that the number of protein-coding transcripts serving as host genes is greater than previously recognized. Our small RNA host gene classifications may serve as a resource to shed new light on small RNA biology, specific host genes, and gene regulation."
+}
+],
+"text": "Small RNAs regulate gene expression in species across the tree of life. miRNAs, which impact a variety of cellular and physiological processes ranging from development and stress adaptation to host defense, are one of the best characterized classes of small RNA. Many miRNAs are produced from longer non-coding transcripts generated from host genes via a series of RNA cleavage reactions. The location of a small RNA within a host gene can shape the processing of the mature small RNA. For example, a type of miRNAs derived from host gene intronic sequence, referred to as miRtrons, are Drosha-independent and reliant on splicing for biogenesis. Relatedly, processing of a small RNA from an exon of a protein-coding mRNA, in principle, may destabilize it and compromise translation of the host gene. Prior to extensive transcriptome analysis, informatics analyses identified six human miRNAs embedded in exons of protein-coding genes and experimental studies have characterized additional anecdotal examples. Still, whether protein-coding mRNAs encoding small RNAs represent an appreciable class of host genes given the now recognized complexity of the transcriptome is unclear. Our analysis finds 201 small RNAs (118 human and 83 mouse) encoded by expressed exons of protein-coding genes (5'-UTR, CDS, 3'-UTR). Forty-six of these cases (29 human and 17 mouse) are also present in MirGeneDB which includes the most up-to-date miRNA classifications. Many of these small RNAs are poorly characterized with 96% of the protein-coding host gene relationships identified here not previously known. Furthermore, the identification of nearly fifty human and mouse small RNAs embedded within coding exons of canonical ORFs suggests that overlapping hybrid genes might be more common than previously appreciated in higher organisms. Expression analysis for a subset of these small RNAs indicates that many display differential expression across human tissues with the pattern correlating significantly with the expression of the candidate protein-coding host gene. Overall, our analysis suggests that the number of protein-coding transcripts serving as host genes is greater than previously recognized. Our small RNA host gene classifications may serve as a resource to shed new light on small RNA biology, specific host genes, and gene regulation.",
+"statements": [
+{
+"j": 1,
+"text": "For a subset of these small RNAs, expression differed across human tissues and tracked significantly with that of the candidate host gene."
+},
+{
+"j": 2,
+"text": "96% of the protein-coding host gene relationships reported here had not been known before."
+},
+{
+"j": 3,
+"text": "Cutting a small RNA out of a host mRNA exon measurably lowered the amount of protein made from that host gene."
+},
+{
+"j": 4,
+"text": "The analysis turned up 201 small RNAs, 118 human and 83 mouse, encoded by expressed exons of protein-coding genes."
+}
+]
+},
+{
+"n": 873,
+"id": "pmid:41455750",
+"year": 2025,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Environmental toxicants pose a significant threat to female reproductive health, yet the molecular mechanisms through which they impair oocyte quality are often unclear. Although the industrial chemical 4-vinylcyclohexene diepoxide (VCD) is known to cause ovarian follicle loss, how it disrupts essential processes such as meiosis remains poorly understood. Here, we show that VCD exposure triggers meiotic failure in mouse oocytes by altering a key RNA modification pathway known as m6A methylation. VCD treatment reduces ovarian reserve, elevates oxidative stress, and causes severe chromosome segregation defects. We find that VCD dysregulates the expression of m6A writers and erasers, leading to altered methylation of transcripts critical for cell division and meiosis. Specifically, VCD downregulates the RNA-binding protein IGF2BP3, which destabilizes target genes required for chromosome alignment and spindle assembly. Our results reveal how an environmental toxin can cause epitranscriptomic dysregulation and meiotic failure, providing a new perspective on pollutant-induced fertility decline. This work highlights the m6A pathway as a potential therapeutic target and underscores the broader reproductive risks posed by chemical exposures."
+}
+],
+"text": "Environmental toxicants pose a significant threat to female reproductive health, yet the molecular mechanisms through which they impair oocyte quality are often unclear. Although the industrial chemical 4-vinylcyclohexene diepoxide (VCD) is known to cause ovarian follicle loss, how it disrupts essential processes such as meiosis remains poorly understood. Here, we show that VCD exposure triggers meiotic failure in mouse oocytes by altering a key RNA modification pathway known as m6A methylation. VCD treatment reduces ovarian reserve, elevates oxidative stress, and causes severe chromosome segregation defects. We find that VCD dysregulates the expression of m6A writers and erasers, leading to altered methylation of transcripts critical for cell division and meiosis. Specifically, VCD downregulates the RNA-binding protein IGF2BP3, which destabilizes target genes required for chromosome alignment and spindle assembly. Our results reveal how an environmental toxin can cause epitranscriptomic dysregulation and meiotic failure, providing a new perspective on pollutant-induced fertility decline. This work highlights the m6A pathway as a potential therapeutic target and underscores the broader reproductive risks posed by chemical exposures.",
+"statements": [
+{
+"j": 1,
+"text": "VCD exposure cut ovarian reserve, raised oxidative stress and produced severe chromosome segregation defects."
+},
+{
+"j": 2,
+"text": "VCD lowered the RNA-binding protein IGF2BP3, destabilising target genes required for chromosome alignment and spindle assembly."
+},
+{
+"j": 3,
+"text": "Restoring IGF2BP3 in VCD-exposed oocytes rescued chromosome alignment."
+},
+{
+"j": 4,
+"text": "VCD shifted the expression of m6A writers and erasers, changing methylation of transcripts needed for cell division and meiosis."
+}
+]
+},
+{
+"n": 874,
+"id": "pmid:41071868",
+"year": 2025,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Metazoans suppress transposons via small RNA-mediated silencing, but ciliates physically eliminate transposons from somatic genomes. Here, we report the high-quality germline genome assembly of a marine ciliate Euplotes vannus , where ~80% are transposons and other germline-specific DNA that has to be precisely eliminated during soma development. We demonstrate that a class of soma-derived 30-nucleotide small RNAs precisely targets nontransposon DNA against elimination during this process. Small RNA-mediated targeting remains functional across varying small RNA lengths and is compatible with heterozygous sites. These small RNAs are cleaved by Dicer-like ribonuclease from long noncoding RNAs, which are bidirectionally transcribed of somatic chromosomes, initiated at subtelomeric chromosome breakage sequences (5'-TTGAA-3'). On the basis of these findings and time-course transcriptomic profiling, we propose a model elucidating the molecular mechanism of DNA elimination in Euplotes . These findings provide insights into the role of small RNAs in transmitting genetic information across generations and maintaining genome stability."
+}
+],
+"text": "Metazoans suppress transposons via small RNA-mediated silencing, but ciliates physically eliminate transposons from somatic genomes. Here, we report the high-quality germline genome assembly of a marine ciliate Euplotes vannus , where ~80% are transposons and other germline-specific DNA that has to be precisely eliminated during soma development. We demonstrate that a class of soma-derived 30-nucleotide small RNAs precisely targets nontransposon DNA against elimination during this process. Small RNA-mediated targeting remains functional across varying small RNA lengths and is compatible with heterozygous sites. These small RNAs are cleaved by Dicer-like ribonuclease from long noncoding RNAs, which are bidirectionally transcribed of somatic chromosomes, initiated at subtelomeric chromosome breakage sequences (5'-TTGAA-3'). On the basis of these findings and time-course transcriptomic profiling, we propose a model elucidating the molecular mechanism of DNA elimination in Euplotes . These findings provide insights into the role of small RNAs in transmitting genetic information across generations and maintaining genome stability.",
+"statements": [
+{
+"j": 1,
+"text": "Targeting by these small RNAs kept working across different small RNA lengths and tolerated heterozygous sites."
+},
+{
+"j": 2,
+"text": "The small RNAs come from Dicer-like cleavage of bidirectionally transcribed long noncoding RNAs that start at subtelomeric chromosome breakage sequences."
+},
+{
+"j": 3,
+"text": "Transposons and other germline-specific DNA make up roughly 80% of the Euplotes vannus germline genome and are removed during soma development."
+},
+{
+"j": 4,
+"text": "The 30-nucleotide small RNAs act by loading onto a PIWI-clade Argonaute protein in Euplotes."
+}
+]
+},
+{
+"n": 875,
+"id": "pmid:38847568",
+"year": 2024,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "In this study, we identified and assembled a strain of American nodavirus (ANV) in the Phlebotomus papatasi-derived PP9ad cell line. This strain most closely resembles Flock House virus and ANV identified in the Drosophila melanogaster S2/S2R cell line. Through small RNA sequencing and analysis, we demonstrate that ANV replication in PP9ad cells is primarily targeted by the exogenous small interfering RNA (exo-siRNA) pathway, with minimal engagement from the PIWI-interacting RNA (piRNA) pathway. In mosquitoes such as Aedes and Culex, the PIWI pathway is expanded and specialised, which actively limits virus replication. This is unlike in Drosophila spp., where the piRNA pathway does not restrict viral replication. In Lutzomyia sandflies (family Psychodidae), close relatives of Phlebotomus species and Drosophila, there appears to be an absence of virus-derived piRNAs. To investigate whether this absence is due to a lack of PIWI pathway proteins, we analysed the piRNA and siRNA diversity and repertoire in PP9ad cells. Previous assemblies of P. papatasi genome (Ppap_1.0) have revealed a patchy repertoire of the siRNA and piRNA pathways. Our analysis of the updated P. papatasi genome (Ppap_2.1) has shown no PIWI protein expansion in sandflies. We found that both siRNA and piRNA pathways are transcriptionally active in PP9ad cells, with genomic mapping of small RNAs generating typical piRNA signatures. Our results suggest that the piRNA pathway may not respond to virus replication in these cells, but an antiviral response is mounted via the exo-siRNA pathway."
+}
+],
+"text": "In this study, we identified and assembled a strain of American nodavirus (ANV) in the Phlebotomus papatasi-derived PP9ad cell line. This strain most closely resembles Flock House virus and ANV identified in the Drosophila melanogaster S2/S2R cell line. Through small RNA sequencing and analysis, we demonstrate that ANV replication in PP9ad cells is primarily targeted by the exogenous small interfering RNA (exo-siRNA) pathway, with minimal engagement from the PIWI-interacting RNA (piRNA) pathway. In mosquitoes such as Aedes and Culex, the PIWI pathway is expanded and specialised, which actively limits virus replication. This is unlike in Drosophila spp., where the piRNA pathway does not restrict viral replication. In Lutzomyia sandflies (family Psychodidae), close relatives of Phlebotomus species and Drosophila, there appears to be an absence of virus-derived piRNAs. To investigate whether this absence is due to a lack of PIWI pathway proteins, we analysed the piRNA and siRNA diversity and repertoire in PP9ad cells. Previous assemblies of P. papatasi genome (Ppap_1.0) have revealed a patchy repertoire of the siRNA and piRNA pathways. Our analysis of the updated P. papatasi genome (Ppap_2.1) has shown no PIWI protein expansion in sandflies. We found that both siRNA and piRNA pathways are transcriptionally active in PP9ad cells, with genomic mapping of small RNAs generating typical piRNA signatures. Our results suggest that the piRNA pathway may not respond to virus replication in these cells, but an antiviral response is mounted via the exo-siRNA pathway.",
+"statements": [
+{
+"j": 1,
+"text": "In PP9ad cells, American nodavirus replication was chiefly targeted by the exo-siRNA pathway, with the piRNA pathway barely engaged."
+},
+{
+"j": 2,
+"text": "American nodavirus infection shortens the lifespan of live Phlebotomus papatasi sandflies."
+},
+{
+"j": 3,
+"text": "Both the siRNA and piRNA pathways were transcriptionally active in PP9ad cells, and mapped small RNAs gave typical piRNA signatures."
+},
+{
+"j": 4,
+"text": "The updated P. papatasi assembly Ppap_2.1 showed no expansion of PIWI proteins in sandflies."
+}
+]
+},
+{
+"n": 876,
+"id": "pmid:42772092",
+"year": 2027,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Circular RNAs (circRNAs) have recently emerged as promising biomarkers for the early diagnosis of cancer and the development of targeted therapeutic strategies. However, their detection remains challenging due to their low abundance and the difficulty in discriminating them from their linear RNA counterparts. Herein, a surface-enhanced Raman scattering (SERS) biosensor employing magnetic-plasmonic nanoparticles was proposed for the specific detection of circCDR1as, a tumor-associated circular RNA antisense to the cerebellar degeneration-related protein 1 transcript. The detection approach involves initially capturing the target molecule with gold-coated magnetic beads, which allows for magnetic separation and enrichment. Then, plasmonic nanoparticles labeled with a Raman reporter (5,5'-dithio bis-(2-nitrobenzoic acid), DTNB) attach to the bead surface through complementary hybridization, forming a core-satellite structure that greatly enhances the SERS signal. Quantification of the target is achieved by measuring the intensity of the DTNB Raman signal. This method demonstrated sensitive and selective detection of a circCDR1as mimic, with a detection limit of 1 pM. Furthermore, the biosensor effectively discriminated breast cancer cells (MDA-MB-231) from normal breast epithelial cells (MCF-10A) by detecting markedly elevated levels of circCDR1as in the malignant cells. Overall, this work introduces a novel nanotechnology-based platform for circRNA detection, underscoring its considerable potential for applications in cancer diagnosis and gene therapy monitoring."
+}
+],
+"text": "Circular RNAs (circRNAs) have recently emerged as promising biomarkers for the early diagnosis of cancer and the development of targeted therapeutic strategies. However, their detection remains challenging due to their low abundance and the difficulty in discriminating them from their linear RNA counterparts. Herein, a surface-enhanced Raman scattering (SERS) biosensor employing magnetic-plasmonic nanoparticles was proposed for the specific detection of circCDR1as, a tumor-associated circular RNA antisense to the cerebellar degeneration-related protein 1 transcript. The detection approach involves initially capturing the target molecule with gold-coated magnetic beads, which allows for magnetic separation and enrichment. Then, plasmonic nanoparticles labeled with a Raman reporter (5,5'-dithio bis-(2-nitrobenzoic acid), DTNB) attach to the bead surface through complementary hybridization, forming a core-satellite structure that greatly enhances the SERS signal. Quantification of the target is achieved by measuring the intensity of the DTNB Raman signal. This method demonstrated sensitive and selective detection of a circCDR1as mimic, with a detection limit of 1 pM. Furthermore, the biosensor effectively discriminated breast cancer cells (MDA-MB-231) from normal breast epithelial cells (MCF-10A) by detecting markedly elevated levels of circCDR1as in the malignant cells. Overall, this work introduces a novel nanotechnology-based platform for circRNA detection, underscoring its considerable potential for applications in cancer diagnosis and gene therapy monitoring.",
+"statements": [
+{
+"j": 1,
+"text": "DTNB-labelled plasmonic nanoparticles hybridise onto the magnetic beads to form a core-satellite structure that strongly boosts the SERS signal."
+},
+{
+"j": 2,
+"text": "circCDR1as levels were markedly lower in MDA-MB-231 breast cancer cells than in MCF-10A normal breast epithelial cells, which let the sensor tell the two apart."
+},
+{
+"j": 3,
+"text": "The SERS assay picked up a circCDR1as mimic down to a detection limit of 1 pM."
+},
+{
+"j": 4,
+"text": "The biosensor measured circCDR1as in plasma samples from breast cancer patients."
+}
+]
+},
+{
+"n": 877,
+"id": "doi:10.1101/2025.07.29.667427",
+"year": 2025,
+"field": "smallrna",
+"source": "preprint",
+"sections": [
+{
+"label": "Motivation",
+"text": "In recent years, Piwi-interacting RNAs (piRNAs) have been found to be involved in different biological roles beyond their initially identified role of protecting the germline genome. However, there is a lack of robust computational tools that facilitate their accurate annotation, analysis, and visualization, which would allow large-scale analysis of piRNAs across samples and species."
+},
+{
+"label": "Results",
+"text": "We present piRAT, a piR NA A nnotation T ool for annotating both primary piRNAs from piRNA clusters and secondary piRNAs generated via the ping-pong cycle, using small RNA-seq data mapped to a genome. piRAT also performs descriptive analyses and generates comprehensive reports with visualizations to support annotations and provide further insights."
+},
+{
+"label": "Availability and Implementation",
+"text": "piRAT is available on GitHub ( https://github.com/ylla-lab/piRAT ), implemented in Python 3, and released under MIT license. It is also installable through pip, conda, and available as Docker container ( https://hub.docker.com/u/domrob ). The Python implementation runs natively on Linux and in WSL in Windows, and the Docker image can run on Linux, Windows, and MacOS."
+}
+],
+"text": "In recent years, Piwi-interacting RNAs (piRNAs) have been found to be involved in different biological roles beyond their initially identified role of protecting the germline genome. However, there is a lack of robust computational tools that facilitate their accurate annotation, analysis, and visualization, which would allow large-scale analysis of piRNAs across samples and species. We present piRAT, a piR NA A nnotation T ool for annotating both primary piRNAs from piRNA clusters and secondary piRNAs generated via the ping-pong cycle, using small RNA-seq data mapped to a genome. piRAT also performs descriptive analyses and generates comprehensive reports with visualizations to support annotations and provide further insights. piRAT is available on GitHub ( https://github.com/ylla-lab/piRAT ), implemented in Python 3, and released under MIT license. It is also installable through pip, conda, and available as Docker container ( https://hub.docker.com/u/domrob ). The Python implementation runs natively on Linux and in WSL in Windows, and the Docker image can run on Linux, Windows, and MacOS.",
+"statements": [
+{
+"j": 1,
+"text": "piRAT is implemented in Python 3 under an MIT license and can be installed through pip, conda or a Docker container."
+},
+{
+"j": 2,
+"text": "piRAT annotated piRNA clusters more accurately than previously published annotation tools."
+},
+{
+"j": 3,
+"text": "piRAT annotates primary piRNAs from clusters as well as secondary piRNAs made through the ping-pong cycle, working from genome-mapped small RNA-seq data."
+},
+{
+"j": 4,
+"text": "Linux supports the Python version natively, Windows needs WSL for it, and the Docker image additionally covers MacOS."
+}
+]
+},
+{
+"n": 878,
+"id": "pmid:42584802",
+"year": 2026,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Alternative splicing is a key process in the regulation of gene expression in eukaryotes. During transcription, the spliceosome machinery assembles onto precursor messenger RNA (pre-mRNA) conserved regions, promoting intron removal and exon ligation. This process is guided and controlled by the association of RNA-binding proteins (RBPs) in the pre-mRNAs. These proteins mediate splice-site choice controlling the splicing profile observed in different cells. The heterogeneous ribonucleoproteins (hnRNPs) A1 and K have previously been associated with intronic regions containing microRNAs (miRNAs). We previously showed hnRNP A1 overexpression increases invasion and cell growth in thyroid carcinoma cells through association with miR-17a and miR-18a. MIR17HG is the host gene for the miR-17-92 miRNA cluster, which is encoded within one of its introns. In this work, we investigated the participation of hnRNP A1 and hnRNP K in MIR17HG alternative splicing."
+},
+{
+"label": "Methods and results",
+"text": "Overexpression of hnRNP A1 and hnRNP K was performed using pFLAG system in HEK-293FT cells. Reverse transcription quantitative PCR (RT-qPCR) analysis indicated higher levels of MIR17HG-i3 isoforms, which correlated with increase on pre-miR-19a generation upon hnRNP A1 overexpression. Surprisingly, the same pattern was not observed in cells overexpressing hnRNP K. Higher concentration of functional miR-19a in hnRNP A1 overexpressing cells was confirmed by luciferase reporter assays."
+},
+{
+"label": "Conclusions",
+"text": "These results indicate that hnRNP A1 modulates MIR17HG splicing, with downstream effects on miR-19a biogenesis and maturation."
+}
+],
+"text": "Alternative splicing is a key process in the regulation of gene expression in eukaryotes. During transcription, the spliceosome machinery assembles onto precursor messenger RNA (pre-mRNA) conserved regions, promoting intron removal and exon ligation. This process is guided and controlled by the association of RNA-binding proteins (RBPs) in the pre-mRNAs. These proteins mediate splice-site choice controlling the splicing profile observed in different cells. The heterogeneous ribonucleoproteins (hnRNPs) A1 and K have previously been associated with intronic regions containing microRNAs (miRNAs). We previously showed hnRNP A1 overexpression increases invasion and cell growth in thyroid carcinoma cells through association with miR-17a and miR-18a. MIR17HG is the host gene for the miR-17-92 miRNA cluster, which is encoded within one of its introns. In this work, we investigated the participation of hnRNP A1 and hnRNP K in MIR17HG alternative splicing. Overexpression of hnRNP A1 and hnRNP K was performed using pFLAG system in HEK-293FT cells. Reverse transcription quantitative PCR (RT-qPCR) analysis indicated higher levels of MIR17HG-i3 isoforms, which correlated with increase on pre-miR-19a generation upon hnRNP A1 overexpression. Surprisingly, the same pattern was not observed in cells overexpressing hnRNP K. Higher concentration of functional miR-19a in hnRNP A1 overexpressing cells was confirmed by luciferase reporter assays. These results indicate that hnRNP A1 modulates MIR17HG splicing, with downstream effects on miR-19a biogenesis and maturation.",
+"statements": [
+{
+"j": 1,
+"text": "Cells overexpressing hnRNP K did not show the isoform pattern seen with hnRNP A1."
+},
+{
+"j": 2,
+"text": "Luciferase reporter assays confirmed a higher amount of functional miR-19a in hnRNP A1-overexpressing cells."
+},
+{
+"j": 3,
+"text": "Overexpressing hnRNP A1 in HEK-293FT cells raised MIR17HG-i3 isoform levels, which went together with less pre-miR-19a."
+},
+{
+"j": 4,
+"text": "hnRNP A1 overexpression increased proliferation of the HEK-293FT cells used here."
+}
+]
+},
+{
+"n": 879,
+"id": "pmid:41817976",
+"year": 2026,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Noncoding RNAs (ncRNAs) play critical regulatory roles in cancer drug response. However, most existing methods are limited to predicting a single type of ncRNA, failing to fully capture the complex semantic associations between multimodal biological features, and thus exhibit weak generalizability and robustness. To overcome these limitations, this study proposes NCRDLLM, a unified framework that leverages large language models (LLMs) to predict associations between three types of ncRNA (circular RNA, microRNA, and long noncoding RNA) and drugs. The method integrates 19,020 experimentally validated associations and 120,009 disease association records. Three types of multimodal features are constructed: sequence features extracted using pretrained foundation models RNA-FM and ChemBERTa, structural features generated through Graph2Vec for RNA secondary structures and AttentiveFP combined with ECFP for drug molecules, and association features obtained via disease-associated coding and semantic similarity. These features are subsequently mapped into the hidden space of LLaMA-3.2-3B through adapter modules, with LoRA employed for parameter-efficient fine-tuning. Experimental results demonstrate that NCRDLLM achieves AUC-ROC values of 0.9665, 0.9832, and 0.9676 on miRNA-drug, lncRNA-drug, and circRNA-drug data sets, respectively. Ablation studies confirm the contribution of each module, while literature evidence and tissue-specific expression profiling further support the biological relevance of the predictions. NCRDLLM provides an effective strategy for identifying potential ncRNA-drug response associations."
+}
+],
+"text": "Noncoding RNAs (ncRNAs) play critical regulatory roles in cancer drug response. However, most existing methods are limited to predicting a single type of ncRNA, failing to fully capture the complex semantic associations between multimodal biological features, and thus exhibit weak generalizability and robustness. To overcome these limitations, this study proposes NCRDLLM, a unified framework that leverages large language models (LLMs) to predict associations between three types of ncRNA (circular RNA, microRNA, and long noncoding RNA) and drugs. The method integrates 19,020 experimentally validated associations and 120,009 disease association records. Three types of multimodal features are constructed: sequence features extracted using pretrained foundation models RNA-FM and ChemBERTa, structural features generated through Graph2Vec for RNA secondary structures and AttentiveFP combined with ECFP for drug molecules, and association features obtained via disease-associated coding and semantic similarity. These features are subsequently mapped into the hidden space of LLaMA-3.2-3B through adapter modules, with LoRA employed for parameter-efficient fine-tuning. Experimental results demonstrate that NCRDLLM achieves AUC-ROC values of 0.9665, 0.9832, and 0.9676 on miRNA-drug, lncRNA-drug, and circRNA-drug data sets, respectively. Ablation studies confirm the contribution of each module, while literature evidence and tissue-specific expression profiling further support the biological relevance of the predictions. NCRDLLM provides an effective strategy for identifying potential ncRNA-drug response associations.",
+"statements": [
+{
+"j": 1,
+"text": "Multimodal features were mapped into the hidden space of LLaMA-3.2-3B through adapter modules, with LoRA used for parameter-efficient fine-tuning."
+},
+{
+"j": 2,
+"text": "The framework was built on 19,020 experimentally validated associations together with 120,009 disease association records."
+},
+{
+"j": 3,
+"text": "NCRDLLM reached its lowest AUC-ROC on the lncRNA-drug dataset, 0.9832, above its miRNA-drug and circRNA-drug values."
+},
+{
+"j": 4,
+"text": "NCRDLLM predictions of ncRNA-drug associations were confirmed in cell-based drug response experiments."
+}
+]
+}
+]
+}

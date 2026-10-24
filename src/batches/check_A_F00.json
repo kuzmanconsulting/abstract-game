@@ -1,0 +1,464 @@
+{
+"batch": "check_A_F00",
+"pass": "A",
+"source_batch": "reflip:first-of-any-v2",
+"supersedes": true,
+"items": [
+{
+"n": 563,
+"id": "pmid:41184543",
+"year": 2025,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The vast majority of recurrent somatic mutations arising in tumors affect protein-coding genes in the nuclear genome. Here, through population-scale analysis of 14,106 whole tumor genomes, we report the discovery of highly recurrent mutations affecting both the small (12S, MT-RNR1) and large (16S, MT-RNR2) mitochondrial RNA subunits of the mitochondrial ribosome encoded within mitochondrial DNA (mtDNA). Compared to non-hotspot positions, mitochondrial rRNA hotspots preferentially affected positions under purifying selection in the germline and demonstrated structural clustering within the mitoribosome at mRNA and tRNA interacting positions. Using precision mtDNA base editing, we engineered models of an exemplar MT-RNR1 hotspot mutation, m.1227G>A. Multimodal profiling revealed a heteroplasmy-dependent decrease in mitochondrial function and loss of respiratory chain subunits from a heteroplasmic dosage of ~10%. Mutation of conserved positions in ribosomal RNA that disrupt mitochondrial translation therefore represent a class of functionally dominant, pathogenic mtDNA mutations that are under positive selection in cancer genomes."
+}
+],
+"text": "The vast majority of recurrent somatic mutations arising in tumors affect protein-coding genes in the nuclear genome. Here, through population-scale analysis of 14,106 whole tumor genomes, we report the discovery of highly recurrent mutations affecting both the small (12S, MT-RNR1) and large (16S, MT-RNR2) mitochondrial RNA subunits of the mitochondrial ribosome encoded within mitochondrial DNA (mtDNA). Compared to non-hotspot positions, mitochondrial rRNA hotspots preferentially affected positions under purifying selection in the germline and demonstrated structural clustering within the mitoribosome at mRNA and tRNA interacting positions. Using precision mtDNA base editing, we engineered models of an exemplar MT-RNR1 hotspot mutation, m.1227G>A. Multimodal profiling revealed a heteroplasmy-dependent decrease in mitochondrial function and loss of respiratory chain subunits from a heteroplasmic dosage of ~10%. Mutation of conserved positions in ribosomal RNA that disrupt mitochondrial translation therefore represent a class of functionally dominant, pathogenic mtDNA mutations that are under positive selection in cancer genomes.",
+"statements": [
+{
+"j": 1,
+"text": "Highly recurrent mutations in the 12S and 16S mitochondrial rRNA genes were found by analysing 14,106 whole tumour genomes."
+},
+{
+"j": 2,
+"text": "In the engineered m.1227G>A model, mitochondrial function fell as heteroplasmy rose, with respiratory chain subunits lost from about 10% heteroplasmy."
+},
+{
+"j": 3,
+"text": "Tumours carrying MT-RNR1 hotspot mutations respond worse to chemotherapy than tumours without them."
+},
+{
+"j": 4,
+"text": "Hotspot positions were fewer often sites constrained by germline purifying selection than non-hotspot positions were."
+}
+]
+},
+{
+"n": 577,
+"id": "doi:10.1101/2025.08.01.668115",
+"year": 2025,
+"field": "evogen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "2."
+},
+{
+"label": "Introduction",
+"text": "Bacteria face relentless selective pressure from both antibiotics and bacteriophages, driving the evolution of diverse defence systems and shaping horizontal gene transfer (HGT) dynamics."
+},
+{
+"label": "Gap Statement",
+"text": "The relationship between bacterial defence system repertoires and horizontal gene transfer in clinically relevant Acinetobacter species remains poorly understood, limiting our ability to predict resistance evolution and design targeted phage therapies."
+},
+{
+"label": "Aim",
+"text": "To characterize defence arsenal across Acinetobacter species and investigate their associations with different HGT markers"
+},
+{
+"label": "Methodology",
+"text": "We performed a comparative genomic analysis of 132 genomes from 18 Acinetobacter species, focusing on the interplay between defence architectures and HGT markers."
+},
+{
+"label": "Results",
+"text": "Our result reveals pronounced differences in defence system repertoires between lineages: while most Acinetobacter spp. harbour a multilayered arsenal, the clinically dominant A. baumannii international clone 2 (IC2) exhibits a depleted but specialised defence landscape, notably enriched in the phosphorothioation-based SspBCDE system and nearly devoid of restriction-modification systems. Strikingly, many defence systems display mutual exclusivity, and defence system is tightly linked to the presence of mobile elements, antibiotics, and heavy metal resistance. Plasmid-borne defence systems, especially BREX, are prevalent, highlighting the role of mobile elements in distributing both immunity and resistance traits. These patterns suggest that successful clinical lineages finely balance immune defences and genetic plasticity, facilitating rapid adaptation under antimicrobial selection and phage threats."
+},
+{
+"label": "Conclusion",
+"text": "These findings provide insights into evolutionary trade-offs underpinning multidrug resistance and have implications for designing targeted phage therapies against recalcitrant Acinetobacter infections. 3."
+},
+{
+"label": "Data summary",
+"text": "All bioinformatics analysis workflows, custom scripts, and R code are publicly available at https://github.com/vikos77/Acinetobacter-defence-systems . The repository includes bash scripts for genome downloading and tool execution (scripts 1-10), R scripts for statistical analysis and visualization (scripts 1-9), and conda environment files for reproducible software installation. Complete analysis protocols are documented in the repository README and individual script headers. All software versions and parameters are specified in the code documentation. 4."
+},
+{
+"label": "Impact Statement",
+"text": "This study reveals how defence system composition in Acinetobacter species is shaped by ecological niche and linked to horizontal gene transfer, antibiotic resistance, and mobile genetic elements. Notably, the clinically dominant A. baumannii IC2 lineage exhibits a streamlined defence repertoire favouring genetic plasticity, facilitating rapid adaptation under antibiotic and phage pressure. These findings enhance our understanding of resistance evolution and support the rational design of phage-based therapies targeting multidrug-resistant pathogens."
+}
+],
+"text": "2. Bacteria face relentless selective pressure from both antibiotics and bacteriophages, driving the evolution of diverse defence systems and shaping horizontal gene transfer (HGT) dynamics. The relationship between bacterial defence system repertoires and horizontal gene transfer in clinically relevant Acinetobacter species remains poorly understood, limiting our ability to predict resistance evolution and design targeted phage therapies. To characterize defence arsenal across Acinetobacter species and investigate their associations with different HGT markers We performed a comparative genomic analysis of 132 genomes from 18 Acinetobacter species, focusing on the interplay between defence architectures and HGT markers. Our result reveals pronounced differences in defence system repertoires between lineages: while most Acinetobacter spp. harbour a multilayered arsenal, the clinically dominant A. baumannii international clone 2 (IC2) exhibits a depleted but specialised defence landscape, notably enriched in the phosphorothioation-based SspBCDE system and nearly devoid of restriction-modification systems. Strikingly, many defence systems display mutual exclusivity, and defence system is tightly linked to the presence of mobile elements, antibiotics, and heavy metal resistance. Plasmid-borne defence systems, especially BREX, are prevalent, highlighting the role of mobile elements in distributing both immunity and resistance traits. These patterns suggest that successful clinical lineages finely balance immune defences and genetic plasticity, facilitating rapid adaptation under antimicrobial selection and phage threats. These findings provide insights into evolutionary trade-offs underpinning multidrug resistance and have implications for designing targeted phage therapies against recalcitrant Acinetobacter infections. 3. All bioinformatics analysis workflows, custom scripts, and R code are publicly available at https://github.com/vikos77/Acinetobacter-defence-systems . The repository includes bash scripts for genome downloading and tool execution (scripts 1-10), R scripts for statistical analysis and visualization (scripts 1-9), and conda environment files for reproducible software installation. Complete analysis protocols are documented in the repository README and individual script headers. All software versions and parameters are specified in the code documentation. 4. This study reveals how defence system composition in Acinetobacter species is shaped by ecological niche and linked to horizontal gene transfer, antibiotic resistance, and mobile genetic elements. Notably, the clinically dominant A. baumannii IC2 lineage exhibits a streamlined defence repertoire favouring genetic plasticity, facilitating rapid adaptation under antibiotic and phage pressure. These findings enhance our understanding of resistance evolution and support the rational design of phage-based therapies targeting multidrug-resistant pathogens.",
+"statements": [
+{
+"j": 1,
+"text": "Many defence systems excluded one another, and their presence tracked with mobile elements and with antibiotic and heavy metal resistance."
+},
+{
+"j": 2,
+"text": "A. baumannii IC2 carried an elevated defence repertoire, enriched for the phosphorothioation system SspBCDE and almost without restriction-modification systems."
+},
+{
+"j": 3,
+"text": "A. baumannii IC2 isolates were more susceptible to therapeutic phages in culture than isolates of other Acinetobacter species."
+},
+{
+"j": 4,
+"text": "The comparison covered 132 genomes from 18 Acinetobacter species."
+}
+]
+},
+{
+"n": 589,
+"id": "pmid:41455895",
+"year": 2025,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Heat shock protein 70 (Hsp70) is a key molecular chaperone in plant stress responses playing a crucial role in maintaining growth homeostasis under heat stress. In this study, we revealed the evolutionary conservation of the OsHsp70 family through phylogenetic tree construction, collinearity analysis, and Ka/Ks analysis. We also screened the heat-tolerance candidate genes using various methods, including tissue-specific expression analysis, expression profiling under heat stress, haplotype analysis of heat-tolerance indicators in 620 rice germplasms, amino acid site mutation, and RT-qPCR. The results showed that the promoter regions of Hsp70 genes contained multiple cis-acting elements related to stress responses. Seven pairs of intragenic collinear genes were identified in OsHsp70s, and Ka/Ks analysis indicated that this family has undergone strong purifying selection. Expression analysis showed that most OsHsp70 genes have tissue-specific expression. Haplotype analysis indicated that the Hap2 of OsHsp70-9 plays an important role in the heat-stress tolerance of rice, and a non-synonymous mutation of OsHsp70-9 led to changes in the domain. RT-qPCR analysis showed that the expression of OsHsp70-9 varied significantly under heat stress, which is consistent with the expression profiling results under heat stress. Overall, this study demonstrates that Hsp70 genes play a potential role in the stress tolerance of rice, and provides important clues for better understanding the molecular mechanisms underlying the adaptation of rice to environmental changes and the adaptive evolution of Hsp70 genes."
+}
+],
+"text": "Heat shock protein 70 (Hsp70) is a key molecular chaperone in plant stress responses playing a crucial role in maintaining growth homeostasis under heat stress. In this study, we revealed the evolutionary conservation of the OsHsp70 family through phylogenetic tree construction, collinearity analysis, and Ka/Ks analysis. We also screened the heat-tolerance candidate genes using various methods, including tissue-specific expression analysis, expression profiling under heat stress, haplotype analysis of heat-tolerance indicators in 620 rice germplasms, amino acid site mutation, and RT-qPCR. The results showed that the promoter regions of Hsp70 genes contained multiple cis-acting elements related to stress responses. Seven pairs of intragenic collinear genes were identified in OsHsp70s, and Ka/Ks analysis indicated that this family has undergone strong purifying selection. Expression analysis showed that most OsHsp70 genes have tissue-specific expression. Haplotype analysis indicated that the Hap2 of OsHsp70-9 plays an important role in the heat-stress tolerance of rice, and a non-synonymous mutation of OsHsp70-9 led to changes in the domain. RT-qPCR analysis showed that the expression of OsHsp70-9 varied significantly under heat stress, which is consistent with the expression profiling results under heat stress. Overall, this study demonstrates that Hsp70 genes play a potential role in the stress tolerance of rice, and provides important clues for better understanding the molecular mechanisms underlying the adaptation of rice to environmental changes and the adaptive evolution of Hsp70 genes.",
+"statements": [
+{
+"j": 1,
+"text": "Seven pairs of intragenic collinear genes were found within OsHsp70s, and Ka/Ks values indicated strong purifying selection on the family."
+},
+{
+"j": 2,
+"text": "Expression analysis found that few OsHsp70 genes are expressed in a tissue-specific manner."
+},
+{
+"j": 3,
+"text": "RT-qPCR showed OsHsp70-9 expression changing markedly under heat stress, in agreement with the heat-stress expression profiling."
+},
+{
+"j": 4,
+"text": "Overexpressing OsHsp70-9 raises rice grain yield under high temperature."
+}
+]
+},
+{
+"n": 597,
+"id": "doi:10.64898/2026.03.10.710775",
+"year": 2026,
+"field": "evogen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Many bacterial defense (immune) systems prevent the entry of foreign DNA by directly recognizing and targeting nucleic acids, effectively blocking all mechanisms of horizontal gene transfer 1 . However, systems defending specifically against conjugation, a major route for gene dissemination, have heretofore not been reported. We have discovered a novel defense factor, which we name AbjA ( Ab ortive con j ugation protein A) , that specifically limits successful plasmid conjugation into a recipient bacterium. AbjA interacts directly with and targets the ATPase component TrbE of the Type IV secretion system (T4SS) 2,3 to induce cell death; this contrasts with most other defense systems that act at the nucleic acid level. AbjA therefore represents the first member of a new class of bacterial defense factors that trigger what we term ‘abortive conjugation’. Previously, recipient bacteria were viewed largely as defenseless against the mechanism of conjugation 4–6 ; our discovery and characterization of AbjA demonstrates that recipient bacteria can block conjugation to limit the transfer (and thus spread) of plasmids. Discovery of this class of defense systems thus has implications for bacterial defense, plasmid evolution, and possible strategic alternatives to rationally target plasmid spread, particularly with respect to virulence and antibiotic resistance."
+}
+],
+"text": "Many bacterial defense (immune) systems prevent the entry of foreign DNA by directly recognizing and targeting nucleic acids, effectively blocking all mechanisms of horizontal gene transfer 1 . However, systems defending specifically against conjugation, a major route for gene dissemination, have heretofore not been reported. We have discovered a novel defense factor, which we name AbjA ( Ab ortive con j ugation protein A) , that specifically limits successful plasmid conjugation into a recipient bacterium. AbjA interacts directly with and targets the ATPase component TrbE of the Type IV secretion system (T4SS) 2,3 to induce cell death; this contrasts with most other defense systems that act at the nucleic acid level. AbjA therefore represents the first member of a new class of bacterial defense factors that trigger what we term ‘abortive conjugation’. Previously, recipient bacteria were viewed largely as defenseless against the mechanism of conjugation 4–6 ; our discovery and characterization of AbjA demonstrates that recipient bacteria can block conjugation to limit the transfer (and thus spread) of plasmids. Discovery of this class of defense systems thus has implications for bacterial defense, plasmid evolution, and possible strategic alternatives to rationally target plasmid spread, particularly with respect to virulence and antibiotic resistance.",
+"statements": [
+{
+"j": 1,
+"text": "AbjA is the first known member of a defense class that works by aborting conjugation."
+},
+{
+"j": 2,
+"text": "AbjA homologues are widespread across Gram-negative bacterial genomes."
+},
+{
+"j": 3,
+"text": "AbjA binds the T4SS ATPase TrbE and induces cell death, unlike few defense systems, which act at the nucleic acid level."
+},
+{
+"j": 4,
+"text": "The new factor shows that recipient bacteria can block conjugation and so limit plasmid transfer, contrary to the earlier view of them as defenseless."
+}
+]
+},
+{
+"n": 598,
+"id": "doi:10.64898/2025.12.08.693040",
+"year": 2025,
+"field": "evogen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Rapid growth of entire genome data has revolutionized the field of phylogenomics, i.e., the problem of tree of life. Substantial studies demonstrated that genome phylogeny can be inferred based upon the generalized gene content approach. Two simple types were widely-used: the first-order gene content (J=1) for the presence or absence of a gene family, and the second-order gene content (J=2) for the extended gene content (absence, single-copy, or duplicates). Moreover, a specific form of birth-death-input process was invoked to model the evolutionary process of a gene family, taking gene duplication, gene loss and new gene origin or horizontal gene transfer into account. Gu X. Genome distance and phylogenetic inference accommodating gene duplication, loss and new gene input, Mol Phylogenet Evol 2023] . Though genome distance methods have been successful for genome phylogeny inference, the maximum likelihood (ML) approach is subject to a huge computation burden. In this article, I formulate a finite-state ML approximation to solve this problem. For a given J-order gene contents, the evolution of a gene family along a phylogeny is modeled by a stochastic process with a finite (J+1) number of states. Consequently, the computational cost of a finite-state likelihood for a given phylogeny is comparable to a typical sequence-based likelihood function. Two analyses were carried out as a proof of concept, including a simulation study to examine the performance of phylogenetic inference, and a case study to evaluate to what extent the Fixed-State ML can be used to determine the root of the genome phylogeny. Overall, the Fixed-State ML may shed lights on the feasibility of phylogenetic likelihood analysis on the pattern of genome evolution."
+}
+],
+"text": "Rapid growth of entire genome data has revolutionized the field of phylogenomics, i.e., the problem of tree of life. Substantial studies demonstrated that genome phylogeny can be inferred based upon the generalized gene content approach. Two simple types were widely-used: the first-order gene content (J=1) for the presence or absence of a gene family, and the second-order gene content (J=2) for the extended gene content (absence, single-copy, or duplicates). Moreover, a specific form of birth-death-input process was invoked to model the evolutionary process of a gene family, taking gene duplication, gene loss and new gene origin or horizontal gene transfer into account. Gu X. Genome distance and phylogenetic inference accommodating gene duplication, loss and new gene input, Mol Phylogenet Evol 2023] . Though genome distance methods have been successful for genome phylogeny inference, the maximum likelihood (ML) approach is subject to a huge computation burden. In this article, I formulate a finite-state ML approximation to solve this problem. For a given J-order gene contents, the evolution of a gene family along a phylogeny is modeled by a stochastic process with a finite (J+1) number of states. Consequently, the computational cost of a finite-state likelihood for a given phylogeny is comparable to a typical sequence-based likelihood function. Two analyses were carried out as a proof of concept, including a simulation study to examine the performance of phylogenetic inference, and a case study to evaluate to what extent the Fixed-State ML can be used to determine the root of the genome phylogeny. Overall, the Fixed-State ML may shed lights on the feasibility of phylogenetic likelihood analysis on the pattern of genome evolution.",
+"statements": [
+{
+"j": 1,
+"text": "In the simulations the Fixed-State ML approach recovered the correct tree more often than genome distance methods did."
+},
+{
+"j": 2,
+"text": "In the finite-state formulation a gene family's evolution along a phylogeny is modeled as a stochastic process with J+1 states for J-order gene content."
+},
+{
+"j": 3,
+"text": "Evaluating the finite-state likelihood for a given phylogeny costs about as much as a typical sequence-based likelihood function."
+},
+{
+"j": 4,
+"text": "Maximum likelihood inference under the later gene content framework carries a huge computational burden."
+}
+]
+},
+{
+"n": 600,
+"id": "pmid:41981036",
+"year": 2026,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Chloroplast RNA splicing and ribosome maturation (CRM) domain proteins are central to chloroplast intron splicing, rRNA processing, and plant stress responses. While extensively studied in model plants such as Arabidopsis, rice, and maize, the CRM gene family has not been characterized in Pyrus, a major fruit crop of global commercial agricultural productivity . This study presents the first pangenome-wide analysis of CRM genes across 8 Pyrus genomes, aiming to unravel their evolutionary patterns, structural diversity, and potential functional roles in stress adaptation. In this study, we identified 25 PyCRM pan-genes, comprising 9 core, 15 variable, and 1 species-specific members, reflecting gene presence-absence variation within the family. Phylogenetic analysis grouped these proteins into four conserved subfamilies, with the CRS1 subfamily being the largest. Gene structure and motif profiling revealed subfamily-specific conservation alongside distinct motif variations, suggesting functional divergence. Ka/Ks calculation revealed that most of the PyCRM genes evolved under purifying selection, while a few members experienced positive selection, highlighting functional diversification within the CRM gene family. Promoter analysis identified multiple cis-regulatory elements linked to the light response, hormone signaling, stress responses, and developmental processes. Functional enrichment highlighted roles in RNA binding and mRNA processing. Members of the same family share similar motifs and conserved protein 3D structures. Furthermore, expression profiling under cold, drought, and disease revealed that most PyCRM genes were downregulated under stress conditions, while a few members exhibited stress-specific upregulation, suggesting functional diversification within the gene family. These findings lay the foundation for future investigations into CRM-mediated stress tolerance and crop improvement."
+}
+],
+"text": "Chloroplast RNA splicing and ribosome maturation (CRM) domain proteins are central to chloroplast intron splicing, rRNA processing, and plant stress responses. While extensively studied in model plants such as Arabidopsis, rice, and maize, the CRM gene family has not been characterized in Pyrus, a major fruit crop of global commercial agricultural productivity . This study presents the first pangenome-wide analysis of CRM genes across 8 Pyrus genomes, aiming to unravel their evolutionary patterns, structural diversity, and potential functional roles in stress adaptation. In this study, we identified 25 PyCRM pan-genes, comprising 9 core, 15 variable, and 1 species-specific members, reflecting gene presence-absence variation within the family. Phylogenetic analysis grouped these proteins into four conserved subfamilies, with the CRS1 subfamily being the largest. Gene structure and motif profiling revealed subfamily-specific conservation alongside distinct motif variations, suggesting functional divergence. Ka/Ks calculation revealed that most of the PyCRM genes evolved under purifying selection, while a few members experienced positive selection, highlighting functional diversification within the CRM gene family. Promoter analysis identified multiple cis-regulatory elements linked to the light response, hormone signaling, stress responses, and developmental processes. Functional enrichment highlighted roles in RNA binding and mRNA processing. Members of the same family share similar motifs and conserved protein 3D structures. Furthermore, expression profiling under cold, drought, and disease revealed that most PyCRM genes were downregulated under stress conditions, while a few members exhibited stress-specific upregulation, suggesting functional diversification within the gene family. These findings lay the foundation for future investigations into CRM-mediated stress tolerance and crop improvement.",
+"statements": [
+{
+"j": 1,
+"text": "Silencing a CRS1-subfamily PyCRM gene lowers cold tolerance in pear plants."
+},
+{
+"j": 2,
+"text": "Among the 25 PyCRM pan-genes, variable members outnumbered core members, 15 against 9, with a single species-specific gene."
+},
+{
+"j": 3,
+"text": "Under cold, drought and disease treatment few PyCRM genes dropped in expression, while a minority rose in a stress-specific way."
+},
+{
+"j": 4,
+"text": "Of the four conserved subfamilies recovered by the phylogeny, CRS1 held the most members."
+}
+]
+},
+{
+"n": 601,
+"id": "pmid:42458251",
+"year": 2026,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Moraceae is an economically and ecologically important angiosperm family. Although recent nuclear and plastid phylogenomic studies have greatly improved the systematic framework of Moraceae, structural evolution and lineage-specific variation of plastomes remain insufficiently evaluated under dense complete-plastome sampling. To address these issues, we conducted a plastome-based phylogenetic and comparative genomic analysis using 140 complete plastomes (49 newly sequenced and 91 publicly available), representing all seven tribes and 17 genera of Moraceae."
+},
+{
+"label": "Results",
+"text": "Moraceae plastomes were generally structurally conserved, although lineage-specific variation in inverted repeat (IR) boundaries was detected, particularly in Artocarpus and Ficus. Nucleotide diversity analyses identified several highly variable non-coding regions (including ndhC-trnV(UAC), ndhD-psaC, psbI-trnS(GCU), and trnL(UAG)-ccsA) and protein-coding genes (matK, rps11, ndhF, rps15, and ycf1), which may serve as candidate molecular markers for phylogenetic reconstruction and species identification in Moraceae. Analyses of repeat sequences and codon usage revealed a balance between structural conservation and sequence variability. Selection pressure analyses indicated that most plastid genes are under purifying selection, with a small number of genes showing signals consistent with positive selection in specific lineages, including rbcL in Morus, and clpP and rps19 in Ficus. Phylogenetic reconstruction based on complete plastome sequences strongly supported the monophyly of all seven recognized tribes of Moraceae, recovered the non-monophyly of Streblus, and placed Maclura within Chlorophoreae, consistent with recent nuclear and plastid phylogenomic frameworks."
+},
+{
+"label": "Conclusion",
+"text": "Because plastomes represent a single, non-recombining organellar genome, our phylogenetic results should be interpreted as a plastome-based topology rather than a comprehensive species-tree reconstruction. This study provides an expanded species-level complete-plastome resource and phylogenetic framework for Moraceae, refines understanding of IR boundary evolution, and improves the robustness of candidate molecular markers for future systematic and species-identification studies."
+}
+],
+"text": "Moraceae is an economically and ecologically important angiosperm family. Although recent nuclear and plastid phylogenomic studies have greatly improved the systematic framework of Moraceae, structural evolution and lineage-specific variation of plastomes remain insufficiently evaluated under dense complete-plastome sampling. To address these issues, we conducted a plastome-based phylogenetic and comparative genomic analysis using 140 complete plastomes (49 newly sequenced and 91 publicly available), representing all seven tribes and 17 genera of Moraceae. Moraceae plastomes were generally structurally conserved, although lineage-specific variation in inverted repeat (IR) boundaries was detected, particularly in Artocarpus and Ficus. Nucleotide diversity analyses identified several highly variable non-coding regions (including ndhC-trnV(UAC), ndhD-psaC, psbI-trnS(GCU), and trnL(UAG)-ccsA) and protein-coding genes (matK, rps11, ndhF, rps15, and ycf1), which may serve as candidate molecular markers for phylogenetic reconstruction and species identification in Moraceae. Analyses of repeat sequences and codon usage revealed a balance between structural conservation and sequence variability. Selection pressure analyses indicated that most plastid genes are under purifying selection, with a small number of genes showing signals consistent with positive selection in specific lineages, including rbcL in Morus, and clpP and rps19 in Ficus. Phylogenetic reconstruction based on complete plastome sequences strongly supported the monophyly of all seven recognized tribes of Moraceae, recovered the non-monophyly of Streblus, and placed Maclura within Chlorophoreae, consistent with recent nuclear and plastid phylogenomic frameworks. Because plastomes represent a single, non-recombining organellar genome, our phylogenetic results should be interpreted as a plastome-based topology rather than a comprehensive species-tree reconstruction. This study provides an expanded species-level complete-plastome resource and phylogenetic framework for Moraceae, refines understanding of IR boundary evolution, and improves the robustness of candidate molecular markers for future systematic and species-identification studies.",
+"statements": [
+{
+"j": 1,
+"text": "The highly variable non-coding regions were tested on herbarium material and separated Ficus species reliably."
+},
+{
+"j": 2,
+"text": "Few plastid genes showed purifying selection, with positive-selection signals limited to a few genes, including rbcL in Morus and clpP and rps19 in Ficus."
+},
+{
+"j": 3,
+"text": "The study assembled 140 complete plastomes, 49 of them newly sequenced and the other 91 taken from public data."
+},
+{
+"j": 4,
+"text": "All seven recognised Moraceae tribes came out monophyletic in the plastome tree, whereas Streblus did not."
+}
+]
+},
+{
+"n": 602,
+"id": "doi:10.1101/2024.07.08.602537",
+"year": 2024,
+"field": "evogen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Bacterial genomes primarily diversify via gain, loss, and rearrangement of genetic material in their flexible accessory genome. Yet the dynamics of accessory genome evolution are very poorly understood, in contrast to the core genome where diversification is readily described by mutations and homologous recombination. Here, we tackle this problem for the case of very closely related genomes. We comprehensively describe genome evolution within n=222 genomes of E. coli ST131, which likely shared a common ancestor around one hundred years ago. After removing putative recombinant diversity, the total length of the phylogeny is 6000 core genome mutations. Within this diversity, we find 22 modifications to core genome synteny and estimate around 2000 structural changes within the accessory genome, i.e. one structural change for every 3 core genome mutations. 63% of loci with structural diversity could be resolved into individual gain and loss events with ten-fold more gains than losses, demonstrating a dominance of gains due to insertion sequences and prophage integration. Our results suggest the majority of synteny changes and insertions in bacterial genomes are likely deleterious and only persist for a short time before being removed by purifying selection."
+}
+],
+"text": "Bacterial genomes primarily diversify via gain, loss, and rearrangement of genetic material in their flexible accessory genome. Yet the dynamics of accessory genome evolution are very poorly understood, in contrast to the core genome where diversification is readily described by mutations and homologous recombination. Here, we tackle this problem for the case of very closely related genomes. We comprehensively describe genome evolution within n=222 genomes of E. coli ST131, which likely shared a common ancestor around one hundred years ago. After removing putative recombinant diversity, the total length of the phylogeny is 6000 core genome mutations. Within this diversity, we find 22 modifications to core genome synteny and estimate around 2000 structural changes within the accessory genome, i.e. one structural change for every 3 core genome mutations. 63% of loci with structural diversity could be resolved into individual gain and loss events with ten-fold more gains than losses, demonstrating a dominance of gains due to insertion sequences and prophage integration. Our results suggest the majority of synteny changes and insertions in bacterial genomes are likely deleterious and only persist for a short time before being removed by purifying selection.",
+"statements": [
+{
+"j": 1,
+"text": "The accessory genome accumulated roughly one structural change for every three core genome mutations across these ST131 genomes."
+},
+{
+"j": 2,
+"text": "Where individual events could be assigned, gains exceeded losses by about tenfold."
+},
+{
+"j": 3,
+"text": "Stripping out putative recombinant diversity left a phylogeny with a total length of 6000 core genome mutations."
+},
+{
+"j": 4,
+"text": "The accessory genome gains in ST131 carry antibiotic resistance genes that account for the lineage's global spread."
+}
+]
+},
+{
+"n": 605,
+"id": "pmid:41408140",
+"year": 2025,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "BACKGROUND: Cercis chinensis is a leguminous species with notable ornamental value and considerable economic potential, and is primarily distributed in southern China. Among species in the genus Cercis, only the complete mitochondrial genome of Cercis canadensis has been publicly available. This lack of mitochondrial genomic data constrains our understanding of the evolutionary history, genetic diversity, and environmental adaptability of Cercis chinensis and its closely related species. In this study, we successfully completed the de novo assembly and annotation of Cercis chinensis mitochondrial genome. RESULTS: The mitochondrial genome of Cercis chinensis consists of two putative circular chromosomes, totaling 393,546 bp in length with a GC content of 45.29%. A total of 61 genes were annotated, including 39 protein-coding genes (PCGs), 20 transfer RNA (tRNA) genes, and 2 ribosomal RNA (rRNA) genes. Functional analysis predicted 546 C-to-U RNA editing sites, the majority of which result in nonsynonymous amino acid substitutions. A total of 155 repeat elements were identified, comprising simple sequence repeats (SSRs), tandem repeats, and dispersed repeats, highlighting the structural complexity of the mitochondrial genome. Furthermore, 18 mitochondrial plastid DNA transfer events (MTPTs) were detected, encompassing six complete genes, including 5 tRNA genes and 1 rRNA gene, originating from the chloroplast genome. The presence of intact tRNA and rRNA fragments among MTPTs suggests that such transfers may not only add to structural diversity but could also provide functional redundancy or influence RNA processing within the mitochondrial genome. Ka/Ks analysis indicated that most core PCGs are subject to purifying selection, reflecting high functional conservation across species. Notably, atp4 and nad4 exhibited signs of positive selection, suggesting their potential involvement in the adaptive evolution of Cercis chinensis. Phylogenetic analysis based on shared mitochondrial and chloroplast protein-coding genes placed Cercis chinensis in close relation to Bauhinia purpurea, thereby supporting its current taxonomic classification within the Fabaceae. CONCLUSION: This study provides the first characterization of the mitochondrial genome of Cercis chinensis, detailing its structural organization, functional elements, and evolutionary dynamics. The assembled genome and associated analyses provide valuable insights into the mitochondrial architecture of Cercis chinensis and enrich the genomic resources for the Fabaceae family, enhancing our understanding of mitochondrial genome evolution in legumes and serving as a foundational reference for future research in species identification, molecular breeding, and phylogenetic studies of C. chinensis and related taxa."
+}
+],
+"text": "BACKGROUND: Cercis chinensis is a leguminous species with notable ornamental value and considerable economic potential, and is primarily distributed in southern China. Among species in the genus Cercis, only the complete mitochondrial genome of Cercis canadensis has been publicly available. This lack of mitochondrial genomic data constrains our understanding of the evolutionary history, genetic diversity, and environmental adaptability of Cercis chinensis and its closely related species. In this study, we successfully completed the de novo assembly and annotation of Cercis chinensis mitochondrial genome. RESULTS: The mitochondrial genome of Cercis chinensis consists of two putative circular chromosomes, totaling 393,546 bp in length with a GC content of 45.29%. A total of 61 genes were annotated, including 39 protein-coding genes (PCGs), 20 transfer RNA (tRNA) genes, and 2 ribosomal RNA (rRNA) genes. Functional analysis predicted 546 C-to-U RNA editing sites, the majority of which result in nonsynonymous amino acid substitutions. A total of 155 repeat elements were identified, comprising simple sequence repeats (SSRs), tandem repeats, and dispersed repeats, highlighting the structural complexity of the mitochondrial genome. Furthermore, 18 mitochondrial plastid DNA transfer events (MTPTs) were detected, encompassing six complete genes, including 5 tRNA genes and 1 rRNA gene, originating from the chloroplast genome. The presence of intact tRNA and rRNA fragments among MTPTs suggests that such transfers may not only add to structural diversity but could also provide functional redundancy or influence RNA processing within the mitochondrial genome. Ka/Ks analysis indicated that most core PCGs are subject to purifying selection, reflecting high functional conservation across species. Notably, atp4 and nad4 exhibited signs of positive selection, suggesting their potential involvement in the adaptive evolution of Cercis chinensis. Phylogenetic analysis based on shared mitochondrial and chloroplast protein-coding genes placed Cercis chinensis in close relation to Bauhinia purpurea, thereby supporting its current taxonomic classification within the Fabaceae. CONCLUSION: This study provides the first characterization of the mitochondrial genome of Cercis chinensis, detailing its structural organization, functional elements, and evolutionary dynamics. The assembled genome and associated analyses provide valuable insights into the mitochondrial architecture of Cercis chinensis and enrich the genomic resources for the Fabaceae family, enhancing our understanding of mitochondrial genome evolution in legumes and serving as a foundational reference for future research in species identification, molecular breeding, and phylogenetic studies of C. chinensis and related taxa.",
+"statements": [
+{
+"j": 1,
+"text": "Few of the 546 predicted C-to-U editing sites change the encoded amino acid."
+},
+{
+"j": 2,
+"text": "The Cercis chinensis mitochondrial genome is larger than that of Cercis canadensis."
+},
+{
+"j": 3,
+"text": "Core protein-coding genes were mostly under purifying selection, while atp4 and nad4 carried positive-selection signals."
+},
+{
+"j": 4,
+"text": "The assembled mitochondrial genome came to 393,546 bp on two putative circular chromosomes, with a GC content of 45.29%."
+}
+]
+},
+{
+"n": 621,
+"id": "doi:10.64898/2026.10.18.759982",
+"year": 2026,
+"field": "evogen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Escherichia coli features low cost, mature fermentation technology and high recombinant protein output, but the expression of glycosylation-dependent eukaryotic proteins therein is severely limited. Many glycosylated proteins are key tool enzymes for the biosynthesis of various pharmaceutical molecules, such as glycosaminoglycan-related synthases, but there is a lack of universal protein engineering methods to enable the adaptive evolution of these enzymes in E. coli. We established an evolution-guided optimization strategy that targets non-conserved N-glycosylation sites (EGO-NGly). The core of this strategy lies in the phylogeny-guided selective reversion of evolutionarily acquired N-glycosylation sequons to naturally occurring non-glycosylated residues from early-divergent orthologs, thereby improving heterologous production and residual activity stability for selected sulfotransferases in E. coli. Using heparin 3-O-sulfotransferase 1 (3OST-1) as a model enzyme apparatus in eukaryotic organisms, EGO-NGly extended the residual activity half-life by 4.5-fold. Structural analysis and molecular dynamics simulations indicate that greater surface rigidity and remodeling of intramolecular interaction networks contribute to the improved conformational stability of M7 in an aglycosylated host. EGO-NGly was further applied to a panel of 3OST and 6OST homologs, demonstrating its applicability to a subset of the tested enzymes. Furthermore, EGO-NGly can be orthogonally integrated with other complementary protein engineering strategies, as exemplified by its combination with the machine learning-aided Protein Repair One-Stop Service, generating variants with 8-fold and 17-fold extensions in residual activity half-life. Collectively, these results establish EGO-NGly as a practical and potentially cost-effective engineering strategy for improving the prokaryotic expression and functional performance of selected glycosylation-dependent eukaryotic sulfotransferases."
+}
+],
+"text": "Escherichia coli features low cost, mature fermentation technology and high recombinant protein output, but the expression of glycosylation-dependent eukaryotic proteins therein is severely limited. Many glycosylated proteins are key tool enzymes for the biosynthesis of various pharmaceutical molecules, such as glycosaminoglycan-related synthases, but there is a lack of universal protein engineering methods to enable the adaptive evolution of these enzymes in E. coli. We established an evolution-guided optimization strategy that targets non-conserved N-glycosylation sites (EGO-NGly). The core of this strategy lies in the phylogeny-guided selective reversion of evolutionarily acquired N-glycosylation sequons to naturally occurring non-glycosylated residues from early-divergent orthologs, thereby improving heterologous production and residual activity stability for selected sulfotransferases in E. coli. Using heparin 3-O-sulfotransferase 1 (3OST-1) as a model enzyme apparatus in eukaryotic organisms, EGO-NGly extended the residual activity half-life by 4.5-fold. Structural analysis and molecular dynamics simulations indicate that greater surface rigidity and remodeling of intramolecular interaction networks contribute to the improved conformational stability of M7 in an aglycosylated host. EGO-NGly was further applied to a panel of 3OST and 6OST homologs, demonstrating its applicability to a subset of the tested enzymes. Furthermore, EGO-NGly can be orthogonally integrated with other complementary protein engineering strategies, as exemplified by its combination with the machine learning-aided Protein Repair One-Stop Service, generating variants with 8-fold and 17-fold extensions in residual activity half-life. Collectively, these results establish EGO-NGly as a practical and potentially cost-effective engineering strategy for improving the prokaryotic expression and functional performance of selected glycosylation-dependent eukaryotic sulfotransferases.",
+"statements": [
+{
+"j": 1,
+"text": "The aglycosylated sulfotransferase variants kept the same substrate specificity as their glycosylated counterparts."
+},
+{
+"j": 2,
+"text": "Pairing the strategy with the machine learning-aided Protein Repair One-Stop Service produced variants with 8-fold and 17-fold shorter residual activity half-lives."
+},
+{
+"j": 3,
+"text": "Reverting non-conserved N-glycosylation sequons in heparin 3-O-sulfotransferase 1 stretched its residual activity half-life by a factor of 4.5."
+},
+{
+"j": 4,
+"text": "Applied across a panel of 3OST and 6OST homologs, the strategy worked for only some of the enzymes tested."
+}
+]
+},
+{
+"n": 624,
+"id": "pmid:42115469",
+"year": 2026,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Worldwide, the pig industry suffers financial losses due to the extremely contagious disease caused by the classical swine fever virus (CSFV). However, comprehensive and global genotyping information for CSFV remains scarce. A total of 1,053 full length E2 sequences of CSFV from the NCBI database were used in this study. According to phylogenetic analysis, the strains were grouped into dominant genetic subgroups. The positive selection pressures on the CSFV E2 envelope protein genes were also evaluated and a site-by-site examination of the dN/dS ratio was conducted to pinpoint certain codons that diversify under positive selection. Phylogenomic analyses using maximum likelihood (ML) and Bayesian inference (BI) confirmed that the 1,053 strains clustered within the previously defined five subgenotypes (1.1, 1.2, 2.1, 2.3 and 3.4). One positively selected site was identified at amino acid residue position 71. Bayesian coalescent analysis estimated an evolutionary rate of 1.364 × 10⁻³ substitutions per site per year (95% HPD: 1.1808 × 10⁻³-1.5602 × 10⁻³) and a tMRCA of approximately 1816 (95% HPD: 1796-1837). The effective population size of CSFV began increasing in the 1920s, continued to rise until the 1950s, and then remained stable thereafter. Sequence-based antigenic mapping was used to evaluate antigenic relationships among CSFV strains, revealing that most strains clustered closely together. Understanding the molecular epidemiology and functional significance of positively selected amino acid sites may aid in predicting changes in virulence and inform vaccine development and disease control strategies."
+}
+],
+"text": "Worldwide, the pig industry suffers financial losses due to the extremely contagious disease caused by the classical swine fever virus (CSFV). However, comprehensive and global genotyping information for CSFV remains scarce. A total of 1,053 full length E2 sequences of CSFV from the NCBI database were used in this study. According to phylogenetic analysis, the strains were grouped into dominant genetic subgroups. The positive selection pressures on the CSFV E2 envelope protein genes were also evaluated and a site-by-site examination of the dN/dS ratio was conducted to pinpoint certain codons that diversify under positive selection. Phylogenomic analyses using maximum likelihood (ML) and Bayesian inference (BI) confirmed that the 1,053 strains clustered within the previously defined five subgenotypes (1.1, 1.2, 2.1, 2.3 and 3.4). One positively selected site was identified at amino acid residue position 71. Bayesian coalescent analysis estimated an evolutionary rate of 1.364 × 10⁻³ substitutions per site per year (95% HPD: 1.1808 × 10⁻³-1.5602 × 10⁻³) and a tMRCA of approximately 1816 (95% HPD: 1796-1837). The effective population size of CSFV began increasing in the 1920s, continued to rise until the 1950s, and then remained stable thereafter. Sequence-based antigenic mapping was used to evaluate antigenic relationships among CSFV strains, revealing that most strains clustered closely together. Understanding the molecular epidemiology and functional significance of positively selected amino acid sites may aid in predicting changes in virulence and inform vaccine development and disease control strategies.",
+"statements": [
+{
+"j": 1,
+"text": "Maximum likelihood and Bayesian inference both placed all 1,053 E2 sequences inside the five previously defined subgenotypes."
+},
+{
+"j": 2,
+"text": "Site-by-site dN/dS analysis flagged a single negatively selected codon, at amino acid position 71."
+},
+{
+"j": 3,
+"text": "The effective population size of CSFV grew from the 1920s through the 1950s and then held steady."
+},
+{
+"j": 4,
+"text": "Substitutions at residue 71 reduce the protection given by current E2 subunit vaccines."
+}
+]
+},
+{
+"n": 665,
+"id": "pmid:42692284",
+"year": 2026,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Candida albicans exhibits substantial phenotypic and ecological diversity; however, the exact relationship between its population structure, adaptation to specific niches, and antifungal resistance remains incompletely understood. To investigate these evolutionary dynamics, we analyzed the whole-genome sequences from 591 publicly available isolates, integrating nuclear and mitochondrial phylogenomics with ecological and resistance-associated genomic analyses. Phylogenomic analyses resolved 18 core nuclear clusters together with multiple admixed lineages. Strong cytonuclear concordance was noted in the majority of the central lineages, contrasting with a higher discordance among the admixed groups, consistent with recurrent genetic exchange. The analysis revealed that geographic origin explains a larger fraction of genetic variance than anatomical niche, supporting a predominantly generalist population structure. A notable exception was Cluster N16 (Candida africana), which presented a strict genital origin in our dataset (n = 34). Additionally, although the mitochondrial genome exhibits strong purifying selection, candidate residues under diversifying selection correlated with specific niches (e.g., bloodstream) have been identified. Analysis of five resistance-associated genes (ERG11, UPC2, FKS1, TAC1 and FUR1) revealed that resistance-associated variants were generally rare but exhibited distinct gene-specific patterns. In case of ERG11 and FUR1 they were concentrated in a specific clade (N11, N17, and their admixed Group A) and exhibit gene-dependent zygosity patterns. In summary, the evolution of C. albicans appears to be driven by a predominantly clonal model punctuated by episodic genetic exchange, where both ecological adaptation and antifungal resistance mutations exhibit genomic signatures marked by lineage specificity."
+}
+],
+"text": "Candida albicans exhibits substantial phenotypic and ecological diversity; however, the exact relationship between its population structure, adaptation to specific niches, and antifungal resistance remains incompletely understood. To investigate these evolutionary dynamics, we analyzed the whole-genome sequences from 591 publicly available isolates, integrating nuclear and mitochondrial phylogenomics with ecological and resistance-associated genomic analyses. Phylogenomic analyses resolved 18 core nuclear clusters together with multiple admixed lineages. Strong cytonuclear concordance was noted in the majority of the central lineages, contrasting with a higher discordance among the admixed groups, consistent with recurrent genetic exchange. The analysis revealed that geographic origin explains a larger fraction of genetic variance than anatomical niche, supporting a predominantly generalist population structure. A notable exception was Cluster N16 (Candida africana), which presented a strict genital origin in our dataset (n = 34). Additionally, although the mitochondrial genome exhibits strong purifying selection, candidate residues under diversifying selection correlated with specific niches (e.g., bloodstream) have been identified. Analysis of five resistance-associated genes (ERG11, UPC2, FKS1, TAC1 and FUR1) revealed that resistance-associated variants were generally rare but exhibited distinct gene-specific patterns. In case of ERG11 and FUR1 they were concentrated in a specific clade (N11, N17, and their admixed Group A) and exhibit gene-dependent zygosity patterns. In summary, the evolution of C. albicans appears to be driven by a predominantly clonal model punctuated by episodic genetic exchange, where both ecological adaptation and antifungal resistance mutations exhibit genomic signatures marked by lineage specificity.",
+"statements": [
+{
+"j": 1,
+"text": "All 34 isolates of Cluster N16, Candida africana, in this dataset came from genital sites."
+},
+{
+"j": 2,
+"text": "Across the five resistance-associated genes examined, resistance-linked variants were rare overall yet distributed in gene-specific patterns."
+},
+{
+"j": 3,
+"text": "Isolates carrying ERG11 variants had higher fluconazole minimum inhibitory concentrations than isolates without them."
+},
+{
+"j": 4,
+"text": "Geographic origin accounted for less of the genetic variance among the isolates than the anatomical site they were taken from."
+}
+]
+},
+{
+"n": 667,
+"id": "pmid:41696175",
+"year": 2026,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The chloroplast genome serves as a valuable tool for plant phylogenetic studies due to its conserved structure and slow evolutionary rate. Despite the economic importance of the genus Citrus , comprehensive comparative analyses of chloroplast genomes across multiple species remain limited. As one of the ancestors of Citrus , Citrus medica L . serves as a key representative in studies of the origin and evolution of the genus. In this study, we conducted a comprehensive comparative analysis of chloroplast genomes from 35 Citrus species and their close relatives, with C. medica as a focal species, to investigate structural variation, codon usage patterns, and phylogenetic relationships. All genomes exhibited a typical quadripartite structure, ranging from 159 to 161 kb with GC contents of 38.41-38.49%. While genome synteny was highly conserved, expansions and contractions at IR boundaries provided species-specific variation. SSR analysis revealed abundant mononucleotide repeats with a strong AT bias, predominantly distributed in non-coding regions. Codon usage analysis indicated a preference for A/U-ending codons, and ENC-GC3s, neutrality plot, and PR2 analyses suggested that natural selection was the main force shaping codon usage bias. Most protein-coding genes were under strong purifying selection, whereas matK and rps16 exhibited elevated Ka/Ks ratios, suggesting relaxed selective constraints or potential signals of positive selection. Phylogenomic analysis strongly supported the monophyly of Citrus and resolved intrageneric relationships, grouping species into distinct ancestral and cultivated clades. Overall, this study provides essential chloroplast genomic resources for molecular breeding, species identification, and understanding Citrus adaptation."
+}
+],
+"text": "The chloroplast genome serves as a valuable tool for plant phylogenetic studies due to its conserved structure and slow evolutionary rate. Despite the economic importance of the genus Citrus , comprehensive comparative analyses of chloroplast genomes across multiple species remain limited. As one of the ancestors of Citrus , Citrus medica L . serves as a key representative in studies of the origin and evolution of the genus. In this study, we conducted a comprehensive comparative analysis of chloroplast genomes from 35 Citrus species and their close relatives, with C. medica as a focal species, to investigate structural variation, codon usage patterns, and phylogenetic relationships. All genomes exhibited a typical quadripartite structure, ranging from 159 to 161 kb with GC contents of 38.41-38.49%. While genome synteny was highly conserved, expansions and contractions at IR boundaries provided species-specific variation. SSR analysis revealed abundant mononucleotide repeats with a strong AT bias, predominantly distributed in non-coding regions. Codon usage analysis indicated a preference for A/U-ending codons, and ENC-GC3s, neutrality plot, and PR2 analyses suggested that natural selection was the main force shaping codon usage bias. Most protein-coding genes were under strong purifying selection, whereas matK and rps16 exhibited elevated Ka/Ks ratios, suggesting relaxed selective constraints or potential signals of positive selection. Phylogenomic analysis strongly supported the monophyly of Citrus and resolved intrageneric relationships, grouping species into distinct ancestral and cultivated clades. Overall, this study provides essential chloroplast genomic resources for molecular breeding, species identification, and understanding Citrus adaptation.",
+"statements": [
+{
+"j": 1,
+"text": "matK and rps16 stood out with raised Ka/Ks ratios against a background of strong purifying selection across few protein-coding genes."
+},
+{
+"j": 2,
+"text": "The phylogenomic tree supported Citrus as monophyletic and separated the species into distinct ancestral and cultivated groups."
+},
+{
+"j": 3,
+"text": "The cultivated Citrus clades carry lower chloroplast nucleotide diversity than the ancestral ones."
+},
+{
+"j": 4,
+"text": "The chloroplast genomes compared all showed the usual quadripartite layout, ran 159 to 161 kb, and had GC contents between 38.41% and 38.49%."
+}
+]
+}
+]
+}

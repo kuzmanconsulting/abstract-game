@@ -1,0 +1,347 @@
+{
+"batch": "gen_114",
+"prompt_version": "gen-v5",
+"flip_rule": "first-of-any-v3",
+"items": [
+{
+"n": 1785,
+"id": "pmid:31242426",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "The number of multivesicular bodies increased during senescence in vivo.",
+"evidence": "We find an increase in the number of multivesicular bodies during senescence in vivo.",
+"note": "The study reports more multivesicular bodies during senescence in vivo."
+},
+{
+"k": 2,
+"label": "not_addressed",
+"text": "Small extracellular vesicles transmit senescence more efficiently than soluble factors.",
+"evidence": "both the soluble factors and small extracellular vesicles (sEVs) are capable of transmitting paracrine senescence to nearby cells",
+"note": "The abstract states both can transmit paracrine senescence but never compares their relative efficiency."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Cells taking up small extracellular vesicles showed a positive correlation between sEV uptake and senescence activation.",
+"evidence": "show a positive correlation between sEV uptake and senescence activation",
+"note": "A Cre-reporter analysis found sEV uptake positively correlated with senescence activation."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Mass spectrometry and a functional siRNA screen identified IFITM3 as partially responsible for transmitting senescence to normal cells.",
+"evidence": "interferon-induced transmembrane protein 3 (IFITM3) as being partially responsible for transmitting senescence to normal cells",
+"note": "An MS and siRNA screen pinpointed IFITM3 as partly mediating senescence transmission."
+}
+]
+},
+{
+"n": 1786,
+"id": "pmid:33636128",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Hematopoietic stem cell division rates are higher in mice and humans with atherosclerosis.",
+"evidence": "hematopoietic stem cell division rates are increased in mice and humans with atherosclerosis",
+"note": "The study found elevated HSC division rates in atherosclerotic mice and humans."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "The elevated division rate in atherosclerosis patients is sufficient to produce a 3.5-fold increased risk of clonal hematopoiesis by age 70.",
+"evidence": "sufficient to produce a 3.5-fold increased risk of clonal hematopoiesis by age 70",
+"note": "Modeling the measured division-rate rise yields a 3.5-fold higher clonal hematopoiesis risk by age 70."
+},
+{
+"k": 3,
+"label": "not_addressed",
+"text": "Reducing hematopoietic stem cell proliferation lowers cardiovascular mortality in patients.",
+"evidence": "increased hematopoietic stem cell proliferation is an important factor contributing to the association between cardiovascular disease and clonal hematopoiesis",
+"note": "The abstract names proliferation a contributing factor but never tests reducing it or any mortality outcome."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Expansion of competitively transplanted Tet2 -/- cells was accelerated under chronically elevated hematopoietic activity.",
+"evidence": "expansion of competitively transplanted Tet2 -/- cells is accelerated under conditions of chronically elevated hematopoietic activity",
+"note": "In mouse models, high hematopoietic activity sped the expansion of Tet2-null clones."
+}
+]
+},
+{
+"n": 1787,
+"id": "pmid:32439975",
+"statements": [
+{
+"k": 1,
+"label": "not_addressed",
+"text": "ROS scavengers prevent senescence in PGAM5-deleted retinal pigment epithelial cells.",
+"evidence": "cellular ATP and reactive oxygen species (ROS) levels are elevated",
+"note": "The abstract reports elevated ROS after PGAM5 loss but tests no ROS-scavenging intervention."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "Deletion of the mitochondrial phosphatase PGAM5 accelerated retinal pigment epithelial senescence in vitro and in vivo.",
+"evidence": "deletion of mitochondrial phosphatase PGAM5 leads to accelerated retinal pigment epithelial (RPE) senescence in vitro and in vivo",
+"note": "Removing PGAM5 sped RPE senescence in both cell and animal models."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "PGAM5 deletion increased mitochondrial fusion and decreased mitochondrial turnover.",
+"evidence": "PGAM5 deletion leads to increased mitochondrial fusion and decreased mitochondrial turnover",
+"note": "Loss of PGAM5 shifted mitochondria toward fusion and reduced their turnover."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Young but not aging Pgam5 -/- mice were resistant to sodium iodate-induced RPE cell death.",
+"evidence": "Young but not aging Pgam5 -/- mice are resistant to sodium iodate-induced RPE cell death.",
+"note": "Resistance to sodium iodate damage appeared only in young Pgam5-null mice."
+}
+]
+},
+{
+"n": 1788,
+"id": "pmid:32332723",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Compared with ABT263, PZ15227 is less toxic to platelets but equally or slightly more potent against senescent cells.",
+"evidence": "Compared to ABT263, PZ is less toxic to platelets, but equally or slightly more potent against SCs because CRBN is poorly expressed in platelets",
+"note": "PZ15227 spares platelets yet matches or exceeds ABT263's potency against senescent cells."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "PZ15227 cleared senescent cells and rejuvenated tissue stem and progenitor cells in naturally aged mice without causing severe thrombocytopenia.",
+"evidence": "PZ effectively clears SCs and rejuvenates tissue stem and progenitor cells in naturally aged mice without causing severe thrombocytopenia",
+"note": "In aged mice, PZ removed senescent cells and renewed stem/progenitor cells without severe platelet loss."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "PROTAC technology converted navitoclax (ABT263) into PZ15227, which targets Bcl-xl to the cereblon E3 ligase for degradation.",
+"evidence": "converting it into PZ15227 (PZ), a Bcl-xl PROTAC, which targets Bcl-xl to the cereblon (CRBN) E3 ligase for degradation",
+"note": "The authors reengineered ABT263 into a Bcl-xl PROTAC that routes Bcl-xl to CRBN for degradation."
+},
+{
+"k": 4,
+"label": "not_addressed",
+"text": "PZ15227 extended the lifespan of naturally aged mice.",
+"evidence": "Small molecules that selectively kill senescent cells (SCs), termed senolytics, have the potential to prevent and treat various age-related diseases and extend healthspan",
+"note": "Lifespan extension is mentioned only as a general senolytic prospect; no PZ lifespan result is reported."
+}
+]
+},
+{
+"n": 1789,
+"id": "pmid:35987199",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "As proliferating cells grow larger, concentration changes typical of cellular senescence become increasingly pronounced.",
+"evidence": "As proliferating cells grow larger, concentration changes typically associated with cellular senescence are increasingly pronounced",
+"note": "Bigger proliferating cells showed stronger senescence-associated proteome shifts."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "Size-dependent proteome changes, including senescence-associated ones, were absent when cell size increased together with ploidy.",
+"evidence": "Size-dependent changes to the proteome, including those associated with senescence, are not observed when an increase in cell size is accompanied by an increase in ploidy",
+"note": "Raising ploidy alongside size prevented the senescence-linked proteome changes."
+},
+{
+"k": 3,
+"label": "not_addressed",
+"text": "Size-dependent protein concentration changes are driven more by mRNA levels than by protein turnover.",
+"evidence": "Size-dependent protein concentration changes are widespread and predicted by subcellular localization, size-dependent mRNA concentrations, and protein turnover",
+"note": "The abstract lists three predictors together but does not rank their relative contributions."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Larger cells were more prone to replicative, DNA-damage-induced, and CDK4/6i-induced senescence.",
+"evidence": "larger cells are prone to replicative, DNA-damage-induced, and CDK4/6i-induced senescence",
+"note": "Enlarged cells more readily entered several forms of senescence."
+}
+]
+},
+{
+"n": 1790,
+"id": "pmid:37118425",
+"statements": [
+{
+"k": 1,
+"label": "not_addressed",
+"text": "Caloric restriction reduced the incidence of chronic disease in the CALERIE participants.",
+"evidence": "a conclusive test of the geroscience hypothesis will require trials with long-term follow-up to establish effects of intervention on primary healthy-aging endpoints, including incidence of chronic disease and mortality",
+"note": "The abstract frames chronic-disease and mortality endpoints as future work and reports no such outcome."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "In the CALERIE trial, 220 adults without obesity were randomized to 25% caloric restriction or an ad libitum control diet for two years.",
+"evidence": "n = 220 adults without obesity were randomized to 25% CR or ad libitum control diet for 2 yr",
+"note": "The randomized trial assigned 220 non-obese adults to 25% CR or control for two years."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "The caloric-restriction intervention slowed the pace of aging as measured by the DunedinPACE DNA methylation algorithm.",
+"evidence": "CALERIE intervention slowed the pace of aging, as measured by the DunedinPACE DNAm algorithm",
+"note": "DunedinPACE showed a slower aging pace under caloric restriction."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Caloric restriction did not significantly change biological age estimates from DNA methylation clocks including PhenoAge and GrimAge.",
+"evidence": "did not lead to significant changes in biological age estimates measured by various DNAm clocks including PhenoAge and GrimAge",
+"note": "PhenoAge and GrimAge clock estimates were unchanged by the intervention."
+}
+]
+},
+{
+"n": 1791,
+"id": "pmid:37086720",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "The biological age of young mice increased under heterochronic parabiosis and was restored after surgical detachment.",
+"evidence": "the biological age of young mice is increased by heterochronic parabiosis and restored following surgical detachment",
+"note": "Joining to old partners raised young mice's biological age, which reverted once separated."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "Biological age rose rapidly in response to diverse stresses and reversed following recovery.",
+"evidence": "biological age undergoes a rapid increase in response to diverse forms of stress, which is reversed following recovery from stress",
+"note": "Stress drove a fast rise in biological age that recovery undid."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Transient changes in biological age occurred during major surgery, pregnancy, and severe COVID-19 in humans and/or mice.",
+"evidence": "transient changes in biological age during major surgery, pregnancy, and severe COVID-19 in humans and/or mice",
+"note": "The study detected temporary biological-age shifts across surgery, pregnancy, and severe COVID-19."
+},
+{
+"k": 4,
+"label": "not_addressed",
+"text": "Pharmacologically reducing stress-induced biological age extends lifespan.",
+"evidence": "The elevation of biological age by stress may be a quantifiable and actionable target for future interventions",
+"note": "The abstract proposes stress-driven elevation as a future target but reports no lifespan intervention."
+}
+]
+},
+{
+"n": 1792,
+"id": "pmid:31735593",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Whole-body B cell depletion restored proper lipolysis and core body temperature maintenance during cold stress.",
+"evidence": "whole-body B cell depletion restores proper lipolysis and core body temperature maintenance during cold stress",
+"note": "Removing B cells rescued lipolysis and cold-induced temperature control."
+},
+{
+"k": 2,
+"label": "not_addressed",
+"text": "A high-fat diet triggers the Nlrp3 inflammasome activation that drives aged adipose B cell expansion.",
+"evidence": "the age-induced FALC formation, AAB, and splenic ABC expansion is dependent on the Nlrp3 inflammasome",
+"note": "The abstract shows Nlrp3 dependence but never addresses what activates the inflammasome, such as diet."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Aged adipose B cells showed greater expansion in female mice.",
+"evidence": "show greater expansion in female mice",
+"note": "Expansion of these B cells was larger in females."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Inhibiting IL-1 signaling reduced aged adipose B cell proliferation and increased lipolysis in aging.",
+"evidence": "inhibition of IL-1 signaling reduces their proliferation and increases lipolysis in aging",
+"note": "Blocking IL-1 cut AAB proliferation and raised lipolysis in aged tissue."
+}
+]
+},
+{
+"n": 1793,
+"id": "pmid:33848471",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Decreased IGF1 levels in the middle-aged bone marrow microenvironment are a factor causing hematopoietic stem cell aging.",
+"evidence": "decreased levels of the longevity-associated molecule IGF1 in the local middle-aged BM microenvironment are a factor causing HSC aging",
+"note": "Lower local IGF1 in the middle-aged marrow helps drive HSC aging."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "Hallmarks of aging in HSCs and hematopoiesis begin to accumulate by middle age, with the bone marrow microenvironment indispensable for this aging.",
+"evidence": "hallmarks of aging in HSCs and hematopoiesis begin to accumulate by middle age and that the bone marrow (BM) microenvironment at middle age induces and is indispensable for hematopoietic aging",
+"note": "Aging hallmarks emerge by middle age and require the marrow microenvironment."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Direct stimulation of middle-aged HSCs with IGF1 rescued molecular and functional aging hallmarks, including restored mitochondrial activity.",
+"evidence": "Direct stimulation of middle-aged HSCs with IGF1 rescues molecular and functional hallmarks of aging, including restored mitochondrial activity",
+"note": "Giving IGF1 directly to middle-aged HSCs reversed aging hallmarks and restored mitochondria."
+},
+{
+"k": 4,
+"label": "not_addressed",
+"text": "IGF1 supplementation improves immune function in elderly humans.",
+"evidence": "Decline in hematopoietic stem cell (HSC) function with age underlies limited health span of our blood and immune systems.",
+"note": "The abstract links HSC decline to blood and immune health in mice but tests no IGF1 treatment in elderly humans."
+}
+]
+},
+{
+"n": 1794,
+"id": "pmid:37118510",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Aging clocks revealed that heterochronic parabiosis and exercise both reverse transcriptomic aging in neurogenic regions, but in different ways.",
+"evidence": "heterochronic parabiosis and exercise reverse transcriptomic aging in neurogenic regions, but in different ways",
+"note": "Both interventions reversed transcriptomic aging, through distinct patterns."
+},
+{
+"k": 2,
+"label": "not_addressed",
+"text": "The regression models predicted biological age more accurately than chronological age.",
+"evidence": "We trained single-cell-based regression models to predict chronological age and biological age (neural stem cell proliferation capacity)",
+"note": "The abstract reports models for both ages but never compares their predictive accuracy."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Single-cell transcriptomes were generated from the subventricular zone neurogenic region of 28 mice spanning young to old ages.",
+"evidence": "single-cell transcriptomes from the subventricular zone neurogenic region of 28 mice, tiling ages from young to old",
+"note": "The dataset covered 28 mice across the full young-to-old range."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "The aging clocks generalized to independent mouse cohorts, other brain regions, and other species.",
+"evidence": "These aging clocks are generalizable to independent cohorts of mice, other regions of the brains, and other species",
+"note": "The clocks worked beyond the training data, across regions and species."
+}
+]
+}
+]
+}

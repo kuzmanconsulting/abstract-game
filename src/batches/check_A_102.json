@@ -1,0 +1,327 @@
+{
+"batch": "check_A_102",
+"pass": "A",
+"source_batch": "gen_102",
+"items": [
+{
+"n": 1665,
+"id": "pmid:29967174",
+"year": 2018,
+"field": "epi",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Mammalian chromatin is spatially organized at many scales showing two prominent features in interphase: ( i ) alternating regions (1-10 Mb) of active and inactive chromatin that spatially segregate into different compartments, and ( ii ) domains (<1 Mb), that is, regions that preferentially interact internally [topologically associating domains (TADs)] and are central to gene regulation. There is growing evidence that TADs are formed by active extrusion of chromatin loops by cohesin, whereas compartmentalization is established according to local chromatin states. Here, we use polymer simulations to examine how loop extrusion and compartmental segregation work collectively and potentially interfere in shaping global chromosome organization. A model with differential attraction between euchromatin and heterochromatin leads to phase separation and reproduces compartmentalization as observed in Hi-C. Loop extrusion, essential for TAD formation, in turn, interferes with compartmentalization. Our integrated model faithfully reproduces Hi-C data from puzzling experimental observations where altering loop extrusion also led to changes in compartmentalization. Specifically, depletion of chromatin-associated cohesin reduced TADs and revealed finer compartments, while increased processivity of cohesin strengthened large TADs and reduced compartmentalization; and depletion of the TAD boundary protein CTCF weakened TADs while leaving compartments unaffected. We reveal that these experimental perturbations are special cases of a general polymer phenomenon of active mixing by loop extrusion. Our results suggest that chromatin organization on the megabase scale emerges from competition of nonequilibrium active loop extrusion and epigenetically defined compartment structure."
+}
+],
+"text": "Mammalian chromatin is spatially organized at many scales showing two prominent features in interphase: ( i ) alternating regions (1-10 Mb) of active and inactive chromatin that spatially segregate into different compartments, and ( ii ) domains (<1 Mb), that is, regions that preferentially interact internally [topologically associating domains (TADs)] and are central to gene regulation. There is growing evidence that TADs are formed by active extrusion of chromatin loops by cohesin, whereas compartmentalization is established according to local chromatin states. Here, we use polymer simulations to examine how loop extrusion and compartmental segregation work collectively and potentially interfere in shaping global chromosome organization. A model with differential attraction between euchromatin and heterochromatin leads to phase separation and reproduces compartmentalization as observed in Hi-C. Loop extrusion, essential for TAD formation, in turn, interferes with compartmentalization. Our integrated model faithfully reproduces Hi-C data from puzzling experimental observations where altering loop extrusion also led to changes in compartmentalization. Specifically, depletion of chromatin-associated cohesin reduced TADs and revealed finer compartments, while increased processivity of cohesin strengthened large TADs and reduced compartmentalization; and depletion of the TAD boundary protein CTCF weakened TADs while leaving compartments unaffected. We reveal that these experimental perturbations are special cases of a general polymer phenomenon of active mixing by loop extrusion. Our results suggest that chromatin organization on the megabase scale emerges from competition of nonequilibrium active loop extrusion and epigenetically defined compartment structure.",
+"statements": [
+{
+"j": 1,
+"text": "Depleting chromatin-associated cohesin elevated TADs and uncovered finer compartments in the simulations."
+},
+{
+"j": 2,
+"text": "Disrupting loop extrusion in the model alters the expression of genes located at TAD boundaries."
+},
+{
+"j": 3,
+"text": "Loop extrusion, which is essential for forming TADs, in turn interferes with compartmentalization."
+},
+{
+"j": 4,
+"text": "Interphase chromatin alternates between active and inactive regions spanning 1-10 Mb that segregate into distinct compartments."
+}
+]
+},
+{
+"n": 1666,
+"id": "pmid:28467304",
+"year": 2017,
+"field": "epi",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Folding of mammalian genomes into spatial domains is critical for gene regulation. The insulator protein CTCF and cohesin control domain location by folding domains into loop structures, which are widely thought to be stable. Combining genomic and biochemical approaches we show that CTCF and cohesin co-occupy the same sites and physically interact as a biochemically stable complex. However, using single-molecule imaging we find that CTCF binds chromatin much more dynamically than cohesin (~1-2 min vs. ~22 min residence time). Moreover, after unbinding, CTCF quickly rebinds another cognate site unlike cohesin for which the search process is long (~1 min vs. ~33 min). Thus, CTCF and cohesin form a rapidly exchanging 'dynamic complex' rather than a typical stable complex. Since CTCF and cohesin are required for loop domain formation, our results suggest that chromatin loops are dynamic and frequently break and reform throughout the cell cycle."
+}
+],
+"text": "Folding of mammalian genomes into spatial domains is critical for gene regulation. The insulator protein CTCF and cohesin control domain location by folding domains into loop structures, which are widely thought to be stable. Combining genomic and biochemical approaches we show that CTCF and cohesin co-occupy the same sites and physically interact as a biochemically stable complex. However, using single-molecule imaging we find that CTCF binds chromatin much more dynamically than cohesin (~1-2 min vs. ~22 min residence time). Moreover, after unbinding, CTCF quickly rebinds another cognate site unlike cohesin for which the search process is long (~1 min vs. ~33 min). Thus, CTCF and cohesin form a rapidly exchanging 'dynamic complex' rather than a typical stable complex. Since CTCF and cohesin are required for loop domain formation, our results suggest that chromatin loops are dynamic and frequently break and reform throughout the cell cycle.",
+"statements": [
+{
+"j": 1,
+"text": "CTCF's rapid rebinding depends on the concentration of free CTCF in the nucleus."
+},
+{
+"j": 2,
+"text": "CTCF binds chromatin far less dynamically than cohesin, with residence times of roughly 1-2 minutes versus 22 minutes."
+},
+{
+"j": 3,
+"text": "CTCF and cohesin occupy identical sites and associate as a biochemically stable complex."
+},
+{
+"j": 4,
+"text": "Rather than a conventional stable complex, CTCF and cohesin form a rapidly exchanging dynamic complex."
+}
+]
+},
+{
+"n": 1667,
+"id": "pmid:32302590",
+"year": 2020,
+"field": "epi",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Tissue homeostasis requires maintenance of functional integrity under stress. A central source of stress is mechanical force that acts on cells, their nuclei, and chromatin, but how the genome is protected against mechanical stress is unclear. We show that mechanical stretch deforms the nucleus, which cells initially counteract via a calcium-dependent nuclear softening driven by loss of H3K9me3-marked heterochromatin. The resulting changes in chromatin rheology and architecture are required to insulate genetic material from mechanical force. Failure to mount this nuclear mechanoresponse results in DNA damage. Persistent, high-amplitude stretch induces supracellular alignment of tissue to redistribute mechanical energy before it reaches the nucleus. This tissue-scale mechanoadaptation functions through a separate pathway mediated by cell-cell contacts and allows cells/tissues to switch off nuclear mechanotransduction to restore initial chromatin state. Our work identifies an unconventional role of chromatin in altering its own mechanical state to maintain genome integrity in response to deformation."
+}
+],
+"text": "Tissue homeostasis requires maintenance of functional integrity under stress. A central source of stress is mechanical force that acts on cells, their nuclei, and chromatin, but how the genome is protected against mechanical stress is unclear. We show that mechanical stretch deforms the nucleus, which cells initially counteract via a calcium-dependent nuclear softening driven by loss of H3K9me3-marked heterochromatin. The resulting changes in chromatin rheology and architecture are required to insulate genetic material from mechanical force. Failure to mount this nuclear mechanoresponse results in DNA damage. Persistent, high-amplitude stretch induces supracellular alignment of tissue to redistribute mechanical energy before it reaches the nucleus. This tissue-scale mechanoadaptation functions through a separate pathway mediated by cell-cell contacts and allows cells/tissues to switch off nuclear mechanotransduction to restore initial chromatin state. Our work identifies an unconventional role of chromatin in altering its own mechanical state to maintain genome integrity in response to deformation.",
+"statements": [
+{
+"j": 1,
+"text": "Cells first counteract nuclear deformation through calcium-dependent softening driven by gain of H3K9me3-marked heterochromatin."
+},
+{
+"j": 2,
+"text": "When cells fail to mount this nuclear mechanoresponse, DNA damage occurs."
+},
+{
+"j": 3,
+"text": "Tissue-scale alignment under persistent stretch depends on integrin-based cell-matrix adhesions."
+},
+{
+"j": 4,
+"text": "Changes in chromatin rheology and architecture are needed to shield genetic material from mechanical force."
+}
+]
+},
+{
+"n": 1668,
+"id": "pmid:27626377",
+"year": 2016,
+"field": "epi",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Maternal-to-zygotic transition (MZT) is essential for the formation of a new individual, but is still poorly understood despite recent progress in analysis of gene expression and DNA methylation in early embryogenesis. Dynamic histone modifications may have important roles in MZT, but direct measurements of chromatin states have been hindered by technical difficulties in profiling histone modifications from small quantities of cells. Recent improvements allow for 500 cell-equivalents of chromatin per reaction, but require 10,000 cells for initial steps or require a highly specialized microfluidics device that is not readily available. We developed a micro-scale chromatin immunoprecipitation and sequencing (μChIP-seq) method, which we used to profile genome-wide histone H3 lysine methylation (H3K4me3) and acetylation (H3K27ac) in mouse immature and metaphase II oocytes and in 2-cell and 8-cell embryos. Notably, we show that ~22% of the oocyte genome is associated with broad H3K4me3 domains that are anti-correlated with DNA methylation. The H3K4me3 signal becomes confined to transcriptional-start-site regions in 2-cell embryos, concomitant with the onset of major zygotic genome activation. Active removal of broad H3K4me3 domains by the lysine demethylases KDM5A and KDM5B is required for normal zygotic genome activation and is essential for early embryo development. Our results provide insight into the onset of the developmental program in mouse embryos and demonstrate a role for broad H3K4me3 domains in MZT."
+}
+],
+"text": "Maternal-to-zygotic transition (MZT) is essential for the formation of a new individual, but is still poorly understood despite recent progress in analysis of gene expression and DNA methylation in early embryogenesis. Dynamic histone modifications may have important roles in MZT, but direct measurements of chromatin states have been hindered by technical difficulties in profiling histone modifications from small quantities of cells. Recent improvements allow for 500 cell-equivalents of chromatin per reaction, but require 10,000 cells for initial steps or require a highly specialized microfluidics device that is not readily available. We developed a micro-scale chromatin immunoprecipitation and sequencing (μChIP-seq) method, which we used to profile genome-wide histone H3 lysine methylation (H3K4me3) and acetylation (H3K27ac) in mouse immature and metaphase II oocytes and in 2-cell and 8-cell embryos. Notably, we show that ~22% of the oocyte genome is associated with broad H3K4me3 domains that are anti-correlated with DNA methylation. The H3K4me3 signal becomes confined to transcriptional-start-site regions in 2-cell embryos, concomitant with the onset of major zygotic genome activation. Active removal of broad H3K4me3 domains by the lysine demethylases KDM5A and KDM5B is required for normal zygotic genome activation and is essential for early embryo development. Our results provide insight into the onset of the developmental program in mouse embryos and demonstrate a role for broad H3K4me3 domains in MZT.",
+"statements": [
+{
+"j": 1,
+"text": "The team created a micro-scale ChIP-seq (μChIP-seq) method and mapped H3K4me3 and H3K27ac genome-wide across mouse oocytes and 2-cell and 8-cell embryos."
+},
+{
+"j": 2,
+"text": "In oocytes, roughly 22% of the genome carries broad H3K4me3 domains that are enriched at DNA-methylated regions."
+},
+{
+"j": 3,
+"text": "The μChIP-seq method can be applied to single cells without any amplification bias."
+},
+{
+"j": 4,
+"text": "Eliminating broad H3K4me3 domains via the demethylases KDM5A and KDM5B is essential for early embryo development."
+}
+]
+},
+{
+"n": 1669,
+"id": "pmid:29374079",
+"year": 2018,
+"field": "epi",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Toll-like receptor 7 (TLR7) is critical to the induction of antiviral immunity, but TLR7 dosage is also a key pathogenic factor in systemic lupus erythematosus (SLE), an autoimmune disease with strong female bias. SLE prevalence is also elevated in individuals with Klinefelter syndrome, who carry one or more supernumerary X chromosomes, suggesting that the X chromosome complement contributes to SLE susceptibility. TLR7 is encoded by an X chromosome locus, and we examined here whether the TLR7 gene evades silencing by X chromosome inactivation in immune cells from women and Klinefelter syndrome males. Single-cell analyses of TLR7 allelic expression demonstrated that substantial fractions of primary B lymphocytes, monocytes, and plasmacytoid dendritic cells not only in women but also in Klinefelter syndrome males express TLR7 on both X chromosomes. Biallelic B lymphocytes from women displayed greater TLR7 transcriptional expression than the monoallelic cells, correlated with higher TLR7 protein expression in female than in male leukocyte populations. Biallelic B cells were preferentially enriched during the TLR7-driven proliferation of CD27 + plasma cells. In addition, biallelic cells showed a greater than twofold increase over monoallelic cells in the propensity to immunoglobulin G class switch during the TLR7-driven, T cell-dependent differentiation of naive B lymphocytes into immunoglobulin-secreting cells. TLR7 escape from X inactivation endows the B cell compartment with added responsiveness to TLR7 ligands. This finding supports the hypothesis that enhanced TLR7 expression owing to biallelism contributes to the higher risk of developing SLE and other autoimmune disorders in women and in men with Klinefelter syndrome."
+}
+],
+"text": "Toll-like receptor 7 (TLR7) is critical to the induction of antiviral immunity, but TLR7 dosage is also a key pathogenic factor in systemic lupus erythematosus (SLE), an autoimmune disease with strong female bias. SLE prevalence is also elevated in individuals with Klinefelter syndrome, who carry one or more supernumerary X chromosomes, suggesting that the X chromosome complement contributes to SLE susceptibility. TLR7 is encoded by an X chromosome locus, and we examined here whether the TLR7 gene evades silencing by X chromosome inactivation in immune cells from women and Klinefelter syndrome males. Single-cell analyses of TLR7 allelic expression demonstrated that substantial fractions of primary B lymphocytes, monocytes, and plasmacytoid dendritic cells not only in women but also in Klinefelter syndrome males express TLR7 on both X chromosomes. Biallelic B lymphocytes from women displayed greater TLR7 transcriptional expression than the monoallelic cells, correlated with higher TLR7 protein expression in female than in male leukocyte populations. Biallelic B cells were preferentially enriched during the TLR7-driven proliferation of CD27 + plasma cells. In addition, biallelic cells showed a greater than twofold increase over monoallelic cells in the propensity to immunoglobulin G class switch during the TLR7-driven, T cell-dependent differentiation of naive B lymphocytes into immunoglobulin-secreting cells. TLR7 escape from X inactivation endows the B cell compartment with added responsiveness to TLR7 ligands. This finding supports the hypothesis that enhanced TLR7 expression owing to biallelism contributes to the higher risk of developing SLE and other autoimmune disorders in women and in men with Klinefelter syndrome.",
+"statements": [
+{
+"j": 1,
+"text": "Substantial fractions of B lymphocytes, monocytes, and plasmacytoid dendritic cells in women and Klinefelter males express TLR7 from both X chromosomes."
+},
+{
+"j": 2,
+"text": "Escape of TLR7 from X inactivation gives the B cell compartment added responsiveness to TLR7 ligands."
+},
+{
+"j": 3,
+"text": "Biallelic cells showed less than a twofold increase over monoallelic cells in their propensity to undergo IgG class switching."
+},
+{
+"j": 4,
+"text": "Women with active SLE express TLR7 from both X chromosomes more often than healthy women do."
+}
+]
+},
+{
+"n": 1670,
+"id": "pmid:28111071",
+"year": 2017,
+"field": "epi",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Oct4, Sox2, Klf4, and cMyc (OSKM) reprogram somatic cells to pluripotency. To gain a mechanistic understanding of their function, we mapped OSKM-binding, stage-specific transcription factors (TFs), and chromatin states in discrete reprogramming stages and performed loss- and gain-of-function experiments. We found that OSK predominantly bind active somatic enhancers early in reprogramming and immediately initiate their inactivation genome-wide by inducing the redistribution of somatic TFs away from somatic enhancers to sites elsewhere engaged by OSK, recruiting Hdac1, and repressing the somatic TF Fra1. Pluripotency enhancer selection is a stepwise process that also begins early in reprogramming through collaborative binding of OSK at sites with high OSK-motif density. Most pluripotency enhancers are selected later in the process and require OS and other pluripotency TFs. Somatic and pluripotency TFs modulate reprogramming efficiency when overexpressed by altering OSK targeting, somatic-enhancer inactivation, and pluripotency enhancer selection. Together, our data indicate that collaborative interactions among OSK and with stage-specific TFs direct both somatic-enhancer inactivation and pluripotency-enhancer selection to drive reprogramming."
+}
+],
+"text": "Oct4, Sox2, Klf4, and cMyc (OSKM) reprogram somatic cells to pluripotency. To gain a mechanistic understanding of their function, we mapped OSKM-binding, stage-specific transcription factors (TFs), and chromatin states in discrete reprogramming stages and performed loss- and gain-of-function experiments. We found that OSK predominantly bind active somatic enhancers early in reprogramming and immediately initiate their inactivation genome-wide by inducing the redistribution of somatic TFs away from somatic enhancers to sites elsewhere engaged by OSK, recruiting Hdac1, and repressing the somatic TF Fra1. Pluripotency enhancer selection is a stepwise process that also begins early in reprogramming through collaborative binding of OSK at sites with high OSK-motif density. Most pluripotency enhancers are selected later in the process and require OS and other pluripotency TFs. Somatic and pluripotency TFs modulate reprogramming efficiency when overexpressed by altering OSK targeting, somatic-enhancer inactivation, and pluripotency enhancer selection. Together, our data indicate that collaborative interactions among OSK and with stage-specific TFs direct both somatic-enhancer inactivation and pluripotency-enhancer selection to drive reprogramming.",
+"statements": [
+{
+"j": 1,
+"text": "Somatic-enhancer inactivation during reprogramming is accompanied by DNA methylation of those enhancers."
+},
+{
+"j": 2,
+"text": "Early in reprogramming, OSK mainly bind active somatic enhancers and immediately begin inactivating them genome-wide."
+},
+{
+"j": 3,
+"text": "Pluripotency enhancers are mostly selected earlier in reprogramming and require OS along with other pluripotency transcription factors."
+},
+{
+"j": 4,
+"text": "OSK drive somatic-enhancer inactivation partly by recruiting Hdac1 and shutting down the somatic transcription factor Fra1."
+}
+]
+},
+{
+"n": 1671,
+"id": "pmid:30602787",
+"year": 2019,
+"field": "epi",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Mammalian gene expression is inherently stochastic 1,2 , and results in discrete bursts of RNA molecules that are synthesized from each allele 3-7 . Although transcription is known to be regulated by promoters and enhancers, it is unclear how cis-regulatory sequences encode transcriptional burst kinetics. Characterization of transcriptional bursting, including the burst size and frequency, has mainly relied on live-cell 4,6,8 or single-molecule RNA fluorescence in situ hybridization 3,5,8,9 recordings of selected loci. Here we determine transcriptome-wide burst frequencies and sizes for endogenous mouse and human genes using allele-sensitive single-cell RNA sequencing. We show that core promoter elements affect burst size and uncover synergistic effects between TATA and initiator elements, which were masked at mean expression levels. Notably, we provide transcriptome-wide evidence that enhancers control burst frequencies, and demonstrate that cell-type-specific gene expression is primarily shaped by changes in burst frequencies. Together, our data show that burst frequency is primarily encoded in enhancers and burst size in core promoters, and that allelic single-cell RNA sequencing is a powerful model for investigating transcriptional kinetics."
+}
+],
+"text": "Mammalian gene expression is inherently stochastic 1,2 , and results in discrete bursts of RNA molecules that are synthesized from each allele 3-7 . Although transcription is known to be regulated by promoters and enhancers, it is unclear how cis-regulatory sequences encode transcriptional burst kinetics. Characterization of transcriptional bursting, including the burst size and frequency, has mainly relied on live-cell 4,6,8 or single-molecule RNA fluorescence in situ hybridization 3,5,8,9 recordings of selected loci. Here we determine transcriptome-wide burst frequencies and sizes for endogenous mouse and human genes using allele-sensitive single-cell RNA sequencing. We show that core promoter elements affect burst size and uncover synergistic effects between TATA and initiator elements, which were masked at mean expression levels. Notably, we provide transcriptome-wide evidence that enhancers control burst frequencies, and demonstrate that cell-type-specific gene expression is primarily shaped by changes in burst frequencies. Together, our data show that burst frequency is primarily encoded in enhancers and burst size in core promoters, and that allelic single-cell RNA sequencing is a powerful model for investigating transcriptional kinetics.",
+"statements": [
+{
+"j": 1,
+"text": "Cell-type-specific gene expression is shaped less by burst-frequency changes than by burst-size changes."
+},
+{
+"j": 2,
+"text": "Using allele-sensitive single-cell RNA sequencing, the study measured transcriptome-wide burst frequencies and sizes for endogenous mouse and human genes."
+},
+{
+"j": 3,
+"text": "Transcriptional bursting kinetics differ between healthy and cancerous cells."
+},
+{
+"j": 4,
+"text": "Core promoter elements influence burst size, with synergy between TATA and initiator elements that is hidden at mean expression levels."
+}
+]
+},
+{
+"n": 1672,
+"id": "pmid:28703188",
+"year": 2017,
+"field": "epi",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "In mammals, chromatin organization undergoes drastic reprogramming after fertilization. However, the three-dimensional structure of chromatin and its reprogramming in preimplantation development remain poorly understood. Here, by developing a low-input Hi-C (genome-wide chromosome conformation capture) approach, we examined the reprogramming of chromatin organization during early development in mice. We found that oocytes in metaphase II show homogeneous chromatin folding that lacks detectable topologically associating domains (TADs) and chromatin compartments. Strikingly, chromatin shows greatly diminished higher-order structure after fertilization. Unexpectedly, the subsequent establishment of chromatin organization is a prolonged process that extends through preimplantation development, as characterized by slow consolidation of TADs and segregation of chromatin compartments. The two sets of parental chromosomes are spatially separated from each other and display distinct compartmentalization in zygotes. Such allele separation and allelic compartmentalization can be found as late as the 8-cell stage. Finally, we show that chromatin compaction in preimplantation embryos can partially proceed in the absence of zygotic transcription and is a multi-level hierarchical process. Taken together, our data suggest that chromatin may exist in a markedly relaxed state after fertilization, followed by progressive maturation of higher-order chromatin architecture during early development."
+}
+],
+"text": "In mammals, chromatin organization undergoes drastic reprogramming after fertilization. However, the three-dimensional structure of chromatin and its reprogramming in preimplantation development remain poorly understood. Here, by developing a low-input Hi-C (genome-wide chromosome conformation capture) approach, we examined the reprogramming of chromatin organization during early development in mice. We found that oocytes in metaphase II show homogeneous chromatin folding that lacks detectable topologically associating domains (TADs) and chromatin compartments. Strikingly, chromatin shows greatly diminished higher-order structure after fertilization. Unexpectedly, the subsequent establishment of chromatin organization is a prolonged process that extends through preimplantation development, as characterized by slow consolidation of TADs and segregation of chromatin compartments. The two sets of parental chromosomes are spatially separated from each other and display distinct compartmentalization in zygotes. Such allele separation and allelic compartmentalization can be found as late as the 8-cell stage. Finally, we show that chromatin compaction in preimplantation embryos can partially proceed in the absence of zygotic transcription and is a multi-level hierarchical process. Taken together, our data suggest that chromatin may exist in a markedly relaxed state after fertilization, followed by progressive maturation of higher-order chromatin architecture during early development.",
+"statements": [
+{
+"j": 1,
+"text": "Chromatin compaction after fertilization requires the activity of cohesin."
+},
+{
+"j": 2,
+"text": "Parental chromosome sets stay spatially separated with distinct compartmentalization in zygotes, and this allelic separation persists as late as the 8-cell stage."
+},
+{
+"j": 3,
+"text": "After fertilization, chromatin displays greatly enhanced higher-order structure."
+},
+{
+"j": 4,
+"text": "Metaphase II oocytes show homogeneous chromatin folding lacking detectable TADs and chromatin compartments."
+}
+]
+},
+{
+"n": 1673,
+"id": "pmid:28826674",
+"year": 2017,
+"field": "epi",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Topologically associating domains (TADs), CTCF loop domains, and A/B compartments have been identified as important structural and functional components of 3D chromatin organization, yet the relationship between these features is not well understood. Using high-resolution Hi-C and HiChIP, we show that Drosophila chromatin is organized into domains we term compartmental domains that correspond precisely with A/B compartments at high resolution. We find that transcriptional state is a major predictor of Hi-C contact maps in several eukaryotes tested, including C. elegans and A. thaliana. Architectural proteins insulate compartmental domains by reducing interaction frequencies between neighboring regions in Drosophila, but CTCF loops do not play a distinct role in this organism. In mammals, compartmental domains exist alongside CTCF loop domains to form topological domains. The results suggest that compartmental domains are responsible for domain structure in all eukaryotes, with CTCF playing an important role in domain formation in mammals."
+}
+],
+"text": "Topologically associating domains (TADs), CTCF loop domains, and A/B compartments have been identified as important structural and functional components of 3D chromatin organization, yet the relationship between these features is not well understood. Using high-resolution Hi-C and HiChIP, we show that Drosophila chromatin is organized into domains we term compartmental domains that correspond precisely with A/B compartments at high resolution. We find that transcriptional state is a major predictor of Hi-C contact maps in several eukaryotes tested, including C. elegans and A. thaliana. Architectural proteins insulate compartmental domains by reducing interaction frequencies between neighboring regions in Drosophila, but CTCF loops do not play a distinct role in this organism. In mammals, compartmental domains exist alongside CTCF loop domains to form topological domains. The results suggest that compartmental domains are responsible for domain structure in all eukaryotes, with CTCF playing an important role in domain formation in mammals.",
+"statements": [
+{
+"j": 1,
+"text": "Transcriptional state strongly predicts Hi-C contact maps in several eukaryotes, including C. elegans and A. thaliana."
+},
+{
+"j": 2,
+"text": "Using high-resolution Hi-C and HiChIP, the study found Drosophila chromatin organized into compartmental domains that align precisely with A/B compartments."
+},
+{
+"j": 3,
+"text": "Compartmental domains in Drosophila change in size during the cell cycle."
+},
+{
+"j": 4,
+"text": "In Drosophila, architectural proteins insulate compartmental domains by increasing interaction frequencies between neighboring regions."
+}
+]
+},
+{
+"n": 1674,
+"id": "pmid:27096366",
+"year": 2016,
+"field": "epi",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Genome-wide association studies (GWAS) have identified numerous genetic variants associated with complex diseases, but mechanistic insights are impeded by a lack of understanding of how specific risk variants functionally contribute to the underlying pathogenesis. It has been proposed that cis-acting effects of non-coding risk variants on gene expression are a major factor for phenotypic variation of complex traits and disease susceptibility. Recent genome-scale epigenetic studies have highlighted the enrichment of GWAS-identified variants in regulatory DNA elements of disease-relevant cell types. Furthermore, single nucleotide polymorphism (SNP)-specific changes in transcription factor binding are correlated with heritable alterations in chromatin state and considered a major mediator of sequence-dependent regulation of gene expression. Here we describe a novel strategy to functionally dissect the cis-acting effect of genetic risk variants in regulatory elements on gene expression by combining genome-wide epigenetic information with clustered regularly-interspaced short palindromic repeats (CRISPR)/Cas9 genome editing in human pluripotent stem cells. By generating a genetically precisely controlled experimental system, we identify a common Parkinson's disease associated risk variant in a non-coding distal enhancer element that regulates the expression of α-synuclein (SNCA), a key gene implicated in the pathogenesis of Parkinson's disease. Our data suggest that the transcriptional deregulation of SNCA is associated with sequence-dependent binding of the brain-specific transcription factors EMX2 and NKX6-1. This work establishes an experimental paradigm to functionally connect genetic variation with disease-relevant phenotypes."
+}
+],
+"text": "Genome-wide association studies (GWAS) have identified numerous genetic variants associated with complex diseases, but mechanistic insights are impeded by a lack of understanding of how specific risk variants functionally contribute to the underlying pathogenesis. It has been proposed that cis-acting effects of non-coding risk variants on gene expression are a major factor for phenotypic variation of complex traits and disease susceptibility. Recent genome-scale epigenetic studies have highlighted the enrichment of GWAS-identified variants in regulatory DNA elements of disease-relevant cell types. Furthermore, single nucleotide polymorphism (SNP)-specific changes in transcription factor binding are correlated with heritable alterations in chromatin state and considered a major mediator of sequence-dependent regulation of gene expression. Here we describe a novel strategy to functionally dissect the cis-acting effect of genetic risk variants in regulatory elements on gene expression by combining genome-wide epigenetic information with clustered regularly-interspaced short palindromic repeats (CRISPR)/Cas9 genome editing in human pluripotent stem cells. By generating a genetically precisely controlled experimental system, we identify a common Parkinson's disease associated risk variant in a non-coding distal enhancer element that regulates the expression of α-synuclein (SNCA), a key gene implicated in the pathogenesis of Parkinson's disease. Our data suggest that the transcriptional deregulation of SNCA is associated with sequence-dependent binding of the brain-specific transcription factors EMX2 and NKX6-1. This work establishes an experimental paradigm to functionally connect genetic variation with disease-relevant phenotypes.",
+"statements": [
+{
+"j": 1,
+"text": "Correcting this risk variant with CRISPR normalizes α-synuclein levels and rescues neurons from degeneration."
+},
+{
+"j": 2,
+"text": "The transcriptional deregulation of SNCA was linked to sequence-dependent binding of the brain-specific transcription factors EMX2 and NKX6-1."
+},
+{
+"j": 3,
+"text": "Genome-scale epigenetic studies show GWAS-identified variants are depleted in regulatory DNA elements of disease-relevant cell types."
+},
+{
+"j": 4,
+"text": "Using CRISPR/Cas9 editing in human pluripotent stem cells, the study identified a common Parkinson's risk variant in a non-coding distal enhancer that regulates α-synuclein (SNCA) expression."
+}
+]
+}
+]
+}

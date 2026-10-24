@@ -1,0 +1,1311 @@
+{
+"batch": "check_B_10",
+"pass": "B",
+"source_batch": "gen_10",
+"items": [
+{
+"n": 350,
+"id": "pmid:39292108",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Human immunodeficiency virus (HIV)-1 infection can activate the expression of human endogenous retroviruses (HERVs), particularly HERV-K (HML-2). HIV controllers (HICs) are rare people living with HIV (PLWHs) who naturally control HIV-1 replication and overexpress some cellular restriction factors that negatively regulate the LTR-driven transcription of HIV-1 proviruses."
+},
+{
+"label": "Objectives",
+"text": "To understand the ability of HICs to control the expression of endogenous retroviruses."
+},
+{
+"label": "Methods",
+"text": "We measured endogenous retrovirus type K6 (ERVK-6) RNA expression in peripheral blood mononuclear cells (PBMCs) of HICs (n = 23), antiretroviral (ART)-suppressed subjects (n = 8), and HIV-1-negative (NEG) individuals (n = 10) and correlated the transcript expression of ERVK-6 with multiple HIV-1 cellular restriction factors."
+},
+{
+"label": "Findings",
+"text": "Our study revealed that ERVK-6 RNA expression in PBMCs from HICs was significantly downregulated compared with that in both the ART and NEG control groups. Moreover, we detected that ERVK-6 RNA levels in PBMCs across all groups were negatively correlated with the expression levels of p21 and MCPIP1, two cellular restriction factors that limit the activation of macrophages and T cells by downregulating the activity of NF-kB."
+},
+{
+"label": "Main conclusions",
+"text": "These findings support the hypothesis that HICs activate innate antiviral mechanisms that may simultaneously downregulate the transcription of both exogenous (HIV-1) and endogenous (ERVK-6) retroviruses. Future studies with larger cohorts should be performed to confirm this hypothesis and to explore the role of p21 and MCPIP1 in regulating HERV-K expression in physiological and pathological conditions."
+}
+],
+"text": "Human immunodeficiency virus (HIV)-1 infection can activate the expression of human endogenous retroviruses (HERVs), particularly HERV-K (HML-2). HIV controllers (HICs) are rare people living with HIV (PLWHs) who naturally control HIV-1 replication and overexpress some cellular restriction factors that negatively regulate the LTR-driven transcription of HIV-1 proviruses. To understand the ability of HICs to control the expression of endogenous retroviruses. We measured endogenous retrovirus type K6 (ERVK-6) RNA expression in peripheral blood mononuclear cells (PBMCs) of HICs (n = 23), antiretroviral (ART)-suppressed subjects (n = 8), and HIV-1-negative (NEG) individuals (n = 10) and correlated the transcript expression of ERVK-6 with multiple HIV-1 cellular restriction factors. Our study revealed that ERVK-6 RNA expression in PBMCs from HICs was significantly downregulated compared with that in both the ART and NEG control groups. Moreover, we detected that ERVK-6 RNA levels in PBMCs across all groups were negatively correlated with the expression levels of p21 and MCPIP1, two cellular restriction factors that limit the activation of macrophages and T cells by downregulating the activity of NF-kB. These findings support the hypothesis that HICs activate innate antiviral mechanisms that may simultaneously downregulate the transcription of both exogenous (HIV-1) and endogenous (ERVK-6) retroviruses. Future studies with larger cohorts should be performed to confirm this hypothesis and to explore the role of p21 and MCPIP1 in regulating HERV-K expression in physiological and pathological conditions.",
+"statements": [
+{
+"j": 1,
+"text": "p21 and MCPIP1 expression levels were higher in HIV controllers than in ART-suppressed subjects."
+},
+{
+"j": 2,
+"text": "The study enrolled 23 HIV controllers, 8 ART-suppressed subjects, and 10 HIV-1-negative individuals."
+},
+{
+"j": 3,
+"text": "ERVK-6 RNA expression in HIV controllers was significantly higher than in both the ART and HIV-negative control groups."
+},
+{
+"j": 4,
+"text": "ERVK-6 RNA levels across all groups were inversely related to p21 and MCPIP1 expression."
+}
+]
+},
+{
+"n": 351,
+"id": "doi:10.1101/2025.11.25.690381",
+"year": 2025,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": "Motivation",
+"text": "Understanding double-strand break (DSB) repair and its disruption is key to decipher genomic instability driving diseases such as cancer and reveal therapeutic avenues. Numerous genes have been linked to DSB repair for the first time in recent genome-wide perturbation studies assessing effects on mutational outcomes. However, the functional roles of most such genes remain poorly understood. Evidence from other studies shows that related genes similarly modulate the frequency of specific mutational outcomes following DSB repair, but analysis has largely ignored the multiplicity of gene functions and cross-talk between pathways. Here, we infer functional roles for candidate genes based on knockout mutational spectra by identifying mutational signatures shared with known genes and then mapping them to DSB repair functions. Signatures are identified using non-negative matrix factorization (NMF) to reflect functional multiplicity and cross-talk."
+},
+{
+"label": "Results",
+"text": "We generated mutational spectra for mouse embryonic stem (mES) cells at three target sites across CRISPR knockouts of 307 known and 459 candidate DSB repair genes. Analysis using NMF revealed four mutational signatures associated with homology-directed repair (HDR), microhomology-mediated end-joining (MMEJ), and the initiation and ligation components of non-homologous end-joining (NHEJ). Signatures suggested that candidate genes Dbr1 and Hnrnpk could influence MMEJ and Fanconi anaemia (FA), and that loss of core NHEJ components (e.g. MRN complex or Ku proteins) could shift repair preference towards Ku- independent NHEJ. These findings demonstrate the utility of NMF for characterizing the contribution of genes to repair pathways and provide a foundation to discover new gene functions in DSB repair."
+},
+{
+"label": "Availability",
+"text": "github.com/joanagoncalveslab/MuSpectraNMF ."
+}
+],
+"text": "Understanding double-strand break (DSB) repair and its disruption is key to decipher genomic instability driving diseases such as cancer and reveal therapeutic avenues. Numerous genes have been linked to DSB repair for the first time in recent genome-wide perturbation studies assessing effects on mutational outcomes. However, the functional roles of most such genes remain poorly understood. Evidence from other studies shows that related genes similarly modulate the frequency of specific mutational outcomes following DSB repair, but analysis has largely ignored the multiplicity of gene functions and cross-talk between pathways. Here, we infer functional roles for candidate genes based on knockout mutational spectra by identifying mutational signatures shared with known genes and then mapping them to DSB repair functions. Signatures are identified using non-negative matrix factorization (NMF) to reflect functional multiplicity and cross-talk. We generated mutational spectra for mouse embryonic stem (mES) cells at three target sites across CRISPR knockouts of 307 known and 459 candidate DSB repair genes. Analysis using NMF revealed four mutational signatures associated with homology-directed repair (HDR), microhomology-mediated end-joining (MMEJ), and the initiation and ligation components of non-homologous end-joining (NHEJ). Signatures suggested that candidate genes Dbr1 and Hnrnpk could influence MMEJ and Fanconi anaemia (FA), and that loss of core NHEJ components (e.g. MRN complex or Ku proteins) could shift repair preference towards Ku- independent NHEJ. These findings demonstrate the utility of NMF for characterizing the contribution of genes to repair pathways and provide a foundation to discover new gene functions in DSB repair. github.com/joanagoncalveslab/MuSpectraNMF .",
+"statements": [
+{
+"j": 1,
+"text": "The pipeline was also applied to human tumour samples to validate the inferred gene functions."
+},
+{
+"j": 2,
+"text": "CRISPR knockouts covered 307 known and 459 candidate DSB repair genes in mouse embryonic stem cells."
+},
+{
+"j": 3,
+"text": "NMF resolved four mutational signatures linked to HDR, MMEJ, and the initiation and ligation parts of NHEJ."
+},
+{
+"j": 4,
+"text": "Non-negative matrix factorization resolved ten mutational signatures spanning the major DSB repair pathways."
+}
+]
+},
+{
+"n": 352,
+"id": "doi:10.1101/2023.09.08.556935",
+"year": 2023,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": "Objective",
+"text": "The purpose of this study was to evaluate the performance of a next-generation sequencing-based liquid biopsy test for cancer monitoring in dogs."
+},
+{
+"label": "Samples",
+"text": "Pre- and post-operative blood samples were collected prospectively from dogs with confirmed cancer diagnoses originally enrolled in the CANcer Detection in Dogs (CANDiD) study. A subset of these dogs also had longitudinal blood samples collected for recurrence monitoring."
+},
+{
+"label": "Methods",
+"text": "All patients had a pre-operative blood sample collected (after diagnosis but prior to surgical intervention) in which a cancer signal was detected, and had at least one post-operative sample collected. Clinical data were collected for all patients and used to assign a clinical disease status for each follow-up visit."
+},
+{
+"label": "Results",
+"text": "Following excisional surgery, in the absence of clinical residual disease at the post-operative visit, patients with Cancer Signal Detected results at that visit were 1.95-times as likely to have clinical recurrence within 6 months compared to patients with Cancer Signal Not Detected results. In the subset of patients with longitudinal liquid biopsy samples that had clinical recurrence documented during the study period, 73% (8/11; 95% CI: 39 – 93%) of patients had Cancer Signal Detected in blood prior to or concomitant with clinical recurrence; in the 6 patients where molecular recurrence was detected prior to clinical recurrence, the median lead time was 168 days (range: 47 – 238)."
+},
+{
+"label": "Clinical Relevance",
+"text": "Next-generation sequencing-based liquid biopsy is a non-invasive tool for cancer monitoring in dogs that can be used as an adjunct to current standard-of-care clinical assessment methods."
+}
+],
+"text": "The purpose of this study was to evaluate the performance of a next-generation sequencing-based liquid biopsy test for cancer monitoring in dogs. Pre- and post-operative blood samples were collected prospectively from dogs with confirmed cancer diagnoses originally enrolled in the CANcer Detection in Dogs (CANDiD) study. A subset of these dogs also had longitudinal blood samples collected for recurrence monitoring. All patients had a pre-operative blood sample collected (after diagnosis but prior to surgical intervention) in which a cancer signal was detected, and had at least one post-operative sample collected. Clinical data were collected for all patients and used to assign a clinical disease status for each follow-up visit. Following excisional surgery, in the absence of clinical residual disease at the post-operative visit, patients with Cancer Signal Detected results at that visit were 1.95-times as likely to have clinical recurrence within 6 months compared to patients with Cancer Signal Not Detected results. In the subset of patients with longitudinal liquid biopsy samples that had clinical recurrence documented during the study period, 73% (8/11; 95% CI: 39 – 93%) of patients had Cancer Signal Detected in blood prior to or concomitant with clinical recurrence; in the 6 patients where molecular recurrence was detected prior to clinical recurrence, the median lead time was 168 days (range: 47 – 238). Next-generation sequencing-based liquid biopsy is a non-invasive tool for cancer monitoring in dogs that can be used as an adjunct to current standard-of-care clinical assessment methods.",
+"statements": [
+{
+"j": 1,
+"text": "The liquid biopsy test detected cancer signals earlier than diagnostic imaging in these dogs."
+},
+{
+"j": 2,
+"text": "Dogs with a Cancer Signal Detected result after surgery were 1.95 times as likely to recur within six months as those without."
+},
+{
+"j": 3,
+"text": "Among recurrent dogs with longitudinal samples, 73% had a cancer signal detected before or at the time of clinical recurrence."
+},
+{
+"j": 4,
+"text": "Where molecular recurrence preceded clinical recurrence, the median lead time was only about 28 days."
+}
+]
+},
+{
+"n": 353,
+"id": "doi:10.1101/2023.03.28.23287866",
+"year": 2023,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": "PURPOSE",
+"text": "Optimal patient selection for neoadjuvant chemotherapy prior to surgical extirpation is limited by the inaccuracy of contemporary clinical staging methods in high-risk upper tract urothelial carcinoma (UTUC). We investigated whether the detection of plasma circulating tumor DNA (ctDNA) can predict muscle-invasive and non-organ confined (MI/NOC) UTUC."
+},
+{
+"label": "PATIENTS AND METHODS",
+"text": "Plasma cell-free DNA was prospectively collected from chemotherapy-naïve, high-risk UTUC patients undergoing surgical extirpation and sequenced using a 152-gene panel and low-pass whole-genome sequencing. To test for concordance, whole exome sequencing was performed on matching tumor samples. The performance of ctDNA for predicting MI/NOC UTUC was summarized using area under a receiver-operating curve and the optimal variant count threshold determined using Younden’s J statistic. Kaplan-Meier methods estimated survival, and Mantel-Cox log-rank testing assessed the association between preoperative ctDNA positivity and clinical outcomes."
+},
+{
+"label": "RESULTS",
+"text": "Of 30 patients prospectively enrolled, 14 were found to have MI/NOC UTUC. At least one ctDNA variant was detected from 21/30 (70%) patients with 52% concordance with matching tumor samples. Detection of at least two panel-based molecular alterations provided the optimal sensitivity and specificity to predict MI/NOC UTUC. Imposing this threshold in combination with a plasma copy number burden score >6.5 achieved a sensitivity of 79% and specificity of 94% in predicting MI/NOC UTUC. Furthermore, the presence of ctDNA was strongly prognostic for progression-free survival (1-yr PFS 69% vs. 100%, p<0.01) and overall survival (1-yr OS 56% vs. 100%, p<0.02)."
+},
+{
+"label": "CONCLUSION",
+"text": "The detection of plasma ctDNA prior to extirpative surgery was highly predictive of MI/NOC UTUC and strongly prognostic of PFS and OS. Preoperative ctDNA demonstrates promise as a biomarker for selecting patients to undergo neoadjuvant chemotherapy prior to nephroureterectomy."
+}
+],
+"text": "Optimal patient selection for neoadjuvant chemotherapy prior to surgical extirpation is limited by the inaccuracy of contemporary clinical staging methods in high-risk upper tract urothelial carcinoma (UTUC). We investigated whether the detection of plasma circulating tumor DNA (ctDNA) can predict muscle-invasive and non-organ confined (MI/NOC) UTUC. Plasma cell-free DNA was prospectively collected from chemotherapy-naïve, high-risk UTUC patients undergoing surgical extirpation and sequenced using a 152-gene panel and low-pass whole-genome sequencing. To test for concordance, whole exome sequencing was performed on matching tumor samples. The performance of ctDNA for predicting MI/NOC UTUC was summarized using area under a receiver-operating curve and the optimal variant count threshold determined using Younden’s J statistic. Kaplan-Meier methods estimated survival, and Mantel-Cox log-rank testing assessed the association between preoperative ctDNA positivity and clinical outcomes. Of 30 patients prospectively enrolled, 14 were found to have MI/NOC UTUC. At least one ctDNA variant was detected from 21/30 (70%) patients with 52% concordance with matching tumor samples. Detection of at least two panel-based molecular alterations provided the optimal sensitivity and specificity to predict MI/NOC UTUC. Imposing this threshold in combination with a plasma copy number burden score >6.5 achieved a sensitivity of 79% and specificity of 94% in predicting MI/NOC UTUC. Furthermore, the presence of ctDNA was strongly prognostic for progression-free survival (1-yr PFS 69% vs. 100%, p<0.01) and overall survival (1-yr OS 56% vs. 100%, p<0.02). The detection of plasma ctDNA prior to extirpative surgery was highly predictive of MI/NOC UTUC and strongly prognostic of PFS and OS. Preoperative ctDNA demonstrates promise as a biomarker for selecting patients to undergo neoadjuvant chemotherapy prior to nephroureterectomy.",
+"statements": [
+{
+"j": 1,
+"text": "ctDNA variants were detected in 70% (21 of 30) of enrolled patients."
+},
+{
+"j": 2,
+"text": "Combining at least two molecular alterations with a copy number burden score above 6.5 gave 79% sensitivity and 94% specificity for MI/NOC disease."
+},
+{
+"j": 3,
+"text": "Preoperative ctDNA positivity showed no significant association with progression-free or overall survival."
+},
+{
+"j": 4,
+"text": "Patients received neoadjuvant chemotherapy guided by their ctDNA results."
+}
+]
+},
+{
+"n": 354,
+"id": "pmid:42391674",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Triple-negative breast cancer (TNBC) is an aggressive subtype lacking effective targeted therapies. Galectins, a family of β-galactoside-binding lectins, have emerged as important mediators of tumor-immune interactions, but their cell-type-specific expression patterns and functional roles within the tumor microenvironment of TNBC remain poorly defined."
+},
+{
+"label": "Methods",
+"text": "We integrated bulk transcriptomic and genomic data from FUSCC (n = 465) and TCGA (n = 161) TNBC cohorts with single-cell RNA sequencing data from 26 treatment-naïve patients. We systematically assessed galectin expression, genomic alterations, prognostic significance, associations with immune checkpoints and immune infiltration, and cell-type-specific patterns linked to immune contexts and therapeutic response."
+},
+{
+"label": "Results",
+"text": "Galectin family members showed broad dysregulation in TNBC, with recurrent copy number alterations contributing to transcriptional heterogeneity. At the bulk level, LGALS2 was associated with favorable survival, while LGALS3 predicted poor prognosis. Several galectins, including LGALS2, LGALS9, and LGALS10, exhibited positive correlations with immune checkpoint expression and enriched immune infiltration, particularly involving CD8⁺ T cells and tumor-infiltrating lymphocytes. Single-cell analysis revealed distinct galectin expression across malignant, immune, and stromal compartments, suggesting heterogeneous transcriptomically inferred immune contexts. Galectin expression also differed by treatment response: pathological complete response (pCR) to neoadjuvant chemo-immunotherapy was associated with higher LGALS3 and lower LGALS2, LGALS8, and LGALS9, while pCR to chemotherapy was linked to higher LGALS9 and lower LGALS1."
+},
+{
+"label": "Conclusions",
+"text": "Our study comprehensively characterizes galectin family members in TNBC, revealing their prognostic significance and association with tumor microenvironment and treatment response, and highlighting the clinical and translational relevance of galectins as candidate biomarkers and hypothesis-generating molecules for future mechanistic studies."
+}
+],
+"text": "Triple-negative breast cancer (TNBC) is an aggressive subtype lacking effective targeted therapies. Galectins, a family of β-galactoside-binding lectins, have emerged as important mediators of tumor-immune interactions, but their cell-type-specific expression patterns and functional roles within the tumor microenvironment of TNBC remain poorly defined. We integrated bulk transcriptomic and genomic data from FUSCC (n = 465) and TCGA (n = 161) TNBC cohorts with single-cell RNA sequencing data from 26 treatment-naïve patients. We systematically assessed galectin expression, genomic alterations, prognostic significance, associations with immune checkpoints and immune infiltration, and cell-type-specific patterns linked to immune contexts and therapeutic response. Galectin family members showed broad dysregulation in TNBC, with recurrent copy number alterations contributing to transcriptional heterogeneity. At the bulk level, LGALS2 was associated with favorable survival, while LGALS3 predicted poor prognosis. Several galectins, including LGALS2, LGALS9, and LGALS10, exhibited positive correlations with immune checkpoint expression and enriched immune infiltration, particularly involving CD8⁺ T cells and tumor-infiltrating lymphocytes. Single-cell analysis revealed distinct galectin expression across malignant, immune, and stromal compartments, suggesting heterogeneous transcriptomically inferred immune contexts. Galectin expression also differed by treatment response: pathological complete response (pCR) to neoadjuvant chemo-immunotherapy was associated with higher LGALS3 and lower LGALS2, LGALS8, and LGALS9, while pCR to chemotherapy was linked to higher LGALS9 and lower LGALS1. Our study comprehensively characterizes galectin family members in TNBC, revealing their prognostic significance and association with tumor microenvironment and treatment response, and highlighting the clinical and translational relevance of galectins as candidate biomarkers and hypothesis-generating molecules for future mechanistic studies.",
+"statements": [
+{
+"j": 1,
+"text": "The analysis combined bulk FUSCC (465 patients) and TCGA (161 patients) cohorts with single-cell data from 26 treatment-naive patients."
+},
+{
+"j": 2,
+"text": "Knockdown of LGALS3 in TNBC cell lines reduced tumour growth."
+},
+{
+"j": 3,
+"text": "At the bulk level LGALS2 tracked with better survival while LGALS3 marked worse prognosis."
+},
+{
+"j": 4,
+"text": "Pathological complete response to chemo-immunotherapy was associated with lower LGALS3 and higher LGALS2."
+}
+]
+},
+{
+"n": 355,
+"id": "pmid:40763617",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background and aims",
+"text": "There is an urgent need for effective prognostic biomarkers to better stratify patients with advanced hepatocellular carcinoma (HCC) undergoing systemic therapy. Shallow whole-genome sequencing (sWGS) of cell-free DNA (cfDNA) is a cost-effective approach for assessing circulating tumour DNA (ctDNA), genomic alterations, and fragmentomic patterns. This study aimed to evaluate sWGS-derived biomarkers as predictors of outcomes in advanced HCC patients receiving systemic treatment."
+},
+{
+"label": "Methods",
+"text": "Pretreatment plasma samples from 134 patients treated with either tyrosine kinase inhibitors (TKIs; n = 83) or immune checkpoint inhibitors (ICIs; n = 51) were analysed using sWGS. Tumour fraction (TF) and copy number alterations (CNAs) were derived using ichorCNA, while DNA fragmentation was assessed using the DELFI approach. Associations with progression-free survival (PFS) and overall survival (OS) were evaluated."
+},
+{
+"label": "Results",
+"text": "High TF was significantly associated with shorter median PFS (3.0 vs. 10.6 months; p<0.001) and OS (7.8 vs. 21.6 months; p=0.02). High fragmentation similarly correlated with reduced PFS (4.7 vs. 10.7 months; p<0.001) and OS (13.1 vs. 22.3 months; p<0.001). In multivariate analysis within the ICI subgroup, high fragmentation and BCLC stage independently predicted shorter PFS and OS. High AFP levels, advanced BCLC stage, and larger tumours correlated with elevated TF. Frequent CNA gains were observed in chromosomal arms 1q and 8q."
+},
+{
+"label": "Conclusion",
+"text": "High TF and high fragmentation levels are associated with worse clinical outcomes in advanced HCC patients treated with systemic therapy, making them promising prognostic biomarkers to consider for guiding treatment decisions."
+}
+],
+"text": "There is an urgent need for effective prognostic biomarkers to better stratify patients with advanced hepatocellular carcinoma (HCC) undergoing systemic therapy. Shallow whole-genome sequencing (sWGS) of cell-free DNA (cfDNA) is a cost-effective approach for assessing circulating tumour DNA (ctDNA), genomic alterations, and fragmentomic patterns. This study aimed to evaluate sWGS-derived biomarkers as predictors of outcomes in advanced HCC patients receiving systemic treatment. Pretreatment plasma samples from 134 patients treated with either tyrosine kinase inhibitors (TKIs; n = 83) or immune checkpoint inhibitors (ICIs; n = 51) were analysed using sWGS. Tumour fraction (TF) and copy number alterations (CNAs) were derived using ichorCNA, while DNA fragmentation was assessed using the DELFI approach. Associations with progression-free survival (PFS) and overall survival (OS) were evaluated. High TF was significantly associated with shorter median PFS (3.0 vs. 10.6 months; p<0.001) and OS (7.8 vs. 21.6 months; p=0.02). High fragmentation similarly correlated with reduced PFS (4.7 vs. 10.7 months; p<0.001) and OS (13.1 vs. 22.3 months; p<0.001). In multivariate analysis within the ICI subgroup, high fragmentation and BCLC stage independently predicted shorter PFS and OS. High AFP levels, advanced BCLC stage, and larger tumours correlated with elevated TF. Frequent CNA gains were observed in chromosomal arms 1q and 8q. High TF and high fragmentation levels are associated with worse clinical outcomes in advanced HCC patients treated with systemic therapy, making them promising prognostic biomarkers to consider for guiding treatment decisions.",
+"statements": [
+{
+"j": 1,
+"text": "Recurrent copy number gains were seen on chromosome arms 1q and 8q."
+},
+{
+"j": 2,
+"text": "Tumour fraction measurement outperformed serum AFP for predicting survival."
+},
+{
+"j": 3,
+"text": "High DNA fragmentation was associated with longer progression-free and overall survival."
+},
+{
+"j": 4,
+"text": "High tumour fraction was tied to a shorter median PFS of 3.0 versus 10.6 months."
+}
+]
+},
+{
+"n": 356,
+"id": "doi:10.1101/2025.10.01.679811",
+"year": 2025,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "The tumor suppressor p53 protects genomic integrity in part by regulating transposable elements (TEs). Most studies of p53-TE interactions rely on synthetic DNA and reporter assays, which estimate expression only at the family or subfamily level and lack locus-specific resolution. To address this limitation, we developed a computational pipeline for ChIP-seq and RNA-seq analysis that employs advanced algorithms to accurately assign short reads mapping to multiple genomic locations. This approach enables precise quantification of TE transcripts at the locus level. By integrating p53 ChIP peaks with differentially expressed TE transcripts, we identified retroelements directly regulated by p53. Applying this framework to lung fibroblast IMR90 and colon cancer HCT116 cells treated with p53 activators, we observed a striking pattern: TEs were predominantly activated in normal IMR90 cells but repressed in HCT116 cancer cells. Analysis of 24 transcriptomes and 10 cistromes further confirmed this trend, distinguishing normal from cancer cell regulation. At the family level, normal cells showed broad TE upregulation, whereas cancer cells exhibited selective repression of Alu and LINE elements, with weaker effects on endogenous retroviruses. These findings provide the first comprehensive, locus-specific view of p53-mediated TE regulation, highlighting distinct chromatin-dependent dynamics in normal and cancer cells."
+}
+],
+"text": "The tumor suppressor p53 protects genomic integrity in part by regulating transposable elements (TEs). Most studies of p53-TE interactions rely on synthetic DNA and reporter assays, which estimate expression only at the family or subfamily level and lack locus-specific resolution. To address this limitation, we developed a computational pipeline for ChIP-seq and RNA-seq analysis that employs advanced algorithms to accurately assign short reads mapping to multiple genomic locations. This approach enables precise quantification of TE transcripts at the locus level. By integrating p53 ChIP peaks with differentially expressed TE transcripts, we identified retroelements directly regulated by p53. Applying this framework to lung fibroblast IMR90 and colon cancer HCT116 cells treated with p53 activators, we observed a striking pattern: TEs were predominantly activated in normal IMR90 cells but repressed in HCT116 cancer cells. Analysis of 24 transcriptomes and 10 cistromes further confirmed this trend, distinguishing normal from cancer cell regulation. At the family level, normal cells showed broad TE upregulation, whereas cancer cells exhibited selective repression of Alu and LINE elements, with weaker effects on endogenous retroviruses. These findings provide the first comprehensive, locus-specific view of p53-mediated TE regulation, highlighting distinct chromatin-dependent dynamics in normal and cancer cells.",
+"statements": [
+{
+"j": 1,
+"text": "In cancer cells, p53 activation broadly upregulated Alu and LINE elements."
+},
+{
+"j": 2,
+"text": "In normal IMR90 fibroblasts TEs were mostly activated, while in HCT116 cancer cells they were repressed after p53 activation."
+},
+{
+"j": 3,
+"text": "The trend was corroborated across 24 transcriptomes and 10 cistromes."
+},
+{
+"j": 4,
+"text": "The locus-specific TE changes were shown to alter expression of neighbouring protein-coding genes."
+}
+]
+},
+{
+"n": 357,
+"id": "pmid:42759900",
+"year": 2026,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Anncaliia algerae Undeen is an obligate intracellular microsporidian parasite with an unusually broad host range and a genome enriched in transposable elements (TEs). Using PacBio HiFi sequencing and transcriptomic support, we generated a near chromosome-level assembly of the A. algerae Undeen strain. The haploid genome spans 11.78 Mb in 17 contigs and contains 2705 protein-coding genes. This high-quality assembly provides a detailed view of genome architecture and ploidy. Remarkably, TEs occupy about 24% of the genome and are represented by 4972 copies distributed across 260 families, highlighting exceptional diversity. Among these, Merlin DNA transposons and Ty3 LTR retrotransposons are the most abundant, while other TE classes occur at lower frequencies. This improved genome assembly and annotation provide a robust framework for future studies of genome evolution, TE dynamics, and host adaptation in A. algerae."
+}
+],
+"text": "Anncaliia algerae Undeen is an obligate intracellular microsporidian parasite with an unusually broad host range and a genome enriched in transposable elements (TEs). Using PacBio HiFi sequencing and transcriptomic support, we generated a near chromosome-level assembly of the A. algerae Undeen strain. The haploid genome spans 11.78 Mb in 17 contigs and contains 2705 protein-coding genes. This high-quality assembly provides a detailed view of genome architecture and ploidy. Remarkably, TEs occupy about 24% of the genome and are represented by 4972 copies distributed across 260 families, highlighting exceptional diversity. Among these, Merlin DNA transposons and Ty3 LTR retrotransposons are the most abundant, while other TE classes occur at lower frequencies. This improved genome assembly and annotation provide a robust framework for future studies of genome evolution, TE dynamics, and host adaptation in A. algerae.",
+"statements": [
+{
+"j": 1,
+"text": "The broad host range of A. algerae is driven by its high transposable-element content."
+},
+{
+"j": 2,
+"text": "Transposable elements make up roughly 60% of the genome."
+},
+{
+"j": 3,
+"text": "Merlin DNA transposons and Ty3 LTR retrotransposons were the most abundant TEs."
+},
+{
+"j": 4,
+"text": "The haploid assembly is 11.78 Mb across 17 contigs with 2705 protein-coding genes."
+}
+]
+},
+{
+"n": 358,
+"id": "pmid:39697708",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Glioma is a primary malignant brain tumor with a poor prognosis. Glioma-related biomarkers need to be identified to enable the personalized treatment of and predict the prognosis of glioma patients. Cuproptosis is an unusual mechanism of cell death, and is closely associated with disease progression and the immune-microenvironment of the tumor. However, the function of cuproptosis in glioma is still unclear, therefore the aim of this study was to investigate the role of cuproptosis-related genes in gliomas."
+},
+{
+"label": "Methods",
+"text": "We examined the relationship between cuproptosis and glioma using the clinical and expression data of glioma tumors from The Cancer Genome Atlas (TCGA) and the Chinese Glioma Genome Atlas (CGGA)."
+},
+{
+"label": "Results",
+"text": "First, we determined the rate of somatic mutations and copy number variations (CNVs) of 51 copper homeostasis-related genes and studied their correlation with prognosis. We then identified three molecular subgroups of copper homeostasis-related genes linked to prognosis. We discovered that different subgroups had distinct immune and biological features. We then developed a prognostic model by least absolute shrinkage and selection operator (LASSO) regression that comprised four cuproptosis-related genes; that is, a solute carrier family 31 member A1 ( SLC31A1 ), microtubule-associated protein tau ( MAPT ), ATPase beta ( ATP7B ), and six-transmembrane epithelial antigen of prostate 3 ( STEAP3 ). This model was found to have strong prognostic ability in the CGGA cohort (P<0.05)."
+},
+{
+"label": "Conclusions",
+"text": "We investigated the function of copper homeostasis-related genes in neuroglioma and their relationship with tumor immunology. Our in-depth analyses revealed that these biomarkers are useful for diagnostic and prognostic purposes and could be used to guide our understanding of the progression of and treatment of glioma tumorigenesis."
+}
+],
+"text": "Glioma is a primary malignant brain tumor with a poor prognosis. Glioma-related biomarkers need to be identified to enable the personalized treatment of and predict the prognosis of glioma patients. Cuproptosis is an unusual mechanism of cell death, and is closely associated with disease progression and the immune-microenvironment of the tumor. However, the function of cuproptosis in glioma is still unclear, therefore the aim of this study was to investigate the role of cuproptosis-related genes in gliomas. We examined the relationship between cuproptosis and glioma using the clinical and expression data of glioma tumors from The Cancer Genome Atlas (TCGA) and the Chinese Glioma Genome Atlas (CGGA). First, we determined the rate of somatic mutations and copy number variations (CNVs) of 51 copper homeostasis-related genes and studied their correlation with prognosis. We then identified three molecular subgroups of copper homeostasis-related genes linked to prognosis. We discovered that different subgroups had distinct immune and biological features. We then developed a prognostic model by least absolute shrinkage and selection operator (LASSO) regression that comprised four cuproptosis-related genes; that is, a solute carrier family 31 member A1 ( SLC31A1 ), microtubule-associated protein tau ( MAPT ), ATPase beta ( ATP7B ), and six-transmembrane epithelial antigen of prostate 3 ( STEAP3 ). This model was found to have strong prognostic ability in the CGGA cohort (P<0.05). We investigated the function of copper homeostasis-related genes in neuroglioma and their relationship with tumor immunology. Our in-depth analyses revealed that these biomarkers are useful for diagnostic and prognostic purposes and could be used to guide our understanding of the progression of and treatment of glioma tumorigenesis.",
+"statements": [
+{
+"j": 1,
+"text": "Clustering of copper homeostasis genes defined two prognostic molecular subgroups."
+},
+{
+"j": 2,
+"text": "The authors assessed somatic mutation and copy number variation rates across 51 copper homeostasis-related genes."
+},
+{
+"j": 3,
+"text": "The four-gene model predicted response to temozolomide chemotherapy in glioma patients."
+},
+{
+"j": 4,
+"text": "A LASSO model of four cuproptosis genes showed strong prognostic ability in the CGGA cohort."
+}
+]
+},
+{
+"n": 359,
+"id": "doi:10.64898/2026.02.05.704104",
+"year": 2026,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Inactivating mutations in BRCA1-associated protein 1 ( BAP1 ) are observed in approximately 45% of primary and ∼85% of metastatic uveal melanoma (UM) cases and are strongly correlated with aggressive phenotypes and poor prognosis. However, the mechanistic contribution of BAP1 to tumor aggressiveness remains elusive. This study investigates the role of BAP1 loss in senescence and explores the potential therapeutic implications of targeting senescence pathway. Analysis of The Cancer Genome Atlas UM cohort revealed that BAP1-mutant tumors exhibited increased senescence pathway activity score, and elevated expression of multiple cytokines, chemokines, growth factors and matrix-remodeling enzymes related to senescence-associated secretory phase. Functional assays revealed that BAP1 loss promotes senescence hallmarks including upregulated p16, p21, and phospho-ATM proteins, increased β-gal positive cells, accumulated γH2AX foci, depleted lamin B1, and reduced PARP1 cleavage and Ki67 levels. These effects were further exacerbated following radiation exposure. Importantly, BAP1 knockdown, alone or in combination with ionizing radiation, sensitized UM cells to senolytic agents, dasatinib and quercetin. In conclusion, our findings identify BAP1 loss as a driver of senescence and suggest that BAP1 -mutant tumors may benefit from senolytics treatment."
+}
+],
+"text": "Inactivating mutations in BRCA1-associated protein 1 ( BAP1 ) are observed in approximately 45% of primary and ∼85% of metastatic uveal melanoma (UM) cases and are strongly correlated with aggressive phenotypes and poor prognosis. However, the mechanistic contribution of BAP1 to tumor aggressiveness remains elusive. This study investigates the role of BAP1 loss in senescence and explores the potential therapeutic implications of targeting senescence pathway. Analysis of The Cancer Genome Atlas UM cohort revealed that BAP1-mutant tumors exhibited increased senescence pathway activity score, and elevated expression of multiple cytokines, chemokines, growth factors and matrix-remodeling enzymes related to senescence-associated secretory phase. Functional assays revealed that BAP1 loss promotes senescence hallmarks including upregulated p16, p21, and phospho-ATM proteins, increased β-gal positive cells, accumulated γH2AX foci, depleted lamin B1, and reduced PARP1 cleavage and Ki67 levels. These effects were further exacerbated following radiation exposure. Importantly, BAP1 knockdown, alone or in combination with ionizing radiation, sensitized UM cells to senolytic agents, dasatinib and quercetin. In conclusion, our findings identify BAP1 loss as a driver of senescence and suggest that BAP1 -mutant tumors may benefit from senolytics treatment.",
+"statements": [
+{
+"j": 1,
+"text": "Loss of BAP1 raised senescence markers such as p16 and p21 and sensitized cells to the senolytics dasatinib and quercetin."
+},
+{
+"j": 2,
+"text": "Senolytic treatment improved survival in patients with BAP1-mutant uveal melanoma."
+},
+{
+"j": 3,
+"text": "BAP1 loss reduced senescence markers, lowering p16 and p21 and increasing lamin B1."
+},
+{
+"j": 4,
+"text": "BAP1 inactivating mutations occur in about 45% of primary and around 85% of metastatic uveal melanomas."
+}
+]
+},
+{
+"n": 360,
+"id": "pmid:41132644",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Glioma, the most prevalent primary brain tumor, exhibits dysregulated ribosome biogenesis closely linked to malignant behavior. However, the role of ribosome biogenesis in glioma and prognosis remains incompletely understood. This study aimed to construct a molecular signature based on ribosome biogenesis-related genes to predict patient survival and therapeutic response in glioma."
+},
+{
+"label": "Methods",
+"text": "Utilizing The Cancer Genome Atlas (TCGA) glioma cohort data, we constructed a ribosome biogenesis-related genes (RBRGs) signature using LASSO regression and multivariate Cox analyses, and subsequently validating its prognostic value in independent cohorts. We systematically evaluated the signature's associations with clinicopathological features, tumor immunity, genomic instability, tumor stemness, and therapeutic sensitivity. The oncogenic role of the key gene UTP20 was experimentally validated in U87 and U251 glioma cell lines through MTS, colony formation, and transwell assays."
+},
+{
+"label": "Results",
+"text": "We established a four-gene RBRGs signature (NOP10, UTP20, SHQ1, and PIH1D2). Elevated RBRGs score significantly correlated with shortened overall survival and adverse clinical characteristics, including advanced age, high WHO grade, IDH wild-type status, and absence of 1p/19q codeletion. A nomogram incorporating the RBRGs score demonstrated excellent predictive performance (C-index = 0.841). RBRGs-associated genes were enriched in immune regulatory pathways. The high-risk group exhibited increased infiltration of immunosuppressive cells (macrophages, myeloid-derived suppressor cells [MDSCs], and cancer-associated fibroblasts [CAFs]), upregulation of immunosuppressive checkpoints, and resistance to immunotherapy. Furthermore, the RBRGs signature correlated with genomic alterations, heterogeneity, tumor stemness, and therapeutic sensitivity. Crucially, UTP20 knockdown significantly suppressed glioma cell proliferation and invasion in vitro ."
+},
+{
+"label": "Conclusion",
+"text": "The RBRGs signature was successfully developed and validated as an independent prognostic biomarker and predictor of therapeutic response in glioma, highlighting its extensive association with tumor heterogeneity. Furthermore, this study identified UTP20 as a key oncogenic driver that facilitates glioma progression."
+}
+],
+"text": "Glioma, the most prevalent primary brain tumor, exhibits dysregulated ribosome biogenesis closely linked to malignant behavior. However, the role of ribosome biogenesis in glioma and prognosis remains incompletely understood. This study aimed to construct a molecular signature based on ribosome biogenesis-related genes to predict patient survival and therapeutic response in glioma. Utilizing The Cancer Genome Atlas (TCGA) glioma cohort data, we constructed a ribosome biogenesis-related genes (RBRGs) signature using LASSO regression and multivariate Cox analyses, and subsequently validating its prognostic value in independent cohorts. We systematically evaluated the signature's associations with clinicopathological features, tumor immunity, genomic instability, tumor stemness, and therapeutic sensitivity. The oncogenic role of the key gene UTP20 was experimentally validated in U87 and U251 glioma cell lines through MTS, colony formation, and transwell assays. We established a four-gene RBRGs signature (NOP10, UTP20, SHQ1, and PIH1D2). Elevated RBRGs score significantly correlated with shortened overall survival and adverse clinical characteristics, including advanced age, high WHO grade, IDH wild-type status, and absence of 1p/19q codeletion. A nomogram incorporating the RBRGs score demonstrated excellent predictive performance (C-index = 0.841). RBRGs-associated genes were enriched in immune regulatory pathways. The high-risk group exhibited increased infiltration of immunosuppressive cells (macrophages, myeloid-derived suppressor cells [MDSCs], and cancer-associated fibroblasts [CAFs]), upregulation of immunosuppressive checkpoints, and resistance to immunotherapy. Furthermore, the RBRGs signature correlated with genomic alterations, heterogeneity, tumor stemness, and therapeutic sensitivity. Crucially, UTP20 knockdown significantly suppressed glioma cell proliferation and invasion in vitro . The RBRGs signature was successfully developed and validated as an independent prognostic biomarker and predictor of therapeutic response in glioma, highlighting its extensive association with tumor heterogeneity. Furthermore, this study identified UTP20 as a key oncogenic driver that facilitates glioma progression.",
+"statements": [
+{
+"j": 1,
+"text": "The RBRGs signature was also validated in a cohort of non-glioma brain tumours."
+},
+{
+"j": 2,
+"text": "Knockdown of UTP20 increased glioma cell proliferation and invasion in vitro."
+},
+{
+"j": 3,
+"text": "A nomogram including the RBRGs score reached a C-index of 0.841."
+},
+{
+"j": 4,
+"text": "The four-gene signature comprised NOP10, UTP20, SHQ1 and PIH1D2."
+}
+]
+},
+{
+"n": 361,
+"id": "doi:10.1101/2025.09.16.25335936",
+"year": 2025,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "Venous thromboembolism (VTE) is a common complication of cancer. Complex interactions between tumour biology and the haemostatic system may contribute to development of cancer-associated VTE."
+},
+{
+"label": "Objectives",
+"text": "This study examined associations of somatic mutations with VTE in a large multi-cancer cohort."
+},
+{
+"label": "Methods",
+"text": "We analysed paired tumour and germline whole genome sequence data and electronic health records from 12,507 cancer patients recruited to the Genomics England National Genomic Research Library, to evaluate associations of somatic mutations across 608 genes, overall tumour mutational burden (TMB) and 25 single base substitution (SBS) mutational signatures with VTE. Interactions between somatic mutations and a germline polygenic risk score for VTE were also assessed."
+},
+{
+"label": "Results",
+"text": "In multivariable Cox regressions adjusted for age, sex and genetic ancestry, somatic mutations in four genes associated with higher rates of VTE at a false-discovery rate <0.1: CDKN2A (Hazard ratio, HR=1.62 [95% confidence interval, 1.23-2.13]) , KRAS (HR=1.31 [1.12-1.53]), PCDH15 (HR=1.48 [1.24-1.76]) and TP53 (HR=1.55 [1.38-1.73] ). SBS8, a common mutation signature of unknown aetiology, was also associated with higher rates of VTE (HR=1.39 [1.16-1.66]). In contrast, TMB ≥20 mutations/Mb, two DNA mismatch repair signatures (SBS6 and SBS26) and one rare signature of unknown aetiology (SBS19) associated with lower rates of VTE. Evidence for these associations remained robust after additional adjustment for tumour type, stage, and systemic anti-cancer treatment."
+},
+{
+"label": "Conclusions",
+"text": "These findings support the hypothesis that tumour somatic mutations influence risk of VTE. This may provide insights into the pathophysiology of cancer-associated VTE and inform future efforts to improve clinical risk prediction."
+}
+],
+"text": "Venous thromboembolism (VTE) is a common complication of cancer. Complex interactions between tumour biology and the haemostatic system may contribute to development of cancer-associated VTE. This study examined associations of somatic mutations with VTE in a large multi-cancer cohort. We analysed paired tumour and germline whole genome sequence data and electronic health records from 12,507 cancer patients recruited to the Genomics England National Genomic Research Library, to evaluate associations of somatic mutations across 608 genes, overall tumour mutational burden (TMB) and 25 single base substitution (SBS) mutational signatures with VTE. Interactions between somatic mutations and a germline polygenic risk score for VTE were also assessed. In multivariable Cox regressions adjusted for age, sex and genetic ancestry, somatic mutations in four genes associated with higher rates of VTE at a false-discovery rate <0.1: CDKN2A (Hazard ratio, HR=1.62 [95% confidence interval, 1.23-2.13]) , KRAS (HR=1.31 [1.12-1.53]), PCDH15 (HR=1.48 [1.24-1.76]) and TP53 (HR=1.55 [1.38-1.73] ). SBS8, a common mutation signature of unknown aetiology, was also associated with higher rates of VTE (HR=1.39 [1.16-1.66]). In contrast, TMB ≥20 mutations/Mb, two DNA mismatch repair signatures (SBS6 and SBS26) and one rare signature of unknown aetiology (SBS19) associated with lower rates of VTE. Evidence for these associations remained robust after additional adjustment for tumour type, stage, and systemic anti-cancer treatment. These findings support the hypothesis that tumour somatic mutations influence risk of VTE. This may provide insights into the pathophysiology of cancer-associated VTE and inform future efforts to improve clinical risk prediction.",
+"statements": [
+{
+"j": 1,
+"text": "A high tumour mutational burden of at least 20 mutations/Mb was associated with higher rates of VTE."
+},
+{
+"j": 2,
+"text": "The analysis drew on paired tumour and germline whole-genome sequencing from 12,507 cancer patients."
+},
+{
+"j": 3,
+"text": "Anticoagulant prophylaxis reduced VTE incidence in patients carrying these somatic mutations."
+},
+{
+"j": 4,
+"text": "Somatic mutations in CDKN2A, KRAS, PCDH15 and TP53 were each associated with higher rates of VTE."
+}
+]
+},
+{
+"n": 362,
+"id": "pmid:39379476",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Hutchinson-Gilfor progeria syndrome (HGPS) is caused by a mutation in Lamin A resulting in the production of a protein called progerin. The accumulation of progerin induces inflammation, cellular senescence and activation of the P53 pathway. In this study, through public dataset analysis, we identified Syntaxin Binding Protein 5 (STXBP5) as an influencing factor of progerin expression. STXBP5 overexpression accelerated the onset of senescence, while STXBP5 deletion suppressed progerin expression, delayed senility, and decreased the expression of senescence-related factors. STXBP5 and progerin have synergistic effects and a protein-protein interaction. Through bioinformatics analysis, we found that STXBP5 affects ageing-related signalling pathways such as the mitogen-activated protein kinase (MAPK) pathway, the hippo pathway and the interleukin 17 (IL17) signalling pathway in progerin-expressing cells. In addition, STXBP5 overexpression induced changes in transposable elements (TEs), such as the human endogenous retrovirus H internal coding sequence (HERVH-int) changes. Our protein coimmunoprecipitation (Co-IP) results indicated that STXBP5 bound directly to progerin. Therefore, decreasing STXBP5 expression is a potential new therapeutic strategy for treating ageing-related phenotypes in patients with HGPS."
+}
+],
+"text": "Hutchinson-Gilfor progeria syndrome (HGPS) is caused by a mutation in Lamin A resulting in the production of a protein called progerin. The accumulation of progerin induces inflammation, cellular senescence and activation of the P53 pathway. In this study, through public dataset analysis, we identified Syntaxin Binding Protein 5 (STXBP5) as an influencing factor of progerin expression. STXBP5 overexpression accelerated the onset of senescence, while STXBP5 deletion suppressed progerin expression, delayed senility, and decreased the expression of senescence-related factors. STXBP5 and progerin have synergistic effects and a protein-protein interaction. Through bioinformatics analysis, we found that STXBP5 affects ageing-related signalling pathways such as the mitogen-activated protein kinase (MAPK) pathway, the hippo pathway and the interleukin 17 (IL17) signalling pathway in progerin-expressing cells. In addition, STXBP5 overexpression induced changes in transposable elements (TEs), such as the human endogenous retrovirus H internal coding sequence (HERVH-int) changes. Our protein coimmunoprecipitation (Co-IP) results indicated that STXBP5 bound directly to progerin. Therefore, decreasing STXBP5 expression is a potential new therapeutic strategy for treating ageing-related phenotypes in patients with HGPS.",
+"statements": [
+{
+"j": 1,
+"text": "Co-immunoprecipitation showed that STXBP5 binds progerin directly."
+},
+{
+"j": 2,
+"text": "Reducing STXBP5 improved lifespan in a mouse model of progeria."
+},
+{
+"j": 3,
+"text": "Overexpression of STXBP5 delayed the onset of cellular senescence."
+},
+{
+"j": 4,
+"text": "Deleting STXBP5 lowered progerin expression and delayed senescence."
+}
+]
+},
+{
+"n": 363,
+"id": "pmid:38674768",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Streptococcus equi subsp. zooepidemicus ( S. zooepidemicus ) is one of the important zoonotic and opportunistic pathogens. In recent years, there has been growing evidence that supports the potential role of S. zooepidemicus in severe diseases in horses and other animals, including humans. Furthermore, the clinical isolation and drug resistance rates of S. zooepidemicus have been increasing yearly, leading to interest in its in-depth genomic analysis. In order to deepen the understanding of the S. zooepidemicus characteristics and genomic features, we investigated the genomic islands, mobile genetic elements, virulence and resistance genes, and phenotype of S. zooepidemicus strain ZHZ 211 (ST147), isolated from an equine farm in China. We obtained a 2.18 Mb, high-quality chromosome and found eight genomic islands. According to a comparative genomic investigation with other reference strains, ZHZ 211 has more virulence factors, like an iron uptake system, adherence, exoenzymes, and antiphagocytosis. More interestingly, ZHZ 211 has acquired a mobile genetic element (MGE), prophage Ph01, which was found to be in the chromosome of this strain and included two hyaluronidase ( hyl ) genes, important virulence factors of the strain. Moreover, two transposons and two virulence ( virD4 ) genes were found to be located in the same genome island of ZHZ 211. In vitro phenotypic results showed that ZHZ 211 grows faster and is resistant to clarithromycin, enrofloxacin, and sulfonamides. The higher biofilm-forming capabilities of ZHZ 211 may provide a competitive advantage for survival in its niche. The results expand our understanding of the genomic, pathogenicity, and resistance characterization of Streptococcus zooepidemicus and facilitate further exploration of its molecular pathogenic mechanism."
+}
+],
+"text": "Streptococcus equi subsp. zooepidemicus ( S. zooepidemicus ) is one of the important zoonotic and opportunistic pathogens. In recent years, there has been growing evidence that supports the potential role of S. zooepidemicus in severe diseases in horses and other animals, including humans. Furthermore, the clinical isolation and drug resistance rates of S. zooepidemicus have been increasing yearly, leading to interest in its in-depth genomic analysis. In order to deepen the understanding of the S. zooepidemicus characteristics and genomic features, we investigated the genomic islands, mobile genetic elements, virulence and resistance genes, and phenotype of S. zooepidemicus strain ZHZ 211 (ST147), isolated from an equine farm in China. We obtained a 2.18 Mb, high-quality chromosome and found eight genomic islands. According to a comparative genomic investigation with other reference strains, ZHZ 211 has more virulence factors, like an iron uptake system, adherence, exoenzymes, and antiphagocytosis. More interestingly, ZHZ 211 has acquired a mobile genetic element (MGE), prophage Ph01, which was found to be in the chromosome of this strain and included two hyaluronidase ( hyl ) genes, important virulence factors of the strain. Moreover, two transposons and two virulence ( virD4 ) genes were found to be located in the same genome island of ZHZ 211. In vitro phenotypic results showed that ZHZ 211 grows faster and is resistant to clarithromycin, enrofloxacin, and sulfonamides. The higher biofilm-forming capabilities of ZHZ 211 may provide a competitive advantage for survival in its niche. The results expand our understanding of the genomic, pathogenicity, and resistance characterization of Streptococcus zooepidemicus and facilitate further exploration of its molecular pathogenic mechanism.",
+"statements": [
+{
+"j": 1,
+"text": "The assembled chromosome measured 2.18 Mb and carried eight genomic islands."
+},
+{
+"j": 2,
+"text": "The prophage Ph01 carried two virD4 virulence genes within the chromosome."
+},
+{
+"j": 3,
+"text": "In vitro, strain ZHZ 211 was resistant to clarithromycin, enrofloxacin and sulfonamides."
+},
+{
+"j": 4,
+"text": "Strain ZHZ 211 caused more severe disease in horses than other S. zooepidemicus strains."
+}
+]
+},
+{
+"n": 364,
+"id": "pmid:40511613",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "The utility of circulating tumor DNA (ctDNA) in addressing challenges of molecular tissue profiling and complementing next-generation sequencing is undefined in pancreas ductal adenocarcinoma. The objective of this study was to assess ctDNA detection rates by stage, disease burden, and metastasis patterns; compare overall survival between ctDNA-positive and ctDNA-negative patients cases; and determine concordance between ctDNA and matched-tissue biopsies."
+},
+{
+"label": "Methods",
+"text": "Patients with pancreas ductal adenocarcinoma who had undergone Next Generation Sequencing by the MSK-ACCESS (Memorial Sloan Kettering - Analysis of Circulating cfDNA to Evaluate Somatic Status) ctDNA assay between 2019 and 2022 were included. Clinical and survival data were abstracted from a prospectively maintained clinical database."
+},
+{
+"label": "Results",
+"text": "A total of 414 patients with pancreas ductal adenocarcinoma: 28% stage I-II, 21% stage III, 51% stage IV. ctDNA detection was highest among patients with advanced disease: 75% stage IV, 38% stage III, 34% stage I-II disease. For stage IV, ctDNA was more frequently detected in patients with at least 2 organs involved vs with less than 2 organs involved (76% vs 38%, P = .025). Higher rates of ctDNA detection were observed in patients with liver metastases vs without (82% vs 52%, P < .001). In the untreated stage IV cohort (n = 120), median overall survival was 10 months for those with detectable ctDNA (95% CI = 6.9 to 14 months) vs 19 months (95% CI = 13 months to not reached) for those with undetectable ctDNA (P = .1). Concordance between ctDNA and matched tissue next-generation sequencing was lower in untreated stage I-III disease, but high for untreated stage IV pancreas ductal adenocarcinoma, including a critical success index of 93.1% of KRAS variants."
+},
+{
+"label": "Conclusion",
+"text": "ctDNA is a promising tool in the detection of somatic variants in pancreas ductal adenocarcinoma. Concordance between ctDNA and tissue is high for patients with untreated metastatic disease, notably for detection of KRAS variants."
+}
+],
+"text": "The utility of circulating tumor DNA (ctDNA) in addressing challenges of molecular tissue profiling and complementing next-generation sequencing is undefined in pancreas ductal adenocarcinoma. The objective of this study was to assess ctDNA detection rates by stage, disease burden, and metastasis patterns; compare overall survival between ctDNA-positive and ctDNA-negative patients cases; and determine concordance between ctDNA and matched-tissue biopsies. Patients with pancreas ductal adenocarcinoma who had undergone Next Generation Sequencing by the MSK-ACCESS (Memorial Sloan Kettering - Analysis of Circulating cfDNA to Evaluate Somatic Status) ctDNA assay between 2019 and 2022 were included. Clinical and survival data were abstracted from a prospectively maintained clinical database. A total of 414 patients with pancreas ductal adenocarcinoma: 28% stage I-II, 21% stage III, 51% stage IV. ctDNA detection was highest among patients with advanced disease: 75% stage IV, 38% stage III, 34% stage I-II disease. For stage IV, ctDNA was more frequently detected in patients with at least 2 organs involved vs with less than 2 organs involved (76% vs 38%, P = .025). Higher rates of ctDNA detection were observed in patients with liver metastases vs without (82% vs 52%, P < .001). In the untreated stage IV cohort (n = 120), median overall survival was 10 months for those with detectable ctDNA (95% CI = 6.9 to 14 months) vs 19 months (95% CI = 13 months to not reached) for those with undetectable ctDNA (P = .1). Concordance between ctDNA and matched tissue next-generation sequencing was lower in untreated stage I-III disease, but high for untreated stage IV pancreas ductal adenocarcinoma, including a critical success index of 93.1% of KRAS variants. ctDNA is a promising tool in the detection of somatic variants in pancreas ductal adenocarcinoma. Concordance between ctDNA and tissue is high for patients with untreated metastatic disease, notably for detection of KRAS variants.",
+"statements": [
+{
+"j": 1,
+"text": "ctDNA detection predicted response to FOLFIRINOX chemotherapy."
+},
+{
+"j": 2,
+"text": "ctDNA was detected in 75% of stage IV, 38% of stage III and 34% of stage I-II patients."
+},
+{
+"j": 3,
+"text": "Among untreated stage IV patients, those with detectable ctDNA had longer median overall survival than those without."
+},
+{
+"j": 4,
+"text": "Patients with liver metastases had higher ctDNA detection than those without (82% vs 52%)."
+}
+]
+},
+{
+"n": 365,
+"id": "doi:10.1101/2025.01.30.635750",
+"year": 2025,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "This study aimed to analyze the genome of the Methicillin-resistant Staphylococcus aureus (MRSA) strain d1418m22 through whole-genome sequencing (WGS) and comprehensive bioinformatics analysis with six references strains. De novo assembly resulted in 61 scaffolds with a total genome size of 2.78 Mb. Functional annotation revealed 2,625 predicted genes, including those involved in metabolism, cellular processes, and virulence. Comparative genomic analysis identified 20 antibiotic resistance genes, including those conferring resistance to beta-lactams, fluoroquinolones, and aminoglycosides. In addition, 21 virulence factors (VFs) were identified, including Panton-Valentine leukocidin (PVL) and various enterotoxins. The presence of staphylococcal cassette chromosome mec ( SCCmec ) type IVa and mobile genetic elements (MGEs), such as prophages and transposons, underscored the role of horizontal gene transfer (HGT) in the evolution and transmission of resistance and virulence factors. Interaction network analysis identified key hub genes involved in various cellular processes, including biofilm formation. This comprehensive genomic analysis provides valuable insights into the genetic makeup of MRSA strain d1418m22, contributing to a better understanding of its pathogenicity and potential public health implications. Six reference MRSA strains were isolated from (MRSA-AMRF4 and MRSA-AMRF5) eye infections, (MRSA and MRSA-15) wound pus, (VMRSA-WC071, and VMRSA-WC081) urine samples. The analysis identified resistance genes, virulence factors, GC content, ANI values, and SCCmec elements, which were found to be similar to those present in the resistant MRSA d1418m22 strain genome."
+}
+],
+"text": "This study aimed to analyze the genome of the Methicillin-resistant Staphylococcus aureus (MRSA) strain d1418m22 through whole-genome sequencing (WGS) and comprehensive bioinformatics analysis with six references strains. De novo assembly resulted in 61 scaffolds with a total genome size of 2.78 Mb. Functional annotation revealed 2,625 predicted genes, including those involved in metabolism, cellular processes, and virulence. Comparative genomic analysis identified 20 antibiotic resistance genes, including those conferring resistance to beta-lactams, fluoroquinolones, and aminoglycosides. In addition, 21 virulence factors (VFs) were identified, including Panton-Valentine leukocidin (PVL) and various enterotoxins. The presence of staphylococcal cassette chromosome mec ( SCCmec ) type IVa and mobile genetic elements (MGEs), such as prophages and transposons, underscored the role of horizontal gene transfer (HGT) in the evolution and transmission of resistance and virulence factors. Interaction network analysis identified key hub genes involved in various cellular processes, including biofilm formation. This comprehensive genomic analysis provides valuable insights into the genetic makeup of MRSA strain d1418m22, contributing to a better understanding of its pathogenicity and potential public health implications. Six reference MRSA strains were isolated from (MRSA-AMRF4 and MRSA-AMRF5) eye infections, (MRSA and MRSA-15) wound pus, (VMRSA-WC071, and VMRSA-WC081) urine samples. The analysis identified resistance genes, virulence factors, GC content, ANI values, and SCCmec elements, which were found to be similar to those present in the resistant MRSA d1418m22 strain genome.",
+"statements": [
+{
+"j": 1,
+"text": "Strain d1418m22 was isolated from a bloodstream infection."
+},
+{
+"j": 2,
+"text": "The de novo assembly yielded 61 scaffolds spanning a 2.78 Mb genome."
+},
+{
+"j": 3,
+"text": "Comparative analysis identified 20 antibiotic resistance genes, including ones for beta-lactams, fluoroquinolones and aminoglycosides."
+},
+{
+"j": 4,
+"text": "The strain carried an SCCmec type V cassette."
+}
+]
+},
+{
+"n": 366,
+"id": "pmid:40916402",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Purpose",
+"text": "Multiple primary tumors arising in the same individual pose challenges for precision oncology, particularly in the context of hereditary cancer syndromes such as Lynch syndrome. While these tumors may originate from a shared germline predisposition, it remains unclear whether they also share somatic alterations that could be therapeutically exploited. This study aimed to characterize the extent of somatic genomic overlap between synchronous or metachronous gastric and colorectal cancers within young Korean patients."
+},
+{
+"label": "Methods",
+"text": "Nineteen patients diagnosed with both gastric and colorectal cancers before age 55 underwent whole exome sequencing of formalin-fixed paraffin-embedded tumor tissues. Microsatellite instability (MSI) status was determined, and germline mismatch repair (MMR) variants were assessed to identify Lynch syndrome cases. Somatic mutations, mutational signatures, and copy number alterations were analyzed to quantify intertumoral genomic similarity within individual patients."
+},
+{
+"label": "Results",
+"text": "Among the 37 tumors analyzed, 36.8% of gastric and 44.4% of colorectal cancers were MSI-high. Germline pathogenic MMR variants were identified in seven patients. Despite shared hypermutated phenotypes, the proportion of overlapping somatic mutations between paired tumors was consistently low (< 5%). Mutational signatures varied by MSI status and included SBS1/5 (aging) and SBS15 (MMR deficiency). Notably, one non-Lynch patient exhibited MYC amplification in both tumors, confirmed by fluorescence in situ hybridization."
+},
+{
+"label": "Conclusion",
+"text": "Even in patients with shared germline predisposition, primary tumors arising in different organs demonstrate substantial genomic divergence. These findings suggest that organ-specific selective pressures drive independent tumor evolution, underscoring the need for individualized molecular profiling and therapeutic targeting in cases of multiple primary cancers."
+}
+],
+"text": "Multiple primary tumors arising in the same individual pose challenges for precision oncology, particularly in the context of hereditary cancer syndromes such as Lynch syndrome. While these tumors may originate from a shared germline predisposition, it remains unclear whether they also share somatic alterations that could be therapeutically exploited. This study aimed to characterize the extent of somatic genomic overlap between synchronous or metachronous gastric and colorectal cancers within young Korean patients. Nineteen patients diagnosed with both gastric and colorectal cancers before age 55 underwent whole exome sequencing of formalin-fixed paraffin-embedded tumor tissues. Microsatellite instability (MSI) status was determined, and germline mismatch repair (MMR) variants were assessed to identify Lynch syndrome cases. Somatic mutations, mutational signatures, and copy number alterations were analyzed to quantify intertumoral genomic similarity within individual patients. Among the 37 tumors analyzed, 36.8% of gastric and 44.4% of colorectal cancers were MSI-high. Germline pathogenic MMR variants were identified in seven patients. Despite shared hypermutated phenotypes, the proportion of overlapping somatic mutations between paired tumors was consistently low (< 5%). Mutational signatures varied by MSI status and included SBS1/5 (aging) and SBS15 (MMR deficiency). Notably, one non-Lynch patient exhibited MYC amplification in both tumors, confirmed by fluorescence in situ hybridization. Even in patients with shared germline predisposition, primary tumors arising in different organs demonstrate substantial genomic divergence. These findings suggest that organ-specific selective pressures drive independent tumor evolution, underscoring the need for individualized molecular profiling and therapeutic targeting in cases of multiple primary cancers.",
+"statements": [
+{
+"j": 1,
+"text": "Germline pathogenic mismatch repair variants were found in all nineteen patients."
+},
+{
+"j": 2,
+"text": "The share of somatic mutations shared between a patient's paired tumours stayed below 5%."
+},
+{
+"j": 3,
+"text": "Of 37 tumours, 36.8% of gastric and 44.4% of colorectal cancers were MSI-high."
+},
+{
+"j": 4,
+"text": "Patients with Lynch syndrome had worse overall survival than non-Lynch patients."
+}
+]
+},
+{
+"n": 367,
+"id": "doi:10.1101/2023.12.04.23297559",
+"year": 2023,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Chemotherapy and immune checkpoint inhibitors have a role in the post-neoadjuvant setting in patients with triple-negative breast cancer (TNBC). However, the effects of nivolumab, a checkpoint inhibitor, capecitabine, or the combination in changing peripheral immunoscore (PIS) remains unclear. This open-label randomized phase II OXEL study ( NCT03487666 ) aimed to assess the immunologic effects of nivolumab, capecitabine, or the combination in terms of the change in PIS (primary endpoint). Secondary endpoints include the presence of ctDNA, toxicity, clinical outcomes at 2-years and association of ctDNA and PIS with clinical outcomes. Forty-five women with TNBC and residual invasive disease after standard neoadjuvant chemotherapy were randomized to nivolumab, capecitabine, or the combination. Here we show that a combination of nivolumab plus capecitabine leads to a greater increase in PIS from baseline to week 6 (91%) compared with nivolumab (47%) or capecitabine (53%) alone (log-rank p = 0.08), meeting the pre-specified primary endpoint. In addition, the presence of circulating tumor DNA (ctDNA) was associated with disease recurrence, with no new safety signals in the combination arm. Our results provide efficacy and safety data on this combination in TNBC and support further development of PIS and ctDNA analyses to identify patients at high risk of recurrence."
+}
+],
+"text": "Chemotherapy and immune checkpoint inhibitors have a role in the post-neoadjuvant setting in patients with triple-negative breast cancer (TNBC). However, the effects of nivolumab, a checkpoint inhibitor, capecitabine, or the combination in changing peripheral immunoscore (PIS) remains unclear. This open-label randomized phase II OXEL study ( NCT03487666 ) aimed to assess the immunologic effects of nivolumab, capecitabine, or the combination in terms of the change in PIS (primary endpoint). Secondary endpoints include the presence of ctDNA, toxicity, clinical outcomes at 2-years and association of ctDNA and PIS with clinical outcomes. Forty-five women with TNBC and residual invasive disease after standard neoadjuvant chemotherapy were randomized to nivolumab, capecitabine, or the combination. Here we show that a combination of nivolumab plus capecitabine leads to a greater increase in PIS from baseline to week 6 (91%) compared with nivolumab (47%) or capecitabine (53%) alone (log-rank p = 0.08), meeting the pre-specified primary endpoint. In addition, the presence of circulating tumor DNA (ctDNA) was associated with disease recurrence, with no new safety signals in the combination arm. Our results provide efficacy and safety data on this combination in TNBC and support further development of PIS and ctDNA analyses to identify patients at high risk of recurrence.",
+"statements": [
+{
+"j": 1,
+"text": "The combination arm failed to meet the pre-specified primary endpoint."
+},
+{
+"j": 2,
+"text": "The presence of circulating tumor DNA was associated with disease recurrence."
+},
+{
+"j": 3,
+"text": "The combination arm produced longer overall survival than the single-agent arms."
+},
+{
+"j": 4,
+"text": "The nivolumab-plus-capecitabine arm raised peripheral immunoscore in 91% of patients by week 6, versus 47% and 53% for the single agents."
+}
+]
+},
+{
+"n": 368,
+"id": "pmid:42288131",
+"year": 2026,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Antibiotic resistance genes associated with IS26-family mobile genetic elements are globally distributed in the Gram-negative plasmidome. In many cases, antibiotic resistance genes are co-located with genes of unknown function. Two particular IS26-associated gene clusters, mph(A)-mrx-mphR(A) and cysH-eamA-tet(A)-tetR(A), are prevalent on plasmids and chromosomes of common Gram-negative pathogens. While mph(A) encodes a macrolide phosphotransferase and tet(A) encodes a tetracycline efflux pump, the roles, if any, of mrx, cysH, and eamA remain poorly understood. To test the hypothesis that these genes consistently co-located with mph(A) and tet(A) act cooperatively to enhance antibiotic resistance, recombinant E. coli strains carrying various genetic combinations from each cluster were subjected to antimicrobial susceptibility testing. While the mph(A) gene alone provided minimal protection from azithromycin, inclusion of mrx increased resistance by at least 48-fold. Disruption of mrx by the insertion of a nonsense mutation or the addition of an efflux pump inhibitor abrogated this effect, indicating that the Mrx protein is a drug exporter that is required for maximal effect. In the absence of mph(A), mrx had no effect on azithromycin resistance, suggesting that Mrx only effluxes the phosphorylated form of azithromycin. Similarly, inclusion of cysH-eamA with tet(A) increased resistance to tetracycline antibiotics by at least 2-fold over tet(A) alone. Disruption of either cysH or eamA had no effect on this enhancement, but disruption of both genes eliminated it entirely. A more complete understanding of antibiotic resistance among Gram-negative bacteria requires elucidation of the roles of modulator genes co-located with primary resistance genes on mobile genetic elements."
+}
+],
+"text": "Antibiotic resistance genes associated with IS26-family mobile genetic elements are globally distributed in the Gram-negative plasmidome. In many cases, antibiotic resistance genes are co-located with genes of unknown function. Two particular IS26-associated gene clusters, mph(A)-mrx-mphR(A) and cysH-eamA-tet(A)-tetR(A), are prevalent on plasmids and chromosomes of common Gram-negative pathogens. While mph(A) encodes a macrolide phosphotransferase and tet(A) encodes a tetracycline efflux pump, the roles, if any, of mrx, cysH, and eamA remain poorly understood. To test the hypothesis that these genes consistently co-located with mph(A) and tet(A) act cooperatively to enhance antibiotic resistance, recombinant E. coli strains carrying various genetic combinations from each cluster were subjected to antimicrobial susceptibility testing. While the mph(A) gene alone provided minimal protection from azithromycin, inclusion of mrx increased resistance by at least 48-fold. Disruption of mrx by the insertion of a nonsense mutation or the addition of an efflux pump inhibitor abrogated this effect, indicating that the Mrx protein is a drug exporter that is required for maximal effect. In the absence of mph(A), mrx had no effect on azithromycin resistance, suggesting that Mrx only effluxes the phosphorylated form of azithromycin. Similarly, inclusion of cysH-eamA with tet(A) increased resistance to tetracycline antibiotics by at least 2-fold over tet(A) alone. Disruption of either cysH or eamA had no effect on this enhancement, but disruption of both genes eliminated it entirely. A more complete understanding of antibiotic resistance among Gram-negative bacteria requires elucidation of the roles of modulator genes co-located with primary resistance genes on mobile genetic elements.",
+"statements": [
+{
+"j": 1,
+"text": "Disrupting both cysH and eamA together removed the extra tetracycline resistance, though knocking out either one alone did not."
+},
+{
+"j": 2,
+"text": "The IS26 clusters were tested in clinical Klebsiella pneumoniae isolates."
+},
+{
+"j": 3,
+"text": "Adding mrx to mph(A) raised azithromycin resistance by at least 48-fold."
+},
+{
+"j": 4,
+"text": "In the absence of mph(A), mrx on its own substantially increased azithromycin resistance."
+}
+]
+},
+{
+"n": 369,
+"id": "doi:10.1101/2024.09.03.611059",
+"year": 2024,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "In this study, we explored the intricate relationship between Pannexin 1 (PANX1) and the Hippo signaling pathway effector, Yes-associated protein (YAP). Analysis of The Cancer Genome Atlas (TCGA) data revealed a significant positive correlation between PANX1 mRNA and core Hippo components, YAP, TAZ, and Hippo scaffold, IQGAP1, in invasive cutaneous melanoma and breast carcinoma. Furthermore, we demonstrated that PANX1 expression is upregulated in invasive melanoma cell lines and is associated with increased YAP protein levels. Notably, our investigations uncovered a previously unrecognized interaction between endogenous PANX1 and the Hippo scaffold protein IQGAP1 in melanoma cells. Moreover, our findings revealed that IQGAP1 exhibits differential expression in melanoma cells and plays a regulatory role in cellular morphology. Functional studies involving PANX1 knockdown provided compelling evidence that PANX1 modulates YAP protein levels and its co-transcriptional activity in both melanoma and breast carcinoma cells. Importantly, our study showcases the potential therapeutic relevance of targeting PANX1, as pharmacological inhibition of PANX1 using selective FDA-approved inhibitors or PANX1 knockdown reduced YAP abundance in melanoma cells. Furthermore, our Clariom™ S analysis unveiled key genes implicated in cell proliferation, such as neuroglin1 (NRG1), β-galactoside binding protein, galectin-3 (LGALS3), that are affected in PANX1- deficient cells. In summary, our investigation delves into the intricate interplay between PANX1 and YAP in the context of invasive melanoma, offering valuable insights into potential therapeutic strategies for effective treatment."
+}
+],
+"text": "In this study, we explored the intricate relationship between Pannexin 1 (PANX1) and the Hippo signaling pathway effector, Yes-associated protein (YAP). Analysis of The Cancer Genome Atlas (TCGA) data revealed a significant positive correlation between PANX1 mRNA and core Hippo components, YAP, TAZ, and Hippo scaffold, IQGAP1, in invasive cutaneous melanoma and breast carcinoma. Furthermore, we demonstrated that PANX1 expression is upregulated in invasive melanoma cell lines and is associated with increased YAP protein levels. Notably, our investigations uncovered a previously unrecognized interaction between endogenous PANX1 and the Hippo scaffold protein IQGAP1 in melanoma cells. Moreover, our findings revealed that IQGAP1 exhibits differential expression in melanoma cells and plays a regulatory role in cellular morphology. Functional studies involving PANX1 knockdown provided compelling evidence that PANX1 modulates YAP protein levels and its co-transcriptional activity in both melanoma and breast carcinoma cells. Importantly, our study showcases the potential therapeutic relevance of targeting PANX1, as pharmacological inhibition of PANX1 using selective FDA-approved inhibitors or PANX1 knockdown reduced YAP abundance in melanoma cells. Furthermore, our Clariom™ S analysis unveiled key genes implicated in cell proliferation, such as neuroglin1 (NRG1), β-galactoside binding protein, galectin-3 (LGALS3), that are affected in PANX1- deficient cells. In summary, our investigation delves into the intricate interplay between PANX1 and YAP in the context of invasive melanoma, offering valuable insights into potential therapeutic strategies for effective treatment.",
+"statements": [
+{
+"j": 1,
+"text": "Knockdown or pharmacological inhibition of PANX1 lowered YAP protein levels in melanoma cells."
+},
+{
+"j": 2,
+"text": "PANX1 expression was downregulated in invasive melanoma cell lines."
+},
+{
+"j": 3,
+"text": "PANX1 inhibition reduced melanoma tumour growth in mice."
+},
+{
+"j": 4,
+"text": "In TCGA data PANX1 mRNA correlated positively with YAP, TAZ and IQGAP1 in invasive melanoma and breast carcinoma."
+}
+]
+},
+{
+"n": 370,
+"id": "pmid:41668099",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "OBJECTIVE: Pulmonary tuberculosis (PTB) remains a significant global health problem in the 21st century. This study explored the diagnostic value of cell-free DNA (cfDNA) technology-assisted acid-fast staining (AFS) for PTB. METHODS: A retrospective analysis was conducted on 237 suspected PTB patients. All sectioned specimens underwent AFS, and plasma samples were tested for cfDNA. Patients were categorized into positive and negative groups based on etiology and clinical symptom reference standards. The diagnostic value of cfDNA-assisted AFS was analyzed using receiver operating characteristic (ROC) curves. The concordance rates of cfDNA and AFS were calculated based on true-positive and true-negative cases, and their consistency was assessed using the Kappa test. RESULTS: Under the etiological and clinical reference standards, the true-positive detection rate for PTB of cfDNA was higher than that of AFS (79.05% vs. 65.87% and 68.72% vs. 55.38%, respectively). cfDNA-assisted AFS exhibited superior diagnostic performance over either test alone, yielding higher AUCs (0.946 vs. 0.808 for AFS and 0.874 for cfDNA under etiological reference standard; 0.853 vs. 0.717 for AFS and 0.832 for cfDNA under clinical reference standard). Similarly, the combined approach significantly enhanced sensitivity (96.41% and 82.56%) and specificity (92.86% and 88.10%). cfDNA-assisted AFS showed higher Kappa values than either AFS or cfDNA alone under both reference standards (etiology: κ = 0.889 vs. κ = 0.503 vs. κ = 0.662; clinical symptom: κ = 0.556 vs. κ = 0.246 vs. κ = 0.425). CONCLUSION: CfDNA-assisted AFS enhances the diagnostic performance for PTB, providing a novel auxiliary tool for the clinical diagnosis of PTB."
+}
+],
+"text": "OBJECTIVE: Pulmonary tuberculosis (PTB) remains a significant global health problem in the 21st century. This study explored the diagnostic value of cell-free DNA (cfDNA) technology-assisted acid-fast staining (AFS) for PTB. METHODS: A retrospective analysis was conducted on 237 suspected PTB patients. All sectioned specimens underwent AFS, and plasma samples were tested for cfDNA. Patients were categorized into positive and negative groups based on etiology and clinical symptom reference standards. The diagnostic value of cfDNA-assisted AFS was analyzed using receiver operating characteristic (ROC) curves. The concordance rates of cfDNA and AFS were calculated based on true-positive and true-negative cases, and their consistency was assessed using the Kappa test. RESULTS: Under the etiological and clinical reference standards, the true-positive detection rate for PTB of cfDNA was higher than that of AFS (79.05% vs. 65.87% and 68.72% vs. 55.38%, respectively). cfDNA-assisted AFS exhibited superior diagnostic performance over either test alone, yielding higher AUCs (0.946 vs. 0.808 for AFS and 0.874 for cfDNA under etiological reference standard; 0.853 vs. 0.717 for AFS and 0.832 for cfDNA under clinical reference standard). Similarly, the combined approach significantly enhanced sensitivity (96.41% and 82.56%) and specificity (92.86% and 88.10%). cfDNA-assisted AFS showed higher Kappa values than either AFS or cfDNA alone under both reference standards (etiology: κ = 0.889 vs. κ = 0.503 vs. κ = 0.662; clinical symptom: κ = 0.556 vs. κ = 0.246 vs. κ = 0.425). CONCLUSION: CfDNA-assisted AFS enhances the diagnostic performance for PTB, providing a novel auxiliary tool for the clinical diagnosis of PTB.",
+"statements": [
+{
+"j": 1,
+"text": "cfDNA-assisted AFS also identified the drug-resistance profile of the tuberculosis strains."
+},
+{
+"j": 2,
+"text": "cfDNA alone had a higher true-positive detection rate for PTB than acid-fast staining."
+},
+{
+"j": 3,
+"text": "Combining cfDNA with acid-fast staining lowered diagnostic performance compared with either test alone."
+},
+{
+"j": 4,
+"text": "Under the etiological standard, cfDNA-assisted AFS reached an AUC of 0.946, above AFS alone (0.808) and cfDNA alone (0.874)."
+}
+]
+},
+{
+"n": 371,
+"id": "pmid:42866297",
+"year": 2026,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": "Motivation",
+"text": "Comparative genomics routinely requires the alignment of query genomes against a reference to delineate conserved and variable regions, yet existing tools often produce static visualisations or necessitate centralised web services and data uploads."
+},
+{
+"label": "Results",
+"text": "To address this, we present BLITSFR (BLAST Interactive Tracks in Single-File Report), a command-line tool that compares query genomes against a reference and returns a single interactive HTML file. The report opens in any modern browser, requiring no server or data upload, and lets users explore conserved and variable regions across the genomes. BLITSFR handles both assembled genomes and raw reads, and processes hundreds of genomes in minutes on a standard laptop with genome tracks sorting, filtering, and colouring by metadata are performed within the report, without requirement for re-running the analysis. We demonstrate its utility by analysing vancomycin-resistant Enterococcus faecium ST78 genomes to confirm the conservation of Tn1549-like transposons and a case of β-lactam-resistant Corynebacterium diphtheriae , where coverage depth resolved resistance transposon copy number."
+},
+{
+"label": "Availability and implementation",
+"text": "BLITSFR and SCIFR are freely available at the provided GitHub repositories (https://github.com/nalarbp/blitsfr, https://github.com/nalarbp/scifr)."
+}
+],
+"text": "Comparative genomics routinely requires the alignment of query genomes against a reference to delineate conserved and variable regions, yet existing tools often produce static visualisations or necessitate centralised web services and data uploads. To address this, we present BLITSFR (BLAST Interactive Tracks in Single-File Report), a command-line tool that compares query genomes against a reference and returns a single interactive HTML file. The report opens in any modern browser, requiring no server or data upload, and lets users explore conserved and variable regions across the genomes. BLITSFR handles both assembled genomes and raw reads, and processes hundreds of genomes in minutes on a standard laptop with genome tracks sorting, filtering, and colouring by metadata are performed within the report, without requirement for re-running the analysis. We demonstrate its utility by analysing vancomycin-resistant Enterococcus faecium ST78 genomes to confirm the conservation of Tn1549-like transposons and a case of β-lactam-resistant Corynebacterium diphtheriae , where coverage depth resolved resistance transposon copy number. BLITSFR and SCIFR are freely available at the provided GitHub repositories (https://github.com/nalarbp/blitsfr, https://github.com/nalarbp/scifr).",
+"statements": [
+{
+"j": 1,
+"text": "BLITSFR was used on vancomycin-resistant Enterococcus faecium ST78 genomes to confirm conservation of Tn1549-like transposons."
+},
+{
+"j": 2,
+"text": "BLITSFR requires uploading data to a centralised web service to run."
+},
+{
+"j": 3,
+"text": "BLITSFR aligns genomes faster than Mauve on the same datasets."
+},
+{
+"j": 4,
+"text": "BLITSFR can process hundreds of genomes in minutes on a standard laptop."
+}
+]
+},
+{
+"n": 372,
+"id": "doi:10.1101/2024.12.04.24318421",
+"year": 2024,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "Pathological lymph node involvement (pN+) is an indicator of poor prognosis in localized colon cancer. Currently, the preoperative risk classification fails to accurately identify pN+, which could be instrumental in the selection of patients for neoadjuvant chemotherapy (NAC). This study aimed to develop an assay for preoperative methylated circulating tumor DNA (meth-ctDNA) as a predictive marker of pN+ and as a biomarker for initiating NAC in patients with localized colon cancer."
+},
+{
+"label": "Materials and methods",
+"text": "203 patients operated for colon cancer stage I-III at Vejle Hospital were randomly assigned (1:1) to a discovery and a validation cohort. A multiplex assay of a tumor-specific (NPY) and two organ-specific (GAL3ST3, KANK1) meth-ctDNAs was designed and methylation analysis was performed using droplet digital PCR. The ability of preoperative meth-ctDNA to predict pN+ was assessed using receiver operating characteristics (ROC) analysis."
+},
+{
+"label": "Results",
+"text": "ROC analyses of meth-ctDNA (negative/positive) to predict pN+ had an area under the curve of 52% and 57% in the discovery and validation cohort, respectively. Survival analysis in the validation cohort confirmed a higher rate of 48 months disease-free survival in meth-ctDNA negative compared to positive patients (HR=2.31, 95% CI 1.01-5.2). The difference also applied to 4-year overall survival (HR=3.62, 95% CI 1.15-11.4). In a multivariate analysis, meth-ctDNA remained the strongest prognostic factor of DFS (HR 2.46, 95% CI 1.03-5.88) and OS (HR 4.54, 95% CI 1.32-15.6) in relation to clinical T- or N-category, gender and age."
+},
+{
+"label": "Conclusion",
+"text": "The preoperative meth-ctDNA multiplex assay did not predict pN+. The findings suggest meth-ctDNA as a more powerful marker than N-category in identifying high-risk patients who would potentially benefit from NAC."
+}
+],
+"text": "Pathological lymph node involvement (pN+) is an indicator of poor prognosis in localized colon cancer. Currently, the preoperative risk classification fails to accurately identify pN+, which could be instrumental in the selection of patients for neoadjuvant chemotherapy (NAC). This study aimed to develop an assay for preoperative methylated circulating tumor DNA (meth-ctDNA) as a predictive marker of pN+ and as a biomarker for initiating NAC in patients with localized colon cancer. 203 patients operated for colon cancer stage I-III at Vejle Hospital were randomly assigned (1:1) to a discovery and a validation cohort. A multiplex assay of a tumor-specific (NPY) and two organ-specific (GAL3ST3, KANK1) meth-ctDNAs was designed and methylation analysis was performed using droplet digital PCR. The ability of preoperative meth-ctDNA to predict pN+ was assessed using receiver operating characteristics (ROC) analysis. ROC analyses of meth-ctDNA (negative/positive) to predict pN+ had an area under the curve of 52% and 57% in the discovery and validation cohort, respectively. Survival analysis in the validation cohort confirmed a higher rate of 48 months disease-free survival in meth-ctDNA negative compared to positive patients (HR=2.31, 95% CI 1.01-5.2). The difference also applied to 4-year overall survival (HR=3.62, 95% CI 1.15-11.4). In a multivariate analysis, meth-ctDNA remained the strongest prognostic factor of DFS (HR 2.46, 95% CI 1.03-5.88) and OS (HR 4.54, 95% CI 1.32-15.6) in relation to clinical T- or N-category, gender and age. The preoperative meth-ctDNA multiplex assay did not predict pN+. The findings suggest meth-ctDNA as a more powerful marker than N-category in identifying high-risk patients who would potentially benefit from NAC.",
+"statements": [
+{
+"j": 1,
+"text": "The methylated ctDNA assay predicted lymph node involvement poorly, with AUCs of 52% and 57% across the two cohorts."
+},
+{
+"j": 2,
+"text": "Methylated-ctDNA-positive patients received neoadjuvant chemotherapy."
+},
+{
+"j": 3,
+"text": "The preoperative methylated ctDNA assay accurately predicted pathological lymph node involvement."
+},
+{
+"j": 4,
+"text": "Methylated-ctDNA-negative patients had better 48-month disease-free survival than positive patients."
+}
+]
+},
+{
+"n": 373,
+"id": "doi:10.64898/2026.03.30.714025",
+"year": 2026,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Liquid biopsy through circulating tumor DNA (ctDNA) analysis enables non-invasive detection of minimal residual disease (MRD) and early identification of cancer relapse, facilitating timely clinical intervention. However, detecting ctDNA in plasma samples with low tumor burden remains challenging due to the scarcity of mutant molecules, the background noise of sequencing errors and somatic mutations in normal cell-free DNA (cfDNA). Here, we present a mutation-informed fragmentomic framework and evaluate it on 90 stage III colorectal cancer patients with three years of follow-up. Using 712 serial whole-genome sequenced cfDNA samples (30×) with matched whole-genome sequencing of tumor tissue and germline DNA from buffycoat for each patient, we collected cfDNA fragments spanning tumor-derived somatic mutation positions and compared fragmentomic characteristics of mutation-bearing and non-mutated cfDNA fragments within the same sample. By leveraging fragment length and fragment end-motif patterns, our approach can distinguish cancer-positive from cancer-negative plasma samples without requiring model training or panel-of-normals calibration. The method achieved AUCs of 0.863 and 0.74 using fragment length and end motif features, respectively, and 0.871 when combined, outperforming tumor fraction estimates based on the frequency of mutated fragments (AUC=0.832). Integrating fragmentomic features with tumor fraction further improved performance, yielding an AUC of 0.873, indicating complementary signals between fragmentomic patterns and mutation burden. Aggregated analyses revealed ctDNA-specific patterns, including fragment shortening, motif enrichment of A/T ends, and depletion of C/G ends, directly linking fragmentomic features to tumor-derived cfDNA. Overall, mutation-informed fragmentomic profiling improves ctDNA detection beyond counting mutant reads and provides a scalable, training-free strategy for MRD assessment and early relapse detection while offering mechanistic insights into tumor-specific cfDNA biology."
+}
+],
+"text": "Liquid biopsy through circulating tumor DNA (ctDNA) analysis enables non-invasive detection of minimal residual disease (MRD) and early identification of cancer relapse, facilitating timely clinical intervention. However, detecting ctDNA in plasma samples with low tumor burden remains challenging due to the scarcity of mutant molecules, the background noise of sequencing errors and somatic mutations in normal cell-free DNA (cfDNA). Here, we present a mutation-informed fragmentomic framework and evaluate it on 90 stage III colorectal cancer patients with three years of follow-up. Using 712 serial whole-genome sequenced cfDNA samples (30×) with matched whole-genome sequencing of tumor tissue and germline DNA from buffycoat for each patient, we collected cfDNA fragments spanning tumor-derived somatic mutation positions and compared fragmentomic characteristics of mutation-bearing and non-mutated cfDNA fragments within the same sample. By leveraging fragment length and fragment end-motif patterns, our approach can distinguish cancer-positive from cancer-negative plasma samples without requiring model training or panel-of-normals calibration. The method achieved AUCs of 0.863 and 0.74 using fragment length and end motif features, respectively, and 0.871 when combined, outperforming tumor fraction estimates based on the frequency of mutated fragments (AUC=0.832). Integrating fragmentomic features with tumor fraction further improved performance, yielding an AUC of 0.873, indicating complementary signals between fragmentomic patterns and mutation burden. Aggregated analyses revealed ctDNA-specific patterns, including fragment shortening, motif enrichment of A/T ends, and depletion of C/G ends, directly linking fragmentomic features to tumor-derived cfDNA. Overall, mutation-informed fragmentomic profiling improves ctDNA detection beyond counting mutant reads and provides a scalable, training-free strategy for MRD assessment and early relapse detection while offering mechanistic insights into tumor-specific cfDNA biology.",
+"statements": [
+{
+"j": 1,
+"text": "Combining fragment length and end-motif features gave an AUC of 0.871, above the 0.832 for tumour-fraction estimates."
+},
+{
+"j": 2,
+"text": "The approach detected relapse earlier than CT imaging in these patients."
+},
+{
+"j": 3,
+"text": "Cancer-derived cfDNA showed fragment shortening with enrichment of A/T end motifs and depletion of C/G ends."
+},
+{
+"j": 4,
+"text": "The framework was evaluated on 90 stage I colorectal cancer patients."
+}
+]
+},
+{
+"n": 374,
+"id": "doi:10.1101/2025.09.03.25334985",
+"year": 2025,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "Gestational diabetes mellitus (GDM) affects 15.6% of pregnancies globally, with Vietnam exhibiting one of the highest prevalences at 21%. Current diagnostic approaches at 24-28 weeks limit early intervention opportunities. We developed a multi-modal machine learning framework integrating cell-free DNA (cfDNA) structural features and genetic information for early GDM prediction at 10-12 weeks of gestation in Vietnamese women."
+},
+{
+"label": "Methods",
+"text": "We analyzed blood samples from 1,086 pregnant women (435 GDM cases, 651 controls) collected at 9-12 weeks. Two parallel analytical pathways were employed: cfDNA profiling extracting cfDNA-specific features (fragment length, end motifs, GC content, nucleosome patterns), and whole-genome imputation generating predictions for ∼19,000 omics traits. Component scores were developed using TabPFN classifier and integrated via logistic regression into a unified master score."
+},
+{
+"label": "Results",
+"text": "Genome-wide analysis identified five omics traits with significant GDM associations: HSD11B1 , NEK7 , COMMD10 , KLRC4 , and OCEL1 . Component score optimization revealed distinct patterns—cfDNA scores peaked at 200 features (AUC=71.53), while genetics-based scores improved with up to 2,000 omics traits (AUC=77.21). The final master score, integrating three components (gbSC 2000 , gbSC BH , cfSC200), achieved AUCs of 86.82 - 87.19 across validation cohorts with 70% sensitivity and 89% specificity. Addition-deletion analysis confirmed that both cfDNA and genetic components provided essential, non-redundant contributions."
+},
+{
+"label": "Conclusions",
+"text": "This multi-modal framework demonstrates superior performance compared to single-biomarker approaches, enabling risk stratification from very low (4% GDM prevalence) to very high risk (90% prevalence). At the cutoff 0.4, the model identifies 78% of future GDM cases at 10-12 weeks while maintaining an 18% false-positive rate, potentially enabling early interventions to prevent GDM development and associated complications."
+}
+],
+"text": "Gestational diabetes mellitus (GDM) affects 15.6% of pregnancies globally, with Vietnam exhibiting one of the highest prevalences at 21%. Current diagnostic approaches at 24-28 weeks limit early intervention opportunities. We developed a multi-modal machine learning framework integrating cell-free DNA (cfDNA) structural features and genetic information for early GDM prediction at 10-12 weeks of gestation in Vietnamese women. We analyzed blood samples from 1,086 pregnant women (435 GDM cases, 651 controls) collected at 9-12 weeks. Two parallel analytical pathways were employed: cfDNA profiling extracting cfDNA-specific features (fragment length, end motifs, GC content, nucleosome patterns), and whole-genome imputation generating predictions for ∼19,000 omics traits. Component scores were developed using TabPFN classifier and integrated via logistic regression into a unified master score. Genome-wide analysis identified five omics traits with significant GDM associations: HSD11B1 , NEK7 , COMMD10 , KLRC4 , and OCEL1 . Component score optimization revealed distinct patterns—cfDNA scores peaked at 200 features (AUC=71.53), while genetics-based scores improved with up to 2,000 omics traits (AUC=77.21). The final master score, integrating three components (gbSC 2000 , gbSC BH , cfSC200), achieved AUCs of 86.82 - 87.19 across validation cohorts with 70% sensitivity and 89% specificity. Addition-deletion analysis confirmed that both cfDNA and genetic components provided essential, non-redundant contributions. This multi-modal framework demonstrates superior performance compared to single-biomarker approaches, enabling risk stratification from very low (4% GDM prevalence) to very high risk (90% prevalence). At the cutoff 0.4, the model identifies 78% of future GDM cases at 10-12 weeks while maintaining an 18% false-positive rate, potentially enabling early interventions to prevent GDM development and associated complications.",
+"statements": [
+{
+"j": 1,
+"text": "The framework was designed to predict gestational diabetes at 24 to 28 weeks of gestation."
+},
+{
+"j": 2,
+"text": "Early intervention guided by the model reduced the incidence of gestational diabetes."
+},
+{
+"j": 3,
+"text": "The combined master score reached AUCs of about 86.8 to 87.2 with 70% sensitivity and 89% specificity."
+},
+{
+"j": 4,
+"text": "The study analysed 1,086 pregnant women, 435 with GDM and 651 controls."
+}
+]
+},
+{
+"n": 375,
+"id": "doi:10.1101/2025.05.30.656844",
+"year": 2025,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Elucidating the role of somatic mutations in cancer, healthy tissues, and aging depends on methods that can accurately characterize somatic mosaicism across different cell types, as well as assay their impact on cellular function. Current technologies to study cell-type-specific somatic mutations within tissues are low-throughput. We developed Duplex-Multiome, incorporating duplex consensus sequencing to accurately identify somatic single-nucleotide variants (sSNV) from the same nucleus simultaneously analyzed for single-nucleus ATAC-seq (snATAC-seq) and RNA-seq (snRNA-seq). By introducing strand-tagging into the construction of snATAC-seq libraries, duplex sequencing reduces sequencing error by >10,000-fold while eliminating artifactual mutational signatures. When applied to 98%/2% mixed cell lines, Duplex-Multiome identified sSNVs present in 2% of cells with 92% precision and accurately captured known sSNV mutational spectra, while revealing unexpected subclonal lineages. Duplex-Multiome of > 51,400 nuclei from postmortem brain tissue captured sSNV burdens and spectra across all major brain cell types and subtypes, including those difficult to assay by single-cell whole-genome sequencing (scWGS). This revealed for the first time that diverse neuronal and glial cell types show distinct rates and patterns of age-related mutation, while also directly discovering developmental cell lineage relationships. Duplex-Multiome identified clonal sSNVs occurring at increased rates in glia of certain aged brains, as well as clonal sSNVs that correlated with changes in expression of nearby genes, in both neurotypical and autism spectrum disorder (ASD) individuals, directly demonstrating that somatic mutagenesis can contribute to gene expression phenotypes. Duplex-Multiome can be easily adopted into the 10X Multiome protocol and will bridge somatic mosaicism to a wide range of phenotypic readouts across cell types and tissues."
+}
+],
+"text": "Elucidating the role of somatic mutations in cancer, healthy tissues, and aging depends on methods that can accurately characterize somatic mosaicism across different cell types, as well as assay their impact on cellular function. Current technologies to study cell-type-specific somatic mutations within tissues are low-throughput. We developed Duplex-Multiome, incorporating duplex consensus sequencing to accurately identify somatic single-nucleotide variants (sSNV) from the same nucleus simultaneously analyzed for single-nucleus ATAC-seq (snATAC-seq) and RNA-seq (snRNA-seq). By introducing strand-tagging into the construction of snATAC-seq libraries, duplex sequencing reduces sequencing error by >10,000-fold while eliminating artifactual mutational signatures. When applied to 98%/2% mixed cell lines, Duplex-Multiome identified sSNVs present in 2% of cells with 92% precision and accurately captured known sSNV mutational spectra, while revealing unexpected subclonal lineages. Duplex-Multiome of > 51,400 nuclei from postmortem brain tissue captured sSNV burdens and spectra across all major brain cell types and subtypes, including those difficult to assay by single-cell whole-genome sequencing (scWGS). This revealed for the first time that diverse neuronal and glial cell types show distinct rates and patterns of age-related mutation, while also directly discovering developmental cell lineage relationships. Duplex-Multiome identified clonal sSNVs occurring at increased rates in glia of certain aged brains, as well as clonal sSNVs that correlated with changes in expression of nearby genes, in both neurotypical and autism spectrum disorder (ASD) individuals, directly demonstrating that somatic mutagenesis can contribute to gene expression phenotypes. Duplex-Multiome can be easily adopted into the 10X Multiome protocol and will bridge somatic mosaicism to a wide range of phenotypic readouts across cell types and tissues.",
+"statements": [
+{
+"j": 1,
+"text": "Strand-tagging cut sequencing error more than 10,000-fold and removed artefactual mutational signatures."
+},
+{
+"j": 2,
+"text": "Across brain cell types, neuronal and glial cells showed essentially identical rates of age-related mutation."
+},
+{
+"j": 3,
+"text": "Somatic mutation burden was higher in autism spectrum disorder brains than in neurotypical brains."
+},
+{
+"j": 4,
+"text": "In a 98%/2% cell-line mix the method detected sSNVs present in 2% of cells with 92% precision."
+}
+]
+},
+{
+"n": 376,
+"id": "pmid:38175417",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Prolyl 3-hydroxylase 1 (P3H1) has been implicated in cancer development, but no pan-cancer analysis has been conducted on P3H1. In this study, for the first time, aspects associated with P3H1, such as the mRNA expression, any mutation, promoter methylation, and prognostic significance, the relationship between P3H1 and clinicopathological parameters, drug sensitivity, and immune cell infiltration were investigated by searching several databases including The Cancer Genome Atlas (TCGA), Genotype-Tissue Expression (GTEx), cBioPortal, and The Tumor Immune Evaluation Resource (TIMER2.0) using bioinformatics tools. The findings indicate significant differential expression of P3H1 in most tumors when compared to normal tissues, with a strong association with clinical prognosis. A pan-cancer Cox regression analysis revealed that high P3H1 expression is significantly associated with low overall survival in patients with brain lower grade glioma, kidney clear cell carcinoma, adrenocortical cancer, liver hepatocellular carcinoma, mesothelioma, sarcoma, uveal melanoma, bladder urothelial carcinoma, kidney papillary cell carcinoma, kidney chromophobe, thymoma, and thyroid carcinoma. A negative correlation was observed between P3H1 DNA methylation and its expression. P3H1 is significantly associated with infiltrating cells, immune-related genes, tumor mutation burden, microsatellite instability, and mismatch repair. Finally, A significant correlation was found between P3H1 expression and sensitivity to nine drugs. Thus, enhanced P3H1 expression is associated with poor prognosis in a variety of tumors, which may be due to its role in tumor immune regulation and tumor microenvironment. This pan-cancer analysis provides insight into the function of P3H1 in tumorigenesis of different cancers and provides a theoretical basis for further in-depth studies to follow."
+}
+],
+"text": "Prolyl 3-hydroxylase 1 (P3H1) has been implicated in cancer development, but no pan-cancer analysis has been conducted on P3H1. In this study, for the first time, aspects associated with P3H1, such as the mRNA expression, any mutation, promoter methylation, and prognostic significance, the relationship between P3H1 and clinicopathological parameters, drug sensitivity, and immune cell infiltration were investigated by searching several databases including The Cancer Genome Atlas (TCGA), Genotype-Tissue Expression (GTEx), cBioPortal, and The Tumor Immune Evaluation Resource (TIMER2.0) using bioinformatics tools. The findings indicate significant differential expression of P3H1 in most tumors when compared to normal tissues, with a strong association with clinical prognosis. A pan-cancer Cox regression analysis revealed that high P3H1 expression is significantly associated with low overall survival in patients with brain lower grade glioma, kidney clear cell carcinoma, adrenocortical cancer, liver hepatocellular carcinoma, mesothelioma, sarcoma, uveal melanoma, bladder urothelial carcinoma, kidney papillary cell carcinoma, kidney chromophobe, thymoma, and thyroid carcinoma. A negative correlation was observed between P3H1 DNA methylation and its expression. P3H1 is significantly associated with infiltrating cells, immune-related genes, tumor mutation burden, microsatellite instability, and mismatch repair. Finally, A significant correlation was found between P3H1 expression and sensitivity to nine drugs. Thus, enhanced P3H1 expression is associated with poor prognosis in a variety of tumors, which may be due to its role in tumor immune regulation and tumor microenvironment. This pan-cancer analysis provides insight into the function of P3H1 in tumorigenesis of different cancers and provides a theoretical basis for further in-depth studies to follow.",
+"statements": [
+{
+"j": 1,
+"text": "P3H1 expression correlated significantly with sensitivity to nine drugs."
+},
+{
+"j": 2,
+"text": "P3H1 DNA methylation was inversely correlated with its expression."
+},
+{
+"j": 3,
+"text": "Knockdown of P3H1 reduced proliferation in liver cancer cell lines."
+},
+{
+"j": 4,
+"text": "High P3H1 expression was associated with improved overall survival across the analysed tumours."
+}
+]
+},
+{
+"n": 377,
+"id": "doi:10.1101/2025.09.29.679208",
+"year": 2025,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Centenarians provide valuable insights into the biological mechanisms underlying human longevity and potential gerotherapeutic targets. We previously identified two linked missense variants in SIRT6 that are enriched in Ashkenazi Jewish centenarians. To investigate their functional impact in physiologically relevant cellular contexts, we generated human embryonic stem cells carrying these variants through precise genomic knock-in and differentiated them into somatic lineages. Functional characterization revealed that the centenarian variants endogenously elevated SIRT6 protein levels through weakened interaction with vimentin, and altered SIRT6 enzymatic activities including enhanced mono-ADP-ribosyl transferase activity and reduced deacetylase activity. These variants delayed replicative and progerin-induced cellular senescence, preserving genome stability through maintenance of DNA repair pathways and suppression of transposable element derepression. Moreover, pharmacologically mimicking the centenarian variants using SIRT6 activator Fucoidan-FV partially ameliorated premature aging–associated molecular defects in progeria fibroblasts. Together, our findings demonstrate that rare centenarian variants exert multifaceted effects on SIRT6 and enhance cellular resilience, providing insights for developing geroprotective therapies informed by genetic discoveries in exceptionally long-lived individuals."
+}
+],
+"text": "Centenarians provide valuable insights into the biological mechanisms underlying human longevity and potential gerotherapeutic targets. We previously identified two linked missense variants in SIRT6 that are enriched in Ashkenazi Jewish centenarians. To investigate their functional impact in physiologically relevant cellular contexts, we generated human embryonic stem cells carrying these variants through precise genomic knock-in and differentiated them into somatic lineages. Functional characterization revealed that the centenarian variants endogenously elevated SIRT6 protein levels through weakened interaction with vimentin, and altered SIRT6 enzymatic activities including enhanced mono-ADP-ribosyl transferase activity and reduced deacetylase activity. These variants delayed replicative and progerin-induced cellular senescence, preserving genome stability through maintenance of DNA repair pathways and suppression of transposable element derepression. Moreover, pharmacologically mimicking the centenarian variants using SIRT6 activator Fucoidan-FV partially ameliorated premature aging–associated molecular defects in progeria fibroblasts. Together, our findings demonstrate that rare centenarian variants exert multifaceted effects on SIRT6 and enhance cellular resilience, providing insights for developing geroprotective therapies informed by genetic discoveries in exceptionally long-lived individuals.",
+"statements": [
+{
+"j": 1,
+"text": "The variants delayed senescence and suppressed transposable-element derepression while maintaining DNA repair."
+},
+{
+"j": 2,
+"text": "The variants enhanced SIRT6 deacetylase activity and reduced its mono-ADP-ribosyl transferase activity."
+},
+{
+"j": 3,
+"text": "The centenarian SIRT6 variants raised SIRT6 protein levels by weakening its interaction with vimentin."
+},
+{
+"j": 4,
+"text": "Carriers of the SIRT6 variants lived longer than non-carrier centenarians."
+}
+]
+},
+{
+"n": 378,
+"id": "doi:10.64898/2026.07.07.736851",
+"year": 2026,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Mismatch repair deficiency (MMRd) is a central driver of cancer genome evolution, yet it is commonly reduced to a binary MSI-high versus microsatellite-stable call. Here we combine multiplex CRISPR/Cas12a editing, long-term mutation accumulation experiments in human cells, and whole-genome sequencing to map the mutational consequences of single and pairwise perturbations across canonical and accessory MMR genes, together with selected base excision repair and direct-repair factors. Across 72 isogenic lineages representing 58 genotypes, we recover reproducible substitution, indel and short-tandem-repeat mutational states that distinguish MSH2, MSH6, MLH1, PMS2, MSH3 and MLH3 deficiencies. A dedicated STR spectrum reveals genome-wide evidence for MSH3-driven EMAST and enables design of compact loci panels for mechanism-aware MSI classification. Experimental spectra generalize across independent cell systems and to cancer whole genome sequences, where Elastic-net classifiers accurately identify causal MMR genes in Lynch tumors and uncover common occurrences of intermediate MMRd states. Pairwise perturbations further reveal repair crosstalk reflected in mutational spectra, including enhancement of MUTYH-associated oxidative mutagenesis by MMR loss. Together, these findings recast mismatch repair deficiency as a multidimensional genomic phenotype and provide a framework for interpreting DNA repair deficiencies by bridging mutational phenotypes from experimental systems and human cancers."
+}
+],
+"text": "Mismatch repair deficiency (MMRd) is a central driver of cancer genome evolution, yet it is commonly reduced to a binary MSI-high versus microsatellite-stable call. Here we combine multiplex CRISPR/Cas12a editing, long-term mutation accumulation experiments in human cells, and whole-genome sequencing to map the mutational consequences of single and pairwise perturbations across canonical and accessory MMR genes, together with selected base excision repair and direct-repair factors. Across 72 isogenic lineages representing 58 genotypes, we recover reproducible substitution, indel and short-tandem-repeat mutational states that distinguish MSH2, MSH6, MLH1, PMS2, MSH3 and MLH3 deficiencies. A dedicated STR spectrum reveals genome-wide evidence for MSH3-driven EMAST and enables design of compact loci panels for mechanism-aware MSI classification. Experimental spectra generalize across independent cell systems and to cancer whole genome sequences, where Elastic-net classifiers accurately identify causal MMR genes in Lynch tumors and uncover common occurrences of intermediate MMRd states. Pairwise perturbations further reveal repair crosstalk reflected in mutational spectra, including enhancement of MUTYH-associated oxidative mutagenesis by MMR loss. Together, these findings recast mismatch repair deficiency as a multidimensional genomic phenotype and provide a framework for interpreting DNA repair deficiencies by bridging mutational phenotypes from experimental systems and human cancers.",
+"statements": [
+{
+"j": 1,
+"text": "The study built 72 isogenic lineages representing 58 distinct genotypes."
+},
+{
+"j": 2,
+"text": "MMR loss suppressed MUTYH-associated oxidative mutagenesis in the pairwise perturbations."
+},
+{
+"j": 3,
+"text": "The classifiers predicted patient response to immune checkpoint inhibitors."
+},
+{
+"j": 4,
+"text": "A dedicated short-tandem-repeat spectrum showed genome-wide evidence for MSH3-driven EMAST."
+}
+]
+},
+{
+"n": 379,
+"id": "pmid:42529264",
+"year": 2027,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "PiggyBac ( PB ) transposons, such as the canonical transposon from Trichoplusia ni and the more recently discovered Mage from Lepidoptera , are \"cut-and-paste\" mobile genetic elements widely harnessed as non-viral vector systems for gene therapy and transgenesis. Despite the ecological and economic significance of the insect order Hymenoptera , the evolutionary history and functional diversity of PB transposons within this group remain largely unexplored. To address this gap, we conducted a systematic investigation of PB transposons across 287 hymenopteran species. Our analysis revealed a widespread distribution, with PB elements detected in nearly half (137/287) of the genomes examined. Phylogenetic reconstruction identified four distinct clades, indicating a significant and previously unappreciated evolutionary diversity among hymenopteran PB transposases, and suggesting they have been highly active and dynamic. From this bioinformatic screen, we selected three PB transposons from Holcopasites calliopsidis ( hcPB ), Macropis europaea ( mePB ), and Andrena dorsata as strong candidates for recent activity. Functional validation using a binary transposition assay demonstrated that hcPB and mePB possess remarkable activity, comparable to the engineered hyperactive hyPB transposase. In contrast, adPB exhibited minimal transposition activity under the same conditions. We further engineered these systems based on successful strategies used for hyPB , which involves deleting an inhibitory N-terminal phosphorylation region and appending a second C-terminal domain. While this modification enhanced hyPB activity, it had variable effects on the new transposases: hcPB activity was maintained, but mePB activity decreased by approximately 20%. Intriguingly, merely deleting the N-terminal region severely impaired or abolished the activity of both hcPB and mePB , indicating distinct regulatory mechanisms. In summary, we have uncovered a rich diversity of active PB transposons in Hymenoptera and characterized two powerful new transposases ( hcPB and mePB ). These findings significantly advance the genome engineering toolkit, providing highly efficient tools with great promise for basic research and therapeutic applications."
+}
+],
+"text": "PiggyBac ( PB ) transposons, such as the canonical transposon from Trichoplusia ni and the more recently discovered Mage from Lepidoptera , are \"cut-and-paste\" mobile genetic elements widely harnessed as non-viral vector systems for gene therapy and transgenesis. Despite the ecological and economic significance of the insect order Hymenoptera , the evolutionary history and functional diversity of PB transposons within this group remain largely unexplored. To address this gap, we conducted a systematic investigation of PB transposons across 287 hymenopteran species. Our analysis revealed a widespread distribution, with PB elements detected in nearly half (137/287) of the genomes examined. Phylogenetic reconstruction identified four distinct clades, indicating a significant and previously unappreciated evolutionary diversity among hymenopteran PB transposases, and suggesting they have been highly active and dynamic. From this bioinformatic screen, we selected three PB transposons from Holcopasites calliopsidis ( hcPB ), Macropis europaea ( mePB ), and Andrena dorsata as strong candidates for recent activity. Functional validation using a binary transposition assay demonstrated that hcPB and mePB possess remarkable activity, comparable to the engineered hyperactive hyPB transposase. In contrast, adPB exhibited minimal transposition activity under the same conditions. We further engineered these systems based on successful strategies used for hyPB , which involves deleting an inhibitory N-terminal phosphorylation region and appending a second C-terminal domain. While this modification enhanced hyPB activity, it had variable effects on the new transposases: hcPB activity was maintained, but mePB activity decreased by approximately 20%. Intriguingly, merely deleting the N-terminal region severely impaired or abolished the activity of both hcPB and mePB , indicating distinct regulatory mechanisms. In summary, we have uncovered a rich diversity of active PB transposons in Hymenoptera and characterized two powerful new transposases ( hcPB and mePB ). These findings significantly advance the genome engineering toolkit, providing highly efficient tools with great promise for basic research and therapeutic applications.",
+"statements": [
+{
+"j": 1,
+"text": "PiggyBac elements were found in 137 of 287 hymenopteran genomes, nearly half."
+},
+{
+"j": 2,
+"text": "hcPB and mePB were highly active, comparable to the engineered hyperactive hyPB, whereas adPB was minimally active."
+},
+{
+"j": 3,
+"text": "hcPB integrates with lower off-target frequency than the Sleeping Beauty transposon."
+},
+{
+"j": 4,
+"text": "Phylogenetic analysis grouped the hymenopteran PB transposases into a single clade."
+}
+]
+},
+{
+"n": 380,
+"id": "doi:10.1101/2025.11.26.690832",
+"year": 2025,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Structural variations (SVs) are differences in genomic regions that are larger than 1 kilobase-pair (Kbp) between individuals, and can arise from errant DNA repair mechanisms, whole genome duplications, and transposable element activity across the genome. Recent advances, optimizations, and cost reductions in next generation sequencing technologies have facilitated the exponential increase in the amount of available short read genomic data. Here we present SaVor , a flexible, reproducible SV calling workflow that accepts single or multi-lane short-read paired-end Illumina sequence data, or BAM files as input to generate a consensus SV call-set based on user-provided merge parameters. We tested SaVor on 1,165 Arabidopsis thaliana whole genome sequences and benchmarked its performance on a set of SVs derived from the same accessions using Lumpy . Intersection calls i.e. SVs supported by 3 SV callers showed the highest precision (>0.91) while union calls supported by at least 1 caller showed the highest recall (>0.88). We found that the former suffers from decreased recall (<0.51) and the latter decreased precision (<0.57). Depending on the merge strategy, trade-offs in recall and precision need to be considered for downstream analyses of SV call-sets from short-read data. SaVor is an open-source Snakemake pipeline and is available on GitHub at https://github.com/ChabbyTMD/SaVor"
+}
+],
+"text": "Structural variations (SVs) are differences in genomic regions that are larger than 1 kilobase-pair (Kbp) between individuals, and can arise from errant DNA repair mechanisms, whole genome duplications, and transposable element activity across the genome. Recent advances, optimizations, and cost reductions in next generation sequencing technologies have facilitated the exponential increase in the amount of available short read genomic data. Here we present SaVor , a flexible, reproducible SV calling workflow that accepts single or multi-lane short-read paired-end Illumina sequence data, or BAM files as input to generate a consensus SV call-set based on user-provided merge parameters. We tested SaVor on 1,165 Arabidopsis thaliana whole genome sequences and benchmarked its performance on a set of SVs derived from the same accessions using Lumpy . Intersection calls i.e. SVs supported by 3 SV callers showed the highest precision (>0.91) while union calls supported by at least 1 caller showed the highest recall (>0.88). We found that the former suffers from decreased recall (<0.51) and the latter decreased precision (<0.57). Depending on the merge strategy, trade-offs in recall and precision need to be considered for downstream analyses of SV call-sets from short-read data. SaVor is an open-source Snakemake pipeline and is available on GitHub at https://github.com/ChabbyTMD/SaVor",
+"statements": [
+{
+"j": 1,
+"text": "Union calls supported by at least one caller produced the highest precision."
+},
+{
+"j": 2,
+"text": "SaVor was tested on 1,165 Arabidopsis thaliana whole genomes."
+},
+{
+"j": 3,
+"text": "Intersection calls, those supported by three SV callers, achieved the highest precision, above 0.91."
+},
+{
+"j": 4,
+"text": "SaVor detected more transposable-element insertions than Lumpy on the Arabidopsis genomes."
+}
+]
+},
+{
+"n": 381,
+"id": "pmid:37289779",
+"year": 2023,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Transposition of transposable elements affect expression levels, splicing and epigenetic status, and function of genes located in, or near, the inserted/excised locus. For example, in grape, presence of the Gret1 retrotransposon in the promoter region of the VvMYBA1a allele at the VvMYBA1 locus suppress the expression of the VvMYBA1 transcription factor gene for the anthocyanin biosynthesis and this transposon insertion is responsible for the green berry skin color of Vitis labrascana, 'Shine Muscat', a major grape cultivar in Japan. To prove that transposons in grape genome can be removed by genome editing, we focused on Gret1 in the VvMYBA1a allele as a target of CRISPR/Cas9 mediated transposon removal. PCR amplification and sequencing detected Gret1 eliminated cells in 19 of 45 transgenic plants. Although we have not yet confirmed any effects on grape berry skin color, we were successful in demonstrating that cleaving the long terminal repeat (LTR) present at both ends of Gret1 can efficiently eliminate the transposon."
+}
+],
+"text": "Transposition of transposable elements affect expression levels, splicing and epigenetic status, and function of genes located in, or near, the inserted/excised locus. For example, in grape, presence of the Gret1 retrotransposon in the promoter region of the VvMYBA1a allele at the VvMYBA1 locus suppress the expression of the VvMYBA1 transcription factor gene for the anthocyanin biosynthesis and this transposon insertion is responsible for the green berry skin color of Vitis labrascana, 'Shine Muscat', a major grape cultivar in Japan. To prove that transposons in grape genome can be removed by genome editing, we focused on Gret1 in the VvMYBA1a allele as a target of CRISPR/Cas9 mediated transposon removal. PCR amplification and sequencing detected Gret1 eliminated cells in 19 of 45 transgenic plants. Although we have not yet confirmed any effects on grape berry skin color, we were successful in demonstrating that cleaving the long terminal repeat (LTR) present at both ends of Gret1 can efficiently eliminate the transposon.",
+"statements": [
+{
+"j": 1,
+"text": "In grape, the Gret1 insertion in the VvMYBA1a promoter activates VvMYBA1 expression."
+},
+{
+"j": 2,
+"text": "Gret1-eliminated cells were detected in 19 of 45 transgenic plants."
+},
+{
+"j": 3,
+"text": "The same CRISPR approach removed Gret1 from other grape cultivars beyond Shine Muscat."
+},
+{
+"j": 4,
+"text": "Cutting the long terminal repeats flanking Gret1 efficiently removed the transposon."
+}
+]
+},
+{
+"n": 382,
+"id": "pmid:40129057",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Liquid biopsy using circulating tumor DNA (ctDNA) is useful for precision medicine and molecular-guided oncology; however, its sensitivity is insufficient. We focused on DNA in extracellular vesicles (evDNA) as a new target for liquid biopsy and investigated its sensitivity. This observational study included 334 Stage I-IV colorectal cancer patients. evDNAs and ctDNAs were extracted from plasma collected before surgery. KRAS mutation status was analyzed using droplet digital PCR. One hundred and forty-eight patients had KRAS mutations in tumor tissues, and 186 patients had no KRAS mutations. In Stage II (Stage II 37.8% vs. 13.3%, p = 0.015) or III (Stage III 43.1% vs. 13.6%, p = 0.001) patients, sensitivities to detect KRAS mutations using evDNA were higher than those using ctDNA. Surprisingly, evDNA identified KRAS mutations in 13.8% of patients who lacked them in tumor tissue samples. Among Stage III patients, those with higher concentrations of evDNA had significantly poorer relapse-free survival compared with those who had lower concentrations of evDNA (p = 0.043). The use of evDNA improved the identification rate of KRAS mutations. By using evDNA, KRAS mutations were identified in more than 10% of patients without KRAS mutations in their tumor tissues. The concentration of evDNA can be a prognostic factor for Stage III colorectal cancer patients."
+}
+],
+"text": "Liquid biopsy using circulating tumor DNA (ctDNA) is useful for precision medicine and molecular-guided oncology; however, its sensitivity is insufficient. We focused on DNA in extracellular vesicles (evDNA) as a new target for liquid biopsy and investigated its sensitivity. This observational study included 334 Stage I-IV colorectal cancer patients. evDNAs and ctDNAs were extracted from plasma collected before surgery. KRAS mutation status was analyzed using droplet digital PCR. One hundred and forty-eight patients had KRAS mutations in tumor tissues, and 186 patients had no KRAS mutations. In Stage II (Stage II 37.8% vs. 13.3%, p = 0.015) or III (Stage III 43.1% vs. 13.6%, p = 0.001) patients, sensitivities to detect KRAS mutations using evDNA were higher than those using ctDNA. Surprisingly, evDNA identified KRAS mutations in 13.8% of patients who lacked them in tumor tissue samples. Among Stage III patients, those with higher concentrations of evDNA had significantly poorer relapse-free survival compared with those who had lower concentrations of evDNA (p = 0.043). The use of evDNA improved the identification rate of KRAS mutations. By using evDNA, KRAS mutations were identified in more than 10% of patients without KRAS mutations in their tumor tissues. The concentration of evDNA can be a prognostic factor for Stage III colorectal cancer patients.",
+"statements": [
+{
+"j": 1,
+"text": "In stage III patients, evDNA detected KRAS mutations more often than ctDNA (43.1% vs 13.6%)."
+},
+{
+"j": 2,
+"text": "evDNA detected KRAS mutations in 13.8% of patients whose tumour tissue had none."
+},
+{
+"j": 3,
+"text": "In stage II and III patients, ctDNA was more sensitive than evDNA for detecting KRAS mutations."
+},
+{
+"j": 4,
+"text": "evDNA concentration predicted overall survival in stage IV colorectal cancer patients."
+}
+]
+},
+{
+"n": 383,
+"id": "doi:10.64898/2025.11.28.25341240",
+"year": 2025,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "Plasma-separating dried blood spots (psDBS) allow measurement of cancer biomarkers such as cell-free DNA concentration, enabling distributed sample collection, as well as ambient storage and shipment. However, unlike volumetric blood tube collections, blood volume collected using psDBS can vary between individuals. We evaluated whether analysis of psDBS mass, area, and color can be used to infer blood volume, and enable downstream measurement of circulating analyte concentrations."
+},
+{
+"label": "Methods",
+"text": "Whole blood from healthy individuals and cancer patients was collected and used to prepare psDBS with volumes of 50 to 250 µL. Total area and mean grey value (MGV) of the erythrocyte region were measured using image segmentation. We developed a linear regression model to predict whole blood volume using mass, area, and MGV. DNA from psDBS was extracted, then quantified using a quantitative PCR assay targeting L1PA2."
+},
+{
+"label": "Results",
+"text": "We analyzed 261 psDBS samples from 43 healthy individuals and 118 cancer patients. Using 110 samples from 10 healthy individuals, the linear regression model showed a strong correlation between actual and predicted blood volume (Pearson r = 0.97, RMSE = 5.1 µL). Using 151 samples from 33 separate healthy individuals and 118 samples from cancer patients, the model predicted blood volume with high accuracy (RMSE = 15.1 µL and 13.3 µL, respectively). Plasma DNA concentration in psDBS was moderately correlated with matched blood tubes (Spearman rho = 0.62)."
+},
+{
+"label": "Conclusion",
+"text": "Our results show estimating blood volume collected on psDBS is feasible using mass and image analysis. This approach enables calculation of circulating concentration for plasma analytes measured using psDBS."
+}
+],
+"text": "Plasma-separating dried blood spots (psDBS) allow measurement of cancer biomarkers such as cell-free DNA concentration, enabling distributed sample collection, as well as ambient storage and shipment. However, unlike volumetric blood tube collections, blood volume collected using psDBS can vary between individuals. We evaluated whether analysis of psDBS mass, area, and color can be used to infer blood volume, and enable downstream measurement of circulating analyte concentrations. Whole blood from healthy individuals and cancer patients was collected and used to prepare psDBS with volumes of 50 to 250 µL. Total area and mean grey value (MGV) of the erythrocyte region were measured using image segmentation. We developed a linear regression model to predict whole blood volume using mass, area, and MGV. DNA from psDBS was extracted, then quantified using a quantitative PCR assay targeting L1PA2. We analyzed 261 psDBS samples from 43 healthy individuals and 118 cancer patients. Using 110 samples from 10 healthy individuals, the linear regression model showed a strong correlation between actual and predicted blood volume (Pearson r = 0.97, RMSE = 5.1 µL). Using 151 samples from 33 separate healthy individuals and 118 samples from cancer patients, the model predicted blood volume with high accuracy (RMSE = 15.1 µL and 13.3 µL, respectively). Plasma DNA concentration in psDBS was moderately correlated with matched blood tubes (Spearman rho = 0.62). Our results show estimating blood volume collected on psDBS is feasible using mass and image analysis. This approach enables calculation of circulating concentration for plasma analytes measured using psDBS.",
+"statements": [
+{
+"j": 1,
+"text": "In the training set the model predicted blood volume with Pearson r = 0.97 and an RMSE of 5.1 microlitres."
+},
+{
+"j": 2,
+"text": "Plasma DNA concentration from psDBS correlated moderately with matched blood tubes (Spearman rho = 0.62)."
+},
+{
+"j": 3,
+"text": "The psDBS method detected circulating tumour DNA mutations in the cancer patients."
+},
+{
+"j": 4,
+"text": "DNA from the dried blood spots was quantified using a qPCR assay targeting KRAS."
+}
+]
+},
+{
+"n": 384,
+"id": "doi:10.64898/2026.03.16.26348487",
+"year": 2026,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Genome-wide association studies (GWAS) typically represent Alzheimer's disease (AD) risk loci by a single lead SNP, although the lead SNP may capture only part of the genetic variation at a locus. We asked what genetic architectures underlie AD GWAS associations and how much information is obscured when a locus is reduced to a single lead SNP. We integrated AD GWAS summary statistics with long-read whole-genome sequencing of 493 individuals, phased DNA methylation, chromatin annotations, and structural variant (SV) imputation. Across 98 established AD loci, linkage disequilibrium (LD)-based clumping and conditional analysis identified 280 independent AD-haplotypes, of which 207 (74%) harbored linked structural variants, yielding 2,000 haplotype-linked SVs comprising intronic transposable elements and multiallelic tandem repeats within regulatory regions. Integration of methylation, chromatin annotations, and genomic context prioritized 52 AD haplotypes with candidate regulatory SVs, revealing that lead SNPs often capture only part of the underlying structural and regulatory architecture. At the SHARPIN/PLEC locus, long-read fine-mapping resolved an independent regulatory PLEC haplotype carrying a CpG-rich tandem repeat associated with enhancer methylation and reduced microglial expression. Extending these findings to population scale, we imputed 83% of haplotype-linked SVs into SNP-genotyped cohorts (median imputation R2 = 0.76). In exploratory model comparisons, lead-SNP-only models were favored at just 10% of loci, whereas models incorporating multiple haplotypes, SVs, or both were favored at the remaining 90%. Our findings show that AD GWAS loci frequently comprise structurally and regulatorily heterogeneous haplotypes that cannot be fully interpreted through the lead SNP alone. Rather than the lead SNP, the haplotype represents the fundamental unit for resolving the biological mechanisms driving AD genetic risk."
+}
+],
+"text": "Genome-wide association studies (GWAS) typically represent Alzheimer's disease (AD) risk loci by a single lead SNP, although the lead SNP may capture only part of the genetic variation at a locus. We asked what genetic architectures underlie AD GWAS associations and how much information is obscured when a locus is reduced to a single lead SNP. We integrated AD GWAS summary statistics with long-read whole-genome sequencing of 493 individuals, phased DNA methylation, chromatin annotations, and structural variant (SV) imputation. Across 98 established AD loci, linkage disequilibrium (LD)-based clumping and conditional analysis identified 280 independent AD-haplotypes, of which 207 (74%) harbored linked structural variants, yielding 2,000 haplotype-linked SVs comprising intronic transposable elements and multiallelic tandem repeats within regulatory regions. Integration of methylation, chromatin annotations, and genomic context prioritized 52 AD haplotypes with candidate regulatory SVs, revealing that lead SNPs often capture only part of the underlying structural and regulatory architecture. At the SHARPIN/PLEC locus, long-read fine-mapping resolved an independent regulatory PLEC haplotype carrying a CpG-rich tandem repeat associated with enhancer methylation and reduced microglial expression. Extending these findings to population scale, we imputed 83% of haplotype-linked SVs into SNP-genotyped cohorts (median imputation R2 = 0.76). In exploratory model comparisons, lead-SNP-only models were favored at just 10% of loci, whereas models incorporating multiple haplotypes, SVs, or both were favored at the remaining 90%. Our findings show that AD GWAS loci frequently comprise structurally and regulatorily heterogeneous haplotypes that cannot be fully interpreted through the lead SNP alone. Rather than the lead SNP, the haplotype represents the fundamental unit for resolving the biological mechanisms driving AD genetic risk.",
+"statements": [
+{
+"j": 1,
+"text": "Only 10% of the haplotype-linked structural variants could be imputed into SNP-genotyped cohorts."
+},
+{
+"j": 2,
+"text": "Lead-SNP-only models were favoured at only 10% of loci, with multi-haplotype or SV models favoured at the other 90%."
+},
+{
+"j": 3,
+"text": "The PLEC regulatory tandem repeat was shown to increase Alzheimer's disease risk in carriers."
+},
+{
+"j": 4,
+"text": "Across 98 AD loci the analysis found 280 independent haplotypes, 207 of which (74%) carried linked structural variants."
+}
+]
+}
+]
+}

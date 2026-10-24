@@ -1,0 +1,1277 @@
+{
+ "built_utc": "2026-10-23T19:26:47Z",
+ "candidates": "src/candidates_leading_cited.json",
+ "per_field": 70,
+ "sample_seed": null,
+ "dropped": {
+  "off_field": 183,
+  "in_corpus": 14,
+  "tool_title": 45
+ },
+ "fields": {
+  "evodevo": [
+   {
+    "rank": 1,
+    "id": "pmid:29155950",
+    "cited_by": 2270,
+    "year": 2018,
+    "journal": "Nucleic acids research",
+    "title": "Ensembl 2018",
+    "abstract_start": "The Ensembl project has been aggregating, processing, integrating and redistributing genomic datasets since the initial releases of the draft human genome, with the aim of accelerating genomics research through rapid open distribution of public data. Large amounts of raw data are thus transformed into knowledge, which is made available via a multitude of channels, in particular our browser (http:/"
+   },
+   {
+    "rank": 2,
+    "id": "pmid:29220515",
+    "cited_by": 1756,
+    "year": 2018,
+    "journal": "Molecular biology and evolution",
+    "title": "BUSCO Applications from Quality Assessments to Gene Prediction and Phylogenomics",
+    "abstract_start": "Genomics promises comprehensive surveying of genomes and metagenomes, but rapidly changing technologies and expanding data volumes make evaluation of completeness a challenging task. Technical sequencing quality metrics can be complemented by quantifying completeness of genomic data sets in terms of the expected gene content of Benchmarking Universal Single-Copy Orthologs (BUSCO, http://busco.ezla"
+   },
+   {
+    "rank": 3,
+    "id": "pmid:29556109",
+    "cited_by": 1400,
+    "year": 2018,
+    "journal": "Nature microbiology",
+    "title": "Dynamic root exudate chemistry and microbial substrate preferences drive patterns in rhizosphere microbial community assembly",
+    "abstract_start": "Like all higher organisms, plants have evolved in the context of a microbial world, shaping both their evolution and their contemporary ecology. Interactions between plant roots and soil microorganisms are critical for plant fitness in natural environments. Given this co-evolution and the pivotal importance of plant-microbial interactions, it has been hypothesized, and a growing body of literature"
+   },
+   {
+    "rank": 4,
+    "id": "pmid:33137190",
+    "cited_by": 1387,
+    "year": 2021,
+    "journal": "Nucleic acids research",
+    "title": "Ensembl 2021",
+    "abstract_start": "The Ensembl project (https://www.ensembl.org) annotates genomes and disseminates genomic data for vertebrate species. We create detailed and comprehensive annotation of gene structures, regulatory elements and variants, and enable comparative genomics by inferring the evolutionary history of genes and genomes. Our integrated genomic data are made available in a variety of ways, including genome br"
+   },
+   {
+    "rank": 5,
+    "id": "pmid:31691826",
+    "cited_by": 1342,
+    "year": 2020,
+    "journal": "Nucleic acids research",
+    "title": "Ensembl 2020",
+    "abstract_start": "The Ensembl (https://www.ensembl.org) is a system for generating and distributing genome annotation such as genes, variation, regulation and comparative genomics across the vertebrate subphylum and key model organisms. The Ensembl annotation pipeline is capable of integrating experimental and reference data from multiple providers into a single integrated resource. Here, we present 94 newly annota"
+   },
+   {
+    "rank": 6,
+    "id": "pmid:34608324",
+    "cited_by": 1233,
+    "year": 2021,
+    "journal": "Nature methods",
+    "title": "Effective gene expression prediction from sequence by integrating long-range interactions",
+    "abstract_start": "How noncoding DNA determines gene expression in different cell types is a major unsolved problem, and critical downstream applications in human genetics depend on improved solutions. Here, we report substantially improved gene expression prediction accuracy from DNA sequences through the use of a deep learning architecture, called Enformer, that is able to integrate information from long-range int"
+   },
+   {
+    "rank": 7,
+    "id": "pmid:27088604",
+    "cited_by": 832,
+    "year": 2016,
+    "journal": "Nature",
+    "title": "The Atlantic salmon genome provides insights into rediploidization",
+    "abstract_start": "The whole-genome duplication 80 million years ago of the common ancestor of salmonids (salmonid-specific fourth vertebrate whole-genome duplication, Ss4R) provides unique opportunities to learn about the evolutionary fate of a duplicated vertebrate genome in 70 extant lineages. Here we present a high-quality genome assembly for Atlantic salmon (Salmo salar), and show that large genomic reorganizat"
+   },
+   {
+    "rank": 8,
+    "id": "pmid:29769716",
+    "cited_by": 556,
+    "year": 2018,
+    "journal": "Nature",
+    "title": "Mutant phenotypes for thousands of bacterial genes of unknown function",
+    "abstract_start": "One-third of all protein-coding genes from bacterial genomes cannot be annotated with a function. Here, to investigate the functions of these genes, we present genome-wide mutant fitness data from 32 diverse bacteria across dozens of growth conditions. We identified mutant phenotypes for 11,779 protein-coding genes that had not been annotated with a specific function. Many genes could be associate"
+   },
+   {
+    "rank": 9,
+    "id": "pmid:30735633",
+    "cited_by": 551,
+    "year": 2019,
+    "journal": "Cell",
+    "title": "Establishing Cerebral Organoids as Models of Human-Specific Brain Evolution",
+    "abstract_start": "Direct comparisons of human and non-human primate brains can reveal molecular pathways underlying remarkable specializations of the human brain. However, chimpanzee tissue is inaccessible during neocortical neurogenesis when differences in brain size first appear. To identify human-specific features of cortical development, we leveraged recent innovations that permit generating pluripotent stem ce"
+   },
+   {
+    "rank": 10,
+    "id": "pmid:28538728",
+    "cited_by": 545,
+    "year": 2017,
+    "journal": "Nature",
+    "title": "The sunflower genome provides insights into oil metabolism, flowering and Asterid evolution",
+    "abstract_start": "The domesticated sunflower, Helianthus annuus L., is a global oil crop that has promise for climate change adaptation, because it can maintain stable yields across a wide variety of environmental conditions, including drought. Even greater resilience is achievable through the mining of resistance alleles from compatible wild sunflower relatives, including numerous extremophile species. Here we rep"
+   },
+   {
+    "rank": 11,
+    "id": "pmid:30510239",
+    "cited_by": 499,
+    "year": 2019,
+    "journal": "Nature genetics",
+    "title": "Reference genome sequences of two cultivated allotetraploid cottons, Gossypium hirsutum and Gossypium barbadense",
+    "abstract_start": "Allotetraploid cotton species (Gossypium hirsutum and Gossypium barbadense) have long been cultivated worldwide for natural renewable textile fibers. The draft genome sequences of both species are available but they are highly fragmented and incomplete 1-4 . Here we report reference-grade genome assemblies and annotations for G. hirsutum accession Texas Marker-1 (TM-1) and G. barbadense accession "
+   },
+   {
+    "rank": 12,
+    "id": "pmid:27899575",
+    "cited_by": 487,
+    "year": 2017,
+    "journal": "Nucleic acids research",
+    "title": "Ensembl 2017",
+    "abstract_start": "Ensembl (www.ensembl.org) is a database and genome browser for enabling research on vertebrate genomes. We import, analyse, curate and integrate a diverse collection of large-scale reference data to create a more comprehensive view of genome biology than would be possible from any individual dataset. Our extensive data resources include evidence-based gene and regulatory region annotation, genome "
+   },
+   {
+    "rank": 13,
+    "id": "pmid:30283134",
+    "cited_by": 459,
+    "year": 2018,
+    "journal": "Nature",
+    "title": "Multi-axial self-organization properties of mouse embryonic stem cells into gastruloids",
+    "abstract_start": "The emergence of multiple axes is an essential element in the establishment of the mammalian body plan. This process takes place shortly after implantation of the embryo within the uterus and relies on the activity of gene regulatory networks that coordinate transcription in space and time. Whereas genetic approaches have revealed important aspects of these processes 1 , a mechanistic understandin"
+   },
+   {
+    "rank": 14,
+    "id": "pmid:36797493",
+    "cited_by": 446,
+    "year": 2023,
+    "journal": "Nature biotechnology",
+    "title": "Telomere-to-telomere assembly of diploid chromosomes with Verkko",
+    "abstract_start": "The Telomere-to-Telomere consortium recently assembled the first truly complete sequence of a human genome. To resolve the most complex repeats, this project relied on manual integration of ultra-long Oxford Nanopore sequencing reads with a high-resolution assembly graph built from long, accurate PacBio high-fidelity reads. We have improved and automated this strategy in Verkko, an iterative, grap"
+   },
+   {
+    "rank": 15,
+    "id": "pmid:29760103",
+    "cited_by": 442,
+    "year": 2018,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "Comprehensive phylogeny of ray-finned fishes (Actinopterygii) based on transcriptomic and genomic data",
+    "abstract_start": "Our understanding of phylogenetic relationships among bony fishes has been transformed by analysis of a small number of genes, but uncertainty remains around critical nodes. Genome-scale inferences so far have sampled a limited number of taxa and genes. Here we leveraged 144 genomes and 159 transcriptomes to investigate fish evolution with an unparalleled scale of data: >0.5 Mb from 1,105 ortholog"
+   },
+   {
+    "rank": 16,
+    "id": "pmid:32728250",
+    "cited_by": 413,
+    "year": 2020,
+    "journal": "Nature",
+    "title": "Global reference mapping of human transcription factor footprints",
+    "abstract_start": "Combinatorial binding of transcription factors to regulatory DNA underpins gene regulation in all organisms. Genetic variation in regulatory regions has been connected with diseases and diverse phenotypic traits 1 , but it remains challenging to distinguish variants that affect regulatory function 2 . Genomic DNase I footprinting enables the quantitative, nucleotide-resolution delineation of sites"
+   },
+   {
+    "rank": 17,
+    "id": "pmid:30535394",
+    "cited_by": 408,
+    "year": 2019,
+    "journal": "Systematic biology",
+    "title": "A Universal Probe Set for Targeted Sequencing of 353 Nuclear Genes from Any Flowering Plant Designed Using k-Medoids Clustering",
+    "abstract_start": "Sequencing of target-enriched libraries is an efficient and cost-effective method for obtaining DNA sequence data from hundreds of nuclear loci for phylogeny reconstruction. Much of the cost of developing targeted sequencing approaches is associated with the generation of preliminary data needed for the identification of orthologous loci for probe design. In plants, identifying orthologous loci ha"
+   },
+   {
+    "rank": 18,
+    "id": "pmid:29967517",
+    "cited_by": 389,
+    "year": 2018,
+    "journal": "Nature plants",
+    "title": "Fern genomes elucidate land plant evolution and cyanobacterial symbioses",
+    "abstract_start": "Ferns are the closest sister group to all seed plants, yet little is known about their genomes other than that they are generally colossal. Here, we report on the genomes of Azolla filiculoides and Salvinia cucullata (Salviniales) and present evidence for episodic whole-genome duplication in ferns-one at the base of 'core leptosporangiates' and one specific to Azolla. One fern-specific gene that w"
+   },
+   {
+    "rank": 19,
+    "id": "pmid:28196534",
+    "cited_by": 357,
+    "year": 2017,
+    "journal": "Genome biology",
+    "title": "Comparative genomics reveals high biological diversity and specific adaptations in the industrially and medically important fungal genus Aspergillus",
+    "abstract_start": "The fungal genus Aspergillus is of critical importance to humankind. Species include those with industrial applications, important pathogens of humans, animals and crops, a source of potent carcinogenic contaminants of food, and an important genetic model. The genome sequences of eight aspergilli have already been explored to investigate aspects of fungal biology, raising questions about evolution"
+   },
+   {
+    "rank": 20,
+    "id": "pmid:29456145",
+    "cited_by": 355,
+    "year": 2018,
+    "journal": "Current biology : CB",
+    "title": "The Interrelationships of Land Plants and the Nature of the Ancestral Embryophyte",
+    "abstract_start": "The evolutionary emergence of land plant body plans transformed the planet. However, our understanding of this formative episode is mired in the uncertainty associated with the phylogenetic relationships among bryophytes (hornworts, liverworts, and mosses) and tracheophytes (vascular plants). Here we attempt to clarify this problem by analyzing a large transcriptomic dataset with models that allow"
+   },
+   {
+    "rank": 21,
+    "id": "pmid:32579922",
+    "cited_by": 349,
+    "year": 2020,
+    "journal": "Cell reports",
+    "title": "Sex Differences in Gene Expression and Regulatory Networks across 29 Human Tissues",
+    "abstract_start": "Sex differences manifest in many diseases and may drive sex-specific therapeutic responses. To understand the molecular basis of sex differences, we evaluated sex-biased gene regulation by constructing sample-specific gene regulatory networks in 29 human healthy tissues using 8,279 whole-genome expression profiles from the Genotype-Tissue Expression (GTEx) project. We find sex-biased regulatory ne"
+   },
+   {
+    "rank": 22,
+    "id": "pmid:29539636",
+    "cited_by": 336,
+    "year": 2018,
+    "journal": "Nature",
+    "title": "The cis-regulatory dynamics of embryonic development at single-cell resolution",
+    "abstract_start": "Understanding how gene regulatory networks control the progressive restriction of cell fates is a long-standing challenge. Recent advances in measuring gene expression in single cells are providing new insights into lineage commitment. However, the regulatory events underlying these changes remain unclear. Here we investigate the dynamics of chromatin regulatory landscapes during embryogenesis at "
+   },
+   {
+    "rank": 23,
+    "id": "pmid:28812685",
+    "cited_by": 334,
+    "year": 2017,
+    "journal": "Nature ecology & evolution",
+    "title": "Scallop genome provides insights into evolution of bilaterian karyotype and development",
+    "abstract_start": "Reconstructing the genomes of bilaterian ancestors is central to our understanding of animal evolution, where knowledge from ancient and/or slow-evolving bilaterian lineages is critical. Here we report a high-quality, chromosome-anchored reference genome for the scallop Patinopecten yessoensis, a bivalve mollusc that has a slow-evolving genome with many ancestral features. Chromosome-based macrosy"
+   },
+   {
+    "rank": 24,
+    "id": "pmid:36198796",
+    "cited_by": 319,
+    "year": 2023,
+    "journal": "Nature",
+    "title": "Inferring and perturbing cell fate regulomes in human brain organoids",
+    "abstract_start": "Self-organizing neural organoids grown from pluripotent stem cells 1-3 combined with single-cell genomic technologies provide opportunities to examine gene regulatory networks underlying human brain development. Here we acquire single-cell transcriptome and accessible chromatin data over a dense time course in human organoids covering neuroepithelial formation, patterning, brain regionalization an"
+   },
+   {
+    "rank": 25,
+    "id": "pmid:35357915",
+    "cited_by": 308,
+    "year": 2022,
+    "journal": "Science (New York, N.Y.)",
+    "title": "Epigenetic patterns in a complete human genome",
+    "abstract_start": "The completion of a telomere-to-telomere human reference genome, T2T-CHM13, has resolved complex regions of the genome, including repetitive and homologous regions. Here, we present a high-resolution epigenetic study of previously unresolved sequences, representing entire acrocentric chromosome short arms, gene family expansions, and a diverse collection of repeat classes. This resource precisely "
+   },
+   {
+    "rank": 26,
+    "id": "pmid:32313176",
+    "cited_by": 306,
+    "year": 2020,
+    "journal": "Nature ecology & evolution",
+    "title": "Deeply conserved synteny resolves early events in vertebrate evolution",
+    "abstract_start": "Although it is widely believed that early vertebrate evolution was shaped by ancient whole-genome duplications, the number, timing and mechanism of these events remain elusive. Here, we infer the history of vertebrates through genomic comparisons with a new chromosome-scale sequence of the invertebrate chordate amphioxus. We show how the karyotypes of amphioxus and diverse vertebrates are derived "
+   },
+   {
+    "rank": 27,
+    "id": "pmid:28902843",
+    "cited_by": 301,
+    "year": 2017,
+    "journal": "Nature",
+    "title": "The Apostasia genome and the evolution of orchids",
+    "abstract_start": "Constituting approximately 10% of flowering plant species, orchids (Orchidaceae) display unique flower morphologies, possess an extraordinary diversity in lifestyle, and have successfully colonized almost every habitat on Earth. Here we report the draft genome sequence of Apostasia shenzhenica, a representative of one of two genera that form a sister lineage to the rest of the Orchidaceae, providi"
+   },
+   {
+    "rank": 28,
+    "id": "pmid:31853069",
+    "cited_by": 297,
+    "year": 2020,
+    "journal": "Nature",
+    "title": "The water lily genome and the early evolution of flowering plants",
+    "abstract_start": "Water lilies belong to the angiosperm order Nymphaeales. Amborellales, Nymphaeales and Austrobaileyales together form the so-called ANA-grade of angiosperms, which are extant representatives of lineages that diverged the earliest from the lineage leading to the extant mesangiosperms 1-3 . Here we report the 409-megabase genome sequence of the blue-petal water lily (Nymphaea colorata). Our phylogen"
+   },
+   {
+    "rank": 29,
+    "id": "pmid:27259149",
+    "cited_by": 296,
+    "year": 2016,
+    "journal": "Cell",
+    "title": "Establishing Chromatin Regulatory Landscape during Mouse Preimplantation Development",
+    "abstract_start": "How the chromatin regulatory landscape in the inner cell mass cells is established from differentially packaged sperm and egg genomes during preimplantation development is unknown. Here, we develop a low-input DNase I sequencing (liDNase-seq) method that allows us to generate maps of DNase I-hypersensitive site (DHS) of mouse preimplantation embryos from 1-cell to morula stage. The DHS landscape i"
+   },
+   {
+    "rank": 30,
+    "id": "pmid:30580963",
+    "cited_by": 289,
+    "year": 2019,
+    "journal": "Cell",
+    "title": "Coupled Single-Cell CRISPR Screening and Epigenomic Profiling Reveals Causal Gene Regulatory Networks",
+    "abstract_start": "Here, we present Perturb-ATAC, a method that combines multiplexed CRISPR interference or knockout with genome-wide chromatin accessibility profiling in single cells based on the simultaneous detection of CRISPR guide RNAs and open chromatin sites by assay of transposase-accessible chromatin with sequencing (ATAC-seq). We applied Perturb-ATAC to transcription factors (TFs), chromatin-modifying fact"
+   },
+   {
+    "rank": 31,
+    "id": "pmid:32170292",
+    "cited_by": 288,
+    "year": 2020,
+    "journal": "Nature plants",
+    "title": "Anthoceros genomes illuminate the origin of land plants and the unique biology of hornworts",
+    "abstract_start": "Hornworts comprise a bryophyte lineage that diverged from other extant land plants >400 million years ago and bears unique biological features, including a distinct sporophyte architecture, cyanobacterial symbiosis and a pyrenoid-based carbon-concentrating mechanism (CCM). Here, we provide three high-quality genomes of Anthoceros hornworts. Phylogenomic analyses place hornworts as a sister clade t"
+   },
+   {
+    "rank": 32,
+    "id": "pmid:27321997",
+    "cited_by": 288,
+    "year": 2016,
+    "journal": "Current biology : CB",
+    "title": "Convergent Evolution of Rumen Microbiomes in High-Altitude Mammals",
+    "abstract_start": "Studies of genetic adaptation, a central focus of evolutionary biology, most often focus on the host's genome and only rarely on its co-evolved microbiome. The Qinghai-Tibetan Plateau (QTP) offers one of the most extreme environments for the survival of human and other mammalian species. Yaks (Bos grunniens) and Tibetan sheep (T-sheep) (Ovis aries) have adaptations for living in this harsh high-al"
+   },
+   {
+    "rank": 33,
+    "id": "pmid:26863982",
+    "cited_by": 285,
+    "year": 2016,
+    "journal": "Nature",
+    "title": "Hoxb5 marks long-term haematopoietic stem cells and reveals a homogenous perivascular niche",
+    "abstract_start": "Haematopoietic stem cells (HSCs) are arguably the most extensively characterized tissue stem cells. Since the identification of HSCs by prospective isolation, complex multi-parameter flow cytometric isolation of phenotypic subsets has facilitated studies on many aspects of HSC biology, including self-renewal, differentiation, ageing, niche, and diversity. Here we demonstrate by unbiased multi-step"
+   },
+   {
+    "rank": 34,
+    "id": "pmid:37104599",
+    "cited_by": 276,
+    "year": 2023,
+    "journal": "Science (New York, N.Y.)",
+    "title": "Evolutionary constraint and innovation across hundreds of placental mammals",
+    "abstract_start": "Zoonomia is the largest comparative genomics resource for mammals produced to date. By aligning genomes for 240 species, we identify bases that, when mutated, are likely to affect fitness and alter disease risk. At least 332 million bases (~10.7%) in the human genome are unusually conserved across species (evolutionarily constrained) relative to neutrally evolving repeats, and 4552 ultraconserved "
+   },
+   {
+    "rank": 35,
+    "id": "pmid:34644527",
+    "cited_by": 274,
+    "year": 2021,
+    "journal": "Cell",
+    "title": "A phosphate starvation response-centered network regulates mycorrhizal symbiosis",
+    "abstract_start": "To secure phosphorus (P) from soil, most land plants use a direct phosphate uptake pathway via root hairs and epidermis and an indirect phosphate uptake pathway via mycorrhizal symbiosis. The interaction between these two pathways is unclear. Here, we mapped a network between transcription factors and mycorrhizal symbiosis-related genes using Y1H. Intriguingly, this gene regulatory network is gove"
+   },
+   {
+    "rank": 36,
+    "id": "pmid:29321523",
+    "cited_by": 254,
+    "year": 2018,
+    "journal": "Nature communications",
+    "title": "Integrative genomic and transcriptomic analysis of leiomyosarcoma",
+    "abstract_start": "Leiomyosarcoma (LMS) is an aggressive mesenchymal malignancy with few therapeutic options. The mechanisms underlying LMS development, including clinically actionable genetic vulnerabilities, are largely unknown. Here we show, using whole-exome and transcriptome sequencing, that LMS tumors are characterized by substantial mutational heterogeneity, near-universal inactivation of TP53 and RB1, widesp"
+   },
+   {
+    "rank": 37,
+    "id": "pmid:30464347",
+    "cited_by": 253,
+    "year": 2018,
+    "journal": "Nature",
+    "title": "Amphioxus functional genomics and the origins of vertebrate gene regulation",
+    "abstract_start": "Vertebrates have greatly elaborated the basic chordate body plan and evolved highly distinctive genomes that have been sculpted by two whole-genome duplications. Here we sequence the genome of the Mediterranean amphioxus (Branchiostoma lanceolatum) and characterize DNA methylation, chromatin accessibility, histone modifications and transcriptomes across multiple developmental stages and adult tiss"
+   },
+   {
+    "rank": 38,
+    "id": "pmid:35637331",
+    "cited_by": 252,
+    "year": 2022,
+    "journal": "Nature microbiology",
+    "title": "CRISPRi chemical genetics and comparative genomics identify genes mediating drug potency in Mycobacterium tuberculosis",
+    "abstract_start": "Mycobacterium tuberculosis (Mtb) infection is notoriously difficult to treat. Treatment efficacy is limited by Mtb's intrinsic drug resistance, as well as its ability to evolve acquired resistance to all antituberculars in clinical use. A deeper understanding of the bacterial pathways that influence drug efficacy could facilitate the development of more effective therapies, identify new mechanisms"
+   },
+   {
+    "rank": 39,
+    "id": "pmid:30449316",
+    "cited_by": 252,
+    "year": 2018,
+    "journal": "Cell host & microbe",
+    "title": "Biology and Taxonomy of crAss-like Bacteriophages, the Most Abundant Virus in the Human Gut",
+    "abstract_start": "CrAssphages represent the most abundant virus in the human gut microbiota, but the lack of available genome sequences for comparison has kept them enigmatic. Recently, sequence-based classification of distantly related crAss-like phages from multiple environments was reported, leading to a proposed familial-level taxonomic group. Here, we assembled the metagenomic sequencing reads from 702 human f"
+   },
+   {
+    "rank": 40,
+    "id": "pmid:30496396",
+    "cited_by": 246,
+    "year": 2019,
+    "journal": "Genome biology and evolution",
+    "title": "The Pseudomonas aeruginosa Pan-Genome Provides New Insights on Its Population Structure, Horizontal Gene Transfer, and Pathogenicity",
+    "abstract_start": "The huge increase in the availability of bacterial genomes led us to a point in which we can investigate and query pan-genomes, for example, the full set of genes of a given bacterial species or clade. Here, we used a data set of 1,311 high-quality genomes from the human pathogen Pseudomonas aeruginosa, 619 of which were newly sequenced, to show that a pan-genomic approach can greatly refine the p"
+   },
+   {
+    "rank": 41,
+    "id": "pmid:30166436",
+    "cited_by": 238,
+    "year": 2018,
+    "journal": "Science (New York, N.Y.)",
+    "title": "The opium poppy genome and morphinan production",
+    "abstract_start": "Morphinan-based painkillers are derived from opium poppy ( Papaver somniferum L.). We report a draft of the opium poppy genome, with 2.72 gigabases assembled into 11 chromosomes with contig N50 and scaffold N50 of 1.77 and 204 megabases, respectively. Synteny analysis suggests a whole-genome duplication at ~7.8 million years ago and ancient segmental or whole-genome duplication(s) that occurred be"
+   },
+   {
+    "rank": 42,
+    "id": "pmid:34965378",
+    "cited_by": 234,
+    "year": 2022,
+    "journal": "Cell",
+    "title": "The Chinese pine genome and methylome unveil key features of conifer evolution",
+    "abstract_start": "Conifers dominate the world's forest ecosystems and are the most widely planted tree species. Their giant and complex genomes present great challenges for assembling a complete reference genome for evolutionary and genomic studies. We present a 25.4-Gb chromosome-level assembly of Chinese pine (Pinus tabuliformis) and revealed that its genome size is mostly attributable to huge intergenic regions "
+   },
+   {
+    "rank": 43,
+    "id": "pmid:28642229",
+    "cited_by": 233,
+    "year": 2017,
+    "journal": "EMBO reports",
+    "title": "Evolutionary dynamics of the kinetochore network in eukaryotes as revealed by comparative genomics",
+    "abstract_start": "During eukaryotic cell division, the sister chromatids of duplicated chromosomes are pulled apart by microtubules, which connect via kinetochores. The kinetochore is a multiprotein structure that links centromeres to microtubules, and that emits molecular signals in order to safeguard the equal distribution of duplicated chromosomes over daughter cells. Although microtubule-mediated chromosome seg"
+   },
+   {
+    "rank": 44,
+    "id": "pmid:28827752",
+    "cited_by": 227,
+    "year": 2017,
+    "journal": "Nature plants",
+    "title": "Haplotype-resolved sweet potato genome traces back its hexaploidization history",
+    "abstract_start": "Here we present the 15 pseudochromosomes of sweet potato, Ipomoea batatas, the seventh most important crop in the world and the fourth most significant in China. By using a novel haplotyping method based on genome assembly, we have produced a half haplotype-resolved genome from ~296 Gb of paired-end sequence reads amounting to roughly 67-fold coverage. By phylogenetic tree analysis of homologous c"
+   },
+   {
+    "rank": 45,
+    "id": "pmid:26886793",
+    "cited_by": 222,
+    "year": 2016,
+    "journal": "Nature",
+    "title": "The mid-developmental transition and the evolution of animal body plans",
+    "abstract_start": "Animals are grouped into ~35 'phyla' based upon the notion of distinct body plans. Morphological and molecular analyses have revealed that a stage in the middle of development--known as the phylotypic period--is conserved among species within some phyla. Although these analyses provide evidence for their existence, phyla have also been criticized as lacking an objective definition, and consequentl"
+   },
+   {
+    "rank": 46,
+    "id": "pmid:37824647",
+    "cited_by": 221,
+    "year": 2023,
+    "journal": "Science (New York, N.Y.)",
+    "title": "Single-cell analysis of prenatal and postnatal human cortical development",
+    "abstract_start": "We analyzed >700,000 single-nucleus RNA sequencing profiles from 106 donors during prenatal and postnatal developmental stages and identified lineage-specific programs that underlie the development of specific subtypes of excitatory cortical neurons, interneurons, glial cell types, and brain vasculature. By leveraging single-nucleus chromatin accessibility data, we delineated enhancer gene regulat"
+   },
+   {
+    "rank": 47,
+    "id": "pmid:30371343",
+    "cited_by": 220,
+    "year": 2018,
+    "journal": "Genome medicine",
+    "title": "Tracking key virulence loci encoding aerobactin and salmochelin siderophore synthesis in Klebsiella pneumoniae",
+    "abstract_start": "Klebsiella pneumoniae is a recognised agent of multidrug-resistant (MDR) healthcare-associated infections; however, individual strains vary in their virulence potential due to the presence of mobile accessory genes. In particular, gene clusters encoding the biosynthesis of siderophores aerobactin (iuc) and salmochelin (iro) are associated with invasive disease and are common amongst hypervirulent "
+   },
+   {
+    "rank": 48,
+    "id": "pmid:31402174",
+    "cited_by": 216,
+    "year": 2019,
+    "journal": "Cell",
+    "title": "Large-Scale Analyses of Human Microbiomes Reveal Thousands of Small, Novel Genes",
+    "abstract_start": "Small proteins are traditionally overlooked due to computational and experimental difficulties in detecting them. To systematically identify small proteins, we carried out a comparative genomics study on 1,773 human-associated metagenomes from four different body sites. We describe >4,000 conserved protein families, the majority of which are novel; ∼30% of these protein families are predicted to b"
+   },
+   {
+    "rank": 49,
+    "id": "pmid:28827376",
+    "cited_by": 216,
+    "year": 2017,
+    "journal": "The Plant cell",
+    "title": "Architecture and Dynamics of the Jasmonic Acid Gene Regulatory Network",
+    "abstract_start": "Jasmonic acid (JA) is a critical hormonal regulator of plant growth and defense. To advance our understanding of the architecture and dynamic regulation of the JA gene regulatory network, we performed a high-resolution RNA-seq time series of methyl JA-treated Arabidopsis thaliana at 15 time points over a 16-h period. Computational analysis showed that methyl JA (MeJA) induces a burst of transcript"
+   },
+   {
+    "rank": 50,
+    "id": "pmid:31675498",
+    "cited_by": 212,
+    "year": 2019,
+    "journal": "Cell",
+    "title": "Discovery of Human Signaling Systems: Pairing Peptides to G Protein-Coupled Receptors",
+    "abstract_start": "The peptidergic system is the most abundant network of ligand-receptor-mediated signaling in humans. However, the physiological roles remain elusive for numerous peptides and more than 100 G protein-coupled receptors (GPCRs). Here we report the pairing of cognate peptides and receptors. Integrating comparative genomics across 313 species and bioinformatics on all protein sequences and structures o"
+   },
+   {
+    "rank": 51,
+    "id": "pmid:30429574",
+    "cited_by": 206,
+    "year": 2019,
+    "journal": "The ISME journal",
+    "title": "Uneven distribution of cobamide biosynthesis and dependence in bacteria predicted by comparative genomics",
+    "abstract_start": "The vitamin B 12 family of cofactors known as cobamides are essential for a variety of microbial metabolisms. We used comparative genomics of 11,000 bacterial species to analyze the extent and distribution of cobamide production and use across bacteria. We find that 86% of bacteria in this data set have at least one of 15 cobamide-dependent enzyme families, but only 37% are predicted to synthesize"
+   },
+   {
+    "rank": 52,
+    "id": "pmid:26744215",
+    "cited_by": 198,
+    "year": 2016,
+    "journal": "The Plant cell",
+    "title": "Gene Duplicability of Core Genes Is Highly Consistent across All Angiosperms",
+    "abstract_start": "Gene duplication is an important mechanism for adding to genomic novelty. Hence, which genes undergo duplication and are preserved following duplication is an important question. It has been observed that gene duplicability, or the ability of genes to be retained following duplication, is a nonrandom process, with certain genes being more amenable to survive duplication events than others. Primari"
+   },
+   {
+    "rank": 53,
+    "id": "pmid:32522874",
+    "cited_by": 196,
+    "year": 2020,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "Genomic determinants of pathogenicity in SARS-CoV-2 and other human coronaviruses",
+    "abstract_start": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) poses an immediate, major threat to public health across the globe. Here we report an in-depth molecular analysis to reconstruct the evolutionary origins of the enhanced pathogenicity of SARS-CoV-2 and other coronaviruses that are severe human pathogens. Using integrated comparative genomics and machine learning techniques, we identify k"
+   },
+   {
+    "rank": 54,
+    "id": "pmid:32231327",
+    "cited_by": 196,
+    "year": 2020,
+    "journal": "Nature ecology & evolution",
+    "title": "The sterlet sturgeon genome sequence and the mechanisms of segmental rediploidization",
+    "abstract_start": "Sturgeons seem to be frozen in time. The archaic characteristics of this ancient fish lineage place it in a key phylogenetic position at the base of the ~30,000 modern teleost fish species. Moreover, sturgeons are notoriously polyploid, providing unique opportunities to investigate the evolution of polyploid genomes. We assembled a high-quality chromosome-level reference genome for the sterlet, Ac"
+   },
+   {
+    "rank": 55,
+    "id": "pmid:27892922",
+    "cited_by": 185,
+    "year": 2016,
+    "journal": "Nature plants",
+    "title": "Convergence and divergence of bitterness biosynthesis and regulation in Cucurbitaceae",
+    "abstract_start": "Differentiation of secondary metabolite profiles in closely related plant species provides clues for unravelling biosynthetic pathways and regulatory circuits, an area that is still underinvestigated. Cucurbitacins, a group of bitter and highly oxygenated tetracyclic triterpenes, are mainly produced by the plant family Cucurbitaceae. These compounds have similar structures, but differ in their ant"
+   },
+   {
+    "rank": 56,
+    "id": "pmid:34987221",
+    "cited_by": 184,
+    "year": 2022,
+    "journal": "Nature",
+    "title": "Decoding gene regulation in the fly brain",
+    "abstract_start": "The Drosophila brain is a frequently used model in neuroscience. Single-cell transcriptome analysis 1-6 , three-dimensional morphological classification 7 and electron microscopy mapping of the connectome 8,9 have revealed an immense diversity of neuronal and glial cell types that underlie an array of functional and behavioural traits in the fly. The identities of these cell types are controlled b"
+   },
+   {
+    "rank": 57,
+    "id": "pmid:30962569",
+    "cited_by": 183,
+    "year": 2019,
+    "journal": "Nature microbiology",
+    "title": "Functional genomics of the rapidly replicating bacterium Vibrio natriegens by CRISPRi",
+    "abstract_start": "The fast-growing Gram-negative bacterium Vibrio natriegens is an attractive microbial system for molecular biology and biotechnology due to its remarkably short generation time 1,2 and metabolic prowess 3,4 . However, efforts to uncover and utilize the mechanisms underlying its rapid growth are hampered by the scarcity of functional genomic data. Here, we develop a pooled genome-wide clustered reg"
+   },
+   {
+    "rank": 58,
+    "id": "pmid:33692491",
+    "cited_by": 181,
+    "year": 2021,
+    "journal": "Cell research",
+    "title": "Single-cell transcriptomic analysis of somatosensory neurons uncovers temporal development of neuropathic pain",
+    "abstract_start": "Peripheral nerve injury could lead to chronic neuropathic pain. Understanding transcriptional changes induced by nerve injury could provide fundamental insights into the complex pathogenesis of neuropathic pain. Gene expression profiles of dorsal root ganglia (DRG) in neuropathic pain condition have been studied. However, little is known about transcriptomic changes in individual DRG neurons after"
+   },
+   {
+    "rank": 59,
+    "id": "pmid:29649445",
+    "cited_by": 181,
+    "year": 2018,
+    "journal": "Cell host & microbe",
+    "title": "Chromatin Accessibility-Based Characterization of the Gene Regulatory Network Underlying Plasmodium falciparum Blood-Stage Development",
+    "abstract_start": "Underlying the development of malaria parasites within erythrocytes and the resulting pathogenicity is a hardwired program that secures proper timing of gene transcription and production of functionally relevant proteins. How stage-specific gene expression is orchestrated in vivo remains unclear. Here, using the assay for transposase accessible chromatin sequencing (ATAC-seq), we identified ∼4,000"
+   },
+   {
+    "rank": 60,
+    "id": "pmid:30451828",
+    "cited_by": 178,
+    "year": 2018,
+    "journal": "Nature communications",
+    "title": "Single cell RNA-seq and ATAC-seq analysis of cardiac progenitor cell transition states and lineage settlement",
+    "abstract_start": "Formation and segregation of cell lineages forming the heart have been studied extensively but the underlying gene regulatory networks and epigenetic changes driving cell fate transitions during early cardiogenesis are still only partially understood. Here, we comprehensively characterize mouse cardiac progenitor cells (CPCs) marked by Nkx2-5 and Isl1 expression from E7.5 to E9.5 using single-cell"
+   },
+   {
+    "rank": 61,
+    "id": "pmid:29023486",
+    "cited_by": 178,
+    "year": 2017,
+    "journal": "PLoS biology",
+    "title": "The sea cucumber genome provides insights into morphological evolution and visceral regeneration",
+    "abstract_start": "Apart from sharing common ancestry with chordates, sea cucumbers exhibit a unique morphology and exceptional regenerative capacity. Here we present the complete genome sequence of an economically important sea cucumber, A. japonicus, generated using Illumina and PacBio platforms, to achieve an assembly of approximately 805 Mb (contig N50 of 190 Kb and scaffold N50 of 486 Kb), with 30,350 protein-c"
+   },
+   {
+    "rank": 62,
+    "id": "pmid:31604932",
+    "cited_by": 177,
+    "year": 2019,
+    "journal": "Nature communications",
+    "title": "The allotetraploid origin and asymmetrical genome evolution of the common carp Cyprinus carpio",
+    "abstract_start": "Common carp (Cyprinus carpio) is an allotetraploid species derived from recent whole genome duplication and provides a model to study polyploid genome evolution in vertebrates. Here, we generate three chromosome-level reference genomes of C. carpio and compare to related diploid Cyprinid genomes. We identify a Barbinae lineage as potential diploid progenitor of C. carpio and then divide the allote"
+   },
+   {
+    "rank": 63,
+    "id": "pmid:36050461",
+    "cited_by": 176,
+    "year": 2022,
+    "journal": "Nature plants",
+    "title": "Dynamic genome evolution in a model fern",
+    "abstract_start": "The large size and complexity of most fern genomes have hampered efforts to elucidate fundamental aspects of fern biology and land plant evolution through genome-enabled research. Here we present a chromosomal genome assembly and associated methylome, transcriptome and metabolome analyses for the model fern species Ceratopteris richardii. The assembly reveals a history of remarkably dynamic genome"
+   },
+   {
+    "rank": 64,
+    "id": "pmid:37248328",
+    "cited_by": 175,
+    "year": 2023,
+    "journal": "Nature aging",
+    "title": "Human microglia show unique transcriptional changes in Alzheimer's disease",
+    "abstract_start": "Microglia, the innate immune cells of the brain, influence Alzheimer's disease (AD) progression and are potential therapeutic targets. However, microglia exhibit diverse functions, the regulation of which is not fully understood, complicating therapeutics development. To better define the transcriptomic phenotypes and gene regulatory networks associated with AD, we enriched for microglia nuclei fr"
+   },
+   {
+    "rank": 65,
+    "id": "pmid:29526463",
+    "cited_by": 175,
+    "year": 2018,
+    "journal": "Cell",
+    "title": "Chromatin Accessibility Landscape in Human Early Embryos and Its Association with Evolution",
+    "abstract_start": "The dynamics of the chromatin regulatory landscape during human early embryogenesis remains unknown. Using DNase I hypersensitive site (DHS) sequencing, we report that the chromatin accessibility landscape is gradually established during human early embryogenesis. Interestingly, the DHSs with OCT4 binding motifs are enriched at the timing of zygotic genome activation (ZGA) in humans, but not in mi"
+   },
+   {
+    "rank": 66,
+    "id": "pmid:31969194",
+    "cited_by": 174,
+    "year": 2020,
+    "journal": "Genome biology",
+    "title": "Gene content evolution in the arthropods",
+    "abstract_start": "Arthropods comprise the largest and most diverse phylum on Earth and play vital roles in nearly every ecosystem. Their diversity stems in part from variations on a conserved body plan, resulting from and recorded in adaptive changes in the genome. Dissection of the genomic record of sequence change enables broad questions regarding genome evolution to be addressed, even across hyper-diverse taxa w"
+   },
+   {
+    "rank": 67,
+    "id": "pmid:29769331",
+    "cited_by": 173,
+    "year": 2018,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "Temporal transcriptional logic of dynamic regulatory networks underlying nitrogen signaling and use in plants",
+    "abstract_start": "This study exploits time, the relatively unexplored fourth dimension of gene regulatory networks (GRNs), to learn the temporal transcriptional logic underlying dynamic nitrogen (N) signaling in plants. Our \"just-in-time\" analysis of time-series transcriptome data uncovered a temporal cascade of cis elements underlying dynamic N signaling. To infer transcription factor (TF)-target edges in a GRN, w"
+   },
+   {
+    "rank": 68,
+    "id": "pmid:27818260",
+    "cited_by": 173,
+    "year": 2017,
+    "journal": "Cell metabolism",
+    "title": "Nuclear Proteomics Uncovers Diurnal Regulatory Landscapes in Mouse Liver",
+    "abstract_start": "Diurnal oscillations of gene expression controlled by the circadian clock and its connected feeding rhythm enable organisms to coordinate their physiologies with daily environmental cycles. While available techniques yielded crucial insights into regulation at the transcriptional level, much less is known about temporally controlled functions within the nucleus and their regulation at the protein "
+   },
+   {
+    "rank": 69,
+    "id": "pmid:28615063",
+    "cited_by": 169,
+    "year": 2017,
+    "journal": "Genome biology",
+    "title": "Lineage-specific rediploidization is a mechanism to explain time-lags between genome duplication and evolutionary diversification",
+    "abstract_start": "The functional divergence of duplicate genes (ohnologues) retained from whole genome duplication (WGD) is thought to promote evolutionary diversification. However, species radiation and phenotypic diversification are often temporally separated from WGD. Salmonid fish, whose ancestor underwent WGD by autotetraploidization ~95 million years ago, fit such a 'time-lag' model of post-WGD radiation, whi"
+   },
+   {
+    "rank": 70,
+    "id": "pmid:28442558",
+    "cited_by": 169,
+    "year": 2017,
+    "journal": "Genome research",
+    "title": "Gene flow, ancient polymorphism, and ecological adaptation shape the genomic landscape of divergence among Darwin's finches",
+    "abstract_start": "Genomic comparisons of closely related species have identified \"islands\" of locally elevated sequence divergence. Genomic islands may contain functional variants involved in local adaptation or reproductive isolation and may therefore play an important role in the speciation process. However, genomic islands can also arise through evolutionary processes unrelated to speciation, and examination of "
+   }
+  ],
+  "rnadev": [
+   {
+    "rank": 1,
+    "id": "pmid:28945705",
+    "cited_by": 608,
+    "year": 2017,
+    "journal": "Nature methods",
+    "title": "Thiol-linked alkylation of RNA to assess expression dynamics",
+    "abstract_start": "Gene expression profiling by high-throughput sequencing reveals qualitative and quantitative changes in RNA species at steady state but obscures the intracellular dynamics of RNA transcription, processing and decay. We developed thiol(SH)-linked alkylation for the metabolic sequencing of RNA (SLAM seq), an orthogonal-chemistry-based RNA sequencing technology that detects 4-thiouridine (s 4 U) inco"
+   },
+   {
+    "rank": 2,
+    "id": "pmid:27626377",
+    "cited_by": 553,
+    "year": 2016,
+    "journal": "Nature",
+    "title": "Broad histone H3K4me3 domains in mouse oocytes modulate maternal-to-zygotic transition",
+    "abstract_start": "Maternal-to-zygotic transition (MZT) is essential for the formation of a new individual, but is still poorly understood despite recent progress in analysis of gene expression and DNA methylation in early embryogenesis. Dynamic histone modifications may have important roles in MZT, but direct measurements of chromatin states have been hindered by technical difficulties in profiling histone modifica"
+   },
+   {
+    "rank": 3,
+    "id": "pmid:27643635",
+    "cited_by": 551,
+    "year": 2016,
+    "journal": "Nature plants",
+    "title": "Bidirectional cross-kingdom RNAi and fungal uptake of external RNAs confer plant protection",
+    "abstract_start": "Aggressive fungal pathogens such as Botrytis and Verticillium spp. cause severe crop losses worldwide. We recently discovered that Botrytis cinerea delivers small RNAs (Bc-sRNAs) into plant cells to silence host immunity genes. Such sRNA effectors are mostly produced by Botrytis cinerea Dicer-like protein 1 (Bc-DCL1) and Bc-DCL2. Here we show that expressing sRNAs that target Bc-DCL1 and Bc-DCL2 i"
+   },
+   {
+    "rank": 4,
+    "id": "pmid:27559612",
+    "cited_by": 551,
+    "year": 2016,
+    "journal": "eLife",
+    "title": "Y-box protein 1 is required to sort microRNAs into exosomes in cells and in a cell-free reaction",
+    "abstract_start": "Exosomes are small vesicles that are secreted from metazoan cells and may convey selected membrane proteins and small RNAs to target cells for the control of cell migration, development and metastasis. To study the mechanisms of RNA packaging into exosomes, we devised a purification scheme based on the membrane marker CD63 to isolate a single exosome species secreted from HEK293T cells. Using immu"
+   },
+   {
+    "rank": 5,
+    "id": "pmid:28192787",
+    "cited_by": 510,
+    "year": 2017,
+    "journal": "Nature",
+    "title": "m6A-dependent maternal mRNA clearance facilitates zebrafish maternal-to-zygotic transition",
+    "abstract_start": "The maternal-to-zygotic transition (MZT) is one of the most profound and tightly orchestrated processes during the early life of embryos, yet factors that shape the temporal pattern of vertebrate MZT are largely unknown. Here we show that over one-third of zebrafish maternal messenger RNAs (mRNAs) can be N 6 -methyladenosine (m 6 A) modified, and the clearance of these maternal mRNAs is facilitate"
+   },
+   {
+    "rank": 6,
+    "id": "pmid:28746310",
+    "cited_by": 473,
+    "year": 2017,
+    "journal": "Nature",
+    "title": "Hypothalamic stem cells control ageing speed partly through exosomal miRNAs",
+    "abstract_start": "It has been proposed that the hypothalamus helps to control ageing, but the mechanisms responsible remain unclear. Here we develop several mouse models in which hypothalamic stem/progenitor cells that co-express Sox2 and Bmi1 are ablated, as we observed that ageing in mice started with a substantial loss of these hypothalamic cells. Each mouse model consistently displayed acceleration of ageing-li"
+   },
+   {
+    "rank": 7,
+    "id": "pmid:27720646",
+    "cited_by": 395,
+    "year": 2016,
+    "journal": "Molecular cell",
+    "title": "Pairing beyond the Seed Supports MicroRNA Targeting Specificity",
+    "abstract_start": "To identify endogenous miRNA-target sites, we isolated AGO-bound RNAs from Caenorhabditis elegans by individual-nucleotide resolution crosslinking immunoprecipitation (iCLIP), which fortuitously also produced miRNA-target chimeric reads. Through the analysis of thousands of reproducible chimeras, pairing to the miRNA seed emerged as the predominant motif associated with functional interactions. Un"
+   },
+   {
+    "rank": 8,
+    "id": "pmid:31399345",
+    "cited_by": 358,
+    "year": 2019,
+    "journal": "Molecular cell",
+    "title": "RNA 5-Methylcytosine Facilitates the Maternal-to-Zygotic Transition by Preventing Maternal mRNA Decay",
+    "abstract_start": "The maternal-to-zygotic transition (MZT) is a conserved and fundamental process during which the maternal environment is converted to an environment of embryonic-driven development through dramatic reprogramming. However, how maternally supplied transcripts are dynamically regulated during MZT remains largely unknown. Herein, through genome-wide profiling of RNA 5-methylcytosine (m 5 C) modificati"
+   },
+   {
+    "rank": 9,
+    "id": "pmid:29144233",
+    "cited_by": 342,
+    "year": 2017,
+    "journal": "eLife",
+    "title": "A high-resolution mRNA expression time course of embryonic development in zebrafish",
+    "abstract_start": "We have produced an mRNA expression time course of zebrafish development across 18 time points from 1 cell to 5 days post-fertilisation sampling individual and pools of embryos. Using poly(A) pulldown stranded RNA-seq and a 3' end transcript counting method we characterise temporal expression profiles of 23,642 genes. We identify temporal and functional transcript co-variance that associates 5024 "
+   },
+   {
+    "rank": 10,
+    "id": "pmid:33633358",
+    "cited_by": 295,
+    "year": 2021,
+    "journal": "Nature plants",
+    "title": "RNA-binding proteins contribute to small RNA loading in plant extracellular vesicles",
+    "abstract_start": "Plants use extracellular vesicles (EVs) to transport small RNAs (sRNAs) into their fungal pathogens and silence fungal virulence-related genes through a phenomenon called 'cross-kingdom RNAi'. It remains unknown, however, how sRNAs are selectively loaded into EVs. Here, we identified several RNA-binding proteins in Arabidopsis, including Argonaute 1 (AGO1), RNA helicases (RHs) and annexins (ANNs),"
+   },
+   {
+    "rank": 11,
+    "id": "pmid:29300014",
+    "cited_by": 291,
+    "year": 2018,
+    "journal": "Nature",
+    "title": "MicroRNAs from the parasitic plant Cuscuta campestris target host messenger RNAs",
+    "abstract_start": "Dodders (Cuscuta spp.) are obligate parasitic plants that obtain water and nutrients from the stems of host plants via specialized feeding structures called haustoria. Dodder haustoria facilitate bidirectional movement of viruses, proteins and mRNAs between host and parasite, but the functional effects of these movements are not known. Here we show that Cuscuta campestris haustoria accumulate high"
+   },
+   {
+    "rank": 12,
+    "id": "pmid:29617660",
+    "cited_by": 286,
+    "year": 2018,
+    "journal": "Cell reports",
+    "title": "Genomic, Pathway Network, and Immunologic Features Distinguishing Squamous Carcinomas",
+    "abstract_start": "This integrated, multiplatform PanCancer Atlas study co-mapped and identified distinguishing molecular features of squamous cell carcinomas (SCCs) from five sites associated with smoking and/or human papillomavirus (HPV). SCCs harbor 3q, 5p, and other recurrent chromosomal copy-number alterations (CNAs), DNA mutations, and/or aberrant methylation of genes and microRNAs, which are correlated with t"
+   },
+   {
+    "rank": 13,
+    "id": "pmid:29074849",
+    "cited_by": 270,
+    "year": 2017,
+    "journal": "Nature communications",
+    "title": "The circular RNA circBIRC6 participates in the molecular circuitry controlling human pluripotency",
+    "abstract_start": "Accumulating evidence indicates that circular RNAs (circRNAs) are abundant in the human transcriptome. However, their involvement in biological processes, including pluripotency, remains mostly undescribed. We identified a subset of circRNAs that are enriched in undifferentiated human embryonic stem cells (hESCs) and demonstrated that two, circBIRC6 and circCORO1C, are functionally associated with"
+   },
+   {
+    "rank": 14,
+    "id": "pmid:30038280",
+    "cited_by": 268,
+    "year": 2018,
+    "journal": "Nature neuroscience",
+    "title": "Pathogenic tau-induced piRNA depletion promotes neuronal death through transposable element dysregulation in neurodegenerative tauopathies",
+    "abstract_start": "Transposable elements, known colloquially as 'jumping genes', constitute approximately 45% of the human genome. Cells utilize epigenetic defenses to limit transposable element jumping, including formation of silencing heterochromatin and generation of piwi-interacting RNAs (piRNAs), small RNAs that facilitate clearance of transposable element transcripts. Here we utilize Drosophila melanogaster an"
+   },
+   {
+    "rank": 15,
+    "id": "pmid:28847004",
+    "cited_by": 261,
+    "year": 2017,
+    "journal": "Nature",
+    "title": "A heterochromatin-dependent transcription machinery drives piRNA expression",
+    "abstract_start": "Nuclear small RNA pathways safeguard genome integrity by establishing transcription-repressing heterochromatin at transposable elements. This inevitably also targets the transposon-rich source loci of the small RNAs themselves. How small RNA source loci are efficiently transcribed while transposon promoters are potently silenced is not understood. Here we show that, in Drosophila, transcription of"
+   },
+   {
+    "rank": 16,
+    "id": "pmid:29203920",
+    "cited_by": 257,
+    "year": 2018,
+    "journal": "Nature ecology & evolution",
+    "title": "Pan-arthropod analysis reveals somatic piRNAs as an ancestral defence against transposable elements",
+    "abstract_start": "In animals, small RNA molecules termed PIWI-interacting RNAs (piRNAs) silence transposable elements (TEs), protecting the germline from genomic instability and mutation. piRNAs have been detected in the soma in a few animals, but these are believed to be specific adaptations of individual species. Here, we report that somatic piRNAs were probably present in the ancestral arthropod more than 500 mi"
+   },
+   {
+    "rank": 17,
+    "id": "pmid:29906446",
+    "cited_by": 248,
+    "year": 2018,
+    "journal": "Cell",
+    "title": "Prospectively Isolated Tetraspanin+ Neoblasts Are Adult Pluripotent Stem Cells Underlying Planaria Regeneration",
+    "abstract_start": "Proliferating cells known as neoblasts include pluripotent stem cells (PSCs) that sustain tissue homeostasis and regeneration of lost body parts in planarians. However, the lack of markers to prospectively identify and isolate these adult PSCs has significantly hampered their characterization. We used single-cell RNA sequencing (scRNA-seq) and single-cell transplantation to address this long-stand"
+   },
+   {
+    "rank": 18,
+    "id": "pmid:30318337",
+    "cited_by": 244,
+    "year": 2019,
+    "journal": "Cell metabolism",
+    "title": "Lymphocyte-Derived Exosomal MicroRNAs Promote Pancreatic β Cell Death and May Contribute to Type 1 Diabetes Development",
+    "abstract_start": "Type 1 diabetes is an autoimmune disease initiated by the invasion of pancreatic islets by immune cells that selectively kill the β cells. We found that rodent and human T lymphocytes release exosomes containing the microRNAs (miRNAs) miR-142-3p, miR-142-5p, and miR-155, which can be transferred in active form to β cells favoring apoptosis. Inactivation of these miRNAs in recipient β cells prevent"
+   },
+   {
+    "rank": 19,
+    "id": "pmid:27965387",
+    "cited_by": 237,
+    "year": 2016,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "PMS1T, producing phased small-interfering RNAs, regulates photoperiod-sensitive male sterility in rice",
+    "abstract_start": "Phased small-interfering RNAs (phasiRNAs) are a special class of small RNAs, which are generated in 21- or 24-nt intervals from transcripts of precursor RNAs. Although phasiRNAs have been found in a range of organisms, their biological functions in plants have yet to be uncovered. Here we show that phasiRNAs generated by the photopheriod-sensetive genic male sterility 1 (Pms1) locus were associate"
+   },
+   {
+    "rank": 20,
+    "id": "pmid:27065194",
+    "cited_by": 236,
+    "year": 2016,
+    "journal": "Nature structural & molecular biology",
+    "title": "BTG4 is a meiotic cell cycle-coupled maternal-zygotic-transition licensing factor in oocytes",
+    "abstract_start": "The mRNAs stored in oocytes undergo general decay during the maternal-zygotic transition (MZT), and their stability is tightly interconnected with meiotic cell-cycle progression. However, the factors that trigger decay of maternal mRNA and couple this event to oocyte meiotic maturation remain elusive. Here, we identified B-cell translocation gene-4 (BTG4) as an MZT licensing factor in mice. BTG4 b"
+   },
+   {
+    "rank": 21,
+    "id": "pmid:31346137",
+    "cited_by": 235,
+    "year": 2019,
+    "journal": "Science (New York, N.Y.)",
+    "title": "Rhizobial tRNA-derived small RNAs are signal molecules regulating plant nodulation",
+    "abstract_start": "Rhizobial infection and root nodule formation in legumes require recognition of signal molecules produced by the bacteria and their hosts. Here, we show that rhizobial transfer RNA (tRNA)-derived small RNA fragments (tRFs) are signal molecules that modulate host nodulation. Three families of rhizobial tRFs were confirmed to regulate host genes associated with nodule initiation and development thro"
+   },
+   {
+    "rank": 22,
+    "id": "pmid:30487517",
+    "cited_by": 228,
+    "year": 2018,
+    "journal": "Nature communications",
+    "title": "Preclinical development of a microRNA-based therapy for intervertebral disc degeneration",
+    "abstract_start": "Understanding the molecular mechanisms regulating the maintenance and destruction of intervertebral disc may lead to the development of new therapies for intervertebral disc degeneration (IDD). Here we present evidence from miRNA microarray analyses of clinical data sets along with in vitro and in vivo experiments that miR-141 is a key regulator of IDD. Gain- and loss-of-function studies show that"
+   },
+   {
+    "rank": 23,
+    "id": "pmid:31178117",
+    "cited_by": 227,
+    "year": 2019,
+    "journal": "Cell",
+    "title": "Piwi/PRG-1 Argonaute and TGF-β Mediate Transgenerational Learned Pathogenic Avoidance",
+    "abstract_start": "The ability to inherit learned information from parents could be evolutionarily beneficial, enabling progeny to better survive dangerous conditions. We discovered that, after C. elegans have learned to avoid the pathogenic bacteria Pseudomonas aeruginosa (PA14), they pass this learned behavior on to their progeny, through either the male or female germline, persisting through the fourth generation"
+   },
+   {
+    "rank": 24,
+    "id": "pmid:30626969",
+    "cited_by": 226,
+    "year": 2019,
+    "journal": "Nature",
+    "title": "Mobile PEAR transcription factors integrate positional cues to prime cambial growth",
+    "abstract_start": "Apical growth in plants initiates upon seed germination, whereas radial growth is primed only during early ontogenesis in procambium cells and activated later by the vascular cambium 1 . Although it is not known how radial growth is organized and regulated in plants, this system resembles the developmental competence observed in some animal systems, in which pre-existing patterns of developmental "
+   },
+   {
+    "rank": 25,
+    "id": "pmid:29529255",
+    "cited_by": 226,
+    "year": 2018,
+    "journal": "Nucleic acids research",
+    "title": "N6-Methyladenosine modification of lincRNA 1281 is critically required for mESC differentiation potential",
+    "abstract_start": "Previous studies have revealed the critical roles of N6-methyladenosine (m6A) modification of mRNA in embryonic stem cells (ESCs), but the biological function of m6A in large intergenic noncoding RNA (lincRNA) is unknown. Here, we showed that the internal m6A modification of linc1281 mediates a competing endogenous RNA (ceRNA) model to regulate mouse ESC (mESC) differentiation. We demonstrated tha"
+   },
+   {
+    "rank": 26,
+    "id": "pmid:30166437",
+    "cited_by": 225,
+    "year": 2018,
+    "journal": "Science (New York, N.Y.)",
+    "title": "Systemic control of legume susceptibility to rhizobial infection by a mobile microRNA",
+    "abstract_start": "Nitrogen-fixing root nodules on legumes result from two developmental processes, bacterial infection and nodule organogenesis. To balance symbiosis and plant growth, legume hosts restrict nodule numbers through an inducible autoregulatory process. Here, we present a mechanism where repression of a negative regulator ensures symbiotic susceptibility of uninfected roots of the host Lotus japonicus W"
+   },
+   {
+    "rank": 27,
+    "id": "pmid:30705133",
+    "cited_by": 224,
+    "year": 2019,
+    "journal": "The Plant cell",
+    "title": "Plant Extracellular Vesicles Contain Diverse Small RNA Species and Are Enriched in 10- to 17-Nucleotide \"Tiny\" RNAs",
+    "abstract_start": "Small RNAs (sRNAs) that are 21 to 24 nucleotides (nt) in length are found in most eukaryotic organisms and regulate numerous biological functions, including transposon silencing, development, reproduction, and stress responses, typically via control of the stability and/or translation of target mRNAs. Major classes of sRNAs in plants include microRNAs (miRNAs) and small interfering RNAs (siRNAs); "
+   },
+   {
+    "rank": 28,
+    "id": "pmid:29456082",
+    "cited_by": 214,
+    "year": 2018,
+    "journal": "Cell",
+    "title": "Identification of piRNA Binding Sites Reveals the Argonaute Regulatory Landscape of the C. elegans Germline",
+    "abstract_start": "piRNAs (Piwi-interacting small RNAs) engage Piwi Argonautes to silence transposons and promote fertility in animal germlines. Genetic and computational studies have suggested that C. elegans piRNAs tolerate mismatched pairing and in principle could target every transcript. Here we employ in vivo cross-linking to identify transcriptome-wide interactions between piRNAs and target RNAs. We show that "
+   },
+   {
+    "rank": 29,
+    "id": "pmid:28335016",
+    "cited_by": 207,
+    "year": 2017,
+    "journal": "Nucleic acids research",
+    "title": "tRNA-derived small RNAs target transposable element transcripts",
+    "abstract_start": "tRNA-derived RNA fragments (tRFs) are 18-26 nucleotide small RNAs that are not random degradation products, but are rather specifically cleaved from mature tRNA transcripts. Abundant in stressed or viral-infected cells, the function and potential targets of tRFs are not known. We identified that in the unstressed wild-type male gamete containing pollen of flowering plants, and analogous reproducti"
+   },
+   {
+    "rank": 30,
+    "id": "pmid:27003935",
+    "cited_by": 206,
+    "year": 2016,
+    "journal": "Developmental cell",
+    "title": "Transposable Elements and Their KRAB-ZFP Controllers Regulate Gene Expression in Adult Tissues",
+    "abstract_start": "KRAB-containing zinc finger proteins (KRAB-ZFPs) are early embryonic controllers of transposable elements (TEs), which they repress with their cofactor KAP1 through histone and DNA methylation, a process thought to result in irreversible silencing. Using a target-centered functional screen, we matched murine TEs with their cognate KRAB-ZFP. We found the paralogs ZFP932 and Gm15446 to bind overlapp"
+   },
+   {
+    "rank": 31,
+    "id": "pmid:32908307",
+    "cited_by": 203,
+    "year": 2020,
+    "journal": "Nature",
+    "title": "C. elegans interprets bacterial non-coding RNAs to learn pathogenic avoidance",
+    "abstract_start": "Caenorhabditis elegans must distinguish pathogens from nutritious food sources among the many bacteria to which it is exposed in its environment 1 . Here we show that a single exposure to purified small RNAs isolated from pathogenic Pseudomonas aeruginosa (PA14) is sufficient to induce pathogen avoidance in the treated worms and in four subsequent generations of progeny. The RNA interference (RNAi"
+   },
+   {
+    "rank": 32,
+    "id": "pmid:30595554",
+    "cited_by": 197,
+    "year": 2019,
+    "journal": "Cell host & microbe",
+    "title": "A Phytophthora Effector Suppresses Trans-Kingdom RNAi to Promote Disease Susceptibility",
+    "abstract_start": "RNA silencing (RNAi) has a well-established role in anti-viral immunity in plants. The destructive eukaryotic pathogen Phytophthora encodes suppressors of RNAi (PSRs), which enhance plant susceptibility. However, the role of small RNAs in defense against eukaryotic pathogens is unclear. Here, we show that Phytophthora infection of Arabidopsis leads to increased production of a diverse pool of seco"
+   },
+   {
+    "rank": 33,
+    "id": "pmid:31835033",
+    "cited_by": 195,
+    "year": 2019,
+    "journal": "Cell",
+    "title": "A Translation-Activating Function of MIWI/piRNA during Mouse Spermiogenesis",
+    "abstract_start": "Spermiogenesis is a highly orchestrated developmental process during which chromatin condensation decouples transcription from translation. Spermiogenic mRNAs are transcribed earlier and stored in a translationally inert state until needed for translation; however, it remains largely unclear how such repressed mRNAs become activated during spermiogenesis. We previously reported that the MIWI/piRNA"
+   },
+   {
+    "rank": 34,
+    "id": "pmid:29398448",
+    "cited_by": 195,
+    "year": 2018,
+    "journal": "Molecular cell",
+    "title": "Nucleo-cytosolic Shuttling of ARGONAUTE1 Prompts a Revised Model of the Plant MicroRNA Pathway",
+    "abstract_start": "Unlike in metazoans, plant microRNAs (miRNAs) undergo stepwise nuclear maturation before engaging cytosolic, sequence-complementary transcripts in association with the silencing effector protein ARGONAUTE1 (AGO1). Since their discovery, how and under which form plant miRNAs translocate to the cytosol has remained unclear, as has their sub-cellular AGO1 loading site(s). Here, we show that the N ter"
+   },
+   {
+    "rank": 35,
+    "id": "pmid:29087317",
+    "cited_by": 192,
+    "year": 2017,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "Global analysis of ribosome-associated noncoding RNAs unveils new modes of translational regulation",
+    "abstract_start": "Eukaryotic transcriptomes contain a major non-protein-coding component that includes precursors of small RNAs as well as long noncoding RNA (lncRNAs). Here, we utilized the mapping of ribosome footprints on RNAs to explore translational regulation of coding and noncoding RNAs in roots of Arabidopsis thaliana shifted from replete to deficient phosphorous (Pi) nutrition. Homodirectional changes in s"
+   },
+   {
+    "rank": 36,
+    "id": "pmid:31504776",
+    "cited_by": 191,
+    "year": 2019,
+    "journal": "Nucleic acids research",
+    "title": "Detection of internal N7-methylguanosine (m7G) RNA modifications by mutational profiling sequencing",
+    "abstract_start": "Methylation of guanosine on position N7 (m7G) on internal RNA positions has been found in all domains of life and have been implicated in human disease. Here, we present m7G Mutational Profiling sequencing (m7G-MaP-seq), which allows high throughput detection of m7G modifications at nucleotide resolution. In our method, m7G modified positions are converted to abasic sites by reduction with sodium "
+   },
+   {
+    "rank": 37,
+    "id": "pmid:29295997",
+    "cited_by": 182,
+    "year": 2018,
+    "journal": "Nature communications",
+    "title": "Diabetes impairs wound healing by Dnmt1-dependent dysregulation of hematopoietic stem cells differentiation towards macrophages",
+    "abstract_start": "People with type 2 diabetes mellitus (T2DM) have a 25-fold higher risk of limb loss than non-diabetics due in large part to impaired wound healing. Here, we show that the impaired wound healing phenotype found in T2D mice is recapitulated in lethally irradiated wild type recipients, whose hematopoiesis is reconstituted with hematopoietic stem cells (HSCs) from T2D mice, indicating an HSC-autonomou"
+   },
+   {
+    "rank": 38,
+    "id": "pmid:27621458",
+    "cited_by": 179,
+    "year": 2016,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "Chromatin-modifying genetic interventions suppress age-associated transposable element activation and extend life span in Drosophila",
+    "abstract_start": "Transposable elements (TEs) are mobile genetic elements, highly enriched in heterochromatin, that constitute a large percentage of the DNA content of eukaryotic genomes. Aging in Drosophila melanogaster is characterized by loss of repressive heterochromatin structure and loss of silencing of reporter genes in constitutive heterochromatin regions. Using next-generation sequencing, we found that tra"
+   },
+   {
+    "rank": 39,
+    "id": "pmid:32483326",
+    "cited_by": 172,
+    "year": 2020,
+    "journal": "Nature plants",
+    "title": "A single gene underlies the dynamic evolution of poplar sex determination",
+    "abstract_start": "Although hundreds of plant lineages have independently evolved dioecy (that is, separation of the sexes), the underlying genetic basis remains largely elusive 1 . Here we show that diverse poplar species carry partial duplicates of the ARABIDOPSIS RESPONSE REGULATOR 17 (ARR17) orthologue in the male-specific region of the Y chromosome. These duplicates give rise to small RNAs apparently causing ma"
+   },
+   {
+    "rank": 40,
+    "id": "pmid:29129531",
+    "cited_by": 172,
+    "year": 2017,
+    "journal": "Current biology : CB",
+    "title": "The Diversity, Structure, and Function of Heritable Adaptive Immunity Sequences in the Aedes aegypti Genome",
+    "abstract_start": "The Aedes aegypti mosquito transmits arboviruses, including dengue, chikungunya, and Zika virus. Understanding the mechanisms underlying mosquito immunity could provide new tools to control arbovirus spread. Insects exploit two different RNAi pathways to combat viral and transposon infection: short interfering RNAs (siRNAs) and PIWI-interacting RNAs (piRNAs) [1, 2]. Endogenous viral elements (EVEs"
+   },
+   {
+    "rank": 41,
+    "id": "pmid:27571009",
+    "cited_by": 172,
+    "year": 2016,
+    "journal": "Nature neuroscience",
+    "title": "Genome-wide, integrative analysis implicates microRNA dysregulation in autism spectrum disorder",
+    "abstract_start": "Genetic variants conferring risk for autism spectrum disorder (ASD) have been identified, but the role of post-transcriptional mechanisms in ASD is not well understood. We performed genome-wide microRNA (miRNA) expression profiling in post-mortem brains from individuals with ASD and controls and identified miRNAs and co-regulated modules that were perturbed in ASD. Putative targets of these ASD-af"
+   },
+   {
+    "rank": 42,
+    "id": "pmid:29483647",
+    "cited_by": 170,
+    "year": 2018,
+    "journal": "Nature structural & molecular biology",
+    "title": "MicroRNA degradation by a conserved target RNA regulates animal behavior",
+    "abstract_start": "microRNAs (miRNAs) repress target transcripts through partial complementarity. By contrast, highly complementary miRNA-binding sites within viral and artificially engineered transcripts induce miRNA degradation in vitro and in cell lines. Here, we show that a genome-encoded transcript harboring a near-perfect and deeply conserved miRNA-binding site for miR-29 controls zebrafish and mouse behavior."
+   },
+   {
+    "rank": 43,
+    "id": "pmid:27251447",
+    "cited_by": 167,
+    "year": 2016,
+    "journal": "Nature communications",
+    "title": "The dynamic transcriptional and translational landscape of the model antibiotic producer Streptomyces coelicolor A3(2)",
+    "abstract_start": "Individual Streptomyces species have the genetic potential to produce a diverse array of natural products of commercial, medical and veterinary interest. However, these products are often not detectable under laboratory culture conditions. To harness their full biosynthetic potential, it is important to develop a detailed understanding of the regulatory networks that orchestrate their metabolism. "
+   },
+   {
+    "rank": 44,
+    "id": "pmid:27135215",
+    "cited_by": 165,
+    "year": 2016,
+    "journal": "Nature neuroscience",
+    "title": "A microRNA switch regulates the rise in hypothalamic GnRH production before puberty",
+    "abstract_start": "A sparse population of a few hundred primarily hypothalamic neurons forms the hub of a complex neuroglial network that controls reproduction in mammals by secreting the 'master molecule' gonadotropin-releasing hormone (GnRH). Timely postnatal changes in GnRH expression are essential for puberty and adult fertility. Here we report that a multilayered microRNA-operated switch with built-in feedback "
+   },
+   {
+    "rank": 45,
+    "id": "pmid:27243651",
+    "cited_by": 164,
+    "year": 2016,
+    "journal": "Nature plants",
+    "title": "Unique cell-type-specific patterns of DNA methylation in the root meristem",
+    "abstract_start": "DNA methylation is an epigenetic modification that differs between plant organs and tissues, but the extent of variation between cell types is not known. Here, we report single-base-resolution whole-genome DNA methylomes, mRNA transcriptomes and small RNA transcriptomes for six cell populations covering the major cell types of the Arabidopsis root meristem. We identify widespread cell-type-specifi"
+   },
+   {
+    "rank": 46,
+    "id": "pmid:27332731",
+    "cited_by": 162,
+    "year": 2016,
+    "journal": "Immunity",
+    "title": "The MicroRNA-183-96-182 Cluster Promotes T Helper 17 Cell Pathogenicity by Negatively Regulating Transcription Factor Foxo1 Expression",
+    "abstract_start": "T helper 17 (Th17) cells are key players in autoimmune diseases. However, the roles of non-coding RNAs in Th17 cell development and function are largely unknown. We found that deletion of the endoribonuclease-encoding Dicer1 specifically in Th17 cells protected mice from experimental autoimmune encephalomyelitis. We found that the Dicer1-regulated microRNA (miR)-183-96-182 cluster (miR-183C) was h"
+   },
+   {
+    "rank": 47,
+    "id": "pmid:34033742",
+    "cited_by": 159,
+    "year": 2021,
+    "journal": "Cell stem cell",
+    "title": "Restoring miR-132 expression rescues adult hippocampal neurogenesis and memory deficits in Alzheimer's disease",
+    "abstract_start": "Neural stem cells residing in the hippocampal neurogenic niche sustain lifelong neurogenesis in the adult brain. Adult hippocampal neurogenesis (AHN) is functionally linked to mnemonic and cognitive plasticity in humans and rodents. In Alzheimer's disease (AD), the process of generating new neurons at the hippocampal neurogenic niche is impeded, yet the mechanisms involved are unknown. Here we ide"
+   },
+   {
+    "rank": 48,
+    "id": "pmid:29672610",
+    "cited_by": 159,
+    "year": 2018,
+    "journal": "PLoS genetics",
+    "title": "Threshold-dependent repression of SPL gene expression by miR156/miR157 controls vegetative phase change in Arabidopsis thaliana",
+    "abstract_start": "Vegetative phase change is regulated by a decrease in the abundance of the miRNAs, miR156 and miR157, and the resulting increase in the expression of their targets, SQUAMOSA PROMOTER BINDING PROTEIN-LIKE (SPL) transcription factors. To determine how miR156/miR157 specify the quantitative and qualitative changes in leaf morphology that occur during vegetative phase change, we measured their abundan"
+   },
+   {
+    "rank": 49,
+    "id": "pmid:26919431",
+    "cited_by": 158,
+    "year": 2016,
+    "journal": "Cell",
+    "title": "Identification and Functional Analysis of the Pre-piRNA 3' Trimmer in Silkworms",
+    "abstract_start": "PIWI-interacting RNAs (piRNAs) play a crucial role in transposon silencing in animal germ cells. In piRNA biogenesis, single-stranded piRNA intermediates are loaded into PIWI-clade proteins and cleaved by Zucchini/MitoPLD, yielding precursor piRNAs (pre-piRNAs). Pre-piRNAs that are longer than the mature piRNA length are then trimmed at their 3' ends. Although recent studies implicated the Tudor d"
+   },
+   {
+    "rank": 50,
+    "id": "pmid:33177182",
+    "cited_by": 157,
+    "year": 2020,
+    "journal": "Science translational medicine",
+    "title": "MicroRNA-mediated inhibition of transgene expression reduces dorsal root ganglion toxicity by AAV vectors in primates",
+    "abstract_start": "Delivering adeno-associated virus (AAV) vectors into the central nervous system of nonhuman primates (NHPs) via the blood or cerebral spinal fluid is associated with dorsal root ganglion (DRG) toxicity. Conventional immune-suppression regimens do not prevent this toxicity, possibly because it may be caused by high transduction rates, which can, in turn, cause cellular stress due to an overabundanc"
+   },
+   {
+    "rank": 51,
+    "id": "pmid:30930169",
+    "cited_by": 157,
+    "year": 2019,
+    "journal": "Cell metabolism",
+    "title": "Telomere Dysfunction Induces Sirtuin Repression that Drives Telomere-Dependent Disease",
+    "abstract_start": "Telomere shortening is associated with stem cell decline, fibrotic disorders, and premature aging through mechanisms that are incompletely understood. Here, we show that telomere shortening in livers of telomerase knockout mice leads to a p53-dependent repression of all seven sirtuins. P53 regulates non-mitochondrial sirtuins (Sirt1, 2, 6, and 7) post-transcriptionally through microRNAs (miR-34a, "
+   },
+   {
+    "rank": 52,
+    "id": "pmid:30455455",
+    "cited_by": 155,
+    "year": 2018,
+    "journal": "Nature neuroscience",
+    "title": "Regulation of cell-type-specific transcriptomes by microRNA networks during human brain development",
+    "abstract_start": "MicroRNAs (miRNAs) regulate many cellular events during brain development by interacting with hundreds of mRNA transcripts. However, miRNAs operate nonuniformly upon the transcriptional profile with an as yet unknown logic. Shortcomings in defining miRNA-mRNA networks include limited knowledge of in vivo miRNA targets and their abundance in single cells. By combining multiple complementary approac"
+   },
+   {
+    "rank": 53,
+    "id": "pmid:31443695",
+    "cited_by": 153,
+    "year": 2019,
+    "journal": "Genome biology",
+    "title": "Regulation of rumen development in neonatal ruminants through microbial metagenomes and host transcriptomes",
+    "abstract_start": "In ruminants, early rumen development is vital for efficient fermentation that converts plant materials to human edible food such as milk and meat. Here, we investigate the extent and functional basis of host-microbial interactions regulating rumen development during the first 6 weeks of life. The use of microbial metagenomics, together with quantification of volatile fatty acids (VFAs) and qPCR, "
+   },
+   {
+    "rank": 54,
+    "id": "pmid:31276587",
+    "cited_by": 152,
+    "year": 2019,
+    "journal": "Nucleic acids research",
+    "title": "NSUN2 introduces 5-methylcytosines in mammalian mitochondrial tRNAs",
+    "abstract_start": "Expression of human mitochondrial DNA is indispensable for proper function of the oxidative phosphorylation machinery. The mitochondrial genome encodes 22 tRNAs, 2 rRNAs and 11 mRNAs and their post-transcriptional modification constitutes one of the key regulatory steps during mitochondrial gene expression. Cytosine-5 methylation (m5C) has been detected in mitochondrial transcriptome, however its "
+   },
+   {
+    "rank": 55,
+    "id": "pmid:26787884",
+    "cited_by": 152,
+    "year": 2016,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "Mobile small RNAs regulate genome-wide DNA methylation",
+    "abstract_start": "RNA silencing at the transcriptional and posttranscriptional levels regulates endogenous gene expression, controls invading transposable elements (TEs), and protects the cell against viruses. Key components of the mechanism are small RNAs (sRNAs) of 21-24 nt that guide the silencing machinery to their nucleic acid targets in a nucleotide sequence-specific manner. Transcriptional gene silencing is "
+   },
+   {
+    "rank": 56,
+    "id": "pmid:31350118",
+    "cited_by": 151,
+    "year": 2019,
+    "journal": "Molecular cell",
+    "title": "Time-Resolved Small RNA Sequencing Unravels the Molecular Principles of MicroRNA Homeostasis",
+    "abstract_start": "Argonaute-bound microRNAs silence mRNA expression in a dynamic and regulated manner to control organismal development, physiology, and disease. We employed metabolic small RNA sequencing for a comprehensive view on intracellular microRNA kinetics in Drosophila. Based on absolute rate of biogenesis and decay, microRNAs rank among the fastest produced and longest-lived cellular transcripts, disposin"
+   },
+   {
+    "rank": 57,
+    "id": "pmid:29158546",
+    "cited_by": 151,
+    "year": 2017,
+    "journal": "Nature plants",
+    "title": "The Aegilops tauschii genome reveals multiple impacts of transposons",
+    "abstract_start": "Wheat is an important global crop with an extremely large and complex genome that contains more transposable elements (TEs) than any other known crop species. Here, we generated a chromosome-scale, high-quality reference genome of Aegilops tauschii, the donor of the wheat D genome, in which 92.5% sequences have been anchored to chromosomes. Using this assembly, we accurately characterized genic lo"
+   },
+   {
+    "rank": 58,
+    "id": "pmid:28350989",
+    "cited_by": 151,
+    "year": 2017,
+    "journal": "Developmental cell",
+    "title": "miR-219 Cooperates with miR-338 in Myelination and Promotes Myelin Repair in the CNS",
+    "abstract_start": "A lack of sufficient oligodendrocyte myelination contributes to remyelination failure in demyelinating disorders. miRNAs have been implicated in oligodendrogenesis; however, their functions in myelin regeneration remained elusive. Through developmentally regulated targeted mutagenesis, we demonstrate that miR-219 alleles are critical for CNS myelination and remyelination after injury. Further dele"
+   },
+   {
+    "rank": 59,
+    "id": "pmid:31178120",
+    "cited_by": 150,
+    "year": 2019,
+    "journal": "Cell",
+    "title": "Neuronal Small RNAs Control Behavior Transgenerationally",
+    "abstract_start": "It is unknown whether the activity of the nervous system can be inherited. In Caenorhabditis elegans nematodes, parental responses can transmit heritable small RNAs that regulate gene expression transgenerationally. In this study, we show that a neuronal process can impact the next generations. Neurons-specific synthesis of RDE-4-dependent small RNAs regulates germline amplified endogenous small i"
+   },
+   {
+    "rank": 60,
+    "id": "pmid:31267708",
+    "cited_by": 148,
+    "year": 2019,
+    "journal": "EMBO reports",
+    "title": "Dynamic expression of tRNA-derived small RNAs define cellular states",
+    "abstract_start": "Transfer RNA (tRNA)-derived small RNAs (tsRNAs) have recently emerged as important regulators of protein translation and shown to have diverse biological functions. However, the underlying cellular and molecular mechanisms of tsRNA function in the context of dynamic cell-state transitions remain unclear. Expression analysis of tsRNAs in distinct heterologous cell and tissue models of stem vs. diff"
+   },
+   {
+    "rank": 61,
+    "id": "pmid:28911330",
+    "cited_by": 147,
+    "year": 2017,
+    "journal": "Genome biology",
+    "title": "Extensive transcriptomic and epigenomic remodelling occurs during Arabidopsis thaliana germination",
+    "abstract_start": "Seed germination involves progression from complete metabolic dormancy to a highly active, growing seedling. Many factors regulate germination and these interact extensively, forming a complex network of inputs that control the seed-to-seedling transition. Our understanding of the direct regulation of gene expression and the dynamic changes in the epigenome and small RNAs during germination is lim"
+   },
+   {
+    "rank": 62,
+    "id": "pmid:37704731",
+    "cited_by": 146,
+    "year": 2023,
+    "journal": "Nature",
+    "title": "DNA-based programmable gate arrays for general-purpose DNA computing",
+    "abstract_start": "The past decades have witnessed the evolution of electronic and photonic integrated circuits, from application specific to programmable 1,2 . Although liquid-phase DNA circuitry holds the potential for massive parallelism in the encoding and execution of algorithms 3,4 , the development of general-purpose DNA integrated circuits (DICs) has yet to be explored. Here we demonstrate a DIC system by in"
+   },
+   {
+    "rank": 63,
+    "id": "pmid:31110006",
+    "cited_by": 146,
+    "year": 2019,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "NAC-type transcription factors regulate accumulation of starch and protein in maize seeds",
+    "abstract_start": "Grain starch and protein are synthesized during endosperm development, prompting the question of what regulatory mechanism underlies the synchronization of the accumulation of secondary and primary gene products. We found that two endosperm-specific NAC transcription factors, ZmNAC128 and ZmNAC130, have such a regulatory function. Knockdown of expression of ZmNAC128 and ZmNAC130 with RNA interfere"
+   },
+   {
+    "rank": 64,
+    "id": "pmid:30814679",
+    "cited_by": 146,
+    "year": 2019,
+    "journal": "Cell research",
+    "title": "Zika virus infection induces RNAi-mediated antiviral immunity in human neural progenitors and brain organoids",
+    "abstract_start": "The re-emergence of Zika virus (ZIKV) in the Western Hemisphere has resulted in global public health crisis since 2015. ZIKV preferentially infects and targets human neural progenitor cells (hNPCs) and causes fetal microcephaly upon maternal infection. hNPCs not only play critical roles during fetal brain development, but also persist in adult brain throughout life. Yet the mechanism of innate ant"
+   },
+   {
+    "rank": 65,
+    "id": "pmid:32958895",
+    "cited_by": 145,
+    "year": 2020,
+    "journal": "Nature plants",
+    "title": "Primary transcript of miR858 encodes regulatory peptide and controls flavonoid biosynthesis and development in Arabidopsis",
+    "abstract_start": "MicroRNAs (miRNAs) are processed products of primary miRNAs (pri-miRNAs) and regulate the target gene expression. Though the regulatory roles of the several mature plant miRNAs have been studied in detail, the functions of other regions of the pri-miRNAs are still unrecognized. Recent studies suggest that a few pri-miRNAs may encode small peptides, miRNA-encoded peptides (miPEPs); however, the fun"
+   },
+   {
+    "rank": 66,
+    "id": "pmid:27035986",
+    "cited_by": 143,
+    "year": 2016,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "DELAY OF GERMINATION1 (DOG1) regulates both seed dormancy and flowering time through microRNA pathways",
+    "abstract_start": "Seed germination and flowering, two critical developmental transitions in plant life cycles, are coordinately regulated by genetic and environmental factors to match plant establishment and reproduction to seasonal cues. The DELAY OF GERMINATION1 (DOG1) gene is involved in regulating seed dormancy in response to temperature and has also been associated genetically with pleiotropic flowering phenot"
+   },
+   {
+    "rank": 67,
+    "id": "pmid:29505034",
+    "cited_by": 139,
+    "year": 2018,
+    "journal": "Nature medicine",
+    "title": "Bone marrow niche trafficking of miR-126 controls the self-renewal of leukemia stem cells in chronic myelogenous leukemia",
+    "abstract_start": "Leukemia stem cells (LSCs) in individuals with chronic myelogenous leukemia (CML) (hereafter referred to as CML LSCs) are responsible for initiating and maintaining clonal hematopoiesis. These cells persist in the bone marrow (BM) despite effective inhibition of BCR-ABL kinase activity by tyrosine kinase inhibitors (TKIs). Here we show that although the microRNA (miRNA) miR-126 supported the quies"
+   },
+   {
+    "rank": 68,
+    "id": "pmid:29290588",
+    "cited_by": 139,
+    "year": 2018,
+    "journal": "Developmental cell",
+    "title": "Arabidopsis ARGONAUTE 1 Binds Chromatin to Promote Gene Transcription in Response to Hormones and Stresses",
+    "abstract_start": "Conventional RNA interference (RNAi) pathways suppress eukaryotic gene expression at the transcriptional or post-transcriptional level. At the core of RNAi are small RNAs (sRNAs) and effector Argonaute (AGO) proteins. Arabidopsis AGO1 is known to bind microRNAs (miRNAs) and post-transcriptionally repress target genes in the cytoplasm. Here, we report that AGO1 also binds to the chromatin of active"
+   },
+   {
+    "rank": 69,
+    "id": "pmid:26919432",
+    "cited_by": 139,
+    "year": 2016,
+    "journal": "Cell",
+    "title": "The RNase PARN-1 Trims piRNA 3' Ends to Promote Transcriptome Surveillance in C. elegans",
+    "abstract_start": "Piwi-interacting RNAs (piRNAs) engage Piwi proteins to suppress transposons and are essential for fertility in diverse organisms. An interesting feature of piRNAs is that, while piRNA lengths are stereotypical within a species, they can differ widely between species. For example, piRNAs are mainly 29 and 30 nucleotides in humans, 24 to 30 nucleotides in D. melanogaster, and uniformly 21 nucleotide"
+   },
+   {
+    "rank": 70,
+    "id": "pmid:32499657",
+    "cited_by": 138,
+    "year": 2020,
+    "journal": "Nature",
+    "title": "poly(UG)-tailed RNAs in genome protection and epigenetic inheritance",
+    "abstract_start": "Mobile genetic elements threaten genome integrity in all organisms. RDE-3 (also known as MUT-2) is a ribonucleotidyltransferase that is required for transposon silencing and RNA interference in Caenorhabditis elegans 1-4 . When tethered to RNAs in heterologous expression systems, RDE-3 can add long stretches of alternating non-templated uridine (U) and guanosine (G) ribonucleotides to the 3' termi"
+   }
+  ]
+ }
+}

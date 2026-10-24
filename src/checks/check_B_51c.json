@@ -1,0 +1,38 @@
+{"batch": "check_B_51c", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1160, "id": "pmid:30902974",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "SMARCAD1 is enriched at ERV subfamilies class I and II, particularly at active intracisternal A-type particles (IAPs), where it preserves repressive histone methylation marks."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Here we identify the SWI/SNF-like remodeler SMARCAD1 as a key factor in the control of ERVs in embryonic stem cells."},
+      {"j": 3, "label": "supported", "confidence": 2, "evidence": "SMARCAD1 and KAP1 occupancy at ERVs is co-dependent and requires the ATPase function of SMARCAD1."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Depletion of SMARCAD1 results in de-repression of IAPs and adjacent genes."}
+    ]},
+   {"n": 1161, "id": "pmid:30728521",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "The IFN-I response is triggered by cytoplasmic L1 cDNA, and is antagonized by inhibitors of the L1 reverse transcriptase."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "The IFN-I response is a phenotype of late senescence and contributes to the maintenance of the senescence-associated secretory phenotype."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Here we show that during cellular senescence, L1 (also known as LINE-1) retrotransposable elements become transcriptionally derepressed and activate a type-I interferon (IFN-I) response."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Treatment of aged mice with the nucleoside reverse transcriptase inhibitor lamivudine downregulated IFN-I activation and age-associated inflammation (inflammaging) in several tissues."}
+    ]},
+   {"n": 1162, "id": "pmid:26941318",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We found that ERVs have shaped the evolution of a transcriptional network underlying the interferon (IFN) response, a major branch of innate immunity"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "revealed their involvement in the regulation of essential immune functions, including activation of the AIM2 inflammasome"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "CRISPR-Cas9 deletion of a subset of these ERV elements in the human genome impaired expression of adjacent IFN-induced genes"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "lineage-specific ERVs have dispersed numerous IFN-inducible enhancers independently in diverse mammalian genomes"}
+    ]},
+   {"n": 1163, "id": "pmid:28273063",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "although we confirmed that the majority of KZFPs bind transposable elements and pinpoint cases of ongoing co-evolution, we found that most of their transposable element targets have lost all transposition potential"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "we combined phylogenetic and genomic studies to investigate the evolutionary emergence of KZFP genes in vertebrates and to identify their targets in the human genome"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "First, we unexpectedly reassigned the root of the family to a common ancestor of coelacanths and tetrapods."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we obtained evidence that KZFPs exploit evolutionarily conserved fragments of transposable elements as regulatory platforms long after the arms race against these genetic invaders has ended"}
+    ]},
+   {"n": 1164, "id": "pmid:28798043",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "demonstrates the successful production of PERV-inactivated animals to address the safety concern in clinical xenotransplantation"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Using CRISPR-Cas9, we inactivated all of the PERVs in a porcine primary cell line and generated PERV-inactivated pigs via somatic cell nuclear transfer."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We now confirm that PERVs infect human cells, and we observe the horizontal transfer of PERVs among human cells."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We previously demonstrated the feasibility of inactivating PERV activity in an immortalized pig cell line."}
+    ]}
+ ]}

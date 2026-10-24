@@ -1,0 +1,73 @@
+{"batch": "check_C_85", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+  {"n": 1495, "id": "pmid:37104581",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Genomic time trees reveal an accumulation of cladogenic events before and immediately after the Cretaceous-Paleogene (K-Pg) boundary"},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "X-chromosome versus autosome conflicts characterize multiple independent clades that radiated during the Cenozoic", "flag": "ambiguous", "reason": "The abstract reports the X-autosome conflict but gives no cause, so ILS-versus-hybridization is not settled by the text."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Interordinal relationships exhibit relatively low rates of phylogenomic conflict across diverse datasets and analytical methods"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "X-chromosome versus autosome conflicts characterize multiple independent clades that radiated during the Cenozoic"}
+   ]},
+  {"n": 1496, "id": "pmid:36928772",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "the cultivated relatives of bread wheat experienced a population decline by ~82% over the past ~2,000 yr due to the food choice shift of humans"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "By analysing whole-genome sequences of 795 wheat accessions, we found that bread wheat originated from the southwest coast of the Caspian Sea and underwent a slow speciation process, lasting ~3,300 yr owing to persistent gene flow from its relatives"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Further biogeographical modelling predicted a continued population shrinking of many bread wheat relatives in the coming decades because of their vulnerability to the changing climate"},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "shaping a diversified but occasionally convergent adaptive landscape in novel environments"}
+   ]},
+  {"n": 1497, "id": "pmid:39232174",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "amylase genes have higher copy numbers in agricultural populations than in fishing, hunting and pastoral populations"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Leveraging 533 ancient human genomes, we find that duplication-containing haplotypes (with more gene copies than the ancestral haplotype) have rapidly increased in frequency over the past 12,000 years in West Eurasians, suggestive of positive selection"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "nearly identical structures have arisen recurrently on different haplotype backgrounds throughout recent human history"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "AMY1 and AMY2A genes each underwent multiple duplication/deletion events with mutation rates up to more than 10,000-fold the single-nucleotide polymorphism mutation rate, whereas AMY2B gene duplications share a single origin"}
+   ]},
+  {"n": 1498, "id": "pmid:37978174",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "This approach results in a highly resolved, dated species tree and establishes an absolute timeline for ATP synthase evolution"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "the eukaryotic nuclear and mitochondrial lineages diverged from their closest archaeal (2.67-2.19 Ga) and bacterial (2.58-2.12 Ga) relatives at approximately the same time, with a slightly longer nuclear stem-lineage"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "the divergence of ATP synthase into F- and A/V-type lineages was a very early event in cellular evolution dating back to more than 4 Ga"},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "the divergence of ATP synthase into F- and A/V-type lineages was a very early event in cellular evolution dating back to more than 4 Ga, potentially predating the diversification of Archaea and Bacteria"}
+   ]},
+  {"n": 1499, "id": "pmid:37262154",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "we show an excess of ILS in genes with immune functions and a deficit of ILS in housekeeping genes"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "We find up to 64% of the genome affected by ILS at individual nodes"},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Estimated speciation times are much more recent than genomic divergence times and are in good agreement with the fossil record"},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We exploit ILS to reconstruct speciation times and ancestral population sizes"}
+   ]},
+  {"n": 1500, "id": "pmid:36717742",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "genomic characterization and cytogenetic studies including outgroup species Pristionchus occultus indicated two independent fusions involving the same chromosome, ChrIR, between these related species"},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "recent chromosome fusions repatterned recombination rate and drove reproductive isolation during Pristionchus speciation"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Quantitative trait locus analyses for hybrid sterility in all three sexes revealed that major quantitative trait loci mapped to the fused chromosome ChrIR"},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "these fusions altered the chromosome-wide pattern of recombination, resulting in large low-recombination regions"}
+   ]},
+  {"n": 1501, "id": "pmid:38382573",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "The orchids' most recent common ancestor is inferred to have lived in Late Cretaceous Laurasia"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "The modern range of Apostasioideae, which comprises two genera with 16 species from India to northern Australia, is interpreted as relictual"},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "modern orchid species diversity mainly originated over the last 5 Ma, with the highest speciation rates in Panama and Costa Rica"},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "pinpoint Central America as a region of recent, explosive speciation"}
+   ]},
+  {"n": 1502, "id": "pmid:36196994",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "After controlling for variation in mutation rates along the genome, a model of background selection alone explains ~60% of the variance in diversity levels at the megabase scale"},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "background selection is the dominant mode of linked selection in humans, with marked effects on diversity levels throughout autosomes"},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "selective sweeps are estimated to have had little or no effect on linked neutral diversity"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "The regions under purifying selection are best predicted by phylogenetic conservation, with ~80% of the deleterious mutations affecting neutral diversity occurring in non-exonic regions"}
+   ]},
+  {"n": 1503, "id": "pmid:37803007",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "we used phylogenomic analysis of 709 single copy ortholog groups from 256 mosquito species to produce a strongly supported phylogeny that resolves the position of the major disease vector species and the major mosquito lineages"},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "mosquito diversification and host-use patterns within major lineages appear to coincide in earth history both with major continental drift events and with the diversification of vertebrate classes"},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Our analyses support an origin of mosquitoes in the early Triassic (217 MYA [highest posterior density region: 188-250 MYA]), considerably older than previous estimates"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "mosquitoes have shifted to feeding upon the blood of mammals numerous times"}
+   ]},
+  {"n": 1504, "id": "pmid:39562586",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Among the five putatively functional ARGs identified, lin, which confers resistance to lincomycin, is the most prevalent, followed by mprF, sul, fosX, and norB"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "ARGs are predominantly found in Listeria sensu stricto species, with those more closely related to L. monocytogenes tending to harbor more ARGs"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The soil-dwelling bacterial genus Listeria, including L. monocytogenes, the causative agent of listeriosis"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "phylogenetic and recombination analyses provide evidence of recent horizontal gene transfer (HGT) in all five ARGs within and/or across species"}
+   ]}
+ ]}

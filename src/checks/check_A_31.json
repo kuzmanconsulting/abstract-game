@@ -1,0 +1,33 @@
+{"batch": "check_A_31", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+  {"n": 860, "id": "pmid:39572544", "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 2, "evidence": "we reveal zinc-finger domain as an integral structure for MOB1 function, whose LOF mutations in head and neck cancer promote tumor growth", "flag": "ambiguous", "reason": "The abstract's \"whose\" can be read as referring either to the zinc-finger domain or to MOB1 as a whole, so whether the growth-promoting mutations lie in that domain is not settled by the wording."},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "but also gain an oncogenic role for NF2 by activating the VANGL-JNK pathway"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "the schwannoma/meningioma-derived NF2 LOF mutations not only inhibit its tumor suppressive function in the Hippo pathway, but also gain an oncogenic role for NF2 by activating the VANGL-JNK pathway"},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "We identify a total of 85 loss-of-function (LOF) missense mutations for Hippo pathway genes and elucidate their underlying mechanisms."}
+  ]},
+  {"n": 861, "id": "pmid:37980346", "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "and inferred that OsMADS17 regulates SDT expression, which was experimentally validated"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "We identified 36 putative causal genes of SPP, including SDT (MIR156j) and OsMADS17"},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We found that alleles at cis-expression quantitative trait loci of SPP-associated genes underwent positive selection, with a strong preference for alleles increasing SPP."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "inferred that OsMADS17 regulates SDT expression, which was experimentally validated"}
+  ]},
+  {"n": 862, "id": "pmid:42248870", "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "giant viruses exhibit genome-wide substitution rates similar to co-occurring bacteria but significantly slower than smaller dsDNA phages"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "Our findings reveal gene duplication (23% of genes) and horizontal gene transfer (29% of genes) as key drivers of genomic innovation."},
+    {"j": 3, "label": "not_addressed", "confidence": 2, "evidence": "A co-occurrence network analysis indicates increased virus-host interactions following the introduction of an invasive predatory zooplankton in 2009", "flag": "ambiguous", "reason": "The abstract reports more virus-host interactions in a co-occurrence network after the invasion, which is not the same measurement as giant virus abundance, though a reader could conflate the two."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "there is a significant increase in positively selected genes post-invasion, particularly those related to infection"}
+  ]},
+  {"n": 863, "id": "pmid:40399292", "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "SV breakpoints falling within CGIs or histone marks H3K36me3 or H3K9me3 associate with differential CGI methylation."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "Genes with SVs and CGI methylation associated with patient survival include POLD4."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "For thousands of methylation probes for CpG Islands (CGIs) or enhancers, rare and common SV breakpoints upstream or downstream associate with differential methylation in tumors spanning various histologic types"},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "associate with differential methylation in tumors spanning various histologic types, a significant subset involving genes with SV-associated differential expression"}
+  ]},
+  {"n": 864, "id": "pmid:39191772", "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Machine learning classification resulted in robust differentiation between TP53 mutant versus wildtype cfDNA samples (AUC-ROC = 0.710-1.000)"},
+    {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "We find that LFS individuals exhibit an increased prevalence of A/T nucleotides at fragment ends"},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "To understand the functional underpinning of cfDNA fragmentation in LFS, we conducted a fragmentomic analysis of 199 cfDNA samples from 82 TP53 mutation carriers and 30 healthy TP53-wildtype controls."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "intra-patient longitudinal analysis of ctDNA fragmentation signal enabled early cancer detection"}
+  ]}
+ ]}

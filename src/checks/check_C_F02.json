@@ -1,0 +1,87 @@
+{"batch": "check_C_F02", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+  {"n": 772, "id": "pmid:42875489",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Most primary surgery samples were classified as grade 2 on the basis of histology (73% for astrocytomas and 93% for oligodendrogliomas)."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "Treatment with temozolomide was associated with the mutational signatures SBS11 and SBS119 in both tumour types, whereas the radiotherapy-associated ID8 signature increased in astrocytomas specifically."},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "we observed a convergence of acquired alterations, genome-wide changes and worse patient outcomes, suggesting that treatment-refractory clones were being selected"},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Mutations in phosphatidylinositol 3-kinase (PI3K) and NOTCH1 were newly acquired in recurrent oligodendrogliomas, regardless of treatment, and were associated with an increased tumour mutational burden."}
+   ]},
+  {"n": 778, "id": "pmid:38081297",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "we comprehensively profile 366 patients, revealing two distinct cHL genomic subtypes with characteristic clinical and prognostic correlates, as well as distinct transcriptional and immunological profiles"},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "we identify a novel class of truncating IL4R mutations that are dependent on IL-13 signalling and therapeutically targetable with IL-4Rα-blocking antibodies"},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "the plasma representation of mutations exceeds the bulk tumour representation in most cases, making cHL particularly amenable to noninvasive profiling"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "we demonstrate Hodgkin and Reed-Sternberg ctDNA shedding to be shaped by DNASE1L3, whose increased tumour microenvironment-derived expression drives high ctDNA concentrations"}
+   ]},
+  {"n": 783, "id": "pmid:37165195",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Analysis of matched cancers further suggested that somatic L1 retrotransposition rate is substantially increased during colorectal tumourigenesis."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "we explored the whole-genome sequences of 899 single-cell clones established from three different cell types collected from 28 individuals. We identified 1,708 somatic L1 retrotransposition events"},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We identified 1,708 somatic L1 retrotransposition events that were enriched in colorectal epithelium and showed a positive relationship with age."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "retrotransposition-competent L1s with a lower population allele frequency have higher retrotransposition activity"}
+   ]},
+  {"n": 784, "id": "pmid:41115454",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "These results provide a comprehensive analysis of response to neoadjuvant immune checkpoint blockade in early-stage pMMR colon cancers and identify potential biomarkers for patient selection."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "The response rate was 26% and included six patients with a major pathological response (10% or less residual viable tumour)."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "Responses were observed despite a low tumour mutational burden in all tumours, whereas chromosomal genomic instability scores were significantly higher in responders than in non-responders."},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "clearance was observed in 5 of 6 responders before surgery, whereas 19 of 20 non-responders remained circulating tumour DNA positive"}
+   ]},
+  {"n": 799, "id": "pmid:42546688",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Insertion of transcriptionally active L1s at non-immunoglobulin loci endogenously lacking upstream L1s promotes off-target SHM."},
+    {"j": 2, "label": "not_addressed", "confidence": 2, "evidence": "We show that L1-driven SHM occurs in vivo using HUSH conditional knockout mice and engineered mice with V H genes devoid of upstream L1s."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "Recombined V H promoters generate long, strong antisense RNAs encoding upstream L1s, triggering the human silencing hub (HUSH) complex and AID recruitment"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "We report the discovery of LINE-1 (L1) retrotransposons upstream to many V H genes in the immunoglobulin locus. These L1s are evolutionarily old, truncated, and retrotransposition dead."}
+   ]},
+  {"n": 804, "id": "pmid:40381624",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Exogenous GI-SINE expression elicited axonal growth in injured sensory, retinal, and corticospinal tract neurons."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "GI-SINEs are induced from ATF3 and other AP-1 promoter-associated extragenic loci in injured sensory neurons but are not upregulated in lesioned retinal ganglion neurons."},
+    {"j": 3, "label": "not_addressed", "confidence": 2, "evidence": "GI-SINEs are induced from ATF3 and other AP-1 promoter-associated extragenic loci in injured sensory neurons", "flag": "ambiguous", "reason": "The abstract describes transcriptional induction from existing extragenic loci and says nothing about whether new B2-SINE copies insert, so the dependency claim is neither stated nor flatly denied."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "We examined RNA polyadenylation changes upon sensory neuron injury and found upregulation of a subset of polyadenylated B2-SINE repeat elements, hereby termed GI-SINEs (growth-inducing B2-SINEs)."}
+   ]},
+  {"n": 805, "id": "pmid:37738970",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Later Omicron subvariants BA.4 and BA.5 more potently suppressed innate immunity than early subvariant BA.1, which correlated with Orf6 levels"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "although Alpha, Beta, Gamma, and Delta ultimately converged to suppress interferon-stimulated genes (ISGs), Omicron BA.1 did not"},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Our findings suggest that SARS-CoV-2 convergent evolution overcame human adaptive and innate immune barriers, laying the groundwork to tackle future pandemics."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "ISG suppression correlated with the expression of viral innate immune antagonist proteins, including Orf6, N, and Orf9b, which we mapped to specific mutations."}
+   ]},
+  {"n": 812, "id": "pmid:42381011",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 2, "evidence": "These arrays represent one of the largest centromeric satellite expansions reported in birds and are consistent with rapid turnover and amplification of centromeric repeats.", "flag": "ambiguous", "reason": "Only the snowy owl was assembled, and one of the largest neither asserts nor rules out equally large arrays in other owls."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "we show that the position of the centromeres are not homologous with chicken centromeres, and are located in regions with collinearity breaks to other bird genomes due to chromosomal rearrangements"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "the repeat DNA content in the relatively large snowy owl genome (1.6 Gb) is among the highest reported for any bird genome to date (28.34% compared to an average of ~ 10% in other birds)"},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "The bulk of the snowy owl genomic repeat landscape consists of extensive centromeric satellite arrays that form large contiguous blocks across multiple chromosomes."}
+   ]},
+  {"n": 824, "id": "pmid:41845531",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "we demonstrate that strongly reciprocally retained gene families have higher power to detect true WGMs and to reject false WGMs than non-reciprocally retained gene families"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "none of the reciprocally retained gene families is a perfect WGM marker on its own"},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "A pipeline to use reciprocally retained gene families for KS distribution-based WGM inference in angiosperms has been implemented in ksrates v2.0."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "using an extended set of such families as input for birth-death and KS distribution modeling approaches leads to better WGM detection performance than using entire genomes"}
+   ]},
+  {"n": 825, "id": "pmid:40229771",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Compared to the southern lineage, the northern lineage exhibits a lower level of genomic diversity and higher levels of inbreeding and genetic load, consistent with its recent population decline."},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "EPAS1 is positively selected in the southern lineage with almost fixed amino acid substitutions and shows an increased allele frequency with elevation."},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "EPAS1 is positively selected in the southern lineage with almost fixed amino acid substitutions and shows an increased allele frequency with elevation."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "We sequence a high-quality chromosome-level genome of the snow leopard and the genomes of 52 wild snow leopards."}
+   ]},
+  {"n": 841, "id": "pmid:39019871",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "regions with a change from early to late replication displaying an increased mutation rate and distinct mutational signatures"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "Whereas regions changing from late to early replication contain genes with increased expression and present a preponderance of APOBEC3-mediated mutation clusters and associated driver mutations."},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We demonstrate that ART occurs relatively early during cancer evolution and that ART may have a stronger correlation with mutation acquisition than alterations in chromatin structure."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "We find that 6%-18% of the cancer genome exhibits ART"}
+   ]},
+  {"n": 848, "id": "pmid:39152110",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "an overall sensitivity of 75.0% (95% CI: 64.1%-84.0%), specificity 88.7% (95% CI: 77.0%-95.7%), positive predictive value 90.9%, and negative predictive value 70.1% compared to the tissue gold standard"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "We perform rigorous, blinded validation testing across the study population (n = 133), comprising of IDH1.R132H patients (n = 80), IDH1 wild-type gliomas (n = 44), and age matched healthy controls (n = 9)."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "positive predictive value 90.9%, and negative predictive value 70.1% compared to the tissue gold standard"},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "In addition to fundamental diagnostic applications, the study also highlights the utility of mt-IDH1 dx platform for blood-based monitoring and surveillance, offering valuable prognostic information."}
+   ]}
+ ]}

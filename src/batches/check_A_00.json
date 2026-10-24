@@ -1,0 +1,1379 @@
+{
+"batch": "check_A_00",
+"pass": "A",
+"source_batch": "gen_00",
+"items": [
+{
+"n": 0,
+"id": "pmid:42542556",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Tertiary lymphoid structures (TLS) are associated with prognosis in solid tumours. Their value for predicting axillary nodal involvement in oestrogen receptor-positive luminal breast cancer remains uncertain. Three published TLS signatures were scored by single-sample gene set enrichment analysis in oestrogen receptor-positive luminal tumours. The Cancer Genome Atlas Breast Invasive Carcinoma cohort (TCGA-BRCA) included 632 cases, of which 379 met strict consensus. METABRIC included 1086 cases, of which 663 met strict consensus. Logistic models adjusted for age and pathological tumour stage. Strict consensus, majority vote, and continuous scores were compared. Performance assessment included bootstrapped changes in area under the receiver-operating-characteristic curve, Brier scores, calibration, and decision-curve analysis. Survival was evaluated in METABRIC and explored in TCGA-BRCA. Strict-consensus TLS status was not associated with nodal positivity in TCGA-BRCA (adjusted odds ratio: 0.95, 95% confidence interval: 0.62-1.45, P = 0.822). METABRIC was similar (odds ratio: 0.76, 95% confidence interval: 0.55-1.06, P = 0.105). Full-cohort METABRIC analyses detected small majority-vote and continuous-score associations, absent in TCGA-BRCA. Across specifications, bootstrapped changes in area under the receiver-operating-characteristic curve ranged from 0.0002 to 0.0089, with minimal Brier-score improvement and no stable decision-curve benefit. In METABRIC, the univariable overall survival association attenuated after age adjustment (hazard ratio: 1.33-1.10). TCGA-BRCA survival analyses were nonsignificant. TLS transcriptomic signals showed small, cohort-dependent associations with nodal status but no reproducible or clinically meaningful incremental predictive value. These data do not support replacing sentinel lymph node biopsy with a TLS signature in oestrogen receptor-positive luminal breast cancer."
+}
+],
+"text": "Tertiary lymphoid structures (TLS) are associated with prognosis in solid tumours. Their value for predicting axillary nodal involvement in oestrogen receptor-positive luminal breast cancer remains uncertain. Three published TLS signatures were scored by single-sample gene set enrichment analysis in oestrogen receptor-positive luminal tumours. The Cancer Genome Atlas Breast Invasive Carcinoma cohort (TCGA-BRCA) included 632 cases, of which 379 met strict consensus. METABRIC included 1086 cases, of which 663 met strict consensus. Logistic models adjusted for age and pathological tumour stage. Strict consensus, majority vote, and continuous scores were compared. Performance assessment included bootstrapped changes in area under the receiver-operating-characteristic curve, Brier scores, calibration, and decision-curve analysis. Survival was evaluated in METABRIC and explored in TCGA-BRCA. Strict-consensus TLS status was not associated with nodal positivity in TCGA-BRCA (adjusted odds ratio: 0.95, 95% confidence interval: 0.62-1.45, P = 0.822). METABRIC was similar (odds ratio: 0.76, 95% confidence interval: 0.55-1.06, P = 0.105). Full-cohort METABRIC analyses detected small majority-vote and continuous-score associations, absent in TCGA-BRCA. Across specifications, bootstrapped changes in area under the receiver-operating-characteristic curve ranged from 0.0002 to 0.0089, with minimal Brier-score improvement and no stable decision-curve benefit. In METABRIC, the univariable overall survival association attenuated after age adjustment (hazard ratio: 1.33-1.10). TCGA-BRCA survival analyses were nonsignificant. TLS transcriptomic signals showed small, cohort-dependent associations with nodal status but no reproducible or clinically meaningful incremental predictive value. These data do not support replacing sentinel lymph node biopsy with a TLS signature in oestrogen receptor-positive luminal breast cancer.",
+"statements": [
+{
+"j": 1,
+"text": "Across model specifications, adding TLS scores raised the bootstrapped area under the ROC curve by between 0.02 and 0.09."
+},
+{
+"j": 2,
+"text": "The study concludes that a TLS signature should not replace sentinel lymph node biopsy in oestrogen receptor-positive luminal breast cancer."
+},
+{
+"j": 3,
+"text": "In TCGA-BRCA, strict-consensus TLS status showed no association with nodal positivity, with an adjusted odds ratio of 0.95 and a confidence interval spanning 1."
+},
+{
+"j": 4,
+"text": "TLS signature scores were higher in tumours with abundant tumour-infiltrating lymphocytes on histological review."
+}
+]
+},
+{
+"n": 1,
+"id": "pmid:40222339",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Human endogenous retroviruses (HERVs), a type of endogenous transposable elements (ETE), have emerged as potential biomarkers and therapeutic targets for cancers. However, the transcriptional relevance of HERV elements in gastric cancer (GC) remains largely unexplored. This study aims to elucidate the interactions between locus-specific HERVs expression and clinical dynamics in GC patients. We compared HERVs locus-specific expression profiles from RNA sequencing of tumor and adjacent tissues, validated using the GEO database and RT-PCR. Analysis of dysregulated ETEs revealed 113 upregulated and 46 downregulated ETEs in tumor tissues compared to adjacent non-tumor tissues. Significant differences were found in HERVs clades such as HERVK, HERVS71, and HERVH. Four clinically relevant HERV elements-LTR5_Hs_1q22 and HERVS71_19q13.22 (int, rve, RNase_H)-were validated in serum samples via RT-PCR. Higher HERVs expression (HERVs high ) correlated with larger tumor size, higher grade, increased lymph node metastasis, and higher Odds ratio compared to lower expression (HERVs low ) groups. The diagnostic performance of the four HERV elements surpassed that of conventional biomarkers and improved with combined biomarker analysis. Differential and functional analysis indicated that these HERV elements significantly impacted the cell cycle, with their upregulation linked to tumor growth both in vitro and in vivo. Our exploration demonstrates the clinical significance of HERVs in tumor progression, highlighting their functional role and providing a valuable resource for developing new biomarkers and therapeutic targets in GC."
+}
+],
+"text": "Human endogenous retroviruses (HERVs), a type of endogenous transposable elements (ETE), have emerged as potential biomarkers and therapeutic targets for cancers. However, the transcriptional relevance of HERV elements in gastric cancer (GC) remains largely unexplored. This study aims to elucidate the interactions between locus-specific HERVs expression and clinical dynamics in GC patients. We compared HERVs locus-specific expression profiles from RNA sequencing of tumor and adjacent tissues, validated using the GEO database and RT-PCR. Analysis of dysregulated ETEs revealed 113 upregulated and 46 downregulated ETEs in tumor tissues compared to adjacent non-tumor tissues. Significant differences were found in HERVs clades such as HERVK, HERVS71, and HERVH. Four clinically relevant HERV elements-LTR5_Hs_1q22 and HERVS71_19q13.22 (int, rve, RNase_H)-were validated in serum samples via RT-PCR. Higher HERVs expression (HERVs high ) correlated with larger tumor size, higher grade, increased lymph node metastasis, and higher Odds ratio compared to lower expression (HERVs low ) groups. The diagnostic performance of the four HERV elements surpassed that of conventional biomarkers and improved with combined biomarker analysis. Differential and functional analysis indicated that these HERV elements significantly impacted the cell cycle, with their upregulation linked to tumor growth both in vitro and in vivo. Our exploration demonstrates the clinical significance of HERVs in tumor progression, highlighting their functional role and providing a valuable resource for developing new biomarkers and therapeutic targets in GC.",
+"statements": [
+{
+"j": 1,
+"text": "The four HERV elements performed worse than conventional biomarkers in diagnosing gastric cancer."
+},
+{
+"j": 2,
+"text": "HERV upregulation in gastric tumours results from loss of DNA methylation at the HERV loci."
+},
+{
+"j": 3,
+"text": "Tumour tissue contained 113 upregulated and 46 downregulated endogenous transposable elements relative to adjacent non-tumour tissue."
+},
+{
+"j": 4,
+"text": "Patients in the HERVs-high group had larger tumours, higher grade and more lymph node metastasis than the HERVs-low group."
+}
+]
+},
+{
+"n": 2,
+"id": "doi:10.1101/2025.08.10.669526",
+"year": 2025,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Transcriptional regulation is tightly linked to chromatin organization, with H3K4me3 commonly marking both active and bivalent promoters. In embryonic stem cells (ESC), MLL2 is essential for H3K4me3 deposition at bivalent promoters, which has been proposed to facilitate the induction of major developmental genes during pluripotent cell differentiation. However, prior studies point to a functional discrepancy between the loss of H3K4me3 at bivalent promoters and the largely unaltered transcription of major developmental genes in Mll2 -/- cells. In this study, we investigated MLL2-dependent gene regulation in mouse ESC and during their differentiation. Contrary to the prevailing view, we show that MLL2’s primary role is not to oppose Polycomb-mediated repression at the bivalent promoters of developmental genes. Instead, we identify a previously unrecognized regulatory function for MLL2 at the CG-rich 5’ untranslated regions (5’UTR) of evolutionarily young LINE-1 (L1) transposable elements (TE). We found that MLL2 binds to the 5’UTR of L1 elements and is critical for maintaining their active state (H3K4me3 and H3K27ac), while preventing the accumulation of repressive H3K9me3. Using both global genomic approaches (i.e. RNA-seq, ChIP-seq and Micro-C) as well as targeted L1 deletions, we demonstrate that these MLL2-bound L1 elements act as enhancers, modulating the expression of neighboring genes in ESC and, more prominently, during differentiation. Together, our findings illuminate novel aspects of MLL2 regulatory function during early developmental transitions and highlight the emerging role of TE as key components of long-range gene expression control."
+}
+],
+"text": "Transcriptional regulation is tightly linked to chromatin organization, with H3K4me3 commonly marking both active and bivalent promoters. In embryonic stem cells (ESC), MLL2 is essential for H3K4me3 deposition at bivalent promoters, which has been proposed to facilitate the induction of major developmental genes during pluripotent cell differentiation. However, prior studies point to a functional discrepancy between the loss of H3K4me3 at bivalent promoters and the largely unaltered transcription of major developmental genes in Mll2 -/- cells. In this study, we investigated MLL2-dependent gene regulation in mouse ESC and during their differentiation. Contrary to the prevailing view, we show that MLL2’s primary role is not to oppose Polycomb-mediated repression at the bivalent promoters of developmental genes. Instead, we identify a previously unrecognized regulatory function for MLL2 at the CG-rich 5’ untranslated regions (5’UTR) of evolutionarily young LINE-1 (L1) transposable elements (TE). We found that MLL2 binds to the 5’UTR of L1 elements and is critical for maintaining their active state (H3K4me3 and H3K27ac), while preventing the accumulation of repressive H3K9me3. Using both global genomic approaches (i.e. RNA-seq, ChIP-seq and Micro-C) as well as targeted L1 deletions, we demonstrate that these MLL2-bound L1 elements act as enhancers, modulating the expression of neighboring genes in ESC and, more prominently, during differentiation. Together, our findings illuminate novel aspects of MLL2 regulatory function during early developmental transitions and highlight the emerging role of TE as key components of long-range gene expression control.",
+"statements": [
+{
+"j": 1,
+"text": "MLL2 maintains H3K4me3 and H3K27ac at young LINE-1 elements and prevents repressive H3K9me3 from accumulating there."
+},
+{
+"j": 2,
+"text": "Targeted deletions showed that MLL2-bound L1 elements act as enhancers, with stronger effects during differentiation than in ESC."
+},
+{
+"j": 3,
+"text": "The MLL2-bound L1 elements are enriched near genes that drive neural differentiation."
+},
+{
+"j": 4,
+"text": "The study confirms that MLL2's main function is to counteract Polycomb repression at bivalent promoters of developmental genes."
+}
+]
+},
+{
+"n": 3,
+"id": "pmid:42817873",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Circulating tumor DNA (ctDNA) is a promising biomarker for disease monitoring, yet evidence of its clinical utility in routine care remains limited. We evaluated the utility of serial ctDNA monitoring using digital PCR (ddPCR) for detecting acquired resistance (AR) and monitoring response in metastatic non-small cell lung cancer (NSCLC) and breast cancer (MBC). This real-world, longitudinal study included 48 metastatic patients (42 with EGFR-mutant NSCLC; 6 with HR+/HER2-negative MBC) treated at a Brazilian oncology reference center. Serial plasma samples were analyzed by ddPCR for activating and resistance mutations at specific time points. In the NSCLC cohort, EGFR T790M was detected in 48.4% of patients who progressed on 1st/2nd-generation TKIs. For patients on 3rd-generation TKIs, EGFR C797S was the main AR mechanism (47%), followed by PIK3CA, BRAF mutations, and ERBB2/EGFR amplifications. Longitudinal analysis anticipated radiological progression by approximately 5 months. Early molecular response, characterized by mutation clearance, preceded radiological response. In the MBC cohort, hotspot ESR1 mutations (D538G, L536R, Y537S) were identified in 50% of patients. Variations in ctDNA fractional abundance predicted disease progression up to 9 months before radiological confirmation. This study provides real-world evidence that ddPCR-based ctDNA monitoring enables early detection of resistance and predicts disease progression significantly earlier than standard imaging in both NSCLC and MBC. Despite the limited sample size, particularly in the MBC cohort, these real-world findings support liquid biopsy as a minimally invasive tool with the potential to guide therapeutic decisions and inform personalized management in precision oncology. Larger prospective studies are needed to confirm these observations."
+}
+],
+"text": "Circulating tumor DNA (ctDNA) is a promising biomarker for disease monitoring, yet evidence of its clinical utility in routine care remains limited. We evaluated the utility of serial ctDNA monitoring using digital PCR (ddPCR) for detecting acquired resistance (AR) and monitoring response in metastatic non-small cell lung cancer (NSCLC) and breast cancer (MBC). This real-world, longitudinal study included 48 metastatic patients (42 with EGFR-mutant NSCLC; 6 with HR+/HER2-negative MBC) treated at a Brazilian oncology reference center. Serial plasma samples were analyzed by ddPCR for activating and resistance mutations at specific time points. In the NSCLC cohort, EGFR T790M was detected in 48.4% of patients who progressed on 1st/2nd-generation TKIs. For patients on 3rd-generation TKIs, EGFR C797S was the main AR mechanism (47%), followed by PIK3CA, BRAF mutations, and ERBB2/EGFR amplifications. Longitudinal analysis anticipated radiological progression by approximately 5 months. Early molecular response, characterized by mutation clearance, preceded radiological response. In the MBC cohort, hotspot ESR1 mutations (D538G, L536R, Y537S) were identified in 50% of patients. Variations in ctDNA fractional abundance predicted disease progression up to 9 months before radiological confirmation. This study provides real-world evidence that ddPCR-based ctDNA monitoring enables early detection of resistance and predicts disease progression significantly earlier than standard imaging in both NSCLC and MBC. Despite the limited sample size, particularly in the MBC cohort, these real-world findings support liquid biopsy as a minimally invasive tool with the potential to guide therapeutic decisions and inform personalized management in precision oncology. Larger prospective studies are needed to confirm these observations.",
+"statements": [
+{
+"j": 1,
+"text": "The study enrolled 48 patients, 42 with HR+/HER2-negative metastatic breast cancer and 6 with EGFR-mutant NSCLC."
+},
+{
+"j": 2,
+"text": "In the breast cancer cohort, changes in ctDNA fractional abundance anticipated progression by up to nine months before imaging confirmed it."
+},
+{
+"j": 3,
+"text": "Patients whose T790M was detected in ctDNA were switched to a third-generation TKI and had longer progression-free survival."
+},
+{
+"j": 4,
+"text": "Among NSCLC patients progressing on first- or second-generation TKIs, EGFR T790M was detected in 48.4%."
+}
+]
+},
+{
+"n": 4,
+"id": "doi:10.1101/2023.12.03.23299340",
+"year": 2023,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": "Introduction",
+"text": "Uveal melanoma is a lethal intraocular tumour, in which the presence of certain genetic alterations correlates with the risk of metastatic dissemination and patient survival. RNA data is typically used to transcriptionally characterise tumours and their micro-environment. In this study, we tested the detectability of all key genetic alterations in uveal melanoma from RNA sequencing data."
+},
+{
+"label": "Methods",
+"text": "Cohort-wide gene expression profiling was used to classify tumours at the transcriptional level. In individual samples, copy number alterations affecting chromosomes 3 and 8q were analysed by measuring expressed allelic imbalances of heterozygous common single nucleotide polymorphisms. Mutations in GNAQ, GNA11, CYSLTR2, PLCB4, BAP1, SF3B1 and EIF1AX were identified by screening of hotspot regions and by evaluating their transcriptional effects. All findings were cross-validated with DNA-derived data in a training cohort of 80 primary uveal melanomas studied by The Cancer Genome Atlas (TCGA) initiative, and in five prospectively analysed cases from our institution."
+},
+{
+"label": "Results",
+"text": "Unsupervised gene expression profiling strongly correlated to the presence of chromosome 3 alterations, but was not reliable in identifying other (clinically-)relevant genetic alterations. However, the presence of both chromosome 3 and 8q copy number alterations could be successfully inferred from expressed allelic imbalances in most tumours. The majority of mutations were adequately recognised at the RNA level by their nucleotide changes (all genes), alternative splicing around the mutant position ( BAP1 ) and transcriptome-wide aberrant splice junction usage ( SF3B1 ). Notably, in the TCGA cohort we detected previously unreported mutations in BAP1 (n=3) and EIF1AX (n=5), that were missed by the original DNA sequencing. In our prospective cohort, all mutations and copy number alterations were successfully identified at the RNA level by combining the described approaches."
+},
+{
+"label": "Conclusion",
+"text": "In addition to providing gene expression levels and profiles, RNA from uveal melanomas presents insights into the expressed tumour genotype and its phenotypic consequences. Such complete analysis of transcriptional data may augment or even substitute current DNA-based approaches, and has potential applicability in both research and clinical practice."
+}
+],
+"text": "Uveal melanoma is a lethal intraocular tumour, in which the presence of certain genetic alterations correlates with the risk of metastatic dissemination and patient survival. RNA data is typically used to transcriptionally characterise tumours and their micro-environment. In this study, we tested the detectability of all key genetic alterations in uveal melanoma from RNA sequencing data. Cohort-wide gene expression profiling was used to classify tumours at the transcriptional level. In individual samples, copy number alterations affecting chromosomes 3 and 8q were analysed by measuring expressed allelic imbalances of heterozygous common single nucleotide polymorphisms. Mutations in GNAQ, GNA11, CYSLTR2, PLCB4, BAP1, SF3B1 and EIF1AX were identified by screening of hotspot regions and by evaluating their transcriptional effects. All findings were cross-validated with DNA-derived data in a training cohort of 80 primary uveal melanomas studied by The Cancer Genome Atlas (TCGA) initiative, and in five prospectively analysed cases from our institution. Unsupervised gene expression profiling strongly correlated to the presence of chromosome 3 alterations, but was not reliable in identifying other (clinically-)relevant genetic alterations. However, the presence of both chromosome 3 and 8q copy number alterations could be successfully inferred from expressed allelic imbalances in most tumours. The majority of mutations were adequately recognised at the RNA level by their nucleotide changes (all genes), alternative splicing around the mutant position ( BAP1 ) and transcriptome-wide aberrant splice junction usage ( SF3B1 ). Notably, in the TCGA cohort we detected previously unreported mutations in BAP1 (n=3) and EIF1AX (n=5), that were missed by the original DNA sequencing. In our prospective cohort, all mutations and copy number alterations were successfully identified at the RNA level by combining the described approaches. In addition to providing gene expression levels and profiles, RNA from uveal melanomas presents insights into the expressed tumour genotype and its phenotypic consequences. Such complete analysis of transcriptional data may augment or even substitute current DNA-based approaches, and has potential applicability in both research and clinical practice.",
+"statements": [
+{
+"j": 1,
+"text": "Tumours with RNA-detected chromosome 3 loss had shorter metastasis-free survival than tumours without it."
+},
+{
+"j": 2,
+"text": "Unsupervised gene expression profiling reliably identified all clinically relevant genetic alterations, including chromosome 3 status."
+},
+{
+"j": 3,
+"text": "RNA analysis of the TCGA cohort uncovered three BAP1 and five EIF1AX mutations that the original DNA sequencing had missed."
+},
+{
+"j": 4,
+"text": "In the five prospective cases, every mutation and copy number alteration was recovered from RNA by combining the described approaches."
+}
+]
+},
+{
+"n": 5,
+"id": "doi:10.64898/2025.12.17.25341356",
+"year": 2025,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "Malignant pediatric brain tumors remain the leading cause of cancer-related mortality in children. Current diagnostics rely on imaging and invasive biopsy, which may not capture tumor heterogeneity. Liquid biopsy-based biomarkers such as tumor-educated platelets have shown diagnostic value in adult cancers, but their utility in pediatric brain tumors has not been investigated."
+},
+{
+"label": "Methods",
+"text": "We analyzed platelet transcriptomes of 73 blood samples from 23 pediatric brain tumor patients, classified as high-grade tumor patients or low-grade tumor patients, and 25 cancer-free controls. Platelets were isolated, CD45⁺ depleted, and RNA was extracted for RNA sequencing. CD45⁺ depletion efficiency was assessed using xCell-based leukocyte enrichment scores. Differential gene expression was assessed with DESeq2 and Gene Ontology over-representation analysis. Gene-level discrimination between groups was evaluated by receiver operating characteristic analysis, and a logistic regression model with patient-grouped 5-fold cross-validation was trained to classify high-grade tumor patients vs. controls."
+},
+{
+"label": "Results",
+"text": "Platelets from brain tumor patients showed transcriptional remodeling compared to controls, especially pronounced in high-grade tumor patients. We identified 398 and 649 differentially expressed genes in the brain tumor group vs. controls and high-grade tumor patients vs. control comparisons, respectively, and 85 genes in high-grade tumor patients vs. low-grade tumor patients. No genes met significance in low-grade tumor patients vs. controls. High-grade tumor patients showed consistent upregulation of cancer-associated mitochondrial genes. Similarly, gene enrichment analyses highlighted pathways related to mitotic regulation, chromosome segregation, and mitochondrial metabolism. Multiple genes demonstrated strong diagnostic performance, and logistic regression classifier based on selected platelet transcripts achieved an area under the curve of 0.89, sensitivity of 79%, and a specificity of 80% in identifying high-grade tumor patients."
+},
+{
+"label": "Conclusions",
+"text": "This study provides the first evidence that platelets exhibit distinct transcriptomic signatures in pediatric brain tumor patients. Platelet RNA profiles robustly differentiate high-grade tumor patients from low-grade tumor patients and cancer-free controls, reflecting tumor presence and biological aggressiveness. These findings support the feasibility of tumor-educated platelets as a minimally invasive biomarker for pediatric malignant brain tumor detection, and longitudinal monitoring. Larger multicenter studies are warranted to validate applicability."
+}
+],
+"text": "Malignant pediatric brain tumors remain the leading cause of cancer-related mortality in children. Current diagnostics rely on imaging and invasive biopsy, which may not capture tumor heterogeneity. Liquid biopsy-based biomarkers such as tumor-educated platelets have shown diagnostic value in adult cancers, but their utility in pediatric brain tumors has not been investigated. We analyzed platelet transcriptomes of 73 blood samples from 23 pediatric brain tumor patients, classified as high-grade tumor patients or low-grade tumor patients, and 25 cancer-free controls. Platelets were isolated, CD45⁺ depleted, and RNA was extracted for RNA sequencing. CD45⁺ depletion efficiency was assessed using xCell-based leukocyte enrichment scores. Differential gene expression was assessed with DESeq2 and Gene Ontology over-representation analysis. Gene-level discrimination between groups was evaluated by receiver operating characteristic analysis, and a logistic regression model with patient-grouped 5-fold cross-validation was trained to classify high-grade tumor patients vs. controls. Platelets from brain tumor patients showed transcriptional remodeling compared to controls, especially pronounced in high-grade tumor patients. We identified 398 and 649 differentially expressed genes in the brain tumor group vs. controls and high-grade tumor patients vs. control comparisons, respectively, and 85 genes in high-grade tumor patients vs. low-grade tumor patients. No genes met significance in low-grade tumor patients vs. controls. High-grade tumor patients showed consistent upregulation of cancer-associated mitochondrial genes. Similarly, gene enrichment analyses highlighted pathways related to mitotic regulation, chromosome segregation, and mitochondrial metabolism. Multiple genes demonstrated strong diagnostic performance, and logistic regression classifier based on selected platelet transcripts achieved an area under the curve of 0.89, sensitivity of 79%, and a specificity of 80% in identifying high-grade tumor patients. This study provides the first evidence that platelets exhibit distinct transcriptomic signatures in pediatric brain tumor patients. Platelet RNA profiles robustly differentiate high-grade tumor patients from low-grade tumor patients and cancer-free controls, reflecting tumor presence and biological aggressiveness. These findings support the feasibility of tumor-educated platelets as a minimally invasive biomarker for pediatric malignant brain tumor detection, and longitudinal monitoring. Larger multicenter studies are warranted to validate applicability.",
+"statements": [
+{
+"j": 1,
+"text": "A logistic regression classifier of platelet transcripts identified high-grade tumour patients with AUC 0.89, 79% sensitivity and 80% specificity."
+},
+{
+"j": 2,
+"text": "Comparing low-grade tumour patients with controls yielded 85 differentially expressed platelet genes."
+},
+{
+"j": 3,
+"text": "Platelet transcriptomic signatures returned to normal after surgical resection of the tumour."
+},
+{
+"j": 4,
+"text": "Platelets from high-grade tumour patients consistently overexpressed mitochondrial genes associated with cancer."
+}
+]
+},
+{
+"n": 6,
+"id": "pmid:39126895",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Objective",
+"text": "The treatment for stage IB grade 3 endometrioid endometrial adenocarcinoma is challenging with variable practice. Molecular characterization may help identify adjuvant therapy strategies beyond stage. We aimed to better understand the molecular features of these tumors by characterizing them by ProMisE classification, mutational signature, and commonly mutated genes."
+},
+{
+"label": "Methods",
+"text": "Patients with stage IB grade 3 EEC at two institutions were included. Immunohistochemistry and whole exome sequencing were performed on archival FFPE tissue sections to determine ProMisE classification. Personal Cancer Genome Reporter was used for somatic variant annotation, and mutational signatures were generated based on COSMIC single base substitution mutational signatures."
+},
+{
+"label": "Results",
+"text": "46 patients were included with variable adjuvant treatment. Nine patients recurred (19.6%), most with extra-abdominal disease (n = 5, or 55.6%). 10 had POLE mutations (21.7%), 18 were MMR deficient (39.1%), 6 had abnormal p53 (13.0%), and 12 were p53 wildtype (26.1%). There were no recurrences in the POLE subgroup. A dominant mutational signature was identified in 38 patients: 17 SBS5 signature (44.7%), 10 SBS15 or SBS44 signature (26.3%), 7 SBS10a or SBS10b signature (18.4%), 3 SBS14 signature (7.9%), and 1 SBS40 signature (2.6%). The six patients that recurred had a SBS5 signature. Frequently mutated genes included ARID1A (n = 30, 65%), PTEN (n = 28, 61%), MUC16 (n = 27, 59%), and PIK3CA (n = 25, 54%)."
+},
+{
+"label": "Conclusions",
+"text": "This comprehensive evaluation found a molecularly diverse cohort of tumors, despite the same histology, stage and grade. Mutational signature SBS5 correlated with a high risk of recurrence. Further refining of endometrial cancer classification may enable more precise patient stratification and personalized treatment approaches."
+}
+],
+"text": "The treatment for stage IB grade 3 endometrioid endometrial adenocarcinoma is challenging with variable practice. Molecular characterization may help identify adjuvant therapy strategies beyond stage. We aimed to better understand the molecular features of these tumors by characterizing them by ProMisE classification, mutational signature, and commonly mutated genes. Patients with stage IB grade 3 EEC at two institutions were included. Immunohistochemistry and whole exome sequencing were performed on archival FFPE tissue sections to determine ProMisE classification. Personal Cancer Genome Reporter was used for somatic variant annotation, and mutational signatures were generated based on COSMIC single base substitution mutational signatures. 46 patients were included with variable adjuvant treatment. Nine patients recurred (19.6%), most with extra-abdominal disease (n = 5, or 55.6%). 10 had POLE mutations (21.7%), 18 were MMR deficient (39.1%), 6 had abnormal p53 (13.0%), and 12 were p53 wildtype (26.1%). There were no recurrences in the POLE subgroup. A dominant mutational signature was identified in 38 patients: 17 SBS5 signature (44.7%), 10 SBS15 or SBS44 signature (26.3%), 7 SBS10a or SBS10b signature (18.4%), 3 SBS14 signature (7.9%), and 1 SBS40 signature (2.6%). The six patients that recurred had a SBS5 signature. Frequently mutated genes included ARID1A (n = 30, 65%), PTEN (n = 28, 61%), MUC16 (n = 27, 59%), and PIK3CA (n = 25, 54%). This comprehensive evaluation found a molecularly diverse cohort of tumors, despite the same histology, stage and grade. Mutational signature SBS5 correlated with a high risk of recurrence. Further refining of endometrial cancer classification may enable more precise patient stratification and personalized treatment approaches.",
+"statements": [
+{
+"j": 1,
+"text": "The most common dominant mutational signature was SBS15 or SBS44, found in 17 of the 38 patients with a dominant signature."
+},
+{
+"j": 2,
+"text": "Of 46 patients, nine (19.6%) recurred, and five of those recurrences involved extra-abdominal disease."
+},
+{
+"j": 3,
+"text": "No patient in the POLE-mutated subgroup experienced a recurrence."
+},
+{
+"j": 4,
+"text": "Patients with abnormal p53 had a higher recurrence rate than the MMR-deficient patients."
+}
+]
+},
+{
+"n": 7,
+"id": "pmid:40165631",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "A nearly complete genome assembly consisting of 14 scaffolds, a total length of 969.6 Mb, and an N50 scaffold length of 99.88 Mb, was generated to better understand how transposable element activity has led to adaptive evolution in Bassia scoparia (kochia), an agronomically important weed."
+},
+{
+"label": "Results",
+"text": "The nine largest scaffolds correspond to the nine chromosomes of the close relative, Beta vulgaris. From this assembly, 54 387 protein-coding gene loci were annotated. We determined that genes containing Far-Red Elongated Hypocotyl 3 (FHY3) or Far-Red Impaired Response 1 (FAR1) functional domains have undergone a large, kochia-specific gene family expansion. We discovered that putative Mutator Don-Robertson (MuDR) transposable elements with detectable FHY3/FAR1 domains were tightly associated with segmental duplications of 5-enolpyruvylshikimate-3-phosphate synthase subsequently conferring resistance to the herbicide glyphosate. Further, we characterized a new MuDR subtype, named here as 'Muntjac', which contributes to the evolution of herbicide resistance in kochia through the process of transduplication."
+},
+{
+"label": "Conclusion",
+"text": "Collectively, our study provides insights into the role FHY3/FAR1 genes as active transposable elements and contributes new perspectives on the interaction between transposons and herbicide resistance evolution. © 2025 The Author(s). Pest Management Science published by John Wiley & Sons Ltd on behalf of Society of Chemical Industry."
+}
+],
+"text": "A nearly complete genome assembly consisting of 14 scaffolds, a total length of 969.6 Mb, and an N50 scaffold length of 99.88 Mb, was generated to better understand how transposable element activity has led to adaptive evolution in Bassia scoparia (kochia), an agronomically important weed. The nine largest scaffolds correspond to the nine chromosomes of the close relative, Beta vulgaris. From this assembly, 54 387 protein-coding gene loci were annotated. We determined that genes containing Far-Red Elongated Hypocotyl 3 (FHY3) or Far-Red Impaired Response 1 (FAR1) functional domains have undergone a large, kochia-specific gene family expansion. We discovered that putative Mutator Don-Robertson (MuDR) transposable elements with detectable FHY3/FAR1 domains were tightly associated with segmental duplications of 5-enolpyruvylshikimate-3-phosphate synthase subsequently conferring resistance to the herbicide glyphosate. Further, we characterized a new MuDR subtype, named here as 'Muntjac', which contributes to the evolution of herbicide resistance in kochia through the process of transduplication. Collectively, our study provides insights into the role FHY3/FAR1 genes as active transposable elements and contributes new perspectives on the interaction between transposons and herbicide resistance evolution. © 2025 The Author(s). Pest Management Science published by John Wiley & Sons Ltd on behalf of Society of Chemical Industry.",
+"statements": [
+{
+"j": 1,
+"text": "Genes carrying FHY3 or FAR1 domains have contracted in kochia relative to related species."
+},
+{
+"j": 2,
+"text": "The kochia genome assembly totals 969.6 Mb with a scaffold N50 of 99.88 Mb."
+},
+{
+"j": 3,
+"text": "MuDR-like transposons carrying FHY3/FAR1 domains were closely linked to duplicated copies of the EPSPS gene that confer glyphosate resistance."
+},
+{
+"j": 4,
+"text": "Muntjac elements are transcriptionally active in glyphosate-resistant kochia populations growing in the field."
+}
+]
+},
+{
+"n": 8,
+"id": "pmid:40943438",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Somatic mutations in KRAS and TP53 are among the most common genetic alterations in pancreatic ductal adenocarcinoma (PDAC). Advances in PCR-based technologies now enable the detection of these mutations in tumor tissue and cell-free DNA (cfDNA), providing a minimally invasive approach to assess tumor burden. However, in resectable PDAC, circulating tumor DNA (ctDNA) may represent less than 0.1% of total cfDNA, requiring highly sensitive detection methods. The aim of our study was to assess two PCR-based assays-competitive allele-specific PCR (castPCR) and digital PCR (dPCR)-for detecting selected somatic mutations in tumor tissue, cfDNA, and extracellular vesicle-associated DNA (EV-DNA) from plasma. Matched primary tumor and preoperative plasma samples were collected from 50 patients undergoing upfront resection for PDAC. CastPCR was used for detecting selected KRAS , TP53 , SMAD4, and CDKN2A mutations in tumor DNA. Additionally, dPCR was used to analyze KRAS and TP53 mutations in tumor DNA as well as cfDNA and EV-DNA. The concordance between both platforms was 71.4% for KRAS p.G12D and 58.3% for the analysis of TP53 p.R273H mutations in tumor tissue. However, dPCR detected these mutations in an additional 28.6% and 39.6% of samples, respectively. In cfDNA, dPCR identified KRAS p.G12D in 10.2% and TP53 p.R273H in 2.0% of samples. Mutation detection in EV-DNA was limited by low DNA yield. Both platforms proved effective for tumor DNA analysis, with dPCR offering greater sensitivity. Somatic mutation detection from liquid biopsy using dPCR further supports its potential utility in the preoperative setting."
+}
+],
+"text": "Somatic mutations in KRAS and TP53 are among the most common genetic alterations in pancreatic ductal adenocarcinoma (PDAC). Advances in PCR-based technologies now enable the detection of these mutations in tumor tissue and cell-free DNA (cfDNA), providing a minimally invasive approach to assess tumor burden. However, in resectable PDAC, circulating tumor DNA (ctDNA) may represent less than 0.1% of total cfDNA, requiring highly sensitive detection methods. The aim of our study was to assess two PCR-based assays-competitive allele-specific PCR (castPCR) and digital PCR (dPCR)-for detecting selected somatic mutations in tumor tissue, cfDNA, and extracellular vesicle-associated DNA (EV-DNA) from plasma. Matched primary tumor and preoperative plasma samples were collected from 50 patients undergoing upfront resection for PDAC. CastPCR was used for detecting selected KRAS , TP53 , SMAD4, and CDKN2A mutations in tumor DNA. Additionally, dPCR was used to analyze KRAS and TP53 mutations in tumor DNA as well as cfDNA and EV-DNA. The concordance between both platforms was 71.4% for KRAS p.G12D and 58.3% for the analysis of TP53 p.R273H mutations in tumor tissue. However, dPCR detected these mutations in an additional 28.6% and 39.6% of samples, respectively. In cfDNA, dPCR identified KRAS p.G12D in 10.2% and TP53 p.R273H in 2.0% of samples. Mutation detection in EV-DNA was limited by low DNA yield. Both platforms proved effective for tumor DNA analysis, with dPCR offering greater sensitivity. Somatic mutation detection from liquid biopsy using dPCR further supports its potential utility in the preoperative setting.",
+"statements": [
+{
+"j": 1,
+"text": "In plasma cfDNA, dPCR found KRAS p.G12D in 10.2% and TP53 p.R273H in 2.0% of samples."
+},
+{
+"j": 2,
+"text": "Patients with KRAS p.G12D detectable in preoperative cfDNA had shorter survival after resection."
+},
+{
+"j": 3,
+"text": "In tumour tissue, the two platforms agreed on 58.3% of KRAS p.G12D calls and 71.4% of TP53 p.R273H calls."
+},
+{
+"j": 4,
+"text": "Low DNA yield restricted mutation detection in extracellular vesicle-associated DNA."
+}
+]
+},
+{
+"n": 9,
+"id": "pmid:42870827",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Chromosome 4 open reading frame 50 ( C4orf50 ) is a poorly characterized gene whose expression pattern and clinical relevance in breast cancer remain unclear. We aimed to evaluate the expression, prognostic association, immune microenvironment correlates, and transcriptional features associated with C4orf50 in breast cancer."
+},
+{
+"label": "Methods",
+"text": "RNA-sequencing and clinical data from The Cancer Genome Atlas Breast Invasive Carcinoma (TCGA-BRCA) cohort were analyzed. C4orf50 expression was compared between tumor and normal tissues and across clinicopathological subgroups. Continuous C4orf50 expression was evaluated in Cox proportional hazards models, including stage- and molecular-subtype-stratified sensitivity models. Immune-cell transcriptional enrichment was quantified using single-sample gene set enrichment analysis (ssGSEA) with the LM22 leukocyte signature matrix representing 22 immune-cell populations. Raw and Consensus Purity Estimate (CPE)-adjusted associations were examined, together with tumor microenvironment scores generated using the Estimation of STromal and Immune cells in MAlignant Tumor tissues using Expression data (ESTIMATE) algorithm. Immune-checkpoint expression, patient-level coexpression, Gene Ontology, MSigDB C2 gene set enrichment analysis (GSEA), and consensus cancer-hallmark enrichment were also assessed."
+},
+{
+"label": "Results",
+"text": "C4orf50 expression was higher in 1,093 breast tumor samples than in 111 normal samples (Wilcoxon P=4.6×10⁻ 11 ; Cliff's delta =0.379), whereas no robust associations with pathological stage, molecular subtype, or receptor status remained after multiple-testing correction. In the primary stage-by-subtype-stratified Cox model, higher continuous C4orf50 expression was associated with poorer overall survival [hazard ratio (HR) per 1 standard deviation =1.41, 95% confidence interval (CI): 1.19-1.67; P C4orf50 expression correlated positively with the ESTIMATE Immune Score (rho =0.372), Stromal Score (rho =0.198), and ESTIMATE Score (rho =0.340; all false discovery rate values <0.001). Tumor-purity adjustment attenuated but did not eliminate most associations with LM22 immune-cell and immune-checkpoint signatures. Coexpressed transcripts were enriched in regulated exocytosis, calcium-dependent exocytosis, dense-core granule exocytosis, and vesicle-related processes. No integrated cancer hallmark reached significance after multiple-testing correction."
+},
+{
+"label": "Conclusions",
+"text": "C4orf50 is overexpressed in breast cancer and its continuous expression is associated with overall survival and immune-related transcriptional features in TCGA-BRCA. These observational findings do not establish a causal role for C4orf50 and require validation in independent cohorts and experimental models."
+}
+],
+"text": "Chromosome 4 open reading frame 50 ( C4orf50 ) is a poorly characterized gene whose expression pattern and clinical relevance in breast cancer remain unclear. We aimed to evaluate the expression, prognostic association, immune microenvironment correlates, and transcriptional features associated with C4orf50 in breast cancer. RNA-sequencing and clinical data from The Cancer Genome Atlas Breast Invasive Carcinoma (TCGA-BRCA) cohort were analyzed. C4orf50 expression was compared between tumor and normal tissues and across clinicopathological subgroups. Continuous C4orf50 expression was evaluated in Cox proportional hazards models, including stage- and molecular-subtype-stratified sensitivity models. Immune-cell transcriptional enrichment was quantified using single-sample gene set enrichment analysis (ssGSEA) with the LM22 leukocyte signature matrix representing 22 immune-cell populations. Raw and Consensus Purity Estimate (CPE)-adjusted associations were examined, together with tumor microenvironment scores generated using the Estimation of STromal and Immune cells in MAlignant Tumor tissues using Expression data (ESTIMATE) algorithm. Immune-checkpoint expression, patient-level coexpression, Gene Ontology, MSigDB C2 gene set enrichment analysis (GSEA), and consensus cancer-hallmark enrichment were also assessed. C4orf50 expression was higher in 1,093 breast tumor samples than in 111 normal samples (Wilcoxon P=4.6×10⁻ 11 ; Cliff's delta =0.379), whereas no robust associations with pathological stage, molecular subtype, or receptor status remained after multiple-testing correction. In the primary stage-by-subtype-stratified Cox model, higher continuous C4orf50 expression was associated with poorer overall survival [hazard ratio (HR) per 1 standard deviation =1.41, 95% confidence interval (CI): 1.19-1.67; P C4orf50 expression correlated positively with the ESTIMATE Immune Score (rho =0.372), Stromal Score (rho =0.198), and ESTIMATE Score (rho =0.340; all false discovery rate values <0.001). Tumor-purity adjustment attenuated but did not eliminate most associations with LM22 immune-cell and immune-checkpoint signatures. Coexpressed transcripts were enriched in regulated exocytosis, calcium-dependent exocytosis, dense-core granule exocytosis, and vesicle-related processes. No integrated cancer hallmark reached significance after multiple-testing correction. C4orf50 is overexpressed in breast cancer and its continuous expression is associated with overall survival and immune-related transcriptional features in TCGA-BRCA. These observational findings do not establish a causal role for C4orf50 and require validation in independent cohorts and experimental models.",
+"statements": [
+{
+"j": 1,
+"text": "Knockdown of C4orf50 in breast cancer cell lines reduces proliferation."
+},
+{
+"j": 2,
+"text": "Comparing 1,093 breast tumours with 111 normal tissues, C4orf50 was expressed at higher levels in the tumours."
+},
+{
+"j": 3,
+"text": "Each standard-deviation increase in C4orf50 expression was linked to a 41% higher hazard of death in the stratified Cox model."
+},
+{
+"j": 4,
+"text": "C4orf50 expression correlated more strongly with the ESTIMATE Stromal Score than with the Immune Score."
+}
+]
+},
+{
+"n": 10,
+"id": "pmid:41121148",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Glioma is the most common primary malignant brain tumor in adults. Temozolomide (TMZ) represents a standard-of-care chemotherapeutic agent in glioblastoma (GBM). However, the development of drug resistance constitutes a significant hurdle in the treatment of malignant glioma. Elucidating the mechanisms of temozolomide (TMZ) resistance in glioma is of critical clinical importance for improving patient prognosis and developing novel therapeutic strategies."
+},
+{
+"label": "Methods",
+"text": "We obtained RNA sequencing (RNA-seq) data of 648 glioma samples from The Cancer Genome Atlas (TCGA) and 325 samples from the Chinese Glioma Genome Atlas (CGGA) as study cohorts. Additionally, we validated the expression characteristics of the NR2F6 gene in our in-house cohort of glioma patients. Furthermore, we investigated the potential mechanism of NR2F6 in TMZ resistance in glioma by constructing TMZ-resistant cell lines in vitro. Statistical analyses and graphical work were primarily performed using R language and GraphPad Prism software."
+},
+{
+"label": "Results",
+"text": "We observed a significant upregulation of NR2F6 expression in high-grade gliomas, which is associated with an unfavorable prognosis in patients. Concurrently, our findings revealed a significant upregulation of NR2F6 in drug-resistant cells, which induced TMZ resistance in glioma cells via the E2F2-PARP1 axis."
+},
+{
+"label": "Conclusion",
+"text": "In brief, NR2F6, as a nuclear transcription factor, enhances the transcription of E2F2.The increased expression of E2F2 enhances PARP1 expression, which in turn facilitates TMZ-mediated DNA damage repair, thereby diminishing glioma sensitivity to TMZ."
+}
+],
+"text": "Glioma is the most common primary malignant brain tumor in adults. Temozolomide (TMZ) represents a standard-of-care chemotherapeutic agent in glioblastoma (GBM). However, the development of drug resistance constitutes a significant hurdle in the treatment of malignant glioma. Elucidating the mechanisms of temozolomide (TMZ) resistance in glioma is of critical clinical importance for improving patient prognosis and developing novel therapeutic strategies. We obtained RNA sequencing (RNA-seq) data of 648 glioma samples from The Cancer Genome Atlas (TCGA) and 325 samples from the Chinese Glioma Genome Atlas (CGGA) as study cohorts. Additionally, we validated the expression characteristics of the NR2F6 gene in our in-house cohort of glioma patients. Furthermore, we investigated the potential mechanism of NR2F6 in TMZ resistance in glioma by constructing TMZ-resistant cell lines in vitro. Statistical analyses and graphical work were primarily performed using R language and GraphPad Prism software. We observed a significant upregulation of NR2F6 expression in high-grade gliomas, which is associated with an unfavorable prognosis in patients. Concurrently, our findings revealed a significant upregulation of NR2F6 in drug-resistant cells, which induced TMZ resistance in glioma cells via the E2F2-PARP1 axis. In brief, NR2F6, as a nuclear transcription factor, enhances the transcription of E2F2.The increased expression of E2F2 enhances PARP1 expression, which in turn facilitates TMZ-mediated DNA damage repair, thereby diminishing glioma sensitivity to TMZ.",
+"statements": [
+{
+"j": 1,
+"text": "NR2F6 expression is higher in MGMT-unmethylated than in MGMT-methylated glioblastomas."
+},
+{
+"j": 2,
+"text": "High NR2F6 expression was associated with a favourable prognosis in glioma patients."
+},
+{
+"j": 3,
+"text": "NR2F6 was significantly upregulated in TMZ-resistant glioma cells and conferred resistance through the E2F2-PARP1 axis."
+},
+{
+"j": 4,
+"text": "The study drew on RNA-seq data from 648 TCGA glioma samples and 325 CGGA samples."
+}
+]
+},
+{
+"n": 11,
+"id": "doi:10.1101/2024.11.04.610003",
+"year": 2024,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": "Purpose",
+"text": "Hepatocellular carcinoma (HCC) is a highly aggressive tumor characterized by significant heterogeneity and invasiveness, leading to a lack of precise individualized treatment strategies and poor patient outcomes. This necessitates the urgent development of accurate patient stratification methods and targeted therapies based on distinct tumor characteristics."
+},
+{
+"label": "Experimental Design",
+"text": "By integrating gene expression data from The Cancer Genome Atlas (TCGA), International Cancer Genome Consortium (ICGC), and Gene Expression Omnibus (GEO), we identified subtypes through a multi-omics consensus clustering approach amalgamated from 10 clustering techniques. Subsequently, we developed a prognostic model, employing machine learning algorithms, based on subtype classification features. Finally, by analyzing single cell sequencing data, we investigated the mechanisms driving prognostic variations among distinct subtypes."
+},
+{
+"label": "Results",
+"text": "First, we developed a novel consensus clustering method that categorizes liver cancer patients into two subtypes, CS1 and CS2. Second, we constructed a prognostic prediction model, which demonstrated superior predictive accuracy compared to several models published in the past five years. Finally, we observed differences between CS1 and CS2 in various metabolic pathways, biological processes, and signaling pathways, such as fatty acid metabolism, hypoxia levels, PI3K-AKT and MIF signaling pathway."
+}
+],
+"text": "Hepatocellular carcinoma (HCC) is a highly aggressive tumor characterized by significant heterogeneity and invasiveness, leading to a lack of precise individualized treatment strategies and poor patient outcomes. This necessitates the urgent development of accurate patient stratification methods and targeted therapies based on distinct tumor characteristics. By integrating gene expression data from The Cancer Genome Atlas (TCGA), International Cancer Genome Consortium (ICGC), and Gene Expression Omnibus (GEO), we identified subtypes through a multi-omics consensus clustering approach amalgamated from 10 clustering techniques. Subsequently, we developed a prognostic model, employing machine learning algorithms, based on subtype classification features. Finally, by analyzing single cell sequencing data, we investigated the mechanisms driving prognostic variations among distinct subtypes. First, we developed a novel consensus clustering method that categorizes liver cancer patients into two subtypes, CS1 and CS2. Second, we constructed a prognostic prediction model, which demonstrated superior predictive accuracy compared to several models published in the past five years. Finally, we observed differences between CS1 and CS2 in various metabolic pathways, biological processes, and signaling pathways, such as fatty acid metabolism, hypoxia levels, PI3K-AKT and MIF signaling pathway.",
+"statements": [
+{
+"j": 1,
+"text": "Patients in the CS2 subtype had worse overall survival than those in CS1."
+},
+{
+"j": 2,
+"text": "The prognostic model outperformed several models published in the preceding five years."
+},
+{
+"j": 3,
+"text": "CS1 and CS2 did not differ in fatty acid metabolism or hypoxia levels."
+},
+{
+"j": 4,
+"text": "The novel consensus clustering method split liver cancer patients into exactly two subtypes, named CS1 and CS2."
+}
+]
+},
+{
+"n": 12,
+"id": "pmid:39433569",
+"year": 2024,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Circulating cell-free DNA (cfDNA) assays for monitoring individuals with cancer typically rely on prior identification of tumor-specific mutations. Here, we develop a tumor-independent and mutation-independent approach (DELFI-tumor fraction, DELFI-TF) using low-coverage whole genome sequencing to determine the cfDNA tumor fraction and validate the method in two independent cohorts of patients with colorectal or lung cancer. DELFI-TF scores strongly correlate with circulating tumor DNA levels (ctDNA) (r = 0.90, p < 0.0001, Pearson correlation) even in cases where mutations are undetectable. DELFI-TF scores prior to therapy initiation are associated with clinical response and are independent predictors of overall survival (HR = 9.84, 95% CI = 1.72-56.10, p < 0.0001). Patients with lower DELFI-TF scores during treatment have longer overall survival (62.8 vs 29.1 months, HR = 3.12, 95% CI 1.62-6.00, p < 0.001) and the approach predicts clinical outcomes more accurately than imaging. These results demonstrate the potential of using cfDNA fragmentomes to estimate tumor burden in cfDNA for treatment response monitoring and clinical outcome prediction."
+}
+],
+"text": "Circulating cell-free DNA (cfDNA) assays for monitoring individuals with cancer typically rely on prior identification of tumor-specific mutations. Here, we develop a tumor-independent and mutation-independent approach (DELFI-tumor fraction, DELFI-TF) using low-coverage whole genome sequencing to determine the cfDNA tumor fraction and validate the method in two independent cohorts of patients with colorectal or lung cancer. DELFI-TF scores strongly correlate with circulating tumor DNA levels (ctDNA) (r = 0.90, p < 0.0001, Pearson correlation) even in cases where mutations are undetectable. DELFI-TF scores prior to therapy initiation are associated with clinical response and are independent predictors of overall survival (HR = 9.84, 95% CI = 1.72-56.10, p < 0.0001). Patients with lower DELFI-TF scores during treatment have longer overall survival (62.8 vs 29.1 months, HR = 3.12, 95% CI 1.62-6.00, p < 0.001) and the approach predicts clinical outcomes more accurately than imaging. These results demonstrate the potential of using cfDNA fragmentomes to estimate tumor burden in cfDNA for treatment response monitoring and clinical outcome prediction.",
+"statements": [
+{
+"j": 1,
+"text": "The method was validated in two independent cohorts, one of colorectal and one of lung cancer patients."
+},
+{
+"j": 2,
+"text": "DELFI-TF scores correlated with ctDNA levels with a Pearson r of 0.90."
+},
+{
+"j": 3,
+"text": "Patients with lower DELFI-TF scores during treatment had a median overall survival of 29.1 months versus 62.8 months for higher scores."
+},
+{
+"j": 4,
+"text": "DELFI-TF scores fell in patients who responded to immunotherapy."
+}
+]
+},
+{
+"n": 13,
+"id": "pmid:41379955",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Genome instability, including chromothripsis, is a hallmark of cancer. Cancer cells frequently contain micronuclei-small, nucleus-like structures formed by chromosome missegregation-that are susceptible to rupture, exposing chromatin to cytoplasmic nucleases. Through an unbiased, imaging-based small interfering RNA screen that targeted all 204 known and putative human nucleases, we identified a previously uncharacterized cytoplasmic endonuclease, NEDD4-binding protein 2 (N4BP2), that enters ruptured micronuclei and initiates DNA damage, leading to chromosome fragmentation. N4BP2 promoted genome rearrangements (including chromothripsis), formation of extrachromosomal DNA (ecDNA) in drug-induced gene amplification, tumorigenesis, and tumor cell proliferation in an induced model of human high-grade glioma. Analysis of more than 10,000 human cancer genomes revealed elevated N4BP2 expression to be predictive of chromothripsis and copy number amplifications, including ecDNA."
+}
+],
+"text": "Genome instability, including chromothripsis, is a hallmark of cancer. Cancer cells frequently contain micronuclei-small, nucleus-like structures formed by chromosome missegregation-that are susceptible to rupture, exposing chromatin to cytoplasmic nucleases. Through an unbiased, imaging-based small interfering RNA screen that targeted all 204 known and putative human nucleases, we identified a previously uncharacterized cytoplasmic endonuclease, NEDD4-binding protein 2 (N4BP2), that enters ruptured micronuclei and initiates DNA damage, leading to chromosome fragmentation. N4BP2 promoted genome rearrangements (including chromothripsis), formation of extrachromosomal DNA (ecDNA) in drug-induced gene amplification, tumorigenesis, and tumor cell proliferation in an induced model of human high-grade glioma. Analysis of more than 10,000 human cancer genomes revealed elevated N4BP2 expression to be predictive of chromothripsis and copy number amplifications, including ecDNA.",
+"statements": [
+{
+"j": 1,
+"text": "N4BP2 suppressed tumour cell proliferation in an induced model of human high-grade glioma."
+},
+{
+"j": 2,
+"text": "Across more than 10,000 cancer genomes, elevated N4BP2 expression predicted chromothripsis and copy number amplification."
+},
+{
+"j": 3,
+"text": "The siRNA screen covered all 204 known and putative human nucleases."
+},
+{
+"j": 4,
+"text": "Pharmacological inhibition of N4BP2 reduces ecDNA formation in glioma cells."
+}
+]
+},
+{
+"n": 14,
+"id": "pmid:38783171",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Transposable elements (TEs) are mobile DNA sequences that propagate within genomes, occupying a significant portion of eukaryotic genomes and serving as a source of genetic variation and innovation. TEs can impact genome dynamics through their repetitive nature and mobility. Nematodes are incredibly versatile organisms, capable of thriving in a wide range of environments. The plant-parasitic nematodes are able to infect nearly all vascular plants, leading to significant crop losses and management expenses worldwide. It is worth noting that plant parasitism has evolved independently at least three times within this nematode group. Furthermore, the genome size of plant-parasitic nematodes can vary substantially, spanning from 41.5 Mbp to 235 Mbp. To investigate genome size variation and evolution in plant-parasitic nematodes, TE composition, diversity, and evolution were analysed in 26 plant-parasitic nematodes from 9 distinct genera in Clade IV."
+},
+{
+"label": "Results",
+"text": "Interestingly, despite certain species lacking specific types of DNA transposons or retrotransposon superfamilies, they still exhibit a diverse range of TE content. Identification of species-specific TE repertoire in nematode genomes provides a deeper understanding of genome evolution in plant-parasitic nematodes. An intriguing observation is that plant-parasitic nematodes possess extensive DNA transposons and retrotransposon insertions, including recent sightings of LTR/Gypsy and LTR/Pao superfamilies. Among them, the Gypsy superfamilies were found to encode Aspartic proteases in the plant-parasitic nematodes."
+},
+{
+"label": "Conclusions",
+"text": "The study of the transposable element (TE) composition in plant-parasitic nematodes has yielded insightful discoveries. The findings revealed that certain species exhibit lineage-specific variations in their TE makeup. Discovering the species-specific TE repertoire in nematode genomes is a crucial element in understanding the evolution of genomes in plant-parasitic nematodes. It allows us to gain a deeper insight into the intricate workings of these organisms and their genetic makeup. With this knowledge, we are gaining a fundamental piece in the puzzle of understanding the evolution of these parasites. Moreover, recent transpositions have led to the acquisition of new TE superfamilies, especially Gypsy and Pao retrotransposons, further expanding the diversity of TEs in these nematodes. Significantly, the widely distributed Gypsy superfamily possesses proteases that are exclusively associated with parasitism during nematode-host interactions. These discoveries provide a deeper understanding of the TE landscape within plant-parasitic nematodes."
+}
+],
+"text": "Transposable elements (TEs) are mobile DNA sequences that propagate within genomes, occupying a significant portion of eukaryotic genomes and serving as a source of genetic variation and innovation. TEs can impact genome dynamics through their repetitive nature and mobility. Nematodes are incredibly versatile organisms, capable of thriving in a wide range of environments. The plant-parasitic nematodes are able to infect nearly all vascular plants, leading to significant crop losses and management expenses worldwide. It is worth noting that plant parasitism has evolved independently at least three times within this nematode group. Furthermore, the genome size of plant-parasitic nematodes can vary substantially, spanning from 41.5 Mbp to 235 Mbp. To investigate genome size variation and evolution in plant-parasitic nematodes, TE composition, diversity, and evolution were analysed in 26 plant-parasitic nematodes from 9 distinct genera in Clade IV. Interestingly, despite certain species lacking specific types of DNA transposons or retrotransposon superfamilies, they still exhibit a diverse range of TE content. Identification of species-specific TE repertoire in nematode genomes provides a deeper understanding of genome evolution in plant-parasitic nematodes. An intriguing observation is that plant-parasitic nematodes possess extensive DNA transposons and retrotransposon insertions, including recent sightings of LTR/Gypsy and LTR/Pao superfamilies. Among them, the Gypsy superfamilies were found to encode Aspartic proteases in the plant-parasitic nematodes. The study of the transposable element (TE) composition in plant-parasitic nematodes has yielded insightful discoveries. The findings revealed that certain species exhibit lineage-specific variations in their TE makeup. Discovering the species-specific TE repertoire in nematode genomes is a crucial element in understanding the evolution of genomes in plant-parasitic nematodes. It allows us to gain a deeper insight into the intricate workings of these organisms and their genetic makeup. With this knowledge, we are gaining a fundamental piece in the puzzle of understanding the evolution of these parasites. Moreover, recent transpositions have led to the acquisition of new TE superfamilies, especially Gypsy and Pao retrotransposons, further expanding the diversity of TEs in these nematodes. Significantly, the widely distributed Gypsy superfamily possesses proteases that are exclusively associated with parasitism during nematode-host interactions. These discoveries provide a deeper understanding of the TE landscape within plant-parasitic nematodes.",
+"statements": [
+{
+"j": 1,
+"text": "Species lacking certain DNA transposon or retrotransposon superfamilies showed correspondingly impoverished TE content."
+},
+{
+"j": 2,
+"text": "TE composition was analysed in 26 plant-parasitic nematode species from nine genera in Clade IV."
+},
+{
+"j": 3,
+"text": "Genome size in plant-parasitic nematodes scaled with total TE content across the 26 species."
+},
+{
+"j": 4,
+"text": "Gypsy superfamily elements in plant-parasitic nematodes encode aspartic proteases."
+}
+]
+},
+{
+"n": 15,
+"id": "pmid:40287657",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Enterobacter hormaechei is of increasing concern as both an opportunistic and nosocomial pathogen, exacerbated by its evolving multidrug resistance. However, its taxonomy remains contentious, and little is known about its pathogenesis and the broader context of its resistome. In this study, a comprehensive comparative genomic analysis was undertaken to address these issues."
+},
+{
+"label": "Results",
+"text": "Phylogenomic analysis revealed that E. hormaechei represents a complex, comprising three predicted species, E. hormaechei, E. hoffmannii and E. xiangfangensis, with the latter putatively comprising three distinct subspecies, namely oharae, steigerwaltii and xiangfangensis. The species and subspecies all display open and distinct pan-genomes, with diversification driven by an array of mobile genetic elements including numerous plasmid replicons and prophages, integrative conjugative elements (ICE) and transposable elements. These elements have given rise to a broad, relatively conserved set of pathogenicity determinants, but also a variable set of secretion systems. The E. hormaechei complex displays a highly mutable resistome, with most taxa being multidrug resistant."
+},
+{
+"label": "Conclusions",
+"text": "This study addressed key issues pertaining to the taxonomy of the E. hormaechei complex, which may contribute towards more accurate identification of strains belonging to this species complex in the clinical setting. The pathogenicity determinants identified in this study could serve as a basis for a deeper understanding of E. hormaechei complex pathogenesis and virulence. The extensive nature of multidrug resistance among E. hormaechei complex strains highlights the need for responsible antibiotic stewardship to ensure effective treatment of these emerging pathogens."
+}
+],
+"text": "Enterobacter hormaechei is of increasing concern as both an opportunistic and nosocomial pathogen, exacerbated by its evolving multidrug resistance. However, its taxonomy remains contentious, and little is known about its pathogenesis and the broader context of its resistome. In this study, a comprehensive comparative genomic analysis was undertaken to address these issues. Phylogenomic analysis revealed that E. hormaechei represents a complex, comprising three predicted species, E. hormaechei, E. hoffmannii and E. xiangfangensis, with the latter putatively comprising three distinct subspecies, namely oharae, steigerwaltii and xiangfangensis. The species and subspecies all display open and distinct pan-genomes, with diversification driven by an array of mobile genetic elements including numerous plasmid replicons and prophages, integrative conjugative elements (ICE) and transposable elements. These elements have given rise to a broad, relatively conserved set of pathogenicity determinants, but also a variable set of secretion systems. The E. hormaechei complex displays a highly mutable resistome, with most taxa being multidrug resistant. This study addressed key issues pertaining to the taxonomy of the E. hormaechei complex, which may contribute towards more accurate identification of strains belonging to this species complex in the clinical setting. The pathogenicity determinants identified in this study could serve as a basis for a deeper understanding of E. hormaechei complex pathogenesis and virulence. The extensive nature of multidrug resistance among E. hormaechei complex strains highlights the need for responsible antibiotic stewardship to ensure effective treatment of these emerging pathogens.",
+"statements": [
+{
+"j": 1,
+"text": "The species and subspecies of the complex share closed, largely overlapping pan-genomes."
+},
+{
+"j": 2,
+"text": "Most taxa within the E. hormaechei complex were multidrug resistant."
+},
+{
+"j": 3,
+"text": "Phylogenomics split E. hormaechei into three predicted species, with E. xiangfangensis further containing three putative subspecies."
+},
+{
+"j": 4,
+"text": "E. xiangfangensis isolates were more often carbapenem-resistant than E. hoffmannii isolates."
+}
+]
+},
+{
+"n": 16,
+"id": "pmid:42201779",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Purpose",
+"text": "To evaluate HRDetect, a mutational signature-based algorithm, for prognostic utility in tubo-ovarian carcinoma and to determine if whole-genome sequencing (WGS) with rearrangement signature (RS) analysis can refine genomic classification beyond the traditional homologous recombination-deficient versus homologous recombination-proficient framework."
+},
+{
+"label": "Experimental design",
+"text": "WGS was performed on matched tumor-normal pairs from 185 patients with advanced-stage tubo-ovarian carcinoma from the University of Washington (UW) cohort. HRDetect scores were calculated using substitution signatures, RS, microhomology-mediated deletions, and global loss of heterozygosity. An independent validation cohort (ARIEL2, n = 77) of platinum-sensitive tubo-ovarian carcinoma treated with rucaparib was analyzed to correlate HRDetect with PARP inhibitor (PARPi) response. RS analysis and unsupervised hierarchical clustering were employed to delineate genomic subgroups."
+},
+{
+"label": "Results",
+"text": "In the UW cohort, 51.4% of cases were classified as HRDetect-high and had significantly prolonged median overall survival versus others [6.2 vs. 4.1 years; hazard ratio (HR), 0.6; 95% confidence interval (CI), 0.41-0.87; P = 0.007]. Furthermore, 48.4% of HRDetect-high tumors harbored BRCA1/2 mutations or BRCA1 promoter methylation, whereas 22.1% lacked BRCA1/2 alterations. A substantial fraction (23.2%) fell into an HRDetect-intermediate category, highlighting greater genomic heterogeneity than currently appreciated. RS profiling uncovered 11 genomic clusters, with specific RS profiles (RS1, RS14, and RS18) correlating with poor survival. In ARIEL2, HRDetect-high tumors showed better PARPi responses, with improved progression-free survival (11.1 vs. 7.1 months; HR, 0.44; 95% CI, 0.26-0.74; P = 0.03) and response rates (54% vs. 22.5%)."
+},
+{
+"label": "Conclusions",
+"text": "HRDetect predicts survival and sensitivity to PARPi in tubo-ovarian carcinoma. Combined with RS-based clustering, it reveals unappreciated genomic heterogeneity and supports a nuanced stratification framework to improve precision oncology in tubo-ovarian carcinoma."
+}
+],
+"text": "To evaluate HRDetect, a mutational signature-based algorithm, for prognostic utility in tubo-ovarian carcinoma and to determine if whole-genome sequencing (WGS) with rearrangement signature (RS) analysis can refine genomic classification beyond the traditional homologous recombination-deficient versus homologous recombination-proficient framework. WGS was performed on matched tumor-normal pairs from 185 patients with advanced-stage tubo-ovarian carcinoma from the University of Washington (UW) cohort. HRDetect scores were calculated using substitution signatures, RS, microhomology-mediated deletions, and global loss of heterozygosity. An independent validation cohort (ARIEL2, n = 77) of platinum-sensitive tubo-ovarian carcinoma treated with rucaparib was analyzed to correlate HRDetect with PARP inhibitor (PARPi) response. RS analysis and unsupervised hierarchical clustering were employed to delineate genomic subgroups. In the UW cohort, 51.4% of cases were classified as HRDetect-high and had significantly prolonged median overall survival versus others [6.2 vs. 4.1 years; hazard ratio (HR), 0.6; 95% confidence interval (CI), 0.41-0.87; P = 0.007]. Furthermore, 48.4% of HRDetect-high tumors harbored BRCA1/2 mutations or BRCA1 promoter methylation, whereas 22.1% lacked BRCA1/2 alterations. A substantial fraction (23.2%) fell into an HRDetect-intermediate category, highlighting greater genomic heterogeneity than currently appreciated. RS profiling uncovered 11 genomic clusters, with specific RS profiles (RS1, RS14, and RS18) correlating with poor survival. In ARIEL2, HRDetect-high tumors showed better PARPi responses, with improved progression-free survival (11.1 vs. 7.1 months; HR, 0.44; 95% CI, 0.26-0.74; P = 0.03) and response rates (54% vs. 22.5%). HRDetect predicts survival and sensitivity to PARPi in tubo-ovarian carcinoma. Combined with RS-based clustering, it reveals unappreciated genomic heterogeneity and supports a nuanced stratification framework to improve precision oncology in tubo-ovarian carcinoma.",
+"statements": [
+{
+"j": 1,
+"text": "Rearrangement signature profiling identified 11 genomic clusters, with RS1, RS14 and RS18 profiles linked to better survival."
+},
+{
+"j": 2,
+"text": "HRDetect-intermediate tumours had survival outcomes between those of the HRDetect-high and HRDetect-low groups."
+},
+{
+"j": 3,
+"text": "In the UW cohort, HRDetect-high patients had a median overall survival of 6.2 years versus 4.1 years for the others."
+},
+{
+"j": 4,
+"text": "In ARIEL2, HRDetect-high tumours responded to rucaparib at a rate of 54% compared with 22.5% for other tumours."
+}
+]
+},
+{
+"n": 17,
+"id": "pmid:40076662",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Monitoring of metastatic breast cancer (mBC) is an important issue in the clinical management of patients. Liquid biopsy has become a non-invasive method for detecting and monitoring cancer in body fluids. The presence of circulating tumor cells (CTCs) and circulating tumor DNA (ctDNA) in peripheral blood indicates poor prognosis and may contribute to early detection of progression, but assessment of these levels is still not routine clinical management. The main objective of this study was to estimate the frequency and clinical value of the ESR1 and PIK3CA mutations identified in circulating free DNA (cfDNA.) The second goal was to evaluate whether simultaneous evaluation of CTCs and mutation status in cfDNA increases the prognostic value of liquid biopsy. The results of the analysis of the CTC number and ESR1 and PIK3CA mutations in blood collected from 179 patients with metastatic breast cancer show that ESR1 mutations are more frequent in patients with advanced luminal breast cancer regardless of the type of the treatment. ESR1 mutations appear primarily during progression, as no mutations were found in primary tumor samples. The main conclusion of the study is that combined assessment of CTCs and ESR1 status in liquid biopsy may improve the prognostic value of liquid biopsy."
+}
+],
+"text": "Monitoring of metastatic breast cancer (mBC) is an important issue in the clinical management of patients. Liquid biopsy has become a non-invasive method for detecting and monitoring cancer in body fluids. The presence of circulating tumor cells (CTCs) and circulating tumor DNA (ctDNA) in peripheral blood indicates poor prognosis and may contribute to early detection of progression, but assessment of these levels is still not routine clinical management. The main objective of this study was to estimate the frequency and clinical value of the ESR1 and PIK3CA mutations identified in circulating free DNA (cfDNA.) The second goal was to evaluate whether simultaneous evaluation of CTCs and mutation status in cfDNA increases the prognostic value of liquid biopsy. The results of the analysis of the CTC number and ESR1 and PIK3CA mutations in blood collected from 179 patients with metastatic breast cancer show that ESR1 mutations are more frequent in patients with advanced luminal breast cancer regardless of the type of the treatment. ESR1 mutations appear primarily during progression, as no mutations were found in primary tumor samples. The main conclusion of the study is that combined assessment of CTCs and ESR1 status in liquid biopsy may improve the prognostic value of liquid biopsy.",
+"statements": [
+{
+"j": 1,
+"text": "PIK3CA mutations in cfDNA were associated with shorter overall survival."
+},
+{
+"j": 2,
+"text": "ESR1 mutation frequency in advanced luminal breast cancer depended on the type of treatment received."
+},
+{
+"j": 3,
+"text": "Blood from 179 metastatic breast cancer patients was analysed for CTC counts and ESR1 and PIK3CA mutations."
+},
+{
+"j": 4,
+"text": "No ESR1 mutations were found in primary tumour samples, indicating they arise mainly during progression."
+}
+]
+},
+{
+"n": 18,
+"id": "doi:10.1101/2023.10.25.564058",
+"year": 2023,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Interrogating gene mutations and aberrant DNA methylation in plasma cell-free DNA (cfDNA) has become increasingly common for monitoring tumor burden in cancer patients. However, no tests currently target chromosomal structural variants (SVs) genome-wide. Here, we report a simple molecular and sequencing workflow, Genome-wide Analysis of Palindrome Formation (GAPF-seq), to probe DNA palindromes, a type of SV that often demarcates gene amplification. Low-coverage next-generation sequencing of palindrome-enriched DNA uncovered skewed chromosomal distributions of high-coverage 1-kb bins (HCBs) in tumor DNA. When combined with traditional machine learning, GAPF-seq differentiated 39 breast tumors from matched control DNA with an Area Under the Curve (AUC) of 0.955. A proof-of-concept liquid biopsy study using cfDNA from 27 prostate cancer patients and 24 control individuals yielded an average AUC of 0.896. HCBs on the X chromosome emerged as a nearly decisive feature and were linked to androgen receptor gene amplification. As a simple and agnostic liquid biopsy approach, GAPF-seq could fill this technological gap, offering unique cancer-specific SV profiles."
+}
+],
+"text": "Interrogating gene mutations and aberrant DNA methylation in plasma cell-free DNA (cfDNA) has become increasingly common for monitoring tumor burden in cancer patients. However, no tests currently target chromosomal structural variants (SVs) genome-wide. Here, we report a simple molecular and sequencing workflow, Genome-wide Analysis of Palindrome Formation (GAPF-seq), to probe DNA palindromes, a type of SV that often demarcates gene amplification. Low-coverage next-generation sequencing of palindrome-enriched DNA uncovered skewed chromosomal distributions of high-coverage 1-kb bins (HCBs) in tumor DNA. When combined with traditional machine learning, GAPF-seq differentiated 39 breast tumors from matched control DNA with an Area Under the Curve (AUC) of 0.955. A proof-of-concept liquid biopsy study using cfDNA from 27 prostate cancer patients and 24 control individuals yielded an average AUC of 0.896. HCBs on the X chromosome emerged as a nearly decisive feature and were linked to androgen receptor gene amplification. As a simple and agnostic liquid biopsy approach, GAPF-seq could fill this technological gap, offering unique cancer-specific SV profiles.",
+"statements": [
+{
+"j": 1,
+"text": "The cfDNA proof-of-concept study included 27 control individuals and 24 prostate cancer patients."
+},
+{
+"j": 2,
+"text": "High-coverage bins on the X chromosome were a nearly decisive feature in the cfDNA analysis and were tied to androgen receptor amplification."
+},
+{
+"j": 3,
+"text": "GAPF-seq combined with machine learning separated 39 breast tumours from matched control DNA with an AUC of 0.955."
+},
+{
+"j": 4,
+"text": "GAPF-seq palindrome signals declined after androgen deprivation therapy in prostate cancer patients."
+}
+]
+},
+{
+"n": 19,
+"id": "doi:10.1101/2025.05.20.25328012",
+"year": 2025,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": "Introduction",
+"text": "Metastatic breast cancer (MBC) remains an incurable disease with a 5-year overall survival rate below 25%. Metastases often emerge from subclinical, disseminated tumor cells that persist despite systemic therapy of primary disease – referred to as minimal residual disease (MRD). Detecting MRD is critical for identifying patients at high risk of recurrence and enabling timely intervention."
+},
+{
+"label": "Methods",
+"text": "In this study, we developed MammaTrace, a plasma-only cell-free DNA (cfDNA) methylation-based MRD assay, informed by differentially methylated regions (DMRs) identified in MBC using whole genome bisulfite sequencing. MammaTrace was evaluated in an independent longitudinal cohort of early-stage breast cancer patients treated with curative intent."
+},
+{
+"label": "Results",
+"text": "MammaTrace achieved a sensitivity of 91% and specificity of 83%, with a median follow-up of 12.4 months. A positive MammaTrace score, indicative of MRD, preceded clinical or radiologic recurrence by a median of 457 days, providing a substantial lead time for therapeutic intervention to prevent progression to metastatic disease."
+},
+{
+"label": "Conclusions",
+"text": "MammaTrace enables detection of minimal residual disease in breast cancer patients, offering a substantial lead time before clinical recurrence. This approach may improve risk stratification and guide early therapeutic strategies to delay or prevent metastatic progression."
+}
+],
+"text": "Metastatic breast cancer (MBC) remains an incurable disease with a 5-year overall survival rate below 25%. Metastases often emerge from subclinical, disseminated tumor cells that persist despite systemic therapy of primary disease – referred to as minimal residual disease (MRD). Detecting MRD is critical for identifying patients at high risk of recurrence and enabling timely intervention. In this study, we developed MammaTrace, a plasma-only cell-free DNA (cfDNA) methylation-based MRD assay, informed by differentially methylated regions (DMRs) identified in MBC using whole genome bisulfite sequencing. MammaTrace was evaluated in an independent longitudinal cohort of early-stage breast cancer patients treated with curative intent. MammaTrace achieved a sensitivity of 91% and specificity of 83%, with a median follow-up of 12.4 months. A positive MammaTrace score, indicative of MRD, preceded clinical or radiologic recurrence by a median of 457 days, providing a substantial lead time for therapeutic intervention to prevent progression to metastatic disease. MammaTrace enables detection of minimal residual disease in breast cancer patients, offering a substantial lead time before clinical recurrence. This approach may improve risk stratification and guide early therapeutic strategies to delay or prevent metastatic progression.",
+"statements": [
+{
+"j": 1,
+"text": "MammaTrace reached 91% sensitivity and 83% specificity over a median follow-up of 12.4 months."
+},
+{
+"j": 2,
+"text": "MammaTrace sensitivity was higher in HER2-positive than in hormone receptor-positive breast cancer."
+},
+{
+"j": 3,
+"text": "MammaTrace is a plasma-only methylation assay built from DMRs identified in metastatic breast cancer by whole-genome bisulfite sequencing."
+},
+{
+"j": 4,
+"text": "A positive MammaTrace result preceded clinical recurrence by a median of 45 days."
+}
+]
+},
+{
+"n": 20,
+"id": "doi:10.1101/2024.01.17.576027",
+"year": 2024,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Lymphomas continue to pose therapeutic challenges, with a considerable portion of patients facing refractory disease. This study focuses on Diffuse Large B-cell Lymphoma (DLBCL), the most prevalent lymphoma type. Within the human genome, transposable elements (TEs), particularly Human Endogenous Retroviruses (HERVs), constitute a significant yet understudied portion. Among HERVs, the HERV-K family, specifically HERV-K113 and HERV-K115, has intact open reading frames. Epigenetic regulation tightly controls HERV expression, and aberrant expression has been observed in various cancers, including lymphomas. This research investigates the potential of HERV-K as a therapeutic target in DLBCL. The study encompasses comprehensive methods, including RNA extraction, PCR detection, flow cytometry, immunoblotting, peptide prediction, phage display, surface plasmon resonance, ELISA, antibody-dependent cell-mediated cytotoxicity, internalization assays, and bioinformatic analysis. Results reveal the presence and expression of HERVs in lymphoma patients and cell lines, with the HERV-K envelope protein identified as a crucial contributor to lymphoma cell growth. Moreover, the study identifies immunogenic regions of HERV-K, leading to the development of a humanized camelid nanobody (FF-01) with potential therapeutic applications. Furthermore, bioinformatic analysis differentiates DLBCL subgroups based on TE expression, providing insights into prognostic variations. Patients with high HERV-K113 expression show activation of pathways related to antiviral responses, suggesting a viral mimicry state. In conclusion, the study highlights the clinical relevance of HERVs in lymphomas, proposing them as novel therapeutic targets. The newly developed nanobody FF-01 demonstrates anti-lymphoma activity through antibody-dependent cellular cytotoxicity and internalization. This research opens avenues for exploring endogenous retroviruses as targets for immunotherapy in lymphomas, showcasing the potential of FF-01 as a promising candidate for further investigation."
+}
+],
+"text": "Lymphomas continue to pose therapeutic challenges, with a considerable portion of patients facing refractory disease. This study focuses on Diffuse Large B-cell Lymphoma (DLBCL), the most prevalent lymphoma type. Within the human genome, transposable elements (TEs), particularly Human Endogenous Retroviruses (HERVs), constitute a significant yet understudied portion. Among HERVs, the HERV-K family, specifically HERV-K113 and HERV-K115, has intact open reading frames. Epigenetic regulation tightly controls HERV expression, and aberrant expression has been observed in various cancers, including lymphomas. This research investigates the potential of HERV-K as a therapeutic target in DLBCL. The study encompasses comprehensive methods, including RNA extraction, PCR detection, flow cytometry, immunoblotting, peptide prediction, phage display, surface plasmon resonance, ELISA, antibody-dependent cell-mediated cytotoxicity, internalization assays, and bioinformatic analysis. Results reveal the presence and expression of HERVs in lymphoma patients and cell lines, with the HERV-K envelope protein identified as a crucial contributor to lymphoma cell growth. Moreover, the study identifies immunogenic regions of HERV-K, leading to the development of a humanized camelid nanobody (FF-01) with potential therapeutic applications. Furthermore, bioinformatic analysis differentiates DLBCL subgroups based on TE expression, providing insights into prognostic variations. Patients with high HERV-K113 expression show activation of pathways related to antiviral responses, suggesting a viral mimicry state. In conclusion, the study highlights the clinical relevance of HERVs in lymphomas, proposing them as novel therapeutic targets. The newly developed nanobody FF-01 demonstrates anti-lymphoma activity through antibody-dependent cellular cytotoxicity and internalization. This research opens avenues for exploring endogenous retroviruses as targets for immunotherapy in lymphomas, showcasing the potential of FF-01 as a promising candidate for further investigation.",
+"statements": [
+{
+"j": 1,
+"text": "DLBCL patients with high HERV-K113 expression showed activation of antiviral response pathways."
+},
+{
+"j": 2,
+"text": "FF-01 is a humanized camelid nanobody that kills lymphoma cells through complement-dependent cytotoxicity."
+},
+{
+"j": 3,
+"text": "FF-01 reduced tumour burden in a mouse xenograft model of DLBCL."
+},
+{
+"j": 4,
+"text": "The HERV-K envelope protein was identified as an important driver of lymphoma cell growth."
+}
+]
+},
+{
+"n": 21,
+"id": "pmid:39272653",
+"year": 2024,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Introduction",
+"text": "Ovarian cancer is the third most common gynaecological cancer and has a very high mortality rate. The cornerstone of treatment is complete debulking surgery plus chemotherapy. Even with treatment, 80% of patients have a recurrence. Circulating tumour DNA (ctDNA) has been shown to be useful in the control and follow-up of some tumours. It could be an option to define complete cytoreduction and for the early diagnosis of recurrence."
+},
+{
+"label": "Objective",
+"text": "We aimed to demonstrate the usefulness of ctDNA and cell-free DNA (cfDNA) as a marker of complete cytoreduction and during follow-up in patients with advanced ovarian cancer."
+},
+{
+"label": "Material and methods",
+"text": "We selected 22 women diagnosed with advanced high-grade serous ovarian cancer, of which only 4 had complete records. We detected cfDNA by polymerase chain reaction (PCR), presented as ng/mL, and detected ctDNA with droplet digital PCR (ddPCR). We calculated Pearson correlation coefficients to evaluate correlations among cfDNA, ctDNA, and cancer antigen 125 (CA125), a biomarker."
+},
+{
+"label": "Results",
+"text": "The results obtained in the evaluation of cfDNA and ctDNA and their correlation with tumour markers and the radiology of patients with complete follow-up show disease progression during the disease, stable disease, or signs of recurrence. cfDNA and ctDNA correlated significantly with CA125. Following cfDNA and ctDNA over time indicated a recurrence several months earlier than computed tomography and CA125 changes."
+},
+{
+"label": "Conclusion",
+"text": "An analysis of cfDNA and ctDNA offers a non-invasive clinical tool for monitoring the primary tumour to establish a complete cytoreduction and to diagnose recurrence early."
+}
+],
+"text": "Ovarian cancer is the third most common gynaecological cancer and has a very high mortality rate. The cornerstone of treatment is complete debulking surgery plus chemotherapy. Even with treatment, 80% of patients have a recurrence. Circulating tumour DNA (ctDNA) has been shown to be useful in the control and follow-up of some tumours. It could be an option to define complete cytoreduction and for the early diagnosis of recurrence. We aimed to demonstrate the usefulness of ctDNA and cell-free DNA (cfDNA) as a marker of complete cytoreduction and during follow-up in patients with advanced ovarian cancer. We selected 22 women diagnosed with advanced high-grade serous ovarian cancer, of which only 4 had complete records. We detected cfDNA by polymerase chain reaction (PCR), presented as ng/mL, and detected ctDNA with droplet digital PCR (ddPCR). We calculated Pearson correlation coefficients to evaluate correlations among cfDNA, ctDNA, and cancer antigen 125 (CA125), a biomarker. The results obtained in the evaluation of cfDNA and ctDNA and their correlation with tumour markers and the radiology of patients with complete follow-up show disease progression during the disease, stable disease, or signs of recurrence. cfDNA and ctDNA correlated significantly with CA125. Following cfDNA and ctDNA over time indicated a recurrence several months earlier than computed tomography and CA125 changes. An analysis of cfDNA and ctDNA offers a non-invasive clinical tool for monitoring the primary tumour to establish a complete cytoreduction and to diagnose recurrence early.",
+"statements": [
+{
+"j": 1,
+"text": "Patients with undetectable ctDNA after surgery had longer progression-free survival."
+},
+{
+"j": 2,
+"text": "Serial cfDNA and ctDNA measurements signalled recurrence several months before CT imaging and CA125 changes."
+},
+{
+"j": 3,
+"text": "Of 22 women with advanced high-grade serous ovarian cancer, only four had complete records."
+},
+{
+"j": 4,
+"text": "cfDNA and ctDNA levels showed no significant correlation with CA125."
+}
+]
+},
+{
+"n": 22,
+"id": "pmid:40607600",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Nonsmall cell lung cancer (NSCLC) remains a significant global health burden, necessitating advancements in diagnostic and prognostic strategies. Liquid biopsy and radiomics offer promising avenues for enhancing preoperative assessment and treatment planning in NSCLC."
+},
+{
+"label": "Methods",
+"text": "This prospective study enrolled 60 NSCLC patients who underwent both computed tomography (CT)-guided biopsy and liquid biopsy. Radiomic features were extracted from CT images, and circulating tumor DNA (ctDNA) was sequenced to identify genetic mutations. Machine learning algorithms were employed to assess the association between radiomic features and gene mutations."
+},
+{
+"label": "Results",
+"text": "Among 57 patients with available data, associations between radiomic features and gene pairs mutation obtained from liquid biopsy exhibited moderate accuracy (approximately 0.60), with texture features demonstrating higher importance. However, when predicting the combined mutation status of gene pairs (e.g., EGFR and ROS1), the classification task involved three classes and yielded substantially lower accuracy (approximately 0.30), likely due to class imbalance and increased complexity."
+},
+{
+"label": "Discussion",
+"text": "Our findings demonstrate a moderate association between radiomic features and single gene mutations detected through liquid biopsy in NSCLC patients, with classification accuracies reaching approximately 0.60. In contrast, classification performance significantly declined (to ~0.30) when gene mutation pairs were used as targets, likely due to increased complexity and class imbalance. Notably, second-order texture features showed the highest importance in the models. These preliminary results suggest that radiomics may capture aspects of tumor biology reflected in liquid biopsy, warranting further validation in larger, well-balanced cohorts."
+},
+{
+"label": "Conclusion",
+"text": "The integration of liquid biopsy and radiomics holds promise for enhancing preoperative assessment and personalized treatment strategies in NSCLC. Further research on larger cohorts is warranted to validate the findings and translate them into clinical practice."
+},
+{
+"label": "Trial registration",
+"text": "University of Campania Trial Board UC20201112-24997."
+}
+],
+"text": "Nonsmall cell lung cancer (NSCLC) remains a significant global health burden, necessitating advancements in diagnostic and prognostic strategies. Liquid biopsy and radiomics offer promising avenues for enhancing preoperative assessment and treatment planning in NSCLC. This prospective study enrolled 60 NSCLC patients who underwent both computed tomography (CT)-guided biopsy and liquid biopsy. Radiomic features were extracted from CT images, and circulating tumor DNA (ctDNA) was sequenced to identify genetic mutations. Machine learning algorithms were employed to assess the association between radiomic features and gene mutations. Among 57 patients with available data, associations between radiomic features and gene pairs mutation obtained from liquid biopsy exhibited moderate accuracy (approximately 0.60), with texture features demonstrating higher importance. However, when predicting the combined mutation status of gene pairs (e.g., EGFR and ROS1), the classification task involved three classes and yielded substantially lower accuracy (approximately 0.30), likely due to class imbalance and increased complexity. Our findings demonstrate a moderate association between radiomic features and single gene mutations detected through liquid biopsy in NSCLC patients, with classification accuracies reaching approximately 0.60. In contrast, classification performance significantly declined (to ~0.30) when gene mutation pairs were used as targets, likely due to increased complexity and class imbalance. Notably, second-order texture features showed the highest importance in the models. These preliminary results suggest that radiomics may capture aspects of tumor biology reflected in liquid biopsy, warranting further validation in larger, well-balanced cohorts. The integration of liquid biopsy and radiomics holds promise for enhancing preoperative assessment and personalized treatment strategies in NSCLC. Further research on larger cohorts is warranted to validate the findings and translate them into clinical practice. University of Campania Trial Board UC20201112-24997.",
+"statements": [
+{
+"j": 1,
+"text": "Second-order texture features carried the greatest importance in the models."
+},
+{
+"j": 2,
+"text": "Radiomic features predicted EGFR mutation status more accurately than KRAS mutation status."
+},
+{
+"j": 3,
+"text": "Radiomic features predicted single gene mutation status from liquid biopsy with classification accuracy of around 0.60."
+},
+{
+"j": 4,
+"text": "Predicting the combined mutation status of gene pairs improved accuracy to about 0.90 compared with single genes."
+}
+]
+},
+{
+"n": 23,
+"id": "pmid:37568633",
+"year": 2023,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Novel treatment modalities comprising immune checkpoint inhibitors and targeted therapies have revolutionized treatment of metastatic melanoma. Still, some patients suffer from rapid progression and decease within months after a diagnosis of stage IV melanoma. We aimed to assess whether genomic alterations may predict survival after the development of stage IV disease, irrespective of received therapy. We analyzed tumor samples of 79 patients with stage IV melanoma using a custom next-generation gene-sequencing panel, MelArray, designed to detect alterations in 190 melanoma-relevant genes. We classified the patients: first, as short survivors (survival ≤6 months after stage IV disease, n = 22) and long survivors (survival >6 months, n = 57); second, by using a cut-off of one year; and third, by comparing the longest surviving 20 patients to the shortest surviving 20. Among analyzed genes, no individual gene alterations, or combinations of alterations, could be dichotomously associated with survival. However, the cohort's mutational profiles closely matched three known mutational signatures curated by the Catalog of Somatic Mutations in Cancer (COSMIC): UV signature COSMIC_7 (cosine-similarity 0.932), clock-like signature COSMIC_5 (cosine-similarity 0.829), and COSMIC_30 (cosine-similarity 0.726). Patients with UV signature had longer survival compared to patients with clock-like and COSMIC 30 ( p < 0.0001). Subgroup dichotomization at 6 months showed that 75% of patients with UV signature survived longer than 6 months, and about 75% of patients with clock-like signature survived less than 6 months after development of stage IV disease. In our cohort, clock-like COSMIC_5 mutational signature predicted poor survival while a UV signature COSMIC_7 predicted longer survival. The prognostic value of mutational signatures should be evaluated in prospective studies."
+}
+],
+"text": "Novel treatment modalities comprising immune checkpoint inhibitors and targeted therapies have revolutionized treatment of metastatic melanoma. Still, some patients suffer from rapid progression and decease within months after a diagnosis of stage IV melanoma. We aimed to assess whether genomic alterations may predict survival after the development of stage IV disease, irrespective of received therapy. We analyzed tumor samples of 79 patients with stage IV melanoma using a custom next-generation gene-sequencing panel, MelArray, designed to detect alterations in 190 melanoma-relevant genes. We classified the patients: first, as short survivors (survival ≤6 months after stage IV disease, n = 22) and long survivors (survival >6 months, n = 57); second, by using a cut-off of one year; and third, by comparing the longest surviving 20 patients to the shortest surviving 20. Among analyzed genes, no individual gene alterations, or combinations of alterations, could be dichotomously associated with survival. However, the cohort's mutational profiles closely matched three known mutational signatures curated by the Catalog of Somatic Mutations in Cancer (COSMIC): UV signature COSMIC_7 (cosine-similarity 0.932), clock-like signature COSMIC_5 (cosine-similarity 0.829), and COSMIC_30 (cosine-similarity 0.726). Patients with UV signature had longer survival compared to patients with clock-like and COSMIC 30 ( p < 0.0001). Subgroup dichotomization at 6 months showed that 75% of patients with UV signature survived longer than 6 months, and about 75% of patients with clock-like signature survived less than 6 months after development of stage IV disease. In our cohort, clock-like COSMIC_5 mutational signature predicted poor survival while a UV signature COSMIC_7 predicted longer survival. The prognostic value of mutational signatures should be evaluated in prospective studies.",
+"statements": [
+{
+"j": 1,
+"text": "Patients with the UV signature responded better to immune checkpoint inhibitors than those with the clock-like signature."
+},
+{
+"j": 2,
+"text": "Patients with a clock-like COSMIC_5 signature survived longer than those with a UV signature."
+},
+{
+"j": 3,
+"text": "No single gene alteration or combination of alterations could be dichotomously linked to survival."
+},
+{
+"j": 4,
+"text": "The cohort's mutational profile matched the UV signature COSMIC_7 with a cosine similarity of 0.932."
+}
+]
+},
+{
+"n": 24,
+"id": "pmid:40634198",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Introduction/background",
+"text": "Clinical trials are assessing the suitability of KRAS G12C inhibitors in the neoadjuvant setting. Appropriate patient selection is paramount to ensure therapeutic efficacy. Here we sought to investigate the clinical utility of ctDNA to identify resectable lung adenocarcinoma (LUAD) patients with KRAS-driven disease."
+},
+{
+"label": "Materials & patients",
+"text": "From our institution's clinical database and biobank, we identified 47 patients based on our inclusion criteria: research-consented, treatment-naïve, NGS-confirmed KRAS-mutated resectable stage IA-IIIB LUAD with available pre-operative blood. cfDNA was isolated from 700-2000µL plasma and was preamplified. In a tumour-informed approach, digital droplet polymerase chain reaction (ddPCR) was performed to identify hotspot KRAS G12C & KRAS G12V ctDNA and wild-type KRAS cfDNA in the same reaction based on prior tumor tissue profiling."
+},
+{
+"label": "Results",
+"text": "In overall clinical staging, KRAS G12C ctDNA was detected in liquid biopsies of stage II (1/7, 14%) and III (2/5, 40%) patients. In overall pathological staging, KRAS G12C ctDNA was detected exclusively in liquid biopsies of stage III patients (4/11, 36%). KRAS G12V ctDNA was detected in liquid biopsies of overall clinical stage I (1/3, 33%) and III (1/1, 100%) patients and in pathological stage II (1/3, 33%) and III (1/2, 50%) patients. KRAS ctDNA positivity was associated with shorter overall survival (median OS 21 months vs. 41 months, P G12C ctDNA positivity was associated with larger tumour size, presence of nodal involvement, and higher overall pathological stage."
+},
+{
+"label": "Conclusion",
+"text": "ctDNA positivity from liquid biopsy is a low-cost and accessible method for triaging patients with LUAD towards trials evaluating KRAS inhibitors in the neoadjuvant setting."
+}
+],
+"text": "Clinical trials are assessing the suitability of KRAS G12C inhibitors in the neoadjuvant setting. Appropriate patient selection is paramount to ensure therapeutic efficacy. Here we sought to investigate the clinical utility of ctDNA to identify resectable lung adenocarcinoma (LUAD) patients with KRAS-driven disease. From our institution's clinical database and biobank, we identified 47 patients based on our inclusion criteria: research-consented, treatment-naïve, NGS-confirmed KRAS-mutated resectable stage IA-IIIB LUAD with available pre-operative blood. cfDNA was isolated from 700-2000µL plasma and was preamplified. In a tumour-informed approach, digital droplet polymerase chain reaction (ddPCR) was performed to identify hotspot KRAS G12C & KRAS G12V ctDNA and wild-type KRAS cfDNA in the same reaction based on prior tumor tissue profiling. In overall clinical staging, KRAS G12C ctDNA was detected in liquid biopsies of stage II (1/7, 14%) and III (2/5, 40%) patients. In overall pathological staging, KRAS G12C ctDNA was detected exclusively in liquid biopsies of stage III patients (4/11, 36%). KRAS G12V ctDNA was detected in liquid biopsies of overall clinical stage I (1/3, 33%) and III (1/1, 100%) patients and in pathological stage II (1/3, 33%) and III (1/2, 50%) patients. KRAS ctDNA positivity was associated with shorter overall survival (median OS 21 months vs. 41 months, P G12C ctDNA positivity was associated with larger tumour size, presence of nodal involvement, and higher overall pathological stage. ctDNA positivity from liquid biopsy is a low-cost and accessible method for triaging patients with LUAD towards trials evaluating KRAS inhibitors in the neoadjuvant setting.",
+"statements": [
+{
+"j": 1,
+"text": "KRAS ctDNA positivity was linked to a median overall survival of 21 months versus 41 months for ctDNA-negative patients."
+},
+{
+"j": 2,
+"text": "KRAS G12V ctDNA-positive patients had worse survival than KRAS G12C ctDNA-positive patients."
+},
+{
+"j": 3,
+"text": "By pathological stage, KRAS G12C ctDNA was detected only in stage III patients, in 4 of 11."
+},
+{
+"j": 4,
+"text": "KRAS G12C ctDNA positivity was associated with smaller tumour size and absence of nodal involvement."
+}
+]
+},
+{
+"n": 25,
+"id": "doi:10.1101/2025.06.24.660824",
+"year": 2025,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Patient-derived organoids (PDOs) are emerging as advanced 3D ex vivo novel alternative method (NAM) preclinical models, offering significant advantages over traditional cell lines and monolayer cultures for therapeutic development. In this study, we established PDOs from surgically resected fresh tissues of human papillomavirus (HPV)-negative head and neck squamous cell carcinoma (HNSCC) across anatomical sites, tumor T-categories, and sample types. These PDOs faithfully recapitulate the tumor’s pathology, mutational profile, and drug response. To enable rapid classification of PDO identity, we developed a new convolutional neural network (CNN) model, TransferNet-PDO, which accurately distinguished tumor versus normal PDOs in culture using digital histopathology images (AUC≥0.88). PDOs maintained stable cultures and were cryopreserved between passages 5 and 12. Immunohistochemistry (IHC) staining (PanCK, p63, Cytokeratin 13, Ki67) confirmed squamous phenotype and histologic aggression of the original tumor. For tumors harboring TP53 mutations by whole-exome sequencing (WES), PDOs retained the corresponding p53 functional status as confirmed by IHC (enhanced or loss of expression). Somatic mutational landscape revealed that PDOs preserved driver somatic mutations, copy number variations (CNVs), and clonal architecture including low-prevalence subclones. Drug sensitivity assessment of PDOs showed that cisplatin reduced cell viability, whereas cetuximab and lenvatinib had minimal effects. Chemoradiation led to greater tumor organoid killing compared to radiation or chemotherapy alone. This study presents an integrated HNSCC PDO platform combining tissue biobanking, organoid establishment, multi-omics characterization, functional drug screening, and AI-driven histopathologic classification, providing a comprehensive and scalable system for translational cancer research."
+}
+],
+"text": "Patient-derived organoids (PDOs) are emerging as advanced 3D ex vivo novel alternative method (NAM) preclinical models, offering significant advantages over traditional cell lines and monolayer cultures for therapeutic development. In this study, we established PDOs from surgically resected fresh tissues of human papillomavirus (HPV)-negative head and neck squamous cell carcinoma (HNSCC) across anatomical sites, tumor T-categories, and sample types. These PDOs faithfully recapitulate the tumor’s pathology, mutational profile, and drug response. To enable rapid classification of PDO identity, we developed a new convolutional neural network (CNN) model, TransferNet-PDO, which accurately distinguished tumor versus normal PDOs in culture using digital histopathology images (AUC≥0.88). PDOs maintained stable cultures and were cryopreserved between passages 5 and 12. Immunohistochemistry (IHC) staining (PanCK, p63, Cytokeratin 13, Ki67) confirmed squamous phenotype and histologic aggression of the original tumor. For tumors harboring TP53 mutations by whole-exome sequencing (WES), PDOs retained the corresponding p53 functional status as confirmed by IHC (enhanced or loss of expression). Somatic mutational landscape revealed that PDOs preserved driver somatic mutations, copy number variations (CNVs), and clonal architecture including low-prevalence subclones. Drug sensitivity assessment of PDOs showed that cisplatin reduced cell viability, whereas cetuximab and lenvatinib had minimal effects. Chemoradiation led to greater tumor organoid killing compared to radiation or chemotherapy alone. This study presents an integrated HNSCC PDO platform combining tissue biobanking, organoid establishment, multi-omics characterization, functional drug screening, and AI-driven histopathologic classification, providing a comprehensive and scalable system for translational cancer research.",
+"statements": [
+{
+"j": 1,
+"text": "PDO establishment success was higher for oral cavity tumours than for laryngeal tumours."
+},
+{
+"j": 2,
+"text": "TransferNet-PDO separated tumour from normal organoids on digital histopathology images with an AUC of at least 0.88."
+},
+{
+"j": 3,
+"text": "Radiation alone killed tumour organoids more effectively than combined chemoradiation."
+},
+{
+"j": 4,
+"text": "Cisplatin lowered organoid viability, while cetuximab and lenvatinib had little effect."
+}
+]
+},
+{
+"n": 26,
+"id": "pmid:40370818",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Without identifying and studying the genomic characteristics associated with domestication, managing farm animal genetic resources becomes overwhelmingly difficult. Accumulated data confirm that mobile genetic elements participate in the domestication process and, in particular, generate widely abundant microRNAs."
+},
+{
+"label": "Methods",
+"text": "The recombination products were compared in silico between the long interspersed nuclear element (LINE) and the endogenous retrovirus (ERV), forming the LINE/ERV/LINE sequence, located in a closely linked conserved block of 12 genes, as well as the microRNAs formed by these recombination products in domesticated-wild pairs of mammals. For this comparison, the reference genomes of domesticated cattle ( Bos taurus ) and its closely related wild species counterpart, bison ( Bison bison ), were used."
+},
+{
+"label": "Results",
+"text": "It was found that the above-noted highly conserved recombination products (with more than 81.5% identity) were present in the corresponding block of 12 genes in bison. These recombination products served as sources of 51 microRNAs in bison and 129 microRNAs in cattle, including 50 microRNAs that were similar in both species. A total of 79 microRNAs were found only in cattle trinomial recombination products, with 98% belonging to the mir-30 family, including the cattle-specific bta-miR-30a-5p and bta-miR-30e-5p. The mir-30 family is closely associated with biological processes influencing the quantity and quality of agricultural products."
+},
+{
+"label": "Conclusion",
+"text": "Trinomial retrotransposon recombination products were fixed in both the cattle genome and the genome of its closely related wild species, the bison. It was found that these products may be involved in the response to intensive artificial selection and the domestication process since interspecific differentiation of microRNAs is associated with regulatory networks that have a significant impact on the formation of economically important traits."
+}
+],
+"text": "Without identifying and studying the genomic characteristics associated with domestication, managing farm animal genetic resources becomes overwhelmingly difficult. Accumulated data confirm that mobile genetic elements participate in the domestication process and, in particular, generate widely abundant microRNAs. The recombination products were compared in silico between the long interspersed nuclear element (LINE) and the endogenous retrovirus (ERV), forming the LINE/ERV/LINE sequence, located in a closely linked conserved block of 12 genes, as well as the microRNAs formed by these recombination products in domesticated-wild pairs of mammals. For this comparison, the reference genomes of domesticated cattle ( Bos taurus ) and its closely related wild species counterpart, bison ( Bison bison ), were used. It was found that the above-noted highly conserved recombination products (with more than 81.5% identity) were present in the corresponding block of 12 genes in bison. These recombination products served as sources of 51 microRNAs in bison and 129 microRNAs in cattle, including 50 microRNAs that were similar in both species. A total of 79 microRNAs were found only in cattle trinomial recombination products, with 98% belonging to the mir-30 family, including the cattle-specific bta-miR-30a-5p and bta-miR-30e-5p. The mir-30 family is closely associated with biological processes influencing the quantity and quality of agricultural products. Trinomial retrotransposon recombination products were fixed in both the cattle genome and the genome of its closely related wild species, the bison. It was found that these products may be involved in the response to intensive artificial selection and the domestication process since interspecific differentiation of microRNAs is associated with regulatory networks that have a significant impact on the formation of economically important traits.",
+"statements": [
+{
+"j": 1,
+"text": "The recombination products gave rise to 129 microRNAs in cattle and 51 in bison, of which 50 were shared."
+},
+{
+"j": 2,
+"text": "Nearly all cattle-only microRNAs from the trinomial recombination products belonged to the mir-30 family."
+},
+{
+"j": 3,
+"text": "The LINE/ERV/LINE recombination products were absent from the corresponding 12-gene block in bison."
+},
+{
+"j": 4,
+"text": "bta-miR-30a-5p is expressed at higher levels in the mammary gland of high-yield dairy cattle."
+}
+]
+},
+{
+"n": 27,
+"id": "doi:10.1101/2024.05.07.24305476",
+"year": 2024,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "The peritoneum is a common site of metastases from colorectal cancer (CRC), yet controversy exists regarding optimal treatment strategies. These guidelines describe the results of a national consensus addressing the management of CRC with peritoneal metastases (CRC-PM)."
+},
+{
+"label": "Methods",
+"text": "An update of the 2018 Chicago Consensus Guidelines was conducted using a modified Delphi technique. Two rounds of voting were performed to assess agreement levels on two clinical management pathways regarding synchronous and metachronous CRC-PM. Supporting evidence was evaluated via rapid literature reviews."
+},
+{
+"label": "Results",
+"text": "The overall level of evidence was low in existing literature. Of 145 participants in the first round, 136 (96.8%) responded in the second round. Over 90% consensus was achieved in most pathway blocks. For both pathways, early referral to a peritoneal surface malignancy (PSM) center should be made for patients with CRC-PM. For the synchronous pathway, upfront cytoreductive surgery was de-emphasized in favor of systemic therapy. For the metachronous pathway, risk stratification via clinical and pathologic features was revised. For both pathways, surveillance strategies were added, including only a weak recommendation for circulating tumor DNA (ctDNA) testing given limited evidence of its utility in detecting and monitoring PM."
+},
+{
+"label": "Conclusion",
+"text": "The consensus-driven clinical pathways provide valuable guidance for the management of CRC-PM. There remains a need for high-quality evidence and prospective multicenter trials in this domain."
+},
+{
+"label": "SYNOPSIS",
+"text": "We developed two consensus-driven clinical pathways for the management of colorectal cancer with peritoneal metastases (CRC-PM), using a modified Delphi approach. Rapid reviews evaluating the optimal systemic therapy and the role of plasma-based liquid-biopsy for CRC-PM were conducted."
+}
+],
+"text": "The peritoneum is a common site of metastases from colorectal cancer (CRC), yet controversy exists regarding optimal treatment strategies. These guidelines describe the results of a national consensus addressing the management of CRC with peritoneal metastases (CRC-PM). An update of the 2018 Chicago Consensus Guidelines was conducted using a modified Delphi technique. Two rounds of voting were performed to assess agreement levels on two clinical management pathways regarding synchronous and metachronous CRC-PM. Supporting evidence was evaluated via rapid literature reviews. The overall level of evidence was low in existing literature. Of 145 participants in the first round, 136 (96.8%) responded in the second round. Over 90% consensus was achieved in most pathway blocks. For both pathways, early referral to a peritoneal surface malignancy (PSM) center should be made for patients with CRC-PM. For the synchronous pathway, upfront cytoreductive surgery was de-emphasized in favor of systemic therapy. For the metachronous pathway, risk stratification via clinical and pathologic features was revised. For both pathways, surveillance strategies were added, including only a weak recommendation for circulating tumor DNA (ctDNA) testing given limited evidence of its utility in detecting and monitoring PM. The consensus-driven clinical pathways provide valuable guidance for the management of CRC-PM. There remains a need for high-quality evidence and prospective multicenter trials in this domain. We developed two consensus-driven clinical pathways for the management of colorectal cancer with peritoneal metastases (CRC-PM), using a modified Delphi approach. Rapid reviews evaluating the optimal systemic therapy and the role of plasma-based liquid-biopsy for CRC-PM were conducted.",
+"statements": [
+{
+"j": 1,
+"text": "For synchronous CRC-PM, the consensus prioritised upfront cytoreductive surgery over systemic therapy."
+},
+{
+"j": 2,
+"text": "The consensus recommended HIPEC alongside cytoreductive surgery for eligible patients."
+},
+{
+"j": 3,
+"text": "Of 145 first-round participants, 136 (96.8%) responded in the second round."
+},
+{
+"j": 4,
+"text": "ctDNA testing received only a weak recommendation because evidence for detecting and monitoring peritoneal metastases is limited."
+}
+]
+},
+{
+"n": 28,
+"id": "doi:10.1101/2024.11.08.622691",
+"year": 2024,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Preeclampsia (PE) is a pregnancy-associated hypertension disorder affecting 5 to 10% of pregnant women each year worldwide, which leads to adverse maternal and child outcomes. PE remains inadequately predicted, prevented and treated. Here, we comprehensively investigated altered transcriptomic and epigenetic changes in the PE placenta and maternal cell free RNA (cfRNA). We show that many transposable elements (TEs) in sub-families are deregulated in the gestational age-matched PE placenta. Increased expression of endogenous retrovirus (ERV) and long interspersed nuclear element 1 (L1, LINE1) subfamilies of TEs is associated with higher histone acetylation levels at their regulatory elements. A higher TE transcript level correlates with the type I interferon (IFN I) pathway, suggesting inflammation associated with PE could be due to the sensing of TE transcripts by the antiviral innate immune system. Consistent with higher TE transcript levels in the PE placentas, analysis of maternal cfRNA data revealed differential levels of TE subfamilies in PE compared to healthy controls. Machine learning-based training for TE transcripts for early prediction of PE showed a robust performance in the validation cohort, with an area under the curve (AUC) of 0.88, 81% sensitivity, and 74% positive predictive value (PPV). Overall, we show TE deregulation in the placenta is associated with PE, and maternal cfRNA TE signature accurately predicts early diagnosis of PE, which can improve prophylaxis and obstetric outcomes."
+}
+],
+"text": "Preeclampsia (PE) is a pregnancy-associated hypertension disorder affecting 5 to 10% of pregnant women each year worldwide, which leads to adverse maternal and child outcomes. PE remains inadequately predicted, prevented and treated. Here, we comprehensively investigated altered transcriptomic and epigenetic changes in the PE placenta and maternal cell free RNA (cfRNA). We show that many transposable elements (TEs) in sub-families are deregulated in the gestational age-matched PE placenta. Increased expression of endogenous retrovirus (ERV) and long interspersed nuclear element 1 (L1, LINE1) subfamilies of TEs is associated with higher histone acetylation levels at their regulatory elements. A higher TE transcript level correlates with the type I interferon (IFN I) pathway, suggesting inflammation associated with PE could be due to the sensing of TE transcripts by the antiviral innate immune system. Consistent with higher TE transcript levels in the PE placentas, analysis of maternal cfRNA data revealed differential levels of TE subfamilies in PE compared to healthy controls. Machine learning-based training for TE transcripts for early prediction of PE showed a robust performance in the validation cohort, with an area under the curve (AUC) of 0.88, 81% sensitivity, and 74% positive predictive value (PPV). Overall, we show TE deregulation in the placenta is associated with PE, and maternal cfRNA TE signature accurately predicts early diagnosis of PE, which can improve prophylaxis and obstetric outcomes.",
+"statements": [
+{
+"j": 1,
+"text": "Higher ERV and LINE1 expression in PE placentas was accompanied by higher histone acetylation at their regulatory elements."
+},
+{
+"j": 2,
+"text": "TE transcript levels in PE placentas were inversely correlated with type I interferon pathway activity."
+},
+{
+"j": 3,
+"text": "Low-dose aspirin lowers placental TE transcript levels in women at risk of preeclampsia."
+},
+{
+"j": 4,
+"text": "The TE-transcript classifier predicted preeclampsia in the validation cohort with AUC 0.88, 81% sensitivity and 74% positive predictive value."
+}
+]
+},
+{
+"n": 29,
+"id": "pmid:38046281",
+"year": 2023,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Objective",
+"text": "Genomic profiles relating to H101 treatment-induced alterations are yet to be achieved. Here, we evaluated the impact of H101 via exome-sequencing approaches aiming to probe for potential biomarkers that are actionable in the treatment of persistent/recurrent/metastatic (P/R/M) cervical cancer."
+},
+{
+"label": "Methods",
+"text": "Whole exome sequencing (WES) was performd on paired pre- and post-H101 samples from 17 P/R/M cervical cancer patients who received serial intra-tumor injections of H101. Somatic mutations, including high-frequency mutations, microsatellite instability (MSI) status, tumor mutation burden (TMB), clonal evolution, and mutational signature were analyzed."
+},
+{
+"label": "Results",
+"text": "The median follow-up time after the H101 treatment was 14 months. Complete response was achieved in 9 patients, 3 patients achieved partial response, and 2 patients had stable disease, resulting in an objective response rate (ORR) of 70.6% (95% CI: 46.4%-96.7%). WES analysis showed no difference in treatment-related mutation characteristics, including non-synonymous-SNVs and TMB status. Patients with lower TMB were correlated with improved H101 response rates ( P =0.044), whereas the same was not evident in high MSI (MSI-H) versus non-MSI-H patients ( P =0.528). We observed a few high-frequency mutation genes (TTN, KMT2D, ALDOA, DNAH7, ADAP1, PTPN23, and THEMIS2) that probably carry functional importance in response to H101 treatment, among which KMT2D and ADAP1 mutations were associated with inferior progression-free survival (PFS) and/or overall survival (OS) ( P <0.05). Notably, H101 treatment-induced accumulating subclones or clusters in primary tumors and some (Signature 2) were associated with shorter PFS."
+},
+{
+"label": "Conclusion",
+"text": "We conducted an unprecedented work via a WES-based approach and provided preliminary insights into H101 treatment-induced genetic aberrations in which some genes (TTN, KMT2D, ALDOA, DNAH7, ADAP1, PTPN23, and THEMIS2) could be considered potential therapeutic targets of H101-containing treatment in cervical carcinoma. Moreover, the therapy-associated characteristics such as clonal evolution and a mutational signature may warrant further evaluation of H101 in clinical settings for treating cervical carcinoma."
+}
+],
+"text": "Genomic profiles relating to H101 treatment-induced alterations are yet to be achieved. Here, we evaluated the impact of H101 via exome-sequencing approaches aiming to probe for potential biomarkers that are actionable in the treatment of persistent/recurrent/metastatic (P/R/M) cervical cancer. Whole exome sequencing (WES) was performd on paired pre- and post-H101 samples from 17 P/R/M cervical cancer patients who received serial intra-tumor injections of H101. Somatic mutations, including high-frequency mutations, microsatellite instability (MSI) status, tumor mutation burden (TMB), clonal evolution, and mutational signature were analyzed. The median follow-up time after the H101 treatment was 14 months. Complete response was achieved in 9 patients, 3 patients achieved partial response, and 2 patients had stable disease, resulting in an objective response rate (ORR) of 70.6% (95% CI: 46.4%-96.7%). WES analysis showed no difference in treatment-related mutation characteristics, including non-synonymous-SNVs and TMB status. Patients with lower TMB were correlated with improved H101 response rates ( P =0.044), whereas the same was not evident in high MSI (MSI-H) versus non-MSI-H patients ( P =0.528). We observed a few high-frequency mutation genes (TTN, KMT2D, ALDOA, DNAH7, ADAP1, PTPN23, and THEMIS2) that probably carry functional importance in response to H101 treatment, among which KMT2D and ADAP1 mutations were associated with inferior progression-free survival (PFS) and/or overall survival (OS) ( P <0.05). Notably, H101 treatment-induced accumulating subclones or clusters in primary tumors and some (Signature 2) were associated with shorter PFS. We conducted an unprecedented work via a WES-based approach and provided preliminary insights into H101 treatment-induced genetic aberrations in which some genes (TTN, KMT2D, ALDOA, DNAH7, ADAP1, PTPN23, and THEMIS2) could be considered potential therapeutic targets of H101-containing treatment in cervical carcinoma. Moreover, the therapy-associated characteristics such as clonal evolution and a mutational signature may warrant further evaluation of H101 in clinical settings for treating cervical carcinoma.",
+"statements": [
+{
+"j": 1,
+"text": "H101 injection increased tumour-infiltrating CD8+ T cells in post-treatment biopsies."
+},
+{
+"j": 2,
+"text": "Nine complete and three partial responses among 17 patients gave an objective response rate of 70.6%."
+},
+{
+"j": 3,
+"text": "Higher tumour mutation burden correlated with better response to H101."
+},
+{
+"j": 4,
+"text": "KMT2D and ADAP1 mutations were associated with worse progression-free and/or overall survival."
+}
+]
+},
+{
+"n": 30,
+"id": "pmid:42086450",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Rationale and objectives",
+"text": "Peripheral-blood circulating tumor DNA (ctDNA) detectability is inconsistent in central nervous system lymphoma (CNSL), so negative plasma findings are hard to interpret. This exploratory, hypothesis-generating study tested whether routinely available, reproducible multiparametric Magnetic resonance imaging (MRI) features are associated with plasma ctDNA positivity across repeated paired MRI-plasma assessments."
+},
+{
+"label": "Materials and methods",
+"text": "In this retrospective single-center study, 25 patients with diffuse large B-cell lymphoma involving the CNS (primary or secondary) contributed 46 paired plasma ctDNA and contrast-enhanced brain MRI evaluations. MRI features were prospectively defined and independently annotated by two blinded radiologists; features were retained only with substantial inter-reader agreement (kappa/weighted kappa ≥0.60) or good ICC (≥0.75). Associations with ctDNA positivity (variant allele frequency ≥0.5%) were screened using logistic generalized estimating equations (GEEs) for within-patient correlation, prioritized by patient-level bootstrap stability selection with L1-penalized logistic regression, and summarized in adjusted multivariable models (age at CNS diagnosis and disease type)."
+},
+{
+"label": "Results",
+"text": "Among 31 reproducible MRI-derived features, edema crossing the midline had the highest selection frequency (55.8%). In the primary adjusted multivariable model, edema crossing the midline was linked to markedly lower odds of plasma ctDNA positivity (Firth-penalized OR 0.068). To address within-patient correlation from repeated evaluations, uncertainty was estimated by patient-level cluster bootstrap (B = 1000; percentile method), giving a 95% confidence interval of 0.00031-0.236 with complete directional consistency across resamples (Pr[OR < 1] = 1.000; bootstrap failure rate 0.3%). Sensitivity analyses indicated that high non-contrast-enhancing tumor (nCET) burden (≥34%) was associated with higher ctDNA positivity odds, while mass effect was associated with lower odds, though both showed sparse-data patterns."
+},
+{
+"label": "Conclusion",
+"text": "Reproducible MRI features, especially edema crossing the midline, were inversely associated with plasma ctDNA positivity across repeated evaluations. Patient-level cluster-bootstrap inference supported the robustness of the observed association. External validation in larger cohorts is needed before clinical implementation."
+}
+],
+"text": "Peripheral-blood circulating tumor DNA (ctDNA) detectability is inconsistent in central nervous system lymphoma (CNSL), so negative plasma findings are hard to interpret. This exploratory, hypothesis-generating study tested whether routinely available, reproducible multiparametric Magnetic resonance imaging (MRI) features are associated with plasma ctDNA positivity across repeated paired MRI-plasma assessments. In this retrospective single-center study, 25 patients with diffuse large B-cell lymphoma involving the CNS (primary or secondary) contributed 46 paired plasma ctDNA and contrast-enhanced brain MRI evaluations. MRI features were prospectively defined and independently annotated by two blinded radiologists; features were retained only with substantial inter-reader agreement (kappa/weighted kappa ≥0.60) or good ICC (≥0.75). Associations with ctDNA positivity (variant allele frequency ≥0.5%) were screened using logistic generalized estimating equations (GEEs) for within-patient correlation, prioritized by patient-level bootstrap stability selection with L1-penalized logistic regression, and summarized in adjusted multivariable models (age at CNS diagnosis and disease type). Among 31 reproducible MRI-derived features, edema crossing the midline had the highest selection frequency (55.8%). In the primary adjusted multivariable model, edema crossing the midline was linked to markedly lower odds of plasma ctDNA positivity (Firth-penalized OR 0.068). To address within-patient correlation from repeated evaluations, uncertainty was estimated by patient-level cluster bootstrap (B = 1000; percentile method), giving a 95% confidence interval of 0.00031-0.236 with complete directional consistency across resamples (Pr[OR < 1] = 1.000; bootstrap failure rate 0.3%). Sensitivity analyses indicated that high non-contrast-enhancing tumor (nCET) burden (≥34%) was associated with higher ctDNA positivity odds, while mass effect was associated with lower odds, though both showed sparse-data patterns. Reproducible MRI features, especially edema crossing the midline, were inversely associated with plasma ctDNA positivity across repeated evaluations. Patient-level cluster-bootstrap inference supported the robustness of the observed association. External validation in larger cohorts is needed before clinical implementation.",
+"statements": [
+{
+"j": 1,
+"text": "The cohort comprised 25 patients with CNS-involving DLBCL who contributed 46 paired ctDNA-MRI evaluations."
+},
+{
+"j": 2,
+"text": "Edema crossing the midline had the highest selection frequency, 55.8%, among 31 reproducible MRI features."
+},
+{
+"j": 3,
+"text": "Edema crossing the midline reflects blood-brain barrier integrity that limits ctDNA release into plasma."
+},
+{
+"j": 4,
+"text": "Edema crossing the midline was associated with markedly higher odds of plasma ctDNA positivity."
+}
+]
+},
+{
+"n": 31,
+"id": "pmid:36629271",
+"year": 2023,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Protein translation is tightly and precisely controlled by multiple mechanisms including upstream open reading frames (uORFs), but the origins of uORFs and their role in maize are largely unexplored. In this study, an active transposition event was identified during the propagation of maize inbred line B73. The transposon, which was named BTA for 'B73 active transposable element hAT', creates a novel dosage-dependent hypomorphic allele of the hexose transporter gene ZmSWEET4c through insertion within the coding sequence in the first exon, and results in reduced kernel size. The BTA insertion does not affect transcript abundance but reduces protein abundance of ZmSWEET4c, probably through the introduction of a uORF. Furthermore, the introduction of BTA sequence in the exon of other genes can regulate translation efficiency without affecting their mRNA levels. A transposon capture assay revealed 79 novel insertions for BTA and BTA-like elements. These insertion sites have typical euchromatin features, including low levels of DNA methylation and high levels of H3K27ac. A putative autonomous element that mobilizes BTA and BTA-like elements was identified. Together, our results suggest a transposon-based origin of uORFs and document a new role for transposable elements to influence protein abundance and phenotypic diversity by affecting the translation rate."
+}
+],
+"text": "Protein translation is tightly and precisely controlled by multiple mechanisms including upstream open reading frames (uORFs), but the origins of uORFs and their role in maize are largely unexplored. In this study, an active transposition event was identified during the propagation of maize inbred line B73. The transposon, which was named BTA for 'B73 active transposable element hAT', creates a novel dosage-dependent hypomorphic allele of the hexose transporter gene ZmSWEET4c through insertion within the coding sequence in the first exon, and results in reduced kernel size. The BTA insertion does not affect transcript abundance but reduces protein abundance of ZmSWEET4c, probably through the introduction of a uORF. Furthermore, the introduction of BTA sequence in the exon of other genes can regulate translation efficiency without affecting their mRNA levels. A transposon capture assay revealed 79 novel insertions for BTA and BTA-like elements. These insertion sites have typical euchromatin features, including low levels of DNA methylation and high levels of H3K27ac. A putative autonomous element that mobilizes BTA and BTA-like elements was identified. Together, our results suggest a transposon-based origin of uORFs and document a new role for transposable elements to influence protein abundance and phenotypic diversity by affecting the translation rate.",
+"statements": [
+{
+"j": 1,
+"text": "BTA transposition is triggered by heat stress during maize propagation."
+},
+{
+"j": 2,
+"text": "BTA insertion sites were characterised by high DNA methylation and low H3K27ac, typical of heterochromatin."
+},
+{
+"j": 3,
+"text": "The BTA insertion in ZmSWEET4c left transcript levels unchanged but lowered protein abundance."
+},
+{
+"j": 4,
+"text": "A transposon capture assay identified 79 new insertions of BTA and BTA-like elements."
+}
+]
+},
+{
+"n": 32,
+"id": "pmid:40570259",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Purpose",
+"text": "Blood-based liquid biopsy has enabled minimally invasive molecular profiling in patients with solid tumors. For cancers of the CNS, however, the use of peripheral blood for cell-free DNA (cfDNA) detection and sequencing has proved challenging because of scant levels of tumor-derived material shed into systemic circulation. An alternative is to use cerebrospinal fluid (CSF), which contains a greater concentration of tumor-derived cfDNA in patients with brain tumors (BTs). CSF liquid biopsy is a relatively nascent field, with critical unanswered questions regarding preanalytical variables that may affect assay performance. In an effort to identify and standardize key preanalytical variables, the Blood Profiling Atlas in Cancer (BLOODPAC) Consortium launched a BT Working Group in 2022."
+},
+{
+"label": "Methods",
+"text": "We reviewed protocols for CSF sample collection and processing used by expert Working Group members at their respective academic institutions and diagnostic companies, as well as the available literature on CSF liquid biopsy. Through a collaborative and iterative process, we developed a list of key preanalytical variables for cfDNA-based CSF liquid biopsy in patients with primary and metastatic brain malignancies."
+},
+{
+"label": "Results",
+"text": "The Working Group agreed on a recommended list of preanalytical minimum technical data elements, clinical context data elements, and patient context data elements for cfDNA-based CSF liquid biopsy in patients with CNS malignancies. A subset of variables were considered to be of critical priority and are designated as required annotations to submissions of cfDNA-based CSF liquid biopsy sample data into the BLOODPAC Data Commons."
+},
+{
+"label": "Conclusion",
+"text": "We propose a list of preanalytical variables relevant for cfDNA-based CSF liquid biopsy, with the overarching goal of encouraging routine collection and reporting of these variables in future studies."
+}
+],
+"text": "Blood-based liquid biopsy has enabled minimally invasive molecular profiling in patients with solid tumors. For cancers of the CNS, however, the use of peripheral blood for cell-free DNA (cfDNA) detection and sequencing has proved challenging because of scant levels of tumor-derived material shed into systemic circulation. An alternative is to use cerebrospinal fluid (CSF), which contains a greater concentration of tumor-derived cfDNA in patients with brain tumors (BTs). CSF liquid biopsy is a relatively nascent field, with critical unanswered questions regarding preanalytical variables that may affect assay performance. In an effort to identify and standardize key preanalytical variables, the Blood Profiling Atlas in Cancer (BLOODPAC) Consortium launched a BT Working Group in 2022. We reviewed protocols for CSF sample collection and processing used by expert Working Group members at their respective academic institutions and diagnostic companies, as well as the available literature on CSF liquid biopsy. Through a collaborative and iterative process, we developed a list of key preanalytical variables for cfDNA-based CSF liquid biopsy in patients with primary and metastatic brain malignancies. The Working Group agreed on a recommended list of preanalytical minimum technical data elements, clinical context data elements, and patient context data elements for cfDNA-based CSF liquid biopsy in patients with CNS malignancies. A subset of variables were considered to be of critical priority and are designated as required annotations to submissions of cfDNA-based CSF liquid biopsy sample data into the BLOODPAC Data Commons. We propose a list of preanalytical variables relevant for cfDNA-based CSF liquid biopsy, with the overarching goal of encouraging routine collection and reporting of these variables in future studies.",
+"statements": [
+{
+"j": 1,
+"text": "The Working Group restricted its recommendations to patients with primary brain malignancies, excluding metastatic disease."
+},
+{
+"j": 2,
+"text": "The Working Group recommended processing CSF within two hours of collection."
+},
+{
+"j": 3,
+"text": "The BLOODPAC Consortium formed a brain tumour working group in 2022 to standardise preanalytical variables for CSF liquid biopsy."
+},
+{
+"j": 4,
+"text": "A subset of critical-priority variables became required annotations for CSF liquid biopsy data submitted to the BLOODPAC Data Commons."
+}
+]
+},
+{
+"n": 33,
+"id": "pmid:41364261",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Purpose",
+"text": "We aimed to investigate the prevalence and spectrum of ESR1 mutations alongside cell-free DNA (cfDNA) dynamics in patients with estrogen receptor-positive metastatic breast cancer recruited to the phase II IRIS study who had progressed on first-line aromatase inhibitor (AI) therapy and then continued their AI in combination with Irusostat (40 mg), an irreversible steroid sulfatase inhibitor."
+},
+{
+"label": "Methods",
+"text": "cfDNA was isolated from 96 serial plasma samples from 24 patients, alongside primary tumour DNA (n = 16), and analysed by next-generation sequencing using a custom-designed mutation panel on the Illumina NovaSeq platform."
+},
+{
+"label": "Results",
+"text": "Thirteen of 16 tumour DNA samples harboured at least one somatic mutation across nine genes. Twenty one of the 24 patients (88%) had at least one somatic mutation in cfDNA (248 total mutations across 10 genes). Circulating tumour DNA ESR1 mutations (ctESR1m) were the most prevalent, present in 16 patients (76%) with both stable (SD) and progressive disease (PD), showing no clear association with disease progression. Eleven patients had polyclonal ctESR1m within the ligand-binding domain, six at baseline, while five harboured a single ctESR1m variant. Five other patients acquired polyclonal mutations over treatment."
+},
+{
+"label": "Conclusions",
+"text": "Analysis of serial plasma samples revealed highly dynamic ctESR1m during AI treatment and frequent detection of polyclonal ctESR1m in patients (both with SD and PD) recruited to the IRIS study. These findings, albeit in a limited sample size, underscore the challenge of targeting a single ESR1 mutation and emphasise the need for careful patient selection, specifically those with wild-type ESR1, in trials investigating sequential estrogen-lowering therapies."
+}
+],
+"text": "We aimed to investigate the prevalence and spectrum of ESR1 mutations alongside cell-free DNA (cfDNA) dynamics in patients with estrogen receptor-positive metastatic breast cancer recruited to the phase II IRIS study who had progressed on first-line aromatase inhibitor (AI) therapy and then continued their AI in combination with Irusostat (40 mg), an irreversible steroid sulfatase inhibitor. cfDNA was isolated from 96 serial plasma samples from 24 patients, alongside primary tumour DNA (n = 16), and analysed by next-generation sequencing using a custom-designed mutation panel on the Illumina NovaSeq platform. Thirteen of 16 tumour DNA samples harboured at least one somatic mutation across nine genes. Twenty one of the 24 patients (88%) had at least one somatic mutation in cfDNA (248 total mutations across 10 genes). Circulating tumour DNA ESR1 mutations (ctESR1m) were the most prevalent, present in 16 patients (76%) with both stable (SD) and progressive disease (PD), showing no clear association with disease progression. Eleven patients had polyclonal ctESR1m within the ligand-binding domain, six at baseline, while five harboured a single ctESR1m variant. Five other patients acquired polyclonal mutations over treatment. Analysis of serial plasma samples revealed highly dynamic ctESR1m during AI treatment and frequent detection of polyclonal ctESR1m in patients (both with SD and PD) recruited to the IRIS study. These findings, albeit in a limited sample size, underscore the challenge of targeting a single ESR1 mutation and emphasise the need for careful patient selection, specifically those with wild-type ESR1, in trials investigating sequential estrogen-lowering therapies.",
+"statements": [
+{
+"j": 1,
+"text": "Most patients with circulating ESR1 mutations carried a single variant rather than polyclonal mutations."
+},
+{
+"j": 2,
+"text": "Circulating ESR1 mutations were found in patients with both stable and progressive disease, with no clear link to progression."
+},
+{
+"j": 3,
+"text": "ESR1 mutations were detected in the primary tumour DNA of the 16 patients with available tissue."
+},
+{
+"j": 4,
+"text": "Twenty-one of 24 patients (88%) carried at least one somatic mutation in cfDNA."
+}
+]
+},
+{
+"n": 34,
+"id": "doi:10.1101/2024.05.20.24307623",
+"year": 2024,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": "Introduction",
+"text": "In the past years, there has been a rise on advanced endometrial cancers (EC) patients resulting in mortality increase. To overcome this trend, it is essential to improve the stratification of the risk of post-surgery recurrence and to anticipate the development of disease relapse and resistance to treatment. Liquid biopsy analyses represent a promising tool to address these clinical challenges, however, the best strategy to efficiently apply them in the context of EC must be better defined. Therefore, the study was designed to determine the value of cfDNA/ctDNA monitoring to improve the clinical management of patients with localized and recurrent disease."
+},
+{
+"label": "Material & Methods",
+"text": "Plasma samples and the uterine aspirate (UA) from 198 patients with EC were collected in different Spanish hospitals at surgery and throughout the course of the disease. The genetic landscape of UAs was characterized using targeted sequencing. Total cfDNA was isolated from all plasma samples, quantified, and analysed for the presence of ctDNA based on the mutational profile found on the UAs."
+},
+{
+"label": "Results",
+"text": "The genetic characterization of UAs obtained at surgery allowed the identification of pathogenetic variants in the 95,45% of the tumours and ctDNA levels could be monitored in the 89,4% of the patients. High levels of cfDNA and detectable levels of ctDNA at baseline correlated with poor prognosis, for both DFS (p-value<0.0001; HR=9,25) and DSS (p-value<0.0001; HR=11,20). Importantly, this approach remains clinically significant when stratifying tumours based on histopathological risk factors, highlighting its additional value to identify patient with a poor evolution. In fact, cfDNA/ctDNA analysis served to identify patients who showed early post-surgery relapse. Moreover, longitudinal analyses of cfDNA/ctDNA proved to be a powerful asset to identify patients undergoing relapse, months prior to the arisen of any clinical evidence."
+},
+{
+"label": "Conclusion",
+"text": "This study represents the most comprehensive study on cfDNA/ctDNA characterization in EC and demonstrates its value to improve the risk stratification and anticipate the disease relapse in patients with localized disease. Besides, the dynamic ctDNA assessment showed utility to complement the current strategies to monitor disease evolution and the response to treatment. Implementation of cfDNA/ctDNA monitoring into the clinical routine will provide an unique opportunity to improve EC management."
+}
+],
+"text": "In the past years, there has been a rise on advanced endometrial cancers (EC) patients resulting in mortality increase. To overcome this trend, it is essential to improve the stratification of the risk of post-surgery recurrence and to anticipate the development of disease relapse and resistance to treatment. Liquid biopsy analyses represent a promising tool to address these clinical challenges, however, the best strategy to efficiently apply them in the context of EC must be better defined. Therefore, the study was designed to determine the value of cfDNA/ctDNA monitoring to improve the clinical management of patients with localized and recurrent disease. Plasma samples and the uterine aspirate (UA) from 198 patients with EC were collected in different Spanish hospitals at surgery and throughout the course of the disease. The genetic landscape of UAs was characterized using targeted sequencing. Total cfDNA was isolated from all plasma samples, quantified, and analysed for the presence of ctDNA based on the mutational profile found on the UAs. The genetic characterization of UAs obtained at surgery allowed the identification of pathogenetic variants in the 95,45% of the tumours and ctDNA levels could be monitored in the 89,4% of the patients. High levels of cfDNA and detectable levels of ctDNA at baseline correlated with poor prognosis, for both DFS (p-value<0.0001; HR=9,25) and DSS (p-value<0.0001; HR=11,20). Importantly, this approach remains clinically significant when stratifying tumours based on histopathological risk factors, highlighting its additional value to identify patient with a poor evolution. In fact, cfDNA/ctDNA analysis served to identify patients who showed early post-surgery relapse. Moreover, longitudinal analyses of cfDNA/ctDNA proved to be a powerful asset to identify patients undergoing relapse, months prior to the arisen of any clinical evidence. This study represents the most comprehensive study on cfDNA/ctDNA characterization in EC and demonstrates its value to improve the risk stratification and anticipate the disease relapse in patients with localized disease. Besides, the dynamic ctDNA assessment showed utility to complement the current strategies to monitor disease evolution and the response to treatment. Implementation of cfDNA/ctDNA monitoring into the clinical routine will provide an unique opportunity to improve EC management.",
+"statements": [
+{
+"j": 1,
+"text": "ctDNA detection at baseline was more frequent in serous than in endometrioid endometrial carcinomas."
+},
+{
+"j": 2,
+"text": "Targeted sequencing of uterine aspirates found pathogenic variants in 95.45% of tumours and allowed ctDNA monitoring in 89.4% of patients."
+},
+{
+"j": 3,
+"text": "Longitudinal cfDNA/ctDNA analysis flagged relapsing patients months before any clinical evidence appeared."
+},
+{
+"j": 4,
+"text": "Baseline cfDNA and ctDNA levels lost prognostic significance once tumours were stratified by histopathological risk factors."
+}
+]
+}
+]
+}

@@ -1,0 +1,38 @@
+{"batch": "check_C_50b", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1140, "id": "pmid:30449315",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Ginger ELNs (GELNs) are preferentially taken up by Lactobacillaceae in a GELN lipid-dependent manner"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "These functions of GELN-RNAs can ameliorate mouse colitis via IL-22-dependent mechanisms."},
+      {"j": 3, "label": "supported", "confidence": 2, "evidence": "Among these, GELN mdo-miR7267-3p-mediated targeting of the LGG monooxygenase ycnE yields increased indole-3-carboxaldehyde (I3A)."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "These functions of GELN-RNAs can ameliorate mouse colitis via IL-22-dependent mechanisms."}
+    ]},
+   {"n": 1141, "id": "pmid:26802132",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Apoptosis repressor with CARD domain transgenic mice showed reduced hypertrophic responses."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "miR-223 transgenic mice developed cardiac hypertrophy and heart failure, whereas miR-223-deficient mice were protected from hypertrophic stimuli"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Heart-related circRNA directly bound to miR-223 in cytoplasm and enforced expression of HRCR in cardiomyocytes and in mice both exhibited attenuated hypertrophic responses."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Modulation of their levels provides an attractive therapeutic target for the treatment of cardiac hypertrophy and heart failure."}
+    ]},
+   {"n": 1142, "id": "pmid:28080204",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Further analysis revealed that HuR did not influence CircPABPN1 abundance; interestingly, however, high levels of CircPABPN1 suppressed HuR binding to PABPN1 mRNA."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Evaluation of PABPN1 mRNA polysomes indicated that PABPN1 translation was modulated positively by HuR and hence negatively by CircPABPN1."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Here, we have identified en masse circRNAs binding HuR in human cervical carcinoma HeLa cells."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "One of the most prominent HuR target circRNAs was hsa_circ_0031288, renamed CircPABPN1 as it arises from the PABPN1 pre-mRNA."}
+    ]},
+   {"n": 1143, "id": "pmid:30449621",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "mRNA acetylation was further demonstrated to enhance substrate translation in vitro and in vivo."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Ablation of NAT10 reduced ac4C detection at the mapped mRNA sites and was globally associated with target mRNA downregulation."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Transcriptome-wide mapping of ac4C revealed discretely acetylated regions that were enriched within coding sequences."},
+      {"j": 4, "label": "supported", "confidence": 2, "evidence": "Codon content analysis within ac4C peaks uncovered a biased representation of cytidine within wobble sites that was empirically determined to influence mRNA decoding efficiency.", "flag": "ambiguous", "reason": "The abstract says only 'biased representation' of cytidine at wobble sites, so 'over-represented' is the natural but not the only reading of the bias direction."}
+    ]},
+   {"n": 1144, "id": "pmid:31031002",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Importantly, overexpression of the dsRNA-containing circRNA in PBMCs or T cells derived from SLE can alleviate the aberrant PKR activation cascade"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "endogenous circRNAs tend to form 16-26 bp imperfect RNA duplexes and act as inhibitors of double-stranded RNA (dsRNA)-activated protein kinase (PKR) related to innate immunity."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Upon poly(I:C) stimulation or viral infection, circRNAs are globally degraded by RNase L, a process required for PKR activation in early cellular innate immune responses."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Augmented PKR phosphorylation and circRNA reduction are found in peripheral blood mononuclear cells (PBMCs) derived from patients with autoimmune disease systemic lupus erythematosus (SLE)."}
+    ]}
+ ]}

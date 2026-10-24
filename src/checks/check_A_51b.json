@@ -1,0 +1,38 @@
+{"batch": "check_A_51b", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1155, "id": "pmid:31228940",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We confirmed the oncogenic role of METTL3 in bladder cancer by accelerating the maturation of pri-miR221/222, resulting in the reduction of PTEN, which ultimately leads to the proliferation of bladder cancer."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "RNA immunoprecipitation (RIP), co-immunoprecipitations and RNA m6A dot blot assays were conducted to confirm that METTL3 interacted with the microprocessor protein DGCR8 and modulated the pri-miR221/222 process in an m6A-dependent manner."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Moreover, we found that METTL3 was significantly increased in bladder cancer and correlated with poor prognosis of bladder cancer patients."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Moreover, we found that METTL3 was significantly increased in bladder cancer and correlated with poor prognosis of bladder cancer patients.", "flag": "ill_formed", "reason": "The statement contradicts itself, saying METTL3 expression was decreased and then referring to 'this elevated expression'."}
+    ]},
+   {"n": 1156, "id": "pmid:29051200",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Using crosslinking and analysis of cDNA (CRAC), we reveal that the putative human m 6 A \"writer\" protein METTL16 binds to the U6 snRNA and other ncRNAs as well as numerous lncRNAs and pre-mRNAs."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We demonstrate that METTL16 is responsible for N 6 -methylation of A43 of the U6 snRNA"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "A43 lies within an essential ACAGAGA box of U6 that base pairs with 5' splice sites of pre-mRNAs during splicing"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "While many m 6 A modifications are installed by the METTL3-METTL14 complex, others appear to be introduced independently, implying that additional human m 6 A methyltransferases remain to be identified."}
+    ]},
+   {"n": 1157, "id": "pmid:31619685",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "The upregulated expression of circNSUN2 promotes LM in PDX metastasis models in vivo and accelerates cancer cells invasion in vitro."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Clinically, the upregulated expressions of circNSUN2 and HMGA2 are more prevalent in LM tissues than in primary CRC tissues."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Importantly, N 6 -methyladenosine modification of circNSUN2 increases export to the cytoplasm."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "circNSUN2, frequently upregulated in tumor tissues and serum samples from colorectal carcinoma (CRC) patients with liver metastasis (LM) and predicts poorer patient survival"}
+    ]},
+   {"n": 1158, "id": "pmid:31155234",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Importantly, dozens of microproteins are translated from lncRNAs with well-characterized noncoding functions, indicating previously unrecognized biology."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We show extensive translational control of cardiac gene expression, which is orchestrated in a process-specific manner."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We identify hundreds of previously undetected microproteins, expressed from lncRNAs and circRNAs, for which we validate the protein products in vivo."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We associate these microproteins with diverse cellular processes and compartments and find that many locate to the mitochondria."}
+    ]},
+   {"n": 1159, "id": "pmid:29887379",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Without Cyrano, excess miR-7 causes cytoplasmic destruction of Cdr1as in neurons, in part through enhanced slicing of Cdr1as by a second miRNA, miR-671."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "By reducing miR-7 levels, Cyrano prevents repression of miR-7-targeted mRNAs and enables accumulation of Cdr1as, a circular RNA known to regulate neuronal activity."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "using gene editing in mice to probe the molecular consequences of disrupting key components of this network"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Cyrano-directed miR-7 degradation is much more effective than previously described examples of target-directed microRNA degradation, which come primarily from studies of artificial and viral RNAs."}
+    ]}
+ ]}

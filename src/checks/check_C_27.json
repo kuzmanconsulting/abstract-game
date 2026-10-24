@@ -1,0 +1,144 @@
+{"batch": "check_C_27", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+  {"n": 780, "id": "pmid:39506153",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Genetic or pharmacological CHK1 inhibition causes extensive and preferential tumour cell death in ecDNA-containing tumours."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Nucleotide incorporation on ecDNA is markedly slower, and replication stress is significantly higher in ecDNA-containing tumours regardless of cancer type or oncogene cargo."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "In a gastric cancer model containing FGFR2 amplified on ecDNA, BBI-2779 suppresses tumour growth and prevents ecDNA-mediated acquired resistance to the pan-FGFR inhibitor infigratinib, resulting in potent and sustained tumour regression in mice."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Genetic or pharmacological CHK1 inhibition causes extensive and preferential tumour cell death in ecDNA-containing tumours."}
+   ]},
+  {"n": 781, "id": "pmid:39048831",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "It is estimated that only 0.02% of disseminated tumour cells are able to seed overt metastases 1 ."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "We dissect a mechanism through which plexin B2 interacts with class IV semaphorins on tumour cells, leading to KLF4 upregulation and thereby promoting the acquisition of epithelial traits."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "We identify plexin B2 as a critical host-derived regulator of liver colonization in colorectal and pancreatic cancer and melanoma syngeneic mouse models."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Blocking the plexin-B2-semaphorin axis abolishes metastatic colonization of the liver and therefore represents a therapeutic strategy for the prevention of hepatic metastases."}
+   ]},
+  {"n": 782, "id": "pmid:39020166",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Here we develop an in vivo single-cell CRISPR strategy to systematically investigate tissue-wide clonal dynamics of the 150 most frequently mutated squamous cell carcinoma genes."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "show that the TNF signature correlates with shorter overall survival of patients with squamous cell carcinoma"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "We uncover a tumour necrosis factor (TNF) signalling module, which is dependent on TNF receptor 1 and involving macrophages, that acts as a generalizable driver of clonal expansions in epithelial tissues."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Conversely, during tumorigenesis, the TNF signalling module is downregulated."}
+   ]},
+  {"n": 783, "id": "pmid:37165195",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Analysis of matched cancers further suggested that somatic L1 retrotransposition rate is substantially increased during colorectal tumourigenesis."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "We identified 1,708 somatic L1 retrotransposition events that were enriched in colorectal epithelium and showed a positive relationship with age.", "flag": "ill_formed", "reason": "'grew fewer numerous with increasing age' is ungrammatical, but reads as a reversal of the abstract's positive relationship with age."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "retrotransposition-competent L1s with a lower population allele frequency have higher retrotransposition activity"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Here we explored the whole-genome sequences of 899 single-cell clones established from three different cell types collected from 28 individuals. We identified 1,708 somatic L1 retrotransposition events"}
+   ]},
+  {"n": 784, "id": "pmid:41115454",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "The response rate was 26% and included six patients with a major pathological response (10% or less residual viable tumour)."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "These results provide a comprehensive analysis of response to neoadjuvant immune checkpoint blockade in early-stage pMMR colon cancers and identify potential biomarkers for patient selection."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "clearance was observed in 5 of 6 responders before surgery, whereas 19 of 20 non-responders remained circulating tumour DNA positive"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Responses were observed despite a low tumour mutational burden in all tumours, whereas chromosomal genomic instability scores were significantly higher in responders than in non-responders."}
+   ]},
+  {"n": 785, "id": "pmid:37853119",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "B. fragilis Cmr does not synthesize cyclic oligoadenylate species on activation, instead generating S-adenosyl methionine (SAM)-AMP (SAM is also known as AdoMet) by conjugating ATP to SAM via a phosphodiester bond"},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Here we demonstrate that the CorA-associated type III-B (Cmr) CRISPR system from Bacteroides fragilis provides immunity against mobile genetic elements when expressed in Escherichia coli."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "SAM-AMP is degraded by CRISPR-associated phosphodiesterases or a SAM-AMP lyase"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Here we demonstrate that the CorA-associated type III-B (Cmr) CRISPR system from Bacteroides fragilis provides immunity against mobile genetic elements when expressed in Escherichia coli."}
+   ]},
+  {"n": 786, "id": "pmid:40634612",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "The differential amplification of transposable elements after barley and H. bulbosum diverged from each other is responsible for genome size differences between them."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Here we construct a pangenome of bulbous barley comprising 10 phased genome sequence assemblies amounting to 32 distinct haplotypes."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The differential amplification of transposable elements after barley and H. bulbosum diverged from each other is responsible for genome size differences between them."},
+     {"j": 4, "label": "contradicted", "confidence": 2, "evidence": "Autotetraploid cytotypes, among which the donors of resistance-conferring introgressions are found, arose at least twice, and are connected among each other and to diploid forms through gene flow.", "flag": "ambiguous", "reason": "'at most two occasions' reverses the abstract's lower bound 'at least twice', though the two overlap if the number is exactly two."}
+   ]},
+  {"n": 787, "id": "pmid:38795705",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "including allopregnanolone, better known as brexanolone, an FDA-approved drug for postpartum depression"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "we show that the human gut bacteria Gordonibacter pamelaeae and Eggerthella lenta convert abundant biliary corticoids into progestins through 21-dehydroxylation"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "We also uncover an unexpected role for hydrogen gas production by gut commensals in promoting 21-dehydroxylation"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Levels of certain bacterial progestins, including allopregnanolone, better known as brexanolone, an FDA-approved drug for postpartum depression, are substantially increased in feces from pregnant humans."}
+   ]},
+  {"n": 788, "id": "pmid:39952247",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "These are either synonymous m 6 A-DMs (sm 6 A-DMs) or missense m 6 A-DMs (mm 6 A-DMs) mutations, and the former is enriched within tumor suppressor genes, such as CDKN2A and BRCA2."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "we identified 12,849 mutations in the cancer genome with the potential to perturb m 6 A modification patterns"},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "introducing CDKN2A sm 6 A-DMs into cancer cells promotes tumor growth while BRCA2 sm 6 A-DMs sensitize tumors to the poly (ADP-ribose) polymerase inhibitor (PARPi) treatment"},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "These are either synonymous m 6 A-DMs (sm 6 A-DMs) or missense m 6 A-DMs (mm 6 A-DMs) mutations"}
+   ]},
+  {"n": 789, "id": "pmid:39368476",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Within our pyrenoid interaction network are 10 proteins with previously unknown functions."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "We show that six of these form a shell that encapsulates the Rubisco matrix and is critical for pyrenoid structural integrity, shape, and function."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We show that six of these form a shell that encapsulates the Rubisco matrix and is critical for pyrenoid structural integrity, shape, and function."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Diatom pyrenoids fix approximately one-fifth of global CO 2"}
+   ]},
+  {"n": 790, "id": "pmid:37557170",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "The N-terminal domain of TniQ is bound to the seam region of the TnsC spiral heptamer."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "These CRISPR-associated transposons (CASTs) are promising tools for programmable gene knockin."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Target DNA recognition by Cascade induces conformational changes in Cas6 and primes TniQ recruitment through its C-terminal domain."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "we present the cryo-EM structure of a recruitment complex comprising the Cascade complex, TniQ, TnsC, and the target DNA in the type I-B CAST from Peltigera membranacea cyanobiont 210A"}
+   ]},
+  {"n": 791, "id": "pmid:37562403",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "The uplift of the study site in the last 65 million years has resulted in life-threatening UV-B radiation and drastically reduced temperatures, and we detected several of the molecular adaptations of Takakia to these environmental changes."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "We document the steepest temperature increase (2010-2021) on record at altitudes of above 4,000 m, triggering a decline of the relictual and highly adapted moss Takakia lepidozioides."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Its de-novo-sequenced genome with 27,467 protein-coding genes includes distinct adaptations to abiotic stresses and comprises the largest number of fast-evolving genes under positive selection."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We document the steepest temperature increase (2010-2021) on record at altitudes of above 4,000 m, triggering a decline of the relictual and highly adapted moss Takakia lepidozioides."}
+   ]},
+  {"n": 792, "id": "pmid:38218188",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "The risk variants found in the cases cause loss of function and result in a ∼10-fold increased odds of acquiring a myeloid malignancy."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Partial CTR9 loss of function expands human hematopoietic stem cells (HSCs) by increased super elongation complex-mediated transcriptional activity, which thereby increases the expression of key regulators of HSC self-renewal."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "CTR9, which encodes a key component of the PAF1 transcription elongation complex, is among the significant genes identified."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "The risk variants found in the cases cause loss of function and result in a ∼10-fold increased odds of acquiring a myeloid malignancy."}
+   ]},
+  {"n": 793, "id": "pmid:42105763",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "the derived low-cost spatial TME landscapes enable more accurate predictions of patient response to chemotherapy and trastuzumab compared with costly conventional bulk-sequencing-based biomarkers"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Charting the tumor microenvironment (TME) of 976 breast cancer TCGA (The Cancer Genome Atlas) tumors, it accurately infers cell-type abundances and identifies three spatially defined breast cancer subgroups with distinct survival outcomes."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "with potential applicability across many cancer indications"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Trained on extensive breast cancer ST data, Path2Space robustly predicts the spatial expression of thousands of genes, outperforming 21 established methods."}
+   ]},
+  {"n": 794, "id": "pmid:38608703",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Germline monoallelic BRCA2 mutations predispose to these changes."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "could link glycolysis activation by oncogenes, metabolic disorders, or dietary challenges to mutational signatures implicated in cancer evolution"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "the glycolytic metabolite methylglyoxal (MGO) transiently bypasses Knudson's paradigm by inactivating the breast cancer suppressor protein BRCA2 to elicit a cancer-associated, mutational single-base substitution (SBS) signature in nonmalignant mammary cells or patient-derived organoids"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "MGO triggers BRCA2 proteolysis, temporarily disabling BRCA2's tumor suppressive functions in DNA repair and replication, causing functional haploinsufficiency."}
+   ]},
+  {"n": 795, "id": "pmid:42748920",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "We reveal that domestication selection within sequence-defined sweeps fixed 57% of 3D conformation signatures, thereby decoupling sequence-level from chromatin-level selection and shifting the subgenome expression balance of 39 homoeologs in cultivated cotton."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Chromatin interactome-wide association studies identified 105 TAD reconfigurations and 58 loop rewirings that were established as the 3D chromatin basis of fiber quality, boosting heritability estimates for fiber strength by 16% and fiber length by 20%."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Using population-scale Hi-C profiling of 34 semi-wild and 267 cultivated allotetraploid cottons, we generated a pan-3D genome atlas"},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Sequence-based modeling and mutational analyses identified the C2H2 zinc-finger protein YY1 as a conserved mediator of 3D genome organization."}
+   ]},
+  {"n": 796, "id": "pmid:38772369",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Through extensive tests of 86 vectors across AAV serotypes combined with a transposon system, we substantially amplified labeling efficacy and accelerated in vivo gene delivery from weeks to days."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Notably, our platform can label >6% of cerebral cells, surpassing the current state-of-the-art efficacy at <0.1% by lentivirus"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Our proof-of-principle in utero screen identified the pleiotropic effects of Foxg1, highlighting its tight regulation of distinct networks essential for cell fate specification of Layer 6 corticothalamic neurons."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "our platform can label >6% of cerebral cells, surpassing the current state-of-the-art efficacy at <0.1% by lentivirus, to achieve analysis of over 30,000 cells in one experiment"}
+   ]},
+  {"n": 797, "id": "pmid:40187346",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Across thousands of species, we discovered 79 taxonomically diverse putative colonization factors organized into operonic and non-operonic modules."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "They include previously characterized colonization pathways such as autoinducer-2 biosynthesis and novel processes including tRNA modification and translation."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "In vivo functional validation revealed YigZ (IMPACT family) and tRNA hydroxylation protein-P (TrhP) are required for E. coli intestinal colonization."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Overexpressing YigZ alone is sufficient to enhance colonization of the poorly colonizing MG1655 E. coli by >100-fold."}
+   ]},
+  {"n": 798, "id": "pmid:39481380",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "We find ovarian cancer cells are the key source of IL-4, which directs the formation of an immunosuppressive TME via macrophage control."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Perturb-map recapitulated tumor heterogeneity and revealed that interleukin-4 (IL-4) promotes resistance to anti-PD-1."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "They also demonstrate the potential of targeting IL-4 signaling to enhance ovarian cancer response to immunotherapy."},
+     {"j": 4, "label": "contradicted", "confidence": 2, "evidence": "IL-4 loss was not compensated by nearby IL-4-expressing clones, revealing short-range regulation of TME composition dictating tumor evolution.", "flag": "ambiguous", "reason": "The statement swaps the abstract's IL-4 loss for IL-4 gain, which is incompatible as written but could instead be read as a scenario the abstract never tested."}
+   ]},
+  {"n": 799, "id": "pmid:42546688",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We show that L1-driven SHM occurs in vivo using HUSH conditional knockout mice and engineered mice with V H genes devoid of upstream L1s."},
+     {"j": 2, "label": "supported", "confidence": 2, "evidence": "We report the discovery of LINE-1 (L1) retrotransposons upstream to many V H genes in the immunoglobulin locus. These L1s are evolutionarily old, truncated, and retrotransposition dead.", "flag": "ill_formed", "reason": "'no shorter able to retrotranspose' is ungrammatical; read as the intended 'no longer able' it matches the abstract's 'retrotransposition dead'."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Recombined V H promoters generate long, strong antisense RNAs encoding upstream L1s, triggering the human silencing hub (HUSH) complex and AID recruitment, which we term L1-driven SHM."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Insertion of transcriptionally active L1s at non-immunoglobulin loci endogenously lacking upstream L1s promotes off-target SHM."}
+   ]}
+ ]
+}

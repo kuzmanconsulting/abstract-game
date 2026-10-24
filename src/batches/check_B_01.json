@@ -1,0 +1,1243 @@
+{
+"batch": "check_B_01",
+"pass": "B",
+"source_batch": "gen_01",
+"items": [
+{
+"n": 35,
+"id": "pmid:38846976",
+"year": 2024,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "As circulating tumour DNA (ctDNA) liquid biopsy analysis is increasingly incorporated into modern oncological practice, establishing the impact of genomic intra-tumoural heterogeneity (ITH) upon data output is paramount. Despite advances in other cancer types the evidence base in head and neck squamous cell carcinoma (HNSCC) remains poor. We sought to investigate the utility of ctDNA to detect ITH in HNSCC."
+},
+{
+"label": "Methods",
+"text": "In a pilot cohort of 9 treatment-naïve HNSCC patients, DNA from two intra-tumoural sites (core and margin) was whole-exome sequenced. A 9-gene panel was designed to perform targeted sequencing on pre-treatment plasma cell-free DNA and selected post-treatment samples."
+},
+{
+"label": "Results",
+"text": "Rates of genomic ITH among the 9 patients was high. COSMIC variants from 19 TCGA HNSCC genes demonstrated an 86.9% heterogeneity rate (present in one tumour sub-site only). Across all patients, cell-free DNA (ctDNA) identified 12.9% (range 7.5-19.8%) of tumour-specific variants, of which 55.6% were specific to a single tumour sub-site only. CtDNA identified 79.0% (range: 55.6-90.9%) of high-frequency variants (tumour VAF>5%). Analysis of ctDNA in serial post-treatment blood samples in patients who suffered recurrence demonstrated dynamic changes in both tumour-specific and acquired variants that predicted recurrence ahead of clinical detection."
+},
+{
+"label": "Conclusion",
+"text": "We demonstrate that a ctDNA liquid biopsy identified spatial genomic ITH in HNSCC and reliably detected high-frequency driver mutations. Serial sampling allowed post-treatment surveillance and early identification of treatment failure."
+}
+],
+"text": "As circulating tumour DNA (ctDNA) liquid biopsy analysis is increasingly incorporated into modern oncological practice, establishing the impact of genomic intra-tumoural heterogeneity (ITH) upon data output is paramount. Despite advances in other cancer types the evidence base in head and neck squamous cell carcinoma (HNSCC) remains poor. We sought to investigate the utility of ctDNA to detect ITH in HNSCC. In a pilot cohort of 9 treatment-naïve HNSCC patients, DNA from two intra-tumoural sites (core and margin) was whole-exome sequenced. A 9-gene panel was designed to perform targeted sequencing on pre-treatment plasma cell-free DNA and selected post-treatment samples. Rates of genomic ITH among the 9 patients was high. COSMIC variants from 19 TCGA HNSCC genes demonstrated an 86.9% heterogeneity rate (present in one tumour sub-site only). Across all patients, cell-free DNA (ctDNA) identified 12.9% (range 7.5-19.8%) of tumour-specific variants, of which 55.6% were specific to a single tumour sub-site only. CtDNA identified 79.0% (range: 55.6-90.9%) of high-frequency variants (tumour VAF>5%). Analysis of ctDNA in serial post-treatment blood samples in patients who suffered recurrence demonstrated dynamic changes in both tumour-specific and acquired variants that predicted recurrence ahead of clinical detection. We demonstrate that a ctDNA liquid biopsy identified spatial genomic ITH in HNSCC and reliably detected high-frequency driver mutations. Serial sampling allowed post-treatment surveillance and early identification of treatment failure.",
+"statements": [
+{
+"j": 1,
+"text": "Circulating tumour DNA detected fewer than a quarter of the high-frequency tumour variants with variant allele frequency above 5%."
+},
+{
+"j": 2,
+"text": "Plasma detection of tumour-specific variants was more sensitive in advanced-stage tumours than in early-stage disease."
+},
+{
+"j": 3,
+"text": "Among COSMIC variants in 19 TCGA head and neck genes, 86.9% were present at only one of the two tumour sub-sites sampled."
+},
+{
+"j": 4,
+"text": "Across all patients ctDNA captured 12.9% of tumour-specific variants, but 79.0% of those present in tumour above 5% variant allele frequency."
+}
+]
+},
+{
+"n": 36,
+"id": "pmid:39026103",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Somatic hypermutation in cancer has gained momentum with the increased use of tumour mutation burden as a biomarker for immune checkpoint inhibitors. Spontaneous deamination of 5-methylcytosine to thymine at CpG dinucleotides is one of the most ubiquitous endogenous mutational processes in normal and cancer cells. Here, we performed a systematic investigation of somatic CpG hypermutation at a pan-cancer level. We studied 30,191 cancer patients and 103 cancer types and developed an algorithm to identify somatic CpG hypermutation. Across cancer types, we observed the highest prevalence in paediatric leukaemia (3.5%), paediatric high-grade glioma (1.7%), and colorectal cancer (1%). We discovered germline variants and somatic mutations in the mismatch repair complex MutSα (MSH2-MSH6) as genetic drivers of somatic CpG hypermutation in cancer, which frequently converged on CpG sites and TP53 driver mutations. We further observe an association between somatic CpG hypermutation and response to immune checkpoint inhibitors. Overall, our study identified novel cancer types that display somatic CpG hypermutation, strong association with MutSα-deficiency, and potential utility in cancer immunotherapy."
+}
+],
+"text": "Somatic hypermutation in cancer has gained momentum with the increased use of tumour mutation burden as a biomarker for immune checkpoint inhibitors. Spontaneous deamination of 5-methylcytosine to thymine at CpG dinucleotides is one of the most ubiquitous endogenous mutational processes in normal and cancer cells. Here, we performed a systematic investigation of somatic CpG hypermutation at a pan-cancer level. We studied 30,191 cancer patients and 103 cancer types and developed an algorithm to identify somatic CpG hypermutation. Across cancer types, we observed the highest prevalence in paediatric leukaemia (3.5%), paediatric high-grade glioma (1.7%), and colorectal cancer (1%). We discovered germline variants and somatic mutations in the mismatch repair complex MutSα (MSH2-MSH6) as genetic drivers of somatic CpG hypermutation in cancer, which frequently converged on CpG sites and TP53 driver mutations. We further observe an association between somatic CpG hypermutation and response to immune checkpoint inhibitors. Overall, our study identified novel cancer types that display somatic CpG hypermutation, strong association with MutSα-deficiency, and potential utility in cancer immunotherapy.",
+"statements": [
+{
+"j": 1,
+"text": "Germline variants and somatic mutations in the MutSa complex MSH2-MSH6 drove somatic CpG hypermutation, frequently converging on CpG sites and TP53 driver mutations."
+},
+{
+"j": 2,
+"text": "Prevalence of somatic CpG hypermutation was highest in paediatric leukaemia at 3.5%, then paediatric high-grade glioma at 1.7% and colorectal cancer at 1%."
+},
+{
+"j": 3,
+"text": "Somatic CpG hypermutation showed no association with response to immune checkpoint inhibitors."
+},
+{
+"j": 4,
+"text": "CpG deamination produces a higher tumour mutation burden than tobacco-associated mutational processes."
+}
+]
+},
+{
+"n": 37,
+"id": "pmid:42716387",
+"year": 2026,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The disposal of waste activated sludge (WAS) is challenged by poor dewaterability and environmental risks associated with antibiotic resistance genes (ARGs). Although advanced oxidation is promising for sludge conditioning, whether prolonged oxidation continuously benefits both dewatering and biological risk control remains unclear. Here, Fe 2+ -activated peracetic acid (PAA) was applied to WAS to evaluate the time-dependent responses of sludge dewaterability, ARGs, potential pathogens, extracellular polymeric substances, iron speciation and microbial functions. The Fe 2+ /PAA process exhibited different temporal changes between sludge dewatering and phase-specific biological risks rather than continuous improvement with prolonged oxidation. At 40 min, sludge dewaterability was markedly improved, accompanied by the greatest reduction in the total abundance of ARGs and mobile genetic elements (MGEs) in solid phase. Meanwhile, potential pathogens harboring multiple ARGs were also suppressed, suggesting reduced potentials for horizontal and vertical ARGs dissemination. Extending the reaction to 60 min achieved the highest removal efficiency for liquid phase ARGs and MGEs, while these ARGs-carrying pathogens remained inhibited; but accompanied by sludge dewaterability deterioration and a rebound in solid-associated ARGs and MGEs abundance. These changes were attributed to late-stage iron precipitations, which increased filtration resistance and caused the retention of genetic materials in the solid phase. Moreover, the recovery of stress-adaptive microbial functions may provide favorable conditions for ARGs transfer. Overall, this study reveals new insights into the time-dependent mechanisms governing dewatering performance and phase-specific risk control, providing a basis for tailoring treatment according to downstream management priorities."
+}
+],
+"text": "The disposal of waste activated sludge (WAS) is challenged by poor dewaterability and environmental risks associated with antibiotic resistance genes (ARGs). Although advanced oxidation is promising for sludge conditioning, whether prolonged oxidation continuously benefits both dewatering and biological risk control remains unclear. Here, Fe 2+ -activated peracetic acid (PAA) was applied to WAS to evaluate the time-dependent responses of sludge dewaterability, ARGs, potential pathogens, extracellular polymeric substances, iron speciation and microbial functions. The Fe 2+ /PAA process exhibited different temporal changes between sludge dewatering and phase-specific biological risks rather than continuous improvement with prolonged oxidation. At 40 min, sludge dewaterability was markedly improved, accompanied by the greatest reduction in the total abundance of ARGs and mobile genetic elements (MGEs) in solid phase. Meanwhile, potential pathogens harboring multiple ARGs were also suppressed, suggesting reduced potentials for horizontal and vertical ARGs dissemination. Extending the reaction to 60 min achieved the highest removal efficiency for liquid phase ARGs and MGEs, while these ARGs-carrying pathogens remained inhibited; but accompanied by sludge dewaterability deterioration and a rebound in solid-associated ARGs and MGEs abundance. These changes were attributed to late-stage iron precipitations, which increased filtration resistance and caused the retention of genetic materials in the solid phase. Moreover, the recovery of stress-adaptive microbial functions may provide favorable conditions for ARGs transfer. Overall, this study reveals new insights into the time-dependent mechanisms governing dewatering performance and phase-specific risk control, providing a basis for tailoring treatment according to downstream management priorities.",
+"statements": [
+{
+"j": 1,
+"text": "The iron-activated peracetic acid process removed more resistance genes than conventional thermal hydrolysis conditioning of sludge."
+},
+{
+"j": 2,
+"text": "Prolonging the reaction from 40 to 60 minutes improved sludge dewaterability further."
+},
+{
+"j": 3,
+"text": "Forty minutes of oxidation gave the greatest fall in total solid-phase abundance of resistance genes and mobile genetic elements, with markedly better dewaterability."
+},
+{
+"j": 4,
+"text": "Sixty minutes of reaction removed liquid-phase resistance genes and mobile elements most efficiently, while dewaterability worsened and solid-associated abundances rebounded."
+}
+]
+},
+{
+"n": 38,
+"id": "pmid:37189699",
+"year": 2023,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Pediatric tumors share few recurrent mutations and are instead characterized by copy number alterations (CNAs). The cell-free DNA (cfDNA) is a prominent source for the detection of cancer-specific biomarkers in plasma. We profiled CNAs in the tumor tissues for further evaluation of alterations in 1q, MYCN and 17p in the circulating tumor DNA (ctDNA) in the peripheral blood at diagnosis and follow-up using digital PCR. We report that among the different kinds of tumors (neuroblastoma, Wilms tumor, Ewing sarcoma, rhabdomyosarcoma, leiomyosarcoma, osteosarcoma and benign teratoma), neuroblastoma presented the greatest amount of cfDNA, in correlation with tumor volume. Considering all tumors, cfDNA levels correlated with tumor stage, metastasis at diagnosis and metastasis developed during therapy. In the tumor tissue, at least one CNA (at CRABP2 , TP53 , surrogate markers for 1q and 17p, respectively, and MYCN ) was observed in 89% of patients. At diagnosis, CNAs levels were concordant between tumor and ctDNA in 56% of the cases, and for the remaining 44%, 91.4% of the CNAs were present only in cfDNA and 8.6% only in the tumor. Within the cfDNA, we observed that 46% and 23% of the patients had MYCN and 1q gain, respectively. The use of specific CNAs as targets for liquid biopsy in pediatric patients with cancer can improve diagnosis and should be considered for monitoring of the disease response."
+}
+],
+"text": "Pediatric tumors share few recurrent mutations and are instead characterized by copy number alterations (CNAs). The cell-free DNA (cfDNA) is a prominent source for the detection of cancer-specific biomarkers in plasma. We profiled CNAs in the tumor tissues for further evaluation of alterations in 1q, MYCN and 17p in the circulating tumor DNA (ctDNA) in the peripheral blood at diagnosis and follow-up using digital PCR. We report that among the different kinds of tumors (neuroblastoma, Wilms tumor, Ewing sarcoma, rhabdomyosarcoma, leiomyosarcoma, osteosarcoma and benign teratoma), neuroblastoma presented the greatest amount of cfDNA, in correlation with tumor volume. Considering all tumors, cfDNA levels correlated with tumor stage, metastasis at diagnosis and metastasis developed during therapy. In the tumor tissue, at least one CNA (at CRABP2 , TP53 , surrogate markers for 1q and 17p, respectively, and MYCN ) was observed in 89% of patients. At diagnosis, CNAs levels were concordant between tumor and ctDNA in 56% of the cases, and for the remaining 44%, 91.4% of the CNAs were present only in cfDNA and 8.6% only in the tumor. Within the cfDNA, we observed that 46% and 23% of the patients had MYCN and 1q gain, respectively. The use of specific CNAs as targets for liquid biopsy in pediatric patients with cancer can improve diagnosis and should be considered for monitoring of the disease response.",
+"statements": [
+{
+"j": 1,
+"text": "Within cell-free DNA, MYCN gain was seen in 23% of patients and 1q gain in 46%."
+},
+{
+"j": 2,
+"text": "Serial cell-free DNA measurement detected relapse earlier than imaging in these paediatric patients."
+},
+{
+"j": 3,
+"text": "Of the tumour types sampled, neuroblastoma yielded the most cell-free DNA, and the amount tracked with tumour volume."
+},
+{
+"j": 4,
+"text": "Copy number levels agreed between tumour and circulating tumour DNA in 56% of cases at diagnosis; discordant alterations were mostly seen only in cell-free DNA."
+}
+]
+},
+{
+"n": 39,
+"id": "doi:10.64898/2026.04.22.26351451",
+"year": 2026,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Contrast-enhanced computed tomography (CT) is central to the diagnosis, staging, and follow-up of patients with renal cell carcinoma (RCC). As artificial intelligence research into computer-aided solutions continues to grow, the need for curated and annotated datasets becomes increasingly important. Imaging-based artificial intelligence studies often need lesion annotations that are not consistently available. The Cancer Genome Atlas (TCGA) datasets are widely used for model training and validation. However, access to public annotations of lesions is limited, which limits reproducibility and comparability of the published research. To address this gap, we screened 1,915 CT scans from three TCGA-RCC databases and, following a meta-data-based exclusion step, used an automated segmentation model to generate initial kidney and lesion masks. Next, we conducted a reader study with all papillary (n=56), chromophobe (n=27) and 200 randomly selected clear cell RCC cases. Two trained students performed quality checks, corrections, and additional annotation of tumors and cysts, with uncertain cases reviewed by a board-certified radiologist. After data exclusion and quality control, a final cohort of 129 annotated CT scans from 91 patients (24 female, 67 male; mean age 56 years) was retained, including 85 clear cell, 26 papillary and 18 chromophobe RCC cases. Images and voxel-level annotations of kidneys and lesions are openly available at https://zenodo.org/records/20719257 . By open-sourcing these annotations, we aim to foster accessible, reproducible AI research in renal cell carcinoma. RCC-AID provides a reusable open resource dataset for segmentation, detection, subtype classification, radiomics, and multimodal RCC research."
+}
+],
+"text": "Contrast-enhanced computed tomography (CT) is central to the diagnosis, staging, and follow-up of patients with renal cell carcinoma (RCC). As artificial intelligence research into computer-aided solutions continues to grow, the need for curated and annotated datasets becomes increasingly important. Imaging-based artificial intelligence studies often need lesion annotations that are not consistently available. The Cancer Genome Atlas (TCGA) datasets are widely used for model training and validation. However, access to public annotations of lesions is limited, which limits reproducibility and comparability of the published research. To address this gap, we screened 1,915 CT scans from three TCGA-RCC databases and, following a meta-data-based exclusion step, used an automated segmentation model to generate initial kidney and lesion masks. Next, we conducted a reader study with all papillary (n=56), chromophobe (n=27) and 200 randomly selected clear cell RCC cases. Two trained students performed quality checks, corrections, and additional annotation of tumors and cysts, with uncertain cases reviewed by a board-certified radiologist. After data exclusion and quality control, a final cohort of 129 annotated CT scans from 91 patients (24 female, 67 male; mean age 56 years) was retained, including 85 clear cell, 26 papillary and 18 chromophobe RCC cases. Images and voxel-level annotations of kidneys and lesions are openly available at https://zenodo.org/records/20719257 . By open-sourcing these annotations, we aim to foster accessible, reproducible AI research in renal cell carcinoma. RCC-AID provides a reusable open resource dataset for segmentation, detection, subtype classification, radiomics, and multimodal RCC research.",
+"statements": [
+{
+"j": 1,
+"text": "After exclusions and quality control, 129 annotated scans from 91 patients remained, comprising 85 clear cell, 26 papillary and 18 chromophobe cases."
+},
+{
+"j": 2,
+"text": "Models trained on these annotations outperform radiologists at classifying renal cell carcinoma subtypes."
+},
+{
+"j": 3,
+"text": "Fewer than 200 CT scans were screened across the three TCGA renal cell carcinoma databases."
+},
+{
+"j": 4,
+"text": "Two trained students checked and corrected the annotations, and a board-certified radiologist reviewed the cases they found uncertain."
+}
+]
+},
+{
+"n": 40,
+"id": "pmid:41073419",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Tissue Factor (Hugo Gene Nomenclature Consortium HGNC gene Factor III (F3)) plays vital roles in many cellular processes including haemostasis, thrombosis, inflammation and angiogenesis. Approximately 30-40 million years ago, an inverted Alu element inserted into the F3 3'-UTR, and we hypothesised that this altered post-translational intra-cellular trafficking of F3 protein. Confocal microscopy of MDA-MB-231 human breast cancer cells using fluoroprobe constructs regulated by the F3 3'-UTR with or without the Alu insertion demonstrated that the presence of the Alu element promoted protein localisation to the Golgi, and reduced cell membrane localisation. Furthermore, stimulation of cells with a Protease-Activated Receptor-2 activating peptide led to rapid mobilisation of the fluorophore from the Golgi to the cell surface. These findings suggest that the Alu insertion facilitates Golgi retention of F3 and mobilisation to the cell surface upon demand. This mechanism may provide an evolutionary advantage by fine-tuning the cellular haemostatic response in primates."
+}
+],
+"text": "Tissue Factor (Hugo Gene Nomenclature Consortium HGNC gene Factor III (F3)) plays vital roles in many cellular processes including haemostasis, thrombosis, inflammation and angiogenesis. Approximately 30-40 million years ago, an inverted Alu element inserted into the F3 3'-UTR, and we hypothesised that this altered post-translational intra-cellular trafficking of F3 protein. Confocal microscopy of MDA-MB-231 human breast cancer cells using fluoroprobe constructs regulated by the F3 3'-UTR with or without the Alu insertion demonstrated that the presence of the Alu element promoted protein localisation to the Golgi, and reduced cell membrane localisation. Furthermore, stimulation of cells with a Protease-Activated Receptor-2 activating peptide led to rapid mobilisation of the fluorophore from the Golgi to the cell surface. These findings suggest that the Alu insertion facilitates Golgi retention of F3 and mobilisation to the cell surface upon demand. This mechanism may provide an evolutionary advantage by fine-tuning the cellular haemostatic response in primates.",
+"statements": [
+{
+"j": 1,
+"text": "Constructs carrying the Alu element in the F3 3'-UTR showed more Golgi localisation and less cell membrane localisation than constructs without it."
+},
+{
+"j": 2,
+"text": "Activating Protease-Activated Receptor-2 drove the fluorophore from the cell surface into the Golgi."
+},
+{
+"j": 3,
+"text": "Removing the Alu element from the F3 3'-UTR reduced tissue factor procoagulant activity at the cell surface."
+},
+{
+"j": 4,
+"text": "The inverted Alu element inserted into the F3 3'-UTR roughly 30 to 40 million years ago."
+}
+]
+},
+{
+"n": 41,
+"id": "pmid:42373010",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Polyamine metabolism plays an essential role in glioma progression and the tumor microenvironment (TME). However, its prognostic and immunotherapeutic significance remains incompletely understood. We integrated transcriptomic and clinical data from The Cancer Genome Atlas (TCGA) to construct a prognostic risk model via Least Absolute Shrinkage and Selection Operator (LASSO) regression. This model was externally validated using the GSE108474 and GSE43378 cohorts. Multivariable Cox regression was employed to identify key prognostic predictors, while consensus clustering was applied to stratify patients into distinct molecular subtypes. A robust 19-gene signature was established to calculate risk scores, effectively categorizing patients into high- and low-risk groups with significantly divergent survival outcomes. From this signature, five genes were identified as independent prognostic factors via multivariable Cox analysis. Ultimately, three prioritized core candidate biomarkers (AGMAT, PSMC5, and SMS) were extracted, among which SMS exhibited exceptionally high individual diagnostic efficacy. Furthermore, consensus clustering delineated two distinct subgroups (C1 and C2). The C1 subtype exhibited a less immune-infiltrated phenotype but higher PD-L1 expression and elevated TIDE scores, indicating stronger immune evasion and poorer survival. In contrast, the C2 subtype was characterized by robust immune cell infiltration, a more favorable prognosis, and a superior computationally predicted response to immunotherapy. In conclusion, our polyamine metabolism-related gene signature may serve as a promising candidate biomarker for evaluating clinical outcomes and computationally estimated immunotherapy efficacy in glioma. While this risk model and molecular subtyping framework offer novel insights for therapeutic stratification, prospective clinical validation is required."
+}
+],
+"text": "Polyamine metabolism plays an essential role in glioma progression and the tumor microenvironment (TME). However, its prognostic and immunotherapeutic significance remains incompletely understood. We integrated transcriptomic and clinical data from The Cancer Genome Atlas (TCGA) to construct a prognostic risk model via Least Absolute Shrinkage and Selection Operator (LASSO) regression. This model was externally validated using the GSE108474 and GSE43378 cohorts. Multivariable Cox regression was employed to identify key prognostic predictors, while consensus clustering was applied to stratify patients into distinct molecular subtypes. A robust 19-gene signature was established to calculate risk scores, effectively categorizing patients into high- and low-risk groups with significantly divergent survival outcomes. From this signature, five genes were identified as independent prognostic factors via multivariable Cox analysis. Ultimately, three prioritized core candidate biomarkers (AGMAT, PSMC5, and SMS) were extracted, among which SMS exhibited exceptionally high individual diagnostic efficacy. Furthermore, consensus clustering delineated two distinct subgroups (C1 and C2). The C1 subtype exhibited a less immune-infiltrated phenotype but higher PD-L1 expression and elevated TIDE scores, indicating stronger immune evasion and poorer survival. In contrast, the C2 subtype was characterized by robust immune cell infiltration, a more favorable prognosis, and a superior computationally predicted response to immunotherapy. In conclusion, our polyamine metabolism-related gene signature may serve as a promising candidate biomarker for evaluating clinical outcomes and computationally estimated immunotherapy efficacy in glioma. While this risk model and molecular subtyping framework offer novel insights for therapeutic stratification, prospective clinical validation is required.",
+"statements": [
+{
+"j": 1,
+"text": "A 19-gene risk score split patients into high- and low-risk groups with significantly different survival, and five of those genes were independent prognostic factors."
+},
+{
+"j": 2,
+"text": "Predicted response to immunotherapy was better in the C1 subtype than in the C2 subtype."
+},
+{
+"j": 3,
+"text": "The C1 subtype showed less immune infiltration, higher PD-L1 expression, elevated TIDE scores and poorer survival."
+},
+{
+"j": 4,
+"text": "Of the three core biomarkers, SMS is the one whose knockdown slows glioma cell proliferation in culture."
+}
+]
+},
+{
+"n": 42,
+"id": "pmid:42095305",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Spitz tumors represent a heterogeneous group of melanocytic neoplasms ranging from benign Spitz nevi to malignant spitzoid melanoma. Atypical Spitz tumors (ASTs) occupy an intermediate category with uncertain biological potential and pose significant diagnostic challenges, particularly in pediatric patients. We report the case of a 14-year-old girl presenting with a recently changing pigmented lesion on the upper back. Histopathologic examination revealed an asymmetric melanocytic proliferation composed predominantly of epithelioid cells with limited mitotic activity and evidence of dermal maturation. Immunohistochemistry showed diffuse Melan-A and SOX10 positivity, retained p16 expression, a gradient HMB45 staining pattern, and negative PRAME expression. For diagnostic purpose, as a part of diagnosis, next-generation sequencing was performed and identified a RET::MXT1 gene fusion in the absence of additional pathogenic mutations or copy number alterations. To our knowledge, this is the first reported case showing this type of RET fusion. This case highlights the importance of an integrated morphologic, immunophenotypic, and molecular diagnostic approach in atypical spitzoid lesions. Identification of an isolated RET fusion supports classification within the Spitz tumor spectrum and provides valuable information for risk stratification and clinical management in pediatric patients."
+}
+],
+"text": "Spitz tumors represent a heterogeneous group of melanocytic neoplasms ranging from benign Spitz nevi to malignant spitzoid melanoma. Atypical Spitz tumors (ASTs) occupy an intermediate category with uncertain biological potential and pose significant diagnostic challenges, particularly in pediatric patients. We report the case of a 14-year-old girl presenting with a recently changing pigmented lesion on the upper back. Histopathologic examination revealed an asymmetric melanocytic proliferation composed predominantly of epithelioid cells with limited mitotic activity and evidence of dermal maturation. Immunohistochemistry showed diffuse Melan-A and SOX10 positivity, retained p16 expression, a gradient HMB45 staining pattern, and negative PRAME expression. For diagnostic purpose, as a part of diagnosis, next-generation sequencing was performed and identified a RET::MXT1 gene fusion in the absence of additional pathogenic mutations or copy number alterations. To our knowledge, this is the first reported case showing this type of RET fusion. This case highlights the importance of an integrated morphologic, immunophenotypic, and molecular diagnostic approach in atypical spitzoid lesions. Identification of an isolated RET fusion supports classification within the Spitz tumor spectrum and provides valuable information for risk stratification and clinical management in pediatric patients.",
+"statements": [
+{
+"j": 1,
+"text": "Follow-up after excision showed no recurrence or metastasis in this patient."
+},
+{
+"j": 2,
+"text": "Immunohistochemistry was diffusely positive for Melan-A and SOX10, retained p16, and negative for PRAME."
+},
+{
+"j": 3,
+"text": "Histology showed an asymmetric melanocytic proliferation of epithelioid cells with brisk mitotic activity and dermal maturation."
+},
+{
+"j": 4,
+"text": "Sequencing of the lesion in a 14-year-old girl found a RET::MXT1 fusion with no other pathogenic mutations and no copy number alterations."
+}
+]
+},
+{
+"n": 43,
+"id": "pmid:40639643",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Transposable elements (TE) are widespread genetic components that affect the structure and function of eukaryotic genomes. However, the comprehensive genomic and transcriptome characterization of buffalo TE remains unclear. Here, we first constructed a pan-TE library from 7 buffalo genomes representing both river and swamp buffalo breeds. We identified 46,389 unique TE comprising 15,975 cores and 30,414 variable elements. These TE span approximately 1.04 Gb and its length account for 33.53% of the buffalo reference genome. The core TE exhibited distinct chromosomal patterns, with the long-interspersed element (LINE), short interspersed element (SINE), and long-terminal repeats (LTR) superfamilies representing the most abundant groups, which varied across subspecies and individuals. Notably, these elements showed a preference for genic regions, with DNA and LTR transposons frequently located within gene introns. Transcriptomic analysis revealed that the TE-derived genes displayed tissue-specific expression, particularly in somatic and gametic tissues. Co-expression analysis identified several SINE-derived hub genes that played key roles in testicular and muscle tissue development. This study provides a comprehensive buffalo pan-TE library, offering an invaluable resource for exploring TE functions, and laying the foundation for future transposome studies in buffalo genetics."
+}
+],
+"text": "Transposable elements (TE) are widespread genetic components that affect the structure and function of eukaryotic genomes. However, the comprehensive genomic and transcriptome characterization of buffalo TE remains unclear. Here, we first constructed a pan-TE library from 7 buffalo genomes representing both river and swamp buffalo breeds. We identified 46,389 unique TE comprising 15,975 cores and 30,414 variable elements. These TE span approximately 1.04 Gb and its length account for 33.53% of the buffalo reference genome. The core TE exhibited distinct chromosomal patterns, with the long-interspersed element (LINE), short interspersed element (SINE), and long-terminal repeats (LTR) superfamilies representing the most abundant groups, which varied across subspecies and individuals. Notably, these elements showed a preference for genic regions, with DNA and LTR transposons frequently located within gene introns. Transcriptomic analysis revealed that the TE-derived genes displayed tissue-specific expression, particularly in somatic and gametic tissues. Co-expression analysis identified several SINE-derived hub genes that played key roles in testicular and muscle tissue development. This study provides a comprehensive buffalo pan-TE library, offering an invaluable resource for exploring TE functions, and laying the foundation for future transposome studies in buffalo genetics.",
+"statements": [
+{
+"j": 1,
+"text": "The library held 46,389 unique transposable elements, 15,975 core and 30,414 variable, spanning about 1.04 Gb or 33.53% of the buffalo reference genome."
+},
+{
+"j": 2,
+"text": "Variable elements outnumbered core elements by roughly ten to one in the pan-TE library."
+},
+{
+"j": 3,
+"text": "Transposable element insertions explain the difference in milk yield between river and swamp buffalo."
+},
+{
+"j": 4,
+"text": "Core elements favoured genic regions, with DNA and LTR transposons often sitting inside gene introns."
+}
+]
+},
+{
+"n": 44,
+"id": "pmid:40543210",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Renal cell carcinoma (RCC) is a growing global health challenge, with poor survival rates in advanced stages due to the lack of effective early detection methods. This study developed a cell-free DNA (cfDNA) fragmentomics-based liquid biopsy to enable noninvasive RCC diagnosis."
+},
+{
+"label": "Patients and methods",
+"text": "Using low-pass whole-genome sequencing, three cfDNA features-copy number variation, fragment size distribution, and nucleosome footprint-were derived and integrated into a stacked ensemble machine learning model. A total of 280 participants, including 142 RCC patients and 138 noncancer controls, were enrolled for model development. The resultant model was subsequently evaluated using both validation and external cohorts."
+},
+{
+"label": "Results",
+"text": "The developed model achieved an area under the curve of 0.966 and 0.952 in the validation and external cohorts, respectively. In the validation cohort, the model demonstrated a sensitivity of 90.5% and specificity of 93.8%, while in the external cohort, it exhibited a sensitivity of 76.7% and specificity of 92.9%. Robust performance was observed across different TNM (tumor-node-metastasis) stages, histological subtypes, and Fuhrman grades, with high sensitivity even for early-stage RCC. Furthermore, the assay effectively differentiated malignant tumors from benign renal conditions, thereby potentially reducing unnecessary surgical interventions."
+},
+{
+"label": "Conclusion",
+"text": "The cfDNA fragmentomics-based liquid biopsy provides a promising, noninvasive, cost-effective, and accurate approach for RCC detection and management, substantiating its potential as a complementary tool to conventional diagnostic techniques. Future research should explore integrating cfDNA fragmentomics with multi-omics approaches to enhance diagnostic precision and broaden clinical utility."
+}
+],
+"text": "Renal cell carcinoma (RCC) is a growing global health challenge, with poor survival rates in advanced stages due to the lack of effective early detection methods. This study developed a cell-free DNA (cfDNA) fragmentomics-based liquid biopsy to enable noninvasive RCC diagnosis. Using low-pass whole-genome sequencing, three cfDNA features-copy number variation, fragment size distribution, and nucleosome footprint-were derived and integrated into a stacked ensemble machine learning model. A total of 280 participants, including 142 RCC patients and 138 noncancer controls, were enrolled for model development. The resultant model was subsequently evaluated using both validation and external cohorts. The developed model achieved an area under the curve of 0.966 and 0.952 in the validation and external cohorts, respectively. In the validation cohort, the model demonstrated a sensitivity of 90.5% and specificity of 93.8%, while in the external cohort, it exhibited a sensitivity of 76.7% and specificity of 92.9%. Robust performance was observed across different TNM (tumor-node-metastasis) stages, histological subtypes, and Fuhrman grades, with high sensitivity even for early-stage RCC. Furthermore, the assay effectively differentiated malignant tumors from benign renal conditions, thereby potentially reducing unnecessary surgical interventions. The cfDNA fragmentomics-based liquid biopsy provides a promising, noninvasive, cost-effective, and accurate approach for RCC detection and management, substantiating its potential as a complementary tool to conventional diagnostic techniques. Future research should explore integrating cfDNA fragmentomics with multi-omics approaches to enhance diagnostic precision and broaden clinical utility.",
+"statements": [
+{
+"j": 1,
+"text": "Performance held across TNM stages, histological subtypes and Fuhrman grades, with high sensitivity even in early-stage renal cell carcinoma."
+},
+{
+"j": 2,
+"text": "The model was developed in a cohort of fewer than 60 renal cell carcinoma patients."
+},
+{
+"j": 3,
+"text": "Using the assay for annual screening lowered renal cell carcinoma mortality."
+},
+{
+"j": 4,
+"text": "Sensitivity was 90.5% with 93.8% specificity in the validation cohort, falling to 76.7% sensitivity with 92.9% specificity in the external cohort."
+}
+]
+},
+{
+"n": 45,
+"id": "pmid:42848959",
+"year": 2026,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": "Background and objectives",
+"text": "Mobile genetic elements drive antimicrobial-resistance dissemination in Gram-positive pathogens. In Streptococcus suis we previously identified a genomic island, GISsuJHJ17_rpsI, integrated at the conserved rpsI locus and carrying erm(B) and aadE. Here we investigated the genetic features and helper functions associated with mobilization of this island, including its transfer from S. suis to E. faecalis."
+},
+{
+"label": "Methods",
+"text": "Genetic annotation established that GISsuJHJ17_rpsI lacks a self-encoded conjugation apparatus but harbours an origin of transfer (oriT) sharing ∼85% nucleotide identity with the co-resident integrative and conjugative element (ICE). We performed filter-mating assays to test ICE-mediated mobilization in trans, constructed precise deletions of oriTGISsuJHJ17 and of the ICE relaxase, carried out complementation, and assessed fitness by growth and head-to-head competition of transconjugants."
+},
+{
+"label": "Results",
+"text": "Filter-mating assays showed that mobilization of GISsuJHJ17_rpsI in the S. suis recipient model required the helper-ICE relaxase and the candidate GI oriT region. Deletion of either determinant yielded no verified transconjugants under the assay conditions, whereas relaxase complementation and chromosomal oriT repair restored detectable transfer. These findings support a model in which the helper ICE provides the DNA-processing function required for GI mobilization, using the co-resident ICE transfer apparatus, as inferred from the ICE gene content. Fitness assays revealed no measurable growth defect or competitive disadvantage associated with acquisition of GISsuJHJ17_rpsI, indicating a minimal short-term fitness cost."
+},
+{
+"label": "Conclusions",
+"text": "These findings show that GISsuJHJ17_rpsI can transfer from S. suis to E. faecalis and integrate at an rpsI-associated site. In the S. suis recipient model, mobilization required the helper-ICE relaxase and the GISsuJHJ17_rpsI oriT region, supporting a helper-ICE-dependent mechanism for genomic-island mobilization."
+}
+],
+"text": "Mobile genetic elements drive antimicrobial-resistance dissemination in Gram-positive pathogens. In Streptococcus suis we previously identified a genomic island, GISsuJHJ17_rpsI, integrated at the conserved rpsI locus and carrying erm(B) and aadE. Here we investigated the genetic features and helper functions associated with mobilization of this island, including its transfer from S. suis to E. faecalis. Genetic annotation established that GISsuJHJ17_rpsI lacks a self-encoded conjugation apparatus but harbours an origin of transfer (oriT) sharing ∼85% nucleotide identity with the co-resident integrative and conjugative element (ICE). We performed filter-mating assays to test ICE-mediated mobilization in trans, constructed precise deletions of oriTGISsuJHJ17 and of the ICE relaxase, carried out complementation, and assessed fitness by growth and head-to-head competition of transconjugants. Filter-mating assays showed that mobilization of GISsuJHJ17_rpsI in the S. suis recipient model required the helper-ICE relaxase and the candidate GI oriT region. Deletion of either determinant yielded no verified transconjugants under the assay conditions, whereas relaxase complementation and chromosomal oriT repair restored detectable transfer. These findings support a model in which the helper ICE provides the DNA-processing function required for GI mobilization, using the co-resident ICE transfer apparatus, as inferred from the ICE gene content. Fitness assays revealed no measurable growth defect or competitive disadvantage associated with acquisition of GISsuJHJ17_rpsI, indicating a minimal short-term fitness cost. These findings show that GISsuJHJ17_rpsI can transfer from S. suis to E. faecalis and integrate at an rpsI-associated site. In the S. suis recipient model, mobilization required the helper-ICE relaxase and the GISsuJHJ17_rpsI oriT region, supporting a helper-ICE-dependent mechanism for genomic-island mobilization.",
+"statements": [
+{
+"j": 1,
+"text": "Deleting either the ICE relaxase or the island's oriT abolished verified transconjugants, and complementation or oriT repair restored detectable transfer."
+},
+{
+"j": 2,
+"text": "The island also transferred into Staphylococcus aureus recipients."
+},
+{
+"j": 3,
+"text": "The island encodes no conjugation apparatus of its own but carries an origin of transfer sharing about 85% nucleotide identity with the co-resident ICE."
+},
+{
+"j": 4,
+"text": "Acquiring the genomic island imposed a clear growth defect and a competitive disadvantage on transconjugants."
+}
+]
+},
+{
+"n": 46,
+"id": "pmid:41503337",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Background Breast carcinoma is one of the leading causes of cancer-associated mortality in women worldwide. Although several advances have been made in molecularly classifying breast cancers, treatment resistance continues to limit the overall survival. The Cancer Genome Atlas (TCGA) has unraveled diverse genomic alterations in breast carcinoma. However, some potential biomarkers still remain unexplored, like SETDB1, a histone methyltransferase involved in epigenetic silencing of tumor suppressor genes. ARMCX5 and SLCO6A1 are also some of the unexplored genes that could have a potential role in drug resistance. Materials and methods The Mutation Annotation Format (MAF) data set from the Cancer Genome Atlas Breast Cancer (TCGA-BRCA) cohort was analyzed using the Maftools, Survival, Mclust, and Survminer R packages. Oncodrive driver analysis and protein family (PFAM) domain mapping were performed. A total of 845 cases of breast carcinoma with complete survival data were retrieved, of which mutation data for 800 cases were available. Comprehensive mutation analysis was also done to unveil unexplored genes. Survival data of 845 cases were integrated for Kaplan-Meier and Cox proportional hazard analysis to ascertain the prognostic significance of an array of genes. Oncogenic signaling pathway mapping was done to determine the clinical enrichment of the genes associated with breast carcinoma. Genes associated with clinical enrichment, clustering of somatic mutations, and prognosis were subjected to further analysis. Results Besides the established molecular drivers like PIK3CA and TP53, we found several novel and understudied genes with potential prognostic and oncogenic significance. SETDB1 (p < 0.0001), USP37 (p < 0.0001), NDUFS1 (p = 0.025), TRPM4 (p < 0.0001), and MYO18A (p < 0.0001) were associated with poor prognosis. ARMCX5 (p < 0.0001) and SLCO6A1 (p < 0.0001) were enriched in high-grade tumors. Conclusion The TCGA-BRCA cohort analysis emphasizes a potential interplay of metabolic genes like NDUFS1, TRPM4, ARMCX5, SLCO6A1, and epigenetic axis genes like SETDB1 and USP37 in the oncogenesis and prognosis of breast carcinomas. These observations could open potential avenues for exploring novel therapeutics in aggressive breast carcinomas."
+}
+],
+"text": "Background Breast carcinoma is one of the leading causes of cancer-associated mortality in women worldwide. Although several advances have been made in molecularly classifying breast cancers, treatment resistance continues to limit the overall survival. The Cancer Genome Atlas (TCGA) has unraveled diverse genomic alterations in breast carcinoma. However, some potential biomarkers still remain unexplored, like SETDB1, a histone methyltransferase involved in epigenetic silencing of tumor suppressor genes. ARMCX5 and SLCO6A1 are also some of the unexplored genes that could have a potential role in drug resistance. Materials and methods The Mutation Annotation Format (MAF) data set from the Cancer Genome Atlas Breast Cancer (TCGA-BRCA) cohort was analyzed using the Maftools, Survival, Mclust, and Survminer R packages. Oncodrive driver analysis and protein family (PFAM) domain mapping were performed. A total of 845 cases of breast carcinoma with complete survival data were retrieved, of which mutation data for 800 cases were available. Comprehensive mutation analysis was also done to unveil unexplored genes. Survival data of 845 cases were integrated for Kaplan-Meier and Cox proportional hazard analysis to ascertain the prognostic significance of an array of genes. Oncogenic signaling pathway mapping was done to determine the clinical enrichment of the genes associated with breast carcinoma. Genes associated with clinical enrichment, clustering of somatic mutations, and prognosis were subjected to further analysis. Results Besides the established molecular drivers like PIK3CA and TP53, we found several novel and understudied genes with potential prognostic and oncogenic significance. SETDB1 (p < 0.0001), USP37 (p < 0.0001), NDUFS1 (p = 0.025), TRPM4 (p < 0.0001), and MYO18A (p < 0.0001) were associated with poor prognosis. ARMCX5 (p < 0.0001) and SLCO6A1 (p < 0.0001) were enriched in high-grade tumors. Conclusion The TCGA-BRCA cohort analysis emphasizes a potential interplay of metabolic genes like NDUFS1, TRPM4, ARMCX5, SLCO6A1, and epigenetic axis genes like SETDB1 and USP37 in the oncogenesis and prognosis of breast carcinomas. These observations could open potential avenues for exploring novel therapeutics in aggressive breast carcinomas.",
+"statements": [
+{
+"j": 1,
+"text": "Survival data were available for 845 cases and mutation data for all but two of them."
+},
+{
+"j": 2,
+"text": "Mutation in SETDB1, USP37, NDUFS1, TRPM4 and MYO18A was associated with poor prognosis, NDUFS1 being the weakest of the five at p = 0.025."
+},
+{
+"j": 3,
+"text": "Knocking down SETDB1 restored expression of silenced tumour suppressor genes in breast cancer cells."
+},
+{
+"j": 4,
+"text": "ARMCX5 and SLCO6A1 were enriched in high-grade breast tumours."
+}
+]
+},
+{
+"n": 47,
+"id": "doi:10.1101/2024.10.11.617942",
+"year": 2024,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Integrative and conjugative elements (ICEs) are mobile genetic elements that transfer between bacteria and influence host physiology and promote evolution. ICE Bs1 of Bacillus subtilis modulates the host DNA damage response by reducing RecA filament formation. We found that the two ICE Bs1 -encoded proteins, RamT and RamA that modulate the SOS response in donors also function in recipient cells to inhibit both the SOS response and homologous recombination following transfer of the element. Expression of RamT and RamA caused a decrease in binding of the host single strand binding protein SsbA to ssDNA. We found that RamA interacted with PcrA, the host DNA translocase that functions to remove RecA from DNA, likely functioning to modulate the SOS response and recombination by stimulating PcrA activity. These findings reveal how ICE Bs1 can modulate key host processes, including the SOS response and homologous recombination, highlighting the complex interplay between mobile genetic elements and their bacterial hosts in adaptation and evolution."
+}
+],
+"text": "Integrative and conjugative elements (ICEs) are mobile genetic elements that transfer between bacteria and influence host physiology and promote evolution. ICE Bs1 of Bacillus subtilis modulates the host DNA damage response by reducing RecA filament formation. We found that the two ICE Bs1 -encoded proteins, RamT and RamA that modulate the SOS response in donors also function in recipient cells to inhibit both the SOS response and homologous recombination following transfer of the element. Expression of RamT and RamA caused a decrease in binding of the host single strand binding protein SsbA to ssDNA. We found that RamA interacted with PcrA, the host DNA translocase that functions to remove RecA from DNA, likely functioning to modulate the SOS response and recombination by stimulating PcrA activity. These findings reveal how ICE Bs1 can modulate key host processes, including the SOS response and homologous recombination, highlighting the complex interplay between mobile genetic elements and their bacterial hosts in adaptation and evolution.",
+"statements": [
+{
+"j": 1,
+"text": "Expressing RamT and RamA reduced binding of the host single-strand binding protein SsbA to single-stranded DNA."
+},
+{
+"j": 2,
+"text": "Cells that received the element were more sensitive to killing by ultraviolet irradiation."
+},
+{
+"j": 3,
+"text": "Two proteins encoded by the element, RamT and RamA, acted in recipient cells to inhibit both the SOS response and homologous recombination after transfer."
+},
+{
+"j": 4,
+"text": "RamA bound PcrA and blocked the translocase's removal of RecA from DNA."
+}
+]
+},
+{
+"n": 48,
+"id": "pmid:38574386",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "We examined whether the association between alcohol consumption and colorectal cancer (CRC) incidence was stronger for tumors with higher contributions of defective mismatch repair (dMMR)-related tumor mutational signatures."
+},
+{
+"label": "Methods",
+"text": "We used data from 227 916 men and women who participated in the Nurses' Health Study (1980-2016), the Nurses' Health Study II (1991-2017), and the Health Professionals Follow-Up Study (1986-2016). Dietary data were collected every 4 years through validated food frequency questionnaires. Relative contributions of 2 defective mismatch repair-related tumor mutational signatures with single-based substitutions (c-dMMRa/SBS15 and c-dMMRb/SBS26) were quantified using whole-exome sequencing data in a subset of incident CRC patients. Duplication-method Cox proportional hazards regression models were used to assess the association between alcohol consumption and the risk of CRC subtypes according to different contributions of the tumor mutational signatures. All statistical tests were 2-sided."
+},
+{
+"label": "Results",
+"text": "We documented 825 incident CRC patients with available tumor mutational signature data over 26 to 36 years of follow-up. The association between alcohol consumption and CRC incidence was stronger for tumors with higher contributions of c-dMMRb/SBS26 (Ptrend = .02 for heterogeneity) compared with tumors with lower contributions of this tumor mutational signature. Compared with nondrinkers, drinkers who imbibed 15 g/d or more of alcohol had a high risk of c-dMMRb/SBS26-high CRC (multivariable-adjusted hazard ratio = 2.43, 95% confidence interval = 1.55 to 3.82) but not c-dMMRb/SBS26-low CRC (multivariable-adjusted hazard ratio = 0.86, 95% confidence interval = 0.57 to 1.28) or c-dMMRb/SBS26-moderate CRC (multivariable-adjusted hazard ratio = 1.14, 95% confidence interval = 0.76 to 1.71). No significant differential associations were observed for c-dMMRa/SBS15 (Ptrend = .41 for heterogeneity)."
+},
+{
+"label": "Conclusions",
+"text": "High alcohol consumption was associated with an increased incidence of CRC containing higher contributions of c-dMMRb/SBS26, suggesting that alcohol consumption may be involved in colorectal carcinogenesis through the DNA mismatch repair pathway."
+}
+],
+"text": "We examined whether the association between alcohol consumption and colorectal cancer (CRC) incidence was stronger for tumors with higher contributions of defective mismatch repair (dMMR)-related tumor mutational signatures. We used data from 227 916 men and women who participated in the Nurses' Health Study (1980-2016), the Nurses' Health Study II (1991-2017), and the Health Professionals Follow-Up Study (1986-2016). Dietary data were collected every 4 years through validated food frequency questionnaires. Relative contributions of 2 defective mismatch repair-related tumor mutational signatures with single-based substitutions (c-dMMRa/SBS15 and c-dMMRb/SBS26) were quantified using whole-exome sequencing data in a subset of incident CRC patients. Duplication-method Cox proportional hazards regression models were used to assess the association between alcohol consumption and the risk of CRC subtypes according to different contributions of the tumor mutational signatures. All statistical tests were 2-sided. We documented 825 incident CRC patients with available tumor mutational signature data over 26 to 36 years of follow-up. The association between alcohol consumption and CRC incidence was stronger for tumors with higher contributions of c-dMMRb/SBS26 (Ptrend = .02 for heterogeneity) compared with tumors with lower contributions of this tumor mutational signature. Compared with nondrinkers, drinkers who imbibed 15 g/d or more of alcohol had a high risk of c-dMMRb/SBS26-high CRC (multivariable-adjusted hazard ratio = 2.43, 95% confidence interval = 1.55 to 3.82) but not c-dMMRb/SBS26-low CRC (multivariable-adjusted hazard ratio = 0.86, 95% confidence interval = 0.57 to 1.28) or c-dMMRb/SBS26-moderate CRC (multivariable-adjusted hazard ratio = 1.14, 95% confidence interval = 0.76 to 1.71). No significant differential associations were observed for c-dMMRa/SBS15 (Ptrend = .41 for heterogeneity). High alcohol consumption was associated with an increased incidence of CRC containing higher contributions of c-dMMRb/SBS26, suggesting that alcohol consumption may be involved in colorectal carcinogenesis through the DNA mismatch repair pathway.",
+"statements": [
+{
+"j": 1,
+"text": "No significant difference in the alcohol association appeared across levels of the c-dMMRa/SBS15 signature."
+},
+{
+"j": 2,
+"text": "Drinking at least 15 g of alcohol daily carried a hazard ratio of 2.43 for c-dMMRb/SBS26-high colorectal cancer relative to nondrinkers."
+},
+{
+"j": 3,
+"text": "Alcohol intake of 15 g/d or more was also significantly associated with c-dMMRb/SBS26-low colorectal cancer."
+},
+{
+"j": 4,
+"text": "Beer drinkers showed a stronger association with signature-high colorectal cancer than wine drinkers."
+}
+]
+},
+{
+"n": 49,
+"id": "pmid:39227777",
+"year": 2024,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Circulating tumour DNA (ctDNA) is a subset of cell free DNA (cfDNA) released by tumour cells into the bloodstream. Circulating tumour DNA has shown great potential as a biomarker to inform treatment in cancer patients. Collecting ctDNA is minimally invasive and reflects the entire genetic makeup of a patient's cancer. ctDNA variants in NGS data can be difficult to distinguish from sequencing and PCR artefacts due to low abundance, particularly in the early stages of cancer. Unique Molecular Identifiers (UMIs) are short sequences ligated to the sequencing library before amplification. These sequences are useful for filtering out low frequency artefacts. The utility of ctDNA as a cancer biomarker depends on accurate detection of cancer variants."
+},
+{
+"label": "Results",
+"text": "In this study, we benchmarked six variant calling tools, including two UMI-aware callers for their ability to call ctDNA variants. The standard variant callers tested included Mutect2, bcftools, LoFreq and FreeBayes. The UMI-aware variant callers benchmarked were UMI-VarCal and UMIErrorCorrect. We used both datasets with known variants spiked in at low frequencies, and datasets containing ctDNA, and generated synthetic UMI sequences for these datasets. Variant callers displayed different preferences for sensitivity and specificity. Mutect2 showed high sensitivity, while returning more privately called variants than any other caller in data without synthetic UMIs - an indicator of false positive variant discovery. In data encoded with synthetic UMIs, UMI-VarCal detected fewer putative false positive variants than all other callers in synthetic datasets. Mutect2 showed a balance between high sensitivity and specificity in data encoded with synthetic UMIs."
+},
+{
+"label": "Conclusions",
+"text": "Our results indicate UMI-aware variant callers have potential to improve sensitivity and specificity in calling low frequency ctDNA variants over standard variant calling tools. There is a growing need for further development of UMI-aware variant calling tools if effective early detection methods for cancer using ctDNA samples are to be realised."
+}
+],
+"text": "Circulating tumour DNA (ctDNA) is a subset of cell free DNA (cfDNA) released by tumour cells into the bloodstream. Circulating tumour DNA has shown great potential as a biomarker to inform treatment in cancer patients. Collecting ctDNA is minimally invasive and reflects the entire genetic makeup of a patient's cancer. ctDNA variants in NGS data can be difficult to distinguish from sequencing and PCR artefacts due to low abundance, particularly in the early stages of cancer. Unique Molecular Identifiers (UMIs) are short sequences ligated to the sequencing library before amplification. These sequences are useful for filtering out low frequency artefacts. The utility of ctDNA as a cancer biomarker depends on accurate detection of cancer variants. In this study, we benchmarked six variant calling tools, including two UMI-aware callers for their ability to call ctDNA variants. The standard variant callers tested included Mutect2, bcftools, LoFreq and FreeBayes. The UMI-aware variant callers benchmarked were UMI-VarCal and UMIErrorCorrect. We used both datasets with known variants spiked in at low frequencies, and datasets containing ctDNA, and generated synthetic UMI sequences for these datasets. Variant callers displayed different preferences for sensitivity and specificity. Mutect2 showed high sensitivity, while returning more privately called variants than any other caller in data without synthetic UMIs - an indicator of false positive variant discovery. In data encoded with synthetic UMIs, UMI-VarCal detected fewer putative false positive variants than all other callers in synthetic datasets. Mutect2 showed a balance between high sensitivity and specificity in data encoded with synthetic UMIs. Our results indicate UMI-aware variant callers have potential to improve sensitivity and specificity in calling low frequency ctDNA variants over standard variant calling tools. There is a growing need for further development of UMI-aware variant calling tools if effective early detection methods for cancer using ctDNA samples are to be realised.",
+"statements": [
+{
+"j": 1,
+"text": "In data encoded with synthetic UMIs, UMI-VarCal produced more putative false positive variants than every other caller tested."
+},
+{
+"j": 2,
+"text": "Six variant callers were benchmarked, two of them UMI-aware, UMI-VarCal and UMIErrorCorrect, against the standard callers Mutect2, bcftools, LoFreq and FreeBayes."
+},
+{
+"j": 3,
+"text": "UMI-aware callers took substantially longer to run than the standard callers."
+},
+{
+"j": 4,
+"text": "Mutect2 was highly sensitive but, in data lacking synthetic UMIs, returned more privately called variants than any other caller, pointing to false positives."
+}
+]
+},
+{
+"n": 50,
+"id": "pmid:42158852",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Introduction",
+"text": "Over 90% of pancreatic adenocarcinoma (PDAC) has a KRAS mutation, 98% of which are single-base missense variants occurring at codon 12 (G12), codon 13 (G13), or codon 61 (Q61), with numerous studies demonstrating their clinical utility. Mutant KRAS has been detected in circulating tumor DNA (ctDNA) at all stages of PDAC using analysis methods such as next-generation sequencing (NGS). This study aimed to investigate the prognostic potential of KRAS G12, G13, and Q61 mutations present in circulating tumor DNA (ctDNA) prior to treatment initiation in localized PDAC using both standard depth (20,000x) and ultra-deep (≥100,000) sequencing."
+},
+{
+"label": "Methods",
+"text": "Plasma samples were collected from 45 patients with non-metastatic PDAC prior to treatment start. Baseline ctDNA was analyzed for KRAS G12/G13/Q61 mutations using the PredicineCARE liquid biopsy assay (20,000x sequencing depth) and the PredicineCare ULTRA assay (≥100,000x sequencing depth), providing full KRAS gene coverage."
+},
+{
+"label": "Results",
+"text": "Standard depth sequencing identified pathogenic KRAS mutations (G12/G13/Q61) in 11 patients. Ultra-deep sequencing demonstrated a 46% increase in detection, identifying mutant KRAS in these same 11 patients and an additional 7 patients deemed mutation-negative by standard assay. Presence of any KRAS mutation at baseline by standard sequencing was not significantly associated with overall survival (OS) (HR 2.57, 95% CI 0.94-7.04). However, detection of any KRAS mutation by ultra-deep sequencing in baseline ctDNA was significantly predictive of worse OS (HR 3.13, 95% CI 1.18-8.29). In both univariate and multivariate analysis, detection of mutant KRAS G12, Q61, or G13 in baseline ctDNA by whole-genome sequencing was superiorly predictive of worse OS over pre-therapy serum CA 19-9."
+},
+{
+"label": "Conclusion",
+"text": "Ultra-deep sequencing demonstrates robust detection of pertinent KRAS mutations that support improved prognostic stratification for patients with localized PDAC, demonstrating the potential value of advanced liquid biopsy technology to tailor treatment decisions and improve patient outcomes."
+}
+],
+"text": "Over 90% of pancreatic adenocarcinoma (PDAC) has a KRAS mutation, 98% of which are single-base missense variants occurring at codon 12 (G12), codon 13 (G13), or codon 61 (Q61), with numerous studies demonstrating their clinical utility. Mutant KRAS has been detected in circulating tumor DNA (ctDNA) at all stages of PDAC using analysis methods such as next-generation sequencing (NGS). This study aimed to investigate the prognostic potential of KRAS G12, G13, and Q61 mutations present in circulating tumor DNA (ctDNA) prior to treatment initiation in localized PDAC using both standard depth (20,000x) and ultra-deep (≥100,000) sequencing. Plasma samples were collected from 45 patients with non-metastatic PDAC prior to treatment start. Baseline ctDNA was analyzed for KRAS G12/G13/Q61 mutations using the PredicineCARE liquid biopsy assay (20,000x sequencing depth) and the PredicineCare ULTRA assay (≥100,000x sequencing depth), providing full KRAS gene coverage. Standard depth sequencing identified pathogenic KRAS mutations (G12/G13/Q61) in 11 patients. Ultra-deep sequencing demonstrated a 46% increase in detection, identifying mutant KRAS in these same 11 patients and an additional 7 patients deemed mutation-negative by standard assay. Presence of any KRAS mutation at baseline by standard sequencing was not significantly associated with overall survival (OS) (HR 2.57, 95% CI 0.94-7.04). However, detection of any KRAS mutation by ultra-deep sequencing in baseline ctDNA was significantly predictive of worse OS (HR 3.13, 95% CI 1.18-8.29). In both univariate and multivariate analysis, detection of mutant KRAS G12, Q61, or G13 in baseline ctDNA by whole-genome sequencing was superiorly predictive of worse OS over pre-therapy serum CA 19-9. Ultra-deep sequencing demonstrates robust detection of pertinent KRAS mutations that support improved prognostic stratification for patients with localized PDAC, demonstrating the potential value of advanced liquid biopsy technology to tailor treatment decisions and improve patient outcomes.",
+"statements": [
+{
+"j": 1,
+"text": "Ultra-deep sequencing raised KRAS detection by 46%, finding mutations in the same 11 patients plus 7 more called negative by the standard assay."
+},
+{
+"j": 2,
+"text": "Plasma was collected from 45 patients with metastatic pancreatic adenocarcinoma before treatment."
+},
+{
+"j": 3,
+"text": "Serial circulating tumour DNA testing during chemotherapy identified progression before imaging in these patients."
+},
+{
+"j": 4,
+"text": "Baseline KRAS detection by ultra-deep sequencing predicted worse overall survival with hazard ratio 3.13, while standard-depth detection did not reach significance."
+}
+]
+},
+{
+"n": 51,
+"id": "pmid:42656392",
+"year": 2026,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Recurrent urinary tract infections (UTIs) are frequently associated with persistent uropathogenic Escherichia coli (UPEC) lineages that combine antimicrobial resistance with virulence traits, contributing to treatment failure. Whole-genome sequencing was performed on 199 UPEC isolates recovered from patients with recurrent or difficult-to-treat UTIs for whom autovaccine therapy was recommended. Assemblies were analysed using AMRFinderPlus, VFDB, MOB-suite, mobile genetic element detection, serotyping, and clonotype assignment tools, MLST, cgMLST and SNP-based phylogenetic analyses. Recurrent urinary tract infections (UTIs) were associated with multiple pandemic UPEC lineages, including ST131, ST69, ST10 and the emerging ST1193. Genomic analyses identified acquired antimicrobial resistance genes in nearly 80% of isolates, including extended-spectrum β -lactamase (ESBL) genes such as bla CTX-M-15 and bla CTX-M-27 , alongside chromosomal resistance-associated mutations linked to fluoroquinolone resistance. All ST131 and ST1193 isolates fulfilled the molecular UPEC criteria, while all but one isolate was classified as extraintestinal pathogenic E. coli (ExPEC). MOB-suite plasmid prediction analysis showed that IncF replicons were the most common and frequently associated with ESBL genes. Almost half of the plasmids were predicted to be mobilizable or conjugative, and one third indicated multireplicon structures. Phylogenetic analyses identified the predominant ST131 O25: H4/CH40-30 and O16: H5/CH40-41 lineages, while most ST1193 isolates belonged to the O75: H5/CH14-64 lineage. Mobile genetic element profiling identified lineage-associated insertion sequence repertoires, class 1 integrons and distinct bla CTX-M -associated genetic environments. The results indicate that recurrent UTIs in Romania are largely driven by globally disseminated ExPEC clones that combine ESBL production, fluoroquinolone resistance-associated mutations and virulence-associated traits. The detection of closely related isolates recovered in different collection years is consistent with the circulation of successful UPEC lineages within the studied population."
+}
+],
+"text": "Recurrent urinary tract infections (UTIs) are frequently associated with persistent uropathogenic Escherichia coli (UPEC) lineages that combine antimicrobial resistance with virulence traits, contributing to treatment failure. Whole-genome sequencing was performed on 199 UPEC isolates recovered from patients with recurrent or difficult-to-treat UTIs for whom autovaccine therapy was recommended. Assemblies were analysed using AMRFinderPlus, VFDB, MOB-suite, mobile genetic element detection, serotyping, and clonotype assignment tools, MLST, cgMLST and SNP-based phylogenetic analyses. Recurrent urinary tract infections (UTIs) were associated with multiple pandemic UPEC lineages, including ST131, ST69, ST10 and the emerging ST1193. Genomic analyses identified acquired antimicrobial resistance genes in nearly 80% of isolates, including extended-spectrum β -lactamase (ESBL) genes such as bla CTX-M-15 and bla CTX-M-27 , alongside chromosomal resistance-associated mutations linked to fluoroquinolone resistance. All ST131 and ST1193 isolates fulfilled the molecular UPEC criteria, while all but one isolate was classified as extraintestinal pathogenic E. coli (ExPEC). MOB-suite plasmid prediction analysis showed that IncF replicons were the most common and frequently associated with ESBL genes. Almost half of the plasmids were predicted to be mobilizable or conjugative, and one third indicated multireplicon structures. Phylogenetic analyses identified the predominant ST131 O25: H4/CH40-30 and O16: H5/CH40-41 lineages, while most ST1193 isolates belonged to the O75: H5/CH14-64 lineage. Mobile genetic element profiling identified lineage-associated insertion sequence repertoires, class 1 integrons and distinct bla CTX-M -associated genetic environments. The results indicate that recurrent UTIs in Romania are largely driven by globally disseminated ExPEC clones that combine ESBL production, fluoroquinolone resistance-associated mutations and virulence-associated traits. The detection of closely related isolates recovered in different collection years is consistent with the circulation of successful UPEC lineages within the studied population.",
+"statements": [
+{
+"j": 1,
+"text": "Nearly 80% of the isolates carried acquired antimicrobial resistance genes, among them the ESBL genes blaCTX-M-15 and blaCTX-M-27."
+},
+{
+"j": 2,
+"text": "Among the predicted plasmids, IncF replicons were the least common type identified."
+},
+{
+"j": 3,
+"text": "Patients who received autovaccine therapy had fewer recurrences than those treated with antibiotics."
+},
+{
+"j": 4,
+"text": "Recurrent urinary tract infections involved multiple pandemic UPEC lineages, including ST131, ST69, ST10 and the emerging ST1193."
+}
+]
+},
+{
+"n": 52,
+"id": "doi:10.1101/2023.09.19.558241",
+"year": 2023,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "In pediatric cancer, structural variants (SVs) and copy number alterations can contribute to cancer initiation and progression, and hence aid diagnosis and treatment stratification. The few studies into complex rearrangements have found associations with tumor aggressiveness or poor outcome. Yet, their prevalence and biological relevance across pediatric solid tumors remains unknown."
+},
+{
+"label": "Results",
+"text": "In a cohort of 120 primary tumors, we systematically characterized patterns of extrachromosomal DNA, chromoplexy and chromothripsis across five pediatric solid cancer types: neuroblastoma, Ewing sarcoma, Wilms tumor, hepatoblastoma and rhabdomyosarcoma. Complex SVs were identified in 56 tumors (47%) and different classes occurred across multiple cancer types. Recurrently mutated regions tend to be cancer-type specific and overlap with cancer genes, suggesting that selection contributes to shaping the SV landscape. In total, we identified potentially pathogenic complex SVs in 42 tumors that affect cancer driver genes or result in unfavorable chromosomal alterations. Half of which were known drivers, e.g. MYCN amplifications due to ecDNA and EWSR1::FLI1 fusions due to chromoplexy. Recurrent novel candidate complex events include chromoplexy in WT1 in Wilms tumors, focal chromothripsis with 1p loss in hepatoblastomas and complex MDM2 amplifications in rhabdomyosarcomas."
+},
+{
+"label": "Conclusions",
+"text": "Complex SVs are prevalent and pathogenic in pediatric solid tumors. They represent a type of genomic variation which currently remains unexplored. Moreover, carrying complex SVs seems to be associated with adverse clinical events. Our study highlights the potential for complex SVs to be incorporated in risk stratification or exploited for targeted treatments."
+}
+],
+"text": "In pediatric cancer, structural variants (SVs) and copy number alterations can contribute to cancer initiation and progression, and hence aid diagnosis and treatment stratification. The few studies into complex rearrangements have found associations with tumor aggressiveness or poor outcome. Yet, their prevalence and biological relevance across pediatric solid tumors remains unknown. In a cohort of 120 primary tumors, we systematically characterized patterns of extrachromosomal DNA, chromoplexy and chromothripsis across five pediatric solid cancer types: neuroblastoma, Ewing sarcoma, Wilms tumor, hepatoblastoma and rhabdomyosarcoma. Complex SVs were identified in 56 tumors (47%) and different classes occurred across multiple cancer types. Recurrently mutated regions tend to be cancer-type specific and overlap with cancer genes, suggesting that selection contributes to shaping the SV landscape. In total, we identified potentially pathogenic complex SVs in 42 tumors that affect cancer driver genes or result in unfavorable chromosomal alterations. Half of which were known drivers, e.g. MYCN amplifications due to ecDNA and EWSR1::FLI1 fusions due to chromoplexy. Recurrent novel candidate complex events include chromoplexy in WT1 in Wilms tumors, focal chromothripsis with 1p loss in hepatoblastomas and complex MDM2 amplifications in rhabdomyosarcomas. Complex SVs are prevalent and pathogenic in pediatric solid tumors. They represent a type of genomic variation which currently remains unexplored. Moreover, carrying complex SVs seems to be associated with adverse clinical events. Our study highlights the potential for complex SVs to be incorporated in risk stratification or exploited for targeted treatments.",
+"statements": [
+{
+"j": 1,
+"text": "Complex structural variants were more frequent in tumours from older children than in those from infants."
+},
+{
+"j": 2,
+"text": "Recurrently rearranged regions were shared across the five cancer types rather than being specific to one."
+},
+{
+"j": 3,
+"text": "Complex structural variants were found in 56 tumours, 47% of the cohort, with different classes appearing across several cancer types."
+},
+{
+"j": 4,
+"text": "Potentially pathogenic complex variants were found in 42 tumours, half of them known drivers such as ecDNA-driven MYCN amplification and chromoplexy-derived EWSR1::FLI1 fusions."
+}
+]
+},
+{
+"n": 53,
+"id": "pmid:41006121",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Gliomas exhibit diverse genetic, molecular, and histological profiles with limited liquid biopsy biomarkers. Loss of Long Interspersed Nuclear Element-1 (LINE-1) methylation confers to genomic instability and tumorigenesis, primarily mediated by DNA methyltransferase 1 (DNMT1) through interaction with histone H4 lysine 20 trimethylation (H4K20me3) and histone H3 lysine 9 trimethylation (H3K9me3). The present study evaluates the utility of liquid biopsy in detecting LINE-1 methylation in gliomas and potential correlations with DNMT1, H4K20me3, H3K9me3 tissue levels, clinicopathological characteristics and patients' survival. LINE-1 methylation was measured in cell-free DNA (cfDNA) of glioma patients' plasma prior to surgery or any adjuvant therapy and age-matched controls as well as in glioma tissues along with DNMT1, H4K20me3 and H3K9me3 expression. LINE-1 methylation content in plasma cfDNA and tissue samples was decreased significantly in grade 4 gliomas compared to controls (p ​< 0.0001, respectively). Similarly, DNMT1, H4K20me3 and H3K9me3 expression was significantly reduced in grade 4 cases compared to grade 2 (p ​< 0.0001). cfLINE-1 methylation was positively correlated with tissue LINE-1 methylation levels (p ​= 0.036) as well as with DNMT1 and H4K20me3 tissue expression in grade 4 samples (p ​< 0.0001, respectively). Moreover, low LINE-1 methylation plasma levels and tissue expression of DNMT1, H4K20me3 and H3K9me3 were correlated with worse overall survival in the entire cohort (p ​= 0.041, ​p ​= 0.016, ​p ​< 0.0001, ​p ​= 0.001, respectively). The present study supports the utility of liquid biopsy for the detection of LINE-1 hypomethylation, as a complementary prognostic biomarker for grade 4 tumors."
+}
+],
+"text": "Gliomas exhibit diverse genetic, molecular, and histological profiles with limited liquid biopsy biomarkers. Loss of Long Interspersed Nuclear Element-1 (LINE-1) methylation confers to genomic instability and tumorigenesis, primarily mediated by DNA methyltransferase 1 (DNMT1) through interaction with histone H4 lysine 20 trimethylation (H4K20me3) and histone H3 lysine 9 trimethylation (H3K9me3). The present study evaluates the utility of liquid biopsy in detecting LINE-1 methylation in gliomas and potential correlations with DNMT1, H4K20me3, H3K9me3 tissue levels, clinicopathological characteristics and patients' survival. LINE-1 methylation was measured in cell-free DNA (cfDNA) of glioma patients' plasma prior to surgery or any adjuvant therapy and age-matched controls as well as in glioma tissues along with DNMT1, H4K20me3 and H3K9me3 expression. LINE-1 methylation content in plasma cfDNA and tissue samples was decreased significantly in grade 4 gliomas compared to controls (p ​< 0.0001, respectively). Similarly, DNMT1, H4K20me3 and H3K9me3 expression was significantly reduced in grade 4 cases compared to grade 2 (p ​< 0.0001). cfLINE-1 methylation was positively correlated with tissue LINE-1 methylation levels (p ​= 0.036) as well as with DNMT1 and H4K20me3 tissue expression in grade 4 samples (p ​< 0.0001, respectively). Moreover, low LINE-1 methylation plasma levels and tissue expression of DNMT1, H4K20me3 and H3K9me3 were correlated with worse overall survival in the entire cohort (p ​= 0.041, ​p ​= 0.016, ​p ​< 0.0001, ​p ​= 0.001, respectively). The present study supports the utility of liquid biopsy for the detection of LINE-1 hypomethylation, as a complementary prognostic biomarker for grade 4 tumors.",
+"statements": [
+{
+"j": 1,
+"text": "Plasma LINE-1 methylation rose again after surgical resection of the glioma."
+},
+{
+"j": 2,
+"text": "LINE-1 methylation in plasma cell-free DNA and in tissue was significantly lower in grade 4 gliomas than in controls."
+},
+{
+"j": 3,
+"text": "DNMT1, H4K20me3 and H3K9me3 expression was significantly reduced in grade 4 cases compared with grade 2 cases."
+},
+{
+"j": 4,
+"text": "Cell-free LINE-1 methylation was inversely correlated with LINE-1 methylation measured in matched tissue."
+}
+]
+},
+{
+"n": 54,
+"id": "doi:10.1101/2023.10.22.563463",
+"year": 2023,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Transposable elements can alter gene regulation in their host genome, either when they integrate into a genome, or when they accrue mutations after integration. However, the extent to which transposons can alter gene expression, as well as the necessary mutational steps, are not well characterized. Here we study the gene regulatory potential of the prominent IS3 family of transposable elements in E.coli . We started with 10 sequences from the ends of 5 IS3 sequences, created 18,537 random mutations in them, and measured their promoter activity using a massively parallel reporter assay. All 10 sequences could evolve de-novo promoter activity from single point mutations. De-novo promoters mostly emerge from existing proto-promoter sequences when mutations create new −10 boxes downstream of preexisting −35 boxes. The ends of IS3s harbor ~1.5 times as many such proto-promoter sequences than the E. coli genome. We also estimate that at least 26% of the 706 characterized IS3s already encode promoters. Our study shows that transposable elements can have a high latent cis-regulatory potential. Our observations can help to explain why mobile DNA may persist in prokaryotic genomes. They also underline the potential use of transposable elements as a substrate for evolving new gene expression."
+}
+],
+"text": "Transposable elements can alter gene regulation in their host genome, either when they integrate into a genome, or when they accrue mutations after integration. However, the extent to which transposons can alter gene expression, as well as the necessary mutational steps, are not well characterized. Here we study the gene regulatory potential of the prominent IS3 family of transposable elements in E.coli . We started with 10 sequences from the ends of 5 IS3 sequences, created 18,537 random mutations in them, and measured their promoter activity using a massively parallel reporter assay. All 10 sequences could evolve de-novo promoter activity from single point mutations. De-novo promoters mostly emerge from existing proto-promoter sequences when mutations create new −10 boxes downstream of preexisting −35 boxes. The ends of IS3s harbor ~1.5 times as many such proto-promoter sequences than the E. coli genome. We also estimate that at least 26% of the 706 characterized IS3s already encode promoters. Our study shows that transposable elements can have a high latent cis-regulatory potential. Our observations can help to explain why mobile DNA may persist in prokaryotic genomes. They also underline the potential use of transposable elements as a substrate for evolving new gene expression.",
+"statements": [
+{
+"j": 1,
+"text": "Promoters arising in IS3 ends raised expression of neighbouring host genes enough to improve host fitness."
+},
+{
+"j": 2,
+"text": "All ten sequences taken from the ends of five IS3 elements gained de novo promoter activity from single point mutations, among 18,537 mutations tested."
+},
+{
+"j": 3,
+"text": "The ends of IS3 elements contain about half as many proto-promoter sequences as the E. coli genome does."
+},
+{
+"j": 4,
+"text": "At least 26% of the 706 characterised IS3 elements are estimated to already carry promoters."
+}
+]
+},
+{
+"n": 55,
+"id": "pmid:41209828",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Centromeres are essential for centromere-specific histone H3 (CENH3) recruitment and kinetochore assembly, ensuring accurate chromosome segregation and maintaining genome stability in plants. Although extensively studied in model species, the structural organization of centromeres in nonmodel plants, such as fruit trees, remains poorly explored. Our previous study revealed that jujube centromeres lack the typical tandem repeat (TR)-rich structure, complicating their precise identification. In this study, we updated the genome assembly of jujube ( Ziziphus jujuba Mill. 'Dongzao') to a haplotype-resolved T2T version, enabling accurate mapping and comparison of centromeres between haplotypes using CENH3 ChIP-seq. These centromeres, ranging from 0.75 to 1.40 Mb, are largely conserved between haplotypes, except for a localized inversion on chromosome 10. Unlike the TR-rich centromeres found in many plant species, jujube centromeres are predominantly composed of Gypsy -type long-terminal repeat retrotransposons (LTR-RTs). Among these, we identified a centromere-enriched LTR family, centromeric retrotransposons of jujube (CRJ), which is particularly abundant in terminal LTRs compared to the internal transposon regions. Comparative analysis across plant species revealed that centromeric retrotransposons primarily fall into three subfamilies- CRM , Tekay , and Athila -highlighting strong subfamily specificity. Notably, early insertions of CRJ-derived LTR segments contributed to the formation of TR-like structures, suggesting a mechanistic link between transposable elements and the evolution of centromeric tandem repeats. This work provides the first in-depth characterization of a TE-dominated centromere architecture in a fruit tree, offering new insights into the diversity and evolution of plant centromeres."
+}
+],
+"text": "Centromeres are essential for centromere-specific histone H3 (CENH3) recruitment and kinetochore assembly, ensuring accurate chromosome segregation and maintaining genome stability in plants. Although extensively studied in model species, the structural organization of centromeres in nonmodel plants, such as fruit trees, remains poorly explored. Our previous study revealed that jujube centromeres lack the typical tandem repeat (TR)-rich structure, complicating their precise identification. In this study, we updated the genome assembly of jujube ( Ziziphus jujuba Mill. 'Dongzao') to a haplotype-resolved T2T version, enabling accurate mapping and comparison of centromeres between haplotypes using CENH3 ChIP-seq. These centromeres, ranging from 0.75 to 1.40 Mb, are largely conserved between haplotypes, except for a localized inversion on chromosome 10. Unlike the TR-rich centromeres found in many plant species, jujube centromeres are predominantly composed of Gypsy -type long-terminal repeat retrotransposons (LTR-RTs). Among these, we identified a centromere-enriched LTR family, centromeric retrotransposons of jujube (CRJ), which is particularly abundant in terminal LTRs compared to the internal transposon regions. Comparative analysis across plant species revealed that centromeric retrotransposons primarily fall into three subfamilies- CRM , Tekay , and Athila -highlighting strong subfamily specificity. Notably, early insertions of CRJ-derived LTR segments contributed to the formation of TR-like structures, suggesting a mechanistic link between transposable elements and the evolution of centromeric tandem repeats. This work provides the first in-depth characterization of a TE-dominated centromere architecture in a fruit tree, offering new insights into the diversity and evolution of plant centromeres.",
+"statements": [
+{
+"j": 1,
+"text": "The CENH3-defined centromeres ranged from 0.75 to 1.40 Mb and were largely conserved between haplotypes apart from a local inversion on chromosome 10."
+},
+{
+"j": 2,
+"text": "Across plant species, centromeric retrotransposons were spread evenly over many unrelated subfamilies, showing no subfamily specificity."
+},
+{
+"j": 3,
+"text": "The CRJ family is still transpositionally active in the jujube genome today."
+},
+{
+"j": 4,
+"text": "Jujube centromeres are built mainly of Gypsy-type long terminal repeat retrotransposons rather than the tandem repeat-rich arrays seen in many plants."
+}
+]
+},
+{
+"n": 56,
+"id": "doi:10.1101/2023.08.30.554943",
+"year": 2023,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "Cell free DNA (cfDNA) profiles of 5-hydroxymethylcytosine (5-hmC), an epigenetic marker of open chromatin and active gene expression, are correlated with metastatic disease burden in patients with neuroblastoma. Neuroblastoma tumors are comprised of adrenergic (ADRN) and mesenchymal (MES) cells, and the relative abundance of each in tumor biopsies has prognostic implications. We hypothesized that ADRN and MES specific signatures could be quantified in cfDNA 5-hmC profiles and would augment the detection of metastatic burden in patients with neuroblastoma."
+},
+{
+"label": "Methods",
+"text": "We previously performed an integrative analysis to identify ADRN and MES specific genes (n=373 and n=159, respectively). Purified DNA from cell lines was serial diluted with healthy donor cfDNA. Using Gene Set Variation Analysis (GSVA), ADRN and MES signatures were optimized. We then quantified signature scores, and our prior neuroblastoma signature, in cfDNA from 84 samples from 46 high-risk patients including 21 patients with serial samples."
+},
+{
+"label": "Results",
+"text": "Samples from patients with higher metastatic burden had increased GSVA scores for both ADRN and MES gene signatures (p < 0.001). While ADRN and MES signature scores tracked together in serially collected samples, we identified instances of patients with increases in either MES or ADRN score at relapse."
+},
+{
+"label": "Conclusions",
+"text": "While it is feasible to identify ADRN and MES signatures using 5-hmC profiles of cfDNA from neuroblastoma patients and correlate these signatures to metastatic burden, additional data are needed to determine the optimal strategies for clinical implementation. Prospective evaluation in larger cohorts is ongoing."
+}
+],
+"text": "Cell free DNA (cfDNA) profiles of 5-hydroxymethylcytosine (5-hmC), an epigenetic marker of open chromatin and active gene expression, are correlated with metastatic disease burden in patients with neuroblastoma. Neuroblastoma tumors are comprised of adrenergic (ADRN) and mesenchymal (MES) cells, and the relative abundance of each in tumor biopsies has prognostic implications. We hypothesized that ADRN and MES specific signatures could be quantified in cfDNA 5-hmC profiles and would augment the detection of metastatic burden in patients with neuroblastoma. We previously performed an integrative analysis to identify ADRN and MES specific genes (n=373 and n=159, respectively). Purified DNA from cell lines was serial diluted with healthy donor cfDNA. Using Gene Set Variation Analysis (GSVA), ADRN and MES signatures were optimized. We then quantified signature scores, and our prior neuroblastoma signature, in cfDNA from 84 samples from 46 high-risk patients including 21 patients with serial samples. Samples from patients with higher metastatic burden had increased GSVA scores for both ADRN and MES gene signatures (p < 0.001). While ADRN and MES signature scores tracked together in serially collected samples, we identified instances of patients with increases in either MES or ADRN score at relapse. While it is feasible to identify ADRN and MES signatures using 5-hmC profiles of cfDNA from neuroblastoma patients and correlate these signatures to metastatic burden, additional data are needed to determine the optimal strategies for clinical implementation. Prospective evaluation in larger cohorts is ongoing.",
+"statements": [
+{
+"j": 1,
+"text": "In serially collected samples the adrenergic and mesenchymal scores moved in opposite directions."
+},
+{
+"j": 2,
+"text": "Signature scores were measured in 84 cell-free DNA samples from 46 high-risk patients, 21 of whom contributed serial samples."
+},
+{
+"j": 3,
+"text": "The mesenchymal signature score at diagnosis predicted overall survival in these high-risk patients."
+},
+{
+"j": 4,
+"text": "Patients with greater metastatic burden had higher GSVA scores for both the adrenergic and the mesenchymal gene signatures."
+}
+]
+},
+{
+"n": 57,
+"id": "pmid:38714351",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Despite the success of poly-ADP-ribose polymerase inhibitors (PARPi) in the clinic, high rates of resistance to PARPi presents a challenge in the treatment of ovarian cancer, thus it is imperative to find therapeutic strategies to combat PARPi resistance. Here, we demonstrate that inhibition of epigenetic modifiers euchromatic histone lysine methyltransferases 1/2 (EHMT1/2) reduces the growth of multiple PARPi-resistant ovarian cancer cell lines and tumor growth in a PARPi-resistant mouse model of ovarian cancer. We found that combinatory EHMT and PARP inhibition increases immunostimulatory double-stranded RNA formation and elicits several immune signaling pathways in vitro. Using epigenomic profiling and transcriptomics, we found that EHMT2 is bound to transposable elements, and that EHMT inhibition leads to genome-wide epigenetic and transcriptional derepression of transposable elements. We validated EHMT-mediated activation of immune signaling and upregulation of transposable element transcripts in patient-derived, therapy-naïve, primary ovarian tumors, suggesting potential efficacy in PARPi-sensitive disease as well. Importantly, using multispectral immunohistochemistry, we discovered that combinatory therapy increased CD8 T-cell activity in the tumor microenvironment of the same patient-derived tissues. In a PARPi-resistant syngeneic murine model, EHMT and PARP inhibition combination inhibited tumor progression and increased Granzyme B+ cells in the tumor. Together, our results provide evidence that combinatory EHMT and PARP inhibition stimulates a cell autologous immune response in vitro, is an effective therapy to reduce PARPi-resistant ovarian tumor growth in vivo, and promotes antitumor immunity activity in the tumor microenvironment of patient-derived ex vivo tissues of ovarian cancer."
+}
+],
+"text": "Despite the success of poly-ADP-ribose polymerase inhibitors (PARPi) in the clinic, high rates of resistance to PARPi presents a challenge in the treatment of ovarian cancer, thus it is imperative to find therapeutic strategies to combat PARPi resistance. Here, we demonstrate that inhibition of epigenetic modifiers euchromatic histone lysine methyltransferases 1/2 (EHMT1/2) reduces the growth of multiple PARPi-resistant ovarian cancer cell lines and tumor growth in a PARPi-resistant mouse model of ovarian cancer. We found that combinatory EHMT and PARP inhibition increases immunostimulatory double-stranded RNA formation and elicits several immune signaling pathways in vitro. Using epigenomic profiling and transcriptomics, we found that EHMT2 is bound to transposable elements, and that EHMT inhibition leads to genome-wide epigenetic and transcriptional derepression of transposable elements. We validated EHMT-mediated activation of immune signaling and upregulation of transposable element transcripts in patient-derived, therapy-naïve, primary ovarian tumors, suggesting potential efficacy in PARPi-sensitive disease as well. Importantly, using multispectral immunohistochemistry, we discovered that combinatory therapy increased CD8 T-cell activity in the tumor microenvironment of the same patient-derived tissues. In a PARPi-resistant syngeneic murine model, EHMT and PARP inhibition combination inhibited tumor progression and increased Granzyme B+ cells in the tumor. Together, our results provide evidence that combinatory EHMT and PARP inhibition stimulates a cell autologous immune response in vitro, is an effective therapy to reduce PARPi-resistant ovarian tumor growth in vivo, and promotes antitumor immunity activity in the tumor microenvironment of patient-derived ex vivo tissues of ovarian cancer.",
+"statements": [
+{
+"j": 1,
+"text": "Combined EHMT and PARP inhibition reduced immunostimulatory double-stranded RNA formation in vitro."
+},
+{
+"j": 2,
+"text": "Epigenomic profiling placed EHMT2 on transposable elements, and EHMT inhibition derepressed those elements genome-wide, both epigenetically and transcriptionally."
+},
+{
+"j": 3,
+"text": "In a PARPi-resistant syngeneic mouse model, combined EHMT and PARP inhibition slowed tumour progression and raised the number of Granzyme B-positive cells."
+},
+{
+"j": 4,
+"text": "Combination treatment extended survival of animals in the PARPi-resistant mouse model."
+}
+]
+},
+{
+"n": 58,
+"id": "doi:10.64898/2026.08.14.26360450",
+"year": 2026,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Wastewater systems are increasingly recognized as important environmental reservoirs of antimicrobial resistance (AMR), acting as interfaces where resistant bacteria, antimicrobial resistance genes (ARGs), and mobile genetic elements (MGEs) converge and potentially disseminate. Wastewater samples were collected from hospital and community sites, including municipal medical centers, household wastewater outlets, and open drainage systems. Genomic DNA was extracted using the ZymoBIOMICS™ DNA/RNA Miniprep Kit and sequenced on the Oxford Nanopore Technologies MinION MK1D platform using the Native Barcoding Kit (SQK-NBD114.24, V14). Sequencing data were processed through a custom Snakemake workflow integrating quality control, taxonomic profiling, resistome characterization, mobilome analysis, and genome-resolved metagenomics. A total of 489 unique ARGs conferring resistance to 29 antibiotic classes were identified through metagenomic analysis. The resistome was dominated by genes conferring resistance to β-lactams (including cephalosporins and carbapenems), aminoglycosides, tetracyclines, macrolides, and fluoroquinolones. Clinically important resistance determinants, including bla OXA, bla TEM, bla GES, bla CARB, cfxA, tet, qnr, sul, dfrA, erm, msrE , and aminoglycoside-modifying enzyme genes such as aac(3) and ant(3’’) were detected across both hospital and community wastewater samples. Resistance mechanisms were predominantly driven by antibiotic inactivation, followed by efflux and target protection. Several priority bacterial pathogens were detected, including Escherichia coli, Klebsiella pneumoniae, Enterobacter cloacae, Pseudomonas aeruginosa, and Acinetobacter baumannii . Integration/excision elements were the predominant category of MGEs, followed by transfer-associated elements and replication/recombination/repair functions. Plasmid analysis further identified diverse incompatibility groups, predominantly IncP6, IncC, IncF, and IncR replicons, highlighting the widespread occurrence of plasmid-associated genetic mobility in both settings. Genome-resolved analysis reconstructed 103 dereplicated MAGs, of which 80 carried ARGs and 26 contained putative mobile resistance regions defined by ARG–MGE co-localizations within 10 kb. These findings reveal a substantial burden of clinically relevant ARGs, mobile genetic elements, and potential bacterial pathogens in hospital and community wastewater in Conakry. This study provides the first metagenomic baseline for environmental AMR surveillance in Guinea and highlights the urgent need for integrated One Health strategies to mitigate the environmental dissemination of antimicrobial resistance."
+}
+],
+"text": "Wastewater systems are increasingly recognized as important environmental reservoirs of antimicrobial resistance (AMR), acting as interfaces where resistant bacteria, antimicrobial resistance genes (ARGs), and mobile genetic elements (MGEs) converge and potentially disseminate. Wastewater samples were collected from hospital and community sites, including municipal medical centers, household wastewater outlets, and open drainage systems. Genomic DNA was extracted using the ZymoBIOMICS™ DNA/RNA Miniprep Kit and sequenced on the Oxford Nanopore Technologies MinION MK1D platform using the Native Barcoding Kit (SQK-NBD114.24, V14). Sequencing data were processed through a custom Snakemake workflow integrating quality control, taxonomic profiling, resistome characterization, mobilome analysis, and genome-resolved metagenomics. A total of 489 unique ARGs conferring resistance to 29 antibiotic classes were identified through metagenomic analysis. The resistome was dominated by genes conferring resistance to β-lactams (including cephalosporins and carbapenems), aminoglycosides, tetracyclines, macrolides, and fluoroquinolones. Clinically important resistance determinants, including bla OXA, bla TEM, bla GES, bla CARB, cfxA, tet, qnr, sul, dfrA, erm, msrE , and aminoglycoside-modifying enzyme genes such as aac(3) and ant(3’’) were detected across both hospital and community wastewater samples. Resistance mechanisms were predominantly driven by antibiotic inactivation, followed by efflux and target protection. Several priority bacterial pathogens were detected, including Escherichia coli, Klebsiella pneumoniae, Enterobacter cloacae, Pseudomonas aeruginosa, and Acinetobacter baumannii . Integration/excision elements were the predominant category of MGEs, followed by transfer-associated elements and replication/recombination/repair functions. Plasmid analysis further identified diverse incompatibility groups, predominantly IncP6, IncC, IncF, and IncR replicons, highlighting the widespread occurrence of plasmid-associated genetic mobility in both settings. Genome-resolved analysis reconstructed 103 dereplicated MAGs, of which 80 carried ARGs and 26 contained putative mobile resistance regions defined by ARG–MGE co-localizations within 10 kb. These findings reveal a substantial burden of clinically relevant ARGs, mobile genetic elements, and potential bacterial pathogens in hospital and community wastewater in Conakry. This study provides the first metagenomic baseline for environmental AMR surveillance in Guinea and highlights the urgent need for integrated One Health strategies to mitigate the environmental dissemination of antimicrobial resistance.",
+"statements": [
+{
+"j": 1,
+"text": "Resistance gene abundance was higher in hospital wastewater than in community wastewater."
+},
+{
+"j": 2,
+"text": "Metagenomic analysis identified 489 unique resistance genes covering 29 antibiotic classes in the wastewater samples."
+},
+{
+"j": 3,
+"text": "Of 103 dereplicated metagenome-assembled genomes, 80 carried resistance genes and 26 held putative mobile resistance regions within 10 kb."
+},
+{
+"j": 4,
+"text": "Efflux was the dominant resistance mechanism in the resistome, ahead of antibiotic inactivation."
+}
+]
+},
+{
+"n": 59,
+"id": "pmid:41294844",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Breast cancer remains a major global health challenge. Yet, genomic data from Middle Eastern and North African (MENA) populations are limited, restricting insights into disease drivers and therapeutic opportunities in this demographic. To address this gap, we performed whole-exome sequencing (WES) on 52 breast cancer samples, including 51 from the MENA region, to characterize somatic mutations and potential therapeutic targets. Across the cohort, 37,369 somatic variants matched entries in the COSMIC database, and driver prediction tools (BoostDM and OncodriveMUT) identified 2451 predicted driver mutations, including 648 known driver variants in genes such as TP53, PIK3CA, GATA3, PTEN, SF3B1, and KMT2C. In addition, 1803 novel predicted drivers were detected, many affecting DNA repair pathways, including homologous recombination (BRCA2, RAD51C), mismatch repair (MLH1, MSH2), and nucleotide excision repair (ERCC2, ERCC3), as well as regulators such as TP53 and ATM. Mutational signature analysis revealed a predominance of C>T substitutions and subtype-specific patterns, with SBS22 and SBS43 enriched in Luminal A tumors. Therapeutic annotation using OncoKB identified 223 actionable or likely oncogenic variants, highlighting potential targets for precision oncology. This study provides a comprehensive characterization of the breast cancer mutational landscape in MENA patients and offers a valuable resource for advancing genomic and therapeutic research in this demographic."
+}
+],
+"text": "Breast cancer remains a major global health challenge. Yet, genomic data from Middle Eastern and North African (MENA) populations are limited, restricting insights into disease drivers and therapeutic opportunities in this demographic. To address this gap, we performed whole-exome sequencing (WES) on 52 breast cancer samples, including 51 from the MENA region, to characterize somatic mutations and potential therapeutic targets. Across the cohort, 37,369 somatic variants matched entries in the COSMIC database, and driver prediction tools (BoostDM and OncodriveMUT) identified 2451 predicted driver mutations, including 648 known driver variants in genes such as TP53, PIK3CA, GATA3, PTEN, SF3B1, and KMT2C. In addition, 1803 novel predicted drivers were detected, many affecting DNA repair pathways, including homologous recombination (BRCA2, RAD51C), mismatch repair (MLH1, MSH2), and nucleotide excision repair (ERCC2, ERCC3), as well as regulators such as TP53 and ATM. Mutational signature analysis revealed a predominance of C>T substitutions and subtype-specific patterns, with SBS22 and SBS43 enriched in Luminal A tumors. Therapeutic annotation using OncoKB identified 223 actionable or likely oncogenic variants, highlighting potential targets for precision oncology. This study provides a comprehensive characterization of the breast cancer mutational landscape in MENA patients and offers a valuable resource for advancing genomic and therapeutic research in this demographic.",
+"statements": [
+{
+"j": 1,
+"text": "Driver prediction flagged 2451 mutations, of which 648 were known driver variants and 1803 were novel predictions."
+},
+{
+"j": 2,
+"text": "The mutational landscape of these tumours differed significantly from that of European breast cancers in TCGA."
+},
+{
+"j": 3,
+"text": "Annotation with OncoKB found no actionable or likely oncogenic variants in the cohort."
+},
+{
+"j": 4,
+"text": "C>T substitutions predominated, and the signatures SBS22 and SBS43 were enriched in Luminal A tumours."
+}
+]
+},
+{
+"n": 60,
+"id": "pmid:40059100",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Uveal melanoma is a lethal intraocular tumour, in which the presence of various genetic alterations correlates with the risk of metastatic dissemination and survival. Here, we tested the detectability of all key mutations and chromosomal changes from RNA sequencing data in 80 primary uveal melanomas studied by The Cancer Genome Atlas (TCGA) initiative, and in five prospective cases. Whereas unsupervised gene expression profiling strongly indicated the presence of chromosome 3 alterations, it was not reliable in identifying other alterations. Though, the presence of both chromosome 3 and 8q copy number alterations could be successfully inferred from expressed allelic imbalances of heterozygous common single nucleotide polymorphisms. Most mutations were adequately recognised in the RNA by their nucleotide changes (all genes), alternative splicing around the mutation (BAP1) and transcriptome-wide aberrant splicing (SF3B1). Notably, in the TCGA cohort we detected previously unreported mutations in BAP1 (n = 3) and EIF1AX (n = 5), that were missed by the original DNA sequencing. In our prospective cohort, all genetic alterations were successfully identified by combining the described approaches. In conclusion, a transcriptional analysis presents insights into the expressed tumour genotype and its phenotypic consequences and may augment or even substitute DNA-based approaches, with potential applicability in research and clinical practice."
+}
+],
+"text": "Uveal melanoma is a lethal intraocular tumour, in which the presence of various genetic alterations correlates with the risk of metastatic dissemination and survival. Here, we tested the detectability of all key mutations and chromosomal changes from RNA sequencing data in 80 primary uveal melanomas studied by The Cancer Genome Atlas (TCGA) initiative, and in five prospective cases. Whereas unsupervised gene expression profiling strongly indicated the presence of chromosome 3 alterations, it was not reliable in identifying other alterations. Though, the presence of both chromosome 3 and 8q copy number alterations could be successfully inferred from expressed allelic imbalances of heterozygous common single nucleotide polymorphisms. Most mutations were adequately recognised in the RNA by their nucleotide changes (all genes), alternative splicing around the mutation (BAP1) and transcriptome-wide aberrant splicing (SF3B1). Notably, in the TCGA cohort we detected previously unreported mutations in BAP1 (n = 3) and EIF1AX (n = 5), that were missed by the original DNA sequencing. In our prospective cohort, all genetic alterations were successfully identified by combining the described approaches. In conclusion, a transcriptional analysis presents insights into the expressed tumour genotype and its phenotypic consequences and may augment or even substitute DNA-based approaches, with potential applicability in research and clinical practice.",
+"statements": [
+{
+"j": 1,
+"text": "Unsupervised expression profiling reliably identified every class of genetic alteration tested."
+},
+{
+"j": 2,
+"text": "In the TCGA cohort, RNA analysis revealed previously unreported mutations in BAP1 in three tumours and EIF1AX in five, missed by the original DNA sequencing."
+},
+{
+"j": 3,
+"text": "Copy number alterations of chromosome 3 and 8q were inferred from expressed allelic imbalance at heterozygous common single nucleotide polymorphisms."
+},
+{
+"j": 4,
+"text": "RNA sequencing costs less per sample than the DNA sequencing it could replace."
+}
+]
+},
+{
+"n": 61,
+"id": "pmid:42686803",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "High grade serous ovarian cancer (HGSC) has low survival partly due to the lack of methods for detection, diagnosis, and risk prediction. TP53 mutations, which drive HGSC, are found in gynecological tissues as the result of somatic evolution, but it is unknown whether an excess of mutations is linked to ovarian cancer. Here we investigate if TP53 mutation burden measured in uterine lavage, a minimally invasive gynecological liquid biopsy, can discriminate between patients with and without HGSC. We used ultradeep TP53 duplex sequencing (>15,000x duplex depth) to detect TP53 mutations in uterine lavage collected pre-operatively in 278 patients undergoing gynecological surgery for pelvic masses (average risk) or cancer risk-reduction (high risk). All lavages contained multiple TP53 mutant clones, which were used to quantify TP53 mutation burden frequency (MBF). Average risk patients with HGSC had significantly higher TP53 MBF independently of age and other risk factors (77% sensitivity, 89% specificity, AUC = 0.88). Excluding tumor TP53 clonal mutations from the lavage MBF calculation maintains this association, suggesting that it is the overall TP53 somatic mutation burden (rather than the discovery of the specific tumor driver mutation) that identifies HGSC. These results demonstrate that TP53 somatic mutations are common in uterine lavage but more abundant in patients with HGSC, highlighting a connection between TP53 somatic evolution and ovarian cancer. Uterine lavage offers a minimally invasive approach that could be valuable to identify patients with HGSC."
+}
+],
+"text": "High grade serous ovarian cancer (HGSC) has low survival partly due to the lack of methods for detection, diagnosis, and risk prediction. TP53 mutations, which drive HGSC, are found in gynecological tissues as the result of somatic evolution, but it is unknown whether an excess of mutations is linked to ovarian cancer. Here we investigate if TP53 mutation burden measured in uterine lavage, a minimally invasive gynecological liquid biopsy, can discriminate between patients with and without HGSC. We used ultradeep TP53 duplex sequencing (>15,000x duplex depth) to detect TP53 mutations in uterine lavage collected pre-operatively in 278 patients undergoing gynecological surgery for pelvic masses (average risk) or cancer risk-reduction (high risk). All lavages contained multiple TP53 mutant clones, which were used to quantify TP53 mutation burden frequency (MBF). Average risk patients with HGSC had significantly higher TP53 MBF independently of age and other risk factors (77% sensitivity, 89% specificity, AUC = 0.88). Excluding tumor TP53 clonal mutations from the lavage MBF calculation maintains this association, suggesting that it is the overall TP53 somatic mutation burden (rather than the discovery of the specific tumor driver mutation) that identifies HGSC. These results demonstrate that TP53 somatic mutations are common in uterine lavage but more abundant in patients with HGSC, highlighting a connection between TP53 somatic evolution and ovarian cancer. Uterine lavage offers a minimally invasive approach that could be valuable to identify patients with HGSC.",
+"statements": [
+{
+"j": 1,
+"text": "In average-risk patients, higher TP53 mutation burden frequency identified high grade serous ovarian cancer with 77% sensitivity, 89% specificity and an AUC of 0.88."
+},
+{
+"j": 2,
+"text": "Uterine lavage mutation burden was also raised in patients with endometrial cancer."
+},
+{
+"j": 3,
+"text": "Every lavage sample contained multiple TP53 mutant clones, which were used to compute the mutation burden frequency."
+},
+{
+"j": 4,
+"text": "Removing the tumour's clonal TP53 mutations from the calculation abolished the association with ovarian cancer."
+}
+]
+},
+{
+"n": 62,
+"id": "pmid:42298553",
+"year": 2026,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "The domestication of transposable elements is a key source of evolutionary innovation, yet the pathways by which their functional modules are repurposed by the host remain poorly understood. The Tc1/mariner superfamily is a widespread group of DNA transposons, but the prevalence and patterns of their domestication are underexplored."
+},
+{
+"label": "Results",
+"text": "We performed a systematic genomic screen across 43 drosophilid species using stringent criteria for molecular domestication. This analysis identified five high-confidence, evolutionarily conserved genes derived from Tc1/mariner transposases. Phylogenetic and structural analyses suggest domestication via two distinct molecular pathways: co-option of the DNA-binding module and co-option of the catalytic domain. The DNA-binding module pathway includes CG4570, the previously known genes cag and toy (the latter fused with a homeodomain), and a lineage-restricted gene in the Drosophila obscura group that exhibits signatures of recent domestication. In contrast, the catalytic domain pathway is represented solely by CG14478. Structural modeling reveals that CG14478 protein preserves a canonical DDE endonuclease fold. Co-expression network analysis suggests potential cellular roles of these genes: CG14478 is linked to RNA/chromatin-related processes, CG4570 to cell cycle/chromosome functions, cag to ciliary and nuclear functions, and toy to neuronal development."
+},
+{
+"label": "Conclusions",
+"text": "This study establishes a stringent framework for identifying domesticated TEs, demonstrating that Tc1/mariner elements are co-opted via two distinct pathways: retention of either catalytic or DNA-binding modules. Our findings suggest that domestication is a dynamic continuum, ranging from recent, lineage-specific events to ancient, conserved genes, and underscore how genomic conflict with TEs can drive eukaryotic evolution and regulatory complexity."
+}
+],
+"text": "The domestication of transposable elements is a key source of evolutionary innovation, yet the pathways by which their functional modules are repurposed by the host remain poorly understood. The Tc1/mariner superfamily is a widespread group of DNA transposons, but the prevalence and patterns of their domestication are underexplored. We performed a systematic genomic screen across 43 drosophilid species using stringent criteria for molecular domestication. This analysis identified five high-confidence, evolutionarily conserved genes derived from Tc1/mariner transposases. Phylogenetic and structural analyses suggest domestication via two distinct molecular pathways: co-option of the DNA-binding module and co-option of the catalytic domain. The DNA-binding module pathway includes CG4570, the previously known genes cag and toy (the latter fused with a homeodomain), and a lineage-restricted gene in the Drosophila obscura group that exhibits signatures of recent domestication. In contrast, the catalytic domain pathway is represented solely by CG14478. Structural modeling reveals that CG14478 protein preserves a canonical DDE endonuclease fold. Co-expression network analysis suggests potential cellular roles of these genes: CG14478 is linked to RNA/chromatin-related processes, CG4570 to cell cycle/chromosome functions, cag to ciliary and nuclear functions, and toy to neuronal development. This study establishes a stringent framework for identifying domesticated TEs, demonstrating that Tc1/mariner elements are co-opted via two distinct pathways: retention of either catalytic or DNA-binding modules. Our findings suggest that domestication is a dynamic continuum, ranging from recent, lineage-specific events to ancient, conserved genes, and underscore how genomic conflict with TEs can drive eukaryotic evolution and regulatory complexity.",
+"statements": [
+{
+"j": 1,
+"text": "Flies with CG14478 deleted show defects in chromosome segregation."
+},
+{
+"j": 2,
+"text": "Co-expression analysis linked toy to cell cycle and chromosome functions and CG4570 to neuronal development."
+},
+{
+"j": 3,
+"text": "Only CG14478 represented the catalytic-domain route, and structural modelling showed its protein keeps a canonical DDE endonuclease fold."
+},
+{
+"j": 4,
+"text": "A screen across 43 drosophilid species yielded five conserved genes derived from Tc1/mariner transposases."
+}
+]
+},
+{
+"n": 63,
+"id": "doi:10.1101/2024.09.19.613896",
+"year": 2024,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": "Motivation",
+"text": "Missense variants play a crucial role in cancer development, and distinguishing between those that frequently occur in cancer genomes and those that are rare may provide valuable insights into important functional mechanisms and consequences. Specifically, if common variants confer growth advantages, they may have undergone positive selection across different patients due to similar selection pressures. Moreover, studies have demonstrated the significance of rare mutations that arise as resistance mechanisms in response to drug treatment. This highlights the importance of understanding the role of both recurrent and rare variants in cancer. In addition to this, most existing tools for variant prediction focus on distinguishing variants found in normal and disease populations, often without considering the specific disease contexts in which these variants arise. Instead, they typically build predictors that generalise across all diseases. Here, we introduce CanDrivR-CS , a set of cancer-specific gradient boosting models designed to distinguish between rare and recurrent cancer variants."
+},
+{
+"label": "Results",
+"text": "We curated missense variant data from the International Cancer Genome Consortium (ICGC). Cancer-type-specific models significantly outperformed a baseline pan-cancer model, achieving a maximum leave-one-group-out cross-validation (LOGO-CV) F1 score of up to 90% for CanDrivRSKCM (Skin Cutaneous Melanoma) and 89% for CanDrivR-SKCA (Skin Adenocarcinoma) , compared to 79.2% for the baseline model. Notably, DNA shape properties consistently ranked among the top features for distinguishing recurrent and rare variants across all cancers. Specifically, recurrent missense variants frequently occurred in DNA bends and rolls, potentially implicating regions prone to DNA replication errors and acting as mutational hotspots."
+},
+{
+"label": "Availability and Implementation",
+"text": "All training and test data, and Python code are available in our CanDrivR-CS GitHub repository: https://github.com/amyfrancis97/CanDrivR-CS ."
+}
+],
+"text": "Missense variants play a crucial role in cancer development, and distinguishing between those that frequently occur in cancer genomes and those that are rare may provide valuable insights into important functional mechanisms and consequences. Specifically, if common variants confer growth advantages, they may have undergone positive selection across different patients due to similar selection pressures. Moreover, studies have demonstrated the significance of rare mutations that arise as resistance mechanisms in response to drug treatment. This highlights the importance of understanding the role of both recurrent and rare variants in cancer. In addition to this, most existing tools for variant prediction focus on distinguishing variants found in normal and disease populations, often without considering the specific disease contexts in which these variants arise. Instead, they typically build predictors that generalise across all diseases. Here, we introduce CanDrivR-CS , a set of cancer-specific gradient boosting models designed to distinguish between rare and recurrent cancer variants. We curated missense variant data from the International Cancer Genome Consortium (ICGC). Cancer-type-specific models significantly outperformed a baseline pan-cancer model, achieving a maximum leave-one-group-out cross-validation (LOGO-CV) F1 score of up to 90% for CanDrivRSKCM (Skin Cutaneous Melanoma) and 89% for CanDrivR-SKCA (Skin Adenocarcinoma) , compared to 79.2% for the baseline model. Notably, DNA shape properties consistently ranked among the top features for distinguishing recurrent and rare variants across all cancers. Specifically, recurrent missense variants frequently occurred in DNA bends and rolls, potentially implicating regions prone to DNA replication errors and acting as mutational hotspots. All training and test data, and Python code are available in our CanDrivR-CS GitHub repository: https://github.com/amyfrancis97/CanDrivR-CS .",
+"statements": [
+{
+"j": 1,
+"text": "The models were built to separate variants seen in cancer from those seen in healthy populations."
+},
+{
+"j": 2,
+"text": "Cancer-type-specific models reached F1 scores up to 90% for skin cutaneous melanoma and 89% for skin adenocarcinoma, against 79.2% for the pan-cancer baseline."
+},
+{
+"j": 3,
+"text": "DNA shape properties ranked consistently among the top discriminating features, with recurrent missense variants often falling in DNA bends and rolls."
+},
+{
+"j": 4,
+"text": "Recurrent variants predicted by the models were enriched in genes targeted by approved drugs."
+}
+]
+},
+{
+"n": 64,
+"id": "pmid:42687279",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Precise pretreatment prediction of nasopharyngeal carcinoma (NPC) recurrence remains a clinical challenge. This study develops a circularly polarized surface-enhanced shifted-excitation Raman difference spectroscopy (SE-SERDS) system for label-free analysis of circulating cell-free DNA (cfDNA). Spectra were acquired from 90 recurrent and 90 non-recurrent NPC patients under non-polarized (NP), left-handed circularly polarized (LHCP), and right-handed circularly polarized (RHCP) excitations, alongside a fused LHCP + RHCP dataset. While the combination of circular polarization and surface-enhanced Raman scattering (SERS) uncovers hidden chiroptical signatures of cfDNA, the instrumentation-based SERDS method effectively eliminates residual fluorescence. In contrast to traditional polynomial-fitting (PF) methods, this hardware-driven approach replaces subjective algorithmic assumptions with physical wavelength modulation, improving apparent spectral resolution and enabling the extraction of subtle prognostic features at 1074 and 1147 cm-1 with a higher signal-to-background contrast. Furthermore, circularly polarized excitation yields more statistically significant spectral differences between groups than NP excitation, with fused LHCP + RHCP spectra providing higher discriminability by capturing complementary conformational information of the cfDNA double helix than standalone polarization data. Using 5-fold cross-validated linear discriminant analysis, SE-SERDS consistently outperformed PF-SERS across all excitation modes, with prediction accuracies rising from 71.1 vs 66.7% (NP) to a maximum of 93.9 vs 87.8% (LHCP + RHCP). Integration with a support vector machine (SVM) further enhanced the accuracy to 95.6%. These results indicate that the fused dual-polarization SE-SERDS strategy provides a powerful tool for pretreatment NPC recurrence prediction to support clinical intervention."
+}
+],
+"text": "Precise pretreatment prediction of nasopharyngeal carcinoma (NPC) recurrence remains a clinical challenge. This study develops a circularly polarized surface-enhanced shifted-excitation Raman difference spectroscopy (SE-SERDS) system for label-free analysis of circulating cell-free DNA (cfDNA). Spectra were acquired from 90 recurrent and 90 non-recurrent NPC patients under non-polarized (NP), left-handed circularly polarized (LHCP), and right-handed circularly polarized (RHCP) excitations, alongside a fused LHCP + RHCP dataset. While the combination of circular polarization and surface-enhanced Raman scattering (SERS) uncovers hidden chiroptical signatures of cfDNA, the instrumentation-based SERDS method effectively eliminates residual fluorescence. In contrast to traditional polynomial-fitting (PF) methods, this hardware-driven approach replaces subjective algorithmic assumptions with physical wavelength modulation, improving apparent spectral resolution and enabling the extraction of subtle prognostic features at 1074 and 1147 cm-1 with a higher signal-to-background contrast. Furthermore, circularly polarized excitation yields more statistically significant spectral differences between groups than NP excitation, with fused LHCP + RHCP spectra providing higher discriminability by capturing complementary conformational information of the cfDNA double helix than standalone polarization data. Using 5-fold cross-validated linear discriminant analysis, SE-SERDS consistently outperformed PF-SERS across all excitation modes, with prediction accuracies rising from 71.1 vs 66.7% (NP) to a maximum of 93.9 vs 87.8% (LHCP + RHCP). Integration with a support vector machine (SVM) further enhanced the accuracy to 95.6%. These results indicate that the fused dual-polarization SE-SERDS strategy provides a powerful tool for pretreatment NPC recurrence prediction to support clinical intervention.",
+"statements": [
+{
+"j": 1,
+"text": "With cross-validated linear discriminant analysis, accuracy rose from 71.1% under non-polarized excitation to 93.9% with fused dual-polarization spectra, beating polynomial-fitting SERS throughout."
+},
+{
+"j": 2,
+"text": "Spectra were collected from 90 patients in total, half of whom later had a recurrence."
+},
+{
+"j": 3,
+"text": "The two prognostic bands at 1074 and 1147 cm-1 arise from methylated cytosine in the cell-free DNA."
+},
+{
+"j": 4,
+"text": "Replacing linear discriminant analysis with a support vector machine raised accuracy further, to 95.6%."
+}
+]
+},
+{
+"n": 65,
+"id": "pmid:38878913",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Argonaute proteins are key constituents of small RNA-guided regulatory pathways. In crustaceans, members of the AGO subfamily of Argonaute proteins that play vital roles in immune defense are well studied, while proteins of the PIWI subfamily are less established. PmAgo4 of the black tiger shrimp, Penaeus monodon, though phylogenetically clustered with the AGO subfamily, has distinctive roles of the PIWI subfamily in safeguarding the genome from transposon invasion and controlling germ cell development. This study explored a molecular mechanism by which PmAgo4 regulates transposon expression in the shrimp germline. PmAgo4-associated small RNAs were co-immunoprecipitated from shrimp testis lysate using a PmAgo4-specific polyclonal antibody. RNA-seq revealed a majority of 26-27 nt long small RNAs in the PmAgo4-IP fraction suggesting that PmAgo4 is predominantly associated with piRNAs. Mapping of these piRNAs on nucleotide sequences of two gypsy and a mariner-like transposons of P. monodon suggested that most piRNAs were originated from the antisense strand of transposons. Suppression of PmAgo4 expression by a specific dsRNA elevated the expression levels of the three transposons while decreasing the levels of transposon-related piRNAs. Taken together, these results imply that PmAgo4 exerts its suppressive function on transposons by controlling the biogenesis of transposon-related piRNAs and thus, provides a defense mechanism against transposon invasion in shrimp germline cells."
+}
+],
+"text": "Argonaute proteins are key constituents of small RNA-guided regulatory pathways. In crustaceans, members of the AGO subfamily of Argonaute proteins that play vital roles in immune defense are well studied, while proteins of the PIWI subfamily are less established. PmAgo4 of the black tiger shrimp, Penaeus monodon, though phylogenetically clustered with the AGO subfamily, has distinctive roles of the PIWI subfamily in safeguarding the genome from transposon invasion and controlling germ cell development. This study explored a molecular mechanism by which PmAgo4 regulates transposon expression in the shrimp germline. PmAgo4-associated small RNAs were co-immunoprecipitated from shrimp testis lysate using a PmAgo4-specific polyclonal antibody. RNA-seq revealed a majority of 26-27 nt long small RNAs in the PmAgo4-IP fraction suggesting that PmAgo4 is predominantly associated with piRNAs. Mapping of these piRNAs on nucleotide sequences of two gypsy and a mariner-like transposons of P. monodon suggested that most piRNAs were originated from the antisense strand of transposons. Suppression of PmAgo4 expression by a specific dsRNA elevated the expression levels of the three transposons while decreasing the levels of transposon-related piRNAs. Taken together, these results imply that PmAgo4 exerts its suppressive function on transposons by controlling the biogenesis of transposon-related piRNAs and thus, provides a defense mechanism against transposon invasion in shrimp germline cells.",
+"statements": [
+{
+"j": 1,
+"text": "PmAgo4 also silences transposons in shrimp somatic tissues such as the hepatopancreas."
+},
+{
+"j": 2,
+"text": "Small RNAs pulled down with PmAgo4 from testis were mostly 26 to 27 nucleotides long, indicating PmAgo4 associates predominantly with piRNAs."
+},
+{
+"j": 3,
+"text": "Most transposon-mapping piRNAs came from the sense strand of the gypsy and mariner-like elements."
+},
+{
+"j": 4,
+"text": "Knocking down PmAgo4 with a specific double-stranded RNA raised expression of the three transposons and lowered transposon-related piRNA levels."
+}
+]
+},
+{
+"n": 66,
+"id": "pmid:42806813",
+"year": 2026,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Experimental evolution provides a reproducible testing ground for the study of adaptive evolution where the numerous degrees of freedom impacting the trajectory of evolution can be limited to their most controlled form. Evolution in a continuous culture device known as the chemostat further constrains the variables that introduce stochasticity by maintaining constant selective pressure and environmental conditions. Using a multiplexed miniature chemostat setup, we generated a highly parallel set of yeast evolution experiments in glucose-, phosphate-, and sulfate-limited media conditions with a total of 95 replicates across the conditions. Whole genome sequencing of the resulting populations allowed us to analyze recurrent targets of mutation during these evolution experiments. Integrating the mutations observed here with previously generated data, we found consistent targeting of complexes and pathways, such as the SAGA complex in sulfate limitation, the sirtuin family in phosphate limitation, and the phosphorelay signal transduction system in glucose limitation. We also recurrently observed new mobilizations of Ty1 and Ty2 transposable elements, often interrupting genes that were also separately mutated by SNPs/InDels in other populations. Comparing the frequency of genes impacted by either SNPs and indels or Ty1/Ty2 elements, we find that a gene's location relative to predictors of Ty element mobilization likely impacted whether a gene was affected by either mutational modality. Overall, we identify how the biases in mutational frequency and the effect of local genome context can impact the direction of evolution and shape the path a population takes across the fitness landscape."
+}
+],
+"text": "Experimental evolution provides a reproducible testing ground for the study of adaptive evolution where the numerous degrees of freedom impacting the trajectory of evolution can be limited to their most controlled form. Evolution in a continuous culture device known as the chemostat further constrains the variables that introduce stochasticity by maintaining constant selective pressure and environmental conditions. Using a multiplexed miniature chemostat setup, we generated a highly parallel set of yeast evolution experiments in glucose-, phosphate-, and sulfate-limited media conditions with a total of 95 replicates across the conditions. Whole genome sequencing of the resulting populations allowed us to analyze recurrent targets of mutation during these evolution experiments. Integrating the mutations observed here with previously generated data, we found consistent targeting of complexes and pathways, such as the SAGA complex in sulfate limitation, the sirtuin family in phosphate limitation, and the phosphorelay signal transduction system in glucose limitation. We also recurrently observed new mobilizations of Ty1 and Ty2 transposable elements, often interrupting genes that were also separately mutated by SNPs/InDels in other populations. Comparing the frequency of genes impacted by either SNPs and indels or Ty1/Ty2 elements, we find that a gene's location relative to predictors of Ty element mobilization likely impacted whether a gene was affected by either mutational modality. Overall, we identify how the biases in mutational frequency and the effect of local genome context can impact the direction of evolution and shape the path a population takes across the fitness landscape.",
+"statements": [
+{
+"j": 1,
+"text": "Across glucose-, phosphate- and sulfate-limited conditions, 95 replicate yeast populations were evolved in miniature chemostats and then whole-genome sequenced."
+},
+{
+"j": 2,
+"text": "Mutational targets differed by limitation: the SAGA complex under sulfate limitation, sirtuins under phosphate limitation, and the phosphorelay system under glucose limitation."
+},
+{
+"j": 3,
+"text": "New mobilizations of Ty1 and Ty2 elements landed in genes that were never affected by SNPs or indels in other populations."
+},
+{
+"j": 4,
+"text": "Populations carrying new Ty insertions reached higher fitness than those carrying only point mutations."
+}
+]
+},
+{
+"n": 67,
+"id": "doi:10.1101/2025.06.12.655573",
+"year": 2025,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Testicular germ cell tumors (TGCTs) are the most common malignancy in young men, exhibit a unique developmental origin and exceptional chemosensitivity. However, the molecular distinctions between TGCT subtypes remain poorly understood. Here we present a comprehensive genomic analysis of 252 treatment-naive primary TGCTs, integrating deep whole-genome sequencing with matched transcriptomic and epigenomic data. We identify new driver genes and uncover defining features of TGCTs, including pervasive chromosome X amplification with subtype-specific X chromosome inactivation, and a germ cell-like transcriptional program. Although previously reported, whole genome doubling (WGD) in TGCTs is further characterized here as ubiquitous, developmentally early, and associated with age at onset. Seminomas are enriched for early driver mutations, secondary WGD events, sustained XIST expression and replication stress-associated indel mutational signatures, while non-seminomas show greater structural complexity, subclonal diversity, relatively earlier-onset WGD, extended tumor latency, and telomere elongation. Moreover, we identify a mutational signature, SBS87, that is exceptionally rare across cancers with exception of thiopurine-treated leukemia, but strikingly prevalent in TGCT, especially non-seminomas. SBS87 is linked to extended tumor latency and telomere elongation, implicating possible environmental or endogenous processes that mimic thiopurine-induced DNA damage in TGCT pathogenesis. Collectively, our findings define TGCTs as molecularly distinct tumors shaped by early genomic instability and highlight SBS87 as a novel mutational footprint with potential etiologic and clinical relevance."
+}
+],
+"text": "Testicular germ cell tumors (TGCTs) are the most common malignancy in young men, exhibit a unique developmental origin and exceptional chemosensitivity. However, the molecular distinctions between TGCT subtypes remain poorly understood. Here we present a comprehensive genomic analysis of 252 treatment-naive primary TGCTs, integrating deep whole-genome sequencing with matched transcriptomic and epigenomic data. We identify new driver genes and uncover defining features of TGCTs, including pervasive chromosome X amplification with subtype-specific X chromosome inactivation, and a germ cell-like transcriptional program. Although previously reported, whole genome doubling (WGD) in TGCTs is further characterized here as ubiquitous, developmentally early, and associated with age at onset. Seminomas are enriched for early driver mutations, secondary WGD events, sustained XIST expression and replication stress-associated indel mutational signatures, while non-seminomas show greater structural complexity, subclonal diversity, relatively earlier-onset WGD, extended tumor latency, and telomere elongation. Moreover, we identify a mutational signature, SBS87, that is exceptionally rare across cancers with exception of thiopurine-treated leukemia, but strikingly prevalent in TGCT, especially non-seminomas. SBS87 is linked to extended tumor latency and telomere elongation, implicating possible environmental or endogenous processes that mimic thiopurine-induced DNA damage in TGCT pathogenesis. Collectively, our findings define TGCTs as molecularly distinct tumors shaped by early genomic instability and highlight SBS87 as a novel mutational footprint with potential etiologic and clinical relevance.",
+"statements": [
+{
+"j": 1,
+"text": "The analysis covered 252 treatment-naive primary testicular germ cell tumours with deep whole-genome sequencing plus matched transcriptomic and epigenomic data."
+},
+{
+"j": 2,
+"text": "Seminomas showed greater structural complexity and subclonal diversity than non-seminomas."
+},
+{
+"j": 3,
+"text": "SBS87 burden predicted response to platinum chemotherapy in these tumours."
+},
+{
+"j": 4,
+"text": "Whole genome doubling was ubiquitous in these tumours, happened developmentally early, and was associated with age at onset."
+}
+]
+},
+{
+"n": 68,
+"id": "pmid:39338204",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Neuroblastoma is the most prevalent solid tumor in early childhood, with a 5-year overall survival rate of 40-60% in high-risk cases. Therefore, the identification of novel biomarkers for the diagnosis, prognosis, and therapy of neuroblastoma is crucial for improving the clinical outcomes of these patients. In this study, we conducted the whole-exome sequencing of 48 freshly frozen tumor samples obtained from the Biobank. Somatic variants were identified and selected using a bioinformatics analysis pipeline. The mutational signatures were determined using the Mutalisk online tool. Cancer driver genes and druggable mutations were predicted using the Cancer Genome Interpreter. The most common mutational signature was single base substitution 5. MUC4 , MUC16 , and FLG were identified as the most frequently mutated genes. Using the Cancer Genome Interpreter, we identified five recurrent cancer driver mutations spanning MUC16 , MUC4 , ALK , and CTNND1 , with the latter being novel and containing a missense mutation, R439C. We also identified 11 putative actionable mutations including NF1 Q1798*, Q2616*, and S636X, ALK F1174L and R1275Q, SETD2 P10L and Q1829E, BRCA1 R612S, NOTCH1 D1670V, ATR S1372L, and FGFR1 N577K. Our findings provide a comprehensive overview of the novel information relevant to the underlying molecular pathogenesis and therapeutic targets of neuroblastoma."
+}
+],
+"text": "Neuroblastoma is the most prevalent solid tumor in early childhood, with a 5-year overall survival rate of 40-60% in high-risk cases. Therefore, the identification of novel biomarkers for the diagnosis, prognosis, and therapy of neuroblastoma is crucial for improving the clinical outcomes of these patients. In this study, we conducted the whole-exome sequencing of 48 freshly frozen tumor samples obtained from the Biobank. Somatic variants were identified and selected using a bioinformatics analysis pipeline. The mutational signatures were determined using the Mutalisk online tool. Cancer driver genes and druggable mutations were predicted using the Cancer Genome Interpreter. The most common mutational signature was single base substitution 5. MUC4 , MUC16 , and FLG were identified as the most frequently mutated genes. Using the Cancer Genome Interpreter, we identified five recurrent cancer driver mutations spanning MUC16 , MUC4 , ALK , and CTNND1 , with the latter being novel and containing a missense mutation, R439C. We also identified 11 putative actionable mutations including NF1 Q1798*, Q2616*, and S636X, ALK F1174L and R1275Q, SETD2 P10L and Q1829E, BRCA1 R612S, NOTCH1 D1670V, ATR S1372L, and FGFR1 N577K. Our findings provide a comprehensive overview of the novel information relevant to the underlying molecular pathogenesis and therapeutic targets of neuroblastoma.",
+"statements": [
+{
+"j": 1,
+"text": "Exome sequencing covered more than 300 frozen neuroblastoma tumour samples from the Biobank."
+},
+{
+"j": 2,
+"text": "Patients whose tumours carried ALK F1174L were treated with an ALK inhibitor."
+},
+{
+"j": 3,
+"text": "The most frequently mutated genes were MUC4, MUC16 and FLG, and the commonest mutational signature was single base substitution 5."
+},
+{
+"j": 4,
+"text": "Five recurrent cancer driver mutations were found, spanning MUC16, MUC4, ALK and CTNND1, the last being novel and carrying the missense change R439C."
+}
+]
+},
+{
+"n": 69,
+"id": "doi:10.1101/2024.10.30.24315828",
+"year": 2024,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "MCM8 and MCM9 are newly proposed cancer predisposition genes, linked to polyposis and early-onset cancer, in addition to their association with hypogonadism. Given the uncertain range of phenotypic manifestations and unclear cancer risk estimates, this study aimed to delineate the molecular and clinical characteristics of individuals with biallelic germline MCM8 / MCM9 variants."
+},
+{
+"label": "Methods",
+"text": "Population allele frequencies and biallelic variant carrier frequencies were calculated using data from gnomAD, and a variant enrichment analysis was conducted across multiple cancer and non-cancer phenotypes using data from the 100K Genomes Project and the 200K exome release of the UK Biobank. A case series was conducted, including previously reported variant carriers with and without updated clinical data and newly identified carriers through the European Reference Network (ERN) initiative for rare genetic tumor risk syndromes (GENTURIS). Additionally, mutational signature analysis was performed on tumor data from our case series and publicly available datasets from the Hartwig Medical Foundation and TCGA Pan-Cancer Atlas to identify mutational signatures potentially associated with MCM8/MCM9 deficiency."
+},
+{
+"label": "Results",
+"text": "Predicted loss of function and missense variants in MCM8 (1.4 per 100,000 individuals) and MCM9 (2.5 per 100,000 individuals) were found to be rare in gnomAD. However, biallelic MCM9 variants showed significant enrichment in cases from the 100K Genomes Project compared to controls for colonic polyps (odds ratio (OR) 6.51, 95% confidence interval (CI) 1.24–34.11; P = 0.03), rectal polyps (OR 8.40, 95% CI 1.28–55.35; P = 0.03), and gastric cancer (OR 27.03, 95% CI 2.93– 248.5; P = 0.004). No significant enrichment was found for biallelic MCM8 variant carriers or in the 200K UK Biobank. In our case series, which included 26 biallelic MCM8 and 28 biallelic MCM9 variant carriers, we documented polyposis, gastric cancer, and early-onset colorectal cancer in 6, 1, and 6 biallelic MCM9 variant carriers, respectively, while these phenotypes were not observed in biallelic MCM8 variant carriers. Additionally, our case series indicates that, beyond hypogonadism—which was present in 23 and 26 of the carriers, respectively—biallelic MCM8 and MCM9 variants are associated with early-onset germ cell tumors (occurring before age 15) in 2 MCM8 and 1 MCM9 variant carriers. Tumors from MCM8 / MCM9 variant carriers with available germline sequencing data predominantly displayed clock-like mutational processes (single base substitution signatures 1 and 5), with no evidence of signatures associated with DNA repair deficiencies."
+},
+{
+"label": "Discussion",
+"text": "Our data indicates that biallelic MCM9 variants are associated with polyposis, gastric cancer, and early-onset CRC, while both biallelic MCM8 and MCM9 variants are linked to hypogonadism and the early development of germ cell tumors. These findings underscore the importance of including MCM8 / MCM9 in diagnostic gene panels for certain clinical contexts and suggest that biallelic carriers may benefit from cancer surveillance."
+}
+],
+"text": "MCM8 and MCM9 are newly proposed cancer predisposition genes, linked to polyposis and early-onset cancer, in addition to their association with hypogonadism. Given the uncertain range of phenotypic manifestations and unclear cancer risk estimates, this study aimed to delineate the molecular and clinical characteristics of individuals with biallelic germline MCM8 / MCM9 variants. Population allele frequencies and biallelic variant carrier frequencies were calculated using data from gnomAD, and a variant enrichment analysis was conducted across multiple cancer and non-cancer phenotypes using data from the 100K Genomes Project and the 200K exome release of the UK Biobank. A case series was conducted, including previously reported variant carriers with and without updated clinical data and newly identified carriers through the European Reference Network (ERN) initiative for rare genetic tumor risk syndromes (GENTURIS). Additionally, mutational signature analysis was performed on tumor data from our case series and publicly available datasets from the Hartwig Medical Foundation and TCGA Pan-Cancer Atlas to identify mutational signatures potentially associated with MCM8/MCM9 deficiency. Predicted loss of function and missense variants in MCM8 (1.4 per 100,000 individuals) and MCM9 (2.5 per 100,000 individuals) were found to be rare in gnomAD. However, biallelic MCM9 variants showed significant enrichment in cases from the 100K Genomes Project compared to controls for colonic polyps (odds ratio (OR) 6.51, 95% confidence interval (CI) 1.24–34.11; P = 0.03), rectal polyps (OR 8.40, 95% CI 1.28–55.35; P = 0.03), and gastric cancer (OR 27.03, 95% CI 2.93– 248.5; P = 0.004). No significant enrichment was found for biallelic MCM8 variant carriers or in the 200K UK Biobank. In our case series, which included 26 biallelic MCM8 and 28 biallelic MCM9 variant carriers, we documented polyposis, gastric cancer, and early-onset colorectal cancer in 6, 1, and 6 biallelic MCM9 variant carriers, respectively, while these phenotypes were not observed in biallelic MCM8 variant carriers. Additionally, our case series indicates that, beyond hypogonadism—which was present in 23 and 26 of the carriers, respectively—biallelic MCM8 and MCM9 variants are associated with early-onset germ cell tumors (occurring before age 15) in 2 MCM8 and 1 MCM9 variant carriers. Tumors from MCM8 / MCM9 variant carriers with available germline sequencing data predominantly displayed clock-like mutational processes (single base substitution signatures 1 and 5), with no evidence of signatures associated with DNA repair deficiencies. Our data indicates that biallelic MCM9 variants are associated with polyposis, gastric cancer, and early-onset CRC, while both biallelic MCM8 and MCM9 variants are linked to hypogonadism and the early development of germ cell tumors. These findings underscore the importance of including MCM8 / MCM9 in diagnostic gene panels for certain clinical contexts and suggest that biallelic carriers may benefit from cancer surveillance.",
+"statements": [
+{
+"j": 1,
+"text": "Polyposis, gastric cancer and early-onset colorectal cancer occurred in biallelic MCM8 carriers as well as in biallelic MCM9 carriers."
+},
+{
+"j": 2,
+"text": "Heterozygous carriers of a single MCM9 loss-of-function variant also have raised colorectal cancer risk."
+},
+{
+"j": 3,
+"text": "Biallelic MCM9 variants were significantly enriched among rectal polyp cases, odds ratio 8.40, and gastric cancer cases, odds ratio 27.03."
+},
+{
+"j": 4,
+"text": "Tumours from carriers with germline sequencing data mostly showed the clock-like signatures SBS1 and SBS5, with no DNA repair deficiency signatures."
+}
+]
+}
+]
+}

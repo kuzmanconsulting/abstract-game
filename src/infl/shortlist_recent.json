@@ -1,0 +1,1995 @@
+{
+ "built_utc": "2026-10-24T12:51:56Z",
+ "candidates": "src/candidates_infl_recent.json",
+ "per_field": 220,
+ "sample_seed": null,
+ "dropped": {
+  "in_corpus": 6,
+  "off_field": 262,
+  "tool_title": 26
+ },
+ "fields": {
+  "inflammaging": [
+   {
+    "rank": 1,
+    "id": "pmid:26840489",
+    "cited_by": 2389,
+    "year": 2016,
+    "journal": "Nature",
+    "title": "Naturally occurring p16(Ink4a)-positive cells shorten healthy lifespan",
+    "abstract_start": "Cellular senescence, a stress-induced irreversible growth arrest often characterized by expression of p16(Ink4a) (encoded by the Ink4a/Arf locus, also known as Cdkn2a) and a distinctive secretory phenotype, prevents the proliferation of preneoplastic cells and has beneficial roles in tissue remodelling during embryogenesis and wound healing. Senescent cells accumulate in various tissues and organs"
+   },
+   {
+    "rank": 2,
+    "id": "pmid:29988130",
+    "cited_by": 1944,
+    "year": 2018,
+    "journal": "Nature medicine",
+    "title": "Senolytics improve physical function and increase lifespan in old age",
+    "abstract_start": "Physical function declines in old age, portending disability, increased health expenditures, and mortality. Cellular senescence, leading to tissue dysfunction, may contribute to these consequences of aging, but whether senescence can directly drive age-related pathology and be therapeutically targeted is still unclear. Here we demonstrate that transplanting relatively small numbers of senescent ce"
+   },
+   {
+    "rank": 3,
+    "id": "pmid:28230051",
+    "cited_by": 1435,
+    "year": 2017,
+    "journal": "Nature communications",
+    "title": "Cellular senescence mediates fibrotic pulmonary disease",
+    "abstract_start": "Idiopathic pulmonary fibrosis (IPF) is a fatal disease characterized by interstitial remodelling, leading to compromised lung function. Cellular senescence markers are detectable within IPF lung tissue and senescent cell deletion rejuvenates pulmonary health in aged mice. Whether and how senescent cells regulate IPF or if their removal may be an efficacious intervention strategy is unknown. Here w"
+   },
+   {
+    "rank": 4,
+    "id": "pmid:28104796",
+    "cited_by": 1372,
+    "year": 2017,
+    "journal": "Science (New York, N.Y.)",
+    "title": "Clonal hematopoiesis associated with TET2 deficiency accelerates atherosclerosis development in mice",
+    "abstract_start": "Human aging is associated with an increased frequency of somatic mutations in hematopoietic cells. Several of these recurrent mutations, including those in the gene encoding the epigenetic modifier enzyme TET2, promote expansion of the mutant blood cells. This clonal hematopoiesis correlates with an increased risk of atherosclerotic cardiovascular disease. We studied the effects of the expansion o"
+   },
+   {
+    "rank": 5,
+    "id": "pmid:28436958",
+    "cited_by": 1287,
+    "year": 2017,
+    "journal": "Nature medicine",
+    "title": "Local clearance of senescent cells attenuates the development of post-traumatic osteoarthritis and creates a pro-regenerative environment",
+    "abstract_start": "Senescent cells (SnCs) accumulate in many vertebrate tissues with age and contribute to age-related pathologies, presumably through their secretion of factors contributing to the senescence-associated secretory phenotype (SASP). Removal of SnCs delays several pathologies and increases healthy lifespan. Aging and trauma are risk factors for the development of osteoarthritis (OA), a chronic disease "
+   },
+   {
+    "rank": 6,
+    "id": "pmid:31748742",
+    "cited_by": 1245,
+    "year": 2019,
+    "journal": "Nature",
+    "title": "NLRP3 inflammasome activation drives tau pathology",
+    "abstract_start": "Alzheimer's disease is characterized by the accumulation of amyloid-beta in plaques, aggregation of hyperphosphorylated tau in neurofibrillary tangles and neuroinflammation, together resulting in neurodegeneration and cognitive decline 1 . The NLRP3 inflammasome assembles inside of microglia on activation, leading to increased cleavage and activity of caspase-1 and downstream interleukin-1β releas"
+   },
+   {
+    "rank": 7,
+    "id": "pmid:30232451",
+    "cited_by": 1107,
+    "year": 2018,
+    "journal": "Nature",
+    "title": "Clearance of senescent glial cells prevents tau-dependent pathology and cognitive decline",
+    "abstract_start": "Cellular senescence, which is characterized by an irreversible cell-cycle arrest 1 accompanied by a distinctive secretory phenotype 2 , can be induced through various intracellular and extracellular factors. Senescent cells that express the cell cycle inhibitory protein p16 INK4A have been found to actively drive naturally occurring age-related tissue deterioration 3,4 and contribute to several di"
+   },
+   {
+    "rank": 8,
+    "id": "pmid:26919428",
+    "cited_by": 1075,
+    "year": 2016,
+    "journal": "Cell",
+    "title": "NF-κB Restricts Inflammasome Activation via Elimination of Damaged Mitochondria",
+    "abstract_start": "Nuclear factor κB (NF-κB), a key activator of inflammation, primes the NLRP3-inflammasome for activation by inducing pro-IL-1β and NLRP3 expression. NF-κB, however, also prevents excessive inflammation and restrains NLRP3-inflammasome activation through a poorly defined mechanism. We now show that NF-κB exerts its anti-inflammatory activity by inducing delayed accumulation of the autophagy recepto"
+   },
+   {
+    "rank": 9,
+    "id": "pmid:30046112",
+    "cited_by": 1042,
+    "year": 2018,
+    "journal": "Nature",
+    "title": "New mitochondrial DNA synthesis enables NLRP3 inflammasome activation",
+    "abstract_start": "Dysregulated NLRP3 inflammasome activity results in uncontrolled inflammation, which underlies many chronic diseases. Although mitochondrial damage is needed for the assembly and activation of the NLRP3 inflammasome, it is unclear how macrophages are able to respond to structurally diverse inflammasome-activating stimuli. Here we show that the synthesis of mitochondrial DNA (mtDNA), induced after "
+   },
+   {
+    "rank": 10,
+    "id": "pmid:28825716",
+    "cited_by": 1025,
+    "year": 2017,
+    "journal": "Nature medicine",
+    "title": "Targeting cellular senescence prevents age-related bone loss in mice",
+    "abstract_start": "Aging is associated with increased cellular senescence, which is hypothesized to drive the eventual development of multiple comorbidities. Here we investigate a role for senescent cells in age-related bone loss through multiple approaches. In particular, we used either genetic (i.e., the INK-ATTAC 'suicide' transgene encoding an inducible caspase 8 expressed specifically in senescent cells) or pha"
+   },
+   {
+    "rank": 11,
+    "id": "pmid:35029144",
+    "cited_by": 1000,
+    "year": 2022,
+    "journal": "eLife",
+    "title": "DunedinPACE, a DNA methylation biomarker of the pace of aging",
+    "abstract_start": "Measures to quantify changes in the pace of biological aging in response to intervention are needed to evaluate geroprotective interventions for humans. Previously, we showed that quantification of the pace of biological aging from a DNA-methylation blood test was possible (Belsky et al., 2020). Here, we report a next-generation DNA-methylation biomarker of Pace of Aging, DunedinPACE (for Pace of "
+   },
+   {
+    "rank": 12,
+    "id": "pmid:28608850",
+    "cited_by": 920,
+    "year": 2017,
+    "journal": "Nature communications",
+    "title": "Cellular senescence drives age-dependent hepatic steatosis",
+    "abstract_start": "The incidence of non-alcoholic fatty liver disease (NAFLD) increases with age. Cellular senescence refers to a state of irreversible cell-cycle arrest combined with the secretion of proinflammatory cytokines and mitochondrial dysfunction. Senescent cells contribute to age-related tissue degeneration. Here we show that the accumulation of senescent cells promotes hepatic fat accumulation and steato"
+   },
+   {
+    "rank": 13,
+    "id": "pmid:30936558",
+    "cited_by": 901,
+    "year": 2019,
+    "journal": "Nature neuroscience",
+    "title": "Senolytic therapy alleviates Aβ-associated oligodendrocyte progenitor cell senescence and cognitive deficits in an Alzheimer's disease model",
+    "abstract_start": "Neuritic plaques, a pathological hallmark in Alzheimer's disease (AD) brains, comprise extracellular aggregates of amyloid-beta (Aβ) peptide and degenerating neurites that accumulate autolysosomes. We found that, in the brains of patients with AD and in AD mouse models, Aβ plaque-associated Olig2- and NG2-expressing oligodendrocyte progenitor cells (OPCs), but not astrocytes, microglia, or oligode"
+   },
+   {
+    "rank": 14,
+    "id": "pmid:37532932",
+    "cited_by": 898,
+    "year": 2023,
+    "journal": "Nature",
+    "title": "cGAS-STING drives ageing-related inflammation and neurodegeneration",
+    "abstract_start": "Low-grade inflammation is a hallmark of old age and a central driver of ageing-associated impairment and disease 1 . Multiple factors can contribute to ageing-associated inflammation 2 ; however, the molecular pathways that transduce aberrant inflammatory signalling and their impact in natural ageing remain unclear. Here we show that the cGAS-STING signalling pathway, which mediates immune sensing"
+   },
+   {
+    "rank": 15,
+    "id": "pmid:27048913",
+    "cited_by": 831,
+    "year": 2016,
+    "journal": "Nature communications",
+    "title": "Directed elimination of senescent cells by inhibition of BCL-W and BCL-XL",
+    "abstract_start": "Senescent cells, formed in response to physiological and oncogenic stresses, facilitate protection from tumourigenesis and aid in tissue repair. However, accumulation of such cells in tissues contributes to age-related pathologies. Resistance of senescent cells to apoptotic stimuli may contribute to their accumulation, yet the molecular mechanisms allowing their prolonged viability are poorly char"
+   },
+   {
+    "rank": 16,
+    "id": "pmid:35835107",
+    "cited_by": 768,
+    "year": 2022,
+    "journal": "Immunity",
+    "title": "Oxidized DNA fragments exit mitochondria via mPTP- and VDAC-dependent channels to activate NLRP3 inflammasome and interferon signaling",
+    "abstract_start": "Mitochondrial DNA (mtDNA) escaping stressed mitochondria provokes inflammation via cGAS-STING pathway activation and, when oxidized (Ox-mtDNA), it binds cytosolic NLRP3, thereby triggering inflammasome activation. However, it is unknown how and in which form Ox-mtDNA exits stressed mitochondria in non-apoptotic macrophages. We found that diverse NLRP3 inflammasome activators rapidly stimulated uni"
+   },
+   {
+    "rank": 17,
+    "id": "pmid:27917412",
+    "cited_by": 736,
+    "year": 2016,
+    "journal": "Science immunology",
+    "title": "ZBP1/DAI is an innate sensor of influenza virus triggering the NLRP3 inflammasome and programmed cell death pathways",
+    "abstract_start": "The interferon-inducible protein Z-DNA binding protein 1 (ZBP1, also known as DNA-dependent activator of IFN-regulatory factors (DAI) and DLM-1) was identified as a dsDNA sensor, which instigates innate immune responses. However, this classification has been disputed and whether ZBP1 functions as a pathogen sensor during an infection has remained unknown. Herein, we demonstrated ZBP1-mediated sens"
+   },
+   {
+    "rank": 18,
+    "id": "pmid:28483762",
+    "cited_by": 695,
+    "year": 2017,
+    "journal": "Blood",
+    "title": "Clonal hematopoiesis, with and without candidate driver mutations, is common in the elderly",
+    "abstract_start": "Clonal hematopoiesis (CH) arises when a substantial proportion of mature blood cells is derived from a single dominant hematopoietic stem cell lineage. Somatic mutations in candidate driver (CD) genes are thought to be responsible for at least some cases of CH. Using whole-genome sequencing of 11 262 Icelanders, we found 1403 cases of CH by using barcodes of mosaic somatic mutations in peripheral "
+   },
+   {
+    "rank": 19,
+    "id": "pmid:33231615",
+    "cited_by": 693,
+    "year": 2021,
+    "journal": "The Journal of experimental medicine",
+    "title": "Inflammasomes are activated in response to SARS-CoV-2 infection and are associated with COVID-19 severity in patients",
+    "abstract_start": "Severe cases of COVID-19 are characterized by a strong inflammatory process that may ultimately lead to organ failure and patient death. The NLRP3 inflammasome is a molecular platform that promotes inflammation via cleavage and activation of key inflammatory molecules including active caspase-1 (Casp1p20), IL-1β, and IL-18. Although participation of the inflammasome in COVID-19 has been highly spe"
+   },
+   {
+    "rank": 20,
+    "id": "pmid:29021150",
+    "cited_by": 670,
+    "year": 2017,
+    "journal": "The Journal of experimental medicine",
+    "title": "Identification of a selective and direct NLRP3 inhibitor to treat inflammatory disorders",
+    "abstract_start": "The NLRP3 inflammasome has been implicated in the pathogenesis of a wide variety of human diseases. A few compounds have been developed to inhibit NLRP3 inflammasome activation, but compounds directly and specifically targeting NLRP3 are still not available, so it is unclear whether NLRP3 itself can be targeted to prevent or treat diseases. Here we show that the compound CY-09 specifically blocks "
+   },
+   {
+    "rank": 21,
+    "id": "pmid:30381407",
+    "cited_by": 666,
+    "year": 2018,
+    "journal": "Science translational medicine",
+    "title": "Inflammasome inhibition prevents α-synuclein pathology and dopaminergic neurodegeneration in mice",
+    "abstract_start": "Parkinson's disease (PD) is characterized by a profound loss of dopaminergic neurons in the substantia nigra, accompanied by chronic neuroinflammation, mitochondrial dysfunction, and widespread accumulation of α-synuclein-rich protein aggregates in the form of Lewy bodies. However, the mechanisms linking α-synuclein pathology and dopaminergic neuronal death to chronic microglial neuroinflammation "
+   },
+   {
+    "rank": 22,
+    "id": "pmid:27546487",
+    "cited_by": 587,
+    "year": 2016,
+    "journal": "Nature communications",
+    "title": "Clonal haematopoiesis harbouring AML-associated mutations is ubiquitous in healthy adults",
+    "abstract_start": "Clonal haematopoiesis is thought to be a rare condition that increases in frequency with age and predisposes individuals to haematological malignancy. Recent studies, utilizing next-generation sequencing (NGS), observed haematopoietic clones in 10% of 70-year olds and rarely in younger individuals. However, these studies could only detect common haematopoietic clones->0.02 variant allele fraction "
+   },
+   {
+    "rank": 23,
+    "id": "pmid:33271118",
+    "cited_by": 564,
+    "year": 2021,
+    "journal": "Immunity",
+    "title": "Comprehensive Profiling of an Aging Immune System Reveals Clonal GZMK+ CD8+ T Cells as Conserved Hallmark of Inflammaging",
+    "abstract_start": "Systematic understanding of immune aging on a whole-body scale is currently lacking. We characterized age-associated alterations in immune cells across multiple mouse organs using single-cell RNA and antigen receptor sequencing and flow cytometry-based validation. We defined organ-specific and common immune alterations and identified a subpopulation of age-associated granzyme K (GZMK)-expressing C"
+   },
+   {
+    "rank": 24,
+    "id": "pmid:37024597",
+    "cited_by": 555,
+    "year": 2023,
+    "journal": "Nature medicine",
+    "title": "Heterogeneous aging across multiple organ systems and prediction of chronic disease and mortality",
+    "abstract_start": "Biological aging of human organ systems reflects the interplay of age, chronic disease, lifestyle and genetic risk. Using longitudinal brain imaging and physiological phenotypes from the UK Biobank, we establish normative models of biological age for three brain and seven body systems. Here we find that an organ's biological age selectively influences the aging of other organ systems, revealing a "
+   },
+   {
+    "rank": 25,
+    "id": "pmid:29432122",
+    "cited_by": 518,
+    "year": 2018,
+    "journal": "The Journal of experimental medicine",
+    "title": "Caspase-1 self-cleavage is an intrinsic mechanism to terminate inflammasome activity",
+    "abstract_start": "Host-protective caspase-1 activity must be tightly regulated to prevent pathology, but mechanisms controlling the duration of cellular caspase-1 activity are unknown. Caspase-1 is activated on inflammasomes, signaling platforms that facilitate caspase-1 dimerization and autoprocessing. Previous studies with recombinant protein identified a caspase-1 tetramer composed of two p20 and two p10 subunit"
+   },
+   {
+    "rank": 26,
+    "id": "pmid:34888528",
+    "cited_by": 505,
+    "year": 2021,
+    "journal": "Nature aging",
+    "title": "An inflammatory aging clock (iAge) based on deep learning tracks multimorbidity, immunosenescence, frailty and cardiovascular aging",
+    "abstract_start": "While many diseases of aging have been linked to the immunological system, immune metrics capable of identifying the most at-risk individuals are lacking. From the blood immunome of 1,001 individuals aged 8-96 years, we developed a deep-learning method based on patterns of systemic age-related inflammation. The resulting inflammatory clock of aging (iAge) tracked with multimorbidity, immunosenesce"
+   },
+   {
+    "rank": 27,
+    "id": "pmid:35045565",
+    "cited_by": 499,
+    "year": 2022,
+    "journal": "Nature",
+    "title": "The cGAS-STING pathway drives type I IFN immunopathology in COVID-19",
+    "abstract_start": "COVID-19, which is caused by infection with SARS-CoV-2, is characterized by lung pathology and extrapulmonary complications 1,2 . Type I interferons (IFNs) have an essential role in the pathogenesis of COVID-19 (refs 3-5 ). Although rapid induction of type I IFNs limits virus propagation, a sustained increase in the levels of type I IFNs in the late phase of the infection is associated with aberra"
+   },
+   {
+    "rank": 28,
+    "id": "pmid:30575733",
+    "cited_by": 484,
+    "year": 2018,
+    "journal": "Nature communications",
+    "title": "Impaired immune surveillance accelerates accumulation of senescent cells and aging",
+    "abstract_start": "Cellular senescence is a stress response that imposes stable cell-cycle arrest in damaged cells, preventing their propagation in tissues. However, senescent cells accumulate in tissues in advanced age, where they might promote tissue degeneration and malignant transformation. The extent of immune-system involvement in regulating age-related accumulation of senescent cells, and its consequences, ar"
+   },
+   {
+    "rank": 29,
+    "id": "pmid:35483404",
+    "cited_by": 479,
+    "year": 2022,
+    "journal": "Nature",
+    "title": "Inflammasome activation in infected macrophages drives COVID-19 pathology",
+    "abstract_start": "Severe COVID-19 is characterized by persistent lung inflammation, inflammatory cytokine production, viral RNA and a sustained interferon (IFN) response, all of which are recapitulated and required for pathology in the SARS-CoV-2-infected MISTRG6-hACE2 humanized mouse model of COVID-19, which has a human immune system 1-20 . Blocking either viral replication with remdesivir 21-23 or the downstream "
+   },
+   {
+    "rank": 30,
+    "id": "pmid:31160572",
+    "cited_by": 476,
+    "year": 2019,
+    "journal": "Nature communications",
+    "title": "Senescent cells evade immune clearance via HLA-E-mediated NK and CD8+ T cell inhibition",
+    "abstract_start": "Senescent cells accumulate in human tissues during ageing and contribute to age-related pathologies. The mechanisms responsible for their accumulation are unclear. Here we show that senescent dermal fibroblasts express the non-classical MHC molecule HLA-E, which interacts with the inhibitory receptor NKG2A expressed by NK and highly differentiated CD8 + T cells to inhibit immune responses against "
+   },
+   {
+    "rank": 31,
+    "id": "pmid:32358544",
+    "cited_by": 469,
+    "year": 2020,
+    "journal": "Nature communications",
+    "title": "SGLT2 inhibition modulates NLRP3 inflammasome activity via ketones and insulin in diabetes with cardiovascular disease",
+    "abstract_start": "Sodium-glucose cotransporter 2 (SGLT2) inhibitors reduce cardiovascular events in humans with type 2 diabetes (T2D); however, the underlying mechanism remains unclear. Activation of the NLR family, pyrin domain-containing 3 (NLRP3) inflammasome and subsequent interleukin (IL)-1β release induces atherosclerosis and heart failure. Here we show the effect of SGLT2 inhibitor empagliflozin on NLRP3 inf"
+   },
+   {
+    "rank": 32,
+    "id": "pmid:27525720",
+    "cited_by": 460,
+    "year": 2016,
+    "journal": "Nature cell biology",
+    "title": "NOTCH1 mediates a switch between two distinct secretomes during senescence",
+    "abstract_start": "Senescence, a persistent form of cell-cycle arrest, is often associated with a diverse secretome, which provides complex functionality for senescent cells within the tissue microenvironment. We show that oncogene-induced senescence is accompanied by a dynamic fluctuation of NOTCH1 activity, which drives a TGF-β-rich secretome, while suppressing the senescence-associated pro-inflammatory secretome "
+   },
+   {
+    "rank": 33,
+    "id": "pmid:34497121",
+    "cited_by": 459,
+    "year": 2021,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "NAD+ supplementation reduces neuroinflammation and cell senescence in a transgenic mouse model of Alzheimer's disease via cGAS-STING",
+    "abstract_start": "Alzheimer's disease (AD) is a progressive and fatal neurodegenerative disorder. Impaired neuronal bioenergetics and neuroinflammation are thought to play key roles in the progression of AD, but their interplay is not clear. Nicotinamide adenine dinucleotide (NAD + ) is an important metabolite in all human cells in which it is pivotal for multiple processes including DNA repair and mitophagy, both "
+   },
+   {
+    "rank": 34,
+    "id": "pmid:27270401",
+    "cited_by": 457,
+    "year": 2016,
+    "journal": "Nature immunology",
+    "title": "Pyrin inflammasome activation and RhoA signaling in the autoinflammatory diseases FMF and HIDS",
+    "abstract_start": "Mutations in the genes encoding pyrin and mevalonate kinase (MVK) cause distinct interleukin-1β (IL-1β)-mediated autoinflammatory diseases: familial Mediterranean fever (FMF) and hyperimmunoglobulinemia D syndrome (HIDS). Pyrin forms an inflammasome when mutant or in response to bacterial modification of the GTPase RhoA. We found that RhoA activated the serine-threonine kinases PKN1 and PKN2 that "
+   },
+   {
+    "rank": 35,
+    "id": "pmid:30737259",
+    "cited_by": 446,
+    "year": 2019,
+    "journal": "The EMBO journal",
+    "title": "Length-independent telomere damage drives post-mitotic cardiomyocyte senescence",
+    "abstract_start": "Ageing is the biggest risk factor for cardiovascular disease. Cellular senescence, a process driven in part by telomere shortening, has been implicated in age-related tissue dysfunction. Here, we address the question of how senescence is induced in rarely dividing/post-mitotic cardiomyocytes and investigate whether clearance of senescent cells attenuates age-related cardiac dysfunction. During age"
+   },
+   {
+    "rank": 36,
+    "id": "pmid:33731931",
+    "cited_by": 431,
+    "year": 2021,
+    "journal": "Nature",
+    "title": "The AIM2 inflammasome exacerbates atherosclerosis in clonal haematopoiesis",
+    "abstract_start": "Clonal haematopoiesis, which is highly prevalent in older individuals, arises from somatic mutations that endow a proliferative advantage to haematopoietic cells. Clonal haematopoiesis increases the risk of myocardial infarction and stroke independently of traditional risk factors 1 . Among the common genetic variants that give rise to clonal haematopoiesis, the JAK2 V617F (JAK2 VF ) mutation, whi"
+   },
+   {
+    "rank": 37,
+    "id": "pmid:29895691",
+    "cited_by": 430,
+    "year": 2018,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "Caspase-1 inhibition prevents glial inflammasome activation and pyroptosis in models of multiple sclerosis",
+    "abstract_start": "Multiple sclerosis (MS) is a progressive inflammatory demyelinating disease of the CNS of unknown cause that remains incurable. Inflammasome-associated caspases mediate the maturation and release of the proinflammatory cytokines IL-1β and IL-18 and activate the pore-forming protein gasdermin D (GSDMD). Inflammatory programmed cell death, pyroptosis, was recently shown to be mediated by GSDMD. Here"
+   },
+   {
+    "rank": 38,
+    "id": "pmid:28380377",
+    "cited_by": 423,
+    "year": 2017,
+    "journal": "Cell metabolism",
+    "title": "Farnesoid X Receptor Regulation of the NLRP3 Inflammasome Underlies Cholestasis-Associated Sepsis",
+    "abstract_start": "Cholestasis is a common complication of sepsis, and the increased plasma levels of bile acids are predictive of sepsis-associated mortality. However, the exact mechanism by which cholestasis aggravates sepsis development remains elusive. Here, we show that bile acids are danger-associated molecular patterns (DAMPs) that can activate both signal 1 and 2 of the NLRP3 inflammasome in inflammatory mac"
+   },
+   {
+    "rank": 39,
+    "id": "pmid:36323784",
+    "cited_by": 415,
+    "year": 2022,
+    "journal": "Nature",
+    "title": "Blocking PD-L1-PD-1 improves senescence surveillance and ageing phenotypes",
+    "abstract_start": "The accumulation of senescent cells is a major cause of age-related inflammation and predisposes to a variety of age-related diseases 1 . However, little is known about the molecular basis underlying this accumulation and its potential as a target to ameliorate the ageing process. Here we show that senescent cells heterogeneously express the immune checkpoint protein programmed death-ligand 1 (PD-"
+   },
+   {
+    "rank": 40,
+    "id": "pmid:31155496",
+    "cited_by": 407,
+    "year": 2019,
+    "journal": "Cell metabolism",
+    "title": "Acceleration of β Cell Aging Determines Diabetes and Senolysis Improves Disease Outcomes",
+    "abstract_start": "Type 2 diabetes (T2D) is an age-related disease. Although changes in function and proliferation of aged β cells resemble those preceding the development of diabetes, the contribution of β cell aging and senescence remains unclear. We generated a β cell senescence signature and found that insulin resistance accelerates β cell senescence leading to loss of function and cellular identity and worsenin"
+   },
+   {
+    "rank": 41,
+    "id": "pmid:28953873",
+    "cited_by": 405,
+    "year": 2017,
+    "journal": "Nature",
+    "title": "Inflammasome-driven catecholamine catabolism in macrophages blunts lipolysis during ageing",
+    "abstract_start": "Catecholamine-induced lipolysis, the first step in the generation of energy substrates by the hydrolysis of triglycerides, declines with age. The defect in the mobilization of free fatty acids in the elderly is accompanied by increased visceral adiposity, lower exercise capacity, failure to maintain core body temperature during cold stress, and reduced ability to survive starvation. Although catec"
+   },
+   {
+    "rank": 42,
+    "id": "pmid:33199924",
+    "cited_by": 404,
+    "year": 2020,
+    "journal": "Nature metabolism",
+    "title": "Senescent cells promote tissue NAD+ decline during ageing via the activation of CD38+ macrophages",
+    "abstract_start": "Declining tissue nicotinamide adenine dinucleotide (NAD) levels are linked to ageing and its associated diseases. However, the mechanism for this decline is unclear. Here, we show that pro-inflammatory M1-like macrophages, but not naive or M2 macrophages, accumulate in metabolic tissues, including visceral white adipose tissue and liver, during ageing and acute responses to inflammation. These M1-"
+   },
+   {
+    "rank": 43,
+    "id": "pmid:30612898",
+    "cited_by": 404,
+    "year": 2019,
+    "journal": "Cell metabolism",
+    "title": "Obesity-Induced Cellular Senescence Drives Anxiety and Impairs Neurogenesis",
+    "abstract_start": "Cellular senescence entails a stable cell-cycle arrest and a pro-inflammatory secretory phenotype, which contributes to aging and age-related diseases. Obesity is associated with increased senescent cell burden and neuropsychiatric disorders, including anxiety and depression. To investigate the role of senescence in obesity-related neuropsychiatric dysfunction, we used the INK-ATTAC mouse model, f"
+   },
+   {
+    "rank": 44,
+    "id": "pmid:32485135",
+    "cited_by": 388,
+    "year": 2020,
+    "journal": "Cell metabolism",
+    "title": "Defined p16High Senescent Cell Types Are Indispensable for Mouse Healthspan",
+    "abstract_start": "The accumulation of senescent cells can drive many age-associated phenotypes and pathologies. Consequently, it has been proposed that removing senescent cells might extend lifespan. Here, we generated two knockin mouse models targeting the best-characterized marker of senescence, p16 Ink4a . Using a genetic lineage tracing approach, we found that age-induced p16 High senescence is a slow process t"
+   },
+   {
+    "rank": 45,
+    "id": "pmid:27929086",
+    "cited_by": 387,
+    "year": 2016,
+    "journal": "Nature communications",
+    "title": "The E3 ubiquitin ligase TRIM31 attenuates NLRP3 inflammasome activation by promoting proteasomal degradation of NLRP3",
+    "abstract_start": "The NLRP3 inflammasome has a fundamental role in host defence against microbial pathogens and its deregulation may cause diverse inflammatory diseases. NLRP3 protein expression is a rate-limiting step for inflammasome activation, thus its expression must be tightly controlled to maintain immune homeostasis and avoid detrimental effects. However, how NLRP3 expression is regulated remains largely un"
+   },
+   {
+    "rank": 46,
+    "id": "pmid:34480023",
+    "cited_by": 376,
+    "year": 2021,
+    "journal": "Nature communications",
+    "title": "Long-term treatment with senolytic drugs Dasatinib and Quercetin ameliorates age-dependent intervertebral disc degeneration in mice",
+    "abstract_start": "Intervertebral disc degeneration is highly prevalent within the elderly population and is a leading cause of chronic back pain and disability. Due to the link between disc degeneration and senescence, we explored the ability of the Dasatinib and Quercetin drug combination (D + Q) to prevent an age-dependent progression of disc degeneration in mice. We treated C57BL/6 mice beginning at 6, 14, and 1"
+   },
+   {
+    "rank": 47,
+    "id": "pmid:32032542",
+    "cited_by": 372,
+    "year": 2020,
+    "journal": "Cell metabolism",
+    "title": "An Acetylation Switch of the NLRP3 Inflammasome Regulates Aging-Associated Chronic Inflammation and Insulin Resistance",
+    "abstract_start": "It is well documented that the rate of aging can be slowed, but it remains unclear to which extent aging-associated conditions can be reversed. How the interface of immunity and metabolism impinges upon the diabetes pandemic is largely unknown. Here, we show that NLRP3, a pattern recognition receptor, is modified by acetylation in macrophages and is deacetylated by SIRT2, an NAD + -dependent deace"
+   },
+   {
+    "rank": 48,
+    "id": "pmid:35650444",
+    "cited_by": 367,
+    "year": 2022,
+    "journal": "Nature",
+    "title": "The longitudinal dynamics and natural history of clonal haematopoiesis",
+    "abstract_start": "Clonal expansions driven by somatic mutations become pervasive across human tissues with age, including in the haematopoietic system, where the phenomenon is termed clonal haematopoiesis 1-4 . The understanding of how and when clonal haematopoiesis develops, the factors that govern its behaviour, how it interacts with ageing and how these variables relate to malignant progression remains limited 5"
+   },
+   {
+    "rank": 49,
+    "id": "pmid:27509875",
+    "cited_by": 366,
+    "year": 2016,
+    "journal": "Nature communications",
+    "title": "Fenamate NSAIDs inhibit the NLRP3 inflammasome and protect against Alzheimer's disease in rodent models",
+    "abstract_start": "Non-steroidal anti-inflammatory drugs (NSAIDs) inhibit cyclooxygenase-1 (COX-1) and COX-2 enzymes. The NLRP3 inflammasome is a multi-protein complex responsible for the processing of the proinflammatory cytokine interleukin-1β and is implicated in many inflammatory diseases. Here we show that several clinically approved and widely used NSAIDs of the fenamate class are effective and selective inhib"
+   },
+   {
+    "rank": 50,
+    "id": "pmid:31076358",
+    "cited_by": 364,
+    "year": 2019,
+    "journal": "Immunity",
+    "title": "Inflammasome Activation Triggers Blood Clotting and Host Death through Pyroptosis",
+    "abstract_start": "Inflammasome activation and subsequent pyroptosis are critical defense mechanisms against microbes. However, overactivation of inflammasome leads to death of the host. Although recent studies have uncovered the mechanism of pyroptosis following inflammasome activation, how pyroptotic cell death drives pathogenesis, eventually leading to death of the host, is unknown. Here, we identified inflammaso"
+   },
+   {
+    "rank": 51,
+    "id": "pmid:35835912",
+    "cited_by": 362,
+    "year": 2022,
+    "journal": "Nature genetics",
+    "title": "Genome-wide analyses of 200,453 individuals yield new insights into the causes and consequences of clonal hematopoiesis",
+    "abstract_start": "Clonal hematopoiesis (CH), the clonal expansion of a blood stem cell and its progeny driven by somatic driver mutations, affects over a third of people, yet remains poorly understood. Here we analyze genetic data from 200,453 UK Biobank participants to map the landscape of inherited predisposition to CH, increasing the number of germline associations with CH in European-ancestry populations from 4"
+   },
+   {
+    "rank": 52,
+    "id": "pmid:34115964",
+    "cited_by": 360,
+    "year": 2021,
+    "journal": "Immunity",
+    "title": "Metformin inhibition of mitochondrial ATP and DNA synthesis abrogates NLRP3 inflammasome activation and pulmonary inflammation",
+    "abstract_start": "Acute respiratory distress syndrome (ARDS), an inflammatory condition with high mortality rates, is common in severe COVID-19, whose risk is reduced by metformin rather than other anti-diabetic medications. Detecting of inflammasome assembly in post-mortem COVID-19 lungs, we asked whether and how metformin inhibits inflammasome activation while exerting its anti-inflammatory effect. We show that m"
+   },
+   {
+    "rank": 53,
+    "id": "pmid:28404595",
+    "cited_by": 355,
+    "year": 2017,
+    "journal": "The Journal of experimental medicine",
+    "title": "NLR members NLRC4 and NLRP3 mediate sterile inflammasome activation in microglia and astrocytes",
+    "abstract_start": "Inflammation in the brain accompanies several high-impact neurological diseases including multiple sclerosis (MS), stroke, and Alzheimer's disease. Neuroinflammation is sterile, as damage-associated molecular patterns rather than microbial pathogens elicit the response. The inflammasome, which leads to caspase-1 activation, is implicated in neuroinflammation. In this study, we reveal that lysophos"
+   },
+   {
+    "rank": 54,
+    "id": "pmid:29097438",
+    "cited_by": 343,
+    "year": 2019,
+    "journal": "Gut",
+    "title": "Whole grain-rich diet reduces body weight and systemic low-grade inflammation without inducing major changes of the gut microbiome: a randomised cross-over trial",
+    "abstract_start": "To investigate whether a whole grain diet alters the gut microbiome and insulin sensitivity, as well as biomarkers of metabolic health and gut functionality. 60 Danish adults at risk of developing metabolic syndrome were included in a randomised cross-over trial with two 8-week dietary intervention periods comprising whole grain diet and refined grain diet, separated by a washout period of ≥6 week"
+   },
+   {
+    "rank": 55,
+    "id": "pmid:27830700",
+    "cited_by": 338,
+    "year": 2016,
+    "journal": "Nature communications",
+    "title": "Sensing of HSV-1 by the cGAS-STING pathway in microglia orchestrates antiviral defence in the CNS",
+    "abstract_start": "Herpes simplex encephalitis (HSE) is the most common form of acute viral encephalitis in industrialized countries. Type I interferon (IFN) is important for control of herpes simplex virus (HSV-1) in the central nervous system (CNS). Here we show that microglia are the main source of HSV-induced type I IFN expression in CNS cells and these cytokines are induced in a cGAS-STING-dependent manner. Con"
+   },
+   {
+    "rank": 56,
+    "id": "pmid:28636595",
+    "cited_by": 334,
+    "year": 2017,
+    "journal": "Nature",
+    "title": "Nlrp9b inflammasome restricts rotavirus infection in intestinal epithelial cells",
+    "abstract_start": "Rotavirus, a leading cause of severe gastroenteritis and diarrhoea in young children, accounts for around 215,000 deaths annually worldwide. Rotavirus specifically infects the intestinal epithelial cells in the host small intestine and has evolved strategies to antagonize interferon and NF-κB signalling, raising the question as to whether other host factors participate in antiviral responses in in"
+   },
+   {
+    "rank": 57,
+    "id": "pmid:28249154",
+    "cited_by": 332,
+    "year": 2017,
+    "journal": "Cell reports",
+    "title": "β-Hydroxybutyrate Deactivates Neutrophil NLRP3 Inflammasome to Relieve Gout Flares",
+    "abstract_start": "Aging and lipotoxicity are two major risk factors for gout that are linked by the activation of the NLRP3 inflammasome. Neutrophil-mediated production of interleukin-1β (IL-1β) drives gouty flares that cause joint destruction, intense pain, and fever. However, metabolites that impact neutrophil inflammasome remain unknown. Here, we identified that ketogenic diet (KD) increases β-hydroxybutyrate (B"
+   },
+   {
+    "rank": 58,
+    "id": "pmid:28092664",
+    "cited_by": 331,
+    "year": 2017,
+    "journal": "Nature medicine",
+    "title": "Expression of specific inflammasome gene modules stratifies older individuals into two extreme clinical and immunological states",
+    "abstract_start": "Low-grade, chronic inflammation has been associated with many diseases of aging, but the mechanisms responsible for producing this inflammation remain unclear. Inflammasomes can drive chronic inflammation in the context of an infectious disease or cellular stress, and they trigger the maturation of interleukin-1β (IL-1β). Here we find that the expression of specific inflammasome gene modules strat"
+   },
+   {
+    "rank": 59,
+    "id": "pmid:32943500",
+    "cited_by": 329,
+    "year": 2020,
+    "journal": "Science (New York, N.Y.)",
+    "title": "HDAC6 mediates an aggresome-like mechanism for NLRP3 and pyrin inflammasome activation",
+    "abstract_start": "Inflammasomes are supramolecular complexes that play key roles in immune surveillance. This is accomplished by the activation of inflammatory caspases, which leads to the proteolytic maturation of interleukin 1β (IL-1β) and pyroptosis. Here, we show that nucleotide-binding domain, leucine-rich repeat, and pyrin domain-containing protein 3 (NLRP3)- and pyrin-mediated inflammasome assembly, caspase "
+   },
+   {
+    "rank": 60,
+    "id": "pmid:28487310",
+    "cited_by": 325,
+    "year": 2017,
+    "journal": "The Journal of experimental medicine",
+    "title": "Myeloid-derived miR-223 regulates intestinal inflammation via repression of the NLRP3 inflammasome",
+    "abstract_start": "MicroRNA (miRNA)-mediated RNA interference regulates many immune processes, but how miRNA circuits orchestrate aberrant intestinal inflammation during inflammatory bowel disease (IBD) is poorly defined. Here, we report that miR-223 limits intestinal inflammation by constraining the nlrp3 inflammasome. miR-223 was increased in intestinal biopsies from patients with active IBD and in preclinical mod"
+   },
+   {
+    "rank": 61,
+    "id": "pmid:27737891",
+    "cited_by": 322,
+    "year": 2016,
+    "journal": "Blood",
+    "title": "The NLRP3 inflammasome functions as a driver of the myelodysplastic syndrome phenotype",
+    "abstract_start": "Despite genetic heterogeneity, myelodysplastic syndromes (MDSs) share features of cytological dysplasia and ineffective hematopoiesis. We report that a hallmark of MDSs is activation of the NLRP3 inflammasome, which drives clonal expansion and pyroptotic cell death. Independent of genotype, MDS hematopoietic stem and progenitor cells (HSPCs) overexpress inflammasome proteins and manifest activated"
+   },
+   {
+    "rank": 62,
+    "id": "pmid:35484407",
+    "cited_by": 319,
+    "year": 2022,
+    "journal": "Nature immunology",
+    "title": "Mitochondrial electron transport chain is necessary for NLRP3 inflammasome activation",
+    "abstract_start": "The NLRP3 inflammasome is linked to sterile and pathogen-dependent inflammation, and its dysregulation underlies many chronic diseases. Mitochondria have been implicated as regulators of the NLRP3 inflammasome through several mechanisms including generation of mitochondrial reactive oxygen species (ROS). Here, we report that mitochondrial electron transport chain (ETC) complex I, II, III and V inh"
+   },
+   {
+    "rank": 63,
+    "id": "pmid:33743191",
+    "cited_by": 316,
+    "year": 2021,
+    "journal": "Cell stem cell",
+    "title": "Chronic infection drives Dnmt3a-loss-of-function clonal hematopoiesis via IFNγ signaling",
+    "abstract_start": "Age-related clonal hematopoiesis (CH) is a risk factor for malignancy, cardiovascular disease, and all-cause mortality. Somatic mutations in DNMT3A are drivers of CH, but decades may elapse between the acquisition of a mutation and CH, suggesting that environmental factors contribute to clonal expansion. We tested whether infection provides selective pressure favoring the expansion of Dnmt3a mutan"
+   },
+   {
+    "rank": 64,
+    "id": "pmid:32341413",
+    "cited_by": 316,
+    "year": 2020,
+    "journal": "Cell research",
+    "title": "Elimination of senescent cells by β-galactosidase-targeted prodrug attenuates inflammation and restores physical function in aged mice",
+    "abstract_start": "Cellular senescence, a persistent state of cell cycle arrest, accumulates in aged organisms, contributes to tissue dysfunction, and drives age-related phenotypes. The clearance of senescent cells is expected to decrease chronic, low-grade inflammation and improve tissue repair capacity, thus attenuating the decline of physical function in aged organisms. However, selective and effective clearance "
+   },
+   {
+    "rank": 65,
+    "id": "pmid:31359456",
+    "cited_by": 313,
+    "year": 2019,
+    "journal": "The EMBO journal",
+    "title": "Systemic inflammation impairs microglial Aβ clearance through NLRP3 inflammasome",
+    "abstract_start": "Alzheimer's disease is the most prevalent type of dementia and is caused by the deposition of extracellular amyloid-beta and abnormal tau phosphorylation. Neuroinflammation has emerged as an additional pathological component. Microglia, representing the brain's major innate immune cells, play an important role during Alzheimer's. Once activated, microglia show changes in their morphology, characte"
+   },
+   {
+    "rank": 66,
+    "id": "pmid:30799288",
+    "cited_by": 311,
+    "year": 2019,
+    "journal": "Cell metabolism",
+    "title": "Targeted Elimination of Senescent Beta Cells Prevents Type 1 Diabetes",
+    "abstract_start": "Type 1 diabetes (T1D) is an organ-specific autoimmune disease characterized by hyperglycemia due to progressive loss of pancreatic beta cells. Immune-mediated beta cell destruction drives the disease, but whether beta cells actively participate in the pathogenesis remains unclear. Here, we show that during the natural history of T1D in humans and the non-obese diabetic (NOD) mouse model, a subset "
+   },
+   {
+    "rank": 67,
+    "id": "pmid:35768505",
+    "cited_by": 301,
+    "year": 2022,
+    "journal": "Nature",
+    "title": "YAP/TAZ activity in stromal cells prevents ageing by controlling cGAS-STING",
+    "abstract_start": "Ageing is intimately connected to the induction of cell senescence 1,2 , but why this is so remains poorly understood. A key challenge is the identification of pathways that normally suppress senescence, are lost during ageing and are functionally relevant to oppose ageing 3 . Here we connected the structural and functional decline of ageing tissues to attenuated function of the master effectors o"
+   },
+   {
+    "rank": 68,
+    "id": "pmid:31474573",
+    "cited_by": 301,
+    "year": 2019,
+    "journal": "Molecular cell",
+    "title": "Polyamines Control eIF5A Hypusination, TFEB Translation, and Autophagy to Reverse B Cell Senescence",
+    "abstract_start": "Failure to make adaptive immune responses is a hallmark of aging. Reduced B cell function leads to poor vaccination efficacy and a high prevalence of infections in the elderly. Here we show that reduced autophagy is a central molecular mechanism underlying immune senescence. Autophagy levels are specifically reduced in mature lymphocytes, leading to compromised memory B cell responses in old indiv"
+   },
+   {
+    "rank": 69,
+    "id": "pmid:33199925",
+    "cited_by": 298,
+    "year": 2020,
+    "journal": "Nature metabolism",
+    "title": "CD38 ecto-enzyme in immune cells is induced during aging and regulates NAD+ and NMN levels",
+    "abstract_start": "Decreased NAD + levels have been shown to contribute to metabolic dysfunction during aging. NAD + decline can be partially prevented by knockout of the enzyme CD38. However, it is not known how CD38 is regulated during aging, and how its ecto-enzymatic activity impacts NAD + homeostasis. Here we show that an increase in CD38 in white adipose tissue (WAT) and the liver during aging is mediated by a"
+   },
+   {
+    "rank": 70,
+    "id": "pmid:34517409",
+    "cited_by": 297,
+    "year": 2021,
+    "journal": "Nature",
+    "title": "Virus-induced senescence is a driver and therapeutic target in COVID-19",
+    "abstract_start": "Derailed cytokine and immune cell networks account for the organ damage and the clinical severity of COVID-19 (refs. 1-4 ). Here we show that SARS-CoV-2, like other viruses, evokes cellular senescence as a primary stress response in infected cells. Virus-induced senescence (VIS) is indistinguishable from other forms of cellular senescence and is accompanied by a senescence-associated secretory phe"
+   },
+   {
+    "rank": 71,
+    "id": "pmid:32839595",
+    "cited_by": 297,
+    "year": 2020,
+    "journal": "Nature metabolism",
+    "title": "Glis1 facilitates induction of pluripotency via an epigenome-metabolome-epigenome signalling cascade",
+    "abstract_start": "Somatic cell reprogramming provides insight into basic principles of cell fate determination, which remain poorly understood. Here we show that the transcription factor Glis1 induces multi-level epigenetic and metabolic remodelling in stem cells that facilitates the induction of pluripotency. We find that Glis1 enables reprogramming of senescent cells into pluripotent cells and improves genome sta"
+   },
+   {
+    "rank": 72,
+    "id": "pmid:32041686",
+    "cited_by": 291,
+    "year": 2020,
+    "journal": "eLife",
+    "title": "Longitudinal trajectories, correlations and mortality associations of nine biological ages across 20-years follow-up",
+    "abstract_start": "Biological age measurements (BAs) assess aging-related physiological change and predict health risks among individuals of the same chronological age (CA). Multiple BAs have been proposed and are well studied individually but not jointly. We included 845 individuals and 3973 repeated measurements from a Swedish population-based cohort and examined longitudinal trajectories, correlations, and mortal"
+   },
+   {
+    "rank": 73,
+    "id": "pmid:30804542",
+    "cited_by": 290,
+    "year": 2019,
+    "journal": "Nature microbiology",
+    "title": "Dampened NLRP3-mediated inflammation in bats and implications for a special viral reservoir host",
+    "abstract_start": "Bats are special in their ability to host emerging viruses. As the only flying mammal, bats endure high metabolic rates yet exhibit elongated lifespans. It is currently unclear whether these unique features are interlinked. The important inflammasome sensor, NLR family pyrin domain containing 3 (NLRP3), has been linked to both viral-induced and age-related inflammation. Here, we report significant"
+   },
+   {
+    "rank": 74,
+    "id": "pmid:34663986",
+    "cited_by": 289,
+    "year": 2021,
+    "journal": "Nature medicine",
+    "title": "Distinction of lymphoid and myeloid clonal hematopoiesis",
+    "abstract_start": "Clonal hematopoiesis (CH) results from somatic genomic alterations that drive clonal expansion of blood cells. Somatic gene mutations associated with hematologic malignancies detected in hematopoietic cells of healthy individuals, referred to as CH of indeterminate potential (CHIP), have been associated with myeloid malignancies, while mosaic chromosomal alterations (mCAs) have been associated wit"
+   },
+   {
+    "rank": 75,
+    "id": "pmid:33796868",
+    "cited_by": 288,
+    "year": 2021,
+    "journal": "Nature aging",
+    "title": "Disparities in the pace of biological aging among midlife adults of the same chronological age have implications for future frailty risk and policy",
+    "abstract_start": "Some humans age faster than others. Variation in biological aging can be measured in midlife, but the implications of this variation are poorly understood. We tested associations between midlife biological aging and indicators of future frailty-risk in the Dunedin cohort of 1037 infants born the same year and followed to age 45. Participants' Pace of Aging was quantified by tracking declining func"
+   },
+   {
+    "rank": 76,
+    "id": "pmid:32291445",
+    "cited_by": 282,
+    "year": 2020,
+    "journal": "Blood",
+    "title": "The gut microbial metabolite trimethylamine N-oxide aggravates GVHD by inducing M1 macrophage polarization in mice",
+    "abstract_start": "The diversity of the human microbiome heralds the difference of the impact that gut microbial metabolites exert on allogenic graft-versus-host (GVH) disease (GVHD), even though short-chain fatty acids and indole were demonstrated to reduce its severity. In this study, we dissected the role of choline-metabolized trimethylamine N-oxide (TMAO) in the GVHD process. Either TMAO or a high-choline diet "
+   },
+   {
+    "rank": 77,
+    "id": "pmid:27716507",
+    "cited_by": 280,
+    "year": 2016,
+    "journal": "Cell",
+    "title": "Host-Protozoan Interactions Protect from Mucosal Infections through Activation of the Inflammasome",
+    "abstract_start": "While conventional pathogenic protists have been extensively studied, there is an underappreciated constitutive protist microbiota that is an integral part of the vertebrate microbiome. The impact of these species on the host and their potential contributions to mucosal immune homeostasis remain poorly studied. Here, we show that the protozoan Tritrichomonas musculis activates the host epithelial "
+   },
+   {
+    "rank": 78,
+    "id": "pmid:35143297",
+    "cited_by": 278,
+    "year": 2022,
+    "journal": "Science (New York, N.Y.)",
+    "title": "Caloric restriction in humans reveals immunometabolic regulators of health span",
+    "abstract_start": "The extension of life span driven by 40% caloric restriction (CR) in rodents causes trade-offs in growth, reproduction, and immune defense that make it difficult to identify therapeutically relevant CR-mimetic targets. We report that about 14% CR for 2 years in healthy humans improved thymopoiesis and was correlated with mobilization of intrathymic ectopic lipid. CR-induced transcriptional reprogr"
+   },
+   {
+    "rank": 79,
+    "id": "pmid:34103349",
+    "cited_by": 276,
+    "year": 2021,
+    "journal": "Science (New York, N.Y.)",
+    "title": "Senolytics reduce coronavirus-related mortality in old mice",
+    "abstract_start": "The COVID-19 pandemic has revealed the pronounced vulnerability of the elderly and chronically ill to severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)-induced morbidity and mortality. Cellular senescence contributes to inflammation, multiple chronic diseases, and age-related dysfunction, but effects on responses to viral infection are unclear. Here, we demonstrate that senescent cells "
+   },
+   {
+    "rank": 80,
+    "id": "pmid:37080981",
+    "cited_by": 271,
+    "year": 2023,
+    "journal": "Nature communications",
+    "title": "Accelerated biological aging and risk of depression and anxiety: evidence from 424,299 UK Biobank participants",
+    "abstract_start": "Theory predicts that biological processes of aging may contribute to poor mental health in late life. To test this hypothesis, we evaluated prospective associations between biological age and incident depression and anxiety in 424,299 UK Biobank participants. We measured biological age from clinical traits using the KDM-BA and PhenoAge algorithms. At baseline, participants who were biologically ol"
+   },
+   {
+    "rank": 81,
+    "id": "pmid:34678046",
+    "cited_by": 270,
+    "year": 2021,
+    "journal": "Science immunology",
+    "title": "NLRP3 inflammasome activation triggers gasdermin D-independent inflammation",
+    "abstract_start": "NOD-like receptor (NLR), family pyrin domain containing 3 (NLRP3) assembles a protein complex known as the NLRP3 inflammasome upon sensing certain pathogen products or sterile danger signals. Gain-of-function mutations such as the D301N substitution in NLRP3, which cause its constitutive activation (NLRP3 CA ) also results in inflammasome assembly. This inflammasome processes pro–interleukin-1 β ("
+   },
+   {
+    "rank": 82,
+    "id": "pmid:33257576",
+    "cited_by": 270,
+    "year": 2020,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "The NLRP3 inflammasome inhibitor OLT1177 rescues cognitive impairment in a mouse model of Alzheimer's disease",
+    "abstract_start": "Numerous studies demonstrate that neuroinflammation is a key player in the progression of Alzheimer's disease (AD). Interleukin (IL)-1β is a main inducer of inflammation and therefore a prime target for therapeutic options. The inactive IL-1β precursor requires processing by the the nucleotide-binding oligomerization domain-like receptor family, pyrin domain containing 3 (NLRP3) inflammasome into "
+   },
+   {
+    "rank": 83,
+    "id": "pmid:29176737",
+    "cited_by": 265,
+    "year": 2018,
+    "journal": "Nature medicine",
+    "title": "cGAS drives noncanonical-inflammasome activation in age-related macular degeneration",
+    "abstract_start": "Geographic atrophy is a blinding form of age-related macular degeneration characterized by retinal pigmented epithelium (RPE) death; the RPE also exhibits DICER1 deficiency, resultant accumulation of endogenous Alu-retroelement RNA, and NLRP3-inflammasome activation. How the inflammasome is activated in this untreatable disease is largely unknown. Here we demonstrate that RPE degeneration in human"
+   },
+   {
+    "rank": 84,
+    "id": "pmid:29227245",
+    "cited_by": 259,
+    "year": 2017,
+    "journal": "eLife",
+    "title": "Clearance of senescent decidual cells by uterine natural killer cells in cycling human endometrium",
+    "abstract_start": "In cycling human endometrium, menstruation is followed by rapid estrogen-dependent growth. Upon ovulation, progesterone and rising cellular cAMP levels activate the transcription factor Forkhead box O1 (FOXO1) in endometrial stromal cells (EnSCs), leading to cell cycle exit and differentiation into decidual cells that control embryo implantation. Here we show that FOXO1 also causes acute senescenc"
+   },
+   {
+    "rank": 85,
+    "id": "pmid:28607003",
+    "cited_by": 259,
+    "year": 2017,
+    "journal": "The EMBO journal",
+    "title": "p21 maintains senescent cell viability under persistent DNA damage response by restraining JNK and caspase signaling",
+    "abstract_start": "Cellular senescence is a permanent state of cell cycle arrest that protects the organism from tumorigenesis and regulates tissue integrity upon damage and during tissue remodeling. However, accumulation of senescent cells in tissues during aging contributes to age-related pathologies. A deeper understanding of the mechanisms regulating the viability of senescent cells is therefore required. Here, "
+   },
+   {
+    "rank": 86,
+    "id": "pmid:26982722",
+    "cited_by": 258,
+    "year": 2016,
+    "journal": "Nature",
+    "title": "The amino acid sensor GCN2 controls gut inflammation by inhibiting inflammasome activation",
+    "abstract_start": "The integrated stress response (ISR) is a homeostatic mechanism by which eukaryotic cells sense and respond to stress-inducing signals, such as amino acid starvation. General controlled non-repressed (GCN2) kinase is a key orchestrator of the ISR, and modulates protein synthesis in response to amino acid starvation. Here we demonstrate in mice that GCN2 controls intestinal inflammation by suppress"
+   },
+   {
+    "rank": 87,
+    "id": "pmid:28666126",
+    "cited_by": 250,
+    "year": 2017,
+    "journal": "Cell",
+    "title": "Telomere Length Determines TERRA and R-Loop Regulation through the Cell Cycle",
+    "abstract_start": "Maintenance of a minimal telomere length is essential to prevent cellular senescence. When critically short telomeres arise in the absence of telomerase, they can be repaired by homology-directed repair (HDR) to prevent premature senescence onset. It is unclear why specifically the shortest telomeres are targeted for HDR. We demonstrate that the non-coding RNA TERRA accumulates as HDR-promoting RN"
+   },
+   {
+    "rank": 88,
+    "id": "pmid:31242426",
+    "cited_by": 247,
+    "year": 2019,
+    "journal": "Cell reports",
+    "title": "Small Extracellular Vesicles Are Key Regulators of Non-cell Autonomous Intercellular Communication in Senescence via the Interferon Protein IFITM3",
+    "abstract_start": "Senescence is a cellular phenotype present in health and disease, characterized by a stable cell-cycle arrest and an inflammatory response called senescence-associated secretory phenotype (SASP). The SASP is important in influencing the behavior of neighboring cells and altering the microenvironment; yet, this role has been mainly attributed to soluble factors. Here, we show that both the soluble "
+   },
+   {
+    "rank": 89,
+    "id": "pmid:37679434",
+    "cited_by": 245,
+    "year": 2023,
+    "journal": "Nature medicine",
+    "title": "Senolytic therapy in mild Alzheimer's disease: a phase 1 feasibility trial",
+    "abstract_start": "Cellular senescence contributes to Alzheimer's disease (AD) pathogenesis. An open-label, proof-of-concept, phase I clinical trial of orally delivered senolytic therapy, dasatinib (D) and quercetin (Q), was conducted in early-stage symptomatic patients with AD to assess central nervous system (CNS) penetrance, safety, feasibility and efficacy. Five participants (mean age = 76 + 5 years; 40% female)"
+   },
+   {
+    "rank": 90,
+    "id": "pmid:33636128",
+    "cited_by": 245,
+    "year": 2021,
+    "journal": "Cell",
+    "title": "Increased stem cell proliferation in atherosclerosis accelerates clonal hematopoiesis",
+    "abstract_start": "Clonal hematopoiesis, a condition in which individual hematopoietic stem cell clones generate a disproportionate fraction of blood leukocytes, correlates with higher risk for cardiovascular disease. The mechanisms behind this association are incompletely understood. Here, we show that hematopoietic stem cell division rates are increased in mice and humans with atherosclerosis. Mathematical analysi"
+   },
+   {
+    "rank": 91,
+    "id": "pmid:37118112",
+    "cited_by": 241,
+    "year": 2023,
+    "journal": "Nature aging",
+    "title": "Activation of innate immune cGAS-STING pathway contributes to Alzheimer's pathogenesis in 5×FAD mice",
+    "abstract_start": "cGAS senses microbial and host-derived double-stranded DNA in cytoplasm to trigger cellular innate immune response in a STING-dependent manner; however, it remains unknown whether the cGAS-STING pathway in innate immunity contributes to Alzheimer's disease (AD). Here we demonstrated the detectable binding of the cGAS double-stranded DNA in cytoplasm and the activation of the microglial cGAS-STING "
+   },
+   {
+    "rank": 92,
+    "id": "pmid:28017795",
+    "cited_by": 239,
+    "year": 2017,
+    "journal": "Cell stem cell",
+    "title": "Injury-Induced Senescence Enables In Vivo Reprogramming in Skeletal Muscle",
+    "abstract_start": "In vivo reprogramming is a promising approach for tissue regeneration in response to injury. Several examples of in vivo reprogramming have been reported in a variety of lineages, but some including skeletal muscle have so far proven refractory. Here, we show that acute and chronic injury enables transcription-factor-mediated reprogramming in skeletal muscle. Lineage tracing indicates that this re"
+   },
+   {
+    "rank": 93,
+    "id": "pmid:32439975",
+    "cited_by": 235,
+    "year": 2020,
+    "journal": "Nature communications",
+    "title": "Mitochondrial phosphatase PGAM5 modulates cellular senescence by regulating mitochondrial dynamics",
+    "abstract_start": "Mitochondria undergo dynamic fusion/fission, biogenesis and mitophagy in response to stimuli or stresses. Disruption of mitochondrial homeostasis could lead to cell senescence, although the underlying mechanism remains unclear. We show that deletion of mitochondrial phosphatase PGAM5 leads to accelerated retinal pigment epithelial (RPE) senescence in vitro and in vivo. Mechanistically, PGAM5 is re"
+   },
+   {
+    "rank": 94,
+    "id": "pmid:29590617",
+    "cited_by": 233,
+    "year": 2018,
+    "journal": "Cell reports",
+    "title": "Regulation of Cellular Senescence by Polycomb Chromatin Modifiers through Distinct DNA Damage- and Histone Methylation-Dependent Pathways",
+    "abstract_start": "Polycomb group (PcG) factors maintain facultative heterochromatin and mediate many important developmental and differentiation processes. EZH2, a PcG histone H3 lysine-27 methyltransferase, is repressed in senescent cells. We show here that downregulation of EZH2 promotes senescence through two distinct mechanisms. First, depletion of EZH2 in proliferating cells rapidly initiates a DNA damage resp"
+   },
+   {
+    "rank": 95,
+    "id": "pmid:27882934",
+    "cited_by": 233,
+    "year": 2016,
+    "journal": "Nature communications",
+    "title": "Macrophage-dependent IL-1β production induces cardiac arrhythmias in diabetic mice",
+    "abstract_start": "Diabetes mellitus (DM) encompasses a multitude of secondary disorders, including heart disease. One of the most frequent and potentially life threatening disorders of DM-induced heart disease is ventricular tachycardia (VT). Here we show that toll-like receptor 2 (TLR2) and NLRP3 inflammasome activation in cardiac macrophages mediate the production of IL-1β in DM mice. IL-1β causes prolongation of"
+   },
+   {
+    "rank": 96,
+    "id": "pmid:33761330",
+    "cited_by": 228,
+    "year": 2021,
+    "journal": "Immunity",
+    "title": "The complement system drives local inflammatory tissue priming by metabolic reprogramming of synovial fibroblasts",
+    "abstract_start": "Arthritis typically involves recurrence and progressive worsening at specific predilection sites, but the checkpoints between remission and persistence remain unknown. Here, we defined the molecular and cellular mechanisms of this inflammation-mediated tissue priming. Re-exposure to inflammatory stimuli caused aggravated arthritis in rodent models. Tissue priming developed locally and independentl"
+   },
+   {
+    "rank": 97,
+    "id": "pmid:33691097",
+    "cited_by": 227,
+    "year": 2021,
+    "journal": "Cell reports",
+    "title": "Itaconate confers tolerance to late NLRP3 inflammasome activation",
+    "abstract_start": "Itaconate is a unique regulatory metabolite that is induced upon Toll-like receptor (TLR) stimulation in myeloid cells. Here, we demonstrate major inflammatory tolerance and cell death phenotypes associated with itaconate production in activated macrophages. We show that endogenous itaconate is a key regulator of the signal 2 of NLR family pyrin domain containing 3 (NLRP3) inflammasome activation "
+   },
+   {
+    "rank": 98,
+    "id": "pmid:26848183",
+    "cited_by": 227,
+    "year": 2017,
+    "journal": "Gut",
+    "title": "Titanium dioxide nanoparticles exacerbate DSS-induced colitis: role of the NLRP3 inflammasome",
+    "abstract_start": "Western lifestyle and diet are major environmental factors playing a role in the development of IBD. Titanium dioxide (TiO 2 ) nanoparticles are widely used as food additives or in pharmaceutical formulations and are consumed by millions of people on a daily basis. We investigated the effects of TiO 2 in the development of colitis and the role of the nucleotide-binding oligomerisation domain recep"
+   },
+   {
+    "rank": 99,
+    "id": "pmid:32332723",
+    "cited_by": 226,
+    "year": 2020,
+    "journal": "Nature communications",
+    "title": "Using proteolysis-targeting chimera technology to reduce navitoclax platelet toxicity and improve its senolytic activity",
+    "abstract_start": "Small molecules that selectively kill senescent cells (SCs), termed senolytics, have the potential to prevent and treat various age-related diseases and extend healthspan. The use of Bcl-xl inhibitors as senolytics is largely limited by their on-target and dose-limiting platelet toxicity. Here, we report the use of proteolysis-targeting chimera (PROTAC) technology to reduce the platelet toxicity o"
+   },
+   {
+    "rank": 100,
+    "id": "pmid:31036561",
+    "cited_by": 224,
+    "year": 2019,
+    "journal": "The Journal of experimental medicine",
+    "title": "Fyn kinase regulates misfolded α-synuclein uptake and NLRP3 inflammasome activation in microglia",
+    "abstract_start": "Persistent microglia-mediated neuroinflammation is a major pathophysiological contributor to the progression of Parkinson's disease (PD), but the cell-signaling mechanisms governing chronic neuroinflammation are not well understood. Here, we show that Fyn kinase, in conjunction with the class B scavenger receptor CD36, regulates the microglial uptake of aggregated human α-synuclein (αSyn), which i"
+   },
+   {
+    "rank": 101,
+    "id": "pmid:36652671",
+    "cited_by": 222,
+    "year": 2023,
+    "journal": "Blood",
+    "title": "A practical approach to curate clonal hematopoiesis of indeterminate potential in human genetic data sets",
+    "abstract_start": "Clonal hematopoiesis of indeterminate potential (CHIP) is a common form of age-related somatic mosaicism that is associated with significant morbidity and mortality. CHIP mutations can be identified in peripheral blood samples that are sequenced using approaches that cover the whole genome, the whole exome, or targeted genetic regions; however, differentiating true CHIP mutations from sequencing a"
+   },
+   {
+    "rank": 102,
+    "id": "pmid:35987199",
+    "cited_by": 221,
+    "year": 2022,
+    "journal": "Molecular cell",
+    "title": "Increasing cell size remodels the proteome and promotes senescence",
+    "abstract_start": "Cell size is tightly controlled in healthy tissues, but it is unclear how deviations in cell size affect cell physiology. To address this, we measured how the cell's proteome changes with increasing cell size. Size-dependent protein concentration changes are widespread and predicted by subcellular localization, size-dependent mRNA concentrations, and protein turnover. As proliferating cells grow l"
+   },
+   {
+    "rank": 103,
+    "id": "pmid:29475852",
+    "cited_by": 220,
+    "year": 2019,
+    "journal": "Gut",
+    "title": "Alcohol dysregulates miR-148a in hepatocytes through FoxO1, facilitating pyroptosis via TXNIP overexpression",
+    "abstract_start": "Alcoholic liver disease (ALD) is a leading cause of death among chronic liver diseases. However, its pathogenesis has not been completely established. MicroRNAs (miRNAs) are key contributors to liver diseases progression. This study investigated hepatocyte-abundant miRNAs dysregulated by ALD, its impact on hepatocyte injury and the underlying basis. Alcoholic hepatitis (AH) human and animal liver "
+   },
+   {
+    "rank": 104,
+    "id": "pmid:37118425",
+    "cited_by": 218,
+    "year": 2023,
+    "journal": "Nature aging",
+    "title": "Effect of long-term caloric restriction on DNA methylation measures of biological aging in healthy adults from the CALERIE trial",
+    "abstract_start": "The geroscience hypothesis proposes that therapy to slow or reverse molecular changes that occur with aging can delay or prevent multiple chronic diseases and extend healthy lifespan 1-3 . Caloric restriction (CR), defined as lessening caloric intake without depriving essential nutrients 4 , results in changes in molecular processes that have been associated with aging, including DNA methylation ("
+   },
+   {
+    "rank": 105,
+    "id": "pmid:28420787",
+    "cited_by": 218,
+    "year": 2017,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "Activation of NLRP3 inflammasome complex potentiates venous thrombosis in response to hypoxia",
+    "abstract_start": "Venous thromboembolism (VTE), caused by altered hemostasis, remains the third most common cause of mortality among all cardiovascular conditions. In addition to established genetic and acquired risk factors, low-oxygen environments also predispose otherwise healthy individuals to VTE. Although disease etiology appears to entail perturbation of hemostasis pathways, the key molecular determinants du"
+   },
+   {
+    "rank": 106,
+    "id": "pmid:29459437",
+    "cited_by": 215,
+    "year": 2018,
+    "journal": "The EMBO journal",
+    "title": "LPS targets host guanylate-binding proteins to the bacterial outer membrane for non-canonical inflammasome activation",
+    "abstract_start": "Pathogenic and commensal Gram-negative bacteria produce and release outer membrane vesicles (OMVs), which present several surface antigens and play an important role for bacterial pathogenesis. OMVs also modulate the host immune system, which makes them attractive as vaccine candidates. At the cellular level, OMVs are internalized by macrophages and deliver lipopolysaccharide (LPS) into the host c"
+   },
+   {
+    "rank": 107,
+    "id": "pmid:26880576",
+    "cited_by": 215,
+    "year": 2016,
+    "journal": "The Journal of experimental medicine",
+    "title": "RNase H2 catalytic core Aicardi-Goutières syndrome-related mutant invokes cGAS-STING innate immune-sensing pathway in mice",
+    "abstract_start": "The neuroinflammatory autoimmune disease Aicardi-Goutières syndrome (AGS) develops from mutations in genes encoding several nucleotide-processing proteins, including RNase H2. Defective RNase H2 may induce accumulation of self-nucleic acid species that trigger chronic type I interferon and inflammatory responses, leading to AGS pathology. We created a knock-in mouse model with an RNase H2 AGS muta"
+   },
+   {
+    "rank": 108,
+    "id": "pmid:37118134",
+    "cited_by": 211,
+    "year": 2022,
+    "journal": "Nature aging",
+    "title": "Nuclear morphology is a deep learning biomarker of cellular senescence",
+    "abstract_start": "Cellular senescence is an important factor in aging and many age-related diseases, but understanding its role in health is challenging due to the lack of exclusive or universal markers. Using neural networks, we predict senescence from the nuclear morphology of human fibroblasts with up to 95% accuracy, and investigate murine astrocytes, murine neurons, and fibroblasts with premature aging in cult"
+   },
+   {
+    "rank": 109,
+    "id": "pmid:31375685",
+    "cited_by": 210,
+    "year": 2019,
+    "journal": "Nature communications",
+    "title": "Galectin-3 is required for the microglia-mediated brain inflammation in a model of Huntington's disease",
+    "abstract_start": "Huntington's disease (HD) is a neurodegenerative disorder that manifests with movement dysfunction. The expression of mutant Huntingtin (mHTT) disrupts the functions of brain cells. Galectin-3 (Gal3) is a lectin that has not been extensively explored in brain diseases. Herein, we showed that the plasma Gal3 levels of HD patients and mice correlated with disease severity. Moreover, brain Gal3 level"
+   },
+   {
+    "rank": 110,
+    "id": "pmid:27928058",
+    "cited_by": 210,
+    "year": 2017,
+    "journal": "Nucleic acids research",
+    "title": "Identification of senescence-associated circular RNAs (SAC-RNAs) reveals senescence suppressor CircPVT1",
+    "abstract_start": "Using RNA sequencing (RNA-Seq), we compared the expression patterns of circular RNAs in proliferating (early-passage) and senescent (late-passage) human diploid WI-38 fibroblasts. Among the differentially expressed senescence-associated circRNAs (which we termed 'SAC-RNAs'), we identified CircPVT1, generated by circularization of an exon of the PVT1 gene, as a circular RNA showing markedly reduced"
+   },
+   {
+    "rank": 111,
+    "id": "pmid:37086720",
+    "cited_by": 209,
+    "year": 2023,
+    "journal": "Cell metabolism",
+    "title": "Biological age is increased by stress and restored upon recovery",
+    "abstract_start": "Aging is classically conceptualized as an ever-increasing trajectory of damage accumulation and loss of function, leading to increases in morbidity and mortality. However, recent in vitro studies have raised the possibility of age reversal. Here, we report that biological age is fluid and exhibits rapid changes in both directions. At epigenetic, transcriptomic, and metabolomic levels, we find that"
+   },
+   {
+    "rank": 112,
+    "id": "pmid:34855941",
+    "cited_by": 209,
+    "year": 2022,
+    "journal": "Blood",
+    "title": "Association of clonal hematopoiesis with chronic obstructive pulmonary disease",
+    "abstract_start": "Chronic obstructive pulmonary disease (COPD) is associated with age and smoking, but other determinants of the disease are incompletely understood. Clonal hematopoiesis of indeterminate potential (CHIP) is a common, age-related state in which somatic mutations in clonal blood populations induce aberrant inflammatory responses. Patients with CHIP have an elevated risk for cardiovascular disease, bu"
+   },
+   {
+    "rank": 113,
+    "id": "pmid:31633821",
+    "cited_by": 209,
+    "year": 2019,
+    "journal": "The EMBO journal",
+    "title": "Senescent human melanocytes drive skin ageing via paracrine telomere dysfunction",
+    "abstract_start": "Cellular senescence has been shown to contribute to skin ageing. However, the role of melanocytes in the process is understudied. Our data show that melanocytes are the only epidermal cell type to express the senescence marker p16 INK4A during human skin ageing. Aged melanocytes also display additional markers of senescence such as reduced HMGB1 and dysfunctional telomeres, without detectable telo"
+   },
+   {
+    "rank": 114,
+    "id": "pmid:27365426",
+    "cited_by": 207,
+    "year": 2016,
+    "journal": "Blood",
+    "title": "Germ line variants predispose to both JAK2 V617F clonal hematopoiesis and myeloproliferative neoplasms",
+    "abstract_start": "We conducted a genome-wide association study (GWAS) to identify novel predisposition alleles associated with Philadelphia chromosome-negative myeloproliferative neoplasms (MPNs) and JAK2 V617F clonal hematopoiesis in the general population. We recruited a web-based cohort of 726 individuals with polycythemia vera, essential thrombocythemia, and myelofibrosis and 252 637 population controls unselec"
+   },
+   {
+    "rank": 115,
+    "id": "pmid:31735593",
+    "cited_by": 206,
+    "year": 2019,
+    "journal": "Cell metabolism",
+    "title": "Aging Induces an Nlrp3 Inflammasome-Dependent Expansion of Adipose B Cells That Impairs Metabolic Homeostasis",
+    "abstract_start": "During aging, visceral adiposity is often associated with alterations in adipose tissue (AT) leukocytes, inflammation, and metabolic dysfunction. However, the contribution of AT B cells in immunometabolism during aging is unexplored. Here, we show that aging is associated with an expansion of a unique population of resident non-senescent aged adipose B cells (AABs) found in fat-associated lymphoid"
+   },
+   {
+    "rank": 116,
+    "id": "pmid:34648357",
+    "cited_by": 204,
+    "year": 2021,
+    "journal": "Science translational medicine",
+    "title": "Lung epithelial and endothelial damage, loss of tissue repair, inhibition of fibrinolysis, and cellular senescence in fatal COVID-19",
+    "abstract_start": "Coronavirus disease 2019 (COVID-19), caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), is characterized by respiratory distress, multiorgan dysfunction, and, in some cases, death. The pathological mechanisms underlying COVID-19 respiratory distress and the interplay with aggravating risk factors have not been fully defined. Lung autopsy samples from 18 patients with fatal"
+   },
+   {
+    "rank": 117,
+    "id": "pmid:30982734",
+    "cited_by": 203,
+    "year": 2019,
+    "journal": "Cell metabolism",
+    "title": "Choline Uptake and Metabolism Modulate Macrophage IL-1β and IL-18 Production",
+    "abstract_start": "Choline is a vitamin-like nutrient that is taken up via specific transporters and metabolized by choline kinase, which converts it to phosphocholine needed for de novo synthesis of phosphatidylcholine (PC), the main phospholipid of cellular membranes. We found that Toll-like receptor (TLR) activation enhances choline uptake by macrophages and microglia through induction of the choline transporter "
+   },
+   {
+    "rank": 118,
+    "id": "pmid:30910981",
+    "cited_by": 203,
+    "year": 2019,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "Cellular senescence in progenitor cells contributes to diminished remyelination potential in progressive multiple sclerosis",
+    "abstract_start": "Cellular senescence is a form of adaptive cellular physiology associated with aging. Cellular senescence causes a proinflammatory cellular phenotype that impairs tissue regeneration, has been linked to stress, and is implicated in several human neurodegenerative diseases. We had previously determined that neural progenitor cells (NPCs) derived from induced pluripotent stem cell (iPSC) lines from p"
+   },
+   {
+    "rank": 119,
+    "id": "pmid:26972847",
+    "cited_by": 203,
+    "year": 2016,
+    "journal": "Nature communications",
+    "title": "IL-1 receptor antagonist ameliorates inflammasome-dependent inflammation in murine and human cystic fibrosis",
+    "abstract_start": "Dysregulated inflammasome activation contributes to respiratory infections and pathologic airway inflammation. Through basic and translational approaches involving murine models and human genetic epidemiology, we show here the importance of the different inflammasomes in regulating inflammatory responses in mice and humans with cystic fibrosis (CF), a life-threatening disorder of the lungs and dig"
+   },
+   {
+    "rank": 120,
+    "id": "pmid:28479366",
+    "cited_by": 201,
+    "year": 2017,
+    "journal": "Cell metabolism",
+    "title": "Cholesterol Accumulation in Dendritic Cells Links the Inflammasome to Acquired Immunity",
+    "abstract_start": "Autoimmune diseases such as systemic lupus erythematosus (SLE) are associated with increased cardiovascular disease and reduced plasma high-density lipoprotein (HDL) levels. HDL mediates cholesterol efflux from immune cells via the ATP binding cassette transporters A1 and G1 (ABCA1/G1). The significance of impaired cholesterol efflux pathways in autoimmunity is unknown. We observed that Abca1/g1-d"
+   },
+   {
+    "rank": 121,
+    "id": "pmid:30612879",
+    "cited_by": 200,
+    "year": 2019,
+    "journal": "Molecular cell",
+    "title": "The Crohn's Disease Risk Factor IRGM Limits NLRP3 Inflammasome Activation by Impeding Its Assembly and by Mediating Its Selective Autophagy",
+    "abstract_start": "Several large-scale genome-wide association studies genetically linked IRGM to Crohn's disease and other inflammatory disorders in which the IRGM appears to have a protective function. However, the mechanism by which IRGM accomplishes this anti-inflammatory role remains unclear. Here, we reveal that IRGM/Irgm1 is a negative regulator of the NLRP3 inflammasome activation. We show that IRGM expressi"
+   },
+   {
+    "rank": 122,
+    "id": "pmid:33848471",
+    "cited_by": 198,
+    "year": 2021,
+    "journal": "Cell stem cell",
+    "title": "Decline in IGF1 in the bone marrow microenvironment initiates hematopoietic stem cell aging",
+    "abstract_start": "Decline in hematopoietic stem cell (HSC) function with age underlies limited health span of our blood and immune systems. In order to preserve health into older age, it is necessary to understand the nature and timing of initiating events that cause HSC aging. By performing a cross-sectional study in mice, we discover that hallmarks of aging in HSCs and hematopoiesis begin to accumulate by middle "
+   },
+   {
+    "rank": 123,
+    "id": "pmid:37118510",
+    "cited_by": 197,
+    "year": 2023,
+    "journal": "Nature aging",
+    "title": "Cell-type-specific aging clocks to quantify aging and rejuvenation in neurogenic regions of the brain",
+    "abstract_start": "The diversity of cell types is a challenge for quantifying aging and its reversal. Here we develop 'aging clocks' based on single-cell transcriptomics to characterize cell-type-specific aging and rejuvenation. We generated single-cell transcriptomes from the subventricular zone neurogenic region of 28 mice, tiling ages from young to old. We trained single-cell-based regression models to predict ch"
+   },
+   {
+    "rank": 124,
+    "id": "pmid:37046084",
+    "cited_by": 197,
+    "year": 2023,
+    "journal": "Nature",
+    "title": "Clonal haematopoiesis and risk of chronic liver disease",
+    "abstract_start": "Chronic liver disease is a major public health burden worldwide 1 . Although different aetiologies and mechanisms of liver injury exist, progression of chronic liver disease follows a common pathway of liver inflammation, injury and fibrosis 2 . Here we examined the association between clonal haematopoiesis of indeterminate potential (CHIP) and chronic liver disease in 214,563 individuals from 4 i"
+   },
+   {
+    "rank": 125,
+    "id": "pmid:35654037",
+    "cited_by": 194,
+    "year": 2022,
+    "journal": "Neuron",
+    "title": "Neuronal NLRP3 is a parkin substrate that drives neurodegeneration in Parkinson's disease",
+    "abstract_start": "Parkinson's disease (PD) is mediated, in part, by intraneuronal accumulation of α-synuclein aggregates andsubsequent death of dopamine (DA) neurons in the substantia nigra pars compacta (SNpc). Microglial hyperactivation of the NOD-like receptor protein 3 (NLRP3) inflammasome has been well-documented in various neurodegenerative diseases, including PD. We show here that loss of parkin activity in "
+   },
+   {
+    "rank": 126,
+    "id": "pmid:29789522",
+    "cited_by": 192,
+    "year": 2018,
+    "journal": "Nature communications",
+    "title": "A20 critically controls microglia activation and inhibits inflammasome-dependent neuroinflammation",
+    "abstract_start": "Microglia, the mononuclear phagocytes of the central nervous system (CNS), are important for the maintenance of CNS homeostasis, but also critically contribute to CNS pathology. Here we demonstrate that the nuclear factor kappa B (NF-κB) regulatory protein A20 is crucial in regulating microglia activation during CNS homeostasis and pathology. In mice, deletion of A20 in microglia increases microgl"
+   },
+   {
+    "rank": 127,
+    "id": "pmid:32514071",
+    "cited_by": 191,
+    "year": 2020,
+    "journal": "Nature cell biology",
+    "title": "AP-1 imprints a reversible transcriptional programme of senescent cells",
+    "abstract_start": "Senescent cells affect many physiological and pathophysiological processes. While select genetic and epigenetic elements for senescence induction have been identified, the dynamics, epigenetic mechanisms and regulatory networks defining senescence competence, induction and maintenance remain poorly understood, precluding the deliberate therapeutic targeting of senescence for health benefits. Here,"
+   },
+   {
+    "rank": 128,
+    "id": "pmid:31053655",
+    "cited_by": 189,
+    "year": 2019,
+    "journal": "Science immunology",
+    "title": "Stromal cells maintain immune cell homeostasis in adipose tissue via production of interleukin-33",
+    "abstract_start": "Obesity is driven by chronic low-grade inflammation resulting from dysregulated immune cell accumulation and function in white adipose tissue (WAT). Interleukin-33 (IL-33) is a key cytokine that controls innate and adaptive immune cell activity and immune homeostasis in WAT, although the sources of IL-33 have remained controversial. Here, we show that WAT-resident mesenchyme-derived stromal cells "
+   },
+   {
+    "rank": 129,
+    "id": "pmid:37585504",
+    "cited_by": 185,
+    "year": 2023,
+    "journal": "Science translational medicine",
+    "title": "NKG2D-CAR T cells eliminate senescent cells in aged mice and nonhuman primates",
+    "abstract_start": "Cellular senescence, characterized by stable cell cycle arrest, plays an important role in aging and age-associated pathologies. Eliminating senescent cells rejuvenates aged tissues and ameliorates age-associated diseases. Here, we identified that natural killer group 2 member D ligands (NKG2DLs) are up-regulated in senescent cells in vitro, regardless of stimuli that induced cellular senescence, "
+   },
+   {
+    "rank": 130,
+    "id": "pmid:27358050",
+    "cited_by": 185,
+    "year": 2016,
+    "journal": "Nature communications",
+    "title": "LATS-YAP/TAZ controls lineage specification by regulating TGFβ signaling and Hnf4α expression during liver development",
+    "abstract_start": "The Hippo pathway regulates the self-renewal and differentiation of various adult stem cells, but its role in cell fate determination and differentiation during liver development remains unclear. Here we report that the Hippo pathway controls liver cell lineage specification and proliferation separately from Notch signalling, using mice and primary hepatoblasts with liver-specific knockout of Lats"
+   },
+   {
+    "rank": 131,
+    "id": "pmid:34782623",
+    "cited_by": 182,
+    "year": 2021,
+    "journal": "Nature communications",
+    "title": "Tau activates microglia via the PQBP1-cGAS-STING pathway to promote brain inflammation",
+    "abstract_start": "Brain inflammation generally accompanies and accelerates neurodegeneration. Here we report a microglial mechanism in which polyglutamine binding protein 1 (PQBP1) senses extrinsic tau 3R/4R proteins by direct interaction and triggers an innate immune response by activating a cyclic GMP-AMP synthase (cGAS)-Stimulator of interferon genes (STING) pathway. Tamoxifen-inducible and microglia-specific de"
+   },
+   {
+    "rank": 132,
+    "id": "pmid:36147777",
+    "cited_by": 181,
+    "year": 2022,
+    "journal": "Nature aging",
+    "title": "Characterization of cellular senescence in aging skeletal muscle",
+    "abstract_start": "Senescence is a cell fate that contributes to multiple aging-related pathologies. Despite profound age-associated changes in skeletal muscle (SkM), whether its constituent cells are prone to senesce has not been methodically examined. Herein, using single cell and bulk RNA-sequencing and complementary imaging methods on SkM of young and old mice, we demonstrate that a subpopulation of old fibroadi"
+   },
+   {
+    "rank": 133,
+    "id": "pmid:33113366",
+    "cited_by": 180,
+    "year": 2020,
+    "journal": "Cell reports",
+    "title": "TET2-Loss-of-Function-Driven Clonal Hematopoiesis Exacerbates Experimental Insulin Resistance in Aging and Obesity",
+    "abstract_start": "Human aging is frequently accompanied by the acquisition of somatic mutations in the hematopoietic system that induce clonal hematopoiesis, leading to the development of a mutant clone of hematopoietic progenitors and leukocytes. This somatic-mutation-driven clonal hematopoiesis has been associated with an increased incidence of cardiovascular disease and type 2 diabetes, but whether this epidemio"
+   },
+   {
+    "rank": 134,
+    "id": "pmid:28273461",
+    "cited_by": 180,
+    "year": 2017,
+    "journal": "Cell reports",
+    "title": "Integrin Beta 3 Regulates Cellular Senescence by Activating the TGF-β Pathway",
+    "abstract_start": "Cellular senescence is an important in vivo mechanism that prevents the propagation of damaged cells. However, the precise mechanisms regulating senescence are not well characterized. Here, we find that ITGB3 (integrin beta 3 or β3) is regulated by the Polycomb protein CBX7. β3 expression accelerates the onset of senescence in human primary fibroblasts by activating the transforming growth factor "
+   },
+   {
+    "rank": 135,
+    "id": "pmid:29520027",
+    "cited_by": 179,
+    "year": 2018,
+    "journal": "Nature communications",
+    "title": "The oxidized phospholipid oxPAPC protects from septic shock by targeting the non-canonical inflammasome in macrophages",
+    "abstract_start": "Lipopolysaccharide (LPS) of Gram-negative bacteria can elicit a strong immune response. Although extracellular LPS is sensed by TLR4 at the cell surface and triggers a transcriptional response, cytosolic LPS binds and activates non-canonical inflammasome caspases, resulting in pyroptotic cell death, as well as canonical NLRP3 inflammasome-dependent cytokine release. Contrary to the highly regulate"
+   },
+   {
+    "rank": 136,
+    "id": "pmid:33526781",
+    "cited_by": 177,
+    "year": 2021,
+    "journal": "Nature communications",
+    "title": "Calcium channel ITPR2 and mitochondria-ER contacts promote cellular senescence and aging",
+    "abstract_start": "Cellular senescence is induced by stresses and results in a stable proliferation arrest accompanied by a pro-inflammatory secretome. Senescent cells accumulate during aging, promoting various age-related pathologies and limiting lifespan. The endoplasmic reticulum (ER) inositol 1,4,5-trisphosphate receptor, type 2 (ITPR2) calcium-release channel and calcium fluxes from the ER to the mitochondria a"
+   },
+   {
+    "rank": 137,
+    "id": "pmid:31543366",
+    "cited_by": 176,
+    "year": 2019,
+    "journal": "Cell stem cell",
+    "title": "Loss of SATB1 Induces p21-Dependent Cellular Senescence in Post-mitotic Dopaminergic Neurons",
+    "abstract_start": "Cellular senescence is a mechanism used by mitotic cells to prevent uncontrolled cell division. As senescent cells persist in tissues, they cause local inflammation and are harmful to surrounding cells, contributing to aging. Generally, neurodegenerative diseases, such as Parkinson's, are disorders of aging. The contribution of cellular senescence to neurodegeneration is still unclear. SATB1 is a "
+   },
+   {
+    "rank": 138,
+    "id": "pmid:26971994",
+    "cited_by": 174,
+    "year": 2016,
+    "journal": "Cell reports",
+    "title": "Saturated Fatty Acids Engage an IRE1α-Dependent Pathway to Activate the NLRP3 Inflammasome in Myeloid Cells",
+    "abstract_start": "Diets rich in saturated fatty acids (SFAs) produce a form of tissue inflammation driven by \"metabolically activated\" macrophages. We show that SFAs, when in excess, induce a unique transcriptional signature in both mouse and human macrophages that is enriched by a subset of ER stress markers, particularly IRE1α and many adaptive downstream target genes. SFAs also activate the NLRP3 inflammasome in"
+   },
+   {
+    "rank": 139,
+    "id": "pmid:37327321",
+    "cited_by": 173,
+    "year": 2023,
+    "journal": "Science immunology",
+    "title": "Hexokinase dissociation from mitochondria promotes oligomerization of VDAC that facilitates NLRP3 inflammasome assembly and activation",
+    "abstract_start": "NLRP3 inflammasome activation is a highly regulated process for controlling secretion of the potent inflammatory cytokines IL-1β and IL-18 that are essential during bacterial infection, sterile inflammation, and disease, including colitis, diabetes, Alzheimer's disease, and atherosclerosis. Diverse stimuli activate the NLRP3 inflammasome, and unifying upstream signals has been challenging to ident"
+   },
+   {
+    "rank": 140,
+    "id": "pmid:28137856",
+    "cited_by": 173,
+    "year": 2017,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "Targeting IRE1 with small molecules counteracts progression of atherosclerosis",
+    "abstract_start": "Metaflammation, an atypical, metabolically induced, chronic low-grade inflammation, plays an important role in the development of obesity, diabetes, and atherosclerosis. An important primer for metaflammation is the persistent metabolic overloading of the endoplasmic reticulum (ER), leading to its functional impairment. Activation of the unfolded protein response (UPR), a homeostatic regulatory ne"
+   },
+   {
+    "rank": 141,
+    "id": "pmid:33523841",
+    "cited_by": 172,
+    "year": 2021,
+    "journal": "Science advances",
+    "title": "Inhibition of the NLRP3 inflammasome prevents ovarian aging",
+    "abstract_start": "Inflammation is a hallmark of aging and is negatively affecting female fertility. In this study, we evaluate the role of the NLRP3 inflammasome in ovarian aging and female fertility. Age-dependent increased expression of NLRP3 in the ovary was observed in WT mice during reproductive aging. High expression of NLRP3, caspase-1, and IL-1β was also observed in granulosa cells from patients with ovaria"
+   },
+   {
+    "rank": 142,
+    "id": "pmid:30206189",
+    "cited_by": 172,
+    "year": 2018,
+    "journal": "EMBO reports",
+    "title": "USP7 and USP47 deubiquitinases regulate NLRP3 inflammasome activation",
+    "abstract_start": "The assembly and activation of the inflammasomes are tightly regulated by post-translational modifications, including ubiquitin. Deubiquitinases (DUBs) counteract the addition of ubiquitin and are essential regulators of immune signalling pathways, including those acting on the inflammasome. How DUBs control the assembly and activation of inflammasomes is unclear. Here, we show that the DUBs USP7 "
+   },
+   {
+    "rank": 143,
+    "id": "pmid:39270656",
+    "cited_by": 170,
+    "year": 2024,
+    "journal": "Cell",
+    "title": "Metformin decelerates aging clock in male monkeys",
+    "abstract_start": "In a rigorous 40-month study, we evaluated the geroprotective effects of metformin on adult male cynomolgus monkeys, addressing a gap in primate aging research. The study encompassed a comprehensive suite of physiological, imaging, histological, and molecular evaluations, substantiating metformin's influence on delaying age-related phenotypes at the organismal level. Specifically, we leveraged pan"
+   },
+   {
+    "rank": 144,
+    "id": "pmid:31182708",
+    "cited_by": 170,
+    "year": 2019,
+    "journal": "Nature communications",
+    "title": "Cordycepin prevents radiation ulcer by inhibiting cell senescence via NRF2 and AMPK in rodents",
+    "abstract_start": "The pathological mechanisms of radiation ulcer remain unsolved and there is currently no effective medicine. Here, we demonstrate that persistent DNA damage foci and cell senescence are involved in radiation ulcer development. Further more, we identify cordycepin, a natural nucleoside analogue, as a potent drug to block radiation ulcer (skin, intestine, tongue) in rats/mice by preventing cell sene"
+   },
+   {
+    "rank": 145,
+    "id": "pmid:33035345",
+    "cited_by": 169,
+    "year": 2020,
+    "journal": "Nucleic acids research",
+    "title": "METTL3 counteracts premature aging via m6A-dependent stabilization of MIS12 mRNA",
+    "abstract_start": "N6-Methyladenosine (m6A) messenger RNA methylation is a well-known epitranscriptional regulatory mechanism affecting central biological processes, but its function in human cellular senescence remains uninvestigated. Here, we found that levels of both m6A RNA methylation and the methyltransferase METTL3 were reduced in prematurely senescent human mesenchymal stem cell (hMSC) models of progeroid sy"
+   },
+   {
+    "rank": 146,
+    "id": "pmid:33277246",
+    "cited_by": 165,
+    "year": 2020,
+    "journal": "Science advances",
+    "title": "Oligodendroglial glycolytic stress triggers inflammasome activation and neuropathology in Alzheimer's disease",
+    "abstract_start": "Myelin degeneration and white matter loss resulting from oligodendrocyte (OL) death are early events in Alzheimer's disease (AD) that lead to cognitive deficits; however, the underlying mechanism remains unknown. Here, we find that mature OLs in both AD patients and an AD mouse model undergo NLR family pyrin domain containing 3 (NLRP3)-dependent Gasdermin D-associated inflammatory injury, concomit"
+   },
+   {
+    "rank": 147,
+    "id": "pmid:34932384",
+    "cited_by": 163,
+    "year": 2021,
+    "journal": "Science immunology",
+    "title": "Mitochondrial C5aR1 activity in macrophages controls IL-1β production underlying sterile inflammation",
+    "abstract_start": "While serum-circulating complement destroys invading pathogens, intracellularly active complement, termed the “complosome,” functions as a vital orchestrator of cell-metabolic events underlying T cell effector responses. Whether intracellular complement is also nonredundant for the activity of myeloid immune cells is currently unknown. Here, we show that monocytes and macrophages constitutively ex"
+   },
+   {
+    "rank": 148,
+    "id": "pmid:33548171",
+    "cited_by": 162,
+    "year": 2021,
+    "journal": "Cell metabolism",
+    "title": "Pathological angiogenesis in retinopathy engages cellular senescence and is amenable to therapeutic elimination via BCL-xL inhibition",
+    "abstract_start": "Attenuating pathological angiogenesis in diseases characterized by neovascularization such as diabetic retinopathy has transformed standards of care. Yet little is known about the molecular signatures discriminating physiological blood vessels from their diseased counterparts, leading to off-target effects of therapy. We demonstrate that in contrast to healthy blood vessels, pathological vessels e"
+   },
+   {
+    "rank": 149,
+    "id": "pmid:30449723",
+    "cited_by": 159,
+    "year": 2018,
+    "journal": "Molecular cell",
+    "title": "Deregulated Expression of Mammalian lncRNA through Loss of SPT6 Induces R-Loop Formation, Replication Stress, and Cellular Senescence",
+    "abstract_start": "Extensive tracts of the mammalian genome that lack protein-coding function are still transcribed into long noncoding RNA. While these lncRNAs are generally short lived, length restricted, and non-polyadenylated, how their expression is distinguished from protein-coding genes remains enigmatic. Surprisingly, depletion of the ubiquitous Pol-II-associated transcription elongation factor SPT6 promotes"
+   },
+   {
+    "rank": 150,
+    "id": "pmid:32220303",
+    "cited_by": 155,
+    "year": 2020,
+    "journal": "Molecular cell",
+    "title": "4D Genome Rewiring during Oncogene-Induced and Replicative Senescence",
+    "abstract_start": "To understand the role of the extensive senescence-associated 3D genome reorganization, we generated genome-wide chromatin interaction maps, epigenome, replication-timing, whole-genome bisulfite sequencing, and gene expression profiles from cells entering replicative senescence (RS) or upon oncogene-induced senescence (OIS). We identify senescence-associated heterochromatin domains (SAHDs). Differ"
+   },
+   {
+    "rank": 151,
+    "id": "pmid:31467036",
+    "cited_by": 155,
+    "year": 2019,
+    "journal": "The Journal of experimental medicine",
+    "title": "Gasdermin D in peripheral myeloid cells drives neuroinflammation in experimental autoimmune encephalomyelitis",
+    "abstract_start": "The NLRP3 inflammasome is critical for EAE pathogenesis; however, the role of gasdermin D (GSDMD), a newly identified pyroptosis executioner downstream of NLRP3 inflammasome, in EAE has not been well defined. Here, we observed that the levels of GSDMD protein were greatly enhanced in the CNS of EAE mice, especially near the areas surrounding blood vessels. GSDMD was required for the pathogenesis o"
+   },
+   {
+    "rank": 152,
+    "id": "pmid:32125276",
+    "cited_by": 153,
+    "year": 2020,
+    "journal": "eLife",
+    "title": "p16 deficiency attenuates intervertebral disc degeneration by adjusting oxidative stress and nucleus pulposus cell cycle",
+    "abstract_start": "The cell cycle regulator p16 is known as a biomarker and an effector of aging. However, its function in intervertebral disc degeneration (IVDD) is unclear. In this study, p16 expression levels were found to be positively correlated with the severity of human IVDD. In a mouse tail suspension (TS)-induced IVDD model, lumbar intervertebral disc height index and matrix protein expression levels were r"
+   },
+   {
+    "rank": 153,
+    "id": "pmid:31999304",
+    "cited_by": 153,
+    "year": 2020,
+    "journal": "The Journal of experimental medicine",
+    "title": "Sequential ubiquitination of NLRP3 by RNF125 and Cbl-b limits inflammasome activation and endotoxemia",
+    "abstract_start": "Aberrant NLRP3 inflammasome activation contributes to the development of endotoxemia. The importance of negative regulation of NLRP3 inflammasomes remains poorly understood. Here, we show that the E3 ubiquitin ligase Cbl-b is essential for preventing endotoxemia induced by a sub-lethal dose of LPS via a caspase-11/NLRP3-dependent manner. Further studies show that NLRP3 undergoes both K63- and K48-"
+   },
+   {
+    "rank": 154,
+    "id": "pmid:34525198",
+    "cited_by": 152,
+    "year": 2022,
+    "journal": "Blood",
+    "title": "IL-1 mediates microbiome-induced inflammaging of hematopoietic stem cells in mice",
+    "abstract_start": "Aging is associated with impaired hematopoietic and immune function caused in part by decreased fitness in the hematopoietic stem cell (HSC) population and an increased myeloid differentiation bias. The reasons for this aging-associated HSC impairment are incompletely understood. Here we demonstrate that older specific pathogen free (SPF) wild-type (WT) mice in contrast to young SPF mice produce m"
+   },
+   {
+    "rank": 155,
+    "id": "pmid:33408182",
+    "cited_by": 151,
+    "year": 2021,
+    "journal": "Science translational medicine",
+    "title": "A genome-wide CRISPR-based screen identifies KAT7 as a driver of cellular senescence",
+    "abstract_start": "Understanding the genetic and epigenetic bases of cellular senescence is instrumental in developing interventions to slow aging. We performed genome-wide CRISPR-Cas9-based screens using two types of human mesenchymal precursor cells (hMPCs) exhibiting accelerated senescence. The hMPCs were derived from human embryonic stem cells carrying the pathogenic mutations that cause the accelerated aging di"
+   },
+   {
+    "rank": 156,
+    "id": "pmid:30773298",
+    "cited_by": 151,
+    "year": 2019,
+    "journal": "Molecular cell",
+    "title": "Histone Acetyltransferase p300 Induces De Novo Super-Enhancers to Drive Cellular Senescence",
+    "abstract_start": "Accumulation of senescent cells during aging contributes to chronic inflammation and age-related diseases. While senescence is associated with profound alterations of the epigenome, a systematic view of epigenetic factors in regulating senescence is lacking. Here, we curated a library of short hairpin RNAs for targeted silencing of all known epigenetic proteins and performed a high-throughput scre"
+   },
+   {
+    "rank": 157,
+    "id": "pmid:29674674",
+    "cited_by": 150,
+    "year": 2018,
+    "journal": "Nature communications",
+    "title": "The E3 ubiquitin ligase Pellino2 mediates priming of the NLRP3 inflammasome",
+    "abstract_start": "The NLRP3 inflammasome has an important function in inflammation by promoting the processing of pro-IL-1β and pro-IL-18 to their mature bioactive forms, and by inducing cell death via pyroptosis. Here we show a critical function of the E3 ubiquitin ligase Pellino2 in facilitating activation of the NLRP3 inflammasome. Pellino2-deficient mice and myeloid cells have impaired activation of NLRP3 in re"
+   },
+   {
+    "rank": 158,
+    "id": "pmid:33811820",
+    "cited_by": 148,
+    "year": 2021,
+    "journal": "Cell metabolism",
+    "title": "Oxylipin biosynthesis reinforces cellular senescence and allows detection of senolysis",
+    "abstract_start": "Cellular senescence is a stress or damage response that causes a permanent proliferative arrest and secretion of numerous factors with potent biological activities. This senescence-associated secretory phenotype (SASP) has been characterized largely for secreted proteins that participate in embryogenesis, wound healing, inflammation, and many age-related pathologies. By contrast, lipid components "
+   },
+   {
+    "rank": 159,
+    "id": "pmid:34698806",
+    "cited_by": 147,
+    "year": 2021,
+    "journal": "The Journal of experimental medicine",
+    "title": "Dnmt3a-mutated clonal hematopoiesis promotes osteoporosis",
+    "abstract_start": "Osteoporosis is caused by an imbalance of osteoclasts and osteoblasts, occurring in close proximity to hematopoietic cells in the bone marrow. Recurrent somatic mutations that lead to an expanded population of mutant blood cells is termed clonal hematopoiesis of indeterminate potential (CHIP). Analyzing exome sequencing data from the UK Biobank, we found CHIP to be associated with increased incide"
+   },
+   {
+    "rank": 160,
+    "id": "pmid:34373456",
+    "cited_by": 146,
+    "year": 2021,
+    "journal": "Nature communications",
+    "title": "TRIM28 SUMOylates and stabilizes NLRP3 to facilitate inflammasome activation",
+    "abstract_start": "The cellular NLRP3 protein level is crucial for assembly and activation of the NLRP3 inflammasome. Various posttranslational modifications (PTMs), including phosphorylation and ubiquitination, control NLRP3 protein degradation and inflammasome activation; however, the function of small ubiquitin-like modifier (SUMO) modification (called SUMOylation) in controlling NLRP3 stability and subsequent in"
+   },
+   {
+    "rank": 161,
+    "id": "pmid:31227697",
+    "cited_by": 146,
+    "year": 2019,
+    "journal": "Nature communications",
+    "title": "Reduced subcutaneous adipogenesis in human hypertrophic obesity is linked to senescent precursor cells",
+    "abstract_start": "Inappropriate expansion of the adipose cells in the subcutaneous adipose tissue (SAT) is a characteristic of hypertrophic obesity and of individuals with genetic predisposition for T2D (first-degree relatives; FDR). It is associated with insulin resistance, a dysfunctional, adipose tissue and reduced adipogenesis. We examined the regulation of adipogenesis in human SAT precursor cells and found ZN"
+   },
+   {
+    "rank": 162,
+    "id": "pmid:28882883",
+    "cited_by": 146,
+    "year": 2017,
+    "journal": "Blood",
+    "title": "Cytoprotective activated protein C averts Nlrp3 inflammasome-induced ischemia-reperfusion injury via mTORC1 inhibition",
+    "abstract_start": "Cytoprotection by activated protein C (aPC) after ischemia-reperfusion injury (IRI) is associated with apoptosis inhibition. However, IRI is hallmarked by inflammation, and hence, cell-death forms disjunct from immunologically silent apoptosis are, in theory, more likely to be relevant. Because pyroptosis (ie, cell death resulting from inflammasome activation) is typically observed in IRI, we spec"
+   },
+   {
+    "rank": 163,
+    "id": "pmid:35236985",
+    "cited_by": 143,
+    "year": 2022,
+    "journal": "Nature",
+    "title": "Molecular hallmarks of heterochronic parabiosis at single-cell resolution",
+    "abstract_start": "The ability to slow or reverse biological ageing would have major implications for mitigating disease risk and maintaining vitality 1 . Although an increasing number of interventions show promise for rejuvenation 2 , their effectiveness on disparate cell types across the body and the molecular pathways susceptible to rejuvenation remain largely unexplored. Here we performed single-cell RNA sequenc"
+   },
+   {
+    "rank": 164,
+    "id": "pmid:30673616",
+    "cited_by": 143,
+    "year": 2019,
+    "journal": "Cell reports",
+    "title": "Mitochondrial Stress-Initiated Aberrant Activation of the NLRP3 Inflammasome Regulates the Functional Deterioration of Hematopoietic Stem Cell Aging",
+    "abstract_start": "Aging-associated defects in hematopoietic stem cells (HSCs) can manifest in their progeny, leading to aberrant activation of the NLRP3 inflammasome in macrophages and affecting distant tissues and organismal health span. Whether the NLRP3 inflammasome is aberrantly activated in HSCs during physiological aging is unknown. We show here that SIRT2, a cytosolic NAD + -dependent deacetylase, is require"
+   },
+   {
+    "rank": 165,
+    "id": "pmid:29152572",
+    "cited_by": 143,
+    "year": 2017,
+    "journal": "Science advances",
+    "title": "A null mutation in SERPINE1 protects against biological aging in humans",
+    "abstract_start": "Plasminogen activator inhibitor-1 (PAI-1) has been shown to be a key component of the senescence-related secretome and a direct mediator of cellular senescence. In murine models of accelerated aging, genetic deficiency and targeted inhibition of PAI-1 protect against aging-like pathology and prolong life span. However, the role of PAI-1 in human longevity remains unclear. We hypothesized that a ra"
+   },
+   {
+    "rank": 166,
+    "id": "pmid:36379023",
+    "cited_by": 142,
+    "year": 2023,
+    "journal": "Blood",
+    "title": "Aging drives Tet2+/- clonal hematopoiesis via IL-1 signaling",
+    "abstract_start": "Clonal hematopoiesis of indeterminate potential (CHIP), also referred to as aging-related clonal hematopoiesis, is defined as an asymptomatic clonal expansion of mutant mature hematopoietic cells in ≥4% of blood leukocytes. CHIP associates with advanced age and increased risk for hematological malignancy, cardiovascular disease, and all-cause mortality. Loss-of-function somatic mutations in TET2 a"
+   },
+   {
+    "rank": 167,
+    "id": "pmid:33203890",
+    "cited_by": 142,
+    "year": 2020,
+    "journal": "Nature communications",
+    "title": "Upper airway gene expression reveals suppressed immune responses to SARS-CoV-2 compared with other respiratory viruses",
+    "abstract_start": "SARS-CoV-2 infection is characterized by peak viral load in the upper airway prior to or at the time of symptom onset, an unusual feature that has enabled widespread transmission of the virus and precipitated a global pandemic. How SARS-CoV-2 is able to achieve high titer in the absence of symptoms remains unclear. Here, we examine the upper airway host transcriptional response in patients with CO"
+   },
+   {
+    "rank": 168,
+    "id": "pmid:29030458",
+    "cited_by": 142,
+    "year": 2017,
+    "journal": "The Journal of experimental medicine",
+    "title": "A noncanonical function of cGAMP in inflammasome priming and activation",
+    "abstract_start": "Recognition of pathogen-associated molecular patterns and danger-associated molecular patterns by host cells is an important step in innate immune activation. The DNA sensor cyclic guanosine monophosphate-adenosine monophosphate (cGAMP) synthase (cGAS) binds to DNA and produces cGAMP, which in turn binds to stimulator of interferon genes (STING) to activate IFN-I. Here we show that cGAMP has a non"
+   },
+   {
+    "rank": 169,
+    "id": "pmid:26989773",
+    "cited_by": 140,
+    "year": 2016,
+    "journal": "Science advances",
+    "title": "Reorganization of chromosome architecture in replicative cellular senescence",
+    "abstract_start": "Replicative cellular senescence is a fundamental biological process characterized by an irreversible arrest of proliferation. Senescent cells accumulate a variety of epigenetic changes, but the three-dimensional (3D) organization of their chromatin is not known. We applied a combination of whole-genome chromosome conformation capture (Hi-C), fluorescence in situ hybridization, and in silico modeli"
+   },
+   {
+    "rank": 170,
+    "id": "pmid:35714308",
+    "cited_by": 139,
+    "year": 2022,
+    "journal": "Blood",
+    "title": "TET2-mutant clonal hematopoiesis and risk of gout",
+    "abstract_start": "Gout is a common inflammatory arthritis caused by precipitation of monosodium urate (MSU) crystals in individuals with hyperuricemia. Acute flares are accompanied by secretion of proinflammatory cytokines, including interleukin-1β (IL-1β). Clonal hematopoiesis of indeterminate potential (CHIP) is an age-related condition predisposing to hematologic cancers and cardiovascular disease. CHIP is assoc"
+   },
+   {
+    "rank": 171,
+    "id": "pmid:32424156",
+    "cited_by": 139,
+    "year": 2020,
+    "journal": "Nature communications",
+    "title": "The CD153 vaccine is a senotherapeutic option for preventing the accumulation of senescent T cells in mice",
+    "abstract_start": "Senotherapy targeting for senescent cells is designed to attenuate age-related dysfunction. Senescent T cells, defined as CD4 + CD44 high CD62L low PD-1 + CD153 + cells, accumulate in visceral adipose tissues (VAT) in obese individuals. Here, we show the long-lasting effect of using CD153 vaccination to remove senescent T cells from high-fat diet (HFD)-induced obese C57BL/6J mice. We administered "
+   },
+   {
+    "rank": 172,
+    "id": "pmid:38917807",
+    "cited_by": 138,
+    "year": 2024,
+    "journal": "Cell stem cell",
+    "title": "Selective advantage of mutant stem cells in human clonal hematopoiesis is associated with attenuated response to inflammation and aging",
+    "abstract_start": "Clonal hematopoiesis (CH) arises when hematopoietic stem cells (HSCs) acquire mutations, most frequently in the DNMT3A and TET2 genes, conferring a competitive advantage through mechanisms that remain unclear. To gain insight into how CH mutations enable gradual clonal expansion, we used single-cell multi-omics with high-fidelity genotyping on human CH bone marrow (BM) samples. Most of the selecti"
+   },
+   {
+    "rank": 173,
+    "id": "pmid:37379396",
+    "cited_by": 138,
+    "year": 2023,
+    "journal": "Science advances",
+    "title": "Human PBMC scRNA-seq-based aging clocks reveal ribosome to inflammation balance as a single-cell aging hallmark and super longevity",
+    "abstract_start": "Quantifying aging rate is important for evaluating age-associated decline and mortality. A blood single-cell RNA sequencing dataset for seven supercentenarians (SCs) was recently generated. Here, we generate a reference 28-sample aging cohort to compute a single-cell level aging clock and to determine the biological age of SCs. Our clock model placed the SCs at a blood biological age to between 80"
+   },
+   {
+    "rank": 174,
+    "id": "pmid:32295900",
+    "cited_by": 137,
+    "year": 2020,
+    "journal": "Science translational medicine",
+    "title": "Interleukin 17 and senescent cells regulate the foreign body response to synthetic material implants in mice and humans",
+    "abstract_start": "Medical devices and implants made of synthetic materials can induce an immune-mediated process when implanted in the body called the foreign body response, which results in formation of a fibrous capsule around the implant. To explore the immune and stromal connections underpinning the foreign body response, we analyzed fibrotic capsules surrounding surgically excised human breast implants from 12"
+   },
+   {
+    "rank": 175,
+    "id": "pmid:30787184",
+    "cited_by": 137,
+    "year": 2019,
+    "journal": "The EMBO journal",
+    "title": "ABRO1 promotes NLRP3 inflammasome activation through regulation of NLRP3 deubiquitination",
+    "abstract_start": "Deubiquitination of NLRP3 has been suggested to contribute to inflammasome activation, but the roles and molecular mechanisms are still unclear. We here demonstrate that ABRO1, a subunit of the BRISC deubiquitinase complex, is necessary for optimal NLRP3-ASC complex formation, ASC oligomerization, caspase-1 activation, and IL-1β and IL-18 production upon treatment with NLRP3 ligands after the prim"
+   },
+   {
+    "rank": 176,
+    "id": "pmid:29523787",
+    "cited_by": 137,
+    "year": 2018,
+    "journal": "Nature communications",
+    "title": "Paracrine cellular senescence exacerbates biliary injury and impairs regeneration",
+    "abstract_start": "Cellular senescence is a mechanism that provides an irreversible barrier to cell cycle progression to prevent undesired proliferation. However, under pathological circumstances, senescence can adversely affect organ function, viability and regeneration. We have developed a mouse model of biliary senescence, based on the conditional deletion of Mdm2 in bile ducts under the control of the Krt19 prom"
+   },
+   {
+    "rank": 177,
+    "id": "pmid:36443515",
+    "cited_by": 136,
+    "year": 2023,
+    "journal": "Nature immunology",
+    "title": "Distinct changes in endosomal composition promote NLRP3 inflammasome activation",
+    "abstract_start": "Inflammasome complexes are pivotal in the innate immune response. The NLR family pyrin domain containing protein 3 (NLRP3) inflammasome is activated in response to a broad variety of cellular stressors. However, a primary and converging sensing mechanism by the NLRP3 receptor initiating inflammasome assembly remains ill defined. Here, we demonstrate that NLRP3 inflammasome activators primarily con"
+   },
+   {
+    "rank": 178,
+    "id": "pmid:35024619",
+    "cited_by": 135,
+    "year": 2021,
+    "journal": "Nature aging",
+    "title": "An inducible p21-Cre mouse model to monitor and manipulate p21-highly-expressing senescent cells in vivo",
+    "abstract_start": "The role of senescent cells has been implicated in various tissue dysfunction associated with aging, obesity, and other pathological conditions. Currently, most transgenic mouse models only target p16 Ink4a -highly-expressing ( p16 high ) cells. Here, we generated a p21 -Cre mouse model, containing a p21 promoter driving inducible Cre, enabling us to examine p21 Cip1 -highly-expressing ( p21 high "
+   },
+   {
+    "rank": 179,
+    "id": "pmid:34524838",
+    "cited_by": 133,
+    "year": 2021,
+    "journal": "Science advances",
+    "title": "Sensing low intracellular potassium by NLRP3 results in a stable open structure that promotes inflammasome activation",
+    "abstract_start": "The NLRP3 inflammasome is activated by a wide range of stimuli and drives diverse inflammatory diseases. The decrease of intracellular K + concentration is a minimal upstream signal to most of the NLRP3 activation models. Here, we found that cellular K + efflux induces a stable structural change in the inactive NLRP3, promoting an open conformation as a step preceding activation. This conformation"
+   },
+   {
+    "rank": 180,
+    "id": "pmid:33257563",
+    "cited_by": 133,
+    "year": 2020,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "Cellular proteostasis decline in human senescence",
+    "abstract_start": "Proteostasis collapse, the diminished ability to maintain protein homeostasis, has been established as a hallmark of nematode aging. However, whether proteostasis collapse occurs in humans has remained unclear. Here, we demonstrate that proteostasis decline is intrinsic to human senescence. Using transcriptome-wide characterization of gene expression, splicing, and translation, we found a signific"
+   },
+   {
+    "rank": 181,
+    "id": "pmid:30180270",
+    "cited_by": 133,
+    "year": 2019,
+    "journal": "Hepatology (Baltimore, Md.)",
+    "title": "NLR Family Pyrin Domain-Containing 3 Inflammasome Activation in Hepatic Stellate Cells Induces Liver Fibrosis in Mice",
+    "abstract_start": "The NLR family pyrin domain-containing 3 (NLRP3) inflammasome plays an important role in liver fibrosis (LF) development. However, the mechanisms involved in NLRP3-induced fibrosis are unclear. Our aim was to test the hypothesis that the NLRP3 inflammasome in hepatic stellate cells (HSCs) can directly regulate their activation and contribute to LF. Primary HSCs isolated from wild-type (WT), Nlrp3 "
+   },
+   {
+    "rank": 182,
+    "id": "pmid:37933854",
+    "cited_by": 132,
+    "year": 2024,
+    "journal": "Nucleic acids research",
+    "title": "Human Ageing Genomic Resources: updates on key databases in ageing research",
+    "abstract_start": "Ageing is a complex and multifactorial process. For two decades, the Human Ageing Genomic Resources (HAGR) have aided researchers in the study of various aspects of ageing and its manipulation. Here, we present the key features and recent enhancements of these resources, focusing on its six main databases. One database, GenAge, focuses on genes related to ageing, featuring 307 genes linked to huma"
+   },
+   {
+    "rank": 183,
+    "id": "pmid:28954237",
+    "cited_by": 132,
+    "year": 2017,
+    "journal": "Cell reports",
+    "title": "Controlling Depth of Cellular Quiescence by an Rb-E2F Network Switch",
+    "abstract_start": "Quiescence is a non-proliferative cellular state that is critical to tissue repair and regeneration. Although often described as the G0 phase, quiescence is not a single homogeneous state. As cells remain quiescent for longer durations, they move progressively deeper and display a reduced sensitivity to growth signals. Deep quiescent cells, unlike senescent cells, can still re-enter the cell cycle"
+   },
+   {
+    "rank": 184,
+    "id": "pmid:32843625",
+    "cited_by": 129,
+    "year": 2020,
+    "journal": "Nature communications",
+    "title": "Calcium-sensing receptor-mediated NLRP3 inflammasome response to calciprotein particles drives inflammation in rheumatoid arthritis",
+    "abstract_start": "Increased extracellular Ca 2+ concentrations ([Ca 2+ ] ex ) trigger activation of the NLRP3 inflammasome in monocytes through calcium-sensing receptor (CaSR). To prevent extraosseous calcification in vivo, the serum protein fetuin-A stabilizes calcium and phosphate into 70-100 nm-sized colloidal calciprotein particles (CPPs). Here we show that monocytes engulf CPPs via macropinocytosis, and this p"
+   },
+   {
+    "rank": 185,
+    "id": "pmid:32402278",
+    "cited_by": 129,
+    "year": 2020,
+    "journal": "Cell reports",
+    "title": "Platelets Fuel the Inflammasome Activation of Innate Immune Cells",
+    "abstract_start": "The inflammasomes control the bioactivity of pro-inflammatory cytokines of the interleukin (IL)-1 family. The inflammasome assembled by NLRP3 has been predominantly studied in homogeneous cell populations in vitro, neglecting the influence of cellular interactions that occur in vivo. Here, we show that platelets boost the inflammasome capacity of human macrophages and neutrophils and are critical "
+   },
+   {
+    "rank": 186,
+    "id": "pmid:28847925",
+    "cited_by": 127,
+    "year": 2017,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "<i>NLRP3</i> mutation and cochlear autoinflammation cause syndromic and nonsyndromic hearing loss DFNA34 responsive to anakinra therapy",
+    "abstract_start": "The NLRP3 inflammasome is an intracellular innate immune sensor that is expressed in immune cells, including monocytes and macrophages. Activation of the NLRP3 inflammasome leads to IL-1β secretion. Gain-of-function mutations of NLRP3 result in abnormal activation of the NLRP3 inflammasome, and cause the autosomal dominant systemic autoinflammatory disease spectrum, termed cryopyrin-associated per"
+   },
+   {
+    "rank": 187,
+    "id": "pmid:37019080",
+    "cited_by": 126,
+    "year": 2023,
+    "journal": "Cell metabolism",
+    "title": "Oxylipin-PPARγ-initiated adipocyte senescence propagates secondary senescence in the bone marrow",
+    "abstract_start": "The chronic use of glucocorticoids decreases bone mass and quality and increases bone-marrow adiposity, but the underlying mechanisms remain unclear. Here, we show that bone-marrow adipocyte (BMAd) lineage cells in adult mice undergo rapid cellular senescence upon glucocorticoid treatment. The senescent BMAds acquire a senescence-associated secretory phenotype, which spreads senescence in bone and"
+   },
+   {
+    "rank": 188,
+    "id": "pmid:38604170",
+    "cited_by": 125,
+    "year": 2024,
+    "journal": "Cell metabolism",
+    "title": "Single-cell senescence identification reveals senescence heterogeneity, trajectory, and modulators",
+    "abstract_start": "Cellular senescence underlies many aging-related pathologies, but its heterogeneity poses challenges for studying and targeting senescent cells. We present here a machine learning program senescent cell identification (SenCID), which accurately identifies senescent cells in both bulk and single-cell transcriptome. Trained on 602 samples from 52 senescence transcriptome datasets spanning 30 cell ty"
+   },
+   {
+    "rank": 189,
+    "id": "pmid:32727916",
+    "cited_by": 125,
+    "year": 2020,
+    "journal": "Science translational medicine",
+    "title": "Cellular senescence impairs the reversibility of pulmonary arterial hypertension",
+    "abstract_start": "Pulmonary arterial hypertension (PAH) in congenital cardiac shunts can be reversed by hemodynamic unloading (HU) through shunt closure. However, this reversibility potential is lost beyond a certain point in time. The reason why PAH becomes irreversible is unknown. In this study, we used MCT+shunt-induced PAH in rats to identify a dichotomous reversibility response to HU, similar to the human situ"
+   },
+   {
+    "rank": 190,
+    "id": "pmid:31636214",
+    "cited_by": 125,
+    "year": 2019,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "Graded regulation of cellular quiescence depth between proliferation and senescence by a lysosomal dimmer switch",
+    "abstract_start": "The reactivation of quiescent cells to proliferate is fundamental to tissue repair and homeostasis in the body. Often referred to as the G0 state, quiescence is, however, not a uniform state but with graded depth. Shallow quiescent cells exhibit a higher tendency to revert to proliferation than deep quiescent cells, while deep quiescent cells are still fully reversible under physiological conditio"
+   },
+   {
+    "rank": 191,
+    "id": "pmid:30388107",
+    "cited_by": 125,
+    "year": 2018,
+    "journal": "PLoS biology",
+    "title": "Gasdermin D mediates the pathogenesis of neonatal-onset multisystem inflammatory disease in mice",
+    "abstract_start": "Mutated NLRP3 assembles a hyperactive inflammasome, which causes excessive secretion of interleukin (IL)-1β and IL-18 and, ultimately, a spectrum of autoinflammatory disorders known as cryopyrinopathies of which neonatal-onset multisystem inflammatory disease (NOMID) is the most severe phenotype. NOMID mice phenocopy several features of the human disease as they develop severe systemic inflammatio"
+   },
+   {
+    "rank": 192,
+    "id": "pmid:29262324",
+    "cited_by": 125,
+    "year": 2017,
+    "journal": "Cell reports",
+    "title": "Caspase-1 Engagement and TLR-Induced c-FLIP Expression Suppress ASC/Caspase-8-Dependent Apoptosis by Inflammasome Sensors NLRP1b and NLRC4",
+    "abstract_start": "The caspase activation and recruitment domain (CARD)-based inflammasome sensors NLRP1b and NLRC4 induce caspase-1-dependent pyroptosis independent of the inflammasome adaptor ASC. Here, we show that NLRP1b and NLRC4 trigger caspase-8-mediated apoptosis as an alternative cell death program in caspase-1 -/- macrophages and intestinal epithelial organoids (IECs). The caspase-8 adaptor FADD was recrui"
+   },
+   {
+    "rank": 193,
+    "id": "pmid:27071119",
+    "cited_by": 124,
+    "year": 2016,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "NLRP3 inflammasome plays a redundant role with caspase 8 to promote IL-1β-mediated osteomyelitis",
+    "abstract_start": "Missense mutation in the proline-serine-threonine phosphatase-interacting protein 2 (Pstpip2) gene results in the development of spontaneous chronic bone disease characterized by bone deformity and inflammation that is reminiscent of patients with chronic multifocal osteomyelitis (cmo). Interestingly, this disease is specifically mediated by IL-1β but not IL-1α. The precise molecular pathways that"
+   },
+   {
+    "rank": 194,
+    "id": "pmid:39900648",
+    "cited_by": 123,
+    "year": 2025,
+    "journal": "Nature aging",
+    "title": "Individual and additive effects of vitamin D, omega-3 and exercise on DNA methylation clocks of biological aging in older adults from the DO-HEALTH trial",
+    "abstract_start": "While observational studies and small pilot trials suggest that vitamin D, omega-3 and exercise may slow biological aging, larger clinical trials testing these treatments individually or in combination are lacking. Here, we report the results of a post hoc analysis among 777 participants of the DO-HEALTH trial on the effect of vitamin D (2,000 IU per day) and/or omega-3 (1 g per day) and/or a home"
+   },
+   {
+    "rank": 195,
+    "id": "pmid:30944169",
+    "cited_by": 121,
+    "year": 2019,
+    "journal": "Science translational medicine",
+    "title": "Stress-activated miR-204 governs senescent phenotypes of chondrocytes to promote osteoarthritis development",
+    "abstract_start": "A progressive loss of cartilage matrix leads to the development of osteoarthritis (OA). Matrix homeostasis is disturbed in OA cartilage as the result of reduced production of cartilage-specific matrix and increased secretion of catabolic mediators by chondrocytes. Chondrocyte senescence is a crucial cellular event contributing to such imbalance in matrix metabolism during OA development. Here, we "
+   },
+   {
+    "rank": 196,
+    "id": "pmid:36864206",
+    "cited_by": 120,
+    "year": 2023,
+    "journal": "Nature metabolism",
+    "title": "Lysosomal control of senescence and inflammation through cholesterol partitioning",
+    "abstract_start": "Whereas cholesterol is vital for cell growth, proliferation, and remodeling, dysregulation of cholesterol metabolism is associated with multiple age-related pathologies. Here we show that senescent cells accumulate cholesterol in lysosomes to maintain the senescence-associated secretory phenotype (SASP). We find that induction of cellular senescence by diverse triggers enhances cellular cholestero"
+   },
+   {
+    "rank": 197,
+    "id": "pmid:37616346",
+    "cited_by": 119,
+    "year": 2023,
+    "journal": "Science (New York, N.Y.)",
+    "title": "Aging impairs the neurovascular interface in the heart",
+    "abstract_start": "Aging is a major risk factor for impaired cardiovascular health. Because the aging myocardium is characterized by microcirculatory dysfunction, and because nerves align with vessels, we assessed the impact of aging on the cardiac neurovascular interface. We report that aging reduces nerve density in the ventricle and dysregulates vascular-derived neuroregulatory genes. Aging down-regulates microRN"
+   },
+   {
+    "rank": 198,
+    "id": "pmid:28193858",
+    "cited_by": 119,
+    "year": 2017,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "Senescent cells expose and secrete an oxidized form of membrane-bound vimentin as revealed by a natural polyreactive antibody",
+    "abstract_start": "Studying the phenomenon of cellular senescence has been hindered by the lack of senescence-specific markers. As such, detection of proteins informally associated with senescence accompanies the use of senescence-associated β-galactosidase as a collection of semiselective markers to monitor the presence of senescent cells. To identify novel biomarkers of senescence, we immunized BALB/c mice with se"
+   },
+   {
+    "rank": 199,
+    "id": "pmid:30413620",
+    "cited_by": 118,
+    "year": 2018,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "Klotho controls the brain-immune system interface in the choroid plexus",
+    "abstract_start": "Located within the brain's ventricles, the choroid plexus produces cerebrospinal fluid and forms an important barrier between the central nervous system and the blood. For unknown reasons, the choroid plexus produces high levels of the protein klotho. Here, we show that these levels naturally decline with aging. Depleting klotho selectively from the choroid plexus via targeted viral vector-induced"
+   },
+   {
+    "rank": 200,
+    "id": "pmid:39743592",
+    "cited_by": 117,
+    "year": 2025,
+    "journal": "Nature",
+    "title": "Brain-wide cell-type-specific transcriptomic signatures of healthy ageing in mice",
+    "abstract_start": "Biological ageing can be defined as a gradual loss of homeostasis across various aspects of molecular and cellular function 1,2 . Mammalian brains consist of thousands of cell types 3 , which may be differentially susceptible or resilient to ageing. Here we present a comprehensive single-cell RNA sequencing dataset containing roughly 1.2 million high-quality single-cell transcriptomes of brain cel"
+   },
+   {
+    "rank": 201,
+    "id": "pmid:31553904",
+    "cited_by": 117,
+    "year": 2019,
+    "journal": "Cell reports",
+    "title": "SILAC Analysis Reveals Increased Secretion of Hemostasis-Related Factors by Senescent Cells",
+    "abstract_start": "Cellular senescence irreversibly arrests cell proliferation, accompanied by a multi-component senescence-associated secretory phenotype (SASP) that participates in several age-related diseases. Using stable isotope labeling with amino acids (SILACs) and cultured cells, we identify 343 SASP proteins that senescent human fibroblasts secrete at 2-fold or higher levels compared with quiescent cell cou"
+   },
+   {
+    "rank": 202,
+    "id": "pmid:28096374",
+    "cited_by": 117,
+    "year": 2017,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "Phylogenetic analysis of the human antibody repertoire reveals quantitative signatures of immune senescence and aging",
+    "abstract_start": "The elderly have reduced humoral immunity, as manifested by increased susceptibility to infections and impaired vaccine responses. To investigate the effects of aging on B-cell receptor (BCR) repertoire evolution during an immunological challenge, we used a phylogenetic distance metric to analyze Ig heavy-chain transcript sequences in both young and elderly individuals before and after influenza v"
+   },
+   {
+    "rank": 203,
+    "id": "pmid:39266768",
+    "cited_by": 116,
+    "year": 2024,
+    "journal": "Nature aging",
+    "title": "Aged bone marrow macrophages drive systemic aging and age-related dysfunction via extracellular vesicle-mediated induction of paracrine senescence",
+    "abstract_start": "The accumulation and systemic propagation of senescent cells contributes to physiological aging and age-related pathology. However, which cell types are most susceptible to the aged milieu and could be responsible for the propagation of senescence has remained unclear. Here we found that physiologically aged bone marrow monocytes/macrophages (BMMs) propagate senescence to multiple tissues, through"
+   },
+   {
+    "rank": 204,
+    "id": "pmid:31420376",
+    "cited_by": 116,
+    "year": 2019,
+    "journal": "The Journal of experimental medicine",
+    "title": "The Nlrp6 inflammasome is not required for baseline colonic inner mucus layer formation or function",
+    "abstract_start": "The inner mucus layer (IML) is a critical barrier that protects the colonic epithelium from luminal threats and inflammatory bowel disease. Innate immune signaling is thought to regulate IML formation via goblet cell Nlrp6 inflammasome activity that controls secretion of the mucus structural component Muc2. We report that isolated colonic goblet cells express components of several inflammasomes; h"
+   },
+   {
+    "rank": 205,
+    "id": "pmid:37046083",
+    "cited_by": 115,
+    "year": 2023,
+    "journal": "Nature",
+    "title": "Aberrant activation of TCL1A promotes stem cell expansion in clonal haematopoiesis",
+    "abstract_start": "Mutations in a diverse set of driver genes increase the fitness of haematopoietic stem cells (HSCs), leading to clonal haematopoiesis 1 . These lesions are precursors for blood cancers 2-6 , but the basis of their fitness advantage remains largely unknown, partly owing to a paucity of large cohorts in which the clonal expansion rate has been assessed by longitudinal sampling. Here, to circumvent t"
+   },
+   {
+    "rank": 206,
+    "id": "pmid:30026603",
+    "cited_by": 115,
+    "year": 2018,
+    "journal": "Nature communications",
+    "title": "FoxM1 repression during human aging leads to mitotic decline and aneuploidy-driven full senescence",
+    "abstract_start": "Aneuploidy, an abnormal chromosome number, has been linked to aging and age-associated diseases, but the underlying molecular mechanisms remain unknown. Here we show, through direct live-cell imaging of young, middle-aged, and old-aged primary human dermal fibroblasts, that aneuploidy increases with aging due to general dysfunction of the mitotic machinery. Increased chromosome mis-segregation in "
+   },
+   {
+    "rank": 207,
+    "id": "pmid:34687050",
+    "cited_by": 114,
+    "year": 2022,
+    "journal": "Hepatology (Baltimore, Md.)",
+    "title": "Shear stress-induced cellular senescence blunts liver regeneration through Notch-sirtuin 1-P21/P16 axis",
+    "abstract_start": "The mechanisms involved in liver regeneration after partial hepatectomy (pHx) are complicated. Cellular senescence, once linked to aging, plays a pivotal role in wound repair. However, the regulatory effects of cellular senescence on liver regeneration have not been fully elucidated. Mice subjected to pHx were analyzed 14 days after surgery. The incomplete remodeling of liver sinusoids affected sh"
+   },
+   {
+    "rank": 208,
+    "id": "pmid:33833060",
+    "cited_by": 114,
+    "year": 2021,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "Soluble α-synuclein-antibody complexes activate the NLRP3 inflammasome in hiPSC-derived microglia",
+    "abstract_start": "Parkinson's disease is characterized by accumulation of α-synuclein (αSyn). Release of oligomeric/fibrillar αSyn from damaged neurons may potentiate neuronal death in part via microglial activation. Heretofore, it remained unknown if oligomeric/fibrillar αSyn could activate the nucleotide-binding oligomerization domain (NOD)-like receptor (NLR) family pyrin domain-containing 3 (NLRP3) inflammasome"
+   },
+   {
+    "rank": 209,
+    "id": "pmid:38816549",
+    "cited_by": 113,
+    "year": 2024,
+    "journal": "Nature aging",
+    "title": "SGLT2 inhibition eliminates senescent cells and alleviates pathological aging",
+    "abstract_start": "It has been reported that accumulation of senescent cells in various tissues contributes to pathological aging and that elimination of senescent cells (senolysis) improves age-associated pathologies. Here, we demonstrate that inhibition of sodium-glucose co-transporter 2 (SGLT2) enhances clearance of senescent cells, thereby ameliorating age-associated phenotypic changes. In a mouse model of dieta"
+   },
+   {
+    "rank": 210,
+    "id": "pmid:37084382",
+    "cited_by": 113,
+    "year": 2023,
+    "journal": "Blood",
+    "title": "Spectrum of clonal hematopoiesis in VEXAS syndrome",
+    "abstract_start": "Vacuoles, E1 enzyme, X-linked, autoinflammatory, somatic (VEXAS) syndrome is caused by somatic mutations in UBA1 (UBA1mut) and characterized by heterogenous systemic autoinflammation and progressive hematologic manifestations, meeting criteria for myelodysplastic syndrome (MDS) and plasma cell dyscrasias. The landscape of myeloid-related gene mutations leading to typical clonal hematopoiesis (CH) "
+   },
+   {
+    "rank": 211,
+    "id": "pmid:36746963",
+    "cited_by": 113,
+    "year": 2023,
+    "journal": "Nature communications",
+    "title": "Microbiota-derived acetate enhances host antiviral response via NLRP3",
+    "abstract_start": "Pathogenic viral infections represent a major challenge to human health. Host immune responses to respiratory viruses are closely associated with microbiome and metabolism via the gut-lung axis. It has been known that host defense against influenza A virus (IAV) involves activation of the NLRP3 inflammasome, however, mechanisms behind the protective function of NLRP3 are not fully known. Here we s"
+   },
+   {
+    "rank": 212,
+    "id": "pmid:33758201",
+    "cited_by": 113,
+    "year": 2021,
+    "journal": "Nature communications",
+    "title": "Osteoclasts protect bone blood vessels against senescence through the angiogenin/plexin-B2 axis",
+    "abstract_start": "Synthetic glucocorticoids (GCs), one of the most effective treatments for chronic inflammatory and autoimmune conditions in children, have adverse effects on the growing skeleton. GCs inhibit angiogenesis in growing bone, but the underlying mechanisms remain unclear. Here, we show that GC treatment in young mice induces vascular endothelial cell senescence in metaphysis of long bone, and that inhi"
+   },
+   {
+    "rank": 213,
+    "id": "pmid:36894671",
+    "cited_by": 111,
+    "year": 2023,
+    "journal": "Nature cell biology",
+    "title": "SARS-CoV-2 infection induces DNA damage, through CHK1 degradation and impaired 53BP1 recruitment, and cellular senescence",
+    "abstract_start": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is the RNA virus responsible for the coronavirus disease 2019 (COVID-19) pandemic. Although SARS-CoV-2 was reported to alter several cellular pathways, its impact on DNA integrity and the mechanisms involved remain unknown. Here we show that SARS-CoV-2 causes DNA damage and elicits an altered DNA damage response. Mechanistically, SARS-Co"
+   },
+   {
+    "rank": 214,
+    "id": "pmid:36855161",
+    "cited_by": 111,
+    "year": 2023,
+    "journal": "Genome medicine",
+    "title": "Refining epigenetic prediction of chronological and biological age",
+    "abstract_start": "Epigenetic clocks can track both chronological age (cAge) and biological age (bAge). The latter is typically defined by physiological biomarkers and risk of adverse health outcomes, including all-cause mortality. As cohort sample sizes increase, estimates of cAge and bAge become more precise. Here, we aim to develop accurate epigenetic predictors of cAge and bAge, whilst improving our understandin"
+   },
+   {
+    "rank": 215,
+    "id": "pmid:38583156",
+    "cited_by": 108,
+    "year": 2024,
+    "journal": "Cell reports",
+    "title": "NLRP3 Cys126 palmitoylation by ZDHHC7 promotes inflammasome activation",
+    "abstract_start": "Nucleotide oligomerization domain (NOD)-like receptor protein 3 (NLRP3) inflammasome hyperactivation contributes to many human chronic inflammatory diseases, and understanding how NLRP3 inflammasome is regulated can provide strategies to treat inflammatory diseases. Here, we demonstrate that NLRP3 Cys126 is palmitoylated by zinc finger DHHC-type palmitoyl transferase 7 (ZDHHC7), which is critical "
+   },
+   {
+    "rank": 216,
+    "id": "pmid:33558008",
+    "cited_by": 107,
+    "year": 2021,
+    "journal": "eLife",
+    "title": "An integrative study of five biological clocks in somatic and mental health",
+    "abstract_start": "Biological clocks have been developed at different molecular levels and were found to be more advanced in the presence of somatic illness and mental disorders. However, it is unclear whether different biological clocks reflect similar aging processes and determinants. In ~3000 subjects, we examined whether five biological clocks (telomere length, epigenetic, transcriptomic, proteomic, and metabolo"
+   },
+   {
+    "rank": 217,
+    "id": "pmid:28943296",
+    "cited_by": 107,
+    "year": 2017,
+    "journal": "Journal of hepatology",
+    "title": "IL-33 exacerbates liver sterile inflammation by amplifying neutrophil extracellular trap formation",
+    "abstract_start": "Neutrophils and liver sinusoidal endothelial cells (LSECs) both contribute to sterile inflammatory injury during ischemia/reperfusion (I/R), a well-known liver surgical stress. Interleukin-33 (IL-33) has been shown to drive neutrophil infiltration during inflammatory responses through its receptor ST2. We recently reported that infiltrating neutrophils form neutrophil extracellular traps (NETs), w"
+   },
+   {
+    "rank": 218,
+    "id": "pmid:38956196",
+    "cited_by": 105,
+    "year": 2024,
+    "journal": "Nature medicine",
+    "title": "Effects of intermittent senolytic therapy on bone metabolism in postmenopausal women: a phase 2 randomized controlled trial",
+    "abstract_start": "Preclinical evidence demonstrates that senescent cells accumulate with aging and that senolytics delay multiple age-related morbidities, including bone loss. Thus, we conducted a phase 2 randomized controlled trial of intermittent administration of the senolytic combination dasatinib plus quercetin (D + Q) in postmenopausal women (n = 60 participants). The primary endpoint, percentage changes at 2"
+   },
+   {
+    "rank": 219,
+    "id": "pmid:38838669",
+    "cited_by": 105,
+    "year": 2024,
+    "journal": "Cell",
+    "title": "Clonal hematopoiesis driven by mutated DNMT3A promotes inflammatory bone loss",
+    "abstract_start": "Clonal hematopoiesis of indeterminate potential (CHIP) arises from aging-associated acquired mutations in hematopoietic progenitors, which display clonal expansion and produce phenotypically altered leukocytes. We associated CHIP-DNMT3A mutations with a higher prevalence of periodontitis and gingival inflammation among 4,946 community-dwelling adults. To model DNMT3A-driven CHIP, we used mice with"
+   },
+   {
+    "rank": 220,
+    "id": "pmid:38262419",
+    "cited_by": 105,
+    "year": 2024,
+    "journal": "Immunity",
+    "title": "Type 2 cytokine signaling in macrophages protects from cellular senescence and organismal aging",
+    "abstract_start": "Accumulation of senescent cells in organs and tissues is a hallmark of aging and known to contribute to age-related diseases. Although aging-associated immune dysfunction, or immunosenescence, is known to contribute to this process, the underlying mechanism remains elusive. Here, we report that type 2 cytokine signaling deficiency accelerated aging and, conversely, that the interleukin-4 (IL-4)-ST"
+   }
+  ]
+ }
+}

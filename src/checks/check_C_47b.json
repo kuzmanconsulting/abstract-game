@@ -1,0 +1,38 @@
+{"batch": "check_C_47b", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1095, "id": "pmid:33794144",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Comparison across human populations reveals that industrialized lifestyles are associated with higher HGT rates"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We show that HGTs have accumulated in the microbiome over recent host generations"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "vary across thousands of bacterial strains from 15 human populations spanning a range of industrialization"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Comparison across human populations reveals that industrialized lifestyles are associated with higher HGT rates and that the functions of HGTs are related to the level of host industrialization."}
+    ]},
+   {"n": 1096, "id": "pmid:30250279",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "These circuits are evolved from senescence or floral organ identity pathways in the ancestral angiosperms"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Analysis of the fruitENCODE data consisting of 361 transcriptome, 71 accessible chromatin, 147 histone and 45 DNA methylation profiles reveals three types of transcriptional feedback circuits controlling ethylene-dependent fruit ripening."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "These circuits are evolved from senescence or floral organ identity pathways in the ancestral angiosperms either by neofunctionalisation or repurposing pre-existing genes."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "The epigenome, H3K27me3 in particular, has played a conserved role in restricting ripening genes and their orthologues in dry and ethylene-independent fleshy fruits."}
+    ]},
+   {"n": 1097, "id": "pmid:29317285",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The detected WGDs supported a model of exponential gene loss during evolution with an estimated half-life of approximately 21.6 million years"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "uncovered preferential retention of gene functions in essential cellular metabolisms"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The new datasets and analyses detected many novel WGDs widely spread during angiosperm evolution"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "These analyses confirmed most of the previously reported WGDs and provided strong evidence for novel ones in many lineages."}
+    ]},
+   {"n": 1098, "id": "pmid:29259172",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Whole-genome de novo assembly and annotation of 54 lines of the grass Brachypodium distachyon yield a pan-genome containing nearly twice the number of genes found in any individual genome."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Genes present in all lines are enriched for essential biological functions"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "genes present in only some lines are enriched for conditionally beneficial functions (e.g., defense and development), display faster evolutionary rates"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "display faster evolutionary rates, lie closer to transposable elements"}
+    ]},
+   {"n": 1099, "id": "pmid:28981721",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Analyzing 121 multilocus data sets and four phylogenomic data sets encompassing 4,676 species of animals, we demonstrate that the ratio of mitochondrial over nuclear mutation rate is highly variable among animal taxa."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "the among-phyla homogeneity in within-species mtDNA diversity is due to a negative correlation between mtDNA per-generation mutation rate and effective population size"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "In nonvertebrates, such as insects and arachnids, the ratio of mtDNA over nuDNA mutation rate varies between 2 and 6, whereas it is above 20, on average, in vertebrates such as scaled reptiles and birds."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Finally, we explore the variation in the absolute per-year mutation rate of both mtDNA and nuDNA using a reduced data set for which fossil calibration is available"}
+    ]}
+ ]}

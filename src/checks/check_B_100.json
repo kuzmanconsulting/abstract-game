@@ -1,0 +1,309 @@
+{
+ "batch": "check_B_100",
+ "pass": "B",
+ "prompt_version": "check-v1",
+ "items": [
+  {
+   "n": 1645,
+   "id": "pmid:29930091",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "offer insights into mechanisms involved in the control of key cell-identity genes"
+    },
+    {
+     "j": 2,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "form nuclear puncta at SEs that exhibit properties of liquid-like condensates and are disrupted by chemicals that perturb condensates"
+    },
+    {
+     "j": 3,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "The intrinsically disordered regions (IDRs) of BRD4 and MED1 can form phase-separated droplets, and MED1-IDR droplets can compartmentalize and concentrate the transcription apparatus from nuclear extracts"
+    },
+    {
+     "j": 4,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "the SE-enriched transcriptional coactivators BRD4 and MED1 form nuclear puncta at SEs that exhibit properties of liquid-like condensates"
+    }
+   ]
+  },
+  {
+   "n": 1646,
+   "id": "pmid:28636597",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "reduced diffusion, increased coordinated movement and inert probe exclusion at the domain boundary"
+    },
+    {
+     "j": 2,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "Drosophila HP1a protein undergoes liquid-liquid demixing in vitro, and nucleates into foci that display liquid properties during the first stages of heterochromatin domain formation in early Drosophila embryos"
+    },
+    {
+     "j": 3,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "silencing of transposon and gene expression"
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "We conclude that heterochromatic domains form via phase separation, and mature into a structure that includes liquid and stable compartments"
+    }
+   ]
+  },
+  {
+   "n": 1647,
+   "id": "pmid:28636604",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "Here we identify a new property of the human HP1α protein: the ability to form phase-separated droplets"
+    },
+    {
+     "j": 2,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "which are dissolved or formed by specific ligands on the basis of nuclear context"
+    },
+    {
+     "j": 3,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "Known components of heterochromatin such as nucleosomes and DNA preferentially partition into the HP1α droplets, but molecules such as the transcription factor TFIIB show no preference"
+    },
+    {
+     "j": 4,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "While unmodified HP1α is soluble, either phosphorylation of its N-terminal extension or DNA binding promotes the formation of phase-separated droplets"
+    }
+   ]
+  },
+  {
+   "n": 1648,
+   "id": "pmid:31784727",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "we applied it to test >3,500 potential enhancer-gene connections for 30 genes"
+    },
+    {
+     "j": 2,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "a simple activity-by-contact model substantially outperformed previous methods at predicting the complex connections in our CRISPR dataset"
+    },
+    {
+     "j": 3,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "This activity-by-contact model allows us to construct genome-wide maps of enhancer-gene connections in a given cell type, on the basis of chromatin state measurements"
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "This activity-by-contact model allows us to construct genome-wide maps of enhancer-gene connections in a given cell type, on the basis of chromatin state measurements"
+    }
+   ]
+  },
+  {
+   "n": 1649,
+   "id": "pmid:31543265",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "supported",
+     "confidence": 2,
+     "evidence": "In the presence of multi-bromodomain proteins, such as BRD4, highly acetylated chromatin forms a new phase-separated state with droplets of distinct physical properties, which can be immiscible with unmodified chromatin droplets"
+    },
+    {
+     "j": 2,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "Linker histone H1 and internucleosome linker lengths shared across eukaryotes promote phase separation of chromatin"
+    },
+    {
+     "j": 3,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "reconstituted chromatin undergoes histone tail-driven liquid-liquid phase separation (LLPS) in physiologic salt and when microinjected into cell nuclei, producing dense and dynamic droplets"
+    },
+    {
+     "j": 4,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "Histone acetylation by p300 antagonizes chromatin phase separation, dissolving droplets in vitro and decreasing droplet formation in nuclei"
+    }
+   ]
+  },
+  {
+   "n": 1650,
+   "id": "pmid:29022598",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "identify seven genes that escape XCI with support from multiple lines of evidence"
+    },
+    {
+     "j": 2,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "incomplete XCI affects at least 23% of X-chromosomal genes"
+    },
+    {
+     "j": 3,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "We show that XCI at 683 X-chromosomal genes is generally uniform across human tissues, but identify examples of heterogeneity between tissues, individuals and cells"
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 2,
+     "evidence": "integrating over 5,500 transcriptomes from 449 individuals spanning 29 tissues from GTEx (v6p release) and 940 single-cell transcriptomes",
+     "flag": "ambiguous",
+     "reason": "The 5,500 transcriptomes are called 'bulk' only by implication from the separately listed 940 single-cell transcriptomes; the abstract does not use the word."
+    }
+   ]
+  },
+  {
+   "n": 1651,
+   "id": "pmid:29335486",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "while most active boundaries contain the motifs bound by the M1BP or Beaf-32 proteins"
+    },
+    {
+     "j": 2,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "the CTCF motif is only enriched on a small fraction of boundaries flanking inactive chromatin"
+    },
+    {
+     "j": 3,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "to annotate >2800 high-resolution (570 bp) TAD boundaries in Drosophila melanogaster"
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "We identify eight DNA motifs enriched at boundaries, including a motif bound by the M1BP protein, and two new boundary motifs"
+    }
+   ]
+  },
+  {
+   "n": 1652,
+   "id": "pmid:29224777",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "Deletion of YY1 binding sites or depletion of YY1 protein disrupts enhancer-promoter looping and gene expression"
+    },
+    {
+     "j": 2,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "YY1-mediated enhancer-promoter interactions are a general feature of mammalian gene control"
+    },
+    {
+     "j": 3,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "YY1 binds to active enhancers and promoter-proximal elements and forms dimers that facilitate the interaction of these DNA elements"
+    },
+    {
+     "j": 4,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "Large DNA loops that encompass genes and their regulatory elements depend on CTCF-CTCF interactions, but most enhancer-promoter interactions do not employ this structural protein"
+    }
+   ]
+  },
+  {
+   "n": 1653,
+   "id": "pmid:31753851",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "During loop formation, cohesin and NIPBL-MAU2 reside at the base of loops, which indicates that they generate loops by extrusion"
+    },
+    {
+     "j": 2,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "we found that single human cohesin complexes form DNA loops symmetrically at rates up to 2.1 kilo-base pairs per second"
+    },
+    {
+     "j": 3,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "Such an activity has been observed for condensin, which forms loops in mitosis, but not for cohesin"
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "Loop formation and maintenance depend on cohesin's ATPase activity and on NIPBL-MAU2, but not on topological entrapment of DNA by cohesin"
+    }
+   ]
+  },
+  {
+   "n": 1654,
+   "id": "pmid:29217591",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "cohesin suppresses compartments but is required for TADs and loops, that CTCF defines their boundaries"
+    },
+    {
+     "j": 2,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "the cohesin unloading factor WAPL and its PDS5 binding partners control the length of loops"
+    },
+    {
+     "j": 3,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "In the absence of WAPL and PDS5 proteins, cohesin forms extended loops, presumably by passing CTCF sites, accumulates in axial chromosomal positions (vermicelli), and condenses chromosomes"
+    },
+    {
+     "j": 4,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "cohesin has an essential genome-wide function in mediating long-range chromatin interactions"
+    }
+   ]
+  }
+ ]
+}

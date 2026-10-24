@@ -1,0 +1,87 @@
+{"batch": "check_C_15b", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+   {"n": 537, "id": "pmid:40156647",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "low WTAP expression correlated with improved survival in skin cutaneous melanoma (SKCM) and thymoma (THYM)."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "High WTAP expression was significantly associated with poor prognosis in adrenocortical carcinoma (ACC), brain lower-grade glioma (LGG), liver hepatocellular carcinoma (LIHC), and ovarian serous cystadenocarcinoma (OV)."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "GSEA indicated that WTAP predominantly contributes to cell cycle regulation, thereby promoting tumorigenesis."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "WTAP expression demonstrated a positive correlation with immune cell infiltration, including B cells, CD4 + T cells, CD8 + T cells, dendritic cells, macrophages, and neutrophils."}
+    ]},
+   {"n": 538, "id": "pmid:41222766",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Using expression profile data from the GEO and TCGA databases, the study analyzed the differential expression of 5mC-related genes"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Prognosis-related risk genes, such as DNMT1 and TET2, were identified as predictors of survival outcomes in HNSCC patients."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Different 5mC methylation regulation patterns showed variations in immune infiltration, immune checkpoint expression, tumor mutation burden, and cancer stem cell gene set expression"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Several 5mC regulatory factors were found to be abnormally expressed in HNSCC, with a significant association with somatic mutations."}
+    ]},
+   {"n": 539, "id": "doi:10.1101/2025.08.05.668479",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "fragment size distributions in mutant cells mimics the hypofragmented profiles previously observed in plasma samples from p.R206C carriers"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "in vitro treatment of hypofragmented cfDNA with recombinant wildtype DNASE1L3 could enrich for mononucleosomal fragments, with fragment end-motifs characteristic of DNASE1L3 cleavage activity"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "This could open avenues for DNASE1L3 as a candidate pre-treatment agent to improve the accuracy and efficiency of cfDNA sequencing-based diagnostics in hypofragmented liquid biopsies."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we developed an isogenic HEK293T cell line model by using CRISPR Prime Editing for endogenous expression of DNASE1L3 R206C"}
+    ]},
+   {"n": 540, "id": "pmid:37267947",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Tn7-like transposons employ multiple mechanisms for target-site selection, including protein-guided targeting and, in CRISPR-associated transposons (CASTs), RNA-guided targeting."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "we identified a non-Tn7 transposon, Tsy, encoding a homolog of TnsF with an active tyrosine recombinase domain, which we show also inserts into comM"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "we conducted a broad survey of target selectors, revealing diverse mechanisms used by Tn7 to recognize target sites, including previously uncharacterized target-selector proteins found in newly discovered transposable elements (TEs)"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "a Tn6022-like transposon that uses TnsF, which contains an inactivated tyrosine recombinase domain, to target the comM gene"}
+    ]},
+   {"n": 541, "id": "doi:10.64898/2026.05.21.725073",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Functional experiments identify IGFBP6 as a pro-proliferative factor in AK-derived keratinocytes."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "identifying candidate targets for prevention or treatment of squamous cell carcinoma"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We identify AK-specific keratinocytes (ASK), a discrete population localized to the dysplastic basal epidermis and characterized by UV-associated mutational signatures (SBS7b), high mutational burden, and recurrent copy number alterations including 9p loss and 8q gain."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "ASK share core tumor-propagating gene networks with tumor-specific keratinocytes (TSK), including IGFBP6, IGFBP2, and ITGA6, but lack invasion effectors MMP1, MMP10, and PTHLH."}
+    ]},
+   {"n": 542, "id": "pmid:41318499",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The diversity of the bacteria was less within tumor tissues and anaerobic bacteria and periodontopathogens (e.g., Dialister pneumosintes and Prevotella intermedia) were more prevalent in tumor tissues."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "We found significant differences in bacterial profiles between tumors and adjacent normal tissues."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "tumor mutation burden was positively correlated with the α diversity of the intratumoral bacteria in OSCC patients"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "the presence of Dialister pneumosintes within tumor tissues is associated with poorer short-term disease-free survival in OSCC patients"}
+    ]},
+   {"n": 543, "id": "pmid:39536081",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "when an RNAi-loss isolate was crossed with an isolate containing a high Cnl1 burden, F1 hypermutator progeny inheriting a high transposon burden were identified"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Remarkably, several RNAi-loss isolates were identified that are not hypermutators and have not accumulated transposons."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "RNAi loss is relatively common (7/387, ~1.8%)"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "the mutations were introduced into a nonhypermutator strain with a high transposon burden, which resulted in a hypermutator phenotype"}
+    ]},
+   {"n": 544, "id": "pmid:42114450",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "This model predicts survival outcomes in two independent cohorts of HCC patients (TCGA cohort, N = 177; Rome cohort, N78)"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "is associated with distinctive immunogenomic features"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We have identified a Wnt/β-catenin-related transcriptional signature denoting pathway activity regardless of the presence of pathway-related activating mutations."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "A non-genetic state recapitulating the transcriptional footprint associated with CTNNB1 mutation identifies wild-type HCCs characterized by unfavorable survival outcomes and immune-excluded tumor immune microenvironment."}
+    ]},
+   {"n": 545, "id": "pmid:40925715",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Application of a machine-learning model trained and tested on an independent cohort of 306 cases and controls increased the sensitivity of detection to 27 of 28 cases (overall sensitivity 96%) and the maximum lead time to 10.3 years."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Early detection of HPV-associated oropharyngeal squamous cell carcinoma, the most common HPV cancer in the United States"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Diagnostic accuracy was highest within 4 years of cancer diagnosis and was higher than HPV Ab detection within the same timeframe (P = .004).", "flag": "ill_formed", "reason": "The statement is ungrammatical ('fewer accurate' for 'less accurate'), though its direction is clear and opposite to the abstract."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "HPV ctDNA results were positive in 22 of 28 prediagnostic samples from HPV-associated oropharyngeal squamous cell carcinoma cases (sensitivity 79%)"}
+    ]},
+   {"n": 546, "id": "doi:10.64898/2026.07.06.736874",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "selective catalytic inhibition of METTL3 with STM2457 lowers global m6A and is sufficient to induce a senescence-like inflammatory state in human HMC3 microglia"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "is sufficient to induce a senescence-like inflammatory state in human HMC3 microglia"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "This state includes increased senescence-associated β-galactosidase activity, elongated cellular morphology, reduced proliferation, Lamin B1 loss, and remodeling of nuclear architecture."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Rather than causing broad transposable-element derepression, m6A inhibition promoted cytoplasmic double-stranded RNA accumulation and a selective HERVK-associated response."}
+    ]},
+   {"n": 547, "id": "doi:10.1101/2024.11.18.624187",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "We found that activating histone modifications are quickly lost in duplicate genes before gradually increasing in enrichment as paralogs age."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "For the repressive modification H3K9me3, we found it was enriched in the youngest paralogs, and that this enrichment was likely mediated by heterochromatin spread from transposable elements."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "while we found no significant link between enrichment for the repressive mark H3K9me3 and triplosensitivity in human paralogs, we did find a significant association between triplosensitivity and transposon proximity"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "investigating the epigenetic landscape of duplicate genes in D. discoideum"}
+    ]},
+   {"n": 548, "id": "pmid:41543195",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "positions CDK1 inhibition as a promising therapeutic strategy"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "CDK1 was significantly upregulated in glioma tissues compared with normal controls, with expression levels escalating with tumor grade"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "CDK1 knockdown attenuated glioma cell proliferation, migration and invasion, while enhancing apoptosis and radiosensitivity."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "High CDK1 expression correlated with a reduced overall survival and served as an independent prognostic marker."}
+    ]}
+ ]}

@@ -1,0 +1,107 @@
+{
+ "batch": "gen_103",
+ "prompt_version": "gen-v5",
+ "flip_rule": "first-of-any-v3",
+ "items": [
+  {
+   "n": 1675,
+   "id": "pmid:29272704",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "FOS/JUN, also called AP-1, are broadly expressed growth-factor-inducible transcription factors with a central role in choosing which enhancers cells use.", "evidence": "the broadly expressed, growth-factor-inducible TFs FOS/JUN (AP-1) play a central role in enhancer selection.", "note": "The abstract names FOS/JUN (AP-1) as broadly expressed, growth-factor-inducible factors central to enhancer selection."},
+    {"k": 2, "label": "not_addressed", "text": "The same FOS/JUN and BAF mechanism selects enhancers in neurons just as it does in fibroblasts.", "evidence": "We used a genetic approach to identify transcription factors (TFs) required for enhancer selection in fibroblasts.", "note": "The study examined only fibroblasts and never extends the mechanism to neurons."},
+    {"k": 3, "label": "supported", "text": "To differentiate, cells pick out the thousands of active enhancers they need from roughly a million enhancers encoded across the genome.", "evidence": "select from among the ∼10 6 enhancers encoded in the genome the thousands of enhancers that drive the gene programs that impart their distinct features", "note": "The abstract says cells select thousands of enhancers from the roughly one million encoded genome-wide."},
+    {"k": 4, "label": "supported", "text": "FOS/JUN bind nucleosomal enhancers with cell-type-specific factors and recruit the SWI/SNF (BAF) complex, which increases chromatin accessibility.", "evidence": "collaboratively binding to nucleosomal enhancers and recruiting the SWI/SNF (BAF) chromatin remodeling complex to establish accessible chromatin.", "note": "The abstract describes FOS/JUN recruiting BAF to nucleosomal enhancers to establish accessible chromatin."}
+   ]
+  },
+  {
+   "n": 1676,
+   "id": "pmid:28562591",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "In differentiating neurons, ACSS2 builds up in the nucleus at upregulated genes near sites of strong histone acetylation.", "evidence": "ACSS2 increases in the nuclei of differentiating neurons and localizes to upregulated neuronal genes near sites of elevated histone acetylation.", "note": "The abstract reports ACSS2 accumulating in nuclei at upregulated genes near elevated histone acetylation."},
+    {"k": 2, "label": "supported", "text": "Cutting ACSS2 levels lowered nuclear acetyl-CoA, histone acetylation, and the stimulus-driven expression of the neuronal gene cohort.", "evidence": "A decrease in ACSS2 lowers nuclear acetyl-CoA levels, histone acetylation, and responsive expression of the cohort of neuronal genes.", "note": "The abstract states lowering ACSS2 reduces acetyl-CoA, histone acetylation, and responsive neuronal gene expression."},
+    {"k": 3, "label": "not_addressed", "text": "Boosting ACSS2 activity reverses age-related memory decline in mice.", "evidence": "attenuation of hippocampal ACSS2 expression impairs long-term spatial memory, a cognitive process that relies on histone acetylation.", "note": "The study only lowers ACSS2 and never tests raising it or any effect on aging."},
+    {"k": 4, "label": "supported", "text": "In adult mice, knocking down hippocampal ACSS2 impaired long-term spatial memory, which depends on histone acetylation.", "evidence": "attenuation of hippocampal ACSS2 expression impairs long-term spatial memory, a cognitive process that relies on histone acetylation.", "note": "The abstract reports that reducing hippocampal ACSS2 impairs long-term spatial memory."}
+   ]
+  },
+  {
+   "n": 1677,
+   "id": "pmid:30038397",
+   "statements": [
+    {"k": 1, "label": "not_addressed", "text": "Enhancer-promoter looping at this locus relies on the cohesin complex.", "evidence": "We show that sustained proximity of the enhancer to its target is required for activation.", "note": "The abstract shows proximity is needed for activation but never identifies cohesin or any factor mediating the interaction."},
+    {"k": 2, "label": "supported", "text": "The study resolved three distinct topological conformations at the locus and measured how quickly it transitions between them.", "evidence": "we identify three distinct topological conformation states and measure their transition kinetics.", "note": "The abstract reports three topological conformation states with measured transition kinetics."},
+    {"k": 3, "label": "supported", "text": "Transcription feeds back on topology, as it enhances the temporal stability of the proximal conformation and coincides with further spatial compaction.", "evidence": "it enhances the temporal stability of the proximal conformation and is associated with further spatial compaction.", "note": "The abstract states transcription enhances the stability of the proximal conformation and is linked to further compaction."},
+    {"k": 4, "label": "supported", "text": "The reporter switched on only when the enhancer stayed close to its target promoter for a sustained period.", "evidence": "We show that sustained proximity of the enhancer to its target is required for activation.", "note": "The abstract states sustained enhancer-target proximity is required for activation."}
+   ]
+  },
+  {
+   "n": 1678,
+   "id": "pmid:31905366",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "By shielding cohesin from loop release, CTCF promotes the formation of chromatin loops.", "evidence": "CTCF enables the formation of chromatin loops by protecting cohesin against loop release.", "note": "The abstract concludes CTCF enables chromatin-loop formation by protecting cohesin against loop release."},
+    {"k": 2, "label": "supported", "text": "A 2.7 Å crystal structure of the SA2-SCC1 subunits bound to CTCF revealed the molecular basis of their interaction.", "evidence": "We report a crystal structure of SA2-SCC1 in complex with CTCF at a resolution of 2.7 Å, which reveals the molecular basis of the interaction.", "note": "The abstract reports a 2.7 Å crystal structure of SA2-SCC1 bound to CTCF."},
+    {"k": 3, "label": "supported", "text": "A segment in the CTCF N terminus makes contact with the SA2-SCC1 subunits of human cohesin.", "evidence": "a segment within the CTCF N terminus interacts with the SA2-SCC1 subunits of human cohesin.", "note": "The abstract shows a CTCF N-terminal segment interacts with the SA2-SCC1 cohesin subunits."},
+    {"k": 4, "label": "not_addressed", "text": "The CTCF-cohesin interaction is disrupted in cancers with chromosomal instability.", "evidence": "These results provide fundamental insights into the molecular mechanism that enables the dynamic regulation of chromatin folding by cohesin and CTCF.", "note": "The abstract is structural and mechanistic and never discusses disease or cancer."}
+   ]
+  },
+  {
+   "n": 1679,
+   "id": "pmid:28424523",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "Without CTCF, cohesin is misrouted away from CTCF sites and gathers at the transcription start sites of active genes.", "evidence": "cohesin cannot be properly recruited to CTCF sites but instead accumulates at transcription start sites of active genes", "note": "The abstract reports that in CTCF-depleted cells cohesin accumulates at transcription start sites instead of CTCF sites."},
+    {"k": 2, "label": "supported", "text": "Altering gene expression shifts where these 'cohesin islands' sit along the genome.", "evidence": "Changing gene expression modulates the position of these 'cohesin islands'.", "note": "The abstract states changing gene expression repositions the cohesin islands."},
+    {"k": 3, "label": "supported", "text": "Loss of both CTCF and Wapl lets cohesin build up in regions as long as 70 kilobases at the 3' ends of active genes.", "evidence": "In the absence of both CTCF and Wapl, cohesin accumulates in up to 70 kilobase-long regions at 3'-ends of active genes", "note": "The abstract reports cohesin accumulating in up to 70-kilobase regions at 3' ends when both CTCF and Wapl are absent."},
+    {"k": 4, "label": "not_addressed", "text": "Cohesin islands at convergent gene 3' ends interfere with transcription termination.", "evidence": "cohesin accumulates in up to 70 kilobase-long regions at 3'-ends of active genes, in particular if these converge on each other", "note": "The abstract reports where islands form but never addresses any effect on transcription termination."}
+   ]
+  },
+  {
+   "n": 1680,
+   "id": "pmid:30146161",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "By blocking transcription termination, the IAV NS1 protein triggers readthrough transcription extending for hundreds of kilobases past gene ends.", "evidence": "global inhibition of transcription termination by IAV NS1 protein causes readthrough transcription for hundreds of kilobases.", "note": "The abstract states NS1-driven termination inhibition causes readthrough transcription for hundreds of kilobases."},
+    {"k": 2, "label": "not_addressed", "text": "IAV readthrough transcription permanently alters the host epigenome after the infection clears.", "evidence": "during influenza A (IAV) infection, rampant transcription rapidly reorganizes host cell chromatin interactions.", "note": "The abstract describes changes during infection but never addresses whether they persist afterward."},
+    {"k": 3, "label": "supported", "text": "When elongation is blocked, cohesin instead builds up at intragenic CTCF sites and promotes chromatin looping and compaction.", "evidence": "inhibition of transcription elongation allows cohesin to accumulate at previously transcribed intragenic CTCF sites and to mediate chromatin looping and compaction.", "note": "The abstract reports that blocking elongation lets cohesin accumulate at intragenic CTCF sites and mediate looping and compaction."},
+    {"k": 4, "label": "supported", "text": "In readthrough regions, elongating RNA polymerase II displaces cohesin from CTCF sites, disrupting chromatin interactions and decompacting the locus.", "evidence": "elongating RNA polymerase II disrupts chromatin interactions by inducing cohesin displacement from CTCF sites, leading to locus decompaction.", "note": "The abstract reports elongating Pol II displaces cohesin from CTCF sites, disrupting interactions and decompacting the locus."}
+   ]
+  },
+  {
+   "n": 1681,
+   "id": "pmid:30867594",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "The H3K4me3Q5ser mark appears across mammalian tissues, with the strongest presence in brain and gut.", "evidence": "H3K4me3Q5ser displays a ubiquitous pattern of tissue expression in mammals, with enrichment observed in brain and gut", "note": "The abstract reports ubiquitous H3K4me3Q5ser expression with enrichment in brain and gut."},
+    {"k": 2, "label": "supported", "text": "H3K4me3Q5ser nucleosomes are enriched in euchromatin, respond to differentiation, and track with permissive gene expression.", "evidence": "H3K4me3Q5ser nucleosomes are enriched in euchromatin, are sensitive to cellular differentiation and correlate with permissive gene expression", "note": "The abstract reports H3K4me3Q5ser nucleosomes enriched in euchromatin and correlating with permissive expression."},
+    {"k": 3, "label": "not_addressed", "text": "Serotonin reuptake inhibitors raise H3Q5ser levels in the brains of patients with depression.", "evidence": "these data identify a direct role for 5-HT, independent from its contributions to neurotransmission and cellular signalling, in the mediation of permissive gene expression.", "note": "The abstract defines a chromatin role for serotonin but never addresses SSRIs, depression, or patients."},
+    {"k": 4, "label": "supported", "text": "Tissue transglutaminase 2 adds serotonin to H3K4me3-marked nucleosomes, producing the combinatorial mark H3K4me3Q5ser in vivo.", "evidence": "tissue transglutaminase 2 can serotonylate histone H3 tri-methylated lysine 4 (H3K4me3)-marked nucleosomes, resulting in the presence of combinatorial H3K4me3Q5ser in vivo.", "note": "The abstract reports transglutaminase 2 serotonylating H3K4me3 nucleosomes to form H3K4me3Q5ser in vivo."}
+   ]
+  },
+  {
+   "n": 1682,
+   "id": "pmid:35418676",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "Across hundreds of cell lines, an enhancer's transcriptional effect depended on its contact probability with the promoter in a nonlinear way.", "evidence": "A quantitative analysis of hundreds of cell lines reveals that the transcriptional effect of an enhancer depends on its contact probabilities with the promoter through a nonlinear relationship.", "note": "The abstract reports a nonlinear dependence of enhancer effect on contact probability across hundreds of cell lines."},
+    {"k": 2, "label": "supported", "text": "Enhancer strength set not only absolute transcription levels but also how readily a promoter could be insulated by CTCF.", "evidence": "enhancer strength also determines absolute transcription levels as well as the sensitivity of a promoter to CTCF-mediated transcriptional insulation.", "note": "The abstract states enhancer strength determines absolute transcription levels and sensitivity to CTCF insulation."},
+    {"k": 3, "label": "not_addressed", "text": "The nonlinear enhancer-promoter relationship is conserved between mammals and Drosophila.", "evidence": "Chromosome structure in mammals is thought to regulate transcription by modulating three-dimensional interactions between enhancers and promoters", "note": "The study concerns mammalian cells only and never compares other species."},
+    {"k": 4, "label": "supported", "text": "Modelling proposed that transient enhancer-promoter contacts are translated into slower promoter bursting within individual cells.", "evidence": "transient enhancer-promoter interactions being translated into slower promoter bursting dynamics in individual cells", "note": "The abstract's modelling links transient enhancer-promoter contacts to slower promoter bursting in single cells."}
+   ]
+  },
+  {
+   "n": 1683,
+   "id": "pmid:36471071",
+   "statements": [
+    {"k": 1, "label": "not_addressed", "text": "A longer cohesin depletion of 24 hours would abolish enhancer-promoter interactions.", "evidence": "enhancer-promoter (E-P) interactions are largely insensitive to acute (3-h) depletion of CTCF, cohesin or WAPL.", "note": "The study tested only acute 3-hour depletion and never examined longer depletion times."},
+    {"k": 2, "label": "supported", "text": "Live-cell single-molecule imaging showed that depleting cohesin reduced transcription factor binding to chromatin.", "evidence": "live-cell, single-molecule imaging revealed that cohesin depletion reduced transcription factor (TF) binding to chromatin.", "note": "The abstract reports that cohesin depletion reduced TF binding, seen by single-molecule imaging."},
+    {"k": 3, "label": "supported", "text": "A brief 3-hour depletion of CTCF, cohesin, or WAPL left enhancer-promoter interactions largely unchanged.", "evidence": "enhancer-promoter (E-P) interactions are largely insensitive to acute (3-h) depletion of CTCF, cohesin or WAPL.", "note": "The abstract reports E-P interactions largely insensitive to acute 3-hour depletion of CTCF, cohesin, or WAPL."},
+    {"k": 4, "label": "supported", "text": "Acute removal of YY1 also had minimal impact on enhancer-promoter loops, transcription, and 3D genome folding.", "evidence": "acute YY1 depletion also had minimal effects on E-P loops, transcription and 3D genome folding.", "note": "The abstract reports acute YY1 depletion had minimal effects on E-P loops, transcription, and folding."}
+   ]
+  },
+  {
+   "n": 1684,
+   "id": "pmid:28723896",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "Stripping away H3K27me3 from these normally paternally expressed genes switched on expression from the maternal allele.", "evidence": "these genes are paternally expressed in preimplantation embryos, and ectopic removal of H3K27me3 induces maternal allele expression.", "note": "The abstract states removing H3K27me3 induces expression from the maternal allele of these paternally expressed genes."},
+    {"k": 2, "label": "supported", "text": "H3K27me3-based imprinting was largely lost in the embryonic lineage, yet five genes kept their imprinted expression in the extra-embryonic lineage.", "evidence": "H3K27me3-dependent imprinting is largely lost in the embryonic cell lineage, but at least five genes maintain their imprinted expression in the extra-embryonic cell lineage.", "note": "The abstract reports imprinting largely lost in the embryonic lineage but maintained for at least five genes extra-embryonically."},
+    {"k": 3, "label": "supported", "text": "Combining DNA methylome and H3K27me3 data pinpointed 76 genes with paternal-allele DHS that lack DNA methylation yet carry maternal-allele H3K27me3.", "evidence": "identify 76 genes with paternal allele-specific DNase I hypersensitive sites that are devoid of DNA methylation but harbour maternal allele-specific H3K27me3.", "note": "The abstract identifies 76 genes with paternal-allele DHS lacking methylation but carrying maternal-allele H3K27me3."},
+    {"k": 4, "label": "not_addressed", "text": "The same H3K27me3-dependent imprinting operates in human preimplantation embryos.", "evidence": "Here we profile parental allele-specific DNase I hypersensitive sites in mouse zygotes and morula embryos", "note": "The study was carried out in mouse embryos and never examines human embryos."}
+   ]
+  }
+ ]
+}

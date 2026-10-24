@@ -1,0 +1,108 @@
+{"batch": "check_B_42", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1015, "id": "pmid:29056344",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We present an extensive assessment of mutation burden through sequencing analysis of >81,000 tumors from pediatric and adult patients"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "The order of mutational signatures identified previous treatment and germline replication repair deficiency, which improved management of patients and families."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Replication repair deficiency was a major contributing factor."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Hypermutation was detected in tumor types not previously associated with high mutation burden."}
+    ]},
+   {"n": 1016, "id": "pmid:26928463",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Men with somatic aberrations in FA-complex genes or in ATM serine/threonine kinase (ATM) exhibited significantly longer treatment-response durations to carboplatin than did men without defects in genes encoding DNA-repair proteins."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "In contrast to the substantial heterogeneity between men, there was limited diversity among metastases within an individual."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "evaluating a single metastasis provides a reasonable assessment of the major oncogenic driver alterations that are present in disseminated tumors within an individual"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "AR activity was inversely associated with cell proliferation"}
+    ]},
+   {"n": 1017, "id": "pmid:27270107",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The analysis shows a highly branched evolutionary pattern in which 63% of patients experience expression-based subtype changes."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "We find that 11% of recurrence tumors harbor mutations in LTBP4, which encodes a protein binding to TGF-β."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Silencing LTBP4 in GBM cells leads to suppression of TGF-β activity and decreased cell proliferation."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "In recurrent GBM with wild-type IDH1, high LTBP4 expression is associated with worse prognosis"}
+    ]},
+   {"n": 1018, "id": "pmid:28991255",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Several CNAs recurrently observed in primary tumors gradually disappeared in PDXs"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Notably, the genomic stability of PDXs was associated with their response to chemotherapy and targeted drugs."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Here we monitored the dynamics of copy number alterations (CNAs) in 1,110 PDX samples across 24 cancer types. We observed rapid accumulation of CNAs during PDX passaging, often due to selection of preexisting minor clones."},
+      {"j": 4, "label": "contradicted", "confidence": 2, "evidence": "However, the particular CNAs acquired during PDX passaging differed from those acquired during tumor evolution in patients. Several CNAs recurrently observed in primary tumors gradually disappeared in PDXs", "flag": "ambiguous", "reason": "The abstract compares CNAs acquired (not lost) during passaging with patient-acquired CNAs, and describes the lost CNAs as ones recurrent in primary tumors, so the conflict with the statement is real but indirect."}
+    ]},
+   {"n": 1019, "id": "pmid:27064257",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Here we provide a whole-genome landscape of somatic alterations in 300 liver cancers from Japanese individuals. Our comprehensive analysis identified point mutations, structural variations (STVs), and virus integrations, in noncoding and coding regions."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "recurrently mutated coding and noncoding regions, such as long intergenic noncoding RNA genes (NEAT1 and MALAT1)"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Our comprehensive analysis identified point mutations, structural variations (STVs), and virus integrations, in noncoding and coding regions."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "STV analysis found a significant association with replication timing and identified known (CDKN2A, CCND1, APC, and TERT) and new (ASH1L, NCOR1, and MACROD2) cancer-related genes that were recurrently affected by STVs, leading to altered expression."}
+    ]},
+   {"n": 1020, "id": "pmid:31118521",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Among the gene alterations that were enriched in HR + /HER2 - metastatic breast cancers, mutations in TP53, RB1 and NF1, together with S10, S13 and S17, were associated with poor outcome."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Metastatic triple-negative breast cancers showed an increase in the frequency of somatic biallelic loss-of-function mutations in genes related to homologous recombination DNA repair, compared to early triple-negative breast cancers (7% versus 2%)."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Nine driver genes (TP53, ESR1, GATA3, KMT2C, NCOR1, AKT1, NF1, RIC8A and RB1) were more frequently mutated in metastatic breast cancers that expressed hormone receptors"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Finally, metastatic breast cancers showed an increase in mutational burden and clonal diversity compared to early breast cancers."}
+    ]},
+   {"n": 1021, "id": "pmid:30224644",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "we developed a statistical model that describes the TP53 mutational spectrum as a function of the baseline probability of acquiring each mutation and the fitness advantage conferred by attenuation of p53 activity"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "We found that loss or dominant-negative inhibition of wild-type p53 function reliably enhanced cellular fitness."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We found that loss or dominant-negative inhibition of wild-type p53 function reliably enhanced cellular fitness."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Collectively, these observations show that widely-acting and tissue-specific mutational processes combine with phenotypic selection to dictate the frequencies of recurrent TP53 mutations."}
+    ]},
+   {"n": 1022, "id": "pmid:29988143",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "All subjects with TP53 mutations (n = 21 out of 21 patients) and IDH1 and IDH2 (n = 15 out of 15 patients) mutations eventually developed AML in our study."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "We discovered that mutations in IDH1, IDH2, TP53, DNMT3A, TET2 and spliceosome genes significantly increased the odds of developing AML."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The presence of detectable mutations years before diagnosis suggests that there is a period of latency that precedes AML"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "All subjects with TP53 mutations (n = 21 out of 21 patients) and IDH1 and IDH2 (n = 15 out of 15 patients) mutations eventually developed AML in our study."}
+    ]},
+   {"n": 1023, "id": "pmid:29906450",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 2, "evidence": "we identified a novel subtype of prostate cancer typified by biallelic loss of CDK12 that is mutually exclusive with tumors driven by DNA repair deficiency, ETS fusions, and SPOP mutations", "flag": "ambiguous", "reason": "The abstract defines the mutually exclusive subtype by biallelic CDK12 loss and never discusses CDK12 gain, so the swap can be read as contradicted or as not addressed."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "CDK12 loss is enriched in mCRPC relative to clinically localized disease"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "CDK12 inactivation thereby defines a distinct class of mCRPC that may benefit from immune checkpoint immunotherapy."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "CDK12 mutant cases are associated with elevated neoantigen burden ensuing from fusion-induced chimeric open reading frames and increased tumor T cell infiltration/clonal expansion."}
+    ]},
+   {"n": 1024, "id": "pmid:32025015",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We show that although point mutations and structural variants that drive cancer are less frequent in non-coding genes and regulatory sequences than in protein-coding genes"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Here we present analyses of driver point mutations and structural variants in non-coding regions across 2,658 genomes from the Pan-Cancer Analysis of Whole Genomes (PCAWG) Consortium"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "identify regions that are significantly affected by recurrent breakpoints and recurrent somatic juxtapositions"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "identify novel candidates, including point mutations in the 5' region of TP53, in the 3' untranslated regions of NFKBIZ and TOB1, focal deletions in BRD4"}
+    ]},
+   {"n": 1025, "id": "pmid:26780609",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "In malignancies identified as evolving neutrally, all clonal selection seemingly occurred before the onset of cancer growth and not in later-arising subclones"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Here we demonstrate that neutral tumor evolution results in a power-law distribution of the mutant allele frequencies reported by next-generation sequencing of tumor bulk samples."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We find that the neutral power law fits with high precision 323 of 904 cancers from 14 types and from different cohorts."},
+      {"j": 4, "label": "contradicted", "confidence": 2, "evidence": "In malignancies identified as evolving neutrally, all clonal selection seemingly occurred before the onset of cancer growth and not in later-arising subclones", "flag": "ambiguous", "reason": "The abstract excludes selection in later-arising subclones, and the statement's 'subclones that arose earlier' misstates that contrast, but the abstract says nothing direct about earlier-arising subclones."}
+    ]},
+   {"n": 1026, "id": "pmid:33831375",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Nearly all informative samples (95.1%) contain evidence of distinct subclonal expansions with frequent branching relationships between subclones."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "we extensively characterize ITH across whole-genome sequences of 2,658 cancer samples spanning 38 cancer types."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Nearly all informative samples (95.1%) contain evidence of distinct subclonal expansions with frequent branching relationships between subclones."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "We observe positive selection of subclonal driver mutations across most cancer types"}
+    ]},
+   {"n": 1027, "id": "pmid:35705804",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Some cancer types harbour amplicon signatures associated with extrachromosomal DNA, disease-specific survival and proto-oncogene gains such as MDM2."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Deploying this framework to 9,873 cancers representing 33 human cancer types from The Cancer Genome Atlas 6 revealed a set of 21 copy number signatures that explain the copy number patterns of 97% of samples."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "In contrast to base-scale mutational signatures, no copy number signature was associated with many known exogenous cancer risk factors."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Seventeen copy number signatures were attributed to biological phenomena of whole-genome doubling, aneuploidy, loss of heterozygosity, homologous recombination deficiency, chromothripsis and haploidization."}
+    ]},
+   {"n": 1028, "id": "pmid:31996850",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "In current smokers, at least 25% of cells carried driver mutations"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Tobacco smoking was the major influence on mutational burden, typically adding from 1,000 to 10,000 mutations per cell"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "these cells had less damage from tobacco-specific mutational processes, were fourfold more frequent in ex-smokers than current smokers"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "quitting promotes replenishment of the bronchial epithelium from mitotically quiescent cells that have avoided tobacco mutagenesis."}
+    ]},
+   {"n": 1029, "id": "pmid:29622466",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Hypermutated tumors were distinct regardless of cancer type"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Tumors with chromosomal instability were diverse, with gastroesophageal adenocarcinomas harboring fragmented genomes associated with genomic doubling and distinct mutational signatures."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We identified a group of tumors in the colon and rectum lacking hypermutation and aneuploidy termed genome stable and enriched in DNA hypermethylation and mutations in KRAS, SOX9, and PCBP1."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We analyzed 921 adenocarcinomas of the esophagus, stomach, colon, and rectum"}
+    ]}
+ ]}

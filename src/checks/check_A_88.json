@@ -1,0 +1,74 @@
+{"batch": "check_A_88", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+  {"n": 1525, "id": "pmid:39098897",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "hybridization often preceded speciation"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "all described 26 Xiphophorus species and three undescribed taxa"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "We discovered dramatic size-variation of some gene families. These persisted despite reticulate evolution, rapid speciation and short divergence time"},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We investigate the molecular evolution of genes related to cancers such as melanoma"}
+   ]},
+  {"n": 1526, "id": "pmid:37787619",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "we assessed evolutionary rates and tested for selection acting on 11 subfamilies of LRR-RLKs, using deeply sampled protein trees"},
+    {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "the LRR domains of all tested LRR-RLK proteins evolved faster than their cognate RLK domains"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "All tested subfamilies of LRR-RLKs had strikingly similar patterns of molecular evolution, despite divergent functions"},
+    {"j": 4, "label": "not_addressed", "confidence": 2, "evidence": "LRR domains bind extracellular ligands; RLK domains initiate intracellular signaling cascades in response to ligand binding", "flag": "ambiguous", "reason": "The abstract never states what drives faster LRR-domain evolution, so attributing it specifically to ligand coevolution is neither stated nor ruled out."}
+   ]},
+  {"n": 1527, "id": "pmid:38589251",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "The loss of syntenic regions also contribute to genome divergence but at a slower pace than that of rearrangements"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "following lineage divergence, genome architecture is highly fragmented by rearrangements"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "de novo assembly of 33 phylogenetically diverse, wild and naturally evolving Eucalyptus species, covering 1-50 million years of diverging genome evolution"},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We hypothesize that duplications and translocations are potentially the greatest contributors to Eucalyptus genome divergence"}
+   ]},
+  {"n": 1528, "id": "pmid:38977308",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "SSOGs that share similarity to known viral sequences have distinct characteristics, including lower GC content"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "These sequences are mostly rare within each species yet show signs of purifying selection"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "genomes from 4644 human gut microbiome species and identified more than 600,000 unique SSOGs, representing an average of 2.6% of a given species' pangenome"},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "will enable future studies into the biological role and relevance of species-specific genes in the human gut"}
+   ]},
+  {"n": 1529, "id": "pmid:39107250",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We identified a horizontally transferred 1.2Mb accessory mini-chromosome which is remarkably conserved between M. oryzae isolates"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "These findings establish horizontal mini-chromosome transfer as a mechanism facilitating genetic exchange among different host-associated blast fungus lineages"},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "a horizontally transferred 1.2Mb accessory mini-chromosome which is remarkably conserved between M. oryzae isolates from both the rice blast fungus lineage and the lineage infecting Indian goosegrass"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "this mini-chromosome was horizontally acquired by clonal rice blast isolates through at least nine distinct transfer events over the past three centuries"}
+   ]},
+  {"n": 1530, "id": "pmid:38194448",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "known for only five of ~165 species of Psilocybe , four of which belong to only one of two major clades"},
+    {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "the stem lineage of Psilocybe arose ~67 mya and diversified ~56 mya"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "psilocybin biosynthesis first arose in Psilocybe , with 4 to 5 possible horizontal transfers to other mushrooms between 40 and 9 mya"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "predicted orthologs of the psilocybin biosynthetic genes revealed two distinct gene orders within the biosynthetic gene cluster that corresponds to a deep split within the genus"}
+   ]},
+  {"n": 1531, "id": "pmid:37155936",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "We assembled a 471-Mb chromosome-scale reference genome of ACB and resequenced 423 individuals covering 27 representative geographic areas"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "For diapause traits, we identified a major effect association locus containing a circadian clock gene (period) by analyzing a diapause-segregating population"},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "the ACB effective population size changes tracked with the global temperature and followed by a recent decline"},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "the northern populations were more ecologically resilient to climate change than the southern populations"}
+   ]},
+  {"n": 1532, "id": "pmid:38743589",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "11 recognized munia species in the genus Lonchura (N = 176 individuals), we identify four large para- and pericentric inversions ranging in size from 4 to 20 Mb"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "the maintenance of all three autosomal inversions (chr1, chr5, and chr6) is best explained by selection acting along ecogeographic clines"},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "All four inversions cosegregate across multiple species and predate the numerous speciation events associated with the rapid radiation of this clade"},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "This study provides evidence for trans-species inversion polymorphisms involved in both adaptation and speciation"}
+   ]},
+  {"n": 1533, "id": "pmid:38459017",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Microcoleus represents a global speciation continuum of at least 12 lineages, which radiated during Eocene/Oligocene aridification"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "The lineage divergence has been driven by selection, geographical distance, and the environment"},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "we identified regions of exceptional differentiation containing candidate genes associated with stress response and biosynthesis of secondary metabolites"},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "202 strains and eight herbarium specimens were sequenced for this study"}
+   ]},
+  {"n": 1534, "id": "pmid:37971141",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "the white-faced muskox has the lowest genome-wide heterozygosity recorded in an ungulate"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "there is no evidence of inbreeding depression in native muskox populations"},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "both muskox subspecies, the white-faced and the barren-ground muskox (O. moschatus wardi and O. moschatus moschatus)"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "We analysed 108 whole genomes, including present-day individuals representing the current native range of both muskox subspecies"}
+   ]}
+ ]
+}

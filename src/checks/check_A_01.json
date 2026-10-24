@@ -1,0 +1,248 @@
+{"batch": "check_A_01", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+  {"n": 35, "id": "pmid:38846976",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Across all patients, cell-free DNA (ctDNA) identified 12.9% (range 7.5-19.8%) of tumour-specific variants, of which 55.6% were specific to a single tumour sub-site only."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Across all patients, cell-free DNA (ctDNA) identified 12.9% (range 7.5-19.8%) of tumour-specific variants, of which 55.6% were specific to a single tumour sub-site only. CtDNA identified 79.0% (range: 55.6-90.9%) of high-frequency variants (tumour VAF>5%)."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "COSMIC variants from 19 TCGA HNSCC genes demonstrated an 86.9% heterogeneity rate (present in one tumour sub-site only)."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "CtDNA identified 79.0% (range: 55.6-90.9%) of high-frequency variants (tumour VAF>5%)."}
+   ]},
+  {"n": 36, "id": "pmid:39026103",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Across cancer types, we observed the highest prevalence in paediatric leukaemia (3.5%), paediatric high-grade glioma (1.7%), and colorectal cancer (1%)."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "We further observe an association between somatic CpG hypermutation and response to immune checkpoint inhibitors."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "We discovered germline variants and somatic mutations in the mismatch repair complex MutSα (MSH2-MSH6) as genetic drivers of somatic CpG hypermutation in cancer, which frequently converged on CpG sites and TP53 driver mutations."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Somatic hypermutation in cancer has gained momentum with the increased use of tumour mutation burden as a biomarker for immune checkpoint inhibitors."}
+   ]},
+  {"n": 37, "id": "pmid:42716387",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Extending the reaction to 60 min achieved the highest removal efficiency for liquid phase ARGs and MGEs, while these ARGs-carrying pathogens remained inhibited; but accompanied by sludge dewaterability deterioration and a rebound in solid-associated ARGs and MGEs abundance."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Although advanced oxidation is promising for sludge conditioning, whether prolonged oxidation continuously benefits both dewatering and biological risk control remains unclear."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "but accompanied by sludge dewaterability deterioration and a rebound in solid-associated ARGs and MGEs abundance"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "At 40 min, sludge dewaterability was markedly improved, accompanied by the greatest reduction in the total abundance of ARGs and mobile genetic elements (MGEs) in solid phase."}
+   ]},
+  {"n": 38, "id": "pmid:37189699",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "At diagnosis, CNAs levels were concordant between tumor and ctDNA in 56% of the cases, and for the remaining 44%, 91.4% of the CNAs were present only in cfDNA and 8.6% only in the tumor."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "neuroblastoma presented the greatest amount of cfDNA, in correlation with tumor volume"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The use of specific CNAs as targets for liquid biopsy in pediatric patients with cancer can improve diagnosis and should be considered for monitoring of the disease response."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Within the cfDNA, we observed that 46% and 23% of the patients had MYCN and 1q gain, respectively."}
+   ]},
+  {"n": 39, "id": "doi:10.64898/2026.04.22.26351451",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Two trained students performed quality checks, corrections, and additional annotation of tumors and cysts, with uncertain cases reviewed by a board-certified radiologist."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "we screened 1,915 CT scans from three TCGA-RCC databases"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "RCC-AID provides a reusable open resource dataset for segmentation, detection, subtype classification, radiomics, and multimodal RCC research."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "After data exclusion and quality control, a final cohort of 129 annotated CT scans from 91 patients (24 female, 67 male; mean age 56 years) was retained, including 85 clear cell, 26 papillary and 18 chromophobe RCC cases."}
+   ]},
+  {"n": 40, "id": "pmid:41073419",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Approximately 30-40 million years ago, an inverted Alu element inserted into the F3 3'-UTR"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Furthermore, stimulation of cells with a Protease-Activated Receptor-2 activating peptide led to rapid mobilisation of the fluorophore from the Golgi to the cell surface."},
+     {"j": 3, "label": "not_addressed", "confidence": 2, "evidence": "demonstrated that the presence of the Alu element promoted protein localisation to the Golgi, and reduced cell membrane localisation", "flag": "ambiguous", "reason": "The abstract reports fluoroprobe localisation, never procoagulant activity, yet its direction (Alu reduces membrane localisation) leans against the statement, so the point can be read either as unaddressed or as contradicted."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Confocal microscopy of MDA-MB-231 human breast cancer cells using fluoroprobe constructs regulated by the F3 3'-UTR with or without the Alu insertion demonstrated that the presence of the Alu element promoted protein localisation to the Golgi, and reduced cell membrane localisation."}
+   ]},
+  {"n": 41, "id": "pmid:42373010",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "effectively categorizing patients into high- and low-risk groups with significantly divergent survival outcomes. From this signature, five genes were identified as independent prognostic factors via multivariable Cox analysis."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Ultimately, three prioritized core candidate biomarkers (AGMAT, PSMC5, and SMS) were extracted, among which SMS exhibited exceptionally high individual diagnostic efficacy."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "In contrast, the C2 subtype was characterized by robust immune cell infiltration, a more favorable prognosis, and a superior computationally predicted response to immunotherapy."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "The C1 subtype exhibited a less immune-infiltrated phenotype but higher PD-L1 expression and elevated TIDE scores, indicating stronger immune evasion and poorer survival."}
+   ]},
+  {"n": 42, "id": "pmid:42095305",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Immunohistochemistry showed diffuse Melan-A and SOX10 positivity, retained p16 expression, a gradient HMB45 staining pattern, and negative PRAME expression."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "next-generation sequencing was performed and identified a RET::MXT1 gene fusion in the absence of additional pathogenic mutations or copy number alterations"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Identification of an isolated RET fusion supports classification within the Spitz tumor spectrum and provides valuable information for risk stratification and clinical management in pediatric patients."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Histopathologic examination revealed an asymmetric melanocytic proliferation composed predominantly of epithelioid cells with limited mitotic activity and evidence of dermal maturation."}
+   ]},
+  {"n": 43, "id": "pmid:40639643",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "We identified 46,389 unique TE comprising 15,975 cores and 30,414 variable elements."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Here, we first constructed a pan-TE library from 7 buffalo genomes representing both river and swamp buffalo breeds."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "We identified 46,389 unique TE comprising 15,975 cores and 30,414 variable elements. These TE span approximately 1.04 Gb and its length account for 33.53% of the buffalo reference genome."},
+     {"j": 4, "label": "supported", "confidence": 2, "evidence": "Notably, these elements showed a preference for genic regions, with DNA and LTR transposons frequently located within gene introns.", "flag": "ambiguous", "reason": "The abstract says only these elements, whose referent (the core TE of the preceding sentence versus TE generally) is left unsettled, so attributing the genic preference specifically to core elements is not fixed by the wording."}
+   ]},
+  {"n": 44, "id": "pmid:40543210",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "A total of 280 participants, including 142 RCC patients and 138 noncancer controls, were enrolled for model development."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Robust performance was observed across different TNM (tumor-node-metastasis) stages, histological subtypes, and Fuhrman grades, with high sensitivity even for early-stage RCC."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The cfDNA fragmentomics-based liquid biopsy provides a promising, noninvasive, cost-effective, and accurate approach for RCC detection and management"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "In the validation cohort, the model demonstrated a sensitivity of 90.5% and specificity of 93.8%, while in the external cohort, it exhibited a sensitivity of 76.7% and specificity of 92.9%."}
+   ]},
+  {"n": 45, "id": "pmid:42848959",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Deletion of either determinant yielded no verified transconjugants under the assay conditions, whereas relaxase complementation and chromosomal oriT repair restored detectable transfer."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Genetic annotation established that GISsuJHJ17_rpsI lacks a self-encoded conjugation apparatus but harbours an origin of transfer (oriT) sharing ∼85% nucleotide identity with the co-resident integrative and conjugative element (ICE)."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Fitness assays revealed no measurable growth defect or competitive disadvantage associated with acquisition of GISsuJHJ17_rpsI, indicating a minimal short-term fitness cost."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "These findings show that GISsuJHJ17_rpsI can transfer from S. suis to E. faecalis and integrate at an rpsI-associated site."}
+   ]},
+  {"n": 46, "id": "pmid:41503337",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "ARMCX5 (p < 0.0001) and SLCO6A1 (p < 0.0001) were enriched in high-grade tumors."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "like SETDB1, a histone methyltransferase involved in epigenetic silencing of tumor suppressor genes"},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "A total of 845 cases of breast carcinoma with complete survival data were retrieved, of which mutation data for 800 cases were available."},
+     {"j": 4, "label": "supported", "confidence": 2, "evidence": "SETDB1 (p < 0.0001), USP37 (p < 0.0001), NDUFS1 (p = 0.025), TRPM4 (p < 0.0001), and MYO18A (p < 0.0001) were associated with poor prognosis.", "flag": "ambiguous", "reason": "NDUFS1 does have the largest p value of the five, but weakest can also be read as weakest effect size, which the abstract never reports."}
+   ]},
+  {"n": 47, "id": "doi:10.1101/2024.10.11.617942",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "ICE Bs1 of Bacillus subtilis modulates the host DNA damage response by reducing RecA filament formation."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Expression of RamT and RamA caused a decrease in binding of the host single strand binding protein SsbA to ssDNA."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We found that RamA interacted with PcrA, the host DNA translocase that functions to remove RecA from DNA, likely functioning to modulate the SOS response and recombination by stimulating PcrA activity."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "We found that the two ICE Bs1 -encoded proteins, RamT and RamA that modulate the SOS response in donors also function in recipient cells to inhibit both the SOS response and homologous recombination following transfer of the element."}
+   ]},
+  {"n": 48, "id": "pmid:38574386",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Dietary data were collected every 4 years through validated food frequency questionnaires."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "but not c-dMMRb/SBS26-low CRC (multivariable-adjusted hazard ratio = 0.86, 95% confidence interval = 0.57 to 1.28)"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "No significant differential associations were observed for c-dMMRa/SBS15 (Ptrend = .41 for heterogeneity)."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Compared with nondrinkers, drinkers who imbibed 15 g/d or more of alcohol had a high risk of c-dMMRb/SBS26-high CRC (multivariable-adjusted hazard ratio = 2.43, 95% confidence interval = 1.55 to 3.82)"}
+   ]},
+  {"n": 49, "id": "pmid:39227777",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "In this study, we benchmarked six variant calling tools, including two UMI-aware callers for their ability to call ctDNA variants."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Mutect2 showed high sensitivity, while returning more privately called variants than any other caller in data without synthetic UMIs - an indicator of false positive variant discovery."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "In data encoded with synthetic UMIs, UMI-VarCal detected fewer putative false positive variants than all other callers in synthetic datasets."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "The standard variant callers tested included Mutect2, bcftools, LoFreq and FreeBayes. The UMI-aware variant callers benchmarked were UMI-VarCal and UMIErrorCorrect."}
+   ]},
+  {"n": 50, "id": "pmid:42158852",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Plasma samples were collected from 45 patients with non-metastatic PDAC prior to treatment start."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Plasma samples were collected from 45 patients with non-metastatic PDAC prior to treatment start."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "standard sequencing was not significantly associated with overall survival (OS) (HR 2.57, 95% CI 0.94-7.04). However, detection of any KRAS mutation by ultra-deep sequencing in baseline ctDNA was significantly predictive of worse OS (HR 3.13, 95% CI 1.18-8.29)."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Standard depth sequencing identified pathogenic KRAS mutations (G12/G13/Q61) in 11 patients. Ultra-deep sequencing demonstrated a 46% increase in detection, identifying mutant KRAS in these same 11 patients and an additional 7 patients deemed mutation-negative by standard assay."}
+   ]},
+  {"n": 51, "id": "pmid:42656392",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Recurrent urinary tract infections (UTIs) were associated with multiple pandemic UPEC lineages, including ST131, ST69, ST10 and the emerging ST1193."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Genomic analyses identified acquired antimicrobial resistance genes in nearly 80% of isolates, including extended-spectrum β -lactamase (ESBL) genes such as bla CTX-M-15 and bla CTX-M-27"},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "MOB-suite plasmid prediction analysis showed that IncF replicons were the most common and frequently associated with ESBL genes."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Whole-genome sequencing was performed on 199 UPEC isolates recovered from patients with recurrent or difficult-to-treat UTIs for whom autovaccine therapy was recommended."}
+   ]},
+  {"n": 52, "id": "doi:10.1101/2023.09.19.558241",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "In total, we identified potentially pathogenic complex SVs in 42 tumors that affect cancer driver genes or result in unfavorable chromosomal alterations. Half of which were known drivers, e.g. MYCN amplifications due to ecDNA and EWSR1::FLI1 fusions due to chromoplexy."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Recurrently mutated regions tend to be cancer-type specific and overlap with cancer genes, suggesting that selection contributes to shaping the SV landscape."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Moreover, carrying complex SVs seems to be associated with adverse clinical events."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Complex SVs were identified in 56 tumors (47%) and different classes occurred across multiple cancer types."}
+   ]},
+  {"n": 53, "id": "pmid:41006121",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Similarly, DNMT1, H4K20me3 and H3K9me3 expression was significantly reduced in grade 4 cases compared to grade 2"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "cfLINE-1 methylation was positively correlated with tissue LINE-1 methylation levels"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "LINE-1 methylation was measured in cell-free DNA (cfDNA) of glioma patients' plasma prior to surgery or any adjuvant therapy and age-matched controls as well as in glioma tissues"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "LINE-1 methylation content in plasma cfDNA and tissue samples was decreased significantly in grade 4 gliomas compared to controls"}
+   ]},
+  {"n": 54, "id": "doi:10.1101/2023.10.22.563463",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "The ends of IS3s harbor ~1.5 times as many such proto-promoter sequences than the E. coli genome."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "We started with 10 sequences from the ends of 5 IS3 sequences, created 18,537 random mutations in them, and measured their promoter activity using a massively parallel reporter assay. All 10 sequences could evolve de-novo promoter activity from single point mutations."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Our observations can help to explain why mobile DNA may persist in prokaryotic genomes."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "We also estimate that at least 26% of the 706 characterized IS3s already encode promoters."}
+   ]},
+  {"n": 55, "id": "pmid:41209828",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Notably, early insertions of CRJ-derived LTR segments contributed to the formation of TR-like structures"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Comparative analysis across plant species revealed that centromeric retrotransposons primarily fall into three subfamilies- CRM , Tekay , and Athila -highlighting strong subfamily specificity."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Unlike the TR-rich centromeres found in many plant species, jujube centromeres are predominantly composed of Gypsy -type long-terminal repeat retrotransposons (LTR-RTs)."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "These centromeres, ranging from 0.75 to 1.40 Mb, are largely conserved between haplotypes, except for a localized inversion on chromosome 10."}
+   ]},
+  {"n": 56, "id": "doi:10.1101/2023.08.30.554943",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Samples from patients with higher metastatic burden had increased GSVA scores for both ADRN and MES gene signatures (p < 0.001)."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "We then quantified signature scores, and our prior neuroblastoma signature, in cfDNA from 84 samples from 46 high-risk patients including 21 patients with serial samples."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "While ADRN and MES signature scores tracked together in serially collected samples, we identified instances of patients with increases in either MES or ADRN score at relapse."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Neuroblastoma tumors are comprised of adrenergic (ADRN) and mesenchymal (MES) cells, and the relative abundance of each in tumor biopsies has prognostic implications."}
+   ]},
+  {"n": 57, "id": "pmid:38714351",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "In a PARPi-resistant syngeneic murine model, EHMT and PARP inhibition combination inhibited tumor progression and increased Granzyme B+ cells in the tumor."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "In a PARPi-resistant syngeneic murine model, EHMT and PARP inhibition combination inhibited tumor progression and increased Granzyme B+ cells in the tumor."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We found that combinatory EHMT and PARP inhibition increases immunostimulatory double-stranded RNA formation and elicits several immune signaling pathways in vitro."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "we found that EHMT2 is bound to transposable elements, and that EHMT inhibition leads to genome-wide epigenetic and transcriptional derepression of transposable elements"}
+   ]},
+  {"n": 58, "id": "doi:10.64898/2026.08.14.26360450",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "These findings reveal a substantial burden of clinically relevant ARGs, mobile genetic elements, and potential bacterial pathogens in hospital and community wastewater in Conakry."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Resistance mechanisms were predominantly driven by antibiotic inactivation, followed by efflux and target protection."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "A total of 489 unique ARGs conferring resistance to 29 antibiotic classes were identified through metagenomic analysis."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Genome-resolved analysis reconstructed 103 dereplicated MAGs, of which 80 carried ARGs and 26 contained putative mobile resistance regions defined by ARG–MGE co-localizations within 10 kb."}
+   ]},
+  {"n": 59, "id": "pmid:41294844",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Mutational signature analysis revealed a predominance of C>T substitutions and subtype-specific patterns, with SBS22 and SBS43 enriched in Luminal A tumors."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "driver prediction tools (BoostDM and OncodriveMUT) identified 2451 predicted driver mutations, including 648 known driver variants in genes such as TP53, PIK3CA, GATA3, PTEN, SF3B1, and KMT2C. In addition, 1803 novel predicted drivers were detected"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Yet, genomic data from Middle Eastern and North African (MENA) populations are limited, restricting insights into disease drivers and therapeutic opportunities in this demographic."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Therapeutic annotation using OncoKB identified 223 actionable or likely oncogenic variants, highlighting potential targets for precision oncology."}
+   ]},
+  {"n": 60, "id": "pmid:40059100",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Notably, in the TCGA cohort we detected previously unreported mutations in BAP1 (n = 3) and EIF1AX (n = 5), that were missed by the original DNA sequencing."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "may augment or even substitute DNA-based approaches, with potential applicability in research and clinical practice"},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Whereas unsupervised gene expression profiling strongly indicated the presence of chromosome 3 alterations, it was not reliable in identifying other alterations."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "the presence of both chromosome 3 and 8q copy number alterations could be successfully inferred from expressed allelic imbalances of heterozygous common single nucleotide polymorphisms"}
+   ]},
+  {"n": 61, "id": "pmid:42686803",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Average risk patients with HGSC had significantly higher TP53 MBF independently of age and other risk factors (77% sensitivity, 89% specificity, AUC = 0.88)."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Excluding tumor TP53 clonal mutations from the lavage MBF calculation maintains this association"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "278 patients undergoing gynecological surgery for pelvic masses (average risk) or cancer risk-reduction (high risk)"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "All lavages contained multiple TP53 mutant clones, which were used to quantify TP53 mutation burden frequency (MBF)."}
+   ]},
+  {"n": 62, "id": "pmid:42298553",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "We performed a systematic genomic screen across 43 drosophilid species using stringent criteria for molecular domestication. This analysis identified five high-confidence, evolutionarily conserved genes derived from Tc1/mariner transposases."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "In contrast, the catalytic domain pathway is represented solely by CG14478. Structural modeling reveals that CG14478 protein preserves a canonical DDE endonuclease fold."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Co-expression network analysis suggests potential cellular roles of these genes: CG14478 is linked to RNA/chromatin-related processes"},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Co-expression network analysis suggests potential cellular roles of these genes: CG14478 is linked to RNA/chromatin-related processes, CG4570 to cell cycle/chromosome functions, cag to ciliary and nuclear functions, and toy to neuronal development."}
+   ]},
+  {"n": 63, "id": "doi:10.1101/2024.09.19.613896",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Here, we introduce CanDrivR-CS , a set of cancer-specific gradient boosting models designed to distinguish between rare and recurrent cancer variants."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Moreover, studies have demonstrated the significance of rare mutations that arise as resistance mechanisms in response to drug treatment."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "achieving a maximum leave-one-group-out cross-validation (LOGO-CV) F1 score of up to 90% for CanDrivRSKCM (Skin Cutaneous Melanoma) and 89% for CanDrivR-SKCA (Skin Adenocarcinoma) , compared to 79.2% for the baseline model"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Notably, DNA shape properties consistently ranked among the top features for distinguishing recurrent and rare variants across all cancers. Specifically, recurrent missense variants frequently occurred in DNA bends and rolls"}
+   ]},
+  {"n": 64, "id": "pmid:42687279",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 2, "evidence": "Integration with a support vector machine (SVM) further enhanced the accuracy to 95.6%.", "flag": "ambiguous", "reason": "The abstract says integration with an SVM, which may mean combining it with rather than replacing the linear discriminant analysis."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Using 5-fold cross-validated linear discriminant analysis, SE-SERDS consistently outperformed PF-SERS across all excitation modes, with prediction accuracies rising from 71.1 vs 66.7% (NP) to a maximum of 93.9 vs 87.8% (LHCP + RHCP)."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "enabling the extraction of subtle prognostic features at 1074 and 1147 cm-1 with a higher signal-to-background contrast"},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Spectra were acquired from 90 recurrent and 90 non-recurrent NPC patients under non-polarized (NP), left-handed circularly polarized (LHCP), and right-handed circularly polarized (RHCP) excitations, alongside a fused LHCP + RHCP dataset."}
+   ]},
+  {"n": 65, "id": "pmid:38878913",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "provides a defense mechanism against transposon invasion in shrimp germline cells"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Suppression of PmAgo4 expression by a specific dsRNA elevated the expression levels of the three transposons while decreasing the levels of transposon-related piRNAs."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Mapping of these piRNAs on nucleotide sequences of two gypsy and a mariner-like transposons of P. monodon suggested that most piRNAs were originated from the antisense strand of transposons."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "RNA-seq revealed a majority of 26-27 nt long small RNAs in the PmAgo4-IP fraction suggesting that PmAgo4 is predominantly associated with piRNAs."}
+   ]},
+  {"n": 66, "id": "pmid:42806813",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Using a multiplexed miniature chemostat setup, we generated a highly parallel set of yeast evolution experiments in glucose-, phosphate-, and sulfate-limited media conditions with a total of 95 replicates across the conditions."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Overall, we identify how the biases in mutational frequency and the effect of local genome context can impact the direction of evolution and shape the path a population takes across the fitness landscape."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We also recurrently observed new mobilizations of Ty1 and Ty2 transposable elements, often interrupting genes that were also separately mutated by SNPs/InDels in other populations."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "we found consistent targeting of complexes and pathways, such as the SAGA complex in sulfate limitation, the sirtuin family in phosphate limitation, and the phosphorelay signal transduction system in glucose limitation"}
+   ]},
+  {"n": 67, "id": "doi:10.1101/2025.06.12.655573",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "while non-seminomas show greater structural complexity, subclonal diversity, relatively earlier-onset WGD, extended tumor latency, and telomere elongation"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Here we present a comprehensive genomic analysis of 252 treatment-naive primary TGCTs, integrating deep whole-genome sequencing with matched transcriptomic and epigenomic data."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "SBS87 is linked to extended tumor latency and telomere elongation, implicating possible environmental or endogenous processes that mimic thiopurine-induced DNA damage in TGCT pathogenesis."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "whole genome doubling (WGD) in TGCTs is further characterized here as ubiquitous, developmentally early, and associated with age at onset"}
+   ]},
+  {"n": 68, "id": "pmid:39338204",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "we identified five recurrent cancer driver mutations spanning MUC16 , MUC4 , ALK , and CTNND1 , with the latter being novel and containing a missense mutation, R439C"},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "We also identified 11 putative actionable mutations including NF1 Q1798*, Q2616*, and S636X, ALK F1174L and R1275Q"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "The most common mutational signature was single base substitution 5. MUC4 , MUC16 , and FLG were identified as the most frequently mutated genes."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "In this study, we conducted the whole-exome sequencing of 48 freshly frozen tumor samples obtained from the Biobank."}
+   ]},
+  {"n": 69, "id": "doi:10.1101/2024.10.30.24315828",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "rectal polyps (OR 8.40, 95% CI 1.28–55.35; P = 0.03), and gastric cancer (OR 27.03, 95% CI 2.93– 248.5; P = 0.004)"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "we documented polyposis, gastric cancer, and early-onset colorectal cancer in 6, 1, and 6 biallelic MCM9 variant carriers, respectively, while these phenotypes were not observed in biallelic MCM8 variant carriers"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Our data indicates that biallelic MCM9 variants are associated with polyposis, gastric cancer, and early-onset CRC"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Tumors from MCM8 / MCM9 variant carriers with available germline sequencing data predominantly displayed clock-like mutational processes (single base substitution signatures 1 and 5), with no evidence of signatures associated with DNA repair deficiencies."}
+   ]}
+ ]}

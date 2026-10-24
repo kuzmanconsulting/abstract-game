@@ -1,0 +1,419 @@
+{
+"batch": "check_A_15c",
+"pass": "A",
+"source_batch": "gen_15c",
+"items": [
+{
+"n": 549,
+"id": "pmid:37920670",
+"year": 2023,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Genetic studies have elucidated the critical roles of Phf7 in germline development in animals; however, the exact etiology of Phf7 mutations leading to male infertility and the possibility of mechanism-based therapy are still unclear and warrant further investigation. Using the Phf7 knockout mouse model, we verified that genetic defects were responsible for male infertility by preventing histone-to-protamine exchange, as previously reported. The deficiency of spermatogenesis caused by Phf7 deletion through the endogenous retrovirus-mediated activation of the immune pathway is a common mechanism of infertility. Furthermore, we identified PPARα as a promising target of immunity and inflammation in the testis, where endogenous retroviruses are suppressed, and Phf7 as a crucial regulator of endogenous retrovirus-mediated immune regulation and revealed its role as an epigenetic reader. The loss of Phf7 activates immune pathways, which can be rescued by the PPARα agonist astaxanthin. These results showed that astaxanthin is a potential therapeutic agent for treating male infertility. The findings in our study provide insights into the molecular mechanisms underlying male infertility and suggest potential targets for future research and therapeutic development."
+}
+],
+"text": "Genetic studies have elucidated the critical roles of Phf7 in germline development in animals; however, the exact etiology of Phf7 mutations leading to male infertility and the possibility of mechanism-based therapy are still unclear and warrant further investigation. Using the Phf7 knockout mouse model, we verified that genetic defects were responsible for male infertility by preventing histone-to-protamine exchange, as previously reported. The deficiency of spermatogenesis caused by Phf7 deletion through the endogenous retrovirus-mediated activation of the immune pathway is a common mechanism of infertility. Furthermore, we identified PPARα as a promising target of immunity and inflammation in the testis, where endogenous retroviruses are suppressed, and Phf7 as a crucial regulator of endogenous retrovirus-mediated immune regulation and revealed its role as an epigenetic reader. The loss of Phf7 activates immune pathways, which can be rescued by the PPARα agonist astaxanthin. These results showed that astaxanthin is a potential therapeutic agent for treating male infertility. The findings in our study provide insights into the molecular mechanisms underlying male infertility and suggest potential targets for future research and therapeutic development.",
+"statements": [
+{
+"j": 1,
+"text": "In Phf7 knockout mice, immune pathway activity was reduced and could be rescued by the PPARα agonist astaxanthin."
+},
+{
+"j": 2,
+"text": "Spermatogenesis deficiency after Phf7 deletion proceeds through endogenous retrovirus-mediated activation of the immune pathway."
+},
+{
+"j": 3,
+"text": "In the Phf7 knockout mouse model, male infertility arose because histone-to-protamine exchange was blocked."
+},
+{
+"j": 4,
+"text": "PPARα signalling controls Phf7 expression in the testis."
+}
+]
+},
+{
+"n": 550,
+"id": "doi:10.1101/2025.01.15.25320598",
+"year": 2025,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "Artificial intelligence (AI)-based imaging analysis has applications for the diagnosis of head and neck malignancies, and serum circulating tumor-associated DNA (ctDNA) is an emerging biomarker being evaluated for response assessment and risk stratification in human papilloma virus (HPV)-associated oropharynx squamous cell carcinoma (HPV-OPSCC). The relationship between automated imaging biomarkers and ctDNA has not yet been explored."
+},
+{
+"label": "Objective",
+"text": "To test the association between ctDNA and AI-derived measures of tumor burden among patients with HPV-OPSCC."
+},
+{
+"label": "Design, Setting, and Participants",
+"text": "This cross-sectional study included patients who were treated with curative intent for HPV-OPSCC between 2020-2023, prospectively enrolled on a blood collection protocol (Clinical trials.gov identifier: NCT04965792 )."
+},
+{
+"label": "Exposures",
+"text": "Clinical factors including demographics, AJCC 8 th edition clinical staging, and HPV genotype."
+},
+{
+"label": "Main Outcomes and Measures",
+"text": "Pre-treatment serum measurement of circulating tumor-tissue modified viral (TTMV) HPV-DNA using a commercially available test, measured as a continuous value (fragments/mL). Primary tumor and nodal volumes, total tumor volume, and cystic/necrotic nodal volume were generated on pre-treatment diagnostic or radiation CT- planning scans using a prospectively validated AI auto-segmentation algorithm. Assessments of model fit: Akaike information criterion (AIC) and Bayesian information criterion (BIC)."
+},
+{
+"label": "Results",
+"text": "170 patients with HPV-OPSCC were included in the study. On univariable regression, primary tumor volume (coeff=39.43, p<0.001), nodal volume (coeff=39.54, p<0.001), AJCC 8 th edition Tumor (T) stage (coeff = 1031.09, p=0.009), Nodal (N) stage (coeff=1840, p=0.018), HPV subtype 16 (coeff=3072.40, p=0.006), and CCI (coeff=-596.60, p=0.038) were associated with ctDNA. Cystic nodal volume was not associated with ctDNA (coeff=0.31, p=0.11). On multivariable analysis, primary tumor and nodal volumes were associated with ctDNA (coeff=34.79, p=0.001 and coeff=24.68, p=0.022, respectively), but T and N stage were not (coeff=-439.28, p=0.37 and coeff=238.19, p=0.29, respectively). Including automated tumor and nodal volumes improved model fit compared to T and N stage alone (3420.96 vs 3435.88 AIC, 3449.18 vs 3457.83 BIC)."
+},
+{
+"label": "Conclusions and Relevance",
+"text": "AI-automated volumetrics on pretreatment imaging are independently associated with ctDNA, controlling for clinical stage. The association is stronger than staging and improved predictive capacity of regression models. AI-automated volumetrics may provide a practical correlate to ctDNA levels and help risk stratify patients."
+}
+],
+"text": "Artificial intelligence (AI)-based imaging analysis has applications for the diagnosis of head and neck malignancies, and serum circulating tumor-associated DNA (ctDNA) is an emerging biomarker being evaluated for response assessment and risk stratification in human papilloma virus (HPV)-associated oropharynx squamous cell carcinoma (HPV-OPSCC). The relationship between automated imaging biomarkers and ctDNA has not yet been explored. To test the association between ctDNA and AI-derived measures of tumor burden among patients with HPV-OPSCC. This cross-sectional study included patients who were treated with curative intent for HPV-OPSCC between 2020-2023, prospectively enrolled on a blood collection protocol (Clinical trials.gov identifier: NCT04965792 ). Clinical factors including demographics, AJCC 8 th edition clinical staging, and HPV genotype. Pre-treatment serum measurement of circulating tumor-tissue modified viral (TTMV) HPV-DNA using a commercially available test, measured as a continuous value (fragments/mL). Primary tumor and nodal volumes, total tumor volume, and cystic/necrotic nodal volume were generated on pre-treatment diagnostic or radiation CT- planning scans using a prospectively validated AI auto-segmentation algorithm. Assessments of model fit: Akaike information criterion (AIC) and Bayesian information criterion (BIC). 170 patients with HPV-OPSCC were included in the study. On univariable regression, primary tumor volume (coeff=39.43, p<0.001), nodal volume (coeff=39.54, p<0.001), AJCC 8 th edition Tumor (T) stage (coeff = 1031.09, p=0.009), Nodal (N) stage (coeff=1840, p=0.018), HPV subtype 16 (coeff=3072.40, p=0.006), and CCI (coeff=-596.60, p=0.038) were associated with ctDNA. Cystic nodal volume was not associated with ctDNA (coeff=0.31, p=0.11). On multivariable analysis, primary tumor and nodal volumes were associated with ctDNA (coeff=34.79, p=0.001 and coeff=24.68, p=0.022, respectively), but T and N stage were not (coeff=-439.28, p=0.37 and coeff=238.19, p=0.29, respectively). Including automated tumor and nodal volumes improved model fit compared to T and N stage alone (3420.96 vs 3435.88 AIC, 3449.18 vs 3457.83 BIC). AI-automated volumetrics on pretreatment imaging are independently associated with ctDNA, controlling for clinical stage. The association is stronger than staging and improved predictive capacity of regression models. AI-automated volumetrics may provide a practical correlate to ctDNA levels and help risk stratify patients.",
+"statements": [
+{
+"j": 1,
+"text": "Adding automated tumor and nodal volumes to the regression model produced higher AIC (3420.96 vs 3435.88) and BIC (3449.18 vs 3457.83) values than T and N stage alone."
+},
+{
+"j": 2,
+"text": "Cystic nodal volume was the one volumetric measure without a significant association with ctDNA (coeff=0.31, p=0.11)."
+},
+{
+"j": 3,
+"text": "In multivariable analysis, primary tumor volume and nodal volume stayed associated with ctDNA, whereas AJCC T and N stage did not."
+},
+{
+"j": 4,
+"text": "ctDNA levels measured after treatment tracked changes in AI-segmented tumor volume."
+}
+]
+},
+{
+"n": 551,
+"id": "pmid:38041139",
+"year": 2023,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Liquid biopsy provides a non-invasive approach that enables detecting circulating tumor DNA (ctDNA) and circulating tumor cells (CTCs) using blood specimens and theoretically benefits early finding primary tumor or monitoring treatment response as well as tumor recurrence. Despite many studies on these novel biomarkers, their clinical relevance remains controversial. This study aims to investigate the correlation between ctDNA, CTCs, and circulating tumor-derived endothelial cells (CTECs) while also evaluating whether mutation profiling in ctDNA is consistent with that in tumor tissue from lung cancer patients. These findings will help the evaluation and utilization of these approaches in clinical practice."
+},
+{
+"label": "Methods",
+"text": "104 participants (49 with lung cancer and 31 with benign lesions) underwent CTCs and CTECs detection using integrating subtraction enrichment and immunostaining-fluorescence in situ hybridization (SE-iFISH) strategy. The circulating cell-free DNA (cfDNA) concentration was measured and the mutational profiles of ctDNA were examined by Roche AVENIO ctDNA Expanded Kit (targeted total of 77 genes) by next generation sequencing (NGS) in 28 patients (20 with lung cancer and 8 with benign lesions) with highest numbers of CTCs and CTECs. Mutation validation in matched tumor tissue DNA was then performed in 9 patients with ctDNA mutations using a customized xGen pan-solid tumor kit (targeted total of 474 genes) by NGS."
+},
+{
+"label": "Results",
+"text": "The sensitivity and specificity of total number of CTCs and CTECs for the diagnosis of NSCLC were 67.3% and 77.6% [AUC (95%CI): 0.815 (0.722-0.907)], 83.9% and 77.4% [AUC (95%CI): 0.739 (0.618-0.860)]. The concentration of cfDNA in plasma was statistically correlated with the size of the primary tumor (r = 0.430, P = 0.022) and CYFRA 21-1 (r = 0.411, P = 0.041), but not with the numbers of CTCs and CTECs. In this study, mutations were found to be poorly consistent between ctDNA and tumor DNA (tDNA) in patients, even when numerous CTCs and CTECs were present."
+},
+{
+"label": "Conclusion",
+"text": "Detection of CTCs and CTECs could be the potential adjunct tool for the early finding of lung cancer. The cfDNA levels are associated with the tumor burden, rather than the CTCs or CTECs counts. Moreover, the poorly consistent mutations between ctDNA and tDNA require further exploration."
+}
+],
+"text": "Liquid biopsy provides a non-invasive approach that enables detecting circulating tumor DNA (ctDNA) and circulating tumor cells (CTCs) using blood specimens and theoretically benefits early finding primary tumor or monitoring treatment response as well as tumor recurrence. Despite many studies on these novel biomarkers, their clinical relevance remains controversial. This study aims to investigate the correlation between ctDNA, CTCs, and circulating tumor-derived endothelial cells (CTECs) while also evaluating whether mutation profiling in ctDNA is consistent with that in tumor tissue from lung cancer patients. These findings will help the evaluation and utilization of these approaches in clinical practice. 104 participants (49 with lung cancer and 31 with benign lesions) underwent CTCs and CTECs detection using integrating subtraction enrichment and immunostaining-fluorescence in situ hybridization (SE-iFISH) strategy. The circulating cell-free DNA (cfDNA) concentration was measured and the mutational profiles of ctDNA were examined by Roche AVENIO ctDNA Expanded Kit (targeted total of 77 genes) by next generation sequencing (NGS) in 28 patients (20 with lung cancer and 8 with benign lesions) with highest numbers of CTCs and CTECs. Mutation validation in matched tumor tissue DNA was then performed in 9 patients with ctDNA mutations using a customized xGen pan-solid tumor kit (targeted total of 474 genes) by NGS. The sensitivity and specificity of total number of CTCs and CTECs for the diagnosis of NSCLC were 67.3% and 77.6% [AUC (95%CI): 0.815 (0.722-0.907)], 83.9% and 77.4% [AUC (95%CI): 0.739 (0.618-0.860)]. The concentration of cfDNA in plasma was statistically correlated with the size of the primary tumor (r = 0.430, P = 0.022) and CYFRA 21-1 (r = 0.411, P = 0.041), but not with the numbers of CTCs and CTECs. In this study, mutations were found to be poorly consistent between ctDNA and tumor DNA (tDNA) in patients, even when numerous CTCs and CTECs were present. Detection of CTCs and CTECs could be the potential adjunct tool for the early finding of lung cancer. The cfDNA levels are associated with the tumor burden, rather than the CTCs or CTECs counts. Moreover, the poorly consistent mutations between ctDNA and tDNA require further exploration.",
+"statements": [
+{
+"j": 1,
+"text": "Serial cfDNA measurement during chemotherapy flagged lung cancer recurrence ahead of imaging."
+},
+{
+"j": 2,
+"text": "Mutation profiles agreed poorly between ctDNA and matched tumor tissue DNA, even in patients with numerous CTCs and CTECs."
+},
+{
+"j": 3,
+"text": "For NSCLC diagnosis, total CTC number gave 67.3% sensitivity and 77.6% specificity, with an AUC of 0.815."
+},
+{
+"j": 4,
+"text": "Plasma cfDNA concentration was negatively correlated with primary tumor size (r = 0.430, P = 0.022)."
+}
+]
+},
+{
+"n": 552,
+"id": "pmid:42028025",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Current PET/CT monitoring for relapsed/refractory B-cell lymphomas treated with CAR-T therapy often lacks specificity. We evaluated longitudinal low-pass whole-genome sequencing (LP-WGS) of circulating tumor DNA (ctDNA) in 11 patients with B-cell lymphoma receiving axicabtagene ciloleucel to assess treatment response and prognosis. We found that lower baseline tumor fraction correlated with complete remission (CR), and ctDNA positivity at baseline or 1-month post-infusion significantly predicted inferior survival outcomes. Combining ctDNA with PET/CT refined risk stratification, distinguishing high-risk patients more accurately than imaging alone. Furthermore, specific genomic features, such as 17p deletion and high copy number variation burden, were associated with poor prognosis. We conclude that LP-WGS of ctDNA shows promise as a complementary tool to PET/CT for response evaluation and risk stratification in CAR-T-treated B-cell lymphomas, highlighting its potential to guide personalized clinical management in lymphoma care."
+}
+],
+"text": "Current PET/CT monitoring for relapsed/refractory B-cell lymphomas treated with CAR-T therapy often lacks specificity. We evaluated longitudinal low-pass whole-genome sequencing (LP-WGS) of circulating tumor DNA (ctDNA) in 11 patients with B-cell lymphoma receiving axicabtagene ciloleucel to assess treatment response and prognosis. We found that lower baseline tumor fraction correlated with complete remission (CR), and ctDNA positivity at baseline or 1-month post-infusion significantly predicted inferior survival outcomes. Combining ctDNA with PET/CT refined risk stratification, distinguishing high-risk patients more accurately than imaging alone. Furthermore, specific genomic features, such as 17p deletion and high copy number variation burden, were associated with poor prognosis. We conclude that LP-WGS of ctDNA shows promise as a complementary tool to PET/CT for response evaluation and risk stratification in CAR-T-treated B-cell lymphomas, highlighting its potential to guide personalized clinical management in lymphoma care.",
+"statements": [
+{
+"j": 1,
+"text": "Longitudinal LP-WGS of ctDNA was assessed in 11 B-cell lymphoma patients treated with axicabtagene ciloleucel."
+},
+{
+"j": 2,
+"text": "Patients with higher baseline ctDNA tumor fraction were the ones who achieved complete remission."
+},
+{
+"j": 3,
+"text": "LP-WGS of ctDNA identified CD19 loss as a mechanism of CAR-T resistance."
+},
+{
+"j": 4,
+"text": "ctDNA positivity at baseline or one month after infusion predicted worse survival."
+}
+]
+},
+{
+"n": 553,
+"id": "doi:10.1101/2024.07.11.24310105",
+"year": 2024,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "Despite chemo-immunotherapy has been applied to the neoadjuvant treatment of non-small cell lung cancer (NSCLC), the impacts of dosage and the order of medication on treatment efficacy and safety remain largely unexplored. We originally designed an exploratory study to investigate the efficacy and safety of reduced-dose chemotherapy combined with delayed immunotherapy as well as the dynamic changes of circulating tumor DNA (ctDNA) and T cell receptor (TCR) during the therapy."
+},
+{
+"label": "Methods",
+"text": "Patients with clinical stage IIA to IIIA resectable NSCLC were treated with 2 cycles of reduced-dose platinum-based chemotherapy on day 1 combined with immunotherapy on day 5. The same postoperative modified adjuvant therapy regimen was administered for 2 cycles. Plasma samples at different time-points were collected and performed with T cell receptor (TCR) and circulating tumor DNA (ctDNA) sequencing."
+},
+{
+"label": "Results",
+"text": "38 patients received modified chemo-immunotherapy. The proportion of patients exhibiting complete response and partial response was 5.3% and 68.4%, respectively. The confirmed objective response rate was 73.7%. Radiological downstaging was achieved in 39.5%. Major pathologic response and complete pathologic response were observed in 47.4% and 31.6% of patients, respectively. Only one patient experienced grade 3 adverse event. Further analyses revealed that this modified chemo-immunotherapy led to the expansion of predominant TCR clones and reduction of tumor burden after the first cycle of chemotherapy."
+},
+{
+"label": "Conclusion",
+"text": "The promising clinical efficacy and low side effects of modified neoadjuvant chemo-immunotherapy position it as a prospective and innovative strategy for NSCLC."
+}
+],
+"text": "Despite chemo-immunotherapy has been applied to the neoadjuvant treatment of non-small cell lung cancer (NSCLC), the impacts of dosage and the order of medication on treatment efficacy and safety remain largely unexplored. We originally designed an exploratory study to investigate the efficacy and safety of reduced-dose chemotherapy combined with delayed immunotherapy as well as the dynamic changes of circulating tumor DNA (ctDNA) and T cell receptor (TCR) during the therapy. Patients with clinical stage IIA to IIIA resectable NSCLC were treated with 2 cycles of reduced-dose platinum-based chemotherapy on day 1 combined with immunotherapy on day 5. The same postoperative modified adjuvant therapy regimen was administered for 2 cycles. Plasma samples at different time-points were collected and performed with T cell receptor (TCR) and circulating tumor DNA (ctDNA) sequencing. 38 patients received modified chemo-immunotherapy. The proportion of patients exhibiting complete response and partial response was 5.3% and 68.4%, respectively. The confirmed objective response rate was 73.7%. Radiological downstaging was achieved in 39.5%. Major pathologic response and complete pathologic response were observed in 47.4% and 31.6% of patients, respectively. Only one patient experienced grade 3 adverse event. Further analyses revealed that this modified chemo-immunotherapy led to the expansion of predominant TCR clones and reduction of tumor burden after the first cycle of chemotherapy. The promising clinical efficacy and low side effects of modified neoadjuvant chemo-immunotherapy position it as a prospective and innovative strategy for NSCLC.",
+"statements": [
+{
+"j": 1,
+"text": "After the first chemotherapy cycle, predominant TCR clones expanded and tumor burden declined."
+},
+{
+"j": 2,
+"text": "The confirmed objective response rate was 73.7%, and 5.3% of the patients achieved a complete response."
+},
+{
+"j": 3,
+"text": "This modified regimen achieved better pathologic response rates than standard full-dose concurrent chemo-immunotherapy."
+},
+{
+"j": 4,
+"text": "Major pathologic response occurred in a smaller proportion of patients than complete pathologic response (47.4% versus 31.6%)."
+}
+]
+},
+{
+"n": 554,
+"id": "pmid:42469014",
+"year": 2026,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Multiple myeloma (MM) is a type of hematological cancer that arises from uncontrolled proliferation of plasma cells. In addition to frequent genetic mutations, malignant plasma cells are characterized by alterations to the epigenome. Myeloma cells display a genome-wide loss of DNA methylation and a corresponding increase in \"active\" chromatin modifications. The epigenetic remodeling that occurs in cancer genomes is associated with loss of silencing at transposable elements, which can impact genome regulation. Through paired epigenome and transcriptome profiling of patient-derived MM samples, we have found that loss of DNA methylation in MM genomes results in the formation of partially methylated domains that is variable across patients. This loss of DNA methylation coincides with the expression of hundreds of transcripts driven by LINE-1 (L1) retrotransposons that are epigenetically silenced in normal cells. MM samples can be stratified based on L1 transcriptional activity with distinct gene expression signatures. The high L1 samples are characterized by a more proliferative, less differentiated state as well as inhibition of interferon and genome defense pathways. Several L1 promoters generate chimeric transcripts with adjacent oncogenes. We further find that KRAB-containing zinc finger proteins (KZFPs) that are responsible for the epigenetic silencing of L1s have abnormally low abundance in MM samples with high L1 transcriptional activity. These results indicate that cell proliferation in MM is associated with a loss of KZFP expression and transcriptional activation of L1 elements."
+}
+],
+"text": "Multiple myeloma (MM) is a type of hematological cancer that arises from uncontrolled proliferation of plasma cells. In addition to frequent genetic mutations, malignant plasma cells are characterized by alterations to the epigenome. Myeloma cells display a genome-wide loss of DNA methylation and a corresponding increase in \"active\" chromatin modifications. The epigenetic remodeling that occurs in cancer genomes is associated with loss of silencing at transposable elements, which can impact genome regulation. Through paired epigenome and transcriptome profiling of patient-derived MM samples, we have found that loss of DNA methylation in MM genomes results in the formation of partially methylated domains that is variable across patients. This loss of DNA methylation coincides with the expression of hundreds of transcripts driven by LINE-1 (L1) retrotransposons that are epigenetically silenced in normal cells. MM samples can be stratified based on L1 transcriptional activity with distinct gene expression signatures. The high L1 samples are characterized by a more proliferative, less differentiated state as well as inhibition of interferon and genome defense pathways. Several L1 promoters generate chimeric transcripts with adjacent oncogenes. We further find that KRAB-containing zinc finger proteins (KZFPs) that are responsible for the epigenetic silencing of L1s have abnormally low abundance in MM samples with high L1 transcriptional activity. These results indicate that cell proliferation in MM is associated with a loss of KZFP expression and transcriptional activation of L1 elements.",
+"statements": [
+{
+"j": 1,
+"text": "Blocking L1 reverse transcriptase slows myeloma cell proliferation."
+},
+{
+"j": 2,
+"text": "Loss of DNA methylation coincided with expression of hundreds of transcripts driven by LINE-1 retrotransposons that are silenced in normal cells."
+},
+{
+"j": 3,
+"text": "Samples with high L1 transcriptional activity showed a proliferative, poorly differentiated state alongside suppression of interferon and genome defense pathways."
+},
+{
+"j": 4,
+"text": "KRAB-containing zinc finger proteins responsible for silencing L1 elements were elevated in myeloma samples with high L1 transcriptional activity."
+}
+]
+},
+{
+"n": 555,
+"id": "pmid:42876993",
+"year": 2026,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The convergence of hypervirulence and carbapenem resistance in Klebsiella pneumoniae represents a critical threat to global public health. However, the genomic mechanisms underlying this convergence, particularly the interplay between chromosomal background and mobile genetic elements, remain incompletely understood. Here, we integrated complete genome data from 102 clinical isolates from Qujing, China, with a global dataset of 4,262 genomes to construct a multi-layer population genomic framework. Using comparative genomics and sequence-similarity network analyses, we characterized the structural organization of the core genome and the population structures of plasmids and prophages. We show that the ST11 lineage serves as a central hub for the convergence of hypervirulence and carbapenem resistance. Plasmids are organized into discrete, functionally specialized communities, among which a dominant community is strongly enriched for hypervirulence and multidrug resistance determinants and preferentially associates with ST11. In contrast, the core genome exhibits a highly constrained structural organization, with most core genes embedded within conserved synteny modules, indicating strong evolutionary constraints on chromosomal architecture. Furthermore, prophages form structured yet more conserved communities that show non-random associations with plasmid types and selectively contribute to the dissemination of resistance genes. Notably, we identified a previously unreported plasmid harboring multiple copies of key virulence loci, underscoring the ongoing modular evolution of high-risk elements. Together, these findings reveal that the convergence of hypervirulence and resistance is driven by lineage-specific plasmid compatibility within a structurally constrained chromosomal background, and they establish a network-based framework for understanding the evolution of high-risk K. pneumoniae lineages."
+}
+],
+"text": "The convergence of hypervirulence and carbapenem resistance in Klebsiella pneumoniae represents a critical threat to global public health. However, the genomic mechanisms underlying this convergence, particularly the interplay between chromosomal background and mobile genetic elements, remain incompletely understood. Here, we integrated complete genome data from 102 clinical isolates from Qujing, China, with a global dataset of 4,262 genomes to construct a multi-layer population genomic framework. Using comparative genomics and sequence-similarity network analyses, we characterized the structural organization of the core genome and the population structures of plasmids and prophages. We show that the ST11 lineage serves as a central hub for the convergence of hypervirulence and carbapenem resistance. Plasmids are organized into discrete, functionally specialized communities, among which a dominant community is strongly enriched for hypervirulence and multidrug resistance determinants and preferentially associates with ST11. In contrast, the core genome exhibits a highly constrained structural organization, with most core genes embedded within conserved synteny modules, indicating strong evolutionary constraints on chromosomal architecture. Furthermore, prophages form structured yet more conserved communities that show non-random associations with plasmid types and selectively contribute to the dissemination of resistance genes. Notably, we identified a previously unreported plasmid harboring multiple copies of key virulence loci, underscoring the ongoing modular evolution of high-risk elements. Together, these findings reveal that the convergence of hypervirulence and resistance is driven by lineage-specific plasmid compatibility within a structurally constrained chromosomal background, and they establish a network-based framework for understanding the evolution of high-risk K. pneumoniae lineages.",
+"statements": [
+{
+"j": 1,
+"text": "Most core genes sat within conserved synteny modules, pointing to a tightly constrained chromosomal architecture."
+},
+{
+"j": 2,
+"text": "One dominant plasmid community was strongly depleted for hypervirulence and multidrug resistance determinants and preferentially associated with ST11."
+},
+{
+"j": 3,
+"text": "The population genomic framework drew on complete genomes of 102 clinical isolates from Qujing, China together with 4,262 global genomes."
+},
+{
+"j": 4,
+"text": "Infections caused by ST11 isolates carrying the dominant plasmid community produced worse patient outcomes than other infections."
+}
+]
+},
+{
+"n": 556,
+"id": "pmid:38706838",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "We previously reported that loss of function of TYW1 led to cerebral palsy with severe intellectual disability through reduced neural proliferation. However, whether TYW1 loss affects neural differentiation is unknown. In this study, we first demonstrated that TYW1 loss blocked the formation of OHyW in tRNA phe and therefore affected the translation efficiency of UUU codon. Using the brain organoid model, we showed impaired neuron differentiation when TYW1 was depleted. Interestingly, retrotransposons were differentially regulated in TYW1 -/- hESCs (human embryonic stem cells). In particular, one kind of human-specific endogenous retrovirus-K (HERVK/HML2), whose reactivation impaired human neurodevelopment, was significantly up-regulated in TYW1 -/- hESCs. Consistently, a UUU codon-enriched protein, SMARCAD1, which was a key factor in controlling endogenous retroviruses, was reduced. Taken together, TYW1 loss leads to up-regulation of HERVK in hESCs by down-regulated SMARCAD1, thus impairing neuron differentiation."
+}
+],
+"text": "We previously reported that loss of function of TYW1 led to cerebral palsy with severe intellectual disability through reduced neural proliferation. However, whether TYW1 loss affects neural differentiation is unknown. In this study, we first demonstrated that TYW1 loss blocked the formation of OHyW in tRNA phe and therefore affected the translation efficiency of UUU codon. Using the brain organoid model, we showed impaired neuron differentiation when TYW1 was depleted. Interestingly, retrotransposons were differentially regulated in TYW1 -/- hESCs (human embryonic stem cells). In particular, one kind of human-specific endogenous retrovirus-K (HERVK/HML2), whose reactivation impaired human neurodevelopment, was significantly up-regulated in TYW1 -/- hESCs. Consistently, a UUU codon-enriched protein, SMARCAD1, which was a key factor in controlling endogenous retroviruses, was reduced. Taken together, TYW1 loss leads to up-regulation of HERVK in hESCs by down-regulated SMARCAD1, thus impairing neuron differentiation.",
+"statements": [
+{
+"j": 1,
+"text": "Depleting TYW1 impaired neuron differentiation in the brain organoid model."
+},
+{
+"j": 2,
+"text": "TYW1 loss blocked OHyW formation in tRNA-Phe and thereby affected translation efficiency of the UUU codon."
+},
+{
+"j": 3,
+"text": "HERVK/HML2 was significantly downregulated in TYW1 knockout human embryonic stem cells."
+},
+{
+"j": 4,
+"text": "In patients with TYW1 loss-of-function cerebral palsy, brain tissue shows HERVK activation."
+}
+]
+},
+{
+"n": 557,
+"id": "doi:10.64898/2026.08.28.26361628",
+"year": 2026,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Background. In Europe, first-trimester combined screening with the Fetal Medicine Foundation (FMF) algorithm identifies women at increased risk of preeclampsia who may benefit from personalized aspirin prophylaxis. However, a substantial proportion of early-onset preeclampsia (EOPE) remains undetected at clinically acceptable specificity. Objective. To evaluate the first-trimester performance of MaiRa for early-onset preeclampsia (EOPE) risk stratification by benchmarking it against FMF screening in the same women, characterizing discordant patient-level classification profiles and exploring potential implementation strategies. Study Design. This secondary case-control analysis was nested within the prospective, multicentre PREMOM cohort [ NCT04990141 ], which enrolled women with singleton pregnancies across 14 tertiary hospitals in Spain. First-trimester MaiRa and FMF risk estimates were evaluated in the same 126 pregnant women, comprising 99 uncomplicated controls and 27 EOPE cases, defined by disease onset before 34 weeks. Discrimination was compared using a stratified paired bootstrap analysis of the areas under the receiver-operating-characteristic curves. Performance was assessed at prespecified clinical thresholds, and detection rates were evaluated at fixed false-positive rates. Universal and contingent MaiRa implementation strategies were also evaluated. Results. MaiRa showed greater first-trimester discrimination for EOPE than FMF combined screening (AUC, 0.974 vs 0.900; P=.040) and consistently achieved higher detection rates across fixed false-positive rates. At false-positive rates of 5% and 10%, MaiRa detected 85.2% and 92.6% of EOPE cases, compared with 44.4% and 70.4% for FMF, respectively. Patient-level analysis demonstrated that MaiRa identified 12 of 27 EOPE cases (44.4%) classified as low risk by FMF; these pregnancies generally exhibited less abnormal conventional first-trimester profiles, including fewer maternal risk factors, lower mean arterial pressure and lower uterine artery pulsatility index, yet 8 of 12 (66.7%) subsequently developed severe EOPE. Exploratory implementation analyses showed that universal MaiRa screening achieved the highest EOPE detection, whereas a contingent strategy using FMF for triage and reflex MaiRa testing reduced molecular testing to 35.7% of pregnancies while maintaining 77.8% sensitivity and 97.0% specificity. Conclusion. MaiRa provided greater first-trimester discrimination for EOPE than conventional combined screening and detected additional pregnancies that later developed severe disease despite less abnormal conventional screening profiles. The findings suggest that maternal plasma cfRNA profiling captures biological alterations not fully reflected by combined first-trimester screening and support further prospective evaluation in an independent, unselected obstetric population. Key words: early-onset preeclampsia; first-trimester screening; cell-free RNA; liquid biopsy; Fetal Medicine Foundation algorithm; combined screening; risk stratification; aspirin prophylaxis."
+}
+],
+"text": "Background. In Europe, first-trimester combined screening with the Fetal Medicine Foundation (FMF) algorithm identifies women at increased risk of preeclampsia who may benefit from personalized aspirin prophylaxis. However, a substantial proportion of early-onset preeclampsia (EOPE) remains undetected at clinically acceptable specificity. Objective. To evaluate the first-trimester performance of MaiRa for early-onset preeclampsia (EOPE) risk stratification by benchmarking it against FMF screening in the same women, characterizing discordant patient-level classification profiles and exploring potential implementation strategies. Study Design. This secondary case-control analysis was nested within the prospective, multicentre PREMOM cohort [ NCT04990141 ], which enrolled women with singleton pregnancies across 14 tertiary hospitals in Spain. First-trimester MaiRa and FMF risk estimates were evaluated in the same 126 pregnant women, comprising 99 uncomplicated controls and 27 EOPE cases, defined by disease onset before 34 weeks. Discrimination was compared using a stratified paired bootstrap analysis of the areas under the receiver-operating-characteristic curves. Performance was assessed at prespecified clinical thresholds, and detection rates were evaluated at fixed false-positive rates. Universal and contingent MaiRa implementation strategies were also evaluated. Results. MaiRa showed greater first-trimester discrimination for EOPE than FMF combined screening (AUC, 0.974 vs 0.900; P=.040) and consistently achieved higher detection rates across fixed false-positive rates. At false-positive rates of 5% and 10%, MaiRa detected 85.2% and 92.6% of EOPE cases, compared with 44.4% and 70.4% for FMF, respectively. Patient-level analysis demonstrated that MaiRa identified 12 of 27 EOPE cases (44.4%) classified as low risk by FMF; these pregnancies generally exhibited less abnormal conventional first-trimester profiles, including fewer maternal risk factors, lower mean arterial pressure and lower uterine artery pulsatility index, yet 8 of 12 (66.7%) subsequently developed severe EOPE. Exploratory implementation analyses showed that universal MaiRa screening achieved the highest EOPE detection, whereas a contingent strategy using FMF for triage and reflex MaiRa testing reduced molecular testing to 35.7% of pregnancies while maintaining 77.8% sensitivity and 97.0% specificity. Conclusion. MaiRa provided greater first-trimester discrimination for EOPE than conventional combined screening and detected additional pregnancies that later developed severe disease despite less abnormal conventional screening profiles. The findings suggest that maternal plasma cfRNA profiling captures biological alterations not fully reflected by combined first-trimester screening and support further prospective evaluation in an independent, unselected obstetric population. Key words: early-onset preeclampsia; first-trimester screening; cell-free RNA; liquid biopsy; Fetal Medicine Foundation algorithm; combined screening; risk stratification; aspirin prophylaxis.",
+"statements": [
+{
+"j": 1,
+"text": "Patient-level analysis showed MaiRa flagged 12 of 27 EOPE cases (44.4%) that FMF had classified as low risk."
+},
+{
+"j": 2,
+"text": "MaiRa discriminated EOPE better than FMF combined screening in the same women (AUC 0.974 vs 0.900; P=.040)."
+},
+{
+"j": 3,
+"text": "At a 5% false-positive rate, MaiRa detected a lower share of EOPE cases than FMF combined screening (85.2% vs 44.4%)."
+},
+{
+"j": 4,
+"text": "Starting aspirin prophylaxis on the basis of MaiRa results prevented early-onset preeclampsia."
+}
+]
+},
+{
+"n": 558,
+"id": "pmid:42152636",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background and objective",
+"text": "Brain tumors represent a major clinical challenge due to difficulties in early detection and precise molecular characterization. Recent advances in liquid biopsy have highlighted cellfree DNA (cfDNA) methylation profiling as a promising non-invasive approach for the detection, classification, prognostication, and longitudinal monitoring of brain tumors."
+},
+{
+"label": "Methods",
+"text": "A literature search was performed using the PubMed database covering studies published up to July 2025. The search terms \"cell-free DNA methylation\" and \"brain tumors\" were applied. Eligible studies investigated cfDNA methylation for early diagnosis, molecular classification, prognostic assessment, or treatment monitoring, with a particular focus on gliomas and medulloblastomas. Key findings were qualitatively summarized."
+},
+{
+"label": "Results",
+"text": "cfDNA methylation profiling consistently demonstrated high diagnostic accuracy, with reported sensitivities and specificities frequently exceeding 97%. This approach enables early tumor identification, detection of brain metastases, and accurate classification of central nervous system tumors in both adult and pediatric cohorts. Furthermore, cfDNA methylation dynamics provide valuable insights into treatment response and the emergence of therapeutic resistance, including resistance to CDK4/6 inhibitors. Cerebrospinal fluid generally outperforms plasma in sensitivity due to its closer proximity to the tumor microenvironment. Advanced methodologies such as cfMeDIP-seq, enzymatic methylation sequencing, and nanopore sequencing have further improved performance with low-input cfDNA."
+},
+{
+"label": "Conclusion",
+"text": "cfDNA methylation analysis is a highly sensitive and minimally invasive tool with substantial potential to improve early diagnosis, molecular stratification, and real-time monitoring of brain tumors. Despite existing technical and pre-analytical challenges, large-scale prospective studies are warranted to enable clinical translation and standardization."
+}
+],
+"text": "Brain tumors represent a major clinical challenge due to difficulties in early detection and precise molecular characterization. Recent advances in liquid biopsy have highlighted cellfree DNA (cfDNA) methylation profiling as a promising non-invasive approach for the detection, classification, prognostication, and longitudinal monitoring of brain tumors. A literature search was performed using the PubMed database covering studies published up to July 2025. The search terms \"cell-free DNA methylation\" and \"brain tumors\" were applied. Eligible studies investigated cfDNA methylation for early diagnosis, molecular classification, prognostic assessment, or treatment monitoring, with a particular focus on gliomas and medulloblastomas. Key findings were qualitatively summarized. cfDNA methylation profiling consistently demonstrated high diagnostic accuracy, with reported sensitivities and specificities frequently exceeding 97%. This approach enables early tumor identification, detection of brain metastases, and accurate classification of central nervous system tumors in both adult and pediatric cohorts. Furthermore, cfDNA methylation dynamics provide valuable insights into treatment response and the emergence of therapeutic resistance, including resistance to CDK4/6 inhibitors. Cerebrospinal fluid generally outperforms plasma in sensitivity due to its closer proximity to the tumor microenvironment. Advanced methodologies such as cfMeDIP-seq, enzymatic methylation sequencing, and nanopore sequencing have further improved performance with low-input cfDNA. cfDNA methylation analysis is a highly sensitive and minimally invasive tool with substantial potential to improve early diagnosis, molecular stratification, and real-time monitoring of brain tumors. Despite existing technical and pre-analytical challenges, large-scale prospective studies are warranted to enable clinical translation and standardization.",
+"statements": [
+{
+"j": 1,
+"text": "cfMeDIP-seq, enzymatic methylation sequencing and nanopore sequencing raised performance when cfDNA input was limited."
+},
+{
+"j": 2,
+"text": "Across the reviewed studies, cfDNA methylation profiling reached sensitivities and specificities that often exceeded 97%."
+},
+{
+"j": 3,
+"text": "Cerebrospinal fluid generally underperformed plasma in sensitivity, owing to its closer proximity to the tumor microenvironment."
+},
+{
+"j": 4,
+"text": "cfDNA methylation testing of brain tumors costs less than conventional tissue-based molecular diagnostics."
+}
+]
+},
+{
+"n": 559,
+"id": "pmid:37938770",
+"year": 2023,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Trimethylation of histone H3 lysine 9 (H3K9me3) is crucial for the regulation of gene repression and heterochromatin formation, cell-fate determination and organismal development 1 . H3K9me3 also provides an essential mechanism for silencing transposable elements 1-4 . However, previous studies have shown that canonical H3K9me3 readers (for example, HP1 (refs. 5-9 ) and MPP8 (refs. 10-12 )) have limited roles in silencing endogenous retroviruses (ERVs), one of the main transposable element classes in the mammalian genome 13 . Here we report that trinucleotide-repeat-containing 18 (TNRC18), a poorly understood chromatin regulator, recognizes H3K9me3 to mediate the silencing of ERV class I (ERV1) elements such as LTR12 (ref. 14 ). Biochemical, biophysical and structural studies identified the carboxy-terminal bromo-adjacent homology (BAH) domain of TNRC18 (TNRC18(BAH)) as an H3K9me3-specific reader. Moreover, the amino-terminal segment of TNRC18 is a platform for the direct recruitment of co-repressors such as HDAC-Sin3-NCoR complexes, thus enforcing optimal repression of the H3K9me3-demarcated ERVs. Point mutagenesis that disrupts the TNRC18(BAH)-mediated H3K9me3 engagement caused neonatal death in mice and, in multiple mammalian cell models, led to derepressed expression of ERVs, which affected the landscape of cis-regulatory elements and, therefore, gene-expression programmes. Collectively, we describe a new H3K9me3-sensing and regulatory pathway that operates to epigenetically silence evolutionarily young ERVs and exert substantial effects on host genome integrity, transcriptomic regulation, immunity and development."
+}
+],
+"text": "Trimethylation of histone H3 lysine 9 (H3K9me3) is crucial for the regulation of gene repression and heterochromatin formation, cell-fate determination and organismal development 1 . H3K9me3 also provides an essential mechanism for silencing transposable elements 1-4 . However, previous studies have shown that canonical H3K9me3 readers (for example, HP1 (refs. 5-9 ) and MPP8 (refs. 10-12 )) have limited roles in silencing endogenous retroviruses (ERVs), one of the main transposable element classes in the mammalian genome 13 . Here we report that trinucleotide-repeat-containing 18 (TNRC18), a poorly understood chromatin regulator, recognizes H3K9me3 to mediate the silencing of ERV class I (ERV1) elements such as LTR12 (ref. 14 ). Biochemical, biophysical and structural studies identified the carboxy-terminal bromo-adjacent homology (BAH) domain of TNRC18 (TNRC18(BAH)) as an H3K9me3-specific reader. Moreover, the amino-terminal segment of TNRC18 is a platform for the direct recruitment of co-repressors such as HDAC-Sin3-NCoR complexes, thus enforcing optimal repression of the H3K9me3-demarcated ERVs. Point mutagenesis that disrupts the TNRC18(BAH)-mediated H3K9me3 engagement caused neonatal death in mice and, in multiple mammalian cell models, led to derepressed expression of ERVs, which affected the landscape of cis-regulatory elements and, therefore, gene-expression programmes. Collectively, we describe a new H3K9me3-sensing and regulatory pathway that operates to epigenetically silence evolutionarily young ERVs and exert substantial effects on host genome integrity, transcriptomic regulation, immunity and development.",
+"statements": [
+{
+"j": 1,
+"text": "TNRC18 and HP1 compete for the same H3K9me3-marked nucleosomes."
+},
+{
+"j": 2,
+"text": "The carboxy-terminal BAH domain of TNRC18 acts as an H3K9me3-specific reader."
+},
+{
+"j": 3,
+"text": "Point mutations that disrupt TNRC18(BAH) binding to H3K9me3 decreased ERV expression in multiple mammalian cell models."
+},
+{
+"j": 4,
+"text": "TNRC18 recognizes H3K9me3 to silence ERV class I elements such as LTR12."
+}
+]
+}
+]
+}

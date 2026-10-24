@@ -1,0 +1,107 @@
+{
+ "batch": "gen_100",
+ "prompt_version": "gen-v5",
+ "flip_rule": "first-of-any-v3",
+ "items": [
+  {
+   "n": 1645,
+   "id": "pmid:29930091",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "BRD4 and MED1, coactivators enriched at super-enhancers, formed nuclear puncta at super-enhancers showing properties of liquid-like condensates.", "evidence": "the SE-enriched transcriptional coactivators BRD4 and MED1 form nuclear puncta at SEs that exhibit properties of liquid-like condensates", "note": "The abstract reports these SE-enriched coactivators form condensate-like puncta at super-enhancers."},
+    {"k": 2, "label": "not_addressed", "text": "In cancer cells, drugs that dissolve these condensates shrink tumors by shutting off oncogenic super-enhancers.", "evidence": "are disrupted by chemicals that perturb condensates.", "note": "The abstract shows chemicals disrupt condensates generally but never studies cancer cells, tumors, or oncogenic super-enhancers."},
+    {"k": 3, "label": "supported", "text": "The intrinsically disordered regions of BRD4 and MED1 formed phase-separated droplets, and MED1-IDR droplets concentrated the transcription apparatus from nuclear extracts.", "evidence": "The intrinsically disordered regions (IDRs) of BRD4 and MED1 can form phase-separated droplets, and MED1-IDR droplets can compartmentalize and concentrate the transcription apparatus from nuclear extracts.", "note": "The abstract reports the IDRs form droplets and MED1-IDR droplets concentrate the transcription apparatus."},
+    {"k": 4, "label": "supported", "text": "Chemicals that perturb condensates disrupted the nuclear puncta that BRD4 and MED1 formed at super-enhancers.", "evidence": "form nuclear puncta at SEs that exhibit properties of liquid-like condensates and are disrupted by chemicals that perturb condensates", "note": "The abstract states the puncta are disrupted by condensate-perturbing chemicals."}
+   ]
+  },
+  {
+   "n": 1646,
+   "id": "pmid:28636597",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "Drosophila HP1a protein underwent liquid-liquid demixing in vitro and nucleated into foci with liquid properties during early heterochromatin domain formation in Drosophila embryos.", "evidence": "Drosophila HP1a protein undergoes liquid-liquid demixing in vitro, and nucleates into foci that display liquid properties during the first stages of heterochromatin domain formation in early Drosophila embryos.", "note": "The abstract reports HP1a demixing in vitro and forming liquid foci in early embryos."},
+    {"k": 2, "label": "supported", "text": "At the domain boundary, heterochromatin domains in Drosophila and mammalian cells showed reduced diffusion and excluded inert probes.", "evidence": "reduced diffusion, increased coordinated movement and inert probe exclusion at the domain boundary", "note": "The abstract lists reduced diffusion and inert probe exclusion at the domain boundary."},
+    {"k": 3, "label": "not_addressed", "text": "Disrupting HP1a phase separation reactivates transposons that are silenced in Drosophila embryos.", "evidence": "silencing of transposon and gene expression.", "note": "The abstract names transposon silencing as a heterochromatin role but never tests transposon reactivation after disrupting phase separation."},
+    {"k": 4, "label": "supported", "text": "The study concluded heterochromatic domains form through phase separation and mature into a structure containing both liquid and stable compartments.", "evidence": "heterochromatic domains form via phase separation, and mature into a structure that includes liquid and stable compartments.", "note": "The abstract concludes domains form via phase separation and mature into liquid and stable compartments."}
+   ]
+  },
+  {
+   "n": 1647,
+   "id": "pmid:28636604",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "The study identified a new property of the human HP1α protein: its ability to form phase-separated droplets.", "evidence": "Here we identify a new property of the human HP1α protein: the ability to form phase-separated droplets.", "note": "The abstract reports the newly identified property that human HP1α forms phase-separated droplets."},
+    {"k": 2, "label": "not_addressed", "text": "HP1α droplets must dissolve before a cell can enter mitosis.", "evidence": "which are dissolved or formed by specific ligands on the basis of nuclear context.", "note": "The abstract says ligands dissolve or form droplets by nuclear context but never links droplet dissolution to mitosis."},
+    {"k": 3, "label": "supported", "text": "Although unmodified HP1α stayed soluble, phosphorylating its N-terminal extension or DNA binding promoted phase-separated droplet formation.", "evidence": "While unmodified HP1α is soluble, either phosphorylation of its N-terminal extension or DNA binding promotes the formation of phase-separated droplets.", "note": "The abstract reports phosphorylation or DNA binding promotes HP1α droplet formation while unmodified HP1α stays soluble."},
+    {"k": 4, "label": "supported", "text": "Nucleosomes and DNA preferentially partitioned into HP1α droplets, whereas the transcription factor TFIIB showed no preference.", "evidence": "Known components of heterochromatin such as nucleosomes and DNA preferentially partition into the HP1α droplets, but molecules such as the transcription factor TFIIB show no preference.", "note": "The abstract reports nucleosomes and DNA, but not TFIIB, partition into HP1α droplets."}
+   ]
+  },
+  {
+   "n": 1648,
+   "id": "pmid:31784727",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "A simple activity-by-contact model substantially outperformed previous methods at predicting enhancer-gene connections in the CRISPR dataset.", "evidence": "We found that a simple activity-by-contact model substantially outperformed previous methods at predicting the complex connections in our CRISPR dataset.", "note": "The abstract reports the activity-by-contact model outperformed previous prediction methods."},
+    {"k": 2, "label": "supported", "text": "Using CRISPRi-FlowFISH, the team tested over 3,500 candidate enhancer-gene connections spanning 30 genes.", "evidence": "we applied it to test >3,500 potential enhancer-gene connections for 30 genes.", "note": "The abstract reports testing over 3,500 potential enhancer-gene connections for 30 genes."},
+    {"k": 3, "label": "not_addressed", "text": "The activity-by-contact model's predictions were confirmed in living animal tissue.", "evidence": "This activity-by-contact model allows us to construct genome-wide maps of enhancer-gene connections in a given cell type, on the basis of chromatin state measurements.", "note": "The abstract describes mapping within cell types but never reports validation in living animal tissue."},
+    {"k": 4, "label": "supported", "text": "The activity-by-contact model builds genome-wide maps of enhancer-gene connections for a given cell type from chromatin state measurements.", "evidence": "This activity-by-contact model allows us to construct genome-wide maps of enhancer-gene connections in a given cell type, on the basis of chromatin state measurements.", "note": "The abstract states the model constructs genome-wide enhancer-gene maps from chromatin state data."}
+   ]
+  },
+  {
+   "n": 1649,
+   "id": "pmid:31543265",
+   "statements": [
+    {"k": 1, "label": "not_addressed", "text": "Linker histone H1 levels determine how aggressively tumor cells proliferate.", "evidence": "Linker histone H1 and internucleosome linker lengths shared across eukaryotes promote phase separation of chromatin, tune droplet properties", "note": "The abstract ties H1 to chromatin phase separation but never discusses tumor cell proliferation."},
+    {"k": 2, "label": "supported", "text": "Histone acetylation by p300 antagonized chromatin phase separation, dissolving droplets in vitro and decreasing droplet formation inside nuclei.", "evidence": "Histone acetylation by p300 antagonizes chromatin phase separation, dissolving droplets in vitro and decreasing droplet formation in nuclei.", "note": "The abstract reports p300 acetylation antagonizes phase separation and decreases droplet formation in nuclei."},
+    {"k": 3, "label": "supported", "text": "Reconstituted chromatin underwent histone tail-driven liquid-liquid phase separation in physiologic salt and when microinjected into nuclei, forming dense dynamic droplets.", "evidence": "reconstituted chromatin undergoes histone tail-driven liquid-liquid phase separation (LLPS) in physiologic salt and when microinjected into cell nuclei, producing dense and dynamic droplets.", "note": "The abstract reports reconstituted chromatin phase-separates in physiologic salt and in nuclei, making droplets."},
+    {"k": 4, "label": "supported", "text": "With multi-bromodomain proteins such as BRD4, highly acetylated chromatin formed a distinct phase-separated state immiscible with unmodified chromatin droplets.", "evidence": "highly acetylated chromatin forms a new phase-separated state with droplets of distinct physical properties, which can be immiscible with unmodified chromatin droplets", "note": "The abstract reports highly acetylated chromatin with BRD4 forms a distinct state immiscible with unmodified chromatin droplets."}
+   ]
+  },
+  {
+   "n": 1650,
+   "id": "pmid:29022598",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "The survey integrated over 5,500 bulk transcriptomes from 449 individuals across 29 GTEx tissues plus 940 single-cell transcriptomes.", "evidence": "integrating over 5,500 transcriptomes from 449 individuals spanning 29 tissues from GTEx (v6p release) and 940 single-cell transcriptomes", "note": "The abstract reports integrating over 5,500 transcriptomes from 449 individuals across 29 tissues plus 940 single-cell transcriptomes."},
+    {"k": 2, "label": "supported", "text": "XCI at 683 X-chromosomal genes was generally uniform across human tissues, though heterogeneity appeared between tissues, individuals and cells.", "evidence": "XCI at 683 X-chromosomal genes is generally uniform across human tissues, but identify examples of heterogeneity between tissues, individuals and cells.", "note": "The abstract reports XCI at 683 genes is generally uniform across tissues, with some heterogeneity."},
+    {"k": 3, "label": "supported", "text": "Incomplete X-inactivation affected more than a fifth of X-chromosomal genes, at least 23% by the study's count.", "evidence": "incomplete XCI affects at least 23% of X-chromosomal genes", "note": "The abstract reports incomplete XCI affects at least 23% of X-chromosomal genes, more than a fifth."},
+    {"k": 4, "label": "not_addressed", "text": "Genes that escape X-inactivation cluster on the short arm of the X chromosome.", "evidence": "identify seven genes that escape XCI with support from multiple lines of evidence", "note": "The abstract identifies seven escaping genes but never describes their chromosomal location."}
+   ]
+  },
+  {
+   "n": 1651,
+   "id": "pmid:29335486",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "The study found eight DNA motifs concentrated at boundaries, including one bound by M1BP and two newly described boundary motifs.", "evidence": "We identify eight DNA motifs enriched at boundaries, including a motif bound by the M1BP protein, and two new boundary motifs.", "note": "The abstract reports eight boundary-enriched DNA motifs, including an M1BP motif and two new ones."},
+    {"k": 2, "label": "supported", "text": "Using HiCExplorer, the study annotated over 2,800 high-resolution TAD boundaries, each mapped at 570 bp, in Drosophila melanogaster.", "evidence": "to annotate >2800 high-resolution (570 bp) TAD boundaries in Drosophila melanogaster.", "note": "The abstract reports annotating over 2,800 TAD boundaries at 570 bp resolution in Drosophila."},
+    {"k": 3, "label": "supported", "text": "In contrast to mammals, the CTCF motif was enriched at only a small fraction of Drosophila boundaries flanking inactive chromatin.", "evidence": "In contrast to mammals, the CTCF motif is only enriched on a small fraction of boundaries flanking inactive chromatin", "note": "The abstract reports that, unlike mammals, CTCF is enriched at only a small fraction of fly boundaries."},
+    {"k": 4, "label": "not_addressed", "text": "Deleting the M1BP motif abolishes TAD boundaries in Drosophila.", "evidence": "a motif bound by the M1BP protein", "note": "The abstract links the M1BP motif to boundaries but never deletes it to test boundary loss."}
+   ]
+  },
+  {
+   "n": 1652,
+   "id": "pmid:29224777",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "YY1 bound active enhancers and promoter-proximal elements and formed dimers that facilitated interaction between these DNA elements.", "evidence": "YY1 binds to active enhancers and promoter-proximal elements and forms dimers that facilitate the interaction of these DNA elements.", "note": "The abstract reports YY1 binds enhancers and promoter-proximal elements and dimerizes to bring them together."},
+    {"k": 2, "label": "not_addressed", "text": "YY1-mediated enhancer-promoter loops are required for embryonic stem cell differentiation.", "evidence": "We propose that YY1-mediated enhancer-promoter interactions are a general feature of mammalian gene control.", "note": "The abstract calls YY1 looping a general feature of mammalian gene control but never studies stem cell differentiation."},
+    {"k": 3, "label": "supported", "text": "Large DNA loops depend on CTCF-CTCF interactions, but most enhancer-promoter contacts form without this structural protein.", "evidence": "Large DNA loops that encompass genes and their regulatory elements depend on CTCF-CTCF interactions, but most enhancer-promoter interactions do not employ this structural protein.", "note": "The abstract states most enhancer-promoter interactions, unlike large DNA loops, do not use CTCF."},
+    {"k": 4, "label": "supported", "text": "Deleting YY1 binding sites or depleting YY1 protein disrupted enhancer-promoter looping and gene expression.", "evidence": "Deletion of YY1 binding sites or depletion of YY1 protein disrupts enhancer-promoter looping and gene expression.", "note": "The abstract reports that removing YY1 sites or protein disrupts enhancer-promoter looping and gene expression."}
+   ]
+  },
+  {
+   "n": 1653,
+   "id": "pmid:31753851",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "Biochemical reconstitution showed single human cohesin complexes form DNA loops symmetrically at rates up to 2.1 kilobase pairs per second.", "evidence": "we found that single human cohesin complexes form DNA loops symmetrically at rates up to 2.1 kilo-base pairs per second.", "note": "The abstract reports single cohesin complexes extrude loops symmetrically at up to 2.1 kb per second."},
+    {"k": 2, "label": "not_addressed", "text": "Cohesin extrudes DNA loops faster than condensin does.", "evidence": "Such an activity has been observed for condensin, which forms loops in mitosis, but not for cohesin.", "note": "The abstract gives cohesin's extrusion rate but never measures condensin's rate or compares their speeds."},
+    {"k": 3, "label": "supported", "text": "Loop formation and maintenance required cohesin's ATPase activity and NIPBL-MAU2, but not topological entrapment of DNA by cohesin.", "evidence": "Loop formation and maintenance depend on cohesin's ATPase activity and on NIPBL-MAU2, but not on topological entrapment of DNA by cohesin.", "note": "The abstract reports loop formation needs cohesin's ATPase and NIPBL-MAU2 but not topological DNA entrapment."},
+    {"k": 4, "label": "supported", "text": "During loop formation, cohesin and NIPBL-MAU2 sat at the base of loops, indicating they generate loops by extrusion.", "evidence": "During loop formation, cohesin and NIPBL-MAU2 reside at the base of loops, which indicates that they generate loops by extrusion.", "note": "The abstract reports cohesin and NIPBL-MAU2 reside at loop bases, indicating loop extrusion."}
+   ]
+  },
+  {
+   "n": 1654,
+   "id": "pmid:29217591",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "Removing WAPL and PDS5 proteins led cohesin to form extended loops, accumulate in axial positions called vermicelli, and condense chromosomes.", "evidence": "In the absence of WAPL and PDS5 proteins, cohesin forms extended loops, presumably by passing CTCF sites, accumulates in axial chromosomal positions (vermicelli), and condenses chromosomes.", "note": "The abstract reports that without WAPL and PDS5, cohesin makes extended loops, forms vermicelli, and condenses chromosomes."},
+    {"k": 2, "label": "supported", "text": "Cohesin suppressed compartments yet was required for TADs and loops, while CTCF defined their boundaries.", "evidence": "cohesin suppresses compartments but is required for TADs and loops, that CTCF defines their boundaries", "note": "The abstract reports cohesin suppresses compartments but is needed for TADs and loops, with CTCF setting boundaries."},
+    {"k": 3, "label": "not_addressed", "text": "The amount of cohesin loaded onto DNA sets the number of TADs per chromosome.", "evidence": "cohesin suppresses compartments but is required for TADs and loops", "note": "The abstract shows cohesin is required for TADs but never relates cohesin dosage to the number of TADs."},
+    {"k": 4, "label": "supported", "text": "The cohesin unloading factor WAPL and its PDS5 binding partners controlled the length of chromatin loops.", "evidence": "the cohesin unloading factor WAPL and its PDS5 binding partners control the length of loops.", "note": "The abstract reports WAPL and PDS5 control loop length."}
+   ]
+  }
+ ]
+}

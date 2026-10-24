@@ -1,0 +1,73 @@
+{"batch": "check_C_111", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1755, "id": "pmid:28608850",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The elimination of senescent cells by suicide gene-meditated ablation of p16 Ink4a -expressing senescent cells in INK-ATTAC mice or by treatment with a combination of the senolytic drugs dasatinib and quercetin (D+Q) reduces overall hepatic steatosis"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "mitochondria in senescent cells lose the ability to metabolize fatty acids efficiently"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We report a close correlation between hepatic fat accumulation and markers of hepatocyte senescence"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "elimination of senescent cells may be a novel therapeutic strategy to reduce steatosis"}
+    ]},
+   {"n": 1756, "id": "pmid:37532932",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Cytosolic DNA released from perturbed mitochondria elicits cGAS activity in old microglia"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Blockade of STING suppresses the inflammatory phenotypes of senescent human cells and tissues, attenuates ageing-related inflammation in multiple peripheral organs and the brain in mice"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "activation of STING triggers reactive microglial transcriptional states, neurodegeneration and cognitive decline"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "blockade of cGAS-STING signalling as a potential strategy to halt neurodegenerative processes during old age"}
+    ]},
+   {"n": 1757, "id": "pmid:27048913",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "senescent cells upregulate the anti-apoptotic proteins BCL-W and BCL-XL"},
+      {"j": 2, "label": "not_addressed", "confidence": 2, "evidence": "treatment of mice with ABT-737 efficiently eliminates senescent cells induced by DNA damage in the lungs as well as senescent cells formed in the epidermis by activation of p53 through transgenic p14(ARF)", "flag": "ambiguous", "reason": "The abstract states elimination in lungs and epidermis but makes no comparison of effectiveness between the two sites."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Elimination of senescent cells from the epidermis leads to an increase in hair-follicle stem cell proliferation"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Joint inhibition of BCL-W and BCL-XL by siRNAs or the small-molecule ABT-737 specifically induces apoptosis in senescent cells"}
+    ]},
+   {"n": 1758, "id": "pmid:35835107",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 2, "evidence": "Ox-mtDNA fragments also activated cGAS-STING signaling and gave rise to pro-inflammatory extracellular DNA", "flag": "ambiguous", "reason": "The abstract notes pro-inflammatory extracellular DNA but does not state inflammation was triggered in neighbouring unstressed cells."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "cleaved by the endonuclease FEN1 to 500-650 bp fragments that exited mitochondria via mPTP- and VDAC-dependent channels to initiate cytosolic NLRP3 inflammasome activation"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "FEN1 inhibitors that suppressed interleukin-1β (IL-1β) production and mtDNA release in mice"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "diverse NLRP3 inflammasome activators rapidly stimulated uniporter-mediated calcium uptake to open mitochondrial permeability transition pores (mPTP) and trigger VDAC oligomerization. This occurred independently of mtDNA or reactive oxygen species"}
+    ]},
+   {"n": 1759, "id": "pmid:28483762",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "the highly prevalent CH we detect associates with increased mortality rates, risk for hematological malignancy, smoking behavior, telomere length, Y-chromosome loss"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "we find a germline deletion in intron 3 of the telomerase reverse transcriptase ( TERT ) gene that predisposes to CH (rs34002450; P = 7.4 × 10 -12 ; odds ratio, 1.37)"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Using whole-genome sequencing of 11 262 Icelanders, we found 1403 cases of CH by using barcodes of mosaic somatic mutations in peripheral blood"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "known CD mutations were evident in only a fraction of CH cases"}
+    ]},
+   {"n": 1760, "id": "pmid:27546487",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "These clonal mutations are often stable longitudinally and present in multiple haematopoietic compartments, suggesting a long-lived haematopoietic stem and progenitor cell of origin"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "here we develop methods for targeted error-corrected sequencing, which enable the accurate detection of clonal mutations as rare as 0.0003 VAF"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We observe clonal haematopoiesis, frequently harbouring mutations in DNMT3A and TET2, in 95% of individuals studied"},
+      {"j": 4, "label": "contradicted", "confidence": 2, "evidence": "Recent studies, utilizing next-generation sequencing (NGS), observed haematopoietic clones in 10% of 70-year olds and rarely in younger individuals", "flag": "ambiguous", "reason": "The abstract frames these NGS studies as prior/recent work motivating the method, so calling them 'Later' reverses the temporal order."}
+    ]},
+   {"n": 1761, "id": "pmid:33271118",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "These results identify GZMK + Taa cells as a potential target to address age-associated dysfunctions of the immune system"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "proportions of the circulating GZMK + CD8 + T cell population that shares transcriptional and epigenetic signatures with mouse Taa cells increased during healthy aging"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "identified a subpopulation of age-associated granzyme K (GZMK)-expressing CD8 + T (Taa) cells that are distinct from T effector memory (Tem) cells"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Activated Taa cells were the primary source of GZMK, which enhanced inflammatory functions of non-immune cells"}
+    ]},
+   {"n": 1762, "id": "pmid:37024597",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 2, "evidence": "Advanced body age associates with several lifestyle and environmental factors, leukocyte telomere lengths and mortality risk", "flag": "ambiguous", "reason": "The abstract reports an association with lifestyle factors but no intervention changing lifestyle to slow aging."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We report organ age profiles for 16 chronic diseases, where advanced biological aging extends from the organ of primary disease to multiple systems"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "predicts survival time (area under the curve of 0.77) and premature death (area under the curve of 0.86)"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we establish normative models of biological age for three brain and seven body systems"}
+    ]},
+   {"n": 1763, "id": "pmid:29432122",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 2, "evidence": "This intrinsic mechanism of inflammasome signal shutdown offers a molecular basis for the transient nature, and coordinated timing, of inflammasome-dependent inflammatory responses", "flag": "ambiguous", "reason": "The abstract does not mention interleukin-1β or infection specifically."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Further p33/p10 autoprocessing occurs with kinetics specified by inflammasome size and cell type"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "releases p20/p10 from the inflammasome, whereupon the tetramer becomes unstable in cells and protease activity is terminated"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "the dominant species of active caspase-1 dimers elicited by inflammasomes are in fact full-length p46 and a transient species, p33/p10"}
+    ]},
+   {"n": 1764, "id": "pmid:34888528",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "aging endothelial cells in human and mice show loss of function, cellular senescence and hallmark phenotypes of arterial stiffness, all of which are reversed by silencing CXCL9"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "From the blood immunome of 1,001 individuals aged 8-96 years, we developed a deep-learning method based on patterns of systemic age-related inflammation"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "aging endothelial cells in human and mice show loss of function, cellular senescence and hallmark phenotypes of arterial stiffness, all of which are reversed by silencing CXCL9"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The strongest contributor to iAge was the chemokine CXCL9"}
+    ]}
+ ]}

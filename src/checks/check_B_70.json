@@ -1,0 +1,63 @@
+{"batch": "check_B_70", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+  {"n": 1345, "id": "pmid:37407818", "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Therapy-induced A3A promotes the formation of double-strand DNA breaks, increasing genomic instability in drug-tolerant persisters."},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Here we report that lung cancer targeted therapies commonly used in the clinic can induce cytidine deaminase APOBEC3A (A3A)"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "lung cancer targeted therapies commonly used in the clinic can induce cytidine deaminase APOBEC3A (A3A), leading to sustained mutagenesis in drug-tolerant cancer cells persisting during therapy"},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "APOBEC mutational signatures are enriched in tumours from patients with lung cancer who progressed after extended responses to targeted therapies."}
+  ]},
+  {"n": 1346, "id": "pmid:38200255", "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "small variants were present in 94% of cases and copy number aberrations in at least one gene in 58% of cases"},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "The linkage of WGS and longitudinal life course clinical data allowed the assessment of treatment outcomes for patients stratified according to pangenomic markers."},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "sarcoma demonstrated the highest occurrence of actionable structural variants (13%)"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Homologous recombination deficiency was identified in 40% of high-grade serous ovarian cancer cases with 30% linked to pathogenic germline variants"}
+  ]},
+  {"n": 1347, "id": "pmid:37380777", "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "rates of arm-level copy-number alterations are most highly correlated with their effects on cellular fitness"},
+    {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "These loci were significantly enriched for known cancer driver genes, including genes not detected through analysis of focal copy-number events"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "BISCUT identified the helicase-encoding gene WRN as a haploinsufficient tumour-suppressor gene on chromosome 8p, which is supported by several lines of evidence."},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We also formally quantified the role of selection and mechanical biases in driving aneuploidy, finding that rates of arm-level copy-number alterations are most highly correlated with their effects on cellular fitness"}
+  ]},
+  {"n": 1348, "id": "pmid:37084736", "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Patients who develop metastasis are younger and male, with primary tumors enriched in micropapillary or solid histological subtypes"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "Inactivation of TP53, SMARCA4, and CDKN2A are correlated with a site-specific shorter time to metastasis."},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "with primary tumors enriched in micropapillary or solid histological subtypes"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Only 4% of metastases harbor therapeutically actionable alterations undetected in their matched primaries."}
+  ]},
+  {"n": 1349, "id": "pmid:38744975", "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "They correlate with heightened risk of infection, death and hematological malignancy"},
+    {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "We identify 17 additional genes, ZBTB33, ZNF318, ZNF234, SPRED2, SH2B3, SRCAP, SIK3, SRSF1, CHEK2, CCDC115, CCL22, BAX, YLPM1, MYD88, MTA2, MAGEC3 and IGLL5, under positive selection at a population level"},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "They correlate with heightened risk of infection, death and hematological malignancy, highlighting the significance of these additional genes in the aging process."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "validate this selection pattern in 10,837 whole genomes from single-cell-derived hematopoietic colonies"}
+  ]},
+  {"n": 1350, "id": "pmid:38471458", "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "patients with colibactin-induced mutations are diagnosed at a younger age"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "All strains, including EcN, display varying levels of mutagenic activity."},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "E. coli Nissle 1917 (EcN) remains a commonly used probiotic, despite harboring the pks operon and inducing double strand DNA breaks."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "12% of CRC genomes and even in whole exome sequencing data"}
+  ]},
+  {"n": 1351, "id": "pmid:37258665", "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "TP53 loss elicited progressive aneuploidy, including copy number alterations and structural variants prevalent in gastric cancers, with evident preferred orders."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "high-throughput lineage tracing with expressed cellular barcodes demonstrates reproducible dynamics whereby initially rare subclones with shared transcriptional programmes repeatedly attain clonal dominance"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "Longitudinal single-cell sequencing of TP53-deficient gastric organoids similarly indicates progression towards malignant transcriptional programmes."},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Here we model occult preneoplasia by biallelic inactivation of TP53, a common early event in gastric cancer, in human gastric organoids."}
+  ]},
+  {"n": 1352, "id": "pmid:36702933", "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "which is highly relevant for understanding tumor biology and enabling future research in defining biomarkers of treatment response"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "we analyze single base substitutions and small insertions and deletions in pediatric cancers encompassing 785 whole-genome sequenced tumors from 27 molecularly defined cancer subtypes"},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We identified only a small number of mutational signatures active in pediatric cancers, compared with previously analyzed adult cancers."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "In pediatric leukemias, we identified an indel signature, not previously reported, characterized by long insertions in nonrepeat regions, affecting mainly intronic and intergenic regions"}
+  ]},
+  {"n": 1353, "id": "pmid:38412093", "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "have a higher burden of mutations than other thyroid cancers, with distinct mutational signatures and molecular subtypes"},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "different cancer driver genes are mutated in anaplastic and differentiated thyroid carcinomas, even those arising in a single patient"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "anaplastic thyroid carcinomas share a genomic origin with co-occurring differentiated carcinomas and emerge from a common malignant field through acquisition of characteristic clonal driver mutations."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "We sequenced tumor DNA from 329 regions of thyroid cancer, including 213 from patients with primary anaplastic thyroid carcinomas."}
+  ]},
+  {"n": 1354, "id": "pmid:37165191", "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "we tracked micronucleated chromosomes with live-cell imaging and show that acentric fragments cluster in close spatial proximity throughout mitosis for asymmetric inheritance by a single daughter cell"},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "the CIP2A-TOPBP1 complex prematurely associates with DNA lesions within ruptured micronuclei during interphase, which poises pulverized chromosomes for clustering upon mitotic entry"},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "revealed clusters of DNA copy-number-neutral rearrangements-termed balanced chromothripsis-across diverse tumour types resulting in the acquisition of known cancer driver events"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Inactivation of CIP2A-TOPBP1 caused acentric fragments to disperse throughout the mitotic cytoplasm, stochastically partition into the nucleus of both daughter cells and aberrantly misaccumulate as cytoplasmic DNA."}
+  ]}
+ ]}

@@ -1,0 +1,327 @@
+{
+"batch": "check_A_60",
+"pass": "A",
+"source_batch": "gen_60",
+"items": [
+{
+"n": 1252,
+"id": "pmid:37823232",
+"year": 2023,
+"field": "evodevo",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Neural crest cells generate numerous derivatives, including pigment cells, and are a model for studying how fate specification from multipotent progenitors is controlled. In mammals, the core gene regulatory network for melanocytes (their only pigment cell type) contains three transcription factors, Sox10, Pax3 and Mitf, with the latter considered a master regulator of melanocyte development. In teleosts, which have three to four pigment cell types (melanophores, iridophores and xanthophores, plus leucophores e.g. in medaka), gene regulatory networks governing fate specification are poorly understood, although Mitf function is considered conserved. Here, we show that the regulatory relationships between Sox10, Pax3 and Mitf are conserved in zebrafish, but the role for Mitf is more complex than previously emphasized, affecting xanthophore development too. Similarly, medaka Mitf is necessary for melanophore, xanthophore and leucophore formation. Furthermore, expression patterns and mutant phenotypes of pax3 and pax7 suggest that Pax3 and Pax7 act sequentially, activating mitf expression. Pax7 modulates Mitf function, driving co-expressing cells to differentiate as xanthophores and leucophores rather than melanophores. We propose that pigment cell fate specification should be considered to result from the combinatorial activity of Mitf with other transcription factors."
+}
+],
+"text": "Neural crest cells generate numerous derivatives, including pigment cells, and are a model for studying how fate specification from multipotent progenitors is controlled. In mammals, the core gene regulatory network for melanocytes (their only pigment cell type) contains three transcription factors, Sox10, Pax3 and Mitf, with the latter considered a master regulator of melanocyte development. In teleosts, which have three to four pigment cell types (melanophores, iridophores and xanthophores, plus leucophores e.g. in medaka), gene regulatory networks governing fate specification are poorly understood, although Mitf function is considered conserved. Here, we show that the regulatory relationships between Sox10, Pax3 and Mitf are conserved in zebrafish, but the role for Mitf is more complex than previously emphasized, affecting xanthophore development too. Similarly, medaka Mitf is necessary for melanophore, xanthophore and leucophore formation. Furthermore, expression patterns and mutant phenotypes of pax3 and pax7 suggest that Pax3 and Pax7 act sequentially, activating mitf expression. Pax7 modulates Mitf function, driving co-expressing cells to differentiate as xanthophores and leucophores rather than melanophores. We propose that pigment cell fate specification should be considered to result from the combinatorial activity of Mitf with other transcription factors.",
+"statements": [
+{
+"j": 1,
+"text": "Pax7 steers cells that co-express it with Mitf toward xanthophore and leucophore identity rather than melanophore identity."
+},
+{
+"j": 2,
+"text": "Iridophore development in zebrafish requires Pax7."
+},
+{
+"j": 3,
+"text": "In medaka, all three pigment cell types, melanophores, xanthophores and leucophores, fail to form without functional Mitf."
+},
+{
+"j": 4,
+"text": "In zebrafish the regulatory links among Sox10, Pax3 and Mitf are divergent, and Mitf additionally shapes xanthophore development."
+}
+]
+},
+{
+"n": 1253,
+"id": "pmid:35049502",
+"year": 2022,
+"field": "evodevo",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Gene regulatory networks coordinate the formation of organs and structures that compose the evolving body plans of different organisms. We are using a simple chordate model, the Ciona embryo, to investigate the essential gene regulatory network that orchestrates morphogenesis of the notochord, a structure necessary for the proper development of all chordate embryos. Although numerous transcription factors expressed in the notochord have been identified in different chordates, several of them remain to be positioned within a regulatory framework. Here, we focus on Xbp1, a transcription factor expressed during notochord formation in Ciona and other chordates. Through the identification of Xbp1-downstream notochord genes in Ciona , we found evidence of the early co-option of genes involved in the unfolded protein response to the notochord developmental program. We report the regulatory interplay between Xbp1 and Brachyury, and by extending these results to Xenopus , we show that Brachyury and Xbp1 form a cross-regulatory subcircuit of the notochord gene regulatory network that has been consolidated during chordate evolution."
+}
+],
+"text": "Gene regulatory networks coordinate the formation of organs and structures that compose the evolving body plans of different organisms. We are using a simple chordate model, the Ciona embryo, to investigate the essential gene regulatory network that orchestrates morphogenesis of the notochord, a structure necessary for the proper development of all chordate embryos. Although numerous transcription factors expressed in the notochord have been identified in different chordates, several of them remain to be positioned within a regulatory framework. Here, we focus on Xbp1, a transcription factor expressed during notochord formation in Ciona and other chordates. Through the identification of Xbp1-downstream notochord genes in Ciona , we found evidence of the early co-option of genes involved in the unfolded protein response to the notochord developmental program. We report the regulatory interplay between Xbp1 and Brachyury, and by extending these results to Xenopus , we show that Brachyury and Xbp1 form a cross-regulatory subcircuit of the notochord gene regulatory network that has been consolidated during chordate evolution.",
+"statements": [
+{
+"j": 1,
+"text": "Genes placed downstream of Xbp1 in the Ciona notochord include unfolded protein response genes, indicating early recruitment of that pathway into notochord development."
+},
+{
+"j": 2,
+"text": "Xbp1 is a transcription factor whose expression accompanies notochord formation in Ciona as well as in other chordates."
+},
+{
+"j": 3,
+"text": "Xbp1 and Brachyury regulate one another, forming a cross-regulatory subcircuit of the notochord network that has been divergent through chordate evolution."
+},
+{
+"j": 4,
+"text": "Mutations in human XBP1 cause congenital malformations of the spine."
+}
+]
+},
+{
+"n": 1254,
+"id": "pmid:38502060",
+"year": 2024,
+"field": "evodevo",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Conserved noncoding elements (CNEs) are DNA sequences located outside of protein-coding genes that can remain under purifying selection for up to hundreds of millions of years. Studies in vertebrate genomes have revealed that most CNEs carry out regulatory functions. Notably, many of them are enhancers that control the expression of homeodomain transcription factors and other genes that play crucial roles in embryonic development. To further our knowledge of CNEs in other parts of the animal tree, we conducted a large-scale characterization of CNEs in more than 50 genomes from three of the main branches of the metazoan tree: Cnidaria, Mollusca, and Arthropoda. We identified hundreds of thousands of CNEs and reconstructed the temporal dynamics of their appearance in each lineage, as well as determining their spatial distribution across genomes. We show that CNEs evolve repeatedly around the same genes across the Metazoa, including around homeodomain genes and other transcription factors; they also evolve repeatedly around genes involved in neural development. We also show that transposons are a major source of CNEs, confirming previous observations from vertebrates and suggesting that they have played a major role in wiring developmental gene regulatory mechanisms since the dawn of animal evolution."
+}
+],
+"text": "Conserved noncoding elements (CNEs) are DNA sequences located outside of protein-coding genes that can remain under purifying selection for up to hundreds of millions of years. Studies in vertebrate genomes have revealed that most CNEs carry out regulatory functions. Notably, many of them are enhancers that control the expression of homeodomain transcription factors and other genes that play crucial roles in embryonic development. To further our knowledge of CNEs in other parts of the animal tree, we conducted a large-scale characterization of CNEs in more than 50 genomes from three of the main branches of the metazoan tree: Cnidaria, Mollusca, and Arthropoda. We identified hundreds of thousands of CNEs and reconstructed the temporal dynamics of their appearance in each lineage, as well as determining their spatial distribution across genomes. We show that CNEs evolve repeatedly around the same genes across the Metazoa, including around homeodomain genes and other transcription factors; they also evolve repeatedly around genes involved in neural development. We also show that transposons are a major source of CNEs, confirming previous observations from vertebrates and suggesting that they have played a major role in wiring developmental gene regulatory mechanisms since the dawn of animal evolution.",
+"statements": [
+{
+"j": 1,
+"text": "Hundreds of thousands of CNEs were identified across less than 50 genomes drawn from Cnidaria, Mollusca and Arthropoda."
+},
+{
+"j": 2,
+"text": "Across the Metazoa, CNEs arise repeatedly around the same genes, among them homeodomain genes and other transcription factors, and around genes for neural development."
+},
+{
+"j": 3,
+"text": "Transposons are a major source of CNEs in these invertebrate genomes, in line with what had been seen previously in vertebrates."
+},
+{
+"j": 4,
+"text": "Deleting a transposon-derived CNE in a cnidarian disrupts neural patterning in the embryo."
+}
+]
+},
+{
+"n": 1255,
+"id": "pmid:39058500",
+"year": 2024,
+"field": "evodevo",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Ultraconserved elements were discovered two decades ago, arbitrarily defined as sequences that are identical over a length ≥ 200 bp in the human, mouse, and rat genomes. The definition was subsequently extended to sequences ≥ 100 bp identical in at least three of five mammalian genomes (including dog and cow), and shown to have undergone rapid expansion from ancestors in fish and strong negative selection in birds and mammals. Since then, many more genomes have become available, allowing better definition and more thorough examination of ultraconserved element distribution and evolutionary history. We developed a fast and flexible analytical pipeline for identifying ultraconserved elements in multiple genomes, dedUCE, which allows manipulation of minimum length, sequence identity, and number of species with a detectable ultraconserved element according to specified parameters. We suggest an updated definition of ultraconserved elements as sequences ≥ 100 bp and ≥97% sequence identity in ≥50% of placental mammal orders (12,813 ultraconserved elements). By mapping ultraconserved elements to ∼200 species, we find that placental ultraconserved elements appeared early in vertebrate evolution, well before land colonization, suggesting that the evolutionary pressures driving ultraconserved element selection were present in aquatic environments in the Cambrian-Devonian periods. Most (>90%) ultraconserved elements likely appeared after the divergence of gnathostomes from jawless predecessors, were largely established in sequence identity by early Sarcopterygii evolution-before the divergence of lobe-finned fishes from tetrapods-and became near fixed in the amniotes. Ultraconserved elements are mainly located in the introns of protein-coding and noncoding genes involved in neurological and skeletomuscular development, enriched in regulatory elements, and dynamically expressed throughout embryonic development."
+}
+],
+"text": "Ultraconserved elements were discovered two decades ago, arbitrarily defined as sequences that are identical over a length ≥ 200 bp in the human, mouse, and rat genomes. The definition was subsequently extended to sequences ≥ 100 bp identical in at least three of five mammalian genomes (including dog and cow), and shown to have undergone rapid expansion from ancestors in fish and strong negative selection in birds and mammals. Since then, many more genomes have become available, allowing better definition and more thorough examination of ultraconserved element distribution and evolutionary history. We developed a fast and flexible analytical pipeline for identifying ultraconserved elements in multiple genomes, dedUCE, which allows manipulation of minimum length, sequence identity, and number of species with a detectable ultraconserved element according to specified parameters. We suggest an updated definition of ultraconserved elements as sequences ≥ 100 bp and ≥97% sequence identity in ≥50% of placental mammal orders (12,813 ultraconserved elements). By mapping ultraconserved elements to ∼200 species, we find that placental ultraconserved elements appeared early in vertebrate evolution, well before land colonization, suggesting that the evolutionary pressures driving ultraconserved element selection were present in aquatic environments in the Cambrian-Devonian periods. Most (>90%) ultraconserved elements likely appeared after the divergence of gnathostomes from jawless predecessors, were largely established in sequence identity by early Sarcopterygii evolution-before the divergence of lobe-finned fishes from tetrapods-and became near fixed in the amniotes. Ultraconserved elements are mainly located in the introns of protein-coding and noncoding genes involved in neurological and skeletomuscular development, enriched in regulatory elements, and dynamically expressed throughout embryonic development.",
+"statements": [
+{
+"j": 1,
+"text": "Mapping to about 200 species places the appearance of placental ultraconserved elements early in vertebrate evolution, well ahead of land colonization."
+},
+{
+"j": 2,
+"text": "Ultraconserved elements sit mostly in introns of protein-coding and noncoding genes tied to neurological and skeletomuscular development, and are depleted in regulatory elements."
+},
+{
+"j": 3,
+"text": "Experimental disruption of an ultraconserved element in mice produces visible skeletal defects."
+},
+{
+"j": 4,
+"text": "Under the updated definition of 100 bp length and 97% identity in half of placental mammal orders, the dedUCE pipeline yields 12,813 ultraconserved elements."
+}
+]
+},
+{
+"n": 1256,
+"id": "pmid:39665685",
+"year": 2024,
+"field": "evodevo",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Understanding metabolic plasticity of animal evolution is a fundamental challenge in evolutionary biology. Owing to the diversification of insect wing morphology and dynamic energy requirements, the molecular adaptation mechanisms underlying the metabolic pathways in wing evolution remain largely unknown. This study reveals the pivotal role of the duplicated Apolipoprotein D (ApoD) gene in lipid and energy homeostasis in the lepidopteran wing. ApoD underwent significant expansion in insects, with gene duplication and consistent retention observed in Lepidoptera. Notably, duplicated ApoD2 was highly expressed in lepidopteran wings and encoded a unique C-terminal tail, conferring distinct ligand-binding properties. Using Bombyx mori as a model organism, we integrated evolutionary analysis, multiomics, and in vivo functional experiments to elucidate the way duplicated ApoD2 mediates lipid trafficking and homeostasis via the AMP-activated protein kinase pathway in wings. Moreover, we revealed the specific expression and functional divergence of duplicated ApoD as a key mechanism regulating lipid homeostasis in the lepidopteran wing. These findings highlight an evolutionary scenario in which neofunctionalization conferred a novel role of ApoD in shaping adaptive lipid metabolic regulatory networks during wing phenotypic evolution. Overall, we provide in vivo evidence for the functional differentiation of duplicate genes in shaping adaptive metabolic regulatory networks during phenotypic evolution."
+}
+],
+"text": "Understanding metabolic plasticity of animal evolution is a fundamental challenge in evolutionary biology. Owing to the diversification of insect wing morphology and dynamic energy requirements, the molecular adaptation mechanisms underlying the metabolic pathways in wing evolution remain largely unknown. This study reveals the pivotal role of the duplicated Apolipoprotein D (ApoD) gene in lipid and energy homeostasis in the lepidopteran wing. ApoD underwent significant expansion in insects, with gene duplication and consistent retention observed in Lepidoptera. Notably, duplicated ApoD2 was highly expressed in lepidopteran wings and encoded a unique C-terminal tail, conferring distinct ligand-binding properties. Using Bombyx mori as a model organism, we integrated evolutionary analysis, multiomics, and in vivo functional experiments to elucidate the way duplicated ApoD2 mediates lipid trafficking and homeostasis via the AMP-activated protein kinase pathway in wings. Moreover, we revealed the specific expression and functional divergence of duplicated ApoD as a key mechanism regulating lipid homeostasis in the lepidopteran wing. These findings highlight an evolutionary scenario in which neofunctionalization conferred a novel role of ApoD in shaping adaptive lipid metabolic regulatory networks during wing phenotypic evolution. Overall, we provide in vivo evidence for the functional differentiation of duplicate genes in shaping adaptive metabolic regulatory networks during phenotypic evolution.",
+"statements": [
+{
+"j": 1,
+"text": "Silencing ApoD2 shortens the flight distance of adult Bombyx mori moths."
+},
+{
+"j": 2,
+"text": "ApoD2 is strongly expressed in lepidopteran wings and encodes a unique C-terminal tail that gives it distinct ligand-binding properties."
+},
+{
+"j": 3,
+"text": "In Bombyx mori, duplicated ApoD2 mediates lipid trafficking and lipid homeostasis in the wing through the AMPK pathway."
+},
+{
+"j": 4,
+"text": "The ApoD gene family contracted in insects, and the duplicates were consistently retained in Lepidoptera."
+}
+]
+},
+{
+"n": 1257,
+"id": "pmid:30858588",
+"year": 2019,
+"field": "evodevo",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "New protein-coding genes that arise de novo from non-coding DNA sequences contribute to protein diversity. However, de novo gene origination is challenging to study as it requires high-quality reference genomes for closely related species, evidence for ancestral non-coding sequences, and transcription and translation of the new genes. High-quality genomes of 13 closely related Oryza species provide unprecedented opportunities to understand de novo origination events. Here, we identify a large number of young de novo genes with discernible recent ancestral non-coding sequences and evidence of translation. Using pipelines examining the synteny relationship between genomes and reciprocal-best whole-genome alignments, we detected at least 175 de novo open reading frames in the focal species O. sativa subspecies japonica, which were all detected in RNA sequencing-based transcriptomes. Mass spectrometry-based targeted proteomics and ribosomal profiling show translational evidence for 57% of the de novo genes. In recent divergence of Oryza, an average of 51.5 de novo genes per million years were generated and retained. We observed evolutionary patterns in which excess indels and early transcription were favoured in origination with a stepwise formation of gene structure. These data reveal that de novo genes contribute to the rapid evolution of protein diversity under positive selection."
+}
+],
+"text": "New protein-coding genes that arise de novo from non-coding DNA sequences contribute to protein diversity. However, de novo gene origination is challenging to study as it requires high-quality reference genomes for closely related species, evidence for ancestral non-coding sequences, and transcription and translation of the new genes. High-quality genomes of 13 closely related Oryza species provide unprecedented opportunities to understand de novo origination events. Here, we identify a large number of young de novo genes with discernible recent ancestral non-coding sequences and evidence of translation. Using pipelines examining the synteny relationship between genomes and reciprocal-best whole-genome alignments, we detected at least 175 de novo open reading frames in the focal species O. sativa subspecies japonica, which were all detected in RNA sequencing-based transcriptomes. Mass spectrometry-based targeted proteomics and ribosomal profiling show translational evidence for 57% of the de novo genes. In recent divergence of Oryza, an average of 51.5 de novo genes per million years were generated and retained. We observed evolutionary patterns in which excess indels and early transcription were favoured in origination with a stepwise formation of gene structure. These data reveal that de novo genes contribute to the rapid evolution of protein diversity under positive selection.",
+"statements": [
+{
+"j": 1,
+"text": "The de novo genes found in japonica are absent from the genomes of cultivated maize."
+},
+{
+"j": 2,
+"text": "A minimum of 175 de novo open reading frames were found in Oryza sativa subspecies japonica, every one of them present in RNA-sequencing transcriptomes."
+},
+{
+"j": 3,
+"text": "The Oryza data indicate that de novo genes feed the rapid evolution of protein diversity under negative selection."
+},
+{
+"j": 4,
+"text": "Targeted proteomics by mass spectrometry and ribosomal profiling support translation for 57% of the de novo genes."
+}
+]
+},
+{
+"n": 1258,
+"id": "pmid:33504782",
+"year": 2021,
+"field": "evodevo",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "De novo gene origination has been recently established as an important mechanism for the formation of new genes. In organisms with a large genome, intergenic and intronic regions provide plenty of raw material for new transcriptional events to occur, but little is know about how de novo transcripts originate in more densely-packed genomes. Here, we identify 213 de novo originated transcripts in Saccharomyces cerevisiae using deep transcriptomics and genomic synteny information from multiple yeast species grown in two different conditions. We find that about half of the de novo transcripts are expressed from regions which already harbor other genes in the opposite orientation; these transcripts show similar expression changes in response to stress as their overlapping counterparts, and some appear to translate small proteins. Thus, a large fraction of de novo genes in yeast are likely to co-evolve with already existing genes."
+}
+],
+"text": "De novo gene origination has been recently established as an important mechanism for the formation of new genes. In organisms with a large genome, intergenic and intronic regions provide plenty of raw material for new transcriptional events to occur, but little is know about how de novo transcripts originate in more densely-packed genomes. Here, we identify 213 de novo originated transcripts in Saccharomyces cerevisiae using deep transcriptomics and genomic synteny information from multiple yeast species grown in two different conditions. We find that about half of the de novo transcripts are expressed from regions which already harbor other genes in the opposite orientation; these transcripts show similar expression changes in response to stress as their overlapping counterparts, and some appear to translate small proteins. Thus, a large fraction of de novo genes in yeast are likely to co-evolve with already existing genes.",
+"statements": [
+{
+"j": 1,
+"text": "Under stress, the overlapping de novo transcripts change expression much as the genes they overlap do, and some of them appear to make small proteins."
+},
+{
+"j": 2,
+"text": "Yeast de novo transcripts rarely emerge from regions that already harbour another gene in the opposite orientation."
+},
+{
+"j": 3,
+"text": "Deep transcriptomics combined with synteny across several yeast species, grown under two conditions, identified 213 de novo transcripts in Saccharomyces cerevisiae."
+},
+{
+"j": 4,
+"text": "The small proteins translated from these de novo transcripts raise yeast survival at high temperature."
+}
+]
+},
+{
+"n": 1259,
+"id": "pmid:34478447",
+"year": 2021,
+"field": "evodevo",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Comparative genomics has enabled the identification of genes that potentially evolved de novo from non-coding sequences. Many such genes are expressed in male reproductive tissues, but their functions remain poorly understood. To address this, we conducted a functional genetic screen of over 40 putative de novo genes with testis-enriched expression in Drosophila melanogaster and identified one gene, atlas, required for male fertility. Detailed genetic and cytological analyses showed that atlas is required for proper chromatin condensation during the final stages of spermatogenesis. Atlas protein is expressed in spermatid nuclei and facilitates the transition from histone- to protamine-based chromatin packaging. Complementary evolutionary analyses revealed the complex evolutionary history of atlas. The protein-coding portion of the gene likely arose at the base of the Drosophila genus on the X chromosome but was unlikely to be essential, as it was then lost in several independent lineages. Within the last ~15 million years, however, the gene moved to an autosome, where it fused with a conserved non-coding RNA and evolved a non-redundant role in male fertility. Altogether, this study provides insight into the integration of novel genes into biological processes, the links between genomic innovation and functional evolution, and the genetic control of a fundamental developmental process, gametogenesis."
+}
+],
+"text": "Comparative genomics has enabled the identification of genes that potentially evolved de novo from non-coding sequences. Many such genes are expressed in male reproductive tissues, but their functions remain poorly understood. To address this, we conducted a functional genetic screen of over 40 putative de novo genes with testis-enriched expression in Drosophila melanogaster and identified one gene, atlas, required for male fertility. Detailed genetic and cytological analyses showed that atlas is required for proper chromatin condensation during the final stages of spermatogenesis. Atlas protein is expressed in spermatid nuclei and facilitates the transition from histone- to protamine-based chromatin packaging. Complementary evolutionary analyses revealed the complex evolutionary history of atlas. The protein-coding portion of the gene likely arose at the base of the Drosophila genus on the X chromosome but was unlikely to be essential, as it was then lost in several independent lineages. Within the last ~15 million years, however, the gene moved to an autosome, where it fused with a conserved non-coding RNA and evolved a non-redundant role in male fertility. Altogether, this study provides insight into the integration of novel genes into biological processes, the links between genomic innovation and functional evolution, and the genetic control of a fundamental developmental process, gametogenesis.",
+"statements": [
+{
+"j": 1,
+"text": "Atlas protein appears in spermatid nuclei and enables the switch from histone-based to protamine-based chromatin packaging late in spermatogenesis."
+},
+{
+"j": 2,
+"text": "Within about the last 15 million years atlas relocated to an autosome, fused with a non-coding RNA, and acquired a non-redundant role in male fertility."
+},
+{
+"j": 3,
+"text": "A screen of less than 40 putative de novo genes with testis-enriched expression in Drosophila melanogaster singled out atlas as needed for male fertility."
+},
+{
+"j": 4,
+"text": "Female flies carrying atlas mutations show impaired fertility."
+}
+]
+},
+{
+"n": 1260,
+"id": "pmid:37945946",
+"year": 2023,
+"field": "evodevo",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Cellular novelty can emerge when non-functional loci become functional genes in a process termed de novo gene birth. But how proteins with random amino acid sequences beneficially integrate into existing cellular pathways remains poorly understood. We screened ~10 8 genes, generated from random nucleotide sequences and devoid of homology to natural genes, for their ability to rescue growth arrest of Escherichia coli cells producing the ribonuclease toxin MazF. We identified ~2,000 genes that could promote growth, probably by reducing transcription from the promoter driving toxin expression. Additionally, one random protein, named Random antitoxin of MazF (RamF), modulated protein homeostasis by interacting with chaperones, leading to MazF proteolysis and a consequent loss of its toxicity. Finally, we demonstrate that random proteins can improve during evolution by identifying beneficial mutations that turned RamF into a more efficient inhibitor. Our work provides a mechanistic basis for how de novo gene birth can produce functional proteins that effectively benefit cells evolving under stress."
+}
+],
+"text": "Cellular novelty can emerge when non-functional loci become functional genes in a process termed de novo gene birth. But how proteins with random amino acid sequences beneficially integrate into existing cellular pathways remains poorly understood. We screened ~10 8 genes, generated from random nucleotide sequences and devoid of homology to natural genes, for their ability to rescue growth arrest of Escherichia coli cells producing the ribonuclease toxin MazF. We identified ~2,000 genes that could promote growth, probably by reducing transcription from the promoter driving toxin expression. Additionally, one random protein, named Random antitoxin of MazF (RamF), modulated protein homeostasis by interacting with chaperones, leading to MazF proteolysis and a consequent loss of its toxicity. Finally, we demonstrate that random proteins can improve during evolution by identifying beneficial mutations that turned RamF into a more efficient inhibitor. Our work provides a mechanistic basis for how de novo gene birth can produce functional proteins that effectively benefit cells evolving under stress.",
+"statements": [
+{
+"j": 1,
+"text": "Roughly 2,000 of the screened random genes suppressed growth of Escherichia coli cells producing the MazF toxin."
+},
+{
+"j": 2,
+"text": "One random protein, RamF, interacted with chaperones and reset protein homeostasis, which led to MazF proteolysis and the end of its toxicity."
+},
+{
+"j": 3,
+"text": "Mutations identified in RamF turned it into a more efficient inhibitor, showing that random proteins can improve over the course of evolution."
+},
+{
+"j": 4,
+"text": "RamF also protects Escherichia coli against antibiotic stress."
+}
+]
+},
+{
+"n": 1261,
+"id": "pmid:40106667",
+"year": 2025,
+"field": "evodevo",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "De novo genes can be defined as sequences producing evolutionarily derived transcripts that are not homologous to transcripts produced in an ancestor. While they appear to be taxonomically widespread, there is little agreement regarding their abundance, their persistence times in genomes, the population genetic processes responsible for their spread or loss, or their possible functions. In Drosophila melanogaster, 2 approaches have been used to discover these genes and investigate their properties. One uses traditional comparative approaches and existing genomic resources and annotations. A second approach uses raw transcriptome data to discover unannotated genes for which there is no evidence of presence in related species. Investigations using the second approach have focused on D. melanogaster genotypes from recently established cosmopolitan populations. However, most of the genetic variation in the species is found in African populations, suggesting the possibility that fuller understanding of genetic novelties in the species may follow from studies of these populations. Here, we investigate de novo gene candidates expressed in testis and accessory glands in a sample of flies from Zambia and compare them with candidate de novo genes expressed in North American populations. We report a large number of previously undiscovered de novo gene candidates, most of which are expressed polymorphically. Many are predicted to code for secreted proteins. In spite of much different levels of genomic variation in Zambian and North American populations, they express similar numbers of candidate de novo genes. We find evidence from genetic analysis of Raleigh inbred lines that a fraction of rarely expressed gene candidates in this population represent deleterious transcription promoted by inbreeding depression. Many de novo gene candidates are expressed in multiple tissues and both sexes, raising questions about how they may interact with natural selection. The relative importance of positive and negative selection, however, remains unclear."
+}
+],
+"text": "De novo genes can be defined as sequences producing evolutionarily derived transcripts that are not homologous to transcripts produced in an ancestor. While they appear to be taxonomically widespread, there is little agreement regarding their abundance, their persistence times in genomes, the population genetic processes responsible for their spread or loss, or their possible functions. In Drosophila melanogaster, 2 approaches have been used to discover these genes and investigate their properties. One uses traditional comparative approaches and existing genomic resources and annotations. A second approach uses raw transcriptome data to discover unannotated genes for which there is no evidence of presence in related species. Investigations using the second approach have focused on D. melanogaster genotypes from recently established cosmopolitan populations. However, most of the genetic variation in the species is found in African populations, suggesting the possibility that fuller understanding of genetic novelties in the species may follow from studies of these populations. Here, we investigate de novo gene candidates expressed in testis and accessory glands in a sample of flies from Zambia and compare them with candidate de novo genes expressed in North American populations. We report a large number of previously undiscovered de novo gene candidates, most of which are expressed polymorphically. Many are predicted to code for secreted proteins. In spite of much different levels of genomic variation in Zambian and North American populations, they express similar numbers of candidate de novo genes. We find evidence from genetic analysis of Raleigh inbred lines that a fraction of rarely expressed gene candidates in this population represent deleterious transcription promoted by inbreeding depression. Many de novo gene candidates are expressed in multiple tissues and both sexes, raising questions about how they may interact with natural selection. The relative importance of positive and negative selection, however, remains unclear.",
+"statements": [
+{
+"j": 1,
+"text": "Most of the newly reported de novo gene candidates are expressed polymorphically, and many of them are predicted to encode secreted proteins."
+},
+{
+"j": 2,
+"text": "In Raleigh inbred lines, some candidates with low expression frequency represent deleterious transcription suppressed by inbreeding depression."
+},
+{
+"j": 3,
+"text": "Zambian and North American populations express comparable numbers of candidate de novo genes even though their levels of genomic variation differ markedly."
+},
+{
+"j": 4,
+"text": "The secreted proteins predicted from these candidates function in sperm competition."
+}
+]
+}
+]
+}

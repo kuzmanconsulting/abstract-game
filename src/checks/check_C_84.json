@@ -1,0 +1,64 @@
+{"batch": "check_C_84", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+  {"n": 1485, "id": "pmid:40828025", "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 2, "evidence": "the difference between clades is explained by a simple spatial shift across cells of the sensitive region in a Wnt dose-response curve", "flag": "ambiguous", "reason": "The abstract proposes a spatial shift in a Wnt dose-response curve, not a mutation in a single Wnt ligand gene."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "this evolutionary pattern matches the pattern of variation within species of each clade"},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "the cell whose fate evolves fastest is distinct for each clade: P3.p in Caenorhabditis and P4.p in Oscheius"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "the differential effect on each cell of random mutation, quantified as their mutational phenotypic variance, is sufficient to explain the observed phenotypic evolution"}
+  ]},
+  {"n": 1486, "id": "pmid:40044858", "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "diploid snowflake yeast (Saccharomyces cerevisiae) under selection for larger multicellular size rapidly evolve to be tetraploid"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "From their origin within the first 50 days of the experiment, tetraploids persisted for the next 950 days (nearly 5,000 generations, the current leading edge of our experiment) in 10 replicate populations, despite being genomically unstable"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "Once established, tetraploidy facilitated novel genetic routes for adaptation, having a key role in the evolution of macroscopic multicellular size via the origin of evolutionarily conserved aneuploidy"},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "by producing larger, longer cells that yield larger clusters"}
+  ]},
+  {"n": 1487, "id": "pmid:39302728", "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Detailed study of one acceleration event in an enhancer of HES1 revealed that sequence evolution led to a new activity domain in the developing limb that emerged concurrently with the evolution of digit reduction in hoofed mammals"},
+    {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "These genes were connected to more enhancers than other genes, which was the basis for having an increased amount of sequence acceleration over all their enhancers combined"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "we found a striking overall pattern of pleiotropic genes involved in gene regulatory and developmental processes being enriched for accelerated enhancer evolution"},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We provide evidence that sequence acceleration is associated with turnover of regulatory function"}
+  ]},
+  {"n": 1488, "id": "pmid:36658391", "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "suggesting that a common regulatory mechanism underlies setal and stomatal formation"},
+    {"j": 2, "label": "not_addressed", "confidence": 2, "evidence": "Our findings reveal the co-option of a Ia-IIIb bHLH TF module for regulating cell fate determination and/or cell division of distinct types of cells during land plant evolution", "flag": "ambiguous", "reason": "The abstract reports co-option but does not state the order (seta before stomata)."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "in the astomatous liverwort Marchantia polymorpha, a Ia-IIIb bHLH module regulates the development of a unique sporophyte tissue, the seta, which is found in mosses and liverworts"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "The sole Ia bHLH gene, MpSETA, and a IIIb bHLH gene, MpICE2, regulate the cell division and/or differentiation of seta lineage cells"}
+  ]},
+  {"n": 1489, "id": "pmid:40903584", "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Genetic and optogenetic ablation of the cephalic furrow leads to accumulation of compressive stress, tissue buckling at the head-trunk boundary and late-stage embryonic defects in the head and nervous system"},
+    {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "undergoes widespread out-of-plane division that reduces the duration and spatial extent of head expansion"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "We identify two distinct cellular mechanisms that prevent tissue collision between the expanding head and trunk"},
+    {"j": 4, "label": "not_addressed", "confidence": 2, "evidence": "Re-orienting head mitosis from in-plane to out-of-plane in Drosophila partially suppresses tissue buckling, showing that it can function as an alternative mechanical sink", "flag": "ambiguous", "reason": "The abstract states out-of-plane mitosis suppresses buckling but does not say it reduces the late-stage nervous system defects."}
+  ]},
+  {"n": 1490, "id": "pmid:40743330", "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Genomic analyses revealed topologically associated domains (TADs) enriched for convergent changes in hibernators, including the Fat Mass & Obesity ( Fto ) locus"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "Deletions of individual ciselements in mice differentially altered Fto , Irx3 , and Irx5 expression, reshaping downstream gene expression programs and affecting metabolism, torpor, obesogenesis, and foraging in distinct ways"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "In this TAD, we uncovered genetic circuits for metabolic responses and hibernation-linked ciselements forming regulatory contacts with neighboring genes"},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "affecting metabolism, torpor, obesogenesis, and foraging in distinct ways"}
+  ]},
+  {"n": 1491, "id": "pmid:39121058", "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "homoeologs with lower RFPKM often had more interactions and higher lethal-phenotype scores, indicating selective pressures favoring balanced expression"},
+    {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Our results show significant positive correlations in RFPKM of homoeologs among tissues within the same species, and among orthologs across these 3 species"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "homoeologs with lower RFPKM were more likely to be retained after WGDs in angiosperms"},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We further found that expression degeneration in 1 copy of homoeologs is inclined toward nonfunctionalization"}
+  ]},
+  {"n": 1492, "id": "pmid:37306301", "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "We show that Rps27 and Rps27l have inversely correlated mRNA abundance across mouse cell types, with the highest Rps27 in lymphocytes and the highest Rps27l in mammary alveolar cells and hepatocytes"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "expressing Rps27 protein from the endogenous Rps27l locus or vice versa completely rescues loss-of-function lethality and yields mice with no detectable deficits"},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Rps27- and Rps27l-ribosomes associate preferentially with different transcripts"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "murine Rps27 and Rps27l loss-of-function alleles are homozygous lethal at different developmental stages"}
+  ]},
+  {"n": 1493, "id": "pmid:38753069", "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "we observed an 8% to 14% decay in random coils and intrinsically disordered region lengths"},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "readily form low-energy and compact complexes with other proteins facilitated by extensive residue contacts and conformational flexibility"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "We also revealed higher positive charges but smaller molecular weights for de novo proteins than duplicates"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "We found that de novo genes evolve faster than gene duplicates in the intrinsically disordered regions (such as random coils), secondary structure elements (such as α helix and β strand), hydrophobicity, and molecular recognition features"}
+  ]},
+  {"n": 1494, "id": "pmid:40425814", "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Gene families most often lost are those involved in mRNA splicing, carbohydrate metabolism, and cell division"},
+    {"j": 2, "label": "supported", "confidence": 2, "evidence": "yeast gene family evolution differs from that of plants, animals, and filamentous ascomycetes, and is characterized by smaller overall gene numbers yet larger gene family sizes for a given gene number"},
+    {"j": 3, "label": "not_addressed", "confidence": 2, "evidence": "Faster-evolving lineages (FELs) in yeasts experienced significantly higher rates of gene losses-commensurate with a narrowing of metabolic niche breadth-but higher speciation rates than their slower-evolving sister lineages (SELs)", "flag": "ambiguous", "reason": "The abstract reports higher gene-loss rates in FELs but says nothing about rates of gene-family gain."},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Faster-evolving lineages (FELs) in yeasts experienced significantly higher rates of gene losses-commensurate with a narrowing of metabolic niche breadth-but higher speciation rates than their slower-evolving sister lineages (SELs)"}
+  ]}
+ ]
+}

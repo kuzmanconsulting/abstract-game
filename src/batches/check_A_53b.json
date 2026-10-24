@@ -1,0 +1,135 @@
+{
+"batch": "check_A_53b",
+"pass": "A",
+"source_batch": "gen_53b",
+"items": [
+{
+"n": 1184,
+"id": "pmid:28459454",
+"year": 2017,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Facioscapulohumeral dystrophy (FSHD; MIM158900, MIM158901) is caused by misexpression of the DUX4 transcription factor in skeletal muscle. Animal models of FSHD are hindered by incomplete knowledge regarding the conservation of the DUX4 transcriptional program in other species. Despite the divergence of their binding motifs, both mouse DUX and human DUX4 in mouse and human muscle cells, respectively, activate genes associated with cleavage-stage embryos, including MERVL and ERVL-MaLR retrotransposons. We found that human DUX4 expressed in mouse cells maintained modest activation of cleavage-stage genes driven by conventional promoters but did not activate MERVL-promoted genes. Thus, the ancestral DUX4-regulated genes are characteristic of cleavage-stage embryos and are driven by conventional promoters, whereas divergence of the DUX4 and DUX homeodomains correlates with retrotransposon specificity. These results provide insight into how species balance conservation of a core transcriptional program with innovation at retrotransposon promoters, and establish a basis for animal models recreating the FSHD transcriptome."
+}
+],
+"text": "Facioscapulohumeral dystrophy (FSHD; MIM158900, MIM158901) is caused by misexpression of the DUX4 transcription factor in skeletal muscle. Animal models of FSHD are hindered by incomplete knowledge regarding the conservation of the DUX4 transcriptional program in other species. Despite the divergence of their binding motifs, both mouse DUX and human DUX4 in mouse and human muscle cells, respectively, activate genes associated with cleavage-stage embryos, including MERVL and ERVL-MaLR retrotransposons. We found that human DUX4 expressed in mouse cells maintained modest activation of cleavage-stage genes driven by conventional promoters but did not activate MERVL-promoted genes. Thus, the ancestral DUX4-regulated genes are characteristic of cleavage-stage embryos and are driven by conventional promoters, whereas divergence of the DUX4 and DUX homeodomains correlates with retrotransposon specificity. These results provide insight into how species balance conservation of a core transcriptional program with innovation at retrotransposon promoters, and establish a basis for animal models recreating the FSHD transcriptome.",
+"statements": [
+{
+"j": 1,
+"text": "Mouse DUX and human DUX4 have conserved binding motifs, yet each switches on cleavage-stage embryonic genes, among them MERVL and ERVL-MaLR retrotransposons, in muscle cells of its own species."
+},
+{
+"j": 2,
+"text": "Which retrotransposons are activated tracks with homeodomain divergence between DUX4 and DUX, while the shared ancestral cleavage-stage program is driven from conventional promoters."
+},
+{
+"j": 3,
+"text": "Preventing DUX4 expression in skeletal muscle reverses muscle weakness in people with facioscapulohumeral dystrophy."
+},
+{
+"j": 4,
+"text": "Human DUX4 put into mouse cells still produced modest activation of cleavage-stage genes with conventional promoters, but it did not switch on MERVL-promoted genes."
+}
+]
+},
+{
+"n": 1185,
+"id": "pmid:34619744",
+"year": 2021,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Transposition has a key role in reshaping genomes of all living organisms 1 . Insertion sequences of IS200/IS605 and IS607 families 2 are among the simplest mobile genetic elements and contain only the genes that are required for their transposition and its regulation. These elements encode tnpA transposase, which is essential for mobilization, and often carry an accessory tnpB gene, which is dispensable for transposition. Although the role of TnpA in transposon mobilization of IS200/IS605 is well documented, the function of TnpB has remained largely unknown. It had been suggested that TnpB has a role in the regulation of transposition, although no mechanism for this has been established 3-5 . A bioinformatic analysis indicated that TnpB might be a predecessor of the CRISPR-Cas9/Cas12 nucleases 6-8 . However, no biochemical activities have been ascribed to TnpB. Here we show that TnpB of Deinococcus radiodurans ISDra2 is an RNA-directed nuclease that is guided by an RNA, derived from the right-end element of a transposon, to cleave DNA next to the 5'-TTGAT transposon-associated motif. We also show that TnpB could be reprogrammed to cleave DNA target sites in human cells. Together, this study expands our understanding of transposition mechanisms by highlighting the role of TnpB in transposition, experimentally confirms that TnpB is a functional progenitor of CRISPR-Cas nucleases and establishes TnpB as a prototype of a new system for genome editing."
+}
+],
+"text": "Transposition has a key role in reshaping genomes of all living organisms 1 . Insertion sequences of IS200/IS605 and IS607 families 2 are among the simplest mobile genetic elements and contain only the genes that are required for their transposition and its regulation. These elements encode tnpA transposase, which is essential for mobilization, and often carry an accessory tnpB gene, which is dispensable for transposition. Although the role of TnpA in transposon mobilization of IS200/IS605 is well documented, the function of TnpB has remained largely unknown. It had been suggested that TnpB has a role in the regulation of transposition, although no mechanism for this has been established 3-5 . A bioinformatic analysis indicated that TnpB might be a predecessor of the CRISPR-Cas9/Cas12 nucleases 6-8 . However, no biochemical activities have been ascribed to TnpB. Here we show that TnpB of Deinococcus radiodurans ISDra2 is an RNA-directed nuclease that is guided by an RNA, derived from the right-end element of a transposon, to cleave DNA next to the 5'-TTGAT transposon-associated motif. We also show that TnpB could be reprogrammed to cleave DNA target sites in human cells. Together, this study expands our understanding of transposition mechanisms by highlighting the role of TnpB in transposition, experimentally confirms that TnpB is a functional progenitor of CRISPR-Cas nucleases and establishes TnpB as a prototype of a new system for genome editing.",
+"statements": [
+{
+"j": 1,
+"text": "TnpB proteins encoded by IS607-family insertion sequences cut DNA under RNA guidance just as the ISDra2 enzyme does."
+},
+{
+"j": 2,
+"text": "ISDra2 TnpB from Deinococcus radiodurans is an RNA-directed nuclease: an RNA from the transposon's right-end element guides it to cut DNA beside a 5'-TTGAT motif."
+},
+{
+"j": 3,
+"text": "Reprogrammed TnpB cleaved chosen DNA target sites inside human cells."
+},
+{
+"j": 4,
+"text": "The work confirms experimentally that TnpB is a functional progenitor of CRISPR-Cas nucleases and sets it up as the prototype of a new genome-editing system."
+}
+]
+},
+{
+"n": 1186,
+"id": "pmid:31665631",
+"year": 2019,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Amyotrophic lateral sclerosis (ALS) is a fatal neurodegenerative disease characterized by the progressive loss of motor neurons. While several pathogenic mutations have been identified, the vast majority of ALS cases have no family history of disease. Thus, for most ALS cases, the disease may be a product of multiple pathways contributing to varying degrees in each patient. Using machine learning algorithms, we stratify the transcriptomes of 148 ALS postmortem cortex samples into three distinct molecular subtypes. The largest cluster, identified in 61% of patient samples, displays hallmarks of oxidative and proteotoxic stress. Another 19% of the samples shows predominant signatures of glial activation. Finally, a third group (20%) exhibits high levels of retrotransposon expression and signatures of TARDBP/TDP-43 dysfunction. We further demonstrate that TDP-43 (1) directly binds a subset of retrotransposon transcripts and contributes to their silencing in vitro, and (2) pathological TDP-43 aggregation correlates with retrotransposon de-silencing in vivo."
+}
+],
+"text": "Amyotrophic lateral sclerosis (ALS) is a fatal neurodegenerative disease characterized by the progressive loss of motor neurons. While several pathogenic mutations have been identified, the vast majority of ALS cases have no family history of disease. Thus, for most ALS cases, the disease may be a product of multiple pathways contributing to varying degrees in each patient. Using machine learning algorithms, we stratify the transcriptomes of 148 ALS postmortem cortex samples into three distinct molecular subtypes. The largest cluster, identified in 61% of patient samples, displays hallmarks of oxidative and proteotoxic stress. Another 19% of the samples shows predominant signatures of glial activation. Finally, a third group (20%) exhibits high levels of retrotransposon expression and signatures of TARDBP/TDP-43 dysfunction. We further demonstrate that TDP-43 (1) directly binds a subset of retrotransposon transcripts and contributes to their silencing in vitro, and (2) pathological TDP-43 aggregation correlates with retrotransposon de-silencing in vivo.",
+"statements": [
+{
+"j": 1,
+"text": "The largest subtype, 61% of patient samples, showed oxidative and proteotoxic stress hallmarks, while glial repression signatures predominated in a further 19%."
+},
+{
+"j": 2,
+"text": "One group of samples, 20% of the total, combined high retrotransposon expression with signatures of TARDBP/TDP-43 dysfunction."
+},
+{
+"j": 3,
+"text": "ALS samples carrying known pathogenic mutations fall mainly into the glial activation subtype."
+},
+{
+"j": 4,
+"text": "Machine learning sorted the transcriptomes of 148 postmortem ALS cortex samples into three distinct molecular subtypes."
+}
+]
+},
+{
+"n": 1187,
+"id": "pmid:28803918",
+"year": 2017,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Three-prime repair exonuclease 1 (TREX1) is an anti-viral enzyme that cleaves nucleic acids in the cytosol, preventing accumulation and a subsequent type I interferon-associated inflammatory response. Autoimmune diseases, including Aicardi-Goutières syndrome (AGS) and systemic lupus erythematosus, can arise when TREX1 function is compromised. AGS is a neuroinflammatory disorder with severe and persistent intellectual and physical problems. Here we generated a human AGS model that recapitulates disease-relevant phenotypes using pluripotent stem cells lacking TREX1. We observed abundant extrachromosomal DNA in TREX1-deficient neural cells, of which endogenous Long Interspersed Element-1 retrotransposons were a major source. TREX1-deficient neurons also exhibited increased apoptosis and formed three-dimensional cortical organoids of reduced size. TREX1-deficient astrocytes further contributed to the observed neurotoxicity through increased type I interferon secretion. In this model, reverse-transcriptase inhibitors rescued the neurotoxicity of AGS neurons and organoids, highlighting their potential utility in therapeutic regimens for AGS and related disorders."
+}
+],
+"text": "Three-prime repair exonuclease 1 (TREX1) is an anti-viral enzyme that cleaves nucleic acids in the cytosol, preventing accumulation and a subsequent type I interferon-associated inflammatory response. Autoimmune diseases, including Aicardi-Goutières syndrome (AGS) and systemic lupus erythematosus, can arise when TREX1 function is compromised. AGS is a neuroinflammatory disorder with severe and persistent intellectual and physical problems. Here we generated a human AGS model that recapitulates disease-relevant phenotypes using pluripotent stem cells lacking TREX1. We observed abundant extrachromosomal DNA in TREX1-deficient neural cells, of which endogenous Long Interspersed Element-1 retrotransposons were a major source. TREX1-deficient neurons also exhibited increased apoptosis and formed three-dimensional cortical organoids of reduced size. TREX1-deficient astrocytes further contributed to the observed neurotoxicity through increased type I interferon secretion. In this model, reverse-transcriptase inhibitors rescued the neurotoxicity of AGS neurons and organoids, highlighting their potential utility in therapeutic regimens for AGS and related disorders.",
+"statements": [
+{
+"j": 1,
+"text": "TREX1-deficient microglia add to the neurotoxicity by secreting more type I interferon."
+},
+{
+"j": 2,
+"text": "Neural cells lacking TREX1 built up scarce extrachromosomal DNA, much of it originating from endogenous Long Interspersed Element-1 retrotransposons."
+},
+{
+"j": 3,
+"text": "In this stem-cell model, reverse-transcriptase inhibitors rescued the neurotoxicity of the AGS neurons and organoids."
+},
+{
+"j": 4,
+"text": "Loss of TREX1 raised apoptosis in neurons, and the cortical organoids they formed were of reduced size."
+}
+]
+}
+]
+}

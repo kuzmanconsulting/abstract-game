@@ -1,0 +1,67 @@
+{
+"batch": "check_A_79",
+"pass": "A",
+"prompt_version": "check-v1",
+"items": [
+{"n": 1435, "id": "pmid:36724417", "verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "by Rhabdo-Seq was the best method for measuring ctDNA in FP-RMS and detected ctDNA in 27 of 49 cases (55%)"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "In multivariable analysis, ctDNA was independently associated with worse prognosis in FN-RMS but not in the smaller FP-RMS cohort."},
+{"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "with detectable ctDNA at diagnosis had significantly worse outcomes"},
+{"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Patients with FN-RMS with detectable ctDNA at diagnosis had significantly worse outcomes than patients without detectable ctDNA (event-free survival, 33.3% v 68.9%"}
+]},
+{"n": 1436, "id": "pmid:36269794", "verdicts": [
+{"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Basal ctDNA levels are associated with the risk of early progression and response to treatment in FL"},
+{"j": 2, "label": "contradicted", "confidence": 3, "evidence": "higher in patients without CR (P = 0.02) and in POD24-pos patients compared with POD24-neg patients (P < 0.001)"},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "Of the alterations detected in the diagnostic tissue samples, 73% (300/411) were also identified in basal cfDNA."},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "ctDNA levels decreased dramatically after treatment, although the reduction was more significant in patients with CR and POD24-neg patients."}
+]},
+{"n": 1437, "id": "pmid:39774314", "verdicts": [
+{"j": 1, "label": "contradicted", "confidence": 3, "evidence": "The sensitivity and specificity of whole-body MRI in detecting occult cancer were 98.0% and 88.5%, respectively."},
+{"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Cancer was present in 52 of the 107 participants in the initial cohort (48.6%)."},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "Cancer was present in 52 of the 107 participants in the initial cohort (48.6%)."},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "49 participants had a combination of copy-number gains and losses across multiple (≥3) chromosomes; cancer was present in 47 of the participants (95.9%)"}
+]},
+{"n": 1438, "id": "pmid:36989374", "verdicts": [
+{"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "pointing to a potential mechanism of action for the worse outcomes associated with CH status"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "patients with estrogen receptor-positive breast cancer harboring TET2 frameshift mutations had worse outcomes but similar neutrophil frequencies to patients without CH."},
+{"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Matched RNA sequencing data show evidence of increased inflammation, especially neutrophil activation, within the tumors and tumor microenvironments of patients with CH."},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "we determined that 30.3% of patients in this cohort have evidence of CH, and the incidence of CH varies by tumor type."}
+]},
+{"n": 1439, "id": "pmid:39147831", "verdicts": [
+{"j": 1, "label": "contradicted", "confidence": 3, "evidence": "A machine learning model trained on liquid biopsy data outperformed previous risk scores (discovery, validation and generalizability c-indices 0.74, 0.73 and 0.67, respectively, versus 0.57, 0.61 and 0.54 for the Khorana score)"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "ctDNA detection was associated with VTE independent of clinical and radiographic features."},
+{"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "anticoagulation was associated with lower VTE rates if ctDNA was detected"},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "anticoagulation was associated with lower VTE rates if ctDNA was detected (n = 2,522, adjusted hazard ratio (HR) = 0.50, 95% confidence interval (CI): 0.30-0.81)"}
+]},
+{"n": 1440, "id": "pmid:38598634", "verdicts": [
+{"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Prediction models of ASCL1 and NEUROD1 activity using informative loci achieved areas under the receiver operating characteristic curve (AUCs) from 0.84 to 0.88 in patients with SCLC."},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "Sequencing of cfDNA from SCLC patient-derived xenograft models captured TF activity and gene expression and revealed individual highly informative loci."},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "we applied our framework to distinguish NSCLC from SCLC and achieved an AUC of 0.99."},
+{"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Prediction models of ASCL1 and NEUROD1 activity using informative loci achieved areas under the receiver operating characteristic curve (AUCs) from 0.84 to 0.88 in patients with SCLC."}
+]},
+{"n": 1441, "id": "pmid:37002219", "verdicts": [
+{"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "WATSON can detect cfDNA from Mycobacterium tuberculosis in plasma of patients with active pulmonary tuberculosis"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "WATSON can detect cfDNA from Mycobacterium tuberculosis in plasma of patients with active pulmonary tuberculosis"},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "We thus demonstrate the potential for translating WATSON to a lateral flow platform."},
+{"j": 4, "label": "contradicted", "confidence": 3, "evidence": "We demonstrate that this strategy of tiling improves cfDNA detection compared to amplification and detection of a single targeted locus."}
+]},
+{"n": 1442, "id": "pmid:37814061", "verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "Median time to ctDNA response was 2.1 months (90% CI: 1.5-2.6)"},
+{"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "patients at risk of progression are randomized to treatment intensification or continuation of therapy"},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "The trial met its primary endpoint, with a sensitivity of ctDNA response for RECIST response of 82% (90% confidence interval (CI): 52-97%) and a specificity of 75% (90% CI: 56.5-88.5%)."},
+{"j": 4, "label": "contradicted", "confidence": 3, "evidence": "patients with mR attained longer progression-free survival (5.03 months versus 2.6 months) and overall survival (not reached versus 7.23 months)."}
+]},
+{"n": 1443, "id": "pmid:40055522", "verdicts": [
+{"j": 1, "label": "contradicted", "confidence": 3, "evidence": "A higher than median postoperative tumor-derived mutant molecules per milliliter plasma was associated with worse 5-year RFS (HR 10.62; P = 0.005)."},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "For treated ctDNA-positive patients, ctDNA clearance was observed at the end of ACT (EOT) in 35 out of 40 patients (87.5%)."},
+{"j": 3, "label": "not_addressed", "confidence": 2, "evidence": "Mature DYNAMIC outcome data support a ctDNA-guided approach to ACT for stage II colon cancer", "flag": "ambiguous", "reason": "The abstract reports this result only for stage II colon cancer and says nothing about stage III, so attributing a similar-RFS finding to stage III is neither stated nor directly contradicted."},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "At a median follow-up of 59.7 months, 5-year RFS was 88% and 87% with ctDNA-guided and standard management, respectively"}
+]},
+{"n": 1444, "id": "pmid:39747216", "verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "The superiority of the clinic-RadmC maintains well even after adjusting for clinic-radiological variables."},
+{"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "avoid the delayed treatment for lung cancer by 3.1% ~ 38.8%"},
+{"j": 3, "label": "contradicted", "confidence": 3, "evidence": "The clinic-RadmC yields an area-under-the-curve (AUC) of 0.923 on the external test set, outperforming the single-omics models"},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "the clinic-RadmC-guided strategy could reduce the unnecessary invasive procedures for benign IPLs by 10.9% ~ 35%"}
+]}
+]
+}

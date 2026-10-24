@@ -1,0 +1,38 @@
+{"batch": "check_B_47c", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1100, "id": "pmid:26804558",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "This species comprises two morphs, tan and white, that differ in pigmentation and components of social behavior [3-5]."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Using over two decades of field data, we document near-perfect disassortative mating among morphs"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We further show that the \"tan\" allele has surprisingly low levels of genetic diversity yet does not show several canonical signatures of recurrent positive selection."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "alternate supergene alleles are highly divergent at over 1,000 genes"}
+    ]},
+   {"n": 1101, "id": "pmid:33911286",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "The Asgard eukaryotic signature proteins show variable phyletic distributions and domain architectures, which is suggestive of dynamic evolution through horizontal gene transfer, gene loss, gene duplication and domain shuffling."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "lead us to propose six additional phyla that include a deep branch that we have provisionally named Wukongarchaeota"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Our comprehensive protein domain analysis using the 162 Asgard genomes results in a major expansion of the set of eukaryotic signature proteins."},
+      {"j": 4, "label": "contradicted", "confidence": 2, "evidence": "depending on the choice of species and conserved genes used to build the phylogeny-supports either the origin of eukaryotes from within Asgard"}
+    ]},
+   {"n": 1102, "id": "pmid:30948549",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "convergent evolution of regulatory regions, more so than protein-coding genes, is prevalent among developmental pathways associated with independent losses of flight"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "A Bayesian analysis of 284,001 conserved noncoding elements, 60,665 of which are corroborated as enhancers by open chromatin states during development, identified 2355 independent accelerations along lineages of flightless paleognaths"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "identified 2355 independent accelerations along lineages of flightless paleognaths"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Our results suggest that the genomic landscape associated with morphological convergence in ratites has a substantial shared regulatory component."}
+    ]},
+   {"n": 1103, "id": "pmid:30478043",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "trees from our data matrices support Psocodea (bark lice and parasitic lice) as the sister group to the holometabolous insects (those with complete metamorphosis). In contrast, four-cluster likelihood mapping of these data does not support this result."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "We also explore implications for understanding the timing of diversification, the evolution of morphological traits, and the evolution of mitochondrial genome organization."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "A molecular dating analysis using 23 fossil calibration points suggests hemipteroid insects began diversifying before the Carboniferous, over 365 million years ago."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Monophyly of each of the three hemipteroid orders (Psocodea, Thysanoptera, and Hemiptera) is strongly supported"}
+    ]},
+   {"n": 1104, "id": "pmid:34537136",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The ongoing convergence of viruses in many other lineages on this meta-signature suggests that it includes multiple mutation combinations capable of promoting the persistence of diverse SARS-CoV-2 lineages in the face of mounting host immune recognition."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "the adaptive evolution of 501Y lineage viruses has involved repeated selectively favored convergent mutations at 35 genome sites"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "the emergence of these three \"501Y lineages\" coincided with a major global shift in the selective forces acting on various SARS-CoV-2 genes"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "prompted renewed concerns about the evolutionary capacity of this virus to overcome public health interventions and rising population immunity"}
+    ]}
+ ]}

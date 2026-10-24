@@ -1,0 +1,248 @@
+{"batch": "check_C_13", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+  {"n": 455, "id": "pmid:40399339",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "All 10 sequences could evolve de-novo promoter activity from single point mutations."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "The ends of IS3s harbor ~1.5 times as many such proto-promoter sequences than the E. coli genome."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "We also estimate that at least 26% of the 706 characterized IS3s already encode promoters."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "created 18,537 random mutations in them, and measured their promoter activity using a massively parallel reporter assay"}
+   ]},
+  {"n": 456, "id": "doi:10.1101/2025.06.06.658329",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "This expression begins at the age of onset of neurological phenotypes, earlier in the hTDP-43-Q331K animals and much later in hTDP-43-WT."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "RTEs and ERVs are mobile genetic elements that constitute about 45% of our genome."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "These EGFP-labeled neurons undergo cell death and are therefore lost over time."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Together, these findings support the hypothesis that TDP-43 pathology triggers RTE/ERV expression in the motor cortex, that such expression marks cells for programmed cell death, with non-cell autonomous effects on nearby neurons and glial cells."}
+   ]},
+  {"n": 457, "id": "pmid:38960717",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "ChAHP2 is predominantly targeted to endogenous retroviruses (ERVs) and long interspersed elements (LINEs) via HP1β-mediated binding of H3K9 trimethylated histones."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Genetic ablation of ADNP2 alleviates ERV and LINE1 repression, which is synthetically exacerbated by additional depletion of ADNP."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Here we identify ChAHP2, a protein complex homologous to ChAHP, in which ADNP is replaced by ADNP2."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Here we identify ChAHP2, a protein complex homologous to ChAHP, in which ADNP is replaced by ADNP2."}
+   ]},
+  {"n": 458, "id": "doi:10.1101/2025.07.02.25330747",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "ctDNA was detected in 97% of patients before clinical relapse."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "We confirmed that the lack of detection of ctDNA at the post-NAC pre-operative (T1) time point is highly prognostic, with 95% distant-disease relapse free survival."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "capecitabine treatment was associated with clearance of ctDNA in 41% of cases, and clearance (from detection to non-detection) was associated with good prognosis"},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "In these cases, adjuvant chemotherapy with capecitabine improves disease-free survival in ∼15% of patients."}
+   ]},
+  {"n": 459, "id": "pmid:41162922",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "In ESCC, TUSC3 was identified as a prognostic biomarker and was validated in tissue samples."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "A total of 131 genes were identified as EAC-specific DEGs, whereas 49 genes were recognized as ESCC-specific DEGs."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "and hypoxia signaling pathways, in ESCC. Conversely, EAC was associated with alterations in tumor metabolism, particularly glycolysis and gluconeogenesis."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "For EAC, a prognostic risk model was constructed, including RHOV, SYTL1, MT1X, PRRG4, KCNK5, and CCL20, which demonstrated robust predictive capabilities for patient outcomes."}
+   ]},
+  {"n": 460, "id": "pmid:41385580",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Absence of detectable ctDNA in baseline samples prior to first-line therapy was associated with improved OS (HR = 0.13; P = 0.02) and progression-free survival (PFS; HR = 0.31; P = 0.008)."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "patients with MAF > 5% any time point had a significantly poorer prognosis compared with patients with MAF < 5%"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "(median OS 4 months vs. 21 months, P < 0.001; median PFS 2.5 months vs. 3.6 months, P = 0.004)"},
+     {"j": 4, "label": "not_addressed", "confidence": 2, "evidence": "using an IVDR-certified digital PCR assay targeting GNAQQ209 and GNA11Q209 mutations", "flag": "ambiguous", "reason": "BAP1 is never mentioned, and the assay is described as a digital PCR test targeting only the GNAQ/GNA11 Q209 hotspots, which could be read as excluding BAP1 detection rather than simply leaving it unaddressed."}
+   ]},
+  {"n": 461, "id": "pmid:42086706",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "we evaluated a novel liquid biopsy platform based on circulating cell-free DNA active chromatin (cfDNA ac ) profiling to identify baseline biomarkers associated with clinical benefit rate (CBR) in 30 LMS patients treated with durvalumab plus olaparib or cediranib"},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "In this analysis, cfDNA ac profiling represents a promising non-invasive strategy to predict clinical benefit from CPI-based therapy in LMS."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Signatures reflecting B-cell activation, T-cell activation, and extracellular matrix organization were significantly associated with improved progression-free survival"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Patients achieving CBR demonstrated enrichment of pathways related to cell death, interferon-γ signaling, and immune activation."}
+   ]},
+  {"n": 462, "id": "pmid:39769552",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "The LTR/Gypsy family was the most common transposon insertion."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "We identified 16,118 transposons overlapping with lncRNA sequences that constitute 2119 TE-lncRNAs (40.4% of all lncRNAs)"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The regulatory network of a key transcription factor was rewired by transposons, potentially recruiting other transcription factors to exert regulatory functions under heavy metal stress."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Compared with lncRNAs, TE-lncRNAs showed longer lengths, a lower conservation, and lower levels but a higher specificity of expression."}
+   ]},
+  {"n": 463, "id": "pmid:39875669",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Here we present 11 high-quality Capsicum genome assemblies, including two gap-free genomes, covering four wild and all five domesticated pepper species."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "The expanded and variable genome sizes were attributed to differential transposable element accumulations, which shaped 3D chromatin architecture and introduced mutations associated with traits such as fruit orientation and colour."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "These findings on the genomic and functional evolution of Capsicum will benefit pepper breeding."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "The expanded and variable genome sizes were attributed to differential transposable element accumulations"}
+   ]},
+  {"n": 464, "id": "pmid:42090629",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "MRD detection was conducted using the MinerVa platform (Genecast Precision Diagnostic Co., Ltd. Wuhan, China) using a tumor-informed strategy based on a fixed next-generation sequencing panel spanning 769 cancer-related genes."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "At landmark, positive MRD was associated with shorter disease-free survival (DFS) than negative MRD"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Clearance of ctDNA during AT was associated with a better prognosis than persistently detected ctDNA ( P < .001)."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "One hundred sixty-five patients were included in this study, with 35 (21.2%) relapses."}
+   ]},
+  {"n": 465, "id": "pmid:40680851",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "All germline and somatic PVs had high AlphaMissense scores (0.87-1) and clustered within or near Exo motifs."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Despite shared mutational features that make these tumors highly immunogenic, molecular and clinical distinctions between POLE and POLD1 mutations and between somatic and germline variants remain incompletely understood."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Unlike POLE, POLD1 ED PVs exhibited haplosufficiency, typically requiring a somatic second hit (eg, loss of heterozygosity) or MMR deficiency to drive hypermutation."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Somatic variants occurred mainly in endometrial cancers (75% of proofreading-deficient TCGA cancers)"}
+   ]},
+  {"n": 466, "id": "pmid:41375035",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "highlighting the need for subtype-specific diagnostic criteria and therapeutic strategies"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Seven patients (41%) had metastatic disease; none were PRNRP."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "IHC staining of L1CAM was positive in PRNRP but negative in KRAS -mutant PRCC, supporting their distinct cell-of-origin phenotypes."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "RNA-based deconvolution analysis revealed that PRNRP had enrichment in distal nephron components, whereas KRAS -mutant PRCC was enriched in proximal tubule cells ( p = 0.02)."}
+   ]},
+  {"n": 467, "id": "pmid:40592394",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "the insertion of the transposon dramatically reduces transcript stability"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Using long-read sequencing, we discovered that the ich phenotype stems from the insertion of a non-autonomous CMC-Enhancer/Suppressor-mutator (CMC-EnSpm) transposon in the 3'UTR of the gene."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Our findings not only resolve the molecular basis of the ich mutation but also highlight the continuing mutagenic potential of endogenous transposons"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "while wild type ctnnb2 mRNAs exhibit remarkably high stability throughout the early stages of development, the insertion of the transposon dramatically reduces transcript stability"}
+   ]},
+  {"n": 468, "id": "pmid:41169710",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "We demonstrate improved deconvolution performance over methods lacking scRNA-seq or using more limited variant types."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Using integer linear programming (ILP), we deconvolve heterogeneous variant types and resolve them into a clonal lineage tree."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "We present TUSV-int, integrating bulk DNA-seq and scRNA-seq into a single deconvolution and phylogenetic inference framework while accommodating single nucleotide variants (SNV), copy number alterations (CNA), and structural variants (SV)."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We further demonstrate its ability to better resolve clonal structure and mutational histories on a published DNA-seq/scRNA-seq breast cancer dataset."}
+   ]},
+  {"n": 469, "id": "pmid:39057174",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Four of those 29 patients had evidence of recurrence on imaging, of whom two had biopsy confirmation of recurrence and detectable ctDNA at the 12-month follow-up."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Alterations were detected on the DNA assay for 65 tumors and only on the RNA assay for 4 tumors."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Invasive tissue diagnosis may be avoidable in patients with ctDNA confirmation of recurrence that is suspected based on imaging."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Molecular confirmation of NSCLC recurrence can be provided through amplicon sequencing of plasma cell-free DNA in cases with imaging evidence of recurrence."}
+   ]},
+  {"n": 470, "id": "doi:10.1101/2024.12.04.626817",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Tumor-informed variants were detected in 26/28 patients, and de novo variants were observed in 25/28 patients."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "a variant-level limit of detection (LOD95) of 0.12%"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Patient-specific panels were designed targeting an average of 144 variants per patient."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Longitudinal ctDNA data provided key insights into patients’ responses to vaccine treatment."}
+   ]},
+  {"n": 471, "id": "pmid:41942607",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Combination therapy with bevacizumab plus high-dose furmonertinib significantly improved the LM response compared to that of furmonertinib monotherapy (median iPFS: 6.77 vs 4.04 months, respectively, 95% CI: 0.41-0.98, p = 0.038"},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Bevacizumab synergises with high-dose furmonertinib to significantly improve survival outcomes in TKI-resistant LM."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "The CSF ctDNA analysis revealed that 31/47 patients (66%) achieved a molecular response"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "median OS: 15.31 vs 7.10 months, respectively, 95% CI: 0.29-0.82, p = 0.002"}
+   ]},
+  {"n": 472, "id": "pmid:42895067",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Together, our results reveal a widespread network of C2H2-ZFP interactions at chromatin loop anchors, providing an important resource for understanding chromatin organization."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Finally, we show that ∼35% of LRI-associated C2H2-ZFP binding sites overlap somatic mutations in cancer genomes."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "interacting C2H2-ZFP pairs are significantly co-enriched at LRIs and frequently localize to the same or opposing loop anchors"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "we find that >40% of human C2H2-ZFPs are significantly enriched at LRI anchors"}
+   ]},
+  {"n": 473, "id": "pmid:41986614",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Importantly, in simulated population screenings, our ctDNA assay outperformed both LDCT and a previously established method."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "We developed a blood-based multi-omics model using whole-genome cell-free DNA (cfDNA) features to distinguish lung cancer from non-cancer individuals."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "The model achieved an area under the curve (AUC) of 95.59% for the training cohort and 95.74% for the validation cohort."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "it also effectively differentiated non-cancer samples from cancer samples in the external validation cohort, with 85.9% sensitivity and 94.78% specificity"}
+   ]},
+  {"n": 474, "id": "doi:10.64898/2026.07.27.26359064",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "CfDNA concentration varied broadly (median 6.25 ng/mL; range 0.5-1132.9)."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Primary tumor site influenced cfDNA levels, with liver/bile duct cancers having higher cfDNA than other sites (median 13.5 vs 6.1 ng/mL, p<0.0001)."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Critically, cfDNA concentration was an independent predictor of shorter PFS (p=0.001) and DSS (p<0.0001), demonstrating increased value in advanced disease settings, irrespective of treatment intent."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "cfDNA concentration may eventually augment patient selection for aggressive versus palliative interventions, especially in advanced disease"}
+   ]},
+  {"n": 475, "id": "pmid:38159086",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "distinct somatic driver mutations were identified, a truncated mutation in the TP53 gene in the ovarian tumor tissue, and a hotspot mutation in the PIK3CA gene in the breast cancer"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "A novel germline mutation (Phe1695Val) in BRCA1 was identified through whole-exome sequencing."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "According to our findings, the BRCA1 F1695V mutation is linked to ovarian cancer susceptibility in the family and causes specific somatic mutational profiles."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Our findings revealed a correlation between somatic mutational signatures and the BRCA1 germline mutation in the proband with ovarian cancer, while no such association was observed in the tumor tissue from the patient with breast cancer."}
+   ]},
+  {"n": 476, "id": "pmid:41872334",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "A pan-cancer analysis of non-synonymous somatic mutations across 14 tumor types using data from The Cancer Genome Atlas (TCGA) has been conducted. Body mass index (BMI) at diagnosis was analyzed as a continuous variable."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Functional inactivation analysis suggested loss-of-function mechanisms in most top-ranked genes, while Gene Ontology (GO) analysis highlighted deregulation of extracellular matrix-related pathways."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "These findings support a role for obesity in shaping the genomic landscape of tumors, highlighting the importance of integrating clinical parameters such as BMI into genomic studies"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "In particular, bladder urothelial cancer (BLCA) resulted as the most frequently mutated neoplasia in association with higher body mass index."}
+   ]},
+  {"n": 477, "id": "pmid:41029752",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Plasma and urine samples demonstrated high detection sensitivities, reaching 67.6% and 65.6%, respectively, while semen samples showed a lower detection rate of 33.3%."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "AR mutations were observed with similar frequencies in plasma and semen samples, but were absent in tissue and urine samples."},
+     {"j": 3, "label": "contradicted", "confidence": 2, "evidence": "Tissue samples, serving as the gold standard, achieved a 100% mutation detection rate.", "flag": "ambiguous", "reason": "No combined plasma-plus-urine analysis is reported, and since tissue detection was 100% no combination could exceed it, so the statement is either unaddressed or arithmetically incompatible depending on how it is read."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "No significant survival advantage associated with ctDNA negativity was observed, likely due to the small sample size."}
+   ]},
+  {"n": 478, "id": "pmid:40821453",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Study underscores substantial increase in the adoption of liquid biopsy and the real-world utility of ctDNA-based NGS testing in solid tumors contributing to improved patient care management."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Among lung cancer patients, EGFR mutations (44 %), followed by TP53 (43 %), CDKN2A (9 %), PIK3CA (9 %), and BRAF (6 %)."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "In the GI cohort, TP53 was most frequently mutated (51 %), followed by KRAS (25 %), BRAF (13 %), PIK3CA (13 %), and CHEK2 (9 %)."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Out of 236 ctDNA samples, majority were lung malignancies (47 %), gastric cancers (43 %), head & neck cancers (2 %), other malignancies (8 %)."}
+   ]},
+  {"n": 479, "id": "pmid:41291320",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "A total of 16 somatic mutations were identified (12 in AKT1, 4 in NRAS)."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "These findings advocate for expanded molecular profiling in HCC and suggest AKT1 as a promising target for personalized therapy."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "The most frequent AKT1 mutation was p.Asp32Glu, observed in multiple clinical groups."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "AKT1 mutations were more prevalent in intermediate and advanced HCC stages, suggesting a role in tumor progression."}
+   ]},
+  {"n": 480, "id": "pmid:41009333",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Addition of KRAS point mutations to the analysis increased the sensitivity to 65% (AUC-ROC-0.824 and 0.801, respectively)."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Bile exhibited an equal KRAS CNG detection rate compared to plasma (20% vs. 16%)."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "The sensitivity and specificity of KRAS CNG compared to the control group were 16% and 100% (AUC-ROC-0.580)"},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "The probability of survival was worse in patients with KRAS CNG (HR-3.54; 95% CI: 1.55-8.12; p = 0.001)."}
+   ]},
+  {"n": 481, "id": "doi:10.64898/2026.06.13.732068",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "NF2 or TRAF7 driver mutations are detectable in phenotypically normal meninges in 81.8% of cases"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "NF2 or TRAF7 driver mutations are detectable in phenotypically normal meninges in 81.8% of cases (95% CI: 59.7–94.8%; VAF ∼0.02%), corroborated by high-depth sequencing, single-cell cloning, and phylogenetic analysis."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Here, we analysed 80 triple-matched tumour, histologically normal meninges, and blood samples from 22 patients."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Reconstruction of mutational timing revealed lineage-specific trajectories, linking mosaicism to diverse disease presentations including solitary meningioma, IVM, meningiomatosis, and NF2 -related schwannomatosis."}
+   ]},
+  {"n": 482, "id": "pmid:40248734",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Our study highlights the potential of ctDNA-based CSF liquid biopsy in identifying BM-LUAD, and the efficacy in revealing novel biomarkers for BM-LUAD."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "ScRNA-seq revealed a progressive decrease in ANKRD11 expression along tumor progression, while in vitro and in vivo assays confirmed its role in suppressing tumor invasion and metastasis."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "in vitro and in vivo assays confirmed its role in suppressing tumor invasion and metastasis"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "CSF liquid biopsy identified high-frequency mutations in EGFR, BRCA2 , and ANKRD11 among patients with BM-LUAD."}
+   ]},
+  {"n": 483, "id": "pmid:39442892",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "ctDNA revealed targetable alterations in 34.3% of patients"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "A high maximum somatic variant allele frequency in ctDNA was associated with poor prognosis after gemcitabine/cisplatin-based chemotherapy, in terms of both overall survival (p = 6.9 × 10 -6 ) and progression-free survival (p = 3.8 × 10 -7 )."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "ctDNA revealed targetable alterations in 34.3% of patients - including FGFR2 fusions, IDH1 mutations, microsatellite instability-high, ERBB2 amplifications, PIK3CA mutations, BRCA1/2 mutations, and MET amplifications."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "The concordance between intra-patient ctDNA and tumor tissue mutations revealed a sensitivity of 84.8%, and positive predictive value of 79.4%."}
+   ]},
+  {"n": 484, "id": "pmid:38096571",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "SigProfilerAssignment is the first tool that allows both analysis of copy-number signatures and probabilistic assignment of signatures to individual somatic mutations."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "As its computational engine, the tool uses a custom implementation of the forward stagewise algorithm for sparse regression and nonnegative least squares for numerical optimization."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Analysis of 2700 synthetic cancer genomes with and without noise demonstrates that SigProfilerAssignment outperforms four commonly used approaches for assigning mutational signatures."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Analysis of 2700 synthetic cancer genomes with and without noise demonstrates that SigProfilerAssignment outperforms four commonly used approaches for assigning mutational signatures."}
+   ]},
+  {"n": 485, "id": "pmid:41398774",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Posttreatment ctDNA levels were significantly lower in responders compared with nonresponders (2.72 ± 1.11 vs 4.18 ± 1.54 ng/μL, P < .001)."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Posttreatment ctDNA levels were significantly lower in responders compared with nonresponders (2.72 ± 1.11 vs 4.18 ± 1.54 ng/μL, P < .001)."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Kaplan-Meier analysis demonstrated that patients with low ctDNA had longer median PFS (8.6 months) than those with high ctDNA (5.5 months, P < .001)."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Multivariate Cox regression identified ctDNA levels and treatment modality as independent predictors of PFS."}
+   ]},
+  {"n": 486, "id": "pmid:39303031",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "In the inverted configuration, gene function was previously shown to be repaired by unusual trans-splicing mediated by direct repeats."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "We identified that these direct repeats originated from terminal inverted repeats of Polintons ."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "We further found that multiple insertions of the DNA transposons, Polintons, reshuffled the eri-6/7 locus and induced inversion of eri-6 in some wild strains."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "a small interfering RNA pathway dependent on the helicase ERI-6/7 primarily silences retrotransposons and recent genes of likely viral origin"}
+   ]},
+  {"n": 487, "id": "pmid:42690648",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "the assay demonstrated a per-test sensitivity of 95.2% (20 of 21 patients; 95% CI, 83.3%-100%), specificity of 100% (157 of 157 patients; 95% CI, 100%-100%)"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "In the surveillance setting, the assay demonstrated a per-test sensitivity of 95.2% (20 of 21 patients; 95% CI, 83.3%-100%), specificity of 100% (157 of 157 patients; 95% CI, 100%-100%)"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "These metrics support the feasibility of using this assay as a promising ctDNA approach for disease monitoring in HNSCC."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Tissue-informed ctDNA was detected in 71 of 77 patients (92.2%) in the initial pretreatment setting."}
+   ]},
+  {"n": 488, "id": "doi:10.64898/2026.07.27.26359059",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "the largest Y-linked gene family TSPY can be divided into a highly variable tandem array whose copy number was found to be associated with prostate cancer risks"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "TSPY can be divided into a highly variable tandem array whose copy number was found to be associated with prostate cancer risks, and an invariable TSPY2 under stronger functional constraints"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "we present population-scale analyses of high-quality Y chromosomal sequences of 206 human individuals vs. six ape species, including 160 near complete sequences from the East Asian population, 85 of which are gapless"},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We uncovered an extensive cryptic diversity of the largest heterochromatin of the human genome on the Y chromosome Yq12, and traced its dual-origin from ancestral centromeric satellites respectively on the Y chromosome and acrocentric autosomes shared with other apes."}
+   ]},
+  {"n": 489, "id": "pmid:39300110",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "we observed that chimeric transcripts derived from LINE-1 and Alu were embedded in the transcripts of differentially expressed genes in the cerebellum of ASD"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "The majority of free transcripts of transposable elements were not changed in the cerebellum tissues of ASD compared with unaffected individuals."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "The majority of free transcripts of transposable elements were not changed in the cerebellum tissues of ASD compared with unaffected individuals."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "the expression levels of these genes were correlated with the significantly decreased thickness of the molecular layer in the cerebellum of ASD"}
+   ]}
+ ]}

@@ -1,0 +1,31 @@
+{"batch": "check_B_53c", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1188, "id": "pmid:29874575",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Leveraging RNA sequencing from 636 human brains, we discover differential expression for several retrotransposons in association with neurofibrillary tangle burden and highlight evidence for global TE transcriptional activation among the long interspersed nuclear element 1 and endogenous retrovirus clades."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "To determine whether Tau is sufficient to induce TE activation, we profile retrotransposons in Drosophila expressing human wild-type or mutant Tau throughout the brain."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We discover heterogeneous response profiles, including both age- and genotype-dependent activation of TE expression by Tau."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "In addition, we detect Tau-associated, active chromatin signatures at multiple HERV-Fc1 genomic loci."}
+    ]},
+   {"n": 1189, "id": "pmid:34762468",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We propose that Arabidopsis centromeres are evolving through cycles of satellite homogenization and retrotransposon-driven diversification."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We used long-read sequencing to generate the Col-CEN Arabidopsis thaliana genome assembly that resolves all five centromeres. The centromeres consist of megabase-scale tandemly repeated satellite arrays, which support CENTROMERE SPECIFIC HISTONE H3 (CENH3) occupancy and are densely DNA methylated, with satellite variants private to each chromosome."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "CENH3 preferentially occupies satellites that show the least amount of divergence and occur in higher-order repeats."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Centromeric crossover recombination is suppressed, yet low levels of meiotic DNA double-strand breaks occur that are regulated by DNA methylation."}
+    ]},
+   {"n": 1190, "id": "pmid:27419873",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Physical maps for nine of the most diverse genomes reveal how transposons and other structural variants shape the epigenome, with dramatic effects on immunity genes."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Because epigenetic variation can impact transcription and thus phenotypes, it may contribute to adaptation."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "geographic origin is a major predictor of genome-wide DNA methylation levels and of altered gene expression caused by epialleles"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Comparison to cistrome and epicistrome datasets identifies associations between transcription factor binding sites, methylation, nucleotide variation, and co-expression modules."}
+    ]},
+   {"n": 1191, "id": "pmid:30940818",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "In comparison to the Golden Delicious reference genome, we identify 18,047 deletions, 12,101 insertions and 14 large inversions. We reveal that these extensive genomic variations are largely attributable to activity of transposable elements."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "we find that a long terminal repeat (LTR) retrotransposon insertion upstream of MdMYB1, a core transcriptional activator of anthocyanin biosynthesis, is associated with red-skinned phenotype"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Here, we assemble a high-quality genome (contig N50 of 6.99 Mb) of the apple anther-derived homozygous line HFTH1, including 22 telomere sequences, using a combination of PacBio single-molecule real-time (SMRT) sequencing, chromosome conformation capture (Hi-C) sequencing, and optical mapping."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "In comparison to the Golden Delicious reference genome, we identify 18,047 deletions, 12,101 insertions and 14 large inversions."}
+    ]}
+ ]}

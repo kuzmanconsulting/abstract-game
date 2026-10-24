@@ -1,0 +1,107 @@
+{
+  "batch": "gen_97",
+  "prompt_version": "gen-v5",
+  "flip_rule": "first-of-any-v3",
+  "items": [
+    {
+      "n": 1615,
+      "id": "pmid:37252996",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "Each ribosomal DNA locus holds hundreds of tandemly arranged copies of ribosomal RNA genes that cells require to stay viable.", "evidence": "Ribosomal DNA (rDNA) loci contain hundreds of tandemly repeated copies of ribosomal RNA genes needed to support cellular viability.", "note": "The abstract states rDNA loci hold hundreds of tandem rRNA gene copies required for cellular viability."},
+        {"k": 2, "label": "not_addressed", "text": "The same R2-driven copy-number recovery maintains rDNA loci in the Drosophila female germline.", "evidence": "the rDNA-specific retrotransposon R2 is essential for restorative rDNA CN expansion to maintain rDNA loci in the Drosophila male germline.", "note": "The study examines the male germline only and makes no claim about the female germline."},
+        {"k": 3, "label": "supported", "text": "The R2 retrotransposon is required for the restorative copy-number expansion that keeps rDNA loci intact in the Drosophila male germline.", "evidence": "the rDNA-specific retrotransposon R2 is essential for restorative rDNA CN expansion to maintain rDNA loci in the Drosophila male germline.", "note": "The abstract reports R2 is essential for restorative rDNA copy-number expansion in the male germline."},
+        {"k": 4, "label": "supported", "text": "Depleting R2 disrupted rDNA copy-number maintenance, driving a generational decline in fecundity and eventual extinction.", "evidence": "The depletion of R2 led to defective rDNA CN maintenance, causing a decline in fecundity over generations and eventual extinction.", "note": "The abstract reports R2 depletion impaired rDNA copy-number maintenance, reducing fecundity across generations until extinction."}
+      ]
+    },
+    {
+      "n": 1616,
+      "id": "pmid:37308596",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "The H4K16ac mark drives transcription of a subset of full-length LINE-1 elements and endogenous retrovirus long terminal repeats.", "evidence": "This in turn activates transcription of subsets of full-length long interspersed nuclear elements (LINE1s, L1s) and endogenous retrovirus (ERV) long terminal repeats (LTRs).", "note": "The abstract states this acetylation activates transcription of full-length L1 and ERV LTR subsets."},
+        {"k": 2, "label": "supported", "text": "In human embryonic stem cells and cancer cells, MSL-complex-deposited H4K16ac is enriched at transposable elements.", "evidence": "the male-specific lethal (MSL)-complex-mediated histone H4 acetylation at lysine 16 (H4K16ac) is enriched at TEs in human embryonic stem cells (hESCs) and cancer cells.", "note": "The abstract reports MSL-complex H4K16ac is enriched at TEs in hESCs and cancer cells."},
+        {"k": 3, "label": "not_addressed", "text": "These H4K16ac-marked transposable elements act as enhancers essential for maintaining human embryonic stem cell pluripotency.", "evidence": "we show that the H4K16ac-marked L1 and LTR subfamilies display enhancer-like functions and are enriched in genomic locations with chromatin features associated with active enhancers.", "note": "The abstract shows enhancer-like activity and cis gene regulation but does not test effects on stem-cell pluripotency."},
+        {"k": 4, "label": "supported", "text": "These H4K16ac-marked regions reside at boundaries of topologically associated domains and loop with genes.", "evidence": "such regions often reside at boundaries of topologically associated domains and loop with genes.", "note": "The abstract states these regions often sit at topologically associated domain boundaries and loop with genes."}
+      ]
+    },
+    {
+      "n": 1617,
+      "id": "pmid:36669112",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "Heat stress drove a pronounced copy-number amplification of the Cnl1 retrotransposon in subtelomeric regions.", "evidence": "we observed a dramatic amplification in copy number of the Cnl1 ( Cryptococcus neoformans LINE-1) retrotransposon in subtelomeric regions under heat-stress conditions.", "note": "The abstract reports a dramatic Cnl1 copy-number amplification in subtelomeric regions under heat stress."},
+        {"k": 2, "label": "supported", "text": "Reporter-gene mutations from transposable-element insertion were sharply elevated at 37° relative to 30° in vitro.", "evidence": "Mutations caused by transposable element (TE) insertion into reporter genes were dramatically elevated at high temperatures (37° vs. 30°) in vitro", "note": "The abstract states TE-insertion mutations were dramatically elevated at 37° versus 30° in vitro."},
+        {"k": 3, "label": "supported", "text": "The Tcn12 retrotransposon integrated mainly within genes, and its mobilization occurred only at 37°.", "evidence": "the Tcn12 retrotransposon integrated primarily within genes and movement occurred exclusively at 37°.", "note": "The abstract reports Tcn12 integrated primarily within genes and moved only at 37°."},
+        {"k": 4, "label": "not_addressed", "text": "Mobilization of Tcn12 and Cnl1 at 37° raises the virulence of C. deneoformans during mouse infection.", "evidence": "we found multiple TE movements (T1, Tcn12, and Cnl1) in the genomes of single C. deneoformans isolates recovered from infected mice, providing evidence that mobile elements are likely to facilitate microevolution and rapid adaptation during infection.", "note": "The abstract links TE movement to adaptation during infection but does not measure virulence."}
+      ]
+    },
+    {
+      "n": 1618,
+      "id": "pmid:36732547",
+      "statements": [
+        {"k": 1, "label": "not_addressed", "text": "Reactivation of endogenous retroviruses drives inflammation in chronic liver disease through the same RIG-I/STING axis.", "evidence": "Inflammation is a common feature of all forms of chronic kidney disease; however, the underlying mechanism remains poorly understood.", "note": "The study examines chronic kidney disease only and makes no claim about the liver."},
+        {"k": 2, "label": "supported", "text": "RNA sequencing showed transposable elements and endogenous retroviruses are expressed at higher levels in diseased kidneys than in controls.", "evidence": "Comprehensive RNA-sequencing of control and diseased kidneys from human and mouse disease models indicated higher expression of transposable elements (TEs) and ERVs in diseased kidneys.", "note": "The abstract reports higher TE and ERV expression in diseased kidneys than controls."},
+        {"k": 3, "label": "supported", "text": "Genetically deleting or pharmacologically inhibiting DNA methyltransferase 1 (DNMT1) induced endogenous retrovirus expression.", "evidence": "Genetic deletion/pharmacological inhibition of DNA methyltransferase 1 (DNMT1) induces ERV expression.", "note": "The abstract states DNMT1 deletion or inhibition induces ERV expression."},
+        {"k": 4, "label": "supported", "text": "Deleting RIG-I or STING, or applying a reverse transcriptase inhibitor, eased kidney fibroinflammation.", "evidence": "Genetic deletion of RIG-I or STING or treatment with reverse transcriptase inhibitor ameliorates kidney fibroinflammation.", "note": "The abstract reports these interventions ameliorate kidney fibroinflammation."}
+      ]
+    },
+    {
+      "n": 1619,
+      "id": "pmid:37487084",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "Transposable elements were concentrated in the cloud genome, the set of genes carried by under 3% of accessions.", "evidence": "the cloud genome (genes present in less than 3% of the member accessions) showed enrichment in transposable elements (TEs).", "note": "The abstract reports the cloud genome, present in under 3% of accessions, is enriched for TEs."},
+        {"k": 2, "label": "supported", "text": "Accessions with a history of in vitro propagation carried high levels of transposable elements.", "evidence": "accessions with in vitro propagation history were identified and found to have high levels of TEs.", "note": "The abstract states in-vitro-propagated accessions had high TE levels."},
+        {"k": 3, "label": "supported", "text": "Clade 1+2, made up of reproductively isolated North and Central American species, carried much lower transposable-element content than the other clades.", "evidence": "The TE content differed between the clades, with clade 1+2, which is composed of species from North and Central America with reproductive isolation from species in other clades, having much lower TE content compared to other clades.", "note": "The abstract reports clade 1+2 had much lower TE content than the other clades."},
+        {"k": 4, "label": "not_addressed", "text": "The high transposable-element load in in vitro-propagated accessions lowers their tuber yield.", "evidence": "In contrast, accessions with in vitro propagation history were identified and found to have high levels of TEs.", "note": "The abstract reports elevated TE levels in in-vitro-propagated accessions but does not examine tuber yield."}
+      ]
+    },
+    {
+      "n": 1620,
+      "id": "pmid:39672162",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "Alternative splicing of transposable-element-derived exons is a key mechanism controlling immune signaling in human cells.", "evidence": "the alternative splicing of exons derived from transposable elements is a key mechanism controlling immune signaling in human cells", "note": "The abstract identifies TE-exon alternative splicing as a key mechanism controlling immune signaling in human cells."},
+        {"k": 2, "label": "not_addressed", "text": "This decoy IFNAR2 isoform shields patients from severe COVID-19 by curbing excessive interferon responses.", "evidence": "functions as a decoy receptor that potently inhibits interferon signaling, including in cells infected with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).", "note": "The study shows decoy activity in infected cells but does not evaluate clinical COVID-19 severity in patients."},
+        {"k": 3, "label": "supported", "text": "The transposon-derived IFNAR2 isoform is more highly expressed than the canonical isoform across almost all tissues.", "evidence": "the transposon-derived isoform of IFNAR2 is more highly expressed than the canonical isoform in almost all tissues", "note": "The abstract reports the transposon-derived IFNAR2 isoform is more highly expressed than the canonical isoform in nearly all tissues."},
+        {"k": 4, "label": "supported", "text": "The transposon-derived IFNAR2 isoform acts as a decoy receptor that strongly blocks interferon signaling, even in SARS-CoV-2-infected cells.", "evidence": "functions as a decoy receptor that potently inhibits interferon signaling, including in cells infected with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).", "note": "The abstract states the isoform acts as a decoy receptor inhibiting interferon signaling, including in SARS-CoV-2-infected cells."}
+      ]
+    },
+    {
+      "n": 1621,
+      "id": "pmid:36537206",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "Cyanobacterial genomes are rich in Tn7-like elements and include most of the known guide RNA-directed transposon systems.", "evidence": "cyanobacterial genomes are rich in Tn7-like elements, including most of the known guide RNA-directed transposons", "note": "The abstract states cyanobacterial genomes are rich in Tn7-like elements, including most known guide RNA-directed transposons."},
+        {"k": 2, "label": "supported", "text": "The researchers identified and characterized a type I-D CRISPR-Cas system naturally repurposed for guide RNA-directed transposition.", "evidence": "We discovered and characterized an example of a type I-D CRISPR-Cas system which was naturally coopted for guide RNA-directed transposition.", "note": "The abstract reports discovery of a type I-D CRISPR-Cas system coopted for guide RNA-directed transposition."},
+        {"k": 3, "label": "not_addressed", "text": "The engineered type I-D transposition system inserts cargo into human cells more precisely than Cas9-based editors.", "evidence": "Multiple attributes of the type I-D system offer unique possibilities for future work in gene editing.", "note": "The abstract proposes gene-editing potential but does not compare the system to Cas9 editors or test it in human cells."},
+        {"k": 4, "label": "supported", "text": "Adaptations unique to the I-D subtype included natural inactivation of the Cas10 nuclease.", "evidence": "Multiple novel adaptations were found specific to the I-D subtype, including natural inactivation of the Cas10 nuclease.", "note": "The abstract reports I-D-specific adaptations, including natural inactivation of the Cas10 nuclease."}
+      ]
+    },
+    {
+      "n": 1622,
+      "id": "pmid:38309261",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "The youngest primate L1 families are selectively hypomethylated in pluripotent stem cells and placenta, though not in most tumors.", "evidence": "the youngest primate L1 families are specifically hypomethylated in pluripotent stem cells and the placenta but not in most tumors.", "note": "The abstract reports the youngest primate L1 families are specifically hypomethylated in stem cells and placenta but not most tumors."},
+        {"k": 2, "label": "supported", "text": "The methylation state of an L1 element can spread into the adjacent sequence for as far as 300 bp.", "evidence": "the L1 methylation state can propagate to the proximal region up to 300 bp.", "note": "The abstract states the L1 methylation state can propagate to the proximal region up to 300 bp."},
+        {"k": 3, "label": "not_addressed", "text": "The same L1 methylation heterogeneity patterns occur in non-primate mammalian genomes.", "evidence": "Here, we combine short- and long-read sequencing to unveil L1 methylation heterogeneity across cell types, families, and individual loci and elucidate key principles involved.", "note": "The study resolves L1 methylation heterogeneity in primates and does not examine non-primate mammals."},
+        {"k": 4, "label": "supported", "text": "On its own, L1 hypomethylation is usually not enough to switch on L1 expression because redundant pathways keep it silenced.", "evidence": "L1 hypomethylation alone is typically insufficient to trigger L1 expression due to redundant silencing pathways.", "note": "The abstract states L1 hypomethylation alone is typically insufficient to trigger L1 expression due to redundant silencing."}
+      ]
+    },
+    {
+      "n": 1623,
+      "id": "pmid:39667937",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "Using ribosome profiling and proteomics, the study described 1,227 unannotated TE-exonizing isoforms produced by mRNA splicing and recurring in human populations.", "evidence": "we use transcriptome assembly, ribosome profiling, and proteomics to describe a population of 1,227 unannotated TE exonizing isoforms generated by mRNA splicing and recurrent in human populations.", "note": "The abstract reports 1,227 unannotated TE-exonizing isoforms generated by mRNA splicing and recurrent across human populations."},
+        {"k": 2, "label": "supported", "text": "Although these transposable-element exonizing isoforms are shorter and expressed at low levels, they are shared across individuals and translated efficiently.", "evidence": "Despite being shorter and lowly expressed, these isoforms are shared between individuals and efficiently translated.", "note": "The abstract states the isoforms, though shorter and lowly expressed, are shared between individuals and efficiently translated."},
+        {"k": 3, "label": "supported", "text": "Exonized transposable elements are concentrated in ancient genes, while the splice sites involved are evolutionarily recent.", "evidence": "Exonized TEs are rich in ancient genes, whereas the involved splice sites are recent and can be evolutionarily conserved.", "note": "The abstract reports exonized TEs are rich in ancient genes while the involved splice sites are recent."},
+        {"k": 4, "label": "not_addressed", "text": "These transposable-element-derived protein isoforms are enriched in patients with autoimmune disease.", "evidence": "TE-spliced isoforms represent a diversity reservoir of functional proteins on which natural selection can act.", "note": "The abstract characterizes the isoforms' prevalence and function but does not link them to any disease."}
+      ]
+    },
+    {
+      "n": 1624,
+      "id": "pmid:39122675",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "The study identified 39 infertile men carrying biallelic variants across 14 different piRNA-pathway genes, including PIWIL1 and DDX4.", "evidence": "present 39 infertile men carrying biallelic variants in 14 different piRNA pathway genes, including PIWIL1, GTSF1, GPAT2, MAEL, TDRD1, and DDX4.", "note": "The abstract reports 39 infertile men carrying biallelic variants in 14 piRNA-pathway genes."},
+        {"k": 2, "label": "not_addressed", "text": "Restoring piRNA pathway function in these carriers recovers sperm production and treats their infertility.", "evidence": "These results establish the disrupted piRNA pathway as a major cause of human spermatogenic failure and provide insights into transposon silencing in human male germ cells.", "note": "The study identifies the piRNA pathway as a cause of spermatogenic failure but does not test whether restoring it reverses infertility."},
+        {"k": 3, "label": "supported", "text": "Testicular tissue from variant carriers contained a reduced number of pachytene piRNAs, indicating impaired piRNA biogenesis.", "evidence": "A reduced number of pachytene piRNAs was detected in the testicular tissue of variant carriers, demonstrating impaired piRNA biogenesis.", "note": "The abstract reports a reduced number of pachytene piRNAs in variant carriers, showing impaired piRNA biogenesis."},
+        {"k": 4, "label": "supported", "text": "Across the affected men, testicular phenotypes ranged from a complete absence of germ cells to only a few abnormally shaped sperm.", "evidence": "range from complete germ cell loss to the production of a few morphologically abnormal sperm.", "note": "The abstract describes phenotypes ranging from complete germ-cell loss to only a few abnormal sperm."}
+      ]
+    }
+  ]
+}

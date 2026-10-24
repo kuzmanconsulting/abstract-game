@@ -1,0 +1,47 @@
+{
+  "batch": "gen_89b",
+  "prompt_version": "gen-v5",
+  "flip_rule": "first-of-any-v3",
+  "items": [
+    {
+      "n": 1539,
+      "id": "pmid:37054679",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "The study followed 23 children being treated for atopic dermatitis to track how their colonizing S. aureus changed over time.", "evidence": "by longitudinally tracking 23 children treated for AD", "note": "The cohort was 23 children treated for AD, followed longitudinally to watch S. aureus adapt."},
+        {"k": 2, "label": "supported", "text": "In reanalyzed genomes, capD negativity was more common among atopic dermatitis isolates than in other settings.", "evidence": "capD negativity is more common in AD than in other contexts", "note": "Reanalysis of 276 people's genomes showed capD negativity occurs more often in AD than elsewhere."},
+        {"k": 3, "label": "not_addressed", "text": "Clearing S. aureus from the skin with antibiotics reverses atopic dermatitis severity in these children.", "evidence": "worsens disease severity by promoting skin damage", "note": "The abstract links S. aureus to worse AD but never tests whether removing it reverses severity."},
+        {"k": 4, "label": "supported", "text": "Within each patient a single S. aureus lineage prevailed, and distant lineages invaded only infrequently.", "evidence": "Each patient's S. aureus population is dominated by a single lineage, with infrequent invasion by distant lineages", "note": "Each patient carried one dominant lineage, invaded only rarely by genetically distant lineages."}
+      ]
+    },
+    {
+      "n": 1540,
+      "id": "pmid:36599855",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "The researchers analyzed chromosome-level genome assemblies from three representative Cyanidiophyceae species to study their genomic adaptation.", "evidence": "chromosome-level assemblies from three representative Cyanidiophyceae species", "note": "Three chromosome-level Cyanidiophyceae assemblies were analyzed to probe genomic adaptation to extreme habitats."},
+        {"k": 2, "label": "supported", "text": "Cyanidiophyceae red algae have persisted in hot springs and related sites worldwide for more than one billion years.", "evidence": "has successfully thrived in hot springs and associated sites worldwide for more than 1 billion years", "note": "These red algae have occupied hot springs globally for over a billion years."},
+        {"k": 3, "label": "supported", "text": "Most adaptive genes, including those for arsenic detoxification, arose independently in the Cyanidiales and Galdieriales lineages.", "evidence": "most of the adaptive genes (e.g., for arsenic detoxification) evolved independently in these lineages", "note": "Although both orders face similar stress, most adaptive genes evolved separately in each lineage."},
+        {"k": 4, "label": "not_addressed", "text": "The horizontal gene transfers in these algae originated mainly from bacteria sharing the same hot-spring habitats.", "evidence": "in addition to horizontal gene transfer events", "note": "The abstract credits horizontal gene transfer in adaptation but never identifies the donor organisms."}
+      ]
+    },
+    {
+      "n": 1541,
+      "id": "pmid:37728212",
+      "statements": [
+        {"k": 1, "label": "not_addressed", "text": "The loss of IFN-α genes leaves bats more vulnerable to bacterial infections of the skin.", "evidence": "This shift to IFN-ω could contribute to the increased viral tolerance", "note": "The abstract ties the interferon shift to viral tolerance, saying nothing about bacterial infection."},
+        {"k": 2, "label": "supported", "text": "The long-read assemblies revealed a contraction of interferon-α at the type I IFN locus, shifting relative IFN-ω and IFN-α copy numbers.", "evidence": "revealed a contraction of interferon (IFN)-α at the immunity-related type I IFN locus in bats", "note": "Long-read assemblies showed interferon-α shrank at the type I IFN locus, altering IFN-ω/IFN-α ratios."},
+        {"k": 3, "label": "supported", "text": "Across the bat genomes, 33 tumor suppressor genes and 6 DNA-repair genes carried signatures of positive selection.", "evidence": "33 tumor suppressors and 6 DNA-repair genes showed signs of positive selection", "note": "Thirty-three tumor suppressors and six DNA-repair genes bore marks of positive selection in bats."},
+        {"k": 4, "label": "supported", "text": "Three bat species had lost all of their IFN-α genes, contrary to earlier ideas of constitutive IFN-α expression.", "evidence": "three bat species lost all IFN-α genes", "note": "Contrary to the constitutive-IFN-α hypothesis, three bat species had lost every IFN-α gene."}
+      ]
+    },
+    {
+      "n": 1542,
+      "id": "pmid:37128989",
+      "statements": [
+        {"k": 1, "label": "supported", "text": "The model inferred a recent sixfold increase in population size, alongside a fitness-effect distribution skewed toward effectively neutral mutations.", "evidence": "inferred a recent 6-fold population growth together with a distribution of fitness effects that is skewed towards effectively neutral mutations", "note": "Analysis inferred recent sixfold growth and a fitness-effect distribution dominated by near-neutral mutations."},
+        {"k": 2, "label": "not_addressed", "text": "Balancing selection was detected at specific immune loci in the Yoruba genome.", "evidence": "essential for identifying candidate loci experiencing relatively rare and episodic forms of selection (e.g., positive or balancing selection)", "note": "Balancing selection is named only as a target the baseline helps find, not a result reported here."},
+        {"k": 3, "label": "supported", "text": "The baseline model was built for the Yoruba, a West African population, from processes acting continuously on the genome.", "evidence": "a baseline model was developed for a human population of West African ancestry, the Yoruba", "note": "Supported: the model was developed specifically for the Yoruba from constantly operating genomic processes."},
+        {"k": 4, "label": "supported", "text": "Strong or frequent recurrent positive selection was inconsistent with the data, whereas weak-to-moderate positive selection stayed consistent but undetectable when rare.", "evidence": "although strong and/or frequent recurrent positive selection is inconsistent with observed data, weak to moderate positive selection is consistent but unidentifiable if rare", "note": "Data ruled out strong/frequent positive selection; weak-to-moderate positive selection stays possible but undetectable if rare."}
+      ]
+    }
+  ]
+}

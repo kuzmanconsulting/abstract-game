@@ -1,0 +1,129 @@
+{"batch": "check_A_02b", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+   {"n": 87, "id": "pmid:42822845",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Ultrasound findings included multiple congenital anomalies (n = 123), isolated structural anomaly (n = 132), isolated soft marker (n = 63), thickened nuchal translucency (n = 50), and fetal growth restriction (n = 8). cfDNA-WG was abnormal in 24 cases (6.4%)."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "376 subjects met the inclusion criteria."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Most abnormal results (87.5%) were common whole-chromosome aneuploidies: Trisomy 21 (n = 10), Trisomy 18 (n = 6), Trisomy 13 (n = 2), and Monosomy X (n = 3)."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Diagnostic testing was performed in 42 subjects (11.2%), with seven discordant results, including trisomy 8, four single-gene disorders, and two chromosomal mosaicisms."}
+    ]},
+   {"n": 88, "id": "pmid:42301375",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "providing a foundation for future research into potential therapeutic targets and prognostic biomarkers"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "patients with high SOAT1 expression exhibited elevated circulating neutrophils, neutrophil-to-lymphocyte ratio (NLR), (white blood cell-neutrophil)-to-lymphocyte ratio (dNLR) and systemic immune-inflammation index (SII), accompanied by decreased lymphocyte and monocyte counts"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "A retrospective cohort of 195 glioma patients who underwent surgical resection at our institution between January 2016 and December 2020 was also included."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "SOAT1 expression in gliomas increased with tumor grade. High SOAT1 expression was associated with worse prognosis, and this association remained significant in multivariable Cox models."}
+    ]},
+   {"n": 89, "id": "pmid:41340128",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "High-risk patients had worse survival, higher TP53 and TTN mutation rates, altered immune infiltration, poorer predicted immunotherapy response, and distinct drug sensitivity profiles."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Knockdown of PTGES3 significantly suppressed EC cell migration, invasion, and clonogenic ability, supporting its oncogenic role."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Six TRGs significantly associated with prognosis were identified to establish a risk model."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Knockdown of PTGES3 significantly suppressed EC cell migration, invasion, and clonogenic ability, supporting its oncogenic role."}
+    ]},
+   {"n": 90, "id": "doi:10.1101/2024.10.10.617645",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We propose that loss of cGAS leads to loss of chromatin organization, de-repression of transposable elements and induction of inflammation resulting in accelerated aging."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Cells from cGAS knockout mice showed increased chromatin accessibility and decreased DNA methylation on L1 transposons."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Stimulated emission depletion microscopy (STED) showed that cGAS forms nuclear condensates that co-localize with H3K9me3 heterochromatin marks"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Unexpectedly, we found that cGAS knockout mice exhibit accelerated aging phenotype associated with induction of inflammation."}
+    ]},
+   {"n": 91, "id": "pmid:40907207",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "patients with ctDNA partial response (CPR) and ctDNA progressive disease (CPD) had the worst clinical outcomes (mOS 16.4 and 25.5 months, and mPFS 12.7 and 11.9 months, respectively)"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Complete clearance of ctDNA at week 8 (ctDNA complete response, CCR) demonstrated the best prognostic and predictive values [median (m) OS 41.8 months; mPFS not reached (NR)], similar to persistent undetectable ctDNA (ctDNA non-measurable disease, CND; mOS 41.1 months; mPFS NR)."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "ctDNA results were available for 106 patients at baseline and 90 patients at week 8 of treatment."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "The clinical utility of LB-RECIST to guide early treatment decisions is warranted through interventional trials."}
+    ]},
+   {"n": 92, "id": "pmid:41649339",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 2, "evidence": "alternative biomarkers, such as somatic mutations in DNA repair genes including MSH2 and ATM, may predict unexpected responses to immune checkpoint blockade", "flag": "ambiguous", "reason": "The abstract names MSH2 and ATM together as candidate predictors without attributing the response to either, so it neither supports nor squarely rules out singling out ATM."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Molecular profiling of the resected tumor revealed a high TMB (10 mut/Mb), somatic mutations in MSH2 and ATM, and microsatellite stability (MSS). Immunohistochemistry demonstrated complete loss of MSH2/MSH6 expression, while PD-L1 expression was 20% (tumor proportion score)."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Based on these findings, pembrolizumab was initiated as first-line therapy. The patient experienced clinical improvement and maintained a sustained partial response for seven months, with excellent tolerability."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "was ineligible for radioiodine or tyrosine kinase inhibitors due to a prior subarachnoid hemorrhage"}
+    ]},
+   {"n": 93, "id": "pmid:42456987",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The relative abundance of key anammox functional genes (hzs and hdh) decreased by 54.65% and 57.32%, respectively."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "The results revealed that PFBS exposure significantly deteriorated nitrogen removal, leading to a 10.16% reduction in total nitrogen removal efficiency."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "PFBS exposure significantly deteriorated nitrogen removal, leading to a 10.16% reduction in total nitrogen removal efficiency"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Additionally, PFBS facilitated the enrichment of ARG and mobile genetic elements (MGE), thereby increasing the potential for MGE-mediated ARG dissemination."}
+    ]},
+   {"n": 94, "id": "doi:10.64898/2026.07.04.736459",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "we ranked over 10,000 OpenAlex-indexed research articles per cohort by 18-month post-publication citation count. Large language model (LLM)-based topical relevance filtering yielded 50 substantively on-topic papers per cohort (100 total)."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "while liquid biopsy and ctDNA-related themes showed the largest declines"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "while liquid biopsy and ctDNA-related themes showed the largest declines"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The most cited papers in both cohorts were large-scale genomic infrastructure resources rather than single-disease mechanistic studies."}
+    ]},
+   {"n": 95, "id": "doi:10.64898/2026.02.23.26346900",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "In melanoma, higher FOLR2 (HR 0.87), TREM2 (HR 0.83), CD8A (HR 0.69), and CXCL9 (HR 0.67) independently predicted improved survival."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "In contrast, LUSC demonstrated an adverse association for FOLR2 (HR 1.28)."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "LUAD showed largely neutral macrophage effects."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "In contrast, LUSC demonstrated an adverse association for FOLR2 (HR 1.28)."}
+    ]},
+   {"n": 96, "id": "doi:10.1101/2023.07.04.23292206",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Positive correlations with treatment response were observed for MATH score (R = 0.24, P = 0.014) and ctDNA% (R = 0.3, P = 0.002), but not the CEA, CA125, or CA153."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "ctDNA profiling provides insight into the mutational landscape of mTNBC and may reliably predict the prognosis and treatment response of mTNBC patients."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "patients who remained ctDNA+ during dynamic monitoring tended to have a shorter PFS than those who did not (3.90 months vs. 6.10 months, P = 0.135)"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Patients with ctDNA+, defined by 12 prognosis-relevant mutated genes, had a shorter progression-free survival (PFS) than ctDNA− patients (5.16 months vs. 9.05 months, P = 0.001)"}
+    ]},
+   {"n": 97, "id": "pmid:38646531",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "HERV1_I-int: ERV1:LTR and LTR7Y: ERV1:LTR were highlighted as potential biomarkers for evaluating the severity of COVID-19."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We identified 405, 283, and 206 significantly up-regulated transposable elements (TEs) in hPBMCs, monkeys, and mice, respectively."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "validation of our findings using RT-qPCR in Bone Marrow-Derived Macrophages (BMDMs) from mice infected by HSV-1 and VSV provided further support to our results"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we identified 210 ERVs specifically up-regulated in the severe COVID-19 group. The genes associated with these differentially expressed ERVs were enriched in processes such as immune response activation and histone modification."}
+    ]},
+   {"n": 98, "id": "doi:10.1101/2023.08.08.552548",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Thus, in contrast to the huge number of transposon copies in the genome, only a limited number of transposons are autonomously mobile."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Among the 62,773 copies of retro- and DNA transposons in the latest assembly of the C. elegans genome (VC2010), we found that the complete open reading frame structure was conserved in 290 transposon-mobility genes."},
+      {"j": 3, "label": "not_addressed", "confidence": 2, "evidence": "Critical amino acids at the catalytic core were conserved in only 145 of these 290 genes.", "flag": "ambiguous", "reason": "The abstract treats these genes only as potentially functional and never reports transposition activity in populations, so whether most are actively transposing is left unsettled."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Critical amino acids at the catalytic core were conserved in only 145 of these 290 genes."}
+    ]},
+   {"n": 99, "id": "doi:10.64898/2026.08.26.26361432",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "In the independent INSPIRE cohort, 72 of 78 cancer cases (92.3%) exceeded the binary classification threshold"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Subnetwork analysis further identified recurrent, graph-connected methylation patterns, including a 111-DMR subnetwork with increased methylation in cancer samples."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Cell-free DNA methylation provides a minimally invasive signal for early cancer detection and tissue-of-origin prediction."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "PANGEM correctly classified 9 of 17 head and neck cancer cases (52.9%), the highest accuracy among evaluated methods"}
+    ]},
+   {"n": 100, "id": "pmid:42676643",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "In cross-validation of the discovery dataset, GastroAlert achieved an area under the receiver operating characteristic curve (AUC) of 0.950 [95% confidence interval (CI) 0.874-0.995], with observed AUCs for conventional protein biomarkers ranging from 0.507 to 0.687."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "the model still maintained high diagnostic efficacy with an AUC of 0.921 (95% CI 0.862-0.980) in the discovery dataset and 0.948 (95% CI 0.910-0.985) in the validation dataset"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "the locked GastroAlert model exhibited robust and reproducible performance in the independent validation dataset, yielding an AUC of 0.965 (95% CI 0.940-0.989) for distinguishing gastric cancer patients from non-cancer controls"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "a discovery dataset consisting of 136 participants, including 53 gastric cancer patients, 55 individuals with benign gastric conditions, and 28 healthy controls"}
+    ]},
+   {"n": 101, "id": "pmid:40613575",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Our findings provide the basis for investigating the clinical utility of non-invasive lymphoma genotyping and disease monitoring in pediatric mature B-NHL."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "In 10 patients with high-risk disease (risk groups R3 and R4), 60% of somatic short variants were detected in both plasma and lymphoma samples using a tumor-agnostic approach"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "In a tumor-informed approach, ctDNA was detectable in 16/18 plasma samples with a proportion of 0.045%-55%, demonstrating its potential for minimal disease monitoring."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "In patients with low-risk disease, 27% of mutations were shared in plasma and tumor; 65% and 8% were detected in DNA from lymphoma or plasma samples only."}
+    ]},
+   {"n": 102, "id": "pmid:38163441",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Plasma samples were obtained from patients with HCC prior to surgery, locoregional or systemic therapy, and were analyzed by ULP-WGS of cfDNA to an average genome-wide fold coverage of 0.3x."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "ctDNA was detected in 18 out of 31 patients who received systemic treatment. Patients with detectable ctDNA showed significantly worse overall survival (median, 13.96 months vs not reached)."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Among ctDNA-positive patients under systemic treatments, the loss of large genomic regions in 5q and 16q arms was associated with worse prognosis after multivariate analysis."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "ctDNA remained an independent predictor of prognosis after adjustment by clinical-pathologic features and type of systemic treatment (hazard ratio 7.69; 95%, CI 2.09-28.27)."}
+    ]},
+   {"n": 103, "id": "pmid:40712109",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The top-ranking altered genes in Chinese patients with UTUC were KMT2D (48.4%), TERT promoter (46.7%), FGFR3 (41.0%), and TP53 (37.7%)."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "mutant subtype or triple-negative subtype had significantly worse progression-free survival than other subtypes"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Our research lays the foundation for understanding UTUC in China and designing precise diagnosis and treatment."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Somatic mutations were detected in 120/122 (98.4%) patients using this 520-gene panel sequencing."}
+    ]},
+   {"n": 104, "id": "doi:10.1101/2025.11.12.25340092",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 2, "evidence": "Additionally, imaging surveillance strategies were also evaluated.", "flag": "ambiguous", "reason": "Imaging strategies are said to have been evaluated but no imaging results are reported, and the cost-effectiveness claim is made only against no testing, so their relative ranking is left open."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "It proves robustly cost-effective in NOD high-risk patients, with an Incremental Cost-Effectiveness Ratio (ICER) of $56,564 at a Willingness to Pay (WTP) of $100,000"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "1% would be diagnosed with PC in the no-testing strategy, with only 7.1% of cases eligible for surgery. In contrast, 71 PC cases are predicted to be detected with cfDNA testing. These cases would be more likely to be detected at an earlier, more treatable stage, with 32.4% eligible for surgical resection."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "The cell-free DNA epigenomic test has a sensitivity of 68% and a specificity of 97%."}
+    ]}
+ ]}

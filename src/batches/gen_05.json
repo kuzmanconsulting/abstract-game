@@ -1,0 +1,655 @@
+{
+"batch": "gen_05",
+"items": [
+{
+"n": 175,
+"id": "doi:10.64898/2026.07.09.737627",
+"year": 2026,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Many genomic assays begin with individual DNA fragments, but standard analysis quickly collapses those molecules into counts over genomic intervals. Rich information carried by each fragment, including its sequence, fragment body, cleavage boundaries, and local flanking context, is lost in this process. This loss is especially apparent in mixed-source and heterogeneous samples, where individual fragments originate from disparate cell types and can retain information about their cell of origin. To address this, we present LEAF-1, a fragment-level foundation model pre-trained on approximately 58 billion fragments spanning bulk ATAC-seq, single-cell ATAC-seq, and cell-free DNA profiles, representing each DNA molecule as a point in a learned semantic space defined by sequence context, assay modality, and explicit cleavage-boundary tokens. In sparse scATAC-seq datasets, mean-pooled LEAF-1 embeddings readily classify human cell types from as few as ∼1,000 fragments per cell, with high-scoring fragments linked to cell-type-associated transcription-factor programs. Similarly, in cell-free DNA profiling, LEAF-1 outperformed state-of-the-art coordinate-binning strategies and general-purpose DNA language model baselines across cancer detection tasks. Applying attention-based multiple-instance learning to LEAF-1 embeddings further improved cancer detection, reaching an area under the receiver operating characteristic (ROC) curve (AUC) of 0.95. This pan-cancer model generalizes beyond cancer types it is trained on, as we show by profiling plasma samples from clear cell renal cell carcinoma patients and healthy volunteers and applying the frozen classifier without retraining, achieving an AUC of 0.83. These results show that semantic learning over individual DNA fragments preserves biochemical, cell-associated, and disease-associated signals that are otherwise lost during coordinate-based aggregation."
+}
+],
+"text": "Many genomic assays begin with individual DNA fragments, but standard analysis quickly collapses those molecules into counts over genomic intervals. Rich information carried by each fragment, including its sequence, fragment body, cleavage boundaries, and local flanking context, is lost in this process. This loss is especially apparent in mixed-source and heterogeneous samples, where individual fragments originate from disparate cell types and can retain information about their cell of origin. To address this, we present LEAF-1, a fragment-level foundation model pre-trained on approximately 58 billion fragments spanning bulk ATAC-seq, single-cell ATAC-seq, and cell-free DNA profiles, representing each DNA molecule as a point in a learned semantic space defined by sequence context, assay modality, and explicit cleavage-boundary tokens. In sparse scATAC-seq datasets, mean-pooled LEAF-1 embeddings readily classify human cell types from as few as ∼1,000 fragments per cell, with high-scoring fragments linked to cell-type-associated transcription-factor programs. Similarly, in cell-free DNA profiling, LEAF-1 outperformed state-of-the-art coordinate-binning strategies and general-purpose DNA language model baselines across cancer detection tasks. Applying attention-based multiple-instance learning to LEAF-1 embeddings further improved cancer detection, reaching an area under the receiver operating characteristic (ROC) curve (AUC) of 0.95. This pan-cancer model generalizes beyond cancer types it is trained on, as we show by profiling plasma samples from clear cell renal cell carcinoma patients and healthy volunteers and applying the frozen classifier without retraining, achieving an AUC of 0.83. These results show that semantic learning over individual DNA fragments preserves biochemical, cell-associated, and disease-associated signals that are otherwise lost during coordinate-based aggregation."
+},
+{
+"n": 176,
+"id": "pmid:42763384",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Esophageal squamous cell carcinoma (ESCC) has a poor prognosis, and new therapeutic targets are required. Antibody-drug conjugates (ADCs) are a promising therapeutic modality that selectively delivers cytotoxic payloads to tumors via cell-surface antigens. Tumor-associated calcium signal transducer 2 (TROP2, TACSTD2) has shown therapeutic potential as an ADC target in several malignancies; however, its clinical significance in ESCC remains unclear."
+},
+{
+"label": "Methods",
+"text": "An institutional cohort of ESCC patients treated at Kindai University was retrospectively evaluated by immunohistochemistry (n=70) and RNA sequencing (n=27). TACSTD2 copy number alterations, RNA expression, and survival were analyzed using the Cancer Genome Atlas (TCGA) ESCC dataset. IHC was assessed in both resected and biopsy specimens, including metastatic lesions. Survival analyses were performed, stratifying patients by cohort-specific median TACSTD2 expression levels."
+},
+{
+"label": "Results",
+"text": "Immunohistochemistry analysis demonstrated uniformly strong TROP2 expression in all evaluable primary and metastatic lesions. In the TCGA dataset, TACSTD2 mRNA expression was consistently high, irrespective of copy-number status, and was comparable to or higher than that observed in non-small cell lung cancer and breast cancer, tumor types in which TROP2-targeted ADCs are clinically active. The TACSTD2 high-expression group showed a trend toward worse overall survival in both the institutional and the TCGA cohort, whereas disease-free survival was similar."
+},
+{
+"label": "Conclusions",
+"text": "TROP2/TACSTD2 is strongly and consistently expressed in ESCC at the protein and RNA levels, despite infrequent gene amplification, supporting its feasibility as a therapeutic target. High expression shows a trend toward poorer overall survival, warranting validation in larger cohorts."
+}
+],
+"text": "Esophageal squamous cell carcinoma (ESCC) has a poor prognosis, and new therapeutic targets are required. Antibody-drug conjugates (ADCs) are a promising therapeutic modality that selectively delivers cytotoxic payloads to tumors via cell-surface antigens. Tumor-associated calcium signal transducer 2 (TROP2, TACSTD2) has shown therapeutic potential as an ADC target in several malignancies; however, its clinical significance in ESCC remains unclear. An institutional cohort of ESCC patients treated at Kindai University was retrospectively evaluated by immunohistochemistry (n=70) and RNA sequencing (n=27). TACSTD2 copy number alterations, RNA expression, and survival were analyzed using the Cancer Genome Atlas (TCGA) ESCC dataset. IHC was assessed in both resected and biopsy specimens, including metastatic lesions. Survival analyses were performed, stratifying patients by cohort-specific median TACSTD2 expression levels. Immunohistochemistry analysis demonstrated uniformly strong TROP2 expression in all evaluable primary and metastatic lesions. In the TCGA dataset, TACSTD2 mRNA expression was consistently high, irrespective of copy-number status, and was comparable to or higher than that observed in non-small cell lung cancer and breast cancer, tumor types in which TROP2-targeted ADCs are clinically active. The TACSTD2 high-expression group showed a trend toward worse overall survival in both the institutional and the TCGA cohort, whereas disease-free survival was similar. TROP2/TACSTD2 is strongly and consistently expressed in ESCC at the protein and RNA levels, despite infrequent gene amplification, supporting its feasibility as a therapeutic target. High expression shows a trend toward poorer overall survival, warranting validation in larger cohorts."
+},
+{
+"n": 177,
+"id": "pmid:41383256",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "SRY-related high-mobility group protein B5 (SOX5) functions as an oncogene in diverse human malignancies, contributing to tumor progression, metastasis and therapy resistance across various cancer types. In light of this, a pan-cancer analysis was performed in the present study to investigate the oncogenic function of SOX5 in various human malignancies. SOX5 mRNA expression levels were compared between normal and malignant tissues using The Cancer Genome Atlas database and diagnostic effectiveness was evaluated using receiver operating characteristic curve analysis. Kaplan-Meier survival analysis was performed to investigate the association between SOX5 expression and overall survival, disease-specific survival, disease-free interval and progression-free interval. The influence of SOX5 on immune infiltration and immunological scores in the tumor microenvironment was assessed utilizing Estimation of Stromal and Immune Cells in Malignant Tumor Tissues Using Expression Data, Cell-Type Identification by Estimating Relative Subsets of RNA Transcripts and single-sample Gene Set Enrichment Analysis methodologies, in conjunction with its relationship to drug sensitivity and genetic modifications. SOX5 exhibited tissue-specific dysregulation, being markedly downregulated in carcinomas such as lung adenocarcinoma (LUAD), lung squamous cell carcinoma and breast cancer, while increased in testicular germ cell tumor and non-small cell lung cancer (NSCLC) cell lines. It demonstrated notable diagnostic potential, with good performance in LUAD (area under the curve=0.916). The prognostic relevance of SOX5 was contingent upon context as lower expression conferred protection in specific malignancies; however, it was associated with worse outcomes in others, such as low-grade glioma and pancreatic adenocarcinoma. Increased SOX5 expression was associated with an immunosuppressive milieu marked by a rise in regulatory T cells, a decline in cytotoxic T cells and the activation of immunological checkpoints including programmed death-ligand 1 and cytotoxic T lymphocyte associated protein 4. Moreover, SOX5 was associated with genomic instability, susceptibility to medicines such as azacitidine and distinct mutation patterns. SOX5 suppression in NSCLC cells in vitro impeded proliferation, migration and invasion. These findings collectively emphasize the key function of SOX5 in tumor biology and highlight its potential as a biomarker for cancer diagnosis, prognosis and therapeutic targeting."
+}
+],
+"text": "SRY-related high-mobility group protein B5 (SOX5) functions as an oncogene in diverse human malignancies, contributing to tumor progression, metastasis and therapy resistance across various cancer types. In light of this, a pan-cancer analysis was performed in the present study to investigate the oncogenic function of SOX5 in various human malignancies. SOX5 mRNA expression levels were compared between normal and malignant tissues using The Cancer Genome Atlas database and diagnostic effectiveness was evaluated using receiver operating characteristic curve analysis. Kaplan-Meier survival analysis was performed to investigate the association between SOX5 expression and overall survival, disease-specific survival, disease-free interval and progression-free interval. The influence of SOX5 on immune infiltration and immunological scores in the tumor microenvironment was assessed utilizing Estimation of Stromal and Immune Cells in Malignant Tumor Tissues Using Expression Data, Cell-Type Identification by Estimating Relative Subsets of RNA Transcripts and single-sample Gene Set Enrichment Analysis methodologies, in conjunction with its relationship to drug sensitivity and genetic modifications. SOX5 exhibited tissue-specific dysregulation, being markedly downregulated in carcinomas such as lung adenocarcinoma (LUAD), lung squamous cell carcinoma and breast cancer, while increased in testicular germ cell tumor and non-small cell lung cancer (NSCLC) cell lines. It demonstrated notable diagnostic potential, with good performance in LUAD (area under the curve=0.916). The prognostic relevance of SOX5 was contingent upon context as lower expression conferred protection in specific malignancies; however, it was associated with worse outcomes in others, such as low-grade glioma and pancreatic adenocarcinoma. Increased SOX5 expression was associated with an immunosuppressive milieu marked by a rise in regulatory T cells, a decline in cytotoxic T cells and the activation of immunological checkpoints including programmed death-ligand 1 and cytotoxic T lymphocyte associated protein 4. Moreover, SOX5 was associated with genomic instability, susceptibility to medicines such as azacitidine and distinct mutation patterns. SOX5 suppression in NSCLC cells in vitro impeded proliferation, migration and invasion. These findings collectively emphasize the key function of SOX5 in tumor biology and highlight its potential as a biomarker for cancer diagnosis, prognosis and therapeutic targeting."
+},
+{
+"n": 178,
+"id": "doi:10.1101/2023.04.03.535374",
+"year": 2023,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "The neurobiological origins of social behaviors are incompletely understood. Here we utilized synthetic biology approaches to reprogram the function of ZFP189, a transcription factor whose expression and function in the rodent prefrontal cortex was previously determined to be protective against stress-induced social deficits. We created novel synthetic ZFP189 transcription factors including ZFP189 VPR , which activates the transcription of target genes and therefore exerts opposite functional control from the endogenous, transcriptionally repressive ZFP189 WT . Upon viral delivery of these synthetic ZFP189 transcription factors to mouse prefrontal cortex, we observe that ZFP189-mediated transcriptional control promotes mature dendritic spine morphology on transduced pyramidal neurons. Interestingly, dysregulation of ZFP189-mediated transcription in this brain area, achieved by delivery of synthetic ZFP189 VPR , precipitates social behavioral deficits in terms of social interaction, motivation, and the cognition necessary for the maintenance of social hierarchy, without other observable behavioral deficits. By performing RNA sequencing in virally manipulated prefrontal cortex tissues, we discover that ZFP189 transcription factors of opposing regulatory function have opposite influence on the expression of genetic transposable elements as well as genes that participate in immune functions. Collectively, this work reveals that ZFP189 function in the prefrontal cortex coordinates structural and transcriptional neuroadaptations necessary for social behaviors by binding transposable element-rich regions of DNA to regulate immune-related genes. Given the evidence for a co-evolution of social behavior and the brain immune response, we posit that ZFP189 may have evolved to augment brain transposon-associated immune function as a way of enhancing an animal’s capacity for functioning in social groups."
+}
+],
+"text": "The neurobiological origins of social behaviors are incompletely understood. Here we utilized synthetic biology approaches to reprogram the function of ZFP189, a transcription factor whose expression and function in the rodent prefrontal cortex was previously determined to be protective against stress-induced social deficits. We created novel synthetic ZFP189 transcription factors including ZFP189 VPR , which activates the transcription of target genes and therefore exerts opposite functional control from the endogenous, transcriptionally repressive ZFP189 WT . Upon viral delivery of these synthetic ZFP189 transcription factors to mouse prefrontal cortex, we observe that ZFP189-mediated transcriptional control promotes mature dendritic spine morphology on transduced pyramidal neurons. Interestingly, dysregulation of ZFP189-mediated transcription in this brain area, achieved by delivery of synthetic ZFP189 VPR , precipitates social behavioral deficits in terms of social interaction, motivation, and the cognition necessary for the maintenance of social hierarchy, without other observable behavioral deficits. By performing RNA sequencing in virally manipulated prefrontal cortex tissues, we discover that ZFP189 transcription factors of opposing regulatory function have opposite influence on the expression of genetic transposable elements as well as genes that participate in immune functions. Collectively, this work reveals that ZFP189 function in the prefrontal cortex coordinates structural and transcriptional neuroadaptations necessary for social behaviors by binding transposable element-rich regions of DNA to regulate immune-related genes. Given the evidence for a co-evolution of social behavior and the brain immune response, we posit that ZFP189 may have evolved to augment brain transposon-associated immune function as a way of enhancing an animal’s capacity for functioning in social groups."
+},
+{
+"n": 179,
+"id": "pmid:42457877",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Extranodal NK/T-cell lymphoma (ENKTL) and primary Epstein-Barr virus (EBV)-positive nodal T/NK-cell lymphoma (nodal-TNKL) are aggressive lymphomas with overlapping clinicopathologic features but distinct underlying biology. While their genomic landscapes have been increasingly defined, comparative epigenetic characterization remains limited. We performed methylated DNA immunoprecipitation sequencing (MeDIP-seq) on formalin-fixed paraffin-embedded samples from ENKTL, nodal-TNKL, ENKTL cell lines, and control tissues. ENKTL displayed extensive promoter hypermethylation associated with repression of tumor suppressor genes, lineage regulators, and lymphoid signaling genes, including LEF1 and BANK1, together with focal hypomethylation of immune- and interferon-responsive genes such as IFITM1. In contrast, nodal-TNKL showed global hypomethylation, particularly affecting cytotoxicity, immune-response, and antigen-presentation pathways; TET2-mutated nodal-TNKL cases exhibited locus-specific methylation changes. Across all samples, global DNA methylation levels correlated with genomic instability. Unsupervised clustering identified two epigenetically distinct ENKTL subgroups, one characterized by higher global methylation, TP53 loss, increased copy number alterations and loss of heterozygosity and significantly poorer overall survival. Together, this study defines fundamental epigenetic differences between ENKTL and nodal-TNKL and links DNA methylation dynamics to genomic instability and clinical outcome, highlighting the value of methylation profiling for refined classification, risk stratification and therapeutic guidance."
+}
+],
+"text": "Extranodal NK/T-cell lymphoma (ENKTL) and primary Epstein-Barr virus (EBV)-positive nodal T/NK-cell lymphoma (nodal-TNKL) are aggressive lymphomas with overlapping clinicopathologic features but distinct underlying biology. While their genomic landscapes have been increasingly defined, comparative epigenetic characterization remains limited. We performed methylated DNA immunoprecipitation sequencing (MeDIP-seq) on formalin-fixed paraffin-embedded samples from ENKTL, nodal-TNKL, ENKTL cell lines, and control tissues. ENKTL displayed extensive promoter hypermethylation associated with repression of tumor suppressor genes, lineage regulators, and lymphoid signaling genes, including LEF1 and BANK1, together with focal hypomethylation of immune- and interferon-responsive genes such as IFITM1. In contrast, nodal-TNKL showed global hypomethylation, particularly affecting cytotoxicity, immune-response, and antigen-presentation pathways; TET2-mutated nodal-TNKL cases exhibited locus-specific methylation changes. Across all samples, global DNA methylation levels correlated with genomic instability. Unsupervised clustering identified two epigenetically distinct ENKTL subgroups, one characterized by higher global methylation, TP53 loss, increased copy number alterations and loss of heterozygosity and significantly poorer overall survival. Together, this study defines fundamental epigenetic differences between ENKTL and nodal-TNKL and links DNA methylation dynamics to genomic instability and clinical outcome, highlighting the value of methylation profiling for refined classification, risk stratification and therapeutic guidance."
+},
+{
+"n": 180,
+"id": "doi:10.64898/2026.01.20.700476",
+"year": 2026,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "The precise integration of large DNA fragments into the human genome holds significant therapeutic potential. Here, we demonstrate that combining engineered piggyBac (PB) transposase with CRISPR/Cas9 enables targeted integration of PB transposons into specified genomic loci. Our engineered PB transposase (PBase) retains high excision activity while substantially reducing endogenous integration activity. In the developed Cas9-PBase fusion system, PBase excises the transposon to generate linear DNA fragments, while Cas9 introduces site-specific double-strand breaks (DSBs), facilitating insertion of the excised fragment at the target locus. The optimized tool achieves 6.1–7.3 kb transposon integration at multiple genomic sites with 10–15% efficiency, demonstrating 60–80% targeted integration specificity. As a proof of concept, we inserted a 7.1 kb transposon encoding three genes into the β2M locus of human induced pluripotent stem cells (iPSCs), conferring protection against allogeneic natural killer (NK) cell-mediated cytotoxicity in derived iNK cells. These results establish Cas9-PBase as a precise and programmable platform for large DNA sequence insertion with potential clinical applications."
+}
+],
+"text": "The precise integration of large DNA fragments into the human genome holds significant therapeutic potential. Here, we demonstrate that combining engineered piggyBac (PB) transposase with CRISPR/Cas9 enables targeted integration of PB transposons into specified genomic loci. Our engineered PB transposase (PBase) retains high excision activity while substantially reducing endogenous integration activity. In the developed Cas9-PBase fusion system, PBase excises the transposon to generate linear DNA fragments, while Cas9 introduces site-specific double-strand breaks (DSBs), facilitating insertion of the excised fragment at the target locus. The optimized tool achieves 6.1–7.3 kb transposon integration at multiple genomic sites with 10–15% efficiency, demonstrating 60–80% targeted integration specificity. As a proof of concept, we inserted a 7.1 kb transposon encoding three genes into the β2M locus of human induced pluripotent stem cells (iPSCs), conferring protection against allogeneic natural killer (NK) cell-mediated cytotoxicity in derived iNK cells. These results establish Cas9-PBase as a precise and programmable platform for large DNA sequence insertion with potential clinical applications."
+},
+{
+"n": 181,
+"id": "pmid:42843743",
+"year": 2026,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Antibiotic resistance genes (ARGs) are ubiquitous in aquatic ecosystems, but the ecological risk patterns and associated factors remain unclear across aquatic environments with contrasting hydrodynamic conditions. Using an integrated analytical framework, we explored interactions among antibiotics, microbial communities, mobile genetic elements (MGEs), and ARGs in a dynamic river and a slow-flow wetland. Antibiotics were widely detected in both systems, with generally higher total concentrations in the dynamic river (50.0-148.4 ng/L) than in the slow-flow wetland (2.5-101.7 ng/L). The total abundance of ARGs was also higher and more homogeneous in the dynamic river (49529.4-58542.5 RPKM) compared to the slow-flow wetland (24091.8-53003.0 RPKM), which exhibited greater spatial heterogeneity. Structural equation modeling (SEM) revealed different ARG-associated factor patterns in the two aquatic ecosystems with contrasting hydrodynamic settings. Bacterial communities and MGEs showed stronger associations with ARG variation in the Qiantang River, with standardized total effects (STEs) of 0.953 and 0.442, respectively, whereas antibiotics and MGEs showed stronger associations with ARG variation in the Xixi Wetland, with STEs of 0.816 and 0.747, respectively. Sulfamonomethoxine (SMM) was identified as the antibiotic most strongly associated with ARG variation in the wetland based on random forest analysis (importance score = 46.90%). This study indicates that the Qiantang River and Xixi Wetland exhibited distinct antibiotic resistance profiles and ARG-associated factor patterns, characterized by a host community-associated mode in the river and an antibiotic-associated mode in the wetland, with MGEs associated with ARG variation in both ecosystems."
+}
+],
+"text": "Antibiotic resistance genes (ARGs) are ubiquitous in aquatic ecosystems, but the ecological risk patterns and associated factors remain unclear across aquatic environments with contrasting hydrodynamic conditions. Using an integrated analytical framework, we explored interactions among antibiotics, microbial communities, mobile genetic elements (MGEs), and ARGs in a dynamic river and a slow-flow wetland. Antibiotics were widely detected in both systems, with generally higher total concentrations in the dynamic river (50.0-148.4 ng/L) than in the slow-flow wetland (2.5-101.7 ng/L). The total abundance of ARGs was also higher and more homogeneous in the dynamic river (49529.4-58542.5 RPKM) compared to the slow-flow wetland (24091.8-53003.0 RPKM), which exhibited greater spatial heterogeneity. Structural equation modeling (SEM) revealed different ARG-associated factor patterns in the two aquatic ecosystems with contrasting hydrodynamic settings. Bacterial communities and MGEs showed stronger associations with ARG variation in the Qiantang River, with standardized total effects (STEs) of 0.953 and 0.442, respectively, whereas antibiotics and MGEs showed stronger associations with ARG variation in the Xixi Wetland, with STEs of 0.816 and 0.747, respectively. Sulfamonomethoxine (SMM) was identified as the antibiotic most strongly associated with ARG variation in the wetland based on random forest analysis (importance score = 46.90%). This study indicates that the Qiantang River and Xixi Wetland exhibited distinct antibiotic resistance profiles and ARG-associated factor patterns, characterized by a host community-associated mode in the river and an antibiotic-associated mode in the wetland, with MGEs associated with ARG variation in both ecosystems."
+},
+{
+"n": 182,
+"id": "pmid:42899380",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Aims",
+"text": "Hybrid lesions containing distinct components of hepatocellular adenoma (HCA) and focal nodular hyperplasia (FNH) within a single nodule are exceptionally rare. This study aimed to investigate the biological nature of these unusual lesions."
+},
+{
+"label": "Methods and results",
+"text": "The two cases identified to date were examined by histopathological, immunohistochemical and targeted next-generation sequencing analyses. In case 1, the hybrid tumour (6.0 cm) consisted of approximately equal proportions of HNF1α-inactivated HCA and FNH, which were intimately admixed but remained histologically distinct. In case 2, the tumour (9.5 cm) consisted predominantly of HNF1α-inactivated HCA but contained a small peripheral nodule of FNH, resulting in a nodule-in-nodule appearance. The HCA components in both cases showed loss of FABP1 expression, whereas the FNH components retained FABP1 expression and showed a map-like pattern of glutamine synthetase expression. Next-generation sequencing in case 1 demonstrated that the mutations were not shared between the HCA and FNH components, with HNF1A and FLT1 mutations identified only in the HCA component. In case 2, the same HNF1A splice-site mutation was identified in both the HCA and FNH components, but was also present in the non-neoplastic gallbladder, confirming its germline origin. The HCA component, but not the FNH component, additionally harboured somatic mutations in ATM and FAT4."
+},
+{
+"label": "Conclusion",
+"text": "HCA, particularly the HNF1α-inactivated subtype, rarely coexists with FNH. The distinct molecular and immunohistochemical profiles of the two components support a collision mechanism, indicating that the FNH component represents a separate non-neoplastic lesion and arguing against one component arising from the other."
+}
+],
+"text": "Hybrid lesions containing distinct components of hepatocellular adenoma (HCA) and focal nodular hyperplasia (FNH) within a single nodule are exceptionally rare. This study aimed to investigate the biological nature of these unusual lesions. The two cases identified to date were examined by histopathological, immunohistochemical and targeted next-generation sequencing analyses. In case 1, the hybrid tumour (6.0 cm) consisted of approximately equal proportions of HNF1α-inactivated HCA and FNH, which were intimately admixed but remained histologically distinct. In case 2, the tumour (9.5 cm) consisted predominantly of HNF1α-inactivated HCA but contained a small peripheral nodule of FNH, resulting in a nodule-in-nodule appearance. The HCA components in both cases showed loss of FABP1 expression, whereas the FNH components retained FABP1 expression and showed a map-like pattern of glutamine synthetase expression. Next-generation sequencing in case 1 demonstrated that the mutations were not shared between the HCA and FNH components, with HNF1A and FLT1 mutations identified only in the HCA component. In case 2, the same HNF1A splice-site mutation was identified in both the HCA and FNH components, but was also present in the non-neoplastic gallbladder, confirming its germline origin. The HCA component, but not the FNH component, additionally harboured somatic mutations in ATM and FAT4. HCA, particularly the HNF1α-inactivated subtype, rarely coexists with FNH. The distinct molecular and immunohistochemical profiles of the two components support a collision mechanism, indicating that the FNH component represents a separate non-neoplastic lesion and arguing against one component arising from the other."
+},
+{
+"n": 183,
+"id": "doi:10.1101/2025.11.06.25339690",
+"year": 2025,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "Klebsiella pneumoniae ( Kpn ) is an important cause of healthcare-associated infections (HAI). In low and middle-income countries, HAI due to Kpn disproportionally affects neonates. In this study, we investigated the genomic changes that occurred during long-term circulation of a Kpn ST39 clone, causing a disproportionate number of infections on the neonatal ward at a tertiary healthcare facility in Malawi in 2017."
+},
+{
+"label": "Methods",
+"text": "We analyzed whole genome sequences of Klebsiella pneumoniae ST39 collected from Queen Elizabeth Central Hospital over a 20-year period, including generation of several high-quality hybrid genomes. We compared virulence markers, antibiotic resistance determinants, and mobile genetic elements, focusing on variable regions between strains from the outbreak clone in 2017 to genomes from other co-occurring ST39 lineages."
+},
+{
+"label": "Results",
+"text": "We identified eight variable genomic regions that demonstrate the plasticity of Kpn within-ST, including the role of bacteriophages in shaping the genome of ST39."
+},
+{
+"label": "Conclusions",
+"text": "The analyzed Klebsiella pneumoniae ST39 lineages have a highly variable genome capable of incorporating large genomic regions during prolonged hospital circulation, which may offer a selective advantage in hospital environments and provide resistance to antimicrobial agents."
+},
+{
+"label": "Data summary",
+"text": "All sequencing data is available in BioProject PRJEB102175; detailed accession numbers are provided in Table S1. The authors confirm all supporting data, code and protocols have been provided within the article or through supplementary data files."
+}
+],
+"text": "Klebsiella pneumoniae ( Kpn ) is an important cause of healthcare-associated infections (HAI). In low and middle-income countries, HAI due to Kpn disproportionally affects neonates. In this study, we investigated the genomic changes that occurred during long-term circulation of a Kpn ST39 clone, causing a disproportionate number of infections on the neonatal ward at a tertiary healthcare facility in Malawi in 2017. We analyzed whole genome sequences of Klebsiella pneumoniae ST39 collected from Queen Elizabeth Central Hospital over a 20-year period, including generation of several high-quality hybrid genomes. We compared virulence markers, antibiotic resistance determinants, and mobile genetic elements, focusing on variable regions between strains from the outbreak clone in 2017 to genomes from other co-occurring ST39 lineages. We identified eight variable genomic regions that demonstrate the plasticity of Kpn within-ST, including the role of bacteriophages in shaping the genome of ST39. The analyzed Klebsiella pneumoniae ST39 lineages have a highly variable genome capable of incorporating large genomic regions during prolonged hospital circulation, which may offer a selective advantage in hospital environments and provide resistance to antimicrobial agents. All sequencing data is available in BioProject PRJEB102175; detailed accession numbers are provided in Table S1. The authors confirm all supporting data, code and protocols have been provided within the article or through supplementary data files."
+},
+{
+"n": 184,
+"id": "pmid:38880832",
+"year": 2024,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Analysis of free DNA molecules shed from tumour cells in plasma of patients referred as circulating tumour DNA (ctDNA) with reference to physiological circulating cell-free DNA (cfDNA) is nowadays exploited as liquid biopsy and is considered a new emerging promising biomarker for diagnosis, selection of proper treatment, and prognosis of cancer. DNA integrity index (DII) is assessed by calculating the ratio between the concentration of long cfDNA strands released from tumour cells (ALU247) and the short strands released from normal cells (ALU115). The aim of the current study was to evaluate DII as a potential diagnostic and prognostic biomarker of NSCLC."
+},
+{
+"label": "Methods",
+"text": "Our study included 48 NSCLC patients diagnosed as primary NSCLC before starting treatment, 30 COPD patients diagnosed clinically, radiologically, and subjected to chest high-resolution computerized tomography, and 40 healthy controls. cfDNA concentration and DII were measured by quantitative real-time polymerase chain reaction (qPCR)."
+},
+{
+"label": "Results",
+"text": "ALU115, ALU247, and DII were significantly higher in NSCLC compared to COPD patients (p < 0.0001) and controls (p < 0.0001) and in COPD patients compared to control subjects (p < 0.0001). DII positively correlated with the stage of tumour (p = 0.01), tumour metastasis (p = 0.004), and with adenocarcinoma compared to other histopathological types (p = 0.02). To evaluate clinical utility of DII in NSCLC, ROC curve analysis demonstrated an AUC of 0.91 at a cut-off value of 0.44 with total accuracy = 85.6%, sensitivity = 90%, specificity = 83%, PPV = 78.1%, and NPV = 92.1%."
+},
+{
+"label": "Conclusion",
+"text": "cfDNA and DII represent a promising diagnostic and prognostic tool in NSCLC. This type of noninvasive liquid biopsy revealed its chance in the screening, early diagnosis, and monitoring of NSCLC."
+}
+],
+"text": "Analysis of free DNA molecules shed from tumour cells in plasma of patients referred as circulating tumour DNA (ctDNA) with reference to physiological circulating cell-free DNA (cfDNA) is nowadays exploited as liquid biopsy and is considered a new emerging promising biomarker for diagnosis, selection of proper treatment, and prognosis of cancer. DNA integrity index (DII) is assessed by calculating the ratio between the concentration of long cfDNA strands released from tumour cells (ALU247) and the short strands released from normal cells (ALU115). The aim of the current study was to evaluate DII as a potential diagnostic and prognostic biomarker of NSCLC. Our study included 48 NSCLC patients diagnosed as primary NSCLC before starting treatment, 30 COPD patients diagnosed clinically, radiologically, and subjected to chest high-resolution computerized tomography, and 40 healthy controls. cfDNA concentration and DII were measured by quantitative real-time polymerase chain reaction (qPCR). ALU115, ALU247, and DII were significantly higher in NSCLC compared to COPD patients (p < 0.0001) and controls (p < 0.0001) and in COPD patients compared to control subjects (p < 0.0001). DII positively correlated with the stage of tumour (p = 0.01), tumour metastasis (p = 0.004), and with adenocarcinoma compared to other histopathological types (p = 0.02). To evaluate clinical utility of DII in NSCLC, ROC curve analysis demonstrated an AUC of 0.91 at a cut-off value of 0.44 with total accuracy = 85.6%, sensitivity = 90%, specificity = 83%, PPV = 78.1%, and NPV = 92.1%. cfDNA and DII represent a promising diagnostic and prognostic tool in NSCLC. This type of noninvasive liquid biopsy revealed its chance in the screening, early diagnosis, and monitoring of NSCLC."
+},
+{
+"n": 185,
+"id": "doi:10.1101/2024.05.01.591587",
+"year": 2024,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Cancer-associated mutations have been documented in normal tissues, but the prevalence and nature of somatic copy number alterations and their role in tumor initiation and evolution is not well understood. Here, using single cell DNA sequencing, we describe the landscape of CNAs in >42,000 breast epithelial cells from women with normal or high risk of developing breast cancer. Accumulation of individual cells with one or two of a specific subset of CNAs (e.g. 1q gain and 16q, 22q, 7q, and 10q loss) is detectable in almost all breast tissues and, in those from BRCA1 or BRCA2 mutations carriers, occurs prior to loss of heterozygosity (LOH) of the wildtype alleles. These CNAs, which are among the most common associated with ductal carcinoma in situ (DCIS) and malignant breast tumors, are enriched almost exclusively in luminal cells not basal myoepithelial cells. Allele-specific analysis of the enriched CNAs reveals that each allele was independently altered, demonstrating convergent evolution of these CNAs in an individual breast. Tissues from BRCA1 or BRCA2 mutation carriers contain a small percentage of cells with extreme aneuploidy, featuring loss of TP53 , LOH of BRCA1 or BRCA2 , and multiple breast cancer-associated CNAs in addition to one or more of the common CNAs in 1q, 10q or 16q. Notably, cells with intermediate levels of CNAs are not detected, arguing against a stepwise gradual accumulation of CNAs. Overall, our findings demonstrate that chromosomal alterations in normal breast epithelium partially mirror those of established cancer genomes and are chromosome- and cell lineage-specific."
+}
+],
+"text": "Cancer-associated mutations have been documented in normal tissues, but the prevalence and nature of somatic copy number alterations and their role in tumor initiation and evolution is not well understood. Here, using single cell DNA sequencing, we describe the landscape of CNAs in >42,000 breast epithelial cells from women with normal or high risk of developing breast cancer. Accumulation of individual cells with one or two of a specific subset of CNAs (e.g. 1q gain and 16q, 22q, 7q, and 10q loss) is detectable in almost all breast tissues and, in those from BRCA1 or BRCA2 mutations carriers, occurs prior to loss of heterozygosity (LOH) of the wildtype alleles. These CNAs, which are among the most common associated with ductal carcinoma in situ (DCIS) and malignant breast tumors, are enriched almost exclusively in luminal cells not basal myoepithelial cells. Allele-specific analysis of the enriched CNAs reveals that each allele was independently altered, demonstrating convergent evolution of these CNAs in an individual breast. Tissues from BRCA1 or BRCA2 mutation carriers contain a small percentage of cells with extreme aneuploidy, featuring loss of TP53 , LOH of BRCA1 or BRCA2 , and multiple breast cancer-associated CNAs in addition to one or more of the common CNAs in 1q, 10q or 16q. Notably, cells with intermediate levels of CNAs are not detected, arguing against a stepwise gradual accumulation of CNAs. Overall, our findings demonstrate that chromosomal alterations in normal breast epithelium partially mirror those of established cancer genomes and are chromosome- and cell lineage-specific."
+},
+{
+"n": 186,
+"id": "doi:10.1101/2023.03.03.530936",
+"year": 2023,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": "Purpose",
+"text": "Monitoring levels of circulating tumor-derived DNA (ctDNA) represents a non-invasive snapshot of tumor burden and potentially clonal evolution. Here we describe how a novel statistical model that uses serial ctDNA measurements from shallow whole genome sequencing (sWGS) in metastatic breast cancer patients produces a rapid and inexpensive assessment that is predictive of treatment response and progression-free survival."
+},
+{
+"label": "Patients and Methods",
+"text": "A cohort of 188 metastatic breast cancer patients had DNA extracted from serial plasma samples (total 1098, median=4, mean=5.87). Plasma DNA was assessed using sWGS and the tumor fraction in total cell free DNA estimated using ichorCNA. This approach was compared with ctDNA targeted sequencing and serial CA 15-3 measurements. The longitudinal ichorCNA values were used to develop a Bayesian learning model to predict subsequent treatment response."
+},
+{
+"label": "Results",
+"text": "We identified a transition point of 7% estimated tumor fraction to stratify patients into different categories of progression risk using ichorCNA estimates and a time-dependent Cox model, validated across different breast cancer subtypes and treatments, outperforming the alternative methods. We then developed a Bayesian learning model to predict subsequent treatment response with a sensitivity of 0.75 and a specificity of 0.66."
+},
+{
+"label": "Conclusion",
+"text": "In patients with metastatic breast cancer, sWGS of ctDNA and ichorCNA provide prognostic and predictive real-time valuable information on treatment response across subtypes and therapies. A prospective large-scale clinical trial to evaluate clinical benefit of early treatment changes based on ctDNA levels is now warranted."
+}
+],
+"text": "Monitoring levels of circulating tumor-derived DNA (ctDNA) represents a non-invasive snapshot of tumor burden and potentially clonal evolution. Here we describe how a novel statistical model that uses serial ctDNA measurements from shallow whole genome sequencing (sWGS) in metastatic breast cancer patients produces a rapid and inexpensive assessment that is predictive of treatment response and progression-free survival. A cohort of 188 metastatic breast cancer patients had DNA extracted from serial plasma samples (total 1098, median=4, mean=5.87). Plasma DNA was assessed using sWGS and the tumor fraction in total cell free DNA estimated using ichorCNA. This approach was compared with ctDNA targeted sequencing and serial CA 15-3 measurements. The longitudinal ichorCNA values were used to develop a Bayesian learning model to predict subsequent treatment response. We identified a transition point of 7% estimated tumor fraction to stratify patients into different categories of progression risk using ichorCNA estimates and a time-dependent Cox model, validated across different breast cancer subtypes and treatments, outperforming the alternative methods. We then developed a Bayesian learning model to predict subsequent treatment response with a sensitivity of 0.75 and a specificity of 0.66. In patients with metastatic breast cancer, sWGS of ctDNA and ichorCNA provide prognostic and predictive real-time valuable information on treatment response across subtypes and therapies. A prospective large-scale clinical trial to evaluate clinical benefit of early treatment changes based on ctDNA levels is now warranted."
+},
+{
+"n": 187,
+"id": "pmid:40849395",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "IDH-mutant gliomas represent a subtype of diffuse gliomas that primarily affect patients in early to mid-adolescence. These tumors are classified into three distinct CNS WHO grades of malignancy. Accurate grading is essential for selecting an appropriate treatment maximizing anti-tumor efficacy while minimizing adverse effects. However, grading of oligodendrogliomas with 1p/19q codeletion currently relies on qualitative tumor characteristics that may be influenced by observer subjectivity, sampling bias, and tumor heterogeneity. This study aimed to explore DNA methylation-based tumor deconvolution into latent methylation components (LMCs) to evaluate their potential as objective grading tools in a cohort of 137 IDH-mutant gliomas. LMCs were analyzed in relation to malignancy markers, cellular composition, and underlying methylation signatures of the chromatin landscape. Glioma subtypes were associated with distinct LMCs. Two LMCs correlated with higher cellular density and advanced epigenetic age as well as with microvascular proliferation, necrosis, and epigenetically defined high-grade astrocytoma. The epigenetic patterns defining high-grade astrocytoma or oligodendroglioma, respectively, were similar. Higher-grade oligodendrogliomas, identified by LMC-based grading, were associated with more copy number alterations. Among patients of an external cohort who died during the assessment period, higher LMC1 proportions were associated with poorer overall survival. Therefore, LMCs hold the potential to support IDH-mutant glioma grading by incorporating objective epigenetic markers."
+}
+],
+"text": "IDH-mutant gliomas represent a subtype of diffuse gliomas that primarily affect patients in early to mid-adolescence. These tumors are classified into three distinct CNS WHO grades of malignancy. Accurate grading is essential for selecting an appropriate treatment maximizing anti-tumor efficacy while minimizing adverse effects. However, grading of oligodendrogliomas with 1p/19q codeletion currently relies on qualitative tumor characteristics that may be influenced by observer subjectivity, sampling bias, and tumor heterogeneity. This study aimed to explore DNA methylation-based tumor deconvolution into latent methylation components (LMCs) to evaluate their potential as objective grading tools in a cohort of 137 IDH-mutant gliomas. LMCs were analyzed in relation to malignancy markers, cellular composition, and underlying methylation signatures of the chromatin landscape. Glioma subtypes were associated with distinct LMCs. Two LMCs correlated with higher cellular density and advanced epigenetic age as well as with microvascular proliferation, necrosis, and epigenetically defined high-grade astrocytoma. The epigenetic patterns defining high-grade astrocytoma or oligodendroglioma, respectively, were similar. Higher-grade oligodendrogliomas, identified by LMC-based grading, were associated with more copy number alterations. Among patients of an external cohort who died during the assessment period, higher LMC1 proportions were associated with poorer overall survival. Therefore, LMCs hold the potential to support IDH-mutant glioma grading by incorporating objective epigenetic markers."
+},
+{
+"n": 188,
+"id": "pmid:41405018",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "The molecular landscape of thymic epithelial tumors has been partially elucidated. GTF2I mutation drives the pathogenesis in approximately 50% of tumors; however, the key molecular aberrations in the other cases remain unclear."
+},
+{
+"label": "Methods",
+"text": "We designed a panel including the most frequently mutated genes in thymic epithelial tumors and sequenced tumor and normal DNA from 70 patients prospectively accrued at a single institution in the Thymogene trial. Moreover, 19 neoplastic samples were dissociated to isolate tumor cells using flow cytometry."
+},
+{
+"label": "Results",
+"text": "GTF2I mutations were the most common, being present in 41% of patients. GTF2I mutations were prevalent in type A and AB thymomas, in Stage I-II tumors, and in patients without myasthenia gravis. The unique pattern of mutually exclusive and co-occurring mutations suggests a distinct pathogenesis for thymomas with and without GTF2I mutation. In 39% of patients, no mutations were found in the 77 genes evaluated. The absence of epithelial cells in some dissociated tumors highlights the challenge of identifying mutations in a subset of thymic epithelial tumors that lack the GTF2I mutation. Mutational signatures, including COSMIC 1, 19, and 25, were enriched, possibly linked to 5'-methylcytosine deamination and the effects of chemotherapy."
+},
+{
+"label": "Conclusions",
+"text": "GTF2I mutations drive the growth of a significant portion of thymic epithelial tumors, often in conjunction with other gene mutations. Somatic mutations are not commonly found in many GTF2I wild-type tumors, where the underlying genomic abnormalities remain elusive, even when using a dedicated tool for sequencing thymic epithelial tumors."
+}
+],
+"text": "The molecular landscape of thymic epithelial tumors has been partially elucidated. GTF2I mutation drives the pathogenesis in approximately 50% of tumors; however, the key molecular aberrations in the other cases remain unclear. We designed a panel including the most frequently mutated genes in thymic epithelial tumors and sequenced tumor and normal DNA from 70 patients prospectively accrued at a single institution in the Thymogene trial. Moreover, 19 neoplastic samples were dissociated to isolate tumor cells using flow cytometry. GTF2I mutations were the most common, being present in 41% of patients. GTF2I mutations were prevalent in type A and AB thymomas, in Stage I-II tumors, and in patients without myasthenia gravis. The unique pattern of mutually exclusive and co-occurring mutations suggests a distinct pathogenesis for thymomas with and without GTF2I mutation. In 39% of patients, no mutations were found in the 77 genes evaluated. The absence of epithelial cells in some dissociated tumors highlights the challenge of identifying mutations in a subset of thymic epithelial tumors that lack the GTF2I mutation. Mutational signatures, including COSMIC 1, 19, and 25, were enriched, possibly linked to 5'-methylcytosine deamination and the effects of chemotherapy. GTF2I mutations drive the growth of a significant portion of thymic epithelial tumors, often in conjunction with other gene mutations. Somatic mutations are not commonly found in many GTF2I wild-type tumors, where the underlying genomic abnormalities remain elusive, even when using a dedicated tool for sequencing thymic epithelial tumors."
+},
+{
+"n": 189,
+"id": "pmid:40862153",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Plasmids are major drivers of microbial evolution, enabling horizontal gene transfer (HGT) and facilitating adaptation through the dissemination of relevant functional genes and traits. However, little is known about plasmid diversity and function in extremophiles. ' Fervidacidithiobacillus caldus ', a meso-thermo-acidophilic sulfur oxidizer, is a key player in sulfur cycling in natural and industrially engineered acidic environments. Here, we present a bioinformatic analysis of the plasmidome, and associated anti-mobile genetic element (anti-MGE) defense systems (defensome), across genomes of this species and metagenomes from diverse natural and industrial settings harboring ' F. caldus '. We identified >30 distinct plasmids, representing five consistent replication-mobilization families. Plasmids ranged in size between 2.5-65 kb, with gene content and plasmid modularity scaling with element size and copy numbers inversely correlating with size. Plasmids carried variable numbers of hypothetical proteins and transposases, with annotated cargo genes reflecting functional differentiation by habitat. Defensome profiling revealed over 50 anti-MGE systems in sequenced ' F. caldus ' isolates, including diverse restriction-modification systems, CRISPR-Cas types IV-A and V-F, and widespread abortive infection and composite defense systems such as Wadjet, Gabija, and Zorya. In environmental populations, an inverse relationship was observed between defensome complexity and plasmidome abundance and diversity, underscoring a pivotal role of the host defensome in modulating persistence, compatibility, and overall plasmid diversity across ' F. caldus ' populations. Yet, other plasmids appeared decoupled from both host abundance and defensome complexity, suggesting potential host shifts, environmental persistence, or differential replication under suboptimal growth conditions for the host. Altogether, these findings point to a modular, functionally diverse adaptive plasmidome shaped by environmental pressures, by the interplay with the host's defensome, and likely also by other eco-evolutionary processes at play in natural environments. While these associations are compelling, causal relationships remain to be experimentally validated. These insights broaden our understanding of mobile genetic elements in extreme environments and provide a foundation for plasmid-based vector design and synthetic biology applications in acidophiles, with direct implications to biomining and environmental remediation."
+}
+],
+"text": "Plasmids are major drivers of microbial evolution, enabling horizontal gene transfer (HGT) and facilitating adaptation through the dissemination of relevant functional genes and traits. However, little is known about plasmid diversity and function in extremophiles. ' Fervidacidithiobacillus caldus ', a meso-thermo-acidophilic sulfur oxidizer, is a key player in sulfur cycling in natural and industrially engineered acidic environments. Here, we present a bioinformatic analysis of the plasmidome, and associated anti-mobile genetic element (anti-MGE) defense systems (defensome), across genomes of this species and metagenomes from diverse natural and industrial settings harboring ' F. caldus '. We identified >30 distinct plasmids, representing five consistent replication-mobilization families. Plasmids ranged in size between 2.5-65 kb, with gene content and plasmid modularity scaling with element size and copy numbers inversely correlating with size. Plasmids carried variable numbers of hypothetical proteins and transposases, with annotated cargo genes reflecting functional differentiation by habitat. Defensome profiling revealed over 50 anti-MGE systems in sequenced ' F. caldus ' isolates, including diverse restriction-modification systems, CRISPR-Cas types IV-A and V-F, and widespread abortive infection and composite defense systems such as Wadjet, Gabija, and Zorya. In environmental populations, an inverse relationship was observed between defensome complexity and plasmidome abundance and diversity, underscoring a pivotal role of the host defensome in modulating persistence, compatibility, and overall plasmid diversity across ' F. caldus ' populations. Yet, other plasmids appeared decoupled from both host abundance and defensome complexity, suggesting potential host shifts, environmental persistence, or differential replication under suboptimal growth conditions for the host. Altogether, these findings point to a modular, functionally diverse adaptive plasmidome shaped by environmental pressures, by the interplay with the host's defensome, and likely also by other eco-evolutionary processes at play in natural environments. While these associations are compelling, causal relationships remain to be experimentally validated. These insights broaden our understanding of mobile genetic elements in extreme environments and provide a foundation for plasmid-based vector design and synthetic biology applications in acidophiles, with direct implications to biomining and environmental remediation."
+},
+{
+"n": 190,
+"id": "pmid:39103003",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Transposable elements (TEs) are of interest as immunomodulators for cancer therapies. TEs can fold into dsRNAs that trigger the interferon response. Here, we investigated the effect of different HDAC inhibitors (HDACIs) on the expression of TEs in leiomyosarcoma cells. Our data show that endogenous retroviruses (ERVs), especially ERV1 elements, are upregulated after treatment with HDAC1/2/3-specific inhibitors. Surprisingly, the interferon response was not activated. We observed an increase in A-to-I editing of upregulated ERV1. This could have an impact on the stability of dsRNAs and the activation of the interferon response. We also found that H3K27ac levels are increased in the LTR12 subfamilies, which could be regulatory elements controlling the expression of proapoptotic genes such as TNFRSF10B. In summary, we provide a detailed characterization of TEs modulation in response to HDACIs and suggest the use of HDACIs in combination with ADAR inhibitors to induce cell death and support immunotherapy in cancer."
+}
+],
+"text": "Transposable elements (TEs) are of interest as immunomodulators for cancer therapies. TEs can fold into dsRNAs that trigger the interferon response. Here, we investigated the effect of different HDAC inhibitors (HDACIs) on the expression of TEs in leiomyosarcoma cells. Our data show that endogenous retroviruses (ERVs), especially ERV1 elements, are upregulated after treatment with HDAC1/2/3-specific inhibitors. Surprisingly, the interferon response was not activated. We observed an increase in A-to-I editing of upregulated ERV1. This could have an impact on the stability of dsRNAs and the activation of the interferon response. We also found that H3K27ac levels are increased in the LTR12 subfamilies, which could be regulatory elements controlling the expression of proapoptotic genes such as TNFRSF10B. In summary, we provide a detailed characterization of TEs modulation in response to HDACIs and suggest the use of HDACIs in combination with ADAR inhibitors to induce cell death and support immunotherapy in cancer."
+},
+{
+"n": 191,
+"id": "doi:10.1101/2025.09.05.674543",
+"year": 2025,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Long-read metagenome assembly promises complete genomic recovery from microbiomes. However, the complexity of metagenomes poses challenges. We present myloasm, a metagenome assembler for PacBio HiFi and Oxford Nanopore Technologies (ONT) R10.4 long reads. Myloasm uses polymorphic k-mers to construct a high-resolution string graph and then leverages differential abundance for graph simplification. On real-world ONT metagenomes, myloasm assembled three times more complete circular contigs than the next-best assembler. Myloasm can make ONT and HiFi comparable for assembly: for a jointly sequenced gut metagenome, myloasm with ONT assembled more complete circular genomes than any assembler with HiFi. Myloasm recovers previously inaccessible within-species diversity; we recovered six complete Prevotella copri single-contig genomes from a gut metagenome and eight complete TM7 (Saccharibacteria) contigs with > 93% similarity from an oral metagenome. With this improved resolution, we resolved two 98% similar ermF antibiotic resistance genes spreading through distinct strain-specific mobile genetic elements in a human gut."
+}
+],
+"text": "Long-read metagenome assembly promises complete genomic recovery from microbiomes. However, the complexity of metagenomes poses challenges. We present myloasm, a metagenome assembler for PacBio HiFi and Oxford Nanopore Technologies (ONT) R10.4 long reads. Myloasm uses polymorphic k-mers to construct a high-resolution string graph and then leverages differential abundance for graph simplification. On real-world ONT metagenomes, myloasm assembled three times more complete circular contigs than the next-best assembler. Myloasm can make ONT and HiFi comparable for assembly: for a jointly sequenced gut metagenome, myloasm with ONT assembled more complete circular genomes than any assembler with HiFi. Myloasm recovers previously inaccessible within-species diversity; we recovered six complete Prevotella copri single-contig genomes from a gut metagenome and eight complete TM7 (Saccharibacteria) contigs with > 93% similarity from an oral metagenome. With this improved resolution, we resolved two 98% similar ermF antibiotic resistance genes spreading through distinct strain-specific mobile genetic elements in a human gut."
+},
+{
+"n": 192,
+"id": "pmid:42174641",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Tumours frequently exhibit extreme levels of aneuploidy. While increases in ploidy are well-characterised, the opposite phenomenon-extensive chromosome loss leading to hypodiploidy-remains underexplored."
+},
+{
+"label": "Methods",
+"text": "Here, we analyse over 17,000 cancer genomes from 34 cancer types and perform a pan-cancer analysis of karyotypic evolution in hypodiploid tumours. We develop methods to identify current and former hypodiploid tumours, analyse predictors of chromosome loss patterns across tissues, and characterise the relationship between hypodiploidy and other forms of chromosomal instability."
+},
+{
+"label": "Results",
+"text": "We find that hypodiploidy is widespread and associated with a generalised chromosomal instability phenotype, marked by significantly elevated rates of genome doubling, intrachromosomal copy number alterations, chromoanagenesis, and intra-tumour heterogeneity. These tumours are hypoxic and strongly enriched for TP53 mutations. However, we also identify a subset of cancers-acute lymphoblastic leukaemia (ALL), kidney chromophobe, and adrenocortical carcinoma-that exhibit stable hypodiploidy, with stereotyped chromosome loss patterns, low chromosomal instability, and distinct evolutionary origins. We exploit this stability to develop a simple method of distinguishing poor-prognosis masked hypodiploid from good-prognosis hyperdiploid ALL using only cytogenetic data, enabling more precise risk stratification. Finally, we show that unstable hypodiploidy predicts poor prognosis across cancers. Genome doubling does not confer a fitness advantage in hypodiploid tumours, nor do these tumours evolve to avoid loss of dosage-sensitive genes."
+},
+{
+"label": "Conclusions",
+"text": "Together, these findings provide the first pan-cancer characterization of hypodiploidy as a widespread and clinically relevant phenomenon often driven by pervasive chromosomal instability, and illustrate the remarkable ability of cancer cells to tolerate and evolve under extreme dosage imbalance."
+}
+],
+"text": "Tumours frequently exhibit extreme levels of aneuploidy. While increases in ploidy are well-characterised, the opposite phenomenon-extensive chromosome loss leading to hypodiploidy-remains underexplored. Here, we analyse over 17,000 cancer genomes from 34 cancer types and perform a pan-cancer analysis of karyotypic evolution in hypodiploid tumours. We develop methods to identify current and former hypodiploid tumours, analyse predictors of chromosome loss patterns across tissues, and characterise the relationship between hypodiploidy and other forms of chromosomal instability. We find that hypodiploidy is widespread and associated with a generalised chromosomal instability phenotype, marked by significantly elevated rates of genome doubling, intrachromosomal copy number alterations, chromoanagenesis, and intra-tumour heterogeneity. These tumours are hypoxic and strongly enriched for TP53 mutations. However, we also identify a subset of cancers-acute lymphoblastic leukaemia (ALL), kidney chromophobe, and adrenocortical carcinoma-that exhibit stable hypodiploidy, with stereotyped chromosome loss patterns, low chromosomal instability, and distinct evolutionary origins. We exploit this stability to develop a simple method of distinguishing poor-prognosis masked hypodiploid from good-prognosis hyperdiploid ALL using only cytogenetic data, enabling more precise risk stratification. Finally, we show that unstable hypodiploidy predicts poor prognosis across cancers. Genome doubling does not confer a fitness advantage in hypodiploid tumours, nor do these tumours evolve to avoid loss of dosage-sensitive genes. Together, these findings provide the first pan-cancer characterization of hypodiploidy as a widespread and clinically relevant phenomenon often driven by pervasive chromosomal instability, and illustrate the remarkable ability of cancer cells to tolerate and evolve under extreme dosage imbalance."
+},
+{
+"n": 193,
+"id": "doi:10.64898/2026.07.31.742092",
+"year": 2026,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "VEXAS syndrome (vacuoles, E1 enzyme, X-linked, autoinflammatory, somatic) is a severe, inflammatory syndrome resulting from mutated UBA1 leading to hematopoietic stem cells (HSC) expansion. Although UBA1 -mutant HSC show complex phenotypes including proteostasis defects, sustained inflammation and clonal expansion of myeloid biased progeny, the pathogenic mechanisms at the HSC level are unknown from these gene-centric studies alone. By focussing on the non-coding genome and using advanced functional genetic methods, we found that VEXAS HSC, compared to controls, had altered expression of individual transposable elements (TE) and are key regulators of VEXAS pathogenesis. Locus-specific TE quantification identified two L1 elements, L1-10 and L1-15, active in both normal and VEXAS HSC that drive myeloid commitment by co-opting SPI1 and IRF1 transcription factors (TF) via networks common to other myeloid-biased conditions. Lipid nanoparticle (LNP)-mediated CRISPRi of L1-10 and L1-15 in UBA1 -mutant HSC also caused reversion of VEXAS-associated functional phenotypes in vitro and in vivo . Functionally, pharmacologic inhibition of UBA1 with TAK-243 led to L1-10 and L1-15 RNA accumulation, while enhancement of UBA1 activity with Auranofin reversed this effect. Our study provides direct evidence that VEXAS-specific TE govern HSC clonal dominance, thereby uncovering a regulatory axis underlying HSC biology and disease mechanisms, opening a therapeutic strategy directed towards the repetitive genome."
+}
+],
+"text": "VEXAS syndrome (vacuoles, E1 enzyme, X-linked, autoinflammatory, somatic) is a severe, inflammatory syndrome resulting from mutated UBA1 leading to hematopoietic stem cells (HSC) expansion. Although UBA1 -mutant HSC show complex phenotypes including proteostasis defects, sustained inflammation and clonal expansion of myeloid biased progeny, the pathogenic mechanisms at the HSC level are unknown from these gene-centric studies alone. By focussing on the non-coding genome and using advanced functional genetic methods, we found that VEXAS HSC, compared to controls, had altered expression of individual transposable elements (TE) and are key regulators of VEXAS pathogenesis. Locus-specific TE quantification identified two L1 elements, L1-10 and L1-15, active in both normal and VEXAS HSC that drive myeloid commitment by co-opting SPI1 and IRF1 transcription factors (TF) via networks common to other myeloid-biased conditions. Lipid nanoparticle (LNP)-mediated CRISPRi of L1-10 and L1-15 in UBA1 -mutant HSC also caused reversion of VEXAS-associated functional phenotypes in vitro and in vivo . Functionally, pharmacologic inhibition of UBA1 with TAK-243 led to L1-10 and L1-15 RNA accumulation, while enhancement of UBA1 activity with Auranofin reversed this effect. Our study provides direct evidence that VEXAS-specific TE govern HSC clonal dominance, thereby uncovering a regulatory axis underlying HSC biology and disease mechanisms, opening a therapeutic strategy directed towards the repetitive genome."
+},
+{
+"n": 194,
+"id": "doi:10.1101/2024.06.02.597054",
+"year": 2024,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "Profiling circulating cell-free DNA (cfDNA) has become a fundamental practice in cancer medicine, but the effectiveness of cfDNA at elucidating tumor-derived molecular features has not been systematically compared to standard single-lesion tumor biopsies in prospective cohorts of patients. The use of plasma instead of tissue to guide therapy is particularly attractive for patients with small cell lung cancer (SCLC), a cancer whose aggressive clinical course making it exceedingly challenging to obtain tumor biopsies."
+},
+{
+"label": "Methods",
+"text": "Here, a prospective cohort of 49 plasma samples obtained before, during, and after treatment from 20 patients with recurrent SCLC, we study cfDNA low pass whole genome (0.1X coverage) and exome (130X) sequencing in comparison with time-point matched tumor, characterized using exome and transcriptome sequencing."
+},
+{
+"label": "Results",
+"text": "Direct comparison of cfDNA versus tumor biopsy reveals that cfDNA not only mirrors the mutation and copy number landscape of the corresponding tumor but also identifies clinically relevant resistance mechanisms and cancer driver alterations not found in matched tumor biopsies. Longitudinal cfDNA analysis reliably tracks tumor response, progression, and clonal evolution. Genomic sequencing coverage of plasma DNA fragments around transcription start sites shows distinct treatment-related changes and captures the expression of key transcription factors such as NEUROD1 and REST in the corresponding SCLC tumors, allowing prediction of SCLC neuroendocrine phenotypes and treatment responses."
+},
+{
+"label": "Conclusions",
+"text": "These findings have important implications for non-invasive stratification and subtype-specific therapies for patients with SCLC, now treated as a single disease."
+}
+],
+"text": "Profiling circulating cell-free DNA (cfDNA) has become a fundamental practice in cancer medicine, but the effectiveness of cfDNA at elucidating tumor-derived molecular features has not been systematically compared to standard single-lesion tumor biopsies in prospective cohorts of patients. The use of plasma instead of tissue to guide therapy is particularly attractive for patients with small cell lung cancer (SCLC), a cancer whose aggressive clinical course making it exceedingly challenging to obtain tumor biopsies. Here, a prospective cohort of 49 plasma samples obtained before, during, and after treatment from 20 patients with recurrent SCLC, we study cfDNA low pass whole genome (0.1X coverage) and exome (130X) sequencing in comparison with time-point matched tumor, characterized using exome and transcriptome sequencing. Direct comparison of cfDNA versus tumor biopsy reveals that cfDNA not only mirrors the mutation and copy number landscape of the corresponding tumor but also identifies clinically relevant resistance mechanisms and cancer driver alterations not found in matched tumor biopsies. Longitudinal cfDNA analysis reliably tracks tumor response, progression, and clonal evolution. Genomic sequencing coverage of plasma DNA fragments around transcription start sites shows distinct treatment-related changes and captures the expression of key transcription factors such as NEUROD1 and REST in the corresponding SCLC tumors, allowing prediction of SCLC neuroendocrine phenotypes and treatment responses. These findings have important implications for non-invasive stratification and subtype-specific therapies for patients with SCLC, now treated as a single disease."
+},
+{
+"n": 195,
+"id": "pmid:40847421",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Tn7 mobile genetic elements are known for their sophisticated target-site selection mechanisms and, in some cases, programmability. Recognition of target sites is mediated by designated transposon-encoded proteins and modulated by host factor proteins. In the case of the CRISPR-associated Tn7 elements from the type V-K, the ribosomal protein uS15 is an integral component of recruitment complex that promotes R-loop completion. Previous biochemical work also revealed that the ribosomal protein uL29 and the acyl carrier protein (ACP) influence Tn7 transposition frequency in vitro. However, how uL29 and ACP regulate the formation of the Tn7 targeting complex remains unclear. The prototypical Tn7 element encodes a heteromeric transposase (TnsA, TnsB), a AAA + adaptor (TnsC), and two target-site selection proteins (TnsD and TnsE). TnsD targets a highly conserved site at the end of the glmS gene (attTn7). However, poor protein stability has precluded the molecular characterization of how TnsD recognizes its target site. Here, we show that ACP and uL29 interact with the C-terminal region of TnsD through reciprocal electrostatic interactions, in turn, mitigating its tendency to aggregate. Additionally, we identify the uL29 and ACP residues that mediate the interaction with TnsD and stimulate DNA binding. These results unveil unique features of the TnsD-mediated target-site selection complex."
+}
+],
+"text": "Tn7 mobile genetic elements are known for their sophisticated target-site selection mechanisms and, in some cases, programmability. Recognition of target sites is mediated by designated transposon-encoded proteins and modulated by host factor proteins. In the case of the CRISPR-associated Tn7 elements from the type V-K, the ribosomal protein uS15 is an integral component of recruitment complex that promotes R-loop completion. Previous biochemical work also revealed that the ribosomal protein uL29 and the acyl carrier protein (ACP) influence Tn7 transposition frequency in vitro. However, how uL29 and ACP regulate the formation of the Tn7 targeting complex remains unclear. The prototypical Tn7 element encodes a heteromeric transposase (TnsA, TnsB), a AAA + adaptor (TnsC), and two target-site selection proteins (TnsD and TnsE). TnsD targets a highly conserved site at the end of the glmS gene (attTn7). However, poor protein stability has precluded the molecular characterization of how TnsD recognizes its target site. Here, we show that ACP and uL29 interact with the C-terminal region of TnsD through reciprocal electrostatic interactions, in turn, mitigating its tendency to aggregate. Additionally, we identify the uL29 and ACP residues that mediate the interaction with TnsD and stimulate DNA binding. These results unveil unique features of the TnsD-mediated target-site selection complex."
+},
+{
+"n": 196,
+"id": "pmid:40274976",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Liquid biopsy can evaluate minimally residual disease. Hotspot mutations are also common in non-coding regions among the MIBC patients. We evaluated the status of MIBC with hotspot mutations with cfDNA."
+},
+{
+"label": "Methods",
+"text": "Tumor and blood from MIBC patients were collected prospectively. We evaluate the VAF of mutations (TERT, PLEKHS1, ADGRG6 and WDR74) with digital PCR in tumor and cfDNA as somatic mutation. We originally designed and validated primers and probes. VAF of cfDNA and clinical imaging were matched. This study was approved by the Institutional Review Board (#2022-157)."
+},
+{
+"label": "Result",
+"text": "37 MIBC patients were enrolled and 28 (76%) patients had any hotspot. Among the 21 patients of follow-up cohort, cfDNA predicted recurrence 58 days earlier than the diagnosis by CT scan. Furthermore, the detection of ctDNA at the first visit after radical cystectomy was associated with recurrence free survival (P = 0.0043) and overall survival (P = 0.017). The patient who received neoadjuvant chemotherapy (NAC) and diagnosed as ypT0 belonged to the nonrecurrence group with negative ctDNA."
+},
+{
+"label": "Conclusion",
+"text": "Hotspot mutation is promising biomarker to predict earlier recurrence than CT-scan. Multiple detection of mutations in cfDNA contributes to reliable recurrence prediction."
+}
+],
+"text": "Liquid biopsy can evaluate minimally residual disease. Hotspot mutations are also common in non-coding regions among the MIBC patients. We evaluated the status of MIBC with hotspot mutations with cfDNA. Tumor and blood from MIBC patients were collected prospectively. We evaluate the VAF of mutations (TERT, PLEKHS1, ADGRG6 and WDR74) with digital PCR in tumor and cfDNA as somatic mutation. We originally designed and validated primers and probes. VAF of cfDNA and clinical imaging were matched. This study was approved by the Institutional Review Board (#2022-157). 37 MIBC patients were enrolled and 28 (76%) patients had any hotspot. Among the 21 patients of follow-up cohort, cfDNA predicted recurrence 58 days earlier than the diagnosis by CT scan. Furthermore, the detection of ctDNA at the first visit after radical cystectomy was associated with recurrence free survival (P = 0.0043) and overall survival (P = 0.017). The patient who received neoadjuvant chemotherapy (NAC) and diagnosed as ypT0 belonged to the nonrecurrence group with negative ctDNA. Hotspot mutation is promising biomarker to predict earlier recurrence than CT-scan. Multiple detection of mutations in cfDNA contributes to reliable recurrence prediction."
+},
+{
+"n": 197,
+"id": "pmid:38674079",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Information regarding Klebsiella aerogenes haboring carbapenemase in Japan is limited. A comprehensive nationwide survey was conducted from September 2014 to December 2022, and 67 non-duplicate strains of carbapenem-resistant K. aerogenes were isolated from 57 healthcare facilities in Japan. Through genetic testing and whole-genome sequencing, six strains were found to possess carbapenemases, including imipenemase (IMP)-1, IMP-6, New Delhi metallo-β-lactamase (NDM)-1, and NDM-5. The strain harboring bla NDM-5 was the novel strain ST709, which belongs to the clonal complex of the predominant ST4 in China. The novel integron containing bla IMP-1 featured the oxacillinase-101 gene, which is a previously unreported structure, with an IncN 4 plasmid type. However, integrons found in the strains possessing bla IMP-6 , which were the most commonly identified, matched those reported domestically in Klebsiella pneumoniae , suggesting the prevalence of identical integrons. Transposons containing bla NDM are similar or identical to the transposon structure of K. aerogenes harboring bla NDM-5 previously reported in Japan, suggesting that the same type of transposon could have been transmitted to K. aerogenes in Japan. This investigation analyzed mobile genetic elements, such as integrons and transposons, to understand the spread of carbapenemases, highlighting the growing challenge of carbapenem-resistant Enterobacterales in Japan and underscoring the critical need for ongoing surveillance to control these pathogens."
+}
+],
+"text": "Information regarding Klebsiella aerogenes haboring carbapenemase in Japan is limited. A comprehensive nationwide survey was conducted from September 2014 to December 2022, and 67 non-duplicate strains of carbapenem-resistant K. aerogenes were isolated from 57 healthcare facilities in Japan. Through genetic testing and whole-genome sequencing, six strains were found to possess carbapenemases, including imipenemase (IMP)-1, IMP-6, New Delhi metallo-β-lactamase (NDM)-1, and NDM-5. The strain harboring bla NDM-5 was the novel strain ST709, which belongs to the clonal complex of the predominant ST4 in China. The novel integron containing bla IMP-1 featured the oxacillinase-101 gene, which is a previously unreported structure, with an IncN 4 plasmid type. However, integrons found in the strains possessing bla IMP-6 , which were the most commonly identified, matched those reported domestically in Klebsiella pneumoniae , suggesting the prevalence of identical integrons. Transposons containing bla NDM are similar or identical to the transposon structure of K. aerogenes harboring bla NDM-5 previously reported in Japan, suggesting that the same type of transposon could have been transmitted to K. aerogenes in Japan. This investigation analyzed mobile genetic elements, such as integrons and transposons, to understand the spread of carbapenemases, highlighting the growing challenge of carbapenem-resistant Enterobacterales in Japan and underscoring the critical need for ongoing surveillance to control these pathogens."
+},
+{
+"n": 198,
+"id": "doi:10.1101/2025.03.27.645863",
+"year": 2025,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Transposons, or “jumping genes,” are mobile genetic elements that reshape genomes. The Tc1/Mariner family, including Tc3a transposase, has been studied for decades, but key aspects of its DNA recognition and cleavage remain unresolved. Existing models propose a homo-dimeric process for DNA excision and integration, yet conflicting hypotheses exist about the initial steps of DNA cleavage and target site recognition. Here, we reveal a previously unrecognized base-flipping mechanism in Tc3a transposase that challenges long-standing models of Mariner transposon activity. Using molecular dynamics simulations, we demonstrate that N-terminal acetylation induces a structural shift in the transposase-DNA complex, forcing a nucleotide in the inverted repeat to flip outward. This base-flipping event alters the local DNA conformation, creating torsional strain that may facilitate transposon inverted terminal repeat association. Unlike prior models, which assumed the entire protein, or protein dimers, were needed to illicit DNA interactions necessary for any types of torsion, our findings indicate that transposase bipartite binding itself actively reshapes DNA structure. We further show that this mechanism is dependent on the bipartite helix-turn-helix domains, which differentially contribute to DNA stabilization and recognition. Our simulations also reveal that the processed N-terminus plays an unexpected role in modulating DNA binding affinity, contradicting previous assumptions that it was structurally inconsequential. Together, the two helix-turn-helix motifs act to propagate the force caused by base flipping along one direction of the cognate DNA double helix axis. The fact that previous structural studies lacked this amino acid modification may explain why this mechanism was overlooked. These results provide a new framework for understanding transposase-DNA interactions, highlighting how a single molecular modification can trigger major DNA rearrangements. This discovery not only redefines the Tc3a transposition process but also calls for a reassessment of long-standing Mariner family transposon models."
+}
+],
+"text": "Transposons, or “jumping genes,” are mobile genetic elements that reshape genomes. The Tc1/Mariner family, including Tc3a transposase, has been studied for decades, but key aspects of its DNA recognition and cleavage remain unresolved. Existing models propose a homo-dimeric process for DNA excision and integration, yet conflicting hypotheses exist about the initial steps of DNA cleavage and target site recognition. Here, we reveal a previously unrecognized base-flipping mechanism in Tc3a transposase that challenges long-standing models of Mariner transposon activity. Using molecular dynamics simulations, we demonstrate that N-terminal acetylation induces a structural shift in the transposase-DNA complex, forcing a nucleotide in the inverted repeat to flip outward. This base-flipping event alters the local DNA conformation, creating torsional strain that may facilitate transposon inverted terminal repeat association. Unlike prior models, which assumed the entire protein, or protein dimers, were needed to illicit DNA interactions necessary for any types of torsion, our findings indicate that transposase bipartite binding itself actively reshapes DNA structure. We further show that this mechanism is dependent on the bipartite helix-turn-helix domains, which differentially contribute to DNA stabilization and recognition. Our simulations also reveal that the processed N-terminus plays an unexpected role in modulating DNA binding affinity, contradicting previous assumptions that it was structurally inconsequential. Together, the two helix-turn-helix motifs act to propagate the force caused by base flipping along one direction of the cognate DNA double helix axis. The fact that previous structural studies lacked this amino acid modification may explain why this mechanism was overlooked. These results provide a new framework for understanding transposase-DNA interactions, highlighting how a single molecular modification can trigger major DNA rearrangements. This discovery not only redefines the Tc3a transposition process but also calls for a reassessment of long-standing Mariner family transposon models."
+},
+{
+"n": 199,
+"id": "pmid:41823618",
+"year": 2026,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Transposable elements (TEs) are fundamental drivers of crop evolution and domestication. Whereas the underlying mechanisms of TE-mediated gene activation remain poorly understood. Lint percentage is an important yield component in cotton. Here, we report a retrotransposon insertion in the promoter of GhNAC140-Dt, a secondary wall NAC encoding gene, to promote the lint production by elevating its expression. We confirm that a 60 bp core cis-regulatory module within the TE's LTR (long terminal repeat) specifically recruits the transcription factor GhMYB46 and increases downstream genes' expression. GhNAC140-Dt overexpression activates the expressions of secondary cell wall development related genes, including GhCESA4-Dt, GhCESA4-At, and GhCOBL9-At, promotes cellulose deposition, and enhances lint percentage. This retrotransposon insertion massively emerges on the domestication transition from Gossypium hirsutum races to cultivated cotton accessions, with > 80% fixation in modern cultivars. This work deepens our understanding of TE-mediated gene activation; it also provides direct molecular evidence for \"transposon-driven yield evolution\" in crop domestication."
+}
+],
+"text": "Transposable elements (TEs) are fundamental drivers of crop evolution and domestication. Whereas the underlying mechanisms of TE-mediated gene activation remain poorly understood. Lint percentage is an important yield component in cotton. Here, we report a retrotransposon insertion in the promoter of GhNAC140-Dt, a secondary wall NAC encoding gene, to promote the lint production by elevating its expression. We confirm that a 60 bp core cis-regulatory module within the TE's LTR (long terminal repeat) specifically recruits the transcription factor GhMYB46 and increases downstream genes' expression. GhNAC140-Dt overexpression activates the expressions of secondary cell wall development related genes, including GhCESA4-Dt, GhCESA4-At, and GhCOBL9-At, promotes cellulose deposition, and enhances lint percentage. This retrotransposon insertion massively emerges on the domestication transition from Gossypium hirsutum races to cultivated cotton accessions, with > 80% fixation in modern cultivars. This work deepens our understanding of TE-mediated gene activation; it also provides direct molecular evidence for \"transposon-driven yield evolution\" in crop domestication."
+},
+{
+"n": 200,
+"id": "pmid:38791307",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Multiple myeloma (MM) is the second most common hematological malignancy, which remains incurable despite recent advances in treatment strategies. Like other forms of cancer, MM is characterized by genomic instability, caused by defects in DNA repair. Along with mutations in DNA repair genes and genotoxic drugs used to treat MM, non-canonical secondary DNA structures (four-stranded G-quadruplex structures) can affect accumulation of somatic mutations and chromosomal abnormalities in the tumor cells of MM patients. Here, we tested the hypothesis that G-quadruplex structures may influence the distribution of somatic mutations in the tumor cells of MM patients. We sequenced exomes of normal and tumor cells of 11 MM patients and analyzed the data for the presence of G4 context around points of somatic mutations. To identify molecular mechanisms that could affect mutational profile of tumors, we also analyzed mutational signatures in tumor cells as well as germline mutations for the presence of specific SNPs in DNA repair genes or in genes regulating G-quadruplex unwinding. In several patients, we found that sites of somatic mutations are frequently located in regions with G4 context. This pattern correlated with specific germline variants found in these patients. We discuss the possible implications of these variants for mutation accumulation and specificity in MM and propose that the extent of G4 context enrichment around somatic mutation sites may be a novel metric characterizing mutational processes in tumors."
+}
+],
+"text": "Multiple myeloma (MM) is the second most common hematological malignancy, which remains incurable despite recent advances in treatment strategies. Like other forms of cancer, MM is characterized by genomic instability, caused by defects in DNA repair. Along with mutations in DNA repair genes and genotoxic drugs used to treat MM, non-canonical secondary DNA structures (four-stranded G-quadruplex structures) can affect accumulation of somatic mutations and chromosomal abnormalities in the tumor cells of MM patients. Here, we tested the hypothesis that G-quadruplex structures may influence the distribution of somatic mutations in the tumor cells of MM patients. We sequenced exomes of normal and tumor cells of 11 MM patients and analyzed the data for the presence of G4 context around points of somatic mutations. To identify molecular mechanisms that could affect mutational profile of tumors, we also analyzed mutational signatures in tumor cells as well as germline mutations for the presence of specific SNPs in DNA repair genes or in genes regulating G-quadruplex unwinding. In several patients, we found that sites of somatic mutations are frequently located in regions with G4 context. This pattern correlated with specific germline variants found in these patients. We discuss the possible implications of these variants for mutation accumulation and specificity in MM and propose that the extent of G4 context enrichment around somatic mutation sites may be a novel metric characterizing mutational processes in tumors."
+},
+{
+"n": 201,
+"id": "pmid:41417016",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Objective",
+"text": "This proof-of-concept, cross-sectional study assessed the feasibility and clinical relevance of detecting circulating tumor DNA (ctDNA) and RNA (ctRNA) in plasma of patients with thyroid cancer. The analysis was performed concurrently with clinical and biochemical assessment to explore its value as a complementary tool for postoperative surveillance."
+},
+{
+"label": "Methods",
+"text": "Thirty-four patients whose primary tumors had been molecularly profiled for key driver mutations and gene fusions were enrolled. Using a tumor-informed strategy, digital PCR assays were designed to detect patient-specific alterations in matched plasma ctDNA and ctRNA collected between 2021 and 2023. Molecular findings were correlated with treatment response categories according to the 2015 American Thyroid Association (ATA) guidelines."
+},
+{
+"label": "Results",
+"text": "ctDNA and/or ctRNA were detected in all patients with a structurally incomplete response, showing full concordance with imaging findings. In contrast, 91% of patients with an excellent response had undetectable ctDNA/ctRNA, consistent with remission. Among those with indeterminate and biochemical incomplete response group, results were variable: one patient with undetectable Tg exhibited an ETV6::NTRK3 fusion in cfRNA, while two of three with biochemical incomplete response tested negative for ctDNA/ctRNA."
+},
+{
+"label": "Conclusion",
+"text": "This cross-sectional analysis demonstrated that liquid biopsy accurately reflected disease activity and showed strong concordance with primary tumor alterations. These findings support its feasibility and clinical potential as an adjunct to conventional monitoring, particularly when Tg measurement or tumor tissue availability is limited. Prospective longitudinal studies are warranted to validate its role in personalized postoperative surveillance of thyroid cancer."
+}
+],
+"text": "This proof-of-concept, cross-sectional study assessed the feasibility and clinical relevance of detecting circulating tumor DNA (ctDNA) and RNA (ctRNA) in plasma of patients with thyroid cancer. The analysis was performed concurrently with clinical and biochemical assessment to explore its value as a complementary tool for postoperative surveillance. Thirty-four patients whose primary tumors had been molecularly profiled for key driver mutations and gene fusions were enrolled. Using a tumor-informed strategy, digital PCR assays were designed to detect patient-specific alterations in matched plasma ctDNA and ctRNA collected between 2021 and 2023. Molecular findings were correlated with treatment response categories according to the 2015 American Thyroid Association (ATA) guidelines. ctDNA and/or ctRNA were detected in all patients with a structurally incomplete response, showing full concordance with imaging findings. In contrast, 91% of patients with an excellent response had undetectable ctDNA/ctRNA, consistent with remission. Among those with indeterminate and biochemical incomplete response group, results were variable: one patient with undetectable Tg exhibited an ETV6::NTRK3 fusion in cfRNA, while two of three with biochemical incomplete response tested negative for ctDNA/ctRNA. This cross-sectional analysis demonstrated that liquid biopsy accurately reflected disease activity and showed strong concordance with primary tumor alterations. These findings support its feasibility and clinical potential as an adjunct to conventional monitoring, particularly when Tg measurement or tumor tissue availability is limited. Prospective longitudinal studies are warranted to validate its role in personalized postoperative surveillance of thyroid cancer."
+},
+{
+"n": 202,
+"id": "doi:10.1101/2025.04.24.650284",
+"year": 2025,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Structural variants (SVs) account for over 60% of the driver variants in pediatric cancer, and in many cases act as the cancer initiating event. To study SVs from a pan-cancer perspective, we analyzed 1,616 pediatric cancer genomes in 16 major cancer types of hematological malignancies (n = 908), brain tumors (n = 183), and solid tumors (n = 525) and compared their profiles to those of 2,203 adult cancers. The SV burden varied ~100-fold across pediatric cancer types and demonstrated an 8- to 16-fold reduction compared to adult brain and solid tumors but was comparable in pediatric versus adult hematological malignancies. Recurrent SV hotspots occurred uniquely in pediatric acute lymphoblastic leukemias (ALLs) in proximity to RAG-mediated recombination signal sequences (RSS) and disrupted multiple immune-related loci as well as 69 genes, which often involved cryptic RSS sites. By contrast, such hotspots affected only immune-related loci but not driver genes in adult lymphoid cancers. Eight SV signatures extracted from the cohort had varying distributions across cancer types, with clustered translocations reflecting templated insertions in osteosarcoma, and medium-sized deletions (10 kb to 1 Mb) enriched in cancers with RAG-mediated deletions. Intra-patient evolutionary analysis in 13 patients with multiple spatiotemporally distinct samples revealed that RAG-mediated recombination in leukemia and complex rearrangements in solid tumors occurred both early in disease initiation and continuously during later diversification, contributing to clonal heterogeneity. Finally, we found that both driver genes and fragile sites were the two genomic regions most frequently disrupted by SVs. The unique and diverse SV landscapes that emerged from this comprehensive analysis expand the scope of RSS-mediated mutagenesis in pediatric ALL and will be a valuable resource for guiding future functional studies and the design of clinical genomic testing in pediatric cancer."
+}
+],
+"text": "Structural variants (SVs) account for over 60% of the driver variants in pediatric cancer, and in many cases act as the cancer initiating event. To study SVs from a pan-cancer perspective, we analyzed 1,616 pediatric cancer genomes in 16 major cancer types of hematological malignancies (n = 908), brain tumors (n = 183), and solid tumors (n = 525) and compared their profiles to those of 2,203 adult cancers. The SV burden varied ~100-fold across pediatric cancer types and demonstrated an 8- to 16-fold reduction compared to adult brain and solid tumors but was comparable in pediatric versus adult hematological malignancies. Recurrent SV hotspots occurred uniquely in pediatric acute lymphoblastic leukemias (ALLs) in proximity to RAG-mediated recombination signal sequences (RSS) and disrupted multiple immune-related loci as well as 69 genes, which often involved cryptic RSS sites. By contrast, such hotspots affected only immune-related loci but not driver genes in adult lymphoid cancers. Eight SV signatures extracted from the cohort had varying distributions across cancer types, with clustered translocations reflecting templated insertions in osteosarcoma, and medium-sized deletions (10 kb to 1 Mb) enriched in cancers with RAG-mediated deletions. Intra-patient evolutionary analysis in 13 patients with multiple spatiotemporally distinct samples revealed that RAG-mediated recombination in leukemia and complex rearrangements in solid tumors occurred both early in disease initiation and continuously during later diversification, contributing to clonal heterogeneity. Finally, we found that both driver genes and fragile sites were the two genomic regions most frequently disrupted by SVs. The unique and diverse SV landscapes that emerged from this comprehensive analysis expand the scope of RSS-mediated mutagenesis in pediatric ALL and will be a valuable resource for guiding future functional studies and the design of clinical genomic testing in pediatric cancer."
+},
+{
+"n": 203,
+"id": "pmid:41166679",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Purpose",
+"text": "Quantifying changes in circulating tumor DNA (ctDNA) during treatment can rapidly identify patients responding to therapy, but accurate interpretation requires an understanding of variability in ctDNA levels in the absence of treatment. This analysis of 360 patients with advanced epidermal growth factor receptor ( EGFR )-mutant non-small-cell lung cancer (NSCLC) characterized ctDNA level changes in paired pretreatment samples and evaluated factors associated with variability."
+},
+{
+"label": "Methods",
+"text": "Screening and cycle 1, day 1 (C1D1) pretreatment samples from 132 previously untreated and 228 previously treated patients in the FLAURA and AURA3 trials, respectively, had ctDNA quantified using next-generation sequencing (Guardant360/GuardantOMNI NGS panel; mean variant allele frequency [VAF] or EGFR -mutant VAF) and droplet digital polymerase chain reaction (ddPCR, Biodesix) EGFR assays."
+},
+{
+"label": "Results",
+"text": "In FLAURA and AURA3, ≥20% reductions in ctDNA levels (panel mean VAF) from screening to C1D1 occurred in 31/132 (23.5%) and 43/228 (18.9%) patients with paired pretreatment plasma samples, respectively, including ≥50% reductions in 12 (9.1%) and 23 (10.1%) patients, and 100% reductions (ctDNA clearance) in 0 and 5 (2.2%) patients. Background variability was not fully accounted for by intra-NGS or NGS-ddPCR technical variability or other potential sources of variability; larger changes were associated with low VAF and low cell-free DNA (cfDNA) input."
+},
+{
+"label": "Conclusion",
+"text": "Intrapatient ctDNA variability over time in EGFR- mutant advanced NSCLC includes changes that may confound interpretation of treatment activity, depending on the magnitude of change used to indicate molecular response. These findings demonstrate that evaluation of on-treatment changes must account for potential background variability, including technical variability because of factors such as cfDNA input level and tumor-related VAF, and that baseline samples should be obtained as close as possible to treatment initiation to minimize the impact of background variability."
+}
+],
+"text": "Quantifying changes in circulating tumor DNA (ctDNA) during treatment can rapidly identify patients responding to therapy, but accurate interpretation requires an understanding of variability in ctDNA levels in the absence of treatment. This analysis of 360 patients with advanced epidermal growth factor receptor ( EGFR )-mutant non-small-cell lung cancer (NSCLC) characterized ctDNA level changes in paired pretreatment samples and evaluated factors associated with variability. Screening and cycle 1, day 1 (C1D1) pretreatment samples from 132 previously untreated and 228 previously treated patients in the FLAURA and AURA3 trials, respectively, had ctDNA quantified using next-generation sequencing (Guardant360/GuardantOMNI NGS panel; mean variant allele frequency [VAF] or EGFR -mutant VAF) and droplet digital polymerase chain reaction (ddPCR, Biodesix) EGFR assays. In FLAURA and AURA3, ≥20% reductions in ctDNA levels (panel mean VAF) from screening to C1D1 occurred in 31/132 (23.5%) and 43/228 (18.9%) patients with paired pretreatment plasma samples, respectively, including ≥50% reductions in 12 (9.1%) and 23 (10.1%) patients, and 100% reductions (ctDNA clearance) in 0 and 5 (2.2%) patients. Background variability was not fully accounted for by intra-NGS or NGS-ddPCR technical variability or other potential sources of variability; larger changes were associated with low VAF and low cell-free DNA (cfDNA) input. Intrapatient ctDNA variability over time in EGFR- mutant advanced NSCLC includes changes that may confound interpretation of treatment activity, depending on the magnitude of change used to indicate molecular response. These findings demonstrate that evaluation of on-treatment changes must account for potential background variability, including technical variability because of factors such as cfDNA input level and tumor-related VAF, and that baseline samples should be obtained as close as possible to treatment initiation to minimize the impact of background variability."
+},
+{
+"n": 204,
+"id": "pmid:41331220",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Purpose",
+"text": "Glucagon-like peptide-1 receptor (GLP-1R) agonists are widely used to treat type 2 diabetes mellitus (T2DM) and obesity. Emerging evidence suggests potential links between GLP-1R signaling and cancer risk or progression, but its role in tumor biology remains unclear. This study investigated GLP-1R expression and prognostic value across multiple cancer types using large-scale genomic datasets."
+},
+{
+"label": "Methods",
+"text": "We analyzed GLP-1R mRNA expression using data from The Cancer Genome Atlas (TCGA), Genotype-Tissue Expression (GTEx), and the Human Protein Atlas. Expression patterns in tumors were compared to normal tissues, including samples from rapid autopsies. Survival analyses were conducted across cancer types, and GLP-1R gene alterations were assessed via cBioPortal."
+},
+{
+"label": "Results",
+"text": "GLP-1R expression showed marked variation across cancers. It was lower in breast, lung, and colon cancers, but elevated in esophageal, kidney, and thyroid tumors compared to normal tissues. Higher GLP-1R expression correlated with improved overall survival in low-grade glioma but with worse outcomes in lung squamous cell carcinoma. Patterns of disease-free survival varied similarly. Genetic alterations in GLP-1R were rare, with amplifications most common, particularly in esophageal and ovarian cancers."
+},
+{
+"label": "Conclusion",
+"text": "GLP-1R shows tissue-specific expression and prognostic relevance across cancer types. The low expression of GLP-1R across cancer types and the low frequency of genetic alterations suggest a limited direct role of GLP-1R mutations in cancer progression, but its variable expression may influence tumor behavior. Further research is needed to clarify both the functional role of GLP-1R in cancer biology and the safety and therapeutic potential of GLP-1R agonists in oncology."
+}
+],
+"text": "Glucagon-like peptide-1 receptor (GLP-1R) agonists are widely used to treat type 2 diabetes mellitus (T2DM) and obesity. Emerging evidence suggests potential links between GLP-1R signaling and cancer risk or progression, but its role in tumor biology remains unclear. This study investigated GLP-1R expression and prognostic value across multiple cancer types using large-scale genomic datasets. We analyzed GLP-1R mRNA expression using data from The Cancer Genome Atlas (TCGA), Genotype-Tissue Expression (GTEx), and the Human Protein Atlas. Expression patterns in tumors were compared to normal tissues, including samples from rapid autopsies. Survival analyses were conducted across cancer types, and GLP-1R gene alterations were assessed via cBioPortal. GLP-1R expression showed marked variation across cancers. It was lower in breast, lung, and colon cancers, but elevated in esophageal, kidney, and thyroid tumors compared to normal tissues. Higher GLP-1R expression correlated with improved overall survival in low-grade glioma but with worse outcomes in lung squamous cell carcinoma. Patterns of disease-free survival varied similarly. Genetic alterations in GLP-1R were rare, with amplifications most common, particularly in esophageal and ovarian cancers. GLP-1R shows tissue-specific expression and prognostic relevance across cancer types. The low expression of GLP-1R across cancer types and the low frequency of genetic alterations suggest a limited direct role of GLP-1R mutations in cancer progression, but its variable expression may influence tumor behavior. Further research is needed to clarify both the functional role of GLP-1R in cancer biology and the safety and therapeutic potential of GLP-1R agonists in oncology."
+},
+{
+"n": 205,
+"id": "doi:10.1101/2025.02.17.638711",
+"year": 2025,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "LINE-1 (L1) is a type of mobile genetic element (retrotransposon) that can self-copy into distinct parts of its host genome by dynamically shaping its content. In humans, misregulation of these elements have been associated as the potential cause of distinct types of pathologies and neurodevelopmental disorders, including cancer, Rett syndrome and Aicardi Goutierrez disease. However, the precise annotation of these 6 kb long nucleotide sequence is a challenging task due to the high similarity between their internal regions (coding and non-coding) for distinct L1 families. Current L1 reference annotations such as RepeatMasker still lack sequence details and also provide confounding annotated information, that includes thousands of incomplete L1 sequences annotated as representative full-length, and missing information on their regulatory and coding regions (5’UTR, ORF1, intron, ORF2 and 3’UTR). Additionally, current L1 resources also provide annotations based on consensus reference genomes and does not include individual genome information at allele-level and nucleotide-level resolution. Here, we present L1Farm as a complementary databank and annotation resource that contains a comprehensive analysis and annotation of L1 subfamilies identified in the current human reference genome (build Hg38) and in two individual Asian and Caucasian genomes at allele-level and nucleotide-level resolution. L1 elements sequences were also annotated with genomic loci and ranked according to their full-length content and similarity."
+}
+],
+"text": "LINE-1 (L1) is a type of mobile genetic element (retrotransposon) that can self-copy into distinct parts of its host genome by dynamically shaping its content. In humans, misregulation of these elements have been associated as the potential cause of distinct types of pathologies and neurodevelopmental disorders, including cancer, Rett syndrome and Aicardi Goutierrez disease. However, the precise annotation of these 6 kb long nucleotide sequence is a challenging task due to the high similarity between their internal regions (coding and non-coding) for distinct L1 families. Current L1 reference annotations such as RepeatMasker still lack sequence details and also provide confounding annotated information, that includes thousands of incomplete L1 sequences annotated as representative full-length, and missing information on their regulatory and coding regions (5’UTR, ORF1, intron, ORF2 and 3’UTR). Additionally, current L1 resources also provide annotations based on consensus reference genomes and does not include individual genome information at allele-level and nucleotide-level resolution. Here, we present L1Farm as a complementary databank and annotation resource that contains a comprehensive analysis and annotation of L1 subfamilies identified in the current human reference genome (build Hg38) and in two individual Asian and Caucasian genomes at allele-level and nucleotide-level resolution. L1 elements sequences were also annotated with genomic loci and ranked according to their full-length content and similarity."
+},
+{
+"n": 206,
+"id": "doi:10.1101/2023.11.07.23298181",
+"year": 2023,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Circulating cell-free DNA (cfDNA) in the bloodstream displays cancer-derived fragmentation patterns, offering a non-invasive diagnostic avenue for cancer patients. However, the association between cfDNA fragmentation patterns and cancer progression remains largely unexplored. In this study, we analyzed this relationship using 214 whole-genome cfDNA samples across seven solid cancer types and revealed that the relation between cfDNA fragmentation patterns and cancer stages vary across cancer types. Among them, cfDNA fragmentation patterns in colorectal cancer (CRC) showed a strong correlation with cancer stages. This finding is further validated with an independent targeted cfDNA dataset from 29 CRC samples. Inspired by these findings, we designed “frag2stage”, a machine learning model that exploits cfDNA fragmentation data to differentiate cancer stages of CRC. Evaluated on two independent cfDNA datasets, our model can distinguish cancer stages of CRC with the area under the curve (AUC) values ranging from 0.68 to 0.99. The results suggest that cfDNA fragmentation patterns might carry yet undiscovered genetic and epigenetic signals, highlighting their promising potential for broader diagnostic applications in oncology."
+}
+],
+"text": "Circulating cell-free DNA (cfDNA) in the bloodstream displays cancer-derived fragmentation patterns, offering a non-invasive diagnostic avenue for cancer patients. However, the association between cfDNA fragmentation patterns and cancer progression remains largely unexplored. In this study, we analyzed this relationship using 214 whole-genome cfDNA samples across seven solid cancer types and revealed that the relation between cfDNA fragmentation patterns and cancer stages vary across cancer types. Among them, cfDNA fragmentation patterns in colorectal cancer (CRC) showed a strong correlation with cancer stages. This finding is further validated with an independent targeted cfDNA dataset from 29 CRC samples. Inspired by these findings, we designed “frag2stage”, a machine learning model that exploits cfDNA fragmentation data to differentiate cancer stages of CRC. Evaluated on two independent cfDNA datasets, our model can distinguish cancer stages of CRC with the area under the curve (AUC) values ranging from 0.68 to 0.99. The results suggest that cfDNA fragmentation patterns might carry yet undiscovered genetic and epigenetic signals, highlighting their promising potential for broader diagnostic applications in oncology."
+},
+{
+"n": 207,
+"id": "pmid:38037122",
+"year": 2023,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Despite their origins as selfish parasitic sequences, some transposons in the human genome have been co-opted to serve as regulatory elements, contributing to the evolution of transcriptional networks. Most well-characterized examples of transposon-derived regulatory elements derive from endogenous retroviruses (ERVs), due to the intrinsic regulatory activity of proviral long terminal repeat regions. However, one subclass of transposable elements, the Long Interspersed Nuclear Elements (LINEs), have been largely overlooked in the search for functional regulatory transposons, and considered to be broadly epigenetically repressed."
+},
+{
+"label": "Results",
+"text": "We examined the chromatin state of LINEs by analyzing epigenomic data from human immune cells. Many LINEs are marked by the repressive H3K9me3 modification, but a subset exhibits evidence of enhancer activity in human immune cells despite also showing evidence of epigenetic repression. We hypothesized that these competing forces of repressive and activating epigenetic marks might lead to inducible enhancer activity. We investigated a specific L1M2a element located within the first intron of Interferon Alpha/Beta Receptor 1 (IFNAR1). This element shows epigenetic signatures of B cell-specific enhancer activity, despite being repressed by the Human Silencing Hub (HUSH) complex. CRISPR deletion of the element in B lymphoblastoid cells revealed that the element acts as an enhancer that regulates both steady state and interferon-inducible expression of IFNAR1."
+},
+{
+"label": "Conclusions",
+"text": "Our study experimentally demonstrates that an L1M2a element was co-opted to function as an interferon-inducible enhancer of IFNAR1, creating a feedback loop wherein IFNAR1 is transcriptionally upregulated by interferon signaling. This finding suggests that other LINEs may exhibit cryptic cell type-specific or context-dependent enhancer activity. LINEs have received less attention than ERVs in the effort to understand the contribution of transposons to the regulatory landscape of cellular genomes, but these are likely important, lineage-specific players in the rapid evolution of immune system regulatory networks and deserve further study."
+}
+],
+"text": "Despite their origins as selfish parasitic sequences, some transposons in the human genome have been co-opted to serve as regulatory elements, contributing to the evolution of transcriptional networks. Most well-characterized examples of transposon-derived regulatory elements derive from endogenous retroviruses (ERVs), due to the intrinsic regulatory activity of proviral long terminal repeat regions. However, one subclass of transposable elements, the Long Interspersed Nuclear Elements (LINEs), have been largely overlooked in the search for functional regulatory transposons, and considered to be broadly epigenetically repressed. We examined the chromatin state of LINEs by analyzing epigenomic data from human immune cells. Many LINEs are marked by the repressive H3K9me3 modification, but a subset exhibits evidence of enhancer activity in human immune cells despite also showing evidence of epigenetic repression. We hypothesized that these competing forces of repressive and activating epigenetic marks might lead to inducible enhancer activity. We investigated a specific L1M2a element located within the first intron of Interferon Alpha/Beta Receptor 1 (IFNAR1). This element shows epigenetic signatures of B cell-specific enhancer activity, despite being repressed by the Human Silencing Hub (HUSH) complex. CRISPR deletion of the element in B lymphoblastoid cells revealed that the element acts as an enhancer that regulates both steady state and interferon-inducible expression of IFNAR1. Our study experimentally demonstrates that an L1M2a element was co-opted to function as an interferon-inducible enhancer of IFNAR1, creating a feedback loop wherein IFNAR1 is transcriptionally upregulated by interferon signaling. This finding suggests that other LINEs may exhibit cryptic cell type-specific or context-dependent enhancer activity. LINEs have received less attention than ERVs in the effort to understand the contribution of transposons to the regulatory landscape of cellular genomes, but these are likely important, lineage-specific players in the rapid evolution of immune system regulatory networks and deserve further study."
+},
+{
+"n": 208,
+"id": "pmid:39030645",
+"year": 2024,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Colon cancer ranks as the second most lethal form of cancer globally. In recent years, there has been active investigation into using the methylation profile of circulating tumor DNA (ctDNA), derived from blood, as a promising indicator for diagnosing and monitoring colon cancer."
+},
+{
+"label": "Results",
+"text": "We propose a liquid biopsy-based epigenetic method developed by utilizing 49 patients and 260 healthy controls methylation profile data to screen and monitor colon cancer. Our method initially identified 901 colon cancer-specific hypermethylated (CaSH) regions in the tissues of the 49 cancer patients. We then used these CaSH regions to accurately quantify the amount of circulating tumor DNA (ctDNA) in the blood samples of these same patients, utilizing cell-free DNA methylation profiles. Notably, the methylation profiles of ctDNA in the blood exhibited high sensitivity (82%) and specificity (93%) in distinguishing patients with colon cancer from the control group, with an area under the curve of 0.903. Furthermore, we confirm that our method for ctDNA quantification is effective for monitoring cancer patients and can serve as a valuable tool for postoperative prognosis."
+},
+{
+"label": "Conclusions",
+"text": "This study demonstrated a successful application of the quantification of ctDNA among cfDNA using the original cancer tissue-derived CaSH region for screening and monitoring colon cancer."
+}
+],
+"text": "Colon cancer ranks as the second most lethal form of cancer globally. In recent years, there has been active investigation into using the methylation profile of circulating tumor DNA (ctDNA), derived from blood, as a promising indicator for diagnosing and monitoring colon cancer. We propose a liquid biopsy-based epigenetic method developed by utilizing 49 patients and 260 healthy controls methylation profile data to screen and monitor colon cancer. Our method initially identified 901 colon cancer-specific hypermethylated (CaSH) regions in the tissues of the 49 cancer patients. We then used these CaSH regions to accurately quantify the amount of circulating tumor DNA (ctDNA) in the blood samples of these same patients, utilizing cell-free DNA methylation profiles. Notably, the methylation profiles of ctDNA in the blood exhibited high sensitivity (82%) and specificity (93%) in distinguishing patients with colon cancer from the control group, with an area under the curve of 0.903. Furthermore, we confirm that our method for ctDNA quantification is effective for monitoring cancer patients and can serve as a valuable tool for postoperative prognosis. This study demonstrated a successful application of the quantification of ctDNA among cfDNA using the original cancer tissue-derived CaSH region for screening and monitoring colon cancer."
+},
+{
+"n": 209,
+"id": "pmid:38593463",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "This study examines the genetic contexts and evolutionary steps responsible for the formation of the widely spread transposon Tn 6925 carrying bla TEM and aacC2e, which confers resistance to beta-lactam and aminoglycoside antibiotics in Gram-negative bacteria. The bla TEM-1 and aacC2e genes were found in several transposons. They were first observed within an IS 26 bounded 3.7 kb transposon (Tn 6925) on several Acinetobacter baumannii plasmids located within a 4.7 kb dif module. Truncated and expanded variations of Tn 6925 were found across other A. baumannii plasmids, as well as in other Gram-negative bacteria (including Vibrio cholerae ). Moreover, bla TEM-1 and aacC2e were in much larger resistance-heavy transposons including the ISAba1-bounded 24.6 kb (here called Tn 6927 ), found in an A. baumannii chromosome. A novel ISKpn12-bounded transposon was also observed to contain bla TEM and aacC2e which was found interrupting Tn 5393 along with an IS 26 pseudo-compound transposon to form a 24.9 kb resistance island in an Acinetobacter pittii plasmid. Multiple mobile genetic elements are involved in the formation of transposon structures that circulate bla TEM and aacC2e . Among these, IS 26 and ISAba1 appear to have played a major role in the formation and spread of these elements in the Acinetobacter species."
+}
+],
+"text": "This study examines the genetic contexts and evolutionary steps responsible for the formation of the widely spread transposon Tn 6925 carrying bla TEM and aacC2e, which confers resistance to beta-lactam and aminoglycoside antibiotics in Gram-negative bacteria. The bla TEM-1 and aacC2e genes were found in several transposons. They were first observed within an IS 26 bounded 3.7 kb transposon (Tn 6925) on several Acinetobacter baumannii plasmids located within a 4.7 kb dif module. Truncated and expanded variations of Tn 6925 were found across other A. baumannii plasmids, as well as in other Gram-negative bacteria (including Vibrio cholerae ). Moreover, bla TEM-1 and aacC2e were in much larger resistance-heavy transposons including the ISAba1-bounded 24.6 kb (here called Tn 6927 ), found in an A. baumannii chromosome. A novel ISKpn12-bounded transposon was also observed to contain bla TEM and aacC2e which was found interrupting Tn 5393 along with an IS 26 pseudo-compound transposon to form a 24.9 kb resistance island in an Acinetobacter pittii plasmid. Multiple mobile genetic elements are involved in the formation of transposon structures that circulate bla TEM and aacC2e . Among these, IS 26 and ISAba1 appear to have played a major role in the formation and spread of these elements in the Acinetobacter species."
+}
+]
+}

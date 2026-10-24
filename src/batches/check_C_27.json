@@ -1,0 +1,647 @@
+{
+"batch": "check_C_27",
+"pass": "C",
+"source_batch": "gen_27",
+"items": [
+{
+"n": 780,
+"id": "pmid:39506153",
+"year": 2024,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Extrachromosomal DNA (ecDNA) presents a major challenge for cancer patients. ecDNA renders tumours treatment resistant by facilitating massive oncogene transcription and rapid genome evolution, contributing to poor patient survival 1-7 . At present, there are no ecDNA-specific treatments. Here we show that enhancing transcription-replication conflict enables targeted elimination of ecDNA-containing cancers. Stepwise analyses of ecDNA transcription reveal pervasive RNA transcription and associated single-stranded DNA, leading to excessive transcription-replication conflicts and replication stress compared with chromosomal loci. Nucleotide incorporation on ecDNA is markedly slower, and replication stress is significantly higher in ecDNA-containing tumours regardless of cancer type or oncogene cargo. pRPA2-S33, a mediator of DNA damage repair that binds single-stranded DNA, shows elevated localization on ecDNA in a transcription-dependent manner, along with increased DNA double strand breaks, and activation of the S-phase checkpoint kinase, CHK1. Genetic or pharmacological CHK1 inhibition causes extensive and preferential tumour cell death in ecDNA-containing tumours. We advance a highly selective, potent and bioavailable oral CHK1 inhibitor, BBI-2779, that preferentially kills ecDNA-containing tumour cells. In a gastric cancer model containing FGFR2 amplified on ecDNA, BBI-2779 suppresses tumour growth and prevents ecDNA-mediated acquired resistance to the pan-FGFR inhibitor infigratinib, resulting in potent and sustained tumour regression in mice. Transcription-replication conflict emerges as a target for ecDNA-directed therapy, exploiting a synthetic lethality of excess to treat cancer."
+}
+],
+"text": "Extrachromosomal DNA (ecDNA) presents a major challenge for cancer patients. ecDNA renders tumours treatment resistant by facilitating massive oncogene transcription and rapid genome evolution, contributing to poor patient survival 1-7 . At present, there are no ecDNA-specific treatments. Here we show that enhancing transcription-replication conflict enables targeted elimination of ecDNA-containing cancers. Stepwise analyses of ecDNA transcription reveal pervasive RNA transcription and associated single-stranded DNA, leading to excessive transcription-replication conflicts and replication stress compared with chromosomal loci. Nucleotide incorporation on ecDNA is markedly slower, and replication stress is significantly higher in ecDNA-containing tumours regardless of cancer type or oncogene cargo. pRPA2-S33, a mediator of DNA damage repair that binds single-stranded DNA, shows elevated localization on ecDNA in a transcription-dependent manner, along with increased DNA double strand breaks, and activation of the S-phase checkpoint kinase, CHK1. Genetic or pharmacological CHK1 inhibition causes extensive and preferential tumour cell death in ecDNA-containing tumours. We advance a highly selective, potent and bioavailable oral CHK1 inhibitor, BBI-2779, that preferentially kills ecDNA-containing tumour cells. In a gastric cancer model containing FGFR2 amplified on ecDNA, BBI-2779 suppresses tumour growth and prevents ecDNA-mediated acquired resistance to the pan-FGFR inhibitor infigratinib, resulting in potent and sustained tumour regression in mice. Transcription-replication conflict emerges as a target for ecDNA-directed therapy, exploiting a synthetic lethality of excess to treat cancer.",
+"statements": [
+{
+"j": 1,
+"text": "Treatment with a CHK1 inhibitor lowers the number of ecDNA copies carried by surviving tumour cells."
+},
+{
+"j": 2,
+"text": "Compared with chromosomal loci, ecDNA showed faster nucleotide incorporation and ecDNA-containing tumours had higher replication stress, whatever the cancer type or the oncogene carried."
+},
+{
+"j": 3,
+"text": "In mice with gastric tumours carrying FGFR2 on ecDNA, BBI-2779 held back tumour growth and stopped acquired resistance to infigratinib."
+},
+{
+"j": 4,
+"text": "Shutting down CHK1, either genetically or with a drug, killed tumour cells carrying ecDNA preferentially and extensively."
+}
+]
+},
+{
+"n": 781,
+"id": "pmid:39048831",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "It is estimated that only 0.02% of disseminated tumour cells are able to seed overt metastases 1 . While this suggests the presence of environmental constraints to metastatic seeding, the landscape of host factors controlling this process remains largely unclear. Here, combining transposon technology 2 and fluorescence niche labelling 3 , we developed an in vivo CRISPR activation screen to systematically investigate the interactions between hepatocytes and metastatic cells. We identify plexin B2 as a critical host-derived regulator of liver colonization in colorectal and pancreatic cancer and melanoma syngeneic mouse models. We dissect a mechanism through which plexin B2 interacts with class IV semaphorins on tumour cells, leading to KLF4 upregulation and thereby promoting the acquisition of epithelial traits. Our results highlight the essential role of signals from the liver parenchyma for the seeding of disseminated tumour cells before the establishment of a growth-promoting niche. Our findings further suggest that epithelialization is required for the adaptation of CRC metastases to their new tissue environment. Blocking the plexin-B2-semaphorin axis abolishes metastatic colonization of the liver and therefore represents a therapeutic strategy for the prevention of hepatic metastases. Finally, our screening approach, which evaluates host-derived extrinsic signals rather than tumour-intrinsic factors for their ability to promote metastatic seeding, is broadly applicable and lays a framework for the screening of environmental constraints to metastasis in other organs and cancer types."
+}
+],
+"text": "It is estimated that only 0.02% of disseminated tumour cells are able to seed overt metastases 1 . While this suggests the presence of environmental constraints to metastatic seeding, the landscape of host factors controlling this process remains largely unclear. Here, combining transposon technology 2 and fluorescence niche labelling 3 , we developed an in vivo CRISPR activation screen to systematically investigate the interactions between hepatocytes and metastatic cells. We identify plexin B2 as a critical host-derived regulator of liver colonization in colorectal and pancreatic cancer and melanoma syngeneic mouse models. We dissect a mechanism through which plexin B2 interacts with class IV semaphorins on tumour cells, leading to KLF4 upregulation and thereby promoting the acquisition of epithelial traits. Our results highlight the essential role of signals from the liver parenchyma for the seeding of disseminated tumour cells before the establishment of a growth-promoting niche. Our findings further suggest that epithelialization is required for the adaptation of CRC metastases to their new tissue environment. Blocking the plexin-B2-semaphorin axis abolishes metastatic colonization of the liver and therefore represents a therapeutic strategy for the prevention of hepatic metastases. Finally, our screening approach, which evaluates host-derived extrinsic signals rather than tumour-intrinsic factors for their ability to promote metastatic seeding, is broadly applicable and lays a framework for the screening of environmental constraints to metastasis in other organs and cancer types.",
+"statements": [
+{
+"j": 1,
+"text": "Only about 0.02% of disseminated tumour cells go on to seed overt metastases."
+},
+{
+"j": 2,
+"text": "Plexin B2 engaging class IV semaphorins on tumour cells raised KLF4 levels and pushed those cells towards epithelial traits."
+},
+{
+"j": 3,
+"text": "Plexin B2 made by host cells was identified as a critical regulator of liver colonization in syngeneic mouse models of colorectal cancer, pancreatic cancer and melanoma."
+},
+{
+"j": 4,
+"text": "Plexin B2 levels in liver tissue predict which patients with colorectal cancer will relapse with liver metastases."
+}
+]
+},
+{
+"n": 782,
+"id": "pmid:39020166",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The tumour evolution model posits that malignant transformation is preceded by randomly distributed driver mutations in cancer genes, which cause clonal expansions in phenotypically normal tissues. Although clonal expansions can remodel entire tissues 1-3 , the mechanisms that result in only a small number of clones transforming into malignant tumours remain unknown. Here we develop an in vivo single-cell CRISPR strategy to systematically investigate tissue-wide clonal dynamics of the 150 most frequently mutated squamous cell carcinoma genes. We couple ultrasound-guided in utero lentiviral microinjections, single-cell RNA sequencing and guide capture to longitudinally monitor clonal expansions and document their underlying gene programmes at single-cell transcriptomic resolution. We uncover a tumour necrosis factor (TNF) signalling module, which is dependent on TNF receptor 1 and involving macrophages, that acts as a generalizable driver of clonal expansions in epithelial tissues. Conversely, during tumorigenesis, the TNF signalling module is downregulated. Instead, we identify a subpopulation of invasive cancer cells that switch to an autocrine TNF gene programme associated with epithelial-mesenchymal transition. Finally, we provide in vivo evidence that the autocrine TNF gene programme is sufficient to mediate invasive properties and show that the TNF signature correlates with shorter overall survival of patients with squamous cell carcinoma. Collectively, our study demonstrates the power of applying in vivo single-cell CRISPR screening to mammalian tissues, unveils distinct TNF programmes in tumour evolution and highlights the importance of understanding the relationship between clonal expansions in epithelia and tumorigenesis."
+}
+],
+"text": "The tumour evolution model posits that malignant transformation is preceded by randomly distributed driver mutations in cancer genes, which cause clonal expansions in phenotypically normal tissues. Although clonal expansions can remodel entire tissues 1-3 , the mechanisms that result in only a small number of clones transforming into malignant tumours remain unknown. Here we develop an in vivo single-cell CRISPR strategy to systematically investigate tissue-wide clonal dynamics of the 150 most frequently mutated squamous cell carcinoma genes. We couple ultrasound-guided in utero lentiviral microinjections, single-cell RNA sequencing and guide capture to longitudinally monitor clonal expansions and document their underlying gene programmes at single-cell transcriptomic resolution. We uncover a tumour necrosis factor (TNF) signalling module, which is dependent on TNF receptor 1 and involving macrophages, that acts as a generalizable driver of clonal expansions in epithelial tissues. Conversely, during tumorigenesis, the TNF signalling module is downregulated. Instead, we identify a subpopulation of invasive cancer cells that switch to an autocrine TNF gene programme associated with epithelial-mesenchymal transition. Finally, we provide in vivo evidence that the autocrine TNF gene programme is sufficient to mediate invasive properties and show that the TNF signature correlates with shorter overall survival of patients with squamous cell carcinoma. Collectively, our study demonstrates the power of applying in vivo single-cell CRISPR screening to mammalian tissues, unveils distinct TNF programmes in tumour evolution and highlights the importance of understanding the relationship between clonal expansions in epithelia and tumorigenesis.",
+"statements": [
+{
+"j": 1,
+"text": "The screen covered the 150 genes least frequently mutated in squamous cell carcinoma."
+},
+{
+"j": 2,
+"text": "A higher TNF signature went together with shorter overall survival in patients with squamous cell carcinoma."
+},
+{
+"j": 3,
+"text": "TNF signalling that runs through TNF receptor 1 and involves macrophages acted as a general driver of clonal expansions in epithelial tissues."
+},
+{
+"j": 4,
+"text": "Pharmacological inhibition of TNF receptor 1 reduced the number of tumours arising in the epithelium."
+}
+]
+},
+{
+"n": 783,
+"id": "pmid:37165195",
+"year": 2023,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Throughout an individual's lifetime, genomic alterations accumulate in somatic cells 1-11 . However, the mutational landscape induced by retrotransposition of long interspersed nuclear element-1 (L1), a widespread mobile element in the human genome 12-14 , is poorly understood in normal cells. Here we explored the whole-genome sequences of 899 single-cell clones established from three different cell types collected from 28 individuals. We identified 1,708 somatic L1 retrotransposition events that were enriched in colorectal epithelium and showed a positive relationship with age. Fingerprinting of source elements showed 34 retrotransposition-competent L1s. Multidimensional analysis demonstrated that (1) somatic L1 retrotranspositions occur from early embryogenesis at a substantial rate, (2) epigenetic on/off of a source element is preferentially determined in the early organogenesis stage, (3) retrotransposition-competent L1s with a lower population allele frequency have higher retrotransposition activity and (4) only a small fraction of L1 transcripts in the cytoplasm are finally retrotransposed in somatic cells. Analysis of matched cancers further suggested that somatic L1 retrotransposition rate is substantially increased during colorectal tumourigenesis. In summary, this study illustrates L1 retrotransposition-induced somatic mosaicism in normal cells and provides insights into the genomic and epigenomic regulation of transposable elements over the human lifetime."
+}
+],
+"text": "Throughout an individual's lifetime, genomic alterations accumulate in somatic cells 1-11 . However, the mutational landscape induced by retrotransposition of long interspersed nuclear element-1 (L1), a widespread mobile element in the human genome 12-14 , is poorly understood in normal cells. Here we explored the whole-genome sequences of 899 single-cell clones established from three different cell types collected from 28 individuals. We identified 1,708 somatic L1 retrotransposition events that were enriched in colorectal epithelium and showed a positive relationship with age. Fingerprinting of source elements showed 34 retrotransposition-competent L1s. Multidimensional analysis demonstrated that (1) somatic L1 retrotranspositions occur from early embryogenesis at a substantial rate, (2) epigenetic on/off of a source element is preferentially determined in the early organogenesis stage, (3) retrotransposition-competent L1s with a lower population allele frequency have higher retrotransposition activity and (4) only a small fraction of L1 transcripts in the cytoplasm are finally retrotransposed in somatic cells. Analysis of matched cancers further suggested that somatic L1 retrotransposition rate is substantially increased during colorectal tumourigenesis. In summary, this study illustrates L1 retrotransposition-induced somatic mosaicism in normal cells and provides insights into the genomic and epigenomic regulation of transposable elements over the human lifetime.",
+"statements": [
+{
+"j": 1,
+"text": "Somatic L1 insertions in normal colorectal epithelium land preferentially inside genes that drive colorectal cancer."
+},
+{
+"j": 2,
+"text": "Somatic L1 insertions were concentrated in colorectal epithelium and grew fewer numerous with increasing age."
+},
+{
+"j": 3,
+"text": "Retrotransposition-competent L1s carried at lower population allele frequency were more active than more common ones."
+},
+{
+"j": 4,
+"text": "Whole-genome sequencing of 899 single-cell clones from 28 individuals turned up 1,708 somatic L1 retrotransposition events."
+}
+]
+},
+{
+"n": 784,
+"id": "pmid:41115454",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Immune checkpoint blockade has led to paradigm shifts in the treatment of various tumour types 1-4 , yet limited efficacy has been observed in patients with metastatic mismatch-repair-proficient (pMMR) colorectal cancer 5 . Here we report clinical results and in-depth analysis of patients with early-stage pMMR colon cancer from the phase II NICHE study (ClinicalTrials.gov: NCT03026140). A total of 31 patients received neoadjuvant treatment of nivolumab plus ipilimumab followed by surgery. The response rate was 26% and included six patients with a major pathological response (10% or less residual viable tumour). One patient with an ongoing clinical complete response did not undergo surgery. Circulating tumour DNA was positive in 26 of 31 patients at baseline, and clearance was observed in 5 of 6 responders before surgery, whereas 19 of 20 non-responders remained circulating tumour DNA positive. Responses were observed despite a low tumour mutational burden in all tumours, whereas chromosomal genomic instability scores were significantly higher in responders than in non-responders. Furthermore, responding tumours had significantly higher baseline expression of proliferation signatures and TCF1, and imaging mass cytometry revealed a higher percentage of Ki-67 + cancer and Ki-67 + CD8 + T cells in responders than in non-responders. These results provide a comprehensive analysis of response to neoadjuvant immune checkpoint blockade in early-stage pMMR colon cancers and identify potential biomarkers for patient selection."
+}
+],
+"text": "Immune checkpoint blockade has led to paradigm shifts in the treatment of various tumour types 1-4 , yet limited efficacy has been observed in patients with metastatic mismatch-repair-proficient (pMMR) colorectal cancer 5 . Here we report clinical results and in-depth analysis of patients with early-stage pMMR colon cancer from the phase II NICHE study (ClinicalTrials.gov: NCT03026140). A total of 31 patients received neoadjuvant treatment of nivolumab plus ipilimumab followed by surgery. The response rate was 26% and included six patients with a major pathological response (10% or less residual viable tumour). One patient with an ongoing clinical complete response did not undergo surgery. Circulating tumour DNA was positive in 26 of 31 patients at baseline, and clearance was observed in 5 of 6 responders before surgery, whereas 19 of 20 non-responders remained circulating tumour DNA positive. Responses were observed despite a low tumour mutational burden in all tumours, whereas chromosomal genomic instability scores were significantly higher in responders than in non-responders. Furthermore, responding tumours had significantly higher baseline expression of proliferation signatures and TCF1, and imaging mass cytometry revealed a higher percentage of Ki-67 + cancer and Ki-67 + CD8 + T cells in responders than in non-responders. These results provide a comprehensive analysis of response to neoadjuvant immune checkpoint blockade in early-stage pMMR colon cancers and identify potential biomarkers for patient selection.",
+"statements": [
+{
+"j": 1,
+"text": "Among the patients treated with neoadjuvant nivolumab plus ipilimumab, 26% responded, and six had a major pathological response with no less than 10% residual viable tumour."
+},
+{
+"j": 2,
+"text": "Patients who responded to neoadjuvant nivolumab plus ipilimumab stayed recurrence-free longer than non-responders."
+},
+{
+"j": 3,
+"text": "Circulating tumour DNA cleared before surgery in five of six responders, while 19 of 20 non-responders stayed circulating tumour DNA positive."
+},
+{
+"j": 4,
+"text": "Chromosomal genomic instability scores were higher in responders than in non-responders, even though every tumour had a low tumour mutational burden."
+}
+]
+},
+{
+"n": 785,
+"id": "pmid:37853119",
+"year": 2023,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "CRISPR systems are widespread in the prokaryotic world, providing adaptive immunity against mobile genetic elements 1,2 . Type III CRISPR systems, with the signature gene cas10, use CRISPR RNA to detect non-self RNA, activating the enzymatic Cas10 subunit to defend the cell against mobile genetic elements either directly, via the integral histidine-aspartate (HD) nuclease domain 3-5 or indirectly, via synthesis of cyclic oligoadenylate second messengers to activate diverse ancillary effectors 6-9 . A subset of type III CRISPR systems encode an uncharacterized CorA-family membrane protein and an associated NrN family phosphodiesterase that are predicted to function in antiviral defence. Here we demonstrate that the CorA-associated type III-B (Cmr) CRISPR system from Bacteroides fragilis provides immunity against mobile genetic elements when expressed in Escherichia coli. However, B. fragilis Cmr does not synthesize cyclic oligoadenylate species on activation, instead generating S-adenosyl methionine (SAM)-AMP (SAM is also known as AdoMet) by conjugating ATP to SAM via a phosphodiester bond. Once synthesized, SAM-AMP binds to the CorA effector, presumably leading to cell dormancy or death by disruption of the membrane integrity. SAM-AMP is degraded by CRISPR-associated phosphodiesterases or a SAM-AMP lyase, potentially providing an 'off switch' analogous to cyclic oligoadenylate-specific ring nucleases 10 . SAM-AMP thus represents a new class of second messenger for antiviral signalling, which may function in different roles in diverse cellular contexts."
+}
+],
+"text": "CRISPR systems are widespread in the prokaryotic world, providing adaptive immunity against mobile genetic elements 1,2 . Type III CRISPR systems, with the signature gene cas10, use CRISPR RNA to detect non-self RNA, activating the enzymatic Cas10 subunit to defend the cell against mobile genetic elements either directly, via the integral histidine-aspartate (HD) nuclease domain 3-5 or indirectly, via synthesis of cyclic oligoadenylate second messengers to activate diverse ancillary effectors 6-9 . A subset of type III CRISPR systems encode an uncharacterized CorA-family membrane protein and an associated NrN family phosphodiesterase that are predicted to function in antiviral defence. Here we demonstrate that the CorA-associated type III-B (Cmr) CRISPR system from Bacteroides fragilis provides immunity against mobile genetic elements when expressed in Escherichia coli. However, B. fragilis Cmr does not synthesize cyclic oligoadenylate species on activation, instead generating S-adenosyl methionine (SAM)-AMP (SAM is also known as AdoMet) by conjugating ATP to SAM via a phosphodiester bond. Once synthesized, SAM-AMP binds to the CorA effector, presumably leading to cell dormancy or death by disruption of the membrane integrity. SAM-AMP is degraded by CRISPR-associated phosphodiesterases or a SAM-AMP lyase, potentially providing an 'off switch' analogous to cyclic oligoadenylate-specific ring nucleases 10 . SAM-AMP thus represents a new class of second messenger for antiviral signalling, which may function in different roles in diverse cellular contexts.",
+"statements": [
+{
+"j": 1,
+"text": "On repression the B. fragilis Cmr system produced SAM-AMP by joining ATP to S-adenosyl methionine through a phosphodiester bond instead of making cyclic oligoadenylates."
+},
+{
+"j": 2,
+"text": "Cells carrying the B. fragilis Cmr system grow more slowly than cells without it when no mobile genetic element is present."
+},
+{
+"j": 3,
+"text": "SAM-AMP is broken down either by CRISPR-associated phosphodiesterases or by a SAM-AMP lyase."
+},
+{
+"j": 4,
+"text": "Expressed in Escherichia coli, the CorA-associated type III-B Cmr system from Bacteroides fragilis conferred immunity against mobile genetic elements."
+}
+]
+},
+{
+"n": 786,
+"id": "pmid:40634612",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Wild plants can contribute valuable genes to their domesticated relatives 1 . Fertility barriers and a lack of genomic resources have hindered the effective use of crop-wild introgressions. Decades of research into barley's closest wild relative, Hordeum bulbosum, a grass native to the Mediterranean basin and Western Asia, have yet to manifest themselves in the release of a cultivar bearing alien genes 2 . Here we construct a pangenome of bulbous barley comprising 10 phased genome sequence assemblies amounting to 32 distinct haplotypes. Autotetraploid cytotypes, among which the donors of resistance-conferring introgressions are found, arose at least twice, and are connected among each other and to diploid forms through gene flow. The differential amplification of transposable elements after barley and H. bulbosum diverged from each other is responsible for genome size differences between them. We illustrate the translational value of our resource by mapping non-host resistance to a viral pathogen to a structurally diverse multigene cluster that has been implicated in diverse immune responses in wheat and barley."
+}
+],
+"text": "Wild plants can contribute valuable genes to their domesticated relatives 1 . Fertility barriers and a lack of genomic resources have hindered the effective use of crop-wild introgressions. Decades of research into barley's closest wild relative, Hordeum bulbosum, a grass native to the Mediterranean basin and Western Asia, have yet to manifest themselves in the release of a cultivar bearing alien genes 2 . Here we construct a pangenome of bulbous barley comprising 10 phased genome sequence assemblies amounting to 32 distinct haplotypes. Autotetraploid cytotypes, among which the donors of resistance-conferring introgressions are found, arose at least twice, and are connected among each other and to diploid forms through gene flow. The differential amplification of transposable elements after barley and H. bulbosum diverged from each other is responsible for genome size differences between them. We illustrate the translational value of our resource by mapping non-host resistance to a viral pathogen to a structurally diverse multigene cluster that has been implicated in diverse immune responses in wheat and barley.",
+"statements": [
+{
+"j": 1,
+"text": "Differences in genome size between barley and H. bulbosum trace back to transposable elements amplifying differently after the two lineages split."
+},
+{
+"j": 2,
+"text": "The bulbous barley pangenome was assembled from ten phased genome sequences covering 32 distinct haplotypes."
+},
+{
+"j": 3,
+"text": "Hordeum bulbosum has a larger genome than cultivated barley."
+},
+{
+"j": 4,
+"text": "Autotetraploid cytotypes, which include the donors of resistance-conferring introgressions, arose on at most two occasions and exchange genes with one another and with diploid forms."
+}
+]
+},
+{
+"n": 787,
+"id": "pmid:38795705",
+"year": 2024,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Recent studies suggest that human-associated bacteria interact with host-produced steroids, but the mechanisms and physiological impact of such interactions remain unclear. Here, we show that the human gut bacteria Gordonibacter pamelaeae and Eggerthella lenta convert abundant biliary corticoids into progestins through 21-dehydroxylation, thereby transforming a class of immuno- and metabo-regulatory steroids into a class of sex hormones and neurosteroids. Using comparative genomics, homologous expression, and heterologous expression, we identify a bacterial gene cluster that performs 21-dehydroxylation. We also uncover an unexpected role for hydrogen gas production by gut commensals in promoting 21-dehydroxylation, suggesting that hydrogen modulates secondary metabolism in the gut. Levels of certain bacterial progestins, including allopregnanolone, better known as brexanolone, an FDA-approved drug for postpartum depression, are substantially increased in feces from pregnant humans. Thus, bacterial conversion of corticoids into progestins may affect host physiology, particularly in the context of pregnancy and women's health."
+}
+],
+"text": "Recent studies suggest that human-associated bacteria interact with host-produced steroids, but the mechanisms and physiological impact of such interactions remain unclear. Here, we show that the human gut bacteria Gordonibacter pamelaeae and Eggerthella lenta convert abundant biliary corticoids into progestins through 21-dehydroxylation, thereby transforming a class of immuno- and metabo-regulatory steroids into a class of sex hormones and neurosteroids. Using comparative genomics, homologous expression, and heterologous expression, we identify a bacterial gene cluster that performs 21-dehydroxylation. We also uncover an unexpected role for hydrogen gas production by gut commensals in promoting 21-dehydroxylation, suggesting that hydrogen modulates secondary metabolism in the gut. Levels of certain bacterial progestins, including allopregnanolone, better known as brexanolone, an FDA-approved drug for postpartum depression, are substantially increased in feces from pregnant humans. Thus, bacterial conversion of corticoids into progestins may affect host physiology, particularly in the context of pregnancy and women's health.",
+"statements": [
+{
+"j": 1,
+"text": "Women with postpartum depression carry fewer 21-dehydroxylating gut bacteria than women without it."
+},
+{
+"j": 2,
+"text": "The gut bacteria Gordonibacter pamelaeae and Eggerthella lenta convert scarce biliary corticoids into progestins by 21-dehydroxylation."
+},
+{
+"j": 3,
+"text": "Hydrogen gas produced by gut commensals promotes the 21-dehydroxylation reaction."
+},
+{
+"j": 4,
+"text": "Faeces from pregnant humans contained substantially more of certain bacterial progestins, allopregnanolone among them."
+}
+]
+},
+{
+"n": 788,
+"id": "pmid:39952247",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Cancer cells acquire numerous mutations during tumorigenesis, including synonymous mutations that do not change the amino acid sequence of a protein. RNA N6-methyladenosine (m 6 A) is a post-transcriptional modification that plays critical roles in oncogenesis. Herein, we identified 12,849 mutations in the cancer genome with the potential to perturb m 6 A modification patterns, which we refer to as \"m 6 A disruption mutations (m 6 A-DMs).\" These are either synonymous m 6 A-DMs (sm 6 A-DMs) or missense m 6 A-DMs (mm 6 A-DMs) mutations, and the former is enriched within tumor suppressor genes, such as CDKN2A and BRCA2. Using epitranscriptomic editing, we demonstrate that manipulating m 6 A levels at specific sm 6 A-DM sites influences mRNA stability. Furthermore, introducing CDKN2A sm 6 A-DMs into cancer cells promotes tumor growth while BRCA2 sm 6 A-DMs sensitize tumors to the poly (ADP-ribose) polymerase inhibitor (PARPi) treatment. Our findings demonstrate sm 6 A-DMs as potential oncogenic drivers, unveiling implications for synonymous mutations in tumorigenesis and beyond."
+}
+],
+"text": "Cancer cells acquire numerous mutations during tumorigenesis, including synonymous mutations that do not change the amino acid sequence of a protein. RNA N6-methyladenosine (m 6 A) is a post-transcriptional modification that plays critical roles in oncogenesis. Herein, we identified 12,849 mutations in the cancer genome with the potential to perturb m 6 A modification patterns, which we refer to as \"m 6 A disruption mutations (m 6 A-DMs).\" These are either synonymous m 6 A-DMs (sm 6 A-DMs) or missense m 6 A-DMs (mm 6 A-DMs) mutations, and the former is enriched within tumor suppressor genes, such as CDKN2A and BRCA2. Using epitranscriptomic editing, we demonstrate that manipulating m 6 A levels at specific sm 6 A-DM sites influences mRNA stability. Furthermore, introducing CDKN2A sm 6 A-DMs into cancer cells promotes tumor growth while BRCA2 sm 6 A-DMs sensitize tumors to the poly (ADP-ribose) polymerase inhibitor (PARPi) treatment. Our findings demonstrate sm 6 A-DMs as potential oncogenic drivers, unveiling implications for synonymous mutations in tumorigenesis and beyond.",
+"statements": [
+{
+"j": 1,
+"text": "Synonymous m 6 A disruption mutations were concentrated in tumour suppressor genes such as CDKN2A and BRCA2."
+},
+{
+"j": 2,
+"text": "The study catalogued 12,849 cancer genome mutations with the potential to perturb m 6 A modification patterns."
+},
+{
+"j": 3,
+"text": "CDKN2A synonymous m 6 A disruption mutations sped up tumour growth in cancer cells, while BRCA2 ones made tumours less sensitive to PARP inhibitor treatment."
+},
+{
+"j": 4,
+"text": "Missense m 6 A disruption mutations occur more often across cancer genomes than synonymous ones."
+}
+]
+},
+{
+"n": 789,
+"id": "pmid:39368476",
+"year": 2024,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Diatoms are central to the global carbon cycle. At the heart of diatom carbon fixation is an overlooked organelle called the pyrenoid, where concentrated CO 2 is delivered to densely packed Rubisco. Diatom pyrenoids fix approximately one-fifth of global CO 2 , but the protein composition of this organelle is largely unknown. Using fluorescence protein tagging and affinity purification-mass spectrometry, we generate a high-confidence spatially defined protein-protein interaction network for the diatom pyrenoid. Within our pyrenoid interaction network are 10 proteins with previously unknown functions. We show that six of these form a shell that encapsulates the Rubisco matrix and is critical for pyrenoid structural integrity, shape, and function. Although not conserved at a sequence or structural level, the diatom pyrenoid shares some architectural similarities to prokaryotic carboxysomes. Collectively, our results support the convergent evolution of pyrenoids across the two main plastid lineages and uncover a major structural and functional component of global CO 2 fixation."
+}
+],
+"text": "Diatoms are central to the global carbon cycle. At the heart of diatom carbon fixation is an overlooked organelle called the pyrenoid, where concentrated CO 2 is delivered to densely packed Rubisco. Diatom pyrenoids fix approximately one-fifth of global CO 2 , but the protein composition of this organelle is largely unknown. Using fluorescence protein tagging and affinity purification-mass spectrometry, we generate a high-confidence spatially defined protein-protein interaction network for the diatom pyrenoid. Within our pyrenoid interaction network are 10 proteins with previously unknown functions. We show that six of these form a shell that encapsulates the Rubisco matrix and is critical for pyrenoid structural integrity, shape, and function. Although not conserved at a sequence or structural level, the diatom pyrenoid shares some architectural similarities to prokaryotic carboxysomes. Collectively, our results support the convergent evolution of pyrenoids across the two main plastid lineages and uncover a major structural and functional component of global CO 2 fixation.",
+"statements": [
+{
+"j": 1,
+"text": "Ten of the proteins in the pyrenoid interaction network had no previously known function."
+},
+{
+"j": 2,
+"text": "Six of those proteins build a shell enclosing the Rubisco matrix that the pyrenoid needs for its structural integrity, shape and function."
+},
+{
+"j": 3,
+"text": "Removing the shell proteins slows diatom growth when CO2 is scarce."
+},
+{
+"j": 4,
+"text": "Pyrenoids of diatoms account for roughly one-fifth of global CO2 fixation."
+}
+]
+},
+{
+"n": 790,
+"id": "pmid:37557170",
+"year": 2023,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Tn7-like transposons have co-opted CRISPR-Cas systems to facilitate the movement of their own DNA. These CRISPR-associated transposons (CASTs) are promising tools for programmable gene knockin. A key feature of CASTs is their ability to recruit Tn7-like transposons to nuclease-deficient CRISPR effectors. However, how Tn7-like transposons are recruited by diverse CRISPR effectors remains poorly understood. Here, we present the cryo-EM structure of a recruitment complex comprising the Cascade complex, TniQ, TnsC, and the target DNA in the type I-B CAST from Peltigera membranacea cyanobiont 210A. Target DNA recognition by Cascade induces conformational changes in Cas6 and primes TniQ recruitment through its C-terminal domain. The N-terminal domain of TniQ is bound to the seam region of the TnsC spiral heptamer. Our findings provide insights into the diverse mechanisms for the recruitment of Tn7-like transposons to CRISPR effectors and will aid in the development of CASTs as gene knockin tools."
+}
+],
+"text": "Tn7-like transposons have co-opted CRISPR-Cas systems to facilitate the movement of their own DNA. These CRISPR-associated transposons (CASTs) are promising tools for programmable gene knockin. A key feature of CASTs is their ability to recruit Tn7-like transposons to nuclease-deficient CRISPR effectors. However, how Tn7-like transposons are recruited by diverse CRISPR effectors remains poorly understood. Here, we present the cryo-EM structure of a recruitment complex comprising the Cascade complex, TniQ, TnsC, and the target DNA in the type I-B CAST from Peltigera membranacea cyanobiont 210A. Target DNA recognition by Cascade induces conformational changes in Cas6 and primes TniQ recruitment through its C-terminal domain. The N-terminal domain of TniQ is bound to the seam region of the TnsC spiral heptamer. Our findings provide insights into the diverse mechanisms for the recruitment of Tn7-like transposons to CRISPR effectors and will aid in the development of CASTs as gene knockin tools.",
+"statements": [
+{
+"j": 1,
+"text": "The N-terminal domain of TniQ sits bound to the seam region of the heptameric TnsC spiral."
+},
+{
+"j": 2,
+"text": "This type I-B CRISPR-associated transposon inserts DNA cargo into human cells more efficiently than type V systems do."
+},
+{
+"j": 3,
+"text": "Recognition of the target DNA by Cascade reshaped Cas6 and primed recruitment of TniQ through TniQ's C-terminal domain."
+},
+{
+"j": 4,
+"text": "The cryo-EM structure captured Cascade, TniQ, TnsC and target DNA together in the type I-B CAST of the Peltigera membranacea cyanobiont 210A."
+}
+]
+},
+{
+"n": 791,
+"id": "pmid:37562403",
+"year": 2023,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The most extreme environments are the most vulnerable to transformation under a rapidly changing climate. These ecosystems harbor some of the most specialized species, which will likely suffer the highest extinction rates. We document the steepest temperature increase (2010-2021) on record at altitudes of above 4,000 m, triggering a decline of the relictual and highly adapted moss Takakia lepidozioides. Its de-novo-sequenced genome with 27,467 protein-coding genes includes distinct adaptations to abiotic stresses and comprises the largest number of fast-evolving genes under positive selection. The uplift of the study site in the last 65 million years has resulted in life-threatening UV-B radiation and drastically reduced temperatures, and we detected several of the molecular adaptations of Takakia to these environmental changes. Surprisingly, specific morphological features likely occurred earlier than 165 mya in much warmer environments. Following nearly 400 million years of evolution and resilience, this species is now facing extinction."
+}
+],
+"text": "The most extreme environments are the most vulnerable to transformation under a rapidly changing climate. These ecosystems harbor some of the most specialized species, which will likely suffer the highest extinction rates. We document the steepest temperature increase (2010-2021) on record at altitudes of above 4,000 m, triggering a decline of the relictual and highly adapted moss Takakia lepidozioides. Its de-novo-sequenced genome with 27,467 protein-coding genes includes distinct adaptations to abiotic stresses and comprises the largest number of fast-evolving genes under positive selection. The uplift of the study site in the last 65 million years has resulted in life-threatening UV-B radiation and drastically reduced temperatures, and we detected several of the molecular adaptations of Takakia to these environmental changes. Surprisingly, specific morphological features likely occurred earlier than 165 mya in much warmer environments. Following nearly 400 million years of evolution and resilience, this species is now facing extinction.",
+"statements": [
+{
+"j": 1,
+"text": "Uplift of the study site over the past 65 million years brought life-threatening UV-B radiation and far lower temperatures, and molecular adaptations of Takakia to both were detected."
+},
+{
+"j": 2,
+"text": "Above 4,000 m the study recorded the steepest temperature increase on record for 2010-2021, and the moss Takakia lepidozioides declined there."
+},
+{
+"j": 3,
+"text": "The de novo sequenced genome holds 27,467 protein-coding genes and has the largest number of fast-evolving genes under negative selection."
+},
+{
+"j": 4,
+"text": "Takakia lepidozioides populations at lower altitudes remain stable while those at high altitude decline."
+}
+]
+},
+{
+"n": 792,
+"id": "pmid:38218188",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Despite advances in defining diverse somatic mutations that cause myeloid malignancies, a significant heritable component for these cancers remains largely unexplained. Here, we perform rare variant association studies in a large population cohort to identify inherited predisposition genes for these blood cancers. CTR9, which encodes a key component of the PAF1 transcription elongation complex, is among the significant genes identified. The risk variants found in the cases cause loss of function and result in a ∼10-fold increased odds of acquiring a myeloid malignancy. Partial CTR9 loss of function expands human hematopoietic stem cells (HSCs) by increased super elongation complex-mediated transcriptional activity, which thereby increases the expression of key regulators of HSC self-renewal. By following up on insights from a human genetic study examining inherited predisposition to the myeloid malignancies, we define a previously unknown antagonistic interaction between the PAF1 and super elongation complexes. These insights could enable targeted approaches for blood cancer prevention."
+}
+],
+"text": "Despite advances in defining diverse somatic mutations that cause myeloid malignancies, a significant heritable component for these cancers remains largely unexplained. Here, we perform rare variant association studies in a large population cohort to identify inherited predisposition genes for these blood cancers. CTR9, which encodes a key component of the PAF1 transcription elongation complex, is among the significant genes identified. The risk variants found in the cases cause loss of function and result in a ∼10-fold increased odds of acquiring a myeloid malignancy. Partial CTR9 loss of function expands human hematopoietic stem cells (HSCs) by increased super elongation complex-mediated transcriptional activity, which thereby increases the expression of key regulators of HSC self-renewal. By following up on insights from a human genetic study examining inherited predisposition to the myeloid malignancies, we define a previously unknown antagonistic interaction between the PAF1 and super elongation complexes. These insights could enable targeted approaches for blood cancer prevention.",
+"statements": [
+{
+"j": 1,
+"text": "Carriers of CTR9 loss-of-function variants develop myeloid malignancies at a younger age than non-carriers."
+},
+{
+"j": 2,
+"text": "Partial gain of CTR9 function expanded human haematopoietic stem cells by raising super elongation complex-driven transcription of self-renewal regulators."
+},
+{
+"j": 3,
+"text": "CTR9, which encodes a key component of the PAF1 transcription elongation complex, came out among the significant inherited predisposition genes."
+},
+{
+"j": 4,
+"text": "The risk variants seen in cases destroy CTR9 function and raise the odds of acquiring a myeloid malignancy roughly tenfold."
+}
+]
+},
+{
+"n": 793,
+"id": "pmid:42105763",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Spatial transcriptomics (ST) assays are transforming our understanding of tumor heterogeneity, but their high cost limits their application in large-scale biomarker discovery. Here, we present \"Path2Space,\" a deep-learning model that predicts spatial gene expression directly from histopathology slides. Trained on extensive breast cancer ST data, Path2Space robustly predicts the spatial expression of thousands of genes, outperforming 21 established methods. Charting the tumor microenvironment (TME) of 976 breast cancer TCGA (The Cancer Genome Atlas) tumors, it accurately infers cell-type abundances and identifies three spatially defined breast cancer subgroups with distinct survival outcomes. Notably, the derived low-cost spatial TME landscapes enable more accurate predictions of patient response to chemotherapy and trastuzumab compared with costly conventional bulk-sequencing-based biomarkers. Path2Space thus offers a scalable, fast, and cost-effective alternative to molecular assays. It opens avenues for large cohort treatment biomarker discovery and translationally relevant insights into tumor biology, with potential applicability across many cancer indications."
+}
+],
+"text": "Spatial transcriptomics (ST) assays are transforming our understanding of tumor heterogeneity, but their high cost limits their application in large-scale biomarker discovery. Here, we present \"Path2Space,\" a deep-learning model that predicts spatial gene expression directly from histopathology slides. Trained on extensive breast cancer ST data, Path2Space robustly predicts the spatial expression of thousands of genes, outperforming 21 established methods. Charting the tumor microenvironment (TME) of 976 breast cancer TCGA (The Cancer Genome Atlas) tumors, it accurately infers cell-type abundances and identifies three spatially defined breast cancer subgroups with distinct survival outcomes. Notably, the derived low-cost spatial TME landscapes enable more accurate predictions of patient response to chemotherapy and trastuzumab compared with costly conventional bulk-sequencing-based biomarkers. Path2Space thus offers a scalable, fast, and cost-effective alternative to molecular assays. It opens avenues for large cohort treatment biomarker discovery and translationally relevant insights into tumor biology, with potential applicability across many cancer indications.",
+"statements": [
+{
+"j": 1,
+"text": "The inferred spatial microenvironment landscapes predicted patient response to chemotherapy and trastuzumab less accurately than bulk-sequencing-based biomarkers."
+},
+{
+"j": 2,
+"text": "Across 976 breast cancer TCGA tumours the model inferred cell-type abundances and separated three spatially defined subgroups with different survival outcomes."
+},
+{
+"j": 3,
+"text": "Path2Space predicts spatial gene expression in lung and colorectal tumours as accurately as in breast tumours."
+},
+{
+"j": 4,
+"text": "Path2Space predicted spatial expression of thousands of genes from histopathology slides and did better than 21 established methods."
+}
+]
+},
+{
+"n": 794,
+"id": "pmid:38608703",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Knudson's \"two-hit\" paradigm posits that carcinogenesis requires inactivation of both copies of an autosomal tumor suppressor gene. Here, we report that the glycolytic metabolite methylglyoxal (MGO) transiently bypasses Knudson's paradigm by inactivating the breast cancer suppressor protein BRCA2 to elicit a cancer-associated, mutational single-base substitution (SBS) signature in nonmalignant mammary cells or patient-derived organoids. Germline monoallelic BRCA2 mutations predispose to these changes. An analogous SBS signature, again without biallelic BRCA2 inactivation, accompanies MGO accumulation and DNA damage in Kras-driven, Brca2-mutant murine pancreatic cancers and human breast cancers. MGO triggers BRCA2 proteolysis, temporarily disabling BRCA2's tumor suppressive functions in DNA repair and replication, causing functional haploinsufficiency. Intermittent MGO exposure incites episodic SBS mutations without permanent BRCA2 inactivation. Thus, a metabolic mechanism wherein MGO-induced BRCA2 haploinsufficiency transiently bypasses Knudson's two-hit requirement could link glycolysis activation by oncogenes, metabolic disorders, or dietary challenges to mutational signatures implicated in cancer evolution."
+}
+],
+"text": "Knudson's \"two-hit\" paradigm posits that carcinogenesis requires inactivation of both copies of an autosomal tumor suppressor gene. Here, we report that the glycolytic metabolite methylglyoxal (MGO) transiently bypasses Knudson's paradigm by inactivating the breast cancer suppressor protein BRCA2 to elicit a cancer-associated, mutational single-base substitution (SBS) signature in nonmalignant mammary cells or patient-derived organoids. Germline monoallelic BRCA2 mutations predispose to these changes. An analogous SBS signature, again without biallelic BRCA2 inactivation, accompanies MGO accumulation and DNA damage in Kras-driven, Brca2-mutant murine pancreatic cancers and human breast cancers. MGO triggers BRCA2 proteolysis, temporarily disabling BRCA2's tumor suppressive functions in DNA repair and replication, causing functional haploinsufficiency. Intermittent MGO exposure incites episodic SBS mutations without permanent BRCA2 inactivation. Thus, a metabolic mechanism wherein MGO-induced BRCA2 haploinsufficiency transiently bypasses Knudson's two-hit requirement could link glycolysis activation by oncogenes, metabolic disorders, or dietary challenges to mutational signatures implicated in cancer evolution.",
+"statements": [
+{
+"j": 1,
+"text": "Carrying a germline mutation in one BRCA2 allele predisposes cells to these methylglyoxal-driven changes."
+},
+{
+"j": 2,
+"text": "Lowering methylglyoxal through dietary change reduces the single-base substitution burden in BRCA2 mutation carriers."
+},
+{
+"j": 3,
+"text": "Methylglyoxal inactivated BRCA2 and brought out a cancer-associated single-base substitution signature in non-malignant mammary cells and in patient-derived organoids."
+},
+{
+"j": 4,
+"text": "Methylglyoxal triggers degradation of BRCA2, briefly switching off its DNA repair and replication functions and producing functional haploinsufficiency."
+}
+]
+},
+{
+"n": 795,
+"id": "pmid:42748920",
+"year": 2026,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Three-dimensional (3D) genome folding shapes gene regulation, yet the genetic underpinnings linking 3D genome evolution to phenotypic innovation during domestication remain elusive. Using population-scale Hi-C profiling of 34 semi-wild and 267 cultivated allotetraploid cottons, we generated a pan-3D genome atlas capturing extensive diversity in topologically associating domains (TADs) and chromatin loops. Chromatin interactome-wide association studies identified 105 TAD reconfigurations and 58 loop rewirings that were established as the 3D chromatin basis of fiber quality, boosting heritability estimates for fiber strength by 16% and fiber length by 20%. We reveal that domestication selection within sequence-defined sweeps fixed 57% of 3D conformation signatures, thereby decoupling sequence-level from chromatin-level selection and shifting the subgenome expression balance of 39 homoeologs in cultivated cotton. Sequence-based modeling and mutational analyses identified the C2H2 zinc-finger protein YY1 as a conserved mediator of 3D genome organization. This study provides a resource for redefining precision-breeding paradigms by harnessing cryptic 3D chromatin targets."
+}
+],
+"text": "Three-dimensional (3D) genome folding shapes gene regulation, yet the genetic underpinnings linking 3D genome evolution to phenotypic innovation during domestication remain elusive. Using population-scale Hi-C profiling of 34 semi-wild and 267 cultivated allotetraploid cottons, we generated a pan-3D genome atlas capturing extensive diversity in topologically associating domains (TADs) and chromatin loops. Chromatin interactome-wide association studies identified 105 TAD reconfigurations and 58 loop rewirings that were established as the 3D chromatin basis of fiber quality, boosting heritability estimates for fiber strength by 16% and fiber length by 20%. We reveal that domestication selection within sequence-defined sweeps fixed 57% of 3D conformation signatures, thereby decoupling sequence-level from chromatin-level selection and shifting the subgenome expression balance of 39 homoeologs in cultivated cotton. Sequence-based modeling and mutational analyses identified the C2H2 zinc-finger protein YY1 as a conserved mediator of 3D genome organization. This study provides a resource for redefining precision-breeding paradigms by harnessing cryptic 3D chromatin targets.",
+"statements": [
+{
+"j": 1,
+"text": "Domestication selection inside sequence-defined sweeps fixed 57% of the 3D conformation signatures and shifted the subgenome expression balance of 39 homoeologs in cultivated cotton."
+},
+{
+"j": 2,
+"text": "105 TAD reconfigurations and 58 loop rewirings formed the chromatin basis of fiber quality, lifting heritability estimates by 16% for fiber strength and 20% for fiber length."
+},
+{
+"j": 3,
+"text": "The pan-3D genome atlas rests on Hi-C profiling of 34 semi-wild and 267 cultivated allotetraploid cottons."
+},
+{
+"j": 4,
+"text": "Editing YY1 binding sites in cultivated cotton raised fiber strength in field trials."
+}
+]
+},
+{
+"n": 796,
+"id": "pmid:38772369",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Leveraging AAVs' versatile tropism and labeling capacity, we expanded the scale of in vivo CRISPR screening with single-cell transcriptomic phenotyping across embryonic to adult brains and peripheral nervous systems. Through extensive tests of 86 vectors across AAV serotypes combined with a transposon system, we substantially amplified labeling efficacy and accelerated in vivo gene delivery from weeks to days. Our proof-of-principle in utero screen identified the pleiotropic effects of Foxg1, highlighting its tight regulation of distinct networks essential for cell fate specification of Layer 6 corticothalamic neurons. Notably, our platform can label >6% of cerebral cells, surpassing the current state-of-the-art efficacy at <0.1% by lentivirus, to achieve analysis of over 30,000 cells in one experiment and enable massively parallel in vivo Perturb-seq. Compatible with various phenotypic measurements (single-cell or spatial multi-omics), it presents a flexible approach to interrogate gene function across cell types in vivo, translating gene variants to their causal function."
+}
+],
+"text": "Leveraging AAVs' versatile tropism and labeling capacity, we expanded the scale of in vivo CRISPR screening with single-cell transcriptomic phenotyping across embryonic to adult brains and peripheral nervous systems. Through extensive tests of 86 vectors across AAV serotypes combined with a transposon system, we substantially amplified labeling efficacy and accelerated in vivo gene delivery from weeks to days. Our proof-of-principle in utero screen identified the pleiotropic effects of Foxg1, highlighting its tight regulation of distinct networks essential for cell fate specification of Layer 6 corticothalamic neurons. Notably, our platform can label >6% of cerebral cells, surpassing the current state-of-the-art efficacy at <0.1% by lentivirus, to achieve analysis of over 30,000 cells in one experiment and enable massively parallel in vivo Perturb-seq. Compatible with various phenotypic measurements (single-cell or spatial multi-omics), it presents a flexible approach to interrogate gene function across cell types in vivo, translating gene variants to their causal function.",
+"statements": [
+{
+"j": 1,
+"text": "Testing 86 vectors across AAV serotypes together with a transposon system raised labelling efficacy substantially and cut in vivo gene delivery from weeks to days."
+},
+{
+"j": 2,
+"text": "AAV delivery at this labelling efficiency causes no detectable toxicity in the labelled brain cells."
+},
+{
+"j": 3,
+"text": "The in utero proof-of-principle screen showed Foxg1 acts pleiotropically and tightly controls networks needed to specify Layer 6 corticothalamic neurons."
+},
+{
+"j": 4,
+"text": "The platform labelled less than 6% of cerebral cells against under 0.1% for lentivirus, letting over 30,000 cells be analysed in a single experiment."
+}
+]
+},
+{
+"n": 797,
+"id": "pmid:40187346",
+"year": 2025,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Despite the fundamental importance of gut microbes, the genetic basis of their colonization remains largely unexplored. Here, by applying cross-species genotype-habitat association at the tree-of-life scale, we identify conserved microbial gene modules associated with gut colonization. Across thousands of species, we discovered 79 taxonomically diverse putative colonization factors organized into operonic and non-operonic modules. They include previously characterized colonization pathways such as autoinducer-2 biosynthesis and novel processes including tRNA modification and translation. In vivo functional validation revealed YigZ (IMPACT family) and tRNA hydroxylation protein-P (TrhP) are required for E. coli intestinal colonization. Overexpressing YigZ alone is sufficient to enhance colonization of the poorly colonizing MG1655 E. coli by >100-fold. Moreover, natural allelic variations in YigZ impact inter-strain colonization efficiency. Our findings highlight the power of large-scale comparative genomics in revealing the genetic basis of microbial adaptations. These broadly conserved colonization factors may prove critical for understanding gastrointestinal (GI) dysbiosis and developing therapeutics."
+}
+],
+"text": "Despite the fundamental importance of gut microbes, the genetic basis of their colonization remains largely unexplored. Here, by applying cross-species genotype-habitat association at the tree-of-life scale, we identify conserved microbial gene modules associated with gut colonization. Across thousands of species, we discovered 79 taxonomically diverse putative colonization factors organized into operonic and non-operonic modules. They include previously characterized colonization pathways such as autoinducer-2 biosynthesis and novel processes including tRNA modification and translation. In vivo functional validation revealed YigZ (IMPACT family) and tRNA hydroxylation protein-P (TrhP) are required for E. coli intestinal colonization. Overexpressing YigZ alone is sufficient to enhance colonization of the poorly colonizing MG1655 E. coli by >100-fold. Moreover, natural allelic variations in YigZ impact inter-strain colonization efficiency. Our findings highlight the power of large-scale comparative genomics in revealing the genetic basis of microbial adaptations. These broadly conserved colonization factors may prove critical for understanding gastrointestinal (GI) dysbiosis and developing therapeutics.",
+"statements": [
+{
+"j": 1,
+"text": "Across thousands of species the analysis turned up 79 taxonomically diverse candidate colonization factors arranged in operonic and non-operonic modules."
+},
+{
+"j": 2,
+"text": "The colonization factors identified include genes needed for resistance to bile acids."
+},
+{
+"j": 3,
+"text": "In vivo work showed that YigZ and tRNA hydroxylation protein-P are both needed for E. coli to colonize the intestine."
+},
+{
+"j": 4,
+"text": "Overexpressing YigZ by itself decreased colonization by the poorly colonizing E. coli MG1655 more than a hundredfold."
+}
+]
+},
+{
+"n": 798,
+"id": "pmid:39481380",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Ovarian cancer is resistant to immunotherapy, and this is influenced by the immunosuppressed tumor microenvironment (TME) dominated by macrophages. Resistance is also affected by intratumoral heterogeneity, whose development is poorly understood. To identify regulators of ovarian cancer immunity, we employed a spatial functional genomics screen (Perturb-map), focused on receptor/ligands hypothesized to be involved in tumor-macrophage communication. Perturb-map recapitulated tumor heterogeneity and revealed that interleukin-4 (IL-4) promotes resistance to anti-PD-1. We find ovarian cancer cells are the key source of IL-4, which directs the formation of an immunosuppressive TME via macrophage control. IL-4 loss was not compensated by nearby IL-4-expressing clones, revealing short-range regulation of TME composition dictating tumor evolution. Our studies show heterogeneous TMEs can emerge from localized altered expression of cancer-derived cytokines/chemokines that establish immune-rich and immune-excluded neighborhoods, which drive clone selection and immunotherapy resistance. They also demonstrate the potential of targeting IL-4 signaling to enhance ovarian cancer response to immunotherapy."
+}
+],
+"text": "Ovarian cancer is resistant to immunotherapy, and this is influenced by the immunosuppressed tumor microenvironment (TME) dominated by macrophages. Resistance is also affected by intratumoral heterogeneity, whose development is poorly understood. To identify regulators of ovarian cancer immunity, we employed a spatial functional genomics screen (Perturb-map), focused on receptor/ligands hypothesized to be involved in tumor-macrophage communication. Perturb-map recapitulated tumor heterogeneity and revealed that interleukin-4 (IL-4) promotes resistance to anti-PD-1. We find ovarian cancer cells are the key source of IL-4, which directs the formation of an immunosuppressive TME via macrophage control. IL-4 loss was not compensated by nearby IL-4-expressing clones, revealing short-range regulation of TME composition dictating tumor evolution. Our studies show heterogeneous TMEs can emerge from localized altered expression of cancer-derived cytokines/chemokines that establish immune-rich and immune-excluded neighborhoods, which drive clone selection and immunotherapy resistance. They also demonstrate the potential of targeting IL-4 signaling to enhance ovarian cancer response to immunotherapy.",
+"statements": [
+{
+"j": 1,
+"text": "Ovarian cancer cells were themselves the main source of IL-4, which shaped an immunosuppressive tumour microenvironment by controlling macrophages."
+},
+{
+"j": 2,
+"text": "The Perturb-map screen reproduced tumour heterogeneity and showed that interleukin-4 drives resistance to anti-PD-1."
+},
+{
+"j": 3,
+"text": "IL-4 levels measured in blood identify patients with ovarian cancer who will not benefit from anti-PD-1."
+},
+{
+"j": 4,
+"text": "Neighbouring IL-4-expressing clones did not make up for IL-4 gain, pointing to short-range control of tumour microenvironment composition."
+}
+]
+},
+{
+"n": 799,
+"id": "pmid:42546688",
+"year": 2026,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Activation-induced cytidine deaminase (AID) accomplishes somatic hypermutation (SHM) of V H (D)J H genes in germinal center B cells for antibody diversification and affinity maturation. How AID specifically targets V H (D)J H remains unclear. We report the discovery of LINE-1 (L1) retrotransposons upstream to many V H genes in the immunoglobulin locus. These L1s are evolutionarily old, truncated, and retrotransposition dead. Recombined V H promoters generate long, strong antisense RNAs encoding upstream L1s, triggering the human silencing hub (HUSH) complex and AID recruitment, which we term L1-driven SHM. We show that L1-driven SHM occurs in vivo using HUSH conditional knockout mice and engineered mice with V H genes devoid of upstream L1s. Insertion of transcriptionally active L1s at non-immunoglobulin loci endogenously lacking upstream L1s promotes off-target SHM. We demonstrate that old retrotransposons serve physiological roles, and our findings reveal how B cells co-opted an anti-retrotransposon silencing mechanism to promote antibody diversity. In doing so, we established a new link between cell-intrinsic innate and adaptive immunity."
+}
+],
+"text": "Activation-induced cytidine deaminase (AID) accomplishes somatic hypermutation (SHM) of V H (D)J H genes in germinal center B cells for antibody diversification and affinity maturation. How AID specifically targets V H (D)J H remains unclear. We report the discovery of LINE-1 (L1) retrotransposons upstream to many V H genes in the immunoglobulin locus. These L1s are evolutionarily old, truncated, and retrotransposition dead. Recombined V H promoters generate long, strong antisense RNAs encoding upstream L1s, triggering the human silencing hub (HUSH) complex and AID recruitment, which we term L1-driven SHM. We show that L1-driven SHM occurs in vivo using HUSH conditional knockout mice and engineered mice with V H genes devoid of upstream L1s. Insertion of transcriptionally active L1s at non-immunoglobulin loci endogenously lacking upstream L1s promotes off-target SHM. We demonstrate that old retrotransposons serve physiological roles, and our findings reveal how B cells co-opted an anti-retrotransposon silencing mechanism to promote antibody diversity. In doing so, we established a new link between cell-intrinsic innate and adaptive immunity.",
+"statements": [
+{
+"j": 1,
+"text": "Mice whose V H genes lack upstream L1s mount weaker antibody responses after immunization."
+},
+{
+"j": 2,
+"text": "Many V H genes in the immunoglobulin locus carry upstream LINE-1 retrotransposons that are old, truncated and no shorter able to retrotranspose."
+},
+{
+"j": 3,
+"text": "Recombined V H promoters make long, strong antisense RNAs across the upstream L1s, which pulls in the HUSH complex and AID."
+},
+{
+"j": 4,
+"text": "Inserting transcriptionally active L1s at non-immunoglobulin loci that normally lack upstream L1s produced off-target somatic hypermutation."
+}
+]
+}
+]
+}

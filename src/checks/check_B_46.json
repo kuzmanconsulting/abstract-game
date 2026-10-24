@@ -1,0 +1,108 @@
+{"batch": "check_B_46", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1075, "id": "pmid:32483360",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We reasoned that breadth may supplant depth of sequencing to overcome the barrier of cfDNA abundance."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "capitalizing on the cumulative signal of thousands of somatic mutations observed in solid malignancies, with TF detection sensitivity as low as 10 -5"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The WGS approach enabled dynamic tumor burden tracking and postoperative residual disease detection, associated with adverse outcome."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we found that the combination of low tumor fraction (TF) and limited number of DNA fragments restricts low-disease-burden monitoring through the prevailing deep targeted sequencing paradigm"}
+    ]},
+   {"n": 1076, "id": "pmid:34294911",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "We show that even without molecular barcodes, the limits of detection of PhasED-seq outperform prior methods, including duplex barcoding, allowing ctDNA detection in the ppm range in participant samples."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "In participants with undetectable ctDNA after two cycles of therapy using a next-generation sequencing-based approach termed cancer personalized profiling by deep sequencing, an additional 25% have ctDNA detectable by PhasED-seq and have worse outcomes."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Leveraging whole-genome sequences from 2,538 tumors, we identify phased variants and their associations with mutational signatures."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Finally, we demonstrate the application of PhasED-seq to solid tumors."}
+    ]},
+   {"n": 1077, "id": "pmid:28925386",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Robust cancer-associated 5hmC signatures were identified in cfDNA that were characteristic for specific cancer types."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "5hmC was mainly distributed in transcriptionally active regions coincident with open chromatin and permissive histone modifications."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "5hmC-based biomarkers of circulating cfDNA were highly predictive of colorectal and gastric cancers and were superior to conventional biomarkers and comparable to 5hmC biomarkers from tissue biopsies."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "5hmC-based biomarkers of circulating cfDNA were highly predictive of colorectal and gastric cancers"}
+    ]},
+   {"n": 1078, "id": "pmid:38477985",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "A blood-based test has the potential to improve screening adherence, detect colorectal cancer earlier, and reduce colorectal cancer-related mortality."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Sensitivity for stage I, II, or III colorectal cancer was 87.5% (95% CI, 75.3 to 94.1), and sensitivity for advanced precancerous lesions was 13.2% (95% CI, 11.3 to 15.3)."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "A total of 89.6% of the participants without any advanced colorectal neoplasia (colorectal cancer or advanced precancerous lesions) identified on colonoscopy had a negative cfDNA blood-based test, whereas 10.4% had a positive cfDNA blood-based test"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "A total of 83.1% of the participants with colorectal cancer detected by colonoscopy had a positive cfDNA test and 16.9% had a negative test"}
+    ]},
+   {"n": 1079, "id": "pmid:32111602",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "we found a significant increase in the diversity of plasma DNA end motifs in patients with hepatocellular carcinoma (HCC)."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "In particular, the abundance of plasma DNA motif CCCA was much lower in patients with HCC than in subjects without HCC."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Compared with patients without HCC, patients with HCC showed a preferential pattern of 4-mer end motifs."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We further observed that the profile of plasma DNA end motifs originating from the same organ, such as the liver, placenta, and hematopoietic cells, generally clustered together."}
+    ]},
+   {"n": 1080, "id": "pmid:29056346",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "With increasing mutation burden, numbers of driver mutations increase, but not linearly."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Unlike species evolution, positive selection outweighs negative selection during cancer development."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "With increasing mutation burden, numbers of driver mutations increase, but not linearly."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "coding substitutions under positive selection, ranging from <1/tumor in thyroid and testicular cancers to >10/tumor in endometrial and colorectal cancers."}
+    ]},
+   {"n": 1081, "id": "pmid:29643504",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "The largest numbers of variants identified by genome-wide association are copy-number changes, which have a greater phenotypic effect than do single nucleotide polymorphisms."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "A common feature is the extensive loss of heterozygosity, which represents an essential source of inter-individual variation in this mainly asexual species."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Genomic analyses support a single 'out-of-China' origin for this species, followed by several independent domestication events."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Although domesticated isolates exhibit high variation in ploidy, aneuploidy and genome content, genome evolution in wild isolates is mainly driven by the accumulation of single nucleotide polymorphisms."}
+    ]},
+   {"n": 1082, "id": "pmid:30791939",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Moreover, tandem and proximal duplicates experienced stronger selective pressure than genes formed by other modes and evolved toward biased functional roles involved in plant self-defense."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "In contrast, the frequency of tandem and proximal duplications showed no significant decrease over time, providing a continuous supply of variants available for adaptation to continuously changing environments."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The rate of gene conversion among WGD-derived gene pairs declined over time, peaking shortly after polyploidization."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "The number of WGD-derived duplicate genes decreases exponentially with increasing age of duplication events"}
+    ]},
+   {"n": 1083, "id": "pmid:29973726",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "High rates of speciation occur in geographical regions that are characterized by low surface temperatures and high endemism."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Here we test the relationship between latitude, species richness and speciation rate across marine fishes."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We show that the fastest rates of speciation occur in species-poor regions outside the tropics, and that high-latitude fish lineages form new species at much faster rates than their tropical counterparts."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Our results reject a broad class of mechanisms under which the tropics serve as an evolutionary cradle for marine fish diversity"}
+    ]},
+   {"n": 1084, "id": "pmid:30415838",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "We infer that BYCA was metabolically complex and chronicle the tempo and mode of genomic and phenotypic evolution across the subphylum, which is characterized by very low HGT levels and widespread losses of traits and the genes that control them."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Here, we establish a robust genus-level phylogeny comprising 12 major clades, infer the timescale of diversification from the Devonian period to the present"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "More generally, our results argue that reductive evolution is a major mode of evolutionary diversification."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Budding yeasts (subphylum Saccharomycotina) are found in every biome and are as genetically diverse as plants or animals."}
+    ]},
+   {"n": 1085, "id": "pmid:27479321",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "The populations that retained the ancestral mutation rate support a model in which most fixed mutations are beneficial"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Nonsynonymous mutations, intergenic mutations, insertions and deletions are overrepresented in the long-term populations"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The populations that retained the ancestral mutation rate support a model in which most fixed mutations are beneficial, the fraction of beneficial mutations declines as fitness rises"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The populations that retained the ancestral mutation rate support a model in which most fixed mutations are beneficial, the fraction of beneficial mutations declines as fitness rises, and neutral mutations accumulate at a constant rate."}
+    ]},
+   {"n": 1086, "id": "pmid:28318975",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Analyses with a best-fitting site-heterogeneous evolutionary model provide strong statistical support for placing sponges as the sister-group to all other metazoans, with ctenophores emerging as the second-earliest branching animal lineage."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Here, we report on our reconstruction of deep metazoan relationships using a 1,719-gene dataset with dense taxonomic sampling of non-bilaterian animals"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Only those methodological settings that exacerbated long-branch attraction artifacts yielded Ctenophora-sister."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Our dataset outperforms previous metazoan gene superalignments in terms of data quality and quantity."}
+    ]},
+   {"n": 1087, "id": "pmid:28027292",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "spans from 0.5% to 2% of net synonymous divergence, irrespective of species life history traits or ecology."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Our analysis also reveals the high incidence in animals of semi-isolated species (when some but not all loci are affected by barriers to gene flow)"},
+      {"j": 3, "label": "contradicted", "confidence": 2, "evidence": "Thanks to appropriate modeling of among-locus variation in genetic drift and introgression rate, we clarify the status of the majority of ambiguous cases and uncover a number of cryptic species.", "flag": "ambiguous", "reason": "\"resolved least ambiguous cases\" can be read as 'resolved the fewest ambiguous cases' or 'resolved only the least ambiguous cases'; both conflict with the abstract's 'majority of ambiguous cases', but the wording is unclear."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Speciation results from the progressive accumulation of mutations that decrease the probability of mating between parental populations or reduce the fitness of hybrids-the so-called species barriers."}
+    ]},
+   {"n": 1088, "id": "pmid:28812701",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 2, "evidence": "These results suggest that tiny subsets of very large data matrices drive the resolution of specific internodes"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "removal of a single gene in concatenation analyses or a single site from every gene in coalescence-based analyses diminishes support and can alter the inferred topology"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "for 17 contentious branches and 6 well-established control branches in plant, animal and fungal phylogenomic data matrices"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "examination of the distributions of gene-wise and site-wise phylogenetic signal across eight data matrices consistently supports ctenophores as the sister group to all other metazoans"}
+    ]},
+   {"n": 1089, "id": "pmid:26871574",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "we detect environment-specific sorting of ancestral variation among populations that come from different species but share common environmental conditions"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Estimated across the whole clade, small but substantial and approximately equal fractions of the euchromatic portion of the genome are inferred to contribute to each of these three sources of adaptive genetic variation."},
+      {"j": 3, "label": "contradicted", "confidence": 2, "evidence": "we detect introgression both historically between early-branching lineages and recently between individual populations", "flag": "ambiguous", "reason": "\"less recently\" has no stated reference point; read as 'not recent' it conflicts with the abstract's recent introgression between individual populations."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we date the origin of this radiation to approximately 2.5 million years ago"}
+    ]}
+ ]}

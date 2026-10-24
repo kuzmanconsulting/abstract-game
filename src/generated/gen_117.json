@@ -1,0 +1,347 @@
+{
+"batch": "gen_117",
+"prompt_version": "gen-v5",
+"flip_rule": "first-of-any-v3",
+"items": [
+{
+"n": 1815,
+"id": "pmid:14608368",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Senescent human fibroblasts display molecular markers typical of cells carrying DNA double-strand breaks, such as phosphorylated H2AX nuclear foci.",
+"evidence": "senescent human fibroblasts display molecular markers characteristic of cells bearing DNA double-strand breaks",
+"note": "The abstract reports these DSB-type markers directly in senescent fibroblasts."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "Senescent cells harbor activated forms of the DNA damage checkpoint kinases CHK1 and CHK2.",
+"evidence": "senescent cells contain activated forms of the DNA damage checkpoint kinases CHK1 and CHK2",
+"note": "The abstract states senescent cells contain the activated kinases."
+},
+{
+"k": 3,
+"label": "not_addressed",
+"text": "Introducing telomerase into senescent fibroblasts clears their telomere-associated DNA damage response foci.",
+"evidence": "uncapped telomeres directly associate with many, but not all, DNA damage response proteins",
+"note": "The abstract links uncapped telomeres to the DNA damage response but never manipulates telomerase or measures such a reversal."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Inactivating DNA damage checkpoint kinases in senescent cells allowed them to resume cell-cycle progression into S phase.",
+"evidence": "inactivation of DNA damage checkpoint kinases in senescent cells can restore cell-cycle progression into S phase",
+"note": "The abstract reports that checkpoint-kinase inactivation restores S-phase entry."
+}
+]
+},
+{
+"n": 1816,
+"id": "pmid:17136094",
+"statements": [
+{
+"k": 1,
+"label": "not_addressed",
+"text": "Oncogene-induced senescence in these normal human cells requires functional p53 to enforce the arrest.",
+"evidence": "We propose that OIS results from the enforcement of a DDR triggered by oncogene-induced DNA hyper-replication.",
+"note": "The abstract attributes OIS to a DDR from hyper-replication but never tests any role for p53."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "In normal human cells, senescence triggered by the activated H-RasV12 oncogene results from activation of a robust DNA-damage response.",
+"evidence": "senescence, triggered by the expression of an activated oncogene (H-RasV12) in normal human cells, is a consequence of the activation of a robust DDR",
+"note": "The abstract states OIS is a consequence of a robust DDR."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Experimentally inactivating the DNA-damage response abolished oncogene-induced senescence and promoted cell transformation.",
+"evidence": "Experimental inactivation of DDR abrogates OIS and promotes cell transformation",
+"note": "The abstract reports DDR inactivation abrogates OIS and promotes transformation."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Oncogene activation raised the number of active replicons and altered DNA replication fork progression.",
+"evidence": "oncogene activation leads to augmented numbers of active replicons and to alterations in DNA replication fork progression",
+"note": "The abstract reports augmented active replicons and altered fork progression after oncogene activation."
+}
+]
+},
+{
+"n": 1817,
+"id": "pmid:15149599",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Telomeric foci bearing DNA damage factors signaled through ATM to p53, upregulating p21 and producing a G1-phase arrest.",
+"evidence": "signaled through ATM to p53, upregulating p21 and causing G1 phase arrest",
+"note": "The abstract describes this ATM-p53-p21 signaling route to G1 arrest."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "ATR played a minor role in normal cells but, when ATM was absent, produced a delayed G2-phase arrest.",
+"evidence": "ATR kinase appears to play a minor role in normal cells but in the absence of ATM elicited a delayed G2 phase arrest",
+"note": "The abstract contrasts ATR's minor normal role with a delayed G2 arrest when ATM is gone."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Inhibiting ATM expression or activity made cells reenter the cycle, showing that stable arrest needs continuous signaling.",
+"evidence": "Inhibition of ATM expression or activity resulted in cell cycle reentry, indicating that stable arrest requires continuous signaling",
+"note": "The abstract reports cell-cycle reentry after ATM inhibition."
+},
+{
+"k": 4,
+"label": "not_addressed",
+"text": "Silencing p16 extends the replicative lifespan of these human fibroblasts.",
+"evidence": "These pathways do not affect expression of p16, which was upregulated in a telomere- and DNA damage-independent manner in a subset of cells",
+"note": "The abstract reports p16 is upregulated independently but never knocks it down or measures a lifespan effect."
+}
+]
+},
+{
+"n": 1818,
+"id": "pmid:18555777",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Knocking down the chemokine receptor CXCR2 relieved both replicative and oncogene-induced senescence and diminished the DNA-damage response.",
+"evidence": "knocking down the chemokine receptor CXCR2 (IL8RB) alleviates both replicative and oncogene-induced senescence (OIS) and diminishes the DNA-damage response",
+"note": "The abstract reports CXCR2 knockdown alleviates senescence and reduces the DNA-damage response."
+},
+{
+"k": 2,
+"label": "not_addressed",
+"text": "Pharmacologically blocking CXCR2 prevents tumor formation in mice.",
+"evidence": "CXCR2 upregulation is also observed in preneoplastic lesions in vivo.",
+"note": "The abstract notes CXCR2 in preneoplastic lesions but never tests whether blocking it prevents tumors."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Forced (ectopic) CXCR2 expression drove premature senescence through a p53-dependent mechanism.",
+"evidence": "ectopic expression of CXCR2 results in premature senescence via a p53-dependent mechanism",
+"note": "The abstract states ectopic CXCR2 causes premature, p53-dependent senescence."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Cells in oncogene-induced senescence secreted CXCR2-binding chemokines under NF-kappaB and C/EBPbeta control and induced CXCR2 expression.",
+"evidence": "Cells undergoing OIS secrete multiple CXCR2-binding chemokines in a program that is regulated by the NF-kappaB and C/EBPbeta transcription factors and coordinately induce CXCR2 expression",
+"note": "The abstract describes this NF-kappaB/C/EBPbeta-regulated chemokine program and CXCR2 induction."
+}
+]
+},
+{
+"n": 1819,
+"id": "pmid:15621527",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Senescence-associated heterochromatic foci are enriched in the transcription-silencing histone H2A variant macroH2A.",
+"evidence": "SAHF is enriched in a transcription-silencing histone H2A variant, macroH2A",
+"note": "The abstract reports SAHF enrichment for macroH2A."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "As cells approach senescence, HIRA enters PML nuclear bodies and transiently colocalizes with HP1 before HP1 is incorporated into SAHF.",
+"evidence": "HIRA, enters PML nuclear bodies, where it transiently colocalizes with HP1 proteins, prior to incorporation of HP1 proteins into SAHF",
+"note": "The abstract describes this HIRA trafficking through PML bodies ahead of HP1 incorporation."
+},
+{
+"k": 3,
+"label": "not_addressed",
+"text": "SAHF formation requires the retinoblastoma protein (Rb) to recruit heterochromatin proteins to target genes.",
+"evidence": "These data indicate that HIRA and ASF1a drive formation of macroH2A-containing SAHF and senescence-associated cell cycle exit, via a pathway that appears to depend on flux of heterochromatic proteins through PML bodies.",
+"note": "The abstract credits HIRA/ASF1a and PML-body flux for SAHF but never mentions any role for Rb."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "A HIRA-ASF1a complex is rate limiting for SAHF formation and senescence onset, and ASF1a is required for efficient senescence-associated cell cycle exit.",
+"evidence": "A physical complex containing HIRA and another chromatin regulator, ASF1a, is rate limiting for formation of SAHF and onset of senescence, and ASF1a is required for formation of SAHF and efficient senescence-associated cell cycle exit",
+"note": "The abstract reports the HIRA-ASF1a complex is rate limiting and ASF1a required for SAHF and cell-cycle exit."
+}
+]
+},
+{
+"n": 1820,
+"id": "pmid:26686024",
+"statements": [
+{
+"k": 1,
+"label": "not_addressed",
+"text": "Senescent cells arising from mitochondrial dysfunction are more readily cleared by the immune system than other senescent cells.",
+"evidence": "Progeroid mice that rapidly accrue mtDNA mutations accumulated senescent cells with a MiDAS SASP in vivo",
+"note": "The abstract reports accumulation of MiDAS cells in vivo but says nothing about their immune clearance."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "Compromising mitochondrial function in proliferating human cells induced a senescence arrest with a modified SASP lacking the IL-1-dependent inflammatory arm.",
+"evidence": "several manipulations that compromise mitochondrial function in proliferating human cells induce a senescence growth arrest with a modified SASP that lacks the IL-1-dependent inflammatory arm",
+"note": "The abstract reports this MiDAS arrest and its IL-1-lacking SASP."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "MiDAS cells had lower NAD+/NADH ratios, which both caused the growth arrest and blocked the IL-1-associated SASP via AMPK-mediated p53 activation.",
+"evidence": "Cells that underwent mitochondrial dysfunction-associated senescence (MiDAS) had lower NAD+/NADH ratios, which caused both the growth arrest and prevented the IL-1-associated SASP through AMPK-mediated p53 activation",
+"note": "The abstract attributes the arrest and SASP suppression to the lowered NAD+/NADH ratio acting through AMPK-p53."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "In cell culture, MiDAS senescent cells suppressed adipogenesis and stimulated keratinocyte differentiation.",
+"evidence": "suppressed adipogenesis and stimulated keratinocyte differentiation in cell culture",
+"note": "The abstract reports these opposing effects on the two cell types."
+}
+]
+},
+{
+"n": 1821,
+"id": "pmid:17472436",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Mitochondrial superoxide production rose with replicative age in human fibroblasts despite an adaptive UCP-2-dependent uncoupling.",
+"evidence": "mitochondrial superoxide production increases with replicative age in human fibroblasts despite an adaptive UCP-2-dependent mitochondrial uncoupling",
+"note": "The abstract reports superoxide increasing with replicative age."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "Mild mitochondrial uncoupling reduced superoxide generation, slowed telomere shortening, and delayed formation of telomeric gamma-H2A.X foci.",
+"evidence": "Uncoupling reduces mitochondrial superoxide generation, slows down telomere shortening, and delays formation of telomeric gamma-H2A.X foci",
+"note": "The abstract reports these three effects of uncoupling."
+},
+{
+"k": 3,
+"label": "not_addressed",
+"text": "Dietary antioxidant supplementation extends the replicative lifespan of these human fibroblasts.",
+"evidence": "This indicates mitochondrial production of reactive oxygen species (ROS) as one of the causes of replicative senescence.",
+"note": "The abstract implicates ROS and tests mitochondrial uncoupling, but never administers antioxidants."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Sorted early senescent cells had higher ROS, dysfunctional mitochondria, shorter telomeres, and telomeric gamma-H2A.X foci.",
+"evidence": "SES cells have higher ROS levels, dysfunctional mitochondria, shorter telomeres, and telomeric gamma-H2A.X foci",
+"note": "The abstract reports these features of sorted early senescent cells."
+}
+]
+},
+{
+"n": 1822,
+"id": "pmid:23964094",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "LMNB1 was depleted during senescence, mainly from the central regions of lamina-associated domains enriched for H3K9me3.",
+"evidence": "LMNB1 is depleted during senescence, preferentially from the central regions of lamina-associated domains (LADs), which are enriched for Lys9 trimethylation on histone H3 (H3K9me3)",
+"note": "The abstract reports LMNB1 depletion from H3K9me3-enriched LAD centers."
+},
+{
+"k": 2,
+"label": "not_addressed",
+"text": "Reduced LMNB1 levels can be used as a biomarker to identify senescent cells in aged human tissues.",
+"evidence": "These results suggest that LMNB1 may contribute to senescence in at least two ways due to its uneven genome-wide redistribution: first, through the spatial reorganization of chromatin and, second, through gene repression.",
+"note": "The abstract characterizes LMNB1's mechanistic role in senescence but never proposes or tests it as a tissue biomarker."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "LMNB1 knockdown promoted SAHF formation by relocalizing perinuclear H3K9me3 heterochromatin, and ectopic LMNB1 expression inhibited it.",
+"evidence": "LMNB1 knockdown facilitates the spatial relocalization of perinuclear H3K9me3-positive heterochromatin, thus promoting SAHF formation, which could be inhibited by ectopic LMNB1 expression",
+"note": "The abstract reports opposite effects of LMNB1 knockdown and ectopic expression on SAHF."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Despite overall lower LMNB1 protein, its binding increased during senescence at a few gene-rich regions where H3K27me3 rose and genes were repressed.",
+"evidence": "despite the global reduction in LMNB1 protein levels, LMNB1 binding increases during senescence in a small subset of gene-rich regions where H3K27me3 also increases and gene expression becomes repressed",
+"note": "The abstract reports this localized increase in LMNB1 binding with H3K27me3 gain and repression."
+}
+]
+},
+{
+"n": 1823,
+"id": "pmid:26657143",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "A compound screen identified ABT263, a specific inhibitor of anti-apoptotic BCL-2 and BCL-xL, as a potent senolytic drug.",
+"evidence": "identified ABT263 (a specific inhibitor of the anti-apoptotic proteins BCL-2 and BCL-xL) as a potent senolytic drug",
+"note": "The abstract reports identifying ABT263 as a senolytic BCL-2/BCL-xL inhibitor."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "ABT263 selectively killed senescent cells in culture by inducing apoptosis, in a cell-type- and species-independent way.",
+"evidence": "ABT263 selectively kills SCs in culture in a cell type- and species-independent manner by inducing apoptosis",
+"note": "The abstract reports selective apoptotic killing of senescent cells across types and species."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Depleting senescent cells mitigated total-body-irradiation-induced premature aging of the hematopoietic system and rejuvenated aged HSCs and MuSCs in mice.",
+"evidence": "this depletion mitigated TBI-induced premature aging of the hematopoietic system and rejuvenated the aged HSCs and MuSCs in normally aged mice",
+"note": "The abstract reports these in vivo benefits of senescent-cell depletion."
+},
+{
+"k": 4,
+"label": "not_addressed",
+"text": "ABT263 treatment extended the median lifespan of the aged mice.",
+"evidence": "holds promise for rejuvenating tissue stem cells and extending health span",
+"note": "The abstract reports health-span and stem-cell benefits but never measures survival or median lifespan."
+}
+]
+},
+{
+"n": 1824,
+"id": "pmid:26578790",
+"statements": [
+{
+"k": 1,
+"label": "not_addressed",
+"text": "JAK inhibitor treatment reduced the number of senescent cells in the aged mice.",
+"evidence": "When the senescent cells from which CM was derived had been treated with JAK inhibitors, the resulting CM was much less proinflammatory.",
+"note": "The abstract shows JAK inhibitors suppress the SASP but never reports a change in senescent-cell numbers."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "The burden of senescent cells was higher in adipose tissue with aging.",
+"evidence": "We found a higher burden of senescent cells in adipose tissue with aging",
+"note": "The abstract reports a greater senescent-cell burden in aged adipose tissue."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "The senescence-associated secretory phenotype could be suppressed by targeting the JAK pathway with RNAi or JAK inhibitors.",
+"evidence": "developed a SASP that could be suppressed by targeting the JAK pathway using RNAi or JAK inhibitors",
+"note": "The abstract reports SASP suppression via JAK-pathway targeting."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Giving aged mice a JAK inhibitor for 10 weeks reduced adipose and systemic inflammation and improved physical function.",
+"evidence": "The administration of JAK inhibitor to aged mice for 10 wk alleviated both adipose tissue and systemic inflammation and enhanced physical function",
+"note": "The abstract reports these effects of 10-week JAK-inhibitor dosing in aged mice."
+}
+]
+}
+]
+}

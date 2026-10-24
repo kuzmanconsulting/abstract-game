@@ -1,0 +1,73 @@
+{"batch": "check_A_57", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+  {"n": 1222, "id": "pmid:32499657",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "pUG tails promote gene silencing by recruiting RNA-dependent RNA polymerases, which use pUG-tailed RNAs (pUG RNAs) as templates to synthesize small interfering RNAs (siRNAs)."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Here we show that, in its natural context in C. elegans, RDE-3 adds pUG tails to targets of RNA interference, as well as to transposon RNAs."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Here we show that, in its natural context in C. elegans, RDE-3 adds pUG tails to targets of RNA interference, as well as to transposon RNAs."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "RNA fragments attached to pUG tails with more than 16 perfectly alternating 3' U and G nucleotides become gene-silencing agents."}
+   ]},
+  {"n": 1223, "id": "pmid:31835033",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 2, "evidence": "Such action requires specific base-pairing interactions of piRNAs with target mRNAs in their 3' UTRs, which activates translation through coupling with cis-acting AU-rich elements to nucleate the formation of a MIWI/piRNA/eIF3f/HuR super-complex"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Here we unexpectedly discover that the same machinery is also responsible for activating translation of a subset of spermiogenic mRNAs to coordinate with morphological transformation into spermatozoa."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "These findings reveal a critical role of the piRNA system in translation activation, which we show is functionally required for spermatid development."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "These findings reveal a critical role of the piRNA system in translation activation, which we show is functionally required for spermatid development."}
+   ]},
+  {"n": 1224, "id": "pmid:27003935",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Using a target-centered functional screen, we matched murine TEs with their cognate KRAB-ZFP."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "We found the paralogs ZFP932 and Gm15446 to bind overlapping but distinguishable subsets of ERVK (endogenous retrovirus K), repress these elements in embryonic stem cells"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Most importantly, we uncovered that these KRAB-ZFPs and KAP1 control TEs in adult tissues, in cell culture and in vivo, where they partner up to modulate cellular genes."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "which they repress with their cofactor KAP1 through histone and DNA methylation, a process thought to result in irreversible silencing."}
+   ]},
+  {"n": 1225, "id": "pmid:28335016",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "the tRF-AGO1 complex acts to specifically target and cleave endogenous transposable element (TE) mRNAs produced from transcriptionally active TEs."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "tRNA-derived RNA fragments (tRFs) are 18-26 nucleotide small RNAs that are not random degradation products, but are rather specifically cleaved from mature tRNA transcripts."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We identified that in the unstressed wild-type male gamete containing pollen of flowering plants, and analogous reproductive structure in non-flowering plant species, tRFs accumulate to high levels."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "We identified that in the unstressed wild-type male gamete containing pollen of flowering plants, and analogous reproductive structure in non-flowering plant species, tRFs accumulate to high levels."}
+   ]},
+  {"n": 1226, "id": "pmid:27720646",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Unexpectedly, we discovered that additional pairing to 3' sequences is prevalent in the majority of target sites and leads to specific targeting by members of miRNA families."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Finally, we present a simplified method, chimera PCR (ChimP), for the detection of specific miRNA-target interactions."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "By editing an endogenous target site, we demonstrate that 3' pairing determines targeting by specific miRNA family members and that seed pairing is not always sufficient for functional target interactions."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Through the analysis of thousands of reproducible chimeras, pairing to the miRNA seed emerged as the predominant motif associated with functional interactions."}
+   ]},
+  {"n": 1227, "id": "pmid:29483647",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Genetic disruption of the miR-29 site within mouse Nrep results in ectopic expression of cerebellar miR-29b and impaired coordination and motor learning."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Genetic disruption of the miR-29 site within mouse Nrep results in ectopic expression of cerebellar miR-29b and impaired coordination and motor learning."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "We show that the near-perfect miRNA site selectively triggers miR-29b destabilization through 3' trimming and restricts its spatial expression in the cerebellum."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "This transcript originated in basal vertebrates as a long noncoding RNA (lncRNA) and evolved to the protein-coding gene NREP in mammals, where the miR-29-binding site is located within the 3' UTR."}
+   ]},
+  {"n": 1228, "id": "pmid:31350118",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Mature microRNAs are produced within minutes, revealing tight intracellular coupling of biogenesis that is selectively disrupted by pre-miRNA-uridylation."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "We employed metabolic small RNA sequencing for a comprehensive view on intracellular microRNA kinetics in Drosophila."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Finally, regulated small RNA decay enables the selective rapid turnover of Ago1-bound microRNAs, but not of Ago2-bound small interfering RNAs (siRNAs)"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Based on absolute rate of biogenesis and decay, microRNAs rank among the fastest produced and longest-lived cellular transcripts, disposing up to 10 5 copies per cell at steady-state."}
+   ]},
+  {"n": 1229, "id": "pmid:31178117",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "they pass this learned behavior on to their progeny, through either the male or female germline, persisting through the fourth generation."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Expression of the TGF-β ligand DAF-7 in the ASI sensory neurons correlates with and is required for this transgenerational avoidance behavior."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "after C. elegans have learned to avoid the pathogenic bacteria Pseudomonas aeruginosa (PA14), they pass this learned behavior on to their progeny"},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Animals whose parents have learned to avoid PA14 display a PA14 avoidance-based survival advantage that is also prg-1 dependent, suggesting an adaptive response."}
+   ]},
+  {"n": 1230, "id": "pmid:32908307",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "A single P. aeruginosa non-coding RNA, P11, is both necessary and sufficient to convey learned avoidance of PA14, and its C. elegans target, maco-1, is required for avoidance."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "The RNA interference (RNAi) and PIWI-interacting RNA (piRNA) pathways, the germline and the ASI neuron are all required for avoidance behaviour induced by bacterial small RNAs, and for the transgenerational inheritance of this behaviour."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "the germline and the ASI neuron are all required for avoidance behaviour induced by bacterial small RNAs"},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Here we show that a single exposure to purified small RNAs isolated from pathogenic Pseudomonas aeruginosa (PA14) is sufficient to induce pathogen avoidance in the treated worms and in four subsequent generations of progeny."}
+   ]},
+  {"n": 1231, "id": "pmid:31178120",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Among the targets of these small RNAs, we identified the conserved gene saeg-2, which is transgenerationally downregulated in the germline."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Further, the production of small RNAs in neurons controls the chemotaxis behavior of the progeny for at least three generations via the germline Argonaute HRDE-1."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Neurons-specific synthesis of RDE-4-dependent small RNAs regulates germline amplified endogenous small interfering RNAs (siRNAs) and germline gene expression for multiple generations."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Neurons-specific synthesis of RDE-4-dependent small RNAs regulates germline amplified endogenous small interfering RNAs (siRNAs) and germline gene expression for multiple generations."}
+   ]}
+ ]}

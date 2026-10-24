@@ -1,0 +1,73 @@
+{"batch": "check_C_68", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+  {"n": 1332, "id": "pmid:40132882",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "we show that AGO2 represses the expression of AGO1 mRNA via a conserved let-7-microRNA-binding site in its 3' UTR"},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "These recent findings raise the question of whether and how these two AGOs are mutually regulated in mESCs."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "Mutating this binding site at the endogenous locus abolishes the AGO2-mediated repression of AGO1 mRNA and compromises the exit pluripotency of mESCs."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Of the four AGOs in mammals, AGO1 and AGO2 are expressed in mouse embryonic stem cells (mESCs)."}
+   ]},
+  {"n": 1333, "id": "pmid:38879605",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "MeCP2 directly binds cytosine-methylated Rncr3 through previously unrecognized lysine residues and suppresses miR124a processing by recruiting PTBP1 to block access of DROSHA-DGCR8."},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "MeCP2 directly binds cytosine-methylated Rncr3 through previously unrecognized lysine residues"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "Rncr3 conserved exons 2/3 are cytosine methylated and bound by methyl-CpG binding protein MeCP2, which restricts expression of miR124a embedded in exon 4"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "identify independent and opposing roles for two neural-specific and differentially expressed non-coding RNAs derived from the same locus: the evolutionarily conserved lncRNA Rncr3 and the embedded microRNA miR124a-1"}
+   ]},
+  {"n": 1334, "id": "pmid:38869942",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "we define that miR-2b-1 influences the emergence of embryonic movement by exerting actions in the developing nervous system"},
+    {"j": 2, "label": "not_addressed", "confidence": 2, "evidence": "discover that the Drosophila miRNA miR-2b-1 plays a role in the emergence of movement"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "Cell-specific genetic reconstitution of miR-2b-1 expression in a null miRNA mutant background, followed by behavioural assays and target gene analyses, suggest that miR-2b-1 affects the emergence of movement through effects in sensory elements of the embryonic circuitry"},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "a previously uncharacterised (but evolutionarily conserved) chloride channel encoding gene"}
+   ]},
+  {"n": 1335, "id": "pmid:40892775",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "so that miR157 is more abundant than miR156 in RISCs of older plants undergoing floral transition and inflorescence development"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "Notably, mir157c mutations also caused early flowering in Arabis alpina, a perennial relative of Arabidopsis"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "CRISPR-induced mir157c mutations but not mir156ac mutations accelerated flowering under SDs, and altered inflorescence leaf morphology."},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "In Arabidopsis, age-dependent reduction in the related microRNAs miR156 and miR157 controls transitions from juvenile to adult vegetative phase and from adult to reproductive phase."}
+   ]},
+  {"n": 1336, "id": "pmid:42090252",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "MYRF-1 binds conserved regulatory elements upstream of heterochronic microRNA genes and drives once-per-stage transcriptional pulses that are phase-locked across tissues"},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Here, we identify a developmental timer composed of the transcription factor MYRF-1 and the PERIOD-like repressor LIN-42 that operates synchronously across all somatic tissues."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "we show that MYRF-1 activity is also required to license a developmental checkpoint essential for growth and successful ecdysis"},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Newly synthesized LIN-42 directly associates with MYRF-1, limiting its nuclear residence and transcriptional activity and thereby constraining the amplitude and duration of each pulse."}
+   ]},
+  {"n": 1337, "id": "pmid:42550806",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Conversely, simultaneous overexpression of lin-46 and let-7 mimics LIN28 loss."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "lin-28; lin-46; let-7 triple mutant animals exhibit complete suppression of the lin-28(0) precocious heterochronic phenotypes and recapitulate the retarded lin-46; let-7 double mutant phenotypes"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "loss of LIN28 leaves the levels of most LIN28-bound transcripts unchanged. The only exceptions are the lin-46 mRNA and the let-7 miRNA."},
+    {"j": 4, "label": "not_addressed", "confidence": 2, "evidence": "Unexpectedly, LIN28 controls not only cell identity but also the tempo of development, using the same two targets."}
+   ]},
+  {"n": 1338, "id": "pmid:41781744",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "A DCL4-specific loop locates the second double-stranded RNA binding domain of DCL4 and DRB4 to a distal position of the substrate RNA, yielding a preference for long RNA substrates."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "DCL4 measures 21 nucleotides along RNA between its PAZ and RNase III domains to determine the product siRNA length."},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "A DCL4-specific loop locates the second double-stranded RNA binding domain of DCL4 and DRB4 to a distal position of the substrate RNA, yielding a preference for long RNA substrates."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Here we determined the structures of the DCL4-RNA complex in a dicing-competent conformation and the DCL4-DRB4-RNA complex in a pre-dicing conformation."}
+   ]},
+  {"n": 1339, "id": "pmid:40901950",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "A single miRNA, miR-100, arose in the last common eumetazoan ancestor and is widely conserved across animals."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "This family acts in a dose-dependent manner to control morphogenesis by regulating several genes involved in cell signaling, adhesion, and migration"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "Some of these targets are also predicted to be conserved targets across vertebrates."},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "This family acts in a dose-dependent manner to control morphogenesis"}
+   ]},
+  {"n": 1340, "id": "pmid:42679041",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Under high density, JH triggers RRP44 (exosome complex exonuclease RRP44 )-mediated depletion of cytoplasmic pre-miR-317, reducing mature miR-317 and relieving GP repression, which in turn promotes winged offspring production."},
+    {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "GP knockdown impaired glycogen breakdown and lowered ATP levels"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "Here, we identified two hormone-responsive miRNA cascades that converged on a common target, glycogen phosphorylase ( GP ), to regulate distinct phases of wing plasticity."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Manipulation of miR-317 or JH treatment altered winged offspring production without causing detectable wing malformations"}
+   ]},
+  {"n": 1341, "id": "pmid:42522709",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "For each of the 15 miRNAs with opposing effects in the gain- and loss-of-function screens, computational tools identified possible targets among 93 genes previously reported to affect adult pigmentation."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "We found that 48 of 166 miRNAs ectopically expressed in a stripe along the dorsal side of developing flies were each sufficient to affect pigmentation."},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "which could also allow them to contribute to pigmentation divergence, as has been shown for miR-193 in butterflies"},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "All 3 of these genes reduce the development of black pigments"}
+   ]}
+ ]}

@@ -1,0 +1,547 @@
+{
+"batch": "check_C_35",
+"pass": "C",
+"source_batch": "gen_35",
+"items": [
+{
+"n": 910,
+"id": "pmid:33159038",
+"year": 2020,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Alternative splicing (AS) is a posttranscriptional mechanism regulating gene expression that complex organisms utilize to expand proteome diversity from a comparatively limited set of genes. Recent research has increasingly associated AS with increased functional complexity in the central nervous systems in higher order mammals. This work has heavily implicated aberrant AS in several neurocognitive and neurodevelopmental disorders, including autism. Due to the strong genetic association between germline PTEN mutations and autism spectrum disorder (ASD), we hypothesized that germline PTEN mutations would alter AS patterns, contributing to the pathophysiology of ASD. In a murine model of constitutional mislocalization of Pten, recapitulating an autism-like phenotype, we found significant changes in AS patterns across the neural transcriptome by analyzing RNA-sequencing data with the program rMATS. A few hundred significant alternative splicing events (ASEs) that differentiate each m3m4 genotype were identified. These ASEs occur in genes enriched in PTEN signaling, inositol metabolism, and several other pathways relevant to the pathophysiology of ASD. In addition, we identified expression changes in several splicing factors known to be enriched in the nervous system. For instance, the master regulator of microexons, Srrm4, has decreased expression, and consequently, we found decreased inclusion of microexons in the Pten m3m4/m3m4 cortex (~10% decrease). We also demonstrated that the m3m4 mutation disrupts the interaction between Pten and U2af2, a member of the spliceosome. In sum, our observations point to germline Pten disruption changing the landscape of alternative splicing in the brain, and these changes may be relevant to the pathogenesis and/or maintenance of PTEN-ASD phenotypes."
+}
+],
+"text": "Alternative splicing (AS) is a posttranscriptional mechanism regulating gene expression that complex organisms utilize to expand proteome diversity from a comparatively limited set of genes. Recent research has increasingly associated AS with increased functional complexity in the central nervous systems in higher order mammals. This work has heavily implicated aberrant AS in several neurocognitive and neurodevelopmental disorders, including autism. Due to the strong genetic association between germline PTEN mutations and autism spectrum disorder (ASD), we hypothesized that germline PTEN mutations would alter AS patterns, contributing to the pathophysiology of ASD. In a murine model of constitutional mislocalization of Pten, recapitulating an autism-like phenotype, we found significant changes in AS patterns across the neural transcriptome by analyzing RNA-sequencing data with the program rMATS. A few hundred significant alternative splicing events (ASEs) that differentiate each m3m4 genotype were identified. These ASEs occur in genes enriched in PTEN signaling, inositol metabolism, and several other pathways relevant to the pathophysiology of ASD. In addition, we identified expression changes in several splicing factors known to be enriched in the nervous system. For instance, the master regulator of microexons, Srrm4, has decreased expression, and consequently, we found decreased inclusion of microexons in the Pten m3m4/m3m4 cortex (~10% decrease). We also demonstrated that the m3m4 mutation disrupts the interaction between Pten and U2af2, a member of the spliceosome. In sum, our observations point to germline Pten disruption changing the landscape of alternative splicing in the brain, and these changes may be relevant to the pathogenesis and/or maintenance of PTEN-ASD phenotypes.",
+"statements": [
+{
+"j": 1,
+"text": "Expression of Srrm4, described as the master regulator of microexons, was elevated in the mutant mice."
+},
+{
+"j": 2,
+"text": "The m3m4 mutation broke the physical interaction between Pten and the spliceosome component U2af2."
+},
+{
+"j": 3,
+"text": "Restoring Srrm4 levels in m3m4 mice reverses their autism-like behavioural phenotype."
+},
+{
+"j": 4,
+"text": "Microexon inclusion fell by roughly 10 percent in the cortex of Pten m3m4/m3m4 mice."
+}
+]
+},
+{
+"n": 911,
+"id": "doi:10.1101/2024.10.22.619587",
+"year": 2024,
+"field": "smallrna",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "RNA modifications are critical for transcript function and regulation, yet detecting these modifications transcriptome-wide and at isoform-level resolution remains technically challenging. Here, we present a robust in vitro transcription (IVT)-based strategy coupled with direct RNA nanopore sequencing (dRNA-seq) to detect a wide spectrum of endogenous RNA modifications without requiring prior knowledge of modification types or modification-specific biochemical assays. We generated an IVT modification-free reference transcriptome from K562 cells and used Nanocompore to compare it to the native RNA. We detected 26,619 modification sites across 2,520 isoforms from 1,766 genes. We used motif and annotation-based inference to identify at least eight distinct RNA modifications, with m6A and m5C being the most prevalent. Importantly, we uncovered non-random co-occurrence of m6A and m5C on both the same transcripts and a subset of the same molecules, suggesting potential combinatorial regulation. Furthermore, RNA modification patterns were often isoform-specific, pointing to a link between the epitranscriptome and alternative splicing. This approach also revealed previously underexplored modification patterns in mitochondrial mRNAs, suggesting broader regulatory complexity than previously appreciated. Our study provides a survey of RNA modifications across the transcriptome, demonstrating the utility of in vitro transcription coupled with direct RNA nanopore sequencing to simultaneously detect multiple modifications without the need for additional independent biochemical assays, enabling future investigations into the dynamics, coordination, and functional consequences of RNA modifications across different biological contexts."
+}
+],
+"text": "RNA modifications are critical for transcript function and regulation, yet detecting these modifications transcriptome-wide and at isoform-level resolution remains technically challenging. Here, we present a robust in vitro transcription (IVT)-based strategy coupled with direct RNA nanopore sequencing (dRNA-seq) to detect a wide spectrum of endogenous RNA modifications without requiring prior knowledge of modification types or modification-specific biochemical assays. We generated an IVT modification-free reference transcriptome from K562 cells and used Nanocompore to compare it to the native RNA. We detected 26,619 modification sites across 2,520 isoforms from 1,766 genes. We used motif and annotation-based inference to identify at least eight distinct RNA modifications, with m6A and m5C being the most prevalent. Importantly, we uncovered non-random co-occurrence of m6A and m5C on both the same transcripts and a subset of the same molecules, suggesting potential combinatorial regulation. Furthermore, RNA modification patterns were often isoform-specific, pointing to a link between the epitranscriptome and alternative splicing. This approach also revealed previously underexplored modification patterns in mitochondrial mRNAs, suggesting broader regulatory complexity than previously appreciated. Our study provides a survey of RNA modifications across the transcriptome, demonstrating the utility of in vitro transcription coupled with direct RNA nanopore sequencing to simultaneously detect multiple modifications without the need for additional independent biochemical assays, enabling future investigations into the dynamics, coordination, and functional consequences of RNA modifications across different biological contexts.",
+"statements": [
+{
+"j": 1,
+"text": "Of the eight or fewer modification types inferred, m6A and m5C occurred most often."
+},
+{
+"j": 2,
+"text": "Comparing native RNA with the modification-free reference yielded 26,619 modification sites in 2,520 isoforms belonging to 1,766 genes."
+},
+{
+"j": 3,
+"text": "Transcripts carrying both m6A and m5C are degraded faster in K562 cells than transcripts carrying only one of them."
+},
+{
+"j": 4,
+"text": "m6A and m5C turned up together more often than chance on shared transcripts and on some individual molecules."
+}
+]
+},
+{
+"n": 912,
+"id": "doi:10.64898/2026.10.12.758628",
+"year": 2026,
+"field": "smallrna",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "ETS family transcription factors are aberrantly expressed in prostate cancer and Ewing sarcoma due to chromosomal rearrangements resulting in fusion genes, most commonly TMPRSS2::ERG and EWSR1::FLI1 , respectively. The products of these gene fusions regulate transcription together with the intrinsically disordered protein EWSR1. However, the role of EWSR1 as a transcriptional co-regulator is not fully understood. EWSR1 can undergo liquid-liquid phase separation. We found that ERG could integrate into EWSR1 phase separated droplets. We then tested the role of the paraspeckle, a nuclear membraneless organelle known to regulate transcription and include EWSR1. Both ERG and EWSR1::FLI1 associated with the paraspeckle scaffold long non-coding RNA NEAT1_2. Disruption of paraspeckles in prostate cancer and Ewing sarcoma cell lines resulted in disruption of oncogenic phenotypes mimicking the loss of oncogenic ETS factors. In Ewing sarcoma cells paraspeckle disruption promoted similar transcriptional profiles as loss of EWSR1::FLI1. Further, loss of EWSR1::FLI1 reduced the association of a paraspeckle component with EWSR1::FLI1 target genomic loci. In TMPRSS2::ERG positive prostate cancer cells paraspeckle disruption correlated with ERG-mediated transcriptional repression. These findings suggest that the paraspeckle is an important transcriptional regulator in cancers with ETS gene fusions and provides a potential target for further mechanistic understanding and drug development."
+}
+],
+"text": "ETS family transcription factors are aberrantly expressed in prostate cancer and Ewing sarcoma due to chromosomal rearrangements resulting in fusion genes, most commonly TMPRSS2::ERG and EWSR1::FLI1 , respectively. The products of these gene fusions regulate transcription together with the intrinsically disordered protein EWSR1. However, the role of EWSR1 as a transcriptional co-regulator is not fully understood. EWSR1 can undergo liquid-liquid phase separation. We found that ERG could integrate into EWSR1 phase separated droplets. We then tested the role of the paraspeckle, a nuclear membraneless organelle known to regulate transcription and include EWSR1. Both ERG and EWSR1::FLI1 associated with the paraspeckle scaffold long non-coding RNA NEAT1_2. Disruption of paraspeckles in prostate cancer and Ewing sarcoma cell lines resulted in disruption of oncogenic phenotypes mimicking the loss of oncogenic ETS factors. In Ewing sarcoma cells paraspeckle disruption promoted similar transcriptional profiles as loss of EWSR1::FLI1. Further, loss of EWSR1::FLI1 reduced the association of a paraspeckle component with EWSR1::FLI1 target genomic loci. In TMPRSS2::ERG positive prostate cancer cells paraspeckle disruption correlated with ERG-mediated transcriptional repression. These findings suggest that the paraspeckle is an important transcriptional regulator in cancers with ETS gene fusions and provides a potential target for further mechanistic understanding and drug development.",
+"statements": [
+{
+"j": 1,
+"text": "Small-molecule inhibitors of paraspeckle assembly shrink Ewing sarcoma tumours in mice."
+},
+{
+"j": 2,
+"text": "Breaking up paraspeckles in prostate cancer and Ewing sarcoma cells undid oncogenic phenotypes much as losing the ETS fusion factors did."
+},
+{
+"j": 3,
+"text": "ERG was able to enter phase-separated droplets formed by EWSR1."
+},
+{
+"j": 4,
+"text": "ERG and EWSR1::FLI1 both bound the paraspeckle scaffold lncRNA NEAT1_2."
+}
+]
+},
+{
+"n": 913,
+"id": "pmid:40456740",
+"year": 2025,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "N6-methyladenosine (m6A) is an essential RNA modification that regulates gene expression and influences diverse cellular processes. Yet, fully characterizing its transcriptome-wide landscape and biogenesis mechanisms remains challenging. Traditional next-generation sequencing (NGS) methods rely on short-reads aggregation, overlooking the inherent heterogeneity of RNA transcripts. Third-generation sequencing (TGS) platforms offer direct RNA sequencing (DRS) at the resolution of individual RNA molecules, enabling simultaneous detection of RNA modifications and RNA processing events. In this study, we introduce SingleMod, a deep learning model tailored for precise detection of m6A modification on individual RNA molecules from DRS data. SingleMod innovatively employs a multiple instance regression (MIR) framework, leveraging extensive methylation-rate labels provided by the quantitative NGS-based method, and achieves ROC AUC and PR AUC of ~0.95 for single-molecule m6A prediction. Applying SingleMod to human cell lines, we systematically dissect the transcriptome-wide m6A landscape at single-molecule and single-base resolution, characterizing m6A heterogeneity in RNA molecules from the same transcript. Through comparative analyzes across eight diverse species, we quantitatively elucidate three distinct m6A distribution patterns correlated with phylogenetic relationships and suggest divergent regulatory mechanisms. This study provides a framework for understanding the shaping of epitranscriptome in a single-molecule perspective."
+}
+],
+"text": "N6-methyladenosine (m6A) is an essential RNA modification that regulates gene expression and influences diverse cellular processes. Yet, fully characterizing its transcriptome-wide landscape and biogenesis mechanisms remains challenging. Traditional next-generation sequencing (NGS) methods rely on short-reads aggregation, overlooking the inherent heterogeneity of RNA transcripts. Third-generation sequencing (TGS) platforms offer direct RNA sequencing (DRS) at the resolution of individual RNA molecules, enabling simultaneous detection of RNA modifications and RNA processing events. In this study, we introduce SingleMod, a deep learning model tailored for precise detection of m6A modification on individual RNA molecules from DRS data. SingleMod innovatively employs a multiple instance regression (MIR) framework, leveraging extensive methylation-rate labels provided by the quantitative NGS-based method, and achieves ROC AUC and PR AUC of ~0.95 for single-molecule m6A prediction. Applying SingleMod to human cell lines, we systematically dissect the transcriptome-wide m6A landscape at single-molecule and single-base resolution, characterizing m6A heterogeneity in RNA molecules from the same transcript. Through comparative analyzes across eight diverse species, we quantitatively elucidate three distinct m6A distribution patterns correlated with phylogenetic relationships and suggest divergent regulatory mechanisms. This study provides a framework for understanding the shaping of epitranscriptome in a single-molecule perspective.",
+"statements": [
+{
+"j": 1,
+"text": "SingleMod reached about 0.95 for both ROC AUC and PR AUC when predicting m6A on single molecules."
+},
+{
+"j": 2,
+"text": "Across eight species the study resolved three different m6A distribution patterns that tracked phylogenetic relationships."
+},
+{
+"j": 3,
+"text": "The model was trained in a multiple instance regression setup that exploits methylation-rate labels from a quantitative short-read method."
+},
+{
+"j": 4,
+"text": "m6A heterogeneity among molecules of the same transcript shifts when cells are exposed to stress."
+}
+]
+},
+{
+"n": 914,
+"id": "pmid:38784389",
+"year": 2024,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Condyloma acuminatum (CA) is caused by low-risk human papillomavirus, and is characterized by high recurrence after treatment. The RNA modification N6-methyladenosine (m6A) plays an important role during diverse viral infections, including high-risk HPV infection in cervical cancer. However, it is unclear whether low-risk HPV infection changes the RNA m6A methylation in CA."
+},
+{
+"label": "Methods",
+"text": "High-throughputm6A-sequencing was performed to profile the transcriptome-wide mRNA modifications of CA tissues infected by LR-HPVs and the paired normal tissues from CA patients. We further investigated the regulation of alternative splicing by RNA binding proteins (RBPs) with altered m6A modification and constructed a regulatory network among these RBPs, regulated alternative splicing events (RASEs) and regulated alternative splicing genes (RASGs) in CA."
+},
+{
+"label": "Results",
+"text": "The results show that the m6A level in CA tissues differed from that in the paired controls. Furthermore, cell cycle- and cell adhesion- associated genes with m6A modification were differentially expressed in CA tissues compared to the paired controls. In particular, seven RNA binding protein genes with specific m6A methylated sites, showed a higher or lower expression at the mRNA level in CA tissues than in the paired normal tissues. In addition, these differentially expressed RNA binding protein genes would regulate the alternative splicing pattern of apoptotic process genes in CA tissue."
+},
+{
+"label": "Conclusions",
+"text": "Our study reveals a sophisticated m6A modification profile in CA tissue that affects the response of host cells to HPV infection, and provides cues for the further exploration of the roles of m6A and the development of a novel treatment strategy for CA."
+}
+],
+"text": "Condyloma acuminatum (CA) is caused by low-risk human papillomavirus, and is characterized by high recurrence after treatment. The RNA modification N6-methyladenosine (m6A) plays an important role during diverse viral infections, including high-risk HPV infection in cervical cancer. However, it is unclear whether low-risk HPV infection changes the RNA m6A methylation in CA. High-throughputm6A-sequencing was performed to profile the transcriptome-wide mRNA modifications of CA tissues infected by LR-HPVs and the paired normal tissues from CA patients. We further investigated the regulation of alternative splicing by RNA binding proteins (RBPs) with altered m6A modification and constructed a regulatory network among these RBPs, regulated alternative splicing events (RASEs) and regulated alternative splicing genes (RASGs) in CA. The results show that the m6A level in CA tissues differed from that in the paired controls. Furthermore, cell cycle- and cell adhesion- associated genes with m6A modification were differentially expressed in CA tissues compared to the paired controls. In particular, seven RNA binding protein genes with specific m6A methylated sites, showed a higher or lower expression at the mRNA level in CA tissues than in the paired normal tissues. In addition, these differentially expressed RNA binding protein genes would regulate the alternative splicing pattern of apoptotic process genes in CA tissue. Our study reveals a sophisticated m6A modification profile in CA tissue that affects the response of host cells to HPV infection, and provides cues for the further exploration of the roles of m6A and the development of a novel treatment strategy for CA.",
+"statements": [
+{
+"j": 1,
+"text": "Condyloma acuminatum tissue carried a different m6A level from the paired control tissue of the same patients."
+},
+{
+"j": 2,
+"text": "m6A-modified genes tied to the cell cycle and to cell adhesion were differentially expressed in lesions relative to paired controls."
+},
+{
+"j": 3,
+"text": "Patients whose lesions showed the largest m6A changes went on to relapse more often after treatment."
+},
+{
+"j": 4,
+"text": "Seven RNA binding protein genes bearing specific m6A sites were expressed at either higher or lower mRNA levels in lesions than in paired normal tissue."
+}
+]
+},
+{
+"n": 915,
+"id": "doi:10.1101/2024.10.28.620763",
+"year": 2024,
+"field": "smallrna",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "N6-methyladenosine (m6A) is the most prevalent internal mRNA modification, enriched in the CNS yet poorly characterized in glioma. Using long-read RNA sequencing, we mapped m6A in an in vitro glioma model following knockdown (KD) of the reader IGF2BP2, writer METTL3, and eraser ALKBH5, with naive glioma cells and astrocytes as controls. Glioma cells exhibited a two-fold reduction in global m6A, suggesting progressive loss from healthy to malignant states. Integrated analysis revealed that m6A mediated control of gene expression is influenced by modification topology (CDS:3′UTR), transcript biotype, and length. Regulator KD, particularly ALKBH5 induced redistribution of m6A toward 3′UTR with consequent gene upregulation. We also identified m6A-mediated isoform switching, with a higher usage of retained intron and nonsense-mediated decay isoforms. Structural and splicing alterations at the isoform level were identified unique to each KD condition indicating m6A driven aberrant alternative splicing. At the functional level, KD specific remodeling of oncogenic signaling was also observed. ALKBH5 KD suppressed MYC targets and pro-apoptotic signaling while METTL3 KD enhanced mTOR and PI3K-AKT signaling. Collectively, these results demonstrate that m6A mediated regulation in glioma is highly context-dependent, defining distinct clinically relevant phenotypes. This has implications for future biomarker discovery and development of targeted therapeutics."
+}
+],
+"text": "N6-methyladenosine (m6A) is the most prevalent internal mRNA modification, enriched in the CNS yet poorly characterized in glioma. Using long-read RNA sequencing, we mapped m6A in an in vitro glioma model following knockdown (KD) of the reader IGF2BP2, writer METTL3, and eraser ALKBH5, with naive glioma cells and astrocytes as controls. Glioma cells exhibited a two-fold reduction in global m6A, suggesting progressive loss from healthy to malignant states. Integrated analysis revealed that m6A mediated control of gene expression is influenced by modification topology (CDS:3′UTR), transcript biotype, and length. Regulator KD, particularly ALKBH5 induced redistribution of m6A toward 3′UTR with consequent gene upregulation. We also identified m6A-mediated isoform switching, with a higher usage of retained intron and nonsense-mediated decay isoforms. Structural and splicing alterations at the isoform level were identified unique to each KD condition indicating m6A driven aberrant alternative splicing. At the functional level, KD specific remodeling of oncogenic signaling was also observed. ALKBH5 KD suppressed MYC targets and pro-apoptotic signaling while METTL3 KD enhanced mTOR and PI3K-AKT signaling. Collectively, these results demonstrate that m6A mediated regulation in glioma is highly context-dependent, defining distinct clinically relevant phenotypes. This has implications for future biomarker discovery and development of targeted therapeutics.",
+"statements": [
+{
+"j": 1,
+"text": "Global m6A in the glioma cells was half that of the controls."
+},
+{
+"j": 2,
+"text": "Knocking down the regulators, ALKBH5 above all, pushed m6A toward 3'UTRs and the affected genes went up in expression."
+},
+{
+"j": 3,
+"text": "IGF2BP2 knockdown slowed the growth of the glioma cells."
+},
+{
+"j": 4,
+"text": "ALKBH5 knockdown damped MYC target and pro-apoptotic signalling, whereas METTL3 knockdown raised mTOR and PI3K-AKT signalling."
+}
+]
+},
+{
+"n": 916,
+"id": "pmid:40629330",
+"year": 2025,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Lung adenocarcinoma (LUAD), the predominant histological subtype of non-small cell lung cancer, demonstrates critical regulatory involvement of RNA-binding proteins (RBPs) and circular RNAs (circRNAs) in tumorigenic processes. Emerging evidence highlights the circRNA-autophagy regulatory axis as a crucial modulator of cancer progression. This study systematically investigates the functional interplay within the RBP-circRNA-autophagy network in LUAD pathogenesis."
+},
+{
+"label": "Methods",
+"text": "Employing RNA pull down, mass spectrometry and RNA immunoprecipitation facilitated the exploration of the circRAPGEF5 binding protein. M6A methylation RNA immunoprecipitation-PCR was utilized for m6A analysis. Immunofluorescence (IF) and fluorescence in situ hybridization (FISH) assays were conducted to ascertain the subcellular localization of target genes. Employing mRFP-GFP-LC3 fluorescent lentivirus labelling facilitated the monitoring of autophagy flow levels. Xenografts in mice were instrumental in affirming the role of circRAPGEF5."
+},
+{
+"label": "Results",
+"text": "Through comprehensive molecular profiling, we identified elevated circRAPGEF5 expression in LUAD cells, which significantly suppressed autophagic flux while promoting malignant phenotypes including enhanced proliferation, migration, and invasion. Mechanistic investigations revealed that circRAPGEF5 directly interacts with the KH3-4 functional domain of Insulin-like Growth Factor 2 mRNA-Binding Protein 2 (IGF2BP2), an m6A reader protein. This interaction facilitated IGF2BP2-mediated stabilization of NUP160 mRNA, a nuclear pore complex component. Genetic ablation of NUP160 through RNA interference effectively restored autophagic activity, thereby attenuating the aggressive biological behaviors of LUAD cells. In vivo validation using xenograft models demonstrated that the circRAPGEF5/IGF2BP2/NUP160 signaling axis promotes tumor growth and metastatic dissemination through autophagy suppression."
+},
+{
+"label": "Conclusion",
+"text": "Our findings reveal a novel epigenetic regulatory mechanism wherein m6A-modified circRAPGEF5 orchestrates autophagy inhibition via IGF2BP2-dependent stabilization of NUP160 transcripts, ultimately driving LUAD progression and metastasis. These results establish the circRAPGEF5/IGF2BP2/NUP160 axis as a potential therapeutic target for LUAD intervention."
+}
+],
+"text": "Lung adenocarcinoma (LUAD), the predominant histological subtype of non-small cell lung cancer, demonstrates critical regulatory involvement of RNA-binding proteins (RBPs) and circular RNAs (circRNAs) in tumorigenic processes. Emerging evidence highlights the circRNA-autophagy regulatory axis as a crucial modulator of cancer progression. This study systematically investigates the functional interplay within the RBP-circRNA-autophagy network in LUAD pathogenesis. Employing RNA pull down, mass spectrometry and RNA immunoprecipitation facilitated the exploration of the circRAPGEF5 binding protein. M6A methylation RNA immunoprecipitation-PCR was utilized for m6A analysis. Immunofluorescence (IF) and fluorescence in situ hybridization (FISH) assays were conducted to ascertain the subcellular localization of target genes. Employing mRFP-GFP-LC3 fluorescent lentivirus labelling facilitated the monitoring of autophagy flow levels. Xenografts in mice were instrumental in affirming the role of circRAPGEF5. Through comprehensive molecular profiling, we identified elevated circRAPGEF5 expression in LUAD cells, which significantly suppressed autophagic flux while promoting malignant phenotypes including enhanced proliferation, migration, and invasion. Mechanistic investigations revealed that circRAPGEF5 directly interacts with the KH3-4 functional domain of Insulin-like Growth Factor 2 mRNA-Binding Protein 2 (IGF2BP2), an m6A reader protein. This interaction facilitated IGF2BP2-mediated stabilization of NUP160 mRNA, a nuclear pore complex component. Genetic ablation of NUP160 through RNA interference effectively restored autophagic activity, thereby attenuating the aggressive biological behaviors of LUAD cells. In vivo validation using xenograft models demonstrated that the circRAPGEF5/IGF2BP2/NUP160 signaling axis promotes tumor growth and metastatic dissemination through autophagy suppression. Our findings reveal a novel epigenetic regulatory mechanism wherein m6A-modified circRAPGEF5 orchestrates autophagy inhibition via IGF2BP2-dependent stabilization of NUP160 transcripts, ultimately driving LUAD progression and metastasis. These results establish the circRAPGEF5/IGF2BP2/NUP160 axis as a potential therapeutic target for LUAD intervention.",
+"statements": [
+{
+"j": 1,
+"text": "circRAPGEF5 was scarce in lung adenocarcinoma cells, where it held back autophagic flux and drove proliferation, migration and invasion."
+},
+{
+"j": 2,
+"text": "circRAPGEF5 bound the m6A reader IGF2BP2 through its KH3-4 domain, which stabilised NUP160 mRNA."
+},
+{
+"j": 3,
+"text": "Silencing NUP160 by RNA interference brought autophagic activity back and blunted the aggressive behaviour of the cancer cells."
+},
+{
+"j": 4,
+"text": "circRAPGEF5 measured in blood separates lung adenocarcinoma patients from healthy donors."
+}
+]
+},
+{
+"n": 917,
+"id": "doi:10.1101/2025.07.22.666181",
+"year": 2025,
+"field": "smallrna",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Clustered regularly interspaced short palindromic repeat Cas endonuclease (CRISPR-Cas) systems, such as RNA-editing CRISPR-Cas13d, are poised to advance the gene therapy of various diseases. However, their clinical development has been challenged by 1) the limited biostability of linear guide RNAs (lgRNAs) susceptible to degradation, 2) the immunogenicity of prokaryotic microorganism-derived Cas proteins in human that restrains their long-term therapeutic efficacy, and 3) off-targeting gene editing caused by the prolonged Cas expression from DNA vectors. Here, we report the development of highly stable circular gRNAs (cgRNAs) and transiently-expressing Cas13d-encoding mRNA for efficient CRISPR-Cas13d editing of target mRNA. We first optimized cgRNA for CRISPR-Cas13d editing of adenosine deaminase acting on RNA type I ( Adar1 ) transcript for the combination immunotherapy of triple negative breast cancer (TNBC). cgRNAs were synthesized by enzymatic ligation of lgRNA precursors. cgRNAs enhanced biostability with comparable Cas13d-binding affinity relative to lgRNA. Next, using ionizable lipid nanoparticles (LNPs), we co-delivered the resulting Adar1 -targeting cgRNA with an mRNA encoding RfxCas13d (mRNA-RfxCas13d), a widely used Cas13d variant, to TNBC cells. As a result, relative to lgRNA, cgRNA significantly enhanced the efficiency of Adar1 knockdown with minimal collateral activity, which sensitized the cancer cells for cytokine-mediated cell apoptosis. In a 4T1 murine TNBC tumor model in syngeneic mice, Adar1 -targeting cgRNA outperformed lgRNA for tumor immunotherapy in combination with immune checkpoint blockade (ICB). Collectively, these results demonstrate the great potential of cgRNA and mRNA-RfxCas13d for RNA-targeted gene editing."
+}
+],
+"text": "Clustered regularly interspaced short palindromic repeat Cas endonuclease (CRISPR-Cas) systems, such as RNA-editing CRISPR-Cas13d, are poised to advance the gene therapy of various diseases. However, their clinical development has been challenged by 1) the limited biostability of linear guide RNAs (lgRNAs) susceptible to degradation, 2) the immunogenicity of prokaryotic microorganism-derived Cas proteins in human that restrains their long-term therapeutic efficacy, and 3) off-targeting gene editing caused by the prolonged Cas expression from DNA vectors. Here, we report the development of highly stable circular gRNAs (cgRNAs) and transiently-expressing Cas13d-encoding mRNA for efficient CRISPR-Cas13d editing of target mRNA. We first optimized cgRNA for CRISPR-Cas13d editing of adenosine deaminase acting on RNA type I ( Adar1 ) transcript for the combination immunotherapy of triple negative breast cancer (TNBC). cgRNAs were synthesized by enzymatic ligation of lgRNA precursors. cgRNAs enhanced biostability with comparable Cas13d-binding affinity relative to lgRNA. Next, using ionizable lipid nanoparticles (LNPs), we co-delivered the resulting Adar1 -targeting cgRNA with an mRNA encoding RfxCas13d (mRNA-RfxCas13d), a widely used Cas13d variant, to TNBC cells. As a result, relative to lgRNA, cgRNA significantly enhanced the efficiency of Adar1 knockdown with minimal collateral activity, which sensitized the cancer cells for cytokine-mediated cell apoptosis. In a 4T1 murine TNBC tumor model in syngeneic mice, Adar1 -targeting cgRNA outperformed lgRNA for tumor immunotherapy in combination with immune checkpoint blockade (ICB). Collectively, these results demonstrate the great potential of cgRNA and mRNA-RfxCas13d for RNA-targeted gene editing.",
+"statements": [
+{
+"j": 1,
+"text": "In 4T1 tumour-bearing syngeneic mice the Adar1-targeting circular guide beat the linear guide when combined with immune checkpoint blockade."
+},
+{
+"j": 2,
+"text": "The circular guide RNAs triggered weaker innate immune activation in the treated mice than the linear guides did."
+},
+{
+"j": 3,
+"text": "Circular guide RNAs were less stable than linear ones while binding Cas13d about as well."
+},
+{
+"j": 4,
+"text": "Compared with linear guides, circular guides knocked down Adar1 more efficiently with little collateral activity and made the cancer cells more prone to cytokine-driven apoptosis."
+}
+]
+},
+{
+"n": 918,
+"id": "pmid:39476961",
+"year": 2024,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Sperm small RNAs are implicated in intergenerational transmission of paternal environmental effects. Small RNAs generated by the cleavage of tRNAs, known as tRNA fragments (tRFs) or tRNA-derived RNAs (tDRs or tsRNAs), are an abundant class of RNAs in mature sperm and can be modulated by environmental conditions. The biogenesis of tRFs in the male reproductive tract remains poorly understood. Angiogenin, a member of the ribonuclease A superfamily (RNase A), cleaves tRNAs to generate tRFs in response to cellular stress. Four paralogs of Angiogenin, namely Rnase9, Rnase10, Rnase11, and Rnase12, are specifically expressed in the epididymis-a long, convoluted tubule where sperm mature and acquire fertility and motility. Here, by generating mice deleted for all four genes (Rnase9-12-/-, termed \"KO\" for Knock Out), we report that these genes regulate fertility and small RNA levels. KO male mice are sterile; KO sperm fertilized oocytes in vitro but failed to efficiently fertilize oocytes in vivo due to an inability of sperm to pass through the utero-tubular junction. Intriguingly, there were decreased levels of tRFs and rRNAs (rRNA-derived small RNAs or rsRNAs) in the KO epididymis and epididymal luminal fluid, although RNases 9-12 did not show ribonucleolytic activity in vitro. Importantly, KO sperm showed a dramatic decrease in the levels of tRFs, demonstrating a role of epididymis-specific Rnase9-12 genes in regulating sperm small RNA composition. Together, our results reveal an unexpected role of four epididymis-specific noncanonical ribonuclease A family genes in regulating fertility and small RNA processing."
+}
+],
+"text": "Sperm small RNAs are implicated in intergenerational transmission of paternal environmental effects. Small RNAs generated by the cleavage of tRNAs, known as tRNA fragments (tRFs) or tRNA-derived RNAs (tDRs or tsRNAs), are an abundant class of RNAs in mature sperm and can be modulated by environmental conditions. The biogenesis of tRFs in the male reproductive tract remains poorly understood. Angiogenin, a member of the ribonuclease A superfamily (RNase A), cleaves tRNAs to generate tRFs in response to cellular stress. Four paralogs of Angiogenin, namely Rnase9, Rnase10, Rnase11, and Rnase12, are specifically expressed in the epididymis-a long, convoluted tubule where sperm mature and acquire fertility and motility. Here, by generating mice deleted for all four genes (Rnase9-12-/-, termed \"KO\" for Knock Out), we report that these genes regulate fertility and small RNA levels. KO male mice are sterile; KO sperm fertilized oocytes in vitro but failed to efficiently fertilize oocytes in vivo due to an inability of sperm to pass through the utero-tubular junction. Intriguingly, there were decreased levels of tRFs and rRNAs (rRNA-derived small RNAs or rsRNAs) in the KO epididymis and epididymal luminal fluid, although RNases 9-12 did not show ribonucleolytic activity in vitro. Importantly, KO sperm showed a dramatic decrease in the levels of tRFs, demonstrating a role of epididymis-specific Rnase9-12 genes in regulating sperm small RNA composition. Together, our results reveal an unexpected role of four epididymis-specific noncanonical ribonuclease A family genes in regulating fertility and small RNA processing.",
+"statements": [
+{
+"j": 1,
+"text": "Males lacking all four epididymal ribonuclease genes were sterile: their sperm fertilised oocytes in a dish but could not get past the utero-tubular junction in vivo."
+},
+{
+"j": 2,
+"text": "Offspring sired by these knockout males show metabolic changes caused by the missing sperm tRNA fragments."
+},
+{
+"j": 3,
+"text": "Sperm from the knockout mice carried markedly more tRNA fragments than control sperm."
+},
+{
+"j": 4,
+"text": "The knockout epididymis and its luminal fluid held less tRF and rRNA-derived small RNA, even though RNases 9-12 cleaved nothing in vitro."
+}
+]
+},
+{
+"n": 919,
+"id": "doi:10.1101/2024.07.19.604269",
+"year": 2024,
+"field": "smallrna",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "Over the last three decades, small RNAs have emerged as one of the key post-transcriptional regulators, and are categorised into microRNAs (miRNAs), small interfering RNAs (siRNAs), and PIWI-interacting RNAs (piRNAs). Since their discovery as regulators of developmental timing in the nematode Caenorhabditis elegans , some miRNAs have been found to be highly conserved throughout animal evolution. miR-100 is one such highly conserved miRNA, possibly predating the origin of bilaterians. Furthermore, mir-100 is a member of the conserved let-7-complex , a locus containing three conserved miRNA-coding genes ( mir-100 , let-7 , and mir-125 / lin-4 ) that does not exist in the same arrangement in C. elegans ."
+},
+{
+"label": "Results",
+"text": "We performed small RNA sequencing across four developmental time-points in the satellite nematode Pristionchus pacificus , identifying 64 novel and ontogenically specifically expressed miRNAs. We also identified miR-100 as the most abundant miRNA in post-embryonic juvenile stages. Additionally, P. pacificus exhibited a novel constellation of the let-7-complex , wherein mir-100 is closely linked to let-7 , but without mir-125 / lin-4 in the same locus. Mutants of mir-100 and let-7 , individually as well as simultaneously, resulted in viable but developmentally defective worms, showing misregulation in collagen and astacin gene families. Interestingly, lin-4 mutants showed a delayed but otherwise normal development."
+},
+{
+"label": "Conclusion",
+"text": "This study provides the first developmental small RNA transcriptome of P. pacificus , providing a community resource for future evo-devo studies. Furthermore, we identify miR-100 as the most abundant ontogenically-specific miRNA, which, along with let-7, regulates normal development in P. pacificus . Lastly, we observe two alternative arrangements of the highly conserved miRNA locus let-7-complex ."
+}
+],
+"text": "Over the last three decades, small RNAs have emerged as one of the key post-transcriptional regulators, and are categorised into microRNAs (miRNAs), small interfering RNAs (siRNAs), and PIWI-interacting RNAs (piRNAs). Since their discovery as regulators of developmental timing in the nematode Caenorhabditis elegans , some miRNAs have been found to be highly conserved throughout animal evolution. miR-100 is one such highly conserved miRNA, possibly predating the origin of bilaterians. Furthermore, mir-100 is a member of the conserved let-7-complex , a locus containing three conserved miRNA-coding genes ( mir-100 , let-7 , and mir-125 / lin-4 ) that does not exist in the same arrangement in C. elegans . We performed small RNA sequencing across four developmental time-points in the satellite nematode Pristionchus pacificus , identifying 64 novel and ontogenically specifically expressed miRNAs. We also identified miR-100 as the most abundant miRNA in post-embryonic juvenile stages. Additionally, P. pacificus exhibited a novel constellation of the let-7-complex , wherein mir-100 is closely linked to let-7 , but without mir-125 / lin-4 in the same locus. Mutants of mir-100 and let-7 , individually as well as simultaneously, resulted in viable but developmentally defective worms, showing misregulation in collagen and astacin gene families. Interestingly, lin-4 mutants showed a delayed but otherwise normal development. This study provides the first developmental small RNA transcriptome of P. pacificus , providing a community resource for future evo-devo studies. Furthermore, we identify miR-100 as the most abundant ontogenically-specific miRNA, which, along with let-7, regulates normal development in P. pacificus . Lastly, we observe two alternative arrangements of the highly conserved miRNA locus let-7-complex .",
+"statements": [
+{
+"j": 1,
+"text": "Sequencing small RNAs at four developmental time points in Pristionchus pacificus turned up 64 previously undescribed, stage-restricted miRNAs."
+},
+{
+"j": 2,
+"text": "miR-100 was the least plentiful miRNA of the post-embryonic juvenile stages."
+},
+{
+"j": 3,
+"text": "Worms mutant for mir-100, for let-7, or for both survived but developed abnormally, with collagen and astacin gene families misregulated."
+},
+{
+"j": 4,
+"text": "The let-7-complex arrangement seen in P. pacificus is the ancestral one for nematodes."
+}
+]
+},
+{
+"n": 920,
+"id": "pmid:42520632",
+"year": 2027,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "m6A (N6-methyladenosine), a prevalent RNA modification in eukaryotic mRNA involved in multiple biological processes, enables early cancer screening via its detection. m6A methylation detection is considered challenging, with most existing methods being limited by complex chemical transformations that incur high cost and procedural complexity. To overcome these challenges, a novel droplet-based digital CRISPR-Cas13a (Dd-Cas13a) approach was developed for the detection of m6A modifications in RNA. The method employs an m6A-specific antibody enrichment strategy to selectively enrich RNA molecules harboring m6A modifications, while RNA molecules lacking m6A remain unselected. Integration of the targeted recognition capability of the CRISPR/Cas13a system with droplet technology enables amplification-free detection of m6A-modified RNA at fM concentrations, with a significant improvement in sensitivity. The Dd-Cas13a detection platform enables visualization and quantitative analysis of methylation site proportions in cellular RNA, providing a novel approach for rapid and sensitive detection of RNA methylation, with significant potential for applications in early disease diagnosis and therapeutic efficacy assessment."
+}
+],
+"text": "m6A (N6-methyladenosine), a prevalent RNA modification in eukaryotic mRNA involved in multiple biological processes, enables early cancer screening via its detection. m6A methylation detection is considered challenging, with most existing methods being limited by complex chemical transformations that incur high cost and procedural complexity. To overcome these challenges, a novel droplet-based digital CRISPR-Cas13a (Dd-Cas13a) approach was developed for the detection of m6A modifications in RNA. The method employs an m6A-specific antibody enrichment strategy to selectively enrich RNA molecules harboring m6A modifications, while RNA molecules lacking m6A remain unselected. Integration of the targeted recognition capability of the CRISPR/Cas13a system with droplet technology enables amplification-free detection of m6A-modified RNA at fM concentrations, with a significant improvement in sensitivity. The Dd-Cas13a detection platform enables visualization and quantitative analysis of methylation site proportions in cellular RNA, providing a novel approach for rapid and sensitive detection of RNA methylation, with significant potential for applications in early disease diagnosis and therapeutic efficacy assessment.",
+"statements": [
+{
+"j": 1,
+"text": "The assay allowed methylation site proportions in cellular RNA to be visualised and quantified."
+},
+{
+"j": 2,
+"text": "An m6A-specific antibody was used to pull out modified RNA molecules, leaving unmodified ones unselected."
+},
+{
+"j": 3,
+"text": "Pairing Cas13a recognition with droplet partitioning detected m6A-modified RNA down to femtomolar levels without any amplification step, a marked sensitivity loss."
+},
+{
+"j": 4,
+"text": "The platform picked up m6A differences in plasma from cancer patients before tumours were visible on imaging."
+}
+]
+},
+{
+"n": 921,
+"id": "pmid:41029503",
+"year": 2025,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Dysregulation of tRNA-derived small RNAs (tsRNAs) in various cancers has been indicated to play vital roles in tumorigenesis, but few reported in clear cell renal cell carcinoma (ccRCC). Here, we determined to elucidate the role of tsRNAs in ccRCC and their potential as new tumor biomarkers."
+},
+{
+"label": "Methods",
+"text": "We obtained the tsRNA expression spectrum of ccRCC by a small RNA microarray sequence. Eight dysregulated tsRNAs were selected and validated by reverse transcription-quantitative real-time PCR (RT-qPCR). We identified these tsRNAs' potential target genes. The biological functions of tsRNAs were identified by Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) assay."
+},
+{
+"label": "Results",
+"text": "The microarray sequence result shown statistically significantly 433 up-regulated tsRNAs and 798 down-regulated tsRNAs in ccRCC. Then, eight tsRNAs were validated by RT-qPCR and the target genes of the validated tsRNAs were predicted by TargetScan and miRanda databases. GO annotation and KEGG pathway enrichment analyses shown that potential biological functions and signaling pathways of the predicted target genes of tsRNAs in ccRCC. The results of external databases validation suggests that tRF5-23-ValAAC-2 may be a key biomarker for ccRCC development. The functional assays revealed that tRF5-23-ValAAC-2 hinders the proliferation and migration while promotes apoptosis of ccRCC."
+},
+{
+"label": "Conclusions",
+"text": "In this study, we identified the tsRNA spectrum in ccRCC tissues and found that dysregulated tsRNAs may be novel biomarkers and possible therapeutic targets for ccRCC."
+}
+],
+"text": "Dysregulation of tRNA-derived small RNAs (tsRNAs) in various cancers has been indicated to play vital roles in tumorigenesis, but few reported in clear cell renal cell carcinoma (ccRCC). Here, we determined to elucidate the role of tsRNAs in ccRCC and their potential as new tumor biomarkers. We obtained the tsRNA expression spectrum of ccRCC by a small RNA microarray sequence. Eight dysregulated tsRNAs were selected and validated by reverse transcription-quantitative real-time PCR (RT-qPCR). We identified these tsRNAs' potential target genes. The biological functions of tsRNAs were identified by Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) assay. The microarray sequence result shown statistically significantly 433 up-regulated tsRNAs and 798 down-regulated tsRNAs in ccRCC. Then, eight tsRNAs were validated by RT-qPCR and the target genes of the validated tsRNAs were predicted by TargetScan and miRanda databases. GO annotation and KEGG pathway enrichment analyses shown that potential biological functions and signaling pathways of the predicted target genes of tsRNAs in ccRCC. The results of external databases validation suggests that tRF5-23-ValAAC-2 may be a key biomarker for ccRCC development. The functional assays revealed that tRF5-23-ValAAC-2 hinders the proliferation and migration while promotes apoptosis of ccRCC. In this study, we identified the tsRNA spectrum in ccRCC tissues and found that dysregulated tsRNAs may be novel biomarkers and possible therapeutic targets for ccRCC.",
+"statements": [
+{
+"j": 1,
+"text": "tsRNA levels in clear cell renal cell carcinoma tissue tracked tumour stage and patient survival."
+},
+{
+"j": 2,
+"text": "Eight dysregulated tsRNAs were confirmed by RT-qPCR, and their likely targets were predicted with TargetScan and miRanda."
+},
+{
+"j": 3,
+"text": "In functional assays tRF5-23-ValAAC-2 curbed proliferation and migration of ccRCC cells while pushing apoptosis up."
+},
+{
+"j": 4,
+"text": "The microarray screen found 433 tsRNAs raised and 798 lowered in clear cell renal cell carcinoma."
+}
+]
+},
+{
+"n": 922,
+"id": "doi:10.1101/2024.10.31.621399",
+"year": 2024,
+"field": "smallrna",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "The interplay of RNA modifications - deposited by \"writers\", removed by \"erasers\" and identified by RNA binding proteins known as \"readers\" - forms the basis of the epitranscriptomic gene regulation hypothesis. Recent studies have identified the oncofetal RNA-binding protein IGF2BP3 as a \"reader\" of the N6-methyladenosine (m6A) modification and crucial for regulating gene expression. Yet, how its function as a reader overlaps with its critical oncogenic function in leukemia remains an open question. Here, we report the novel finding that the reader IGF2BP3 reprograms cellular metabolism, resulting in an altered ability of the \"writers\" to modify the epitranscriptome. In leukemia cells, IGF2BP3 supports increased glycolytic flux and one-carbon metabolism, leading to increased production of S-adenosyl methionine (SAM), a key substrate for methylation reactions within the cell. IGF2BP3 directly regulates the translation of MAT2B, the regulatory subunit of the methionine-adenosyltransferase complex, which is the final enzyme in a pathway leading to SAM production. This, in turn, results in increased m6A modifications on RNA, resulting in positive feedback regulation. This novel mechanism illustrates how metabolism mutually acts with epitranscriptomic modifications, underscoring the pervasive impact of IGF2BP3 in gene regulatory mechanisms governing a broad range of cancer-specific processes."
+}
+],
+"text": "The interplay of RNA modifications - deposited by \"writers\", removed by \"erasers\" and identified by RNA binding proteins known as \"readers\" - forms the basis of the epitranscriptomic gene regulation hypothesis. Recent studies have identified the oncofetal RNA-binding protein IGF2BP3 as a \"reader\" of the N6-methyladenosine (m6A) modification and crucial for regulating gene expression. Yet, how its function as a reader overlaps with its critical oncogenic function in leukemia remains an open question. Here, we report the novel finding that the reader IGF2BP3 reprograms cellular metabolism, resulting in an altered ability of the \"writers\" to modify the epitranscriptome. In leukemia cells, IGF2BP3 supports increased glycolytic flux and one-carbon metabolism, leading to increased production of S-adenosyl methionine (SAM), a key substrate for methylation reactions within the cell. IGF2BP3 directly regulates the translation of MAT2B, the regulatory subunit of the methionine-adenosyltransferase complex, which is the final enzyme in a pathway leading to SAM production. This, in turn, results in increased m6A modifications on RNA, resulting in positive feedback regulation. This novel mechanism illustrates how metabolism mutually acts with epitranscriptomic modifications, underscoring the pervasive impact of IGF2BP3 in gene regulatory mechanisms governing a broad range of cancer-specific processes.",
+"statements": [
+{
+"j": 1,
+"text": "The extra methyl donor led to less m6A on RNA, closing a positive feedback loop."
+},
+{
+"j": 2,
+"text": "In leukemia cells IGF2BP3 kept glycolytic flux and one-carbon metabolism high, which raised production of S-adenosyl methionine."
+},
+{
+"j": 3,
+"text": "IGF2BP3 acts on the translation of MAT2B, the regulatory subunit of the methionine-adenosyltransferase complex."
+},
+{
+"j": 4,
+"text": "Knocking down MAT2B slows leukemia cell growth."
+}
+]
+},
+{
+"n": 923,
+"id": "doi:10.64898/2026.05.15.725286",
+"year": 2026,
+"field": "smallrna",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "Metazoan adenosine-to-inosine (A-to-I) mRNA editing temporospatially diversifies the neuronal transcriptome and proteome. The limited read length from next-generation sequencing (NGS) constrains the quantification of the potentially differential editing levels across different splicing isoforms, restricting our understanding of the extent to which RNA editing contributes to molecular diversity and its interplay with splicing."
+},
+{
+"label": "Methods",
+"text": "We employed reverse transcription nested PCR (RT-nPCR) and developed a novel interfering-Primer PCR (iPrimer PCR) technique to distinguish different transcripts of any gene. We selected multiple essential genes exhibiting RNA editing in coding sequences (CDSs) or untranslated regions (UTRs) for isoform-specific amplification and Sanger sequencing."
+},
+{
+"label": "Results",
+"text": "Nine different Adar isoforms together with pre-mRNA had distinct editing levels at the S>G auto-recoding site, which was predicted to have isoform-specific effects on catalytic activities. Although pre-mRNA editing might exert isoform-dependent promotion/suppression of splicing, closely located editing sites, such as those in neuronal genes qvr and stj , still exhibited high correlation in editing levels due to co-editing. iPrimer strategy further discovered differential recoding levels between the long/short 3’UTR isoforms of gene jef ."
+},
+{
+"label": "Conclusions",
+"text": "We provide the first comprehensive solution for isoform-specific PCR amplification of any gene, enabling quantification of RNA editing level of different isoforms. Our results offer insights into how RNA editing interplays with splicing, and highlight its complicated role in expanding molecular diversity."
+},
+{
+"label": "Graphical abstract",
+"text": "We developed isoform-specific PCR followed by Sanger sequencing, and achieved the quantification of differential RNA editing levels in different transcripts of a gene."
+}
+],
+"text": "Metazoan adenosine-to-inosine (A-to-I) mRNA editing temporospatially diversifies the neuronal transcriptome and proteome. The limited read length from next-generation sequencing (NGS) constrains the quantification of the potentially differential editing levels across different splicing isoforms, restricting our understanding of the extent to which RNA editing contributes to molecular diversity and its interplay with splicing. We employed reverse transcription nested PCR (RT-nPCR) and developed a novel interfering-Primer PCR (iPrimer PCR) technique to distinguish different transcripts of any gene. We selected multiple essential genes exhibiting RNA editing in coding sequences (CDSs) or untranslated regions (UTRs) for isoform-specific amplification and Sanger sequencing. Nine different Adar isoforms together with pre-mRNA had distinct editing levels at the S>G auto-recoding site, which was predicted to have isoform-specific effects on catalytic activities. Although pre-mRNA editing might exert isoform-dependent promotion/suppression of splicing, closely located editing sites, such as those in neuronal genes qvr and stj , still exhibited high correlation in editing levels due to co-editing. iPrimer strategy further discovered differential recoding levels between the long/short 3’UTR isoforms of gene jef . We provide the first comprehensive solution for isoform-specific PCR amplification of any gene, enabling quantification of RNA editing level of different isoforms. Our results offer insights into how RNA editing interplays with splicing, and highlight its complicated role in expanding molecular diversity. We developed isoform-specific PCR followed by Sanger sequencing, and achieved the quantification of differential RNA editing levels in different transcripts of a gene.",
+"statements": [
+{
+"j": 1,
+"text": "Enzyme assays confirmed that the isoform-specific editing differences change ADAR catalytic activity."
+},
+{
+"j": 2,
+"text": "Editing sites lying close together in the neuronal genes qvr and stj had tightly correlated editing levels, attributed to co-editing."
+},
+{
+"j": 3,
+"text": "The interfering-primer approach showed that the long and short 3'UTR forms of jef differ in how much they are recoded."
+},
+{
+"j": 4,
+"text": "Nine Adar isoforms and the pre-mRNA each carried a different editing level at the S>G auto-recoding site."
+}
+]
+},
+{
+"n": 924,
+"id": "doi:10.1101/2025.05.11.653140",
+"year": 2025,
+"field": "smallrna",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "In germ cells, small RNAs function as a defense system to silence invading RNAs like viruses and transposons to protect genome integrity. The ability of small RNAs to robustly silence diverse RNA sequences prompts the question of how endogenous mRNAs avoid this silencing. In C. elegans , small RNAs bound by the Argonaute CSR-1 protect endogenous mRNAs from silencing, while also fine-tuning a subset of these mRNAs. Here, we identify RNA Helicase A (RHA-1) as a key regulator of CSR-1 small RNA biogenesis and function in mRNA fine-tuning. RHA-1 localizes to germ granules dependent on EGO-1, which synthesizes CSR-1 small RNAs. We find RHA-1 promotes small RNA production from the 5’ regions of mRNAs and small RNA sorting to CSR-1. Loss of RHA-1 leads to elevated CSR-1 target mRNA levels and compromised fertility. Our study highlights the importance of small RNA regulation, mediated by RHA-1, to protect endogenous gene expression programs and germ cell function."
+}
+],
+"text": "In germ cells, small RNAs function as a defense system to silence invading RNAs like viruses and transposons to protect genome integrity. The ability of small RNAs to robustly silence diverse RNA sequences prompts the question of how endogenous mRNAs avoid this silencing. In C. elegans , small RNAs bound by the Argonaute CSR-1 protect endogenous mRNAs from silencing, while also fine-tuning a subset of these mRNAs. Here, we identify RNA Helicase A (RHA-1) as a key regulator of CSR-1 small RNA biogenesis and function in mRNA fine-tuning. RHA-1 localizes to germ granules dependent on EGO-1, which synthesizes CSR-1 small RNAs. We find RHA-1 promotes small RNA production from the 5’ regions of mRNAs and small RNA sorting to CSR-1. Loss of RHA-1 leads to elevated CSR-1 target mRNA levels and compromised fertility. Our study highlights the importance of small RNA regulation, mediated by RHA-1, to protect endogenous gene expression programs and germ cell function.",
+"statements": [
+{
+"j": 1,
+"text": "Worms lacking RHA-1 lose silencing of transposons in the germ line."
+},
+{
+"j": 2,
+"text": "RHA-1 needs EGO-1, the enzyme that makes CSR-1 small RNAs, in order to sit in germ granules."
+},
+{
+"j": 3,
+"text": "Losing RHA-1 pushed CSR-1 target mRNAs up and left the animals with impaired fertility."
+},
+{
+"j": 4,
+"text": "RHA-1 favours small RNA production from the 5' ends of mRNAs and their loading onto CSR-1."
+}
+]
+}
+]
+}

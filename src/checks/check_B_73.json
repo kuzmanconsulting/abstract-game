@@ -1,0 +1,73 @@
+{"batch": "check_B_73", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1375, "id": "pmid:39567747",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "In BRCA1/BRCA2 carriers, these occur before loss of heterozygosity (LOH) of wild-type alleles."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "present in a rare population of cells across almost all samples (n = 28)"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "enriched in luminal cells but absent in basal myoepithelial cells"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Using single-cell DNA sequencing (49,238 cells) of epithelium from BRCA1 and BRCA2 carriers or wild-type individuals, we identified recurrent CNAs (for example, 1q-gain and 7q, 10q, 16q and 22q-loss) that are present in a rare population of cells across almost all samples (n = 28)"}
+    ]},
+   {"n": 1376, "id": "pmid:39266532",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We identify a population of tumor adipocyte stem cells (ASC) showing striking similarities with adipocyte stromal progenitors found in white adipose tissue."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We identify a population of tumor adipocyte stem cells (ASC) showing striking similarities with adipocyte stromal progenitors found in white adipose tissue."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "their adipogenic properties are inhibited by a TGF-β-high immunosuppressive tumor micro-environment."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We show that tumor ASC harbor the ancestral genomic alterations of WD and DD components"}
+    ]},
+   {"n": 1377, "id": "pmid:39543136",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We uncover tumor type-specific patterns of 5mC deamination signatures in CpG and non-CpG contexts."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "we establish MBD4 as the main actor responsible for 5mC deamination repair in humans."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We validate our findings by modeling BER deficiencies in isogenic cell models."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "MBD4 preferentially binds to active chromatin and early replicating DNA, which correlates with lower mutational burden in these domains."}
+    ]},
+   {"n": 1378, "id": "pmid:39428388",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "by genetic profiling of 802 oral cavity squamous cell carcinomas (OCSCCs). In total, 73 OCSCC (9.1%) are classified as CNA-quiet and 729 as CNA-other."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "The CNA-quiet group is characterized by wild-type TP53, frequent CASP8 and HRAS mutations"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Patients with CNA-quiet OCSCC are older, more often women, less frequently current smokers, and have a better 5-year overall survival compared to CNA-other OCSCC."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "we present the hallmarks of the distinct subgroup of HPV-negative HNSCC with no or few CNAs (CNA-quiet) by genetic profiling of 802 oral cavity squamous cell carcinomas (OCSCCs)."}
+    ]},
+   {"n": 1379, "id": "pmid:39865078",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Heterozygous loss of ataxia-telangiectasia mutated (ATM) was observed in 67% of tumors, with its downregulation confirmed by single-cell RNA sequencing and immunohistochemistry"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "with JAK-STAT activation in tumors with clonal integration and NF-kappa B activation in those without."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "HPV + HNSCCs exhibited almost no smoking-induced mutational signatures."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Whole-genome sequencing of 51 tumors revealed intratumor heterogeneity of HPV integration, with 44% of breakpoints subclonal"}
+    ]},
+   {"n": 1380, "id": "pmid:38517886",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Mechanistically we show that chr4p loss is associated with enhanced proliferation."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Gene function studies identify an unknown gene, C4orf19, within chr4p, which suppresses proliferation when overexpressed-a member of the PDCD10-GCKIII kinase module we name PGCKA1."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Mechanistically we show that chr4p loss is associated with enhanced proliferation."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Phylogenetic analysis of a panel of 23 primary tumor/patient-derived xenograft basal breast cancers reveals early evolution of chr4p deletion."}
+    ]},
+   {"n": 1381, "id": "pmid:38232733",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Differential epigenome peaks were most enriched within 10 kb of chromothriptic structural variants."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "There were widespread differences between the chromothriptic and wild-type copies of chromosomes in topologically associated domains, chromatin accessibility, histone modifications, and gene expression."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We characterized five esophageal adenocarcinoma organoids with chromothripsis using long-read sequencing and transcriptome and epigenome profiling."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Chromosomes were assembled separately and scaffolded using haplotype-resolved Hi-C reads, producing accurate assemblies even with up to 900 structural rearrangements."}
+    ]},
+   {"n": 1382, "id": "pmid:37635261",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Bovine UC (n = 8) is distinctly different; we identify novel mutational signatures which are recapitulated in vitro in human urinary bladder UC cells treated with bracken fern extracts or purified ptaquiloside."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "We identify mismatch repair deficiency in a subset of canine and feline UCs with biallelic inactivation of MSH2."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Whole-exome sequencing of domestic canine (n = 87) and feline (n = 23) UC, and comparative analysis with human MIBC reveals a lower mutation rate in animal cases and the absence of APOBEC mutational signatures."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "A convergence of driver genes (ARID1A, KDM6A, TP53, FAT1, and NRAS) is discovered"}
+    ]},
+   {"n": 1383, "id": "pmid:41688639",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "we report 134 signatures, 26 of which are new to COSMIC, including an SV signature reference set."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Across the five mutation classes, we report 134 signatures, 26 of which are new to COSMIC, including an SV signature reference set."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "structural variations (SVs), extracted de novo from WGS in 10,983 patients across 16 tumor types recruited to the 100,000 Genomes Project."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "By relating signatures to genomic features and clinical phenotypes, we provide further insights into mutagenic processes"}
+    ]},
+   {"n": 1384, "id": "pmid:41062697",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Using ultradeep duplex DNA sequencing (approximately 5,000×), we identified thousands of clonal driver mutations in 16 genes across 79 normal bladder samples from 45 people."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Men had significantly more truncating driver mutations in RBM10, CDKN1A and ARID1A than women, despite similar levels of non-protein-affecting mutations."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We also found activating TERT promoter mutations driving clonal expansions in the normal bladder that were associated strongly with age and smoking."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We also found activating TERT promoter mutations driving clonal expansions in the normal bladder that were associated strongly with age and smoking."}
+    ]}
+ ]}

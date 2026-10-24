@@ -1,0 +1,73 @@
+{"batch": "check_B_113", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1775, "id": "pmid:35650444",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Here we track 697 clonal haematopoiesis clones from 385 individuals 55 years of age or older over a median of 13 years."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "We find that 92.4% of clones expanded at a stable exponential rate over the study period, with different mutations driving substantially different growth rates, ranging from 5% (DNMT3A and TP53) to more than 50% per year (SRSF2 P95H )", "flag": "ambiguous", "reason": "The growth-rate figures match, but the abstract frames 92.4% as a large majority, so calling it 'few' contradicts the stated magnitude."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "DNMT3A-mutant clones preferentially expanded early in life and displayed slower growth in old age"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we show that mutations driving faster clonal growth carry a higher risk of malignant progression"}
+    ]},
+   {"n": 1776, "id": "pmid:35835912",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "increasing the number of germline associations with CH in European-ancestry populations from 4 to 14"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "genetic predisposition to CH increases risks of myeloproliferative neoplasia, nonhematological malignancies, atrial fibrillation and blood epigenetic ageing"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "variants at TCL1A and CD164 that had opposite associations with DNMT3A- versus TET2-mutant CH, the two most common CH subtypes"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Genes at new loci implicate DNA damage repair (PARP1, ATM, CHEK2), hematopoietic stem cell migration/homing (CD164) and myeloid oncogenesis (SETBP1)"}
+    ]},
+   {"n": 1777, "id": "pmid:28092664",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "targeting inflammasome components may ameliorate chronic inflammation and various other age-associated conditions"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "In individuals over 85 years of age, the elevated expression of inflammasome gene modules was associated with all-cause mortality"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "the expression of specific inflammasome gene modules stratifies older individuals into two extremes"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Adenine and N 4 -acetylcytidine, nucleotide-derived metabolites that are detectable in the blood of the former group, prime and activate the NLRC4 inflammasome, induce the production of IL-1β, activate platelets and neutrophils and elevate blood pressure in mice"}
+    ]},
+   {"n": 1778, "id": "pmid:32341413",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "In aged mice, our compound effectively cleared senescent cells in different tissues, decreased the senescence- and age-associated gene signatures, attenuated low-grade local and systemic inflammation, and restored physical function"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "providing a novel strategy to develop anti-aging interventions"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "we developed a prodrug strategy to design a new compound based on the increased activity of lysosomal β-galactosidase (β-gal), a primary characteristic of senescent cells"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Our prodrug SSK1 is specifically activated by β-gal and eliminates mouse and human senescent cells independently of senescence inducers and cell types"}
+    ]},
+   {"n": 1779, "id": "pmid:33743191",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "observed the substantial expansion of Dnmt3a -/- HSCs during chronic mycobacterial infection"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "reduced differentiation associated with widespread methylation alterations, and reduced secondary stress-induced apoptosis accounts for Dnmt3a -/- clonal expansion during infection"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Injection of recombinant IFNγ alone was sufficient to phenocopy CH by Dnmt3a -/- HSCs upon infection"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We thus demonstrate that IFNγ signaling induced during chronic infection can drive DNMT3A-loss-of-function CH"}
+    ]},
+   {"n": 1780, "id": "pmid:35768505",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "YAP/TAZ activity declines during physiological ageing in stromal cells"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "sustaining YAP function rejuvenates old cells and opposes the emergence of ageing-related traits"},
+      {"j": 3, "label": "not_addressed", "confidence": 2, "evidence": "sustaining YAP/TAZ mechanosignalling or inhibiting STING may represent promising approaches for limiting senescence-associated inflammation and improving healthy ageing"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "YAP/TAZ mechanotransduction suppresses cGAS-STING signalling, to the extent that inhibition of STING prevents tissue senescence and premature ageing-related tissue degeneration after YAP/TAZ inactivation"}
+    ]},
+   {"n": 1781, "id": "pmid:31474573",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Spermidine supplementation restored this pathway and improved the responses of old human B cells"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Autophagy levels are specifically reduced in mature lymphocytes, leading to compromised memory B cell responses in old individuals"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Spermidine, an endogenous polyamine metabolite, induces autophagy in vivo and rejuvenates memory B cell responses"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "which can be harnessed to reverse immune senescence in humans"}
+    ]},
+   {"n": 1782, "id": "pmid:32041686",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The largest effects were seen for methylation age estimators (GrimAge) and the frailty index (FI)"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "average levels of BA curves differed by sex across the age span (50-90 years). All BAs were correlated to varying degrees; correlations were mostly explained by CA"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We found the longitudinal growth of functional BAs accelerated around age 70"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "In joint models, two methylation age estimators (Horvath and GrimAge) and FI remained predictive, suggesting they are complementary in predicting mortality"}
+    ]},
+   {"n": 1783, "id": "pmid:35143297",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Deletion of Pla2g7 in mice showed decreased thymic lipoatrophy, protection against age-related inflammation, lowered NLRP3 inflammasome activation, and improved metabolic health"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "about 14% CR for 2 years in healthy humans improved thymopoiesis and was correlated with mobilization of intrathymic ectopic lipid"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "the reduction of PLA2G7 may mediate the immunometabolic effects of CR and could potentially be harnessed to lower inflammation and extend the health span"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Expression of the gene Pla2g7 encoding platelet activating factor acetyl hydrolase (PLA2G7) is inhibited in humans undergoing CR"}
+    ]},
+   {"n": 1784, "id": "pmid:28607003",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "p21 knockout in mice eliminated liver senescent stellate cells and alleviated liver fibrosis and collagen production"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Upon p21 knockdown, senescent cells acquired multiple DNA lesions that activated ataxia telangiectasia mutated (ATM) and nuclear factor (NF)-κB kinase, leading to decreased cell survival"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "the CDK inhibitor p21 (CDKN1A) maintains the viability of DNA damage-induced senescent cells"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "These findings define a novel pathway that regulates senescent cell viability and fibrosis"}
+    ]}
+ ]}

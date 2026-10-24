@@ -1,0 +1,503 @@
+{
+"batch": "check_C_40",
+"pass": "C",
+"source_batch": "gen_40",
+"items": [
+{
+"n": 985,
+"id": "pmid:40882628",
+"year": 2025,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Performing total RNA profiling on formalin-fixed, paraffin-embedded (FFPE) samples, the predominant sample conservation method in clinical practice, remains challenging for current spatial transcriptomics techniques. Here, we introduce Stereo-seq V2, which employs random primers to capture and sequence RNAs in situ on FFPE sections and provides single-cell resolution. The random-priming-based strategy offers unbiased transcript capturing and uniform gene body coverage, which increase the sensitivity to marker genes, the efficiency of non-polyadenylation (poly(A)) RNA profiling, and immune repertoire coverage. We demonstrated the robust performance of Stereo-seq V2 on clinical FFPE samples using triple-negative breast cancer (TNBC) sections and identified tumor-specific alternative splicing events. In a Mycobacterium tuberculosis (Mtb)-infected mouse model, we monitored gene expression dynamics of host and pathogen transcriptomes simultaneously by utilizing Stereo-seq V2. We also assembled immune repertoires and identified Mtb-specific BCR clones, which could also be observed in human tuberculous lung samples. These results highlight Stereo-seq V2's potential in biomedical research and personalized medicine."
+}
+],
+"text": "Performing total RNA profiling on formalin-fixed, paraffin-embedded (FFPE) samples, the predominant sample conservation method in clinical practice, remains challenging for current spatial transcriptomics techniques. Here, we introduce Stereo-seq V2, which employs random primers to capture and sequence RNAs in situ on FFPE sections and provides single-cell resolution. The random-priming-based strategy offers unbiased transcript capturing and uniform gene body coverage, which increase the sensitivity to marker genes, the efficiency of non-polyadenylation (poly(A)) RNA profiling, and immune repertoire coverage. We demonstrated the robust performance of Stereo-seq V2 on clinical FFPE samples using triple-negative breast cancer (TNBC) sections and identified tumor-specific alternative splicing events. In a Mycobacterium tuberculosis (Mtb)-infected mouse model, we monitored gene expression dynamics of host and pathogen transcriptomes simultaneously by utilizing Stereo-seq V2. We also assembled immune repertoires and identified Mtb-specific BCR clones, which could also be observed in human tuberculous lung samples. These results highlight Stereo-seq V2's potential in biomedical research and personalized medicine.",
+"statements": [
+{
+"j": 1,
+"text": "The tumor-specific splicing events found in TNBC sections were associated with patient survival."
+},
+{
+"j": 2,
+"text": "Random priming in Stereo-seq V2 yields uniform gene body coverage and decreases sensitivity to marker genes and immune repertoire coverage."
+},
+{
+"j": 3,
+"text": "In FFPE sections of triple-negative breast cancer, the method identified alternative splicing events specific to the tumor."
+},
+{
+"j": 4,
+"text": "Mtb-specific BCR clones identified in infected mice were also detectable in human tuberculous lung samples."
+}
+]
+},
+{
+"n": 986,
+"id": "pmid:40875841",
+"year": 2025,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Horsepower revolutionized human history through enhanced mobility, transport, and warfare. However, the suite of biological traits that reshaped horses during domestication remains unclear. We scanned an extensive horse genome time series for selection signatures at 266 markers associated with key traits. We detected a signature of positive selection at ZFPM1 -known to be a modulator of behavior in mice-occurring ~5000 years ago (ya), suggesting that taming was one of the earliest steps toward domestication of horses. Intensive selection at GSDMC began ~4750 ya with the domestication bottleneck, leading regulatory variants to high frequency by ~4150 ya. GSDMC genotypes are linked to body conformation in horses and to spinal anatomy, motor coordination, and muscular strength in mice. Our results suggest that selection on standing variation at GSDMC was crucial for the emergence of horses that could facilitate fast mobility in human societies ~4200 ya."
+}
+],
+"text": "Horsepower revolutionized human history through enhanced mobility, transport, and warfare. However, the suite of biological traits that reshaped horses during domestication remains unclear. We scanned an extensive horse genome time series for selection signatures at 266 markers associated with key traits. We detected a signature of positive selection at ZFPM1 -known to be a modulator of behavior in mice-occurring ~5000 years ago (ya), suggesting that taming was one of the earliest steps toward domestication of horses. Intensive selection at GSDMC began ~4750 ya with the domestication bottleneck, leading regulatory variants to high frequency by ~4150 ya. GSDMC genotypes are linked to body conformation in horses and to spinal anatomy, motor coordination, and muscular strength in mice. Our results suggest that selection on standing variation at GSDMC was crucial for the emergence of horses that could facilitate fast mobility in human societies ~4200 ya.",
+"statements": [
+{
+"j": 1,
+"text": "The selection scan examined 266 trait-associated markers across a time series of horse genomes."
+},
+{
+"j": 2,
+"text": "Modern horse breeds carrying the selected GSDMC variants are faster than breeds that lack them."
+},
+{
+"j": 3,
+"text": "The selection signal at ZFPM1, dated to about 5000 years ago, predates the onset of intensive selection at GSDMC around 4750 years ago."
+},
+{
+"j": 4,
+"text": "Regulatory variants at GSDMC reached high frequency by roughly 4150 years ago, following the domestication bottleneck."
+}
+]
+},
+{
+"n": 987,
+"id": "pmid:40107723",
+"year": 2025,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Splicing is often dysregulated in cancer, leading to alterations in the expression of canonical and alternatively spliced isoforms. We used the multiplexed arrays sequencing (MAS-seq) protocol of PacBio to sequence full-length transcripts in patient-derived organoid (PDO) cells of clear cell renal cell carcinoma (ccRCC). The sequencing revealed a heterogeneous dysregulation of splicing across 2599 single ccRCC cells. The majority of novel transcripts could be removed with stringent filtering criteria. The remaining 31,531 transcripts (36.6% of the 86,182 detected transcripts on average) were previously uncharacterized. In contrast to known transcripts, many of the novel transcripts have cell-specific expression. Novel transcripts common to ccRCC cells belong to genes involved in ccRCC-related pathways, such as hypoxia and oxidative phosphorylation. A novel transcript of the ccRCC-related gene nicotinamide N-methyltransferase is validated using PCR. Moreover, >50% of novel transcripts possess a predicted complete protein-coding open reading frame. An analysis of the most dominant transcript-switching events between ccRCC and non-ccRCC cells shows many switching events that are cell- and sample-specific, underscoring the heterogeneity of alternative splicing events in ccRCC. Overall, our study elucidates the intricate transcriptomic architecture of ccRCC, underlying its aggressive phenotype and providing insights into its molecular complexity."
+}
+],
+"text": "Splicing is often dysregulated in cancer, leading to alterations in the expression of canonical and alternatively spliced isoforms. We used the multiplexed arrays sequencing (MAS-seq) protocol of PacBio to sequence full-length transcripts in patient-derived organoid (PDO) cells of clear cell renal cell carcinoma (ccRCC). The sequencing revealed a heterogeneous dysregulation of splicing across 2599 single ccRCC cells. The majority of novel transcripts could be removed with stringent filtering criteria. The remaining 31,531 transcripts (36.6% of the 86,182 detected transcripts on average) were previously uncharacterized. In contrast to known transcripts, many of the novel transcripts have cell-specific expression. Novel transcripts common to ccRCC cells belong to genes involved in ccRCC-related pathways, such as hypoxia and oxidative phosphorylation. A novel transcript of the ccRCC-related gene nicotinamide N-methyltransferase is validated using PCR. Moreover, >50% of novel transcripts possess a predicted complete protein-coding open reading frame. An analysis of the most dominant transcript-switching events between ccRCC and non-ccRCC cells shows many switching events that are cell- and sample-specific, underscoring the heterogeneity of alternative splicing events in ccRCC. Overall, our study elucidates the intricate transcriptomic architecture of ccRCC, underlying its aggressive phenotype and providing insights into its molecular complexity.",
+"statements": [
+{
+"j": 1,
+"text": "The novel transcripts with complete open reading frames were shown to produce proteins in ccRCC cells."
+},
+{
+"j": 2,
+"text": "Of the transcripts detected on average, 36.6% (31,531) were previously uncharacterized after stringent filtering."
+},
+{
+"j": 3,
+"text": "Many novel transcripts showed cell-specific expression, unlike known transcripts."
+},
+{
+"j": 4,
+"text": "Less than half of the novel transcripts have a predicted complete protein-coding open reading frame."
+}
+]
+},
+{
+"n": 988,
+"id": "pmid:40739582",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Because transposable elements (TEs) can cause heritable genetic changes, past work on TE mobility in Arabidopsis thaliana has mostly focused on new TE insertions in the germline of hypomethylated plants. It is, however, well-known that TEs can also be active in the soma, although the high-confidence detection of somatic events has been challenging."
+},
+{
+"label": "Results",
+"text": "Here, we leverage the high accuracy of PacBio HiFi long reads to evaluate the somatic mobility of TEs in individuals of an A. thaliana non-reference strain lacking activity of METHYLTRANSFERASE1 (MET1), a major component of the DNA methylation maintenance machinery. Most somatically mobile families coincide with those found in germline studies of hypomethylated genotypes, although the exact TE copies differ. We also discover mobile elements that had been missed by standard TE annotation methods. Somatic TE activity is variable among individual plants, but also within TE families. Finally, our approach points to the possible involvement of alternative transposition as a cause for somatic hypermutability in a region that contains two closely spaced VANDAL21 elements."
+},
+{
+"label": "Conclusions",
+"text": "Long-read sequencing reveals widespread TE transposition in the soma of A. thaliana hypomethylated mutants. Assessing somatic instead of germline mobilization is a fast and reliable method to investigate different aspects of TE mobility at the single plant level."
+}
+],
+"text": "Because transposable elements (TEs) can cause heritable genetic changes, past work on TE mobility in Arabidopsis thaliana has mostly focused on new TE insertions in the germline of hypomethylated plants. It is, however, well-known that TEs can also be active in the soma, although the high-confidence detection of somatic events has been challenging. Here, we leverage the high accuracy of PacBio HiFi long reads to evaluate the somatic mobility of TEs in individuals of an A. thaliana non-reference strain lacking activity of METHYLTRANSFERASE1 (MET1), a major component of the DNA methylation maintenance machinery. Most somatically mobile families coincide with those found in germline studies of hypomethylated genotypes, although the exact TE copies differ. We also discover mobile elements that had been missed by standard TE annotation methods. Somatic TE activity is variable among individual plants, but also within TE families. Finally, our approach points to the possible involvement of alternative transposition as a cause for somatic hypermutability in a region that contains two closely spaced VANDAL21 elements. Long-read sequencing reveals widespread TE transposition in the soma of A. thaliana hypomethylated mutants. Assessing somatic instead of germline mobilization is a fast and reliable method to investigate different aspects of TE mobility at the single plant level.",
+"statements": [
+{
+"j": 1,
+"text": "The TE families mobile in the soma mostly match those seen in germline studies of hypermethylated genotypes, but the specific copies differ."
+},
+{
+"j": 2,
+"text": "Somatic TE activity varied between individual plants and also within TE families."
+},
+{
+"j": 3,
+"text": "Some of the mobile elements found had been missed by standard TE annotation methods."
+},
+{
+"j": 4,
+"text": "Somatic TE insertions detected in the met1 plants were inherited by their offspring."
+}
+]
+},
+{
+"n": 989,
+"id": "pmid:32795414",
+"year": 2020,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "There is an unmet clinical need for improved tissue and liquid biopsy tools for cancer detection. We investigated the proteomic profile of extracellular vesicles and particles (EVPs) in 426 human samples from tissue explants (TEs), plasma, and other bodily fluids. Among traditional exosome markers, CD9, HSPA8, ALIX, and HSP90AB1 represent pan-EVP markers, while ACTB, MSN, and RAP1B are novel pan-EVP markers. To confirm that EVPs are ideal diagnostic tools, we analyzed proteomes of TE- (n = 151) and plasma-derived (n = 120) EVPs. Comparison of TE EVPs identified proteins (e.g., VCAN, TNC, and THBS2) that distinguish tumors from normal tissues with 90% sensitivity/94% specificity. Machine-learning classification of plasma-derived EVP cargo, including immunoglobulins, revealed 95% sensitivity/90% specificity in detecting cancer. Finally, we defined a panel of tumor-type-specific EVP proteins in TEs and plasma, which can classify tumors of unknown primary origin. Thus, EVP proteins can serve as reliable biomarkers for cancer detection and determining cancer type."
+}
+],
+"text": "There is an unmet clinical need for improved tissue and liquid biopsy tools for cancer detection. We investigated the proteomic profile of extracellular vesicles and particles (EVPs) in 426 human samples from tissue explants (TEs), plasma, and other bodily fluids. Among traditional exosome markers, CD9, HSPA8, ALIX, and HSP90AB1 represent pan-EVP markers, while ACTB, MSN, and RAP1B are novel pan-EVP markers. To confirm that EVPs are ideal diagnostic tools, we analyzed proteomes of TE- (n = 151) and plasma-derived (n = 120) EVPs. Comparison of TE EVPs identified proteins (e.g., VCAN, TNC, and THBS2) that distinguish tumors from normal tissues with 90% sensitivity/94% specificity. Machine-learning classification of plasma-derived EVP cargo, including immunoglobulins, revealed 95% sensitivity/90% specificity in detecting cancer. Finally, we defined a panel of tumor-type-specific EVP proteins in TEs and plasma, which can classify tumors of unknown primary origin. Thus, EVP proteins can serve as reliable biomarkers for cancer detection and determining cancer type.",
+"statements": [
+{
+"j": 1,
+"text": "The plasma EVP classifier detects early-stage cancers as accurately as advanced-stage cancers."
+},
+{
+"j": 2,
+"text": "Tissue-explant EVP proteins such as VCAN, TNC and THBS2 separated tumors from normal tissue with 90% sensitivity and 94% specificity."
+},
+{
+"j": 3,
+"text": "Machine-learning classification of plasma EVP cargo detected cancer with 95% sensitivity and 90% specificity."
+},
+{
+"j": 4,
+"text": "ACTB, MSN and RAP1B were identified as new pan-EVP markers, in addition to traditional markers like CD9 and ALIX."
+}
+]
+},
+{
+"n": 990,
+"id": "pmid:35022609",
+"year": 2022,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Since the first half of the twentieth century, evolutionary theory has been dominated by the idea that mutations occur randomly with respect to their consequences 1 . Here we test this assumption with large surveys of de novo mutations in the plant Arabidopsis thaliana. In contrast to expectations, we find that mutations occur less often in functionally constrained regions of the genome-mutation frequency is reduced by half inside gene bodies and by two-thirds in essential genes. With independent genomic mutation datasets, including from the largest Arabidopsis mutation accumulation experiment conducted to date, we demonstrate that epigenomic and physical features explain over 90% of variance in the genome-wide pattern of mutation bias surrounding genes. Observed mutation frequencies around genes in turn accurately predict patterns of genetic polymorphisms in natural Arabidopsis accessions (r = 0.96). That mutation bias is the primary force behind patterns of sequence evolution around genes in natural accessions is supported by analyses of allele frequencies. Finally, we find that genes subject to stronger purifying selection have a lower mutation rate. We conclude that epigenome-associated mutation bias 2 reduces the occurrence of deleterious mutations in Arabidopsis, challenging the prevailing paradigm that mutation is a directionless force in evolution."
+}
+],
+"text": "Since the first half of the twentieth century, evolutionary theory has been dominated by the idea that mutations occur randomly with respect to their consequences 1 . Here we test this assumption with large surveys of de novo mutations in the plant Arabidopsis thaliana. In contrast to expectations, we find that mutations occur less often in functionally constrained regions of the genome-mutation frequency is reduced by half inside gene bodies and by two-thirds in essential genes. With independent genomic mutation datasets, including from the largest Arabidopsis mutation accumulation experiment conducted to date, we demonstrate that epigenomic and physical features explain over 90% of variance in the genome-wide pattern of mutation bias surrounding genes. Observed mutation frequencies around genes in turn accurately predict patterns of genetic polymorphisms in natural Arabidopsis accessions (r = 0.96). That mutation bias is the primary force behind patterns of sequence evolution around genes in natural accessions is supported by analyses of allele frequencies. Finally, we find that genes subject to stronger purifying selection have a lower mutation rate. We conclude that epigenome-associated mutation bias 2 reduces the occurrence of deleterious mutations in Arabidopsis, challenging the prevailing paradigm that mutation is a directionless force in evolution.",
+"statements": [
+{
+"j": 1,
+"text": "Mutation rates are lower in genes experiencing stronger purifying selection."
+},
+{
+"j": 2,
+"text": "The reduced mutation rate inside gene bodies was also observed in animal genomes."
+},
+{
+"j": 3,
+"text": "Mutation frequency was halved inside gene bodies and cut by two-thirds in essential genes."
+},
+{
+"j": 4,
+"text": "Epigenomic and physical features explained less than 90% of the variance in mutation bias around genes."
+}
+]
+},
+{
+"n": 991,
+"id": "pmid:38428424",
+"year": 2024,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "We sequenced and assembled using multiple long-read sequencing technologies the genomes of chimpanzee, bonobo, gorilla, orangutan, gibbon, macaque, owl monkey, and marmoset. We identified 1,338,997 lineage-specific fixed structural variants (SVs) disrupting 1,561 protein-coding genes and 136,932 regulatory elements, including the most complete set of human-specific fixed differences. We estimate that 819.47 Mbp or ∼27% of the genome has been affected by SVs across primate evolution. We identify 1,607 structurally divergent regions wherein recurrent structural variation contributes to creating SV hotspots where genes are recurrently lost (e.g., CARD, C4, and OLAH gene families) and additional lineage-specific genes are generated (e.g., CKAP2, VPS36, ACBD7, and NEK5 paralogs), becoming targets of rapid chromosomal diversification and positive selection (e.g., RGPD gene family). High-fidelity long-read sequencing has made these dynamic regions of the genome accessible for sequence-level analyses within and between primate species."
+}
+],
+"text": "We sequenced and assembled using multiple long-read sequencing technologies the genomes of chimpanzee, bonobo, gorilla, orangutan, gibbon, macaque, owl monkey, and marmoset. We identified 1,338,997 lineage-specific fixed structural variants (SVs) disrupting 1,561 protein-coding genes and 136,932 regulatory elements, including the most complete set of human-specific fixed differences. We estimate that 819.47 Mbp or ∼27% of the genome has been affected by SVs across primate evolution. We identify 1,607 structurally divergent regions wherein recurrent structural variation contributes to creating SV hotspots where genes are recurrently lost (e.g., CARD, C4, and OLAH gene families) and additional lineage-specific genes are generated (e.g., CKAP2, VPS36, ACBD7, and NEK5 paralogs), becoming targets of rapid chromosomal diversification and positive selection (e.g., RGPD gene family). High-fidelity long-read sequencing has made these dynamic regions of the genome accessible for sequence-level analyses within and between primate species.",
+"statements": [
+{
+"j": 1,
+"text": "Human-specific fixed structural variants are more numerous than chimpanzee-specific ones."
+},
+{
+"j": 2,
+"text": "The study identified 1,338,997 lineage-specific fixed structural variants that disrupt 1,561 protein-coding genes."
+},
+{
+"j": 3,
+"text": "Within 1,607 structurally conserved regions, recurrent structural variation created hotspots where gene families were repeatedly lost and new lineage-specific genes arose."
+},
+{
+"j": 4,
+"text": "An estimated 819.47 Mbp, around 27% of the genome, has been affected by structural variation during primate evolution."
+}
+]
+},
+{
+"n": 992,
+"id": "pmid:33434495",
+"year": 2021,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Despite considerable efforts, the mechanisms linking genomic alterations to the transcriptional identity of cancer cells remain elusive. Integrative genomic analysis, using a network-based approach, identified 407 master regulator (MR) proteins responsible for canalizing the genetics of individual samples from 20 cohorts in The Cancer Genome Atlas (TCGA) into 112 transcriptionally distinct tumor subtypes. MR proteins could be further organized into 24 pan-cancer, master regulator block modules (MRBs), each regulating key cancer hallmarks and predictive of patient outcome in multiple cohorts. Of all somatic alterations detected in each individual sample, >50% were predicted to induce aberrant MR activity, yielding insight into mechanisms linking tumor genetics and transcriptional identity and establishing non-oncogene dependencies. Genetic and pharmacological validation assays confirmed the predicted effect of upstream mutations and MR activity on downstream cellular identity and phenotype. Thus, co-analysis of mutational and gene expression profiles identified elusive subtypes and provided testable hypothesis for mechanisms mediating the effect of genetic alterations."
+}
+],
+"text": "Despite considerable efforts, the mechanisms linking genomic alterations to the transcriptional identity of cancer cells remain elusive. Integrative genomic analysis, using a network-based approach, identified 407 master regulator (MR) proteins responsible for canalizing the genetics of individual samples from 20 cohorts in The Cancer Genome Atlas (TCGA) into 112 transcriptionally distinct tumor subtypes. MR proteins could be further organized into 24 pan-cancer, master regulator block modules (MRBs), each regulating key cancer hallmarks and predictive of patient outcome in multiple cohorts. Of all somatic alterations detected in each individual sample, >50% were predicted to induce aberrant MR activity, yielding insight into mechanisms linking tumor genetics and transcriptional identity and establishing non-oncogene dependencies. Genetic and pharmacological validation assays confirmed the predicted effect of upstream mutations and MR activity on downstream cellular identity and phenotype. Thus, co-analysis of mutational and gene expression profiles identified elusive subtypes and provided testable hypothesis for mechanisms mediating the effect of genetic alterations.",
+"statements": [
+{
+"j": 1,
+"text": "Pharmacological targeting of master regulators improved survival in cancer patients."
+},
+{
+"j": 2,
+"text": "A network-based analysis of 20 TCGA cohorts identified 407 master regulator proteins that sort samples into 112 transcriptionally distinct subtypes."
+},
+{
+"j": 3,
+"text": "Less than half of the somatic alterations in each sample were predicted to cause aberrant master regulator activity."
+},
+{
+"j": 4,
+"text": "Master regulators grouped into 24 pan-cancer block modules, each predictive of patient outcome across multiple cohorts."
+}
+]
+},
+{
+"n": 993,
+"id": "pmid:42680740",
+"year": 2026,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Today's ecosystems are severely depleted in megaherbivores (≥ 1000 kg) and lack many of the ecological functions once provided by these landscape engineers. Whether attributed to humans or climate, prevailing views of megaherbivore decline have focused on size-biased extinction (i.e., higher extinction rates among the largest species) while neglecting the role of speciation rates. To fully contextualize the decline of African megaherbivores, we examine 23 million years (Myrs) of African ungulate diversification using neural network models. Starting around 7.2 million years ago (Ma), African ungulate faunas witnessed overall accelerations in speciation and extinction rates. While speciation plateaued after 3.6 Ma, extinction rates increased sharply at the onset of the Pleistocene (2.58 Ma), leading to widespread diversity losses across herbivore guilds. Yet, we find that extinction rates are intrinsically lower in large-size lineages and in larger species within families. High-crowned dentitions, which last longer under hard, abrasive diets, are also associated with a suppression of extinction rates. Importantly, speciation rates in the largest herbivores are intrinsically low, and in some lineages were suppressed in response to increasing aridification during the last 5 Myrs. Our findings highlight the macroevolutionary complexity behind megaherbivore decline, advancing understanding of biotic crises involving large-bodied taxa."
+}
+],
+"text": "Today's ecosystems are severely depleted in megaherbivores (≥ 1000 kg) and lack many of the ecological functions once provided by these landscape engineers. Whether attributed to humans or climate, prevailing views of megaherbivore decline have focused on size-biased extinction (i.e., higher extinction rates among the largest species) while neglecting the role of speciation rates. To fully contextualize the decline of African megaherbivores, we examine 23 million years (Myrs) of African ungulate diversification using neural network models. Starting around 7.2 million years ago (Ma), African ungulate faunas witnessed overall accelerations in speciation and extinction rates. While speciation plateaued after 3.6 Ma, extinction rates increased sharply at the onset of the Pleistocene (2.58 Ma), leading to widespread diversity losses across herbivore guilds. Yet, we find that extinction rates are intrinsically lower in large-size lineages and in larger species within families. High-crowned dentitions, which last longer under hard, abrasive diets, are also associated with a suppression of extinction rates. Importantly, speciation rates in the largest herbivores are intrinsically low, and in some lineages were suppressed in response to increasing aridification during the last 5 Myrs. Our findings highlight the macroevolutionary complexity behind megaherbivore decline, advancing understanding of biotic crises involving large-bodied taxa.",
+"statements": [
+{
+"j": 1,
+"text": "Extinction rates rose sharply at the onset of the Pleistocene (2.58 Ma), after speciation had leveled off following 3.6 Ma."
+},
+{
+"j": 2,
+"text": "The largest herbivores have intrinsically low speciation rates, and in some lineages speciation was further suppressed by aridification over the last 5 million years."
+},
+{
+"j": 3,
+"text": "Intrinsic extinction rates are higher in large-bodied lineages and in the larger species within families."
+},
+{
+"j": 4,
+"text": "Hominin hunting was the main driver of the Pleistocene increase in ungulate extinction rates."
+}
+]
+},
+{
+"n": 994,
+"id": "pmid:42086854",
+"year": 2026,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Pangenomes are increasingly important for harnessing crop genetic diversity, yet their resolution and utility are often limited by insufficient sampling of high-quality genome assemblies. Here we present a population-level watermelon super-pangenome constructed from 138 reference-grade assemblies, including 135 newly generated genomes representing all seven species. This super-pangenome captures approximately 1 million structural variants (SVs), enabling accurate variant genotyping across 914 accessions. Broader sampling within the pangenome provides insights into watermelon genome evolution and the origin of cultivated watermelon. Incorporating SVs into genome-wide association studies improves mapping resolution and reveals a copy number variant upstream of ClFCI1 that regulates flesh color intensity in a dosage-dependent manner. Leveraging this comprehensive variation map, we developed high-accuracy genomic prediction models for 18 agronomic traits. Together, these findings and genomic resources establish a foundation for dissecting complex traits and accelerating precision breeding in watermelon, while offering a valuable model for SV-resolved pangenomics in crops."
+}
+],
+"text": "Pangenomes are increasingly important for harnessing crop genetic diversity, yet their resolution and utility are often limited by insufficient sampling of high-quality genome assemblies. Here we present a population-level watermelon super-pangenome constructed from 138 reference-grade assemblies, including 135 newly generated genomes representing all seven species. This super-pangenome captures approximately 1 million structural variants (SVs), enabling accurate variant genotyping across 914 accessions. Broader sampling within the pangenome provides insights into watermelon genome evolution and the origin of cultivated watermelon. Incorporating SVs into genome-wide association studies improves mapping resolution and reveals a copy number variant upstream of ClFCI1 that regulates flesh color intensity in a dosage-dependent manner. Leveraging this comprehensive variation map, we developed high-accuracy genomic prediction models for 18 agronomic traits. Together, these findings and genomic resources establish a foundation for dissecting complex traits and accelerating precision breeding in watermelon, while offering a valuable model for SV-resolved pangenomics in crops.",
+"statements": [
+{
+"j": 1,
+"text": "About one million structural variants were captured, allowing accurate genotyping in 914 accessions."
+},
+{
+"j": 2,
+"text": "The super-pangenome was built from 138 reference-grade assemblies, 135 of them newly generated, covering all seven watermelon species."
+},
+{
+"j": 3,
+"text": "Cultivated watermelon was domesticated from a single wild progenitor species."
+},
+{
+"j": 4,
+"text": "Flesh color intensity is controlled, in a dosage-dependent way, by a copy number variant lying upstream of ClFCI1."
+}
+]
+},
+{
+"n": 995,
+"id": "pmid:37751945",
+"year": 2023,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "We report the generation of an organism-wide catalog of 976,813 cis -acting regulatory elements for the bovine detected by the assay for transposase accessible chromatin using sequencing (ATAC-seq). We regroup these regulatory elements in 16 components by nonnegative matrix factorization. Correlation between the genome-wide density of peaks and transcription start sites, correlation between peak accessibility and expression of neighboring genes, and enrichment in transcription factor binding motifs support their regulatory potential. Using a previously established catalog of 12,736,643 variants, we show that the proportion of single-nucleotide polymorphisms mapping to ATAC-seq peaks is higher than expected and that this is owing to an approximately 1.3-fold higher mutation rate within peaks. Their site frequency spectrum indicates that variants in ATAC-seq peaks are subject to purifying selection. We generate eQTL data sets for liver and blood and show that variants that drive eQTL fall into liver- and blood-specific ATAC-seq peaks more often than expected by chance. We combine ATAC-seq and eQTL data to estimate that the proportion of regulatory variants mapping to ATAC-seq peaks is approximately one in three and that the proportion of variants mapping to ATAC-seq peaks that are regulatory is approximately one in 25. We discuss the implication of these findings on the utility of ATAC-seq information to improve the accuracy of genomic selection."
+}
+],
+"text": "We report the generation of an organism-wide catalog of 976,813 cis -acting regulatory elements for the bovine detected by the assay for transposase accessible chromatin using sequencing (ATAC-seq). We regroup these regulatory elements in 16 components by nonnegative matrix factorization. Correlation between the genome-wide density of peaks and transcription start sites, correlation between peak accessibility and expression of neighboring genes, and enrichment in transcription factor binding motifs support their regulatory potential. Using a previously established catalog of 12,736,643 variants, we show that the proportion of single-nucleotide polymorphisms mapping to ATAC-seq peaks is higher than expected and that this is owing to an approximately 1.3-fold higher mutation rate within peaks. Their site frequency spectrum indicates that variants in ATAC-seq peaks are subject to purifying selection. We generate eQTL data sets for liver and blood and show that variants that drive eQTL fall into liver- and blood-specific ATAC-seq peaks more often than expected by chance. We combine ATAC-seq and eQTL data to estimate that the proportion of regulatory variants mapping to ATAC-seq peaks is approximately one in three and that the proportion of variants mapping to ATAC-seq peaks that are regulatory is approximately one in 25. We discuss the implication of these findings on the utility of ATAC-seq information to improve the accuracy of genomic selection.",
+"statements": [
+{
+"j": 1,
+"text": "SNPs are over-represented in ATAC-seq peaks, which the study attributes to a roughly 1.3-fold lower mutation rate within peaks."
+},
+{
+"j": 2,
+"text": "Variants that drive eQTL in liver and blood fall into tissue-specific ATAC-seq peaks more often than expected by chance."
+},
+{
+"j": 3,
+"text": "Adding ATAC-seq peak annotations to genomic selection models increased prediction accuracy in cattle."
+},
+{
+"j": 4,
+"text": "Roughly one in three regulatory variants lie in ATAC-seq peaks, whereas only about one in 25 variants within peaks are regulatory."
+}
+]
+},
+{
+"n": 996,
+"id": "pmid:38604171",
+"year": 2024,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Long interspersed element-1 (LINE-1 or L1) comprises 17% of the human genome, continuously generates genetic variations, and causes disease in certain cases. However, the regulation and function of L1 remain poorly understood. Here, we uncover that L1 can enrich RNA polymerase IIs (RNA Pol IIs), express L1 chimeric transcripts, and create contact domain boundaries in human cells. This impact of L1 is restricted by a nuclear matrix protein scaffold attachment factor B (SAFB) that recognizes transcriptionally active L1s by binding L1 transcripts to inhibit RNA Pol II enrichment. Acute inhibition of RNA Pol II transcription abolishes the domain boundaries associated with L1 chimeric transcripts, indicating a transcription-dependent mechanism. Deleting L1 impairs domain boundary formation, and L1 insertions during evolution have introduced species-specific domain boundaries. Our data show that L1 can create RNA Pol II-enriched regions that alter genome organization and that SAFB regulates L1 and RNA Pol II activity to preserve gene regulation."
+}
+],
+"text": "Long interspersed element-1 (LINE-1 or L1) comprises 17% of the human genome, continuously generates genetic variations, and causes disease in certain cases. However, the regulation and function of L1 remain poorly understood. Here, we uncover that L1 can enrich RNA polymerase IIs (RNA Pol IIs), express L1 chimeric transcripts, and create contact domain boundaries in human cells. This impact of L1 is restricted by a nuclear matrix protein scaffold attachment factor B (SAFB) that recognizes transcriptionally active L1s by binding L1 transcripts to inhibit RNA Pol II enrichment. Acute inhibition of RNA Pol II transcription abolishes the domain boundaries associated with L1 chimeric transcripts, indicating a transcription-dependent mechanism. Deleting L1 impairs domain boundary formation, and L1 insertions during evolution have introduced species-specific domain boundaries. Our data show that L1 can create RNA Pol II-enriched regions that alter genome organization and that SAFB regulates L1 and RNA Pol II activity to preserve gene regulation.",
+"statements": [
+{
+"j": 1,
+"text": "Acute inhibition of RNA Pol II transcription removed the domain boundaries associated with L1 chimeric transcripts."
+},
+{
+"j": 2,
+"text": "SAFB limits L1's effect by recognizing transcriptionally active L1s through their transcripts and blocking RNA Pol II enrichment."
+},
+{
+"j": 3,
+"text": "Deleting L1 impaired boundary formation, and L1 insertions during evolution have created species-specific domain boundaries."
+},
+{
+"j": 4,
+"text": "Loss of SAFB increases the rate of new L1 retrotransposition events."
+}
+]
+},
+{
+"n": 997,
+"id": "pmid:41709466",
+"year": 2026,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Long interspersed element-1 (LINE-1, L1) retrotransposons are the most abundant protein-coding transposable elements (TEs) in mammalian genomes and have shaped genome content over 170 million years of evolution. LINE-1 is self-propagating and mobilizes other sequences, including Alu elements. Occasionally, LINE-1 forms chimeric insertions with non-coding RNAs and mRNAs, but there are no comprehensive catalogs of LINE-1 chimeras. To address this, we developed timing mobile element insertions (TiMEstamp), a computational pipeline that leverages multiple sequence alignments (MSAs) to estimate the age of LINE-1 insertions and identify candidate chimeric insertions where an adjacent sequence arrives contemporaneously. With this pipeline, we discovered new chimeric insertions involving small RNAs, Alu elements, and mRNA fragments. Additionally, we saw evidence that LINE-1 loci with defunct promoters can acquire regulatory elements from nearby genes to restore expression and retrotransposition activity. These discoveries highlight the recombinatory potential of LINE-1 RNA with implications for genome evolution, TE domestication, and somatic retrotransposition."
+}
+],
+"text": "Long interspersed element-1 (LINE-1, L1) retrotransposons are the most abundant protein-coding transposable elements (TEs) in mammalian genomes and have shaped genome content over 170 million years of evolution. LINE-1 is self-propagating and mobilizes other sequences, including Alu elements. Occasionally, LINE-1 forms chimeric insertions with non-coding RNAs and mRNAs, but there are no comprehensive catalogs of LINE-1 chimeras. To address this, we developed timing mobile element insertions (TiMEstamp), a computational pipeline that leverages multiple sequence alignments (MSAs) to estimate the age of LINE-1 insertions and identify candidate chimeric insertions where an adjacent sequence arrives contemporaneously. With this pipeline, we discovered new chimeric insertions involving small RNAs, Alu elements, and mRNA fragments. Additionally, we saw evidence that LINE-1 loci with defunct promoters can acquire regulatory elements from nearby genes to restore expression and retrotransposition activity. These discoveries highlight the recombinatory potential of LINE-1 RNA with implications for genome evolution, TE domestication, and somatic retrotransposition.",
+"statements": [
+{
+"j": 1,
+"text": "TiMEstamp uses multiple sequence alignments to date LINE-1 insertions and flags adjacent sequences that arrived at the same time as candidate chimeras."
+},
+{
+"j": 2,
+"text": "Most LINE-1 chimeric insertions in the human genome are younger than 10 million years."
+},
+{
+"j": 3,
+"text": "The pipeline uncovered new chimeric insertions involving small RNAs, Alu elements and mRNA fragments."
+},
+{
+"j": 4,
+"text": "LINE-1 loci whose promoters are defunct showed evidence of acquiring regulatory elements from nearby genes, restoring expression and retrotransposition."
+}
+]
+},
+{
+"n": 998,
+"id": "pmid:38908378",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The duplication-triplication/inverted-duplication (DUP-TRP/INV-DUP) structure is a complex genomic rearrangement (CGR). Although it has been identified as an important pathogenic DNA mutation signature in genomic disorders and cancer genomes, its architecture remains unresolved. Here, we studied the genomic architecture of DUP-TRP/INV-DUP by investigating the DNA of 24 patients identified by array comparative genomic hybridization (aCGH) on whom we found evidence for the existence of 4 out of 4 predicted structural variant (SV) haplotypes. Using a combination of short-read genome sequencing (GS), long-read GS, optical genome mapping, and single-cell DNA template strand sequencing (strand-seq), the haplotype structure was resolved in 18 samples. The point of template switching in 4 samples was shown to be a segment of ∼2.2-5.5 kb of 100% nucleotide similarity within inverted repeat pairs. These data provide experimental evidence that inverted low-copy repeats act as recombinant substrates. This type of CGR can result in multiple conformers generating diverse SV haplotypes in susceptible dosage-sensitive loci."
+}
+],
+"text": "The duplication-triplication/inverted-duplication (DUP-TRP/INV-DUP) structure is a complex genomic rearrangement (CGR). Although it has been identified as an important pathogenic DNA mutation signature in genomic disorders and cancer genomes, its architecture remains unresolved. Here, we studied the genomic architecture of DUP-TRP/INV-DUP by investigating the DNA of 24 patients identified by array comparative genomic hybridization (aCGH) on whom we found evidence for the existence of 4 out of 4 predicted structural variant (SV) haplotypes. Using a combination of short-read genome sequencing (GS), long-read GS, optical genome mapping, and single-cell DNA template strand sequencing (strand-seq), the haplotype structure was resolved in 18 samples. The point of template switching in 4 samples was shown to be a segment of ∼2.2-5.5 kb of 100% nucleotide similarity within inverted repeat pairs. These data provide experimental evidence that inverted low-copy repeats act as recombinant substrates. This type of CGR can result in multiple conformers generating diverse SV haplotypes in susceptible dosage-sensitive loci.",
+"statements": [
+{
+"j": 1,
+"text": "All four predicted structural-variant haplotypes were found among the 24 patients studied."
+},
+{
+"j": 2,
+"text": "DUP-TRP/INV-DUP rearrangements arise more often in the paternal than the maternal germline."
+},
+{
+"j": 3,
+"text": "In four samples, template switching occurred within a segment of about 2.2-5.5 kb of complete nucleotide identity between inverted repeats."
+},
+{
+"j": 4,
+"text": "Combining short-read and long-read sequencing, optical genome mapping and strand-seq resolved the haplotype structure in 18 samples."
+}
+]
+},
+{
+"n": 999,
+"id": "pmid:36474250",
+"year": 2022,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Despite having been extensively studied, it remains largely unclear why humans bear a particularly high risk of cancer. The antagonistic pleiotropy hypothesis predicts that primate-specific genes (PSGs) tend to promote tumorigenesis, while the molecular atavism hypothesis predicts that PSGs involved in tumors may represent recently derived duplicates of unicellular genes. However, these predictions have not been tested."
+},
+{
+"label": "Results",
+"text": "By taking advantage of pan-cancer genomic data, we find the upregulation of PSGs across 13 cancer types, which is facilitated by copy-number gain and promoter hypomethylation. Meta-analyses indicate that upregulated PSGs (uPSGs) tend to promote tumorigenesis and to play cell cycle-related roles. The cell cycle-related uPSGs predominantly represent derived duplicates of unicellular genes. We prioritize 15 uPSGs and perform an in-depth analysis of one unicellular gene-derived duplicate involved in the cell cycle, DDX11. Genome-wide screening data and knockdown experiments demonstrate that DDX11 is broadly essential across cancer cell lines. Importantly, non-neutral amino acid substitution patterns and increased expression indicate that DDX11 has been under positive selection. Finally, we find that cell cycle-related uPSGs are also preferentially upregulated in the highly proliferative embryonic cerebrum."
+},
+{
+"label": "Conclusions",
+"text": "Consistent with the predictions of the atavism and antagonistic pleiotropy hypotheses, primate-specific genes, especially those PSGs derived from cell cycle-related genes that emerged in unicellular ancestors, contribute to the early proliferation of the human cerebrum at the cost of hitchhiking by similarly highly proliferative cancer cells."
+}
+],
+"text": "Despite having been extensively studied, it remains largely unclear why humans bear a particularly high risk of cancer. The antagonistic pleiotropy hypothesis predicts that primate-specific genes (PSGs) tend to promote tumorigenesis, while the molecular atavism hypothesis predicts that PSGs involved in tumors may represent recently derived duplicates of unicellular genes. However, these predictions have not been tested. By taking advantage of pan-cancer genomic data, we find the upregulation of PSGs across 13 cancer types, which is facilitated by copy-number gain and promoter hypomethylation. Meta-analyses indicate that upregulated PSGs (uPSGs) tend to promote tumorigenesis and to play cell cycle-related roles. The cell cycle-related uPSGs predominantly represent derived duplicates of unicellular genes. We prioritize 15 uPSGs and perform an in-depth analysis of one unicellular gene-derived duplicate involved in the cell cycle, DDX11. Genome-wide screening data and knockdown experiments demonstrate that DDX11 is broadly essential across cancer cell lines. Importantly, non-neutral amino acid substitution patterns and increased expression indicate that DDX11 has been under positive selection. Finally, we find that cell cycle-related uPSGs are also preferentially upregulated in the highly proliferative embryonic cerebrum. Consistent with the predictions of the atavism and antagonistic pleiotropy hypotheses, primate-specific genes, especially those PSGs derived from cell cycle-related genes that emerged in unicellular ancestors, contribute to the early proliferation of the human cerebrum at the cost of hitchhiking by similarly highly proliferative cancer cells.",
+"statements": [
+{
+"j": 1,
+"text": "The cell cycle-related uPSGs showed preferential upregulation in the embryonic cerebrum, a highly proliferative tissue."
+},
+{
+"j": 2,
+"text": "Primate-specific genes were downregulated across 13 cancer types, aided by copy-number gain and promoter hypomethylation."
+},
+{
+"j": 3,
+"text": "Knockdown of DDX11 in non-malignant human cells had no effect on their proliferation."
+},
+{
+"j": 4,
+"text": "DDX11 proved broadly essential across cancer cell lines in genome-wide screens and knockdown experiments."
+}
+]
+}
+]
+}

@@ -1,0 +1,495 @@
+{
+"batch": "check_C_39",
+"pass": "C",
+"source_batch": "gen_39",
+"items": [
+{
+"n": 970,
+"id": "pmid:41033311",
+"year": 2025,
+"field": "evogen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Mycobacterium tuberculosis (Mtb) has co-evolved with humans for thousands of years and is characterized by variation in virulence, transmissibility, and disease phenotypes. To identify bacterial contributors to phenotypic diversity, we developed new RNA sequencing (RNA-seq) and phylogenomic tools to capture hundreds of Mtb isolate transcriptomes, link transcriptional and genetic variation, and find associations between variants and epidemiologic traits. Across 274 Mtb clinical isolates, we uncovered unexpected diversity in virulence gene expression, which we linked to known and unknown regulators. Surprisingly, we found that many isolates harbor variants associated with decreased expression of EsxA (Esat6) and EsxB (Cfp10), which are virulence effectors, dominant T cell antigens, and immunodiagnostic targets. Across >55,000 isolates, these variants associate with increased transmissibility, especially in drug-resistant Mtb strains. Our data suggest expression of Mtb virulence genes is evolving in response to drug-linked pressure, raising concerns about use of these targets in immunodiagnostics and next-generation vaccines."
+}
+],
+"text": "Mycobacterium tuberculosis (Mtb) has co-evolved with humans for thousands of years and is characterized by variation in virulence, transmissibility, and disease phenotypes. To identify bacterial contributors to phenotypic diversity, we developed new RNA sequencing (RNA-seq) and phylogenomic tools to capture hundreds of Mtb isolate transcriptomes, link transcriptional and genetic variation, and find associations between variants and epidemiologic traits. Across 274 Mtb clinical isolates, we uncovered unexpected diversity in virulence gene expression, which we linked to known and unknown regulators. Surprisingly, we found that many isolates harbor variants associated with decreased expression of EsxA (Esat6) and EsxB (Cfp10), which are virulence effectors, dominant T cell antigens, and immunodiagnostic targets. Across >55,000 isolates, these variants associate with increased transmissibility, especially in drug-resistant Mtb strains. Our data suggest expression of Mtb virulence genes is evolving in response to drug-linked pressure, raising concerns about use of these targets in immunodiagnostics and next-generation vaccines.",
+"statements": [
+{
+"j": 1,
+"text": "Many isolates harboured variants linked to reduced expression of EsxA and EsxB, two virulence effectors that also serve as immunodiagnostic targets."
+},
+{
+"j": 2,
+"text": "Across 274 clinical Mtb isolates, virulence gene expression varied less than expected, and that variation was tied to both known and previously unknown regulators."
+},
+{
+"j": 3,
+"text": "In a set of more than 55,000 isolates, these variants went together with higher transmissibility, most markedly among drug-resistant strains."
+},
+{
+"j": 4,
+"text": "Isolates carrying the low-expression variants grow faster in culture than isolates with normal EsxA and EsxB expression."
+}
+]
+},
+{
+"n": 971,
+"id": "pmid:39676654",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Gene fusions are nucleotide sequences formed due to errors in replication and transcription control. These errors, resulting from chromosomal translocation, transcriptional errors or trans-splicing, vary from cell to cell. The identification of fusions has become critical as key biomarkers for disease diagnosis and therapy in various cancers, significantly influencing modern medicine. Chimeric Transcripts and RNA-Sequencing database version 8.0 (ChiTaRS 8.0; http://biosrv.org/chitars) is a specialized repository for human chimeric transcripts, containing 47 445 curated RNA transcripts and over 100 000 chimeric sequences in humans. This updated database provides unique information on 1055 chimeric breakpoints derived from public datasets using chromosome conformation capture techniques (the Hi-C datasets). It also includes an expanded list of gene fusions that are potential drug targets, and chimeric breakpoints across 934 cell lines, positioning ChiTaRS 8.0 as a valuable resource for testing personalized cancer therapies. By utilizing text mining on a curated selection of disease-specific RNA-sequencing data from public datasets, as well as patient blood and plasma samples, we have identified novel chimeras-particularly in diseases such as oral squamous cell carcinoma and glioblastoma-now catalogued in ChiTaRS. Thus, ChiTaRS 8.0 serves as an enhanced fusion transcript repository that incorporates insights into the functional landscape of chimeras in cancers and other complex diseases, based on liquid biopsy results."
+}
+],
+"text": "Gene fusions are nucleotide sequences formed due to errors in replication and transcription control. These errors, resulting from chromosomal translocation, transcriptional errors or trans-splicing, vary from cell to cell. The identification of fusions has become critical as key biomarkers for disease diagnosis and therapy in various cancers, significantly influencing modern medicine. Chimeric Transcripts and RNA-Sequencing database version 8.0 (ChiTaRS 8.0; http://biosrv.org/chitars) is a specialized repository for human chimeric transcripts, containing 47 445 curated RNA transcripts and over 100 000 chimeric sequences in humans. This updated database provides unique information on 1055 chimeric breakpoints derived from public datasets using chromosome conformation capture techniques (the Hi-C datasets). It also includes an expanded list of gene fusions that are potential drug targets, and chimeric breakpoints across 934 cell lines, positioning ChiTaRS 8.0 as a valuable resource for testing personalized cancer therapies. By utilizing text mining on a curated selection of disease-specific RNA-sequencing data from public datasets, as well as patient blood and plasma samples, we have identified novel chimeras-particularly in diseases such as oral squamous cell carcinoma and glioblastoma-now catalogued in ChiTaRS. Thus, ChiTaRS 8.0 serves as an enhanced fusion transcript repository that incorporates insights into the functional landscape of chimeras in cancers and other complex diseases, based on liquid biopsy results.",
+"statements": [
+{
+"j": 1,
+"text": "Chimeric transcripts are more abundant in the plasma of glioblastoma patients than in the plasma of healthy donors."
+},
+{
+"j": 2,
+"text": "Patient blood and plasma samples were among the sources mined to find previously unreported chimeras, including ones from oral squamous cell carcinoma and glioblastoma."
+},
+{
+"j": 3,
+"text": "The updated release contributes 1055 chimeric breakpoints obtained from public chromosome conformation capture (Hi-C) datasets."
+},
+{
+"j": 4,
+"text": "Chimeric breakpoint data in this release span 934 cell lines, which the resource offers for testing personalized cancer therapies."
+}
+]
+},
+{
+"n": 972,
+"id": "pmid:40082608",
+"year": 2025,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The human genome contains instructions to transcribe more than 200,000 RNAs. However, many RNA transcripts are generated from the same gene, resulting in alternative isoforms that are highly similar and that remain difficult to quantify. To evaluate the ability to study RNA transcript expression, we profiled seven human cell lines with five different RNA-sequencing protocols, including short-read cDNA, Nanopore long-read direct RNA, amplification-free direct cDNA and PCR-amplified cDNA sequencing, and PacBio IsoSeq, with multiple spike-in controls, and additional transcriptome-wide N 6 -methyladenosine profiling data. We describe differences in read length, coverage, throughput and transcript expression, reporting that long-read RNA sequencing more robustly identifies major isoforms. We illustrate the value of the SG-NEx data to identify alternative isoforms, novel transcripts, fusion transcripts and N 6 -methyladenosine RNA modifications. Together, the SG-NEx data provide a comprehensive resource enabling the development and benchmarking of computational methods for profiling complex transcriptional events at isoform-level resolution."
+}
+],
+"text": "The human genome contains instructions to transcribe more than 200,000 RNAs. However, many RNA transcripts are generated from the same gene, resulting in alternative isoforms that are highly similar and that remain difficult to quantify. To evaluate the ability to study RNA transcript expression, we profiled seven human cell lines with five different RNA-sequencing protocols, including short-read cDNA, Nanopore long-read direct RNA, amplification-free direct cDNA and PCR-amplified cDNA sequencing, and PacBio IsoSeq, with multiple spike-in controls, and additional transcriptome-wide N 6 -methyladenosine profiling data. We describe differences in read length, coverage, throughput and transcript expression, reporting that long-read RNA sequencing more robustly identifies major isoforms. We illustrate the value of the SG-NEx data to identify alternative isoforms, novel transcripts, fusion transcripts and N 6 -methyladenosine RNA modifications. Together, the SG-NEx data provide a comprehensive resource enabling the development and benchmarking of computational methods for profiling complex transcriptional events at isoform-level resolution.",
+"statements": [
+{
+"j": 1,
+"text": "Major isoforms were identified less robustly by long-read RNA sequencing than by the other protocols profiled."
+},
+{
+"j": 2,
+"text": "The protocols compared differed from one another in read length, coverage, throughput and the transcript expression they reported."
+},
+{
+"j": 3,
+"text": "Seven human cell lines were profiled with five different RNA-sequencing protocols, with several spike-in controls included."
+},
+{
+"j": 4,
+"text": "Amplification-free direct cDNA sequencing recovered more novel transcripts than PCR-amplified cDNA sequencing."
+}
+]
+},
+{
+"n": 973,
+"id": "pmid:34162397",
+"year": 2021,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "The human microbiome plays an important role in cancer. Accumulating evidence indicates that commensal microbiome-derived DNA may be represented in minute quantities in the cell-free DNA of human blood and could possibly be harnessed as a new cancer biomarker. However, there has been limited use of rigorous experimental controls to account for contamination, which invariably affects low-biomass microbiome studies."
+},
+{
+"label": "Results",
+"text": "We apply a combination of 16S-rRNA-gene sequencing and droplet digital PCR to determine if the specific detection of cell-free microbial DNA (cfmDNA) is possible in metastatic melanoma patients. Compared to matched stool and saliva samples, the absolute concentration of cfmDNA is low but significantly above the levels detected from negative controls. The microbial community of plasma is strongly influenced by laboratory and reagent contaminants introduced during the DNA extraction and sequencing processes. Through the application of an in silico decontamination strategy including the filtering of amplicon sequence variants (ASVs) with batch dependent abundances and those with a higher prevalence in negative controls, we identify known gut commensal bacteria, such as Faecalibacterium, Bacteroides and Ruminococcus, and also other uncharacterised ASVs. We analyse additional plasma samples, highlighting the potential of this framework to identify differences in cfmDNA between healthy and cancer patients."
+},
+{
+"label": "Conclusions",
+"text": "Together, these observations indicate that plasma can harbour a low yet detectable level of cfmDNA. The results highlight the importance of accounting for contamination and provide an analytical decontamination framework to allow the accurate detection of cfmDNA for future biomarker studies in cancer and other diseases."
+}
+],
+"text": "The human microbiome plays an important role in cancer. Accumulating evidence indicates that commensal microbiome-derived DNA may be represented in minute quantities in the cell-free DNA of human blood and could possibly be harnessed as a new cancer biomarker. However, there has been limited use of rigorous experimental controls to account for contamination, which invariably affects low-biomass microbiome studies. We apply a combination of 16S-rRNA-gene sequencing and droplet digital PCR to determine if the specific detection of cell-free microbial DNA (cfmDNA) is possible in metastatic melanoma patients. Compared to matched stool and saliva samples, the absolute concentration of cfmDNA is low but significantly above the levels detected from negative controls. The microbial community of plasma is strongly influenced by laboratory and reagent contaminants introduced during the DNA extraction and sequencing processes. Through the application of an in silico decontamination strategy including the filtering of amplicon sequence variants (ASVs) with batch dependent abundances and those with a higher prevalence in negative controls, we identify known gut commensal bacteria, such as Faecalibacterium, Bacteroides and Ruminococcus, and also other uncharacterised ASVs. We analyse additional plasma samples, highlighting the potential of this framework to identify differences in cfmDNA between healthy and cancer patients. Together, these observations indicate that plasma can harbour a low yet detectable level of cfmDNA. The results highlight the importance of accounting for contamination and provide an analytical decontamination framework to allow the accurate detection of cfmDNA for future biomarker studies in cancer and other diseases.",
+"statements": [
+{
+"j": 1,
+"text": "After filtering batch-dependent sequence variants and those less prevalent in negative controls, known gut commensals such as Faecalibacterium, Bacteroides and Ruminococcus were detected."
+},
+{
+"j": 2,
+"text": "The absolute concentration of cell-free microbial DNA in plasma was low relative to matched stool and saliva, yet significantly exceeded negative controls."
+},
+{
+"j": 3,
+"text": "Contaminants from laboratory reagents and the DNA extraction and sequencing steps strongly shaped the microbial community recovered from plasma."
+},
+{
+"j": 4,
+"text": "Levels of cell-free microbial DNA fall in melanoma patients after they start systemic therapy."
+}
+]
+},
+{
+"n": 974,
+"id": "pmid:39406235",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The Long-Read Personalized OncoGenomics (POG) dataset comprises a cohort of 189 patient tumors and 41 matched normal samples sequenced using the Oxford Nanopore Technologies PromethION platform. This dataset from the POG program and the Marathon of Hope Cancer Centres Network includes DNA and RNA short-read sequence data, analytics, and clinical information. We show the potential of long-read sequencing for resolving complex cancer-related structural variants, viral integrations, and extrachromosomal circular DNA. Long-range phasing facilitates the discovery of allelically differentially methylated regions (aDMRs) and allele-specific expression, including recurrent aDMRs in the cancer genes RET and CDKN2A. Germline promoter methylation in MLH1 can be directly observed in Lynch syndrome. Promoter methylation in BRCA1 and RAD51C is a likely driver behind homologous recombination deficiency where no coding driver mutation was found. This dataset demonstrates applications for long-read sequencing in precision medicine and is available as a resource for developing analytical approaches using this technology."
+}
+],
+"text": "The Long-Read Personalized OncoGenomics (POG) dataset comprises a cohort of 189 patient tumors and 41 matched normal samples sequenced using the Oxford Nanopore Technologies PromethION platform. This dataset from the POG program and the Marathon of Hope Cancer Centres Network includes DNA and RNA short-read sequence data, analytics, and clinical information. We show the potential of long-read sequencing for resolving complex cancer-related structural variants, viral integrations, and extrachromosomal circular DNA. Long-range phasing facilitates the discovery of allelically differentially methylated regions (aDMRs) and allele-specific expression, including recurrent aDMRs in the cancer genes RET and CDKN2A. Germline promoter methylation in MLH1 can be directly observed in Lynch syndrome. Promoter methylation in BRCA1 and RAD51C is a likely driver behind homologous recombination deficiency where no coding driver mutation was found. This dataset demonstrates applications for long-read sequencing in precision medicine and is available as a resource for developing analytical approaches using this technology.",
+"statements": [
+{
+"j": 1,
+"text": "Where no coding driver mutation was found, promoter methylation of BRCA1 and RAD51C was the probable cause of homologous recombination deficiency."
+},
+{
+"j": 2,
+"text": "Long-read sequencing changed treatment decisions for patients whose short-read analysis had been uninformative."
+},
+{
+"j": 3,
+"text": "The dataset covers 189 patient tumours plus 41 matched normal samples, sequenced on the Oxford Nanopore PromethION platform."
+},
+{
+"j": 4,
+"text": "Long-range phasing yielded allelically differentially methylated regions and allele-specific expression, with recurrent such regions in RET and CDKN2A."
+}
+]
+},
+{
+"n": 975,
+"id": "pmid:39313617",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Aging epithelia are colonized by somatic mutations, which are subjected to selection influenced by intrinsic and extrinsic factors. The lack of suitable culture systems has slowed the study of this and other long-term biological processes. Here, we describe epithelioids, a facile, cost-effective method of culturing multiple mouse and human epithelia. Esophageal epithelioids self-maintain without passaging for at least 1 year, maintaining a three-dimensional structure with proliferative basal cells that differentiate into suprabasal cells, which eventually shed and retain genomic stability. Live imaging over 5 months showed that epithelioids replicate in vivo cell dynamics. Epithelioids support genetic manipulation and enable the study of mutant cell competition and selection in three-dimensional epithelia, and show how anti-cancer treatments modulate competition between transformed and wild-type cells. Finally, a targeted CRISPR-Cas9 screen shows that epithelioids recapitulate mutant gene selection in aging human esophagus and identifies additional drivers of clonal expansion, resolving the genetic networks underpinning competitive fitness."
+}
+],
+"text": "Aging epithelia are colonized by somatic mutations, which are subjected to selection influenced by intrinsic and extrinsic factors. The lack of suitable culture systems has slowed the study of this and other long-term biological processes. Here, we describe epithelioids, a facile, cost-effective method of culturing multiple mouse and human epithelia. Esophageal epithelioids self-maintain without passaging for at least 1 year, maintaining a three-dimensional structure with proliferative basal cells that differentiate into suprabasal cells, which eventually shed and retain genomic stability. Live imaging over 5 months showed that epithelioids replicate in vivo cell dynamics. Epithelioids support genetic manipulation and enable the study of mutant cell competition and selection in three-dimensional epithelia, and show how anti-cancer treatments modulate competition between transformed and wild-type cells. Finally, a targeted CRISPR-Cas9 screen shows that epithelioids recapitulate mutant gene selection in aging human esophagus and identifies additional drivers of clonal expansion, resolving the genetic networks underpinning competitive fitness.",
+"statements": [
+{
+"j": 1,
+"text": "A targeted CRISPR-Cas9 screen reproduced the mutant gene selection seen in ageing human oesophagus and uncovered further drivers of clonal expansion."
+},
+{
+"j": 2,
+"text": "Live imaging across five months showed that the cultures reproduce cell dynamics observed in vivo."
+},
+{
+"j": 3,
+"text": "Oesophageal epithelioids kept themselves going for a year or less without passaging while staying genomically stable."
+},
+{
+"j": 4,
+"text": "Mutant clones that expand in epithelioids go on to form invasive tumours when the cultures are kept beyond one year."
+}
+]
+},
+{
+"n": 976,
+"id": "pmid:33941929",
+"year": 2021,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Identification and quantification of low-frequency mutations remain challenging despite improvements in the baseline error rate of next-generation sequencing technologies. Here, we describe a method, termed SaferSeqS, that addresses these challenges by (1) efficiently introducing identical molecular barcodes in the Watson and Crick strands of template molecules and (2) enriching target sequences with strand-specific PCR. The method achieves high sensitivity and specificity and detects variants at frequencies below 1 in 100,000 DNA template molecules with a background mutation rate of <5 × 10 -7 mutants per base pair (bp). We demonstrate that it can evaluate mutations in a single amplicon or simultaneously in multiple amplicons, assess limited quantities of cell-free DNA with high recovery of both strands and reduce the error rate of existing PCR-based molecular barcoding approaches by >100-fold."
+}
+],
+"text": "Identification and quantification of low-frequency mutations remain challenging despite improvements in the baseline error rate of next-generation sequencing technologies. Here, we describe a method, termed SaferSeqS, that addresses these challenges by (1) efficiently introducing identical molecular barcodes in the Watson and Crick strands of template molecules and (2) enriching target sequences with strand-specific PCR. The method achieves high sensitivity and specificity and detects variants at frequencies below 1 in 100,000 DNA template molecules with a background mutation rate of <5 × 10 -7 mutants per base pair (bp). We demonstrate that it can evaluate mutations in a single amplicon or simultaneously in multiple amplicons, assess limited quantities of cell-free DNA with high recovery of both strands and reduce the error rate of existing PCR-based molecular barcoding approaches by >100-fold.",
+"statements": [
+{
+"j": 1,
+"text": "SaferSeqS detected residual disease in post-surgical plasma earlier than imaging did."
+},
+{
+"j": 2,
+"text": "The approach works on small amounts of cell-free DNA and recovers both strands of the template molecules at high rates."
+},
+{
+"j": 3,
+"text": "The method picks up variants present at frequencies above one in 100,000 DNA template molecules."
+},
+{
+"j": 4,
+"text": "Error rates were cut more than a hundredfold relative to existing PCR-based molecular barcoding approaches."
+}
+]
+},
+{
+"n": 977,
+"id": "pmid:36076083",
+"year": 2023,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The analysis of cell-free DNA (cfDNA) in plasma provides information on pathological processes in the body. Blood cfDNA is in the form of nucleosomes, which maintain their tissue- and cancer-specific epigenetic state. We developed a single-molecule multiparametric assay to comprehensively profile the epigenetics of plasma-isolated nucleosomes (EPINUC), DNA methylation and cancer-specific protein biomarkers. Our system allows for high-resolution detection of six active and repressive histone modifications and their ratios and combinatorial patterns on millions of individual nucleosomes by single-molecule imaging. In addition, our system provides sensitive and quantitative data on plasma proteins, including detection of non-secreted tumor-specific proteins, such as mutant p53. EPINUC analysis of a cohort of 63 colorectal cancer, 10 pancreatic cancer and 33 healthy plasma samples detected cancer with high accuracy and sensitivity, even at early stages. Finally, combining EPINUC with direct single-molecule DNA sequencing revealed the tissue of origin of colorectal, pancreatic, lung and breast tumors. EPINUC provides multilayered information of potential clinical relevance from limited (<1 ml) liquid biopsy material."
+}
+],
+"text": "The analysis of cell-free DNA (cfDNA) in plasma provides information on pathological processes in the body. Blood cfDNA is in the form of nucleosomes, which maintain their tissue- and cancer-specific epigenetic state. We developed a single-molecule multiparametric assay to comprehensively profile the epigenetics of plasma-isolated nucleosomes (EPINUC), DNA methylation and cancer-specific protein biomarkers. Our system allows for high-resolution detection of six active and repressive histone modifications and their ratios and combinatorial patterns on millions of individual nucleosomes by single-molecule imaging. In addition, our system provides sensitive and quantitative data on plasma proteins, including detection of non-secreted tumor-specific proteins, such as mutant p53. EPINUC analysis of a cohort of 63 colorectal cancer, 10 pancreatic cancer and 33 healthy plasma samples detected cancer with high accuracy and sensitivity, even at early stages. Finally, combining EPINUC with direct single-molecule DNA sequencing revealed the tissue of origin of colorectal, pancreatic, lung and breast tumors. EPINUC provides multilayered information of potential clinical relevance from limited (<1 ml) liquid biopsy material.",
+"statements": [
+{
+"j": 1,
+"text": "Plasma from 63 colorectal cancer, 10 pancreatic cancer and 33 healthy donors was classified accurately, including at early disease stages."
+},
+{
+"j": 2,
+"text": "The assay separated colorectal from pancreatic cancer more accurately than carcinoembryonic antigen measurement."
+},
+{
+"j": 3,
+"text": "The assay resolves six active and repressive histone modifications, together with their ratios and combinatorial patterns, across millions of single nucleosomes."
+},
+{
+"j": 4,
+"text": "Adding direct single-molecule DNA sequencing to the assay revealed the tissue of origin of colorectal, pancreatic, lung and breast tumours."
+}
+]
+},
+{
+"n": 978,
+"id": "pmid:34135506",
+"year": 2021,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Minimally invasive approaches to detect residual disease after surgery are needed to identify patients with cancer who are at risk for metastatic relapse. Circulating tumour DNA (ctDNA) holds promise as a biomarker for molecular residual disease and relapse 1 . We evaluated outcomes in 581 patients who had undergone surgery and were evaluable for ctDNA from a randomized phase III trial of adjuvant atezolizumab versus observation in operable urothelial cancer. This trial did not reach its efficacy end point in the intention-to-treat population. Here we show that ctDNA testing at the start of therapy (cycle 1 day 1) identified 214 (37%) patients who were positive for ctDNA and who had poor prognosis (observation arm hazard ratio = 6.3 (95% confidence interval: 4.45-8.92); P < 0.0001). Notably, patients who were positive for ctDNA had improved disease-free survival and overall survival in the atezolizumab arm versus the observation arm (disease-free survival hazard ratio = 0.58 (95% confidence interval: 0.43-0.79); P = 0.0024, overall survival hazard ratio = 0.59 (95% confidence interval: 0.41-0.86)). No difference in disease-free survival or overall survival between treatment arms was noted for patients who were negative for ctDNA. The rate of ctDNA clearance at week 6 was higher in the atezolizumab arm (18%) than in the observation arm (4%) (P = 0.0204). Transcriptomic analysis of tumours from patients who were positive for ctDNA revealed higher expression levels of cell-cycle and keratin genes. For patients who were positive for ctDNA and who were treated with atezolizumab, non-relapse was associated with immune response signatures and basal-squamous gene features, whereas relapse was associated with angiogenesis and fibroblast TGFβ signatures. These data suggest that adjuvant atezolizumab may be associated with improved outcomes compared with observation in patients who are positive for ctDNA and who are at a high risk of relapse. These findings, if validated in other settings, would shift approaches to postoperative cancer care."
+}
+],
+"text": "Minimally invasive approaches to detect residual disease after surgery are needed to identify patients with cancer who are at risk for metastatic relapse. Circulating tumour DNA (ctDNA) holds promise as a biomarker for molecular residual disease and relapse 1 . We evaluated outcomes in 581 patients who had undergone surgery and were evaluable for ctDNA from a randomized phase III trial of adjuvant atezolizumab versus observation in operable urothelial cancer. This trial did not reach its efficacy end point in the intention-to-treat population. Here we show that ctDNA testing at the start of therapy (cycle 1 day 1) identified 214 (37%) patients who were positive for ctDNA and who had poor prognosis (observation arm hazard ratio = 6.3 (95% confidence interval: 4.45-8.92); P < 0.0001). Notably, patients who were positive for ctDNA had improved disease-free survival and overall survival in the atezolizumab arm versus the observation arm (disease-free survival hazard ratio = 0.58 (95% confidence interval: 0.43-0.79); P = 0.0024, overall survival hazard ratio = 0.59 (95% confidence interval: 0.41-0.86)). No difference in disease-free survival or overall survival between treatment arms was noted for patients who were negative for ctDNA. The rate of ctDNA clearance at week 6 was higher in the atezolizumab arm (18%) than in the observation arm (4%) (P = 0.0204). Transcriptomic analysis of tumours from patients who were positive for ctDNA revealed higher expression levels of cell-cycle and keratin genes. For patients who were positive for ctDNA and who were treated with atezolizumab, non-relapse was associated with immune response signatures and basal-squamous gene features, whereas relapse was associated with angiogenesis and fibroblast TGFβ signatures. These data suggest that adjuvant atezolizumab may be associated with improved outcomes compared with observation in patients who are positive for ctDNA and who are at a high risk of relapse. These findings, if validated in other settings, would shift approaches to postoperative cancer care.",
+"statements": [
+{
+"j": 1,
+"text": "Clearance of ctDNA by week 6 occurred in 18% of patients on atezolizumab against 4% under observation."
+},
+{
+"j": 2,
+"text": "Among ctDNA-negative patients, neither disease-free survival nor overall survival differed between the atezolizumab and observation arms."
+},
+{
+"j": 3,
+"text": "Testing at cycle 1 day 1 flagged 214 of the evaluable patients, 37%, as ctDNA-positive, and these patients had poor prognosis."
+},
+{
+"j": 4,
+"text": "ctDNA-positive patients carried a higher tumour mutational burden than ctDNA-negative patients."
+}
+]
+},
+{
+"n": 979,
+"id": "pmid:40097200",
+"year": 2025,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The complexities of cancer genomes are becoming more easily interpreted due to advancements in sequencing technologies and improved bioinformatic analysis. Structural variants (SVs) represent an important subset of somatic events in tumors. While the detection of SVs has been markedly improved by the development of long-read sequencing, somatic variant identification and annotation remain challenging. We hypothesized that the use of a completed human reference genome (CHM13-T2T) would improve somatic SV calling. Our findings in a tumor-normal matched benchmark sample and three patient samples show that the CHM13-T2T improves SV detection accuracy compared to GRCh38 with a notable reduction in false-positive calls, and thus supports improved prioritization. We also overcame the lack of annotation resources for CHM13-T2T by lifting over CHM13-T2T-aligned reads to the GRCh38 genome, therefore combining both improved alignment and advanced annotations. In this process, we assessed the current SV benchmark set for COLO829/COLO829BL across four replicates sequenced at different centers with different long-read technologies. We discovered instability of this cell line across these replicates; 346 SVs (1.13%) were only discoverable in a single replicate. We identify 54 somatic SVs, which appear to be stable as they are consistently present across the four replicates. As such, we propose this consensus set as an updated benchmark for somatic SV calling and include both GRCh38 and CHM13-T2T coordinates in our benchmark. Our work demonstrates new approaches to optimize somatic SV detection in cancer with potential improvements in other genetic diseases."
+}
+],
+"text": "The complexities of cancer genomes are becoming more easily interpreted due to advancements in sequencing technologies and improved bioinformatic analysis. Structural variants (SVs) represent an important subset of somatic events in tumors. While the detection of SVs has been markedly improved by the development of long-read sequencing, somatic variant identification and annotation remain challenging. We hypothesized that the use of a completed human reference genome (CHM13-T2T) would improve somatic SV calling. Our findings in a tumor-normal matched benchmark sample and three patient samples show that the CHM13-T2T improves SV detection accuracy compared to GRCh38 with a notable reduction in false-positive calls, and thus supports improved prioritization. We also overcame the lack of annotation resources for CHM13-T2T by lifting over CHM13-T2T-aligned reads to the GRCh38 genome, therefore combining both improved alignment and advanced annotations. In this process, we assessed the current SV benchmark set for COLO829/COLO829BL across four replicates sequenced at different centers with different long-read technologies. We discovered instability of this cell line across these replicates; 346 SVs (1.13%) were only discoverable in a single replicate. We identify 54 somatic SVs, which appear to be stable as they are consistently present across the four replicates. As such, we propose this consensus set as an updated benchmark for somatic SV calling and include both GRCh38 and CHM13-T2T coordinates in our benchmark. Our work demonstrates new approaches to optimize somatic SV detection in cancer with potential improvements in other genetic diseases.",
+"statements": [
+{
+"j": 1,
+"text": "Aligning to the complete CHM13-T2T reference worsened structural variant detection accuracy over GRCh38, with a marked drop in false-positive calls."
+},
+{
+"j": 2,
+"text": "Across four COLO829 replicates, 346 structural variants, or 1.13%, appeared in only one replicate, while 54 somatic variants were present in all four."
+},
+{
+"j": 3,
+"text": "Reads aligned to CHM13-T2T were lifted over to GRCh38, combining the better alignment with the richer annotation resources available for that reference."
+},
+{
+"j": 4,
+"text": "The gain in accuracy from CHM13-T2T was largest for structural variants in centromeric and segmentally duplicated regions."
+}
+]
+},
+{
+"n": 980,
+"id": "pmid:41203992",
+"year": 2025,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The limited stability of mRNA in vivo remains a major challenge for vaccines and therapeutics. While alternative RNA formats such as circular RNA or self-amplifying RNA offer greater durability, these modalities often suffer from low translation, modification incompatibility and difficult manufacturing. To overcome these limitations, we screen 196,277 viral sequences and identify eleven elements that strongly enhance mRNA stability and translation. Mechanistically, they recruit TENT4 to extend the poly(A) tail, preventing deadenylation. Five of them are compatible with N 1 -methylpseudouridine, which improves mRNA efficacy and reduces immunogenicity. An element named A7 demonstrates particularly robust performance across cell types, delivery methods, modifications and coding sequences, making linear mRNA as stable as circular RNA while achieving higher translation efficiency. In mouse liver, A7-containing linear mRNA exhibits substantially higher protein levels than circular RNA, with sustained expression lasting for over 2 weeks. These RNA stability enhancers enable robust linear mRNA platforms that combine high and durable expression, low immunogenicity and simple manufacturing."
+}
+],
+"text": "The limited stability of mRNA in vivo remains a major challenge for vaccines and therapeutics. While alternative RNA formats such as circular RNA or self-amplifying RNA offer greater durability, these modalities often suffer from low translation, modification incompatibility and difficult manufacturing. To overcome these limitations, we screen 196,277 viral sequences and identify eleven elements that strongly enhance mRNA stability and translation. Mechanistically, they recruit TENT4 to extend the poly(A) tail, preventing deadenylation. Five of them are compatible with N 1 -methylpseudouridine, which improves mRNA efficacy and reduces immunogenicity. An element named A7 demonstrates particularly robust performance across cell types, delivery methods, modifications and coding sequences, making linear mRNA as stable as circular RNA while achieving higher translation efficiency. In mouse liver, A7-containing linear mRNA exhibits substantially higher protein levels than circular RNA, with sustained expression lasting for over 2 weeks. These RNA stability enhancers enable robust linear mRNA platforms that combine high and durable expression, low immunogenicity and simple manufacturing.",
+"statements": [
+{
+"j": 1,
+"text": "The A7 element raises mRNA stability whether it is inserted at the 5' or the 3' end of the transcript."
+},
+{
+"j": 2,
+"text": "In mouse liver, linear mRNA carrying A7 gave substantially higher protein levels than circular RNA, with expression lasting beyond two weeks."
+},
+{
+"j": 3,
+"text": "A screen of 196,277 viral sequences yielded eleven elements that strongly decrease both mRNA stability and translation."
+},
+{
+"j": 4,
+"text": "The elements work by recruiting TENT4 to lengthen the poly(A) tail, which blocks deadenylation."
+}
+]
+},
+{
+"n": 981,
+"id": "pmid:39614124",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Proliferation is a key hallmark of cancer, but whether it differs between evolutionarily distinct clones co-existing within a tumor is unknown. We introduce the Single-cell Proliferation Rate Inference in Non-homogeneous Tumors through Evolutionary Routes (SPRINTER) algorithm that uses single-cell whole-genome DNA sequencing data to enable accurate identification and clone assignment of S- and G2-phase cells, as assessed by generating accurate ground truth data. Applied to a newly generated longitudinal, primary-metastasis-matched dataset of 14,994 non-small cell lung cancer cells, SPRINTER revealed widespread clone proliferation heterogeneity, orthogonally supported by Ki-67 staining, nuclei imaging and clinical imaging. We further demonstrated that high-proliferation clones have increased metastatic seeding potential, increased circulating tumor DNA shedding and clone-specific altered replication timing in proliferation- or metastasis-related genes associated with expression changes. Applied to previously generated datasets of 61,914 breast and ovarian cancer cells, SPRINTER revealed increased single-cell rates of different genomic variants and enrichment of proliferation-related gene amplifications in high-proliferation clones."
+}
+],
+"text": "Proliferation is a key hallmark of cancer, but whether it differs between evolutionarily distinct clones co-existing within a tumor is unknown. We introduce the Single-cell Proliferation Rate Inference in Non-homogeneous Tumors through Evolutionary Routes (SPRINTER) algorithm that uses single-cell whole-genome DNA sequencing data to enable accurate identification and clone assignment of S- and G2-phase cells, as assessed by generating accurate ground truth data. Applied to a newly generated longitudinal, primary-metastasis-matched dataset of 14,994 non-small cell lung cancer cells, SPRINTER revealed widespread clone proliferation heterogeneity, orthogonally supported by Ki-67 staining, nuclei imaging and clinical imaging. We further demonstrated that high-proliferation clones have increased metastatic seeding potential, increased circulating tumor DNA shedding and clone-specific altered replication timing in proliferation- or metastasis-related genes associated with expression changes. Applied to previously generated datasets of 61,914 breast and ovarian cancer cells, SPRINTER revealed increased single-cell rates of different genomic variants and enrichment of proliferation-related gene amplifications in high-proliferation clones.",
+"statements": [
+{
+"j": 1,
+"text": "In 61,914 previously published breast and ovarian cancer cells, high-proliferation clones were enriched for amplifications of proliferation-related genes."
+},
+{
+"j": 2,
+"text": "In a newly generated set of 14,994 non-small cell lung cancer cells from matched primary and metastatic sites, proliferation differed widely between clones."
+},
+{
+"j": 3,
+"text": "Clones with high proliferation showed smaller metastatic seeding potential and shed more circulating tumour DNA."
+},
+{
+"j": 4,
+"text": "Patients whose tumours contained high-proliferation clones had shorter overall survival than patients without them."
+}
+]
+},
+{
+"n": 982,
+"id": "pmid:39271293",
+"year": 2024,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Here, we present a method for enrichment of double-stranded cfDNA with an average length of ∼40 bp from cfDNA for high-throughput DNA sequencing. This class of cfDNA is enriched at gene promoters and binding sites of transcription factors or structural DNA-binding proteins, so that a genome-wide DNA footprint is directly captured from liquid biopsies. In short double-stranded cfDNA from healthy individuals, we find significant enrichment of 203 transcription factor motifs. Additionally, short double-stranded cfDNA signals at specific genomic regions correlate negatively with DNA methylation, positively with H3K4me3 histone modifications and gene transcription. The diagnostic potential of short double-stranded cell-free DNA (cfDNA) in blood plasma has not yet been recognized. When comparing short double-stranded cfDNA from patient samples of pancreatic ductal adenocarcinoma with colorectal carcinoma or septic with postoperative controls, we identify 136 and 241 differentially enriched loci, respectively. Using these differentially enriched loci, the disease types can be clearly distinguished by principal component analysis, demonstrating the diagnostic potential of short double-stranded cfDNA signals as a new class of biomarkers for liquid biopsies."
+}
+],
+"text": "Here, we present a method for enrichment of double-stranded cfDNA with an average length of ∼40 bp from cfDNA for high-throughput DNA sequencing. This class of cfDNA is enriched at gene promoters and binding sites of transcription factors or structural DNA-binding proteins, so that a genome-wide DNA footprint is directly captured from liquid biopsies. In short double-stranded cfDNA from healthy individuals, we find significant enrichment of 203 transcription factor motifs. Additionally, short double-stranded cfDNA signals at specific genomic regions correlate negatively with DNA methylation, positively with H3K4me3 histone modifications and gene transcription. The diagnostic potential of short double-stranded cell-free DNA (cfDNA) in blood plasma has not yet been recognized. When comparing short double-stranded cfDNA from patient samples of pancreatic ductal adenocarcinoma with colorectal carcinoma or septic with postoperative controls, we identify 136 and 241 differentially enriched loci, respectively. Using these differentially enriched loci, the disease types can be clearly distinguished by principal component analysis, demonstrating the diagnostic potential of short double-stranded cfDNA signals as a new class of biomarkers for liquid biopsies.",
+"statements": [
+{
+"j": 1,
+"text": "Comparisons yielded 136 differentially depleted loci between pancreatic ductal adenocarcinoma and colorectal carcinoma and 241 between septic and postoperative controls."
+},
+{
+"j": 2,
+"text": "The short double-stranded cfDNA fragments come mainly from apoptotic immune cells."
+},
+{
+"j": 3,
+"text": "In healthy individuals, the short double-stranded cfDNA fraction showed significant enrichment of 203 transcription factor motifs."
+},
+{
+"j": 4,
+"text": "At particular genomic regions the short double-stranded cfDNA signal ran opposite to DNA methylation and in the same direction as H3K4me3 and transcription."
+}
+]
+},
+{
+"n": 983,
+"id": "pmid:41513691",
+"year": 2026,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Transgenerational epigenetic inheritance (TEI) allows epigenetic information to pass across generations through mechanisms such as small RNAs and histone modifications. Histone methylation is often deposited by SET domain-containing methyltransferases. Some SET proteins lack catalytic activity but still regulate chromatin and gene expression. Here, we characterize SET-24, a catalytically inactive SET domain protein that localizes to germline nuclei and is essential for germline immortality in Caenorhabditis elegans. In set-24 mutants, small RNA-mediated epigenetic silencing is impaired. Proteomic, yeast two-hybrid, and pull-down assays show that SET-24 interacts with HCF-1, a chromatin factor linked to complexes like COMPASS, which deposits H3K4me3. Loss of SET-24 leads to increased H3K4me3 at transcription start sites of hundreds of genes. Although transcription remains largely unchanged, small RNA production is disrupted for about 30% of these genes. We propose that SET-24 preserves germline epigenetic memory by sustaining a chromatin environment that supports small RNA biogenesis across generations."
+}
+],
+"text": "Transgenerational epigenetic inheritance (TEI) allows epigenetic information to pass across generations through mechanisms such as small RNAs and histone modifications. Histone methylation is often deposited by SET domain-containing methyltransferases. Some SET proteins lack catalytic activity but still regulate chromatin and gene expression. Here, we characterize SET-24, a catalytically inactive SET domain protein that localizes to germline nuclei and is essential for germline immortality in Caenorhabditis elegans. In set-24 mutants, small RNA-mediated epigenetic silencing is impaired. Proteomic, yeast two-hybrid, and pull-down assays show that SET-24 interacts with HCF-1, a chromatin factor linked to complexes like COMPASS, which deposits H3K4me3. Loss of SET-24 leads to increased H3K4me3 at transcription start sites of hundreds of genes. Although transcription remains largely unchanged, small RNA production is disrupted for about 30% of these genes. We propose that SET-24 preserves germline epigenetic memory by sustaining a chromatin environment that supports small RNA biogenesis across generations.",
+"statements": [
+{
+"j": 1,
+"text": "set-24 mutants lose germline fertility faster when grown at elevated temperature."
+},
+{
+"j": 2,
+"text": "Transcription stayed largely unchanged in the mutants, yet small RNA production was disrupted for roughly 30% of the affected genes."
+},
+{
+"j": 3,
+"text": "Proteomic, yeast two-hybrid and pull-down assays all showed SET-24 binding the chromatin factor HCF-1."
+},
+{
+"j": 4,
+"text": "Gain of SET-24 raised H3K4me3 at the transcription start sites of hundreds of genes."
+}
+]
+},
+{
+"n": 984,
+"id": "pmid:42348705",
+"year": 2026,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Lariat RNAs are formed from introns during pre-messenger RNA splicing, after which they are degraded by the debranching enzyme DBR1. Impairment of DBR1 leads to developmental arrest, yet the mechanism remains unclear. In this study, we found that debranching of lariat RNA prevents production of 21- and 22-nucleotide lariat-derived small interfering RNAs (lasiRNAs), which causes a burst of exonic siRNAs, thereby safeguarding development and defense response. LasiRNA biogenesis relied on RNA-dependent RNA polymerases and Dicer-like proteins (DCLs). Upon pathogen infection and dysfunction of DBR1, many lariat RNAs were hijacked by DCL4 and DCL2 and processed into siRNAs that particularly target immunity genes, ultimately disrupting plant defense responses. Collectively, DBR1-mediated lariat RNA removal serves as a protective mechanism to prevent the activation of a small RNA-based defense system in plants."
+}
+],
+"text": "Lariat RNAs are formed from introns during pre-messenger RNA splicing, after which they are degraded by the debranching enzyme DBR1. Impairment of DBR1 leads to developmental arrest, yet the mechanism remains unclear. In this study, we found that debranching of lariat RNA prevents production of 21- and 22-nucleotide lariat-derived small interfering RNAs (lasiRNAs), which causes a burst of exonic siRNAs, thereby safeguarding development and defense response. LasiRNA biogenesis relied on RNA-dependent RNA polymerases and Dicer-like proteins (DCLs). Upon pathogen infection and dysfunction of DBR1, many lariat RNAs were hijacked by DCL4 and DCL2 and processed into siRNAs that particularly target immunity genes, ultimately disrupting plant defense responses. Collectively, DBR1-mediated lariat RNA removal serves as a protective mechanism to prevent the activation of a small RNA-based defense system in plants.",
+"statements": [
+{
+"j": 1,
+"text": "Impairing DBR1 holds back growth more severely in seedlings than in mature plants."
+},
+{
+"j": 2,
+"text": "Debranching of lariat RNA prevents the formation of lariat-derived small interfering RNAs of 21 and 22 nucleotides."
+},
+{
+"j": 3,
+"text": "Biogenesis of these lariat-derived small interfering RNAs depended on RNA-dependent RNA polymerases and Dicer-like proteins."
+},
+{
+"j": 4,
+"text": "With pathogen infection and DBR1 dysfunction, DCL4 and DCL2 processed many lariat RNAs into siRNAs directed at immunity genes, which disrupted defense responses."
+}
+]
+}
+]
+}

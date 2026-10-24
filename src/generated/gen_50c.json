@@ -1,0 +1,177 @@
+{
+ "batch": "gen_50c",
+ "prompt_version": "gen-v5",
+ "items": [
+  {
+   "n": 1145,
+   "id": "pmid:28334903",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "When an adenosine carries the m6A mark, the surrounding RNA sequence becomes more accessible for binding by HNRNPG.",
+     "evidence": "Here, we show that m6A increases the accessibility of its surrounding RNA sequence to bind heterogeneous nuclear ribonucleoprotein G (HNRNPG).",
+     "note": "The abstract states that m6A increases the accessibility of the surrounding RNA sequence to HNRNPG binding."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The study identified 13,191 m6A sites across the transcriptome that modulate RNA-HNRNPG interaction, thereby changing expression and alternative splicing of target mRNAs.",
+     "evidence": "We identified 13,191 m6A sites in the transcriptome that regulate RNA-HNRNPG interaction and thereby alter the expression and alternative splicing pattern of target mRNAs.",
+     "note": "The abstract reports 13,191 m6A sites that regulate RNA-HNRNPG interaction and alter the expression and splicing of target mRNAs."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The C-terminal low-complexity region of HNRNPG self-assembles into large particles inside living cells.",
+     "evidence": "Furthermore, HNRNPG binds m6A-methylated RNAs through its C-terminal low-complexity region, which self-assembles into large particles in vitro.",
+     "note": "The abstract reports particle self-assembly only in vitro and says nothing about whether the region forms particles in cells."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "HNRNPG needs the Arg-Gly-Gly repeats in its low-complexity region to bind the RNA motif that m6A methylation exposes.",
+     "evidence": "The Arg-Gly-Gly repeats within the low-complexity region are required for binding to the RNA motif exposed by m6A methylation.",
+     "note": "The abstract states that these Arg-Gly-Gly repeats are required for binding the motif exposed by m6A methylation."
+    }
+   ]
+  },
+  {
+   "n": 1146,
+   "id": "pmid:30717751",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "High circNRIP1 expression in gastric tumours is associated with shorter overall survival of gastric cancer patients.",
+     "evidence": "We proved that circNRIP1 sponges miR-149-5p to affect the expression level of AKT1 and eventually acts as a tumour promotor in GC.",
+     "note": "The abstract establishes circNRIP1 as a tumour promotor in cells, mice and PDX models but reports no patient survival or prognosis data."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "In RNA-seq data, circNRIP1 was found at higher levels in gastric cancer.",
+     "evidence": "We detected higher circNRIP1 expression in gastric cancer by performing RNA-seq analysis.",
+     "note": "The abstract states that RNA-seq analysis detected higher circNRIP1 expression in gastric cancer."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Knocking down circNRIP1 in gastric cancer cells blocked their proliferation, migration and invasion and lowered AKT1 expression.",
+     "evidence": "We discovered that knockdown of circNRIP1 successfully blocked proliferation, migration, invasion and the expression level of AKT1 in GC cells.",
+     "note": "The abstract reports that circNRIP1 knockdown blocked proliferation, migration, invasion and AKT1 expression in GC cells."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Gastric cancer cells can pass circNRIP1 to one another through exosomes, and exosomal circNRIP1 promoted tumour metastasis in vivo.",
+     "evidence": "Moreover, it was proven that circNRIP1 can be transmitted by exosomal communication between GC cells, and exosomal circNRIP1 promoted tumour metastasis in vivo.",
+     "note": "The abstract states that circNRIP1 is transmitted between GC cells by exosomes and that exosomal circNRIP1 promoted metastasis in vivo."
+    }
+   ]
+  },
+  {
+   "n": 1147,
+   "id": "pmid:26816378",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Overexpressing DWORF in mouse cardiomyocytes raised peak Ca2+ transient amplitude and SR Ca2+ load and shortened the time constant of cytosolic Ca2+ decay.",
+     "evidence": "In mice, overexpression of DWORF in cardiomyocytes increases peak Ca(2+) transient amplitude and SR Ca(2+) load while reducing the time constant of cytosolic Ca(2+) decay during each cycle of contraction-relaxation.",
+     "note": "The abstract reports that DWORF overexpression in mouse cardiomyocytes increases peak Ca2+ transients and SR Ca2+ load while reducing the Ca2+ decay time constant."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "A putative muscle-specific long noncoding RNA turned out to encode a 34-amino-acid peptide, which was named DWORF.",
+     "evidence": "We discovered a putative muscle-specific long noncoding RNA that encodes a peptide of 34 amino acids and that we named dwarf open reading frame (DWORF).",
+     "note": "The abstract states that the putative muscle-specific lncRNA encodes a 34-amino-acid peptide named DWORF."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Slow skeletal muscle without DWORF shows lower SERCA activity and slower Ca2+ clearance and relaxation.",
+     "evidence": "Conversely, slow skeletal muscle lacking DWORF exhibits delayed Ca(2+) clearance and relaxation and reduced SERCA activity.",
+     "note": "The abstract reports delayed Ca2+ clearance and relaxation and reduced SERCA activity in slow skeletal muscle lacking DWORF."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "DWORF expression is reduced in the hearts of human patients with heart failure.",
+     "evidence": "DWORF is the only endogenous peptide known to activate the SERCA pump by physical interaction and provides a means for enhancing muscle contractility.",
+     "note": "The abstract describes DWORF function in mouse muscle and does not report DWORF levels in human hearts or in heart failure."
+    }
+   ]
+  },
+  {
+   "n": 1148,
+   "id": "pmid:30936474",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "By disrupting the interaction between PHD2 and HIF-1α, HISLA protects HIF-1α from hydroxylation and degradation.",
+     "evidence": "Mechanistically, HISLA blocks the interaction of PHD2 and HIF-1α to inhibit the hydroxylation and degradation of HIF-1α.",
+     "note": "The abstract states that HISLA blocks the PHD2-HIF-1α interaction and thereby inhibits HIF-1α hydroxylation and degradation."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Blocking EV-transmitted HISLA reduces breast cancer metastasis in mice.",
+     "evidence": "Blocking EV-transmitted HISLA inhibits the glycolysis and chemoresistance of breast cancer in vivo.",
+     "note": "The in vivo effects of blocking HISLA reported in the abstract are on glycolysis and chemoresistance; metastasis is never mentioned."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "In breast cancer patients, shorter survival and poor chemotherapeutic response went together with HISLA expression in tumour-associated macrophages.",
+     "evidence": "Clinically, HISLA expression in TAMs is associated with glycolysis, poor chemotherapeutic response and shorter survival of patients with breast cancer.",
+     "note": "The abstract states that HISLA expression in TAMs is associated with poor chemotherapeutic response and shorter survival in breast cancer patients."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Lactate released by glycolytic tumour cells increases HISLA levels in macrophages, creating a feed-forward loop between the two cell types.",
+     "evidence": "Reciprocally, lactate released from glycolytic tumour cells upregulates HISLA in macrophages, constituting a feed-forward loop between TAMs and tumour cells.",
+     "note": "The abstract reports that tumour-derived lactate upregulates HISLA in macrophages, forming a feed-forward loop between TAMs and tumour cells."
+    }
+   ]
+  },
+  {
+   "n": 1149,
+   "id": "pmid:26764595",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Intestinal epithelial cells and Hopx-positive cells are the main cellular sources of the miRNAs found in feces.",
+     "evidence": "Cell-specific loss of the miRNA-processing enzyme, Dicer, identified intestinal epithelial cells (IEC) and Hopx-positive cells as predominant fecal miRNA sources.",
+     "note": "The abstract states that cell-specific Dicer deletion identified IEC and Hopx-positive cells as the predominant fecal miRNA sources."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Mice lacking Dicer1 in intestinal epithelial cells develop more severe colitis and an uncontrolled gut microbiota.",
+     "evidence": "IEC-miRNA-deficient (Dicer1(ΔIEC)) mice exhibit uncontrolled gut microbiota and exacerbated colitis",
+     "note": "The abstract reports that IEC-miRNA-deficient Dicer1(ΔIEC) mice show uncontrolled gut microbiota and exacerbated colitis."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Transplanting fecal miRNA from healthy donors relieves colitis in human patients with inflammatory bowel disease.",
+     "evidence": "These findings identify both a physiologic role by which fecal miRNA shapes the gut microbiota and a potential strategy for manipulating the microbiome.",
+     "note": "The abstract reports colitis relief from fecal miRNA transplantation only in mice and calls microbiome manipulation merely a potential strategy, with no human data."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Fecal miRNAs enter bacteria such as F. nucleatum and E. coli, where they specifically regulate bacterial gene transcripts and alter bacterial growth.",
+     "evidence": "These miRNAs can enter bacteria, such as F. nucleatum and E. coli, specifically regulate bacterial gene transcripts, and affect bacterial growth.",
+     "note": "The abstract states that these fecal miRNAs can enter bacteria such as F. nucleatum and E. coli, regulate their transcripts and affect their growth."
+    }
+   ]
+  }
+ ],
+ "flip_rule": "first-of-any-v3"
+}

@@ -1,0 +1,690 @@
+{
+ "batch": "gen_18",
+ "prompt_version": "gen-v4",
+ "items": [
+  {
+   "n": 600,
+   "id": "pmid:41981036",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Among the 25 PyCRM pan-genes, variable members outnumbered core members, 15 against 9, with a single species-specific gene.",
+     "evidence": "we identified 25 PyCRM pan-genes, comprising 9 core, 15 variable, and 1 species-specific members",
+     "note": "The abstract gives exactly this breakdown of the 25 pan-genes."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Under cold, drought and disease treatment most PyCRM genes dropped in expression, while a minority rose in a stress-specific way.",
+     "evidence": "expression profiling under cold, drought, and disease revealed that most PyCRM genes were downregulated under stress conditions, while a few members exhibited stress-specific upregulation",
+     "note": "Downregulation of most genes and stress-specific upregulation of a few is the reported expression result."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Silencing a CRS1-subfamily PyCRM gene lowers cold tolerance in pear plants.",
+     "evidence": "These findings lay the foundation for future investigations into CRM-mediated stress tolerance and crop improvement.",
+     "note": "Only expression profiling was done; the abstract frames functional tests of stress tolerance as future work and reports no knockdown experiment."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Of the four conserved subfamilies recovered by the phylogeny, CRS1 held the most members.",
+     "evidence": "Phylogenetic analysis grouped these proteins into four conserved subfamilies, with the CRS1 subfamily being the largest.",
+     "note": "The abstract names four subfamilies and identifies CRS1 as the largest."
+    }
+   ]
+  },
+  {
+   "n": 601,
+   "id": "pmid:42458251",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "The highly variable non-coding regions were tested on herbarium material and separated Ficus species reliably.",
+     "evidence": "which may serve as candidate molecular markers for phylogenetic reconstruction and species identification in Moraceae",
+     "note": "The variable regions are only proposed as candidate markers; no test of their discriminating power on samples is reported."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Most plastid genes showed purifying selection, with positive-selection signals limited to a few genes, including rbcL in Morus and clpP and rps19 in Ficus.",
+     "evidence": "most plastid genes are under purifying selection, with a small number of genes showing signals consistent with positive selection in specific lineages, including rbcL in Morus, and clpP and rps19 in Ficus",
+     "note": "This is exactly the selection-pressure result the abstract reports."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The study assembled 140 complete plastomes, 49 of them newly sequenced and the other 91 taken from public data.",
+     "evidence": "using 140 complete plastomes (49 newly sequenced and 91 publicly available)",
+     "note": "The counts of new and public plastomes are stated in the sampling description."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "All seven recognised Moraceae tribes came out monophyletic in the plastome tree, whereas Streblus did not.",
+     "evidence": "strongly supported the monophyly of all seven recognized tribes of Moraceae, recovered the non-monophyly of Streblus",
+     "note": "Tribal monophyly and the non-monophyly of Streblus are both reported phylogenetic results."
+    }
+   ]
+  },
+  {
+   "n": 602,
+   "id": "doi:10.1101/2024.07.08.602537",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Stripping out putative recombinant diversity left a phylogeny with a total length of 6000 core genome mutations.",
+     "evidence": "After removing putative recombinant diversity, the total length of the phylogeny is 6000 core genome mutations.",
+     "note": "The abstract states this total branch length directly."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The accessory genome accumulated roughly one structural change for every three core genome mutations across these ST131 genomes.",
+     "evidence": "we find 22 modifications to core genome synteny and estimate around 2000 structural changes within the accessory genome, i.e. one structural change for every 3 core genome mutations",
+     "note": "The ratio of one structural change per three core mutations is given explicitly."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The accessory genome gains in ST131 carry antibiotic resistance genes that account for the lineage's global spread.",
+     "evidence": "demonstrating a dominance of gains due to insertion sequences and prophage integration",
+     "note": "Gains are attributed to insertion sequences and prophages; the abstract never discusses resistance gene content or the lineage's epidemiological success."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Where individual events could be assigned, gains exceeded losses by about tenfold.",
+     "evidence": "63% of loci with structural diversity could be resolved into individual gain and loss events with ten-fold more gains than losses",
+     "note": "The ten-fold excess of gains over losses is the reported result for resolved loci."
+    }
+   ]
+  },
+  {
+   "n": 603,
+   "id": "pmid:41459216",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Antibiotic resistance gene counts among animal-derived isolates peaked in those from mammals and were lowest in those from rodents.",
+     "evidence": "were most prevalent among animal-derived isolates, with the highest numbers occurring in mammals and the lowest in rodents",
+     "note": "The abstract reports this ranking of resistance gene prevalence across animal sources."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Isolates with more bacteriocin clusters suppressed gut pathogens more strongly in co-culture.",
+     "evidence": "the predicted bacteriocin clusters were enriched in animal-derived, particularly in rodent isolates",
+     "note": "Bacteriocin clusters were predicted from sequence only; no inhibition or co-culture assay is reported."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The L. reuteri pan-genome held 16,814 genes while the core genome comprised just 553.",
+     "evidence": "The pan-genome consisted of 16,814 genes, while the core genome contained 553 genes.",
+     "note": "Both gene counts are stated in the results."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "CRISPR-Cas systems occurred in 23.3% of the genomes and were most common in rodent isolates.",
+     "evidence": "CRISPR-Cas systems were present in 23.3% of genomes, predominantly in rodents isolates",
+     "note": "The prevalence figure and its concentration in rodent isolates are both reported."
+    }
+   ]
+  },
+  {
+   "n": 604,
+   "id": "pmid:40457188",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The Neodon fuscus genome showed expansion of gene families related to immunity.",
+     "evidence": "The genome of N. fuscus shows gene family expansion in genes related to immunity.",
+     "note": "Immunity-related gene family expansion is stated as a genome finding."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Genes linked to DNA damage repair, among them Atm and Pdia4, were found to be positively selected or rapidly evolving.",
+     "evidence": "revealed several positively selected genes and rapidly evolving genes associated with DNA damage repair (Atm and Pdia4)",
+     "note": "Atm and Pdia4 are named as DNA damage repair genes under positive selection or rapid evolution."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "A 24 bp deletion in Map3k6 was present in Neodon and not elsewhere.",
+     "evidence": "we identified a Neodon-specific 24 bp deletion in Map3k6",
+     "note": "The abstract reports this deletion as specific to Neodon."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Neodon fuscus carries a higher blood haemoglobin concentration than low-altitude voles.",
+     "evidence": "These rodents inhabit meadows, swampy grasslands, and shrublands at elevations ranging from 3,700 to 4,800 m in Qinghai-Tibet Plateau, where they experience environment stresses such as hypoxia, enhanced ultraviolet radiation, and low temperature.",
+     "note": "The study is genomic: hypoxic habitat and candidate genes are described, but no physiological or blood measurements are reported."
+    }
+   ]
+  },
+  {
+   "n": 605,
+   "id": "pmid:41408140",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The assembled mitochondrial genome came to 393,546 bp on two putative circular chromosomes, with a GC content of 45.29%.",
+     "evidence": "The mitochondrial genome of Cercis chinensis consists of two putative circular chromosomes, totaling 393,546 bp in length with a GC content of 45.29%.",
+     "note": "Size, chromosome number and GC content are given in the results."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "The Cercis chinensis mitochondrial genome is larger than that of Cercis canadensis.",
+     "evidence": "Among species in the genus Cercis, only the complete mitochondrial genome of Cercis canadensis has been publicly available.",
+     "note": "C. canadensis is mentioned only as the one mitogenome previously available; no size comparison between the two species is made."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Most of the 546 predicted C-to-U editing sites change the encoded amino acid.",
+     "evidence": "Functional analysis predicted 546 C-to-U RNA editing sites, the majority of which result in nonsynonymous amino acid substitutions.",
+     "note": "The site count and the predominance of nonsynonymous outcomes are both stated."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Core protein-coding genes were mostly under purifying selection, while atp4 and nad4 carried positive-selection signals.",
+     "evidence": "Ka/Ks analysis indicated that most core PCGs are subject to purifying selection, reflecting high functional conservation across species. Notably, atp4 and nad4 exhibited signs of positive selection",
+     "note": "The Ka/Ks analysis reports purifying selection for most core genes and singles out atp4 and nad4."
+    }
+   ]
+  },
+  {
+   "n": 606,
+   "id": "doi:10.1101/2025.01.08.631987",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The genetic models built by evolutionary sparse learning predicted independent origins of C4 photosynthesis with high accuracy.",
+     "evidence": "Genetic models were highly predictive of independent cases of convergent evolution of C4 photosynthesis.",
+     "note": "High predictive performance for independent C4 origins is the headline result."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Functional categories for hearing, sound perception and deafness were enriched among the echolocation model genes at P below 10 to the minus six.",
+     "evidence": "related to hearing, sound perception, and deafness ( P < 10 −6 )",
+     "note": "The abstract gives this enrichment with its significance threshold."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The hearing-related genes behind the echolocation models evolve faster in echolocating bats than in non-echolocating bats.",
+     "evidence": "a pattern that has eluded previous efforts applying standard molecular evolutionary approaches",
+     "note": "The abstract says standard molecular evolutionary approaches missed the enrichment, but reports no rate comparison between echolocating and non-echolocating lineages."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Sequence substitutions in many shared genetic loci were implicated in the convergent traits examined.",
+     "evidence": "These results support the involvement of sequence substitutions in many common genetic loci in the evolution of convergent traits studied.",
+     "note": "This is the stated interpretation of the model results."
+    }
+   ]
+  },
+  {
+   "n": 607,
+   "id": "doi:10.64898/2026.04.20.719760",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Structural variants at TAD boundaries change the expression of NLR immune-receptor genes in Vitis.",
+     "evidence": "Pan-3D genome analysis highlights the contributions of structural variants (SVs) to the variation of A/B compartments and topologically associated domains (TADs), revealing a strong purifying selection of SVs at TAD boundaries.",
+     "note": "Structural variants are tied to compartment and TAD variation, and Helitrons separately to NLR expression, but no link between TAD-boundary variants and NLR expression is drawn."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The analysis rested on 29 chromosome-level assemblies from five Vitaceae genera, 27 of which were released here for the first time.",
+     "evidence": "using 29 genome assemblies of five genera Vitis , Parthenocissus, Ampelopsis, Tetrastigma, and Cissus, 27 of which are newly released in this study",
+     "note": "Both the total number of assemblies and the number newly released are stated."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Ancestral genome reconstruction found the karyotype conserved in Vitis but extensively reorganised in Tetrastigma and Cissus.",
+     "evidence": "highlighting the conserved karyotype in Vitis and the extensive karyotypic reorganization in Tetrastigma and Cissus",
+     "note": "The contrast between conserved Vitis and reorganised Tetrastigma and Cissus karyotypes is reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Expressing the wild-grapevine NLR gene VbRpv35 in V. vinifera raised resistance to downy mildew.",
+     "evidence": "we discovered an NLR gene VbRpv35 from wild grapevine V. bellula resistant to downy mildew (DM), whose heterologous expression in V. vinifera confers enhanced DM resistance",
+     "note": "Enhanced downy mildew resistance after heterologous expression is stated as a result."
+    }
+   ]
+  },
+  {
+   "n": 608,
+   "id": "doi:10.1101/2025.07.04.663182",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Species with larger Wnt gene repertoires are morphologically more diverse.",
+     "evidence": "This work provides a high-resolution framework for understanding the molecular evolution of a key developmental toolkit and highlights candidate genes for future studies of vertebrate eco-morphological diversity.",
+     "note": "Eco-morphological diversity is named only as a direction for future study; no test of repertoire size against morphology is reported."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "An octoploid hybrid cyprinid carried 99 Wnt genes, the largest repertoire found in the survey.",
+     "evidence": "we identify extreme expansions in polyploid cyprinids, including an octoploid hybrid harbouring 99 Wnt genes, the highest number observed",
+     "note": "The abstract records 99 Wnt genes in an octoploid hybrid as the highest count observed."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Ray-finned fishes held the largest Wnt repertoires, and this still held once taxa with recent whole-genome duplications were excluded.",
+     "evidence": "with ray-finned fishes (Actinopterygii) exhibiting the largest repertoires – even after excluding taxa with recent WGDs",
+     "note": "The abstract states the Actinopterygii result and that it survives exclusion of recent WGD taxa."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Developmental expression timing bore no relation to evolutionary rates across the Wnt genes.",
+     "evidence": "there was no relationship between developmental expression timing and evolutionary rates",
+     "note": "The absence of this relationship is reported as a finding that ran against expectation."
+    }
+   ]
+  },
+  {
+   "n": 609,
+   "id": "doi:10.64898/2026.09.22.753194",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "After repeated cold shock, 21 of the 48 lines (44%) carried a larger proportion of differentiated colonies under baseline conditions.",
+     "evidence": "Somatic differentiation evolved rapidly, with 21 of 48 lines (44%) exhibiting a larger proportion of differentiated colonies in baseline conditions.",
+     "note": "The abstract gives both the count and the percentage of lines that shifted."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "One evolved lineage acquired obligate somatic differentiation, the first such case reported from experimental evolution.",
+     "evidence": "We also identified a lineage with obligate somatic differentiation; this is the first published example of the experimental evolution of obligate somatic differentiation.",
+     "note": "The abstract reports this lineage and claims it as the first published example."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "In the obligately differentiated line, 93% of the genes mutated but not mutated in the control had a homolog with soma-specific or cold-induced expression.",
+     "evidence": "93% of genes mutated in the obligately differentiated line and not in the control had at least one homolog with soma-specific expression in obligately differentiated Volvox carteri or Astrephomene gubernaculifera and/or cold-induced expression in unicellular Chlamydomonas reinhardtii.",
+     "note": "The 93% figure for homologs with soma-specific or cold-induced expression comes from the genome sequencing result."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Repeated cold shock also drives obligate somatic differentiation in Pleodorina.",
+     "evidence": "The proportion of somatic cells in these lines converged with that of Pleodorina, a polyphyletic soma-differentiated volvocine algae genus.",
+     "note": "Pleodorina appears only as a reference point for somatic-cell proportion; it was not part of the cold-shock experiment."
+    }
+   ]
+  },
+  {
+   "n": 610,
+   "id": "pmid:41962241",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The plastisphere held higher nrfA levels than seawater, and nrfA transcripts were picked up consistently.",
+     "evidence": "The plastisphere contained elevated nrfA levels compared to seawater, and nrfA transcripts were consistently detected.",
+     "note": "Both the enrichment relative to seawater and the consistent transcript detection are stated."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "DNRA rates measured in plastisphere biofilms exceed those in the surrounding seawater.",
+     "evidence": "These findings highlight a previously underappreciated genetic and transcriptional potential for DNRA in plastic-associated biofilms at the particle scale, with implications for nitrogen retention within plastisphere microhabitats.",
+     "note": "Only genetic and transcriptional potential was assessed; no process rate measurements are reported."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Of the 285 candidate nrfA-dependent nitrite ammonifying bacteria recovered, 156 genera were new.",
+     "evidence": "A total of 285 putative nrfA-dependent nitrite ammonifying bacteria were identified, including 156 novel genera.",
+     "note": "Both counts are given in the results."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Most plastisphere MAGs were shared with other marine biofilms, while 109 turned up only in plastisphere samples.",
+     "evidence": "Most plastisphere MAGs overlapped with other examined marine biofilms, whereas 109 MAGs were uniquely detected in plastisphere samples",
+     "note": "The abstract contrasts the overlapping majority with 109 plastisphere-only MAGs."
+    }
+   ]
+  },
+  {
+   "n": 611,
+   "id": "doi:10.64898/2026.08.13.744633",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The assembly spans 2.353 Gb and holds 15 autosomes plus the X and Y chromosomes.",
+     "evidence": "The assembly spans 2.353 Gb and comprises 15 autosomes together with the X and Y sex chromosomes.",
+     "note": "Assembly size and chromosome complement are stated directly."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Telomere-to-telomere resolution was achieved for every chromosome apart from the Y.",
+     "evidence": "we achieved a telomere-to-telomere assembly for all chromosomes, except the Y chromosome",
+     "note": "The abstract states the Y chromosome was the one exception."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Genome-wide heterozygosity in the Saimaa ringed seal is lower than in the Baltic ringed seal.",
+     "evidence": "facilitating future work on genetic diversity, inbreeding, mutational load and adaptive potential in this highly endangered species",
+     "note": "Genetic diversity and inbreeding are flagged as future work; no heterozygosity estimate or comparison is reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Gene family expansions diverged between the seals: ion transport and cytoskeleton in the Saimaa ringed seal, olfaction, immunity and spermatogenesis in the grey seal.",
+     "evidence": "In the Saimaa ringed seal, expansions were observed in ion transport, cytoskeleton, and regulatory genes, potentially reflecting adaptation to freshwater conditions. In contrast, the grey seal showed expansions in olfaction, immune-and spermatogenesis-associated gene families",
+     "note": "The comparative gene family analysis reports these contrasting sets of expansions."
+    }
+   ]
+  },
+  {
+   "n": 612,
+   "id": "pmid:42429186",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "LegY hydrolyses glycosylated host proteins during Legionella pneumophila infection.",
+     "evidence": "This study provides structural insights into LegY, laying a foundation for future uncovering of its putative function during L. pneumophila infection.",
+     "note": "LegY is a putative glycosidase whose function the abstract leaves to future work; no activity during infection was tested."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The crystal structure of LegY was determined to 1.46 angstrom resolution.",
+     "evidence": "we report the crystal structure of LegY, a putative glycosidase effector from L. pneumophila, determined to 1.46 Å resolution (PDB entry 27xj)",
+     "note": "The resolution of the reported structure is given explicitly."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "LegY resembles fungal glucoamylases structurally more than it resembles the known prokaryotic counterparts.",
+     "evidence": "LegY structurally shows high similarity to fungal glucoamylases but shares lower homology with known prokaryotic counterparts.",
+     "note": "The abstract contrasts high similarity to fungal glucoamylases with lower homology to prokaryotic relatives."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "In the phylogenetic analysis LegY groups inside the fungal clade.",
+     "evidence": "Phylogenetic analysis clusters LegY within the fungal clade",
+     "note": "Clustering within the fungal clade is the reported phylogenetic placement."
+    }
+   ]
+  },
+  {
+   "n": 613,
+   "id": "pmid:41004892",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The 63 isolates characterised comprised 28 EIEC and 35 Shigella, the latter made up of 25 S. sonnei and 10 S. flexneri.",
+     "evidence": "We isolated and genomically characterised 63 isolates, comprising 28 EIEC (eight serotypes, including O96:H19 from a 2024 outbreak) and 35 Shigella (25 S. sonnei and 10 S. flexneri)",
+     "note": "The composition of the isolate collection is given in these counts."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Chromosomal genome reduction was limited in these lineages, placing them early in adaptation toward a pathogenic lifestyle.",
+     "evidence": "Limited chromosomal genome reduction-a hallmark of Shigella- was observed, which suggests that these lineages are in an early stage of adaptation toward a pathogenic lifestyle.",
+     "note": "Limited genome reduction and the early-adaptation reading of it are both reported."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The novel OX18:H25 lineage sits close to livestock-associated E. coli in the phylogenomic analysis.",
+     "evidence": "Phylogenomic analysis showed that OX18:H25 is closely related to livestock-associated E. coli",
+     "note": "This relatedness is the stated phylogenomic result for OX18:H25."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "The EIEC outbreak isolates caused more severe diarrhoea than the Shigella isolates in the same collection.",
+     "evidence": "In Thailand, an outbreak caused by the EIEC serotype O8:H19-the first reported in the country-occurred in 2023, affecting over 150 patients.",
+     "note": "The abstract gives the outbreak's size but compares no clinical severity between EIEC and Shigella infections."
+    }
+   ]
+  },
+  {
+   "n": 614,
+   "id": "pmid:42821351",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Spores formed under nutrient-rich conditions survived passage through the Drosophila gut, while vegetative cells did not.",
+     "evidence": "spores produced under nutrient-rich conditions survive passage through the digestive tract of Drosophila melanogaster , whereas vegetative cells do not",
+     "note": "The abstract contrasts spore survival with the failure of vegetative cells to survive gut passage."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Constitutive sporulation cost competitive growth in serial laboratory passaging, yet fly-mediated transmission strongly favoured high-sporulation strains.",
+     "evidence": "Although constitutive sporulation reduces competitive growth during laboratory serial passaging, fly-mediated transmission strongly enriches high-sporulation (hc 90 ) strains, indicating positive selection by insect predation.",
+     "note": "Both the growth cost and the enrichment through fly passage are reported."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Passage through flies raises the rate of outcrossing between Schizosaccharomyces japonicus strains.",
+     "evidence": "Together, our findings indicate that long-term yeast-insect interactions can maintain costly sexual reproduction as an adaptive strategy for survival and dispersal.",
+     "note": "Sporulation is framed as serving survival and dispersal; mating or outcrossing rates between strains are never measured."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The high-sporulation phenotype tracked with combinations of mutations in six meiotic regulatory genes rather than with any single gene.",
+     "evidence": "the hc 90 phenotype is associated with combinations of mutations in six meiotic regulatory genes- byr2, mcs4, ste6, ste11, tor2, and win1 -suggesting epistatic interactions rather than single-gene effects",
+     "note": "Six genes are named and the abstract attributes the phenotype to combinations rather than single-gene effects."
+    }
+   ]
+  },
+  {
+   "n": 615,
+   "id": "pmid:42249518",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The comparison covered 36 C. nymphaeae genomes plus 45 genomes of other Colletotrichum from strawberry or close relatives.",
+     "evidence": "We performed comparative genomics on 36 C. nymphaeae genomes and 45 other Colletotrichum genomes sampled from strawberry or from closely related species",
+     "note": "Both genome counts and their sampling are stated in the methods sentence."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "TE-rich accessory regions were enriched for duplicated genes, genes under relaxed selection, and genes tied to stress, virulence and fungicide resistance.",
+     "evidence": "TE-rich accessory regions (ARs) that cluster by lineage and are enriched for gene duplications, genes under relaxed selection and genes linked to stress, virulence and fungicide resistance",
+     "note": "This enrichment of the accessory compartment is a reported result."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Isolates carrying the horizontally acquired effector genes were more virulent on strawberry than isolates lacking them.",
+     "evidence": "We identified a Starship element and a 2 kb region containing two effector genes that were horizontally acquired.",
+     "note": "The horizontally acquired effector genes are reported as present, with no virulence comparison between isolates that carry them and those that do not."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The species splits into three major lineages, one of them a globally distributed clonal lineage varying widely in morphology and virulence.",
+     "evidence": "Colletotrichum nymphaeae consists of three major lineages, with a globally distributed clonal lineage showing high variability in morphology and virulence.",
+     "note": "The abstract reports three lineages and the variability of the clonal one."
+    }
+   ]
+  },
+  {
+   "n": 616,
+   "id": "doi:10.1101/2025.04.03.646976",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Ancestral reconstruction placed a serine-to-alanine change at residue 212 in COL3 and a glycine-to-serine change at residue 343 in COL5.",
+     "evidence": "Ancestral sequence reconstruction revealed that COL3 evolved from serine to alanine at residue 212, while COL5 transitioned from glycine to serine at residue 343.",
+     "note": "Both substitutions and their residue positions are given."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The S212A change in COL3, upstream of its CCT domain, stabilised the protein even though flexibility fell.",
+     "evidence": "the S212A mutation in COL3, positioned upstream of its CCT domain, showed a stabilizing effect despite reduced flexibility",
+     "note": "The stability analysis reports S212A as stabilising with reduced flexibility."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "GO enrichment tied the positively selected COL genes to red and far-red light signalling and to developmental regulation.",
+     "evidence": "GO enrichment analysis revealed that positively selected COL genes are significantly associated with red and far-red light signaling and developmental regulation.",
+     "note": "These are the enriched categories the abstract names."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Arabidopsis plants carrying the ancestral glycine at COL5 residue 343 flower later than wild type.",
+     "evidence": "These findings suggest that episodic positive selection fine-tunes COL protein function, warranting further studies using molecular dynamics simulations and in vivo functional assays.",
+     "note": "The work is computational and structural; in vivo assays are flagged as future work, and no flowering phenotype is reported."
+    }
+   ]
+  },
+  {
+   "n": 617,
+   "id": "pmid:37621704",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "The positively selected spike sites occur more often in Bangladeshi Omicron genomes than in Omicron genomes from other countries.",
+     "evidence": "Here, we scanned for adaptive evolution within the SARS-CoV-2 Omicron genomes reported from Bangladesh in the public database GISAID (www.gisaid.org; dated 2 April 2023).",
+     "note": "Only genomes from Bangladesh were scanned, so no comparison of these sites against other countries is reported."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Twenty-two codon sites in the spike gene showed a signature of positive selection.",
+     "evidence": "In total, 22 codon sites of the S gene displayed a signature of positive selection.",
+     "note": "The count of positively selected spike codons is stated."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The receptor-binding motif within the spike RBD stood out as a hotspot, with many of its codons exceeding an omega of 1.",
+     "evidence": "the receptor-binding motif within the RBD of the spike glycoprotein is a hotspot of adaptive evolution, where many of the codons had ω > 1",
+     "note": "The abstract identifies the receptor-binding motif as a hotspot with many codons above omega of 1."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Positive selection was detected beyond the spike gene, in the M gene and ORF6 as well.",
+     "evidence": "The M gene and ORF6 have also experienced positive selection.",
+     "note": "The abstract reports positive selection in these two additional genes."
+    }
+   ]
+  },
+  {
+   "n": 618,
+   "id": "pmid:42378117",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Cuscuta homologs of the sesame CYP81Q1 gene retained piperitol/sesamin synthase activity in vitro.",
+     "evidence": "We identified Cuscuta homologs of S. indicum CYP81Q1, which encodes piperitol/sesamin synthase (PSS), and demonstrated that these proteins retain catalytic PSS activity in vitro.",
+     "note": "Retained catalytic activity in vitro is demonstrated in the study."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Infection by C. campestris raised host CYP81Q expression and increased transfer of genetic material across the haustorial interface.",
+     "evidence": "Parasitism by C. campestris induces host CYP81Q expression and enhances interspecific transfer of genetic material across the haustorial interface",
+     "note": "Both effects of parasitism are reported as the mechanistic basis for the transfer."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Sesamin accumulation protects Cuscuta against insect herbivores.",
+     "evidence": "Here, we demonstrate that parasitic dodders (Cuscuta spp.) accumulate the lignan sesamin, a compound previously considered characteristic of sesame (Sesamum indicum) and related Lamiales species.",
+     "note": "The abstract establishes that Cuscuta accumulates sesamin but says nothing about what the compound does for the plant."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Once acquired horizontally, the transferred gene picked up introns in sequence while keeping its enzymatic function.",
+     "evidence": "following horizontal acquisition, the transferred gene underwent extensive structural remodeling, characterized by sequential intron gains, while its enzymatic function was preserved",
+     "note": "Sequential intron gains alongside preserved function is the reported post-transfer pattern."
+    }
+   ]
+  },
+  {
+   "n": 619,
+   "id": "pmid:41051204",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Virulence and resistance genes accounted for between 0.61% and 2.23% of the pangenome.",
+     "evidence": "Virulence and resistance genes comprised 0.61% to 2.23% of the pangenome.",
+     "note": "This range is stated directly in the results."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The pangenome proved open, and core-genome SNP analysis put the hospital strains in CC758/IC5 and CC92/IC2.",
+     "evidence": "The pangenome was determined to be open, and core genome single-nucleotide polymorphism-based analysis grouped the CRAB-HIMFG strains within CC758/IC5 and CC92/IC2.",
+     "note": "Both the open pangenome and the clonal complex assignments are reported."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Patients infected with the CC92/IC2 strains had worse outcomes than those infected with CC758/IC5 strains.",
+     "evidence": "In recent years, a reported increase in the mortality rate associated with infections caused by A. baumannii , along with a rise in carbapenem resistance, poses a serious clinical challenge.",
+     "note": "Rising mortality appears only as general background; no patient outcomes are compared between the clonal complexes studied."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Carbapenem resistance in these strains rested mainly on oxacillinase genes and efflux pumps.",
+     "evidence": "Oxacillinase genes and efflux pumps primarily mediated carbapenem resistance",
+     "note": "The abstract names these as the primary mediators of carbapenem resistance."
+    }
+   ]
+  }
+ ],
+ "flip_rule": "first-of-any-v2",
+ "flip_rule_history": [
+  "first-of-any"
+ ]
+}

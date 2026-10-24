@@ -1,0 +1,347 @@
+{
+ "batch": "gen_108",
+ "prompt_version": "gen-v5",
+ "flip_rule": "first-of-any-v3",
+ "items": [
+  {
+   "n": 1725,
+   "id": "pmid:17277777",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Active promoters carried trimethylation of lysine 4 on histone H3 across the region studied.",
+     "evidence": "active promoters are marked by trimethylation of Lys4 of histone H3 (H3K4)",
+     "note": "The abstract reports active promoters are marked by H3K4 trimethylation."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "The same histone modification patterns were also mapped in the mouse genome.",
+     "evidence": "We determined the chromatin modification states in high resolution along 30 Mb of the human genome",
+     "note": "The abstract studies only the human genome and never mentions mouse."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Applying the chromatin signatures, the algorithms predicted more enhancers than promoters within the 30-Mb region.",
+     "evidence": "predicting over 200 promoters and 400 enhancers within the 30-Mb region",
+     "note": "The abstract reports over 400 enhancers versus over 200 promoters, so more enhancers were predicted."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Enhancers displayed monomethylation of H3K4 rather than the trimethylation that marked promoters.",
+     "evidence": "enhancers are marked by monomethylation, but not trimethylation, of H3K4",
+     "note": "The abstract states enhancers carry H3K4 monomethylation but not trimethylation."
+    }
+   ]
+  },
+  {
+   "n": 1726,
+   "id": "pmid:21106759",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "H3K27ac set active enhancers apart from poised enhancers bearing only H3K4me1.",
+     "evidence": "histone H3K27ac distinguishes active enhancers from inactive/poised enhancer elements containing H3K4me1 alone",
+     "note": "The abstract reports H3K27ac distinguishes active from poised enhancers marked by H3K4me1 alone."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The fraction of enhancers that are actively used proved lower than had previously been anticipated.",
+     "evidence": "the amount of actively used enhancers is lower than previously anticipated",
+     "note": "The abstract states the amount of actively used enhancers is lower than previously anticipated."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The poised enhancers found in adult tissues are the same elements that are poised in embryonic stem cells.",
+     "evidence": "Here we interrogate the epigenetic landscape of enhancer elements in embryonic stem cells and several adult tissues in the mouse",
+     "note": "The abstract profiles both ESCs and adult tissues but never says their poised enhancers are the same elements."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "During nuclear reprogramming, the enhancer landscape is reset.",
+     "evidence": "enhancers are reset during nuclear reprogramming",
+     "note": "The abstract states enhancers are reset during nuclear reprogramming."
+    }
+   ]
+  },
+  {
+   "n": 1727,
+   "id": "pmid:23582322",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Super-enhancers consist of dense clusters of enhancers heavily bound by the master regulators and Mediator.",
+     "evidence": "consist of clusters of enhancers that are densely occupied by the master regulators and Mediator",
+     "note": "The abstract describes super-enhancers as clusters of enhancers densely occupied by master regulators and Mediator."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Super-enhancers are evolutionarily conserved across vertebrate species.",
+     "evidence": "Super-enhancers thus play key roles in the control of mammalian cell identity.",
+     "note": "The abstract discusses super-enhancers in mammalian cells but never addresses cross-species conservation."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Super-enhancers and typical enhancers differ in size, transcription-factor density, and their capacity to drive transcription.",
+     "evidence": "Super-enhancers differ from typical enhancers in size, transcription factor density and content, ability to activate transcription",
+     "note": "The abstract lists size, transcription-factor density, and activating ability among the differences."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Lowering Oct4 or Mediator levels caused preferential loss of expression at super-enhancer-associated genes relative to other genes.",
+     "evidence": "Reduced levels of Oct4 or Mediator cause preferential loss of expression of super-enhancer-associated genes relative to other genes",
+     "note": "The abstract reports reduced Oct4 or Mediator preferentially lowers expression of super-enhancer-associated genes."
+    }
+   ]
+  },
+  {
+   "n": 1728,
+   "id": "pmid:20393465",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "CBP appears to recruit RNA polymerase II, which showed activity-regulated binding at thousands of enhancers.",
+     "evidence": "we also observed activity-regulated RNAPII binding to thousands of enhancers",
+     "note": "The abstract suggests CBP recruits RNAPII and reports activity-regulated RNAPII binding at thousands of enhancers."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "eRNA levels at neuronal enhancers correlated positively with messenger RNA synthesis at neighbouring genes.",
+     "evidence": "The level of eRNA expression at neuronal enhancers positively correlates with the level of messenger RNA synthesis at nearby genes",
+     "note": "The abstract reports eRNA levels correlate positively with nearby mRNA synthesis."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "These enhancer RNAs are polyadenylated and exported to the cytoplasm for translation.",
+     "evidence": "RNAPII at enhancers transcribes bi-directionally a novel class of enhancer RNAs (eRNAs)",
+     "note": "The abstract reports eRNA transcription but never addresses whether these RNAs are polyadenylated, exported, or translated."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The study identified roughly 12,000 activity-regulated enhancers bound by the co-activator CBP in neurons.",
+     "evidence": "approximately 12,000 neuronal activity-regulated enhancers that are bound by the general transcriptional co-activator CBP",
+     "note": "The abstract reports about 12,000 activity-regulated enhancers bound by CBP."
+    }
+   ]
+  },
+  {
+   "n": 1729,
+   "id": "pmid:19295514",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "The same ChIP-chip method can also locate silencer elements in the human genome.",
+     "evidence": "to locate promoters, enhancers and insulators in the human genome",
+     "note": "The abstract applies the method to promoters, enhancers and insulators but never addresses silencers."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The work defined over 55,000 candidate transcriptional enhancers in the human genome.",
+     "evidence": "define over 55,000 potential transcriptional enhancers in the human genome",
+     "note": "The abstract reports defining over 55,000 potential enhancers in the human genome."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Enhancer chromatin patterns varied far more between cell types than the largely invariant promoter and insulator states.",
+     "evidence": "the chromatin state at promoters and CTCF-binding at insulators is largely invariant across diverse cell types. In contrast, enhancers are marked with highly cell-type-specific histone modification patterns",
+     "note": "The abstract contrasts largely invariant promoter and insulator states with cell-type-specific enhancer patterns."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Enhancer marking correlated strongly with cell-type-specific gene-expression programs at a global scale.",
+     "evidence": "strongly correlate to cell-type-specific gene expression programs on a global scale",
+     "note": "The abstract reports enhancers strongly correlate with cell-type-specific expression programs globally."
+    }
+   ]
+  },
+  {
+   "n": 1730,
+   "id": "pmid:21160473",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Both classes of hESC regulatory elements carried p300, BRG1, and H3K4me1 with low nucleosomal density.",
+     "evidence": "both of which are marked by the presence of chromatin regulators p300 and BRG1, monomethylation of histone H3 at lysine 4 (H3K4me1), and low nucleosomal density",
+     "note": "The abstract states both element classes share p300, BRG1, H3K4me1, and low nucleosomal density."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Removing H3K27me3 from poised enhancers causes their target genes to switch on prematurely.",
+     "evidence": "indicate an unappreciated role of H3K27me3 at distal regulatory elements",
+     "note": "The abstract highlights a role for H3K27me3 at these elements but never tests removing it."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Poised enhancers were enriched for H3K27me3 while lacking the H3K27ac mark.",
+     "evidence": "are distinguished by the absence of H3K27ac, enrichment of histone H3 lysine 27 trimethylation (H3K27me3)",
+     "note": "The abstract defines poised enhancers by absent H3K27ac and enrichment of H3K27me3."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "When hESCs differentiated toward neuroepithelium, a neuroectoderm subset of poised enhancers took on an active-enhancer signature.",
+     "evidence": "a neuroectoderm-specific subset of poised enhancers acquires a chromatin signature associated with active enhancers",
+     "note": "The abstract reports a neuroectoderm subset of poised enhancers gains an active-enhancer signature on differentiation."
+    }
+   ]
+  },
+  {
+   "n": 1731,
+   "id": "pmid:17604720",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The survey of the four human HOX loci identified 231 HOX noncoding RNAs across 11 anatomic sites.",
+     "evidence": "the four human HOX loci at five base pair resolution in 11 anatomic sites and identify 231 HOX ncRNAs",
+     "note": "The abstract reports 231 HOX ncRNAs identified across the four loci in 11 anatomic sites."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "HOTAIR, a 2.2-kilobase ncRNA from the HOXC locus, represses transcription in trans across 40 kilobases of HOXD.",
+     "evidence": "termed HOTAIR, which represses transcription in trans across 40 kilobases of the HOXD locus",
+     "note": "The abstract reports HOTAIR represses transcription in trans across 40 kilobases of the HOXD locus."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Loss of HOTAIR expression causes developmental limb malformations in humans.",
+     "evidence": "these results have broad implications for gene regulation in development and disease states",
+     "note": "The abstract notes broad implications for development and disease but never links HOTAIR loss to a clinical phenotype."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "HOTAIR binds Polycomb Repressive Complex 2 and is needed for PRC2 occupancy and H3K27 trimethylation at the HOXD locus.",
+     "evidence": "HOTAIR interacts with Polycomb Repressive Complex 2 (PRC2) and is required for PRC2 occupancy and histone H3 lysine-27 trimethylation of HOXD locus",
+     "note": "The abstract reports HOTAIR interacts with PRC2 and is required for its occupancy and H3K27 trimethylation at HOXD."
+    }
+   ]
+  },
+  {
+   "n": 1732,
+   "id": "pmid:19182780",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The chromatin-state approach uncovered about 1,600 large multi-exonic RNAs in four mouse cell types.",
+     "evidence": "approximately 1,600 large multi-exonic RNAs across four mouse cell types",
+     "note": "The abstract reports roughly 1,600 large multi-exonic RNAs across four mouse cell types."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "These lincRNAs act mainly by guiding chromatin-modifying complexes to their target genes.",
+     "evidence": "demonstrating a diverse range of roles for lincRNAs in processes from embryonic stem cell pluripotency to cell proliferation",
+     "note": "The abstract assigns lincRNAs to biological processes but never addresses the molecular mechanism by which they act."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "In sharp contrast to previous collections, greater than 95% of these lincRNAs showed clear evolutionary conservation.",
+     "evidence": "greater than 95% showing clear evolutionary conservation",
+     "note": "The abstract reports over 95% of these lincRNAs show clear evolutionary conservation, unlike earlier collections."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Specific lincRNAs are transcriptionally regulated by key factors including p53, NF-kappaB, Sox2, Oct4, and Nanog.",
+     "evidence": "specific lincRNAs are transcriptionally regulated by key transcription factors in these processes such as p53, NFkappaB, Sox2, Oct4 (also known as Pou5f1) and Nanog",
+     "note": "The abstract reports these lincRNAs are regulated by factors including p53, NFkappaB, Sox2, Oct4, and Nanog."
+    }
+   ]
+  },
+  {
+   "n": 1733,
+   "id": "pmid:16630818",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "SUZ12 occupied large portions of over two hundred genes encoding key developmental regulators in human ES cells.",
+     "evidence": "SUZ12 is distributed across large portions of over two hundred genes encoding key developmental regulators",
+     "note": "The abstract reports SUZ12 spread across large portions of over two hundred developmental-regulator genes."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "The ES cell regulators OCT4, SOX2, and NANOG recruit PRC2 to these developmental genes.",
+     "evidence": "the ES cell regulators OCT4, SOX2, and NANOG cooccupy a significant subset of these genes",
+     "note": "The abstract reports co-occupancy by these factors but never shows that they recruit PRC2."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The SUZ12-bound genes carried H3K27-trimethylated nucleosomes and were transcriptionally silent.",
+     "evidence": "occupied by nucleosomes trimethylated at histone H3K27, are transcriptionally repressed",
+     "note": "The abstract reports these genes carry H3K27-trimethylated nucleosomes and are transcriptionally repressed."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "PRC2 target genes were preferentially activated as the ES cells underwent differentiation.",
+     "evidence": "PRC2 target genes are preferentially activated during ES cell differentiation",
+     "note": "The abstract reports PRC2 target genes are preferentially activated during ES cell differentiation."
+    }
+   ]
+  },
+  {
+   "n": 1734,
+   "id": "pmid:16357870",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "EZH2, acting within the PRC2/3 complexes, physically interacts with DNA methyltransferases and associates with their activity in cells.",
+     "evidence": "the PcG protein EZH2 (Enhancer of Zeste homolog 2) interacts-within the context of the Polycomb repressive complexes 2 and 3 (PRC2/3)-with DNA methyltransferases (DNMTs) and associates with DNMT activity in vivo",
+     "note": "The abstract reports EZH2 within PRC2/3 interacts with DNMTs and associates with DNMT activity in vivo."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "DNMT recruitment to the target genes was higher in the presence of EZH2 than in its absence.",
+     "evidence": "binding of DNMTs to several EZH2-repressed genes depends on the presence of EZH2",
+     "note": "The abstract reports DNMT binding to these genes depends on the presence of EZH2."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "This EZH2-DNMT link is disrupted in cancer cells that overexpress EZH2.",
+     "evidence": "thus highlighting a previously unrecognized direct connection between two key epigenetic repression systems",
+     "note": "The abstract establishes the EZH2-DNMT connection in general but never addresses cancer or EZH2 overexpression."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Bisulphite sequencing showed that EZH2 is needed for DNA methylation of EZH2-target promoters.",
+     "evidence": "we show by bisulphite genomic sequencing that EZH2 is required for DNA methylation of EZH2-target promoters",
+     "note": "The abstract reports bisulphite sequencing showed EZH2 is required for methylation of its target promoters."
+    }
+   ]
+  }
+ ]
+}

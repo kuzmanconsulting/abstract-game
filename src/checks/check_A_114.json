@@ -1,0 +1,73 @@
+{"batch": "check_A_114", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1785, "id": "pmid:31242426",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Analysis of individual cells internalizing sEVs, using a Cre-reporter system, show a positive correlation between sEV uptake and senescence activation."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "sEV protein characterization by mass spectrometry (MS) followed by a functional siRNA screen identify interferon-induced transmembrane protein 3 (IFITM3) as being partially responsible for transmitting senescence to normal cells."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We find an increase in the number of multivesicular bodies during senescence in vivo."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "we show that both the soluble factors and small extracellular vesicles (sEVs) are capable of transmitting paracrine senescence to nearby cells"}
+    ]},
+   {"n": 1786, "id": "pmid:33636128",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "increased hematopoietic stem cell proliferation is an important factor contributing to the association between cardiovascular disease and clonal hematopoiesis"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "expansion of competitively transplanted Tet2 -/- cells is accelerated under conditions of chronically elevated hematopoietic activity"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The experimentally determined division rate elevation in atherosclerosis patients is sufficient to produce a 3.5-fold increased risk of clonal hematopoiesis by age 70."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "hematopoietic stem cell division rates are increased in mice and humans with atherosclerosis"}
+    ]},
+   {"n": 1787, "id": "pmid:32439975",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "deletion of mitochondrial phosphatase PGAM5 leads to accelerated retinal pigment epithelial (RPE) senescence in vitro and in vivo"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Young but not aging Pgam5 -/- mice are resistant to sodium iodate-induced RPE cell death."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "PGAM5 deletion leads to increased mitochondrial fusion and decreased mitochondrial turnover."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "cellular ATP and reactive oxygen species (ROS) levels are elevated"}
+    ]},
+   {"n": 1788, "id": "pmid:32332723",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "PZ effectively clears SCs and rejuvenates tissue stem and progenitor cells in naturally aged mice without causing severe thrombocytopenia."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "converting it into PZ15227 (PZ), a Bcl-xl PROTAC, which targets Bcl-xl to the cereblon (CRBN) E3 ligase for degradation"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Compared to ABT263, PZ is less toxic to platelets, but equally or slightly more potent against SCs because CRBN is poorly expressed in platelets."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "PZ effectively clears SCs and rejuvenates tissue stem and progenitor cells in naturally aged mice without causing severe thrombocytopenia."}
+    ]},
+   {"n": 1789, "id": "pmid:35987199",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Size-dependent protein concentration changes are widespread and predicted by subcellular localization, size-dependent mRNA concentrations, and protein turnover."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "larger cells are prone to replicative, DNA-damage-induced, and CDK4/6i-induced senescence"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Size-dependent changes to the proteome, including those associated with senescence, are not observed when an increase in cell size is accompanied by an increase in ploidy."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "As proliferating cells grow larger, concentration changes typically associated with cellular senescence are increasingly pronounced"}
+    ]},
+   {"n": 1790, "id": "pmid:37118425",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We found that CALERIE intervention slowed the pace of aging, as measured by the DunedinPACE DNAm algorithm"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "a conclusive test of the geroscience hypothesis will require trials with long-term follow-up to establish effects of intervention on primary healthy-aging endpoints, including incidence of chronic disease and mortality"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "but did not lead to significant changes in biological age estimates measured by various DNAm clocks including PhenoAge and GrimAge"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "n = 220 adults without obesity were randomized to 25% CR or ad libitum control diet for 2 yr"}
+    ]},
+   {"n": 1791, "id": "pmid:37086720",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "the biological age of young mice is increased by heterochronic parabiosis and restored following surgical detachment"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We also identify transient changes in biological age during major surgery, pregnancy, and severe COVID-19 in humans and/or mice."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The elevation of biological age by stress may be a quantifiable and actionable target for future interventions."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "biological age undergoes a rapid increase in response to diverse forms of stress, which is reversed following recovery from stress"}
+    ]},
+   {"n": 1792, "id": "pmid:31735593",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "whole-body B cell depletion restores proper lipolysis and core body temperature maintenance during cold stress"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "the age-induced FALC formation, AAB, and splenic ABC expansion is dependent on the Nlrp3 inflammasome"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "AABs are transcriptionally distinct from splenic age-associated B cells (ABCs) and show greater expansion in female mice."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "inhibition of IL-1 signaling reduces their proliferation and increases lipolysis in aging"}
+    ]},
+   {"n": 1793, "id": "pmid:33848471",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "hallmarks of aging in HSCs and hematopoiesis begin to accumulate by middle age and that the bone marrow (BM) microenvironment at middle age induces and is indispensable for hematopoietic aging"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "decreased levels of the longevity-associated molecule IGF1 in the local middle-aged BM microenvironment are a factor causing HSC aging"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Decline in hematopoietic stem cell (HSC) function with age underlies limited health span of our blood and immune systems."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Direct stimulation of middle-aged HSCs with IGF1 rescues molecular and functional hallmarks of aging, including restored mitochondrial activity."}
+    ]},
+   {"n": 1794, "id": "pmid:37118510",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We trained single-cell-based regression models to predict chronological age and biological age (neural stem cell proliferation capacity)."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "These aging clocks are generalizable to independent cohorts of mice, other regions of the brains, and other species."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We generated single-cell transcriptomes from the subventricular zone neurogenic region of 28 mice, tiling ages from young to old."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Aging clocks revealed that heterochronic parabiosis and exercise reverse transcriptomic aging in neurogenic regions, but in different ways."}
+    ]}
+ ]}

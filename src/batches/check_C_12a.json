@@ -1,0 +1,471 @@
+{
+"batch": "check_C_12a",
+"pass": "C",
+"source_batch": "gen_12a",
+"items": [
+{
+"n": 420,
+"id": "pmid:42490795",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "The regulatory relationship between transcription factor MAX and splicing factor SF3A3 in hepatocellular carcinoma (HCC) is unknown. We investigated whether MAX directly regulates SF3A3 and their functional role in HCC progression."
+},
+{
+"label": "Methods",
+"text": "MAX and SF3A3 expression were analyzed in The Cancer Genome Atlas Liver Hepatocellular Carcinoma (TCGA-HCC) dataset (UALCAN, GEPIA) and validated in 33 paired HCC and adjacent non-tumor tissues by quantitative reverse transcription polymerase chain reaction (qRT-PCR). Expression and prognostic significance were assessed across cancer stages, grades, and nodal status. Functional roles were evaluated in Hep3B (high expression) and PLC/PRF/5 (low expression) cells using shRNA-mediated knockdown and overexpression, respectively. Cell proliferation (cell counting kit-8, colony formation), migration (wound healing, Transwell), invasion (Matrigel Transwell), and epithelial-mesenchymal transition (EMT) (Western blot for E-cadherin, N-cadherin, and vimentin) were assessed. Mechanistic studies included chromatin immunoprecipitation (ChIP)-quantitative polymerase chain reaction (qPCR), luciferase reporter assays with site-directed mutagenesis, and Myc inhibition. In vivo tumor growth was evaluated using a xenograft mouse model."
+},
+{
+"label": "Results",
+"text": "MAX and SF3A3 were overexpressed in HCC tissues compared to normal liver, and high expression was correlated with reduced patient survival, advanced cancer stage, higher tumor grade, and nodal metastasis. A significant positive correlation between MAX and SF3A3 expression was observed. Functional assays demonstrated that MAX or SF3A3 overexpression promoted HCC cell proliferation, migration, invasion, and EMT, while knockdown suppressed these phenotypes. MAX directly bound the SF3A3 promoter (P3 E-box) and activated its transcription in a Myc-dependent manner. Overexpression of MAX or SF3A3 promoted malignant phenotypes, while SF3A3 knockdown reversed MAX-driven oncogenic effects in vitro and reduced tumor growth in vivo."
+},
+{
+"label": "Conclusion",
+"text": "This study establishes a novel MAX-SF3A3 regulatory axis in which MAX directly binds the SF3A3 promoter and activates its transcription in a Myc-dependent manner, driving HCC cell proliferation, migration, invasion, EMT, and tumor growth. Targeting the MAX-SF3A3 axis represents a potential therapeutic strategy for HCC."
+}
+],
+"text": "The regulatory relationship between transcription factor MAX and splicing factor SF3A3 in hepatocellular carcinoma (HCC) is unknown. We investigated whether MAX directly regulates SF3A3 and their functional role in HCC progression. MAX and SF3A3 expression were analyzed in The Cancer Genome Atlas Liver Hepatocellular Carcinoma (TCGA-HCC) dataset (UALCAN, GEPIA) and validated in 33 paired HCC and adjacent non-tumor tissues by quantitative reverse transcription polymerase chain reaction (qRT-PCR). Expression and prognostic significance were assessed across cancer stages, grades, and nodal status. Functional roles were evaluated in Hep3B (high expression) and PLC/PRF/5 (low expression) cells using shRNA-mediated knockdown and overexpression, respectively. Cell proliferation (cell counting kit-8, colony formation), migration (wound healing, Transwell), invasion (Matrigel Transwell), and epithelial-mesenchymal transition (EMT) (Western blot for E-cadherin, N-cadherin, and vimentin) were assessed. Mechanistic studies included chromatin immunoprecipitation (ChIP)-quantitative polymerase chain reaction (qPCR), luciferase reporter assays with site-directed mutagenesis, and Myc inhibition. In vivo tumor growth was evaluated using a xenograft mouse model. MAX and SF3A3 were overexpressed in HCC tissues compared to normal liver, and high expression was correlated with reduced patient survival, advanced cancer stage, higher tumor grade, and nodal metastasis. A significant positive correlation between MAX and SF3A3 expression was observed. Functional assays demonstrated that MAX or SF3A3 overexpression promoted HCC cell proliferation, migration, invasion, and EMT, while knockdown suppressed these phenotypes. MAX directly bound the SF3A3 promoter (P3 E-box) and activated its transcription in a Myc-dependent manner. Overexpression of MAX or SF3A3 promoted malignant phenotypes, while SF3A3 knockdown reversed MAX-driven oncogenic effects in vitro and reduced tumor growth in vivo. This study establishes a novel MAX-SF3A3 regulatory axis in which MAX directly binds the SF3A3 promoter and activates its transcription in a Myc-dependent manner, driving HCC cell proliferation, migration, invasion, EMT, and tumor growth. Targeting the MAX-SF3A3 axis represents a potential therapeutic strategy for HCC.",
+"statements": [
+{
+"j": 1,
+"text": "Expression of MAX and SF3A3 was validated by qRT-PCR in 33 paired HCC and adjacent non-tumor tissue samples."
+},
+{
+"j": 2,
+"text": "SF3A3 drives EMT in HCC cells by altering the splicing of E-cadherin transcripts."
+},
+{
+"j": 3,
+"text": "MAX bound the SF3A3 promoter at the P3 E-box and switched on its transcription in a Myc-dependent way."
+},
+{
+"j": 4,
+"text": "High expression of MAX and SF3A3 correlated with elevated patient survival, advanced cancer stage and nodal metastasis."
+}
+]
+},
+{
+"n": 421,
+"id": "pmid:41034587",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Stem cell-based human embryo models offer a unique opportunity for functional studies of the human-specific features of development. Here we genetically and epigenetically manipulate human blastoids, a 3D embryo model of the blastocyst 1 , to investigate the functional effect of HERVK LTR5Hs, a hominoid-specific endogenous retrovirus, on pre-implantation development. We uncover a pervasive cis-regulatory contribution of LTR5Hs elements to the hominoid-specific diversification of the epiblast transcriptome in blastoids. Many of the LTR5Hs genomic insertions in the human genome are unique to our own species. We show that at least one such human-specific LTR5Hs element is essential for the blastoid-forming potential via enhancing expression of the primate-specific ZNF729 gene, encoding a KRAB zinc-finger protein. ZNF729 binds to GC-rich sequences, abundant at gene promoters associated with basic cellular functions, such as cell proliferation and metabolism. Despite mediating recruitment of TRIM28, at many of these promoters ZNF729 acts as a transcriptional activator. Together, our results illustrate how recently emerged transposable elements and genes can confer developmentally essential functions in humans."
+}
+],
+"text": "Stem cell-based human embryo models offer a unique opportunity for functional studies of the human-specific features of development. Here we genetically and epigenetically manipulate human blastoids, a 3D embryo model of the blastocyst 1 , to investigate the functional effect of HERVK LTR5Hs, a hominoid-specific endogenous retrovirus, on pre-implantation development. We uncover a pervasive cis-regulatory contribution of LTR5Hs elements to the hominoid-specific diversification of the epiblast transcriptome in blastoids. Many of the LTR5Hs genomic insertions in the human genome are unique to our own species. We show that at least one such human-specific LTR5Hs element is essential for the blastoid-forming potential via enhancing expression of the primate-specific ZNF729 gene, encoding a KRAB zinc-finger protein. ZNF729 binds to GC-rich sequences, abundant at gene promoters associated with basic cellular functions, such as cell proliferation and metabolism. Despite mediating recruitment of TRIM28, at many of these promoters ZNF729 acts as a transcriptional activator. Together, our results illustrate how recently emerged transposable elements and genes can confer developmentally essential functions in humans.",
+"statements": [
+{
+"j": 1,
+"text": "ZNF729 binds GC-rich sequences, which are depleted at promoters of genes involved in basic cellular functions such as proliferation and metabolism."
+},
+{
+"j": 2,
+"text": "At least one human-specific LTR5Hs element was required for blastoid formation, acting by boosting expression of the primate-specific gene ZNF729."
+},
+{
+"j": 3,
+"text": "Although ZNF729 recruits TRIM28, it acts as a transcriptional activator at many of the promoters it binds."
+},
+{
+"j": 4,
+"text": "LTR5Hs elements regulate trophectoderm gene expression in blastoids."
+}
+]
+},
+{
+"n": 422,
+"id": "doi:10.1101/2025.07.09.25331014",
+"year": 2025,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": "Purpose",
+"text": "This study evaluated the feasibility of detecting circulating tumor cells (CTCs) in localized high risk (HR) and biochemically recurrent (BCR) prostate cancer (PCa) patients and examined the correlation between CTCs, serum prostate specific antigen (PSA) levels, 18F-DCFPyL PET parameters and clinical progression."
+},
+{
+"label": "Methods",
+"text": "Baseline samples were collected from 105 PCa patients enrolled in clinical trial NCT03181867 before 18F-DCFPyL PET/CT imaging. Patients were divided into two cohorts-localized HR and BCR. CTCs were enriched using magnetic EpCAM-PE beads and enumerated by flow cytometry (n=82) or by CD45 depletion followed by EpCAM/PSMA expression analysis by ddPCR (n=23). CTC value of ≥3 CTCs/10 mL blood was established as abnormal using 10 healthy female controls. Correlations were assessed between CTCs, PSA, PET parameters and clinical progression."
+},
+{
+"label": "Results",
+"text": "In the flow group, >3 EpCAM⁺ CTCs/10 mL were found in 14% (n=2/14) of HR and 24% (n=16/68) of BCR patients. In the ddPCR group, 53% (n=9/17) of HR and 17% (n=1/6) of BCR patients had greater than normal EPCAM expression, whereas higher than normal PSMA expression was observed in 29% (N=5/17) of HR and 17% (N=1/6) of BCR patients. Furthermore, in the combined cohorts within the ddPCR group, six patients had only EPCAM expression, two had only PSMA and four had both. No significant correlation was found between CTCs and serum PSA or 18F-DCFPyL PET parameters or clinical progression in either group."
+},
+{
+"label": "Conclusion",
+"text": "CTCs were detectable in both HR and BCR patients using flow cytometry and ddPCR based methods even in localized disease, suggesting that CTCs can be used as a liquid biopsy that may reflect underlying disease activity. These findings support the potential role of CTCs as a minimally invasive biomarker independent of serum PSA levels and 18F-DCFPyL PET parameters."
+}
+],
+"text": "This study evaluated the feasibility of detecting circulating tumor cells (CTCs) in localized high risk (HR) and biochemically recurrent (BCR) prostate cancer (PCa) patients and examined the correlation between CTCs, serum prostate specific antigen (PSA) levels, 18F-DCFPyL PET parameters and clinical progression. Baseline samples were collected from 105 PCa patients enrolled in clinical trial NCT03181867 before 18F-DCFPyL PET/CT imaging. Patients were divided into two cohorts-localized HR and BCR. CTCs were enriched using magnetic EpCAM-PE beads and enumerated by flow cytometry (n=82) or by CD45 depletion followed by EpCAM/PSMA expression analysis by ddPCR (n=23). CTC value of ≥3 CTCs/10 mL blood was established as abnormal using 10 healthy female controls. Correlations were assessed between CTCs, PSA, PET parameters and clinical progression. In the flow group, >3 EpCAM⁺ CTCs/10 mL were found in 14% (n=2/14) of HR and 24% (n=16/68) of BCR patients. In the ddPCR group, 53% (n=9/17) of HR and 17% (n=1/6) of BCR patients had greater than normal EPCAM expression, whereas higher than normal PSMA expression was observed in 29% (N=5/17) of HR and 17% (N=1/6) of BCR patients. Furthermore, in the combined cohorts within the ddPCR group, six patients had only EPCAM expression, two had only PSMA and four had both. No significant correlation was found between CTCs and serum PSA or 18F-DCFPyL PET parameters or clinical progression in either group. CTCs were detectable in both HR and BCR patients using flow cytometry and ddPCR based methods even in localized disease, suggesting that CTCs can be used as a liquid biopsy that may reflect underlying disease activity. These findings support the potential role of CTCs as a minimally invasive biomarker independent of serum PSA levels and 18F-DCFPyL PET parameters.",
+"statements": [
+{
+"j": 1,
+"text": "In the flow cytometry group, 16 of 68 BCR patients (24%) exceeded 3 EpCAM-positive CTCs per 10 mL of blood."
+},
+{
+"j": 2,
+"text": "CTC levels did not correlate significantly with serum PSA, PET parameters or clinical progression in either cohort."
+},
+{
+"j": 3,
+"text": "In the ddPCR group, EPCAM expression exceeding normal was found in a lower fraction of HR (53%) than BCR (17%) patients."
+},
+{
+"j": 4,
+"text": "CTC positivity was associated with Gleason score at diagnosis."
+}
+]
+},
+{
+"n": 423,
+"id": "pmid:41857199",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Burkitt's lymphoma (BL) is common in sub-Saharan Africa, yet diagnosis is often delayed due to limited pathology capacity. Here we evaluated blood-based liquid biopsies from 377 children and young adults with clinically suspected lymphoma at four hospitals in Tanzania and Uganda, assessing diagnostic accuracy and turnaround time (TAT). After extensive pathology capacity building, a gold-standard diagnosis was established using tissue morphology, a limited validated immunohistochemistry panel and independent dual histopathologist review. Using clinical features and circulating tumor DNA markers (MYC mutations, MYC-immunoglobulin translocations and Epstein-Barr virus fragmentomics), we trained six penalized logistic regression models with tenfold crossvalidation (n = 212). The best-performing model was externally validated in a prospective real-world cohort (n = 56). Diagnostic accuracy, yield and TAT were compared head to head between liquid biopsy and the gold standard in 58 participants. The comprehensive model achieved the highest performance (area under the curve (AUC) 0.95, 95% confidence interval (95% CI) 0.901-0.981, sensitivity 0.86, specificity 0.95), confirmed by external validation (AUC 0.98, 95% CI 0.942-1.000). Liquid biopsy was the only diagnostic result available at the multidisciplinary review in 42% of participants and reduced median diagnostic TAT from 46.8 d to 6.5 d (P = 4.42 × 10 -10 ). These findings demonstrate that liquid biopsy enables fast, highly accurate molecular diagnosis of EBV + BL and may substantially reduce treatment delays in resource-limited settings."
+}
+],
+"text": "Burkitt's lymphoma (BL) is common in sub-Saharan Africa, yet diagnosis is often delayed due to limited pathology capacity. Here we evaluated blood-based liquid biopsies from 377 children and young adults with clinically suspected lymphoma at four hospitals in Tanzania and Uganda, assessing diagnostic accuracy and turnaround time (TAT). After extensive pathology capacity building, a gold-standard diagnosis was established using tissue morphology, a limited validated immunohistochemistry panel and independent dual histopathologist review. Using clinical features and circulating tumor DNA markers (MYC mutations, MYC-immunoglobulin translocations and Epstein-Barr virus fragmentomics), we trained six penalized logistic regression models with tenfold crossvalidation (n = 212). The best-performing model was externally validated in a prospective real-world cohort (n = 56). Diagnostic accuracy, yield and TAT were compared head to head between liquid biopsy and the gold standard in 58 participants. The comprehensive model achieved the highest performance (area under the curve (AUC) 0.95, 95% confidence interval (95% CI) 0.901-0.981, sensitivity 0.86, specificity 0.95), confirmed by external validation (AUC 0.98, 95% CI 0.942-1.000). Liquid biopsy was the only diagnostic result available at the multidisciplinary review in 42% of participants and reduced median diagnostic TAT from 46.8 d to 6.5 d (P = 4.42 × 10 -10 ). These findings demonstrate that liquid biopsy enables fast, highly accurate molecular diagnosis of EBV + BL and may substantially reduce treatment delays in resource-limited settings.",
+"statements": [
+{
+"j": 1,
+"text": "For 42% of participants, the liquid biopsy result was the only diagnostic result available at multidisciplinary review."
+},
+{
+"j": 2,
+"text": "The best-performing model reached an AUC of 0.95 with sensitivity 0.86 and specificity 0.95 in the training cohort."
+},
+{
+"j": 3,
+"text": "Liquid biopsy-based diagnosis improved overall survival of children with Burkitt lymphoma."
+},
+{
+"j": 4,
+"text": "Liquid biopsy elevated the median diagnostic turnaround time from 46.8 days to 6.5 days."
+}
+]
+},
+{
+"n": 424,
+"id": "pmid:40434907",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Immune checkpoint inhibitors are important for treatment across tumor types but are not universally effective in controlling disease. Early understanding of tumor response, or lack thereof, can inform treatment decisions. This study evaluates changes in circulating tumor DNA (ctDNA) and blood tumor mutational burden (bTMB) for associations with response to programmed cell death 1 ligand 1 (PD-L1) blockade. We sequenced cell-free DNA collected at the start of therapy, on treatment, and at the end of therapy for 153 patients treated with atezolizumab as part of the pan-tumor MyPathway study (NCT02091141). ctDNA tumor fraction (TF) and bTMB were assessed for correlation with progression-free survival (PFS) and overall survival (OS). We found that molecular response (MR, ≥50% decrease in TF at cycle 3 day 1) was associated with improved PFS (9.7 vs 1.5 months from C3D1; HR = 0.27) and OS (21.1 vs 14.3 months from C3D1; HR = 0.44). These findings were consistent when limited to patients with stable disease (SD; PFS HR = 0.55; OS HR = 0.39). bTMB was correlated with tissue-based TMB (tTMB) when TF was high (≥1%), but not with OS in this cohort. In total, 61% of baseline samples had predicted clonal hematopoiesis (CH) variants. No correlation between maximum variant allele frequency (maxVAF) of predicted CH and TF was seen. In summary, MR is associated with outcomes for patients treated with atezolizumab and could stratify patients with SD. While CH was common, maxVAF for CH variants was not associated with ctDNA TF. Quantification of ctDNA enables therapy response monitoring and is critical for interpretation of bTMB as a proxy for tTMB."
+}
+],
+"text": "Immune checkpoint inhibitors are important for treatment across tumor types but are not universally effective in controlling disease. Early understanding of tumor response, or lack thereof, can inform treatment decisions. This study evaluates changes in circulating tumor DNA (ctDNA) and blood tumor mutational burden (bTMB) for associations with response to programmed cell death 1 ligand 1 (PD-L1) blockade. We sequenced cell-free DNA collected at the start of therapy, on treatment, and at the end of therapy for 153 patients treated with atezolizumab as part of the pan-tumor MyPathway study (NCT02091141). ctDNA tumor fraction (TF) and bTMB were assessed for correlation with progression-free survival (PFS) and overall survival (OS). We found that molecular response (MR, ≥50% decrease in TF at cycle 3 day 1) was associated with improved PFS (9.7 vs 1.5 months from C3D1; HR = 0.27) and OS (21.1 vs 14.3 months from C3D1; HR = 0.44). These findings were consistent when limited to patients with stable disease (SD; PFS HR = 0.55; OS HR = 0.39). bTMB was correlated with tissue-based TMB (tTMB) when TF was high (≥1%), but not with OS in this cohort. In total, 61% of baseline samples had predicted clonal hematopoiesis (CH) variants. No correlation between maximum variant allele frequency (maxVAF) of predicted CH and TF was seen. In summary, MR is associated with outcomes for patients treated with atezolizumab and could stratify patients with SD. While CH was common, maxVAF for CH variants was not associated with ctDNA TF. Quantification of ctDNA enables therapy response monitoring and is critical for interpretation of bTMB as a proxy for tTMB.",
+"statements": [
+{
+"j": 1,
+"text": "The association between molecular response and outcomes held when analysis was restricted to patients with stable disease."
+},
+{
+"j": 2,
+"text": "The predictive value of molecular response was similar across the different tumor types enrolled."
+},
+{
+"j": 3,
+"text": "Predicted clonal hematopoiesis variants were present in 61% of baseline cell-free DNA samples."
+},
+{
+"j": 4,
+"text": "Patients with molecular response had shorter PFS than those without (9.7 vs 1.5 months from C3D1; HR 0.27)."
+}
+]
+},
+{
+"n": 425,
+"id": "doi:10.1101/2025.03.24.644737",
+"year": 2025,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": "Background & Aims",
+"text": "Patients with colorectal cancer have heterogeneous clinical responses to chemotherapy, although clinical guidelines advise little variability in treatment selection based on molecular tumor features. Precision oncology research typically utilizes patient-derived tumor organoids (PDTO) to predict clinical outcomes, but such efforts are often not directed towards identification of molecular factors underlying differential responses to therapy."
+},
+{
+"label": "Methods",
+"text": "Bulk RNA-sequencing was performed on treatment-naive PDTOs, and gene expression data was combined to drug sensitivity data to identify transcriptomic features associated with low in vitro sensitivity to chemotherapy. Whole-exome sequencing was performed on primary tumors to infer the somatic mutations of PDTOs and used to identify somatic mutations associated with differential in vitro drug responses. Publicly available gene expression and drug sensitivity data sets were used to validate the results. RNA interference was used for functional validation."
+},
+{
+"label": "Results",
+"text": "PDTOs with low chemosensitivity had high JAK-STAT pathway activity resulting from high expression of interferon-stimulated genes. Evidence from single-cell RNA-sequencing confirmed chemotherapy-induced expression of interferon-stimulated genes in epithelial cells of cancers with partial response. EPSTI1 knockdown decreased cancer cell viability and sensitized cells to chemotherapy."
+},
+{
+"label": "Conclusions",
+"text": "Sustained interferon signaling in epithelial cancer cells contributes to incomplete pathologic response in colorectal cancer. The findings highlight the potential of JAK-STAT inhibition or TRAIL pathway activation to enhance chemotherapy efficacy. Future studies investigating pharmacologic modulation of these pathways in preclinical CRC models are needed to determine their viability as therapeutic targets."
+}
+],
+"text": "Patients with colorectal cancer have heterogeneous clinical responses to chemotherapy, although clinical guidelines advise little variability in treatment selection based on molecular tumor features. Precision oncology research typically utilizes patient-derived tumor organoids (PDTO) to predict clinical outcomes, but such efforts are often not directed towards identification of molecular factors underlying differential responses to therapy. Bulk RNA-sequencing was performed on treatment-naive PDTOs, and gene expression data was combined to drug sensitivity data to identify transcriptomic features associated with low in vitro sensitivity to chemotherapy. Whole-exome sequencing was performed on primary tumors to infer the somatic mutations of PDTOs and used to identify somatic mutations associated with differential in vitro drug responses. Publicly available gene expression and drug sensitivity data sets were used to validate the results. RNA interference was used for functional validation. PDTOs with low chemosensitivity had high JAK-STAT pathway activity resulting from high expression of interferon-stimulated genes. Evidence from single-cell RNA-sequencing confirmed chemotherapy-induced expression of interferon-stimulated genes in epithelial cells of cancers with partial response. EPSTI1 knockdown decreased cancer cell viability and sensitized cells to chemotherapy. Sustained interferon signaling in epithelial cancer cells contributes to incomplete pathologic response in colorectal cancer. The findings highlight the potential of JAK-STAT inhibition or TRAIL pathway activation to enhance chemotherapy efficacy. Future studies investigating pharmacologic modulation of these pathways in preclinical CRC models are needed to determine their viability as therapeutic targets.",
+"statements": [
+{
+"j": 1,
+"text": "JAK inhibitors improved chemotherapy response in the patient-derived organoids."
+},
+{
+"j": 2,
+"text": "Organoids with low chemosensitivity showed high JAK-STAT pathway activity driven by high expression of interferon-stimulated genes."
+},
+{
+"j": 3,
+"text": "Single-cell RNA-sequencing showed chemotherapy-induced interferon-stimulated gene expression in epithelial cells of tumors with partial response."
+},
+{
+"j": 4,
+"text": "Silencing EPSTI1 with RNA interference increased cancer cell viability and sensitized the cells to chemotherapy."
+}
+]
+},
+{
+"n": 426,
+"id": "doi:10.1101/2023.07.28.550957",
+"year": 2023,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "The full spectrum of tissues affected by SARS-CoV-2 infection is crucial for deciphering the heterogenous clinical course of COVID-19. Here, we analyzed DNA methylation and histone modification patterns in circulating chromatin to assess cell type-specific turnover in severe and asymptomatic COVID-19 patients, in relation to clinical outcome. Patients with severe COVID-19 had a massive elevation of circulating cell-free DNA (cfDNA) levels, which originated in lung epithelial cells, cardiomyocytes, vascular endothelial cells and erythroblasts, suggesting increased cell death or turnover in these tissues. The immune response to infection was reflected by elevated B cell and monocyte/macrophage cfDNA levels, and by evidence of an interferon response in cells prior to cfDNA release. Strikingly, monocyte/macrophage cfDNA levels (but not monocyte counts), as well as lung epithelium cfDNA and vascular endothelial cfDNA, predicted clinical deterioration and duration of hospitalization. Asymptomatic patients had elevated levels of immune-derived cfDNA but did not show evidence of pulmonary or cardiac damage. Surprisingly, these patients showed elevated levels of vascular endothelial cell and erythroblast cfDNA, suggesting that sub-clinical vascular and erythrocyte turnover are universal features of COVID-19, independent of disease severity. Epigenetic liquid biopsies provide non-invasive means of monitoring COVID-19 patients, and reveal sub-clinical vascular damage and red blood cell turnover."
+}
+],
+"text": "The full spectrum of tissues affected by SARS-CoV-2 infection is crucial for deciphering the heterogenous clinical course of COVID-19. Here, we analyzed DNA methylation and histone modification patterns in circulating chromatin to assess cell type-specific turnover in severe and asymptomatic COVID-19 patients, in relation to clinical outcome. Patients with severe COVID-19 had a massive elevation of circulating cell-free DNA (cfDNA) levels, which originated in lung epithelial cells, cardiomyocytes, vascular endothelial cells and erythroblasts, suggesting increased cell death or turnover in these tissues. The immune response to infection was reflected by elevated B cell and monocyte/macrophage cfDNA levels, and by evidence of an interferon response in cells prior to cfDNA release. Strikingly, monocyte/macrophage cfDNA levels (but not monocyte counts), as well as lung epithelium cfDNA and vascular endothelial cfDNA, predicted clinical deterioration and duration of hospitalization. Asymptomatic patients had elevated levels of immune-derived cfDNA but did not show evidence of pulmonary or cardiac damage. Surprisingly, these patients showed elevated levels of vascular endothelial cell and erythroblast cfDNA, suggesting that sub-clinical vascular and erythrocyte turnover are universal features of COVID-19, independent of disease severity. Epigenetic liquid biopsies provide non-invasive means of monitoring COVID-19 patients, and reveal sub-clinical vascular damage and red blood cell turnover.",
+"statements": [
+{
+"j": 1,
+"text": "Monocyte/macrophage cfDNA levels, but not monocyte counts, predicted clinical deterioration and length of hospital stay."
+},
+{
+"j": 2,
+"text": "Severe COVID-19 patients had reduced circulating cfDNA levels originating from lung epithelium, cardiomyocytes, vascular endothelium and erythroblasts."
+},
+{
+"j": 3,
+"text": "Elevated erythroblast cfDNA in COVID-19 reflected hypoxia-driven compensatory erythropoiesis."
+},
+{
+"j": 4,
+"text": "Asymptomatic patients showed immune-derived, vascular endothelial and erythroblast cfDNA signals without evidence of lung or heart damage."
+}
+]
+},
+{
+"n": 427,
+"id": "pmid:40288045",
+"year": 2025,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background and objectives",
+"text": "Sarcomas represent a heterogeneous group of malignancies characterized by varying clinical behaviors and treatment responses. Liquid biopsy has emerged as a promising non-invasive method for monitoring tumor dynamics by detecting actionable mutations in cancer patients. The emergence of circulating DNA as a non-invasive biomarker offers promising avenues for improving diagnostic accuracy and treatment monitoring in sarcoma patients."
+},
+{
+"label": "Methods",
+"text": "In this study, the authors employed mutation-specific droplet digital PCR (ddPCR) to analyze tumor-derived cell-free DNA, also known as circulating tumor DNA (ctDNA), belonging to plasma samples of sarcoma patients, aiming to characterize mutation profiles in the IDH2 and TP53 genes. Between July 2019 and June 2023, the authors collected and analyzed 38 samples from patients diagnosed with osteosarcoma, chondrosarcoma, or Ewing's sarcoma. Histopathological confirmation of diagnoses was performed, followed by ddPCR analysis on 36 valid plasma samples."
+},
+{
+"label": "Results",
+"text": "The results showed mutations in three out of thirty-six sarcoma patients. Patient 1 exhibited a 12.6 % mutant IDH2 (R172S) allele fraction, Patient 2 had a 0.27 % mutant TP53 (R175H), and Patient 3 showed a 17 % mutant IDH2 (R172K). Notably, Patients 1 and 2 were diagnosed with chondrosarcoma, while Patient 3 had osteosarcoma."
+},
+{
+"label": "Conclusions",
+"text": "The present study provided evidence for the feasibility of ctDNA detection in sarcoma patients, where mutations were found in IDH2 and TP53 genes, including a novel IDH2 mutation in osteosarcoma. The evaluation of ctDNA has the potential to transform clinical strategies in this challenging group of malignancies and this may be further confirmed in larger cohort studies. Continued research efforts are essential to optimize ctDNA detection methods and validate its utility across diverse sarcoma subtypes."
+}
+],
+"text": "Sarcomas represent a heterogeneous group of malignancies characterized by varying clinical behaviors and treatment responses. Liquid biopsy has emerged as a promising non-invasive method for monitoring tumor dynamics by detecting actionable mutations in cancer patients. The emergence of circulating DNA as a non-invasive biomarker offers promising avenues for improving diagnostic accuracy and treatment monitoring in sarcoma patients. In this study, the authors employed mutation-specific droplet digital PCR (ddPCR) to analyze tumor-derived cell-free DNA, also known as circulating tumor DNA (ctDNA), belonging to plasma samples of sarcoma patients, aiming to characterize mutation profiles in the IDH2 and TP53 genes. Between July 2019 and June 2023, the authors collected and analyzed 38 samples from patients diagnosed with osteosarcoma, chondrosarcoma, or Ewing's sarcoma. Histopathological confirmation of diagnoses was performed, followed by ddPCR analysis on 36 valid plasma samples. The results showed mutations in three out of thirty-six sarcoma patients. Patient 1 exhibited a 12.6 % mutant IDH2 (R172S) allele fraction, Patient 2 had a 0.27 % mutant TP53 (R175H), and Patient 3 showed a 17 % mutant IDH2 (R172K). Notably, Patients 1 and 2 were diagnosed with chondrosarcoma, while Patient 3 had osteosarcoma. The present study provided evidence for the feasibility of ctDNA detection in sarcoma patients, where mutations were found in IDH2 and TP53 genes, including a novel IDH2 mutation in osteosarcoma. The evaluation of ctDNA has the potential to transform clinical strategies in this challenging group of malignancies and this may be further confirmed in larger cohort studies. Continued research efforts are essential to optimize ctDNA detection methods and validate its utility across diverse sarcoma subtypes.",
+"statements": [
+{
+"j": 1,
+"text": "The IDH2 mutation found in the osteosarcoma patient was described as novel."
+},
+{
+"j": 2,
+"text": "Patient 3, who had osteosarcoma, had a lower IDH2 mutant allele fraction (17%) than Patient 1 with chondrosarcoma (12.6%)."
+},
+{
+"j": 3,
+"text": "ctDNA mutations were detected in 3 of the 36 sarcoma patients with valid plasma samples."
+},
+{
+"j": 4,
+"text": "The IDH2 mutations detected in plasma were also present in the matched tumor tissue."
+}
+]
+},
+{
+"n": 428,
+"id": "pmid:42317065",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Pathological complete response (pCR) and circulating tumor DNA (ctDNA) clearance are increasingly used as intermediate endpoints in neoadjuvant and perioperative immunotherapy (IO) trials. However, whether complete pathological and molecular responders share comparable residual risk across tumor types remains uncertain."
+},
+{
+"label": "Methods",
+"text": "We performed a post-hoc pan-tumor analysis using reconstructed individual patient data from published Kaplan-Meier curves of phase II/III trials. All included trials contained a neoadjuvant immunotherapy component; trials that additionally incorporated postoperative adjuvant immunotherapy were classified as perioperative. We evaluated associations of pCR and ctDNA clearance, defined as conversion from baseline ctDNA positivity to undetectable ctDNA after neoadjuvant therapy, with event-free survival (EFS) and tested whether these biomarkers modified the association between treatment timing (neoadjuvant-only versus perioperative) and EFS."
+},
+{
+"label": "Findings",
+"text": "We reconstructed survival data for 1,867 patients achieving pCR and 352 patients achieving ctDNA clearance across 8 tumor types. Among patients with pCR, 3-year EFS varied substantially by tumor type (from 78.6% to 100%). In tumor types where such a comparison was possible, postoperative adjuvant IO did not improve EFS among patients achieving pCR. In contrast, ctDNA clearance showed heterogeneous prognostic dynamics. In within-tumor analyses restricted to trials reporting both endpoints, pCR was associated with superior EFS."
+},
+{
+"label": "Conclusion",
+"text": "pCR remains the most reproducible prognostic indicator across tumor types following neoadjuvant or perioperative IO. In cross-trial comparisons, no EFS benefit from postoperative adjuvant IO was observed among patients with pCR. ctDNA clearance showed substantial variability across tumors, likely reflecting both biological heterogeneity in tumor shedding and inter-trial assay differences."
+}
+],
+"text": "Pathological complete response (pCR) and circulating tumor DNA (ctDNA) clearance are increasingly used as intermediate endpoints in neoadjuvant and perioperative immunotherapy (IO) trials. However, whether complete pathological and molecular responders share comparable residual risk across tumor types remains uncertain. We performed a post-hoc pan-tumor analysis using reconstructed individual patient data from published Kaplan-Meier curves of phase II/III trials. All included trials contained a neoadjuvant immunotherapy component; trials that additionally incorporated postoperative adjuvant immunotherapy were classified as perioperative. We evaluated associations of pCR and ctDNA clearance, defined as conversion from baseline ctDNA positivity to undetectable ctDNA after neoadjuvant therapy, with event-free survival (EFS) and tested whether these biomarkers modified the association between treatment timing (neoadjuvant-only versus perioperative) and EFS. We reconstructed survival data for 1,867 patients achieving pCR and 352 patients achieving ctDNA clearance across 8 tumor types. Among patients with pCR, 3-year EFS varied substantially by tumor type (from 78.6% to 100%). In tumor types where such a comparison was possible, postoperative adjuvant IO did not improve EFS among patients achieving pCR. In contrast, ctDNA clearance showed heterogeneous prognostic dynamics. In within-tumor analyses restricted to trials reporting both endpoints, pCR was associated with superior EFS. pCR remains the most reproducible prognostic indicator across tumor types following neoadjuvant or perioperative IO. In cross-trial comparisons, no EFS benefit from postoperative adjuvant IO was observed among patients with pCR. ctDNA clearance showed substantial variability across tumors, likely reflecting both biological heterogeneity in tumor shedding and inter-trial assay differences.",
+"statements": [
+{
+"j": 1,
+"text": "Patients who achieved both pCR and ctDNA clearance had the lowest recurrence risk."
+},
+{
+"j": 2,
+"text": "Where comparison was possible, adding postoperative adjuvant immunotherapy did not improve EFS among patients who achieved pCR."
+},
+{
+"j": 3,
+"text": "Survival data were reconstructed for 1,867 patients with pCR and 352 patients with ctDNA clearance across 8 tumor types."
+},
+{
+"j": 4,
+"text": "When analysis was restricted within tumor types to trials reporting both endpoints, pCR was linked with inferior event-free survival."
+}
+]
+},
+{
+"n": 429,
+"id": "doi:10.64898/2026.05.14.725010",
+"year": 2026,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "LINE-1 retrotransposons are the only autonomous mobile elements still active in human genomes and remain a potent source of mutation, genome remodeling, and disease risk. However, young, full-length, potentially active copies (the elements most likely to shape present-day genomes) have been largely inaccessible to population-scale analysis because they are long, repetitive, and poorly resolved by short-read sequencing. Here, we use 47 phased long-read assemblies from the Human Pangenome Reference Consortium, representing 94 haplotypes, to build an allele-resolved view of recent human LINE-1 evolution. We identify 13,617 LINE-1 alleles with intact ORF1 and ORF2 across 683 unique insertion sites, revealing that every genome carries a distinct repertoire of potentially active source elements. These intact LINE-1 profiles recapitulate broad human population structure while exposing a large, rare, and population-enriched reservoir of mobile-element diversity missed by single-reference approaches. We also resolve a structurally variable chromosome 11 LINE-1 array, demonstrating that local duplication and rearrangement can amplify LINE-1 sequence independently of canonical retrotransposition. By comparing full-length LINE-1 sequences, we define activity signatures that separate ancient remnants from recently expanding lineages and uncover young LINE-1 groups whose activity is not fully explained by canonical subfamily labels. Sequence-network analyses further reveal a dynamic history of lineage turnover, in which successful source elements rise, seed new insertions, and are replaced by descendants marked by specific nucleotide changes. Together, these data transform human LINE-1s from a repetitive background into a resolved evolutionary system, linking insertion polymorphism, coding potential, population history, and recent retrotransposon adaptation. Our findings establish the human pangenome as a framework for discovering active source elements and for testing how mobile DNA continues to shape genome evolution, host defense, and disease risk."
+}
+],
+"text": "LINE-1 retrotransposons are the only autonomous mobile elements still active in human genomes and remain a potent source of mutation, genome remodeling, and disease risk. However, young, full-length, potentially active copies (the elements most likely to shape present-day genomes) have been largely inaccessible to population-scale analysis because they are long, repetitive, and poorly resolved by short-read sequencing. Here, we use 47 phased long-read assemblies from the Human Pangenome Reference Consortium, representing 94 haplotypes, to build an allele-resolved view of recent human LINE-1 evolution. We identify 13,617 LINE-1 alleles with intact ORF1 and ORF2 across 683 unique insertion sites, revealing that every genome carries a distinct repertoire of potentially active source elements. These intact LINE-1 profiles recapitulate broad human population structure while exposing a large, rare, and population-enriched reservoir of mobile-element diversity missed by single-reference approaches. We also resolve a structurally variable chromosome 11 LINE-1 array, demonstrating that local duplication and rearrangement can amplify LINE-1 sequence independently of canonical retrotransposition. By comparing full-length LINE-1 sequences, we define activity signatures that separate ancient remnants from recently expanding lineages and uncover young LINE-1 groups whose activity is not fully explained by canonical subfamily labels. Sequence-network analyses further reveal a dynamic history of lineage turnover, in which successful source elements rise, seed new insertions, and are replaced by descendants marked by specific nucleotide changes. Together, these data transform human LINE-1s from a repetitive background into a resolved evolutionary system, linking insertion polymorphism, coding potential, population history, and recent retrotransposon adaptation. Our findings establish the human pangenome as a framework for discovering active source elements and for testing how mobile DNA continues to shape genome evolution, host defense, and disease risk.",
+"statements": [
+{
+"j": 1,
+"text": "The study uncovered a large reservoir of rare intact LINE-1 diversity that is depleted in specific populations and missed by single-reference approaches."
+},
+{
+"j": 2,
+"text": "The intact LINE-1 alleles identified were confirmed to retrotranspose in cell-culture assays."
+},
+{
+"j": 3,
+"text": "Across 94 haplotypes, the study identified 13,617 LINE-1 alleles with intact ORF1 and ORF2 at 683 distinct insertion sites."
+},
+{
+"j": 4,
+"text": "A structurally variable LINE-1 array on chromosome 11 showed that local duplication and rearrangement can amplify LINE-1 sequence without canonical retrotransposition."
+}
+]
+},
+{
+"n": 430,
+"id": "doi:10.1101/2024.01.21.576519",
+"year": 2024,
+"field": "te",
+"source": "preprint",
+"sections": [
+{
+"label": "Motivation",
+"text": "Classifying Transposable Elements (TEs) at the superfamily level offers deeper insights into species variation and evolution. Recent advancements in third-generation sequencing technologies have made a large number of genomes from non-model species becoming available. However, existing TE classification methods suffer from several limitations, including the necessity to train multiple hierarchical classification models, the incapacity to perform classification at the superfamily level, and deficiencies in both accuracy and robustness. Therefore, there is an urgent need for an accurate TE classification method to improve genome annotation."
+},
+{
+"label": "Results",
+"text": "In this study, we develop NeuralTE, a deep learning method designed to classify transposons at the superfamily level. To achieve accurate TE classification, we identify various structural features of transposons, and use different combinations of k-mers for terminal repeats and internal sequences to uncover distinct patterns. Evaluation on all transposons from Repbase shows that NeuralTE outperforms existing deep learning, machine learning, and homology-based methods in classifying TEs. Testing on the transposons from novel species highlights the superior performance of NeuralTE compared to existing methods. We also conduct TE annotation experiments on rice using different classification tools, and the results show that NeuralTE achieves annotations nearly identical to the gold standard, highlighting its robustness and accuracy in classifying transposons."
+},
+{
+"label": "Availability",
+"text": "NeuralTE is publicly available at https://github.com/CSU-KangHu/NeuralTE ."
+}
+],
+"text": "Classifying Transposable Elements (TEs) at the superfamily level offers deeper insights into species variation and evolution. Recent advancements in third-generation sequencing technologies have made a large number of genomes from non-model species becoming available. However, existing TE classification methods suffer from several limitations, including the necessity to train multiple hierarchical classification models, the incapacity to perform classification at the superfamily level, and deficiencies in both accuracy and robustness. Therefore, there is an urgent need for an accurate TE classification method to improve genome annotation. In this study, we develop NeuralTE, a deep learning method designed to classify transposons at the superfamily level. To achieve accurate TE classification, we identify various structural features of transposons, and use different combinations of k-mers for terminal repeats and internal sequences to uncover distinct patterns. Evaluation on all transposons from Repbase shows that NeuralTE outperforms existing deep learning, machine learning, and homology-based methods in classifying TEs. Testing on the transposons from novel species highlights the superior performance of NeuralTE compared to existing methods. We also conduct TE annotation experiments on rice using different classification tools, and the results show that NeuralTE achieves annotations nearly identical to the gold standard, highlighting its robustness and accuracy in classifying transposons. NeuralTE is publicly available at https://github.com/CSU-KangHu/NeuralTE .",
+"statements": [
+{
+"j": 1,
+"text": "NeuralTE classifies transposons at the superfamily level using structural features and k-mer combinations from terminal repeats and internal sequences."
+},
+{
+"j": 2,
+"text": "In TE annotation of rice, NeuralTE produced annotations nearly identical to the gold standard."
+},
+{
+"j": 3,
+"text": "NeuralTE runs faster than homology-based classification tools."
+},
+{
+"j": 4,
+"text": "On all Repbase transposons, NeuralTE underperformed existing deep learning, machine learning and homology-based classifiers."
+}
+]
+},
+{
+"n": 431,
+"id": "pmid:42349087",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Objectives",
+"text": "Identifying the primary tumor in cancer of unknown primary (CUP) remains a major clinical challenge. While WGS-based tissue-of-origin (TOO) prediction has improved diagnostic precision, its use is constrained by cost and availability. We investigated whether a low-complexity surrogate, combining SMARCA4 mutations and smoking history, can identify a lung cancer origin in CUP (CUP-Lung)."
+},
+{
+"label": "Methods",
+"text": "We retrospectively identified 305 provisional CUP cases from two Dutch CUP referral centers (2022-2025). Integration of whole-genome sequencing (WGS)-based TOO prediction with clinicopathological data identified 58 patients (18.9%) with CUP-Lung. Associations between SMARCA4 mutations, smoking history, and CUP-Lung were assessed using comparative and regression analyses."
+},
+{
+"label": "Results",
+"text": "SMARCA4 mutations were present in 36.2% of CUP-Lung cases, significantly higher than in the overall CUP cohort (10.7%) and TCGA lung cancer datasets (6-8%). CUP-Lung cases had higher tumor mutational burden (median 21.5 vs. 12.6 mut/Mb, p < 0.001) and enriched smoking-related mutational signatures (p < 0.001). Smoking history was reported in 87.9% of cases. Smoking history (OR 4.9, 95% CI 2.2-10.9, p < 0.001) and SMARCA4 mutation (OR 10.3, 95% CI 4.5-23.8, p < 0.001) independently predicted CUP-Lung, together conferring a 76.0% probability of lung origin. No statistical differences were found between cases with and without detectable pulmonary involvement."
+},
+{
+"label": "Conclusion",
+"text": "Combined smoking history and SMARCA4 mutations support lung cancer classification even in the absence of detectable pulmonary involvement enabling organ-directed treatment when WGS is unavailable."
+}
+],
+"text": "Identifying the primary tumor in cancer of unknown primary (CUP) remains a major clinical challenge. While WGS-based tissue-of-origin (TOO) prediction has improved diagnostic precision, its use is constrained by cost and availability. We investigated whether a low-complexity surrogate, combining SMARCA4 mutations and smoking history, can identify a lung cancer origin in CUP (CUP-Lung). We retrospectively identified 305 provisional CUP cases from two Dutch CUP referral centers (2022-2025). Integration of whole-genome sequencing (WGS)-based TOO prediction with clinicopathological data identified 58 patients (18.9%) with CUP-Lung. Associations between SMARCA4 mutations, smoking history, and CUP-Lung were assessed using comparative and regression analyses. SMARCA4 mutations were present in 36.2% of CUP-Lung cases, significantly higher than in the overall CUP cohort (10.7%) and TCGA lung cancer datasets (6-8%). CUP-Lung cases had higher tumor mutational burden (median 21.5 vs. 12.6 mut/Mb, p < 0.001) and enriched smoking-related mutational signatures (p < 0.001). Smoking history was reported in 87.9% of cases. Smoking history (OR 4.9, 95% CI 2.2-10.9, p < 0.001) and SMARCA4 mutation (OR 10.3, 95% CI 4.5-23.8, p < 0.001) independently predicted CUP-Lung, together conferring a 76.0% probability of lung origin. No statistical differences were found between cases with and without detectable pulmonary involvement. Combined smoking history and SMARCA4 mutations support lung cancer classification even in the absence of detectable pulmonary involvement enabling organ-directed treatment when WGS is unavailable.",
+"statements": [
+{
+"j": 1,
+"text": "Smoking history (OR 4.9) and SMARCA4 mutation (OR 10.3) each independently predicted lung origin, together giving a 76.0% probability."
+},
+{
+"j": 2,
+"text": "CUP-Lung patients treated with lung cancer regimens survived longer than those given empirical chemotherapy."
+},
+{
+"j": 3,
+"text": "SMARCA4 mutations occurred in 36.2% of CUP-Lung cases compared with 10.7% in the overall CUP cohort."
+},
+{
+"j": 4,
+"text": "CUP-Lung cases showed a lower median tumor mutational burden (21.5 versus 12.6 mutations per megabase)."
+}
+]
+}
+]
+}

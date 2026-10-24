@@ -1,0 +1,107 @@
+{
+ "batch": "gen_99",
+ "prompt_version": "gen-v5",
+ "flip_rule": "first-of-any-v3",
+ "items": [
+  {
+   "n": 1635,
+   "id": "pmid:36810738",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "Expressing either Drosophila gypsy (mdg4-ERV) or human HERV-K (HML-2) was individually sufficient to drive cytoplasmic aggregation of human TDP-43.", "evidence": "Expression of either Drosophila mdg4-ERV (gypsy) or the human ERV, HERV-K (HML-2) are each sufficient to stimulate cytoplasmic aggregation of human TDP-43.", "note": "The abstract states each ERV alone could trigger cytoplasmic TDP-43 aggregation."},
+    {"k": 2, "label": "supported", "text": "Transmitted viral ERV induced TDP-43 pathology in recipient cells carrying physiological TDP-43 levels, whether neighbouring or distant.", "evidence": "Viral ERV transmission also triggers TDP-43 pathology in recipient cells that express physiological levels of TDP-43, whether they are in contact or at a distance.", "note": "This restates the result that ERV transmission spreads TDP-43 pathology to recipient cells near and far."},
+    {"k": 3, "label": "not_addressed", "text": "Antiretroviral drugs that block HERV-K slow motor decline in people with ALS.", "evidence": "This mechanism potentially underlies the TDP-43 proteinopathy-caused neurodegenerative propagation through neuronal tissue.", "note": "The abstract proposes a mechanism but never tests any antiretroviral treatment or clinical outcome."},
+    {"k": 4, "label": "supported", "text": "Endogenous retrovirus expression and TDP-43 proteinopathy were found to reinforce one another.", "evidence": "We demonstrate that endogenous retrovirus (ERV) expression and TDP-43 proteinopathy are mutually reinforcing.", "note": "The abstract reports the two are mutually reinforcing."}
+   ]
+  },
+  {
+   "n": 1636,
+   "id": "pmid:38856708",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "OBOX4 selectively binds and activates MERVL long terminal repeats plus a subset of MERVK LTRs.", "evidence": "Genome-wide profiling revealed that OBOX4 specifically binds and activates MERVL LTRs as well as a subset of murine endogenous retroviruses with lysine tRNA primer (MERVK) LTRs.", "note": "Genome-wide profiling showed OBOX4 binds and activates these retroviral LTRs."},
+    {"k": 2, "label": "supported", "text": "Obox4 encodes a transcription factor abundantly expressed in mouse two-cell embryos that redundantly drives zygotic genome activation.", "evidence": "encodes a transcription factor that is highly expressed in mouse two-cell embryos and redundantly drives ZGA", "note": "The abstract reports Obox4 is highly expressed in two-cell embryos and redundantly drives ZGA."},
+    {"k": 3, "label": "not_addressed", "text": "OBOX4 and DUX recognise the same DNA motif within MERVL LTRs.", "evidence": "OBOX4 specifically binds and activates MERVL LTRs", "note": "Both factors activate MERVL LTRs, but the abstract never compares their binding motifs."},
+    {"k": 4, "label": "supported", "text": "Deleting Obox4 alone was tolerated during embryogenesis, whereas depleting Obox4 and Dux together markedly impaired embryonic development.", "evidence": "Depletion of Obox4 is tolerated by embryogenesis, whereas concomitant Obox4 / Dux depletion markedly compromises embryonic development.", "note": "The abstract contrasts tolerated single depletion with the severe effect of double depletion."}
+   ]
+  },
+  {
+   "n": 1637,
+   "id": "pmid:36951542",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "In spinal cord tissue from ALS patients, PEG10 gag-pol protein was elevated relative to healthy controls.", "evidence": "In spinal cord tissue from ALS patients, PEG10 gag-pol is elevated compared to healthy controls.", "note": "The abstract reports PEG10 gag-pol is higher in ALS spinal cord than in controls."},
+    {"k": 2, "label": "not_addressed", "text": "Lowering PEG10 gag-pol levels restores motor neuron survival in ALS models.", "evidence": "These findings implicate the retrotransposon-like activity of PEG10 as a contributing mechanism in ALS through the regulation of gene expression, and restraint of PEG10 as a primary function of UBQLN2.", "note": "The abstract implicates PEG10 as a contributing mechanism but tests no intervention or neuronal rescue."},
+    {"k": 3, "label": "supported", "text": "UBQLN2 controls the domesticated gag-pol retrotransposon PEG10 across human cells and tissues.", "evidence": "UBQLN2 regulates the domesticated gag-pol retrotransposon", "note": "The abstract demonstrates UBQLN2 regulates PEG10 in human cells and tissues."},
+    {"k": 4, "label": "supported", "text": "The PEG10 gag-pol protein self-cleaves, releasing a nucleocapsid fragment that enters the nucleus and alters axon-remodeling gene expression.", "evidence": "generate a liberated 'nucleocapsid' fragment, which uniquely localizes to the nucleus and changes the expression of genes involved in axon remodeling.", "note": "The abstract describes PEG10 self-cleavage producing a nuclear nucleocapsid fragment that changes axon-remodeling genes."}
+   ]
+  },
+  {
+   "n": 1638,
+   "id": "pmid:39018396",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "In colorectal cancer and other epithelial tumors, oncogenic MAPK/AP1 signaling drives activation of LTR10-derived enhancers.", "evidence": "In colorectal cancer and other epithelial tumors, oncogenic MAPK/AP1 signaling drives the activation of enhancers derived from the primate-specific ERV family LTR10.", "note": "The abstract reports MAPK/AP1 signaling activates these ERV-derived enhancers in colorectal cancer."},
+    {"k": 2, "label": "supported", "text": "LTR10 elements control tumor-specific expression of several tumorigenesis-linked genes, including ATG12 and XRCC4.", "evidence": "LTR10 elements regulate tumor-specific expression of multiple genes associated with tumorigenesis, such as ATG12 and XRCC4", "note": "The abstract shows LTR10 elements regulate tumor-specific expression of tumorigenesis genes such as ATG12 and XRCC4."},
+    {"k": 3, "label": "supported", "text": "Individual LTR10 elements show germline and somatic structural variation from a highly mutable internal tandem repeat that influences AP1 binding.", "evidence": "individual LTR10 elements exhibit germline and somatic structural variation resulting from a highly mutable internal tandem repeat region, which affects AP1 binding activity.", "note": "The abstract reports structural variation of LTR10 driven by a mutable tandem repeat affecting AP1 binding."},
+    {"k": 4, "label": "not_addressed", "text": "Targeting LTR10 enhancers shrinks tumors in colorectal cancer patients.", "evidence": "Our findings reveal that ERV-derived enhancers contribute to transcriptional dysregulation in response to oncogenic signaling and shape the evolution of cancer-specific regulatory networks.", "note": "The abstract links LTR10 to tumorigenesis genes but tests no therapy against these elements."}
+   ]
+  },
+  {
+   "n": 1639,
+   "id": "pmid:37985687",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "In proliferating cells, Pi3K-AKT-mTOR signaling promotes cytoplasmic accumulation of AGO2, partly by boosting TNRC6 expression.", "evidence": "Signaling through this pathway in proliferating cells promotes AGO2 cytoplasmic accumulation, at least in part by stimulating the expression of TNRC6, an essential AGO2 binding partner in the miRNA pathway.", "note": "The abstract states mTOR-pathway signaling drives AGO2 into the cytoplasm, partly via TNRC6."},
+    {"k": 2, "label": "supported", "text": "In quiescent mouse splenocytes, AGO2 resides almost entirely within the nucleus.", "evidence": "in quiescent mouse splenocytes, AGO2 localizes almost exclusively to the nucleus.", "note": "The abstract reports nuclear localization of AGO2 in quiescent splenocytes."},
+    {"k": 3, "label": "not_addressed", "text": "Nuclear AGO2 relies on Dicer to process transposon transcripts in quiescent cells.", "evidence": "provide evidence of RNA interference in the soma of mammals.", "note": "The abstract describes catalytic repression of transposons but never mentions Dicer or related processing enzymes."},
+    {"k": 4, "label": "supported", "text": "In quiescent cells with low mTOR activity, nuclear AGO2 binds young mobile transposons co-transcriptionally and silences them via its catalytic domain.", "evidence": "AGO2 accumulates in the nucleus, where it binds to young mobile transposons co-transcriptionally to repress their expression via its catalytic domain.", "note": "The abstract reports nuclear AGO2 represses young transposons co-transcriptionally through its catalytic domain."}
+   ]
+  },
+  {
+   "n": 1640,
+   "id": "pmid:38365845",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "Duplicated antibiotic resistance genes were strongly enriched in bacteria isolated from humans and livestock.", "evidence": "Duplicated ARGs are highly enriched in bacteria isolated from humans and livestock.", "note": "The abstract reports duplicated ARGs are highly enriched in human and livestock bacteria."},
+    {"k": 2, "label": "supported", "text": "The study assessed duplicated ARG distribution across 18,938 complete bacterial genomes carrying ecological metadata.", "evidence": "we examined the distribution of duplicated ARGs in 18,938 complete bacterial genomes with ecological metadata.", "note": "The abstract reports examining 18,938 complete bacterial genomes with ecological metadata."},
+    {"k": 3, "label": "supported", "text": "Modeling and experiments demonstrated that antibiotic selection can drive duplication of resistance genes through MGE transposition.", "evidence": "Modeling and experiments show that antibiotic selection can drive the evolution of duplicated antibiotic resistance genes (ARGs) through MGE transposition.", "note": "The abstract shows antibiotic selection drives duplication of ARGs via MGE transposition."},
+    {"k": 4, "label": "not_addressed", "text": "Duplicated resistance genes raise the minimum inhibitory concentration above that of single-copy genes.", "evidence": "Duplicated ARGs are further enriched in an independent set of 321 antibiotic-resistant clinical isolates.", "note": "The abstract reports selection and enrichment of duplicated ARGs but never measures MIC or resistance strength."}
+   ]
+  },
+  {
+   "n": 1641,
+   "id": "pmid:38378896",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "Phage-plasmids swap genes more frequently with plasmids than with phages.", "evidence": "phage-plasmids exchange genes more frequently with plasmids than with phages", "note": "The abstract reports phage-plasmids exchange genes more with plasmids than with phages."},
+    {"k": 2, "label": "supported", "text": "The gene repertoire of phage-plasmids overlaps with that of both phages and plasmids.", "evidence": "the gene repertoire of phage-plasmids overlaps with those of phages and plasmids.", "note": "The abstract shows phage-plasmid genes overlap those of phages and plasmids."},
+    {"k": 3, "label": "not_addressed", "text": "Phage-plasmids are more abundant than ordinary plasmids in clinical bacterial isolates.", "evidence": "Here, we study gene flow between the three types of elements.", "note": "The abstract studies gene flow among these elements, never comparing how abundant phage-plasmids are."},
+    {"k": 4, "label": "supported", "text": "Gene loss can convert P1-like phage-plasmids into integrative prophages or into plasmids that are no longer phages.", "evidence": "gene loss turns P1-like phage-plasmids into integrative prophages or into plasmids (that are no longer phages).", "note": "The abstract gives gene loss turning P1-like phage-plasmids into prophages or plasmids as an example."}
+   ]
+  },
+  {
+   "n": 1642,
+   "id": "pmid:39385022",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "The plasmid leading region, first to enter recipient cells, is a hotspot encoding anti-CRISPR, anti-restriction, anti-SOS and other counter-defence proteins.", "evidence": "the leading region of plasmids, the first to enter recipient cells, is a hotspot for an extensive repertoire of anti-defence systems, encoding anti-CRISPR, anti-restriction, anti-SOS and other counter-defence proteins.", "note": "The abstract identifies the leading region as a hotspot of diverse anti-defence proteins."},
+    {"k": 2, "label": "not_addressed", "text": "Anti-defence genes in the leading region are conserved across most plasmid families.", "evidence": "These results indicate that focusing on the leading region of plasmids could lead to the discovery of diverse anti-defence genes.", "note": "The abstract suggests the leading region harbours diverse anti-defence genes but never assesses their conservation across families."},
+    {"k": 3, "label": "supported", "text": "The study found the leading region rich in promoters able to drive expression from single-stranded DNA.", "evidence": "we further identified in the leading region a prevalence of promoters known to allow expression from single-stranded DNA", "note": "The abstract reports a prevalence of single-stranded-DNA promoters in the leading region."},
+    {"k": 4, "label": "supported", "text": "Experiments confirmed that localising anti-defence genes to the leading region is important for efficient conjugation.", "evidence": "We demonstrated experimentally the importance of anti-defence gene localization in the leading region for efficient conjugation.", "note": "The abstract experimentally demonstrates this localisation matters for efficient conjugation."}
+   ]
+  },
+  {
+   "n": 1643,
+   "id": "pmid:37078595",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "In both ICEs and IMEs, defense systems, AMR genes and virulence genes were negatively correlated.", "evidence": "defense systems, AMR, and virulence genes were negatively correlated in both ICEs and IMEs.", "note": "The abstract reports a negative correlation between defense, AMR and virulence genes in both element types."},
+    {"k": 2, "label": "supported", "text": "A scan of more than 20,000 non-redundant genomes recovered over 13,000 ciMGEs, far exceeding the under-1,000 known in public databases.", "evidence": "I scanned a collection of >20 000 bacterial and archaeal non-redundant genomes and found over 13 000 ciMGEs", "note": "The abstract reports over 13,000 ciMGEs found in more than 20,000 genomes versus fewer than 1,000 previously catalogued."},
+    {"k": 3, "label": "supported", "text": "Although ICEs are the most important ciMGEs for accumulating defense, virulence and AMR genes, IMEs outnumbered ICEs.", "evidence": "Although ICEs are the most important ciMGEs for the accretion of defense systems, virulence, and antimicrobial resistance (AMR) genes, IMEs outnumbered ICEs.", "note": "The abstract states ICEs are key for gene accretion yet IMEs were more numerous."},
+    {"k": 4, "label": "not_addressed", "text": "ICEs cross between phyla more often than IMEs do.", "evidence": "Multiple ciMGEs form heterogeneous communities and challenge inter-phylum barriers.", "note": "The abstract notes inter-phylum spread of ciMGEs generally but never compares ICE and IME transfer rates."}
+   ]
+  },
+  {
+   "n": 1644,
+   "id": "pmid:36631879",
+   "statements": [
+    {"k": 1, "label": "supported", "text": "At CoRSIVs the major allele tends to predict higher methylation, so mQTL beta coefficients are strongly skewed.", "evidence": "mQTL beta coefficients at CoRSIVs are highly skewed (i.e., the major allele predicts higher methylation).", "note": "The abstract reports skewed beta coefficients, with the major allele predicting higher methylation."},
+    {"k": 2, "label": "supported", "text": "Using target-capture bisulfite sequencing, the study measured methylation at 4086 CoRSIVs across multiple tissues from 188 GTEx donors.", "evidence": "We use target-capture bisulfite sequencing to assess DNA methylation at 4086 CoRSIVs in multiple tissues from each of 188 donors in the NIH Gene-Tissue Expression (GTEx) program.", "note": "The abstract reports assaying 4086 CoRSIVs in tissues from 188 GTEx donors."},
+    {"k": 3, "label": "supported", "text": "Genetic control of CoRSIV methylation was extremely strong, with a median R2 near 0.76.", "evidence": "Genetic influences on CoRSIV methylation are extremely strong (median R 2 =0.76)", "note": "The abstract reports extremely strong genetic influence, with median R2 of 0.76."},
+    {"k": 4, "label": "not_addressed", "text": "Blood-based CoRSIV methylation can diagnose metabolic disease in individual patients.", "evidence": "Analyses of GWAS summary statistics show that mQTL polymorphisms at CoRSIVs are associated with metabolic and other classes of disease.", "note": "The abstract reports disease associations from GWAS statistics but never evaluates individual diagnosis."}
+   ]
+  }
+ ]
+}

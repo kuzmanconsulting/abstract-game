@@ -1,0 +1,517 @@
+{
+ "batch": "gen_33",
+ "prompt_version": "gen-v4",
+ "items": [
+  {
+   "n": 880,
+   "id": "pmid:40216969",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Gene expression and alternative splicing analyses were run on 44 osteosarcoma patients to build a genome-wide co-expression network of RNA-binding proteins, alternative splicing events and alternatively spliced genes.",
+     "evidence": "gene expression and AS analyses were performed on 44 osteosarcoma patients to create a genome-wide co-expression network of RNA-binding proteins (RBPs), AS events, and AS genes",
+     "note": "The abstract states the analyses covered 44 osteosarcoma patients and produced a co-expression network of RBPs, AS events and AS genes."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Higher KPNA2 expression went together with poorer survival of osteosarcoma patients.",
+     "evidence": "Karyopherin Subunit Alpha 2 (KPNA2) negatively correlated with patient survival.",
+     "note": "A negative correlation between KPNA2 and patient survival means more KPNA2, shorter survival."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Pharmacological inhibition of KPNA2 prolonged survival in a mouse model of osteosarcoma.",
+     "evidence": "KPNA2/YBX1/DDX3X axis might be potential targets for inhibiting disease progression and improving OS patient survival.",
+     "note": "The axis is only proposed as a potential target; no inhibitor treatment or animal survival experiment is reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "YBX1 lowers DDX3X protein by promoting intron retention in the DDX3X transcript and speeding its degradation through nonsense-mediated decay.",
+     "evidence": "YBX1 accelerates the degradation of the ATP-dependent RNA helicase DDX3X (DDX3X) through the nonsense-mediated decay (NMD) pathway to promote intron retention of the DDX3X gene, thus reducing DDX3X protein levels",
+     "note": "The abstract describes YBX1 driving NMD-mediated degradation and intron retention of DDX3X, which reduces DDX3X protein."
+    }
+   ]
+  },
+  {
+   "n": 881,
+   "id": "pmid:40650263",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "The 15-nucleotide motif also occurs in the 3'UTRs of other paraspeckle target mRNAs identified in the rat pituitary cell line.",
+     "evidence": "By developing a candidate gene strategy, we selected a paraspeckle target gene, namely calreticulin mRNA, and we searched for other potential RNA recruitment elements in its 3'UTR",
+     "note": "Only the calreticulin 3'UTR was examined; whether the motif is present in other target mRNAs is not reported."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "In the rat pituitary cell line, the previously identified paraspeckle target RNAs lacked inverted repeated SINEs in their 3'UTRs.",
+     "evidence": "we did not find, however, inverted repeated SINEs, the rat equivalent of primate IRAlus in 3'UTR of these RNAs",
+     "note": "The abstract reports that the rat equivalent of IRAlus was absent from the 3'UTRs of the paraspeckle target RNAs."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Mass spectrometry showed that six of the proteins binding the 15-nucleotide sequence are paraspeckle proteins.",
+     "evidence": "As shown by mass spectrometry analysis, 6 proteins bound to the 15-nucleotide sequence are paraspeckle proteins",
+     "note": "The abstract gives the count directly: 6 proteins bound to the motif are paraspeckle proteins."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "A tandemly repeated 15-nucleotide sequence with a C-rich stretch upstream in the calreticulin 3'UTR contributes to nuclear retention by paraspeckles.",
+     "evidence": "We found a 15-nucleotide sequence surrounded in 5' by a C-rich sequence, which is present as a tandem repeat in the 3'UTR of this mRNA and which is involved in the nuclear retention by paraspeckles.",
+     "note": "This restates the motif's described features: 15 nt, C-rich sequence in 5', tandem repeat, involved in nuclear retention."
+    }
+   ]
+  },
+  {
+   "n": 882,
+   "id": "pmid:41655928",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Combined bulk and single-cell RNA-seq showed PCBP2 is downregulated in testicular tissue from men with non-obstructive azoospermia.",
+     "evidence": "we identified and validated PCBP2 downregulation in testicular tissues from patients with non-obstructive azoospermia (NOA) by integrating bulk and single-cell RNA sequencing (scRNA-seq) datasets",
+     "note": "The abstract reports PCBP2 downregulation in NOA testes identified by integrating bulk and scRNA-seq data."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Germline Pcbp2 knockout mice had fewer mid-pachytene spermatocytes and showed an arrest at step 9 of spermiogenesis.",
+     "evidence": "we observed a reduction in mid-pachytene spermatocytes and a distinct developmental arrest at step 9 of spermiogenesis",
+     "note": "Both the reduced mid-pachytene population and the step 9 arrest are stated explicitly."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "PCBP2 recruits hnRNPU and DDX5 to meiosis transcripts such as Spo11, Tdrd5 and Brme1 and to spermiogenesis transcripts including Eif4g3, Piwil1 and Dlec1.",
+     "evidence": "PCBP2 recruits hnRNPU and DDX5 to key transcripts related to meiosis (Spo11, Tdrd5 and Brme1) and spermiogenesis (Eif4g3, Piwil1 and Dlec1)",
+     "note": "The recruitment of hnRNPU and DDX5 to the named meiosis and spermiogenesis transcripts is the mechanism the abstract reports."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Re-expressing PCBP2 in Pcbp2-deficient germ cells restored normal spermiogenesis.",
+     "evidence": "To investigate its function, we generated mice with a germline-specific ablation of Pcbp2. These mice exhibited delayed meiotic prophase and impaired spermiogenesis.",
+     "note": "Only the loss-of-function phenotype is described; no rescue or re-expression experiment is mentioned."
+    }
+   ]
+  },
+  {
+   "n": 883,
+   "id": "pmid:42858641",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Treating porcine fetal fibroblasts with 10 mmol/L cycloleucine for 48 h lowered METTL3, WTAP, YTHDC1 and YTHDF2 expression and raised FTO expression.",
+     "evidence": "treatment of PFFs with 10 mmol/L CL for 48 h significantly decreased the expression of METTL3, WTAP, YTHDC1, and YTHDF2, increased the expression of the demethylase FTO, and reduced m6A levels",
+     "note": "Dose, duration, the decreased writers and readers, and the increased demethylase FTO are all given in this sentence."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Embryo transfer of clones from CL-treated donor cells produced more live piglets than transfer of control clones.",
+     "evidence": "which may contribute to improved in vitro development of porcine cloned embryos",
+     "note": "Development was assessed in vitro up to the blastocyst stage; embryo transfer and live births are not reported."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Cloned embryos made from CL-treated donor fibroblasts reached the blastocyst stage at a significantly higher rate.",
+     "evidence": "Using CL-treated PFFs as donor cells, the blastocyst rate of cloned embryos was significantly increased.",
+     "note": "The abstract states the blastocyst rate increased significantly with CL-treated donor cells."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "By immunofluorescence, 2- to 8-cell embryos from the CL-treated group had lower m6A and H3K9me3 levels than controls.",
+     "evidence": "Immunofluorescence analysis revealed lower m6A and H3K9me3 levels in the CL-treated group than in the control group during the 2-8-cell stages.",
+     "note": "The comparison with controls at the 2-8-cell stages is stated directly for both m6A and H3K9me3."
+    }
+   ]
+  },
+  {
+   "n": 884,
+   "id": "doi:10.64898/2026.10.01.752299",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Applied to four human cell lines, the framework shrank candidate sORF sets from thousands or millions to a small number of concordant loci.",
+     "evidence": "the framework produces dramatically smaller and more reliable candidate sets, reducing thousands to millions of predicted sORFs down to a small number of high confidence concordant loci",
+     "note": "The reduction from thousands-to-millions of predictions down to a small concordant set is the headline benchmarking result."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The pseudogene sORF RPL26P19 was found reproducibly in HeLa cells, whereas existing tools missed it or called it inconsistently.",
+     "evidence": "the pseudogene encoded sORF RPL26P19 was detected consistently in HeLa cells but missed or inconsistently identified by existing tools",
+     "note": "Consistent detection by the framework versus missed or inconsistent calls by other tools is stated for RPL26P19."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "A sORF from pseudogene UBE3AP2 was seen only in normal primary cell types and was absent from HeLa.",
+     "evidence": "a separate pseudogene sORF from UBE3AP2 was observed specifically in normal primary cell types and absent in HeLa",
+     "note": "The UBE3AP2 candidate's restriction to normal primary cells and absence in HeLa is reported verbatim."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "RPL26P19 was translated at a higher level in proliferating HeLa cells than in cell-cycle-arrested cells.",
+     "evidence": "Across HeLa cell cycle conditions, a limited set of unique concordant sORFs was identified spanning multiple transcript classes",
+     "note": "sORFs were catalogued across cell cycle conditions, but no comparison of RPL26P19 translation between conditions is given."
+    }
+   ]
+  },
+  {
+   "n": 885,
+   "id": "pmid:41181626",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Knocking down CDH3 in melanoma cell lines reduced their invasive capacity.",
+     "evidence": "Key gene expression levels were evaluated using reverse transcription-quantitative PCR and immunohistochemistry.",
+     "note": "The wet-lab work measured expression only; no knockdown or invasion assay is described."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Of 94 differentially expressed metastasis-related mRNAs, 45 showed significant associations with m6A regulators.",
+     "evidence": "A total of 94 metastasis-related mRNAs were identified as differentially expressed, of which 45 demonstrated significant associations with m6A regulators.",
+     "note": "Both counts, 94 and 45, appear in the abstract's results."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The ceRNA network built around CDH3, KRT17, PKP1 and CRABP2 contained 13 long noncoding RNAs and 20 microRNAs.",
+     "evidence": "A ceRNA network comprising these four mRNAs, 13 long noncoding RNAs, and 20 microRNAs was constructed.",
+     "note": "The network composition is stated: four mRNAs, 13 lncRNAs, 20 miRNAs."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The four core genes were expressed at higher levels in tumor than in adjacent normal tissue and were associated with worse overall survival.",
+     "evidence": "These core genes demonstrated significantly higher expression levels in tumor tissues compared with in adjacent normal tissues, were associated with a worse overall survival",
+     "note": "Higher tumor expression and worse overall survival are both reported for the core genes."
+    }
+   ]
+  },
+  {
+   "n": 886,
+   "id": "pmid:40753411",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Overexpressing hsa_piR_018849 increased osteosarcoma cell proliferation, migration and invasion and decreased apoptosis.",
+     "evidence": "Overexpression of hsa_piR_018849 promoted the proliferation, migration, and invasion of osteosarcoma cells while inhibiting apoptosis.",
+     "note": "The abstract lists increased proliferation, migration and invasion and inhibited apoptosis upon overexpression."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "hsa_piR_018849 also promoted proliferation of osteosarcoma cells in vivo.",
+     "evidence": "Hsa_piR_018849 facilitated the proliferation of osteosarcoma cells in vivo.",
+     "note": "In vivo proliferation is reported in addition to the cell culture results."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Restoring CCN5 expression reversed the growth-promoting effect of hsa_piR_018849 on osteosarcoma cells.",
+     "evidence": "PiRNA hsa_piR_018849 regulates the function of osteosarcoma cells by targeting and inhibiting the expression of CCN5.",
+     "note": "CCN5 is named as the target, but no rescue experiment restoring CCN5 is described."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "hsa_piR_018849 lowered CCN5 levels by binding to the coding sequence of CCN5 mRNA and reducing its stability.",
+     "evidence": "The expression levels of CCN5 were reduced by hsa_piR_018849. Hsa_piR_018849 reduced the stability of CCN5 by binding to the coding sequence (CDS) region of CCN5 mRNA.",
+     "note": "Reduced CCN5 expression and the CDS-binding, stability-reducing mechanism are both stated."
+    }
+   ]
+  },
+  {
+   "n": 887,
+   "id": "doi:10.1101/2025.06.11.25329423",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The new GWAS meta-analysis for MASLD included 16,532 cases and 1,240,188 controls.",
+     "evidence": "we conducted a new GWAS meta-analysis including 16,532 cases and 1,240,188 controls",
+     "note": "Case and control numbers are given directly in the abstract."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Silencing TRIB1AL in mouse liver reduced hepatic fat accumulation.",
+     "evidence": "These results open the door to liver-targeted therapeutics silencing of the non-coding genome for the prevention and treatment of MASLD and cardiometabolic diseases.",
+     "note": "Silencing is proposed as a future therapeutic direction; no intervention experiment in animals or cells is reported."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The lead variant at TRIB1AL showed no link with expression of the neighbouring protein-coding gene TRIB1.",
+     "evidence": "The lead genetic variant was not linked with expression levels of the nearby protein-coding gene TRIB1 (Tribbles Pseudokinase 1).",
+     "note": "The abstract explicitly reports no association between the lead variant and TRIB1 expression."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Lower hepatic TRIB1AL expression was associated with less liver fat, lower plasma lipoprotein lipids, reduced atherosclerotic cardiovascular disease risk and longer lifespan.",
+     "evidence": "lower liver-expressed TRIB1AL as being associated with reduced liver fat accumulation, lower plasma lipoprotein-lipid levels, decreased atherosclerotic cardiovascular disease risk, and increased human lifespan",
+     "note": "All four associations with lower TRIB1AL are listed in the targeted and phenome-wide MR results."
+    }
+   ]
+  },
+  {
+   "n": 888,
+   "id": "pmid:42123534",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "ADAR1p110 interacts with core spliceosome components as well as auxiliary splicing regulators.",
+     "evidence": "ADAR1p110 interacts with pivotal spliceosome components and auxiliary splicing regulators",
+     "note": "The proteomic analysis of interactors found spliceosome components and auxiliary regulators bound to ADAR1p110."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Most ADAR1-driven alternative splicing changes occurred without its RNA-editing activity, and many also without its RNA-binding capacity.",
+     "evidence": "with most of these alterations occurring independently of its RNA-editing activity and often its RNA-binding capacity",
+     "note": "The abstract states that most splicing alterations are editing-independent and often RNA-binding-independent."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "ADAR1 shifted the isoform expression of other splicing factors, such as ACIN1, pointing to an indirect regulatory mechanism.",
+     "evidence": "ADAR1 alters the isoform expression of other splicing factors (e.g., ACIN1), suggesting an indirect regulatory mechanism",
+     "note": "The altered ACIN1 isoform expression and the inferred indirect mechanism are both stated."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "The ADAR1p150 isoform regulates alternative splicing through the same editing-independent mechanism.",
+     "evidence": "This study elucidates how the ADAR1p110 isoform influences alternative splicing independently of its canonical editing activity.",
+     "note": "Only the p110 isoform was studied; the abstract says nothing about p150."
+    }
+   ]
+  },
+  {
+   "n": 889,
+   "id": "pmid:42773549",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "WGCNA found 14 lncRNA modules linked to immune cells and 277 modules associated with breast cancer and immune traits.",
+     "evidence": "WGCNA revealed 14 lncRNA modules linked to immune cells and 277 modules associated with BC and immune traits.",
+     "note": "Both module counts, 14 and 277, are stated in the results."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Activated CD4+ memory T cells were more abundant in breast cancer samples.",
+     "evidence": "Active cluster of differentiation 4+ (CD4+) memory T cells were more infiltrated in BC",
+     "note": "Greater infiltration of active CD4+ memory T cells in BC is reported from the immune infiltration analysis."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Silencing LINC00200 in breast cancer cells raised miR-20b-5p and lowered HMGB3 expression.",
+     "evidence": "Although this axis holds promise as a novel prognostic marker, further functional studies and assessment of diagnostic utility are warranted.",
+     "note": "The axis was assembled bioinformatically and checked only by expression; no knockdown experiment is reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "qRT-PCR showed higher LINC00200 and HMGB3 in breast cancer cells, while miR-20b-5p was lower in MCF-7 but higher in BT549 and MDA-MB-231.",
+     "evidence": "qRT-PCR revealed elevated LINC00200 and HMGB3 levels in BC cells, with minor differences in LINC00200 across cell lines. The expression of miR-20b-5p decreased in MCF-7 cells but increased in BT549 and MDA-MB-231.",
+     "note": "The direction of each change, including the opposite miR-20b-5p results across cell lines, is given explicitly."
+    }
+   ]
+  },
+  {
+   "n": 890,
+   "id": "doi:10.1101/2025.07.10.663777",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Short-term memory was unaffected in TraxE126A mice.",
+     "evidence": "TraxE126A mice display impaired long-term spatial memory and altered open-field and acoustic-startle behavior",
+     "note": "Only long-term spatial memory is reported; short-term memory is not mentioned either way."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The E126A point mutation in Trax eliminates the RNase activity of the Translin/Trax complex.",
+     "evidence": "a mouse line harboring a point mutation in Trax (E126A) that renders the Translin/Trax RNase inactive",
+     "note": "The abstract describes the mutation as rendering the complex's RNase inactive."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "In TraxE126A hippocampus, mRNA-level gene expression was substantially reduced and levels of miRNAs and tsRNAs were altered.",
+     "evidence": "we found alterations in the levels of multiple small RNAs including miRNAs, tsRNAs and substantial downregulation of gene expression at the mRNA level in the hippocampus of TraxE126A mice",
+     "note": "Both the small RNA alterations and the substantial mRNA downregulation in hippocampus are stated."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "TraxE126A mice have deficits in particular forms of long-term synaptic plasticity in the hippocampus.",
+     "evidence": "TraxE126A mice exhibit deficits in specific forms of long-term hippocampal synaptic plasticity",
+     "note": "The synaptic-level result is a deficit in specific forms of long-term hippocampal plasticity."
+    }
+   ]
+  },
+  {
+   "n": 891,
+   "id": "pmid:41566196",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "CRESCENT performs differential expression, differential alternative splicing and differential transcript usage analyses, with GO enrichment for each.",
+     "evidence": "enables analysis of differential expression, differential alternative splicing, differential transcript usage, and gene ontology-based functional enrichment for all three",
+     "note": "The three analysis types and GO enrichment for all three are listed in the abstract."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "CRESCENT completed the same analyses faster than existing comparable RNA-Seq workflows.",
+     "evidence": "benchmarking CRESCENT performance indicated that it can be run on a personal computer or a remote server, including a high-performance computing cluster",
+     "note": "Benchmarking is described in terms of hardware and data sizes it handles; no runtime comparison with other workflows is given."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "In validation, CRESCENT's differentially expressed protein-coding genes, TEs and alternative splicing events matched previously published datasets.",
+     "evidence": "differentially expressed protein-coding genes, TEs and differential alternative splicing events were consistent with previously published datasets",
+     "note": "Consistency with published datasets for genes, TEs and splicing events is the stated validation result."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "CRESCENT handles data from small single-end Arabidopsis thaliana sequencing up to very large paired-end sequencing of polyploid wheat.",
+     "evidence": "allowing a user to process small single-end sequencing on species possessing a small genome like Arabidopsis thaliana to very large paired-end sequencing on polyploid species like wheat",
+     "note": "The abstract names Arabidopsis thaliana and wheat as the ends of the data-size range CRESCENT processes."
+    }
+   ]
+  },
+  {
+   "n": 892,
+   "id": "doi:10.64898/2026.03.10.710617",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Two svtRNA annotation sets were generated: a stringent miRNA-like set and a broader Total set from total small RNA-seq libraries.",
+     "evidence": "we generated two annotation sets: a stringent “miRNA-like” set enriched in Argonaute-associated datasets, and (ii) a broader “Total” set derived from total small RNA-seq libraries under relaxed structural constraints",
+     "note": "The two sets, their stringency and their data sources are described in the methods."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Some svtRNAs reached abundance levels comparable to canonical miRNAs.",
+     "evidence": "in several cases, reach abundance levels comparable to canonical miRNAs",
+     "note": "The abstract states that several svtRNAs reach abundances comparable to canonical miRNAs."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The same dominant svtRNAs emerged independently from Argonaute-associated and total small RNA datasets.",
+     "evidence": "the same “dominant” (in terms of gene expression) svtRNAs emerged independently from Argonaute-associated and total small RNA datasets",
+     "note": "Independent emergence of the same dominant svtRNAs from both dataset types is reported as evidence of reproducible processing."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "svtRNAs with identical seed sequences were shown to repress the same target mRNAs in reporter assays.",
+     "evidence": "We further identified svtRNAs derived from distinct vtRNA precursors that could share identical seed sequences, suggesting the possibility of svtRNA families with potential miRNA-like regulatory properties.",
+     "note": "Shared seeds are noted as a possibility for miRNA-like regulation; no target repression experiment is reported."
+    }
+   ]
+  },
+  {
+   "n": 893,
+   "id": "doi:10.1101/2024.09.24.24314089",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "IDH1-mutant gliomas showed globally higher m6A methylation together with increased expression of METTL3, METTL14 and YTHDF3.",
+     "evidence": "IDH1-mutant gliomas exhibited globally elevated m6A methylation, along with increased expression of methyltransferases (METTL3, METTL14) and stabilizing readers (YTHDF3)",
+     "note": "Elevated m6A and increased writer and reader expression in IDH1-mutant tumors are stated directly."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Inhibiting METTL3 slowed the growth of IDH1-mutant glioma cells.",
+     "evidence": "Our study establishes m6A as a critical, subtype-specific layer of RNA regulation in glioma with clinical and therapeutic implications.",
+     "note": "Therapeutic implications are asserted in general terms; no inhibitor or growth experiment is reported."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "IDH1 wild-type glioblastomas had higher expression of the erasers ALKBH5 and FTO and of the decay factor YTHDF2.",
+     "evidence": "wild-type glioblastomas showed enhanced expression of m6A erasers (ALKBH5, FTO) and RNA decay factors (YTHDF2)",
+     "note": "Enhanced eraser and decay factor expression in wild-type glioblastomas is the contrast the abstract draws."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Isoform-level analyses, including IGF2BP2-202, PUF60-202 and GLUL-203, gave stronger prognostic associations than gene-level measures.",
+     "evidence": "Isoform-level analyses revealed stronger prognostic associations than gene-level parameter, including for IGF2BP2-202, PUF60-202, and GLUL-203",
+     "note": "The abstract reports stronger prognostic associations at isoform than gene level and names the three isoforms."
+    }
+   ]
+  },
+  {
+   "n": 894,
+   "id": "pmid:42749839",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Association mapping identified 109 significant SNPs and 28 indels linked to expression variation across the clock network.",
+     "evidence": "We identified 109 significant SNPs and 28 indels associated with expression variation across the clock network.",
+     "note": "The SNP and indel counts are given directly."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Pdp1ε showed the widest expression variation, an 86-fold difference between extreme lines, while cyc varied least at 11.3-fold.",
+     "evidence": "Pdp1ε showing the greatest variation (an 86-fold difference between extreme lines) and cyc the least (11.3-fold)",
+     "note": "Both fold-differences and which gene is most and least variable are stated."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Lines with the highest and lowest Pdp1ε expression differed in the period of their locomotor activity rhythm.",
+     "evidence": "Expression levels varied widely, with Pdp1ε showing the greatest variation (an 86-fold difference between extreme lines) and cyc the least (11.3-fold).",
+     "note": "Expression variation is reported, but no behavioural rhythm phenotype of the lines is measured or mentioned."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Only three significant SNPs fell within clock genes themselves, all in Clk; most associations were trans-eQTLs in genes of diverse function.",
+     "evidence": "Only three significant SNPs were located within clock genes themselves, all in Clk, whereas most associations represented trans-eQTLs in genes with diverse molecular functions",
+     "note": "The abstract reports three cis SNPs, all in Clk, with most associations being trans-eQTLs."
+    }
+   ]
+  }
+ ],
+ "flip_rule": "first-of-any-v3"
+}

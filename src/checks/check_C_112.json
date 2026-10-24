@@ -1,0 +1,73 @@
+{"batch": "check_C_112", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1765, "id": "pmid:30575733",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "pharmacological elimination of senescent-cells by ABT-737 partially alleviates accelerated aging phenotype in these mice"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "ABT-737 administration during the second half of life of these progeroid mice abrogates senescence signature and increases median survival"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Prf1 -/- mice with impaired cell cytotoxicity exhibit both higher senescent-cell tissue burden and chronic inflammation"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "In LMNA +/G609G progeroid mice, impaired cell cytotoxicity further promotes senescent-cell accumulation and shortens lifespan"}
+    ]},
+   {"n": 1766, "id": "pmid:31160572",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "senescent dermal fibroblasts express the non-classical MHC molecule HLA-E, which interacts with the inhibitory receptor NKG2A expressed by NK and highly differentiated CD8 + T cells to inhibit immune responses against senescent cells"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "suggesting a new strategy for eliminating senescent cells during ageing"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "blocking the interaction between HLA-E and NKG2A boosts immune responses against senescent cells in vitro"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "HLA-E expression is increased on senescent cells in human skin sections from old individuals, when compared with those from young, and in human melanocytic nevi relative to normal skin"}
+    ]},
+   {"n": 1767, "id": "pmid:27525720",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "NOTCH1 activity, which drives a TGF-β-rich secretome, while suppressing the senescence-associated pro-inflammatory secretome through inhibition of C/EBPβ"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "NOTCH1 inhibition during senescence facilitates upregulation of pro-inflammatory cytokines, promoting lymphocyte recruitment and senescence surveillance in vivo"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "NOTCH1 and NOTCH1-driven TGF-β contribute to 'lateral induction of senescence' through a juxtacrine NOTCH-JAG1 pathway"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "oncogene-induced senescence is accompanied by a dynamic fluctuation of NOTCH1 activity, which drives a TGF-β-rich secretome"}
+    ]},
+   {"n": 1768, "id": "pmid:30737259",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Pharmacological or genetic clearance of senescent cells in mice alleviates detrimental features of cardiac ageing, including myocardial hypertrophy and fibrosis"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "clearance of senescent cells in mice alleviates detrimental features of cardiac ageing, including myocardial hypertrophy and fibrosis"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "persistent DNA damage at telomere regions that can be driven by mitochondrial dysfunction and crucially can occur independently of cell division and telomere length"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Length-independent telomere damage in cardiomyocytes activates the classical senescence-inducing pathways, p21 CIP and p16 INK4a , and results in a non-canonical senescence-associated secretory phenotype, which is pro-fibrotic and pro-hypertrophic"}
+    ]},
+   {"n": 1769, "id": "pmid:33731931",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Jak2 VF lesions showed increased expression of AIM2, oxidative DNA damage and DNA replication stress, and Aim2 deficiency reduced atherosclerosis"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Precise application of therapies that target interleukin-1β or specific inflammasomes according to clonal haematopoiesis status could substantially reduce cardiovascular risk"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "increased proliferation of macrophages and prominent formation of necrotic cores in atherosclerotic lesions in mice that express Jak2 VF selectively in macrophages"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Inhibition of the inflammasome product interleukin-1β reduced macrophage proliferation and necrotic formation while increasing the thickness of fibrous caps, indicating that it stabilized plaques"}
+    ]},
+   {"n": 1770, "id": "pmid:36323784",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "reduces the total number of p16 + cells in vivo as well as the PD-L1 + population in an activated CD8 + T cell-dependent manner, ameliorating various ageing-related phenotypes"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "PD-L1 - cells are sensitive to T cell surveillance, whereas PD-L1 + cells are resistant, even in the presence of senescence-associated secretory phenotypes (SASP)"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "PD-L1 expression correlated with higher levels of SASP"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "reduces the total number of p16 + cells in vivo as well as the PD-L1 + population in an activated CD8 + T cell-dependent manner, ameliorating various ageing-related phenotypes"}
+    ]},
+   {"n": 1771, "id": "pmid:28953873",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "inhibition of MAOA reversed the age-related reduction in noradrenaline concentration in adipose tissue, and restored lipolysis with increased levels of the key lipolytic enzymes adipose triglyceride lipase (ATGL) and hormone sensitive lipase (HSL)"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "adipose tissue macrophages regulate the age-related reduction in adipocyte lipolysis in mice by lowering the bioavailability of noradrenaline"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "adipose tissue macrophages regulate the age-related reduction in adipocyte lipolysis in mice by lowering the bioavailability of noradrenaline"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Deletion of NLRP3 in ageing restored catecholamine-induced lipolysis by downregulating growth differentiation factor-3 (GDF3) and monoamine oxidase A (MAOA)"}
+    ]},
+   {"n": 1772, "id": "pmid:33199924",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "These M1-like macrophages express high levels of the NAD-consuming enzyme CD38 and have enhanced CD38-dependent NADase activity, thereby reducing tissue NAD levels"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "offer novel therapeutic opportunities to maintain NAD levels during ageing"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "inflammatory cytokines secreted by senescent cells (the senescence-associated secretory phenotype, SASP) induce macrophages to proliferate and express CD38"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "pro-inflammatory M1-like macrophages, but not naive or M2 macrophages, accumulate in metabolic tissues, including visceral white adipose tissue and liver, during ageing"}
+    ]},
+   {"n": 1773, "id": "pmid:32485135",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "The majority of p16 High cells were vascular endothelial cells mostly in liver sinusoids (LSECs), and to lesser extent macrophages and adipocytes"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "age-induced p16 High senescence is a slow process that manifests around 10-12 months of age"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "delaying senescence or replacement of senescent LSECs could represent a powerful tool in slowing down aging"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "continuous or acute elimination of p16 High senescent cells disrupted blood-tissue barriers with subsequent liver and perivascular tissue fibrosis and health deterioration"}
+    ]},
+   {"n": 1774, "id": "pmid:32032542",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "NLRP3, a pattern recognition receptor, is modified by acetylation in macrophages and is deacetylated by SIRT2, an NAD + -dependent deacetylase and a metabolic sensor"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "SIRT2 and NLRP3 deacetylation prevent, and can be targeted to reverse, aging-associated inflammation and insulin resistance"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "establish the dysregulation of the acetylation switch of the NLRP3 inflammasome as an origin of aging-associated chronic inflammation and highlight the reversibility of aging-associated chronic inflammation and insulin resistance"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "can be targeted to reverse, aging-associated inflammation and insulin resistance"}
+    ]}
+ ]}

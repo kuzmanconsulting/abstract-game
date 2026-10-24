@@ -1,0 +1,483 @@
+{
+"batch": "check_C_14b",
+"pass": "C",
+"source_batch": "gen_14b",
+"items": [
+{
+"n": 502,
+"id": "doi:10.1101/2023.06.20.23291650",
+"year": 2023,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": "Purpose",
+"text": "To investigate whether circulating-tumor DNA (ctDNA) assessment in patients with muscle-invasive bladder cancer predicts treatment response and provides early detection of metastatic disease."
+},
+{
+"label": "Experimental Design",
+"text": "We present full follow-up results (median follow-up: 68 months) from a previously described cohort of 68 neoadjuvant chemotherapy (NAC)-treated patients who underwent longitudinal ctDNA testing (712 plasma samples). In addition, we performed ctDNA evaluation of 153 plasma samples collected before and after radical cystectomy (RC) in a separate cohort of 102 NAC-naïve patients (median follow-up: 72 months). Total RNA-sequencing of tumors was performed to investigate biological characteristics of ctDNA shedding tumors."
+},
+{
+"label": "Results",
+"text": "Assessment of ctDNA after RC identified metastatic relapse with a sensitivity of 94% and specificity of 98% using the expanded follow-up data for the NAC-treated patients. ctDNA dynamics during NAC was independently associated with patient outcomes when adjusted for pathological downstaging (HR=4.7, p =0.029). For the NAC-naïve patients, ctDNA was a prognostic predictor before (HR=3.4, p =0.0005) and after RC (HR=17.8, p =0.0002). No statistically significant difference in recurrence-free survival for patients without detectable ctDNA at diagnosis was observed between the cohorts. Baseline ctDNA positivity was associated with the Ba/Sq subtype and enrichment of epithelial-to-mesenchymal transition and cell-cycle associated gene sets."
+},
+{
+"label": "Conclusions",
+"text": "ctDNA is prognostic in NAC-treated and NAC-naïve patients with more than five years follow-up and outperforms pathological downstaging in predicting treatment efficacy. Patients without detectable ctDNA at diagnosis may benefit significantly less from NAC, but additional studies are needed."
+}
+],
+"text": "To investigate whether circulating-tumor DNA (ctDNA) assessment in patients with muscle-invasive bladder cancer predicts treatment response and provides early detection of metastatic disease. We present full follow-up results (median follow-up: 68 months) from a previously described cohort of 68 neoadjuvant chemotherapy (NAC)-treated patients who underwent longitudinal ctDNA testing (712 plasma samples). In addition, we performed ctDNA evaluation of 153 plasma samples collected before and after radical cystectomy (RC) in a separate cohort of 102 NAC-naïve patients (median follow-up: 72 months). Total RNA-sequencing of tumors was performed to investigate biological characteristics of ctDNA shedding tumors. Assessment of ctDNA after RC identified metastatic relapse with a sensitivity of 94% and specificity of 98% using the expanded follow-up data for the NAC-treated patients. ctDNA dynamics during NAC was independently associated with patient outcomes when adjusted for pathological downstaging (HR=4.7, p =0.029). For the NAC-naïve patients, ctDNA was a prognostic predictor before (HR=3.4, p =0.0005) and after RC (HR=17.8, p =0.0002). No statistically significant difference in recurrence-free survival for patients without detectable ctDNA at diagnosis was observed between the cohorts. Baseline ctDNA positivity was associated with the Ba/Sq subtype and enrichment of epithelial-to-mesenchymal transition and cell-cycle associated gene sets. ctDNA is prognostic in NAC-treated and NAC-naïve patients with more than five years follow-up and outperforms pathological downstaging in predicting treatment efficacy. Patients without detectable ctDNA at diagnosis may benefit significantly less from NAC, but additional studies are needed.",
+"statements": [
+{
+"j": 1,
+"text": "After radical cystectomy, ctDNA testing detected metastatic relapse in NAC-treated patients with 94% sensitivity and 98% specificity."
+},
+{
+"j": 2,
+"text": "Tumors shedding ctDNA at baseline were enriched for the Ba/Sq subtype and for epithelial-to-mesenchymal transition and cell-cycle gene sets."
+},
+{
+"j": 3,
+"text": "Recurrence-free survival for patients with undetectable ctDNA at diagnosis differed significantly between the NAC-treated and NAC-naïve cohorts."
+},
+{
+"j": 4,
+"text": "Patients with detectable ctDNA at diagnosis who cleared it during NAC had outcomes similar to patients with undetectable ctDNA at diagnosis."
+}
+]
+},
+{
+"n": 503,
+"id": "doi:10.1101/2024.08.04.605361",
+"year": 2024,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "The HOXB13/IL17BR gene expression biomarker has been shown to predict response to adjuvant and extended endocrine therapy in patients with early-stage ER+ HER2- breast tumors. HOXB13 gene expression is the primary determinant driving the prognostic and endocrine treatment-predictive performance of the biomarker. Currently, there is limited data on HOXB13 expression in HER2+ and ER- breast cancers. Herein, we studied the expression of HOXB13 in large cohorts of HER2+ and ER- breast cancers."
+},
+{
+"label": "Methods",
+"text": "We investigated gene expression, genomic copy number, mutational signatures, and clinical outcome data in the TGGA and METABRIC breast cancer cohorts. Genomic-based gene amplification data was validated with tri-colored fluorescence in situ hybridization."
+},
+{
+"label": "Results",
+"text": "In the TCGA breast cancer cohort, HOXB13 gene expression was significantly higher in HER2+ versus HER2- breast cancers, and its expression was also significantly higher in the ER- versus ER+ breast cancers. HOXB13 is frequently co-gained or co-amplified with ERBB2 . Joint copy gains of HOXB13 and ERBB2 occurred with low-level co-gains or high-level co-amplifications (co-amp), the latter of which is associated with an interstitial deletion that includes the tumor suppressor BRCA1 . ERBB2/HOXB13 co-amp tumors with interstitial BRCA1 loss exhibit a mutational signature associated with APOBEC deaminase activity, and copy number signatures associated with chromothripsis and genomic instability. Among ERBB2 -amplified tumors of different tissue origins, ERBB2/HOXB13 co-amp with a BRCA1 loss appeared to be unique to breast cancer. Lastly, patients with ERBB2/HOXB13 co-amplified and BRCA1 lost tumors displayed a significantly shorter progression-free survival (PFS) than those with ERBB2 -only amplifications. The difference in PFS was restricted to the ER- subset patients and this difference in PFS was not solely driven by HOXB13 gene expression."
+},
+{
+"label": "Conclusions",
+"text": "HOXB13 is frequently co-gained with ERBB2 at both low-copy number level or as complex high-level amplification with relative BRCA1 loss. ERBB2/HOXB13 amplified, BRCA1 -lost tumors are strongly enriched in breast cancer, and patients with such breast tumors experience a shortened PFS."
+}
+],
+"text": "The HOXB13/IL17BR gene expression biomarker has been shown to predict response to adjuvant and extended endocrine therapy in patients with early-stage ER+ HER2- breast tumors. HOXB13 gene expression is the primary determinant driving the prognostic and endocrine treatment-predictive performance of the biomarker. Currently, there is limited data on HOXB13 expression in HER2+ and ER- breast cancers. Herein, we studied the expression of HOXB13 in large cohorts of HER2+ and ER- breast cancers. We investigated gene expression, genomic copy number, mutational signatures, and clinical outcome data in the TGGA and METABRIC breast cancer cohorts. Genomic-based gene amplification data was validated with tri-colored fluorescence in situ hybridization. In the TCGA breast cancer cohort, HOXB13 gene expression was significantly higher in HER2+ versus HER2- breast cancers, and its expression was also significantly higher in the ER- versus ER+ breast cancers. HOXB13 is frequently co-gained or co-amplified with ERBB2 . Joint copy gains of HOXB13 and ERBB2 occurred with low-level co-gains or high-level co-amplifications (co-amp), the latter of which is associated with an interstitial deletion that includes the tumor suppressor BRCA1 . ERBB2/HOXB13 co-amp tumors with interstitial BRCA1 loss exhibit a mutational signature associated with APOBEC deaminase activity, and copy number signatures associated with chromothripsis and genomic instability. Among ERBB2 -amplified tumors of different tissue origins, ERBB2/HOXB13 co-amp with a BRCA1 loss appeared to be unique to breast cancer. Lastly, patients with ERBB2/HOXB13 co-amplified and BRCA1 lost tumors displayed a significantly shorter progression-free survival (PFS) than those with ERBB2 -only amplifications. The difference in PFS was restricted to the ER- subset patients and this difference in PFS was not solely driven by HOXB13 gene expression. HOXB13 is frequently co-gained with ERBB2 at both low-copy number level or as complex high-level amplification with relative BRCA1 loss. ERBB2/HOXB13 amplified, BRCA1 -lost tumors are strongly enriched in breast cancer, and patients with such breast tumors experience a shortened PFS.",
+"statements": [
+{
+"j": 1,
+"text": "Patients whose tumors had ERBB2/HOXB13 co-amplification with BRCA1 loss had significantly longer PFS than patients with ERBB2-only amplification."
+},
+{
+"j": 2,
+"text": "Across ERBB2-amplified tumors from different tissues, co-amplification of ERBB2/HOXB13 with BRCA1 loss was found only in breast cancer."
+},
+{
+"j": 3,
+"text": "In TCGA breast tumors, HOXB13 expression was significantly higher in HER2+ than HER2- cancers and in ER- than ER+ cancers."
+},
+{
+"j": 4,
+"text": "Patients with ERBB2/HOXB13 co-amplified, BRCA1-lost breast tumors respond better to PARP inhibitors than patients with ERBB2-only amplification."
+}
+]
+},
+{
+"n": 504,
+"id": "pmid:42656310",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Laryngeal cancer, particularly laryngeal squamous cell carcinoma (LSCC), poses a significant threat to global health, especially within Asian populations. While Rabdosia Rubescens is known for its antitumor properties, the specific bioactive compounds and mechanisms underlying its activity against laryngeal carcinoma remain to be fully elucidated."
+},
+{
+"label": "Methods",
+"text": "This study employed an integrated approach combining network pharmacology, molecular docking, and 500 ns molecular dynamics simulations to screen bioactive compounds from Rabdosia Rubescens . Key therapeutic targets were identified and validated using transcriptomic data from The Cancer Genome Atlas (TCGA). The most promising candidate was subsequently validated in vitro using cytotoxicity assays (TU177 and RK33 cell lines) and wound healing migration assays, alongside MMP9 knockdown models to confirm mechanistic specificity."
+},
+{
+"label": "Results",
+"text": "Network pharmacology identified MMP9 as a critical therapeutic target, which was found to be significantly overexpressed in LSCC tissues. Virtual screening and MD simulations identified Cirsiliol as the most potent inhibitor among the tested phytochemicals, exhibiting a highly favorable binding free energy (ΔG binding = -179.793 kJ/mol) and stable interactions with key residues (ALA189, HIS266, and LEU243). Experimental validation demonstrated that Cirsiliol induced dose-dependent growth inhibition with IC 50 values of 31.59 μM in TU177 cells and 17.73 μM in RK33 cells. Furthermore, the compound significantly suppressed cell migration, mirroring the effects observed in MMP9-knockdown TU177 cells."
+},
+{
+"label": "Conclusion",
+"text": "This study establishes Cirsiliol as a potent, specific inhibitor of MMP9 derived from Rabdosia Rubescens . By effectively targeting the MMP9 pathway, Cirsiliol suppresses tumor invasiveness and migration, highlighting its potential as a promising lead compound for the treatment of laryngeal cancer."
+}
+],
+"text": "Laryngeal cancer, particularly laryngeal squamous cell carcinoma (LSCC), poses a significant threat to global health, especially within Asian populations. While Rabdosia Rubescens is known for its antitumor properties, the specific bioactive compounds and mechanisms underlying its activity against laryngeal carcinoma remain to be fully elucidated. This study employed an integrated approach combining network pharmacology, molecular docking, and 500 ns molecular dynamics simulations to screen bioactive compounds from Rabdosia Rubescens . Key therapeutic targets were identified and validated using transcriptomic data from The Cancer Genome Atlas (TCGA). The most promising candidate was subsequently validated in vitro using cytotoxicity assays (TU177 and RK33 cell lines) and wound healing migration assays, alongside MMP9 knockdown models to confirm mechanistic specificity. Network pharmacology identified MMP9 as a critical therapeutic target, which was found to be significantly overexpressed in LSCC tissues. Virtual screening and MD simulations identified Cirsiliol as the most potent inhibitor among the tested phytochemicals, exhibiting a highly favorable binding free energy (ΔG binding = -179.793 kJ/mol) and stable interactions with key residues (ALA189, HIS266, and LEU243). Experimental validation demonstrated that Cirsiliol induced dose-dependent growth inhibition with IC 50 values of 31.59 μM in TU177 cells and 17.73 μM in RK33 cells. Furthermore, the compound significantly suppressed cell migration, mirroring the effects observed in MMP9-knockdown TU177 cells. This study establishes Cirsiliol as a potent, specific inhibitor of MMP9 derived from Rabdosia Rubescens . By effectively targeting the MMP9 pathway, Cirsiliol suppresses tumor invasiveness and migration, highlighting its potential as a promising lead compound for the treatment of laryngeal cancer.",
+"statements": [
+{
+"j": 1,
+"text": "Cirsiliol significantly reduced cell migration, reproducing the effect seen in MMP9-knockdown TU177 cells."
+},
+{
+"j": 2,
+"text": "Cirsiliol inhibited growth of both laryngeal cancer cell lines dose-dependently, with a lower IC50 in TU177 cells than in RK33 cells."
+},
+{
+"j": 3,
+"text": "Cirsiliol reduced tumor growth in a mouse xenograft model of laryngeal squamous cell carcinoma."
+},
+{
+"j": 4,
+"text": "Among the screened phytochemicals, Cirsiliol showed the most favorable MMP9 binding free energy, -179.793 kJ/mol, with stable contacts to ALA189, HIS266 and LEU243."
+}
+]
+},
+{
+"n": 505,
+"id": "pmid:41460923",
+"year": 2025,
+"field": "te",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "A key pathological feature of Amyotrophic Lateral Sclerosis (ALS) and Frontotemporal Dementia (FTD) is the loss of nuclear localization and accumulation of cytoplasmic inclusions of TAR-DNA binding protein 43 (TDP-43). TDP-43 is a nucleic acid-binding protein involved in transcriptional repression, mRNA splicing, and the regulation of retrotransposable elements (RTEs) and endogenous retroviruses (ERVs). RTEs/ERVs are mobile virus-like genetic elements that constitute about 45% of our genome and encode the capacity to replicate through an RNA intermediate and insert cDNA copies at de novo chromosomal locations. A causal role of RTEs/ERVs has been demonstrated in Drosophila in mediating both intracellular toxicity of TDP-43 and the intercellular spread of toxicity from glia to neurons. RTEs/ERVs are inappropriately expressed in postmortem tissues from ALS, FTD, and Alzheimer's Disease (AD) patients, but the role of RTEs/ERVs has not yet been examined in a vertebrate model of TDP-43 pathology. We utilized established transgenic mouse models that overexpress moderate levels of human wild-type TDP-43 or a mutant version with a specific ALS-causal Q331K amino acid substitution, together with a LINE-1-EGFP retrotransposon indicator line. We found that TDP-43 animals exhibit broad expression of RTEs/ERVs with LINE-1 retrotransposition in glia and neurons in the motor cortex. Expression begins with onset of neurological phenotypes, earlier in hTDP-43-Q331K animals and later in hTDP-43-WT. The LINE-1-EGFP retrotransposition reporter transiently labels spatially clustered groups of neurons and glia at the time of onset of motor symptoms, while EGFP-labeled neurons undergo cell death and are therefore lost over time. Unlabeled cells also die as a function of distance from the clusters of LINE-1-EGFP labeled neurons and glial cells. Together, these findings support the hypothesis that TDP-43 pathology triggers RTE/ERV expression in the motor cortex, that such expression marks cells for programmed cell death, with cell non-autonomous effects on nearby neurons and glial cells."
+}
+],
+"text": "A key pathological feature of Amyotrophic Lateral Sclerosis (ALS) and Frontotemporal Dementia (FTD) is the loss of nuclear localization and accumulation of cytoplasmic inclusions of TAR-DNA binding protein 43 (TDP-43). TDP-43 is a nucleic acid-binding protein involved in transcriptional repression, mRNA splicing, and the regulation of retrotransposable elements (RTEs) and endogenous retroviruses (ERVs). RTEs/ERVs are mobile virus-like genetic elements that constitute about 45% of our genome and encode the capacity to replicate through an RNA intermediate and insert cDNA copies at de novo chromosomal locations. A causal role of RTEs/ERVs has been demonstrated in Drosophila in mediating both intracellular toxicity of TDP-43 and the intercellular spread of toxicity from glia to neurons. RTEs/ERVs are inappropriately expressed in postmortem tissues from ALS, FTD, and Alzheimer's Disease (AD) patients, but the role of RTEs/ERVs has not yet been examined in a vertebrate model of TDP-43 pathology. We utilized established transgenic mouse models that overexpress moderate levels of human wild-type TDP-43 or a mutant version with a specific ALS-causal Q331K amino acid substitution, together with a LINE-1-EGFP retrotransposon indicator line. We found that TDP-43 animals exhibit broad expression of RTEs/ERVs with LINE-1 retrotransposition in glia and neurons in the motor cortex. Expression begins with onset of neurological phenotypes, earlier in hTDP-43-Q331K animals and later in hTDP-43-WT. The LINE-1-EGFP retrotransposition reporter transiently labels spatially clustered groups of neurons and glia at the time of onset of motor symptoms, while EGFP-labeled neurons undergo cell death and are therefore lost over time. Unlabeled cells also die as a function of distance from the clusters of LINE-1-EGFP labeled neurons and glial cells. Together, these findings support the hypothesis that TDP-43 pathology triggers RTE/ERV expression in the motor cortex, that such expression marks cells for programmed cell death, with cell non-autonomous effects on nearby neurons and glial cells.",
+"statements": [
+{
+"j": 1,
+"text": "Unlabeled cells died as a function of their distance from clusters of LINE-1-EGFP-labeled neurons and glia."
+},
+{
+"j": 2,
+"text": "TDP-43 mice showed broad RTE/ERV expression with LINE-1 retrotransposition in glia but not neurons of the motor cortex."
+},
+{
+"j": 3,
+"text": "Blocking reverse transcriptase pharmacologically prolonged the survival of the TDP-43 transgenic mice."
+},
+{
+"j": 4,
+"text": "In the TDP-43 mice, RTE/ERV expression began with the onset of neurological phenotypes, appearing earlier in hTDP-43-Q331K than in hTDP-43-WT animals."
+}
+]
+},
+{
+"n": 506,
+"id": "pmid:39350044",
+"year": 2024,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Gastric cancer (GC), a molecularly heterogeneous disease, is the third leading cause of cancer death worldwide. The majority of GC cases worldwide occur in East Asia, predominantly China. Mutational Signature Framework offers an elegant approach to identify mutational processes present in tumors."
+},
+{
+"label": "Methods",
+"text": "To identify mutational signature patterns, we conducted whole exome sequencing (WES) analysis in Chinese patients with GC. Mutect2 and MutsigCV were used to identify significantly mutated genes in 175 Chinese GC cases using paired tumor-normal tissues. We investigated mutational signatures using Catalogue of Somatic Mutations in Cancer (COSMIC) Version 2 (V2) and Version 3 (V3)."
+},
+{
+"label": "Results",
+"text": "We identified 104 mutated genes with P < 0.01. Seven genes (OR6B1, B2M, ELF3, RHOA, RPL22, TP53, ARIDIA) had q < 0.0001, including six previously associated with GC. Mutational signatures (COSMIC-V3) observed include 14 single base substitutions (SBS), one doublet base substitution (DBS) Signature A, and one InDel (ID2). The most frequent SBS signatures (SBS05, SBS01, SBS15, SBS20, SBS40) were also observed in 254 White GC cases from The Cancer Genome Atlas (TCGA) Project. However, SBS01 and SBS20 showed significant differences between Whites vs. All Asians (19.3% vs. 11.3% for SBS 1 (P = 0.012) and 11.4% vs. 5.9% for SBS20 (P = 0.025), respectively). Using COSMIC V2, signatures 6, 15, and 1 were the most frequent in Chinese GC cases. Further, most Chinese GC cases carried multiple signatures."
+},
+{
+"label": "Conclusions",
+"text": "This effort represents the most detailed mutational signatures analysis of GC cases from China to date. Results hold promise for new insights in understanding risk and prognosis factors in GC."
+}
+],
+"text": "Gastric cancer (GC), a molecularly heterogeneous disease, is the third leading cause of cancer death worldwide. The majority of GC cases worldwide occur in East Asia, predominantly China. Mutational Signature Framework offers an elegant approach to identify mutational processes present in tumors. To identify mutational signature patterns, we conducted whole exome sequencing (WES) analysis in Chinese patients with GC. Mutect2 and MutsigCV were used to identify significantly mutated genes in 175 Chinese GC cases using paired tumor-normal tissues. We investigated mutational signatures using Catalogue of Somatic Mutations in Cancer (COSMIC) Version 2 (V2) and Version 3 (V3). We identified 104 mutated genes with P < 0.01. Seven genes (OR6B1, B2M, ELF3, RHOA, RPL22, TP53, ARIDIA) had q < 0.0001, including six previously associated with GC. Mutational signatures (COSMIC-V3) observed include 14 single base substitutions (SBS), one doublet base substitution (DBS) Signature A, and one InDel (ID2). The most frequent SBS signatures (SBS05, SBS01, SBS15, SBS20, SBS40) were also observed in 254 White GC cases from The Cancer Genome Atlas (TCGA) Project. However, SBS01 and SBS20 showed significant differences between Whites vs. All Asians (19.3% vs. 11.3% for SBS 1 (P = 0.012) and 11.4% vs. 5.9% for SBS20 (P = 0.025), respectively). Using COSMIC V2, signatures 6, 15, and 1 were the most frequent in Chinese GC cases. Further, most Chinese GC cases carried multiple signatures. This effort represents the most detailed mutational signatures analysis of GC cases from China to date. Results hold promise for new insights in understanding risk and prognosis factors in GC.",
+"statements": [
+{
+"j": 1,
+"text": "Gastric cancer patients whose tumors carried SBS20 had worse survival than those whose tumors lacked it."
+},
+{
+"j": 2,
+"text": "The commonest SBS signatures in the Chinese cases (SBS05, SBS01, SBS15, SBS20, SBS40) were also present in 254 White gastric cancer cases from TCGA."
+},
+{
+"j": 3,
+"text": "Whole exome sequencing of 175 Chinese gastric cancer cases identified 104 mutated genes at P < 0.01, seven of which reached q < 0.0001."
+},
+{
+"j": 4,
+"text": "SBS01 was significantly more frequent in Asian than in White gastric cancer cases (19.3% vs. 11.3%, P = 0.012)."
+}
+]
+},
+{
+"n": 507,
+"id": "doi:10.1101/2025.10.30.685685",
+"year": 2025,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "Somatic mutations are increasingly recognised as drivers of diseases beyond cancer, including autoimmune disorders. However, identifying rare, cell type-specific causal mutations remains challenging due to their low frequency within heterogeneous cell populations. Traditional bulk sequencing approaches lack the resolution to detect rare variants, underscoring the need for novel methods specifically designed for single-cell data of heterogeneous cell populations."
+},
+{
+"label": "Methods",
+"text": "We present an integrated single-cell multi-omics computational framework, SCARCE ( S ingle- C ell A nalysis of R are C lonal E vents), tailored for single-cell DNA sequencing (scDNA-seq) to statistically prioritise rare somatic mutations within defined cell subpopulations. By comparing variant frequencies across subpopulations, identified through either variant-based clustering or cell type annotation from surface marker expression, we identify variants enriched in specific cell populations. Our method applies multiple user-adjustable filters and statistical enrichment tests to distinguish true somatic variants from technical artifacts."
+},
+{
+"label": "Results",
+"text": "SCARCE successfully identifies rare somatic mutations across three distinct datasets using technologies including MissionBio Tapestri and clonally-amplified whole-genome sequencing of single cells. We demonstrate that SCARCE correctly isolates and identifies true variants in a cell population comprising just 10 of 16,316 cells (0.06% of the total population). Furthermore, in an extensively characterised sample with known causal variants, SCARCE correctly identifies all known pathogenic variants among its top-ranked candidates."
+},
+{
+"label": "Conclusions",
+"text": "SCARCE offers several advantages over existing tools in the field. By integrating genetic and phenotypic information at single-cell resolution, our approach opens new avenues for understanding the clonal origins of diseases driven by somatic mutations in small cell populations."
+}
+],
+"text": "Somatic mutations are increasingly recognised as drivers of diseases beyond cancer, including autoimmune disorders. However, identifying rare, cell type-specific causal mutations remains challenging due to their low frequency within heterogeneous cell populations. Traditional bulk sequencing approaches lack the resolution to detect rare variants, underscoring the need for novel methods specifically designed for single-cell data of heterogeneous cell populations. We present an integrated single-cell multi-omics computational framework, SCARCE ( S ingle- C ell A nalysis of R are C lonal E vents), tailored for single-cell DNA sequencing (scDNA-seq) to statistically prioritise rare somatic mutations within defined cell subpopulations. By comparing variant frequencies across subpopulations, identified through either variant-based clustering or cell type annotation from surface marker expression, we identify variants enriched in specific cell populations. Our method applies multiple user-adjustable filters and statistical enrichment tests to distinguish true somatic variants from technical artifacts. SCARCE successfully identifies rare somatic mutations across three distinct datasets using technologies including MissionBio Tapestri and clonally-amplified whole-genome sequencing of single cells. We demonstrate that SCARCE correctly isolates and identifies true variants in a cell population comprising just 10 of 16,316 cells (0.06% of the total population). Furthermore, in an extensively characterised sample with known causal variants, SCARCE correctly identifies all known pathogenic variants among its top-ranked candidates. SCARCE offers several advantages over existing tools in the field. By integrating genetic and phenotypic information at single-cell resolution, our approach opens new avenues for understanding the clonal origins of diseases driven by somatic mutations in small cell populations.",
+"statements": [
+{
+"j": 1,
+"text": "SCARCE identified a causal somatic mutation in cells from a patient with an autoimmune disease."
+},
+{
+"j": 2,
+"text": "SCARCE recovered rare somatic mutations in three separate datasets, including MissionBio Tapestri data and clonally amplified single-cell whole-genome sequencing."
+},
+{
+"j": 3,
+"text": "In an extensively characterized sample with known causal variants, SCARCE placed none of the known pathogenic variants among its top-ranked candidates."
+},
+{
+"j": 4,
+"text": "SCARCE correctly identified true variants in a subpopulation of only 10 of 16,316 cells, 0.06% of all cells analyzed."
+}
+]
+},
+{
+"n": 508,
+"id": "pmid:42866107",
+"year": 2026,
+"field": "cancergen",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Survival in metastatic castration-resistant prostate cancer (mCRPC) is heterogeneous, and current prognostic models rely on clinical and non-tumor-specific laboratory variables. Plasma copy number alterations (CNAs) provide a blood-based measure of tumor biology for integrated clinico-genomic survival prediction in mCRPC."
+},
+{
+"label": "Methods",
+"text": "Plasma CNAs with prognostic significance were combined into a composite genomic prognostic score (CGPS) which was validated across three independent mCRPC cohorts (n = 561) for seven CNAs with gain/amplification in AR, MYC, and PIK3CA and loss/deletion in NKX3.1, TMPRSS2, TP53, ZBTB16. Multivariable Cox models with contemporary clinical prognostic factors alone, CGPS alone, and an integrated clinico-genomic model were built to estimate 24 and 36-month survivals. Model performances were assessed using the area under the curve (AUC) and freely accessible web-based applications were developed."
+},
+{
+"label": "Results",
+"text": "CGPS estimates across independent mCRPC cohorts showed high concordance with Pearson correlation coefficients of 0.86-0.97 for cross cohort comparisons. Time-dependent AUC values for the integrated clinico-genomic model at 24 and 36 months were 0.79 and 0.77, respectively, compared with 0.65 and 0.71 for using contemporary clinical factors alone and 0.74 and 0.69 for using CGPS alone. C-index was 0.73 for the integrated model compared with 0.70 for CGPS alone and 0.63 for clinical factors alone. The web application incorporates PSA, ALP, LDH, and CGPS and returns individualized survival probability estimates at 24 and 36 months."
+},
+{
+"label": "Conclusion",
+"text": "An integrated blood-based clinico-genomic prognostic model deployed as an open-access web application enables individualized survival estimation in mCRPC. This interactive tool could support prospective plasma CNA-based risk stratification in mCRPC."
+}
+],
+"text": "Survival in metastatic castration-resistant prostate cancer (mCRPC) is heterogeneous, and current prognostic models rely on clinical and non-tumor-specific laboratory variables. Plasma copy number alterations (CNAs) provide a blood-based measure of tumor biology for integrated clinico-genomic survival prediction in mCRPC. Plasma CNAs with prognostic significance were combined into a composite genomic prognostic score (CGPS) which was validated across three independent mCRPC cohorts (n = 561) for seven CNAs with gain/amplification in AR, MYC, and PIK3CA and loss/deletion in NKX3.1, TMPRSS2, TP53, ZBTB16. Multivariable Cox models with contemporary clinical prognostic factors alone, CGPS alone, and an integrated clinico-genomic model were built to estimate 24 and 36-month survivals. Model performances were assessed using the area under the curve (AUC) and freely accessible web-based applications were developed. CGPS estimates across independent mCRPC cohorts showed high concordance with Pearson correlation coefficients of 0.86-0.97 for cross cohort comparisons. Time-dependent AUC values for the integrated clinico-genomic model at 24 and 36 months were 0.79 and 0.77, respectively, compared with 0.65 and 0.71 for using contemporary clinical factors alone and 0.74 and 0.69 for using CGPS alone. C-index was 0.73 for the integrated model compared with 0.70 for CGPS alone and 0.63 for clinical factors alone. The web application incorporates PSA, ALP, LDH, and CGPS and returns individualized survival probability estimates at 24 and 36 months. An integrated blood-based clinico-genomic prognostic model deployed as an open-access web application enables individualized survival estimation in mCRPC. This interactive tool could support prospective plasma CNA-based risk stratification in mCRPC.",
+"statements": [
+{
+"j": 1,
+"text": "The integrated clinico-genomic model reached time-dependent AUCs of 0.79 at 24 months and 0.77 at 36 months, versus 0.65 and 0.71 for clinical factors alone."
+},
+{
+"j": 2,
+"text": "Patients with a high CGPS gained more benefit from taxane chemotherapy than from androgen receptor pathway inhibitors."
+},
+{
+"j": 3,
+"text": "CGPS estimates agreed closely across the independent cohorts, with Pearson correlation coefficients between 0.86 and 0.97."
+},
+{
+"j": 4,
+"text": "The integrated clinico-genomic model had a lower C-index than either CGPS alone or clinical factors alone."
+}
+]
+},
+{
+"n": 509,
+"id": "pmid:42722442",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The PRINCE trial showed the clinical activity for 177 Lu-PSMA-617 in combination with pembrolizumab for metastatic castration-resistant prostate cancer. To refine patient selection and improve response monitoring strategies to this combination, we investigated candidate tumor-intrinsic biomarkers of treatment response and resistance. Methods: We performed circulating tumor DNA (ctDNA), circulating tumor cell (CTC), and PET imaging analyses at baseline, 12 wk on-treatment, and disease progression in participants enrolled in PRINCE ( n = 37). We performed targeted sequencing for ctDNA quantification and genomic analysis of more than 70 prostate cancer genes. CTC enumeration was performed on the EpicSciences platform and was combined with selective single-cell whole-genome sequencing. PET imaging included serial PSMA PET as well as 18 F-FDG PET imaging at baseline. Results: A low baseline ctDNA fraction and high PSMA avidity in metastatic lesions were linked to superior treatment responses and may have composite biomarker value. Genomic alterations in tumor suppressor genes TP53, RB1, or PTEN were associated with higher 18 F-FDG avidity and metabolic tumor volume on 18 F-FDG PET imaging and worse prognosis. At 12-wk on-treatment, both ctDNA detection and PSMA PET imaging were strong indicators of response depth and durability. At disease progression, PSMA expression on PET imaging was lower compared with baseline and supported by subclonal remodeling of ctDNA and CTC copy number profiles and by clonal expansions of tumor suppressor gene mutations. Conclusion: We provide the first integrated molecular and imaging insights into determinants of response and resistance to combined radiopharmaceutical therapy and immunotherapy in prostate cancer and propose biomarker strategies to inform future clinical development."
+}
+],
+"text": "The PRINCE trial showed the clinical activity for 177 Lu-PSMA-617 in combination with pembrolizumab for metastatic castration-resistant prostate cancer. To refine patient selection and improve response monitoring strategies to this combination, we investigated candidate tumor-intrinsic biomarkers of treatment response and resistance. Methods: We performed circulating tumor DNA (ctDNA), circulating tumor cell (CTC), and PET imaging analyses at baseline, 12 wk on-treatment, and disease progression in participants enrolled in PRINCE ( n = 37). We performed targeted sequencing for ctDNA quantification and genomic analysis of more than 70 prostate cancer genes. CTC enumeration was performed on the EpicSciences platform and was combined with selective single-cell whole-genome sequencing. PET imaging included serial PSMA PET as well as 18 F-FDG PET imaging at baseline. Results: A low baseline ctDNA fraction and high PSMA avidity in metastatic lesions were linked to superior treatment responses and may have composite biomarker value. Genomic alterations in tumor suppressor genes TP53, RB1, or PTEN were associated with higher 18 F-FDG avidity and metabolic tumor volume on 18 F-FDG PET imaging and worse prognosis. At 12-wk on-treatment, both ctDNA detection and PSMA PET imaging were strong indicators of response depth and durability. At disease progression, PSMA expression on PET imaging was lower compared with baseline and supported by subclonal remodeling of ctDNA and CTC copy number profiles and by clonal expansions of tumor suppressor gene mutations. Conclusion: We provide the first integrated molecular and imaging insights into determinants of response and resistance to combined radiopharmaceutical therapy and immunotherapy in prostate cancer and propose biomarker strategies to inform future clinical development.",
+"statements": [
+{
+"j": 1,
+"text": "High baseline ctDNA fraction and high PSMA avidity in metastatic lesions were linked to superior treatment responses."
+},
+{
+"j": 2,
+"text": "Alterations in TP53, RB1 or PTEN were associated with higher 18F-FDG avidity, larger metabolic tumor volume and worse prognosis."
+},
+{
+"j": 3,
+"text": "The combination produced deeper responses than 177Lu-PSMA-617 given without pembrolizumab."
+},
+{
+"j": 4,
+"text": "At 12 weeks on treatment, both ctDNA detection and PSMA PET imaging were strong indicators of response depth and durability."
+}
+]
+},
+{
+"n": 510,
+"id": "pmid:41741796",
+"year": 2026,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "Recent studies have demonstrated that the plasma level of circulating tumor DNA (ctDNA) has emerged as a highly effective, minimally invasive biomarker in patients with lung cancer. This study aimed to perform bibliometric analysis to systematically evaluate the development trends of ctDNA in lung cancer for future research."
+},
+{
+"label": "Methods",
+"text": "All articles on the role of ctDNA for detecting lung cancer from January 1, 2012, to December 31, 2022, were retrieved from the Web of Science (WoS) Core Collection database. Data analyses were performed using the R package Bibliometrix, VOS viewer 1.6.18, and online analysis in WoS."
+},
+{
+"label": "Results",
+"text": "A total of 1122 publications were retrieved: 807 primary articles and 315 review articles. The annual publication volume exhibited a significant upward trajectory, with a Compound Annual Growth Rate (CAGR) of 48.3%. China had the highest article output (379 papers), whereas the citation rate of papers from the United States was the highest (20,239 citations). The journal \"Cancers\" had the highest number of publications. Wang J was the most prolific author (35 papers), whereas Diehn M was the most cited author (4460 citations). The five most frequent keywords were \"lung cancer\" (n = 237), \"plasma\" (n = 227), \"acquired-resistance\" (n = 207), \"circulating tumor DNA\" (n = 177), and \"gefitinib\" (n = 151)."
+},
+{
+"label": "Conclusion",
+"text": "This study provides a comprehensive quantitative synthesis of the ctDNA landscape in lung cancer over the past decade. By identifying key research hotspots and evolutionary trends, our findings offer valuable insights for clinicians and researchers, highlighting the transition of ctDNA from experimental validation to critical translational applications in precision oncology."
+}
+],
+"text": "Recent studies have demonstrated that the plasma level of circulating tumor DNA (ctDNA) has emerged as a highly effective, minimally invasive biomarker in patients with lung cancer. This study aimed to perform bibliometric analysis to systematically evaluate the development trends of ctDNA in lung cancer for future research. All articles on the role of ctDNA for detecting lung cancer from January 1, 2012, to December 31, 2022, were retrieved from the Web of Science (WoS) Core Collection database. Data analyses were performed using the R package Bibliometrix, VOS viewer 1.6.18, and online analysis in WoS. A total of 1122 publications were retrieved: 807 primary articles and 315 review articles. The annual publication volume exhibited a significant upward trajectory, with a Compound Annual Growth Rate (CAGR) of 48.3%. China had the highest article output (379 papers), whereas the citation rate of papers from the United States was the highest (20,239 citations). The journal \"Cancers\" had the highest number of publications. Wang J was the most prolific author (35 papers), whereas Diehn M was the most cited author (4460 citations). The five most frequent keywords were \"lung cancer\" (n = 237), \"plasma\" (n = 227), \"acquired-resistance\" (n = 207), \"circulating tumor DNA\" (n = 177), and \"gefitinib\" (n = 151). This study provides a comprehensive quantitative synthesis of the ctDNA landscape in lung cancer over the past decade. By identifying key research hotspots and evolutionary trends, our findings offer valuable insights for clinicians and researchers, highlighting the transition of ctDNA from experimental validation to critical translational applications in precision oncology.",
+"statements": [
+{
+"j": 1,
+"text": "Annual publication volume rose significantly over 2012-2022, with a compound annual growth rate of 4.8%."
+},
+{
+"j": 2,
+"text": "Review articles accumulated more citations on average than primary research articles."
+},
+{
+"j": 3,
+"text": "Of 1122 retrieved publications, 807 were primary articles and 315 were review articles."
+},
+{
+"j": 4,
+"text": "China produced the most papers (379), but papers from the United States gathered the most citations (20,239)."
+}
+]
+},
+{
+"n": 511,
+"id": "doi:10.1101/2023.10.13.23296758",
+"year": 2023,
+"field": "cfdna",
+"source": "preprint",
+"sections": [
+{
+"label": "Background",
+"text": "Currently, no biomarkers are available to identify resistance to androgen-deprivation therapies (ADT) in men with hormone-naive prostate cancer. Since 5-hydroxymethylcytosines (5hmC) in gene body are associated with gene activation, in this study, we evaluated whether 5hmC signatures in cell-free DNA (cfDNA) predicts early resistance to ADT."
+},
+{
+"label": "Results",
+"text": "We collected a total of 139 serial plasma samples from 55 prostate cancer patients receiving ADT at three time points including baseline (prior to initiating ADT, N=55), 3-month (after initiating ADT, N=55), and disease progression (N=15) within 24 months or 24-month if no progression was detected (N=14). To quantify 5hmC abundance across the genome, we used selective chemical labeling sequencing and mapped sequence reads to individual genes. Differential methylation analysis in baseline samples identified significant 5hmC difference in 1,642 of 23,433 genes between patients with and without progression (false discovery rate, FDR<0.1). Patients with disease progression showed significant 5hmC enrichments in multiple hallmark gene sets with androgen responses as top enriched gene set (FDR=1.19E-13). Interestingly, this enrichment was driven by a subgroup of patients featuring a significant 5hmC hypermethylation in the gene sets involving AR , FOXA1 and GRHL2 . To quantify overall activities of these gene sets, we developed a gene set activity scoring algorithm and observed significant association of high activity scores with poor progression-free survival (P<0.05). Longitudinal analysis showed that the high activity scores were significantly reduced after 3-months of initiating ADT (P<0.0001) but returned to higher levels when the disease was progressed (P<0.05)."
+},
+{
+"label": "Conclusions",
+"text": "This study demonstrates that 5hmC-based activity scores from gene sets involved in AR , FOXA1 and GRHL2 may be used as biomarkers to determine early treatment resistance, monitor disease progression, and potentially identify patients who would benefit from upfront treatment intensification."
+}
+],
+"text": "Currently, no biomarkers are available to identify resistance to androgen-deprivation therapies (ADT) in men with hormone-naive prostate cancer. Since 5-hydroxymethylcytosines (5hmC) in gene body are associated with gene activation, in this study, we evaluated whether 5hmC signatures in cell-free DNA (cfDNA) predicts early resistance to ADT. We collected a total of 139 serial plasma samples from 55 prostate cancer patients receiving ADT at three time points including baseline (prior to initiating ADT, N=55), 3-month (after initiating ADT, N=55), and disease progression (N=15) within 24 months or 24-month if no progression was detected (N=14). To quantify 5hmC abundance across the genome, we used selective chemical labeling sequencing and mapped sequence reads to individual genes. Differential methylation analysis in baseline samples identified significant 5hmC difference in 1,642 of 23,433 genes between patients with and without progression (false discovery rate, FDR<0.1). Patients with disease progression showed significant 5hmC enrichments in multiple hallmark gene sets with androgen responses as top enriched gene set (FDR=1.19E-13). Interestingly, this enrichment was driven by a subgroup of patients featuring a significant 5hmC hypermethylation in the gene sets involving AR , FOXA1 and GRHL2 . To quantify overall activities of these gene sets, we developed a gene set activity scoring algorithm and observed significant association of high activity scores with poor progression-free survival (P<0.05). Longitudinal analysis showed that the high activity scores were significantly reduced after 3-months of initiating ADT (P<0.0001) but returned to higher levels when the disease was progressed (P<0.05). This study demonstrates that 5hmC-based activity scores from gene sets involved in AR , FOXA1 and GRHL2 may be used as biomarkers to determine early treatment resistance, monitor disease progression, and potentially identify patients who would benefit from upfront treatment intensification.",
+"statements": [
+{
+"j": 1,
+"text": "High activity scores for the AR, FOXA1 and GRHL2 gene sets were significantly associated with better progression-free survival (P<0.05)."
+},
+{
+"j": 2,
+"text": "Adding an androgen receptor pathway inhibitor to ADT reversed the 5hmC hypermethylation of androgen-response gene sets."
+},
+{
+"j": 3,
+"text": "Gene set activity scores fell significantly after 3 months of ADT (P<0.0001) and rose again at disease progression (P<0.05)."
+},
+{
+"j": 4,
+"text": "At baseline, 1,642 of 23,433 genes showed significant 5hmC differences between patients who did and did not progress (FDR<0.1)."
+}
+]
+},
+{
+"n": 512,
+"id": "doi:10.64898/2026.10.19.760246",
+"year": 2026,
+"field": "cancergen",
+"source": "preprint",
+"sections": [
+{
+"label": null,
+"text": "Transcription factor (TF) binding can contribute to mutagenesis by altering DNA damage formation or interfering with DNA repair. Although these effects have been characterized for selected TFs and mutagenic processes, their prevalence across TFs and cancer types remains poorly understood. A systematic characterization of mutation enrichment at TF binding sites is needed to guide mechanistic studies and improve the interpretation of noncoding mutations in cancer. Here, we analyzed somatic mutations from over 4,000 tumors across 15 tissue types to generate a pan-cancer catalog of mutation patterns at binding sites for 655 TFs, organized into 276 motif clusters. We assessed mutation enrichment at single-nucleotide resolution, accounting for sequence-dependent and local variation in background mutation rates. Nearly one third of pairs with sufficient mutation counts showed significant enrichment at one or more binding site positions. Enrichment was most widespread in melanoma but was detected in all 15 tissue types, with the affected TFs and binding site positions varying across tissues. Highly expressed TFs were more likely to show enrichment than lowly expressed TFs, consistent with a role for TF binding in increased mutagenesis at the binding sites. Mutational signature analysis implicated processes beyond UV damage, including age-associated processes, deamination lesions, oxidative damage, and tobacco exposure, as potentially contributing to TF-induced mutagenesis. Together, these findings suggest that diverse interactions between TF binding, DNA damage, and DNA repair may contribute to mutation enrichment in regulatory DNA. Our pan-cancer catalog reveals position-specific enrichment of somatic mutations at TF binding sites across all 15 tissue types analyzed. By identifying specific TFs and binding site positions enriched for somatic mutations, together with potential mutagenic processes acting at these positions, our study provides a roadmap for experimental assessment of TF-induced mutagenesis and informs the interpretation and prioritization of non-coding mutations in cancer."
+}
+],
+"text": "Transcription factor (TF) binding can contribute to mutagenesis by altering DNA damage formation or interfering with DNA repair. Although these effects have been characterized for selected TFs and mutagenic processes, their prevalence across TFs and cancer types remains poorly understood. A systematic characterization of mutation enrichment at TF binding sites is needed to guide mechanistic studies and improve the interpretation of noncoding mutations in cancer. Here, we analyzed somatic mutations from over 4,000 tumors across 15 tissue types to generate a pan-cancer catalog of mutation patterns at binding sites for 655 TFs, organized into 276 motif clusters. We assessed mutation enrichment at single-nucleotide resolution, accounting for sequence-dependent and local variation in background mutation rates. Nearly one third of pairs with sufficient mutation counts showed significant enrichment at one or more binding site positions. Enrichment was most widespread in melanoma but was detected in all 15 tissue types, with the affected TFs and binding site positions varying across tissues. Highly expressed TFs were more likely to show enrichment than lowly expressed TFs, consistent with a role for TF binding in increased mutagenesis at the binding sites. Mutational signature analysis implicated processes beyond UV damage, including age-associated processes, deamination lesions, oxidative damage, and tobacco exposure, as potentially contributing to TF-induced mutagenesis. Together, these findings suggest that diverse interactions between TF binding, DNA damage, and DNA repair may contribute to mutation enrichment in regulatory DNA. Our pan-cancer catalog reveals position-specific enrichment of somatic mutations at TF binding sites across all 15 tissue types analyzed. By identifying specific TFs and binding site positions enriched for somatic mutations, together with potential mutagenic processes acting at these positions, our study provides a roadmap for experimental assessment of TF-induced mutagenesis and informs the interpretation and prioritization of non-coding mutations in cancer.",
+"statements": [
+{
+"j": 1,
+"text": "Nearly a third of TF-tissue pairs with enough mutations showed significant mutation enrichment at one or more binding-site positions."
+},
+{
+"j": 2,
+"text": "Highly expressed TFs were less likely than lowly expressed TFs to show mutation enrichment at their binding sites."
+},
+{
+"j": 3,
+"text": "Mutation enrichment at TF binding sites was most widespread in melanoma but was found in every one of the 15 tissue types."
+},
+{
+"j": 4,
+"text": "Mutations enriched at TF binding sites changed the expression of the genes those TFs regulate."
+}
+]
+},
+{
+"n": 513,
+"id": "pmid:39518990",
+"year": 2024,
+"field": "cfdna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Circulating tumor DNA (ctDNA) is a promising cancer biomarker, but accurately detecting tumor mutations in cell-free DNA (cfDNA) is challenging due to their low frequency and sequencing errors. Our study benchmarked Mutect2, VarScan2, shearwater, and DREAMS-vc using deep targeted sequencing of cfDNA with Unique Molecular Identifiers (UMIs) from 111 colorectal cancer patients. Performance was assessed at both the mutation level (distinguish tumor variants from errors) and the sample level (detect if an individual has cancer). Additionally, we investigated the effects of various UMI grouping and consensus strategies. The shearwater-AND variant calling method demonstrated the highest precision in detecting tumor-derived mutations from plasma, and reached the highest ROC-AUC of 0.984 for sample classification in tumor-informed cfDNA analyses. DREAMS-vc exhibited the highest ROC-AUC of 0.808 for sample classification in tumor-agnostic studies. We also found that sequencing depth differences in PBMCs could lead to false positives, particularly with VarScan2 and Mutect2, which was addressed by downsampling to equivalent mean depths. Additionally, network-based UMI grouping methods outperformed those using identical UMIs when all reads were retained. Our findings emphasize that the optimal variant caller depends on the study context-whether focused on mutation or sample classification, and whether conducted under tumor-informed or tumor-agnostic conditions."
+}
+],
+"text": "Circulating tumor DNA (ctDNA) is a promising cancer biomarker, but accurately detecting tumor mutations in cell-free DNA (cfDNA) is challenging due to their low frequency and sequencing errors. Our study benchmarked Mutect2, VarScan2, shearwater, and DREAMS-vc using deep targeted sequencing of cfDNA with Unique Molecular Identifiers (UMIs) from 111 colorectal cancer patients. Performance was assessed at both the mutation level (distinguish tumor variants from errors) and the sample level (detect if an individual has cancer). Additionally, we investigated the effects of various UMI grouping and consensus strategies. The shearwater-AND variant calling method demonstrated the highest precision in detecting tumor-derived mutations from plasma, and reached the highest ROC-AUC of 0.984 for sample classification in tumor-informed cfDNA analyses. DREAMS-vc exhibited the highest ROC-AUC of 0.808 for sample classification in tumor-agnostic studies. We also found that sequencing depth differences in PBMCs could lead to false positives, particularly with VarScan2 and Mutect2, which was addressed by downsampling to equivalent mean depths. Additionally, network-based UMI grouping methods outperformed those using identical UMIs when all reads were retained. Our findings emphasize that the optimal variant caller depends on the study context-whether focused on mutation or sample classification, and whether conducted under tumor-informed or tumor-agnostic conditions.",
+"statements": [
+{
+"j": 1,
+"text": "In tumor-agnostic analyses, VarScan2 had the best sample classification performance, with a ROC-AUC of 0.808."
+},
+{
+"j": 2,
+"text": "shearwater-AND detected ctDNA in most patients with stage I colorectal cancer."
+},
+{
+"j": 3,
+"text": "Differences in PBMC sequencing depth produced false positives, especially with VarScan2 and Mutect2, which downsampling to equal mean depth resolved."
+},
+{
+"j": 4,
+"text": "shearwater-AND gave the highest precision for tumor-derived mutations and a ROC-AUC of 0.984 for sample classification in tumor-informed analyses."
+}
+]
+}
+]
+}

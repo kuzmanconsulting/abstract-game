@@ -1,0 +1,554 @@
+{
+ "built_utc": "2026-10-24T12:51:57Z",
+ "candidates": "src/candidates_infl_landmark.json",
+ "per_field": 60,
+ "sample_seed": null,
+ "dropped": {
+  "off_field": 189,
+  "tool_title": 5
+ },
+ "fields": {
+  "inflammaging": [
+   {
+    "rank": 1,
+    "id": "pmid:20428172",
+    "cited_by": 3291,
+    "year": 2010,
+    "journal": "Nature",
+    "title": "NLRP3 inflammasomes are required for atherogenesis and activated by cholesterol crystals",
+    "abstract_start": "The inflammatory nature of atherosclerosis is well established but the agent(s) that incite inflammation in the artery wall remain largely unknown. Germ-free animals are susceptible to atherosclerosis, suggesting that endogenous substances initiate the inflammation. Mature atherosclerotic lesions contain macroscopic deposits of cholesterol crystals in the necrotic core, but their appearance late i"
+   },
+   {
+    "rank": 2,
+    "id": "pmid:23254930",
+    "cited_by": 2435,
+    "year": 2013,
+    "journal": "Nature",
+    "title": "NLRP3 is activated in Alzheimer's disease and contributes to pathology in APP/PS1 mice",
+    "abstract_start": "Alzheimer's disease is the world's most common dementing illness. Deposition of amyloid-β peptide drives cerebral neuroinflammation by activating microglia. Indeed, amyloid-β activation of the NLRP3 inflammasome in microglia is fundamental for interleukin-1β maturation and subsequent inflammatory events. However, it remains unknown whether NLRP3 activation contributes to Alzheimer's disease in viv"
+   },
+   {
+    "rank": 3,
+    "id": "pmid:21217695",
+    "cited_by": 2202,
+    "year": 2011,
+    "journal": "Nature medicine",
+    "title": "The NLRP3 inflammasome instigates obesity-induced inflammation and insulin resistance",
+    "abstract_start": "The emergence of chronic inflammation during obesity in the absence of overt infection or well-defined autoimmune processes is a puzzling phenomenon. The Nod-like receptor (NLR) family of innate immune cell sensors, such as the nucleotide-binding domain, leucine-rich-containing family, pyrin domain-containing-3 (Nlrp3, but also known as Nalp3 or cryopyrin) inflammasome are implicated in recognizin"
+   },
+   {
+    "rank": 4,
+    "id": "pmid:14608368",
+    "cited_by": 2140,
+    "year": 2003,
+    "journal": "Nature",
+    "title": "A DNA damage checkpoint response in telomere-initiated senescence",
+    "abstract_start": "Most human somatic cells can undergo only a limited number of population doublings in vitro. This exhaustion of proliferative potential, called senescence, can be triggered when telomeres--the ends of linear chromosomes-cannot fulfil their normal protective functions. Here we show that senescent human fibroblasts display molecular markers characteristic of cells bearing DNA double-strand breaks. T"
+   },
+   {
+    "rank": 5,
+    "id": "pmid:22342844",
+    "cited_by": 1967,
+    "year": 2012,
+    "journal": "Immunity",
+    "title": "Oxidized mitochondrial DNA activates the NLRP3 inflammasome during apoptosis",
+    "abstract_start": "We report that in the presence of signal 1 (NF-κB), the NLRP3 inflammasome was activated by mitochondrial apoptotic signaling that licensed production of interleukin-1β (IL-1β). NLRP3 secondary signal activators such as ATP induced mitochondrial dysfunction and apoptosis, resulting in release of oxidized mitochondrial DNA (mtDNA) into the cytosol, where it bound to and activated the NLRP3 inflamma"
+   },
+   {
+    "rank": 6,
+    "id": "pmid:21565393",
+    "cited_by": 1620,
+    "year": 2011,
+    "journal": "Cell",
+    "title": "NLRP6 inflammasome regulates colonic microbial ecology and risk for colitis",
+    "abstract_start": "Inflammasomes are multiprotein complexes that function as sensors of endogenous or exogenous damage-associated molecular patterns. Here, we show that deficiency of NLRP6 in mouse colonic epithelial cells results in reduced IL-18 levels and altered fecal microbiota characterized by expanded representation of the bacterial phyla Bacteroidetes (Prevotellaceae) and TM7. NLRP6 inflammasome-deficient mi"
+   },
+   {
+    "rank": 7,
+    "id": "pmid:26657143",
+    "cited_by": 1546,
+    "year": 2016,
+    "journal": "Nature medicine",
+    "title": "Clearance of senescent cells by ABT263 rejuvenates aged hematopoietic stem cells in mice",
+    "abstract_start": "Senescent cells (SCs) accumulate with age and after genotoxic stress, such as total-body irradiation (TBI). Clearance of SCs in a progeroid mouse model using a transgenic approach delays several age-associated disorders, suggesting that SCs play a causative role in certain age-related pathologies. Thus, a 'senolytic' pharmacological agent that can selectively kill SCs holds promise for rejuvenatin"
+   },
+   {
+    "rank": 8,
+    "id": "pmid:17136094",
+    "cited_by": 1466,
+    "year": 2006,
+    "journal": "Nature",
+    "title": "Oncogene-induced senescence is a DNA damage response triggered by DNA hyper-replication",
+    "abstract_start": "Early tumorigenesis is associated with the engagement of the DNA-damage checkpoint response (DDR). Cell proliferation and transformation induced by oncogene activation are restrained by cellular senescence. It is unclear whether DDR activation and oncogene-induced senescence (OIS) are causally linked. Here we show that senescence, triggered by the expression of an activated oncogene (H-RasV12) in "
+   },
+   {
+    "rank": 9,
+    "id": "pmid:18555777",
+    "cited_by": 1455,
+    "year": 2008,
+    "journal": "Cell",
+    "title": "Chemokine signaling via the CXCR2 receptor reinforces senescence",
+    "abstract_start": "Cells enter senescence, a state of stable proliferative arrest, in response to a variety of cellular stresses, including telomere erosion, DNA damage, and oncogenic signaling, which acts as a barrier against malignant transformation in vivo. To identify genes controlling senescence, we conducted an unbiased screen for small hairpin RNAs that extend the life span of primary human fibroblasts. Here,"
+   },
+   {
+    "rank": 10,
+    "id": "pmid:22286270",
+    "cited_by": 1169,
+    "year": 2012,
+    "journal": "Nature immunology",
+    "title": "Activation of autophagy by inflammatory signals limits IL-1β production by targeting ubiquitinated inflammasomes for destruction",
+    "abstract_start": "Autophagosomes delivers cytoplasmic constituents to lysosomes for degradation, whereas inflammasomes are molecular platforms activated by infection or stress that regulate the activity of caspase-1 and the maturation of interleukin 1β (IL-1β) and IL-18. Here we show that the induction of AIM2 or NLRP3 inflammasomes in macrophages triggered activation of the G protein RalB and autophagosome formati"
+   },
+   {
+    "rank": 11,
+    "id": "pmid:18496530",
+    "cited_by": 1140,
+    "year": 2008,
+    "journal": "Nature",
+    "title": "Crucial role for the Nalp3 inflammasome in the immunostimulatory properties of aluminium adjuvants",
+    "abstract_start": "Aluminium adjuvants, typically referred to as 'alum', are the most commonly used adjuvants in human and animal vaccines worldwide, yet the mechanism underlying the stimulation of the immune system by alum remains unknown. Toll-like receptors are critical in sensing infections and are therefore common targets of various adjuvants used in immunological studies. Although alum is known to induce the p"
+   },
+   {
+    "rank": 12,
+    "id": "pmid:26686024",
+    "cited_by": 1089,
+    "year": 2016,
+    "journal": "Cell metabolism",
+    "title": "Mitochondrial Dysfunction Induces Senescence with a Distinct Secretory Phenotype",
+    "abstract_start": "Cellular senescence permanently arrests cell proliferation, often accompanied by a multi-faceted senescence-associated secretory phenotype (SASP). Loss of mitochondrial function can drive age-related declines in the function of many post-mitotic tissues, but little is known about how mitochondrial dysfunction affects mitotic tissues. We show here that several manipulations that compromise mitochon"
+   },
+   {
+    "rank": 13,
+    "id": "pmid:15149599",
+    "cited_by": 981,
+    "year": 2004,
+    "journal": "Molecular cell",
+    "title": "Telomere shortening triggers senescence of human cells through a pathway involving ATM, p53, and p21(CIP1), but not p16(INK4a)",
+    "abstract_start": "Cellular senescence can be triggered by telomere shortening as well as a variety of stresses and signaling imbalances. We used multiparameter single-cell detection methods to investigate upstream signaling pathways and ensuing cell cycle checkpoint responses in human fibroblasts. Telomeric foci containing multiple DNA damage response factors were assembled in a subset of senescent cells and signal"
+   },
+   {
+    "rank": 14,
+    "id": "pmid:12433688",
+    "cited_by": 873,
+    "year": 2003,
+    "journal": "Blood",
+    "title": "Expression of CD57 defines replicative senescence and antigen-induced apoptotic death of CD8+ T cells",
+    "abstract_start": "Virus-specific CD8(+) T-cell responses play a pivotal role in limiting viral replication. Alterations in these responses, such as decreased cytolytic function, inappropriate maturation, and limited proliferative ability could reduce their ability to control viral replication. Here, we report on the capacity of HIV-specific CD8(+) T cells to secrete cytokines and proliferate in response to HIV anti"
+   },
+   {
+    "rank": 15,
+    "id": "pmid:20303296",
+    "cited_by": 839,
+    "year": 2010,
+    "journal": "Immunity",
+    "title": "The NLRP3 inflammasome protects against loss of epithelial integrity and mortality during experimental colitis",
+    "abstract_start": "Decreased expression of the Nlrp3 protein is associated with susceptibility to Crohn's disease. However, the role of Nlrp3 in colitis has not been characterized. Nlrp3 interacts with the adaptor protein ASC to activate caspase-1 in inflammasomes, which are protein complexes responsible for the maturation and secretion of interleukin-1beta (IL-1beta) and IL-18. Here, we showed that mice deficient f"
+   },
+   {
+    "rank": 16,
+    "id": "pmid:23812099",
+    "cited_by": 814,
+    "year": 2013,
+    "journal": "Nature immunology",
+    "title": "CD36 coordinates NLRP3 inflammasome activation by facilitating intracellular nucleation of soluble ligands into particulate ligands in sterile inflammation",
+    "abstract_start": "Particulate ligands, including cholesterol crystals and amyloid fibrils, induce production of interleukin 1β (IL-1β) dependent on the cytoplasmic sensor NLRP3 in atherosclerosis, Alzheimer's disease and diabetes. Soluble endogenous ligands, including oxidized low-density lipoprotein (LDL), amyloid-β and amylin peptides, accumulate in such diseases. Here we identify an endocytic pathway mediated by"
+   },
+   {
+    "rank": 17,
+    "id": "pmid:26638072",
+    "cited_by": 803,
+    "year": 2015,
+    "journal": "Cell",
+    "title": "Microbiota-Modulated Metabolites Shape the Intestinal Microenvironment by Regulating NLRP6 Inflammasome Signaling",
+    "abstract_start": "Host-microbiome co-evolution drives homeostasis and disease susceptibility, yet regulatory principles governing the integrated intestinal host-commensal microenvironment remain obscure. While inflammasome signaling participates in these interactions, its activators and microbiome-modulating mechanisms are unknown. Here, we demonstrate that the microbiota-associated metabolites taurine, histamine, "
+   },
+   {
+    "rank": 18,
+    "id": "pmid:22733741",
+    "cited_by": 793,
+    "year": 2012,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "Critical role for calcium mobilization in activation of the NLRP3 inflammasome",
+    "abstract_start": "The NLRP3 (nucleotide-binding domain, leucine-rich-repeat-containing family, pyrin domain-containing 3) inflammasome mediates production of inflammatory mediators, such as IL-1β and IL-18, and as such is implicated in a variety of inflammatory processes, including infection, sepsis, autoinflammatory diseases, and metabolic diseases. The proximal steps in NLRP3 inflammasome activation are not well "
+   },
+   {
+    "rank": 19,
+    "id": "pmid:26578790",
+    "cited_by": 763,
+    "year": 2015,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "JAK inhibition alleviates the cellular senescence-associated secretory phenotype and frailty in old age",
+    "abstract_start": "Chronic, low grade, sterile inflammation frequently accompanies aging and age-related diseases. Cellular senescence is associated with the production of proinflammatory chemokines, cytokines, and extracellular matrix (ECM) remodeling proteases, which comprise the senescence-associated secretory phenotype (SASP). We found a higher burden of senescent cells in adipose tissue with aging. Senescent hu"
+   },
+   {
+    "rank": 20,
+    "id": "pmid:22883233",
+    "cited_by": 753,
+    "year": 2012,
+    "journal": "Cell metabolism",
+    "title": "IRE1α induces thioredoxin-interacting protein to activate the NLRP3 inflammasome and promote programmed cell death under irremediable ER stress",
+    "abstract_start": "When unfolded proteins accumulate to irremediably high levels within the endoplasmic reticulum (ER), intracellular signaling pathways called the unfolded protein response (UPR) become hyperactivated to cause programmed cell death. We discovered that thioredoxin-interacting protein (TXNIP) is a critical node in this \"terminal UPR.\" TXNIP becomes rapidly induced by IRE1α, an ER bifunctional kinase/e"
+   },
+   {
+    "rank": 21,
+    "id": "pmid:26150497",
+    "cited_by": 724,
+    "year": 2015,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "Quantification of biological aging in young adults",
+    "abstract_start": "Antiaging therapies show promise in model organism research. Translation to humans is needed to address the challenges of an aging global population. Interventions to slow human aging will need to be applied to still-young individuals. However, most human aging research examines older adults, many with chronic disease. As a result, little is known about aging in young humans. We studied aging in 9"
+   },
+   {
+    "rank": 22,
+    "id": "pmid:17687332",
+    "cited_by": 694,
+    "year": 2007,
+    "journal": "Nature",
+    "title": "Protection of telomeres through independent control of ATM and ATR by TRF2 and POT1",
+    "abstract_start": "When telomeres are rendered dysfunctional through replicative attrition of the telomeric DNA or by inhibition of shelterin, cells show the hallmarks of ataxia telangiectasia mutated (ATM) kinase signalling. In addition, dysfunctional telomeres might induce an ATM-independent pathway, such as ataxia telangiectasia and Rad3-related (ATR) kinase signalling, as indicated by the phosphorylation of the "
+   },
+   {
+    "rank": 23,
+    "id": "pmid:18577586",
+    "cited_by": 690,
+    "year": 2008,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "The Nalp3 inflammasome is essential for the development of silicosis",
+    "abstract_start": "Inhalation of crystalline silica and asbestos is known to cause the progressive pulmonary fibrotic disorders silicosis and asbestosis, respectively. Although alveolar macrophages are believed to initiate these inflammatory responses, the mechanism by which this occurs has been unclear. Here we show that the inflammatory response and subsequent development of pulmonary fibrosis after inhalation of "
+   },
+   {
+    "rank": 24,
+    "id": "pmid:24490752",
+    "cited_by": 687,
+    "year": 2014,
+    "journal": "Genome biology",
+    "title": "Aging of blood can be tracked by DNA methylation changes at just three CpG sites",
+    "abstract_start": "Human aging is associated with DNA methylation changes at specific sites in the genome. These epigenetic modifications may be used to track donor age for forensic analysis or to estimate biological age. We perform a comprehensive analysis of methylation profiles to narrow down 102 age-related CpG sites in blood. We demonstrate that most of these age-associated methylation changes are reversed in i"
+   },
+   {
+    "rank": 25,
+    "id": "pmid:26642356",
+    "cited_by": 672,
+    "year": 2016,
+    "journal": "Nature immunology",
+    "title": "NLRP3 activation and mitosis are mutually exclusive events coordinated by NEK7, a new inflammasome component",
+    "abstract_start": "The NLRP3 inflammasome responds to microbes and danger signals by processing and activating proinflammatory cytokines, including interleukin 1β (IL-1β) and IL-18. We found here that activation of the NLRP3 inflammasome was restricted to interphase of the cell cycle by NEK7, a serine-threonine kinase previously linked to mitosis. Activation of the NLRP3 inflammasome required NEK7, which bound to th"
+   },
+   {
+    "rank": 26,
+    "id": "pmid:24960204",
+    "cited_by": 633,
+    "year": 2014,
+    "journal": "Nature communications",
+    "title": "Chronic inflammation induces telomere dysfunction and accelerates ageing in mice",
+    "abstract_start": "Chronic inflammation is associated with normal and pathological ageing. Here we show that chronic, progressive low-grade inflammation induced by knockout of the nfkb1 subunit of the transcription factor NF-κB induces premature ageing in mice. We also show that these mice have reduced regeneration in liver and gut. nfkb1(-/-) fibroblasts exhibit aggravated cell senescence because of an enhanced aut"
+   },
+   {
+    "rank": 27,
+    "id": "pmid:22819539",
+    "cited_by": 630,
+    "year": 2012,
+    "journal": "Cell",
+    "title": "TRIF licenses caspase-11-dependent NLRP3 inflammasome activation by gram-negative bacteria",
+    "abstract_start": "Systemic infections with Gram-negative bacteria are characterized by high mortality rates due to the \"sepsis syndrome,\" a widespread and uncontrolled inflammatory response. Though it is well recognized that the immune response during Gram-negative bacterial infection is initiated after the recognition of endotoxin by Toll-like receptor 4, the molecular mechanisms underlying the detrimental inflamm"
+   },
+   {
+    "rank": 28,
+    "id": "pmid:17472436",
+    "cited_by": 629,
+    "year": 2007,
+    "journal": "PLoS biology",
+    "title": "Mitochondrial dysfunction accounts for the stochastic heterogeneity in telomere-dependent senescence",
+    "abstract_start": "Aging is an inherently stochastic process, and its hallmark is heterogeneity between organisms, cell types, and clonal populations, even in identical environments. The replicative lifespan of primary human cells is telomere dependent; however, its heterogeneity is not understood. We show that mitochondrial superoxide production increases with replicative age in human fibroblasts despite an adaptiv"
+   },
+   {
+    "rank": 29,
+    "id": "pmid:20351693",
+    "cited_by": 614,
+    "year": 2010,
+    "journal": "Nature immunology",
+    "title": "The AIM2 inflammasome is critical for innate immunity to Francisella tularensis",
+    "abstract_start": "Francisella tularensis, the causative agent of tularemia, infects host macrophages, which triggers production of the proinflammatory cytokines interleukin 1beta (IL-1beta) and IL-18. We elucidate here how host macrophages recognize F. tularensis and elicit this proinflammatory response. Using mice deficient in the DNA-sensing inflammasome component AIM2, we demonstrate here that AIM2 is required f"
+   },
+   {
+    "rank": 30,
+    "id": "pmid:25693118",
+    "cited_by": 599,
+    "year": 2015,
+    "journal": "Nature communications",
+    "title": "RIPK3 promotes cell death and NLRP3 inflammasome activation in the absence of MLKL",
+    "abstract_start": "RIPK3 and its substrate MLKL are essential for necroptosis, a lytic cell death proposed to cause inflammation via the release of intracellular molecules. Whether and how RIPK3 might drive inflammation in a manner independent of MLKL and cell lysis remains unclear. Here we show that following LPS treatment, or LPS-induced necroptosis, the TLR adaptor protein TRIF and inhibitor of apoptosis proteins"
+   },
+   {
+    "rank": 31,
+    "id": "pmid:24093676",
+    "cited_by": 592,
+    "year": 2013,
+    "journal": "Cell metabolism",
+    "title": "Canonical Nlrp3 inflammasome links systemic low-grade inflammation to functional decline in aging",
+    "abstract_start": "Despite a wealth of clinical data showing an association between inflammation and degenerative disorders in the elderly, the immune sensors that causally link systemic inflammation to aging remain unclear. Here we detail a mechanism by which the Nlrp3 inflammasome controls systemic low-grade age-related \"sterile\" inflammation in both periphery and brain independently of the noncanonical caspase-11"
+   },
+   {
+    "rank": 32,
+    "id": "pmid:19918053",
+    "cited_by": 585,
+    "year": 2009,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "Necrotic cells trigger a sterile inflammatory response through the Nlrp3 inflammasome",
+    "abstract_start": "Dying cells are capable of activating the innate immune system and inducing a sterile inflammatory response. Here, we show that necrotic cells are sensed by the Nlrp3 inflammasome resulting in the subsequent release of the proinflammatory cytokine IL-1beta. Necrotic cells produced by pressure disruption, hypoxic injury, or complement-mediated damage were capable of activating the Nlrp3 inflammasom"
+   },
+   {
+    "rank": 33,
+    "id": "pmid:17223473",
+    "cited_by": 563,
+    "year": 2007,
+    "journal": "Lancet (London, England)",
+    "title": "Telomere length, risk of coronary heart disease, and statin treatment in the West of Scotland Primary Prevention Study: a nested case-control study",
+    "abstract_start": "Inter-individual differences in biological ageing could affect susceptibility to coronary heart disease. Our aim was to determine whether mean leucocyte telomere length is a predictor of the development of coronary heart disease. We compared telomere lengths at recruitment in 484 individuals in the West of Scotland Primary Prevention Study (WOSCOPS) who went on to develop coronary heart disease ev"
+   },
+   {
+    "rank": 34,
+    "id": "pmid:25217959",
+    "cited_by": 557,
+    "year": 2014,
+    "journal": "Nature genetics",
+    "title": "An activating NLRC4 inflammasome mutation causes autoinflammation with recurrent macrophage activation syndrome",
+    "abstract_start": "Inflammasomes are innate immune sensors that respond to pathogen- and damage-associated signals with caspase-1 activation, interleukin (IL)-1β and IL-18 secretion, and macrophage pyroptosis. The discovery that dominant gain-of-function mutations in NLRP3 cause the cryopyrin-associated periodic syndromes (CAPS) and trigger spontaneous inflammasome activation and IL-1β oversecretion led to successfu"
+   },
+   {
+    "rank": 35,
+    "id": "pmid:19139171",
+    "cited_by": 555,
+    "year": 2009,
+    "journal": "The Journal of experimental medicine",
+    "title": "Inflammasome recognition of influenza virus is essential for adaptive immune responses",
+    "abstract_start": "Influenza virus infection is recognized by the innate immune system through Toll like receptor (TLR) 7 and retinoic acid inducible gene I. These two recognition pathways lead to the activation of type I interferons and resistance to infection. In addition, TLR signals are required for the CD4 T cell and IgG2a, but not cytotoxic T lymphocyte, responses to influenza virus infection. In contrast, the"
+   },
+   {
+    "rank": 36,
+    "id": "pmid:15621527",
+    "cited_by": 552,
+    "year": 2005,
+    "journal": "Developmental cell",
+    "title": "Formation of MacroH2A-containing senescence-associated heterochromatin foci and senescence driven by ASF1a and HIRA",
+    "abstract_start": "In senescent cells, specialized domains of transcriptionally silent senescence-associated heterochromatic foci (SAHF), containing heterochromatin proteins such as HP1, are thought to repress expression of proliferation-promoting genes. We have investigated the composition and mode of assembly of SAHF and its contribution to cell cycle exit. SAHF is enriched in a transcription-silencing histone H2A"
+   },
+   {
+    "rank": 37,
+    "id": "pmid:21109192",
+    "cited_by": 547,
+    "year": 2010,
+    "journal": "Cell metabolism",
+    "title": "The inflammasome-mediated caspase-1 activation controls adipocyte differentiation and insulin sensitivity",
+    "abstract_start": "Obesity-induced inflammation originating from expanding adipose tissue interferes with insulin sensitivity. Important metabolic effects have been recently attributed to IL-1β and IL-18, two members of the IL-1 family of cytokines. Processing of IL-1β and IL-18 requires cleavage by caspase-1, a cysteine protease regulated by a protein complex called the inflammasome. We demonstrate that the inflamm"
+   },
+   {
+    "rank": 38,
+    "id": "pmid:24336249",
+    "cited_by": 526,
+    "year": 2014,
+    "journal": "Nature medicine",
+    "title": "Interleukin-17-producing innate lymphoid cells and the NLRP3 inflammasome facilitate obesity-associated airway hyperreactivity",
+    "abstract_start": "Obesity is associated with the development of asthma, which is often difficult to control. To understand the immunological pathways that lead to obesity-associated asthma, we fed mice a high-fat diet for 12 weeks, which resulted in obesity and the development of airway hyperreactivity (AHR), a cardinal feature of asthma. This AHR was independent of adaptive immunity, as it occurred in obese Rag1(-"
+   },
+   {
+    "rank": 39,
+    "id": "pmid:26687007",
+    "cited_by": 512,
+    "year": 2015,
+    "journal": "eLife",
+    "title": "Targeting senescent cells enhances adipogenesis and metabolic function in old age",
+    "abstract_start": "Senescent cells accumulate in fat with aging. We previously found genetic clearance of senescent cells from progeroid INK-ATTAC mice prevents lipodystrophy. Here we show that primary human senescent fat progenitors secrete activin A and directly inhibit adipogenesis in non-senescent progenitors. Blocking activin A partially restored lipid accumulation and expression of key adipogenic markers in di"
+   },
+   {
+    "rank": 40,
+    "id": "pmid:22440612",
+    "cited_by": 508,
+    "year": 2012,
+    "journal": "Cell metabolism",
+    "title": "Autophagy links inflammasomes to atherosclerotic progression",
+    "abstract_start": "We investigated the role of autophagy in atherosclerosis. During plaque formation in mice, autophagic markers colocalized predominantly with macrophages (mφ). Atherosclerotic aortas had elevated levels of p62, suggesting that dysfunctional autophagy is characteristic of plaques. To determine whether autophagy directly influences atherogenesis, we characterized Beclin-1 heterozygous-null and mφ-spe"
+   },
+   {
+    "rank": 41,
+    "id": "pmid:22541070",
+    "cited_by": 504,
+    "year": 2012,
+    "journal": "Cell",
+    "title": "DICER1 loss and Alu RNA induce age-related macular degeneration via the NLRP3 inflammasome and MyD88",
+    "abstract_start": "Alu RNA accumulation due to DICER1 deficiency in the retinal pigmented epithelium (RPE) is implicated in geographic atrophy (GA), an advanced form of age-related macular degeneration that causes blindness in millions of individuals. The mechanism of Alu RNA-induced cytotoxicity is unknown. Here we show that DICER1 deficit or Alu RNA exposure activates the NLRP3 inflammasome and triggers TLR-indepe"
+   },
+   {
+    "rank": 42,
+    "id": "pmid:24657625",
+    "cited_by": 487,
+    "year": 2014,
+    "journal": "Gastroenterology",
+    "title": "Lactate reduces liver and pancreatic injury in Toll-like receptor- and inflammasome-mediated inflammation via GPR81-mediated suppression of innate immunity",
+    "abstract_start": "The NACHT, LRR, and pyrin domain-containing protein 3 (NLRP3) inflammasome induces inflammation in response to organ injury, but little is known about its regulation. Toll-like receptors (TLRs) provide the first signal required for activation of the inflammasome and stimulate aerobic glycolysis to generate lactate. We examined whether lactate and the lactate receptor, Gi-protein-coupled receptor 8"
+   },
+   {
+    "rank": 43,
+    "id": "pmid:22560076",
+    "cited_by": 458,
+    "year": 2012,
+    "journal": "Cell stem cell",
+    "title": "Cdc42 activity regulates hematopoietic stem cell aging and rejuvenation",
+    "abstract_start": "The decline in hematopoietic function seen during aging involves a progressive reduction in the immune response and an increased incidence of myeloid malignancy, and has been linked to aging of hematopoietic stem cells (HSCs). The molecular mechanisms underlying HSC aging remain unclear. Here we demonstrate that elevated activity of the small RhoGTPase Cdc42 in aged HSCs is causally linked to HSC "
+   },
+   {
+    "rank": 44,
+    "id": "pmid:19139407",
+    "cited_by": 412,
+    "year": 2009,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "Uptake of particulate vaccine adjuvants by dendritic cells activates the NALP3 inflammasome",
+    "abstract_start": "Many currently used and candidate vaccine adjuvants are particulate in nature, but their mechanism of action is not well understood. Here, we show that particulate adjuvants, including biodegradable poly(lactide-co-glycolide) (PLG) and polystyrene microparticles, dramatically enhance secretion of interleukin-1beta (IL-1beta) by dendritic cells (DCs). The ability of particulates to promote IL-1beta"
+   },
+   {
+    "rank": 45,
+    "id": "pmid:23271661",
+    "cited_by": 409,
+    "year": 2012,
+    "journal": "Nature communications",
+    "title": "Extracellular Ca2+ is a danger signal activating the NLRP3 inflammasome through G protein-coupled calcium sensing receptors",
+    "abstract_start": "Activation of the NLRP3 inflammasome enables monocytes and macrophages to release high levels of interleukin-1β during inflammatory responses. Concentrations of extracellular calcium can increase at sites of infection, inflammation or cell activation. Here we show that increased extracellular calcium activates the NLRP3 inflammasome via stimulation of G protein-coupled calcium sensing receptors. A"
+   },
+   {
+    "rank": 46,
+    "id": "pmid:26341399",
+    "cited_by": 382,
+    "year": 2015,
+    "journal": "Immunity",
+    "title": "Endoplasmic Reticulum Stress Activates the Inflammasome via NLRP3- and Caspase-2-Driven Mitochondrial Damage",
+    "abstract_start": "Endoplasmic reticulum (ER) stress is observed in many human diseases, often associated with inflammation. ER stress can trigger inflammation through nucleotide-binding domain and leucine-rich repeat containing (NLRP3) inflammasome, which might stimulate inflammasome formation by association with damaged mitochondria. How ER stress triggers mitochondrial dysfunction and inflammasome activation is i"
+   },
+   {
+    "rank": 47,
+    "id": "pmid:19098271",
+    "cited_by": 381,
+    "year": 2009,
+    "journal": "Blood",
+    "title": "ATM-ATR-dependent up-regulation of DNAM-1 and NKG2D ligands on multiple myeloma cells by therapeutic agents results in enhanced NK-cell susceptibility and is associated with a senescent phenotype",
+    "abstract_start": "There is much evidence to support a role for natural killer (NK) cells in controlling the progression of multiple myeloma (MM), a malignancy characterized by an abnormal plasma cell proliferation in the bone marrow (BM). Induction of DNA damage response has been recently shown capable of enhancing NKG2D ligand (NKG2DL) expression, but nothing is known about DNAM-1 ligand (DNAM-1L) regulation. In t"
+   },
+   {
+    "rank": 48,
+    "id": "pmid:22902502",
+    "cited_by": 375,
+    "year": 2012,
+    "journal": "Nature",
+    "title": "Rapid induction of inflammatory lipid mediators by the inflammasome in vivo",
+    "abstract_start": "Detection of microbial products by host inflammasomes is an important mechanism of innate immune surveillance. Inflammasomes activate the caspase-1 (CASP1) protease, which processes the cytokines interleukin (IL)-1β and IL-18, and initiates a lytic host cell death called pyroptosis. To identify novel CASP1 functions in vivo, we devised a strategy for cytosolic delivery of bacterial flagellin, a sp"
+   },
+   {
+    "rank": 49,
+    "id": "pmid:26059659",
+    "cited_by": 370,
+    "year": 2015,
+    "journal": "Nature communications",
+    "title": "Bruton's tyrosine kinase is essential for NLRP3 inflammasome activation and contributes to ischaemic brain injury",
+    "abstract_start": "Inflammasome activation has been implicated in various inflammatory diseases including post-ischaemic inflammation after stroke. Inflammasomes mediate activation of caspase-1, which subsequently induces secretion of pro-inflammatory cytokines such as IL-1β and IL-18, as well as a form of cell death called pyroptosis. In this study, we report that Bruton's tyrosine kinase (BTK) is an essential comp"
+   },
+   {
+    "rank": 50,
+    "id": "pmid:22484808",
+    "cited_by": 357,
+    "year": 2012,
+    "journal": "Nature medicine",
+    "title": "NLRP3 has a protective role in age-related macular degeneration through the induction of IL-18 by drusen components",
+    "abstract_start": "Age-related macular degeneration (AMD) is the leading cause of central vision loss worldwide. Drusen accumulation is the major pathological hallmark common to both dry and wet AMD. Although activation of the immune system has been implicated in disease progression, the pathways involved are unclear. Here we show that drusen isolated from donor AMD eyes activates the NACHT, LRR and PYD domains-cont"
+   },
+   {
+    "rank": 51,
+    "id": "pmid:23955712",
+    "cited_by": 333,
+    "year": 2013,
+    "journal": "Nature medicine",
+    "title": "Activation of the Nlrp3 inflammasome in infiltrating macrophages by endocannabinoids mediates beta cell loss in type 2 diabetes",
+    "abstract_start": "Type 2 diabetes mellitus (T2DM) progresses from compensated insulin resistance to beta cell failure resulting in uncompensated hyperglycemia, a process replicated in the Zucker diabetic fatty (ZDF) rat. The Nlrp3 inflammasome has been implicated in obesity-induced insulin resistance and beta cell failure. Endocannabinoids contribute to insulin resistance through activation of peripheral CB1 recept"
+   },
+   {
+    "rank": 52,
+    "id": "pmid:25774716",
+    "cited_by": 322,
+    "year": 2015,
+    "journal": "Nature immunology",
+    "title": "Guanylate-binding proteins promote activation of the AIM2 inflammasome during infection with Francisella novicida",
+    "abstract_start": "The AIM2 inflammasome detects double-stranded DNA in the cytosol and induces caspase-1-dependent pyroptosis as well as release of the inflammatory cytokines interleukin 1β (IL-1β) and IL-18. AIM2 is critical for host defense against DNA viruses and bacteria that replicate in the cytosol, such as Francisella tularensis subspecies novicida (F. novicida). The activation of AIM2 by F. novicida require"
+   },
+   {
+    "rank": 53,
+    "id": "pmid:23474421",
+    "cited_by": 318,
+    "year": 2014,
+    "journal": "Gut",
+    "title": "Impaired duodenal mucosal integrity and low-grade inflammation in functional dyspepsia",
+    "abstract_start": "Functional dyspepsia (FD) is an extremely common functional gastrointestinal disorder, the pathophysiology of which is poorly understood. We hypothesised that impaired intestinal barrier function is involved in the onset and persistence of this disorder by inducing low-grade inflammation. Therefore, our aim was to evaluate duodenal mucosal integrity and low-grade inflammation in patients with FD. "
+   },
+   {
+    "rank": 54,
+    "id": "pmid:19501001",
+    "cited_by": 305,
+    "year": 2009,
+    "journal": "Immunity",
+    "title": "A mutation in the Nlrp3 gene causing inflammasome hyperactivation potentiates Th17 cell-dominant immune responses",
+    "abstract_start": "Missense mutations of the gene encoding NLRP3 are associated with autoinflammatory disorders characterized with excessive production of interleukin-1beta (IL-1beta). Here we analyzed the immune responses of gene-targeted mice carrying a mutation in the Nlrp3 gene equivalent to the human mutation associated with Muckle-Wells Syndrome. We found that antigen-presenting cells (APCs) from such mice pro"
+   },
+   {
+    "rank": 55,
+    "id": "pmid:25225402",
+    "cited_by": 304,
+    "year": 2014,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "title": "Hemolysis-induced lethality involves inflammasome activation by heme",
+    "abstract_start": "The increase of extracellular heme is a hallmark of hemolysis or extensive cell damage. Heme has prooxidant, cytotoxic, and inflammatory effects, playing a central role in the pathogenesis of malaria, sepsis, and sickle cell disease. However, the mechanisms by which heme is sensed by innate immune cells contributing to these diseases are not fully characterized. We found that heme, but not porphyr"
+   },
+   {
+    "rank": 56,
+    "id": "pmid:16150936",
+    "cited_by": 292,
+    "year": 2006,
+    "journal": "Blood",
+    "title": "Total body irradiation selectively induces murine hematopoietic stem cell senescence",
+    "abstract_start": "Exposure to ionizing radiation (IR) and certain chemotherapeutic agents not only causes acute bone marrow (BM) suppression but also leads to long-term residual hematopoietic injury. This latter effect has been attributed to damage to hematopoietic stem cell (HSC) self-renewal. Using a mouse model, we investigated whether IR induces senescence in HSCs, as induction of HSC senescence can lead to the"
+   },
+   {
+    "rank": 57,
+    "id": "pmid:10784448",
+    "cited_by": 292,
+    "year": 2000,
+    "journal": "Science (New York, N.Y.)",
+    "title": "Extension of cell life-span and telomere length in animals cloned from senescent somatic cells",
+    "abstract_start": "The potential of cloning depends in part on whether the procedure can reverse cellular aging and restore somatic cells to a phenotypically youthful state. Here, we report the birth of six healthy cloned calves derived from populations of senescent donor somatic cells. Nuclear transfer extended the replicative life-span of senescent cells (zero to four population doublings remaining) to greater tha"
+   },
+   {
+    "rank": 58,
+    "id": "pmid:24009231",
+    "cited_by": 285,
+    "year": 2013,
+    "journal": "Blood",
+    "title": "Platelets mediate increased endothelium permeability in dengue through NLRP3-inflammasome activation",
+    "abstract_start": "Dengue is the most frequent hemorrhagic viral disease and re-emergent infection in the world. Although thrombocytopenia is characteristically observed in mild and severe forms of dengue, the role of platelet activation in dengue pathogenesis has not been fully elucidated. We hypothesize that platelets have major roles in inflammatory amplification and increased vascular permeability during severe "
+   },
+   {
+    "rank": 59,
+    "id": "pmid:24191150",
+    "cited_by": 282,
+    "year": 2014,
+    "journal": "Blood",
+    "title": "Phosphoinositide 3-kinase inhibition restores neutrophil accuracy in the elderly: toward targeted treatments for immunosenescence",
+    "abstract_start": "Immunosenescence is the functional deterioration of the immune system during natural aging. Despite increased susceptibility to bacterial infections in older adults, age-associated changes to neutrophil responses are only partially understood, and neutrophil migration has not been characterized in detail. Here we describe reduced chemotaxis but preserved chemokinesis toward a range of inflammatory"
+   },
+   {
+    "rank": 60,
+    "id": "pmid:23964094",
+    "cited_by": 274,
+    "year": 2013,
+    "journal": "Genes & development",
+    "title": "Redistribution of the Lamin B1 genomic binding profile affects rearrangement of heterochromatic domains and SAHF formation during senescence",
+    "abstract_start": "Senescence is a stress-responsive form of stable cell cycle exit. Senescent cells have a distinct gene expression profile, which is often accompanied by the spatial redistribution of heterochromatin into senescence-associated heterochromatic foci (SAHFs). Studying a key component of the nuclear lamina lamin B1 (LMNB1), we report dynamic alterations in its genomic profile and their implications for"
+   }
+  ]
+ }
+}

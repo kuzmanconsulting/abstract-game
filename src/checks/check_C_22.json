@@ -1,0 +1,143 @@
+{"batch": "check_C_22", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+   {"n": 680, "id": "pmid:41304595",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "likely originating from an ancient duplication predating seed plant diversification"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "both Brassicaceae MEA and Fabaceae SWN2 proteins independently lost approximately 200 amino acids in the central region, indicating convergent structural modifications"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "predominantly occurring as single copies in green algae and early land plants"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "SWN1 is broadly expressed across tissues, while SWN2 expression is restricted to the heart-shaped embryo"}
+    ]},
+   {"n": 681, "id": "pmid:40051064",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Coenzyme M biosynthetic genes have demonstrated unique evolutionary connections with species across domains, such as Methanothermobacter thermautotrophicus and Gekko japonicus"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "The coenzyme B biosynthesis pathway showed balanced selection (Tajima's D = 2.38602), reflecting its evolutionary plasticity."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "purifying selection of methanofuran (Tajima's D = -2.9589) and coenzyme A (Tajima's D = -2.8555), indicating the conservation of critical metabolic functions"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "The coenzyme B biosynthesis pathway showed balanced selection (Tajima's D = 2.38602), reflecting its evolutionary plasticity."}
+    ]},
+   {"n": 682, "id": "pmid:40098122",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We also identified both positive and purifying selection in the coastal species An. melas (West Africa) and An. merus (East Africa)."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "identify four Grs as possible candidates for involvement in the evolution of vertebrate host preference in the An. gambiae complex"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We identified sixteen Grs that show evidence of potential positive selection using the McDonald-Kreitman test, including four putative sugar receptors"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "twelve Grs that may have experienced a selective sweep using the DH test, including three putative sugar receptors and the carbon dioxide receptor Gr24"}
+    ]},
+   {"n": 683, "id": "doi:10.64898/2026.09.15.751820",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "29.8-47.4% of all avian reassortant lineages are purged within the first year of circulation"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "H3Nx influenza viruses are uniquely generalist, with long-term lineages that circulate in avian, human, swine, equine, and canine hosts."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "with NA reassorting more frequently than expected in birds, but less frequently than expected in swine"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "while H3Nx viruses in mammals undergo adaptive evolution in HA and NA, viruses in birds experience very little directional selection"}
+    ]},
+   {"n": 684, "id": "pmid:40294030",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "outside of prolonged infections in immunocompromised hosts, within-host positive selection has rarely been detected"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We sequenced 577 specimens from 105 individuals in a household cohort during the BA.1/BA.2 variant period."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "A Wright Fisher Approximate Bayesian Computational model identified positive selection at 14 loci with 7 in spike, including S:448 and S:339."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Within-host dynamics were dominated by genetic drift and purifying selection. Positive selection was rare but highly concentrated in spike."}
+    ]},
+   {"n": 685, "id": "pmid:40021962",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "the evolutionary rate (RER) analysis between migratory and non-migratory locusts revealed significant divergence in energy metabolism pathways"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Gene ontology enrichment analysis indicated that these genes were predominantly related to metabolism and mitochondria-related pathways through both methods."},
+      {"j": 3, "label": "supported", "confidence": 2, "evidence": "Notably, of the genes analyzed, the SETX gene consistently showed evidence of positive selection across all five migratory species.", "flag": "ambiguous", "reason": "The abstract singles SETX out but never says it was the only gene positively selected in all five species, so the statement's exclusive reading is not settled by the text."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "We identified 1064 genes showing signatures of positive selection in five migratory locust species using a dN/dS model."}
+    ]},
+   {"n": 686, "id": "pmid:42378238",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "norovirus vaccine strategies targeting the structurally conserved conformations of epitopes A and G could overcome the limitations of traditional strain-specific approaches"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "coevolutionary analysis uncovers a broad network of compensatory interactions spanning multiple epitopes, with striking enrichment in epitope A"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "we demonstrate that sequence and structural evolution show overall concordance under purifying selection, yet significant local discrepancies reveal distinct patterns of convergent evolution shaped by structural constraints and functional divergence"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "compared to near-full-genome and nucleotide trees, only the VP1 amino acid tree reliably clustered GII.4 variants in chronological order as monophyletic groups"}
+    ]},
+   {"n": 687, "id": "pmid:41716767",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Lineage-specific structural variations-including IR/SSC boundary dynamics, genome size expansion, and ndh gene loss-are closely associated with ecological adaptations to temperate, subtropical, and tropical environments."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Cypripedioideae chloroplast genomes displayed substantial size variation (147-230 kb) and lineage-specific structural features, including inverted repeat (IR) expansion and small single-copy (SSC) contraction in Paphiopedilum"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Ka/Ks analysis revealed predominant purifying selection (94.7% of genes with Ka/Ks < 1), with photosystem and ribosomal protein genes under the strongest constraints."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "natural selection accounted for >90% of CUB variation across most species"}
+    ]},
+   {"n": 688, "id": "pmid:40872170",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The study assembled a 454,444 bp circular mitochondrial genome of H. rhamnoides ssp. sinensis , with a GC content of 44.86%. A total of 73 genes and 3 pseudogenes were annotated"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "A nucleotide diversity analysis revealed that the sdh4 gene exhibits the highest variation, whereas rrn5 is the most conserved."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "with the notable absence of the rps2 gene, which is present in related species"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "most genes are under purifying selection, while genes such as atp4 and nad4 exhibit positive selection", "flag": "ill_formed", "reason": "\"applies to least mitochondrial genes\" is ungrammatical; read as \"a minority of genes\" it directly contradicts the abstract's \"most genes\"."}
+    ]},
+   {"n": 689, "id": "pmid:42049123",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "The core housekeeping gene ushA in Enterobacteriaceae is highly conserved under purifying selection."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "ushA is near-ubiquitous across Enterobacteriaceae (96.38% overall prevalence), with 95.65% of all strains harboring a single copy"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We identified 92 strains with ushA copy duplications, 94.57% of which were significantly enriched in the genus Shigella"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "with no statistically significant positively selected sites"}
+    ]},
+   {"n": 690, "id": "pmid:39482310",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We annotated 12,156 protein-coding genes and identified 4.54% of the genome as repetitive sequences."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Here, we report a telomere-to-telomere, near-complete genome assembly of a Pyricularia penniseti isolate JC-1 infecting JUJUNCAO."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The assembly consists of eight core chromosomes and two supernumerary chromosomes, named mini1 and mini2, spanning 42.1 Mb."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The two supernumerary chromosomes contained fewer genes and more repetitive sequences than the core chromosomes."}
+    ]},
+   {"n": 691, "id": "pmid:42661873",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "the average effective number of codons (ENC) values ranged from 45.59 to 47.22, indicating generally weak codon bias"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "The Urtica cannabina plastome (147,958 bp) displays a canonical quadripartite architecture, encoding a total of 128 genes (83 protein-coding, 37 tRNAs, and 8 rRNAs)."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Ka/Ks analysis indicated that 97.1% of protein-coding genes were under purifying selection (Ka/Ks < 0.5)."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "a total of 3,552 SSRs were identified family-wide, with mononucleotide repeats (71.85%) predominating in intergenic regions"}
+    ]},
+   {"n": 692, "id": "doi:10.64898/2026.09.02.748793",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "HpolARI4 preferentially blocks A. sylvaticus IL-33 but has little activity against M. musculus IL-33, whereas HbakARI2 is highly specific for M. musculus IL-33"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "By integrating genomic data, structural insights, and functional assays, we reveal how the expansion and diversification of the ARI family drive host-specific IL-33 modulation"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We further test this family against non-host human IL-33 and show that functional suppression can be achieved by HbakARI3 in vitro and in vivo"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "with HbakARI2 and HpolARI4 showing high affinity binding, whereas HbakARI3 shows no binding"}
+    ]},
+   {"n": 693, "id": "pmid:40950782",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The circular genome is 260,912 bp in length and contains 65 genes"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "we assembled and annotated the complete mitochondrial genome of Isatis tinctoria L. (Brassicaceae), a phylogenetically informative species"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "species with ccmB gene copies displayed significantly lower Ka values than those without, whereas Ks values remained unchanged"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "revealed that genome size is significantly correlated with SSR abundance. This result supports the \"repeat-driven genome expansion\" hypothesis."}
+    ]},
+   {"n": 694, "id": "pmid:39198368",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "there is a high level of genetic diversity among DENV-1 strains, while DENV-3 strains exhibit the least genetic diversity", "flag": "ill_formed", "reason": "The statement names both DENV-1 and DENV-3 as \"the least\" diverse, which cannot hold jointly; on either reading the DENV-1 claim reverses the abstract."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "certain codons in DENV-2 and -4 were subject to strong purifying selection, while a few codon sites in the envelope region showed evidence of positive selection"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "circulation of all four dengue virus serotypes (DENV-1, - 2, - 3, and - 4) with prevalent genotypes III and V within DENV-1, cosmopolitan genotype within DENV-2"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Whether those characteristics conferred a fitness advantage to DENV-1 genotypes within a specific geography and time interval warrants further investigations."}
+    ]},
+   {"n": 695, "id": "doi:10.64898/2025.12.08.693052",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "found that all those observed α values (from 3.5% to 29%) were below the threshold and so they be interpreted by the selection duality rather than adaptive evolution"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "there are three types of neutrality under FSI: the fixation neutrality (substitution rate equals to mutation rate), the generic neutrality (the population mean of selection coefficient is zero), and the FSI-neutrality (the midpoint of fixation neutrality and generic neutrality)"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "genetic drift induced by FSI, FSI-genetic drift for short, may play an important role in molecular evolution when the N e -genetic drift is weak"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "our theoretical analysis shows that the null hypothesis (α = 0) of MacDonald-Kreitman (MK) test exactly corresponds to the FSI-neutrality"}
+    ]},
+   {"n": 696, "id": "doi:10.1101/2025.10.16.682762",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Globally, KPC-2-NDM-1 (50.3%) were the most common and an increasing trend of ST11-KL64 (20%) isolates carrying iucA and rmpA / A2"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "5 clinical isolates were multidrug resistance, exhibiting high level resistance to first-line drugs including carbapenems and ceftazidime/avibactam."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "these traits correlated with high mucoviscosity, serum resistance, siderophore production and lower survival rates in G. mellonella that contribute to epidemiological success"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Resistance and virulence genes were positively associated with specific mobile elements including bla KPC-3 with Tn 4401, iucABC with IncHI1B, iroBCDN with IncQ1."}
+    ]},
+   {"n": 697, "id": "pmid:40559557",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Phylogenetic analysis classified A34 within group B2 as associated with extraintestinal pathogenicity and antimicrobial resistance, while A51 was unassigned to any known phylogroup."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Both strains were identified as hybrid aEPEC/STEC pathotypes carrying bfpA and stx1 virulence genes."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "445 samples were collected from a local Honeydew melon farm and associated packing facilities. Among the 32 E. coli strains recovered, two strains, A34 and A51, were isolated from irrigation water"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Irrigation water can serve as a reservoir and transmission route for pathogenic Escherichia coli , posing a threat to food safety and public health."}
+    ]},
+   {"n": 698, "id": "pmid:41315914",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Genome sizes ranged from 281,240 to 356,577 bp, with 55-74 functional genes."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Repeat analysis identified 141 simple sequence repeats (SSRs) and 76 tandem repeats (TSRs), largely composed of A/T-rich mononucleotide motifs, while dispersed repeats were mainly 30-49 bp in length."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Five species contained typical single circular mitochondrial genomes, whereas M. falcata, M. platycarpos, and M. sativa displayed complex multipartite circular conformations."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Most PCGs were under purifying selection, while a few, such as matR, exhibited signatures of positive selection", "flag": "ill_formed", "reason": "\"Least protein-coding genes\" is ungrammatical; on the minority reading it reverses the abstract's \"Most PCGs were under purifying selection\"."}
+    ]},
+   {"n": 699, "id": "pmid:41169362",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "we expanded this to 124 IGKC sequences across 104 mammals, including two monotremes, eight marsupials, and 94 placentals"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "The presence of N-glycosylated sites suggests potential effects on antigen binding, stability, or half-life."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "No conserved glycosylation sites were found, but 26 sequences from 14 species carried potentially N-glycosylated sites, including two new sites in lagomorphs."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "showing independent IGKC duplications in Ochotonidae and Leporidae , giving rise to rabbit IGKC1 and IGKC2"}
+    ]}
+ ]}

@@ -1,0 +1,107 @@
+{
+"batch": "check_B_107",
+"pass": "B",
+"prompt_version": "check-v1",
+"items": [
+{
+"n": 1715,
+"id": "pmid:19815776",
+"verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "the spatial segregation of open and closed chromatin to form two genome-wide compartments"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "We constructed spatial proximity maps of the human genome with Hi-C at a resolution of 1 megabase."},
+{"j": 3, "label": "contradicted", "confidence": 3, "evidence": "The fractal globule is distinct from the more commonly used globular equilibrium model.", "flag": "ambiguous", "reason": "The statement says the equilibrium model is 'less commonly used' whereas the abstract calls it 'more commonly used', reversing the stated fact."},
+{"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Our results demonstrate the power of Hi-C to map the dynamic conformations of whole genomes."}
+]
+},
+{
+"n": 1716,
+"id": "pmid:17571346",
+"verdicts": [
+{"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "with respect to mammalian evolution based on inter- and intra-species sequence comparisons, has yielded new mechanistic and evolutionary insights concerning the functional landscape of the human genome"},
+{"j": 2, "label": "contradicted", "confidence": 3, "evidence": "a more sophisticated view of chromatin structure has emerged, including its inter-relationship with DNA replication and transcriptional regulation"},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "the genome is pervasively transcribed, such that the majority of its bases can be found in primary transcripts"},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "performed on a targeted 1% of the human genome as part of the pilot phase of the ENCODE Project"}
+]
+},
+{
+"n": 1717,
+"id": "pmid:17512414",
+"verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "H2A.Z associates with functional regulatory elements, and CTCF marks boundaries of histone methylation domains."},
+{"j": 2, "label": "contradicted", "confidence": 3, "evidence": "The monomethylations of H3K27, H3K9, H4K20, H3K79, and H2BK5 are all linked to gene activation"},
+{"j": 3, "label": "not_addressed", "confidence": 2, "evidence": "Chromosome breakpoints detected in T cell cancers frequently reside in chromatin regions associated with H3K4 methylations.", "flag": "ambiguous", "reason": "The abstract reports a positional association between breakpoints and H3K4-methylated regions but makes no causal claim about removing the methylation."},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "generated high-resolution maps for the genome-wide distribution of 20 histone lysine and arginine methylations"}
+]
+},
+{
+"n": 1718,
+"id": "pmid:17603471",
+"verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "Trimethylation of lysine 9 and lysine 20 is detected at satellite, telomeric and active long-terminal repeats, and can spread into proximal unique sequences."},
+{"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "we show that chromatin state can be read in an allele-specific manner by using single nucleotide polymorphisms"},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "By obtaining over four billion bases of sequence from chromatin immunoprecipitated DNA, we generated genome-wide chromatin-state maps"},
+{"j": 4, "label": "contradicted", "confidence": 3, "evidence": "lysine 4 and lysine 27 trimethylation effectively discriminates genes that are expressed, poised for expression, or stably repressed"}
+]
+},
+{
+"n": 1719,
+"id": "pmid:16630819",
+"verdicts": [
+{"j": 1, "label": "contradicted", "confidence": 3, "evidence": "striking correspondences between genome sequence and histone methylation in ES cells, which become notably weaker in differentiated cells"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "examining histone methylation in mouse embryonic stem (ES) cells across 56 large HCNE-rich loci"},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "We propose that bivalent domains silence developmental genes in ES cells while keeping them poised for activation."},
+{"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We propose that bivalent domains silence developmental genes in ES cells while keeping them poised for activation."}
+]
+},
+{
+"n": 1720,
+"id": "pmid:16625203",
+"verdicts": [
+{"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Using genome-wide location analysis in murine ES cells, we found that the Polycomb repressive complexes PRC1 and PRC2 co-occupied 512 genes"},
+{"j": 2, "label": "contradicted", "confidence": 3, "evidence": "PcG target genes were de-repressed in cells deficient for the PRC2 component Eed, and were preferentially activated on induction of differentiation"},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "Using genome-wide location analysis in murine ES cells, we found that the Polycomb repressive complexes PRC1 and PRC2 co-occupied 512 genes"},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "PcG proteins directly repress a large cohort of developmental regulators in murine ES cells, the expression of which would otherwise promote differentiation"}
+]
+},
+{
+"n": 1721,
+"id": "pmid:22495304",
+"verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "TADs align with, but do not rely on, several domain-wide features of the epigenome, such as H3K27me3 or H3K9me2 blocks and lamina-associated domains."},
+{"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Disruption of a TAD boundary causes ectopic chromosomal contacts and long-range transcriptional misregulation."},
+{"j": 3, "label": "contradicted", "confidence": 3, "evidence": "the respective promoters of Xist and Tsix lying in adjacent TADs, each containing their known positive regulators"},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "we use chromosome conformation capture carbon-copy (5C) and super-resolution microscopy to analyse the spatial organization of a 4.5-megabases (Mb) region including Xist. We discover a series of discrete 200-kilobase to 1 Mb topologically associating domains (TADs)"}
+]
+},
+{
+"n": 1722,
+"id": "pmid:20639862",
+"verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "the human TET1 protein could catalyse the conversion of 5-methylcytosine (5mC) of DNA to 5-hydroxymethylcytosine (5hmC)"},
+{"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Tet1 has an important role in mouse embryonic stem (ES) cell maintenance through maintaining the expression of Nanog in ES cells."},
+{"j": 3, "label": "supported", "confidence": 3, "evidence": "all three mouse Tet proteins (Tet1, Tet2 and Tet3) can also catalyse a similar reaction"},
+{"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Downregulation of Nanog via Tet1 knockdown correlates with methylation of the Nanog promoter"}
+]
+},
+{
+"n": 1723,
+"id": "pmid:25693563",
+"verdicts": [
+{"j": 1, "label": "supported", "confidence": 3, "evidence": "We establish global maps of regulatory elements, define regulatory modules of coordinated activity, and their likely activators and repressors."},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "the integrative analysis of 111 reference human epigenomes generated as part of the programme"},
+{"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "the largest collection so far of human epigenomes for primary cells and tissues"},
+{"j": 4, "label": "contradicted", "confidence": 3, "evidence": "disease- and trait-associated genetic variants are enriched in tissue-specific epigenomic marks"}
+]
+},
+{
+"n": 1724,
+"id": "pmid:22955617",
+"verdicts": [
+{"j": 1, "label": "contradicted", "confidence": 3, "evidence": "the DHS compartment in pluripotent and immortalized cells exhibits higher mutation rates than that in highly differentiated cells"},
+{"j": 2, "label": "supported", "confidence": 3, "evidence": "genome-wide profiling in 125 diverse cell and tissue types. We identify"},
+{"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "exposing an unexpected link between chromatin accessibility, proliferative potential and patterns of human variation"},
+{"j": 4, "label": "supported", "confidence": 3, "evidence": "580,000 distal DHSs with their target promoters, revealing systematic pairing of different classes of distal DHSs and specific promoter types"}
+]
+}
+]
+}

@@ -1,0 +1,248 @@
+{"batch": "check_C_07", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+   {"n": 245, "id": "pmid:37445849",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Considerable mutational diversity was observed in TT, with fewer mutations in cfDNA."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Longitudinal ctDNA changes were consistent with clinical presentation."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "ctDNA in blood can be used for therapy monitoring of EC patients."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "In baseline cfDNA, mutations were detected in 12 out of 19 patients (63%); the median ctDNA level was 0.4%."}
+    ]},
+   {"n": 246, "id": "pmid:42386072",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "LAG-3 overexpression triggered CXCL1 and CXCL8 production of melanoma cells by enhancing TRIM28-mediated IκBα ubiquitination and degradation, which in turn activated the NF-κB pathway"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Notably, depletion of MDSCs counteracted the pro-tumor activity of tumor cell-derived LAG-3."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "This study firstly identified LAG-3 as a pro-tumor factor and a predictor for anti-LAG-3 immunotherapy efficacy."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "mice bearing LAG-3-overexpressing melanoma cells showed reduced survival but responded to anti-LAG-3 antibody therapy"}
+    ]},
+   {"n": 247, "id": "pmid:36534496",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Longitudinal analyses of ctDNA were more predictive of overall survival than standard-of-care radiological response evaluation."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "The combined cfDNA and WBC analysis prevented false-positives due to germline or hematopoietic variants in 40% of patients."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "ctDNA mutations related to primary or acquired resistance to panitumumab were identified in 42% of patients."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Patient-matched tumor tissue sequencing did not provide additional information."}
+    ]},
+   {"n": 248, "id": "pmid:39908964",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Nine signatures were extracted, with recurring Single Base Substitutions (SBS) signatures like SBS1, SBS2 and SBS5."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "TMB was similar between the CICLADES and CBSM groups, however the MSKCC population showed a significantly higher TMB than both."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "The mean number of mutations was significantly higher in enriched samples for each analyzed cohort."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "TMB was similar between the CICLADES and CBSM groups, however the MSKCC population showed a significantly higher TMB than both."}
+    ]},
+   {"n": 249, "id": "doi:10.1101/2025.09.17.676627",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "In contrast to the synaptic overgrowth seen with Copia depletion [1], aub reduction caused a decrease in synapse number and impaired motor function and lifespan."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Data from genetic reporters and antibody staining show that AUB is expressed and localized to the LNMJ."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Tissue-specific knockdown of aub at the LNMJ resulted in increased TE expression, including Copia"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "These phenotypes are consistent with the upregulation of Copia , a negative regulator of synapse growth."}
+    ]},
+   {"n": 250, "id": "pmid:41908150",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "with ichorCNA-derived tumor fractions ranging from 0% to 12.8%"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "However, most current methods are designed for short-read sequencing, limiting their applicability to third-generation technologies."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "End-motif analysis based on 5'4-mer frequencies, combined with non-negative matrix factorization (NMF), identified predominant A-end and G-end patterns"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Tumor fraction estimates derived from methylation-based fragmentomic features showed concordant trends, providing an independent measure of tumor burden and correlating with clinical response."}
+    ]},
+   {"n": 251, "id": "doi:10.64898/2026.08.04.741601",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "In contrast to the extensive CRISPR-Cas defense targeting we observed for Pg phages, we detected no exact matches between ICE sequences and Pg CRISPR spacers."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We discovered that ICEs are pervasive in Pg genomes, with >90% of genomes harboring at least one ICE."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Their distinct cargo profiles suggest that ICEs likely impact the virulence and ecology of Pg through the introduction and spread of advantageous traits"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "two of which dominate and frequently co-occur in Pg genomes, inserting into distinct characteristic insertion sites"}
+    ]},
+   {"n": 252, "id": "pmid:42133430",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "demonstrating its potential to reduce the number of unnecessary biopsies in a cohort with a relatively low rejection prevalence"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "dd-cfDNA alone demonstrated strong discriminative ability, with area under the receiver operating characteristic curves of 0.79 (95% confidence interval, 0.73 to 0.84) and 0.80 (95% confidence interval, 0.72 to 0.87) in the derivation and validation cohorts, respectively."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Combining dd-cfDNA with clinical parameters improved the above area under the receiver operating characteristic curves to 0.82 and 0.87, respectively."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "482 biopsies would have been safely avoided using post-test probabilities, with 437 (91%) of these being protocol biopsies"}
+    ]},
+   {"n": 253, "id": "pmid:41917802",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Six CoNS isolates were recovered, tested for antimicrobial susceptibility and subjected to whole-genome sequencing."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "A non-typable, mosaic SCCmec type IV element homologous to SCCmec IVa/IVn was identified in the multidrug-resistant S. capitis subsp. urealyticus ST1 isolate E_e2, recovered from the infected ear."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "a healthy 32-year-old male who experienced two infection episodes 6 months apart (left ear, followed by the left eye)"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "while the three S. epidermidis isolates shared a novel sequence type, ST1284"}
+    ]},
+   {"n": 254, "id": "pmid:40651512",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "with Bubalus bubalis (buffalo) housing 838 ERVs compared to 575 in Bos taurus (cattle)"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "PCR genotyping revealed breed-specific polymorphisms in both cattle and buffalo, suggesting ongoing retroviral influence"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "A total of 22 distinct ERV groups were identified, consisting of 20 beta-retroviruses (Class II) and two gamma-retroviruses (Class I)."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "While ERVs were depleted in transcribed regions likely due to purifying selection, they were enriched at regulatory loci"}
+    ]},
+   {"n": 255, "id": "pmid:41981754",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "LITT facilitated ctDNA detection in mouse plasma at 1 h, 3 days, 7 days, and 14 days post-procedure."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Using our previously developed LITT mouse model, we employed single-cell RNA-sequencing (scRNA-seq) to investigate gene expression changes in endothelial cells following LITT in the naive mouse brain."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "LITT increased caveolae-mediated transcytosis in endothelial cells for 21 days, peaking at 14 days, in part due to suppression of the transcytosis inhibitor Mfsd2a."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "LITT transiently disrupted TJ integrity for 7 days up to 100 µm away from the ablation zone."}
+    ]},
+   {"n": 256, "id": "doi:10.1101/2024.05.13.24307238",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "our method reveals, for the first time, gene mutant dosage patterns as independent predictors of prognosis, metastatic potential, and site-specific dissemination across diverse solid tumours"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Additionally, 26 biomarkers were recurrently associated with metastatic spread in 10 tumour types, and 20 predicted organ-specific metastatic tropism in 5 tumour types."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "By stratifying more than 20,000 patients according to mutant dosage across multiple oncogenes and tumour suppressor genes, we identified 46 tumour type–specific biomarkers predictive of overall survival."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "infers mutation copy number and multiplicity directly from clinical targeted sequencing panels without requiring matched normal samples"}
+    ]},
+   {"n": 257, "id": "doi:10.64898/2026.05.06.723206",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "In simulations, scClone2DR substantially outperforms alternatives in recovering true drug-effects and clonal sensitivities."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Applied to 60 melanoma and 21 acute myeloid leukaemia patient samples"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "a probabilistic multi-modal framework that predicts drug responses at the level of individual tumour clones by integrating single-cell DNA and RNA sequencing with ex-vivo drug-screening data"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "highlights clones that may be resistant to treatment, and improves the prediction of clinical outcomes compared to models ignoring clonal structure"}
+    ]},
+   {"n": 258, "id": "pmid:41154418",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "These suggest involvement within the KIT/RAS/MAPK and PI3K/AKT/mTOR (PAM) pathways for seminoma development."},
+      {"j": 2, "label": "supported", "confidence": 2, "evidence": "The most mutated genes included KIT (22.6%), KRAS (17.1%), and MTOR (5.1%)"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "BRD4 mutations were found only in metastatic samples while KMT2C , STAG2 , ALK , AXL , and EGFR were only found in primary samples"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "This study provided a comprehensive molecular and genetic profiling of seminoma including key genetic alterations, affected pathways, and potential therapeutic strategies."}
+    ]},
+   {"n": 259, "id": "pmid:42589177",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Hemolysis tests proved that the physiological saline-replaced fermentation supernatant possessed low hemolytic activity."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Notably, strains harboring both PB and Ty2 systems exhibited stronger antibacterial activity than those with a single system."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Microbial biosynthesis represents an attractive strategy for sustainable production of antimicrobial peptides."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Scanning electron microscopy further revealed that thanatin caused damage to bacterial cell membranes and led to cell lysis."}
+    ]},
+   {"n": 260, "id": "pmid:42534128",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Overall, SCM-based cfDNA analysis exhibited promise as a complementary tool for embryo selection in IVF workflows."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "RHD gene amplification was detected in 6 of 15 samples for exon 7 and in 11 samples for exon 10, with partial concordance between exons."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "A moderate positive correlation trend was noted between maternal age and MT-CYB levels (r=0.46; P=0.354)."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "SRY amplification was observed in 16 of 31 samples and was largely consistent with clinical sex data."}
+    ]},
+   {"n": 261, "id": "doi:10.64898/2026.06.08.26354966",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "was tested on serum from 20 ALS patients and 19 sex-matched controls (n = 39, TargetALS)"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "achieving 84.6% cross-validated accuracy (AUC = 0.87)"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Selected latent features were reproducible across an independent same-subject experimental batch and correlated with serum neurofilament light chain"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Mass spectrometry supported a molecular basis for discrimination, revealing an ALS-biased protein corona enriched in adaptive-immune and inflammatory proteins."}
+    ]},
+   {"n": 262, "id": "pmid:42830887",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Surveillance ctDNA determined by the HYB workflow had superior sensitivity to predict recurrence in both CRC (AMP: 90.0%, HYB: 100%) and HCC (AMP: 80.0%, HYB: 96.0%)."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "addition of GW features was marginally beneficial except in lung cancer"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The new methodology offers a streamlined and scalable solution for both comprehensive liquid biopsy profiling and longitudinal MRD tracking in routine clinical practice."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Optimal parameters to maximize assay performance included single-stranded DNA ligation technology, cfDNA input ≥ 15 ng, post-UMI sequencing depth ≥ 2500X, and high number of tracked mutations."}
+    ]},
+   {"n": 263, "id": "pmid:40189545",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "The combined effects of salinity and temperature gradients, alongside nutrient availability, created a complex environmental landscape that shaped the diversity and distribution of the predicted ARGs."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "with higher resistome diversity in the northern regions and a decline in the dead zones and the southern areas"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Salinity predominantly influenced microbial communities and predicted ARG composition"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We analyzed the metagenomes of benthic sediments from 59 monitoring stations across a 1,150 km distance of the Baltic Sea, revealing an environmental resistome comprised of predicted antimicrobial resistance genes (ARGs) associated with resistance against 26 antibiotic classes."}
+    ]},
+   {"n": 264, "id": "pmid:42347533",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "hsa-miR-103a-3p may be associated with fibrogenic responses and may have potential relevance to hepatocellular carcinoma-related processes"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Both paired worms and male worms significantly altered the miRNA expression profile of hepatic stellate cells."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "the potential target genes of hsa-miR-103a-3p were mainly enriched in AMP-activated protein kinase, mechanistic target of rapamycin, tumor necrosis factor, insulin signaling, and cellular senescence pathways"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "hsa-miR-103a-3p had diagnostic value in hepatocellular carcinoma and was associated with alpha-fetoprotein level, albumin level, Ishak fibrosis score, pathological stage, histological type, and tumor status"}
+    ]},
+   {"n": 265, "id": "pmid:40081113",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "positive ctDNA status remained an independent predictor of recurrence also when controlling for other known histopathologic risk factors (HR 5.49, 95 % CI 1.5-20, P = 0.010)"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Sixteen (19.3 %) patients were considered ctDNA positive with mutations in one or more genes."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Most alterations detected in plasma were concordant with mutations found in the matched tumor for the paired cases."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The preoperative presence of ctDNA was associated with a significantly higher rate of recurrence (37.5 % vs 11.9 %, P = 0.024)."}
+    ]},
+   {"n": 266, "id": "pmid:41819291",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "The pipeline identified transposons as the dominant MGE class while capturing environment-specific variation in plasmid, phage, and IE -associated ARGs."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "The pipeline was evaluated using a wide range of publicly available metagenomic datasets spanning diverse environments, including wastewater, poultry, soil, sediments, and human fecal samples."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Transposon-associated ARGs showed the most consistent environmental differentiation (ANOVA p = 0.0017; Kruskal-Wallis p = 0.018)"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The Random Forest (RF) model achieved an AUC of 0.82, and subsequent feature importance and SHapley Additive exPlanations (SHAP) analyses revealed that transposon abundance is the primary factor driving ARG dissemination across diverse environments."}
+    ]},
+   {"n": 267, "id": "pmid:42611125",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "both bla NDM-1 and bla CTX-M -harboring plasmids were transferable to E. coli J53 by conjugation without significant fitness cost on the recipient strain"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "while its biofilm formation ability was stronger than that of both strains"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Uncommon multilocus sequence types (MLSTs) of NDM-producing Klebsiella pneumoniae may pose a significant threat to patients, although they are often overlooked in surveillance studies."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "K. pneumoniae KP_WXD strain was resistant to all tested β-lactam agents."}
+    ]},
+   {"n": 268, "id": "pmid:40415439",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The patients with high WWP1 expression levels had significantly lower overall survival rate ( P =0.0012)."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "High WWP1 expression levels and Stage IV disease were both associated with a poor prognosis"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "RNA-seq analysis of WWP1-overexpressing SKOV3 cells and immunofluorescence assay of the tumor-bearing mice yielded findings consistent with those of bioinformatics analysis."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Multicolor immunofluorescence assay was used to analyze the immune markers in SKOV3 and SKOV3/DDP cell xenografts in nude mice."}
+    ]},
+   {"n": 269, "id": "doi:10.64898/2026.10.20.760491",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Our work also uncovered three novel Acr families through their fusion to helix-tail-helix domains or their presence in operons with other Acrs."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "indicating that their evolutionary trajectory has not involved specialization across the family to different Cas9 orthologs, while other families had patterns of inhibition more consistent with specialization"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "we characterized hundreds of Acr homologs for their ability to inhibit Cas9 proteins from Streptococcus pyogenes and Staphylococcus aureus"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we characterized hundreds of Acr homologs for their ability to inhibit Cas9 proteins from Streptococcus pyogenes and Staphylococcus aureus"}
+    ]},
+   {"n": 270, "id": "pmid:40775238",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "AVENIO identified additional actionable alterations, including ESR1 (17.5%) and PI3K pathway alterations (40.6%)"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "We conducted a prospective, multicenter study analyzing 161 plasma samples from 146 patients before initiating a new line of palliative therapy"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "High concordance (92.6%) was observed between SSS and AVENIO for PIK3CA mutations."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "AVENIO identified additional actionable alterations, including ESR1 (17.5%) and PI3K pathway alterations (40.6%)"}
+    ]},
+   {"n": 271, "id": "pmid:40838116",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Next generation sequencing (NGS) of cell free tumour DNA (ctDNA) provides a snapshot of lymphoma mutations correlating with tumour burden."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Only 1/12 MRD-negative patients relapsed."},
+      {"j": 3, "label": "supported", "confidence": 2, "evidence": "Early molecular response (EMR; ≥ 2 log 10 reduction in ctDNA during cycle 1) was predictive of end-of-treatment complete metabolic response (CMR; EMR rate 100% vs. no EMR 12.5%, p = 0.0014)", "flag": "ambiguous", "reason": "The abstract writes the paired rates as \"EMR rate 100% vs. no EMR 12.5%\" inside the CMR parenthesis, so whether 100% is the CMR rate among EMR patients is left to inference."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Somatic mutations were detected at baseline in 17/17 patients, including 13 with phased variants that could be leveraged for enhanced assay sensitivity."}
+    ]},
+   {"n": 272, "id": "pmid:41640009",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The CEACAM6 expression was significantly negatively associated with the abundance of CD4 + Th1 cells across pan-gastrointestinal cancers."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Based on TCGA data, CEACAM6 was found to be overexpressed in pan-gastrointestinal cancers."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "spatial transcriptomics data revealed that CEACAM6 expression was significant positively associated with malignant cells, while there was a negative correlation was observed with between CEACAM6 expression and plasma cells"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "CEACAM6 could promote angiogenesis/metastasis and suppress anti-tumor immunity."}
+    ]},
+   {"n": 273, "id": "pmid:41995286",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The concordance rate between CTCs and tissue mutations was 24.32%, while the concordance rate between CTCs and ctDNA mutations was 19.05%."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Sixty-eight GC patients underwent CTCs detection."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "The mutation detection rate in CTCs samples was significantly higher than that in tissue and ctDNA samples."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The CTCs count in GC patients is significantly higher than in healthy individuals and high-risk groups for cancer, with diagnostic sensitivity and specificity of 97.29% and 97.73%, respectively."}
+    ]},
+   {"n": 274, "id": "pmid:38442736",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "we provide evidence that a novel gene from an exapted Ty1' sequence, domesticated restriction of Ty1' relic 2 (DRT2), encodes a restriction factor that inhibits Ty1' movement"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "DRT2 arose through domestication of a Ty1' GAG gene and contains the C-terminal domain of capsid"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Velocity cosedimentation profiles indicate an association between Drt2 and Ty1' virus-like particles or assembly complexes."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Unlike Ty1 canonical, Ty1' retromobility increases with copy number"}
+    ]},
+   {"n": 275, "id": "pmid:42840116",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "45S rDNA arrays display strong and consistent accumulation of oxi-mCs, especially 5fC and 5caC, in transcriptionally active nucleolar organizing regions"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "While transposable elements largely reflect genomic abundance, satellite DNA shows selective and context-dependent overrepresentation"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "we identify widespread association of oxi-mCs across major repeat classes, including LTR retrotransposons, DNA transposons, satellite repeats, and ribosomal DNA (rDNA)"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "within the repeat-rich genome of Silene latifolia , a dioecious plant with heteromorphic sex chromosomes"}
+    ]},
+   {"n": 276, "id": "pmid:39600714",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "A keyword analysis identified seven conceptual clusters"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "The United States is the leading country in terms of both publication volume and citation frequency, followed by China and Italy."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The United States is the leading country in terms of both publication volume and citation frequency, followed by China and Italy."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The analysis encompassed a total of 1,054 publications, demonstrating a marked escalation in research activity since 2015."}
+    ]},
+   {"n": 277, "id": "pmid:41203935",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We identify a 26-bp promoter indel modulating CDCA7 expression in natural populations and determining the degree of mCG and transposable element silencing."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "The geographic distribution of CDCA7 alleles suggests that new alleles have repeatedly expanded to novel ecological niches, indicating a potential role in local adaptation."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "CDCA7 or its paralogue physically binds the chromatin remodeller DECREASE IN DNA METHYLATION 1 (DDM1), which facilitates access of methyltransferases to DNA."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "while CDCA7 proteins control all DDM1-dependent processes, their predominant function is the maintenance of mCG"}
+    ]},
+   {"n": 278, "id": "pmid:40443108",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Although the blastema can readjust most of the transposon differential expression in adulthood, several elements remain affected"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "By contrast, it is found that during regeneration of the limb, these pathways and the expression of Ty3 retrotransposons are distinctly downregulated."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Retrotransposons make up the largest portion of the axolotl genome, and their expression may be involved in this age-related decline."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Ty3 retrotransposons are highly upregulated in the axolotl as an effect of chronological aging"}
+    ]},
+   {"n": 279, "id": "doi:10.1101/2025.01.26.633420",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "We found that pathways involved in cellular stress, nucleic acid sensing, and innate immune signaling were upregulated in both cell lines exposed to increased amounts of UV energy as well as pterygium."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "using RNA collected from cultured human conjunctival fibroblasts exposed over multiple days to a range of UV intensities"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We also observed differential expression of TEs."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We propose that UV triggers the de-repression of transposable elements (TEs), including endogenous retroviruses (ERVs), and subsequently activate double-stranded RNA and DNA sensors such as RIG-I and cGAS."}
+    ]}
+ ]}

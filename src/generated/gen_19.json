@@ -1,0 +1,690 @@
+{
+ "batch": "gen_19",
+ "prompt_version": "gen-v4",
+ "items": [
+  {
+   "n": 620,
+   "id": "pmid:42720113",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Meta-GWAS integration pointed to cis-acting variants plus more than 50 candidate trans-acting loci associated with repeat abundance across the genome.",
+     "evidence": "Integrating these results through a meta-GWAS approach revealed both cis-acting variants and more than 50 candidate trans-acting loci associated with repeat abundance genome-wide.",
+     "note": "The abstract reports exactly this outcome of the meta-GWAS, including the count of candidate trans-acting loci."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Cis-acting variation sat mainly in centromeric and pericentromeric regions, whereas trans-acting loci were enriched for DNA replication, repair and methylation genes.",
+     "evidence": "Cis-acting variation was predominantly localized to pericentromeric and centromeric regions, whereas trans-acting loci were enriched for candidate genes involved in DNA replication, DNA repair, and DNA methylation regulation.",
+     "note": "This restates the contrast the abstract draws between where the cis- and trans-acting signals fall."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Mutant lines confirmed that the candidate trans-acting loci change repeat copy number.",
+     "evidence": "Integrating these results through a meta-GWAS approach revealed both cis-acting variants and more than 50 candidate trans-acting loci associated with repeat abundance genome-wide.",
+     "note": "The loci are reported as association candidates only; the abstract describes no mutant or other functional validation, and does not rule one out either."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The pattern of results fits purifying selection removing mutations that speed genome content divergence and favoring alleles that limit repeat expansion.",
+     "evidence": "The results are consistent with purifying selection acting against mutations that accelerate genome content divergence, favoring alleles that constrain repeat expansion.",
+     "note": "The abstract states this interpretation of its own results directly."
+    }
+   ]
+  },
+  {
+   "n": 621,
+   "id": "doi:10.64898/2026.10.18.759982",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "The aglycosylated sulfotransferase variants kept the same substrate specificity as their glycosylated counterparts.",
+     "evidence": "thereby improving heterologous production and residual activity stability for selected sulfotransferases in E. coli",
+     "note": "The abstract reports gains in production and activity stability but never compares substrate specificity between glycosylated and aglycosylated forms."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Reverting non-conserved N-glycosylation sequons in heparin 3-O-sulfotransferase 1 stretched its residual activity half-life by a factor of 4.5.",
+     "evidence": "Using heparin 3-O-sulfotransferase 1 (3OST-1) as a model enzyme apparatus in eukaryotic organisms, EGO-NGly extended the residual activity half-life by 4.5-fold.",
+     "note": "The abstract gives this 4.5-fold half-life extension for the 3OST-1 model enzyme."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Applied across a panel of 3OST and 6OST homologs, the strategy worked for only some of the enzymes tested.",
+     "evidence": "EGO-NGly was further applied to a panel of 3OST and 6OST homologs, demonstrating its applicability to a subset of the tested enzymes.",
+     "note": "The abstract limits the method's demonstrated applicability to a subset of the homologs tried."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Pairing the strategy with the machine learning-aided Protein Repair One-Stop Service produced variants with 8-fold and 17-fold longer residual activity half-lives.",
+     "evidence": "as exemplified by its combination with the machine learning-aided Protein Repair One-Stop Service, generating variants with 8-fold and 17-fold extensions in residual activity half-life",
+     "note": "The abstract reports these two half-life extensions from combining the method with that machine-learning service."
+    }
+   ]
+  },
+  {
+   "n": 622,
+   "id": "pmid:42090964",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The M. albus genome yielded 44 MaAQP genes, split across the PIP, TIP, NIP, SIP and XIP subfamilies.",
+     "evidence": "44 MaAQP genes were identified in the M. albus genome and grouped into five subfamilies: PIP, TIP, NIP, SIP, and XIP",
+     "note": "This is the gene count and subfamily breakdown the abstract reports."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Salt induced MaAQP expression predominantly in roots.",
+     "evidence": "MaAQP genes responded to salt stresses, with salt-induced expression occurring predominantly in roots",
+     "note": "The abstract locates the salt-induced expression of these genes mainly in roots."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "In salt-treated transgenic hairy roots, the overexpression lines gained 14.8-25.0% in root length and 26.2-53.2% in fresh weight.",
+     "evidence": "with root length increasing by 14.8-25.0% and fresh weight by 26.2-53.2%",
+     "note": "These are the growth gains the abstract reports for the overexpressing hairy roots under salt treatment."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Whole M. albus plants overexpressing MaPIP2;1 produced more biomass than wild-type plants on saline-alkali soil.",
+     "evidence": "Overexpression of MaPIP2;1, MaTIP2;2, and MaPIP1;1 was associated with improved yeast growth under salt stress.",
+     "note": "Overexpression was tested in yeast and in transgenic hairy roots only; the abstract reports no whole-plant or soil experiment."
+    }
+   ]
+  },
+  {
+   "n": 623,
+   "id": "pmid:39862048",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The screen of B. tabaci turned up 136 horizontal gene transfer events, 14 of them carbohydrate-active enzymes.",
+     "evidence": "identified 136 horizontal gene transfer events, 14 of which corresponding to carbohydrate-active enzymes",
+     "note": "The abstract gives both of these counts for B. tabaci."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Knocking down the plant-derived glucanases lowers whitefly survival on host plants.",
+     "evidence": "These two carbohydrate-active enzymes are the first characterized glycoside hydrolase families 17 and 152 glucanases in an animal.",
+     "note": "The enzymes are characterized biochemically; the abstract reports no knockdown or insect-performance experiment, and does not deny such an effect."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The plant-acquired glycoside hydrolase family 17 and 152 members from the whitefly are functional beta-glucanases with differing substrate specificities.",
+     "evidence": "members of the glycoside hydrolase families 17 and 152 acquired from plants are functional beta-glucanases with different substrate specificities",
+     "note": "The biochemical results in the abstract state exactly this."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Trialeurodes vaporariorum had fewer horizontal gene transfer events than B. tabaci, with only three transfer-derived carbohydrate-active enzymes.",
+     "evidence": "We identified a lower number of horizontal gene transfer events in the related Aleyrodinae Trialeurodes vaporariorum, with only three horizontal gene transfer-acquired carbohydrate-active enzymes",
+     "note": "The abstract reports this lower count in the related whitefly species."
+    }
+   ]
+  },
+  {
+   "n": 624,
+   "id": "pmid:42115469",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Maximum likelihood and Bayesian inference both placed all 1,053 E2 sequences inside the five previously defined subgenotypes.",
+     "evidence": "Phylogenomic analyses using maximum likelihood (ML) and Bayesian inference (BI) confirmed that the 1,053 strains clustered within the previously defined five subgenotypes (1.1, 1.2, 2.1, 2.3 and 3.4).",
+     "note": "The abstract states that both phylogenomic methods confirmed clustering into those five subgenotypes."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Site-by-site dN/dS analysis flagged a single positively selected codon, at amino acid position 71.",
+     "evidence": "One positively selected site was identified at amino acid residue position 71.",
+     "note": "The abstract reports exactly one positively selected site, at residue 71."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Substitutions at residue 71 reduce the protection given by current E2 subunit vaccines.",
+     "evidence": "Understanding the molecular epidemiology and functional significance of positively selected amino acid sites may aid in predicting changes in virulence and inform vaccine development and disease control strategies.",
+     "note": "The abstract points to possible relevance for vaccine development but measures no vaccine protection or escape."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The effective population size of CSFV grew from the 1920s through the 1950s and then held steady.",
+     "evidence": "The effective population size of CSFV began increasing in the 1920s, continued to rise until the 1950s, and then remained stable thereafter.",
+     "note": "This is the demographic trajectory the abstract's Bayesian coalescent analysis describes."
+    }
+   ]
+  },
+  {
+   "n": 625,
+   "id": "doi:10.64898/2026.02.24.707731",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Phylotype I strains cause more severe wilt than strains of the other RSSC phylotypes.",
+     "evidence": "We generated a complete, gap-free hybrid genome assembly of F1C1, a South Asian Phylotype I strain classified as R. pseudosolanacearum.",
+     "note": "The abstract names the strain's phylotype but reports no comparison of disease severity between phylotypes."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The gap-free F1C1 assembly resolved a bipartite genome: a 3.73 Mb chromosome plus a 2.03 Mb megaplasmid.",
+     "evidence": "The closed assembly resolves a bipartite genome (3.73 Mb chromosome; 2.03 Mb megaplasmid)",
+     "note": "These are the two replicons and sizes the abstract reports for the closed assembly."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Pangenome mapping located 651 conserved integration spots where accessory turnover concentrates, enriched for type III secretion effectors and antiviral defense systems.",
+     "evidence": "Pangenome-informed mapping of genome plasticity identified 651 conserved integration spots that concentrate accessory turnover and are enriched for adaptive functions, including type III secretion system effectors and antiviral defense systems (e.g., Wadjet and CRISPR-Cas).",
+     "note": "The abstract reports this count of integration spots and the functions enriched in them."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Genes sitting inside the integration spots carry higher Ka/Ks values than housekeeping genes.",
+     "evidence": "Genes within these spots display elevated K a / K s relative to housekeeping functions",
+     "note": "The abstract contrasts elevated Ka/Ks in the spot genes with housekeeping functions."
+    }
+   ]
+  },
+  {
+   "n": 626,
+   "id": "pmid:42594086",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Whole-genome sequencing covered 14 ESBL-producing E. coli from a slaughterhouse pig cecum and 26 from retail market pork in central Thailand.",
+     "evidence": "ESBL-producing E. coli isolates from a slaughterhouse pig cecum (n = 14) and retail market pork (n = 26) in central Thailand were collected.",
+     "note": "The abstract gives these isolate counts and their two sources."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Resistance and virulence gene content clustered together across cecum and pork isolates in the NMDS analysis.",
+     "evidence": "Resistome, virulome, and NMDS analysis demonstrated a shared clustering of antimicrobial resistance genes (ARGs) and virulence factors (VF) genes between cecum and pork isolates.",
+     "note": "The abstract reports shared clustering of ARG and virulence gene content between the two sources."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "tet(X4) turned up mostly in the dominant ST48 clone and lay next to ISCR2, taken as evidence of horizontal transfer.",
+     "evidence": "tet(X4) was predominantly found in the dominant ST48 clone and these tet(X4) adjacent to ISCR2, providing evidence of horizontal gene transfer (HGT).",
+     "note": "The abstract reports this clonal distribution and the ISCR2 context as evidence for horizontal gene transfer."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Tigecycline minimum inhibitory concentrations were higher in the tet(X4)-positive isolates than in the tet(X4)-negative ones.",
+     "evidence": "Whole-genome sequencing (WGS) was employed to analyze the resistome, virulome, and phylogenomic relationships.",
+     "note": "Every analysis described is genomic; no phenotypic susceptibility testing or MIC comparison is reported."
+    }
+   ]
+  },
+  {
+   "n": 627,
+   "id": "pmid:42129649",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The Gpr mitogenome measures 703,983 bp at 45.20% GC, while the Gcr mitogenome is 831,994 bp at 45.35% GC.",
+     "evidence": "The genome sizes and GC contents of the Gpr and Gcr mitochondrial genomes, as well as the Gpr chloroplast genome, are as follows: 703,983 bp and 45.20%, 831,994 bp and 45.35%, and 192,038 bp and 36.61%, respectively.",
+     "note": "The abstract lists these figures in the order Gpr mitogenome, Gcr mitogenome, Gpr chloroplast genome."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Gpr plants tolerate low temperatures better than Gcr plants in controlled stress experiments.",
+     "evidence": "Our results reveal the potential adaptation mechanisms of Gpr to high-elevation extremes environmental and provide valuable resources for further understanding the evolutionary pattern of organelle genomes in Ericales.",
+     "note": "The abstract infers candidate genomic adaptations to high elevation but reports no physiological or stress-tolerance test."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The ccmC gene of the high-elevation Gpr carries more RNA edits than the Gcr copy and shows a Ka/Ks ratio above 1.",
+     "evidence": "Compare to Gcr, the ccmC gene of Gpr has more RNA edits and undergoes potentially positive selection (Ka/Ks > 1).",
+     "note": "The abstract makes this direct ccmC comparison between the two species."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Gpr holds an extra cytb copy with an RNA-editing-created start codon, an additional atp9 with an edited stop codon, and one more sdh3 copy than Gcr.",
+     "evidence": "Gpr contains an extra copy of the cytb gene with an RNA editing-mediated start codon, an additional atp9 gene with an RNA editing-mediated stop codon, and one more copy of sdh3",
+     "note": "The abstract lists these three gene-copy differences relative to the lower-elevation Gcr."
+    }
+   ]
+  },
+  {
+   "n": 628,
+   "id": "pmid:37674108",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "T. pinchaque has an AT-rich mitochondrial genome of 16,750 bp.",
+     "evidence": "The AT-rich mitochondrial genome of T. pinchaque is 16,750 bp long.",
+     "note": "The abstract gives this length and AT-rich composition for the T. pinchaque mitogenome."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Ratios of non-synonymous to synonymous substitutions showed purifying selection on every mitochondrial gene in T. pinchaque and the other high-elevation odd-toed ungulates.",
+     "evidence": "The ratio of non-synonymous to synonymous substitutions demonstrated that all mitochondrial genes undergo purifying selection in T. pinchaque and other odd ungulates living at high elevations.",
+     "note": "The abstract reports purifying selection across all mitochondrial genes in these species."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Site Models put one positively selected site in nad2 and four in nad5, and Bayesian Empirical Bayes posterior probabilities did not support them.",
+     "evidence": "Site Models suggested that one and four sites in nad2 and nad5, respectively, could be experiencing positive selection. However, these results were supported by Likelihood Ratio Tests but not Bayesian Empirical Bayes posterior probabilities.",
+     "note": "The abstract reports these site counts together with the failure of the BEB posterior probabilities to support them."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Selection on mitochondrial protein coding genes is stronger in T. pinchaque than in lowland tapir species.",
+     "evidence": "In this study, we formally tested for signatures of adaptive evolution on mitochondrial protein coding genes in Tapirus pinchaque and other odd-toed ungulates inhabiting high-elevation environments.",
+     "note": "Every taxon in the selection analysis lives at high elevation, so the abstract makes no comparison with lowland relatives."
+    }
+   ]
+  },
+  {
+   "n": 629,
+   "id": "pmid:41147188",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "The mutations that accumulated during passaging make the virus more transmissible between mammalian hosts.",
+     "evidence": "Our findings uncover host-specific selective forces in shaping SARS-CoV-2 evolution and highlight the need for systematic approaches to mitigate viral transmission and emerging variants.",
+     "note": "Transmission appears only as a motivation; the transmissibility of the passage-derived mutations was never measured."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The virus was passaged in seven cell lines from four tissues of five mammalian species, and sequencing showed consistent positive selection on the Spike protein.",
+     "evidence": "passaging the virus in seven cell lines derived from four tissues across five mammalian species. High-throughput sequencing revealed consistent positive selection on the Spike (S) protein",
+     "note": "The abstract gives these counts for the passaging system and reports consistent positive selection on Spike."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Type I interferon activation varied inversely with the accumulation of the Spike mutations E484D, P812R/L and L1186R.",
+     "evidence": "Notably, IFN-I activation is inversely correlated with the accumulation of S protein mutations (E484D, P812R/L, L1186R).",
+     "note": "The abstract reports this inverse correlation between IFN-I activation and those Spike mutations."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The study singled out type I interferons and APOBEC-mediated editing as key modulators of viral evolution in its system.",
+     "evidence": "Type I interferons (IFN-I) and APOBEC-mediated editing may emerge as key modulators of viral evolution.",
+     "note": "The abstract names these two factors as the key modulators emerging from its data."
+    }
+   ]
+  },
+  {
+   "n": 630,
+   "id": "doi:10.1101/2025.06.02.657354",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The study sequenced 82 Baltic Sea isolates from water, sediment and seagrass and added 208 clinical plus 117 globally distributed published genomes.",
+     "evidence": "we sequenced the genomes of 82 V. vulnificus isolates from water, sediment, and seagrass along the Baltic Sea coast and complemented with published genomes from 208 clinical and 117 globally distributed isolates for comparative analysis",
+     "note": "These are the genome counts and sources the abstract reports for its comparison."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Four major lineages emerged; Baltic Sea strains appeared only in L2 and L4, while clinical and environmental strains spread across all lineages.",
+     "evidence": "Phylogenetic reconstruction confirmed four major lineages, with Baltic Sea strains confined to lineage L2 and L4, while clinical and environmental strains were distributed across all lineages.",
+     "note": "The abstract reports this lineage structure and the restriction of the Baltic strains to two lineages."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The PCR primers were tested on patient samples and detected pathogenic strains reliably.",
+     "evidence": "Finally, we used the clinically enriched genes to design PCR primers for detecting and monitoring pathogenic V. vulnificus strains, providing a valuable tool for surveillance and public health efforts.",
+     "note": "The abstract reports that primers were designed, not any validation on clinical or environmental samples."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The PhyloBOTL analysis found 128 orthologs significantly enriched in clinical isolates, falling into 36 co-localization clusters by genomic proximity.",
+     "evidence": "we identified 128 orthologs significantly enriched in clinical isolates, grouped into 36 co-localization clusters based on proximity in the genomes",
+     "note": "The abstract gives these counts of clinically enriched orthologs and of clusters."
+    }
+   ]
+  },
+  {
+   "n": 631,
+   "id": "doi:10.1101/2025.06.09.658676",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Phylogenomics put the new methanotroph below 95% average nucleotide identity to every described species.",
+     "evidence": "Phylogenomic analysis revealed <95% ANI to described species",
+     "note": "The abstract reports under 95% ANI against described species."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Methane oxidation rates measured in the enrichment cultures exceeded the rates in the surrounding sediments.",
+     "evidence": "metabolic versatility via complete methane oxidation (pmoABC) , nitrogen fixation ( nifHDK ), and sulfur cycling ( sox/sqr ) pathways",
+     "note": "The abstract reports genes for a complete methane oxidation pathway but no measured oxidation rates in culture or sediment."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Comparative genomics defined a 1,234-gene deep-sea core shared with M. sp. wino1, enriched in mobile elements such as transposases and prophages.",
+     "evidence": "Comparative genomics identified a 1,234-gene deep-sea core shared with M . sp. wino1, enriched in mobile elements ( TnpA , prophages) suggesting horizontal gene transfer drives adaptation.",
+     "note": "The abstract reports this shared gene core and its enrichment in mobile elements."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "In situ amplicon surveys missed M. crucis, yet it enriched rapidly once methane was available.",
+     "evidence": "While undetected in situ amplicon surveys, M. crucis exhibited rapid enrichment under methane availability, demonstrating its role as a latent methane filter.",
+     "note": "The abstract contrasts its absence from amplicon surveys with its rapid enrichment under methane."
+    }
+   ]
+  },
+  {
+   "n": 632,
+   "id": "pmid:41114150",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The 'Zhuyeqi' mitochondrial genome spans 911,255 bp at 46% GC and is split into one circular and six linear chromosomes.",
+     "evidence": "The mitochondrial genome of 'Zhuyeqi' consists of one circular chromosome and six linear chromosomes, with a total length of 911,255 bp and a GC content of 46%.",
+     "note": "The abstract reports this architecture together with the total length and GC content."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Dispersed repeats made up the bulk of the repeat content, 780 elements or 72% of the total.",
+     "evidence": "Repeat sequence analysis showed that dispersed repeats (780, 72%) dominated",
+     "note": "The abstract reports dispersed repeats dominating, with that count and share."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "RNA editing analysis counted 556 C-to-U sites, concentrated most heavily in ccmFn with 38 and ccmB with 34.",
+     "evidence": "RNA editing analysis identified 556 C-to-U editing sites, notably enriched in ccmFn (38 sites) and ccmB (34 sites).",
+     "note": "The abstract gives the total number of editing sites and the two most enriched genes."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "The 27 intact genes inside the mitochondrial-chloroplast homologous segments are transcribed in the mitochondrion.",
+     "evidence": "Comparative genomics uncovered 66 homologous segments (25,656 bp) between the mitochondrial and chloroplast genomes, containing 27 intact genes such as trnA-UGC , confirming horizontal gene transfer events.",
+     "note": "The abstract reports the transferred segments and the genes they contain but says nothing about whether those genes are transcribed."
+    }
+   ]
+  },
+  {
+   "n": 633,
+   "id": "pmid:42866372",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Resistance gene abundance in the sediment rose with proximity to the urban inflows of Lake Taihu.",
+     "evidence": "In this study, we reconstructed 206 dereplicated metagenome-assembled genomes (MAGs) from sediment cores collected across four regions of Lake Taihu.",
+     "note": "Cores came from four regions, but the abstract reports no comparison of resistance genes between those regions."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The 206 dereplicated MAGs covered 34 classified phyla and 72 classified genera, with 97.6% unclassified at the species level.",
+     "evidence": "These dereplicated MAGs spanned 34 classified phyla and 72 classified genera, with 97.6% unclassified at the species level, indicating substantial genomic novelty.",
+     "note": "The abstract reports this taxonomic breadth and the share left unassigned at species level."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Glycopeptide resistance determinants vanT and vanW together with RND efflux pumps accounted for 86.1% of the detected resistome.",
+     "evidence": "Putative antibiotic resistance genes were predominantly represented by glycopeptide resistance determinants (vanT/vanW) and resistance-nodulation-division (RND) efflux pumps, which together accounted for 86.1% of the detected resistome.",
+     "note": "The abstract gives these two gene categories and their combined share of the resistome."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Among the 490 predicted horizontal gene transfer events, transferred genes belonged most often to energy metabolism, translation and transcriptional regulation.",
+     "evidence": "490 predicted horizontal gene transfer (HGT) events were identified, with transferred genes being most prevalent in energy metabolism (12.4%), translation (10.8%), and transcriptional regulation (7.2%)",
+     "note": "The abstract reports this count of HGT events and the functional categories most represented among transferred genes."
+    }
+   ]
+  },
+  {
+   "n": 634,
+   "id": "pmid:41739266",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Tandem duplications showed up in both species, and tilapia carried more transcription factor-binding sites than common carp.",
+     "evidence": "Key findings include the identification of tandem duplications in both species and a higher number of transcription factor-binding sites (TFBSs) in tilapia compared to common carp.",
+     "note": "The abstract reports duplications in both species and the higher TFBS count in tilapia."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "qRT-PCR showed organ-specific HSP90 responses and differing thermal tolerances, with Nile tilapia responding more strongly to extreme heat at 40 °C than common carp.",
+     "evidence": "qRT-PCR analysis revealed organ-specific responses and differing thermal tolerances, with O. niloticus exhibiting a more pronounced adaptive response to extreme heat",
+     "note": "The abstract reports organ-specific expression and a more pronounced heat response in Nile tilapia, naming 40 °C as the extreme-heat condition in the same sentence."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Nile tilapia survives prolonged heat exposure at a higher rate than common carp in aquaculture ponds.",
+     "evidence": "As global temperatures rise, such insights are essential for enhancing aquaculture sustainability by leveraging natural adaptive mechanisms.",
+     "note": "Aquaculture relevance is raised only as a prospect; no survival, production or pond data are reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Tests for positive selection found significant signs of adaptive evolution in the HSP90 proteins.",
+     "evidence": "Positive selection analysis revealed significant evidence of adaptive evolution in the HSP90 proteins.",
+     "note": "The abstract reports significant evidence of adaptive evolution from its positive selection analysis."
+    }
+   ]
+  },
+  {
+   "n": 635,
+   "id": "pmid:42568539",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "ST34 was the most common sequence type at 26.1%, followed by ST11 at 15.4% and ST19 at 13.3%.",
+     "evidence": "Three STs predominated: ST34 (26.1%, mainly monophasic S. Typhimurium ), ST11 (15.4%, exclusively S. Enteritidis ), and ST19 (13.3%, classical S. Typhimurium ).",
+     "note": "The abstract lists these three dominant sequence types with their shares."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Patients infected with ST34 had more severe diarrheal illness than patients infected with ST11 or ST19.",
+     "evidence": "A 7.5-year surveillance study (2017-2024) was conducted using NTS isolates from patients with acute diarrheal illness in Huzhou, China.",
+     "note": "Isolates came from patients with acute diarrhea, but the abstract compares no clinical outcomes between the sequence types."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "ST34 adhered to IEC-6 epithelial cells significantly better, while its higher invasion appeared only against ST11 and not against ST19.",
+     "evidence": "ST34 showed significantly enhanced epithelial adhesion in IEC-6 cells, whereas increased invasion was observed only in comparison with ST11 and not with ST19.",
+     "note": "The abstract reports enhanced adhesion for ST34 and the limited scope of the invasion difference."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "All 49 ST34 isolates carried an intact Gifsy-1 prophage, ST19 isolates held only truncated copies, and ST11 lacked the element entirely.",
+     "evidence": "All 49 ST34 isolates carried the intact Gifsy-1 prophage, whereas ST19 isolates harbored only truncated versions and ST11 completely lacked this element.",
+     "note": "The abstract reports the prophage in all 49 ST34 isolates and its truncated or absent state in the other two types."
+    }
+   ]
+  },
+  {
+   "n": 636,
+   "id": "pmid:41454244",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "E. maxima occupies colder water than its congener E. radiata.",
+     "evidence": "Ecklonia maxima, an ecologically and economically critical brown alga, holds substantial value in social, economic, and ecological contexts.",
+     "note": "The abstract covers chloroplast genome structure and selection only; it makes no ecological or temperature comparison between the species."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The E. maxima chloroplast genome runs to 130,900 bp, with a 76,991 bp LSC, a 42,941 bp SSC and two inverted repeats of 5,484 bp each.",
+     "evidence": "The assembled genome is 130,900 bp in length and exhibits the typical quadripartite structure, consisting of a large single-copy (LSC) region of 76,991 bp, a small single-copy (SSC) region of 42,941 bp, and a pair of inverted repeat (IR) regions (each 5,484 bp).",
+     "note": "These are the lengths the abstract reports for the whole plastome and each of its regions."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Across the six Ecklonia species compared, the inverted repeat regions were more conserved than the LSC and SSC regions.",
+     "evidence": "Comparative genomic analysis among the six Ecklonia species (including E. maxima) showed high sequence conservation, with the IR regions being more conserved than the LSC and SSC regions.",
+     "note": "The abstract reports higher conservation of the IR regions in that six-species comparison."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Ka/Ks analysis marked petF, rpl24 and syfB as positively selected while most genes fell under purifying selection.",
+     "evidence": "The Ka/Ks (nonsynonymous/synonymous substitution rate) analysis indicated that petF, rpl24, and syfB were under positive selection, while the majority of genes were under purifying selection.",
+     "note": "The abstract names these three genes under positive selection against a background of purifying selection."
+    }
+   ]
+  },
+  {
+   "n": 637,
+   "id": "pmid:42857886",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Mutations fixed at a constant rate of 0.085 per generation in MT-2 and 0.042 in MT-4, while the kinetics of adaptive fixation shifted over time.",
+     "evidence": "Time-resolved sequencing data uncovered that despite constant fixation rate of 0.085 (MT-2) and 0.042 (MT-4) mutations per generation, the fixation kinetics of adaptive mutations changed considerably over time.",
+     "note": "The abstract gives these per-generation fixation rates alongside the change in adaptive fixation kinetics."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Fixation of adaptive parallel mutations slowed by 44% every 300 generations, and per-mutation fitness gain fell 27% in MT-2 and 18% in MT-4.",
+     "evidence": "The rate of fixation of adaptive parallel mutations decreased by 44% every 300 generations, while their conferred fitness gain decreased by 27% (MT-2) and 18% (MT-4) per every added adaptive mutation in their genetic background.",
+     "note": "The abstract reports both the slowing fixation rate and the diminishing fitness gains with these figures."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "One of the two populations showed genomic patterns consistent with a hard selective sweep late in the experiment.",
+     "evidence": "Furthermore, we identified genomic patterns consistent with a hard selective sweep that occurred in one population later in the experiment.",
+     "note": "The abstract reports such a sweep signature in one population at a later stage."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "The adaptive mutations fixed in these cell-line populations also rise in frequency during HIV-1 infection in patients.",
+     "evidence": "To investigate the characteristics of adaptation deceleration in a fast-evolving virus, we propagated HIV-1 in two human T-cell lines (MT-2 and MT-4) for ~4.8 years and tracked its genome evolution through next-generation sequencing.",
+     "note": "The experiment ran in two T-cell lines; the abstract reports nothing about within-patient evolution either way."
+    }
+   ]
+  },
+  {
+   "n": 638,
+   "id": "doi:10.64898/2026.09.21.753358",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "All four new Vibrio phages made small turbid plaques and encode integrases, fitting a temperate lifestyle.",
+     "evidence": "All four phages produced small, turbid plaques and encoded integrases, consistent with temperate lifestyles.",
+     "note": "The abstract reports both the plaque morphology and the integrases as indicators of temperate lifestyles."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Comparative genomics placed all four phages in the class Caudoviricetes but outside every previously described order, family and genus of that class.",
+     "evidence": "Comparative genomic analyses support the placement of all four phages within the class Caudoviricetes , but outside of any previously described orders, families, or genera within the class.",
+     "note": "The abstract reports this placement inside the class but outside all existing lower taxa."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Lysogenized strain OCN008 killed coral tissue faster than the phage-free strain in infection assays.",
+     "evidence": "All four phages were also found to contain homologs to experimentally established virulence factors, which may contribute to the pathogenicity of the host bacterium during lysogeny.",
+     "note": "Virulence-factor homologs are noted as a possible contribution; no infection experiment comparing lysogens with the phage-free host is reported."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Satoshi, Kolob and Ushijima cluster with phage CKB-S2 in one genus-level lineage, while Kane has no close database relatives and forms its own lineage.",
+     "evidence": "Satoshi, Kolob, and Ushijima, along with previously described V. coralliilyticus phage CKB-S2, cluster within one genus-level lineage, while Kane, which has no close relatives in available databases, represents a distinct, previously undescribed lineage.",
+     "note": "The abstract reports these two lineages, which underlie the two proposed new genera."
+    }
+   ]
+  },
+  {
+   "n": 639,
+   "id": "pmid:40682296",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The S-locus supergene was hemizygous in short-styled individuals of all three Linum species, varying in size, gene content, repeats and recombination suppression.",
+     "evidence": "The S-locus supergene was consistently hemizygous in short-styled individuals across all three species, although it showed variation in size, gene content, repeat elements and extent of recombination suppression.",
+     "note": "The abstract reports consistent hemizygosity alongside variation in exactly those features."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "The two floral morphs of Linum grandiflorum differ in pollen size.",
+     "evidence": "Using haplotype-resolved genomes and population genomics, we identified and characterized the S-loci of Linum perenne (distylous) and Linum grandiflorum (style length dimorphic), and compared them to that of Linum tenue (distylous).",
+     "note": "The morphs are described through style length and anther height; pollen size is never measured or mentioned."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Two S-linked candidate genes were conserved: TSS1, tied to style length, and WDR-44, tied to anther height and pollen self-incompatibility.",
+     "evidence": "Two S-linked candidate genes, TSS1 (style length) and WDR-44 (anther height/pollen self-incompatibility), were conserved.",
+     "note": "The abstract names these two conserved S-linked candidates and the traits attached to them."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Epibrassinolide treatment produced a conserved, morph-specific effect on style length, and S-locus features stayed conserved for more than 30 million years in Linum.",
+     "evidence": "epibrassinolide treatment revealed a conserved, morph-specific effect on style length. S-locus structural polymorphism, candidate distyly genes and mechanisms regulating style length remain conserved > 30 Ma in Linum.",
+     "note": "The abstract reports the hormone effect and the conservation of S-locus features over more than 30 Ma."
+    }
+   ]
+  }
+ ],
+ "flip_rule": "first-of-any-v2",
+ "flip_rule_history": [
+  "first-of-any"
+ ]
+}

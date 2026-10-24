@@ -1,0 +1,73 @@
+{"batch": "check_C_110", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1745, "id": "pmid:26840489",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "attenuated age-related deterioration of several organs without apparent side effects, including kidney, heart and fat"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "to induce apoptosis in p16(Ink4a)-expressing cells of wild-type mice by injection of AP20187 twice a week"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "p16(Ink4a)-positive cells that accumulate during adulthood negatively influence lifespan and promote age-dependent changes in several organs"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The clearance of p16(Ink4a)-positive cells delayed tumorigenesis and attenuated age-related deterioration of several organs without apparent side effects, including kidney, heart and fat"}
+    ]},
+   {"n": 1746, "id": "pmid:29988130",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "transplanting relatively small numbers of senescent cells into young mice is sufficient to cause persistent physical dysfunction"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "dasatinib plus quercetin, which causes selective elimination of senescent cells, decreased the number of naturally occurring senescent cells and their secretion of frailty-related proinflammatory cytokines in explants of human adipose tissue"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Transplanting even fewer senescent cells had the same effect in older recipients and was accompanied by reduced survival"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "intermittent oral administration of senolytics to both senescent cell-transplanted young mice and naturally aged mice alleviated physical dysfunction and increased post-treatment survival by 36% while reducing mortality hazard to 65%"}
+    ]},
+   {"n": 1747, "id": "pmid:28230051",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "early-intervention suicide-gene-mediated senescent cell ablation improves pulmonary function and physical health, although lung fibrosis is visibly unaltered"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "elevated abundance of senescence biomarkers in IPF lung, with p16 expression increasing with disease severity"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "the secretome of senescent fibroblasts, which are selectively killed by a senolytic cocktail, dasatinib plus quercetin (DQ), is fibrogenic"},
+      {"j": 4, "label": "not_addressed", "confidence": 2, "evidence": "Leveraging the bleomycin-injury IPF model, we demonstrate that early-intervention suicide-gene-mediated senescent cell ablation improves pulmonary function and physical health, although lung fibrosis is visibly unaltered. DQ treatment replicates benefits of transgenic clearance", "flag": "ambiguous", "reason": "The study is a mouse model and DQ was not tested in IPF patients, so the clinical claim is neither stated nor contradicted."}
+    ]},
+   {"n": 1748, "id": "pmid:28104796",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "An NLRP3 inhibitor showed greater atheroprotective activity in chimeric mice reconstituted with TET2-deficient cells than in nonchimeric mice"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "TET2-deficient macrophages exhibited an increase in NLRP3 inflammasome-mediated interleukin-1β secretion"},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "This clonal hematopoiesis correlates with an increased risk of atherosclerotic cardiovascular disease"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "partial bone marrow reconstitution with TET2-deficient cells was sufficient for their clonal expansion and led to a marked increase in atherosclerotic plaque size"}
+    ]},
+   {"n": 1749, "id": "pmid:28436958",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Selective removal of the SnCs from in vitro cultures of chondrocytes isolated from patients with OA undergoing total knee replacement decreased expression of senescent and inflammatory markers while also increasing expression of cartilage tissue extracellular matrix proteins"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "these findings support the use of SnCs as a therapeutic target for treating degenerative joint disease"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "selective elimination of these cells attenuated the development of post-traumatic OA, reduced pain and increased cartilage development"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Intra-articular injection of a senolytic molecule that selectively killed SnCs validated these results in transgenic, non-transgenic and aged mice"}
+    ]},
+   {"n": 1750, "id": "pmid:30232451",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "prevents gliosis, hyperphosphorylation of both soluble and insoluble tau leading to neurofibrillary tangle deposition, and degeneration of cortical and hippocampal neurons"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Clearance of these cells as they arise using INK-ATTAC transgenic mice prevents gliosis, hyperphosphorylation of both soluble and insoluble tau leading to neurofibrillary tangle deposition, and degeneration of cortical and hippocampal neurons, thus preserving cognitive function"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Pharmacological intervention with a first-generation senolytic modulates tau aggregation"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "the MAPT P301S PS19 mouse model of tau-dependent neurodegenerative disease 10 accumulates p16 INK4A -positive senescent astrocytes and microglia"}
+    ]},
+   {"n": 1751, "id": "pmid:26919428",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "NF-κB exerts its anti-inflammatory activity by inducing delayed accumulation of the autophagy receptor p62/SQSTM1"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "NF-κB restrains its own inflammation-promoting activity and orchestrates a self-limiting host response that maintains homeostasis and favors tissue repair"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Macrophage-specific p62 ablation causes pronounced accumulation of damaged mitochondria and excessive IL-1β-dependent inflammation, enhancing macrophage death"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Damaged mitochondria undergo Parkin-dependent ubiquitin conjugation and are specifically recognized by p62, which induces their mitophagic clearance"}
+    ]},
+   {"n": 1752, "id": "pmid:30046112",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "the synthesis of mitochondrial DNA (mtDNA), induced after the engagement of Toll-like receptors, is crucial for NLRP3 signalling"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Toll-like receptors signal via the MyD88 and TRIF adaptors to trigger IRF1-dependent transcription of CMPK2, a rate-limiting enzyme that supplies deoxyribonucleotides for mtDNA synthesis"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Cytosolic oxidized mtDNA associates with the NLRP3 inflammasome complex and is required for its activation"},
+      {"j": 4, "label": "not_addressed", "confidence": 2, "evidence": "The dependence on CMPK2 catalytic activity provides opportunities for more effective control of NLRP3 inflammasome-associated diseases"}
+    ]},
+   {"n": 1753, "id": "pmid:28825716",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "targeting this fundamental mechanism to prevent age-related bone loss suggests a novel treatment strategy not only for osteoporosis, but also for multiple age-related comorbidities"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "activation of the INK-ATTAC caspase 8 in senescent cells or treatment with senolytics or the JAKi for 2-4 months resulted in higher bone mass and strength and better bone microarchitecture than in vehicle-treated mice"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "senescent-cell conditioned medium impaired osteoblast mineralization and enhanced osteoclast-progenitor survival, leading to increased osteoclastogenesis"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "The beneficial effects of targeting senescent cells were due to lower bone resorption with either maintained (trabecular) or higher (cortical) bone formation as compared to vehicle-treated mice"}
+    ]},
+   {"n": 1754, "id": "pmid:35029144",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "In analysis of incident morbidity, disability, and mortality, DunedinPACE and added incremental prediction beyond GrimAge"},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Measures to quantify changes in the pace of biological aging in response to intervention are needed to evaluate geroprotective interventions for humans"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "DunedinPACE showed high test-retest reliability, was associated with morbidity, disability, and mortality, and indicated faster aging in young adults with childhood adversity"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "We used data from the Dunedin Study 1972-1973 birth cohort tracking within-individual decline in 19 indicators of organ-system integrity across four time points spanning two decades to model Pace of Aging"}
+    ]}
+ ]}

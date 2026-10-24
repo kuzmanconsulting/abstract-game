@@ -1,0 +1,80 @@
+{"batch": "check_C_15c", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+   {"n": 549, "id": "pmid:37920670",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Using the Phf7 knockout mouse model, we verified that genetic defects were responsible for male infertility by preventing histone-to-protamine exchange, as previously reported."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "The deficiency of spermatogenesis caused by Phf7 deletion through the endogenous retrovirus-mediated activation of the immune pathway is a common mechanism of infertility."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "we identified PPARα as a promising target of immunity and inflammation in the testis, where endogenous retroviruses are suppressed"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "The loss of Phf7 activates immune pathways, which can be rescued by the PPARα agonist astaxanthin."}
+    ]},
+   {"n": 550, "id": "doi:10.1101/2025.01.15.25320598",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "On multivariable analysis, primary tumor and nodal volumes were associated with ctDNA (coeff=34.79, p=0.001 and coeff=24.68, p=0.022, respectively), but T and N stage were not"},
+      {"j": 2, "label": "not_addressed", "confidence": 2, "evidence": "Cystic nodal volume was not associated with ctDNA (coeff=0.31, p=0.11).", "flag": "ambiguous", "reason": "The non-association of cystic nodal volume is stated, but the exclusivity claim ('the one volumetric measure') is not: total tumor volume was generated yet never reported in the results."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Pre-treatment serum measurement of circulating tumor-tissue modified viral (TTMV) HPV-DNA using a commercially available test, measured as a continuous value (fragments/mL)."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Including automated tumor and nodal volumes improved model fit compared to T and N stage alone (3420.96 vs 3435.88 AIC, 3449.18 vs 3457.83 BIC)."}
+    ]},
+   {"n": 551, "id": "pmid:38041139",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 2, "evidence": "The sensitivity and specificity of total number of CTCs and CTECs for the diagnosis of NSCLC were 67.3% and 77.6% [AUC (95%CI): 0.815 (0.722-0.907)], 83.9% and 77.4% [AUC (95%CI): 0.739 (0.618-0.860)].", "flag": "ambiguous", "reason": "The abstract reports two value pairs for 'CTCs and CTECs' without saying which belongs to which, so assigning the first pair to CTCs is the natural but not the only reading."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "theoretically benefits early finding primary tumor or monitoring treatment response as well as tumor recurrence"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "mutations were found to be poorly consistent between ctDNA and tumor DNA (tDNA) in patients, even when numerous CTCs and CTECs were present"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "The concentration of cfDNA in plasma was statistically correlated with the size of the primary tumor (r = 0.430, P = 0.022)"}
+    ]},
+   {"n": 552, "id": "pmid:42028025",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "specific genomic features, such as 17p deletion and high copy number variation burden, were associated with poor prognosis"},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "We found that lower baseline tumor fraction correlated with complete remission (CR)"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We evaluated longitudinal low-pass whole-genome sequencing (LP-WGS) of circulating tumor DNA (ctDNA) in 11 patients with B-cell lymphoma receiving axicabtagene ciloleucel"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "ctDNA positivity at baseline or 1-month post-infusion significantly predicted inferior survival outcomes"}
+    ]},
+   {"n": 553, "id": "doi:10.1101/2024.07.11.24310105",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The proportion of patients exhibiting complete response and partial response was 5.3% and 68.4%, respectively. The confirmed objective response rate was 73.7%."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Major pathologic response and complete pathologic response were observed in 47.4% and 31.6% of patients, respectively."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "the impacts of dosage and the order of medication on treatment efficacy and safety remain largely unexplored"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "this modified chemo-immunotherapy led to the expansion of predominant TCR clones and reduction of tumor burden after the first cycle of chemotherapy"}
+    ]},
+   {"n": 554, "id": "pmid:42469014",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "The high L1 samples are characterized by a more proliferative, less differentiated state as well as inhibition of interferon and genome defense pathways."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "This loss of DNA methylation coincides with the expression of hundreds of transcripts driven by LINE-1 (L1) retrotransposons that are epigenetically silenced in normal cells."},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "KRAB-containing zinc finger proteins (KZFPs) that are responsible for the epigenetic silencing of L1s have abnormally low abundance in MM samples with high L1 transcriptional activity"},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "These results indicate that cell proliferation in MM is associated with a loss of KZFP expression and transcriptional activation of L1 elements."}
+    ]},
+   {"n": 555, "id": "pmid:42876993",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "we integrated complete genome data from 102 clinical isolates from Qujing, China, with a global dataset of 4,262 genomes to construct a multi-layer population genomic framework"},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "the core genome exhibits a highly constrained structural organization, with most core genes embedded within conserved synteny modules, indicating strong evolutionary constraints on chromosomal architecture"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "a dominant community is strongly enriched for hypervirulence and multidrug resistance determinants and preferentially associates with ST11"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "we integrated complete genome data from 102 clinical isolates from Qujing, China, with a global dataset of 4,262 genomes"}
+    ]},
+   {"n": 556, "id": "pmid:38706838",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We previously reported that loss of function of TYW1 led to cerebral palsy with severe intellectual disability through reduced neural proliferation."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "we first demonstrated that TYW1 loss blocked the formation of OHyW in tRNA phe and therefore affected the translation efficiency of UUU codon"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "Using the brain organoid model, we showed impaired neuron differentiation when TYW1 was depleted."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "one kind of human-specific endogenous retrovirus-K (HERVK/HML2), whose reactivation impaired human neurodevelopment, was significantly up-regulated in TYW1 -/- hESCs"}
+    ]},
+   {"n": 557, "id": "doi:10.64898/2026.08.28.26361628",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "At false-positive rates of 5% and 10%, MaiRa detected 85.2% and 92.6% of EOPE cases, compared with 44.4% and 70.4% for FMF, respectively."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "identifies women at increased risk of preeclampsia who may benefit from personalized aspirin prophylaxis"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "MaiRa showed greater first-trimester discrimination for EOPE than FMF combined screening (AUC, 0.974 vs 0.900; P=.040)"},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Patient-level analysis demonstrated that MaiRa identified 12 of 27 EOPE cases (44.4%) classified as low risk by FMF"}
+    ]},
+   {"n": 558, "id": "pmid:42152636",
+    "verdicts": [
+      {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Cerebrospinal fluid generally outperforms plasma in sensitivity due to its closer proximity to the tumor microenvironment."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Advanced methodologies such as cfMeDIP-seq, enzymatic methylation sequencing, and nanopore sequencing have further improved performance with low-input cfDNA."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "cfDNA methylation analysis is a highly sensitive and minimally invasive tool with substantial potential to improve early diagnosis, molecular stratification, and real-time monitoring of brain tumors."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "cfDNA methylation profiling consistently demonstrated high diagnostic accuracy, with reported sensitivities and specificities frequently exceeding 97%."}
+    ]},
+   {"n": 559, "id": "pmid:37938770",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Biochemical, biophysical and structural studies identified the carboxy-terminal bromo-adjacent homology (BAH) domain of TNRC18 (TNRC18(BAH)) as an H3K9me3-specific reader."},
+      {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "canonical H3K9me3 readers (for example, HP1 (refs. 5-9 ) and MPP8 (refs. 10-12 )) have limited roles in silencing endogenous retroviruses (ERVs)"},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "TNRC18), a poorly understood chromatin regulator, recognizes H3K9me3 to mediate the silencing of ERV class I (ERV1) elements such as LTR12"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Point mutagenesis that disrupts the TNRC18(BAH)-mediated H3K9me3 engagement caused neonatal death in mice and, in multiple mammalian cell models, led to derepressed expression of ERVs"}
+    ]}
+ ]}

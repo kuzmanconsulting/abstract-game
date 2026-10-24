@@ -1,0 +1,248 @@
+{"batch": "check_A_09", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+  {"n": 315, "id": "pmid:42178168",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "In a subset (n = 16), MSBM showed 81% concordance with myChoice CDx"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "The olaparib arm (n = 45) showed a median PFS of 22.3 months, significantly exceeding the 9-month threshold (p < 0.001), meeting the primary endpoint."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The placebo arm (n = 11) with a median PFS of 16.7 months was not powered for comparison."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "The MSBM was designed to integrate three whole-exome sequencing-derived features without using genomic scars: tumor-BRCA mutation status, Mutational Signature 3 similarity score > 0.5, or score > 0.25 without CCNE1 amplification."}
+   ]},
+  {"n": 316, "id": "pmid:42715505",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Baseline ctDNA levels correlated with tumor size, grade 3 disease, and expression of genes related to hypoxia and the cell cycle."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "patients with multiple tumor clones detected by ctDNA analysis after surgery had inferior outcomes"},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Patients treated with pembrolizumab, who had significantly better disease-free survival, had a greater decrease in their ctDNA levels after neoadjuvant therapy."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Personalized ctDNA profiling detected baseline ctDNA in 85% of patients."}
+   ]},
+  {"n": 317, "id": "pmid:40876989",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "We retrospectively analyzed 32 patients who underwent ctDNA testing from 2019 to 2024"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Multivariate analysis revealed that liver metastasis, multiple metastatic sites, and disease progression were significant predictors of successful KRAS mutation detection."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "with a sensitivity of 70%, specificity of 90.9%, and area under curve of 0.83"},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Our prediction system effectively stratified patients by the likelihood of KRAS mutation detection, offering a practical tool for selecting candidates for liquid biopsy."}
+   ]},
+  {"n": 318, "id": "pmid:38965210",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "liver-TEs are predominantly occupied by the histone demethylase, KDM1A"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "KDM1A negatively influences the methylation of histone H3 Lys4 (H3K4) of liver-TEs, resulting in the epigenetic silencing of HNF4A expression."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "the expression of HNF4A is inversely regulated by proximate liver-TEs, which facilitates liver cancer cell proliferation"},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "highlights KDM1A as a promising therapeutic target"}
+   ]},
+  {"n": 319, "id": "doi:10.1101/2024.02.03.578772",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "It applies Bayesian inference to accurately quantify noise level in a locus-specific manner, enabling the discrimination between technical noise and low-frequency cancer variants."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "demonstrated BayVarC’ superior performance over existing state-of-the-art tools"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "BayVarC can effectively detect low frequency variants while maintaining low false positive rate (0.05 FP/KB). Meanwhile, it achieves Limit of Detection (LoD) as low as 0.1%."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Detailed in-silico simulation and in-vitro experiments demonstrated BayVarC’ superior performance over existing state-of-the-art tools."}
+   ]},
+  {"n": 320, "id": "pmid:41413482",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "a risk score can independently predict the prognosis and has a robust prediction efficiency in the CGGA external verification set"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "The infiltration of immunosuppressive cells, such as M2 macrophages, increased the expression of immune checkpoints, such as PD-L1, increased, and the infiltration of CD8 + T cells decreased in high-risk patients."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "A 4-lncRNA signature effectively stratified patients into high-risk and low-risk groups. The prognosis of the high-risk group is worse."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "A 4-lncRNA signature effectively stratified patients into high-risk and low-risk groups."}
+   ]},
+  {"n": 321, "id": "doi:10.1101/2023.11.07.23298196",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "For TMB measurement, the correlation coefficient between whole-exome sequencing and our targeted panel was 97%."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "The concordance between our assay and the TruSight Oncology 500 assay for detection of somatic variants, TMB and MSI measurement was 100%, 89% and 98% respectively."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Reference standards were used to evaluate limit of detection (LOD), concordance, sensitivity, specificity and precision of the assay"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "When CGP-informed mutations were used to personalize ctDNA tracking, the detection rate of ctDNA in liquid biopsy was 79%"}
+   ]},
+  {"n": 322, "id": "pmid:38612507",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "No associations were found between CTC enumeration and ctDNA status with any of the clinical outcomes evaluated."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Multivariate analysis demonstrated that cfDNA levels three months after RNU are a significant predictor of tumor progression (HR = 1.085; p = 0.006) and CSS (HR = 1.168; p = 0.029)."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Multivariate analysis demonstrated that cfDNA levels three months after RNU are a significant predictor of tumor progression (HR = 1.085; p = 0.006) and CSS (HR = 1.168; p = 0.029)."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "During a median follow-up of 18 months, seven (35%) patients progressed and three (15%) died."}
+   ]},
+  {"n": 323, "id": "doi:10.1101/2025.11.05.25339543",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "In pneumonia patients, KT-BAL yielded 18 additional Category One organisms, 138 additional Category Two organisms, and 313 additional Category Three organisms compared to SOC."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "KT-BAL increased diagnostic yield for immunocompromised patients with suspected pneumonia with suggestion of prolonged respiratory failure in patients with pathogens missed by SOC."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "patients with organisms identified by KT-BAL alone (n = 87) had significantly more cumulative intubation days (11 [5, 20] days vs. 15 [8, 32] days, p = 0.035)"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "228 BAL fluid samples from 155 patients were analyzed."}
+   ]},
+  {"n": 324, "id": "pmid:40872236",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "While no ESBL genes were detected, bla CMY-2 was the most common β-lactamase gene"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "All E. coli isolates were positive for at least one antibiotic resistance gene and plasmid replicon, with 37 resistance genes and 27 plasmid replicons detected among the isolates."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Most isolates (95%) harbored at least one intact phage, and as many as seven intact phages were identified in one isolate."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "This retrospective study also enables comparisons of resistance genes and mobile genetic elements from more recent E. coli isolates associated with poultry to aid in understanding the trends of both antibiotic resistance phenotypes and genotypes in the poultry setting over time."}
+   ]},
+  {"n": 325, "id": "doi:10.64898/2026.05.29.728539",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Finally, we demonstrate robust programmable genomic integration in human cells"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "NovoCAST exhibits sharply defined integration profiles, a 500-fold increase in activity relative to the parental PmcCAST, and general programmability."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "reconfiguring their conserved transposition machinery to interface with widely adopted Cas9"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "simplifies the CAST architecture from eight distinct proteins to four, establishing the simplest CAST described to date"}
+   ]},
+  {"n": 326, "id": "doi:10.64898/2026.04.22.719677",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Most variants exerted modest to no effects on regulatory activity, consistent with strong functional constraint at the CYP3A4 locus."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "integrating variants from global populations, cancer genomes, and archaic humans"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "We assayed 1,214 variants across six CYP3A4 regulatory regions"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "we identified a subset of variants with significant regulatory impact, including variants that could be associated with altered drug response and cancer severity"}
+   ]},
+  {"n": 327, "id": "doi:10.1101/2025.04.14.25325849",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "All isolates harbored virulence genes associated with adhesion, immune evasion, and biofilm formation."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Five biofilm-forming MDR UPEC isolates were selected for whole-genome sequencing (WGS) using the Illumina NovaSeq 6000 platform."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Mobile genetic elements, particularly IncF-type plasmids and insertion sequences, were detected across isolates"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Five biofilm-forming MDR UPEC isolates were selected for whole-genome sequencing (WGS) using the Illumina NovaSeq 6000 platform."}
+   ]},
+  {"n": 328, "id": "doi:10.64898/2026.08.31.747927",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "they both surprisingly share similar secondary structure elements consisting of three conserved helical regions made of hydrophobic residues that are predicted to make up a conserved core"},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "THAP9 is a transposable element-derived gene which encodes a protein that is homologous to the active Drosophila P-element transposase (DmTNP)."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Interestingly both THAP9 and DmTNP truncation mutants are still capable of DNA excision and integration"},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "THAP9-CTD homologs were more widely distributed throughout the animal kingdom in comparison to DmTNP-CTD homologs which were restricted to arthropods."}
+   ]},
+  {"n": 329, "id": "pmid:40846035",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Phylogenetic analysis of pJBCL41-like megaplasmids showed their evolution towards carrying more drug-resistance genes and mobile genetic elements."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "antimicrobial susceptibility testing was carried out using agar dilution and broth microdilution"},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Phylogenetic analysis of P. fulva strains showed that China is the country with the most P. fulva isolated clinically"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Clinical P. fulva strains, ZDHY316 and ZDHY414, with transferable megaplasmids co-carrying bla VIM-24 and tmexCD3-toprJ3."}
+   ]},
+  {"n": 330, "id": "pmid:41165465",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "TMB was higher in plasma, driven by highly subclonal acquired alterations, compared with tissue samples, which harbored few resistance alterations."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Three of these patients received ICB but none had a response."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "In patients with MSS metastatic colorectal cancer treated with targeted therapy, we evaluated baseline and progression TMB and response to ICB for patients whose tumors developed high TMB."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Among 26 cases, nine acquired high TMB at progression."}
+   ]},
+  {"n": 331, "id": "pmid:38754097",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "a hybrid architecture consisting of a nonlinear encoder that can capture nonlinear interactions among features, and a linear decoder which ensures the interpretability of the active signatures"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "We evaluated and compared MUSE-XAE with other available tools on both synthetic and real cancer datasets and demonstrated that it achieves superior performance in terms of precision and sensitivity in recovering mutational signature profiles."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "MUSE-XAE software is freely available at https://github.com/compbiomed-unito/MUSE-XAE."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "a hybrid architecture consisting of a nonlinear encoder that can capture nonlinear interactions among features, and a linear decoder which ensures the interpretability of the active signatures"}
+   ]},
+  {"n": 332, "id": "pmid:38802748",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "These routines draw traces of tumor clones in both time and space"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "The LinG3D (Lineage Graphs in 3D) is an open-source collection of routines (in MATLAB, Python, and R) that enables spatio-temporal visualization of clonal evolution in a two-dimensional tumor slice"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "For example, cells exposed to different concentrations of drugs, such as cells located near the vessels in contrast to those residing far from the vasculature, can undergo a different evolutionary path."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "The utility of LinG3D has been demonstrated through examples of simulated tumors with different number of clones and, additionally, in experimental colony growth assay."}
+   ]},
+  {"n": 333, "id": "pmid:41351089",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "By univariate Cox regression analysis of gene expression data and overall survival data in the TCGA-LUSC cohort, 11 DEGs associated with prognostic cellular senescence were identified."},
+     {"j": 2, "label": "supported", "confidence": 2, "evidence": "The ageing prognostic models include genes of IGFBP1, SERPINE1, SIX1, and TRPM8.", "flag": "ambiguous", "reason": "The abstract says the models \"include\" these four genes, leaving unsettled whether the model is built on only these four."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Tumour immune dysfunction and exclusion (TIDE) score and tumour mutation burden (TMB) score were better in the low-risk group"},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Prognostic genes and clinical information of LUSC were derived from the Cancer Genome Atlas (TCGA)."}
+   ]},
+  {"n": 334, "id": "pmid:42243127",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "a tissue-agnostic epigenomic measure of ctDNA, closely mirrors radiographic response and clinical outcomes in 57 patients"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Baseline ctDNA is detectable in 94.7% of patients."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Clearance of mTF on treatment is associated with prolonged time to treatment discontinuation (HR = 0.17, 95% CI: 0.07-0.41; p < 0.0001)."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "A rise in mTF (molecular progression) precedes treatment discontinuation by a median of 5.8 months and outperforms mutation-based tracking"}
+   ]},
+  {"n": 335, "id": "pmid:40651904",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "patients with negative ctDNA status in postsurgery plasma had significantly longer recurrence-free survival than those with positive ctDNA status (p = 0.01)"},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Commonly mutated genes in plasma and tissue, particularly TERT and TP53, were assessed using the AVENIO ctDNA platform"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Patients who were ctDNA positive before surgery and converted to ctDNA negative after surgery showed longer survival than those remaining ctDNA positive (median survival 36 vs 18 mo)."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "The ctDNA positivity fell from 46% before surgery to 23% after surgery"}
+   ]},
+  {"n": 336, "id": "pmid:39101626",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "in particular the Tasmanian devil due to its high cancer incidence"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "We screened 19 marsupial genomes and identified over 80,000 endogenous retrovirus fragments which we classified into eight retrovirus clades."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "The retroviruses were similar to either Betaretrovirus (5/8) or Gammaretrovirus (3/8) retroviruses"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "One of the clades (MEBrv 3) lost an envelope but retained retrotranspositional activity, subsequently amplifying throughout all Dasyuridae genomes."}
+   ]},
+  {"n": 337, "id": "pmid:32491712",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "won her the Nobel prize in 1983"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "the process leads to mutation and changes in the amount of DNA in a cell"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Ninety percent of maize DNA is transposable elements."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "They are responsible for a large number of mutations and genetic polymorphisms, a significant contribution to genetic diversity."}
+   ]},
+  {"n": 338, "id": "pmid:38134220",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Structural differences between genomes are a major source of genetic variation that contributes to phenotypic differences."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Domesticated maize is a particularly good system for exploring the impact of transposable element proliferation as over 70% of the genome is annotated as transposable elements."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "within these recently diverged genomic regions, deletions of transposable elements likely account for more structural variation events and base pairs than insertions"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "We generated base-pair resolved pairwise alignments between the B73 maize reference genome and the remaining 25 inbred maize line assemblies."}
+   ]},
+  {"n": 339, "id": "pmid:42641524",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "ARGs abundance and diversity increased markedly after five years and peaked at 10-20 years."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Path analysis identified improved soil properties as the primary direct driver of ARGs accumulation"},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "MGEs activity increased over time and was significantly correlated with key ARGs."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "These findings highlight the need to integrate ARGs monitoring into soil health assessments for sustainable management of reclaimed saline-sodic lands."}
+   ]},
+  {"n": 340, "id": "pmid:41402909",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "MAP3K1 and MAP2K4 were identified as frequently mutated in BRCA, with mutation spectra dominated by loss-of-function alterations. These mutations exhibited mutual exclusivity with TP53 alterations and were enriched in ER + tumors."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "MAP3K1/MAP2K4 loss led to reduced JNK2 phosphorylation, impaired p53 activation at Ser15, and subsequent upregulation of FOSL1 (encoding FRA1), promoting tumor proliferation and metastasis."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "In vivo, MKK4DN (dominant-negative MAP2K4) expression enhanced tumor growth and lung metastasis, accompanied by decreased phospho-JNK/p53 and increased FRA1."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "with potential implications for targeted therapy and patient stratification"}
+   ]},
+  {"n": 341, "id": "doi:10.1101/2025.07.19.25331848",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "The median PFS was 1.94 months. The most common treatment adverse events were leukopenia (67%), rash (67%), diarrhea (33%), nausea (27%), and QTC prolongation (27%)."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Pharmacodynamic studies demonstrated combining ivosidenib and nivolumab significantly decreased the plasma (R)-2HG concentration and correlated with clinical benefit."},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "the combination of ivosidenib and nivolumab was safe however demonstrated similar anti-tumor activity (predominantly as disease stabilization) compared with that previously described for ivosidenib monotherapy"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "One patient had a partial response (ORR 6.7%) and was without progression at 6 months (PFS6) whereas two other patients achieved PFS6 alone. In total, 3 out of 15 patients met the primary endpoint (3/15; 20%)."}
+   ]},
+  {"n": 342, "id": "pmid:42277468",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "five B. cenocepacia isolates recovered from sputum and blood samples of a pediatric CF patient who developed CS were sequenced and analyzed in silico"},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Mobile genetic elements, including insertion sequences from the IS3, IS5, and IS200/IS605 families"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "A novel sequence type (ST2424), not associated with any known clonal complex, was identified. Phylogenomic analysis revealed high genetic relatedness among the isolates, consistent with a monoclonal infection undergoing within-host microevolution."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "aaiB (T6SS) was present in all isolates, whereas narG and manCcore were exclusive to bloodstream isolates"}
+   ]},
+  {"n": 343, "id": "pmid:41307607",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Patients who had higher ctDNA levels had considerably lower DFS and OS, but these differences were not statistically significant."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "RevMan 5.3 was used to conduct meta-analyses and subgroup investigations classified by tumor population, two-year or three-year DFS, and tumor location."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Patients with high levels of ctDNA had worse DFS and OS, regardless of the tumor population, two-year DFS, three-year DFS, or tumor location."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "The analysis included 11 trials conducted with 605 individuals."}
+   ]},
+  {"n": 344, "id": "pmid:41057423",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Among the 71 included patients, ctDNA was detected in 47 patients (66.2%)."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "ctDNA quantity at baseline (before chemotherapy initiation) was assessed by droplet-based digital PCR targeting two methylated markers (HOXD8 and POU4F1)"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "There was a significant correlation of total and liver TV with ctDNA quantity, with Spearman's ρ of 0.353 (p = 0.01) and 0.500 (p < 0.001), respectively."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Total and liver TV were higher in patients with detected ctDNA (129.5 vs. 31.8 mL, p = 0.002 and 18 vs. 1 mL, p < 0.001, respectively)."}
+   ]},
+  {"n": 345, "id": "pmid:41528563",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "we could not identify a genetic or methylation-based signature that was significantly correlated with the occurrence of distant progression"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Across the entire cohort, distant progression was associated with worse progression free survival (PFS) (4.5 vs. 13 months; p = 0.037)."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "It has been most extensively characterized in children and adolescents and continues to pose significant challenges to treating physicians"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Distant progression including leptomeningeal disease occurred in 10 out of 52 adult patients (19%), seven of which had a primary spinal tumor location (70%, p < 0.001)"}
+   ]},
+  {"n": 346, "id": "pmid:42599160",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Class 1 and class 2 alterations occurred in 2.9% and 0.7% of tumors, respectively."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Clinical outcomes were evaluated in selected tumor cohorts treated with platinum-based therapy or immune checkpoint blockade."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "SMARCA4 alterations were most frequent in thymic epithelial tumors (10.7%), non-small cell lung cancer (NSCLC; 7.1%), bladder cancer (5.6%), and cervical cancer (5%)."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "patients with monoallelic class 2 SMARCA4 alterations and preserved BRG1 expression saw clinical benefit, including one who attained a complete response"}
+   ]},
+  {"n": 347, "id": "doi:10.1101/2024.11.29.24317276",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "The PD-L1 expression level in tumor or tumor microenvironment was not associated with treatment benefit."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "inflammation-related markers such as IL-6, high peripheral neutrophils and high levels of cell-free DNA, as well as markers related to adaptive immune dysfunction such as altered T cell dynamics and secretion of immune checkpoint molecules, were associated with poor clinical outcomes"},
+     {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Patients lacking these high-risk markers performed remarkably well on inhibition of immune checkpoints with pembrolizumab."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We evaluated various blood and tissue-based biomarkers in the context of immune checkpoint blockade-based treatment to find suitable response biomarkers in a clinical trial cohort of patients with rmHNSCC."}
+   ]},
+  {"n": 348, "id": "doi:10.64898/2026.03.01.708809",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "This analysis reveals 460 loci under selection which are highly enriched for known oncogenes and tumour suppressors"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Applied to 5,966 samples from the TCGA dataset, SPICE quantifies the full spectrum of SCNA events, recapitulates known mutational processes, and tracks systematic shifts in event types before and after whole-genome duplication (WGD)."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "recapitulating most previously reported sites and uncovering many novel regions"},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "simultaneously showing that most internal copy-number events are not subject to focal selection"}
+   ]},
+  {"n": 349, "id": "doi:10.1101/2024.07.02.600549",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "despite only 5 % of genes being dispensable, SVs often had a stronger impact than other variants across 14 life history traits measured in 103 distinct strains"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "we show that recombination and transposons make distinct contributions to SV diversity"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Transposons and recombination make distinct contributions to SV diversity in S. sclerotiorum ."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "We use 25 high quality genomes to create a graphical pan-genome of the globally distributed host-generalist crop pathogen Sclerotinia sclerotiorum"}
+   ]}
+ ]}

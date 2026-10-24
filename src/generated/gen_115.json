@@ -1,0 +1,347 @@
+{
+"batch": "gen_115",
+"prompt_version": "gen-v5",
+"flip_rule": "first-of-any-v3",
+"items": [
+{
+"n": 1795,
+"id": "pmid:32514071",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "To study enhancer control of senescence, the team generated time-resolved transcriptomes and epigenome profiles during oncogenic RAS-induced senescence.",
+"evidence": "We explored this by generating time-resolved transcriptomes and epigenome profiles during oncogenic RAS-induced senescence and validating central findings in different cell biology and disease models of senescence.",
+"note": "The abstract states this was the approach used to study senescence."
+},
+{
+"k": 2,
+"label": "not_addressed",
+"text": "Pharmacologic AP-1 inhibition reduced tumour growth in mouse cancer models.",
+"evidence": "Together, our findings enabled us to manipulate the senescence phenotype with potential therapeutic implications.",
+"note": "The abstract notes therapeutic implications but never tests AP-1 inhibition on tumour growth in mice."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Activator protein 1 pioneers the senescence enhancer landscape and defines the organizational principles of the transcription-factor network driving senescent cells' transcriptional programme.",
+"evidence": "We demonstrate that activator protein 1 (AP-1) 'pioneers' the senescence enhancer landscape and defines the organizational principles of the transcription factor network that drives the transcriptional programme of senescent cells.",
+"note": "The abstract reports AP-1 pioneering the enhancer landscape and defining the TF network."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Integrative analysis and functional validation revealed links between enhancer chromatin, transcription-factor recruitment and senescence competence.",
+"evidence": "Through integrative analysis and functional validation, we reveal links between enhancer chromatin, transcription factor recruitment and senescence competence.",
+"note": "The abstract reports these revealed links as a result."
+}
+]
+},
+{
+"n": 1796,
+"id": "pmid:37585504",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Natural killer group 2 member D ligands are up-regulated in senescent cells in vitro regardless of the stimulus that induced senescence.",
+"evidence": "are up-regulated in senescent cells in vitro, regardless of stimuli that induced cellular senescence",
+"note": "The abstract reports NKG2DLs up-regulated in senescent cells irrespective of the inducing stimulus."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "Mouse NKG2D-CAR T cells improved physical performance and alleviated multiple aging-associated pathologies in irradiated and aged mice.",
+"evidence": "Targeting senescent cells with mouse NKG2D-CAR T cells alleviated multiple aging-associated pathologies and improved physical performance in both irradiated and aged mice.",
+"note": "The abstract reports improved physical performance and alleviated pathologies in these mice."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Autologous human NKG2D-CAR T cells deleted naturally occurring senescent cells in aged nonhuman primates without any observed adverse effects.",
+"evidence": "Autologous T cells armed with the human NKG2D CAR effectively delete naturally occurring senescent cells in aged nonhuman primates without any observed adverse effects.",
+"note": "The abstract reports effective senescent-cell deletion in aged primates without observed adverse effects."
+},
+{
+"k": 4,
+"label": "not_addressed",
+"text": "NKG2D-CAR T-cell treatment extended the lifespan of the aged animals.",
+"evidence": "Our findings establish that NKG2D-CAR T cells could serve as potent and selective senolytic agents for aging and age-associated diseases driven by senescence.",
+"note": "The abstract reports senolytic efficacy and improved performance but never measures lifespan or survival."
+}
+]
+},
+{
+"n": 1797,
+"id": "pmid:36147777",
+"statements": [
+{
+"k": 1,
+"label": "not_addressed",
+"text": "The senotherapeutic intervention extended the lifespan of the treated old mice.",
+"evidence": "Collectively, our data provide compelling evidence for cellular senescence as a hallmark and potentially tractable mediator of SkM aging.",
+"note": "The abstract reports improved muscle strength but never measures lifespan or survival."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "A subpopulation of old fibroadipogenic progenitors highly expresses p16 Ink4a and multiple senescence-related genes while showing DNA damage and chromatin reorganization.",
+"evidence": "a subpopulation of old fibroadipogenic progenitors highly expresses p16 Ink4a together with multiple senescence-related genes and, concomitantly, exhibits DNA damage and chromatin reorganization",
+"note": "The abstract reports this high expression and accompanying damage in old progenitors."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "A senotherapeutic intervention improved skeletal muscle strength and countered age-related molecular and morphological changes in old mice.",
+"evidence": "Administration of a senotherapeutic intervention to old mice countered age-related molecular and morphological changes and improved SkM strength.",
+"note": "The abstract reports improved strength and countered age-related changes after the intervention."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "The senescence phenotype is conserved in skeletal muscle from older humans.",
+"evidence": "Finally, we found that the senescence phenotype is conserved in SkM from older humans.",
+"note": "The abstract reports the senescence phenotype as conserved in older human skeletal muscle."
+}
+]
+},
+{
+"n": 1798,
+"id": "pmid:33526781",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Itpr2 knockout mice displayed increased lifespan, a better response to metabolic stress, and less liver steatosis and fibrosis.",
+"evidence": "Itpr2 knockout (KO) mice display improved aging such as increased lifespan, a better response to metabolic stress, less immunosenescence, as well as less liver steatosis and fibrosis.",
+"note": "The abstract reports these features of improved aging in the knockout mice."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "Cellular senescence is decreased in Itpr2 knockout mice and in knockout embryo-derived cells.",
+"evidence": "Cellular senescence, which is known to promote these alterations, is decreased in Itpr2 KO mice and Itpr2 KO embryo-derived cells.",
+"note": "The abstract reports decreased senescence in the knockout mice and their cells."
+},
+{
+"k": 3,
+"label": "not_addressed",
+"text": "A pharmacological ITPR2 inhibitor reproduced the lifespan extension seen in the knockout mice.",
+"evidence": "These findings shed light on the role of contacts and facilitated exchanges between the ER and the mitochondria through ITPR2 in regulating senescence and aging.",
+"note": "The abstract tests only genetic knockout and ablation, not a pharmacological inhibitor."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Ablating ITPR2 reduces the number of mitochondria-ER contacts, whereas forcing such contacts induces premature senescence.",
+"evidence": "ablation of ITPR2 in vivo and in vitro decreases the number of contacts between the mitochondria and the ER and their forced contacts induce premature senescence",
+"note": "The abstract reports fewer contacts on ablation and premature senescence on forced contacts."
+}
+]
+},
+{
+"n": 1799,
+"id": "pmid:39270656",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Metformin produced a roughly 6-year regression in brain aging and significantly slowed aging indicators in the monkeys.",
+"evidence": "The results highlighted a significant slowing of aging indicators, notably a roughly 6-year regression in brain aging.",
+"note": "The abstract reports a significant slowing of aging indicators and a ~6-year brain-aging regression."
+},
+{
+"k": 2,
+"label": "not_addressed",
+"text": "Metformin extended the survival of the treated monkeys.",
+"evidence": "In a rigorous 40-month study, we evaluated the geroprotective effects of metformin on adult male cynomolgus monkeys, addressing a gap in primate aging research.",
+"note": "The study ran 40 months and measured aging-clock indicators, but survival or lifespan was not an outcome."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Metformin had a substantial neuroprotective effect, preserving brain structure and enhancing cognitive ability.",
+"evidence": "Metformin exerts a substantial neuroprotective effect, preserving brain structure and enhancing cognitive ability.",
+"note": "The abstract reports neuroprotection, preserved brain structure, and enhanced cognition."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Metformin's geroprotective effects on primate neurons were partially mediated by activation of Nrf2.",
+"evidence": "The geroprotective effects on primate neurons were partially mediated by the activation of Nrf2, a transcription factor with anti-oxidative capabilities.",
+"note": "The abstract attributes the neuronal geroprotection partly to Nrf2 activation."
+}
+]
+},
+{
+"n": 1800,
+"id": "pmid:32220303",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Senescence-associated heterochromatin foci form in oncogene-induced senescence but are absent in replicative senescence.",
+"evidence": "Differential intra- versus inter-SAHD interactions lead to the formation of senescence-associated heterochromatin foci (SAHFs) in OIS but not in RS.",
+"note": "The abstract reports SAHF formation in OIS but not in RS."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "DNMT1 induces senescence-associated heterochromatin foci by promoting HMGA2 expression.",
+"evidence": "We also identify DNMT1 as a factor that induces SAHFs by promoting HMGA2 expression.",
+"note": "The abstract identifies DNMT1 as inducing SAHFs via HMGA2."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Depleting DNMT1 shifts oncogene-induced senescent cells toward a 3D genome conformation resembling replicative senescence.",
+"evidence": "Upon DNMT1 depletion, OIS cells transition to a 3D genome conformation akin to that of cells in replicative senescence.",
+"note": "The abstract reports this conformational transition on DNMT1 depletion."
+},
+{
+"k": 4,
+"label": "not_addressed",
+"text": "Blocking SAHF formation restored proliferative capacity in oncogene-induced senescent cells.",
+"evidence": "These data show how multi-omics and imaging can identify critical features of RS and OIS and discover determinants of acute senescence and SAHF formation.",
+"note": "The abstract identifies SAHF determinants but never tests whether blocking SAHFs affects proliferation."
+}
+]
+},
+{
+"n": 1801,
+"id": "pmid:34525198",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Older specific-pathogen-free mice produce more IL-1a and IL-1b in steady-state bone marrow than young mice, mostly from myeloid cells.",
+"evidence": "older specific pathogen free (SPF) wild-type (WT) mice in contrast to young SPF mice produce more interleukin-1a and interleukin-1b (IL-1a/b) in steady-state bone marrow (BM)",
+"note": "The abstract reports more IL-1a/b in older than young mice, mainly from myeloid cells."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "Blood from older mice contained higher levels of TLR4 and TLR8 ligands.",
+"evidence": "blood from steady-state older SPF WT mice contains higher levels of microbe-associated molecular patterns, specifically TLR4 and TLR8 ligands",
+"note": "The abstract reports higher TLR4 and TLR8 ligand levels in older mice's blood."
+},
+{
+"k": 3,
+"label": "not_addressed",
+"text": "The microbiome/IL-1/IL-1R1 axis drives myeloid-biased hematopoiesis in aged humans.",
+"evidence": "Collectively, our data define the microbiome/IL-1/IL-1R1 axis as a key, self-sustaining and also therapeutically partially reversible driver of HSC inflammaging.",
+"note": "All experiments were performed in mice; human HSCs were not examined."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Antibiotic suppression of microbiota or pharmacologic IL-1 blockade reversed the myeloid-biased HSC output in older mice.",
+"evidence": "in vivo antibiotic suppression of microbiota or pharmacologic blockade of IL-1 signaling in older WT mice was similarly sufficient to reverse myeloid-biased output of their HSC populations",
+"note": "The abstract reports both interventions reversing myeloid-biased HSC output."
+}
+]
+},
+{
+"n": 1802,
+"id": "pmid:33408182",
+"statements": [
+{
+"k": 1,
+"label": "not_addressed",
+"text": "A small-molecule KAT7 inhibitor reproduced the lifespan extension achieved by genetic KAT7 targeting.",
+"evidence": "CRISPR-Cas9-based genetic screening is a robust method for systematically uncovering senescence genes such as KAT7 , which may represent a therapeutic target for developing aging interventions.",
+"note": "KAT7 was targeted genetically via CRISPR and lentiviral vectors; no small-molecule inhibitor was tested."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "KAT7, a histone acetyltransferase, ranked as a top hit whose deficiency alleviated senescence in both progeroid hMPC models.",
+"evidence": "including KAT7 , a histone acetyltransferase, which ranked as a top hit in both progeroid hMPC models",
+"note": "The abstract reports KAT7 as a top hit whose deficiency alleviated senescence in both models."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Inactivating KAT7 decreased histone H3 lysine 14 acetylation and repressed p15 INK4b transcription.",
+"evidence": "Inactivation of KAT7 decreased histone H3 lysine 14 acetylation, repressed p15 INK4b transcription, and alleviated hMPC senescence.",
+"note": "The abstract reports decreased H3K14 acetylation and repressed p15 INK4b after KAT7 inactivation."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Intravenous Cas9/sg-Kat7 extended lifespan in physiologically aged mice and in progeroid Zmpste24-/- mice.",
+"evidence": "lentiviral vectors encoding Cas9/sg- Kat7 , given intravenously, alleviated hepatocyte senescence and liver aging and extended life span in physiologically aged mice as well as progeroid Zmpste24 -/- mice",
+"note": "The abstract reports extended lifespan in both mouse models after intravenous Cas9/sg-Kat7."
+}
+]
+},
+{
+"n": 1803,
+"id": "pmid:35236985",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "Single-cell RNA sequencing of 20 organs mapped cell-type-specific responses to young and aged blood in heterochronic parabiosis.",
+"evidence": "Here we performed single-cell RNA sequencing on 20 organs to reveal cell-type-specific responses to young and aged blood in heterochronic parabiosis.",
+"note": "The abstract reports scRNA-seq across 20 organs to study parabiosis responses."
+},
+{
+"k": 2,
+"label": "not_addressed",
+"text": "Heterochronic parabiosis extended the lifespan of the aged mice.",
+"evidence": "Together, these data lay the groundwork for a systemic understanding of the interplay between blood-borne factors and cellular integrity.",
+"note": "The abstract reports transcriptomic changes but never measures lifespan or survival."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "Aged blood reduced global gene expression, whereas young blood restored it in select cell types.",
+"evidence": "aged blood reduces global gene expression, and young blood restores it in select cell types",
+"note": "The abstract reports aged blood reducing and young blood restoring global gene expression."
+},
+{
+"k": 4,
+"label": "supported",
+"text": "Adipose mesenchymal stromal cells, haematopoietic stem cells and hepatocytes were among the most responsive cell types.",
+"evidence": "Adipose mesenchymal stromal cells, haematopoietic stem cells and hepatocytes are among those cell types that are especially responsive.",
+"note": "The abstract names these cell types as especially responsive."
+}
+]
+},
+{
+"n": 1804,
+"id": "pmid:30673616",
+"statements": [
+{
+"k": 1,
+"label": "supported",
+"text": "SIRT2 is required for HSC maintenance and regenerative capacity in old age by cell-autonomously repressing NLRP3 inflammasome activation.",
+"evidence": "SIRT2, a cytosolic NAD + -dependent deacetylase, is required for HSC maintenance and regenerative capacity at an old age by repressing the activation of the NLRP3 inflammasome in HSCs cell autonomously.",
+"note": "The abstract reports SIRT2 maintaining old HSCs by cell-autonomously repressing the NLRP3 inflammasome."
+},
+{
+"k": 2,
+"label": "supported",
+"text": "With age, SIRT2 expression falls and mitochondrial stress rises, driving aberrant NLRP3 inflammasome activation in HSCs.",
+"evidence": "With age, reduced SIRT2 expression and increased mitochondrial stress lead to aberrant activation of the NLRP3 inflammasome in HSCs.",
+"note": "The abstract reports reduced SIRT2 and increased mitochondrial stress driving NLRP3 activation with age."
+},
+{
+"k": 3,
+"label": "supported",
+"text": "SIRT2 overexpression, NLRP3 inactivation, or caspase 1 inactivation improves the maintenance and regenerative capacity of aged HSCs.",
+"evidence": "SIRT2 overexpression, NLRP3 inactivation, or caspase 1 inactivation improves the maintenance and regenerative capacity of aged HSCs.",
+"note": "The abstract reports each of these manipulations improving aged HSC function."
+},
+{
+"k": 4,
+"label": "not_addressed",
+"text": "SIRT2 overexpression extended the overall lifespan of the aged mice.",
+"evidence": "These results suggest that mitochondrial stress-initiated aberrant activation of the NLRP3 inflammasome is a reversible driver of the functional decline of HSC aging and highlight the importance of inflammatory signaling in regulating HSC aging.",
+"note": "The abstract reports improved HSC function but never measures organismal lifespan."
+}
+]
+}
+]
+}

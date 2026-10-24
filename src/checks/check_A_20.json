@@ -1,0 +1,143 @@
+{"batch": "check_A_20", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+  {"n": 640, "id": "pmid:41087899",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Despite frequent inbreeding, banded mongooses showed MHC diversity comparable to other carnivores of least concern using phylogenetic mixed models."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Phylogenetic analysis indicated a longer evolutionary trajectory for MHC-II compared to MHC-I"},
+     {"j": 3, "label": "supported", "confidence": 2, "evidence": "as well as MHC-II DRB exon 2 for a large sample (N = 285–384) of a wild carnivore of least conservation concern"},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "MHC-I showed higher allelic and supertype diversity and polymorphism compared to MHC-II"}
+   ]},
+  {"n": 641, "id": "doi:10.64898/2026.04.03.716344",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "we identify 40 genome-wide significant signals of selection, which have a particularly strong impact on immune and cardiometabolic traits just as in West Eurasia"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "we identify 40 genome-wide significant signals of selection, which have a particularly strong impact on immune and cardiometabolic traits"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "East and West Eurasia show highly correlated signals of adaptation both for individual alleles and for complex traits"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "West Eurasians depigmented in the last 10,000 years, but most skin lightening in East Asians arose prior to the Holocene"}
+   ]},
+  {"n": 642, "id": "pmid:42760974",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "All preferred codons (RSCU > 1) terminated in A or U, consistent with an AT-ending preference.", "flag": "ambiguous", "reason": "RSCU > 1 defines preferred (over-used) codons in the abstract, so describing them as used less often than expected conflicts with the stated finding."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "whereas natural selection acts in a gene-specific manner, mainly through purifying selection and functional constraints on particular chloroplast genes"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "with genome sizes of 142,880 bp to 145,535 bp and GC contents ranging from 37.56% to 38.18%"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Parity rule 2 (PR2) plot analysis revealed a pronounced T/G bias at the third codon position, whereas neutrality plot analysis revealed no significant correlation between GC3 and GC12."}
+   ]},
+  {"n": 643, "id": "doi:10.64898/2025.12.24.696441",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Bacterial community analysis using a synthetic community approach further demonstrated that these metabolic interactions, mediated by tobacco nicotine biosynthesis and its catabolism by Arthrobacter , jointly affect root microbiota composition."},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Nicotine improves Arthrobacter colonization to the tobacco roots through both catabolism-dependent and catabolism-independent mechanisms."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Our findings illustrated that bacterial catabolic capacity toward host-derived plant specialized metabolites is key for successful root colonization."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Nicotine catabolism genes are uniquely found in the Arthrobacter strains derived from nicotine-containing environments, and this restricted gene distribution is driven by a plasmid-mediated horizontal gene transfer."}
+   ]},
+  {"n": 644, "id": "pmid:38989916",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Using floral tissue from an herbarium specimen, we sequenced and analyzed the plastome of Degranvillea dermaptera"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "The plastome is the most reduced of those sequenced among the orchid subfamily Orchidoideae."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "a rarely collected, leafless orchid species from South America about which little is known, including its phylogenetic affinities"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "We found strong evidence for the placement of Degranvillea within the subtribe Spiranthinae using models that explicitly account for heterotachy"}
+   ]},
+  {"n": 645, "id": "doi:10.64898/2026.03.23.713665",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "We identified strong associations at known patterning loci—including ivory:mir193 (previously coretex), optix , WntA , and vvl —as well as novel regions, including a chromosome 2 inversion in H. erato"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Using automated computer vision pipelines, we extracted and quantified color pattern variation from over 650 butterfly specimens."},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Müllerian mimicry in Heliconius butterflies offers a powerful natural experiment, with co-occurring species independently evolving similar wing color patterns under shared selective regimes."},
+     {"j": 4, "label": "supported", "confidence": 2, "evidence": "while significant associations mapped to homologous regulatory regions across species, the specific variants were lineage-specific, consistent with parallel evolution via distinct cis-regulatory changes"}
+   ]},
+  {"n": 646, "id": "doi:10.1101/2025.07.14.664650",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "The mutations found in these cases were suggestive of positive selection in the Spike receptor binding domain and convergent evolution toward immune evasion"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Significant differences were identified in age distribution, sex, hospitalizations, and deaths between persistent infection cases and all sequenced California SARS-CoV-2 cases."},
+     {"j": 3, "label": "supported", "confidence": 2, "evidence": "We identified 69 persistent infection cases with collection dates between January 2021 and July 2023 ranging from 21 to 400 days in duration, with an average of 44 days."},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "this study lays the groundwork for other public health organizations to monitor and investigate highly divergent SARS-CoV-2 viruses"}
+   ]},
+  {"n": 647, "id": "pmid:40654273",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "We conducted phylogenomic analyses of 28 representative species within the tribe Thelypodieae from western North America"},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "The tribe Thelypodieae (Brassicaceae) thrives in diverse edaphic conditions, including harsh serpentine soils."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "we identified specific plastid genes (atpB, ndhC, ndhF, cemA, rps3, rbcL, ycf2, clp1, and matK) that displayed evidence of adaptive evolution"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Incongruence between organellar and nuclear phylogenies uncovered a history of hybridization within this group."}
+   ]},
+  {"n": 648, "id": "pmid:42092757",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Clades I and II exhibited high effector diversity, ranging from 38 to 54 genes, with Xar. pv. corylina harboring the most."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Clades I and II exhibited high effector diversity, ranging from 38 to 54 genes, with Xar. pv. corylina harboring the most. In contrast, Clade III genomes had significantly fewer effectors, with subclade IIIa containing only 5 and IIIb up to 15."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Nineteen of the genomes were originally misclassified and did not belong to the Xar species. The remaining 158 genomes clustered into three major clades"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "In contrast, all genomes possessed a lasso peptide biosynthetic cluster"}
+   ]},
+  {"n": 649, "id": "pmid:42747904",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Among the known races, Fov race 4 and its extra-virulent variants cause particularly severe losses in Upland cotton."},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "high-quality genome assemblies of four Fusarium isolates collected from Texas cotton fields: two pathogenic (TX17-24 and TX18-9) and two non-pathogenic (TX17-6 and TX18-6)"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Phylogenomic analyses using k-mer-based, assembly- and alignment-free methods incorporated all available long-read Fov genomes and revealed substantial genetic diversity within races 1 and 4, clustering isolates into multiple sublineages."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Comparative genomic analyses showed that pathogenic isolates possessed larger genomes and more conserved orthologous families, whereas non-pathogenic isolates contained more unique genes."}
+   ]},
+  {"n": 650, "id": "doi:10.64898/2025.12.21.695765",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "SNP detection with transition/transversion statistics, intron feature characterization, simple sequence repeat identification, and nucleotide diversity profiling"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "All outputs are generated in standardized, publication-ready Excel and Word formats with timestamped provenance."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "CGAS emphasizes biologically informed handling of edge cases, including trans-spliced genes (e.g., rps12 ), IR-mediated gene duplication, and annotation artifacts"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "CGAS integrates nine core analytical modules into a single, reproducible workflow operating directly on annotated GenBank files and pre-aligned FASTA datasets."}
+   ]},
+  {"n": 651, "id": "doi:10.1101/2025.09.01.673544",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "we show that GCS captures substantial functional diversity hidden within high-ANI genome pairs, and that gene-content-based trees resolve substructure within sequence types that core-genome analyses cannot"},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Bacterial genome evolution is shaped extensively by horizontal gene transfer, generating gene presence-absence variation that represents a major axis of functional diversity yet is largely invisible to core-genome-based similarity metrics."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "validate its utility on 1,000 Klebsiella pneumoniae genomes from two major multidrug-resistant lineages (ST258 and ST307) with matched experimental antimicrobial resistance phenotypes"},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "GeneContRep preserves substantially more clinically relevant diversity than standard ANI-based dereplication, recovering carbapenemase variants, capsule locus types, and resistance determinants that are systematically lost under conventional ANI thresholds."}
+   ]},
+  {"n": 652, "id": "pmid:41143557",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "bacteriophages infecting PARB harbored and were transcribing ARGs/VFGs"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Evolutionary analyses indicated that influent PARB maintained high microdiversity via homologous recombination, while effluent populations underwent purifying selection"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "suggesting that wastewater treatment reduced the genetic diversity of PARB through purifying selection"},
+     {"j": 4, "label": "supported", "confidence": 2, "evidence": "A total of 44 PARB genomes were reconstructed, which carried both antibiotic resistance genes (ARGs) and virulence factor genes (VFGs), and they persisted in the effluent."}
+   ]},
+  {"n": 653, "id": "pmid:40207084",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "A high level of haplotype diversity was observed, with 24 distinct haplotypes"},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "The resistance profiles correlated with the genetic findings, particularly mutations."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "We analyzed nucleotide sequences of 32 β-lactamase-producing strains from Klebsiella pneumoniae , Escherichia coli , Pseudomonas aeruginosa , Proteus mirabilis , and Acinetobacter baumannii obtained from public databases."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "Sequence analysis revealed 32 distinct sequences with 298 segregating sites and 303 mutations"}
+   ]},
+  {"n": 654, "id": "doi:10.1101/2025.03.14.642314",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "the CpD14 - like ( CDL ) gene family, which encodes another ABH exhibiting SL receptor functions in fungi, was acquired from actinobacteria via an independent HGT event"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Biochemical assays further show that both actinobacterial CDL and proteobacterial RsbQ can recognize and hydrolyze SLs"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "X-ray crystallographic experiments reveal that CDL and D14/KAI2/RsbQ (DKR) proteins have distinctive lid structures but maintain the same core ‘α/β fold’ and catalytic triad."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "In plants, the SL receptor is an α/β-hydrolase (ABH) encoded by the D14 / KAI2 gene family, which is known to be derived from proteobacterial RsbQ through horizontal gene transfer (HGT). Here we show that the CpD14 - like ( CDL ) gene family, which encodes another ABH exhibiting SL receptor functions in fungi, was acquired from actinobacteria via an independent HGT event."}
+   ]},
+  {"n": 655, "id": "doi:10.1101/2025.09.20.677491",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Promoter analysis supports this, revealing the absence of MYB recognition elements in DFR2a and DFR2b that are present in the DFR1 promoter."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "DFR can accept three main substrates: dihydrokaempferol (DHK), dihydroquercetin (DHQ), and dihydromyricetin (DHM), and they exhibit variable substrate preferences."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Gene expression analysis shows DFR1 is universally expressed, whereas DFR2a and DFR2b expression is primarily restricted to seeds and roots."},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "this study identified three unique DFR gene copies in Fagopyrum , designated DFR1 , DFR2a , and DFR2b"}
+   ]},
+  {"n": 656, "id": "doi:10.64898/2026.03.24.713948",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Among the 60 most distinguishing transcripts between toxic and non-toxic strains, only 3 sxt genes were present, sxtA4, sxtG, and sxtI."},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "16 toxic and non-toxic A. minutum strains from a recombinant cross were compared, without prior assumption on genes or metabolites involved in PST synthesis"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "16 toxic and non-toxic A. minutum strains from a recombinant cross were compared, without prior assumption on genes or metabolites involved in PST synthesis"},
+     {"j": 4, "label": "supported", "confidence": 2, "evidence": "we identified four putative synthetic PST intermediates. Among these, Int-C'2, correlated with the toxic phenotype, whereas 3 others were detected in both toxic and non-toxic strains"}
+   ]},
+  {"n": 657, "id": "doi:10.64898/2026.10.02.756335",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "Higher redundancy generally buffers weakest-reaction performance under loss-biased mutation, while structural incompatibility has a non-monotonic effect on specialisation."},
+     {"j": 2, "label": "contradicted", "confidence": 2, "evidence": "No gene duplication occurs during evolution.", "flag": "ambiguous", "reason": "The abstract states no duplication occurs in the model, so no duplication-allowing simulations exist to compare; this reads as incompatible rather than merely unaddressed."},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Mean breadth reductions range from 1.59 to 3.97 under the loss-biased kernel and from 6.32 to 8.16 under the symmetric kernel."},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Across all 40 parameter combinations, effective protein breadth decreases and the strongest function accounts for a larger share of activity."}
+   ]},
+  {"n": 658, "id": "pmid:40592285",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "The results of positive selection analysis using the genomic data of wild birds showed that 70 genes enriched in the cytoskeleton in muscle cells signaling pathway experienced strong positive selection"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "Using the genomic data of domestic ducks for selective sweep analysis, we identified 139 candidate genes, among which FN1 and ANKRD1 were involved in the cytoskeleton in muscle cells signaling pathway"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "we obtained genomes of 28 wild bird and 15 duck species"},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Morphological and physiological differences are known among flightless bird species; however, the genetic mechanisms behind them are largely unexplored."}
+   ]},
+  {"n": 659, "id": "doi:10.1101/2024.11.26.625443",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "We identify key mechanisms of genome evolution, including signatures of adaptive evolution present in virulence and biofilm-related genes such as RovA, a master virulence regulator"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "our findings reveal an increased trajectory of genome degradation and expansion of IS elements in different lineages. This trend appears especially pronounced in 1.ANT genomes"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "we report the whole-genome sequences of 1,124 Y. pestis isolates collected from endemic areas worldwide over 116 years, nearly doubling the available genomic data for the species"},
+     {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "revealing the diversity of the 1.ANT lineage, its historical emergence and its spread to and within Africa since the late 17th century"}
+   ]}
+ ]}

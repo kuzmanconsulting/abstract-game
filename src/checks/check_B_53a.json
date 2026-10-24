@@ -1,0 +1,31 @@
+{"batch": "check_B_53a", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+   {"n": 1180, "id": "pmid:33505026",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "METTL3 also interacts physically with the histone 3 lysine 9 (H3K9) tri-methyltransferase SETDB1 and its cofactor TRIM28, and is important for their localization to IAPs."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "These m 6 A-marked transcripts are bound by the m 6 A reader YTHDC1, which interacts with METTL3 and in turn promotes the association of METTL3 with chromatin."},
+      {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Here we show that METTL3 regulates mouse embryonic stem-cell heterochromatin, the integrity of which is critical for silencing retroviral elements and for mammalian development"},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Knockout of Mettl3 impairs the deposition of multiple heterochromatin marks onto METTL3-targeted IAPs, and upregulates IAP transcription"}
+    ]},
+   {"n": 1181, "id": "pmid:36610399",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "These HERVK RVLPs constitute a transmissible message to elicit senescence phenotypes in young cells, which can be blocked by neutralizing antibodies."},
+      {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "In human senescent cells, we found that HERVK (HML-2), the most recently integrated human ERVs, are unlocked to transcribe viral genes and produce retrovirus-like particles (RVLPs)."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "The activation of ERVs was also observed in organs of aged primates and mice as well as in human tissues and serum from the elderly."},
+      {"j": 4, "label": "supported", "confidence": 3, "evidence": "Their repression alleviates cellular senescence and tissue degeneration and, to some extent, organismal aging."}
+    ]},
+   {"n": 1182, "id": "pmid:34591643",
+    "verdicts": [
+      {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "This work reveals a widespread class of transposon-encoded RNA-guided nucleases, which we name OMEGA (obligate mobile element–guided activity), with strong potential for developing as biotechnologies."},
+      {"j": 2, "label": "supported", "confidence": 2, "evidence": "We also demonstrate the RNA-guided nuclease activity of TnpB, another IS200/IS605 transposon-encoded protein and the likely ancestor of Cas12 endonucleases.", "flag": "ambiguous", "reason": "The abstract states RNA-guided nuclease activity for TnpB but does not explicitly name DNA as its substrate, unlike for IscB."},
+      {"j": 3, "label": "supported", "confidence": 3, "evidence": "We found that IscB uses a single noncoding RNA for RNA-guided cleavage of double-stranded DNA and can be harnessed for genome editing in human cells."},
+      {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "IscB proteins are putative nucleases encoded in a distinct family of IS200/IS605 transposons and are likely ancestors of the RNA-guided endonuclease Cas9"}
+    ]},
+   {"n": 1183, "id": "pmid:30926969",
+    "verdicts": [
+      {"j": 1, "label": "supported", "confidence": 3, "evidence": "Collectively, our results characterize the global profile of TE onco-exaptation and highlight this prevalent phenomenon as an important mechanism for promiscuous oncogene activation and ultimately tumorigenesis."},
+      {"j": 2, "label": "supported", "confidence": 3, "evidence": "Furthermore, we interrogated the AluJb-LIN28B candidate: the genetic deletion of the TE eliminated oncogene expression, while dynamic DNA methylation modulated promoter activity"},
+      {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Here, we analyzed 7,769 tumors and 625 normal datasets from 15 cancer types, identifying 129 TE cryptic promoter-activation events involving 106 oncogenes across 3,864 tumors."},
+      {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "highlight this prevalent phenomenon as an important mechanism for promiscuous oncogene activation and ultimately tumorigenesis"}
+    ]}
+ ]}

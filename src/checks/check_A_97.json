@@ -1,0 +1,97 @@
+{
+"batch": "check_A_97",
+"pass": "A",
+"prompt_version": "check-v1",
+"items": [
+{
+  "n": 1615, "id": "pmid:37252996",
+  "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "the rDNA-specific retrotransposon R2 is essential for restorative rDNA CN expansion to maintain rDNA loci in the Drosophila male germline"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "The depletion of R2 led to defective rDNA CN maintenance, causing a decline in fecundity over generations and eventual extinction."},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "to maintain rDNA loci in the Drosophila male germline"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Ribosomal DNA (rDNA) loci contain hundreds of tandemly repeated copies of ribosomal RNA genes needed to support cellular viability."}
+  ]
+},
+{
+  "n": 1616, "id": "pmid:37308596",
+  "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "This in turn activates transcription of subsets of full-length long interspersed nuclear elements (LINE1s, L1s) and endogenous retrovirus (ERV) long terminal repeats (LTRs)."},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "the H4K16ac-marked L1 and LTR subfamilies display enhancer-like functions", "flag": "ambiguous", "reason": "The enhancer-like function is stated but the abstract never says these elements are essential for maintaining hESC pluripotency."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "such regions often reside at boundaries of topologically associated domains and loop with genes."},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "the male-specific lethal (MSL)-complex-mediated histone H4 acetylation at lysine 16 (H4K16ac) is enriched at TEs in human embryonic stem cells (hESCs) and cancer cells."}
+  ]
+},
+{
+  "n": 1617, "id": "pmid:36669112",
+  "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "we observed a dramatic amplification in copy number of the Cnl1"},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "mobile elements are likely to facilitate microevolution and rapid adaptation during infection."},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Mutations caused by transposable element (TE) insertion into reporter genes were dramatically elevated at high temperatures (37° vs. 30°) in vitro"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "the Tcn12 retrotransposon integrated primarily within genes and movement occurred exclusively at 37°."}
+  ]
+},
+{
+  "n": 1618, "id": "pmid:36732547",
+  "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 2, "evidence": "ERVs expressions in kidney tubules trigger RIG-I/STING, and cytokine expression, and correlate with the presence of immune cells.", "flag": "ambiguous", "reason": "The abstract establishes the ERV/RIG-I/STING axis in kidney disease only and says nothing about liver, so the liver claim is neither supported nor directly contradicted."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "Genetic deletion of RIG-I or STING or treatment with reverse transcriptase inhibitor ameliorates kidney fibroinflammation."},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Comprehensive RNA-sequencing of control and diseased kidneys from human and mouse disease models indicated higher expression of transposable elements (TEs) and ERVs in diseased kidneys."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Genetic deletion/pharmacological inhibition of DNA methyltransferase 1 (DNMT1) induces ERV expression."}
+  ]
+},
+{
+  "n": 1619, "id": "pmid:37487084",
+  "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "accessions with in vitro propagation history were identified and found to have high levels of TEs."},
+    {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "clade 1+2, which is composed of species from North and Central America with reproductive isolation from species in other clades, having much lower TE content compared to other clades."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "the cloud genome (genes present in less than 3% of the member accessions) showed enrichment in transposable elements (TEs)."},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "accessions with in vitro propagation history were identified and found to have high levels of TEs."}
+  ]
+},
+{
+  "n": 1620, "id": "pmid:39672162",
+  "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "the alternative splicing of exons derived from transposable elements is a key mechanism controlling immune signaling in human cells."},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "potently inhibits interferon signaling, including in cells infected with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)", "flag": "ambiguous", "reason": "The abstract shows the isoform inhibits interferon signaling in SARS-CoV-2-infected cells but makes no claim that it protects patients from severe COVID-19."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "functions as a decoy receptor that potently inhibits interferon signaling, including in cells infected with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)"},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "the transposon-derived isoform of IFNAR2 is more highly expressed than the canonical isoform in almost all tissues"}
+  ]
+},
+{
+  "n": 1621, "id": "pmid:36537206",
+  "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Multiple novel adaptations were found specific to the I-D subtype, including natural inactivation of the Cas10 nuclease."},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Multiple attributes of the type I-D system offer unique possibilities for future work in gene editing.", "flag": "ambiguous", "reason": "The abstract notes gene-editing potential but makes no claim about insertion into human cells or precision relative to Cas9 editors."},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We find cyanobacterial genomes are rich in Tn7-like elements, including most of the known guide RNA-directed transposons, the type V-K, I-B1, and I-B2 CRISPR-Cas based systems."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "We discovered and characterized an example of a type I-D CRISPR-Cas system which was naturally coopted for guide RNA-directed transposition."}
+  ]
+},
+{
+  "n": 1622, "id": "pmid:38309261",
+  "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We find that the youngest primate L1 families are specifically hypomethylated in pluripotent stem cells and the placenta but not in most tumors."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "the L1 methylation state can propagate to the proximal region up to 300 bp."},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "the youngest primate L1 families are specifically hypomethylated in pluripotent stem cells and the placenta but not in most tumors"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "L1 hypomethylation alone is typically insufficient to trigger L1 expression due to redundant silencing pathways."}
+  ]
+},
+{
+  "n": 1623, "id": "pmid:39667937",
+  "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Despite being shorter and lowly expressed, these isoforms are shared between individuals and efficiently translated."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "Exonized TEs are rich in ancient genes, whereas the involved splice sites are recent and can be evolutionarily conserved."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "we use transcriptome assembly, ribosome profiling, and proteomics to describe a population of 1,227 unannotated TE exonizing isoforms generated by mRNA splicing and recurrent in human populations."},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We conclude that TE-spliced isoforms represent a diversity reservoir of functional proteins on which natural selection can act."}
+  ]
+},
+{
+  "n": 1624, "id": "pmid:39122675",
+  "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "These results establish the disrupted piRNA pathway as a major cause of human spermatogenic failure"},
+    {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "A reduced number of pachytene piRNAs was detected in the testicular tissue of variant carriers, demonstrating impaired piRNA biogenesis."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "range from complete germ cell loss to the production of a few morphologically abnormal sperm"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "39 infertile men carrying biallelic variants in 14 different piRNA pathway genes, including PIWIL1, GTSF1, GPAT2, MAEL, TDRD1, and DDX4"}
+  ]
+}
+]
+}

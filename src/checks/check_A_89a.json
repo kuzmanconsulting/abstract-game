@@ -1,0 +1,47 @@
+{
+  "batch": "check_A_89a",
+  "pass": "A",
+  "prompt_version": "check-v1",
+  "items": [
+    {
+      "n": 1535,
+      "id": "pmid:37560917",
+      "verdicts": [
+        {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "This suggests that different types of purifying selection operate on base substitutions and P-element insertions."},
+        {"j": 2, "label": "supported", "confidence": 3, "evidence": "we conclude that purifying selection, with variable strength along the chromosomes, is the major determinant of the genomic distribution of P-elements."},
+        {"j": 3, "label": "not_addressed", "confidence": 2, "evidence": "Drosophila simulans founder populations harboring 1040 insertions of an active P-element.", "flag": "ambiguous", "reason": "The abstract says the founder populations harbored 1040 insertions but does not state that each population separately carried 1040."},
+        {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "we detected strong selection against P-element insertions. The exception were P-element insertions in genomic regions for which a strong insertion bias has been proposed"}
+      ]
+    },
+    {
+      "n": 1536,
+      "id": "pmid:36774380",
+      "verdicts": [
+        {"j": 1, "label": "supported", "confidence": 3, "evidence": "the accelerated TFBSs are enriched around developmental genes"},
+        {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "more than 6000 TFBSs annotated in the human genome have experienced accelerated evolution in Hominini, apes, and Old World monkeys"},
+        {"j": 3, "label": "supported", "confidence": 3, "evidence": "Although these TFBSs individually show relatively weak signals of accelerated evolution, they collectively are more abundant than HARs"},
+        {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "we introduce two pooling-based phylogenetic methods with dramatically enhanced sensitivity to examine accelerated evolution in TFBSs"}
+      ]
+    },
+    {
+      "n": 1537,
+      "id": "pmid:41407853",
+      "verdicts": [
+        {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Application of the statistic to around 30 of the most prevalent commensal gut species from 24 human populations around the world showed more than 300 selective sweeps across species"},
+        {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "the targets of selection differ significantly between industrialized populations and non-industrialized populations"},
+        {"j": 3, "label": "supported", "confidence": 3, "evidence": "We find an enrichment for selective sweeps at loci involved in carbohydrate metabolism, indicative of adaptation to host diet"},
+        {"j": 4, "label": "supported", "confidence": 3, "evidence": "One of these sweeps is at a locus known to be involved in the metabolism of maltodextrin-a synthetic starch that has recently become a widespread component of industrialized diets"}
+      ]
+    },
+    {
+      "n": 1538,
+      "id": "pmid:39705310",
+      "verdicts": [
+        {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "we identified several gene families with strong evidence of repeated positive selection. These gene families tend to be enriched for reduced pleiotropy"},
+        {"j": 2, "label": "supported", "confidence": 3, "evidence": "These gene families tend to be enriched for reduced pleiotropy, consistent with predictions from Fisher's evolutionary model and the cost of complexity hypothesis"},
+        {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We also found that genes with repeated sweeps exhibit elevated levels of gene duplication"},
+        {"j": 4, "label": "supported", "confidence": 3, "evidence": "we scanned the genomes of 17 plant species to identify signals of repeated global selective sweeps"}
+      ]
+    }
+  ]
+}

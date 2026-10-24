@@ -1,0 +1,63 @@
+{"batch": "check_B_72", "pass": "B", "prompt_version": "check-v1",
+ "items": [
+  {"n": 1365, "id": "pmid:37540596", "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "Most mutational signatures are affected by topographical features, with signatures of related etiologies being similarly affected."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "we integrate mutations from 5,120 whole-genome-sequenced tumors from 40 cancer types with 516 topographical features from ENCODE"},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "nucleosome occupancy, histone modifications, CTCF binding, replication timing, and transcription/replication strand asymmetries"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Certain signatures exhibit periodic behaviors or cancer-type-specific enrichments/depletions near topographical features"}
+  ]},
+  {"n": 1366, "id": "pmid:40596443", "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Chemotherapy induced premature changes in the cell population structure of normal blood, similar to those caused by normal aging."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "we sequenced blood cell genomes from 23 individuals aged 3-80 years who were treated with a range of chemotherapy regimens"},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "The results show the long-term biological consequences of cytotoxic agents to which a substantial fraction of the population is exposed as part of disease management"},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Substantial additional somatic mutation loads with characteristic mutational signatures were imposed by some chemotherapeutic agents, but the effects were dependent on the drug and blood cell types."}
+  ]},
+  {"n": 1367, "id": "pmid:37216686", "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "formal delineation of a 7.8 Mb common region of amplification harboring 71 genes, 43 of which were differentially expressed compared with non-iAMP21-ALL ones"},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "including rare cases arising in the context of constitutional chromosomal aberrations"},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "We show that UV-mutational signatures and high mutation load are characteristic secondary genetic features."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "we documented clonal heterogeneity and genomic evolution, demonstrating that the acquisition of the iAMP21 chromosome is an early event"}
+  ]},
+  {"n": 1368, "id": "pmid:36604421", "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Phylogenetic trees of tumor evolution, reconstructed from bulk and multi-region WGS, reveal that LFS tumors exhibit comparatively limited heterogeneity."},
+    {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "This occurs earlier in these tumors compared to tumors with somatic TP53 mutations"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "we perform whole-genome sequence (WGS) analysis of tumors from 22 patients with TP53 germline pathogenic variants"},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "We observe somatic mutations affecting Wnt, PI3K/AKT signaling, epigenetic modifiers and homologous recombination genes"}
+  ]},
+  {"n": 1369, "id": "pmid:37890492", "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "in lung cancer, KRAS mutations are less common in both smokers and non-smokers with AFR ancestry, whereas the association of TP53 mutations with AFR ancestry is only seen in smokers"},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "We leverage two large genomic cohorts to investigate the relationship between genomic alterations and AFR ancestry in six common cancers."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "There are differences in actionable alterations, such as depletion of KRAS G12C and EGFR L858R, and enrichment of ROS1 fusion with AFR ancestry in lung cancers."},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "an enrichment of MYC amplification with AFR ancestry in lung, breast, and prostate cancers"}
+  ]},
+  {"n": 1370, "id": "pmid:36595567", "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "These mutations tend to be mutually exclusive of mutations in other driver genes, and of genes in the PI3K pathway."},
+    {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Multi-PIK3CA mutations are found in 11% of all PIK3CA-mutant tumors, including 9% of low tumor mutational burden (TMB) PIK3CA-mutant tumors, and are enriched in breast and gynecologic cancers."},
+    {"j": 3, "label": "not_addressed", "confidence": 2, "evidence": "patients with different classes of multi-PIK3CA mutant estrogen receptor-positive, HER2-negative breast cancers respond similarly to PI3K inhibition.", "flag": "ambiguous", "reason": "The abstract states only that different classes of multi-PIK3CA tumors respond similarly to each other, not how multi-PIK3CA tumors compare with single-PIK3CA tumors."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Among PIK3CA-mutant tumors with a high TMB, 18% are multi-PIK3CA mutant and often harbor an apolipoprotein B mRNA-editing enzyme, catalytic polypeptide (APOBEC) mutational signature."}
+  ]},
+  {"n": 1371, "id": "pmid:37792958", "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "we collected sequencing and clinical data of initial-recurrent tumor pairs from 544 adult diffuse gliomas"},
+    {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Ki67 expression at diagnosis was positively correlated with acquiring hypermutation at recurrence in the IDH-wild-type glioma."},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "we constructed CELLO2 (Cancer EvoLution for LOngitudinal data version 2), a machine learning model integrating features at diagnosis to forecast hypermutation and progression after treatment."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "performed chronic temozolomide-induction experiments in glioma cell lines and isogenic patient-derived gliomaspheres and demonstrated that MYC drives temozolomide resistance by promoting hypermutation."}
+  ]},
+  {"n": 1372, "id": "pmid:40164736", "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Differences were found in the burden of tobacco-associated signatures between anatomical subsites, suggesting that tissue-specific factors modulate mutagenesis."},
+    {"j": 2, "label": "contradicted", "confidence": 2, "evidence": "Differences in HNC incidence between countries corresponded with differences in mutation burdens of tobacco-associated signatures, consistent with the dominant role of tobacco in HNC causation.", "flag": "ambiguous", "reason": "The abstract says incidence 'corresponded with' burden and frames tobacco as the dominant cause, implying a positive direction, so the stated inverse direction is treated as contradicted though the bare word 'corresponded' is directionless."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "Tobacco smoking was associated with differences in the mutational spectra, repertoire of driver mutations in cancer genes and patterns of copy number change."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Six tobacco-associated mutational signatures were detected, including some not previously reported."}
+  ]},
+  {"n": 1373, "id": "pmid:39587361", "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "In paired longitudinal patient samples, we further revealed genetic evolution and cell-type plasticity as mechanisms of disease progression."},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "further dissected subclone-specific drug-response profiles to identify LSC-targeting therapies, including BCL-xL inhibition"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "We observed complex structural variant landscapes within individual cells of patients with CK-AML characterized by linear and circular breakage-fusion-bridge cycles and chromothripsis."},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "with 75% harboring multiple subclones that frequently displayed ongoing karyotype remodeling"}
+  ]},
+  {"n": 1374, "id": "pmid:37537257", "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Aging skin in a high-incidence country has multiple features convergent with cancer that are not found in a low-risk country."},
+    {"j": 2, "label": "not_addressed", "confidence": 2, "evidence": "These differences may reflect germline variation in UV-protective genes.", "flag": "ambiguous", "reason": "The abstract only speculates ('may reflect') that germline UV-protective variation underlies the differences; it does not state that Singaporeans carry such protective variants or that these lowered their cancer risk."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "In Singaporean skin, most mutations result from cell-intrinsic processes; mutant NOTCH1 and NOTCH2 are more strongly selected than in the UK."},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "compared to Singapore, aging facial skin from populations in the UK has a fourfold greater mutational burden"}
+  ]}
+ ]}

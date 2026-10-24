@@ -1,0 +1,179 @@
+{
+"batch": "check_B_50c",
+"pass": "B",
+"source_batch": "gen_50c",
+"items": [
+{
+"n": 1145,
+"id": "pmid:28334903",
+"year": 2017,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "N6-methyladenosine (m6A) is the most abundant internal modification in eukaryotic messenger RNA (mRNA), and affects almost every stage of the mRNA life cycle. The YTH-domain proteins can specifically recognize m6A modification to control mRNA maturation, translation and decay. m6A can also alter RNA structures to affect RNA-protein interactions in cells. Here, we show that m6A increases the accessibility of its surrounding RNA sequence to bind heterogeneous nuclear ribonucleoprotein G (HNRNPG). Furthermore, HNRNPG binds m6A-methylated RNAs through its C-terminal low-complexity region, which self-assembles into large particles in vitro. The Arg-Gly-Gly repeats within the low-complexity region are required for binding to the RNA motif exposed by m6A methylation. We identified 13,191 m6A sites in the transcriptome that regulate RNA-HNRNPG interaction and thereby alter the expression and alternative splicing pattern of target mRNAs. Low-complexity regions are pervasive among mRNA binding proteins. Our results show that m6A-dependent RNA structural alterations can promote direct binding of m6A-modified RNAs to low-complexity regions in RNA binding proteins."
+}
+],
+"text": "N6-methyladenosine (m6A) is the most abundant internal modification in eukaryotic messenger RNA (mRNA), and affects almost every stage of the mRNA life cycle. The YTH-domain proteins can specifically recognize m6A modification to control mRNA maturation, translation and decay. m6A can also alter RNA structures to affect RNA-protein interactions in cells. Here, we show that m6A increases the accessibility of its surrounding RNA sequence to bind heterogeneous nuclear ribonucleoprotein G (HNRNPG). Furthermore, HNRNPG binds m6A-methylated RNAs through its C-terminal low-complexity region, which self-assembles into large particles in vitro. The Arg-Gly-Gly repeats within the low-complexity region are required for binding to the RNA motif exposed by m6A methylation. We identified 13,191 m6A sites in the transcriptome that regulate RNA-HNRNPG interaction and thereby alter the expression and alternative splicing pattern of target mRNAs. Low-complexity regions are pervasive among mRNA binding proteins. Our results show that m6A-dependent RNA structural alterations can promote direct binding of m6A-modified RNAs to low-complexity regions in RNA binding proteins.",
+"statements": [
+{
+"j": 1,
+"text": "When an adenosine carries the m6A mark, the surrounding RNA sequence becomes less accessible for binding by HNRNPG."
+},
+{
+"j": 2,
+"text": "The study identified 13,191 m6A sites across the transcriptome that modulate RNA-HNRNPG interaction, thereby changing expression and alternative splicing of target mRNAs."
+},
+{
+"j": 3,
+"text": "HNRNPG needs the Arg-Gly-Gly repeats in its low-complexity region to bind the RNA motif that m6A methylation exposes."
+},
+{
+"j": 4,
+"text": "The C-terminal low-complexity region of HNRNPG self-assembles into large particles inside living cells."
+}
+]
+},
+{
+"n": 1146,
+"id": "pmid:30717751",
+"year": 2019,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": "Background",
+"text": "CircRNA has emerged as a new non-coding RNA that plays crucial roles in tumour initiation and development. 'MiRNA sponge' is the most reported role played by circRNAs in many tumours. The AKT/mTOR axis is a classic signalling pathway in cancers that sustains energy homeostasis through energy production activities, such as the Warburg effect, and blocks catabolic activities, such as autophagy. Additionally, the AKT/mTOR axis exerts a positive effect on EMT, which promotes tumour metastasis."
+},
+{
+"label": "Methods",
+"text": "We detected higher circNRIP1 expression in gastric cancer by performing RNA-seq analysis. We verified the tumour promotor role of circNRIP1 in gastric cancer cells through a series of biological function assays. We then used a pull-down assay and dual-luciferase reporter assay to identify the downstream miR-149-5p of circNRIP1. Western blot analysis and immunofluorescence assays were performed to demonstrate that the circNRIP1-miR-149-5p-AKT1/mTOR axis is responsible for the altered metabolism in GC cells and promotes GC development. We then adopted a co-culture system to trace circNRIP1 transmission via exosomal communication and RIP experiments to determine that quaking regulates circNRIP1 expression. Finally, we confirmed the tumour suppressor role of microRNA-133a-3p in vivo in PDX mouse models."
+},
+{
+"label": "Results",
+"text": "We discovered that knockdown of circNRIP1 successfully blocked proliferation, migration, invasion and the expression level of AKT1 in GC cells. MiR-149-5p inhibition phenocopied the overexpression of circNRIP1 in GC cells, and overexpression of miR-149-5p blocked the malignant behaviours of circNRIP1. Moreover, it was proven that circNRIP1 can be transmitted by exosomal communication between GC cells, and exosomal circNRIP1 promoted tumour metastasis in vivo. We also demonstrated that quaking can promote circNRIP1 transcription. In the final step, the tumour promotor role of circNRIP1 was verified in PDX models."
+},
+{
+"label": "Conclusions",
+"text": "We proved that circNRIP1 sponges miR-149-5p to affect the expression level of AKT1 and eventually acts as a tumour promotor in GC."
+}
+],
+"text": "CircRNA has emerged as a new non-coding RNA that plays crucial roles in tumour initiation and development. 'MiRNA sponge' is the most reported role played by circRNAs in many tumours. The AKT/mTOR axis is a classic signalling pathway in cancers that sustains energy homeostasis through energy production activities, such as the Warburg effect, and blocks catabolic activities, such as autophagy. Additionally, the AKT/mTOR axis exerts a positive effect on EMT, which promotes tumour metastasis. We detected higher circNRIP1 expression in gastric cancer by performing RNA-seq analysis. We verified the tumour promotor role of circNRIP1 in gastric cancer cells through a series of biological function assays. We then used a pull-down assay and dual-luciferase reporter assay to identify the downstream miR-149-5p of circNRIP1. Western blot analysis and immunofluorescence assays were performed to demonstrate that the circNRIP1-miR-149-5p-AKT1/mTOR axis is responsible for the altered metabolism in GC cells and promotes GC development. We then adopted a co-culture system to trace circNRIP1 transmission via exosomal communication and RIP experiments to determine that quaking regulates circNRIP1 expression. Finally, we confirmed the tumour suppressor role of microRNA-133a-3p in vivo in PDX mouse models. We discovered that knockdown of circNRIP1 successfully blocked proliferation, migration, invasion and the expression level of AKT1 in GC cells. MiR-149-5p inhibition phenocopied the overexpression of circNRIP1 in GC cells, and overexpression of miR-149-5p blocked the malignant behaviours of circNRIP1. Moreover, it was proven that circNRIP1 can be transmitted by exosomal communication between GC cells, and exosomal circNRIP1 promoted tumour metastasis in vivo. We also demonstrated that quaking can promote circNRIP1 transcription. In the final step, the tumour promotor role of circNRIP1 was verified in PDX models. We proved that circNRIP1 sponges miR-149-5p to affect the expression level of AKT1 and eventually acts as a tumour promotor in GC.",
+"statements": [
+{
+"j": 1,
+"text": "Knocking down circNRIP1 in gastric cancer cells blocked their proliferation, migration and invasion and lowered AKT1 expression."
+},
+{
+"j": 2,
+"text": "In RNA-seq data, circNRIP1 was found at lower levels in gastric cancer."
+},
+{
+"j": 3,
+"text": "High circNRIP1 expression in gastric tumours is associated with shorter overall survival of gastric cancer patients."
+},
+{
+"j": 4,
+"text": "Gastric cancer cells can pass circNRIP1 to one another through exosomes, and exosomal circNRIP1 promoted tumour metastasis in vivo."
+}
+]
+},
+{
+"n": 1147,
+"id": "pmid:26816378",
+"year": 2016,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Muscle contraction depends on release of Ca(2+) from the sarcoplasmic reticulum (SR) and reuptake by the Ca(2+)adenosine triphosphatase SERCA. We discovered a putative muscle-specific long noncoding RNA that encodes a peptide of 34 amino acids and that we named dwarf open reading frame (DWORF). DWORF localizes to the SR membrane, where it enhances SERCA activity by displacing the SERCA inhibitors, phospholamban, sarcolipin, and myoregulin. In mice, overexpression of DWORF in cardiomyocytes increases peak Ca(2+) transient amplitude and SR Ca(2+) load while reducing the time constant of cytosolic Ca(2+) decay during each cycle of contraction-relaxation. Conversely, slow skeletal muscle lacking DWORF exhibits delayed Ca(2+) clearance and relaxation and reduced SERCA activity. DWORF is the only endogenous peptide known to activate the SERCA pump by physical interaction and provides a means for enhancing muscle contractility."
+}
+],
+"text": "Muscle contraction depends on release of Ca(2+) from the sarcoplasmic reticulum (SR) and reuptake by the Ca(2+)adenosine triphosphatase SERCA. We discovered a putative muscle-specific long noncoding RNA that encodes a peptide of 34 amino acids and that we named dwarf open reading frame (DWORF). DWORF localizes to the SR membrane, where it enhances SERCA activity by displacing the SERCA inhibitors, phospholamban, sarcolipin, and myoregulin. In mice, overexpression of DWORF in cardiomyocytes increases peak Ca(2+) transient amplitude and SR Ca(2+) load while reducing the time constant of cytosolic Ca(2+) decay during each cycle of contraction-relaxation. Conversely, slow skeletal muscle lacking DWORF exhibits delayed Ca(2+) clearance and relaxation and reduced SERCA activity. DWORF is the only endogenous peptide known to activate the SERCA pump by physical interaction and provides a means for enhancing muscle contractility.",
+"statements": [
+{
+"j": 1,
+"text": "Slow skeletal muscle without DWORF shows higher SERCA activity and slower Ca2+ clearance and relaxation."
+},
+{
+"j": 2,
+"text": "A putative muscle-specific long noncoding RNA turned out to encode a 34-amino-acid peptide, which was named DWORF."
+},
+{
+"j": 3,
+"text": "DWORF expression is reduced in the hearts of human patients with heart failure."
+},
+{
+"j": 4,
+"text": "Overexpressing DWORF in mouse cardiomyocytes raised peak Ca2+ transient amplitude and SR Ca2+ load and shortened the time constant of cytosolic Ca2+ decay."
+}
+]
+},
+{
+"n": 1148,
+"id": "pmid:30936474",
+"year": 2019,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "Metabolic reprogramming is a hallmark of cancer. Here, we demonstrate that tumour-associated macrophages (TAMs) enhance the aerobic glycolysis and apoptotic resistance of breast cancer cells via the extracellular vesicle (EV) transmission of a myeloid-specific lncRNA, HIF-1α-stabilizing long noncoding RNA (HISLA). Mechanistically, HISLA blocks the interaction of PHD2 and HIF-1α to inhibit the hydroxylation and degradation of HIF-1α. Reciprocally, lactate released from glycolytic tumour cells upregulates HISLA in macrophages, constituting a feed-forward loop between TAMs and tumour cells. Blocking EV-transmitted HISLA inhibits the glycolysis and chemoresistance of breast cancer in vivo. Clinically, HISLA expression in TAMs is associated with glycolysis, poor chemotherapeutic response and shorter survival of patients with breast cancer. Our study highlights the potential of lncRNAs as signal transducers that are transmitted between immune and tumour cells via EVs to promote cancer aerobic glycolysis."
+}
+],
+"text": "Metabolic reprogramming is a hallmark of cancer. Here, we demonstrate that tumour-associated macrophages (TAMs) enhance the aerobic glycolysis and apoptotic resistance of breast cancer cells via the extracellular vesicle (EV) transmission of a myeloid-specific lncRNA, HIF-1α-stabilizing long noncoding RNA (HISLA). Mechanistically, HISLA blocks the interaction of PHD2 and HIF-1α to inhibit the hydroxylation and degradation of HIF-1α. Reciprocally, lactate released from glycolytic tumour cells upregulates HISLA in macrophages, constituting a feed-forward loop between TAMs and tumour cells. Blocking EV-transmitted HISLA inhibits the glycolysis and chemoresistance of breast cancer in vivo. Clinically, HISLA expression in TAMs is associated with glycolysis, poor chemotherapeutic response and shorter survival of patients with breast cancer. Our study highlights the potential of lncRNAs as signal transducers that are transmitted between immune and tumour cells via EVs to promote cancer aerobic glycolysis.",
+"statements": [
+{
+"j": 1,
+"text": "By disrupting the interaction between PHD2 and HIF-1α, HISLA protects HIF-1α from hydroxylation and degradation."
+},
+{
+"j": 2,
+"text": "Blocking EV-transmitted HISLA reduces breast cancer metastasis in mice."
+},
+{
+"j": 3,
+"text": "In breast cancer patients, longer survival and poor chemotherapeutic response went together with HISLA expression in tumour-associated macrophages."
+},
+{
+"j": 4,
+"text": "Lactate released by glycolytic tumour cells increases HISLA levels in macrophages, creating a feed-forward loop between the two cell types."
+}
+]
+},
+{
+"n": 1149,
+"id": "pmid:26764595",
+"year": 2016,
+"field": "smallrna",
+"source": "journal",
+"sections": [
+{
+"label": null,
+"text": "The host gut microbiota varies across species and individuals but is relatively stable over time within an individual. How the host selectively shapes the microbiota is largely unclear. Here, we show that fecal microRNA (miRNA)-mediated inter-species gene regulation facilitates host control of the gut microbiota. miRNAs are abundant in mouse and human fecal samples and present within extracellular vesicles. Cell-specific loss of the miRNA-processing enzyme, Dicer, identified intestinal epithelial cells (IEC) and Hopx-positive cells as predominant fecal miRNA sources. These miRNAs can enter bacteria, such as F. nucleatum and E. coli, specifically regulate bacterial gene transcripts, and affect bacterial growth. IEC-miRNA-deficient (Dicer1(ΔIEC)) mice exhibit uncontrolled gut microbiota and exacerbated colitis, and WT fecal miRNA transplantation restores fecal microbes and ameliorates colitis. These findings identify both a physiologic role by which fecal miRNA shapes the gut microbiota and a potential strategy for manipulating the microbiome."
+}
+],
+"text": "The host gut microbiota varies across species and individuals but is relatively stable over time within an individual. How the host selectively shapes the microbiota is largely unclear. Here, we show that fecal microRNA (miRNA)-mediated inter-species gene regulation facilitates host control of the gut microbiota. miRNAs are abundant in mouse and human fecal samples and present within extracellular vesicles. Cell-specific loss of the miRNA-processing enzyme, Dicer, identified intestinal epithelial cells (IEC) and Hopx-positive cells as predominant fecal miRNA sources. These miRNAs can enter bacteria, such as F. nucleatum and E. coli, specifically regulate bacterial gene transcripts, and affect bacterial growth. IEC-miRNA-deficient (Dicer1(ΔIEC)) mice exhibit uncontrolled gut microbiota and exacerbated colitis, and WT fecal miRNA transplantation restores fecal microbes and ameliorates colitis. These findings identify both a physiologic role by which fecal miRNA shapes the gut microbiota and a potential strategy for manipulating the microbiome.",
+"statements": [
+{
+"j": 1,
+"text": "Transplanting fecal miRNA from healthy donors relieves colitis in human patients with inflammatory bowel disease."
+},
+{
+"j": 2,
+"text": "Fecal miRNAs enter bacteria such as F. nucleatum and E. coli, where they specifically regulate bacterial gene transcripts and alter bacterial growth."
+},
+{
+"j": 3,
+"text": "Mice lacking Dicer1 in intestinal epithelial cells develop more severe colitis and an uncontrolled gut microbiota."
+},
+{
+"j": 4,
+"text": "Intestinal epithelial cells and Hopx-negative cells are the main cellular sources of the miRNAs found in feces."
+}
+]
+}
+]
+}

@@ -1,0 +1,73 @@
+{"batch": "check_C_103", "pass": "C", "prompt_version": "check-v1",
+ "items": [
+  {"n": 1675, "id": "pmid:29272704",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "broadly expressed, growth-factor-inducible TFs FOS/JUN (AP-1) play a central role in enhancer selection"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "cells must select from among the ∼10 6 enhancers encoded in the genome the thousands of enhancers that drive the gene programs"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We used a genetic approach to identify transcription factors (TFs) required for enhancer selection in fibroblasts"},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "recruiting the SWI/SNF (BAF) chromatin remodeling complex to establish accessible chromatin"}
+   ]},
+  {"n": 1676, "id": "pmid:28562591",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "ACSS2 increases in the nuclei of differentiating neurons and localizes to upregulated neuronal genes near sites of elevated histone acetylation"},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "In adult mice, attenuation of hippocampal ACSS2 expression impairs long-term spatial memory"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "In adult mice, attenuation of hippocampal ACSS2 expression impairs long-term spatial memory, a cognitive process that relies on histone acetylation"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "A decrease in ACSS2 lowers nuclear acetyl-CoA levels, histone acetylation, and responsive expression of the cohort of neuronal genes"}
+   ]},
+  {"n": 1677, "id": "pmid:30038397",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "we identify three distinct topological conformation states and measure their transition kinetics"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "it enhances the temporal stability of the proximal conformation and is associated with further spatial compaction"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "how remote enhancers communicate with their target promoters, and specifically how chromatin topology dynamically relates to gene activation"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "We show that sustained proximity of the enhancer to its target is required for activation"}
+   ]},
+  {"n": 1678, "id": "pmid:31905366",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "We demonstrate that this interaction is specifically required for CTCF-anchored loops and contributes to the positioning of cohesin at CTCF binding sites"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "CTCF enables the formation of chromatin loops by protecting cohesin against loop release"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "a segment within the CTCF N terminus interacts with the SA2-SCC1 subunits of human cohesin"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "We report a crystal structure of SA2-SCC1 in complex with CTCF at a resolution of 2.7 Å, which reveals the molecular basis of the interaction"}
+   ]},
+  {"n": 1679, "id": "pmid:28424523",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "cohesin accumulates in up to 70 kilobase-long regions at 3'-ends of active genes, in particular if these converge on each other"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "In CTCF-depleted fibroblasts, cohesin cannot be properly recruited to CTCF sites but instead accumulates at transcription start sites of active genes"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "Changing gene expression modulates the position of these 'cohesin islands'"},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "In the absence of both CTCF and Wapl, cohesin accumulates in up to 70 kilobase-long regions at 3'-ends of active genes"}
+   ]},
+  {"n": 1680, "id": "pmid:30146161",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "inhibition of transcription elongation allows cohesin to accumulate at previously transcribed intragenic CTCF sites and to mediate chromatin looping and compaction"},
+     {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "during influenza A (IAV) infection, rampant transcription rapidly reorganizes host cell chromatin interactions"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "global inhibition of transcription termination by IAV NS1 protein causes readthrough transcription for hundreds of kilobases"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "elongating RNA polymerase II disrupts chromatin interactions by inducing cohesin displacement from CTCF sites, leading to locus decompaction"}
+   ]},
+  {"n": 1681, "id": "pmid:30867594",
+   "verdicts": [
+     {"j": 1, "label": "supported", "confidence": 3, "evidence": "tissue transglutaminase 2 can serotonylate histone H3 tri-methylated lysine 4 (H3K4me3)-marked nucleosomes, resulting in the presence of combinatorial H3K4me3Q5ser in vivo"},
+     {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "H3K4me3Q5ser nucleosomes are enriched in euchromatin, are sensitive to cellular differentiation and correlate with permissive gene expression"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "these data identify a direct role for 5-HT, independent from its contributions to neurotransmission and cellular signalling, in the mediation of permissive gene expression"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "H3K4me3Q5ser displays a ubiquitous pattern of tissue expression in mammals, with enrichment observed in brain and gut"}
+   ]},
+  {"n": 1682, "id": "pmid:35418676",
+   "verdicts": [
+     {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "transient enhancer-promoter interactions being translated into slower promoter bursting dynamics in individual cells"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "enhancer strength also determines absolute transcription levels as well as the sensitivity of a promoter to CTCF-mediated transcriptional insulation"},
+     {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "Our measurements establish general principles for the context-dependent role of chromosome structure in long-range transcriptional regulation"},
+     {"j": 4, "label": "supported", "confidence": 3, "evidence": "A quantitative analysis of hundreds of cell lines reveals that the transcriptional effect of an enhancer depends on its contact probabilities with the promoter through a nonlinear relationship"}
+   ]},
+  {"n": 1683, "id": "pmid:36471071",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "enhancer-promoter (E-P) interactions are largely insensitive to acute (3-h) depletion of CTCF, cohesin or WAPL"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "enhancer-promoter (E-P) interactions are largely insensitive to acute (3-h) depletion of CTCF, cohesin or WAPL"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "acute YY1 depletion also had minimal effects on E-P loops, transcription and 3D genome folding"},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "live-cell, single-molecule imaging revealed that cohesin depletion reduced transcription factor (TF) binding to chromatin"}
+   ]},
+  {"n": 1684, "id": "pmid:28723896",
+   "verdicts": [
+     {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Here we profile parental allele-specific DNase I hypersensitive sites in mouse zygotes and morula embryos"},
+     {"j": 2, "label": "supported", "confidence": 3, "evidence": "these genes are paternally expressed in preimplantation embryos, and ectopic removal of H3K27me3 induces maternal allele expression"},
+     {"j": 3, "label": "supported", "confidence": 3, "evidence": "identify 76 genes with paternal allele-specific DNase I hypersensitive sites that are devoid of DNA methylation but harbour maternal allele-specific H3K27me3"},
+     {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "H3K27me3-dependent imprinting is largely lost in the embryonic cell lineage, but at least five genes maintain their imprinted expression in the extra-embryonic cell lineage"}
+   ]}
+ ]}

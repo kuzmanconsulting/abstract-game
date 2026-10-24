@@ -1,0 +1,108 @@
+{"batch": "check_A_39", "pass": "A", "prompt_version": "check-v1",
+ "items": [
+  {"n": 970, "id": "pmid:41033311",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Across >55,000 isolates, these variants associate with increased transmissibility, especially in drug-resistant Mtb strains."},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "Across >55,000 isolates, these variants associate with increased transmissibility, especially in drug-resistant Mtb strains."},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "Across 274 Mtb clinical isolates, we uncovered unexpected diversity in virulence gene expression, which we linked to known and unknown regulators."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "many isolates harbor variants associated with decreased expression of EsxA (Esat6) and EsxB (Cfp10), which are virulence effectors, dominant T cell antigens, and immunodiagnostic targets"}
+   ]},
+  {"n": 971, "id": "pmid:39676654",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "we have identified novel chimeras-particularly in diseases such as oral squamous cell carcinoma and glioblastoma-now catalogued in ChiTaRS."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "By utilizing text mining on a curated selection of disease-specific RNA-sequencing data from public datasets, as well as patient blood and plasma samples, we have identified novel chimeras-particularly in diseases such as oral squamous cell carcinoma and glioblastoma-now catalogued in ChiTaRS."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "chimeric breakpoints across 934 cell lines, positioning ChiTaRS 8.0 as a valuable resource for testing personalized cancer therapies"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "This updated database provides unique information on 1055 chimeric breakpoints derived from public datasets using chromosome conformation capture techniques (the Hi-C datasets)."}
+   ]},
+  {"n": 972, "id": "pmid:40082608",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "we profiled seven human cell lines with five different RNA-sequencing protocols, including short-read cDNA, Nanopore long-read direct RNA, amplification-free direct cDNA and PCR-amplified cDNA sequencing, and PacBio IsoSeq, with multiple spike-in controls"},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "We illustrate the value of the SG-NEx data to identify alternative isoforms, novel transcripts, fusion transcripts and N 6 -methyladenosine RNA modifications."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "We describe differences in read length, coverage, throughput and transcript expression"},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "reporting that long-read RNA sequencing more robustly identifies major isoforms"}
+   ]},
+  {"n": 973, "id": "pmid:34162397",
+   "verdicts": [
+    {"j": 1, "label": "contradicted", "confidence": 3, "evidence": "the filtering of amplicon sequence variants (ASVs) with batch dependent abundances and those with a higher prevalence in negative controls, we identify known gut commensal bacteria, such as Faecalibacterium, Bacteroides and Ruminococcus"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "The microbial community of plasma is strongly influenced by laboratory and reagent contaminants introduced during the DNA extraction and sequencing processes."},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "We analyse additional plasma samples, highlighting the potential of this framework to identify differences in cfmDNA between healthy and cancer patients."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Compared to matched stool and saliva samples, the absolute concentration of cfmDNA is low but significantly above the levels detected from negative controls."}
+   ]},
+  {"n": 974, "id": "pmid:39406235",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "The Long-Read Personalized OncoGenomics (POG) dataset comprises a cohort of 189 patient tumors and 41 matched normal samples sequenced using the Oxford Nanopore Technologies PromethION platform."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "Promoter methylation in BRCA1 and RAD51C is a likely driver behind homologous recombination deficiency where no coding driver mutation was found."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "Long-range phasing facilitates the discovery of allelically differentially methylated regions (aDMRs) and allele-specific expression, including recurrent aDMRs in the cancer genes RET and CDKN2A."},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "This dataset demonstrates applications for long-read sequencing in precision medicine and is available as a resource for developing analytical approaches using this technology."}
+   ]},
+  {"n": 975, "id": "pmid:39313617",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Epithelioids support genetic manipulation and enable the study of mutant cell competition and selection in three-dimensional epithelia, and show how anti-cancer treatments modulate competition between transformed and wild-type cells."},
+    {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Esophageal epithelioids self-maintain without passaging for at least 1 year, maintaining a three-dimensional structure with proliferative basal cells that differentiate into suprabasal cells, which eventually shed and retain genomic stability."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "Live imaging over 5 months showed that epithelioids replicate in vivo cell dynamics."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "a targeted CRISPR-Cas9 screen shows that epithelioids recapitulate mutant gene selection in aging human esophagus and identifies additional drivers of clonal expansion"}
+   ]},
+  {"n": 976, "id": "pmid:33941929",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 1, "evidence": "detects variants at frequencies below 1 in 100,000 DNA template molecules", "flag": "ambiguous", "reason": "A method with a limit of detection below 1 in 100,000 necessarily picks up more frequent variants, but the statement also reads as a reversal of the abstract's \"below\" into a floor on sensitivity, which would be contradicted."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "assess limited quantities of cell-free DNA with high recovery of both strands"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "reduce the error rate of existing PCR-based molecular barcoding approaches by >100-fold"},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "The method achieves high sensitivity and specificity and detects variants at frequencies below 1 in 100,000 DNA template molecules"}
+   ]},
+  {"n": 977, "id": "pmid:36076083",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "EPINUC analysis of a cohort of 63 colorectal cancer, 10 pancreatic cancer and 33 healthy plasma samples detected cancer with high accuracy and sensitivity, even at early stages."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "Our system allows for high-resolution detection of six active and repressive histone modifications and their ratios and combinatorial patterns on millions of individual nucleosomes by single-molecule imaging."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "combining EPINUC with direct single-molecule DNA sequencing revealed the tissue of origin of colorectal, pancreatic, lung and breast tumors"},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "our system provides sensitive and quantitative data on plasma proteins, including detection of non-secreted tumor-specific proteins, such as mutant p53"}
+   ]},
+  {"n": 978, "id": "pmid:34135506",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "The rate of ctDNA clearance at week 6 was higher in the atezolizumab arm (18%) than in the observation arm (4%) (P = 0.0204)."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "ctDNA testing at the start of therapy (cycle 1 day 1) identified 214 (37%) patients who were positive for ctDNA and who had poor prognosis"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "No difference in disease-free survival or overall survival between treatment arms was noted for patients who were negative for ctDNA."},
+    {"j": 4, "label": "not_addressed", "confidence": 3, "evidence": "Transcriptomic analysis of tumours from patients who were positive for ctDNA revealed higher expression levels of cell-cycle and keratin genes."}
+   ]},
+  {"n": 979, "id": "pmid:40097200",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "we overcame the lack of annotation resources for CHM13-T2T by lifting over CHM13-T2T-aligned reads to the GRCh38 genome, therefore combining both improved alignment and advanced annotations"},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "346 SVs (1.13%) were only discoverable in a single replicate. We identify 54 somatic SVs, which appear to be stable as they are consistently present across the four replicates."},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "the CHM13-T2T improves SV detection accuracy compared to GRCh38 with a notable reduction in false-positive calls, and thus supports improved prioritization"},
+    {"j": 4, "label": "contradicted", "confidence": 3, "evidence": "Our findings in a tumor-normal matched benchmark sample and three patient samples show that the CHM13-T2T improves SV detection accuracy compared to GRCh38 with a notable reduction in false-positive calls"}
+   ]},
+  {"n": 980, "id": "pmid:41203992",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Mechanistically, they recruit TENT4 to extend the poly(A) tail, preventing deadenylation."},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "An element named A7 demonstrates particularly robust performance across cell types, delivery methods, modifications and coding sequences, making linear mRNA as stable as circular RNA while achieving higher translation efficiency."},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "we screen 196,277 viral sequences and identify eleven elements that strongly enhance mRNA stability and translation"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "In mouse liver, A7-containing linear mRNA exhibits substantially higher protein levels than circular RNA, with sustained expression lasting for over 2 weeks."}
+   ]},
+  {"n": 981, "id": "pmid:39614124",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Applied to a newly generated longitudinal, primary-metastasis-matched dataset of 14,994 non-small cell lung cancer cells, SPRINTER revealed widespread clone proliferation heterogeneity"},
+    {"j": 2, "label": "not_addressed", "confidence": 3, "evidence": "We further demonstrated that high-proliferation clones have increased metastatic seeding potential, increased circulating tumor DNA shedding"},
+    {"j": 3, "label": "contradicted", "confidence": 3, "evidence": "high-proliferation clones have increased metastatic seeding potential, increased circulating tumor DNA shedding"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Applied to previously generated datasets of 61,914 breast and ovarian cancer cells, SPRINTER revealed increased single-cell rates of different genomic variants and enrichment of proliferation-related gene amplifications in high-proliferation clones."}
+   ]},
+  {"n": 982, "id": "pmid:39271293",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "This class of cfDNA is enriched at gene promoters and binding sites of transcription factors or structural DNA-binding proteins, so that a genome-wide DNA footprint is directly captured from liquid biopsies."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "In short double-stranded cfDNA from healthy individuals, we find significant enrichment of 203 transcription factor motifs."},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "short double-stranded cfDNA signals at specific genomic regions correlate negatively with DNA methylation, positively with H3K4me3 histone modifications and gene transcription"},
+    {"j": 4, "label": "contradicted", "confidence": 2, "evidence": "When comparing short double-stranded cfDNA from patient samples of pancreatic ductal adenocarcinoma with colorectal carcinoma or septic with postoperative controls, we identify 136 and 241 differentially enriched loci, respectively.", "flag": "ambiguous", "reason": "The counts and comparisons match, but the abstract calls the loci differentially enriched rather than depleted, and \"differentially enriched\" does not itself fix a per-locus direction."}
+   ]},
+  {"n": 983, "id": "pmid:41513691",
+   "verdicts": [
+    {"j": 1, "label": "supported", "confidence": 3, "evidence": "Proteomic, yeast two-hybrid, and pull-down assays show that SET-24 interacts with HCF-1, a chromatin factor linked to complexes like COMPASS, which deposits H3K4me3."},
+    {"j": 2, "label": "contradicted", "confidence": 3, "evidence": "Loss of SET-24 leads to increased H3K4me3 at transcription start sites of hundreds of genes."},
+    {"j": 3, "label": "not_addressed", "confidence": 3, "evidence": "we characterize SET-24, a catalytically inactive SET domain protein that localizes to germline nuclei and is essential for germline immortality in Caenorhabditis elegans"},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "Although transcription remains largely unchanged, small RNA production is disrupted for about 30% of these genes."}
+   ]},
+  {"n": 984, "id": "pmid:42348705",
+   "verdicts": [
+    {"j": 1, "label": "not_addressed", "confidence": 3, "evidence": "Impairment of DBR1 leads to developmental arrest, yet the mechanism remains unclear."},
+    {"j": 2, "label": "supported", "confidence": 3, "evidence": "we found that debranching of lariat RNA prevents production of 21- and 22-nucleotide lariat-derived small interfering RNAs (lasiRNAs)"},
+    {"j": 3, "label": "supported", "confidence": 3, "evidence": "Upon pathogen infection and dysfunction of DBR1, many lariat RNAs were hijacked by DCL4 and DCL2 and processed into siRNAs that particularly target immunity genes, ultimately disrupting plant defense responses."},
+    {"j": 4, "label": "supported", "confidence": 3, "evidence": "LasiRNA biogenesis relied on RNA-dependent RNA polymerases and Dicer-like proteins (DCLs)."}
+   ]}
+ ]}

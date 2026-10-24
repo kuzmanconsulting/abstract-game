@@ -1,0 +1,347 @@
+{
+ "batch": "gen_101",
+ "prompt_version": "gen-v5",
+ "flip_rule": "first-of-any-v3",
+ "items": [
+  {
+   "n": 1655,
+   "id": "pmid:26760202",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Each of the three chromatin-domain types followed power-law scaling between 3D physical size and domain length, yet showed its own distinct scaling exponent.",
+     "evidence": "All three types of chromatin domains exhibit power-law scaling between their physical sizes in 3D and their domain lengths, but each type has a distinct scaling exponent.",
+     "note": "The abstract reports all three domain types scale as power laws but with distinct exponents."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "The distinct chromatin packing of each epigenetic state also occurs in mammalian cells.",
+     "evidence": "We classified genomic domains in Drosophila cells into transcriptionally active, inactive or Polycomb-repressed states, and observed distinct chromatin organizations for each state.",
+     "note": "The study examined only Drosophila cells and never tests whether the same packing holds in mammalian cells."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Far more strongly than inactive domains, the Polycomb-repressed domains excluded neighbouring active chromatin.",
+     "evidence": "compared to inactive domains, Polycomb-repressed domains spatially exclude neighbouring active chromatin to a much stronger degree.",
+     "note": "The abstract states these domains exclude neighbouring active chromatin much more strongly than inactive domains."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Polycomb-repressed domains displayed extensive chromatin intermixing within the domain, in contrast to the self-similar organization of active and inactive chromatin.",
+     "evidence": "the Polycomb-repressed domains are characterized by a high degree of chromatin intermixing within the domain.",
+     "note": "The abstract reports high intermixing inside Polycomb-repressed domains, unlike self-similar active and inactive chromatin."
+    }
+   ]
+  },
+  {
+   "n": 1656,
+   "id": "pmid:33268865",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Ectopic OSK expression restored youthful DNA methylation patterns and transcriptomes in mouse retinal ganglion cells.",
+     "evidence": "ectopic expression of Oct4 (also known as Pou5f1), Sox2 and Klf4 genes (OSK) in mouse retinal ganglion cells restores youthful DNA methylation patterns and transcriptomes",
+     "note": "The abstract reports OSK expression restored youthful methylation and transcriptomes in retinal ganglion cells."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "OSK expression in mouse retinal ganglion cells promotes axon regeneration after injury and reverses vision loss in glaucoma-model and aged mice.",
+     "evidence": "promotes axon regeneration after injury, and reverses vision loss in a mouse model of glaucoma and in aged mice.",
+     "note": "The abstract states OSK promotes axon regeneration and reverses vision loss in glaucoma-model and aged mice."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "OSK reprogramming also reverses age-related memory decline in the mouse brain.",
+     "evidence": "Over time, the central nervous system (CNS) loses function and regenerative capacity",
+     "note": "The study measured vision and axon regeneration in the eye, never memory or brain function."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The regenerative and vision benefits of OSK-induced reprogramming depended on the DNA demethylases TET1 and TET2.",
+     "evidence": "The beneficial effects of OSK-induced reprogramming in axon regeneration and vision require the DNA demethylases TET1 and TET2.",
+     "note": "The abstract reports the benefits require the demethylases TET1 and TET2."
+    }
+   ]
+  },
+  {
+   "n": 1657,
+   "id": "pmid:27105115",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Histone Kbhb was enriched at active gene promoters, as shown by ChIP-seq and RNA-seq.",
+     "evidence": "histone Kbhb is a mark enriched in active gene promoters",
+     "note": "The abstract reports histone Kbhb is enriched at active gene promoters."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The study pinpointed 44 histone Kbhb sites, a count comparable to the known histone acetylation sites.",
+     "evidence": "we identified 44 histone Kbhb sites, a figure comparable to the known number of histone acetylation sites.",
+     "note": "The abstract reports 44 Kbhb sites, comparable in number to known acetylation sites."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Histone Kbhb marks were strongly induced when beta-hydroxybutyrate rose in cultured cells and in livers of fasted or ketoacidotic mice.",
+     "evidence": "Histone Kbhb marks are dramatically induced in response to elevated β-hydroxybutyrate levels in cultured cells and in livers from mice subjected to prolonged fasting or streptozotocin-induced diabetic ketoacidosis.",
+     "note": "The abstract reports Kbhb marks are induced by elevated beta-hydroxybutyrate in cells and fasted or ketoacidotic mouse livers."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Boosting histone Kbhb could improve outcomes in epilepsy patients.",
+     "evidence": "diverse functions of β-hydroxybutyrate in the context of important human pathophysiological states, including diabetes, epilepsy, and neoplasia.",
+     "note": "The abstract names epilepsy only as a relevant pathophysiological context and tests no therapy or patient outcome."
+    }
+   ]
+  },
+  {
+   "n": 1658,
+   "id": "pmid:27708057",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "The identified enhancers regulate MYC and GATA1 expression in primary human tumours.",
+     "evidence": "This CRISPRi-based approach can be applied to dissect transcriptional networks and interpret the contributions of noncoding genetic variation to human disease.",
+     "note": "The abstract mentions applicability to human disease but studies no primary tumour samples."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Using CRISPRi, the study identified nine distal enhancers that control gene expression and cellular proliferation.",
+     "evidence": "identify nine distal enhancers that control gene expression and cellular proliferation.",
+     "note": "The abstract reports identifying nine distal enhancers controlling gene expression and proliferation."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The CRISPRi screen surveyed more than one megabase of sequence around the essential transcription factors MYC and GATA1.",
+     "evidence": "We assess >1 megabase of sequence in the vicinity of two essential transcription factors, MYC and GATA1",
+     "note": "The abstract reports assessing more than one megabase of sequence near MYC and GATA1."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Quantitative chromatin-state and chromosome-conformation features set apart the seven enhancers regulating MYC from elements that did not.",
+     "evidence": "Quantitative features of chromatin state and chromosome conformation distinguish the seven enhancers that regulate MYC from other elements that do not",
+     "note": "The abstract reports quantitative chromatin and conformation features distinguish the seven MYC-regulating enhancers."
+    }
+   ]
+  },
+  {
+   "n": 1659,
+   "id": "pmid:27626379",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Compared with embryonic stem cells, bivalent H3K4me3/H3K27me3 co-occurrence was relatively rare and unstable in early embryos.",
+     "evidence": "the bivalency (that is, co-occurrence of H3K4me3 and H3K27me3) in early embryos is relatively infrequent and unstable.",
+     "note": "The abstract reports bivalency is relatively infrequent and unstable in early embryos versus embryonic stem cells."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "After fertilization, H3K4me3 was re-established much more rapidly than H3K27me3, especially over promoter regions.",
+     "evidence": "the re-establishment of H3K4me3, especially on promoter regions, occurs much more rapidly than that of H3K27me3 following fertilization",
+     "note": "The abstract reports H3K4me3 is re-established much faster than H3K27me3 after fertilization, especially at promoters."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The dynamic H3K4me3 patterns seen in mouse embryos also occur in human pre-implantation development.",
+     "evidence": "in mouse pre-implantation embryos.",
+     "note": "The study maps mouse embryos only and never examines human pre-implantation development."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Broad H3K4me3 domains exceeding 5 kb accompanied stronger transcription activity and cell identity, from embryos to embryonic and trophoblast stem cells.",
+     "evidence": "the broad H3K4me3 domain (wider than 5 kb) is associated with higher transcription activity and cell identity",
+     "note": "The abstract reports broad H3K4me3 domains wider than 5 kb mark higher transcription activity and cell identity."
+    }
+   ]
+  },
+  {
+   "n": 1660,
+   "id": "pmid:31949099",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "METTL3 places m6A modifications on chromosome-associated regulatory RNAs, including promoter-associated RNAs, enhancer RNAs, and repeat RNAs.",
+     "evidence": "METTL3 deposits m 6 A modifications on chromosome-associated regulatory RNAs (carRNAs), including promoter-associated RNAs, enhancer RNAs, and repeat RNAs.",
+     "note": "The abstract reports METTL3 deposits m6A on carRNAs spanning promoter, enhancer, and repeat RNAs."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "YTHDC1 drives the decay of a subset of these m6A-marked RNAs, particularly LINE-1 elements, through nuclear exosome targeting.",
+     "evidence": "YTHDC1 facilitates the decay of a subset of these m 6 A-modified RNAs, especially elements of the long interspersed element-1 family, through the nuclear exosome targeting-mediated nuclear degradation.",
+     "note": "The abstract reports YTHDC1 promotes decay of m6A-modified carRNAs, especially LINE-1, via nuclear exosome targeting."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Knocking out the m6A writer Mettl3 or the nuclear reader Ythdc1 increases chromatin accessibility and switches on transcription in mouse embryonic stem cells.",
+     "evidence": "mouse embryonic stem cells increases chromatin accessibility and activates transcription",
+     "note": "The abstract reports knockout of Mettl3 or Ythdc1 increases chromatin accessibility and activates transcription."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "m6A modification of carRNAs regulates mouse embryonic stem cell differentiation.",
+     "evidence": "m 6 A on carRNAs can globally tune chromatin state and transcription.",
+     "note": "The abstract shows carRNA m6A tunes chromatin and transcription but never tests stem-cell differentiation."
+    }
+   ]
+  },
+  {
+   "n": 1661,
+   "id": "pmid:27626382",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Full-grown and mature oocytes carried a non-canonical H3K4me3 forming broad peaks at promoters and many distal loci.",
+     "evidence": "a non-canonical form of H3K4me3 (ncH3K4me3) in full-grown and mature oocytes, which exists as broad peaks at promoters and a large number of distal loci.",
+     "note": "The abstract reports oocytes carry non-canonical H3K4me3 as broad peaks at promoters and many distal loci."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Removing non-canonical H3K4me3 from oocytes reduces the fertility of resulting offspring.",
+     "evidence": "downregulation of H3K4me3 in full-grown oocytes by overexpression of the H3K4me3 demethylase KDM5B is associated with defects in genome silencing.",
+     "note": "The abstract links reduced oocyte H3K4me3 to genome-silencing defects, never to offspring fertility."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "On the paternal genome, H3K4me3 peaks were depleted in zygotes and reappeared only after major zygotic genome activation at the late two-cell stage.",
+     "evidence": "H3K4me3 peaks are depleted in zygotes but are readily observed after major zygotic genome activation at the late two-cell stage.",
+     "note": "The abstract reports paternal H3K4me3 peaks are depleted in zygotes and return after major ZGA at the late two-cell stage."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Non-canonical H3K4me3 in oocytes overlapped almost exclusively with partially methylated DNA domains.",
+     "evidence": "ncH3K4me3 in oocytes overlaps almost exclusively with partially methylated DNA domains.",
+     "note": "The abstract reports oocyte ncH3K4me3 overlaps almost exclusively with partially methylated DNA domains."
+    }
+   ]
+  },
+  {
+   "n": 1662,
+   "id": "pmid:27309802",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Across these embryos, cis-regulatory element activity and its linked open chromatin diminished ahead of major ZGA.",
+     "evidence": "the activities of cis-regulatory elements and their associated open chromatin diminished before major ZGA.",
+     "note": "The abstract reports cis-regulatory element activity and open chromatin diminished before major ZGA."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Despite marked parental asymmetry in DNA methylomes, chromatin accessibility between the parental genomes was globally similar after major ZGA.",
+     "evidence": "despite extensive parental asymmetry in DNA methylomes, the chromatin accessibility between the parental genomes is globally comparable after major zygotic genome activation (ZGA).",
+     "note": "The abstract reports accessibility is globally comparable between parental genomes after major ZGA despite methylome asymmetry."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Accessible chromatin in early embryos was largely shaped by transposable elements and overlapped extensively with putative cis-regulatory sequences.",
+     "evidence": "Accessible chromatin in early embryos is widely shaped by transposable elements and overlaps extensively with putative cis-regulatory sequences.",
+     "note": "The abstract reports accessible chromatin is shaped by transposable elements and overlaps cis-regulatory sequences."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Transposable-element-derived accessible sites are the main drivers of the first lineage decision in the embryo.",
+     "evidence": "which helps to identify the key modulators for lineage specification.",
+     "note": "The abstract identifies lineage-specification modulators and TE-shaped accessibility but never links TE sites to the first lineage decision."
+    }
+   ]
+  },
+  {
+   "n": 1663,
+   "id": "pmid:29420474",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "In a background sensitized by reduced baseline expression of the target gene, even single enhancer deletions produced limb abnormalities.",
+     "evidence": "In a genetic background sensitized by reduced baseline expression of the target gene, even single enhancer deletions caused limb abnormalities",
+     "note": "The abstract reports single enhancer deletions caused limb abnormalities when baseline target-gene expression was reduced."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The researchers used genome editing to generate 23 mouse deletion lines and inter-crosses at seven loci essential for limb development.",
+     "evidence": "We used genome editing to create 23 mouse deletion lines and inter-crosses, including both single and combinatorial enhancer deletions at seven distinct loci required for limb development.",
+     "note": "The abstract reports 23 deletion lines and inter-crosses at seven limb-development loci."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Enhancer redundancy also buffers gene expression against environmental stress.",
+     "evidence": "enhancer redundancy is a remarkably widespread feature of mammalian genomes that provides an effective regulatory buffer to prevent deleterious phenotypic consequences upon the loss of individual enhancers.",
+     "note": "The abstract shows redundancy buffers against enhancer loss-of-function, never against environmental stress."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Across three developmental structures, over a thousand cases showed at least five enhancers with redundant activity near the same gene.",
+     "evidence": "uncovered more than one thousand cases in which five or more enhancers with redundant activity patterns were found near the same gene.",
+     "note": "The abstract reports over a thousand cases with five or more redundant enhancers near one gene across three structures."
+    }
+   ]
+  },
+  {
+   "n": 1664,
+   "id": "pmid:31168090",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Adding interactions between heterochromatin and the lamina let the same model reproduce the conventional nuclear organization.",
+     "evidence": "When interactions between heterochromatin and the lamina are added, the same model recreates the conventional nuclear organization.",
+     "note": "The abstract reports that adding heterochromatin-lamina interactions makes the model recreate conventional nuclear organization."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Combining Hi-C of inverted rod nuclei with microscopy and polymer simulations showed heterochromatin-heterochromatin attractions are crucial for compartmentalization.",
+     "evidence": "attractions between heterochromatic regions are crucial for establishing both compartmentalization and the concentric shells",
+     "note": "The abstract reports attractions between heterochromatic regions are crucial for compartmentalization."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The heterochromatin-heterochromatin attractions arise from specific histone-modification reader proteins.",
+     "evidence": "attractions between heterochromatic regions are essential for the phase separation of the active and inactive genome in inverted and conventional nuclei",
+     "note": "The abstract shows heterochromatin attractions matter but never identifies what molecular factors produce them."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Hi-C analyses revealed contacts enriched within the euchromatin and heterochromatin compartments.",
+     "evidence": "Genome-wide chromosome conformation capture (Hi-C) analyses show this segregation as a plaid pattern of contact enrichment within euchromatin and heterochromatin compartments",
+     "note": "The abstract reports Hi-C shows contact enrichment within the euchromatin and heterochromatin compartments."
+    }
+   ]
+  }
+ ]
+}

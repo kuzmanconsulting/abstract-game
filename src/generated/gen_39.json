@@ -1,0 +1,517 @@
+{
+ "batch": "gen_39",
+ "prompt_version": "gen-v4",
+ "items": [
+  {
+   "n": 970,
+   "id": "pmid:41033311",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Across 274 clinical Mtb isolates, virulence gene expression varied more than expected, and that variation was tied to both known and previously unknown regulators.",
+     "evidence": "Across 274 Mtb clinical isolates, we uncovered unexpected diversity in virulence gene expression, which we linked to known and unknown regulators.",
+     "note": "The abstract reports exactly this for its panel of 274 clinical isolates."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Isolates carrying the low-expression variants grow faster in culture than isolates with normal EsxA and EsxB expression.",
+     "evidence": "Surprisingly, we found that many isolates harbor variants associated with decreased expression of EsxA (Esat6) and EsxB (Cfp10), which are virulence effectors, dominant T cell antigens, and immunodiagnostic targets.",
+     "note": "The abstract ties these variants to expression levels and to transmissibility, but never reports in vitro growth rates."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Many isolates harboured variants linked to reduced expression of EsxA and EsxB, two virulence effectors that also serve as immunodiagnostic targets.",
+     "evidence": "we found that many isolates harbor variants associated with decreased expression of EsxA (Esat6) and EsxB (Cfp10), which are virulence effectors, dominant T cell antigens, and immunodiagnostic targets",
+     "note": "The abstract states that many isolates carry such variants and describes these two proteins as immunodiagnostic targets."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "In a set of more than 55,000 isolates, these variants went together with higher transmissibility, most markedly among drug-resistant strains.",
+     "evidence": "Across >55,000 isolates, these variants associate with increased transmissibility, especially in drug-resistant Mtb strains.",
+     "note": "The abstract reports this association and its concentration in drug-resistant strains."
+    }
+   ]
+  },
+  {
+   "n": 971,
+   "id": "pmid:39676654",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The updated release contributes 1055 chimeric breakpoints obtained from public chromosome conformation capture (Hi-C) datasets.",
+     "evidence": "This updated database provides unique information on 1055 chimeric breakpoints derived from public datasets using chromosome conformation capture techniques (the Hi-C datasets).",
+     "note": "The abstract gives this count and its Hi-C source directly."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Chimeric breakpoint data in this release span 934 cell lines, which the resource offers for testing personalized cancer therapies.",
+     "evidence": "chimeric breakpoints across 934 cell lines, positioning ChiTaRS 8.0 as a valuable resource for testing personalized cancer therapies",
+     "note": "Both the cell-line count and the stated use for personalized therapy testing appear in the abstract."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Patient blood and plasma samples were among the sources mined to find previously unreported chimeras, including ones from oral squamous cell carcinoma and glioblastoma.",
+     "evidence": "as well as patient blood and plasma samples, we have identified novel chimeras",
+     "note": "The abstract lists patient blood and plasma among the inputs used to identify novel chimeras in these diseases."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Chimeric transcripts are more abundant in the plasma of glioblastoma patients than in the plasma of healthy donors.",
+     "evidence": "as well as patient blood and plasma samples, we have identified novel chimeras",
+     "note": "The abstract says novel chimeras were found and catalogued, but reports no abundance comparison between patients and healthy donors."
+    }
+   ]
+  },
+  {
+   "n": 972,
+   "id": "pmid:40082608",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Amplification-free direct cDNA sequencing recovered more novel transcripts than PCR-amplified cDNA sequencing.",
+     "evidence": "We describe differences in read length, coverage, throughput and transcript expression, reporting that long-read RNA sequencing more robustly identifies major isoforms.",
+     "note": "The abstract treats long-read sequencing as a group and makes no protocol-by-protocol comparison for novel transcript discovery."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Seven human cell lines were profiled with five different RNA-sequencing protocols, with several spike-in controls included.",
+     "evidence": "we profiled seven human cell lines with five different RNA-sequencing protocols",
+     "note": "These counts and the spike-in controls are stated in the abstract's description of the design."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Major isoforms were identified more robustly by long-read RNA sequencing than by the other protocols profiled.",
+     "evidence": "reporting that long-read RNA sequencing more robustly identifies major isoforms",
+     "note": "This is the comparative result the abstract reports."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The protocols compared differed from one another in read length, coverage, throughput and the transcript expression they reported.",
+     "evidence": "We describe differences in read length, coverage, throughput and transcript expression",
+     "note": "The abstract names these four axes of difference."
+    }
+   ]
+  },
+  {
+   "n": 973,
+   "id": "pmid:34162397",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The absolute concentration of cell-free microbial DNA in plasma was low relative to matched stool and saliva, yet significantly exceeded negative controls.",
+     "evidence": "Compared to matched stool and saliva samples, the absolute concentration of cfmDNA is low but significantly above the levels detected from negative controls.",
+     "note": "The abstract reports both halves of this comparison."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Contaminants from laboratory reagents and the DNA extraction and sequencing steps strongly shaped the microbial community recovered from plasma.",
+     "evidence": "The microbial community of plasma is strongly influenced by laboratory and reagent contaminants introduced during the DNA extraction and sequencing processes.",
+     "note": "The abstract states this influence explicitly."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Levels of cell-free microbial DNA fall in melanoma patients after they start systemic therapy.",
+     "evidence": "We analyse additional plasma samples, highlighting the potential of this framework to identify differences in cfmDNA between healthy and cancer patients.",
+     "note": "The abstract mentions only differences between healthy and cancer groups and reports nothing about changes during treatment."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "After filtering batch-dependent sequence variants and those more prevalent in negative controls, known gut commensals such as Faecalibacterium, Bacteroides and Ruminococcus were detected.",
+     "evidence": "we identify known gut commensal bacteria, such as Faecalibacterium, Bacteroides and Ruminococcus, and also other uncharacterised ASVs",
+     "note": "These genera are the ones the abstract names as detected after its decontamination steps."
+    }
+   ]
+  },
+  {
+   "n": 974,
+   "id": "pmid:39406235",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The dataset covers 189 patient tumours plus 41 matched normal samples, sequenced on the Oxford Nanopore PromethION platform.",
+     "evidence": "comprises a cohort of 189 patient tumors and 41 matched normal samples sequenced using the Oxford Nanopore Technologies PromethION platform",
+     "note": "Both sample counts and the platform are given in the abstract's opening sentence."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Long-read sequencing changed treatment decisions for patients whose short-read analysis had been uninformative.",
+     "evidence": "This dataset demonstrates applications for long-read sequencing in precision medicine and is available as a resource for developing analytical approaches using this technology.",
+     "note": "The abstract speaks of applications in precision medicine in general and reports no clinical decisions or patient outcomes."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Long-range phasing yielded allelically differentially methylated regions and allele-specific expression, with recurrent such regions in RET and CDKN2A.",
+     "evidence": "Long-range phasing facilitates the discovery of allelically differentially methylated regions (aDMRs) and allele-specific expression, including recurrent aDMRs in the cancer genes RET and CDKN2A.",
+     "note": "The abstract names these two genes as carrying recurrent aDMRs."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Where no coding driver mutation was found, promoter methylation of BRCA1 and RAD51C was the probable cause of homologous recombination deficiency.",
+     "evidence": "Promoter methylation in BRCA1 and RAD51C is a likely driver behind homologous recombination deficiency where no coding driver mutation was found.",
+     "note": "This restates the abstract's conclusion about methylation-driven homologous recombination deficiency."
+    }
+   ]
+  },
+  {
+   "n": 975,
+   "id": "pmid:39313617",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Oesophageal epithelioids kept themselves going for a year or more without passaging while staying genomically stable.",
+     "evidence": "Esophageal epithelioids self-maintain without passaging for at least 1 year, maintaining a three-dimensional structure with proliferative basal cells that differentiate into suprabasal cells, which eventually shed and retain genomic stability.",
+     "note": "The abstract states the one-year self-maintenance and the retention of genomic stability in the same sentence."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Live imaging across five months showed that the cultures reproduce cell dynamics observed in vivo.",
+     "evidence": "Live imaging over 5 months showed that epithelioids replicate in vivo cell dynamics.",
+     "note": "The abstract reports this imaging result and its duration."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "A targeted CRISPR-Cas9 screen reproduced the mutant gene selection seen in ageing human oesophagus and uncovered further drivers of clonal expansion.",
+     "evidence": "a targeted CRISPR-Cas9 screen shows that epithelioids recapitulate mutant gene selection in aging human esophagus and identifies additional drivers of clonal expansion",
+     "note": "The abstract reports both the recapitulation and the newly identified drivers."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Mutant clones that expand in epithelioids go on to form invasive tumours when the cultures are kept beyond one year.",
+     "evidence": "Epithelioids support genetic manipulation and enable the study of mutant cell competition and selection in three-dimensional epithelia, and show how anti-cancer treatments modulate competition between transformed and wild-type cells.",
+     "note": "The abstract covers competition between transformed and wild-type cells but says nothing about progression to invasive tumours."
+    }
+   ]
+  },
+  {
+   "n": 976,
+   "id": "pmid:33941929",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "SaferSeqS detected residual disease in post-surgical plasma earlier than imaging did.",
+     "evidence": "We demonstrate that it can evaluate mutations in a single amplicon or simultaneously in multiple amplicons, assess limited quantities of cell-free DNA with high recovery of both strands",
+     "note": "The abstract reports assay performance characteristics only, with no patient follow-up and no comparison against imaging."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The method picks up variants present at frequencies below one in 100,000 DNA template molecules.",
+     "evidence": "detects variants at frequencies below 1 in 100,000 DNA template molecules",
+     "note": "This detection limit is stated outright in the abstract."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Error rates were cut more than a hundredfold relative to existing PCR-based molecular barcoding approaches.",
+     "evidence": "reduce the error rate of existing PCR-based molecular barcoding approaches by >100-fold",
+     "note": "The abstract quantifies the improvement over prior barcoding methods as greater than 100-fold."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The approach works on small amounts of cell-free DNA and recovers both strands of the template molecules at high rates.",
+     "evidence": "assess limited quantities of cell-free DNA with high recovery of both strands",
+     "note": "The abstract lists this among the demonstrated capabilities."
+    }
+   ]
+  },
+  {
+   "n": 977,
+   "id": "pmid:36076083",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The assay resolves six active and repressive histone modifications, together with their ratios and combinatorial patterns, across millions of single nucleosomes.",
+     "evidence": "high-resolution detection of six active and repressive histone modifications and their ratios and combinatorial patterns on millions of individual nucleosomes by single-molecule imaging",
+     "note": "The abstract states the number of modifications and the single-molecule scale."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Plasma from 63 colorectal cancer, 10 pancreatic cancer and 33 healthy donors was classified accurately, including at early disease stages.",
+     "evidence": "EPINUC analysis of a cohort of 63 colorectal cancer, 10 pancreatic cancer and 33 healthy plasma samples detected cancer with high accuracy and sensitivity, even at early stages.",
+     "note": "The cohort composition and the early-stage detection claim are both in the abstract."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The assay separated colorectal from pancreatic cancer more accurately than carcinoembryonic antigen measurement.",
+     "evidence": "EPINUC analysis of a cohort of 63 colorectal cancer, 10 pancreatic cancer and 33 healthy plasma samples detected cancer with high accuracy and sensitivity, even at early stages.",
+     "note": "The abstract reports detection and tissue of origin but makes no comparison with conventional protein tumour markers."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Adding direct single-molecule DNA sequencing to the assay revealed the tissue of origin of colorectal, pancreatic, lung and breast tumours.",
+     "evidence": "combining EPINUC with direct single-molecule DNA sequencing revealed the tissue of origin of colorectal, pancreatic, lung and breast tumors",
+     "note": "The abstract names these four tumour types for the tissue-of-origin result."
+    }
+   ]
+  },
+  {
+   "n": 978,
+   "id": "pmid:34135506",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Testing at cycle 1 day 1 flagged 214 of the evaluable patients, 37%, as ctDNA-positive, and these patients had poor prognosis.",
+     "evidence": "ctDNA testing at the start of therapy (cycle 1 day 1) identified 214 (37%) patients who were positive for ctDNA and who had poor prognosis",
+     "note": "The abstract gives this count, proportion and prognostic finding."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Clearance of ctDNA by week 6 occurred in 18% of patients on atezolizumab against 4% under observation.",
+     "evidence": "The rate of ctDNA clearance at week 6 was higher in the atezolizumab arm (18%) than in the observation arm (4%)",
+     "note": "Both clearance rates are reported in the abstract."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Among ctDNA-negative patients, neither disease-free survival nor overall survival differed between the atezolizumab and observation arms.",
+     "evidence": "No difference in disease-free survival or overall survival between treatment arms was noted for patients who were negative for ctDNA.",
+     "note": "The abstract states this null result for the ctDNA-negative subgroup."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "ctDNA-positive patients carried a higher tumour mutational burden than ctDNA-negative patients.",
+     "evidence": "Transcriptomic analysis of tumours from patients who were positive for ctDNA revealed higher expression levels of cell-cycle and keratin genes.",
+     "note": "The abstract reports transcriptomic differences between these groups and says nothing about mutational burden."
+    }
+   ]
+  },
+  {
+   "n": 979,
+   "id": "pmid:40097200",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Aligning to the complete CHM13-T2T reference improved structural variant detection accuracy over GRCh38, with a marked drop in false-positive calls.",
+     "evidence": "show that the CHM13-T2T improves SV detection accuracy compared to GRCh38 with a notable reduction in false-positive calls",
+     "note": "This is the comparative result reported for the benchmark and patient samples."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "The gain in accuracy from CHM13-T2T was largest for structural variants in centromeric and segmentally duplicated regions.",
+     "evidence": "Our findings in a tumor-normal matched benchmark sample and three patient samples show that the CHM13-T2T improves SV detection accuracy compared to GRCh38 with a notable reduction in false-positive calls, and thus supports improved prioritization.",
+     "note": "The abstract reports an overall accuracy improvement without breaking it down by genomic region."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Across four COLO829 replicates, 346 structural variants, or 1.13%, appeared in only one replicate, while 54 somatic variants were present in all four.",
+     "evidence": "346 SVs (1.13%) were only discoverable in a single replicate. We identify 54 somatic SVs, which appear to be stable as they are consistently present across the four replicates.",
+     "note": "Both counts come from the abstract's assessment of replicate instability."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Reads aligned to CHM13-T2T were lifted over to GRCh38, combining the better alignment with the richer annotation resources available for that reference.",
+     "evidence": "We also overcame the lack of annotation resources for CHM13-T2T by lifting over CHM13-T2T-aligned reads to the GRCh38 genome, therefore combining both improved alignment and advanced annotations.",
+     "note": "The abstract describes exactly this liftover strategy and its purpose."
+    }
+   ]
+  },
+  {
+   "n": 980,
+   "id": "pmid:41203992",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "The A7 element raises mRNA stability whether it is inserted at the 5' or the 3' end of the transcript.",
+     "evidence": "An element named A7 demonstrates particularly robust performance across cell types, delivery methods, modifications and coding sequences, making linear mRNA as stable as circular RNA while achieving higher translation efficiency.",
+     "note": "The abstract lists the contexts in which A7 proved robust but never says where in the transcript the element sits."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "A screen of 196,277 viral sequences yielded eleven elements that strongly increase both mRNA stability and translation.",
+     "evidence": "we screen 196,277 viral sequences and identify eleven elements that strongly enhance mRNA stability and translation",
+     "note": "The abstract gives the number of sequences screened and the number of elements recovered."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The elements work by recruiting TENT4 to lengthen the poly(A) tail, which blocks deadenylation.",
+     "evidence": "Mechanistically, they recruit TENT4 to extend the poly(A) tail, preventing deadenylation.",
+     "note": "This is the mechanism the abstract reports."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "In mouse liver, linear mRNA carrying A7 gave substantially higher protein levels than circular RNA, with expression lasting beyond two weeks.",
+     "evidence": "In mouse liver, A7-containing linear mRNA exhibits substantially higher protein levels than circular RNA, with sustained expression lasting for over 2 weeks.",
+     "note": "The abstract reports this in vivo comparison and its duration."
+    }
+   ]
+  },
+  {
+   "n": 981,
+   "id": "pmid:39614124",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "In a newly generated set of 14,994 non-small cell lung cancer cells from matched primary and metastatic sites, proliferation differed widely between clones.",
+     "evidence": "Applied to a newly generated longitudinal, primary-metastasis-matched dataset of 14,994 non-small cell lung cancer cells, SPRINTER revealed widespread clone proliferation heterogeneity",
+     "note": "The abstract gives this cell count and reports widespread proliferation heterogeneity between clones."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Clones with high proliferation showed greater metastatic seeding potential and shed more circulating tumour DNA.",
+     "evidence": "high-proliferation clones have increased metastatic seeding potential, increased circulating tumor DNA shedding",
+     "note": "Both properties are attributed to high-proliferation clones in the abstract."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Patients whose tumours contained high-proliferation clones had shorter overall survival than patients without them.",
+     "evidence": "We further demonstrated that high-proliferation clones have increased metastatic seeding potential, increased circulating tumor DNA shedding and clone-specific altered replication timing in proliferation- or metastasis-related genes associated with expression changes.",
+     "note": "The abstract links high-proliferation clones to seeding, shedding and replication timing, but reports no patient survival data."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "In 61,914 previously published breast and ovarian cancer cells, high-proliferation clones were enriched for amplifications of proliferation-related genes.",
+     "evidence": "Applied to previously generated datasets of 61,914 breast and ovarian cancer cells, SPRINTER revealed increased single-cell rates of different genomic variants and enrichment of proliferation-related gene amplifications in high-proliferation clones.",
+     "note": "The abstract reports this enrichment in the re-analysed breast and ovarian datasets."
+    }
+   ]
+  },
+  {
+   "n": 982,
+   "id": "pmid:39271293",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "In healthy individuals, the short double-stranded cfDNA fraction showed significant enrichment of 203 transcription factor motifs.",
+     "evidence": "In short double-stranded cfDNA from healthy individuals, we find significant enrichment of 203 transcription factor motifs.",
+     "note": "The abstract gives this motif count for healthy individuals."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "At particular genomic regions the short double-stranded cfDNA signal ran opposite to DNA methylation and in the same direction as H3K4me3 and transcription.",
+     "evidence": "short double-stranded cfDNA signals at specific genomic regions correlate negatively with DNA methylation, positively with H3K4me3 histone modifications and gene transcription",
+     "note": "The abstract states the negative correlation with methylation and the positive ones with H3K4me3 and transcription."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Comparisons yielded 136 differentially enriched loci between pancreatic ductal adenocarcinoma and colorectal carcinoma and 241 between septic and postoperative controls.",
+     "evidence": "When comparing short double-stranded cfDNA from patient samples of pancreatic ductal adenocarcinoma with colorectal carcinoma or septic with postoperative controls, we identify 136 and 241 differentially enriched loci, respectively.",
+     "note": "The abstract pairs these two counts with these two comparisons in that order."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "The short double-stranded cfDNA fragments come mainly from apoptotic immune cells.",
+     "evidence": "This class of cfDNA is enriched at gene promoters and binding sites of transcription factors or structural DNA-binding proteins, so that a genome-wide DNA footprint is directly captured from liquid biopsies.",
+     "note": "The abstract describes where in the genome this fraction is enriched, not which cell types release it."
+    }
+   ]
+  },
+  {
+   "n": 983,
+   "id": "pmid:41513691",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Loss of SET-24 raised H3K4me3 at the transcription start sites of hundreds of genes.",
+     "evidence": "Loss of SET-24 leads to increased H3K4me3 at transcription start sites of hundreds of genes.",
+     "note": "The abstract reports this increase and its scale."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "set-24 mutants lose germline fertility faster when grown at elevated temperature.",
+     "evidence": "Here, we characterize SET-24, a catalytically inactive SET domain protein that localizes to germline nuclei and is essential for germline immortality in Caenorhabditis elegans.",
+     "note": "The abstract states that SET-24 is required for germline immortality but gives no information about growth temperature."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Proteomic, yeast two-hybrid and pull-down assays all showed SET-24 binding the chromatin factor HCF-1.",
+     "evidence": "Proteomic, yeast two-hybrid, and pull-down assays show that SET-24 interacts with HCF-1, a chromatin factor linked to complexes like COMPASS, which deposits H3K4me3.",
+     "note": "The abstract names these three assay types and the interaction partner."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Transcription stayed largely unchanged in the mutants, yet small RNA production was disrupted for roughly 30% of the affected genes.",
+     "evidence": "Although transcription remains largely unchanged, small RNA production is disrupted for about 30% of these genes.",
+     "note": "The abstract contrasts unchanged transcription with disrupted small RNA output for about 30% of the genes."
+    }
+   ]
+  },
+  {
+   "n": 984,
+   "id": "pmid:42348705",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Debranching of lariat RNA prevents the formation of lariat-derived small interfering RNAs of 21 and 22 nucleotides.",
+     "evidence": "we found that debranching of lariat RNA prevents production of 21- and 22-nucleotide lariat-derived small interfering RNAs (lasiRNAs)",
+     "note": "The abstract reports this effect of debranching and the exact sizes of the small RNAs."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Biogenesis of these lariat-derived small interfering RNAs depended on RNA-dependent RNA polymerases and Dicer-like proteins.",
+     "evidence": "LasiRNA biogenesis relied on RNA-dependent RNA polymerases and Dicer-like proteins (DCLs).",
+     "note": "The abstract names both enzyme families as required for lasiRNA biogenesis."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Impairing DBR1 holds back growth more severely in seedlings than in mature plants.",
+     "evidence": "Impairment of DBR1 leads to developmental arrest, yet the mechanism remains unclear.",
+     "note": "The abstract mentions developmental arrest without comparing effects across developmental stages."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "With pathogen infection and DBR1 dysfunction, DCL4 and DCL2 processed many lariat RNAs into siRNAs directed at immunity genes, which disrupted defense responses.",
+     "evidence": "Upon pathogen infection and dysfunction of DBR1, many lariat RNAs were hijacked by DCL4 and DCL2 and processed into siRNAs that particularly target immunity genes, ultimately disrupting plant defense responses.",
+     "note": "The abstract reports this hijacking by DCL4 and DCL2 and its effect on plant defense."
+    }
+   ]
+  }
+ ],
+ "flip_rule": "first-of-any-v3"
+}
