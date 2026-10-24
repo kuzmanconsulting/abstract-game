@@ -410,6 +410,13 @@ class PageAssetsAndSEO(unittest.TestCase):
         for f in ("robots.txt", "sitemap.xml", "manifest.webmanifest", "sw.js", "og.png", "icon-192.png", "icon-512.png"):
             self.assertTrue(os.path.exists(os.path.join(ROOT, "docs", f)), f)
 
+    def test_quiz_mode_present(self):
+        """The Play/Quiz tabs and the timed-quiz engine are in the page (and survive into the artifact)."""
+        with open(os.path.join(ROOT, "docs", "index.html"), encoding="utf-8") as f:
+            idx = f.read()
+        for needle in ('id="modetabs"', "function setMode", "function quizBegin", "const QUIZ_N"):
+            self.assertIn(needle, idx, needle)
+
 
 if __name__ == "__main__":
     unittest.main()

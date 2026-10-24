@@ -277,3 +277,11 @@ python3 -m unittest discover -s tests                                           
 python3 pipeline/build_site.py --repo-url https://github.com/kuzmanconsulting/abstract-game
 python3 -m unittest discover -s tests          # 26 OK
 ```
+
+## 2026-10-24 — D28: timed Quiz mode
+
+```bash
+# docs/index.html: Play/Quiz tabs + timed-quiz engine (10 statements, per-question countdown, time+streak scoring, results screen, shareable card)
+python3 pipeline/build_site.py --repo-url https://github.com/kuzmanconsulting/abstract-game
+python3 -m unittest discover -s tests          # 27 OK
+```

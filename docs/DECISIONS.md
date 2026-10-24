@@ -341,3 +341,20 @@ each field has a distinct accent hue and a monoline SVG glyph — applied to the
 hue when active), the abstract eyebrow tag and year badge, plus verdict glyphs on the three choices and the reveal
 pills, a reduced-motion-safe highlighter-sweep on the evidence, and a hero motif. Colour is an accent; running text
 keeps the ink token for contrast, in both light and dark themes. 26 tests pass.
+
+**D28. Timed Quiz mode (requirement 2026-10-24: add a second tab — a timed quiz built from the existing statements).**
+A second mode beside the untimed "Play", selected by Play/Quiz tabs below the header; both share the same corpus and
+the field/source filters. A quiz round is 10 statements drawn from the in-scope pool (grouped by abstract so each
+abstract is read once, then its statements are answered). Each question runs against a countdown — 26 s for a new
+abstract, 15 s for a further statement on the same one; score is base 100 + 8 per remaining second, multiplied by a
+streak combo (1 + min(streak,5)×0.2, up to ×2); a wrong answer or timeout scores zero and resets the streak. The
+round ends on a results screen (score, correct/10, best streak, personal best kept in browser storage) with Play again
+and a shareable result card. Keys 1·2·3 answer. The feature reuses existing data and components; no new content. 27
+tests pass.
+
+**D28a. Quiz as read-then-recall (requirement 2026-10-24: show the abstract first until the player presses "I'm ready",
+then ask the question with the abstract removed).** The quiz flow became a two-phase, per-question challenge: each
+question is a distinct abstract (one statement each). An untimed READ phase shows the abstract with an "I'm ready —
+show the question" button (Enter/Space too); pressing it removes the abstract and starts the QUESTION phase — statement,
+three choices and the 15 s countdown — so the statement is judged from memory. The field tag and journal stay visible in
+both phases, the abstract does not.
