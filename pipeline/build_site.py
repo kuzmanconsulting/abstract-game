@@ -20,7 +20,7 @@ ITEMS = os.path.join(ROOT, "src", "items.json")
 OUT = os.path.join(ROOT, "docs", "data.json")        # GitHub Pages (branch deploy) serves only / or /docs
 # PubMed's catalogue title for the picker and the citation; the corpus keeps the raw string
 JOURNAL_DISPLAY = {"Science (New York, N.Y.)": "Science"}     # superseded by journals.display() (D23); kept for the header's top_journals
-PUBLIC_ITEM = ("n", "id", "field", "source", "server", "pmid", "doi", "title", "authors", "journal", "year", "date", "url", "doi_url", "sections", "added")
+PUBLIC_ITEM = ("n", "id", "field", "source", "server", "pmid", "doi", "title", "authors", "journal", "year", "date", "url", "doi_url", "sections", "added", "tags")
 PUBLIC_STATEMENT = ("k", "text", "label", "evidence", "note", "agreement")
 
 
@@ -71,6 +71,7 @@ def build(items_path=ITEMS, out_path=OUT, repo_url=None):
     header = {"built": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "n_items": len(items),
               "n_statements": sum(len(it["statements"]) for it in items),
               "by_field": dict(Counter(it["field"] for it in items)), "by_source": dict(Counter(it["source"] for it in items)),
+              "by_tag": dict(Counter(t for it in items for t in (it.get("tags") or []))),
               "years": ("%d–%d" % (years[0], years[-1])) if years else None,
               "merged_utc": doc["header"].get("merged_utc"), "passes": doc["header"].get("passes"), "rule": doc["header"].get("rule"),
               "stats": doc["header"].get("stats"), "repo_url": repo_url, "site_url": site_url_from(repo_url),

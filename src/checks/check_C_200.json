@@ -1,0 +1,791 @@
+{
+ "batch": "check_C_200",
+ "pass": "C",
+ "prompt_version": "check-v1",
+ "items": [
+  {
+   "n": 1845,
+   "id": "pmid:16532396",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "we identified almost 11,000 transposon copies that are differentially present in the human and chimpanzee genomes."
+    },
+    {
+     "j": 2,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "In both species, approximately 34% of the insertions were located within known genes."
+    },
+    {
+     "j": 3,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "These endogenous mutagens can alter genes, promote genomic rearrangements, and may help to drive the speciation of organisms."
+    },
+    {
+     "j": 4,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "humans have supported higher levels of transposition than have chimpanzees during the past several million years"
+    }
+   ]
+  },
+  {
+   "n": 1846,
+   "id": "pmid:16136131",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "dominated by the fixation of neutral and slightly deleterious alleles."
+    },
+    {
+     "j": 2,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "constituting approximately thirty-five million single-nucleotide changes, five million insertion/deletion events"
+    },
+    {
+     "j": 3,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "the patterns of evolution in human and chimpanzee protein-coding genes are highly correlated"
+    },
+    {
+     "j": 4,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "identify signatures of selective sweeps in recent human evolution."
+    }
+   ]
+  },
+  {
+   "n": 1847,
+   "id": "pmid:15173113",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "We find a twofold increase in Alu insertions in humans in comparison to the common chimpanzee"
+    },
+    {
+     "j": 2,
+     "label": "not_addressed",
+     "confidence": 2,
+     "evidence": "which comprise approximately 10% of the human genome.",
+     "flag": "ambiguous",
+     "reason": "The abstract gives the ~10% figure for the human genome and says nothing about the chimpanzee genome fraction, so the claim is unaddressed rather than stated or contradicted."
+    },
+    {
+     "j": 3,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "the level of chimpanzee Alu diversity is approximately 1.7 times higher than that of humans."
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "with the major human subfamilies remaining largely inactive in the chimpanzee lineage."
+    }
+   ]
+  },
+  {
+   "n": 1848,
+   "id": "pmid:17055192",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "resulting in species-specific inserts."
+    },
+    {
+     "j": 2,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "we identified two lineages of recently integrated L1 subfamilies in the chimpanzee genome."
+    },
+    {
+     "j": 3,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "the number of retrotransposition-competent elements appears to be much higher in the human genome than in the chimpanzee genome."
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "the species-specific L1 copy numbers are on the same order in both species (1200-2000 copies)"
+    }
+   ]
+  },
+  {
+   "n": 1849,
+   "id": "pmid:16288912",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "the SVA elements are enriched in G+C-rich regions but have no preferences for inter- or intragenic regions."
+    },
+    {
+     "j": 2,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "We have identified 2762 SVA elements from the human genome draft sequence."
+    },
+    {
+     "j": 3,
+     "label": "not_addressed",
+     "confidence": 2,
+     "evidence": "subfamilies SVA_E and SVA_F are restricted to the human lineage."
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "insertion polymorphism frequencies of 37.5% and 27.6%, respectively."
+    }
+   ]
+  },
+  {
+   "n": 1850,
+   "id": "pmid:19763152",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "Increasingly detailed analyses of human and other primate genomes are revealing the scale and complexity of the past and current contributions of non-LTR retrotransposons to genomic change in the human lineage."
+    },
+    {
+     "j": 2,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "Their ability to move within genomes gives transposable elements an intrinsic propensity to affect genome evolution."
+    },
+    {
+     "j": 3,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "have proliferated over the past 80 million years of primate evolution and now account for approximately one-third of the human genome."
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "from generating insertion mutations and genomic instability to altering gene expression and contributing to genetic innovation."
+    }
+   ]
+  },
+  {
+   "n": 1851,
+   "id": "pmid:29392473",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "most mammalian genomes are dominated by LINE and SINE retrotransposons, more limited LTR retrotransposons, and minimal DNA transposon accumulation."
+    },
+    {
+     "j": 2,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "one third to one half of the genome is derived from TEs."
+    },
+    {
+     "j": 3,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "horizontal transfer of TEs among lineages is rare."
+    },
+    {
+     "j": 4,
+     "label": "not_addressed",
+     "confidence": 2,
+     "evidence": "the genome has evolved several defense mechanisms that act at the epigenetic, transcriptional, and post-transcriptional levels."
+    }
+   ]
+  },
+  {
+   "n": 1852,
+   "id": "pmid:28158585",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "TEs make up 4-60% of assembled vertebrate genomes"
+    },
+    {
+     "j": 2,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "ray-finned fishes and amphibians generally exhibit a higher TE diversity than the more recent radiations of birds and mammals."
+    },
+    {
+     "j": 3,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "the current bottleneck in genome analyses lies in the proper annotation of TEs"
+    },
+    {
+     "j": 4,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "recent advances in long-read sequencing will soon permit access to TE-rich genomic regions that previously resisted assembly including the gigantic, TE-rich genomes of salamanders and lungfishes."
+    }
+   ]
+  },
+  {
+   "n": 1853,
+   "id": "pmid:11237011",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "an international collaboration to produce and make freely available a draft sequence of the human genome."
+    },
+    {
+     "j": 2,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "insights that can be gleaned from the sequence."
+    },
+    {
+     "j": 3,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "We also present an initial analysis of the data"
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "The human genome holds an extraordinary trove of information about human development, physiology, medicine and evolution."
+    }
+   ]
+  },
+  {
+   "n": 1854,
+   "id": "pmid:8576965",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "Using Kimura's distance measure we have calculated the average age of all major Alu subfamilies"
+    },
+    {
+     "j": 2,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "One new minor subfamily is reported and discussed in the context of sequence diversity in major Alu subfamilies."
+    },
+    {
+     "j": 3,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "the origin of the FLA (Free Left Arm) Alu family can be traced back to the very beginning of the mammalian radiation."
+    },
+    {
+     "j": 4,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "AluJ sequences are some 26 Myr older than previously thought."
+    }
+   ]
+  },
+  {
+   "n": 1855,
+   "id": "pmid:42276034",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "Transposable elements (TEs) comprise nearly half of mammalian genomes"
+    },
+    {
+     "j": 2,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "While most TEs have lost the capacity to mobilize, they still retain a DNA form and, when transcribed, an RNA form"
+    },
+    {
+     "j": 3,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "their dysregulation is linked to human disorders including neurodegeneration, cancer, and autoimmune disease."
+    },
+    {
+     "j": 4,
+     "label": "not_addressed",
+     "confidence": 2,
+     "evidence": "TEs also hold translational promise as biomarkers and tools for gene and cell engineering."
+    }
+   ]
+  },
+  {
+   "n": 1856,
+   "id": "pmid:39414821",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "Benchmarking on simulated and real datasets reports high precision and recall rates."
+    },
+    {
+     "j": 2,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "GraffiTE identifies polymorphic mobile elements from genomic assemblies or long-read sequencing data, and genotypes these variants using short or long read sets."
+    },
+    {
+     "j": 3,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "These analyses reveal the landscapes of polymorphic mobile elements and their frequency variations across individuals, strains, and cultivars."
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "we demonstrate the versatility of GraffiTE by analyzing human, Drosophila melanogaster, maize, and Cannabis sativa pangenome data."
+    }
+   ]
+  },
+  {
+   "n": 1857,
+   "id": "pmid:28179571",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "we propose that extensive DNA loss, and not necessarily a dearth of TE activity, has been the primary force maintaining the greater genomic compaction of flying birds and bats relative to their flightless relatives."
+    },
+    {
+     "j": 2,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "quantify the amount of DNA gained by TE expansion and lost by deletion over the last 100 My in the lineages of 10 species of eutherian mammals and 24 species of birds."
+    },
+    {
+     "j": 3,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "DNA loss counteracted this expansion to various extents across lineages."
+    },
+    {
+     "j": 4,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "Genome size in mammals and birds shows remarkably little interspecific variation compared with other taxa."
+    }
+   ]
+  },
+  {
+   "n": 1858,
+   "id": "pmid:37104570",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "Mammals tend to accumulate only a few types of TEs at any given time, with one TE type dominating."
+    },
+    {
+     "j": 2,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "We also found association between dietary habit and the presence of DNA transposon invasions."
+    },
+    {
+     "j": 3,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "We examined transposable element (TE) content of 248 placental mammal genome assemblies"
+    },
+    {
+     "j": 4,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "Young TEs, particularly long interspersed elements, drive increases in genome size, whereas DNA transposons are associated with smaller genomes."
+    }
+   ]
+  },
+  {
+   "n": 1859,
+   "id": "pmid:14500911",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "approximately 2% of the genes in the human/mouse common ancestor have been deleted or partially deleted in the mouse."
+    },
+    {
+     "j": 2,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "344 large (>100-kb) blocks of conserved synteny are evident"
+    },
+    {
+     "j": 3,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "There also appears to be slightly less nontransposon-induced genome duplication in the mouse than in the human lineage."
+    },
+    {
+     "j": 4,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "by comparing the mouse and human genomes."
+    }
+   ]
+  },
+  {
+   "n": 1860,
+   "id": "pmid:28855259",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "MELT outperforms existing MEI discovery tools in terms of speed, scalability, specificity, and sensitivity"
+    },
+    {
+     "j": 2,
+     "label": "not_addressed",
+     "confidence": 2,
+     "evidence": "we also used it to discover MEIs in chimpanzees and ancient (Neanderthal and Denisovan) hominids."
+    },
+    {
+     "j": 3,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "Mobile element insertions (MEIs) represent ∼25% of all structural variants in human genomes."
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "we also used it to discover MEIs in chimpanzees and ancient (Neanderthal and Denisovan) hominids."
+    }
+   ]
+  },
+  {
+   "n": 1861,
+   "id": "pmid:24753423",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "TEMP also performs well on whole-genome human data derived from the 1000 Genomes Project."
+    },
+    {
+     "j": 2,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "TEMP is able to identify both the presence and absence of TE insertions in genomic DNA sequences derived from heterogeneous samples"
+    },
+    {
+     "j": 3,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "We applied TEMP to characterize the TE frequencies in a wild Drosophila melanogaster population"
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "Simulation data indicate that TEMP outperforms other algorithms such as PoPoolationTE, RetroSeq, VariationHunter and GASVPro."
+    }
+   ]
+  },
+  {
+   "n": 1862,
+   "id": "pmid:33511407",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "we confirmed the continuous new insertions of P-elements in dysgenic offspring before they regain piRNAs for P-element repression."
+    },
+    {
+     "j": 2,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "a new method TEMP2 for detecting germline insertions and measuring de novo 'singleton' insertion frequencies in eukaryotic genomes."
+    },
+    {
+     "j": 3,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "we present a new benchmark fly dataset based on PacBio long-read sequencing"
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "TEMP2 achieves high sensitivity and precision for detecting germline insertions when compared with existing tools using both simulated data in fly and experimental data in fly and human."
+    }
+   ]
+  },
+  {
+   "n": 1863,
+   "id": "pmid:27486221",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "sequencing pools of individuals dramatically reduces sequencing costs"
+    },
+    {
+     "j": 2,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "Using computer simulations, we demonstrate that PoPoolationTE2 not only faithfully recovers TE insertion frequencies and positions"
+    },
+    {
+     "j": 3,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "Using computer simulations, we demonstrate that PoPoolationTE2 not only faithfully recovers TE insertion frequencies and positions"
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "PoPoolationTE2, which is specifically tailored for the comparison of TE abundance among pooled population samples or different tissues."
+    }
+   ]
+  },
+  {
+   "n": 1864,
+   "id": "pmid:28637810",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "evaluating six TE detection methods using simulated and real genome data from the model microbial eukaryote, Saccharomyces cerevisiae"
+    },
+    {
+     "j": 2,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "automatically runs and standardizes output for multiple TE detection methods"
+    },
+    {
+     "j": 3,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "split-read methods detect fewer nonreference TE insertions than read-pair methods, but generally have much higher positional accuracy."
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "We demonstrate the utility of McClintock by evaluating six TE detection methods using simulated and real genome data from the model microbial eukaryote, Saccharomyces cerevisiae"
+    }
+   ]
+  },
+  {
+   "n": 1865,
+   "id": "pmid:32917036",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "we developed a computational tool, named TIP_finder, able to detect mobile element insertions in very large genomes, through high-performance computing (HPC) and parallel programming, using the inference of discordant read pair analysis."
+    },
+    {
+     "j": 2,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "A particular type of TE called LTR-retrotransposons comprises almost 8% of the human genome."
+    },
+    {
+     "j": 3,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "TIP_finder accelerates the detection of transposon insertion polymorphisms (TIPs) by up to 55 times in breast cancer datasets and 46 times in cancer-free datasets compared to the fastest available algorithms."
+    },
+    {
+     "j": 4,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "accelerates the detection of transposon insertion polymorphisms (TIPs) by up to 55 times in breast cancer datasets"
+    }
+   ]
+  },
+  {
+   "n": 1866,
+   "id": "pmid:29750242",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "contradicted",
+     "confidence": 2,
+     "evidence": "It works with accurate short reads of ≥100 bp in length, ≥1 kb genomic reads at error rate ∼15%, full-length noisy Direct RNA or cDNA reads",
+     "flag": "ambiguous",
+     "reason": "The abstract calls short reads accurate and long/genomic reads noisy (~15% error), which runs opposite to the claim that ultra-long reads have a lower error rate than short reads."
+    },
+    {
+     "j": 2,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "Minimap2 does split-read alignment, employs concave gap cost for long insertions and deletions"
+    },
+    {
+     "j": 3,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "Minimap2 is a general-purpose alignment program to map DNA or long mRNA sequences against a large reference database."
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "It is 3-4 times as fast as mainstream short-read mappers at comparable accuracy"
+    }
+   ]
+  },
+  {
+   "n": 1867,
+   "id": "pmid:33436076",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "releases since Dfam 3.0 provide auxiliary consensus sequence models, transposable element protein alignments, and a formalized classification system to support the growing diversity of organisms represented in the resource."
+    },
+    {
+     "j": 2,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "The latest release includes 266,740 new de novo generated transposable element families from 336 species contributed by the EBI."
+    },
+    {
+     "j": 3,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "represent an evolution from a proof-of-principle collection of transposable element families in model organisms into a community resource for a broad range of species, and for both curated and uncurated datasets."
+    },
+    {
+     "j": 4,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "Dfam is an open access database of repetitive DNA families, sequence models, and genome annotations."
+    }
+   ]
+  },
+  {
+   "n": 1868,
+   "id": "pmid:32300014",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "We benchmarked RepeatModeler2 on three model species with diverse TE landscapes and high-quality, manually curated TE libraries: Drosophila melanogaster (fruit fly), Danio rerio (zebrafish), and Oryza sativa (rice)."
+    },
+    {
+     "j": 2,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "This program brings substantial improvements over the original version of RepeatModeler"
+    },
+    {
+     "j": 3,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "this version incorporates a module for structural discovery of complete long terminal repeat (LTR) retroelements"
+    },
+    {
+     "j": 4,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "RepeatModeler2 identified approximately 3 times more consensus sequences matching with >95% sequence identity and sequence coverage to the manually curated sequences than the original RepeatModeler."
+    }
+   ]
+  },
+  {
+   "n": 1869,
+   "id": "pmid:26612867",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "was used to produce more than 100 Mb of additional annotation of TE-derived regions in the human genome, with improved speed."
+    },
+    {
+     "j": 2,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "each family is represented by a multiple sequence alignment and a profile hidden Markov model (HMM)."
+    },
+    {
+     "j": 3,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "expansion to 4150 total families including a comprehensive set of known repeat families from four new organisms (mouse, zebrafish, fly and nematode)."
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "The initial release of Dfam, featured in the 2013 NAR Database Issue, contained 1143 families of repetitive elements found in humans"
+    }
+   ]
+  },
+  {
+   "n": 1870,
+   "id": "pmid:30165587",
+   "verdicts": [
+    {
+     "j": 1,
+     "label": "contradicted",
+     "confidence": 3,
+     "evidence": "The pipeline de-fragments closely spaced repeat loci in the genomes, reconstructing longer copies, thus allowing for a better annotation and sequence comparisons."
+    },
+    {
+     "j": 2,
+     "label": "not_addressed",
+     "confidence": 3,
+     "evidence": "The major unresolved drawback, however, is the fragmented nature of many identified repeat loci."
+    },
+    {
+     "j": 3,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "The pipeline also includes a user interface that can run in a web browser allowing for an easy access and exploration of the repeat data."
+    },
+    {
+     "j": 4,
+     "label": "supported",
+     "confidence": 3,
+     "evidence": "we developed a pipeline (RepeatCraft) that integrates results from several repeat element classification tools based on both sequence similarity and structural features."
+    }
+   ]
+  }
+ ]
+}

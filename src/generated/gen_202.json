@@ -1,0 +1,857 @@
+{
+ "batch": "gen_202",
+ "prompt_version": "gen-v5",
+ "items": [
+  {
+   "n": 1897,
+   "id": "pmid:22398555",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The western and eastern gorilla species diverged on average about 1.75 million years ago.",
+     "evidence": "estimating an average sequence divergence time 1.75 million years ago",
+     "note": "The abstract gives 1.75 million years as the average sequence divergence time of the two gorilla species."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Accelerated hearing genes give gorillas sharper hearing than other great apes.",
+     "evidence": "evidence for parallel acceleration, particularly of genes involved in hearing",
+     "note": "The abstract reports parallel acceleration of hearing genes but never compares hearing ability between species."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "In 30% of the genome, the gorilla is genetically closer to human or chimpanzee than those two apes are to each other.",
+     "evidence": "In 30% of the genome, gorilla is closer to human or chimpanzee than the latter are to each other",
+     "note": "The abstract states this closer relationship holds across 30% of the genome."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "About 500 genes underwent accelerated evolution on each of the gorilla, human, and chimpanzee lineages.",
+     "evidence": "approximately 500 genes showing accelerated evolution on each of the gorilla, human and chimpanzee lineages",
+     "note": "The abstract reports roughly 500 accelerated genes per lineage."
+    }
+   ]
+  },
+  {
+   "n": 1898,
+   "id": "pmid:21270892",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The orang-utan genome evolved structurally much more slowly than other great apes, with fewer rearrangements and less segmental duplication.",
+     "evidence": "Structural evolution of the orang-utan genome has proceeded much more slowly than other great apes, evidenced by fewer rearrangements, less segmental duplication",
+     "note": "The abstract attributes slower structural evolution to fewer rearrangements and less duplication."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "After the split, Sumatran effective population size expanded exponentially while Bornean effective size declined.",
+     "evidence": "the Sumatran effective population size (N(e)) expanded exponentially relative to the ancestral N(e) after the split, while Bornean N(e) declined over the same period",
+     "note": "The abstract contrasts the expanding Sumatran and declining Bornean effective population sizes."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Bornean and Sumatran orang-utans were estimated to have split 400,000 years ago, more recent than most previous studies.",
+     "evidence": "Our estimate of Bornean/Sumatran speciation time, 400,000 years ago, is more recent than most previous studies",
+     "note": "The abstract gives 400,000 years and calls it more recent than earlier estimates."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Orang-utans' low energy usage is an adaptation to the scarcity of fruit in their habitat.",
+     "evidence": "Orang-utans have extremely low energy usage for a eutherian mammal, far lower than their hominid relatives",
+     "note": "The abstract reports very low energy usage but offers no dietary or adaptive explanation for it."
+    }
+   ]
+  },
+  {
+   "n": 1899,
+   "id": "pmid:25209798",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Positive selection on TBX5 gave gibbons longer forelimbs than other apes.",
+     "evidence": "signatures of positive selection in genes important for forelimb development (TBX5) and connective tissues (COL1A1)",
+     "note": "The abstract finds selection on forelimb-development genes but makes no claim about relative forelimb length."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Gibbons display an accelerated rate of evolutionary chromosomal rearrangement.",
+     "evidence": "an accelerated rate of evolutionary chromosomal rearrangement",
+     "note": "The abstract directly characterizes gibbons by accelerated chromosomal rearrangement."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The gibbon genera radiated almost instantaneously about 5 million years ago.",
+     "evidence": "a near-instantaneous radiation ∼5 million years ago",
+     "note": "The abstract dates the near-instantaneous gibbon radiation to roughly 5 million years ago."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The gibbon-specific retrotransposon LAVA inserts into chromosome segregation genes and alters transcription by adding a premature termination site.",
+     "evidence": "the propensity for a gibbon-specific retrotransposon (LAVA) to insert into chromosome segregation genes and alter transcription by providing a premature termination site",
+     "note": "The abstract describes LAVA insertions truncating chromosome-segregation gene transcripts."
+    }
+   ]
+  },
+  {
+   "n": 1900,
+   "id": "pmid:17431167",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The rhesus macaque diverged from the ancestors of Homo sapiens roughly 25 million years ago.",
+     "evidence": "diverged from the ancestors of Homo sapiens about 25 million years ago",
+     "note": "The abstract dates the macaque-human divergence to about 25 million years ago."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "An Indian-origin female Macaca mulatta genome was sequenced and compared with chimpanzee and human data.",
+     "evidence": "We determined the genome sequence of an Indian-origin Macaca mulatta female and compared the data with chimpanzees and humans",
+     "note": "The abstract states the sequenced individual and the comparison with chimpanzees and humans."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The macaque genome is more similar to the human genome than the chimpanzee genome is.",
+     "evidence": "compared the data with chimpanzees and humans to reveal the structure of ancestral primate genomes",
+     "note": "The abstract compares the three genomes but never ranks human-macaque against human-chimpanzee similarity."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The comparison identified lineage-specific expansions and contractions of gene families.",
+     "evidence": "identify evidence for positive selection and lineage-specific expansions and contractions of gene families",
+     "note": "The abstract lists lineage-specific gene-family expansions and contractions among its findings."
+    }
+   ]
+  },
+  {
+   "n": 1901,
+   "id": "pmid:25038751",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The female marmoset's 2.26-Gb genome was assembled from Sanger reads at 6x coverage using a whole-genome shotgun strategy.",
+     "evidence": "The 2.26-Gb genome of a female marmoset was assembled using Sanger read data (6×) and a whole-genome shotgun strategy",
+     "note": "The abstract states the genome size, Sanger 6x data, and shotgun approach."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "The marmoset's frequent twinning results from positive selection in its growth-pathway genes.",
+     "evidence": "genetic changes that may influence body size, frequent twinning and chimerism",
+     "note": "The abstract notes changes possibly affecting twinning and separately growth-pathway selection, but links neither to the other."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Positive selection was detected in growth hormone/insulin-like growth factor, respiratory complex I, and immune and protease genes.",
+     "evidence": "We observed positive selection in growth hormone/insulin-like growth factor genes (growth pathways), respiratory complex I genes (metabolic pathways), and genes encoding immunobiological factors and proteases",
+     "note": "The abstract lists these pathways as showing positive selection."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Reproduction-related protein-coding and microRNA genes showed rapid sequence evolution.",
+     "evidence": "both protein-coding and microRNA genes related to reproduction exhibited evidence of rapid sequence evolution",
+     "note": "The abstract reports rapid sequence evolution in reproduction-related genes."
+    }
+   ]
+  },
+  {
+   "n": 1902,
+   "id": "pmid:28387841",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The expansion more than tripled the number of species covered to over 97,000.",
+     "evidence": "more than triples the number of species (>97,000)",
+     "note": "The abstract states the species count more than tripled to over 97,000."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The number of assembled studies more than tripled to over 3,000.",
+     "evidence": "more than triples the number of studies assembled (>3,000)",
+     "note": "The abstract states the study count more than tripled to over 3,000."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Users can obtain the divergence time between two taxa, a timetree for a group of species, and a species' timeline.",
+     "evidence": "scientists can access not only the divergence time between two species or higher taxa, but also a timetree of a group of species and a timeline that traces a species' evolution through time",
+     "note": "The abstract lists these three access options."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "The TimeTree database covers primarily vertebrate species.",
+     "evidence": "more than triples the number of species (>97,000)",
+     "note": "The abstract gives the total species count but states no taxonomic focus."
+    }
+   ]
+  },
+  {
+   "n": 1903,
+   "id": "pmid:39834228",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Silencing the TIR2 genes reduced M. leidyi survival during Vibrio coralliilyticus infection.",
+     "evidence": "In order to verify the function of those domain-containing genes, we exposed M. leidyi to the pathogen Vibrio coralliilyticus",
+     "note": "The abstract reports expression changes after pathogen exposure but no gene-silencing or survival experiment."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The M. leidyi assembly was 247.97 Mb with an N50 of 16.84 Mb and 84.7% completeness.",
+     "evidence": "The genome was 247.97 Mb, with N50 16.84 Mb, and 84.7% completeness",
+     "note": "The abstract reports these assembly metrics."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "M. leidyi possesses a repertoire of 15 TIR2 domain-containing genes.",
+     "evidence": "it does possess a repertoire of 15 TIR2 domain-containing genes",
+     "note": "The abstract states M. leidyi has 15 TIR2 domain-containing genes."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "After exposure to the pathogen, four TIR2 domain-containing genes were upregulated.",
+     "evidence": "including four TIR2 domain-containing genes, all of which were upregulated in response to pathogen exposure",
+     "note": "The abstract reports four TIR2 genes upregulated upon pathogen exposure."
+    }
+   ]
+  },
+  {
+   "n": 1904,
+   "id": "pmid:40736079",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The land slug Deroceras laeve genome was sequenced and assembled to chromosome level.",
+     "evidence": "The genome of the land slug Deroceras laeve was sequenced, assembled up to the chromosome level",
+     "note": "The abstract states chromosome-level sequencing and assembly."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The genomic resource opens opportunities to study the largely unexplored regeneration mechanisms in mollusks.",
+     "evidence": "this genomic resource creates new opportunities for the investigation of the largely unexplored mechanisms of regeneration in mollusks",
+     "note": "The abstract frames the genome as enabling research into mollusk regeneration."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The Deroceras laeve genome is larger than those of other pulmonate mollusks.",
+     "evidence": "Due to the small size of this pulmonate species, ease of laboratory culture, cosmopolitan distribution",
+     "note": "The abstract notes the animal's small body size but says nothing about genome size relative to other mollusks."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The slug is an attractive model for functional genomics and evolutionary biology.",
+     "evidence": "makes this slug an attractive model for functional genomics and evolutionary biology",
+     "note": "The abstract explicitly proposes the slug as such a model."
+    }
+   ]
+  },
+  {
+   "n": 1905,
+   "id": "pmid:36460988",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "At about 5.4 Gb, O. idahoensis has the largest and most repetitive mollusc genome assembled so far.",
+     "evidence": "is the largest (~ 5.4 Gb) and most repetitive mollusc genome assembled to date (85.74% assembly size)",
+     "note": "The abstract calls it the largest and most repetitive mollusc genome to date."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "The LTR expansion lowered O. idahoensis's protein-coding gene count relative to other snails.",
+     "evidence": "Gene family size analysis revealed stress and biomineralization genes have expanded significantly in the O. idahoensis genome",
+     "note": "The abstract reports gene-family expansions but no change in total coding-gene count."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Long terminal repeat transposable elements make up 57.73% of the assembly.",
+     "evidence": "an expansion of long terminal repeat (LTR) transposable elements (57.73% assembly size)",
+     "note": "The abstract attributes 57.73% of the assembly to LTR elements."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Repeat content is more than 2-3 fold higher in limestone-endemic O. idahoensis than in non-calcareous Oreohelix species.",
+     "evidence": "repeat content is more than 2-3 fold higher in limestone endemic O. idahoensis compared to non-calcareous Oreohelix species",
+     "note": "The abstract reports this fold difference between the species."
+    }
+   ]
+  },
+  {
+   "n": 1906,
+   "id": "pmid:35260071",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Annotation predicted 34,728 protein-coding genes, markedly more than other sequenced Venerida, with coding regions only 2% of the assembly.",
+     "evidence": "Genome annotation yielded 34,728 predicted protein-coding genes, markedly more than the few other members of the Venerida sequenced so far, with coding regions representing only 2% of the assembly",
+     "note": "The abstract reports the gene count and compares it with other Venerida."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The chromosome-level clam assembly spans 1.86 Gb across 19 chromosomes with an N50 of 83 Mb.",
+     "evidence": "a 1.86 Gb chromosome-level assembly of the clam genome was generated. The assembly was scaffolded into 19 chromosomes, with an N50 of 83 Mb",
+     "note": "The abstract reports these assembly statistics."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "More than half of the clam genome consists of repeated elements, including transposable elements.",
+     "evidence": "more than half of the genome is composed of repeated elements, including transposable elements",
+     "note": "The abstract states repeats make up over half the genome."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Steamer retrotransposon activity was shown to trigger transmissible leukemia in M. mercenaria.",
+     "evidence": "should be a prime target for the investigation of cancer cell development and transmission among bivalve mollusks",
+     "note": "The abstract proposes Steamer elements as a target for future cancer study, not a demonstrated cause of leukemia."
+    }
+   ]
+  },
+  {
+   "n": 1907,
+   "id": "pmid:22703977",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "TE variants entering through the male germline are longer than those of maternal origin.",
+     "evidence": "the majority of TE variants are introduced though the male germline",
+     "note": "The abstract states male-germline origin but compares nothing about variant length by parental origin."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "A catalogue of 103,798 polymorphic TE variants was built from 13 classical laboratory and 4 wild-derived mouse strains.",
+     "evidence": "whole genome sequencing data from 13 classical laboratory and 4 wild-derived mouse inbred strains, we developed a comprehensive catalogue of 103,798 polymorphic TE variants",
+     "note": "The abstract reports this variant count and strain composition."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Most TE variants enter through the male germline, and only a minority detectably change gene expression.",
+     "evidence": "the majority of TE variants are introduced though the male germline and that only a minority of TE variants exert detectable changes in gene expression",
+     "note": "The abstract contrasts the majority male-germline origin with a minority affecting expression."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Among genes differentially expressed across strains, twice as many TE variants were putative causal variants as expected.",
+     "evidence": "among genes with differential expression across the strains there are twice as many TE variants identified as being putative causal variants as expected",
+     "note": "The abstract reports a twofold enrichment of causal TE variants."
+    }
+   ]
+  },
+  {
+   "n": 1908,
+   "id": "pmid:30275530",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "De novo assemblies of 16 widely used inbred mouse strains revealed extensive strain-specific haplotype variation.",
+     "evidence": "full-length draft de novo genome assemblies for 16 widely used inbred mouse strains and find extensive strain-specific haplotype variation",
+     "note": "The abstract reports 16 strain assemblies and extensive haplotype variation."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The 2,567 most diverse reference regions are enriched for pathogen-defence and immunity genes and for transposable elements.",
+     "evidence": "2,567 regions on the current mouse reference genome exhibiting the greatest sequence diversity. These regions are enriched for genes involved in pathogen defence and immunity and exhibit enrichment of transposable elements",
+     "note": "The abstract reports enrichment of these genes and TEs in the most diverse regions."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The Efcab3-like gene is expressed only in the brain.",
+     "evidence": "Mutant Efcab3-like mice display anomalies in multiple brain regions, suggesting a possible role for this gene in the regulation of brain development",
+     "note": "The abstract links the gene to brain development via mutant phenotype but never states its expression pattern."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The work completed 10 new gene structures and added 62 new coding loci to the reference annotation.",
+     "evidence": "the completion of 10 new gene structures. Also, 62 new coding loci were added to the reference genome annotation",
+     "note": "The abstract reports these additions to the reference genome."
+    }
+   ]
+  },
+  {
+   "n": 1909,
+   "id": "pmid:41330379",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The collection comprises 17 long-read inbred mouse genomes: 12 classical laboratory and 5 wild-derived strains.",
+     "evidence": "We present a collection of 17 high-quality long-read inbred mouse strain genomes with complete annotation (contig N50s of 0.8-33.9 Mbp). This collection includes 12 widely used classical laboratory strains and 5 wild-derived strains",
+     "note": "The abstract states the collection's size and strain composition."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "The MHC region contained the most strain-specific VNTRs of any resolved complex.",
+     "evidence": "including the major histocompatibility complex (MHC), defensin cluster, T cell receptor, and Ly49 complexes",
+     "note": "The abstract lists resolved complexes but never ranks VNTR counts among them."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "A VNTR scan found over 400 coding genes with polymorphisms, with up to 600 repeat copies and units up to 990 nucleotides.",
+     "evidence": "identifying over 400 genes with VNTR polymorphisms with up to 600 repeat copies and repeat units reaching 990 nucleotides",
+     "note": "The abstract reports these VNTR figures."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "In PWK/PhJ, strain-specific annotation improved read mapping by 5.1% over GRCm39, with expression differences in 2.1% of coding genes.",
+     "evidence": "in PWK/PhJ, where we observed a 5.1% improvement in read mapping and expression-level differences in 2.1% of coding genes compared to using GRCm39",
+     "note": "The abstract reports this mapping improvement and expression difference versus GRCm39."
+    }
+   ]
+  },
+  {
+   "n": 1910,
+   "id": "pmid:17594509",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "The dataset identified 3,932,058 transposed elements in the human genome and 3,122,416 in the mouse genome.",
+     "evidence": "all TEs in the human and mouse genomes, identifying 3,932,058 and 3,122,416 TEs, respectively",
+     "note": "The abstract reports these TE counts for the two genomes."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "TE exonization is higher in human than in mouse, with 1,824 versus 506 exons.",
+     "evidence": "a higher level of TE exonization in human than in mouse (1,824 exons compared with 506 exons, respectively)",
+     "note": "The abstract gives these exon counts and the higher human level."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "TE insertion into first and last exons is more frequent in human than mouse, yielding longer exons in human.",
+     "evidence": "insertion of TEs into the first and last exons of a gene is more frequent in human than in mouse, leading to longer exons in human",
+     "note": "The abstract reports more frequent terminal-exon insertion and longer human exons."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Intronic TEs lower the expression of their host genes in both human and mouse.",
+     "evidence": "60% of TEs in both human and mouse are located in intronic sequences, even though introns comprise only 24% of the human genome",
+     "note": "The abstract reports intronic TE location but makes no claim about host-gene expression levels."
+    }
+   ]
+  },
+  {
+   "n": 1911,
+   "id": "pmid:21787833",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Exonization of transposed elements happens more often in primates than in other mammals.",
+     "evidence": "portions of transposed elements frequently serve as modules of exonization",
+     "note": "The abstract says transposed elements often serve as exonization modules but compares no taxa."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Through exonization, genes gain new exons from non-protein-coding, mostly intronic, DNA sequences.",
+     "evidence": "genes acquire new exons from non-protein-coding, primarily intronic, DNA sequences",
+     "note": "The abstract defines exonization this way."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Because the new alternative splice sites are less efficient than the originals, the new variants usually form only a minor fraction of mRNAs.",
+     "evidence": "the alternative splice sites are not as efficient as the originals the new variants usually constitute a minor fraction of mature mRNAs",
+     "note": "The abstract attributes the minor mRNA fraction to less efficient new splice sites."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "The review illustrates exonization with three cases, one being a constitutively spliced mammalian-wide repeat (MIR).",
+     "evidence": "three different exemplary cases: (1) the evolution of a constitutively spliced mammalian-wide repeat (MIR)",
+     "note": "The abstract names three exemplary cases, the first a spliced MIR."
+    }
+   ]
+  },
+  {
+   "n": 1912,
+   "id": "pmid:27240813",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Improved techniques revealed many previously unknown non-canonical splicing events, including cryptic events far from annotated exons.",
+     "evidence": "revealing many previously unknown non-canonical splicing events. This includes cryptic events located far from the currently annotated exons",
+     "note": "The abstract reports these newly revealed cryptic events."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Non-canonical splicing is a major source of newly emerging transcripts in evolution, especially when transposable-element sequences are involved.",
+     "evidence": "These non-canonical splicing events are a major source of newly emerging transcripts during evolution, especially when they involve sequences derived from transposable elements",
+     "note": "The abstract names non-canonical splicing a major evolutionary source of new transcripts."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Non-canonical splicing events outnumber canonical splicing events in the human transcriptome.",
+     "evidence": "revealing many previously unknown non-canonical splicing events",
+     "note": "The abstract notes many such events but never compares their number with canonical splicing."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Precise regulation and quality control of these events minimizes their potential to disrupt gene expression.",
+     "evidence": "under precise regulation and quality control, which minimizes their potential to disrupt gene expression",
+     "note": "The abstract states regulation minimizes disruption from these events."
+    }
+   ]
+  },
+  {
+   "n": 1913,
+   "id": "pmid:12097342",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Of 1,176 alternatively spliced internal exons, 61 matched an Alu, while none of the 4,151 constitutive exons did.",
+     "evidence": "Sixty one alternatively spliced internal exons (5.2%) had a significant BLAST hit to an Alu sequence, but none of the constitutively spliced internal exons had such a hit",
+     "note": "The abstract reports Alu hits only among alternatively spliced exons."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "The alternatively spliced Alu-containing exons are conserved across all primate species.",
+     "evidence": "internal exons that contain an Alu sequence are predominantly, if not exclusively, alternatively spliced",
+     "note": "The abstract characterizes Alu exons as alternatively spliced but reports no cross-species conservation data."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "In 84% of coding-region Alu-containing exons, the Alu caused a frame-shift or premature termination codon.",
+     "evidence": "The vast majority (84%) of the Alu-containing exons that appeared within the coding region of mRNAs caused a frame-shift or a premature termination codon",
+     "note": "The abstract reports this 84% figure."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Alu-containing exons were included in transcripts at lower frequencies than alternatively spliced exons lacking Alu.",
+     "evidence": "Alu-containing exons were included in transcripts at lower frequencies than alternatively spliced exons that do not contain an Alu sequence",
+     "note": "The abstract reports lower inclusion frequency for Alu-containing exons."
+    }
+   ]
+  },
+  {
+   "n": 1914,
+   "id": "pmid:12764196",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Alu elements can enter mature mRNAs through a splicing-mediated process called exonization.",
+     "evidence": "Alu repetitive elements can be inserted into mature messenger RNAs via a splicing-mediated process termed exonization",
+     "note": "The abstract defines Alu exonization this way."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "The study revealed a mechanism governing 3' splice-site selection in exonized Alus during alternative splicing.",
+     "evidence": "We revealed a mechanism that governs 3' splice-site selection in these exons during alternative splicing",
+     "note": "The abstract reports uncovering this 3' splice-site mechanism."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The researchers identified mutations that activated exonization of a silent intronic Alu.",
+     "evidence": "we identified mutations that activated the exonization of a silent intronic Alu",
+     "note": "The abstract reports finding such activating mutations."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "The 3' splice-site mechanism applies equally to non-Alu transposable elements.",
+     "evidence": "To understand the molecular basis and the regulation of the process of turning intronic Alus into new exons, we compiled and analyzed a data set of human exonized Alus",
+     "note": "The abstract analyzed only exonized Alus and does not extend the mechanism to other elements."
+    }
+   ]
+  },
+  {
+   "n": 1915,
+   "id": "pmid:20532223",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Exonization occurs more frequently in human genes than in mouse genes.",
+     "evidence": "SNP density analysis revealed differences between Alu and other transposed elements",
+     "note": "The abstract compares Alu with other TEs by SNP density but never compares exonization frequency between human and mouse."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Exonization of transposed elements is biased toward the beginning of the coding sequence in both human and mouse genes.",
+     "evidence": "exonization of transposed elements is biased towards the beginning of the coding sequence in both human and mouse genes",
+     "note": "The abstract reports this positional bias in both species."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "SNP analysis showed exonization can be population-specific, and that exonizations enhance divergence.",
+     "evidence": "exonization of transposed elements can be population-specific, implying that exonizations may enhance divergence",
+     "note": "The abstract links population-specific exonization to enhanced divergence."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Some primate-specific Alu elements depend on RNA editing for their exonization.",
+     "evidence": "we identified cases of primate-specific Alu elements that depend on RNA editing for their exonization",
+     "note": "The abstract identifies RNA-editing-dependent Alu exonizations."
+    }
+   ]
+  },
+  {
+   "n": 1916,
+   "id": "pmid:21573203",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "TEs near exons are greatly underrepresented relative to random distributions, with zone size differing between TE classes.",
+     "evidence": "TEs near exons are greatly underrepresented compared to random distributions, but the size of these \"underrepresentation zones\" differs between TE classes",
+     "note": "The abstract reports this underrepresentation near exons."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Within these zones, TEs are on average shorter and show stronger orientation biases than elsewhere in introns.",
+     "evidence": "Compared to elsewhere in introns, TEs within these zones are shorter on average and show stronger orientation biases",
+     "note": "The abstract contrasts zone TEs with other intronic TEs."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "Removing the intronic LTR insertions restores normal transcription of Trpc6 and Kcnh6.",
+     "evidence": "clear evidence of transcriptional disruption by LTR element insertions in the Trpc6 and Kcnh6 genes",
+     "note": "The abstract shows disruption from LTR insertions but reports no removal or rescue experiment."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "TEs within 20 bp of exons show a strong bias toward splice-donor sites.",
+     "evidence": "TEs in extremely close proximity (<20 bp) to exons show a strong bias to be near splice-donor sites",
+     "note": "The abstract reports this splice-donor bias for very close TEs."
+    }
+   ]
+  },
+  {
+   "n": 1917,
+   "id": "pmid:30078707",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "LINE-derived sequences recruit dozens of RNA-binding proteins to introns.",
+     "evidence": "recruiting dozens of RNA-binding proteins (RBPs) to introns",
+     "note": "The abstract states LINEs recruit dozens of RBPs."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "Loss of MATR3 increases inclusion of LINE-derived exons across all tissues.",
+     "evidence": "This includes MATR3, which promotes binding of PTBP1 to multivalent binding sites within LINEs",
+     "note": "The abstract describes MATR3's role in RBP binding but reports no MATR3-loss experiment."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Repressive RBPs preferentially bind evolutionarily young LINEs, which lie far from exons.",
+     "evidence": "repressive RBPs preferentially bind to evolutionarily young LINEs, which are located far from exons",
+     "note": "The abstract links repressive RBPs to young, distal LINEs."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Older LINEs lie closer to exons, commonly provide tissue-specific exons, and increasingly bind RBPs that enhance RNA processing.",
+     "evidence": "older LINEs are located closer to exons, are a common source of tissue-specific exons, and increasingly bind to RBPs that enhance RNA processing",
+     "note": "The abstract contrasts older LINEs with young ones in position and RBP binding."
+    }
+   ]
+  },
+  {
+   "n": 1918,
+   "id": "pmid:25801031",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Deep cDNA sequencing of five mammals and one bird identified thousands of species- and lineage-specific exons.",
+     "evidence": "deep cDNA sequencing data from five mammals and one bird, identifying thousands of species- and lineage-specific exons",
+     "note": "The abstract reports these numbers of species and exons."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Most new exons came from unique rather than repetitive intronic sequence.",
+     "evidence": "Most new exons derived from unique rather than repetitive intronic sequence",
+     "note": "The abstract reports that most new exons derive from unique sequence."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "Genes with new internal exons showed increased expression, but only in tissues where the exon was included.",
+     "evidence": "Genes containing new internal exons had increased gene expression, but only in tissues in which the exon was included",
+     "note": "The abstract reports tissue-specific increased expression."
+    },
+    {
+     "k": 4,
+     "label": "not_addressed",
+     "text": "Conserved mammalian exons are expressed at higher levels than species-specific exons.",
+     "evidence": "Unlike exons conserved across mammals, species-specific internal exons were mostly located in 5' UTRs and alternatively spliced",
+     "note": "The abstract contrasts the two exon types by location and splicing, not by expression level."
+    }
+   ]
+  },
+  {
+   "n": 1919,
+   "id": "pmid:15901843",
+   "statements": [
+    {
+     "k": 1,
+     "label": "not_addressed",
+     "text": "Alu exonization occurs most often within the first intron of a gene.",
+     "evidence": "Once integrated, they have the potential to become exapted as functional modules, e.g., as protein-coding domains via alternative splicing",
+     "note": "The abstract describes Alu exonization generally but reports no preference for intron position."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "Most of the more than one million primate-specific Alu elements map to nonfunctional intronic or intergenic regions.",
+     "evidence": "The majority of more than one million primate-specific Alu elements map to nonfunctional parts of introns or intergenic sequences",
+     "note": "The abstract states the majority of Alu elements are nonfunctional in location."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The study investigated 153 human chromosomal loci where Alu elements were conceivably exonized.",
+     "evidence": "we investigate 153 human chromosomal loci where Alu elements were conceivably exonized",
+     "note": "The abstract reports examining 153 such loci."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Some Alu exonizations, once acquired, were subsequently lost in certain lineages.",
+     "evidence": "once acquired, some exonizations were lost again in some lineages",
+     "note": "The abstract reports lineage-specific loss of some exonizations."
+    }
+   ]
+  },
+  {
+   "n": 1920,
+   "id": "pmid:17725822",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "LTR retrotransposons are associated with 1,057 human genes, 5.8% of those examined.",
+     "evidence": "Long Terminal Repeat (LTR) retrotransposons are associated with 1,057 human genes (5.8%)",
+     "note": "The abstract reports this gene association count and percentage."
+    },
+    {
+     "k": 2,
+     "label": "supported",
+     "text": "LTR retrotransposons occurred in protein-coding regions in 256 cases, and 50 exons in 45 genes were made entirely of LTR sequence.",
+     "evidence": "In 256 cases LTR retrotransposons were observed in protein-coding regions, while 50 distinct protein coding exons in 45 genes were comprised exclusively of LTR RetroTransposon Sequence (LRTS)",
+     "note": "The abstract reports these coding-region figures."
+    },
+    {
+     "k": 3,
+     "label": "not_addressed",
+     "text": "The LTR-derived IL22RA2 exon is essential for normal human immune function.",
+     "evidence": "reconstruct the evolutionary history of an alternatively spliced exon of the Interleukin 22 receptor, alpha 2 gene (IL22RA2)",
+     "note": "The abstract traces the exon's evolutionary origin but makes no claim about its functional importance."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "LRTS mainly contributed cis-regulatory sequences to human gene evolution, while direct incorporation into protein-coding regions was less frequent.",
+     "evidence": "LRTS played a significant role in human gene evolution by providing cis-regulatory sequences; direct incorporation of LTR sequences into protein coding regions was observed less frequently",
+     "note": "The abstract contrasts cis-regulatory contribution with less frequent direct coding incorporation."
+    }
+   ]
+  },
+  {
+   "n": 1921,
+   "id": "pmid:11672845",
+   "statements": [
+    {
+     "k": 1,
+     "label": "supported",
+     "text": "Among 13,799 human genes examined, 533 (about 4%) contained transposable elements within protein-coding regions.",
+     "evidence": "we examined 13 799 human genes and found 533 (approximately 4%) cases of TEs within protein-coding regions",
+     "note": "The abstract reports 533 of 13,799 genes with coding-region TEs."
+    },
+    {
+     "k": 2,
+     "label": "not_addressed",
+     "text": "TE integration accelerates species divergence more in primates than in rodents.",
+     "evidence": "Because many TEs are taxon-specific, their integration into coding regions could accelerate species divergence",
+     "note": "The abstract suggests TEs could accelerate divergence but compares no taxa."
+    },
+    {
+     "k": 3,
+     "label": "supported",
+     "text": "The majority of these TEs, about 89.5%, lie within introns and were recruited into coding regions as novel exons.",
+     "evidence": "The majority of these TEs (approximately 89.5%) reside within 'introns' and were recruited into coding regions as novel exons",
+     "note": "The abstract reports that most such TEs originate in introns."
+    },
+    {
+     "k": 4,
+     "label": "supported",
+     "text": "Two mouse genes have coding regions consisting largely of transposable elements.",
+     "evidence": "there were two mouse genes whose coding regions consist largely of TEs",
+     "note": "The abstract cites these two mouse genes."
+    }
+   ]
+  }
+ ],
+ "flip_rule": "first-of-any-v3"
+}

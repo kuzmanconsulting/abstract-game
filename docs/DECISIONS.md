@@ -374,3 +374,19 @@ into the contradicted item: the new batches were set to the corpus-standard `fir
 contradicted-item coverage matches every other field (~10% of abstracts state no direction to flip and so carry no
 contradicted item, as elsewhere). The page gains an eighth field (ember accent, flame glyph). Corpus 1745→1845;
 data.json 1839 items / 7227 statements, years 2000–2026.
+
+**D30. TE-chosen tag — the curated PairCompTE reading list (request 2026-10-26: pull the suggested-reading papers from
+the transposable-elements project into the game under a filter tag).** Added an orthogonal `tags[]` field to items and
+a single tag, `TE-chosen`, carrying the 78 papers of `PairCompTE/docs/paper/READING.md` (the paper's reading list —
+every entry with a DOI, minus the RepeatMasker software URL and the *Mobile DNA III* book, which have no abstract). A
+**tag, not a field**: a paper keeps its own domain field (most are `te`, some `evogen`/`evodevo`) and the curated set
+stays filterable across fields; the page gains a ★ TE-chosen chip orthogonal to the field chips (`filt.tag`), and the
+build carries a `by_tag` header count. 77 of the 78 were new to the corpus and were resolved DOI→record via Europe PMC
+(one, Nekrutenko & Li 2001, had a parenthesised DOI the extractor clipped and was fetched by hand); 1 (Ferraj et al.
+2023, already present in the `te` field as n=949) was tagged in place, not duplicated. Statements were generated with
+gen-v5 (flip rule `first-of-any-v3`) and verified in three independent blind passes (check-v1); all 77 survived the
+merge (74 with four statements, 4 with three). 24 of 77 carry no contradicted item — higher than the corpus's ~10%
+because many tool/assembly/method abstracts state no direction to flip, and forcing one would be artificial. New items
+carry source `te_reading`; provenance (the reading list copy, the DOI list, the resolved candidates, the added n's) is
+in `pipeline/sources/te_reading/`. Corpus 1845→1922; data.json 1916 items / 7531 statements / `by_tag {TE-chosen: 78}`;
+years widened to 1980–2026 (Kimura 1980, Kapitonov 1996). Published as artifact Version 13.

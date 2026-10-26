@@ -126,17 +126,17 @@ checker_label_agreement_pairwise {agree, differ}, kept_by_field, kept_by_source,
 
 ## `docs/data.json` — `pipeline/build_site.py` (served by GitHub Pages from `/docs`)
 
-`header`: `built`, `n_items`, `n_statements`, `by_field`, `by_source`, `years` ("2016–2026"), `merged_utc`,
+`header`: `built`, `n_items`, `n_statements`, `by_field`, `by_source`, `by_tag` (counts per tag, e.g. {"TE-chosen": 78}, D30), `years` ("2016–2026"), `merged_utc`,
 `passes`, `rule`, `stats` (from items.json), `repo_url`, `site_url`, `top_journals`, `leading_journals[]` (display
 names of the leading journals present) and `n_leading` (D23), `sources`, `generation`.
 `items[]`: public fields only — `n`, `id`, `field`, `source`, `server`, `pmid`, `doi`, `title`, `authors`,
-`journal` (display form, `journals.display`), `year`, `date`, `url`, `doi_url`, `sections`, `added`, `tier`
+`journal` (display form, `journals.display`), `year`, `date`, `url`, `doi_url`, `sections`, `added`, `tags[]` (free tags, orthogonal to field, e.g. ["TE-chosen"] — the curated reading lists, D30), `tier`
 (`leading` for a journal article whose journal is in `pipeline/journals.py`, else null — the "Leading journals"
 chip), `statements[]` {`k`, `text`, `label`, `evidence`, `note`, `agreement`, `altered` (kind, only on a
 composed/flipped item)}. Checker details stay out.
 
 ## Browser storage (per viewer, never shared)
 
-`ar.filt` {field, source (all | journal | leading | preprint), journal} · `ar.tally` {n, right, streak, best, byLabel} · `ar.seen` [item ids] ·
+`ar.filt` {field, source (all | journal | leading | preprint), journal, tag (all | TE-chosen, D30)} · `ar.tally` {n, right, streak, best, byLabel} · `ar.seen` [item ids] ·
 `ar.saved` [{id, n, title, authors[], journal, year, doi, url, source, saved_at}] — the reading list (D12) ·
 `ar.prefs` {titleFirst} — show the title before answering (D19; default true since D23).

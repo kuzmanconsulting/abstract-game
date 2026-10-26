@@ -134,7 +134,7 @@ def merge(passes, repair_pass="R"):
                 stats["agreement"][row["agreement"]] -= 1
             continue
         stats["abstracts_kept"] += 1
-        items.append({"n": n, "id": src["id"], "field": src["field"], "source": src["source"], "server": src.get("server"), "text_repaired": bool(src.get("text_repaired")), "added": src.get("added"),
+        items.append({"n": n, "id": src["id"], "field": src["field"], "source": src["source"], "server": src.get("server"), "text_repaired": bool(src.get("text_repaired")), "added": src.get("added"), "tags": src.get("tags"),
                       "pmid": src.get("pmid"), "doi": src.get("doi"), "title": src["title"], "authors": src["authors"],
                       "journal": src["journal"], "year": src["year"], "date": src.get("date"), "url": src.get("url"), "doi_url": src.get("doi_url"),
                       "sections": src["sections"], "generated_by": gen[n]["batch"], "prompt_version": gen[n]["prompt_version"],

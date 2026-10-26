@@ -1,0 +1,158 @@
+{"batch":"check_A_201","pass":"A","prompt_version":"check-v1","items":[
+{"n":1871,"id":"pmid:22800764","verdicts":[
+{"j":1,"label":"supported","confidence":3,"evidence":"A total of 802 TEs were found to be inserted into 690 host TEs from a total number of 11,329 TEs."},
+{"j":2,"label":"contradicted","confidence":3,"evidence":"repetitive sequences are associated with an increased occurrence of nested TEs and sequence biased of TE insertion"},
+{"j":3,"label":"supported","confidence":3,"evidence":"A high proportion of the genes which were associated with nested TEs are predicted to localize to organelles and participate in nucleic acid and protein binding."},
+{"j":4,"label":"not_addressed","confidence":3,"evidence":"nested TEs in eukaryotic genomes may negatively influence genome expansion, and enrich the diversity of gene expression or regulation"}
+]},
+{"n":1872,"id":"pmid:23918438","verdicts":[
+{"j":1,"label":"supported","confidence":3,"evidence":"TEnest computationally annotates and chronologically displays nested transposable elements."},
+{"j":2,"label":"not_addressed","confidence":3,"evidence":"We present TEnest v2.0. TEnest computationally annotates and chronologically displays nested transposable elements."},
+{"j":3,"label":"supported","confidence":3,"evidence":"annotation of repeats is accomplished by iterative sequence alignment"},
+{"j":4,"label":"supported","confidence":3,"evidence":"Utilizing organism-specific TE databases as a reference for reconstructing degraded TEs to their ancestral state"}
+]},
+{"n":1873,"id":"pmid:19329651","verdicts":[
+{"j":1,"label":"not_addressed","confidence":3,"evidence":"in different regions of 4 primates, 70 bacteria, and 8 other genomes"},
+{"j":2,"label":"supported","confidence":3,"evidence":"3.3-times between conserved and less conserved coding sequences"},
+{"j":3,"label":"contradicted","confidence":3,"evidence":"The S/I ratio is also positively correlated with the level of divergence between the genomes compared."},
+{"j":4,"label":"supported","confidence":3,"evidence":"the ratio differs at 5.4-times between coding and noncoding"}
+]},
+{"n":1874,"id":"pmid:16140992","verdicts":[
+{"j":1,"label":"supported","confidence":3,"evidence":"most likely via recombination between 10- to 20-bp target site duplications (TSDs) flanking the retroelement"},
+{"j":2,"label":"contradicted","confidence":3,"evidence":"Insertion of transposable elements is a major cause of genomic expansion in eukaryotes."},
+{"j":3,"label":"supported","confidence":3,"evidence":"19% of genomic deletions of 200-500 bp that have occurred since the human-chimpanzee divergence are associated with flanking identical repeats of at least 10 bp"},
+{"j":4,"label":"not_addressed","confidence":3,"evidence":"we estimate that 0.5%-1% of apparent retroelement \"insertions\" distinguishing humans and chimpanzees actually represent deletions"}
+]},
+{"n":1875,"id":"pmid:35354491","verdicts":[
+{"j":1,"label":"supported","confidence":3,"evidence":"providing a set of detailed computer protocols, software recommendations and video tutorials for those aiming to manually curate TEs"},
+{"j":2,"label":"supported","confidence":3,"evidence":"producing a library of high-quality full-length TE consensus sequences largely remains a process of manual curation"},
+{"j":3,"label":"not_addressed","confidence":3,"evidence":"Many algorithms and pipelines are available to automatically identify putative TE families present in a genome."},
+{"j":4,"label":"supported","confidence":3,"evidence":"Detailed step-by-step protocols, aimed at the complete beginner, are presented in the Supplementary Methods."}
+]},
+{"n":1876,"id":"pmid:17984973","verdicts":[
+{"j":1,"label":"not_addressed","confidence":3,"evidence":"The system and nomenclature is kept up to date at the WikiPoson web site."},
+{"j":2,"label":"supported","confidence":3,"evidence":"we propose the first unified hierarchical classification system, designed on the basis of the transposition mechanism, sequence similarities and structural relationships"},
+{"j":3,"label":"supported","confidence":3,"evidence":"a significant portion of eukaryotic genomes is composed of transposable elements (TEs)"},
+{"j":4,"label":"supported","confidence":3,"evidence":"that can be easily applied by non-experts"}
+]},
+{"n":1877,"id":"pmid:23060610","verdicts":[
+{"j":1,"label":"contradicted","confidence":2,"evidence":"The enhanced CD-HIT is capable of handling very large datasets in much shorter time than previous versions.","flag":"ambiguous","reason":"The abstract's new version is called 'enhanced', so 'diminished' is an incompatible descriptor, though the factual speed claim itself matches."},
+{"j":2,"label":"supported","confidence":3,"evidence":"Our tests demonstrated very good speedup derived from the parallelization for up to ∼24 cores and a quasi-linear speedup for up to ∼8 cores."},
+{"j":3,"label":"not_addressed","confidence":3,"evidence":"The enhanced CD-HIT is capable of handling very large datasets in much shorter time than previous versions."},
+{"j":4,"label":"supported","confidence":3,"evidence":"CD-HIT is a widely used program for clustering biological sequences to reduce sequence redundancy and improve the performance of other sequence analyses."}
+]},
+{"n":1878,"id":"pmid:36648328","verdicts":[
+{"j":1,"label":"not_addressed","confidence":3,"evidence":"It is tens of times faster than existing tools while achieving comparable accuracy on real data."},
+{"j":2,"label":"supported","confidence":3,"evidence":"all of them were developed over 10 years ago and did not incorporate the latest advances in alignment algorithms"},
+{"j":3,"label":"supported","confidence":3,"evidence":"we describe miniprot, a new aligner for mapping protein sequences to a complete genome"},
+{"j":4,"label":"contradicted","confidence":3,"evidence":"It is tens of times faster than existing tools while achieving comparable accuracy on real data."}
+]},
+{"n":1879,"id":"pmid:7463489","verdicts":[
+{"j":1,"label":"supported","confidence":3,"evidence":"The evolutionary rate per year is then given by k = K/(2T), where T is the time since the divergence of the two sequences."},
+{"j":2,"label":"supported","confidence":3,"evidence":"both are purines or both pyrimidines, the difference is called type I (or \"transition\" type)"},
+{"j":3,"label":"contradicted","confidence":3,"evidence":"synonymous substitutions occur at much higher rates than amino acid-altering substitutions in evolution"},
+{"j":4,"label":"not_addressed","confidence":3,"evidence":"Some examples were worked out using reported globin sequences"}
+]},
+{"n":1880,"id":"pmid:26268193","verdicts":[
+{"j":1,"label":"contradicted","confidence":3,"evidence":"many of which showed elevated expression levels in such specialized structures as the skin, the suckers and the nervous system"},
+{"j":2,"label":"supported","confidence":3,"evidence":"massive expansions in two gene families previously thought to be uniquely enlarged in vertebrates: the protocadherins, which regulate neuronal development, and the C2H2 superfamily of zinc-finger transcription factors"},
+{"j":3,"label":"supported","confidence":3,"evidence":"We found no evidence for hypothesized whole-genome duplications in the octopus lineage."},
+{"j":4,"label":"not_addressed","confidence":3,"evidence":"other striking morphological innovations including camera-like eyes"}
+]},
+{"n":1881,"id":"pmid:35508532","verdicts":[
+{"j":1,"label":"supported","confidence":3,"evidence":"extensive A-to-I mRNA editing, displays two fundamentally distinct patterns: one exclusive to the nervous system and concentrated in genic sequences, the other widespread and directed toward repetitive elements"},
+{"j":2,"label":"not_addressed","confidence":2,"evidence":"The genomes of the soft-bodied (coleoid) cephalopods are highly rearranged relative to other extant molluscs"},
+{"j":3,"label":"supported","confidence":3,"evidence":"The genomes of the soft-bodied (coleoid) cephalopods are highly rearranged relative to other extant molluscs"},
+{"j":4,"label":"supported","confidence":3,"evidence":"The coleoid genomes feature multi-megabase, tandem arrays of genes associated with brain development and cephalopod-specific innovations."}
+]},
+{"n":1882,"id":"pmid:35581640","verdicts":[
+{"j":1,"label":"not_addressed","confidence":3,"evidence":"show evidence suggesting that they might be transcribed and determine germline and somatic polymorphisms especially in the brain"},
+{"j":2,"label":"supported","confidence":3,"evidence":"The neural transcriptome of the octopus shows the transcription of thousands of putative lncRNAs and of a full-length LINE element belonging to the RTE class."},
+{"j":3,"label":"contradicted","confidence":3,"evidence":"The sequencing of the genome of the Octopus bimaculoides revealed a striking expansion of TEs"},
+{"j":4,"label":"supported","confidence":3,"evidence":"we report the identification of LINE elements competent for retrotransposition in Octopus vulgaris and Octopus bimaculoides"}
+]},
+{"n":1883,"id":"pmid:42243990","verdicts":[
+{"j":1,"label":"contradicted","confidence":3,"evidence":"∼66% of the genome are repeats, in contrast to previous estimates of 43% to 50% in closely related octopus species"},
+{"j":2,"label":"not_addressed","confidence":3,"evidence":"our re-annotation revealed four such expansions at 18, 25, 33, and 56 MYA"},
+{"j":3,"label":"supported","confidence":3,"evidence":"We further identified a landscape of TE hot- and cold spots."},
+{"j":4,"label":"supported","confidence":3,"evidence":"Whereas previous studies of TE expansion in Octopus bimaculoides identified two bursts of activity, 25 and 56 MYA, our re-annotation revealed four such expansions at 18, 25, 33, and 56 MYA"}
+]},
+{"n":1884,"id":"pmid:28039163","verdicts":[
+{"j":1,"label":"supported","confidence":3,"evidence":"LAST-TRAIN improves sequence alignment accuracy by inferring substitution and gap scores that fit the frequencies of substitutions, insertions, and deletions in a given dataset."},
+{"j":2,"label":"supported","confidence":3,"evidence":"we show that it reduces reference bias for Oxford Nanopore reads"},
+{"j":3,"label":"not_addressed","confidence":3,"evidence":"LAST-TRAIN improves sequence alignment accuracy by inferring substitution and gap scores"},
+{"j":4,"label":"supported","confidence":3,"evidence":"We have applied it to mapping DNA reads from IonTorrent and PacBio RS"}
+]},
+{"n":1885,"id":"pmid:36781728","verdicts":[
+{"j":1,"label":"supported","confidence":3,"evidence":"This is also useful for less-studied species that lack reference genomes, so the DNA reads are compared to a different species' genome."},
+{"j":2,"label":"not_addressed","confidence":3,"evidence":"They can filter out numerous rearrangements shared by controls, e.g., healthy humans versus a patient, to focus on rearrangements unique to the patient."},
+{"j":3,"label":"supported","confidence":3,"evidence":"each kind of base match and mismatch. These probabilities are then used to find the most likely sequence relationships/alignments, which is especially useful for DNA with unusual rates, such as DNA from Plasmodium falciparum (malaria) with ∼80% a+t"},
+{"j":4,"label":"supported","confidence":3,"evidence":"The LAST and dnarrange software packages can resolve complex relationships between DNA sequences and characterize changes such as gene conversion, processed pseudogene insertion, and chromosome shattering."}
+]},
+{"n":1886,"id":"pmid:12466850","verdicts":[
+{"j":1,"label":"supported","confidence":3,"evidence":"the conservation of large-scale synteny across most of the genomes"},
+{"j":2,"label":"contradicted","confidence":3,"evidence":"the much lower extent of sequence orthology covering less than half of the genomes"},
+{"j":3,"label":"not_addressed","confidence":3,"evidence":"the number of protein-coding genes"},
+{"j":4,"label":"supported","confidence":3,"evidence":"we report the results of an international collaboration to produce a high-quality draft sequence of the mouse genome"}
+]},
+{"n":1887,"id":"pmid:18073381","verdicts":[
+{"j":1,"label":"supported","confidence":3,"evidence":"Marginalized Posterior Decoding (MPD), which explicitly accounts for uncertainties, is less biased and more accurate than other algorithms we consider, and reduces the proportion of misaligned bases by a third compared with the best existing algorithm"},
+{"j":2,"label":"supported","confidence":3,"evidence":"we identify three types of alignment error, each leading to systematic biases in all algorithms considered"},
+{"j":3,"label":"not_addressed","confidence":3,"evidence":"the first nonheuristic algorithm for DNA sequence alignment to show robust improvements over the classic Needleman-Wunsch algorithm"},
+{"j":4,"label":"contradicted","confidence":3,"evidence":"We find that >15% of aligned bases are incorrect in existing whole-genome alignments"}
+]},
+{"n":1888,"id":"pmid:15574820","verdicts":[
+{"j":1,"label":"not_addressed","confidence":3,"evidence":"Detailed examination suggests the reconstruction is accurate"},
+{"j":2,"label":"supported","confidence":3,"evidence":"Using actual genomic sequences from 19 extant mammals, we reconstruct 1.1 Mb of ancient genome sequence around the CFTR locus."},
+{"j":3,"label":"supported","confidence":3,"evidence":"estimates are made of the amount of DNA turnover due to insertion, deletion, and substitution in the different placental mammalian lineages since the common eutherian ancestor, showing considerable variation between lineages"},
+{"j":4,"label":"supported","confidence":3,"evidence":"we can expect to get 98% of the bases correct in reconstructing megabase-scale euchromatic regions of an eutherian ancestral genome from the genomes of approximately 20 optimally chosen modern mammals"}
+]},
+{"n":1889,"id":"pmid:18849525","verdicts":[
+{"j":1,"label":"supported","confidence":3,"evidence":"We confidently find 31 cases in which the ancestral sequence had a more complete sequence than any of the extant sequences."},
+{"j":2,"label":"contradicted","confidence":3,"evidence":"Ortheus is also more scaleable than previous methods while being fast, stable, and open source."},
+{"j":3,"label":"supported","confidence":3,"evidence":"using the reconstructions to predict extant sequence bases, we demonstrate significant improvements over using closest extant neighbor sequences"},
+{"j":4,"label":"not_addressed","confidence":3,"evidence":"Large-scale simulations show that Ortheus performs close to optimally on a deep mammalian phylogeny."}
+]},
+{"n":1890,"id":"pmid:33177663","verdicts":[
+{"j":1,"label":"not_addressed","confidence":2,"evidence":"Progressive Cactus, which enables the reference-free alignment of tens to thousands of large vertebrate genomes while maintaining high alignment quality"},
+{"j":2,"label":"supported","confidence":3,"evidence":"We describe results from an alignment of more than 600 amniote genomes, which is to our knowledge the largest multiple vertebrate genome alignment created so far."},
+{"j":3,"label":"supported","confidence":3,"evidence":"Progressive Cactus, which enables the reference-free alignment of tens to thousands of large vertebrate genomes while maintaining high alignment quality"},
+{"j":4,"label":"contradicted","confidence":3,"evidence":"the number of vertebrate genome assemblies currently in the NCBI (National Center for Biotechnology Information) database 4 increased by more than 50% to 1,485 assemblies in the year from July 2018 to July 2019"}
+]},
+{"n":1891,"id":"pmid:26950095","verdicts":[
+{"j":1,"label":"supported","confidence":3,"evidence":"Numerous conserved noncoding elements (CNEs; often cis regulatory) undetectable in direct human-teleost comparisons become apparent using gar"},
+{"j":2,"label":"supported","confidence":3,"evidence":"the sums of expression domains and expression levels for duplicated teleost genes often approximate the patterns and levels of expression for gar genes, consistent with subfunctionalization"},
+{"j":3,"label":"contradicted","confidence":3,"evidence":"The slowly evolving gar genome has conserved in content and size many entire chromosomes from bony vertebrate ancestors."},
+{"j":4,"label":"not_addressed","confidence":3,"evidence":"To connect human biology to fish biomedical models, we sequenced the genome of spotted gar (Lepisosteus oculatus)"}
+]},
+{"n":1892,"id":"pmid:30445649","verdicts":[
+{"j":1,"label":"supported","confidence":3,"evidence":"an overall frequency of homoplasious Alu insertions of only 0.01% (for human-chimpanzee-rhesus macaque) and 0.02-0.04% (for human-bushbaby-lemurs)"},
+{"j":2,"label":"supported","confidence":3,"evidence":"we identified and manually verified nine cases of precise parallel Alu insertions of apparently identical elements at orthologous positions in two ape lineages and twelve incidences of precise deletions of previously established SINEs"},
+{"j":3,"label":"not_addressed","confidence":3,"evidence":"we screened millions of primate transposed Alu SINE elements for incidences of homoplasious precise insertions and deletions"},
+{"j":4,"label":"supported","confidence":3,"evidence":"presence/absence patterns of Alu retrotransposons and, presumably, all LINE1-mobilized elements represent indeed the virtually homoplasy-free markers they are considered to be"}
+]},
+{"n":1893,"id":"pmid:28298429","verdicts":[
+{"j":1,"label":"supported","confidence":3,"evidence":"All possible evolutionary scenarios received considerable retrotransposon support, leaving us with a network of affiliations."},
+{"j":2,"label":"not_addressed","confidence":3,"evidence":"extracted among 162,000 preselected cases 102 virtually homoplasy-free, phylogenetically informative retroelements"},
+{"j":3,"label":"supported","confidence":3,"evidence":"the Cetartiodactyla-Carnivora relationship as well as the basal position of Chiroptera and an ancestral laurasiatherian hybridization process did exhibit some very clear, distinct signals"},
+{"j":4,"label":"supported","confidence":3,"evidence":"extracted among 162,000 preselected cases 102 virtually homoplasy-free, phylogenetically informative retroelements"}
+]},
+{"n":1894,"id":"pmid:11018149","verdicts":[
+{"j":1,"label":"supported","confidence":3,"evidence":"their consistency supported an irreversible pattern of SINE retroposition"},
+{"j":2,"label":"supported","confidence":3,"evidence":"comparing the SINE insertion-derived topology and the phylogenetic tree based on seven independent loci of five taxa in the order Cetartiodactyla (Cetacea + Artiodactyla)"},
+{"j":3,"label":"not_addressed","confidence":3,"evidence":"our analyses of the flanking sequences provided estimates of divergence times among cetartiodactyl lineages unavailable from SINE insertion analysis alone"},
+{"j":4,"label":"supported","confidence":3,"evidence":"Sequence simulations suggest that this rate heterogeneity may be an artifact resulting from the inaccuracies of the substitution model used."}
+]},
+{"n":1895,"id":"pmid:10474901","verdicts":[
+{"j":1,"label":"not_addressed","confidence":3,"evidence":"a huge superfamily of tRNA(Glu)-related families of SINEs that are now found in the genomes of artiodactyls and cetaceans"},
+{"j":2,"label":"supported","confidence":3,"evidence":"In the Ruminantia lineage, the Bov-tA SINE was generated by recombination between the CHR-2 SINE and Bov-A."},
+{"j":3,"label":"supported","confidence":3,"evidence":"the CHRS family of SINEs was newly created from tRNA(Glu) in a common ancestor of the lineages of the Suina (pigs and peccaries), Ruminantia (cows and deer), and Cetacea (whales and dolphins)"},
+{"j":4,"label":"supported","confidence":3,"evidence":"The distribution of a particular family of SINEs among species of artiodactyls and cetaceans confirmed the most recent conclusion for paraphyly of the order Artiodactyla."}
+]},
+{"n":1896,"id":"pmid:15057822","verdicts":[
+{"j":1,"label":"contradicted","confidence":3,"evidence":"lineage-specific and lineage-independent evolutionary events such as expansion of gene families, orthology relations and protein evolution"},
+{"j":2,"label":"supported","confidence":3,"evidence":"The sequence represents a high-quality 'draft' covering over 90% of the genome. The BN rat sequence is the third complete mammalian genome to be deciphered"},
+{"j":3,"label":"supported","confidence":3,"evidence":"three-way comparisons with the human and mouse genomes resolve details of mammalian evolution"},
+{"j":4,"label":"not_addressed","confidence":3,"evidence":"three-way comparisons with the human and mouse genomes resolve details of mammalian evolution"}
+]}
+]}

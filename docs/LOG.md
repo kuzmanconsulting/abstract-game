@@ -305,3 +305,20 @@ python3 pipeline/merge_checks.py --passes A B C   # 1839 items / 7227 statements
 python3 pipeline/build_site.py --repo-url https://github.com/kuzmanconsulting/abstract-game   # data.json 1839 items, years 2000-2026
 python3 -m unittest discover -s tests             # 29 OK
 ```
+
+## D30 — TE-chosen tag: the curated PairCompTE reading list (2026-10-26)
+
+```
+# source: /Users/majakuzman/work/PairCompTE/docs/paper/READING.md -> pipeline/sources/te_reading/READING_2026-10-26.md
+# extract 78 DOIs; resolve DOI->record + abstract via Europe PMC (resultType=core); 1 parenthesised DOI (Nekrutenko 2001) fetched by hand
+#   -> pipeline/sources/te_reading/{dois.txt, te_candidates.json}
+# dedupe vs corpus: 1 already present (n=949, te) tagged in place; 77 new appended as field=te, source=te_reading, tags=["TE-chosen"], n 1845..1921
+python3 pipeline/make_batches.py gen --start 1845 --first-batch 200 --size 26    # gen_200..gen_202 (77 items)
+# 3 generator agents (gen-v5, Opus 4.8 xhigh); then stamp flip_rule=first-of-any-v3 on gen_200..202 (24/77 carry no contradicted item)
+python3 pipeline/make_batches.py check --passes A B C --seed 7                    # +9 check batches (check-v1, 3 blind passes)
+# 9 checker agents (Opus 4.8 xhigh), one per (pass,batch)
+python3 pipeline/merge_checks.py --passes A B C   # items.json 1916 (all 77 kept: 74x4 + 4x3 statements); tags carried (merge_checks.py)
+python3 pipeline/build_site.py --repo-url https://github.com/kuzmanconsulting/abstract-game   # data.json 1916 items / 7531 statements / by_tag {TE-chosen:78}; years 1980-2026
+python3 -m unittest discover -s tests             # expect OK
+# republished artifact Version 13 (claude.ai) — page carries the ★ TE-chosen filter (filt.tag), build carries by_tag
+```

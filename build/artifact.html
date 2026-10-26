@@ -267,7 +267,7 @@ const LABEL = {supported:"Supported", contradicted:"Contradicted", not_addressed
 const LABEL_LONG = {supported:"the abstract states this or it follows directly", contradicted:"the abstract states something incompatible with this", not_addressed:"the abstract neither says nor rules this out"};
 const KEYS = ["supported","contradicted","not_addressed"];
 let DATA=null, items=[], cur=null, answers={}, revealed=false;
-let filt = {field:"all", source:"all", journal:"all"};
+let filt = {field:"all", source:"all", journal:"all", tag:"all"};
 let mode = "play"; let quiz = null, quizTimer = null;   // "play" (untimed) | "quiz" (timed round)
 let prefs = {titleFirst:true};   // the title is shown above the abstract unless turned off in About (D23, 21:24)
 let tally = {n:0, right:0, streak:0, best:0, byLabel:{supported:[0,0],contradicted:[0,0],not_addressed:[0,0]}};
@@ -280,7 +280,7 @@ let toastT=null; function toast(m){ const t=$("toast"); t.textContent=m; t.class
 function journalOf(it){ return it.journal || it.server || "—"; }
 // source filter: all | journal | leading (journal articles from the curated leading-journal list, data.json tier, D23) | preprint
 function srcOk(it){ return filt.source==="all" || (filt.source==="leading" ? it.tier==="leading" : it.source===filt.source); }
-function pool(){ return items.filter(it => (filt.field==="all"||it.field===filt.field) && srcOk(it) && (filt.journal==="all"||journalOf(it)===filt.journal)); }
+function pool(){ return items.filter(it => (filt.field==="all"||it.field===filt.field) && srcOk(it) && (filt.journal==="all"||journalOf(it)===filt.journal) && (filt.tag==="all"||(it.tags&&it.tags.includes(filt.tag)))); }
 function pick(){
   const p = pool(); if(!p.length) return null;
   const fresh = p.filter(it => !seen.has(it.id));
@@ -302,9 +302,20 @@ function renderFilters(){
   f.appendChild(mk("source","all","Journals + preprints")); f.appendChild(mk("source","journal","Journals"));
   const lead = mk("source","leading","Leading journals"); lead.title = "Journal articles from the curated list of leading journals (see About)"; f.appendChild(lead);
   f.appendChild(mk("source","preprint","Preprints"));
+  // D30: orthogonal "TE-chosen" tag — the curated PairCompTE reading list, filterable across any field
+  const byTag = (DATA && DATA.header && DATA.header.by_tag) || {};
+  if(byTag["TE-chosen"] || items.some(it=>it.tags && it.tags.includes("TE-chosen"))){
+    f.appendChild(el("span","sep"));
+    const on = filt.tag==="TE-chosen";
+    const tb=el("button","chip","★ TE-chosen"); tb.type="button"; tb.id="tagTEchosen";
+    tb.setAttribute("aria-pressed",String(on));
+    tb.title="Curated transposable-element reading list (PairCompTE)";
+    tb.onclick=()=>{ filt.tag = on ? "all" : "TE-chosen"; store.set("ar.filt",filt); renderFilters(); if(mode==="play") next(); else if(!quiz || quiz.done) quizStartScreen(); };
+    f.appendChild(tb);
+  }
   // journal / server picker: every journal in the current field+source pool, with its count, most frequent first
   const counts = {};
-  items.filter(it => (filt.field==="all"||it.field===filt.field) && srcOk(it)).forEach(it => { const j=journalOf(it); counts[j]=(counts[j]||0)+1; });
+  items.filter(it => (filt.field==="all"||it.field===filt.field) && srcOk(it) && (filt.tag==="all"||(it.tags&&it.tags.includes(filt.tag)))).forEach(it => { const j=journalOf(it); counts[j]=(counts[j]||0)+1; });
   const names = Object.keys(counts).sort((a,b)=> counts[b]-counts[a] || a.localeCompare(b));
   if(filt.journal!=="all" && !counts[filt.journal]) filt.journal="all";
   const sel = el("select","jsel"); sel.id="journal"; sel.setAttribute("aria-label","Journal or preprint server");
@@ -667,7 +678,7 @@ document.addEventListener("keydown", e => {
 });
 
 function start(){
-  const savedF = store.get("ar.filt"); if(savedF && savedF.field) filt = Object.assign({field:"all",source:"all",journal:"all"}, savedF);
+  const savedF = store.get("ar.filt"); if(savedF && savedF.field) filt = Object.assign({field:"all",source:"all",journal:"all",tag:"all"}, savedF);
   const savedP = store.get("ar.prefs"); if(savedP && typeof savedP.titleFirst==="boolean") prefs = Object.assign({titleFirst:true}, savedP);
   const savedT = store.get("ar.tally"); if(savedT && typeof savedT.n==="number") tally = savedT;
   const savedS = store.get("ar.seen"); if(Array.isArray(savedS)) seen = new Set(savedS);

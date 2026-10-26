@@ -443,5 +443,31 @@ class PageAssetsAndSEO(unittest.TestCase):
             self.assertIn(needle, idx, needle)
 
 
+class TagsPassThrough(unittest.TestCase):
+    """D30: items carry an orthogonal tags[] (e.g. TE-chosen) that survives merge -> build into the public data."""
+
+    def test_public_item_keeps_tags(self):
+        self.assertIn("tags", build_site.PUBLIC_ITEM)
+        item = {"n": 1, "id": "pmid:1", "field": "te", "source": "te_reading", "server": None, "pmid": "1", "doi": "d",
+                "title": "T", "authors": [], "journal": "Journal of Tests", "year": 2020, "date": "2020-01-01",
+                "url": "u", "doi_url": "du", "sections": [{"label": None, "text": "a"}], "added": "x", "tags": ["TE-chosen"],
+                "statements": [{"k": 1, "text": "t", "label": "supported", "evidence": "a", "note": "n", "agreement": "unanimous"}]}
+        pub = build_site.public(item)
+        self.assertEqual(pub["tags"], ["TE-chosen"])
+
+    def test_built_data_json_tag_counts_consistent(self):
+        path = os.path.join(ROOT, "docs", "data.json")
+        if not os.path.exists(path):
+            self.skipTest("no built docs/data.json")
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+        counted = {}
+        for it in data["items"]:
+            for t in (it.get("tags") or []):
+                counted[t] = counted.get(t, 0) + 1
+        self.assertEqual(data["header"].get("by_tag") or {}, counted, "header by_tag must match item tag counts")
+        self.assertEqual(counted.get("TE-chosen"), 78, "the curated PairCompTE reading list is present (D30)")
+
+
 if __name__ == "__main__":
     unittest.main()
